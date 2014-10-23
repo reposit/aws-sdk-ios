@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/AWSCognitoIdentity.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSCognitoIdentity</TokenIdentifier>
+			<Abstract type="html">&lt;fullname&gt;Amazon Cognito&lt;/fullname&gt;&lt;p&gt;Amazon Cognito is a web service that delivers scoped temporary credentials to mobile devices andother untrusted environments. Amazon Cognito uniquely identifies a device and supplies the userwith a consistent identity over the lifetime of an application.&lt;/p&gt;&lt;p&gt;Using Amazon Cognito, you can enable authentication with one or more third-party identityproviders (Facebook, Google, or Login with Amazon), and you can also choose to supportunauthenticated access from your app. Cognito delivers a unique identifier for each userand acts as an OpenID token provider trusted by AWS Security Token Service (STS) to accesstemporary, limited-privilege AWS credentials.&lt;/p&gt;&lt;p&gt;To provide end-user credentials, first make an unsigned call to &lt;a&gt;GetId&lt;/a&gt;. If the enduser is authenticated with one of the supported identity providers, set the &lt;code&gt;Logins&lt;/code&gt; map with the identity provider token. &lt;code&gt;GetId&lt;/code&gt; returns aunique identifier for the user.&lt;/p&gt;&lt;p&gt;Next, make an unsigned call to &lt;a&gt;GetOpenIdToken&lt;/a&gt;, which returns the OpenID tokennecessary to call STS and retrieve AWS credentials. This call expects the same &lt;code&gt;Logins&lt;/code&gt; map as the &lt;code&gt;GetId&lt;/code&gt; call, as well as the &lt;code&gt;IdentityID&lt;/code&gt; originally returned by &lt;code&gt;GetId&lt;/code&gt;. The token returned by &lt;code&gt;GetOpenIdToken&lt;/code&gt; can be passed to the STS operation AssumeRoleWithWebIdentity to retrieve AWS credentials.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSCognitoIdentity.h</DeclaredIn>
+            
+			
+			<NodeRef refid="115"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoIdentity/createIdentityPool:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Creates a new identity pool. The identity pool is a store of user identity information thatis specific to your AWS account. The limit on identity pools is 60 per account.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSCognitoIdentity.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSCognitoIdentityCreateIdentityPoolInput</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSCognitoIdentityIdentityPool</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (BFTask *)createIdentityPool:(AWSCognitoIdentityCreateIdentityPoolInput *)request</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the CreateIdentityPool service method.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An instance of BFTask. On successful execution, task.result will contain an instance of AWSCognitoIdentityIdentityPool. On failed execution, task.error may contain an NSError with AWSCognitoIdentityErrorDomain domian and the following error code: AWSCognitoIdentityErrorInvalidParameter, AWSCognitoIdentityErrorNotAuthorized, AWSCognitoIdentityErrorResourceConflict, AWSCognitoIdentityErrorTooManyRequests, AWSCognitoIdentityErrorInternalError, AWSCognitoIdentityErrorLimitExceeded.</Abstract></ReturnValue>
+			<Anchor>//api/name/createIdentityPool:</Anchor>
+            <NodeRef refid="115"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoIdentity/deleteIdentityPool:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Deletes a user pool. Once a pool is deleted, users will not be able to authenticate withthe pool.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSCognitoIdentity.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSCognitoIdentityDeleteIdentityPoolInput</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (BFTask *)deleteIdentityPool:(AWSCognitoIdentityDeleteIdentityPoolInput *)request</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the DeleteIdentityPool service method.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An instance of BFTask. On successful execution, task.result will be nil. On failed execution, task.error may contain an NSError with AWSCognitoIdentityErrorDomain domian and the following error code: AWSCognitoIdentityErrorInvalidParameter, AWSCognitoIdentityErrorResourceNotFound, AWSCognitoIdentityErrorNotAuthorized, AWSCognitoIdentityErrorTooManyRequests, AWSCognitoIdentityErrorInternalError.</Abstract></ReturnValue>
+			<Anchor>//api/name/deleteIdentityPool:</Anchor>
+            <NodeRef refid="115"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoIdentity/describeIdentityPool:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Gets details about a particular identity pool, including the pool name, ID description,creation date, and current number of users.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSCognitoIdentity.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSCognitoIdentityDescribeIdentityPoolInput</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSCognitoIdentityIdentityPool</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (BFTask *)describeIdentityPool:(AWSCognitoIdentityDescribeIdentityPoolInput *)request</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the DescribeIdentityPool service method.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An instance of BFTask. On successful execution, task.result will contain an instance of AWSCognitoIdentityIdentityPool. On failed execution, task.error may contain an NSError with AWSCognitoIdentityErrorDomain domian and the following error code: AWSCognitoIdentityErrorInvalidParameter, AWSCognitoIdentityErrorResourceNotFound, AWSCognitoIdentityErrorNotAuthorized, AWSCognitoIdentityErrorTooManyRequests, AWSCognitoIdentityErrorInternalError.</Abstract></ReturnValue>
+			<Anchor>//api/name/describeIdentityPool:</Anchor>
+            <NodeRef refid="115"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoIdentity/getId:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Generates (or retrieves) a Cognito ID. Supplying multiple logins will create an implicitlinked account.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSCognitoIdentity.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSCognitoIdentityGetIdInput</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSCognitoIdentityGetIdResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (BFTask *)getId:(AWSCognitoIdentityGetIdInput *)request</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the GetId service method.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An instance of BFTask. On successful execution, task.result will contain an instance of AWSCognitoIdentityGetIdResponse. On failed execution, task.error may contain an NSError with AWSCognitoIdentityErrorDomain domian and the following error code: AWSCognitoIdentityErrorInvalidParameter, AWSCognitoIdentityErrorResourceNotFound, AWSCognitoIdentityErrorNotAuthorized, AWSCognitoIdentityErrorResourceConflict, AWSCognitoIdentityErrorTooManyRequests, AWSCognitoIdentityErrorInternalError, AWSCognitoIdentityErrorLimitExceeded.</Abstract></ReturnValue>
+			<Anchor>//api/name/getId:</Anchor>
+            <NodeRef refid="115"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoIdentity/getOpenIdToken:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Gets an OpenID token, using a known Cognito ID. This known Cognito ID is returned by&lt;a&gt;GetId&lt;/a&gt;. You can optionally add additional logins for the identity. Supplying multiple loginscreates an implicit link.&lt;/p&gt;&lt;p&gt;The OpenId token is valid for 15 minutes.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSCognitoIdentity.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSCognitoIdentityGetOpenIdTokenInput</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSCognitoIdentityGetOpenIdTokenResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (BFTask *)getOpenIdToken:(AWSCognitoIdentityGetOpenIdTokenInput *)request</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the GetOpenIdToken service method.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An instance of BFTask. On successful execution, task.result will contain an instance of AWSCognitoIdentityGetOpenIdTokenResponse. On failed execution, task.error may contain an NSError with AWSCognitoIdentityErrorDomain domian and the following error code: AWSCognitoIdentityErrorInvalidParameter, AWSCognitoIdentityErrorResourceNotFound, AWSCognitoIdentityErrorNotAuthorized, AWSCognitoIdentityErrorResourceConflict, AWSCognitoIdentityErrorTooManyRequests, AWSCognitoIdentityErrorInternalError.</Abstract></ReturnValue>
+			<Anchor>//api/name/getOpenIdToken:</Anchor>
+            <NodeRef refid="115"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoIdentity/listIdentities:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Lists the identities in a pool.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSCognitoIdentity.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSCognitoIdentityListIdentitiesInput</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSCognitoIdentityListIdentitiesResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (BFTask *)listIdentities:(AWSCognitoIdentityListIdentitiesInput *)request</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the ListIdentities service method.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An instance of BFTask. On successful execution, task.result will contain an instance of AWSCognitoIdentityListIdentitiesResponse. On failed execution, task.error may contain an NSError with AWSCognitoIdentityErrorDomain domian and the following error code: AWSCognitoIdentityErrorInvalidParameter, AWSCognitoIdentityErrorResourceNotFound, AWSCognitoIdentityErrorNotAuthorized, AWSCognitoIdentityErrorTooManyRequests, AWSCognitoIdentityErrorInternalError.</Abstract></ReturnValue>
+			<Anchor>//api/name/listIdentities:</Anchor>
+            <NodeRef refid="115"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoIdentity/listIdentityPools:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Lists all of the Cognito identity pools registered for your account.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSCognitoIdentity.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSCognitoIdentityListIdentityPoolsInput</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSCognitoIdentityListIdentityPoolsResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (BFTask *)listIdentityPools:(AWSCognitoIdentityListIdentityPoolsInput *)request</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the ListIdentityPools service method.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An instance of BFTask. On successful execution, task.result will contain an instance of AWSCognitoIdentityListIdentityPoolsResponse. On failed execution, task.error may contain an NSError with AWSCognitoIdentityErrorDomain domian and the following error code: AWSCognitoIdentityErrorInvalidParameter, AWSCognitoIdentityErrorNotAuthorized, AWSCognitoIdentityErrorTooManyRequests, AWSCognitoIdentityErrorInternalError.</Abstract></ReturnValue>
+			<Anchor>//api/name/listIdentityPools:</Anchor>
+            <NodeRef refid="115"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoIdentity/unlinkIdentity:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Unlinks a federated identity from an existing account. Unlinked logins will be considerednew identities next time they are seen. Removing the last linked login will make thisidentity inaccessible.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSCognitoIdentity.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSCognitoIdentityUnlinkIdentityInput</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (BFTask *)unlinkIdentity:(AWSCognitoIdentityUnlinkIdentityInput *)request</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the UnlinkIdentity service method.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An instance of BFTask. On successful execution, task.result will be nil. On failed execution, task.error may contain an NSError with AWSCognitoIdentityErrorDomain domian and the following error code: AWSCognitoIdentityErrorInvalidParameter, AWSCognitoIdentityErrorResourceNotFound, AWSCognitoIdentityErrorNotAuthorized, AWSCognitoIdentityErrorResourceConflict, AWSCognitoIdentityErrorTooManyRequests, AWSCognitoIdentityErrorInternalError.</Abstract></ReturnValue>
+			<Anchor>//api/name/unlinkIdentity:</Anchor>
+            <NodeRef refid="115"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoIdentity/updateIdentityPool:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Updates a user pool.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSCognitoIdentity.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSCognitoIdentityIdentityPool</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSCognitoIdentityIdentityPool</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (BFTask *)updateIdentityPool:(AWSCognitoIdentityIdentityPool *)request</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the UpdateIdentityPool service method.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An instance of BFTask. On successful execution, task.result will contain an instance of AWSCognitoIdentityIdentityPool. On failed execution, task.error may contain an NSError with AWSCognitoIdentityErrorDomain domian and the following error code: AWSCognitoIdentityErrorInvalidParameter, AWSCognitoIdentityErrorResourceNotFound, AWSCognitoIdentityErrorNotAuthorized, AWSCognitoIdentityErrorResourceConflict, AWSCognitoIdentityErrorTooManyRequests, AWSCognitoIdentityErrorInternalError.</Abstract></ReturnValue>
+			<Anchor>//api/name/updateIdentityPool:</Anchor>
+            <NodeRef refid="115"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

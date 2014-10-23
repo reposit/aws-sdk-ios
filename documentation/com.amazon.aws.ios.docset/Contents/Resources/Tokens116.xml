@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/AWSCognitoIdentityCreateIdentityPoolInput.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSCognitoIdentityCreateIdentityPoolInput</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Input to the CreateIdentityPool action.&lt;/p&gt;
+Required parameters: [IdentityPoolName, AllowUnauthenticatedIdentities]</Abstract>
+			<DeclaredIn>AWSCognitoIdentityModel.h</DeclaredIn>
+            
+			
+			<NodeRef refid="116"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoIdentityCreateIdentityPoolInput/setAllowUnauthenticatedIdentities:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;TRUE if the identity pool supports unauthenticated logins.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSCognitoIdentityModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *allowUnauthenticatedIdentities</Declaration>
+			
+			
+			<Anchor>//api/name/allowUnauthenticatedIdentities</Anchor>
+            <NodeRef refid="116"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoIdentityCreateIdentityPoolInput/allowUnauthenticatedIdentities</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;TRUE if the identity pool supports unauthenticated logins.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSCognitoIdentityModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *allowUnauthenticatedIdentities</Declaration>
+			
+			
+			<Anchor>//api/name/allowUnauthenticatedIdentities</Anchor>
+            <NodeRef refid="116"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSCognitoIdentityCreateIdentityPoolInput/allowUnauthenticatedIdentities</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;TRUE if the identity pool supports unauthenticated logins.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSCognitoIdentityModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *allowUnauthenticatedIdentities</Declaration>
+			
+			
+			<Anchor>//api/name/allowUnauthenticatedIdentities</Anchor>
+            <NodeRef refid="116"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoIdentityCreateIdentityPoolInput/setIdentityPoolName:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;A string that you provide.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSCognitoIdentityModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *identityPoolName</Declaration>
+			
+			
+			<Anchor>//api/name/identityPoolName</Anchor>
+            <NodeRef refid="116"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoIdentityCreateIdentityPoolInput/identityPoolName</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;A string that you provide.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSCognitoIdentityModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *identityPoolName</Declaration>
+			
+			
+			<Anchor>//api/name/identityPoolName</Anchor>
+            <NodeRef refid="116"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSCognitoIdentityCreateIdentityPoolInput/identityPoolName</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;A string that you provide.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSCognitoIdentityModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *identityPoolName</Declaration>
+			
+			
+			<Anchor>//api/name/identityPoolName</Anchor>
+            <NodeRef refid="116"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoIdentityCreateIdentityPoolInput/setSupportedLoginProviders:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Optional key:value pairs mapping provider names to provider app IDs.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSCognitoIdentityModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSDictionary *supportedLoginProviders</Declaration>
+			
+			
+			<Anchor>//api/name/supportedLoginProviders</Anchor>
+            <NodeRef refid="116"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoIdentityCreateIdentityPoolInput/supportedLoginProviders</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Optional key:value pairs mapping provider names to provider app IDs.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSCognitoIdentityModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSDictionary *supportedLoginProviders</Declaration>
+			
+			
+			<Anchor>//api/name/supportedLoginProviders</Anchor>
+            <NodeRef refid="116"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSCognitoIdentityCreateIdentityPoolInput/supportedLoginProviders</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Optional key:value pairs mapping provider names to provider app IDs.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSCognitoIdentityModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSDictionary *supportedLoginProviders</Declaration>
+			
+			
+			<Anchor>//api/name/supportedLoginProviders</Anchor>
+            <NodeRef refid="116"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>
