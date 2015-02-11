@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSEC2DescribeReservedInstancesModificationsResult.html">
+	<File path="Classes/AWSEC2DeletePlacementGroupRequest.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSEC2DescribeReservedInstancesModificationsResult</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSEC2DeletePlacementGroupRequest</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
             
@@ -13,77 +13,78 @@
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DescribeReservedInstancesModificationsResult/setNextToken:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The token for the next page of data.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DeletePlacementGroupRequest/setDryRun:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *nextToken</Declaration>
+			<Declaration>@property (nonatomic, strong) NSNumber *dryRun</Declaration>
 			
 			
-			<Anchor>//api/name/nextToken</Anchor>
+			<Anchor>//api/name/dryRun</Anchor>
             <NodeRef refid="338"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DescribeReservedInstancesModificationsResult/nextToken</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The token for the next page of data.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DeletePlacementGroupRequest/dryRun</TokenIdentifier>
+			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *nextToken</Declaration>
+			<Declaration>@property (nonatomic, strong) NSNumber *dryRun</Declaration>
 			
 			
-			<Anchor>//api/name/nextToken</Anchor>
+			<Anchor>//api/name/dryRun</Anchor>
             <NodeRef refid="338"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2DescribeReservedInstancesModificationsResult/nextToken</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The token for the next page of data.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2DeletePlacementGroupRequest/dryRun</TokenIdentifier>
+			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *nextToken</Declaration>
+			<Declaration>@property (nonatomic, strong) NSNumber *dryRun</Declaration>
 			
 			
-			<Anchor>//api/name/nextToken</Anchor>
+			<Anchor>//api/name/dryRun</Anchor>
             <NodeRef refid="338"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DescribeReservedInstancesModificationsResult/setReservedInstancesModifications:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The Reserved Instance modification information.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DeletePlacementGroupRequest/setGroupName:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The name of the placement group.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSArray *reservedInstancesModifications</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *groupName</Declaration>
 			
 			
-			<Anchor>//api/name/reservedInstancesModifications</Anchor>
+			<Anchor>//api/name/groupName</Anchor>
             <NodeRef refid="338"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DescribeReservedInstancesModificationsResult/reservedInstancesModifications</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The Reserved Instance modification information.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DeletePlacementGroupRequest/groupName</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The name of the placement group.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSArray *reservedInstancesModifications</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *groupName</Declaration>
 			
 			
-			<Anchor>//api/name/reservedInstancesModifications</Anchor>
+			<Anchor>//api/name/groupName</Anchor>
             <NodeRef refid="338"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2DescribeReservedInstancesModificationsResult/reservedInstancesModifications</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The Reserved Instance modification information.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2DeletePlacementGroupRequest/groupName</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The name of the placement group.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSArray *reservedInstancesModifications</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *groupName</Declaration>
 			
 			
-			<Anchor>//api/name/reservedInstancesModifications</Anchor>
+			<Anchor>//api/name/groupName</Anchor>
             <NodeRef refid="338"/>
 		</Token>
 		
+        
         
 	</File>
 </Tokens>

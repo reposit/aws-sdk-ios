@@ -1,147 +1,90 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Constants/AWSSNSErrorType.html">
+	<File path="Classes/AWSSQSDeleteMessageBatchRequest.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/c/tdef/AWSSNSErrorType</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSSQSDeleteMessageBatchRequest</TokenIdentifier>
 			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSSNSModel.h</DeclaredIn>
+			<DeclaredIn>AWSSQSModel.h</DeclaredIn>
             
 			
 			<NodeRef refid="968"/>
 		</Token>
 		
 		
-        
-        <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSSNSErrorUnknown</TokenIdentifier>
-            <Abstract type="html"></Abstract>
-            <Declaration>AWSSNSErrorUnknown</Declaration>
-            
-            <DeclaredIn>AWSSNSModel.h</DeclaredIn>
-            
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSQSDeleteMessageBatchRequest/setEntries:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;A list of receipt handles for the messages to be deleted.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSQSModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray *entries</Declaration>
+			
+			
+			<Anchor>//api/name/entries</Anchor>
             <NodeRef refid="968"/>
-        </Token>
-        
-        <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSSNSErrorIncompleteSignature</TokenIdentifier>
-            <Abstract type="html"></Abstract>
-            <Declaration>AWSSNSErrorIncompleteSignature</Declaration>
-            
-            <DeclaredIn>AWSSNSModel.h</DeclaredIn>
-            
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSQSDeleteMessageBatchRequest/entries</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;A list of receipt handles for the messages to be deleted.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSQSModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray *entries</Declaration>
+			
+			
+			<Anchor>//api/name/entries</Anchor>
             <NodeRef refid="968"/>
-        </Token>
-        
-        <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSSNSErrorInvalidClientTokenId</TokenIdentifier>
-            <Abstract type="html"></Abstract>
-            <Declaration>AWSSNSErrorInvalidClientTokenId</Declaration>
-            
-            <DeclaredIn>AWSSNSModel.h</DeclaredIn>
-            
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSSQSDeleteMessageBatchRequest/entries</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;A list of receipt handles for the messages to be deleted.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSQSModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray *entries</Declaration>
+			
+			
+			<Anchor>//api/name/entries</Anchor>
             <NodeRef refid="968"/>
-        </Token>
-        
-        <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSSNSErrorMissingAuthenticationToken</TokenIdentifier>
-            <Abstract type="html"></Abstract>
-            <Declaration>AWSSNSErrorMissingAuthenticationToken</Declaration>
-            
-            <DeclaredIn>AWSSNSModel.h</DeclaredIn>
-            
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSQSDeleteMessageBatchRequest/setQueueUrl:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The URL of the Amazon SQS queue to take action on.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSQSModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *queueUrl</Declaration>
+			
+			
+			<Anchor>//api/name/queueUrl</Anchor>
             <NodeRef refid="968"/>
-        </Token>
-        
-        <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSSNSErrorAuthorizationError</TokenIdentifier>
-            <Abstract type="html"></Abstract>
-            <Declaration>AWSSNSErrorAuthorizationError</Declaration>
-            
-            <DeclaredIn>AWSSNSModel.h</DeclaredIn>
-            
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSQSDeleteMessageBatchRequest/queueUrl</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The URL of the Amazon SQS queue to take action on.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSQSModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *queueUrl</Declaration>
+			
+			
+			<Anchor>//api/name/queueUrl</Anchor>
             <NodeRef refid="968"/>
-        </Token>
-        
-        <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSSNSErrorEndpointDisabled</TokenIdentifier>
-            <Abstract type="html"></Abstract>
-            <Declaration>AWSSNSErrorEndpointDisabled</Declaration>
-            
-            <DeclaredIn>AWSSNSModel.h</DeclaredIn>
-            
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSSQSDeleteMessageBatchRequest/queueUrl</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The URL of the Amazon SQS queue to take action on.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSQSModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *queueUrl</Declaration>
+			
+			
+			<Anchor>//api/name/queueUrl</Anchor>
             <NodeRef refid="968"/>
-        </Token>
+		</Token>
+		
         
-        <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSSNSErrorInternalError</TokenIdentifier>
-            <Abstract type="html"></Abstract>
-            <Declaration>AWSSNSErrorInternalError</Declaration>
-            
-            <DeclaredIn>AWSSNSModel.h</DeclaredIn>
-            
-            <NodeRef refid="968"/>
-        </Token>
-        
-        <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSSNSErrorInvalidParameter</TokenIdentifier>
-            <Abstract type="html"></Abstract>
-            <Declaration>AWSSNSErrorInvalidParameter</Declaration>
-            
-            <DeclaredIn>AWSSNSModel.h</DeclaredIn>
-            
-            <NodeRef refid="968"/>
-        </Token>
-        
-        <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSSNSErrorInvalidParameterValue</TokenIdentifier>
-            <Abstract type="html"></Abstract>
-            <Declaration>AWSSNSErrorInvalidParameterValue</Declaration>
-            
-            <DeclaredIn>AWSSNSModel.h</DeclaredIn>
-            
-            <NodeRef refid="968"/>
-        </Token>
-        
-        <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSSNSErrorNotFound</TokenIdentifier>
-            <Abstract type="html"></Abstract>
-            <Declaration>AWSSNSErrorNotFound</Declaration>
-            
-            <DeclaredIn>AWSSNSModel.h</DeclaredIn>
-            
-            <NodeRef refid="968"/>
-        </Token>
-        
-        <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSSNSErrorPlatformApplicationDisabled</TokenIdentifier>
-            <Abstract type="html"></Abstract>
-            <Declaration>AWSSNSErrorPlatformApplicationDisabled</Declaration>
-            
-            <DeclaredIn>AWSSNSModel.h</DeclaredIn>
-            
-            <NodeRef refid="968"/>
-        </Token>
-        
-        <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSSNSErrorSubscriptionLimitExceeded</TokenIdentifier>
-            <Abstract type="html"></Abstract>
-            <Declaration>AWSSNSErrorSubscriptionLimitExceeded</Declaration>
-            
-            <DeclaredIn>AWSSNSModel.h</DeclaredIn>
-            
-            <NodeRef refid="968"/>
-        </Token>
-        
-        <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSSNSErrorTopicLimitExceeded</TokenIdentifier>
-            <Abstract type="html"></Abstract>
-            <Declaration>AWSSNSErrorTopicLimitExceeded</Declaration>
-            
-            <DeclaredIn>AWSSNSModel.h</DeclaredIn>
-            
-            <NodeRef refid="968"/>
-        </Token>
         
 	</File>
 </Tokens>

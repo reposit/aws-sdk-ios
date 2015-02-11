@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSEC2DescribeNetworkInterfaceAttributeResult.html">
+	<File path="Classes/AWSEC2CreateVpnGatewayRequest.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSEC2DescribeNetworkInterfaceAttributeResult</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSEC2CreateVpnGatewayRequest</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
             
@@ -13,149 +13,114 @@
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DescribeNetworkInterfaceAttributeResult/setAttachment:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The attachment (if any) of the network interface.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2CreateVpnGatewayRequest/setAvailabilityZone:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The Availability Zone for the virtual private gateway.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) AWSEC2NetworkInterfaceAttachment *attachment</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *availabilityZone</Declaration>
 			
 			
-			<Anchor>//api/name/attachment</Anchor>
+			<Anchor>//api/name/availabilityZone</Anchor>
             <NodeRef refid="328"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DescribeNetworkInterfaceAttributeResult/attachment</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The attachment (if any) of the network interface.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2CreateVpnGatewayRequest/availabilityZone</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The Availability Zone for the virtual private gateway.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) AWSEC2NetworkInterfaceAttachment *attachment</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *availabilityZone</Declaration>
 			
 			
-			<Anchor>//api/name/attachment</Anchor>
+			<Anchor>//api/name/availabilityZone</Anchor>
             <NodeRef refid="328"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2DescribeNetworkInterfaceAttributeResult/attachment</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The attachment (if any) of the network interface.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2CreateVpnGatewayRequest/availabilityZone</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The Availability Zone for the virtual private gateway.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) AWSEC2NetworkInterfaceAttachment *attachment</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *availabilityZone</Declaration>
 			
 			
-			<Anchor>//api/name/attachment</Anchor>
+			<Anchor>//api/name/availabilityZone</Anchor>
             <NodeRef refid="328"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DescribeNetworkInterfaceAttributeResult/setGroups:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The security groups associated with the network interface.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2CreateVpnGatewayRequest/setDryRun:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSArray *groups</Declaration>
+			<Declaration>@property (nonatomic, strong) NSNumber *dryRun</Declaration>
 			
 			
-			<Anchor>//api/name/groups</Anchor>
+			<Anchor>//api/name/dryRun</Anchor>
             <NodeRef refid="328"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DescribeNetworkInterfaceAttributeResult/groups</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The security groups associated with the network interface.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2CreateVpnGatewayRequest/dryRun</TokenIdentifier>
+			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSArray *groups</Declaration>
+			<Declaration>@property (nonatomic, strong) NSNumber *dryRun</Declaration>
 			
 			
-			<Anchor>//api/name/groups</Anchor>
+			<Anchor>//api/name/dryRun</Anchor>
             <NodeRef refid="328"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2DescribeNetworkInterfaceAttributeResult/groups</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The security groups associated with the network interface.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2CreateVpnGatewayRequest/dryRun</TokenIdentifier>
+			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSArray *groups</Declaration>
+			<Declaration>@property (nonatomic, strong) NSNumber *dryRun</Declaration>
 			
 			
-			<Anchor>//api/name/groups</Anchor>
+			<Anchor>//api/name/dryRun</Anchor>
             <NodeRef refid="328"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DescribeNetworkInterfaceAttributeResult/setNetworkInterfaceId:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The ID of the network interface.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2CreateVpnGatewayRequest/setTypes:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The type of VPN connection this virtual private gateway supports.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *networkInterfaceId</Declaration>
+			<Declaration>@property (nonatomic, assign) AWSEC2GatewayType types</Declaration>
 			
 			
-			<Anchor>//api/name/networkInterfaceId</Anchor>
+			<Anchor>//api/name/types</Anchor>
             <NodeRef refid="328"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DescribeNetworkInterfaceAttributeResult/networkInterfaceId</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The ID of the network interface.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2CreateVpnGatewayRequest/types</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The type of VPN connection this virtual private gateway supports.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *networkInterfaceId</Declaration>
+			<Declaration>@property (nonatomic, assign) AWSEC2GatewayType types</Declaration>
 			
 			
-			<Anchor>//api/name/networkInterfaceId</Anchor>
+			<Anchor>//api/name/types</Anchor>
             <NodeRef refid="328"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2DescribeNetworkInterfaceAttributeResult/networkInterfaceId</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The ID of the network interface.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2CreateVpnGatewayRequest/types</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The type of VPN connection this virtual private gateway supports.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *networkInterfaceId</Declaration>
+			<Declaration>@property (nonatomic, assign) AWSEC2GatewayType types</Declaration>
 			
 			
-			<Anchor>//api/name/networkInterfaceId</Anchor>
+			<Anchor>//api/name/types</Anchor>
             <NodeRef refid="328"/>
 		</Token>
 		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DescribeNetworkInterfaceAttributeResult/setSourceDestCheck:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Indicates whether source/destination checking is enabled.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) AWSEC2AttributeBooleanValue *sourceDestCheck</Declaration>
-			
-			
-			<Anchor>//api/name/sourceDestCheck</Anchor>
-            <NodeRef refid="328"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DescribeNetworkInterfaceAttributeResult/sourceDestCheck</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Indicates whether source/destination checking is enabled.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) AWSEC2AttributeBooleanValue *sourceDestCheck</Declaration>
-			
-			
-			<Anchor>//api/name/sourceDestCheck</Anchor>
-            <NodeRef refid="328"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2DescribeNetworkInterfaceAttributeResult/sourceDestCheck</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Indicates whether source/destination checking is enabled.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) AWSEC2AttributeBooleanValue *sourceDestCheck</Declaration>
-			
-			
-			<Anchor>//api/name/sourceDestCheck</Anchor>
-            <NodeRef refid="328"/>
-		</Token>
-		
+        
         
 	</File>
 </Tokens>

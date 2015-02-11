@@ -1,117 +1,90 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Constants/AWSS3BucketLocationConstraint.html">
+	<File path="Classes/AWSSNSListSubscriptionsResponse.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/c/tdef/AWSS3BucketLocationConstraint</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSSNSListSubscriptionsResponse</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Response for ListSubscriptions action&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSNSModel.h</DeclaredIn>
             
 			
 			<NodeRef refid="941"/>
 		</Token>
 		
 		
-        
-        <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSS3BucketLocationConstraintUnknown</TokenIdentifier>
-            <Abstract type="html"></Abstract>
-            <Declaration>AWSS3BucketLocationConstraintUnknown</Declaration>
-            
-            <DeclaredIn>AWSS3Model.h</DeclaredIn>
-            
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSNSListSubscriptionsResponse/setNextToken:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Token to pass along to the next &lt;code&gt;ListSubscriptions&lt;/code&gt; request. This element is returned if there are more subscriptions to retrieve.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSNSModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *nextToken</Declaration>
+			
+			
+			<Anchor>//api/name/nextToken</Anchor>
             <NodeRef refid="941"/>
-        </Token>
-        
-        <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSS3BucketLocationConstraintEU</TokenIdentifier>
-            <Abstract type="html"></Abstract>
-            <Declaration>AWSS3BucketLocationConstraintEU</Declaration>
-            
-            <DeclaredIn>AWSS3Model.h</DeclaredIn>
-            
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSNSListSubscriptionsResponse/nextToken</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Token to pass along to the next &lt;code&gt;ListSubscriptions&lt;/code&gt; request. This element is returned if there are more subscriptions to retrieve.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSNSModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *nextToken</Declaration>
+			
+			
+			<Anchor>//api/name/nextToken</Anchor>
             <NodeRef refid="941"/>
-        </Token>
-        
-        <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSS3BucketLocationConstraintEUWest1</TokenIdentifier>
-            <Abstract type="html"></Abstract>
-            <Declaration>AWSS3BucketLocationConstraintEUWest1</Declaration>
-            
-            <DeclaredIn>AWSS3Model.h</DeclaredIn>
-            
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSSNSListSubscriptionsResponse/nextToken</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Token to pass along to the next &lt;code&gt;ListSubscriptions&lt;/code&gt; request. This element is returned if there are more subscriptions to retrieve.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSNSModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *nextToken</Declaration>
+			
+			
+			<Anchor>//api/name/nextToken</Anchor>
             <NodeRef refid="941"/>
-        </Token>
-        
-        <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSS3BucketLocationConstraintUSWest1</TokenIdentifier>
-            <Abstract type="html"></Abstract>
-            <Declaration>AWSS3BucketLocationConstraintUSWest1</Declaration>
-            
-            <DeclaredIn>AWSS3Model.h</DeclaredIn>
-            
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSNSListSubscriptionsResponse/setSubscriptions:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;A list of subscriptions.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSNSModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray *subscriptions</Declaration>
+			
+			
+			<Anchor>//api/name/subscriptions</Anchor>
             <NodeRef refid="941"/>
-        </Token>
-        
-        <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSS3BucketLocationConstraintUSWest2</TokenIdentifier>
-            <Abstract type="html"></Abstract>
-            <Declaration>AWSS3BucketLocationConstraintUSWest2</Declaration>
-            
-            <DeclaredIn>AWSS3Model.h</DeclaredIn>
-            
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSNSListSubscriptionsResponse/subscriptions</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;A list of subscriptions.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSNSModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray *subscriptions</Declaration>
+			
+			
+			<Anchor>//api/name/subscriptions</Anchor>
             <NodeRef refid="941"/>
-        </Token>
-        
-        <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSS3BucketLocationConstraintAPSoutheast1</TokenIdentifier>
-            <Abstract type="html"></Abstract>
-            <Declaration>AWSS3BucketLocationConstraintAPSoutheast1</Declaration>
-            
-            <DeclaredIn>AWSS3Model.h</DeclaredIn>
-            
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSSNSListSubscriptionsResponse/subscriptions</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;A list of subscriptions.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSNSModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray *subscriptions</Declaration>
+			
+			
+			<Anchor>//api/name/subscriptions</Anchor>
             <NodeRef refid="941"/>
-        </Token>
+		</Token>
+		
         
-        <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSS3BucketLocationConstraintAPSoutheast2</TokenIdentifier>
-            <Abstract type="html"></Abstract>
-            <Declaration>AWSS3BucketLocationConstraintAPSoutheast2</Declaration>
-            
-            <DeclaredIn>AWSS3Model.h</DeclaredIn>
-            
-            <NodeRef refid="941"/>
-        </Token>
-        
-        <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSS3BucketLocationConstraintAPNortheast1</TokenIdentifier>
-            <Abstract type="html"></Abstract>
-            <Declaration>AWSS3BucketLocationConstraintAPNortheast1</Declaration>
-            
-            <DeclaredIn>AWSS3Model.h</DeclaredIn>
-            
-            <NodeRef refid="941"/>
-        </Token>
-        
-        <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSS3BucketLocationConstraintSAEast1</TokenIdentifier>
-            <Abstract type="html"></Abstract>
-            <Declaration>AWSS3BucketLocationConstraintSAEast1</Declaration>
-            
-            <DeclaredIn>AWSS3Model.h</DeclaredIn>
-            
-            <NodeRef refid="941"/>
-        </Token>
-        
-        <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSS3BucketLocationConstraintBlank</TokenIdentifier>
-            <Abstract type="html"></Abstract>
-            <Declaration>AWSS3BucketLocationConstraintBlank</Declaration>
-            
-            <DeclaredIn>AWSS3Model.h</DeclaredIn>
-            
-            <NodeRef refid="941"/>
-        </Token>
         
 	</File>
 </Tokens>

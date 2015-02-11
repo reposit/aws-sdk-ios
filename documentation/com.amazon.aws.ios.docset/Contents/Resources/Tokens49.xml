@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSAutoScalingExecutePolicyType.html">
+	<File path="Classes/AWSAutoScalingEnterStandbyAnswer.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSAutoScalingExecutePolicyType</TokenIdentifier>
-			<Abstract type="html"></Abstract>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSAutoScalingEnterStandbyAnswer</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The output of the &lt;a&gt;EnterStandby&lt;/a&gt; action. &lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
             
 			
@@ -13,113 +13,42 @@
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingExecutePolicyType/setAutoScalingGroupName:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt; The name or the Amazon Resource Name (ARN) of the Auto Scaling group. &lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingEnterStandbyAnswer/setActivities:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; A list describing the activities related to moving instances into Standby mode. &lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *autoScalingGroupName</Declaration>
+			<Declaration>@property (nonatomic, strong) NSArray *activities</Declaration>
 			
 			
-			<Anchor>//api/name/autoScalingGroupName</Anchor>
+			<Anchor>//api/name/activities</Anchor>
             <NodeRef refid="49"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingExecutePolicyType/autoScalingGroupName</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt; The name or the Amazon Resource Name (ARN) of the Auto Scaling group. &lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingEnterStandbyAnswer/activities</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; A list describing the activities related to moving instances into Standby mode. &lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *autoScalingGroupName</Declaration>
+			<Declaration>@property (nonatomic, strong) NSArray *activities</Declaration>
 			
 			
-			<Anchor>//api/name/autoScalingGroupName</Anchor>
+			<Anchor>//api/name/activities</Anchor>
             <NodeRef refid="49"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSAutoScalingExecutePolicyType/autoScalingGroupName</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt; The name or the Amazon Resource Name (ARN) of the Auto Scaling group. &lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSAutoScalingEnterStandbyAnswer/activities</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; A list describing the activities related to moving instances into Standby mode. &lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *autoScalingGroupName</Declaration>
+			<Declaration>@property (nonatomic, strong) NSArray *activities</Declaration>
 			
 			
-			<Anchor>//api/name/autoScalingGroupName</Anchor>
+			<Anchor>//api/name/activities</Anchor>
             <NodeRef refid="49"/>
 		</Token>
 		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingExecutePolicyType/setHonorCooldown:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Set to &lt;code&gt;True&lt;/code&gt; if you want Auto Scaling to wait for the cooldown period associated with the Auto Scaling group to complete before executing the policy.&lt;/p&gt;&lt;p&gt;Set to &lt;code&gt;False&lt;/code&gt; if you want Auto Scaling to circumvent the cooldown period associated with the Auto Scaling group and execute the policy before the cooldown period ends. &lt;/p&gt;&lt;p&gt;For information about cooldown period, see Cooldown Period in the &lt;i&gt;Auto Scaling Developer Guide&lt;/i&gt;.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSNumber *honorCooldown</Declaration>
-			
-			
-			<Anchor>//api/name/honorCooldown</Anchor>
-            <NodeRef refid="49"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingExecutePolicyType/honorCooldown</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Set to &lt;code&gt;True&lt;/code&gt; if you want Auto Scaling to wait for the cooldown period associated with the Auto Scaling group to complete before executing the policy.&lt;/p&gt;&lt;p&gt;Set to &lt;code&gt;False&lt;/code&gt; if you want Auto Scaling to circumvent the cooldown period associated with the Auto Scaling group and execute the policy before the cooldown period ends. &lt;/p&gt;&lt;p&gt;For information about cooldown period, see Cooldown Period in the &lt;i&gt;Auto Scaling Developer Guide&lt;/i&gt;.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSNumber *honorCooldown</Declaration>
-			
-			
-			<Anchor>//api/name/honorCooldown</Anchor>
-            <NodeRef refid="49"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSAutoScalingExecutePolicyType/honorCooldown</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Set to &lt;code&gt;True&lt;/code&gt; if you want Auto Scaling to wait for the cooldown period associated with the Auto Scaling group to complete before executing the policy.&lt;/p&gt;&lt;p&gt;Set to &lt;code&gt;False&lt;/code&gt; if you want Auto Scaling to circumvent the cooldown period associated with the Auto Scaling group and execute the policy before the cooldown period ends. &lt;/p&gt;&lt;p&gt;For information about cooldown period, see Cooldown Period in the &lt;i&gt;Auto Scaling Developer Guide&lt;/i&gt;.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSNumber *honorCooldown</Declaration>
-			
-			
-			<Anchor>//api/name/honorCooldown</Anchor>
-            <NodeRef refid="49"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingExecutePolicyType/setPolicyName:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt; The name or ARN of the policy you want to run. &lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *policyName</Declaration>
-			
-			
-			<Anchor>//api/name/policyName</Anchor>
-            <NodeRef refid="49"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingExecutePolicyType/policyName</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt; The name or ARN of the policy you want to run. &lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *policyName</Declaration>
-			
-			
-			<Anchor>//api/name/policyName</Anchor>
-            <NodeRef refid="49"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSAutoScalingExecutePolicyType/policyName</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt; The name or ARN of the policy you want to run. &lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *policyName</Declaration>
-			
-			
-			<Anchor>//api/name/policyName</Anchor>
-            <NodeRef refid="49"/>
-		</Token>
-		
+        
         
 	</File>
 </Tokens>

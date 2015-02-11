@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSAutoScalingEnterStandbyAnswer.html">
+	<File path="Classes/AWSAutoScalingEnableMetricsCollectionQuery.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSAutoScalingEnterStandbyAnswer</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The output of the &lt;a&gt;EnterStandby&lt;/a&gt; action. &lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSAutoScalingEnableMetricsCollectionQuery</TokenIdentifier>
+			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
             
 			
@@ -13,41 +13,114 @@
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingEnterStandbyAnswer/setActivities:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt; A list describing the activities related to moving instances into Standby mode. &lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingEnableMetricsCollectionQuery/setAutoScalingGroupName:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The name or ARN of the Auto Scaling group.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSArray *activities</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *autoScalingGroupName</Declaration>
 			
 			
-			<Anchor>//api/name/activities</Anchor>
+			<Anchor>//api/name/autoScalingGroupName</Anchor>
             <NodeRef refid="47"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingEnterStandbyAnswer/activities</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt; A list describing the activities related to moving instances into Standby mode. &lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingEnableMetricsCollectionQuery/autoScalingGroupName</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The name or ARN of the Auto Scaling group.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSArray *activities</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *autoScalingGroupName</Declaration>
 			
 			
-			<Anchor>//api/name/activities</Anchor>
+			<Anchor>//api/name/autoScalingGroupName</Anchor>
             <NodeRef refid="47"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSAutoScalingEnterStandbyAnswer/activities</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt; A list describing the activities related to moving instances into Standby mode. &lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSAutoScalingEnableMetricsCollectionQuery/autoScalingGroupName</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The name or ARN of the Auto Scaling group.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSArray *activities</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *autoScalingGroupName</Declaration>
 			
 			
-			<Anchor>//api/name/activities</Anchor>
+			<Anchor>//api/name/autoScalingGroupName</Anchor>
             <NodeRef refid="47"/>
 		</Token>
 		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingEnableMetricsCollectionQuery/setGranularity:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; The granularity to associate with the metrics to collect. Currently, the only legal granularity is &quot;1Minute&quot;. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *granularity</Declaration>
+			
+			
+			<Anchor>//api/name/granularity</Anchor>
+            <NodeRef refid="47"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingEnableMetricsCollectionQuery/granularity</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; The granularity to associate with the metrics to collect. Currently, the only legal granularity is &quot;1Minute&quot;. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *granularity</Declaration>
+			
+			
+			<Anchor>//api/name/granularity</Anchor>
+            <NodeRef refid="47"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSAutoScalingEnableMetricsCollectionQuery/granularity</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; The granularity to associate with the metrics to collect. Currently, the only legal granularity is &quot;1Minute&quot;. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *granularity</Declaration>
+			
+			
+			<Anchor>//api/name/granularity</Anchor>
+            <NodeRef refid="47"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingEnableMetricsCollectionQuery/setMetrics:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; The list of metrics to collect. If no metrics are specified, all metrics are enabled. The following metrics are supported: &lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;GroupMinSize&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;GroupMaxSize&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;GroupDesiredCapacity&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;GroupInServiceInstances&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;GroupPendingInstances&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;GroupStandbyInstances&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;GroupTerminatingInstances&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;GroupTotalInstances&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;note&gt;&lt;p&gt;The &lt;code&gt;GroupStandbyInstances&lt;/code&gt; metric is not returned by default. You must explicitly request it when calling &lt;a&gt;EnableMetricsCollection&lt;/a&gt;.&lt;/p&gt;&lt;/note&gt;</Abstract>
+			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray *metrics</Declaration>
+			
+			
+			<Anchor>//api/name/metrics</Anchor>
+            <NodeRef refid="47"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingEnableMetricsCollectionQuery/metrics</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; The list of metrics to collect. If no metrics are specified, all metrics are enabled. The following metrics are supported: &lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;GroupMinSize&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;GroupMaxSize&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;GroupDesiredCapacity&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;GroupInServiceInstances&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;GroupPendingInstances&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;GroupStandbyInstances&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;GroupTerminatingInstances&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;GroupTotalInstances&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;note&gt;&lt;p&gt;The &lt;code&gt;GroupStandbyInstances&lt;/code&gt; metric is not returned by default. You must explicitly request it when calling &lt;a&gt;EnableMetricsCollection&lt;/a&gt;.&lt;/p&gt;&lt;/note&gt;</Abstract>
+			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray *metrics</Declaration>
+			
+			
+			<Anchor>//api/name/metrics</Anchor>
+            <NodeRef refid="47"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSAutoScalingEnableMetricsCollectionQuery/metrics</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; The list of metrics to collect. If no metrics are specified, all metrics are enabled. The following metrics are supported: &lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;GroupMinSize&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;GroupMaxSize&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;GroupDesiredCapacity&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;GroupInServiceInstances&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;GroupPendingInstances&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;GroupStandbyInstances&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;GroupTerminatingInstances&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;GroupTotalInstances&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;note&gt;&lt;p&gt;The &lt;code&gt;GroupStandbyInstances&lt;/code&gt; metric is not returned by default. You must explicitly request it when calling &lt;a&gt;EnableMetricsCollection&lt;/a&gt;.&lt;/p&gt;&lt;/note&gt;</Abstract>
+			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray *metrics</Declaration>
+			
+			
+			<Anchor>//api/name/metrics</Anchor>
+            <NodeRef refid="47"/>
+		</Token>
+		
+        
         
 	</File>
 </Tokens>

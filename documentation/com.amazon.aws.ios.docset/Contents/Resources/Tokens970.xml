@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Constants/AWSSQSQueueAttributeName.html">
+	<File path="Classes/AWSSQSDeleteMessageBatchResult.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/c/tdef/AWSSQSQueueAttributeName</TokenIdentifier>
-			<Abstract type="html"></Abstract>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSSQSDeleteMessageBatchResult</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; For each message in the batch, the response contains a &lt;a&gt;DeleteMessageBatchResultEntry&lt;/a&gt; tag if the message is deleted or a &lt;a&gt;BatchResultErrorEntry&lt;/a&gt; tag if the message cannot be deleted. &lt;/p&gt;
+Required parameters: [Successful, Failed]</Abstract>
 			<DeclaredIn>AWSSQSModel.h</DeclaredIn>
             
 			
@@ -12,146 +13,79 @@
 		</Token>
 		
 		
-        
-        <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSSQSQueueAttributeNameUnknown</TokenIdentifier>
-            <Abstract type="html"></Abstract>
-            <Declaration>AWSSQSQueueAttributeNameUnknown</Declaration>
-            
-            <DeclaredIn>AWSSQSModel.h</DeclaredIn>
-            
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSQSDeleteMessageBatchResult/setFailed:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;A list of &lt;a&gt;BatchResultErrorEntry&lt;/a&gt; items.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSQSModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray *failed</Declaration>
+			
+			
+			<Anchor>//api/name/failed</Anchor>
             <NodeRef refid="970"/>
-        </Token>
-        
-        <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSSQSQueueAttributeNamePolicy</TokenIdentifier>
-            <Abstract type="html"></Abstract>
-            <Declaration>AWSSQSQueueAttributeNamePolicy</Declaration>
-            
-            <DeclaredIn>AWSSQSModel.h</DeclaredIn>
-            
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSQSDeleteMessageBatchResult/failed</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;A list of &lt;a&gt;BatchResultErrorEntry&lt;/a&gt; items.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSQSModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray *failed</Declaration>
+			
+			
+			<Anchor>//api/name/failed</Anchor>
             <NodeRef refid="970"/>
-        </Token>
-        
-        <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSSQSQueueAttributeNameVisibilityTimeout</TokenIdentifier>
-            <Abstract type="html"></Abstract>
-            <Declaration>AWSSQSQueueAttributeNameVisibilityTimeout</Declaration>
-            
-            <DeclaredIn>AWSSQSModel.h</DeclaredIn>
-            
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSSQSDeleteMessageBatchResult/failed</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;A list of &lt;a&gt;BatchResultErrorEntry&lt;/a&gt; items.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSQSModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray *failed</Declaration>
+			
+			
+			<Anchor>//api/name/failed</Anchor>
             <NodeRef refid="970"/>
-        </Token>
-        
-        <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSSQSQueueAttributeNameMaximumMessageSize</TokenIdentifier>
-            <Abstract type="html"></Abstract>
-            <Declaration>AWSSQSQueueAttributeNameMaximumMessageSize</Declaration>
-            
-            <DeclaredIn>AWSSQSModel.h</DeclaredIn>
-            
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSQSDeleteMessageBatchResult/setSuccessful:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;A list of &lt;a&gt;DeleteMessageBatchResultEntry&lt;/a&gt; items.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSQSModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray *successful</Declaration>
+			
+			
+			<Anchor>//api/name/successful</Anchor>
             <NodeRef refid="970"/>
-        </Token>
-        
-        <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSSQSQueueAttributeNameMessageRetentionPeriod</TokenIdentifier>
-            <Abstract type="html"></Abstract>
-            <Declaration>AWSSQSQueueAttributeNameMessageRetentionPeriod</Declaration>
-            
-            <DeclaredIn>AWSSQSModel.h</DeclaredIn>
-            
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSQSDeleteMessageBatchResult/successful</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;A list of &lt;a&gt;DeleteMessageBatchResultEntry&lt;/a&gt; items.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSQSModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray *successful</Declaration>
+			
+			
+			<Anchor>//api/name/successful</Anchor>
             <NodeRef refid="970"/>
-        </Token>
-        
-        <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSSQSQueueAttributeNameApproximateNumberOfMessages</TokenIdentifier>
-            <Abstract type="html"></Abstract>
-            <Declaration>AWSSQSQueueAttributeNameApproximateNumberOfMessages</Declaration>
-            
-            <DeclaredIn>AWSSQSModel.h</DeclaredIn>
-            
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSSQSDeleteMessageBatchResult/successful</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;A list of &lt;a&gt;DeleteMessageBatchResultEntry&lt;/a&gt; items.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSQSModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray *successful</Declaration>
+			
+			
+			<Anchor>//api/name/successful</Anchor>
             <NodeRef refid="970"/>
-        </Token>
+		</Token>
+		
         
-        <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSSQSQueueAttributeNameApproximateNumberOfMessagesNotVisible</TokenIdentifier>
-            <Abstract type="html"></Abstract>
-            <Declaration>AWSSQSQueueAttributeNameApproximateNumberOfMessagesNotVisible</Declaration>
-            
-            <DeclaredIn>AWSSQSModel.h</DeclaredIn>
-            
-            <NodeRef refid="970"/>
-        </Token>
-        
-        <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSSQSQueueAttributeNameCreatedTimestamp</TokenIdentifier>
-            <Abstract type="html"></Abstract>
-            <Declaration>AWSSQSQueueAttributeNameCreatedTimestamp</Declaration>
-            
-            <DeclaredIn>AWSSQSModel.h</DeclaredIn>
-            
-            <NodeRef refid="970"/>
-        </Token>
-        
-        <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSSQSQueueAttributeNameLastModifiedTimestamp</TokenIdentifier>
-            <Abstract type="html"></Abstract>
-            <Declaration>AWSSQSQueueAttributeNameLastModifiedTimestamp</Declaration>
-            
-            <DeclaredIn>AWSSQSModel.h</DeclaredIn>
-            
-            <NodeRef refid="970"/>
-        </Token>
-        
-        <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSSQSQueueAttributeNameQueueArn</TokenIdentifier>
-            <Abstract type="html"></Abstract>
-            <Declaration>AWSSQSQueueAttributeNameQueueArn</Declaration>
-            
-            <DeclaredIn>AWSSQSModel.h</DeclaredIn>
-            
-            <NodeRef refid="970"/>
-        </Token>
-        
-        <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSSQSQueueAttributeNameApproximateNumberOfMessagesDelayed</TokenIdentifier>
-            <Abstract type="html"></Abstract>
-            <Declaration>AWSSQSQueueAttributeNameApproximateNumberOfMessagesDelayed</Declaration>
-            
-            <DeclaredIn>AWSSQSModel.h</DeclaredIn>
-            
-            <NodeRef refid="970"/>
-        </Token>
-        
-        <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSSQSQueueAttributeNameDelaySeconds</TokenIdentifier>
-            <Abstract type="html"></Abstract>
-            <Declaration>AWSSQSQueueAttributeNameDelaySeconds</Declaration>
-            
-            <DeclaredIn>AWSSQSModel.h</DeclaredIn>
-            
-            <NodeRef refid="970"/>
-        </Token>
-        
-        <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSSQSQueueAttributeNameReceiveMessageWaitTimeSeconds</TokenIdentifier>
-            <Abstract type="html"></Abstract>
-            <Declaration>AWSSQSQueueAttributeNameReceiveMessageWaitTimeSeconds</Declaration>
-            
-            <DeclaredIn>AWSSQSModel.h</DeclaredIn>
-            
-            <NodeRef refid="970"/>
-        </Token>
-        
-        <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSSQSQueueAttributeNameRedrivePolicy</TokenIdentifier>
-            <Abstract type="html"></Abstract>
-            <Declaration>AWSSQSQueueAttributeNameRedrivePolicy</Declaration>
-            
-            <DeclaredIn>AWSSQSModel.h</DeclaredIn>
-            
-            <NodeRef refid="970"/>
-        </Token>
         
 	</File>
 </Tokens>

@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSSQSGetQueueAttributesRequest.html">
+	<File path="Classes/AWSS3DeleteBucketWebsiteRequest.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSSQSGetQueueAttributesRequest</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSS3DeleteBucketWebsiteRequest</TokenIdentifier>
 			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSSQSModel.h</DeclaredIn>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
             
 			
 			<NodeRef refid="765"/>
@@ -13,77 +13,42 @@
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSSQSGetQueueAttributesRequest/setAttributeNames:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;A list of attributes to retrieve information for. &lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSQSModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3DeleteBucketWebsiteRequest/setBucket:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSArray *attributeNames</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *bucket</Declaration>
 			
 			
-			<Anchor>//api/name/attributeNames</Anchor>
+			<Anchor>//api/name/bucket</Anchor>
             <NodeRef refid="765"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSSQSGetQueueAttributesRequest/attributeNames</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;A list of attributes to retrieve information for. &lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSQSModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3DeleteBucketWebsiteRequest/bucket</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSArray *attributeNames</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *bucket</Declaration>
 			
 			
-			<Anchor>//api/name/attributeNames</Anchor>
+			<Anchor>//api/name/bucket</Anchor>
             <NodeRef refid="765"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSSQSGetQueueAttributesRequest/attributeNames</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;A list of attributes to retrieve information for. &lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSQSModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSS3DeleteBucketWebsiteRequest/bucket</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSArray *attributeNames</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *bucket</Declaration>
 			
 			
-			<Anchor>//api/name/attributeNames</Anchor>
+			<Anchor>//api/name/bucket</Anchor>
             <NodeRef refid="765"/>
 		</Token>
 		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSSQSGetQueueAttributesRequest/setQueueUrl:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The URL of the Amazon SQS queue to take action on.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSQSModel.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *queueUrl</Declaration>
-			
-			
-			<Anchor>//api/name/queueUrl</Anchor>
-            <NodeRef refid="765"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSSQSGetQueueAttributesRequest/queueUrl</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The URL of the Amazon SQS queue to take action on.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSQSModel.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *queueUrl</Declaration>
-			
-			
-			<Anchor>//api/name/queueUrl</Anchor>
-            <NodeRef refid="765"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSSQSGetQueueAttributesRequest/queueUrl</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The URL of the Amazon SQS queue to take action on.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSQSModel.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *queueUrl</Declaration>
-			
-			
-			<Anchor>//api/name/queueUrl</Anchor>
-            <NodeRef refid="765"/>
-		</Token>
-		
+        
         
 	</File>
 </Tokens>

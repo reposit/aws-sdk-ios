@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSSESSendRawEmailResponse.html">
+	<File path="Classes/AWSElasticLoadBalancingRemoveTagsInput.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSSESSendRawEmailResponse</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Represents a unique message ID returned from a successful &lt;code&gt;SendRawEmail&lt;/code&gt; request. &lt;/p&gt;
-Required parameters: [MessageId]</Abstract>
-			<DeclaredIn>AWSSESModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSElasticLoadBalancingRemoveTagsInput</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSElasticLoadBalancingModel.h</DeclaredIn>
             
 			
 			<NodeRef refid="689"/>
@@ -14,41 +13,78 @@ Required parameters: [MessageId]</Abstract>
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSSESSendRawEmailResponse/setMessageId:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The unique message identifier returned from the &lt;code&gt;SendRawEmail&lt;/code&gt; action. &lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSESModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSElasticLoadBalancingRemoveTagsInput/setLoadBalancerNames:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSElasticLoadBalancingModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *messageId</Declaration>
+			<Declaration>@property (nonatomic, strong) NSArray *loadBalancerNames</Declaration>
 			
 			
-			<Anchor>//api/name/messageId</Anchor>
+			<Anchor>//api/name/loadBalancerNames</Anchor>
             <NodeRef refid="689"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSSESSendRawEmailResponse/messageId</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The unique message identifier returned from the &lt;code&gt;SendRawEmail&lt;/code&gt; action. &lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSESModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSElasticLoadBalancingRemoveTagsInput/loadBalancerNames</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSElasticLoadBalancingModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *messageId</Declaration>
+			<Declaration>@property (nonatomic, strong) NSArray *loadBalancerNames</Declaration>
 			
 			
-			<Anchor>//api/name/messageId</Anchor>
+			<Anchor>//api/name/loadBalancerNames</Anchor>
             <NodeRef refid="689"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSSESSendRawEmailResponse/messageId</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The unique message identifier returned from the &lt;code&gt;SendRawEmail&lt;/code&gt; action. &lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSESModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSElasticLoadBalancingRemoveTagsInput/loadBalancerNames</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSElasticLoadBalancingModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *messageId</Declaration>
+			<Declaration>@property (nonatomic, strong) NSArray *loadBalancerNames</Declaration>
 			
 			
-			<Anchor>//api/name/messageId</Anchor>
+			<Anchor>//api/name/loadBalancerNames</Anchor>
             <NodeRef refid="689"/>
 		</Token>
 		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSElasticLoadBalancingRemoveTagsInput/setTags:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSElasticLoadBalancingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray *tags</Declaration>
+			
+			
+			<Anchor>//api/name/tags</Anchor>
+            <NodeRef refid="689"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSElasticLoadBalancingRemoveTagsInput/tags</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSElasticLoadBalancingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray *tags</Declaration>
+			
+			
+			<Anchor>//api/name/tags</Anchor>
+            <NodeRef refid="689"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSElasticLoadBalancingRemoveTagsInput/tags</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSElasticLoadBalancingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray *tags</Declaration>
+			
+			
+			<Anchor>//api/name/tags</Anchor>
+            <NodeRef refid="689"/>
+		</Token>
+		
+        
         
 	</File>
 </Tokens>

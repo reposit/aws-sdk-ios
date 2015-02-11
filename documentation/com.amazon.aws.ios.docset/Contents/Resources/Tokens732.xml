@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSSNSListSubscriptionsResponse.html">
+	<File path="Classes/AWSLogger.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSSNSListSubscriptionsResponse</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Response for ListSubscriptions action&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSNSModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSLogger</TokenIdentifier>
+			<Abstract type="html">AWSLogger is an utility class that handles logging to the console.
+You can specify the log level to control how verbose the output will be.</Abstract>
+			<DeclaredIn>AWSLogging.h</DeclaredIn>
             
 			
 			<NodeRef refid="732"/>
@@ -13,77 +14,74 @@
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSSNSListSubscriptionsResponse/setNextToken:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Token to pass along to the next &lt;code&gt;ListSubscriptions&lt;/code&gt; request. This element is returned if there are more subscriptions to retrieve.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSNSModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSLogger/setLogLevel:</TokenIdentifier>
+			<Abstract type="html">The log level setting. The default is AWSLogLevelNone.</Abstract>
+			<DeclaredIn>AWSLogging.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *nextToken</Declaration>
+			<Declaration>@property (atomic, assign) AWSLogLevel logLevel</Declaration>
 			
 			
-			<Anchor>//api/name/nextToken</Anchor>
+			<Anchor>//api/name/logLevel</Anchor>
             <NodeRef refid="732"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSSNSListSubscriptionsResponse/nextToken</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Token to pass along to the next &lt;code&gt;ListSubscriptions&lt;/code&gt; request. This element is returned if there are more subscriptions to retrieve.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSNSModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSLogger/logLevel</TokenIdentifier>
+			<Abstract type="html">The log level setting. The default is AWSLogLevelNone.</Abstract>
+			<DeclaredIn>AWSLogging.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *nextToken</Declaration>
+			<Declaration>@property (atomic, assign) AWSLogLevel logLevel</Declaration>
 			
 			
-			<Anchor>//api/name/nextToken</Anchor>
+			<Anchor>//api/name/logLevel</Anchor>
             <NodeRef refid="732"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSSNSListSubscriptionsResponse/nextToken</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Token to pass along to the next &lt;code&gt;ListSubscriptions&lt;/code&gt; request. This element is returned if there are more subscriptions to retrieve.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSNSModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSLogger/logLevel</TokenIdentifier>
+			<Abstract type="html">The log level setting. The default is AWSLogLevelNone.</Abstract>
+			<DeclaredIn>AWSLogging.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *nextToken</Declaration>
+			<Declaration>@property (atomic, assign) AWSLogLevel logLevel</Declaration>
 			
 			
-			<Anchor>//api/name/nextToken</Anchor>
+			<Anchor>//api/name/logLevel</Anchor>
             <NodeRef refid="732"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSSNSListSubscriptionsResponse/setSubscriptions:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;A list of subscriptions.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSNSModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/clm/AWSLogger/defaultLogger</TokenIdentifier>
+			<Abstract type="html">Returns the shared logger object.</Abstract>
+			<DeclaredIn>AWSLogging.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSArray *subscriptions</Declaration>
+			<Declaration>+ (instancetype)defaultLogger</Declaration>
 			
-			
-			<Anchor>//api/name/subscriptions</Anchor>
+			<ReturnValue><Abstract type="html">The shared logger object.</Abstract></ReturnValue>
+			<Anchor>//api/name/defaultLogger</Anchor>
             <NodeRef refid="732"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSSNSListSubscriptionsResponse/subscriptions</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;A list of subscriptions.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSNSModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSLogger/log:format:</TokenIdentifier>
+			<Abstract type="html">Prints out the formatted logs to the console.</Abstract>
+			<DeclaredIn>AWSLogging.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSArray *subscriptions</Declaration>
+			<Declaration>- (void)log:(AWSLogLevel)logLevel format:(NSString *)fmt, ...</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>logLevel</Name>
+					<Abstract type="html">The level of this log.</Abstract>
+				</Parameter><Parameter>
+					<Name>fmt</Name>
+					<Abstract type="html">The formatted string to log.</Abstract>
+				</Parameter>
+			</Parameters>
 			
-			
-			<Anchor>//api/name/subscriptions</Anchor>
+			<Anchor>//api/name/log:format:</Anchor>
             <NodeRef refid="732"/>
 		</Token>
 		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSSNSListSubscriptionsResponse/subscriptions</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;A list of subscriptions.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSNSModel.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSArray *subscriptions</Declaration>
-			
-			
-			<Anchor>//api/name/subscriptions</Anchor>
-            <NodeRef refid="732"/>
-		</Token>
-		
+        
         
 	</File>
 </Tokens>

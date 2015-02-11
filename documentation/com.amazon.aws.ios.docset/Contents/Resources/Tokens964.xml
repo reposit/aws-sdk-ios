@@ -1,67 +1,55 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Constants/AWSSESErrorType.html">
+	<File path="Classes/AWSSQSChangeMessageVisibilityBatchResultEntry.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/c/tdef/AWSSESErrorType</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSSESModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSSQSChangeMessageVisibilityBatchResultEntry</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Encloses the id of an entry in &lt;a&gt;ChangeMessageVisibilityBatch&lt;/a&gt;.&lt;/p&gt;
+Required parameters: [Id]</Abstract>
+			<DeclaredIn>AWSSQSModel.h</DeclaredIn>
             
 			
 			<NodeRef refid="964"/>
 		</Token>
 		
 		
-        
-        <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSSESErrorUnknown</TokenIdentifier>
-            <Abstract type="html"></Abstract>
-            <Declaration>AWSSESErrorUnknown</Declaration>
-            
-            <DeclaredIn>AWSSESModel.h</DeclaredIn>
-            
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSQSChangeMessageVisibilityBatchResultEntry/setIdentifier:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Represents a message whose visibility timeout has been changed successfully.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSQSModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *identifier</Declaration>
+			
+			
+			<Anchor>//api/name/identifier</Anchor>
             <NodeRef refid="964"/>
-        </Token>
-        
-        <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSSESErrorIncompleteSignature</TokenIdentifier>
-            <Abstract type="html"></Abstract>
-            <Declaration>AWSSESErrorIncompleteSignature</Declaration>
-            
-            <DeclaredIn>AWSSESModel.h</DeclaredIn>
-            
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSQSChangeMessageVisibilityBatchResultEntry/identifier</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Represents a message whose visibility timeout has been changed successfully.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSQSModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *identifier</Declaration>
+			
+			
+			<Anchor>//api/name/identifier</Anchor>
             <NodeRef refid="964"/>
-        </Token>
-        
-        <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSSESErrorInvalidClientTokenId</TokenIdentifier>
-            <Abstract type="html"></Abstract>
-            <Declaration>AWSSESErrorInvalidClientTokenId</Declaration>
-            
-            <DeclaredIn>AWSSESModel.h</DeclaredIn>
-            
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSSQSChangeMessageVisibilityBatchResultEntry/identifier</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Represents a message whose visibility timeout has been changed successfully.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSQSModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *identifier</Declaration>
+			
+			
+			<Anchor>//api/name/identifier</Anchor>
             <NodeRef refid="964"/>
-        </Token>
+		</Token>
+		
         
-        <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSSESErrorMissingAuthenticationToken</TokenIdentifier>
-            <Abstract type="html"></Abstract>
-            <Declaration>AWSSESErrorMissingAuthenticationToken</Declaration>
-            
-            <DeclaredIn>AWSSESModel.h</DeclaredIn>
-            
-            <NodeRef refid="964"/>
-        </Token>
-        
-        <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSSESErrorMessageRejected</TokenIdentifier>
-            <Abstract type="html"></Abstract>
-            <Declaration>AWSSESErrorMessageRejected</Declaration>
-            
-            <DeclaredIn>AWSSESModel.h</DeclaredIn>
-            
-            <NodeRef refid="964"/>
-        </Token>
         
 	</File>
 </Tokens>

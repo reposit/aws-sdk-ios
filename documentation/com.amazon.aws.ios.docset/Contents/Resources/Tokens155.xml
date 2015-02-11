@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSDynamoDBDeleteRequest.html">
+	<File path="Classes/AWSCognitoSyncDeleteDatasetRequest.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSDynamoDBDeleteRequest</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Represents a request to perform a &lt;i&gt;DeleteItem&lt;/i&gt; operation on an item.&lt;/p&gt;
-Required parameters: [Key]</Abstract>
-			<DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSCognitoSyncDeleteDatasetRequest</TokenIdentifier>
+			<Abstract type="html">A request to delete the specific dataset.
+Required parameters: [IdentityPoolId, IdentityId, DatasetName]</Abstract>
+			<DeclaredIn>AWSCognitoSyncModel.h</DeclaredIn>
             
 			
 			<NodeRef refid="155"/>
@@ -14,41 +14,114 @@ Required parameters: [Key]</Abstract>
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSDynamoDBDeleteRequest/setKey:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;A map of attribute name to attribute values, representing the primary key of the item to delete. All of the table&apos;s primary key attributes must be specified, and their data types must match those of the table&apos;s key schema.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoSyncDeleteDatasetRequest/setDatasetName:</TokenIdentifier>
+			<Abstract type="html">A string of up to 128 characters. Allowed characters are a-z, A-Z, 0-9, &apos;_&apos; (underscore), &apos;-&apos; (dash), and &apos;.&apos; (dot).</Abstract>
+			<DeclaredIn>AWSCognitoSyncModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSDictionary *key</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *datasetName</Declaration>
 			
 			
-			<Anchor>//api/name/key</Anchor>
+			<Anchor>//api/name/datasetName</Anchor>
             <NodeRef refid="155"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSDynamoDBDeleteRequest/key</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;A map of attribute name to attribute values, representing the primary key of the item to delete. All of the table&apos;s primary key attributes must be specified, and their data types must match those of the table&apos;s key schema.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoSyncDeleteDatasetRequest/datasetName</TokenIdentifier>
+			<Abstract type="html">A string of up to 128 characters. Allowed characters are a-z, A-Z, 0-9, &apos;_&apos; (underscore), &apos;-&apos; (dash), and &apos;.&apos; (dot).</Abstract>
+			<DeclaredIn>AWSCognitoSyncModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSDictionary *key</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *datasetName</Declaration>
 			
 			
-			<Anchor>//api/name/key</Anchor>
+			<Anchor>//api/name/datasetName</Anchor>
             <NodeRef refid="155"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSDynamoDBDeleteRequest/key</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;A map of attribute name to attribute values, representing the primary key of the item to delete. All of the table&apos;s primary key attributes must be specified, and their data types must match those of the table&apos;s key schema.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSCognitoSyncDeleteDatasetRequest/datasetName</TokenIdentifier>
+			<Abstract type="html">A string of up to 128 characters. Allowed characters are a-z, A-Z, 0-9, &apos;_&apos; (underscore), &apos;-&apos; (dash), and &apos;.&apos; (dot).</Abstract>
+			<DeclaredIn>AWSCognitoSyncModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSDictionary *key</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *datasetName</Declaration>
 			
 			
-			<Anchor>//api/name/key</Anchor>
+			<Anchor>//api/name/datasetName</Anchor>
             <NodeRef refid="155"/>
 		</Token>
 		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoSyncDeleteDatasetRequest/setIdentityId:</TokenIdentifier>
+			<Abstract type="html">A name-spaced GUID (for example, us-east-1:23EC4050-6AEA-7089-A2DD-08002EXAMPLE) created by Amazon Cognito. GUID generation is unique within a region.</Abstract>
+			<DeclaredIn>AWSCognitoSyncModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *identityId</Declaration>
+			
+			
+			<Anchor>//api/name/identityId</Anchor>
+            <NodeRef refid="155"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoSyncDeleteDatasetRequest/identityId</TokenIdentifier>
+			<Abstract type="html">A name-spaced GUID (for example, us-east-1:23EC4050-6AEA-7089-A2DD-08002EXAMPLE) created by Amazon Cognito. GUID generation is unique within a region.</Abstract>
+			<DeclaredIn>AWSCognitoSyncModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *identityId</Declaration>
+			
+			
+			<Anchor>//api/name/identityId</Anchor>
+            <NodeRef refid="155"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSCognitoSyncDeleteDatasetRequest/identityId</TokenIdentifier>
+			<Abstract type="html">A name-spaced GUID (for example, us-east-1:23EC4050-6AEA-7089-A2DD-08002EXAMPLE) created by Amazon Cognito. GUID generation is unique within a region.</Abstract>
+			<DeclaredIn>AWSCognitoSyncModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *identityId</Declaration>
+			
+			
+			<Anchor>//api/name/identityId</Anchor>
+            <NodeRef refid="155"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoSyncDeleteDatasetRequest/setIdentityPoolId:</TokenIdentifier>
+			<Abstract type="html">A name-spaced GUID (for example, us-east-1:23EC4050-6AEA-7089-A2DD-08002EXAMPLE) created by Amazon Cognito. GUID generation is unique within a region.</Abstract>
+			<DeclaredIn>AWSCognitoSyncModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *identityPoolId</Declaration>
+			
+			
+			<Anchor>//api/name/identityPoolId</Anchor>
+            <NodeRef refid="155"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoSyncDeleteDatasetRequest/identityPoolId</TokenIdentifier>
+			<Abstract type="html">A name-spaced GUID (for example, us-east-1:23EC4050-6AEA-7089-A2DD-08002EXAMPLE) created by Amazon Cognito. GUID generation is unique within a region.</Abstract>
+			<DeclaredIn>AWSCognitoSyncModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *identityPoolId</Declaration>
+			
+			
+			<Anchor>//api/name/identityPoolId</Anchor>
+            <NodeRef refid="155"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSCognitoSyncDeleteDatasetRequest/identityPoolId</TokenIdentifier>
+			<Abstract type="html">A name-spaced GUID (for example, us-east-1:23EC4050-6AEA-7089-A2DD-08002EXAMPLE) created by Amazon Cognito. GUID generation is unique within a region.</Abstract>
+			<DeclaredIn>AWSCognitoSyncModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *identityPoolId</Declaration>
+			
+			
+			<Anchor>//api/name/identityPoolId</Anchor>
+            <NodeRef refid="155"/>
+		</Token>
+		
+        
         
 	</File>
 </Tokens>

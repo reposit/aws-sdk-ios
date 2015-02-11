@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSSimpleDBBatchDeleteAttributesRequest.html">
+	<File path="Classes/AWSS3Grant.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSSimpleDBBatchDeleteAttributesRequest</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSS3Grant</TokenIdentifier>
 			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSSimpleDBModel.h</DeclaredIn>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
             
 			
 			<NodeRef refid="803"/>
@@ -13,77 +13,78 @@
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSSimpleDBBatchDeleteAttributesRequest/setDomainName:</TokenIdentifier>
-			<Abstract type="html">The name of the domain in which the attributes are being deleted.</Abstract>
-			<DeclaredIn>AWSSimpleDBModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3Grant/setGrantee:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *domainName</Declaration>
+			<Declaration>@property (nonatomic, strong) AWSS3Grantee *grantee</Declaration>
 			
 			
-			<Anchor>//api/name/domainName</Anchor>
+			<Anchor>//api/name/grantee</Anchor>
             <NodeRef refid="803"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSSimpleDBBatchDeleteAttributesRequest/domainName</TokenIdentifier>
-			<Abstract type="html">The name of the domain in which the attributes are being deleted.</Abstract>
-			<DeclaredIn>AWSSimpleDBModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3Grant/grantee</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *domainName</Declaration>
+			<Declaration>@property (nonatomic, strong) AWSS3Grantee *grantee</Declaration>
 			
 			
-			<Anchor>//api/name/domainName</Anchor>
+			<Anchor>//api/name/grantee</Anchor>
             <NodeRef refid="803"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSSimpleDBBatchDeleteAttributesRequest/domainName</TokenIdentifier>
-			<Abstract type="html">The name of the domain in which the attributes are being deleted.</Abstract>
-			<DeclaredIn>AWSSimpleDBModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSS3Grant/grantee</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *domainName</Declaration>
+			<Declaration>@property (nonatomic, strong) AWSS3Grantee *grantee</Declaration>
 			
 			
-			<Anchor>//api/name/domainName</Anchor>
+			<Anchor>//api/name/grantee</Anchor>
             <NodeRef refid="803"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSSimpleDBBatchDeleteAttributesRequest/setItems:</TokenIdentifier>
-			<Abstract type="html">A list of items on which to perform the operation.</Abstract>
-			<DeclaredIn>AWSSimpleDBModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3Grant/setPermission:</TokenIdentifier>
+			<Abstract type="html">Specifies the permission given to the grantee.</Abstract>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSArray *items</Declaration>
+			<Declaration>@property (nonatomic, assign) AWSS3Permission permission</Declaration>
 			
 			
-			<Anchor>//api/name/items</Anchor>
+			<Anchor>//api/name/permission</Anchor>
             <NodeRef refid="803"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSSimpleDBBatchDeleteAttributesRequest/items</TokenIdentifier>
-			<Abstract type="html">A list of items on which to perform the operation.</Abstract>
-			<DeclaredIn>AWSSimpleDBModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3Grant/permission</TokenIdentifier>
+			<Abstract type="html">Specifies the permission given to the grantee.</Abstract>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSArray *items</Declaration>
+			<Declaration>@property (nonatomic, assign) AWSS3Permission permission</Declaration>
 			
 			
-			<Anchor>//api/name/items</Anchor>
+			<Anchor>//api/name/permission</Anchor>
             <NodeRef refid="803"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSSimpleDBBatchDeleteAttributesRequest/items</TokenIdentifier>
-			<Abstract type="html">A list of items on which to perform the operation.</Abstract>
-			<DeclaredIn>AWSSimpleDBModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSS3Grant/permission</TokenIdentifier>
+			<Abstract type="html">Specifies the permission given to the grantee.</Abstract>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSArray *items</Declaration>
+			<Declaration>@property (nonatomic, assign) AWSS3Permission permission</Declaration>
 			
 			
-			<Anchor>//api/name/items</Anchor>
+			<Anchor>//api/name/permission</Anchor>
             <NodeRef refid="803"/>
 		</Token>
 		
+        
         
 	</File>
 </Tokens>

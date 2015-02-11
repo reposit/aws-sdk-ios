@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSSQSDeleteMessageRequest.html">
+	<File path="Classes/AWSS3DeleteBucketRequest.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSSQSDeleteMessageRequest</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSS3DeleteBucketRequest</TokenIdentifier>
 			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSSQSModel.h</DeclaredIn>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
             
 			
 			<NodeRef refid="763"/>
@@ -13,77 +13,42 @@
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSSQSDeleteMessageRequest/setQueueUrl:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The URL of the Amazon SQS queue to take action on.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSQSModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3DeleteBucketRequest/setBucket:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *queueUrl</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *bucket</Declaration>
 			
 			
-			<Anchor>//api/name/queueUrl</Anchor>
+			<Anchor>//api/name/bucket</Anchor>
             <NodeRef refid="763"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSSQSDeleteMessageRequest/queueUrl</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The URL of the Amazon SQS queue to take action on.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSQSModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3DeleteBucketRequest/bucket</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *queueUrl</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *bucket</Declaration>
 			
 			
-			<Anchor>//api/name/queueUrl</Anchor>
+			<Anchor>//api/name/bucket</Anchor>
             <NodeRef refid="763"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSSQSDeleteMessageRequest/queueUrl</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The URL of the Amazon SQS queue to take action on.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSQSModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSS3DeleteBucketRequest/bucket</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *queueUrl</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *bucket</Declaration>
 			
 			
-			<Anchor>//api/name/queueUrl</Anchor>
+			<Anchor>//api/name/bucket</Anchor>
             <NodeRef refid="763"/>
 		</Token>
 		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSSQSDeleteMessageRequest/setReceiptHandle:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The receipt handle associated with the message to delete.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSQSModel.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *receiptHandle</Declaration>
-			
-			
-			<Anchor>//api/name/receiptHandle</Anchor>
-            <NodeRef refid="763"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSSQSDeleteMessageRequest/receiptHandle</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The receipt handle associated with the message to delete.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSQSModel.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *receiptHandle</Declaration>
-			
-			
-			<Anchor>//api/name/receiptHandle</Anchor>
-            <NodeRef refid="763"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSSQSDeleteMessageRequest/receiptHandle</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The receipt handle associated with the message to delete.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSQSModel.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *receiptHandle</Declaration>
-			
-			
-			<Anchor>//api/name/receiptHandle</Anchor>
-            <NodeRef refid="763"/>
-		</Token>
-		
+        
         
 	</File>
 </Tokens>

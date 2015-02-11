@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSEC2InstanceStatusSummary.html">
+	<File path="Classes/AWSEC2DescribeVpnGatewaysResult.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSEC2InstanceStatusSummary</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Describes the status of an instance.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSEC2DescribeVpnGatewaysResult</TokenIdentifier>
+			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
             
 			
@@ -13,77 +13,42 @@
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2InstanceStatusSummary/setDetails:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The system instance health or application instance health.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DescribeVpnGatewaysResult/setVpnGateways:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Information about one or more virtual private gateways.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSArray *details</Declaration>
+			<Declaration>@property (nonatomic, strong) NSArray *vpnGateways</Declaration>
 			
 			
-			<Anchor>//api/name/details</Anchor>
+			<Anchor>//api/name/vpnGateways</Anchor>
             <NodeRef refid="433"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2InstanceStatusSummary/details</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The system instance health or application instance health.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DescribeVpnGatewaysResult/vpnGateways</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Information about one or more virtual private gateways.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSArray *details</Declaration>
+			<Declaration>@property (nonatomic, strong) NSArray *vpnGateways</Declaration>
 			
 			
-			<Anchor>//api/name/details</Anchor>
+			<Anchor>//api/name/vpnGateways</Anchor>
             <NodeRef refid="433"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2InstanceStatusSummary/details</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The system instance health or application instance health.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2DescribeVpnGatewaysResult/vpnGateways</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Information about one or more virtual private gateways.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSArray *details</Declaration>
+			<Declaration>@property (nonatomic, strong) NSArray *vpnGateways</Declaration>
 			
 			
-			<Anchor>//api/name/details</Anchor>
+			<Anchor>//api/name/vpnGateways</Anchor>
             <NodeRef refid="433"/>
 		</Token>
 		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2InstanceStatusSummary/setStatus:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The status.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, assign) AWSEC2SummaryStatus status</Declaration>
-			
-			
-			<Anchor>//api/name/status</Anchor>
-            <NodeRef refid="433"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2InstanceStatusSummary/status</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The status.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, assign) AWSEC2SummaryStatus status</Declaration>
-			
-			
-			<Anchor>//api/name/status</Anchor>
-            <NodeRef refid="433"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2InstanceStatusSummary/status</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The status.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, assign) AWSEC2SummaryStatus status</Declaration>
-			
-			
-			<Anchor>//api/name/status</Anchor>
-            <NodeRef refid="433"/>
-		</Token>
-		
+        
         
 	</File>
 </Tokens>

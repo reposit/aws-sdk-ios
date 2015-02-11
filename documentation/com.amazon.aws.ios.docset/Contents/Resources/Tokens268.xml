@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSEC2CreateVpcPeeringConnectionRequest.html">
+	<File path="Classes/AWSEC2AvailabilityZone.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSEC2CreateVpcPeeringConnectionRequest</TokenIdentifier>
-			<Abstract type="html"></Abstract>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSEC2AvailabilityZone</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Describes an Availability Zone.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
             
 			
@@ -13,113 +13,150 @@
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2CreateVpcPeeringConnectionRequest/setPeerOwnerId:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The AWS account ID of the owner of the peer VPC.&lt;/p&gt;&lt;p&gt;Default: Your AWS account ID&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2AvailabilityZone/setMessages:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Any messages about the Availability Zone.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *peerOwnerId</Declaration>
+			<Declaration>@property (nonatomic, strong) NSArray *messages</Declaration>
 			
 			
-			<Anchor>//api/name/peerOwnerId</Anchor>
+			<Anchor>//api/name/messages</Anchor>
             <NodeRef refid="268"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2CreateVpcPeeringConnectionRequest/peerOwnerId</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The AWS account ID of the owner of the peer VPC.&lt;/p&gt;&lt;p&gt;Default: Your AWS account ID&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2AvailabilityZone/messages</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Any messages about the Availability Zone.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *peerOwnerId</Declaration>
+			<Declaration>@property (nonatomic, strong) NSArray *messages</Declaration>
 			
 			
-			<Anchor>//api/name/peerOwnerId</Anchor>
+			<Anchor>//api/name/messages</Anchor>
             <NodeRef refid="268"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2CreateVpcPeeringConnectionRequest/peerOwnerId</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The AWS account ID of the owner of the peer VPC.&lt;/p&gt;&lt;p&gt;Default: Your AWS account ID&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2AvailabilityZone/messages</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Any messages about the Availability Zone.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *peerOwnerId</Declaration>
+			<Declaration>@property (nonatomic, strong) NSArray *messages</Declaration>
 			
 			
-			<Anchor>//api/name/peerOwnerId</Anchor>
+			<Anchor>//api/name/messages</Anchor>
             <NodeRef refid="268"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2CreateVpcPeeringConnectionRequest/setPeerVpcId:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The ID of the VPC with which you are creating the VPC peering connection.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2AvailabilityZone/setRegionName:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The name of the region.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *peerVpcId</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *regionName</Declaration>
 			
 			
-			<Anchor>//api/name/peerVpcId</Anchor>
+			<Anchor>//api/name/regionName</Anchor>
             <NodeRef refid="268"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2CreateVpcPeeringConnectionRequest/peerVpcId</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The ID of the VPC with which you are creating the VPC peering connection.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2AvailabilityZone/regionName</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The name of the region.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *peerVpcId</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *regionName</Declaration>
 			
 			
-			<Anchor>//api/name/peerVpcId</Anchor>
+			<Anchor>//api/name/regionName</Anchor>
             <NodeRef refid="268"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2CreateVpcPeeringConnectionRequest/peerVpcId</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The ID of the VPC with which you are creating the VPC peering connection.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2AvailabilityZone/regionName</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The name of the region.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *peerVpcId</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *regionName</Declaration>
 			
 			
-			<Anchor>//api/name/peerVpcId</Anchor>
+			<Anchor>//api/name/regionName</Anchor>
             <NodeRef refid="268"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2CreateVpcPeeringConnectionRequest/setVpcId:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The ID of the requester VPC.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2AvailabilityZone/setState:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The state of the Availability Zone (&lt;code&gt;available&lt;/code&gt; | &lt;code&gt;impaired&lt;/code&gt; | &lt;code&gt;unavailable&lt;/code&gt;).&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *vpcId</Declaration>
+			<Declaration>@property (nonatomic, assign) AWSEC2AvailabilityZoneState state</Declaration>
 			
 			
-			<Anchor>//api/name/vpcId</Anchor>
+			<Anchor>//api/name/state</Anchor>
             <NodeRef refid="268"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2CreateVpcPeeringConnectionRequest/vpcId</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The ID of the requester VPC.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2AvailabilityZone/state</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The state of the Availability Zone (&lt;code&gt;available&lt;/code&gt; | &lt;code&gt;impaired&lt;/code&gt; | &lt;code&gt;unavailable&lt;/code&gt;).&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *vpcId</Declaration>
+			<Declaration>@property (nonatomic, assign) AWSEC2AvailabilityZoneState state</Declaration>
 			
 			
-			<Anchor>//api/name/vpcId</Anchor>
+			<Anchor>//api/name/state</Anchor>
             <NodeRef refid="268"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2CreateVpcPeeringConnectionRequest/vpcId</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The ID of the requester VPC.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2AvailabilityZone/state</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The state of the Availability Zone (&lt;code&gt;available&lt;/code&gt; | &lt;code&gt;impaired&lt;/code&gt; | &lt;code&gt;unavailable&lt;/code&gt;).&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *vpcId</Declaration>
+			<Declaration>@property (nonatomic, assign) AWSEC2AvailabilityZoneState state</Declaration>
 			
 			
-			<Anchor>//api/name/vpcId</Anchor>
+			<Anchor>//api/name/state</Anchor>
             <NodeRef refid="268"/>
 		</Token>
 		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2AvailabilityZone/setZoneName:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The name of the Availability Zone.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *zoneName</Declaration>
+			
+			
+			<Anchor>//api/name/zoneName</Anchor>
+            <NodeRef refid="268"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2AvailabilityZone/zoneName</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The name of the Availability Zone.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *zoneName</Declaration>
+			
+			
+			<Anchor>//api/name/zoneName</Anchor>
+            <NodeRef refid="268"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2AvailabilityZone/zoneName</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The name of the Availability Zone.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *zoneName</Declaration>
+			
+			
+			<Anchor>//api/name/zoneName</Anchor>
+            <NodeRef refid="268"/>
+		</Token>
+		
+        
         
 	</File>
 </Tokens>

@@ -1,47 +1,54 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Constants/AWSS3ExpirationStatus.html">
+	<File path="Classes/AWSSNSPublishResponse.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/c/tdef/AWSS3ExpirationStatus</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSSNSPublishResponse</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Response for Publish action.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSNSModel.h</DeclaredIn>
             
 			
 			<NodeRef refid="947"/>
 		</Token>
 		
 		
-        
-        <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSS3ExpirationStatusUnknown</TokenIdentifier>
-            <Abstract type="html"></Abstract>
-            <Declaration>AWSS3ExpirationStatusUnknown</Declaration>
-            
-            <DeclaredIn>AWSS3Model.h</DeclaredIn>
-            
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSNSPublishResponse/setMessageId:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Unique identifier assigned to the published message.&lt;/p&gt;&lt;p&gt;Length Constraint: Maximum 100 characters&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSNSModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *messageId</Declaration>
+			
+			
+			<Anchor>//api/name/messageId</Anchor>
             <NodeRef refid="947"/>
-        </Token>
-        
-        <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSS3ExpirationStatusEnabled</TokenIdentifier>
-            <Abstract type="html"></Abstract>
-            <Declaration>AWSS3ExpirationStatusEnabled</Declaration>
-            
-            <DeclaredIn>AWSS3Model.h</DeclaredIn>
-            
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSNSPublishResponse/messageId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Unique identifier assigned to the published message.&lt;/p&gt;&lt;p&gt;Length Constraint: Maximum 100 characters&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSNSModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *messageId</Declaration>
+			
+			
+			<Anchor>//api/name/messageId</Anchor>
             <NodeRef refid="947"/>
-        </Token>
-        
-        <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSS3ExpirationStatusDisabled</TokenIdentifier>
-            <Abstract type="html"></Abstract>
-            <Declaration>AWSS3ExpirationStatusDisabled</Declaration>
-            
-            <DeclaredIn>AWSS3Model.h</DeclaredIn>
-            
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSSNSPublishResponse/messageId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Unique identifier assigned to the published message.&lt;/p&gt;&lt;p&gt;Length Constraint: Maximum 100 characters&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSNSModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *messageId</Declaration>
+			
+			
+			<Anchor>//api/name/messageId</Anchor>
             <NodeRef refid="947"/>
-        </Token>
+		</Token>
+		
+        
         
 	</File>
 </Tokens>

@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSDynamoDBLocalSecondaryIndexDescription.html">
+	<File path="Classes/AWSCognitoSyncListRecordsResponse.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSDynamoDBLocalSecondaryIndexDescription</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Represents the properties of a local secondary index.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSCognitoSyncListRecordsResponse</TokenIdentifier>
+			<Abstract type="html">Returned for a successful ListRecordsRequest.</Abstract>
+			<DeclaredIn>AWSCognitoSyncModel.h</DeclaredIn>
             
 			
 			<NodeRef refid="172"/>
@@ -13,185 +13,330 @@
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSDynamoDBLocalSecondaryIndexDescription/setIndexName:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Represents the name of the local secondary index.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoSyncListRecordsResponse/setCount:</TokenIdentifier>
+			<Abstract type="html">Total number of records.</Abstract>
+			<DeclaredIn>AWSCognitoSyncModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *indexName</Declaration>
+			<Declaration>@property (nonatomic, strong) NSNumber *count</Declaration>
 			
 			
-			<Anchor>//api/name/indexName</Anchor>
+			<Anchor>//api/name/count</Anchor>
             <NodeRef refid="172"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSDynamoDBLocalSecondaryIndexDescription/indexName</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Represents the name of the local secondary index.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoSyncListRecordsResponse/count</TokenIdentifier>
+			<Abstract type="html">Total number of records.</Abstract>
+			<DeclaredIn>AWSCognitoSyncModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *indexName</Declaration>
+			<Declaration>@property (nonatomic, strong) NSNumber *count</Declaration>
 			
 			
-			<Anchor>//api/name/indexName</Anchor>
+			<Anchor>//api/name/count</Anchor>
             <NodeRef refid="172"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSDynamoDBLocalSecondaryIndexDescription/indexName</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Represents the name of the local secondary index.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSCognitoSyncListRecordsResponse/count</TokenIdentifier>
+			<Abstract type="html">Total number of records.</Abstract>
+			<DeclaredIn>AWSCognitoSyncModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *indexName</Declaration>
+			<Declaration>@property (nonatomic, strong) NSNumber *count</Declaration>
 			
 			
-			<Anchor>//api/name/indexName</Anchor>
+			<Anchor>//api/name/count</Anchor>
             <NodeRef refid="172"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSDynamoDBLocalSecondaryIndexDescription/setIndexSizeBytes:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The total size of the specified index, in bytes. DynamoDB updates this value approximately every six hours. Recent changes might not be reflected in this value. &lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoSyncListRecordsResponse/setDatasetDeletedAfterRequestedSyncCount:</TokenIdentifier>
+			<Abstract type="html">A boolean value specifying whether to delete the dataset locally.</Abstract>
+			<DeclaredIn>AWSCognitoSyncModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSNumber *indexSizeBytes</Declaration>
+			<Declaration>@property (nonatomic, strong) NSNumber *datasetDeletedAfterRequestedSyncCount</Declaration>
 			
 			
-			<Anchor>//api/name/indexSizeBytes</Anchor>
+			<Anchor>//api/name/datasetDeletedAfterRequestedSyncCount</Anchor>
             <NodeRef refid="172"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSDynamoDBLocalSecondaryIndexDescription/indexSizeBytes</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The total size of the specified index, in bytes. DynamoDB updates this value approximately every six hours. Recent changes might not be reflected in this value. &lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoSyncListRecordsResponse/datasetDeletedAfterRequestedSyncCount</TokenIdentifier>
+			<Abstract type="html">A boolean value specifying whether to delete the dataset locally.</Abstract>
+			<DeclaredIn>AWSCognitoSyncModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSNumber *indexSizeBytes</Declaration>
+			<Declaration>@property (nonatomic, strong) NSNumber *datasetDeletedAfterRequestedSyncCount</Declaration>
 			
 			
-			<Anchor>//api/name/indexSizeBytes</Anchor>
+			<Anchor>//api/name/datasetDeletedAfterRequestedSyncCount</Anchor>
             <NodeRef refid="172"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSDynamoDBLocalSecondaryIndexDescription/indexSizeBytes</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The total size of the specified index, in bytes. DynamoDB updates this value approximately every six hours. Recent changes might not be reflected in this value. &lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSCognitoSyncListRecordsResponse/datasetDeletedAfterRequestedSyncCount</TokenIdentifier>
+			<Abstract type="html">A boolean value specifying whether to delete the dataset locally.</Abstract>
+			<DeclaredIn>AWSCognitoSyncModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSNumber *indexSizeBytes</Declaration>
+			<Declaration>@property (nonatomic, strong) NSNumber *datasetDeletedAfterRequestedSyncCount</Declaration>
 			
 			
-			<Anchor>//api/name/indexSizeBytes</Anchor>
+			<Anchor>//api/name/datasetDeletedAfterRequestedSyncCount</Anchor>
             <NodeRef refid="172"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSDynamoDBLocalSecondaryIndexDescription/setItemCount:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The number of items in the specified index. DynamoDB updates this value approximately every six hours. Recent changes might not be reflected in this value. &lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoSyncListRecordsResponse/setDatasetExists:</TokenIdentifier>
+			<Abstract type="html">Indicates whether the dataset exists.</Abstract>
+			<DeclaredIn>AWSCognitoSyncModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSNumber *itemCount</Declaration>
+			<Declaration>@property (nonatomic, strong) NSNumber *datasetExists</Declaration>
 			
 			
-			<Anchor>//api/name/itemCount</Anchor>
+			<Anchor>//api/name/datasetExists</Anchor>
             <NodeRef refid="172"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSDynamoDBLocalSecondaryIndexDescription/itemCount</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The number of items in the specified index. DynamoDB updates this value approximately every six hours. Recent changes might not be reflected in this value. &lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoSyncListRecordsResponse/datasetExists</TokenIdentifier>
+			<Abstract type="html">Indicates whether the dataset exists.</Abstract>
+			<DeclaredIn>AWSCognitoSyncModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSNumber *itemCount</Declaration>
+			<Declaration>@property (nonatomic, strong) NSNumber *datasetExists</Declaration>
 			
 			
-			<Anchor>//api/name/itemCount</Anchor>
+			<Anchor>//api/name/datasetExists</Anchor>
             <NodeRef refid="172"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSDynamoDBLocalSecondaryIndexDescription/itemCount</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The number of items in the specified index. DynamoDB updates this value approximately every six hours. Recent changes might not be reflected in this value. &lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSCognitoSyncListRecordsResponse/datasetExists</TokenIdentifier>
+			<Abstract type="html">Indicates whether the dataset exists.</Abstract>
+			<DeclaredIn>AWSCognitoSyncModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSNumber *itemCount</Declaration>
+			<Declaration>@property (nonatomic, strong) NSNumber *datasetExists</Declaration>
 			
 			
-			<Anchor>//api/name/itemCount</Anchor>
+			<Anchor>//api/name/datasetExists</Anchor>
             <NodeRef refid="172"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSDynamoDBLocalSecondaryIndexDescription/setKeySchema:</TokenIdentifier>
-			<Abstract type="html">The complete index key schema, which consists of one or more pairs of attribute names and key types (&lt;code&gt;HASH&lt;/code&gt; or &lt;code&gt;RANGE&lt;/code&gt;).</Abstract>
-			<DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoSyncListRecordsResponse/setDatasetSyncCount:</TokenIdentifier>
+			<Abstract type="html">Server sync count for this dataset.</Abstract>
+			<DeclaredIn>AWSCognitoSyncModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSArray *keySchema</Declaration>
+			<Declaration>@property (nonatomic, strong) NSNumber *datasetSyncCount</Declaration>
 			
 			
-			<Anchor>//api/name/keySchema</Anchor>
+			<Anchor>//api/name/datasetSyncCount</Anchor>
             <NodeRef refid="172"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSDynamoDBLocalSecondaryIndexDescription/keySchema</TokenIdentifier>
-			<Abstract type="html">The complete index key schema, which consists of one or more pairs of attribute names and key types (&lt;code&gt;HASH&lt;/code&gt; or &lt;code&gt;RANGE&lt;/code&gt;).</Abstract>
-			<DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoSyncListRecordsResponse/datasetSyncCount</TokenIdentifier>
+			<Abstract type="html">Server sync count for this dataset.</Abstract>
+			<DeclaredIn>AWSCognitoSyncModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSArray *keySchema</Declaration>
+			<Declaration>@property (nonatomic, strong) NSNumber *datasetSyncCount</Declaration>
 			
 			
-			<Anchor>//api/name/keySchema</Anchor>
+			<Anchor>//api/name/datasetSyncCount</Anchor>
             <NodeRef refid="172"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSDynamoDBLocalSecondaryIndexDescription/keySchema</TokenIdentifier>
-			<Abstract type="html">The complete index key schema, which consists of one or more pairs of attribute names and key types (&lt;code&gt;HASH&lt;/code&gt; or &lt;code&gt;RANGE&lt;/code&gt;).</Abstract>
-			<DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSCognitoSyncListRecordsResponse/datasetSyncCount</TokenIdentifier>
+			<Abstract type="html">Server sync count for this dataset.</Abstract>
+			<DeclaredIn>AWSCognitoSyncModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSArray *keySchema</Declaration>
+			<Declaration>@property (nonatomic, strong) NSNumber *datasetSyncCount</Declaration>
 			
 			
-			<Anchor>//api/name/keySchema</Anchor>
+			<Anchor>//api/name/datasetSyncCount</Anchor>
             <NodeRef refid="172"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSDynamoDBLocalSecondaryIndexDescription/setProjection:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Represents attributes that are copied (projected) from the table into an index. These are in addition to the primary key attributes and index key attributes, which are automatically projected.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoSyncListRecordsResponse/setLastModifiedBy:</TokenIdentifier>
+			<Abstract type="html">The user/device that made the last change to this record.</Abstract>
+			<DeclaredIn>AWSCognitoSyncModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) AWSDynamoDBProjection *projection</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *lastModifiedBy</Declaration>
 			
 			
-			<Anchor>//api/name/projection</Anchor>
+			<Anchor>//api/name/lastModifiedBy</Anchor>
             <NodeRef refid="172"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSDynamoDBLocalSecondaryIndexDescription/projection</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Represents attributes that are copied (projected) from the table into an index. These are in addition to the primary key attributes and index key attributes, which are automatically projected.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoSyncListRecordsResponse/lastModifiedBy</TokenIdentifier>
+			<Abstract type="html">The user/device that made the last change to this record.</Abstract>
+			<DeclaredIn>AWSCognitoSyncModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) AWSDynamoDBProjection *projection</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *lastModifiedBy</Declaration>
 			
 			
-			<Anchor>//api/name/projection</Anchor>
+			<Anchor>//api/name/lastModifiedBy</Anchor>
             <NodeRef refid="172"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSDynamoDBLocalSecondaryIndexDescription/projection</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Represents attributes that are copied (projected) from the table into an index. These are in addition to the primary key attributes and index key attributes, which are automatically projected.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSCognitoSyncListRecordsResponse/lastModifiedBy</TokenIdentifier>
+			<Abstract type="html">The user/device that made the last change to this record.</Abstract>
+			<DeclaredIn>AWSCognitoSyncModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) AWSDynamoDBProjection *projection</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *lastModifiedBy</Declaration>
 			
 			
-			<Anchor>//api/name/projection</Anchor>
+			<Anchor>//api/name/lastModifiedBy</Anchor>
             <NodeRef refid="172"/>
 		</Token>
 		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoSyncListRecordsResponse/setMergedDatasetNames:</TokenIdentifier>
+			<Abstract type="html">Names of merged datasets.</Abstract>
+			<DeclaredIn>AWSCognitoSyncModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray *mergedDatasetNames</Declaration>
+			
+			
+			<Anchor>//api/name/mergedDatasetNames</Anchor>
+            <NodeRef refid="172"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoSyncListRecordsResponse/mergedDatasetNames</TokenIdentifier>
+			<Abstract type="html">Names of merged datasets.</Abstract>
+			<DeclaredIn>AWSCognitoSyncModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray *mergedDatasetNames</Declaration>
+			
+			
+			<Anchor>//api/name/mergedDatasetNames</Anchor>
+            <NodeRef refid="172"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSCognitoSyncListRecordsResponse/mergedDatasetNames</TokenIdentifier>
+			<Abstract type="html">Names of merged datasets.</Abstract>
+			<DeclaredIn>AWSCognitoSyncModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray *mergedDatasetNames</Declaration>
+			
+			
+			<Anchor>//api/name/mergedDatasetNames</Anchor>
+            <NodeRef refid="172"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoSyncListRecordsResponse/setNextToken:</TokenIdentifier>
+			<Abstract type="html">A pagination token for obtaining the next page of results.</Abstract>
+			<DeclaredIn>AWSCognitoSyncModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *nextToken</Declaration>
+			
+			
+			<Anchor>//api/name/nextToken</Anchor>
+            <NodeRef refid="172"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoSyncListRecordsResponse/nextToken</TokenIdentifier>
+			<Abstract type="html">A pagination token for obtaining the next page of results.</Abstract>
+			<DeclaredIn>AWSCognitoSyncModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *nextToken</Declaration>
+			
+			
+			<Anchor>//api/name/nextToken</Anchor>
+            <NodeRef refid="172"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSCognitoSyncListRecordsResponse/nextToken</TokenIdentifier>
+			<Abstract type="html">A pagination token for obtaining the next page of results.</Abstract>
+			<DeclaredIn>AWSCognitoSyncModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *nextToken</Declaration>
+			
+			
+			<Anchor>//api/name/nextToken</Anchor>
+            <NodeRef refid="172"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoSyncListRecordsResponse/setRecords:</TokenIdentifier>
+			<Abstract type="html">A list of all records.</Abstract>
+			<DeclaredIn>AWSCognitoSyncModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray *records</Declaration>
+			
+			
+			<Anchor>//api/name/records</Anchor>
+            <NodeRef refid="172"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoSyncListRecordsResponse/records</TokenIdentifier>
+			<Abstract type="html">A list of all records.</Abstract>
+			<DeclaredIn>AWSCognitoSyncModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray *records</Declaration>
+			
+			
+			<Anchor>//api/name/records</Anchor>
+            <NodeRef refid="172"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSCognitoSyncListRecordsResponse/records</TokenIdentifier>
+			<Abstract type="html">A list of all records.</Abstract>
+			<DeclaredIn>AWSCognitoSyncModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray *records</Declaration>
+			
+			
+			<Anchor>//api/name/records</Anchor>
+            <NodeRef refid="172"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoSyncListRecordsResponse/setSyncSessionToken:</TokenIdentifier>
+			<Abstract type="html">A token containing a session ID, identity ID, and expiration.</Abstract>
+			<DeclaredIn>AWSCognitoSyncModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *syncSessionToken</Declaration>
+			
+			
+			<Anchor>//api/name/syncSessionToken</Anchor>
+            <NodeRef refid="172"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoSyncListRecordsResponse/syncSessionToken</TokenIdentifier>
+			<Abstract type="html">A token containing a session ID, identity ID, and expiration.</Abstract>
+			<DeclaredIn>AWSCognitoSyncModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *syncSessionToken</Declaration>
+			
+			
+			<Anchor>//api/name/syncSessionToken</Anchor>
+            <NodeRef refid="172"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSCognitoSyncListRecordsResponse/syncSessionToken</TokenIdentifier>
+			<Abstract type="html">A token containing a session ID, identity ID, and expiration.</Abstract>
+			<DeclaredIn>AWSCognitoSyncModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *syncSessionToken</Declaration>
+			
+			
+			<Anchor>//api/name/syncSessionToken</Anchor>
+            <NodeRef refid="172"/>
+		</Token>
+		
+        
         
 	</File>
 </Tokens>

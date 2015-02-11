@@ -1,127 +1,55 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Constants/AWSSTSErrorType.html">
+	<File path="Classes/AWSSQSDeleteMessageBatchResultEntry.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/c/tdef/AWSSTSErrorType</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSSTSModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSSQSDeleteMessageBatchResultEntry</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Encloses the id an entry in &lt;a&gt;DeleteMessageBatch&lt;/a&gt;.&lt;/p&gt;
+Required parameters: [Id]</Abstract>
+			<DeclaredIn>AWSSQSModel.h</DeclaredIn>
             
 			
 			<NodeRef refid="971"/>
 		</Token>
 		
 		
-        
-        <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSSTSErrorUnknown</TokenIdentifier>
-            <Abstract type="html"></Abstract>
-            <Declaration>AWSSTSErrorUnknown</Declaration>
-            
-            <DeclaredIn>AWSSTSModel.h</DeclaredIn>
-            
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSQSDeleteMessageBatchResultEntry/setIdentifier:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Represents a successfully deleted message.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSQSModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *identifier</Declaration>
+			
+			
+			<Anchor>//api/name/identifier</Anchor>
             <NodeRef refid="971"/>
-        </Token>
-        
-        <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSSTSErrorIncompleteSignature</TokenIdentifier>
-            <Abstract type="html"></Abstract>
-            <Declaration>AWSSTSErrorIncompleteSignature</Declaration>
-            
-            <DeclaredIn>AWSSTSModel.h</DeclaredIn>
-            
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSQSDeleteMessageBatchResultEntry/identifier</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Represents a successfully deleted message.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSQSModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *identifier</Declaration>
+			
+			
+			<Anchor>//api/name/identifier</Anchor>
             <NodeRef refid="971"/>
-        </Token>
-        
-        <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSSTSErrorInvalidClientTokenId</TokenIdentifier>
-            <Abstract type="html"></Abstract>
-            <Declaration>AWSSTSErrorInvalidClientTokenId</Declaration>
-            
-            <DeclaredIn>AWSSTSModel.h</DeclaredIn>
-            
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSSQSDeleteMessageBatchResultEntry/identifier</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Represents a successfully deleted message.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSQSModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *identifier</Declaration>
+			
+			
+			<Anchor>//api/name/identifier</Anchor>
             <NodeRef refid="971"/>
-        </Token>
+		</Token>
+		
         
-        <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSSTSErrorMissingAuthenticationToken</TokenIdentifier>
-            <Abstract type="html"></Abstract>
-            <Declaration>AWSSTSErrorMissingAuthenticationToken</Declaration>
-            
-            <DeclaredIn>AWSSTSModel.h</DeclaredIn>
-            
-            <NodeRef refid="971"/>
-        </Token>
-        
-        <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSSTSErrorExpiredToken</TokenIdentifier>
-            <Abstract type="html"></Abstract>
-            <Declaration>AWSSTSErrorExpiredToken</Declaration>
-            
-            <DeclaredIn>AWSSTSModel.h</DeclaredIn>
-            
-            <NodeRef refid="971"/>
-        </Token>
-        
-        <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSSTSErrorIDPCommunicationError</TokenIdentifier>
-            <Abstract type="html"></Abstract>
-            <Declaration>AWSSTSErrorIDPCommunicationError</Declaration>
-            
-            <DeclaredIn>AWSSTSModel.h</DeclaredIn>
-            
-            <NodeRef refid="971"/>
-        </Token>
-        
-        <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSSTSErrorIDPRejectedClaim</TokenIdentifier>
-            <Abstract type="html"></Abstract>
-            <Declaration>AWSSTSErrorIDPRejectedClaim</Declaration>
-            
-            <DeclaredIn>AWSSTSModel.h</DeclaredIn>
-            
-            <NodeRef refid="971"/>
-        </Token>
-        
-        <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSSTSErrorInvalidAuthorizationMessage</TokenIdentifier>
-            <Abstract type="html"></Abstract>
-            <Declaration>AWSSTSErrorInvalidAuthorizationMessage</Declaration>
-            
-            <DeclaredIn>AWSSTSModel.h</DeclaredIn>
-            
-            <NodeRef refid="971"/>
-        </Token>
-        
-        <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSSTSErrorInvalidIdentityToken</TokenIdentifier>
-            <Abstract type="html"></Abstract>
-            <Declaration>AWSSTSErrorInvalidIdentityToken</Declaration>
-            
-            <DeclaredIn>AWSSTSModel.h</DeclaredIn>
-            
-            <NodeRef refid="971"/>
-        </Token>
-        
-        <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSSTSErrorMalformedPolicyDocument</TokenIdentifier>
-            <Abstract type="html"></Abstract>
-            <Declaration>AWSSTSErrorMalformedPolicyDocument</Declaration>
-            
-            <DeclaredIn>AWSSTSModel.h</DeclaredIn>
-            
-            <NodeRef refid="971"/>
-        </Token>
-        
-        <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSSTSErrorPackedPolicyTooLarge</TokenIdentifier>
-            <Abstract type="html"></Abstract>
-            <Declaration>AWSSTSErrorPackedPolicyTooLarge</Declaration>
-            
-            <DeclaredIn>AWSSTSModel.h</DeclaredIn>
-            
-            <NodeRef refid="971"/>
-        </Token>
         
 	</File>
 </Tokens>

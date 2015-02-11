@@ -3,6 +3,7 @@
  */
 
 #import <AWSCognitoSync/AWSCognitoRecord.h>
+#import <AWSCognitoSync/AWSCognitoSyncModel.h>
 
 @interface AWSCognitoUtil : NSObject
 
@@ -44,4 +45,23 @@
 
 + (BOOL)isValidRecordValueType:(AWSCognitoRecordValueType)type;
 
+/**
+ * Get the push platform string for this build target
+ */
++ (NSString *) pushPlatformString:(AWSCognitoSyncPlatform) pushPlatform;
+
+/**
+ * Get the push platform for this build target
+ */
++ (AWSCognitoSyncPlatform) pushPlatform;
+
+/**
+ * Get the device id key for this push platform string
+ */
++ (NSString *) deviceIdKey:(AWSCognitoSyncPlatform) pushPlatformString;
+
+/**
+ * Get the device identity key for this push platform string
+ */
++ (NSString *) deviceIdentityKey:(AWSCognitoSyncPlatform) pushPlatformString;
 @end

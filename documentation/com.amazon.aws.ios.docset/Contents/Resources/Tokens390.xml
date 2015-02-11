@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSEC2EnableVgwRoutePropagationRequest.html">
+	<File path="Classes/AWSEC2DescribeRegionsRequest.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSEC2EnableVgwRoutePropagationRequest</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSEC2DescribeRegionsRequest</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
             
@@ -13,77 +13,114 @@
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2EnableVgwRoutePropagationRequest/setGatewayId:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The ID of the virtual private gateway.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DescribeRegionsRequest/setDryRun:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *gatewayId</Declaration>
+			<Declaration>@property (nonatomic, strong) NSNumber *dryRun</Declaration>
 			
 			
-			<Anchor>//api/name/gatewayId</Anchor>
+			<Anchor>//api/name/dryRun</Anchor>
             <NodeRef refid="390"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2EnableVgwRoutePropagationRequest/gatewayId</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The ID of the virtual private gateway.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DescribeRegionsRequest/dryRun</TokenIdentifier>
+			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *gatewayId</Declaration>
+			<Declaration>@property (nonatomic, strong) NSNumber *dryRun</Declaration>
 			
 			
-			<Anchor>//api/name/gatewayId</Anchor>
+			<Anchor>//api/name/dryRun</Anchor>
             <NodeRef refid="390"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2EnableVgwRoutePropagationRequest/gatewayId</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The ID of the virtual private gateway.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2DescribeRegionsRequest/dryRun</TokenIdentifier>
+			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *gatewayId</Declaration>
+			<Declaration>@property (nonatomic, strong) NSNumber *dryRun</Declaration>
 			
 			
-			<Anchor>//api/name/gatewayId</Anchor>
+			<Anchor>//api/name/dryRun</Anchor>
             <NodeRef refid="390"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2EnableVgwRoutePropagationRequest/setRouteTableId:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The ID of the routing table.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DescribeRegionsRequest/setFilters:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;One or more filters.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;endpoint&lt;/code&gt; - The endpoint of the region (for example, &lt;code&gt;ec2.us-east-1.amazonaws.com&lt;/code&gt;).&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;region-name&lt;/code&gt; - The name of the region (for example, &lt;code&gt;us-east-1&lt;/code&gt;).&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *routeTableId</Declaration>
+			<Declaration>@property (nonatomic, strong) NSArray *filters</Declaration>
 			
 			
-			<Anchor>//api/name/routeTableId</Anchor>
+			<Anchor>//api/name/filters</Anchor>
             <NodeRef refid="390"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2EnableVgwRoutePropagationRequest/routeTableId</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The ID of the routing table.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DescribeRegionsRequest/filters</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;One or more filters.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;endpoint&lt;/code&gt; - The endpoint of the region (for example, &lt;code&gt;ec2.us-east-1.amazonaws.com&lt;/code&gt;).&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;region-name&lt;/code&gt; - The name of the region (for example, &lt;code&gt;us-east-1&lt;/code&gt;).&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *routeTableId</Declaration>
+			<Declaration>@property (nonatomic, strong) NSArray *filters</Declaration>
 			
 			
-			<Anchor>//api/name/routeTableId</Anchor>
+			<Anchor>//api/name/filters</Anchor>
             <NodeRef refid="390"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2EnableVgwRoutePropagationRequest/routeTableId</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The ID of the routing table.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2DescribeRegionsRequest/filters</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;One or more filters.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;endpoint&lt;/code&gt; - The endpoint of the region (for example, &lt;code&gt;ec2.us-east-1.amazonaws.com&lt;/code&gt;).&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;region-name&lt;/code&gt; - The name of the region (for example, &lt;code&gt;us-east-1&lt;/code&gt;).&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *routeTableId</Declaration>
+			<Declaration>@property (nonatomic, strong) NSArray *filters</Declaration>
 			
 			
-			<Anchor>//api/name/routeTableId</Anchor>
+			<Anchor>//api/name/filters</Anchor>
             <NodeRef refid="390"/>
 		</Token>
 		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DescribeRegionsRequest/setRegionNames:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The names of one or more regions.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray *regionNames</Declaration>
+			
+			
+			<Anchor>//api/name/regionNames</Anchor>
+            <NodeRef refid="390"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DescribeRegionsRequest/regionNames</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The names of one or more regions.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray *regionNames</Declaration>
+			
+			
+			<Anchor>//api/name/regionNames</Anchor>
+            <NodeRef refid="390"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2DescribeRegionsRequest/regionNames</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The names of one or more regions.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray *regionNames</Declaration>
+			
+			
+			<Anchor>//api/name/regionNames</Anchor>
+            <NodeRef refid="390"/>
+		</Token>
+		
+        
         
 	</File>
 </Tokens>

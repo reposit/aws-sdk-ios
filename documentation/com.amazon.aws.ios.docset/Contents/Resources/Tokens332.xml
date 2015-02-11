@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSEC2DescribePlacementGroupsResult.html">
+	<File path="Classes/AWSEC2DeleteDhcpOptionsRequest.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSEC2DescribePlacementGroupsResult</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSEC2DeleteDhcpOptionsRequest</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
             
@@ -13,41 +13,78 @@
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DescribePlacementGroupsResult/setPlacementGroups:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;One or more placement groups.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DeleteDhcpOptionsRequest/setDhcpOptionsId:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the DHCP options set.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSArray *placementGroups</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *dhcpOptionsId</Declaration>
 			
 			
-			<Anchor>//api/name/placementGroups</Anchor>
+			<Anchor>//api/name/dhcpOptionsId</Anchor>
             <NodeRef refid="332"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DescribePlacementGroupsResult/placementGroups</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;One or more placement groups.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DeleteDhcpOptionsRequest/dhcpOptionsId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the DHCP options set.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSArray *placementGroups</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *dhcpOptionsId</Declaration>
 			
 			
-			<Anchor>//api/name/placementGroups</Anchor>
+			<Anchor>//api/name/dhcpOptionsId</Anchor>
             <NodeRef refid="332"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2DescribePlacementGroupsResult/placementGroups</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;One or more placement groups.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2DeleteDhcpOptionsRequest/dhcpOptionsId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the DHCP options set.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSArray *placementGroups</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *dhcpOptionsId</Declaration>
 			
 			
-			<Anchor>//api/name/placementGroups</Anchor>
+			<Anchor>//api/name/dhcpOptionsId</Anchor>
             <NodeRef refid="332"/>
 		</Token>
 		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DeleteDhcpOptionsRequest/setDryRun:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *dryRun</Declaration>
+			
+			
+			<Anchor>//api/name/dryRun</Anchor>
+            <NodeRef refid="332"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DeleteDhcpOptionsRequest/dryRun</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *dryRun</Declaration>
+			
+			
+			<Anchor>//api/name/dryRun</Anchor>
+            <NodeRef refid="332"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2DeleteDhcpOptionsRequest/dryRun</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *dryRun</Declaration>
+			
+			
+			<Anchor>//api/name/dryRun</Anchor>
+            <NodeRef refid="332"/>
+		</Token>
+		
+        
         
 	</File>
 </Tokens>

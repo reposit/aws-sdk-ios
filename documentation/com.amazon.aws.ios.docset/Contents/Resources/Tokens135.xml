@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSCognitoRecordValue.html">
+	<File path="Classes/AWSCognitoIdentityIdentityPool.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSCognitoRecordValue</TokenIdentifier>
-			<Abstract type="html">An object that encapsulates the record value.</Abstract>
-			<DeclaredIn>AWSCognitoRecord.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSCognitoIdentityIdentityPool</TokenIdentifier>
+			<Abstract type="html">An object representing a Cognito identity pool.
+Required parameters: [IdentityPoolId, IdentityPoolName, AllowUnauthenticatedIdentities]</Abstract>
+			<DeclaredIn>AWSCognitoIdentityModel.h</DeclaredIn>
             
 			
 			<NodeRef refid="135"/>
@@ -13,71 +14,222 @@
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoRecordValue/setType:</TokenIdentifier>
-			<Abstract type="html">The type of the record value.</Abstract>
-			<DeclaredIn>AWSCognitoRecord.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoIdentityIdentityPool/setAllowUnauthenticatedIdentities:</TokenIdentifier>
+			<Abstract type="html">TRUE if the identity pool supports unauthenticated logins.</Abstract>
+			<DeclaredIn>AWSCognitoIdentityModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, readonly) AWSCognitoRecordValueType type</Declaration>
+			<Declaration>@property (nonatomic, strong) NSNumber *allowUnauthenticatedIdentities</Declaration>
 			
 			
-			<Anchor>//api/name/type</Anchor>
+			<Anchor>//api/name/allowUnauthenticatedIdentities</Anchor>
             <NodeRef refid="135"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoRecordValue/type</TokenIdentifier>
-			<Abstract type="html">The type of the record value.</Abstract>
-			<DeclaredIn>AWSCognitoRecord.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoIdentityIdentityPool/allowUnauthenticatedIdentities</TokenIdentifier>
+			<Abstract type="html">TRUE if the identity pool supports unauthenticated logins.</Abstract>
+			<DeclaredIn>AWSCognitoIdentityModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, readonly) AWSCognitoRecordValueType type</Declaration>
+			<Declaration>@property (nonatomic, strong) NSNumber *allowUnauthenticatedIdentities</Declaration>
 			
 			
-			<Anchor>//api/name/type</Anchor>
+			<Anchor>//api/name/allowUnauthenticatedIdentities</Anchor>
             <NodeRef refid="135"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSCognitoRecordValue/type</TokenIdentifier>
-			<Abstract type="html">The type of the record value.</Abstract>
-			<DeclaredIn>AWSCognitoRecord.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSCognitoIdentityIdentityPool/allowUnauthenticatedIdentities</TokenIdentifier>
+			<Abstract type="html">TRUE if the identity pool supports unauthenticated logins.</Abstract>
+			<DeclaredIn>AWSCognitoIdentityModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, readonly) AWSCognitoRecordValueType type</Declaration>
+			<Declaration>@property (nonatomic, strong) NSNumber *allowUnauthenticatedIdentities</Declaration>
 			
 			
-			<Anchor>//api/name/type</Anchor>
+			<Anchor>//api/name/allowUnauthenticatedIdentities</Anchor>
             <NodeRef refid="135"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoRecordValue/initWithString:</TokenIdentifier>
-			<Abstract type="html">Initializes a AWSCognitoRecordValue with the given string value.
-The type property is automatically set to AWSCognitoRecordValueTypeString.</Abstract>
-			<DeclaredIn>AWSCognitoRecord.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoIdentityIdentityPool/setDeveloperProviderName:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The &quot;domain&quot; by which Cognito will refer to your users.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSCognitoIdentityModel.h</DeclaredIn>
 			
-			<Declaration>- (instancetype)initWithString:(NSString *)value</Declaration>
-			<Parameters>
-				<Parameter>
-					<Name>value</Name>
-					<Abstract type="html">The string value of the AWSCognitoRecordValue.</Abstract>
-				</Parameter>
-			</Parameters>
+			<Declaration>@property (nonatomic, strong) NSString *developerProviderName</Declaration>
 			
-			<Anchor>//api/name/initWithString:</Anchor>
+			
+			<Anchor>//api/name/developerProviderName</Anchor>
             <NodeRef refid="135"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoRecordValue/string</TokenIdentifier>
-			<Abstract type="html">Returns the string value.</Abstract>
-			<DeclaredIn>AWSCognitoRecord.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoIdentityIdentityPool/developerProviderName</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The &quot;domain&quot; by which Cognito will refer to your users.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSCognitoIdentityModel.h</DeclaredIn>
 			
-			<Declaration>- (NSString *)string</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *developerProviderName</Declaration>
 			
-			<ReturnValue><Abstract type="html">The string value stored by the record value object.</Abstract></ReturnValue>
-			<Anchor>//api/name/string</Anchor>
+			
+			<Anchor>//api/name/developerProviderName</Anchor>
             <NodeRef refid="135"/>
 		</Token>
 		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSCognitoIdentityIdentityPool/developerProviderName</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The &quot;domain&quot; by which Cognito will refer to your users.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSCognitoIdentityModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *developerProviderName</Declaration>
+			
+			
+			<Anchor>//api/name/developerProviderName</Anchor>
+            <NodeRef refid="135"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoIdentityIdentityPool/setIdentityPoolId:</TokenIdentifier>
+			<Abstract type="html">An identity pool ID in the format REGION:GUID.</Abstract>
+			<DeclaredIn>AWSCognitoIdentityModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *identityPoolId</Declaration>
+			
+			
+			<Anchor>//api/name/identityPoolId</Anchor>
+            <NodeRef refid="135"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoIdentityIdentityPool/identityPoolId</TokenIdentifier>
+			<Abstract type="html">An identity pool ID in the format REGION:GUID.</Abstract>
+			<DeclaredIn>AWSCognitoIdentityModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *identityPoolId</Declaration>
+			
+			
+			<Anchor>//api/name/identityPoolId</Anchor>
+            <NodeRef refid="135"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSCognitoIdentityIdentityPool/identityPoolId</TokenIdentifier>
+			<Abstract type="html">An identity pool ID in the format REGION:GUID.</Abstract>
+			<DeclaredIn>AWSCognitoIdentityModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *identityPoolId</Declaration>
+			
+			
+			<Anchor>//api/name/identityPoolId</Anchor>
+            <NodeRef refid="135"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoIdentityIdentityPool/setIdentityPoolName:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;A string that you provide.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSCognitoIdentityModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *identityPoolName</Declaration>
+			
+			
+			<Anchor>//api/name/identityPoolName</Anchor>
+            <NodeRef refid="135"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoIdentityIdentityPool/identityPoolName</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;A string that you provide.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSCognitoIdentityModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *identityPoolName</Declaration>
+			
+			
+			<Anchor>//api/name/identityPoolName</Anchor>
+            <NodeRef refid="135"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSCognitoIdentityIdentityPool/identityPoolName</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;A string that you provide.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSCognitoIdentityModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *identityPoolName</Declaration>
+			
+			
+			<Anchor>//api/name/identityPoolName</Anchor>
+            <NodeRef refid="135"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoIdentityIdentityPool/setOpenIdConnectProviderARNs:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;A list of OpendID Connect provider ARNs.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSCognitoIdentityModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray *openIdConnectProviderARNs</Declaration>
+			
+			
+			<Anchor>//api/name/openIdConnectProviderARNs</Anchor>
+            <NodeRef refid="135"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoIdentityIdentityPool/openIdConnectProviderARNs</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;A list of OpendID Connect provider ARNs.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSCognitoIdentityModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray *openIdConnectProviderARNs</Declaration>
+			
+			
+			<Anchor>//api/name/openIdConnectProviderARNs</Anchor>
+            <NodeRef refid="135"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSCognitoIdentityIdentityPool/openIdConnectProviderARNs</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;A list of OpendID Connect provider ARNs.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSCognitoIdentityModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray *openIdConnectProviderARNs</Declaration>
+			
+			
+			<Anchor>//api/name/openIdConnectProviderARNs</Anchor>
+            <NodeRef refid="135"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoIdentityIdentityPool/setSupportedLoginProviders:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Optional key:value pairs mapping provider names to provider app IDs.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSCognitoIdentityModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSDictionary *supportedLoginProviders</Declaration>
+			
+			
+			<Anchor>//api/name/supportedLoginProviders</Anchor>
+            <NodeRef refid="135"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoIdentityIdentityPool/supportedLoginProviders</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Optional key:value pairs mapping provider names to provider app IDs.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSCognitoIdentityModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSDictionary *supportedLoginProviders</Declaration>
+			
+			
+			<Anchor>//api/name/supportedLoginProviders</Anchor>
+            <NodeRef refid="135"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSCognitoIdentityIdentityPool/supportedLoginProviders</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Optional key:value pairs mapping provider names to provider app IDs.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSCognitoIdentityModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSDictionary *supportedLoginProviders</Declaration>
+			
+			
+			<Anchor>//api/name/supportedLoginProviders</Anchor>
+            <NodeRef refid="135"/>
+		</Token>
+		
+        
         
 	</File>
 </Tokens>

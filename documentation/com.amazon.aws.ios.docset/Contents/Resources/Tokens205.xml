@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSEC2AssociateAddressResult.html">
+	<File path="Classes/AWSDynamoDBDescribeTableInput.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSEC2AssociateAddressResult</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSDynamoDBDescribeTableInput</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Represents the input of a &lt;i&gt;DescribeTable&lt;/i&gt; operation.&lt;/p&gt;
+Required parameters: [TableName]</Abstract>
+			<DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
             
 			
 			<NodeRef refid="205"/>
@@ -13,41 +14,42 @@
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2AssociateAddressResult/setAssociationId:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;[EC2-VPC] The ID that represents the association of the Elastic IP address with an instance.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSDynamoDBDescribeTableInput/setTableName:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; The name of the table to describe.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *associationId</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *tableName</Declaration>
 			
 			
-			<Anchor>//api/name/associationId</Anchor>
+			<Anchor>//api/name/tableName</Anchor>
             <NodeRef refid="205"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2AssociateAddressResult/associationId</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;[EC2-VPC] The ID that represents the association of the Elastic IP address with an instance.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSDynamoDBDescribeTableInput/tableName</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; The name of the table to describe.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *associationId</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *tableName</Declaration>
 			
 			
-			<Anchor>//api/name/associationId</Anchor>
+			<Anchor>//api/name/tableName</Anchor>
             <NodeRef refid="205"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2AssociateAddressResult/associationId</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;[EC2-VPC] The ID that represents the association of the Elastic IP address with an instance.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSDynamoDBDescribeTableInput/tableName</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; The name of the table to describe.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *associationId</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *tableName</Declaration>
 			
 			
-			<Anchor>//api/name/associationId</Anchor>
+			<Anchor>//api/name/tableName</Anchor>
             <NodeRef refid="205"/>
 		</Token>
 		
+        
         
 	</File>
 </Tokens>

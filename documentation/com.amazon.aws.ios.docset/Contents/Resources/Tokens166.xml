@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSDynamoDBItemCollectionMetrics.html">
+	<File path="Classes/AWSCognitoSyncIdentityUsage.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSDynamoDBItemCollectionMetrics</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Information about item collections, if any, that were affected by the operation. &lt;i&gt;ItemCollectionMetrics&lt;/i&gt; is only returned if it was asked for in the request. If the table does not have any local secondary indexes, this information is not returned in the response.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSCognitoSyncIdentityUsage</TokenIdentifier>
+			<Abstract type="html">Usage information for the identity.</Abstract>
+			<DeclaredIn>AWSCognitoSyncModel.h</DeclaredIn>
             
 			
 			<NodeRef refid="166"/>
@@ -13,77 +13,186 @@
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSDynamoDBItemCollectionMetrics/setItemCollectionKey:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The hash key value of the item collection. This is the same as the hash key of the item.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoSyncIdentityUsage/setDataStorage:</TokenIdentifier>
+			<Abstract type="html">Total data storage for this identity.</Abstract>
+			<DeclaredIn>AWSCognitoSyncModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSDictionary *itemCollectionKey</Declaration>
+			<Declaration>@property (nonatomic, strong) NSNumber *dataStorage</Declaration>
 			
 			
-			<Anchor>//api/name/itemCollectionKey</Anchor>
+			<Anchor>//api/name/dataStorage</Anchor>
             <NodeRef refid="166"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSDynamoDBItemCollectionMetrics/itemCollectionKey</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The hash key value of the item collection. This is the same as the hash key of the item.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoSyncIdentityUsage/dataStorage</TokenIdentifier>
+			<Abstract type="html">Total data storage for this identity.</Abstract>
+			<DeclaredIn>AWSCognitoSyncModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSDictionary *itemCollectionKey</Declaration>
+			<Declaration>@property (nonatomic, strong) NSNumber *dataStorage</Declaration>
 			
 			
-			<Anchor>//api/name/itemCollectionKey</Anchor>
+			<Anchor>//api/name/dataStorage</Anchor>
             <NodeRef refid="166"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSDynamoDBItemCollectionMetrics/itemCollectionKey</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The hash key value of the item collection. This is the same as the hash key of the item.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSCognitoSyncIdentityUsage/dataStorage</TokenIdentifier>
+			<Abstract type="html">Total data storage for this identity.</Abstract>
+			<DeclaredIn>AWSCognitoSyncModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSDictionary *itemCollectionKey</Declaration>
+			<Declaration>@property (nonatomic, strong) NSNumber *dataStorage</Declaration>
 			
 			
-			<Anchor>//api/name/itemCollectionKey</Anchor>
+			<Anchor>//api/name/dataStorage</Anchor>
             <NodeRef refid="166"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSDynamoDBItemCollectionMetrics/setSizeEstimateRangeGB:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;An estimate of item collection size, measured in gigabytes. This is a two-element array containing a lower bound and an upper bound for the estimate. The estimate includes the size of all the items in the table, plus the size of all attributes projected into all of the local secondary indexes on that table. Use this estimate to measure whether a local secondary index is approaching its size limit.&lt;/p&gt;&lt;p&gt;The estimate is subject to change over time; therefore, do not rely on the precision or accuracy of the estimate.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoSyncIdentityUsage/setDatasetCount:</TokenIdentifier>
+			<Abstract type="html">Number of datasets for the identity.</Abstract>
+			<DeclaredIn>AWSCognitoSyncModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSArray *sizeEstimateRangeGB</Declaration>
+			<Declaration>@property (nonatomic, strong) NSNumber *datasetCount</Declaration>
 			
 			
-			<Anchor>//api/name/sizeEstimateRangeGB</Anchor>
+			<Anchor>//api/name/datasetCount</Anchor>
             <NodeRef refid="166"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSDynamoDBItemCollectionMetrics/sizeEstimateRangeGB</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;An estimate of item collection size, measured in gigabytes. This is a two-element array containing a lower bound and an upper bound for the estimate. The estimate includes the size of all the items in the table, plus the size of all attributes projected into all of the local secondary indexes on that table. Use this estimate to measure whether a local secondary index is approaching its size limit.&lt;/p&gt;&lt;p&gt;The estimate is subject to change over time; therefore, do not rely on the precision or accuracy of the estimate.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoSyncIdentityUsage/datasetCount</TokenIdentifier>
+			<Abstract type="html">Number of datasets for the identity.</Abstract>
+			<DeclaredIn>AWSCognitoSyncModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSArray *sizeEstimateRangeGB</Declaration>
+			<Declaration>@property (nonatomic, strong) NSNumber *datasetCount</Declaration>
 			
 			
-			<Anchor>//api/name/sizeEstimateRangeGB</Anchor>
+			<Anchor>//api/name/datasetCount</Anchor>
             <NodeRef refid="166"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSDynamoDBItemCollectionMetrics/sizeEstimateRangeGB</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;An estimate of item collection size, measured in gigabytes. This is a two-element array containing a lower bound and an upper bound for the estimate. The estimate includes the size of all the items in the table, plus the size of all attributes projected into all of the local secondary indexes on that table. Use this estimate to measure whether a local secondary index is approaching its size limit.&lt;/p&gt;&lt;p&gt;The estimate is subject to change over time; therefore, do not rely on the precision or accuracy of the estimate.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSCognitoSyncIdentityUsage/datasetCount</TokenIdentifier>
+			<Abstract type="html">Number of datasets for the identity.</Abstract>
+			<DeclaredIn>AWSCognitoSyncModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSArray *sizeEstimateRangeGB</Declaration>
+			<Declaration>@property (nonatomic, strong) NSNumber *datasetCount</Declaration>
 			
 			
-			<Anchor>//api/name/sizeEstimateRangeGB</Anchor>
+			<Anchor>//api/name/datasetCount</Anchor>
             <NodeRef refid="166"/>
 		</Token>
 		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoSyncIdentityUsage/setIdentityId:</TokenIdentifier>
+			<Abstract type="html">A name-spaced GUID (for example, us-east-1:23EC4050-6AEA-7089-A2DD-08002EXAMPLE) created by Amazon Cognito. GUID generation is unique within a region.</Abstract>
+			<DeclaredIn>AWSCognitoSyncModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *identityId</Declaration>
+			
+			
+			<Anchor>//api/name/identityId</Anchor>
+            <NodeRef refid="166"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoSyncIdentityUsage/identityId</TokenIdentifier>
+			<Abstract type="html">A name-spaced GUID (for example, us-east-1:23EC4050-6AEA-7089-A2DD-08002EXAMPLE) created by Amazon Cognito. GUID generation is unique within a region.</Abstract>
+			<DeclaredIn>AWSCognitoSyncModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *identityId</Declaration>
+			
+			
+			<Anchor>//api/name/identityId</Anchor>
+            <NodeRef refid="166"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSCognitoSyncIdentityUsage/identityId</TokenIdentifier>
+			<Abstract type="html">A name-spaced GUID (for example, us-east-1:23EC4050-6AEA-7089-A2DD-08002EXAMPLE) created by Amazon Cognito. GUID generation is unique within a region.</Abstract>
+			<DeclaredIn>AWSCognitoSyncModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *identityId</Declaration>
+			
+			
+			<Anchor>//api/name/identityId</Anchor>
+            <NodeRef refid="166"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoSyncIdentityUsage/setIdentityPoolId:</TokenIdentifier>
+			<Abstract type="html">A name-spaced GUID (for example, us-east-1:23EC4050-6AEA-7089-A2DD-08002EXAMPLE) created by Amazon Cognito. GUID generation is unique within a region.</Abstract>
+			<DeclaredIn>AWSCognitoSyncModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *identityPoolId</Declaration>
+			
+			
+			<Anchor>//api/name/identityPoolId</Anchor>
+            <NodeRef refid="166"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoSyncIdentityUsage/identityPoolId</TokenIdentifier>
+			<Abstract type="html">A name-spaced GUID (for example, us-east-1:23EC4050-6AEA-7089-A2DD-08002EXAMPLE) created by Amazon Cognito. GUID generation is unique within a region.</Abstract>
+			<DeclaredIn>AWSCognitoSyncModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *identityPoolId</Declaration>
+			
+			
+			<Anchor>//api/name/identityPoolId</Anchor>
+            <NodeRef refid="166"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSCognitoSyncIdentityUsage/identityPoolId</TokenIdentifier>
+			<Abstract type="html">A name-spaced GUID (for example, us-east-1:23EC4050-6AEA-7089-A2DD-08002EXAMPLE) created by Amazon Cognito. GUID generation is unique within a region.</Abstract>
+			<DeclaredIn>AWSCognitoSyncModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *identityPoolId</Declaration>
+			
+			
+			<Anchor>//api/name/identityPoolId</Anchor>
+            <NodeRef refid="166"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoSyncIdentityUsage/setLastModifiedDate:</TokenIdentifier>
+			<Abstract type="html">Date on which the identity was last modified.</Abstract>
+			<DeclaredIn>AWSCognitoSyncModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSDate *lastModifiedDate</Declaration>
+			
+			
+			<Anchor>//api/name/lastModifiedDate</Anchor>
+            <NodeRef refid="166"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoSyncIdentityUsage/lastModifiedDate</TokenIdentifier>
+			<Abstract type="html">Date on which the identity was last modified.</Abstract>
+			<DeclaredIn>AWSCognitoSyncModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSDate *lastModifiedDate</Declaration>
+			
+			
+			<Anchor>//api/name/lastModifiedDate</Anchor>
+            <NodeRef refid="166"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSCognitoSyncIdentityUsage/lastModifiedDate</TokenIdentifier>
+			<Abstract type="html">Date on which the identity was last modified.</Abstract>
+			<DeclaredIn>AWSCognitoSyncModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSDate *lastModifiedDate</Declaration>
+			
+			
+			<Anchor>//api/name/lastModifiedDate</Anchor>
+            <NodeRef refid="166"/>
+		</Token>
+		
+        
         
 	</File>
 </Tokens>

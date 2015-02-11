@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSDynamoDBProvisionedThroughput.html">
+	<File path="Classes/AWSCognitoSyncRegisterDeviceResponse.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSDynamoDBProvisionedThroughput</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Represents the provisioned throughput settings for a specified table or index. The settings can be modified using the &lt;i&gt;UpdateTable&lt;/i&gt; operation.&lt;/p&gt;&lt;p&gt;For current minimum and maximum provisioned throughput values, see Limits in the Amazon DynamoDB Developer Guide.&lt;/p&gt;
-Required parameters: [ReadCapacityUnits, WriteCapacityUnits]</Abstract>
-			<DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSCognitoSyncRegisterDeviceResponse</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Response to a &lt;code&gt;RegisterDevice&lt;/code&gt; request.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSCognitoSyncModel.h</DeclaredIn>
             
 			
 			<NodeRef refid="177"/>
@@ -14,77 +13,42 @@ Required parameters: [ReadCapacityUnits, WriteCapacityUnits]</Abstract>
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSDynamoDBProvisionedThroughput/setReadCapacityUnits:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The maximum number of strongly consistent reads consumed per second before DynamoDB returns a &lt;i&gt;ThrottlingException&lt;/i&gt;. For more information, see Specifying Read and Write Requirements in the Amazon DynamoDB Developer Guide.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoSyncRegisterDeviceResponse/setDeviceId:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The unique ID generated for this device by Cognito.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSCognitoSyncModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSNumber *readCapacityUnits</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *deviceId</Declaration>
 			
 			
-			<Anchor>//api/name/readCapacityUnits</Anchor>
+			<Anchor>//api/name/deviceId</Anchor>
             <NodeRef refid="177"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSDynamoDBProvisionedThroughput/readCapacityUnits</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The maximum number of strongly consistent reads consumed per second before DynamoDB returns a &lt;i&gt;ThrottlingException&lt;/i&gt;. For more information, see Specifying Read and Write Requirements in the Amazon DynamoDB Developer Guide.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoSyncRegisterDeviceResponse/deviceId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The unique ID generated for this device by Cognito.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSCognitoSyncModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSNumber *readCapacityUnits</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *deviceId</Declaration>
 			
 			
-			<Anchor>//api/name/readCapacityUnits</Anchor>
+			<Anchor>//api/name/deviceId</Anchor>
             <NodeRef refid="177"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSDynamoDBProvisionedThroughput/readCapacityUnits</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The maximum number of strongly consistent reads consumed per second before DynamoDB returns a &lt;i&gt;ThrottlingException&lt;/i&gt;. For more information, see Specifying Read and Write Requirements in the Amazon DynamoDB Developer Guide.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSCognitoSyncRegisterDeviceResponse/deviceId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The unique ID generated for this device by Cognito.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSCognitoSyncModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSNumber *readCapacityUnits</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *deviceId</Declaration>
 			
 			
-			<Anchor>//api/name/readCapacityUnits</Anchor>
+			<Anchor>//api/name/deviceId</Anchor>
             <NodeRef refid="177"/>
 		</Token>
 		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSDynamoDBProvisionedThroughput/setWriteCapacityUnits:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The maximum number of writes consumed per second before DynamoDB returns a &lt;i&gt;ThrottlingException&lt;/i&gt;. For more information, see Specifying Read and Write Requirements in the Amazon DynamoDB Developer Guide.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSNumber *writeCapacityUnits</Declaration>
-			
-			
-			<Anchor>//api/name/writeCapacityUnits</Anchor>
-            <NodeRef refid="177"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSDynamoDBProvisionedThroughput/writeCapacityUnits</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The maximum number of writes consumed per second before DynamoDB returns a &lt;i&gt;ThrottlingException&lt;/i&gt;. For more information, see Specifying Read and Write Requirements in the Amazon DynamoDB Developer Guide.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSNumber *writeCapacityUnits</Declaration>
-			
-			
-			<Anchor>//api/name/writeCapacityUnits</Anchor>
-            <NodeRef refid="177"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSDynamoDBProvisionedThroughput/writeCapacityUnits</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The maximum number of writes consumed per second before DynamoDB returns a &lt;i&gt;ThrottlingException&lt;/i&gt;. For more information, see Specifying Read and Write Requirements in the Amazon DynamoDB Developer Guide.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSNumber *writeCapacityUnits</Declaration>
-			
-			
-			<Anchor>//api/name/writeCapacityUnits</Anchor>
-            <NodeRef refid="177"/>
-		</Token>
-		
+        
         
 	</File>
 </Tokens>

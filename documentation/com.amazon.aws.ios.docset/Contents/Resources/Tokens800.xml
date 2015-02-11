@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSSTSGetSessionTokenResponse.html">
+	<File path="Classes/AWSS3GetObjectTorrentOutput.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSSTSGetSessionTokenResponse</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Contains the result of a successful call to the &lt;a&gt;GetSessionToken&lt;/a&gt; action, including temporary AWS credentials that can be used to make AWS requests. &lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSTSModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSS3GetObjectTorrentOutput</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
             
 			
 			<NodeRef refid="800"/>
@@ -13,41 +13,42 @@
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSSTSGetSessionTokenResponse/setCredentials:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The session credentials for API authentication. &lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSTSModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3GetObjectTorrentOutput/setBody:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) AWSSTSCredentials *credentials</Declaration>
+			<Declaration>@property (nonatomic, strong) id body</Declaration>
 			
 			
-			<Anchor>//api/name/credentials</Anchor>
+			<Anchor>//api/name/body</Anchor>
             <NodeRef refid="800"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSSTSGetSessionTokenResponse/credentials</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The session credentials for API authentication. &lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSTSModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3GetObjectTorrentOutput/body</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) AWSSTSCredentials *credentials</Declaration>
+			<Declaration>@property (nonatomic, strong) id body</Declaration>
 			
 			
-			<Anchor>//api/name/credentials</Anchor>
+			<Anchor>//api/name/body</Anchor>
             <NodeRef refid="800"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSSTSGetSessionTokenResponse/credentials</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The session credentials for API authentication. &lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSTSModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSS3GetObjectTorrentOutput/body</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) AWSSTSCredentials *credentials</Declaration>
+			<Declaration>@property (nonatomic, strong) id body</Declaration>
 			
 			
-			<Anchor>//api/name/credentials</Anchor>
+			<Anchor>//api/name/body</Anchor>
             <NodeRef refid="800"/>
 		</Token>
 		
+        
         
 	</File>
 </Tokens>

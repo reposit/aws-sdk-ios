@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSAutoScalingDescribeTagsType.html">
+	<File path="Classes/AWSAutoScalingDescribeScalingActivitiesType.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSAutoScalingDescribeTagsType</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSAutoScalingDescribeScalingActivitiesType</TokenIdentifier>
 			<Abstract type="html">&lt;p&gt;&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
             
@@ -13,44 +13,80 @@
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingDescribeTagsType/setFilters:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt; The value of the filter type used to identify the tags to be returned. For example, you can filter so that tags are returned according to Auto Scaling group, the key and value, or whether the new tag will be applied to instances launched after the tag is created (PropagateAtLaunch). &lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingDescribeScalingActivitiesType/setActivityIds:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; A list containing the activity IDs of the desired scaling activities. If this list is omitted, all activities are described. If an &lt;code&gt;AutoScalingGroupName&lt;/code&gt; is provided, the results are limited to that group. The list of requested activities cannot contain more than 50 items. If unknown activities are requested, they are ignored with no error. &lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSArray *filters</Declaration>
+			<Declaration>@property (nonatomic, strong) NSArray *activityIds</Declaration>
 			
 			
-			<Anchor>//api/name/filters</Anchor>
+			<Anchor>//api/name/activityIds</Anchor>
             <NodeRef refid="39"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingDescribeTagsType/filters</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt; The value of the filter type used to identify the tags to be returned. For example, you can filter so that tags are returned according to Auto Scaling group, the key and value, or whether the new tag will be applied to instances launched after the tag is created (PropagateAtLaunch). &lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingDescribeScalingActivitiesType/activityIds</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; A list containing the activity IDs of the desired scaling activities. If this list is omitted, all activities are described. If an &lt;code&gt;AutoScalingGroupName&lt;/code&gt; is provided, the results are limited to that group. The list of requested activities cannot contain more than 50 items. If unknown activities are requested, they are ignored with no error. &lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSArray *filters</Declaration>
+			<Declaration>@property (nonatomic, strong) NSArray *activityIds</Declaration>
 			
 			
-			<Anchor>//api/name/filters</Anchor>
+			<Anchor>//api/name/activityIds</Anchor>
             <NodeRef refid="39"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSAutoScalingDescribeTagsType/filters</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt; The value of the filter type used to identify the tags to be returned. For example, you can filter so that tags are returned according to Auto Scaling group, the key and value, or whether the new tag will be applied to instances launched after the tag is created (PropagateAtLaunch). &lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSAutoScalingDescribeScalingActivitiesType/activityIds</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; A list containing the activity IDs of the desired scaling activities. If this list is omitted, all activities are described. If an &lt;code&gt;AutoScalingGroupName&lt;/code&gt; is provided, the results are limited to that group. The list of requested activities cannot contain more than 50 items. If unknown activities are requested, they are ignored with no error. &lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSArray *filters</Declaration>
+			<Declaration>@property (nonatomic, strong) NSArray *activityIds</Declaration>
 			
 			
-			<Anchor>//api/name/filters</Anchor>
+			<Anchor>//api/name/activityIds</Anchor>
             <NodeRef refid="39"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingDescribeTagsType/setMaxRecords:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt; The maximum number of records to return. &lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingDescribeScalingActivitiesType/setAutoScalingGroupName:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; The name of the &lt;a&gt;AutoScalingGroup&lt;/a&gt;. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *autoScalingGroupName</Declaration>
+			
+			
+			<Anchor>//api/name/autoScalingGroupName</Anchor>
+            <NodeRef refid="39"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingDescribeScalingActivitiesType/autoScalingGroupName</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; The name of the &lt;a&gt;AutoScalingGroup&lt;/a&gt;. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *autoScalingGroupName</Declaration>
+			
+			
+			<Anchor>//api/name/autoScalingGroupName</Anchor>
+            <NodeRef refid="39"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSAutoScalingDescribeScalingActivitiesType/autoScalingGroupName</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; The name of the &lt;a&gt;AutoScalingGroup&lt;/a&gt;. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *autoScalingGroupName</Declaration>
+			
+			
+			<Anchor>//api/name/autoScalingGroupName</Anchor>
+            <NodeRef refid="39"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingDescribeScalingActivitiesType/setMaxRecords:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; The maximum number of scaling activities to return. &lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
 			
 			<Declaration>@property (nonatomic, strong) NSNumber *maxRecords</Declaration>
@@ -61,8 +97,8 @@
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingDescribeTagsType/maxRecords</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt; The maximum number of records to return. &lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingDescribeScalingActivitiesType/maxRecords</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; The maximum number of scaling activities to return. &lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
 			
 			<Declaration>@property (nonatomic, strong) NSNumber *maxRecords</Declaration>
@@ -73,8 +109,8 @@
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSAutoScalingDescribeTagsType/maxRecords</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt; The maximum number of records to return. &lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSAutoScalingDescribeScalingActivitiesType/maxRecords</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; The maximum number of scaling activities to return. &lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
 			
 			<Declaration>@property (nonatomic, strong) NSNumber *maxRecords</Declaration>
@@ -85,8 +121,8 @@
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingDescribeTagsType/setNextToken:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt; A string that marks the start of the next batch of returned results. &lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingDescribeScalingActivitiesType/setNextToken:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; A string that marks the start of the next batch of returned results for pagination. &lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
 			
 			<Declaration>@property (nonatomic, strong) NSString *nextToken</Declaration>
@@ -97,8 +133,8 @@
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingDescribeTagsType/nextToken</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt; A string that marks the start of the next batch of returned results. &lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingDescribeScalingActivitiesType/nextToken</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; A string that marks the start of the next batch of returned results for pagination. &lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
 			
 			<Declaration>@property (nonatomic, strong) NSString *nextToken</Declaration>
@@ -109,8 +145,8 @@
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSAutoScalingDescribeTagsType/nextToken</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt; A string that marks the start of the next batch of returned results. &lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSAutoScalingDescribeScalingActivitiesType/nextToken</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; A string that marks the start of the next batch of returned results for pagination. &lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
 			
 			<Declaration>@property (nonatomic, strong) NSString *nextToken</Declaration>
@@ -120,6 +156,7 @@
             <NodeRef refid="39"/>
 		</Token>
 		
+        
         
 	</File>
 </Tokens>

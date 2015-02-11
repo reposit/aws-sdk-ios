@@ -11,7 +11,7 @@
 	<body>
 		<header id="top_header">
 			<div id="library" class="hideInXcode">
-				<h1><a id="libraryTitle" href="../index.html">AWS SDK for iOS v2.0.8 </a></h1>
+				<h1><a id="libraryTitle" href="../index.html">AWS SDK for iOS v2.0.16 </a></h1>
 				<a id="developerHome" href="../index.html">Amazon Web Services, Inc.</a>
 			</div>
 			
@@ -37,6 +37,16 @@
 	
 	
 	
+	<option value="properties">Properties</option>
+	
+	<option value="//api/name/configuration">&nbsp;&nbsp;&nbsp;&nbsp;configuration</option>
+	
+	
+	
+	
+	<option value="class_methods">Class Methods</option>
+	
+	<option value="//api/name/defaultAutoScaling">&nbsp;&nbsp;&nbsp;&nbsp;+ defaultAutoScaling</option>
 	
 	
 	
@@ -111,6 +121,8 @@
 	
 	<option value="//api/name/exitStandby:">&nbsp;&nbsp;&nbsp;&nbsp;- exitStandby:</option>
 	
+	<option value="//api/name/initWithConfiguration:">&nbsp;&nbsp;&nbsp;&nbsp;- initWithConfiguration:</option>
+	
 	<option value="//api/name/putLifecycleHook:">&nbsp;&nbsp;&nbsp;&nbsp;- putLifecycleHook:</option>
 	
 	<option value="//api/name/putNotificationConfiguration:">&nbsp;&nbsp;&nbsp;&nbsp;- putNotificationConfiguration:</option>
@@ -155,7 +167,19 @@
 
 
 
+<li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#properties">Properties</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/configuration">configuration</a></span></li>
+	
+</ul></li>
 
+
+
+<li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#class_methods">Class Methods</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/defaultAutoScaling">defaultAutoScaling</a></span></li>
+	
+</ul></li>
 
 
 
@@ -228,6 +252,8 @@
 	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/executePolicy:">executePolicy:</a></span></li>
 	
 	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/exitStandby:">exitStandby:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/initWithConfiguration:">initWithConfiguration:</a></span></li>
 	
 	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/putLifecycleHook:">putLifecycleHook:</a></span></li>
 	
@@ -305,6 +331,24 @@
 
 						<ul class="task-list">
 							<li>
+	<span class="tooltip">
+		<code><a href="#//api/name/configuration">&nbsp;&nbsp;configuration</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/defaultAutoScaling">+&nbsp;defaultAutoScaling</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/initWithConfiguration:">&ndash;&nbsp;initWithConfiguration:</a></code>
+	</span>
+	
+	
+</li><li>
 	<span class="tooltip">
 		<code><a href="#//api/name/attachInstances:">&ndash;&nbsp;attachInstances:</a></code>
 	</span>
@@ -583,7 +627,101 @@
 					
 					
 					
+					<div class="section section-methods">
+						<a title="Properties" name="properties"></a>
+						<h2 class="subtitle subtitle-methods">Properties</h2>
+						
+						<div class="section-method">
+	<a name="//api/name/configuration" title="configuration"></a>
+	<h3 class="subsubtitle method-title">configuration</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>The service configuration used to instantiate this service client.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, strong, readonly) AWSServiceConfiguration *configuration</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<div class="warning"><p><strong>Warning:</strong> Once the client is instantiated, do not modify the configuration object. It may cause unspecified behaviors.</p></div>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AWSAutoScaling.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+					</div>
 					
+					
+					
+					<div class="section section-methods">
+						<a title="Class Methods" name="class_methods"></a>
+						<h2 class="subtitle subtitle-methods">Class Methods</h2>
+						
+						<div class="section-method">
+	<a name="//api/name/defaultAutoScaling" title="defaultAutoScaling"></a>
+	<h3 class="subsubtitle method-title">defaultAutoScaling</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Returns the singleton service client. If the singleton object does not exist, the SDK instantiates the default service client with <code>defaultServiceConfiguration</code> from <code>[AWSServiceManager defaultServiceManager]</code>. The reference to this object is maintained by the SDK, and you do not need to retain it manually.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>+ (instancetype)defaultAutoScaling</code></div>
+
+    
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>The default service client.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AWSAutoScaling.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+					</div>
 					
 					
 					
@@ -625,7 +763,7 @@
 	
 	<div class="method-subsection return">
 		<h4 class="method-subtitle parameter-title">Return Value</h4>
-		<p>An instance of BFTask. On successful execution, task.result will be nil.</p>
+		<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will be <code>nil</code>.</p>
 	</div>
 	
 	
@@ -695,7 +833,7 @@
 	
 	<div class="method-subsection return">
 		<h4 class="method-subtitle parameter-title">Return Value</h4>
-		<p>An instance of BFTask. On successful execution, task.result will contain an instance of AWSAutoScalingCompleteLifecycleActionAnswer.</p>
+		<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSAutoScalingCompleteLifecycleActionAnswer</code>.</p>
 	</div>
 	
 	
@@ -736,6 +874,8 @@
 	<div class="method-subsection brief-description">
 		<p> Creates a new Auto Scaling group with the specified name and other attributes. When the creation request is completed, the Auto Scaling group is ready to be used in other calls. </p>
 
+
+<p><note> The Auto Scaling group name must be unique within the scope of your AWS account. </note></p>
 	</div>		
 	
     
@@ -758,7 +898,7 @@
 	
 	<div class="method-subsection return">
 		<h4 class="method-subtitle parameter-title">Return Value</h4>
-		<p>An instance of BFTask. On successful execution, task.result will be nil. On failed execution, task.error may contain an NSError with AWSAutoScalingErrorDomain domian and the following error code: AWSAutoScalingErrorAlreadyExists, AWSAutoScalingErrorLimitExceeded.</p>
+		<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will be <code>nil</code>. On failed execution, <code>task.error</code> may contain an <code>NSError</code> with <code>AWSAutoScalingErrorDomain</code> domian and the following error code: <code>AWSAutoScalingErrorAlreadyExists</code>, <code>AWSAutoScalingErrorLimitExceeded</code>.</p>
 	</div>
 	
 	
@@ -819,7 +959,7 @@
 	
 	<div class="method-subsection return">
 		<h4 class="method-subtitle parameter-title">Return Value</h4>
-		<p>An instance of BFTask. On successful execution, task.result will be nil. On failed execution, task.error may contain an NSError with AWSAutoScalingErrorDomain domian and the following error code: AWSAutoScalingErrorAlreadyExists, AWSAutoScalingErrorLimitExceeded.</p>
+		<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will be <code>nil</code>. On failed execution, <code>task.error</code> may contain an <code>NSError</code> with <code>AWSAutoScalingErrorDomain</code> domian and the following error code: <code>AWSAutoScalingErrorAlreadyExists</code>, <code>AWSAutoScalingErrorLimitExceeded</code>.</p>
 	</div>
 	
 	
@@ -859,8 +999,7 @@
 		<p> Creates new tags or updates existing tags for an Auto Scaling group. </p>
 
 
-<p>For information on creating tags for your Auto Scaling group, see <a href="http://docs.aws.amazon.com/AutoScaling/latest/DeveloperGuide/ASTagging.html">Tag Your Auto Scaling Groups and Amazon EC2 Instances</a>.</p>
-
+<p><note> A tag&rsquo;s definition is composed of a resource ID, resource type, key and value, and the propagate flag. Value and the propagate flag are optional parameters. See the Request Parameters for more information. </note><p>For information on creating tags for your Auto Scaling group, see <a href="http://docs.aws.amazon.com/AutoScaling/latest/DeveloperGuide/ASTagging.html">Tag Your Auto Scaling Groups and Amazon EC2 Instances</a>.</p></p>
 	</div>		
 	
     
@@ -883,7 +1022,7 @@
 	
 	<div class="method-subsection return">
 		<h4 class="method-subtitle parameter-title">Return Value</h4>
-		<p>An instance of BFTask. On successful execution, task.result will be nil. On failed execution, task.error may contain an NSError with AWSAutoScalingErrorDomain domian and the following error code: AWSAutoScalingErrorLimitExceeded, AWSAutoScalingErrorAlreadyExists.</p>
+		<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will be <code>nil</code>. On failed execution, <code>task.error</code> may contain an <code>NSError</code> with <code>AWSAutoScalingErrorDomain</code> domian and the following error code: <code>AWSAutoScalingErrorLimitExceeded</code>, <code>AWSAutoScalingErrorAlreadyExists</code>.</p>
 	</div>
 	
 	
@@ -922,6 +1061,8 @@
 	<div class="method-subsection brief-description">
 		<p> Deletes the specified Auto Scaling group if the group has no instances and no scaling activities in progress. </p>
 
+
+<p><note> To remove all instances before calling <a>DeleteAutoScalingGroup</a>, you can call <a>UpdateAutoScalingGroup</a> to set the minimum and maximum size of the AutoScalingGroup to zero. </note></p>
 	</div>		
 	
     
@@ -944,7 +1085,7 @@
 	
 	<div class="method-subsection return">
 		<h4 class="method-subtitle parameter-title">Return Value</h4>
-		<p>An instance of BFTask. On successful execution, task.result will be nil. On failed execution, task.error may contain an NSError with AWSAutoScalingErrorDomain domian and the following error code: AWSAutoScalingErrorScalingActivityInProgress, AWSAutoScalingErrorResourceInUse.</p>
+		<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will be <code>nil</code>. On failed execution, <code>task.error</code> may contain an <code>NSError</code> with <code>AWSAutoScalingErrorDomain</code> domian and the following error code: <code>AWSAutoScalingErrorScalingActivityInProgress</code>, <code>AWSAutoScalingErrorResourceInUse</code>.</p>
 	</div>
 	
 	
@@ -1008,7 +1149,7 @@
 	
 	<div class="method-subsection return">
 		<h4 class="method-subtitle parameter-title">Return Value</h4>
-		<p>An instance of BFTask. On successful execution, task.result will be nil. On failed execution, task.error may contain an NSError with AWSAutoScalingErrorDomain domian and the following error code: AWSAutoScalingErrorResourceInUse.</p>
+		<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will be <code>nil</code>. On failed execution, <code>task.error</code> may contain an <code>NSError</code> with <code>AWSAutoScalingErrorDomain</code> domian and the following error code: <code>AWSAutoScalingErrorResourceInUse</code>.</p>
 	</div>
 	
 	
@@ -1069,7 +1210,7 @@
 	
 	<div class="method-subsection return">
 		<h4 class="method-subtitle parameter-title">Return Value</h4>
-		<p>An instance of BFTask. On successful execution, task.result will contain an instance of AWSAutoScalingDeleteLifecycleHookAnswer.</p>
+		<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSAutoScalingDeleteLifecycleHookAnswer</code>.</p>
 	</div>
 	
 	
@@ -1132,7 +1273,7 @@
 	
 	<div class="method-subsection return">
 		<h4 class="method-subtitle parameter-title">Return Value</h4>
-		<p>An instance of BFTask. On successful execution, task.result will be nil.</p>
+		<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will be <code>nil</code>.</p>
 	</div>
 	
 	
@@ -1193,7 +1334,7 @@
 	
 	<div class="method-subsection return">
 		<h4 class="method-subtitle parameter-title">Return Value</h4>
-		<p>An instance of BFTask. On successful execution, task.result will be nil.</p>
+		<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will be <code>nil</code>.</p>
 	</div>
 	
 	
@@ -1254,7 +1395,7 @@
 	
 	<div class="method-subsection return">
 		<h4 class="method-subtitle parameter-title">Return Value</h4>
-		<p>An instance of BFTask. On successful execution, task.result will be nil.</p>
+		<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will be <code>nil</code>.</p>
 	</div>
 	
 	
@@ -1315,7 +1456,7 @@
 	
 	<div class="method-subsection return">
 		<h4 class="method-subtitle parameter-title">Return Value</h4>
-		<p>An instance of BFTask. On successful execution, task.result will be nil.</p>
+		<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will be <code>nil</code>.</p>
 	</div>
 	
 	
@@ -1382,7 +1523,7 @@
 	
 	<div class="method-subsection return">
 		<h4 class="method-subtitle parameter-title">Return Value</h4>
-		<p>An instance of BFTask. On successful execution, task.result will contain an instance of AWSAutoScalingDescribeAccountLimitsAnswer.</p>
+		<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSAutoScalingDescribeAccountLimitsAnswer</code>.</p>
 	</div>
 	
 	
@@ -1443,7 +1584,7 @@
 	
 	<div class="method-subsection return">
 		<h4 class="method-subtitle parameter-title">Return Value</h4>
-		<p>An instance of BFTask. On successful execution, task.result will contain an instance of AWSAutoScalingDescribeAdjustmentTypesAnswer.</p>
+		<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSAutoScalingDescribeAdjustmentTypesAnswer</code>.</p>
 	</div>
 	
 	
@@ -1507,7 +1648,7 @@
 	
 	<div class="method-subsection return">
 		<h4 class="method-subtitle parameter-title">Return Value</h4>
-		<p>An instance of BFTask. On successful execution, task.result will contain an instance of AWSAutoScalingAutoScalingGroupsType. On failed execution, task.error may contain an NSError with AWSAutoScalingErrorDomain domian and the following error code: AWSAutoScalingErrorInvalidNextToken.</p>
+		<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSAutoScalingAutoScalingGroupsType</code>. On failed execution, <code>task.error</code> may contain an <code>NSError</code> with <code>AWSAutoScalingErrorDomain</code> domian and the following error code: <code>AWSAutoScalingErrorInvalidNextToken</code>.</p>
 	</div>
 	
 	
@@ -1573,7 +1714,7 @@
 	
 	<div class="method-subsection return">
 		<h4 class="method-subtitle parameter-title">Return Value</h4>
-		<p>An instance of BFTask. On successful execution, task.result will contain an instance of AWSAutoScalingAutoScalingInstancesType. On failed execution, task.error may contain an NSError with AWSAutoScalingErrorDomain domian and the following error code: AWSAutoScalingErrorInvalidNextToken.</p>
+		<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSAutoScalingAutoScalingInstancesType</code>. On failed execution, <code>task.error</code> may contain an <code>NSError</code> with <code>AWSAutoScalingErrorDomain</code> domian and the following error code: <code>AWSAutoScalingErrorInvalidNextToken</code>.</p>
 	</div>
 	
 	
@@ -1636,7 +1777,7 @@
 	
 	<div class="method-subsection return">
 		<h4 class="method-subtitle parameter-title">Return Value</h4>
-		<p>An instance of BFTask. On successful execution, task.result will contain an instance of AWSAutoScalingDescribeAutoScalingNotificationTypesAnswer.</p>
+		<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSAutoScalingDescribeAutoScalingNotificationTypesAnswer</code>.</p>
 	</div>
 	
 	
@@ -1700,7 +1841,7 @@
 	
 	<div class="method-subsection return">
 		<h4 class="method-subtitle parameter-title">Return Value</h4>
-		<p>An instance of BFTask. On successful execution, task.result will contain an instance of AWSAutoScalingLaunchConfigurationsType. On failed execution, task.error may contain an NSError with AWSAutoScalingErrorDomain domian and the following error code: AWSAutoScalingErrorInvalidNextToken.</p>
+		<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSAutoScalingLaunchConfigurationsType</code>. On failed execution, <code>task.error</code> may contain an <code>NSError</code> with <code>AWSAutoScalingErrorDomain</code> domian and the following error code: <code>AWSAutoScalingErrorInvalidNextToken</code>.</p>
 	</div>
 	
 	
@@ -1763,7 +1904,7 @@
 	
 	<div class="method-subsection return">
 		<h4 class="method-subtitle parameter-title">Return Value</h4>
-		<p>An instance of BFTask. On successful execution, task.result will contain an instance of AWSAutoScalingDescribeLifecycleHookTypesAnswer.</p>
+		<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSAutoScalingDescribeLifecycleHookTypesAnswer</code>.</p>
 	</div>
 	
 	
@@ -1824,7 +1965,7 @@
 	
 	<div class="method-subsection return">
 		<h4 class="method-subtitle parameter-title">Return Value</h4>
-		<p>An instance of BFTask. On successful execution, task.result will contain an instance of AWSAutoScalingDescribeLifecycleHooksAnswer.</p>
+		<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSAutoScalingDescribeLifecycleHooksAnswer</code>.</p>
 	</div>
 	
 	
@@ -1865,6 +2006,8 @@
 	<div class="method-subsection brief-description">
 		<p> Returns a list of metrics and a corresponding list of granularities for each metric. </p>
 
+
+<p><note><p>The <code>GroupStandbyInstances</code> metric is not returned by default. You must explicitly request it when calling <a>EnableMetricsCollection</a>.</p></note></p>
 	</div>		
 	
     
@@ -1887,7 +2030,7 @@
 	
 	<div class="method-subsection return">
 		<h4 class="method-subtitle parameter-title">Return Value</h4>
-		<p>An instance of BFTask. On successful execution, task.result will contain an instance of AWSAutoScalingDescribeMetricCollectionTypesAnswer.</p>
+		<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSAutoScalingDescribeMetricCollectionTypesAnswer</code>.</p>
 	</div>
 	
 	
@@ -1948,7 +2091,7 @@
 	
 	<div class="method-subsection return">
 		<h4 class="method-subtitle parameter-title">Return Value</h4>
-		<p>An instance of BFTask. On successful execution, task.result will contain an instance of AWSAutoScalingDescribeNotificationConfigurationsAnswer. On failed execution, task.error may contain an NSError with AWSAutoScalingErrorDomain domian and the following error code: AWSAutoScalingErrorInvalidNextToken.</p>
+		<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSAutoScalingDescribeNotificationConfigurationsAnswer</code>. On failed execution, <code>task.error</code> may contain an <code>NSError</code> with <code>AWSAutoScalingErrorDomain</code> domian and the following error code: <code>AWSAutoScalingErrorInvalidNextToken</code>.</p>
 	</div>
 	
 	
@@ -2011,7 +2154,7 @@
 	
 	<div class="method-subsection return">
 		<h4 class="method-subtitle parameter-title">Return Value</h4>
-		<p>An instance of BFTask. On successful execution, task.result will contain an instance of AWSAutoScalingPoliciesType. On failed execution, task.error may contain an NSError with AWSAutoScalingErrorDomain domian and the following error code: AWSAutoScalingErrorInvalidNextToken.</p>
+		<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSAutoScalingPoliciesType</code>. On failed execution, <code>task.error</code> may contain an <code>NSError</code> with <code>AWSAutoScalingErrorDomain</code> domian and the following error code: <code>AWSAutoScalingErrorInvalidNextToken</code>.</p>
 	</div>
 	
 	
@@ -2080,7 +2223,7 @@
 	
 	<div class="method-subsection return">
 		<h4 class="method-subtitle parameter-title">Return Value</h4>
-		<p>An instance of BFTask. On successful execution, task.result will contain an instance of AWSAutoScalingActivitiesType. On failed execution, task.error may contain an NSError with AWSAutoScalingErrorDomain domian and the following error code: AWSAutoScalingErrorInvalidNextToken.</p>
+		<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSAutoScalingActivitiesType</code>. On failed execution, <code>task.error</code> may contain an <code>NSError</code> with <code>AWSAutoScalingErrorDomain</code> domian and the following error code: <code>AWSAutoScalingErrorInvalidNextToken</code>.</p>
 	</div>
 	
 	
@@ -2143,7 +2286,7 @@
 	
 	<div class="method-subsection return">
 		<h4 class="method-subtitle parameter-title">Return Value</h4>
-		<p>An instance of BFTask. On successful execution, task.result will contain an instance of AWSAutoScalingProcessesType.</p>
+		<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSAutoScalingProcessesType</code>.</p>
 	</div>
 	
 	
@@ -2204,7 +2347,7 @@
 	
 	<div class="method-subsection return">
 		<h4 class="method-subtitle parameter-title">Return Value</h4>
-		<p>An instance of BFTask. On successful execution, task.result will contain an instance of AWSAutoScalingScheduledActionsType. On failed execution, task.error may contain an NSError with AWSAutoScalingErrorDomain domian and the following error code: AWSAutoScalingErrorInvalidNextToken.</p>
+		<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSAutoScalingScheduledActionsType</code>. On failed execution, <code>task.error</code> may contain an <code>NSError</code> with <code>AWSAutoScalingErrorDomain</code> domian and the following error code: <code>AWSAutoScalingErrorInvalidNextToken</code>.</p>
 	</div>
 	
 	
@@ -2273,7 +2416,7 @@
 	
 	<div class="method-subsection return">
 		<h4 class="method-subtitle parameter-title">Return Value</h4>
-		<p>An instance of BFTask. On successful execution, task.result will contain an instance of AWSAutoScalingTagsType. On failed execution, task.error may contain an NSError with AWSAutoScalingErrorDomain domian and the following error code: AWSAutoScalingErrorInvalidNextToken.</p>
+		<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSAutoScalingTagsType</code>. On failed execution, <code>task.error</code> may contain an <code>NSError</code> with <code>AWSAutoScalingErrorDomain</code> domian and the following error code: <code>AWSAutoScalingErrorInvalidNextToken</code>.</p>
 	</div>
 	
 	
@@ -2336,7 +2479,7 @@
 	
 	<div class="method-subsection return">
 		<h4 class="method-subtitle parameter-title">Return Value</h4>
-		<p>An instance of BFTask. On successful execution, task.result will contain an instance of AWSAutoScalingDescribeTerminationPolicyTypesAnswer.</p>
+		<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSAutoScalingDescribeTerminationPolicyTypesAnswer</code>.</p>
 	</div>
 	
 	
@@ -2400,7 +2543,7 @@
 	
 	<div class="method-subsection return">
 		<h4 class="method-subtitle parameter-title">Return Value</h4>
-		<p>An instance of BFTask. On successful execution, task.result will contain an instance of AWSAutoScalingDetachInstancesAnswer.</p>
+		<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSAutoScalingDetachInstancesAnswer</code>.</p>
 	</div>
 	
 	
@@ -2463,7 +2606,7 @@
 	
 	<div class="method-subsection return">
 		<h4 class="method-subtitle parameter-title">Return Value</h4>
-		<p>An instance of BFTask. On successful execution, task.result will be nil.</p>
+		<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will be <code>nil</code>.</p>
 	</div>
 	
 	
@@ -2527,7 +2670,7 @@
 	
 	<div class="method-subsection return">
 		<h4 class="method-subtitle parameter-title">Return Value</h4>
-		<p>An instance of BFTask. On successful execution, task.result will be nil.</p>
+		<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will be <code>nil</code>.</p>
 	</div>
 	
 	
@@ -2591,7 +2734,7 @@
 	
 	<div class="method-subsection return">
 		<h4 class="method-subtitle parameter-title">Return Value</h4>
-		<p>An instance of BFTask. On successful execution, task.result will contain an instance of AWSAutoScalingEnterStandbyAnswer.</p>
+		<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSAutoScalingEnterStandbyAnswer</code>.</p>
 	</div>
 	
 	
@@ -2654,7 +2797,7 @@
 	
 	<div class="method-subsection return">
 		<h4 class="method-subtitle parameter-title">Return Value</h4>
-		<p>An instance of BFTask. On successful execution, task.result will be nil. On failed execution, task.error may contain an NSError with AWSAutoScalingErrorDomain domian and the following error code: AWSAutoScalingErrorScalingActivityInProgress.</p>
+		<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will be <code>nil</code>. On failed execution, <code>task.error</code> may contain an <code>NSError</code> with <code>AWSAutoScalingErrorDomain</code> domian and the following error code: <code>AWSAutoScalingErrorScalingActivityInProgress</code>.</p>
 	</div>
 	
 	
@@ -2718,7 +2861,7 @@
 	
 	<div class="method-subsection return">
 		<h4 class="method-subtitle parameter-title">Return Value</h4>
-		<p>An instance of BFTask. On successful execution, task.result will contain an instance of AWSAutoScalingExitStandbyAnswer.</p>
+		<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSAutoScalingExitStandbyAnswer</code>.</p>
 	</div>
 	
 	
@@ -2739,6 +2882,62 @@
 			
 		</ul>
 	</div>
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AWSAutoScaling.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/initWithConfiguration:" title="initWithConfiguration:"></a>
+	<h3 class="subsubtitle method-title">initWithConfiguration:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Instantiates the service client with the given service configuration.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (instancetype)initWithConfiguration:(AWSServiceConfiguration *)<em>configuration</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>configuration</em></dt>
+			<dd><p>The service configuration object.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>An instance of the service client.</p>
+	</div>
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<div class="warning"><p><strong>Warning:</strong> Once the client is instantiated, do not modify the configuration object. It may cause unspecified behaviors.</p></div><div class="warning"><p><strong>Warning:</strong> Unlike the singleton method, you are responsible for maintaining a strong reference to this object. If the service client is released before completing a service request, the request may fail with unspecified errors.</p></div>
+	</div>
+	
+	
+	
+	
 	
 	
 	
@@ -2793,7 +2992,7 @@
 	
 	<div class="method-subsection return">
 		<h4 class="method-subtitle parameter-title">Return Value</h4>
-		<p>An instance of BFTask. On successful execution, task.result will contain an instance of AWSAutoScalingPutLifecycleHookAnswer. On failed execution, task.error may contain an NSError with AWSAutoScalingErrorDomain domian and the following error code: AWSAutoScalingErrorLimitExceeded.</p>
+		<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSAutoScalingPutLifecycleHookAnswer</code>. On failed execution, <code>task.error</code> may contain an <code>NSError</code> with <code>AWSAutoScalingErrorDomain</code> domian and the following error code: <code>AWSAutoScalingErrorLimitExceeded</code>.</p>
 	</div>
 	
 	
@@ -2862,7 +3061,7 @@
 	
 	<div class="method-subsection return">
 		<h4 class="method-subtitle parameter-title">Return Value</h4>
-		<p>An instance of BFTask. On successful execution, task.result will be nil. On failed execution, task.error may contain an NSError with AWSAutoScalingErrorDomain domian and the following error code: AWSAutoScalingErrorLimitExceeded.</p>
+		<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will be <code>nil</code>. On failed execution, <code>task.error</code> may contain an <code>NSError</code> with <code>AWSAutoScalingErrorDomain</code> domian and the following error code: <code>AWSAutoScalingErrorLimitExceeded</code>.</p>
 	</div>
 	
 	
@@ -2923,7 +3122,7 @@
 	
 	<div class="method-subsection return">
 		<h4 class="method-subtitle parameter-title">Return Value</h4>
-		<p>An instance of BFTask. On successful execution, task.result will contain an instance of AWSAutoScalingPolicyARNType. On failed execution, task.error may contain an NSError with AWSAutoScalingErrorDomain domian and the following error code: AWSAutoScalingErrorLimitExceeded.</p>
+		<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSAutoScalingPolicyARNType</code>. On failed execution, <code>task.error</code> may contain an <code>NSError</code> with <code>AWSAutoScalingErrorDomain</code> domian and the following error code: <code>AWSAutoScalingErrorLimitExceeded</code>.</p>
 	</div>
 	
 	
@@ -2967,6 +3166,8 @@
 
 <p>For information on creating or updating a scheduled action for your Auto Scaling group, see <a href="http://docs.aws.amazon.com/AutoScaling/latest/DeveloperGuide/schedule_time.html">Scale Based on a Schedule</a>.</p>
 
+
+<p><note><p>Auto Scaling supports the date and time expressed in &ldquo;YYYY-MM-DDThh:mm:ssZ&rdquo; format in UTC/GMT only.</p></note></p>
 	</div>		
 	
     
@@ -2989,7 +3190,7 @@
 	
 	<div class="method-subsection return">
 		<h4 class="method-subtitle parameter-title">Return Value</h4>
-		<p>An instance of BFTask. On successful execution, task.result will be nil. On failed execution, task.error may contain an NSError with AWSAutoScalingErrorDomain domian and the following error code: AWSAutoScalingErrorAlreadyExists, AWSAutoScalingErrorLimitExceeded.</p>
+		<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will be <code>nil</code>. On failed execution, <code>task.error</code> may contain an <code>NSError</code> with <code>AWSAutoScalingErrorDomain</code> domian and the following error code: <code>AWSAutoScalingErrorAlreadyExists</code>, <code>AWSAutoScalingErrorLimitExceeded</code>.</p>
 	</div>
 	
 	
@@ -3059,7 +3260,7 @@
 	
 	<div class="method-subsection return">
 		<h4 class="method-subtitle parameter-title">Return Value</h4>
-		<p>An instance of BFTask. On successful execution, task.result will contain an instance of AWSAutoScalingRecordLifecycleActionHeartbeatAnswer.</p>
+		<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSAutoScalingRecordLifecycleActionHeartbeatAnswer</code>.</p>
 	</div>
 	
 	
@@ -3122,7 +3323,7 @@
 	
 	<div class="method-subsection return">
 		<h4 class="method-subtitle parameter-title">Return Value</h4>
-		<p>An instance of BFTask. On successful execution, task.result will be nil.</p>
+		<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will be <code>nil</code>.</p>
 	</div>
 	
 	
@@ -3183,7 +3384,7 @@
 	
 	<div class="method-subsection return">
 		<h4 class="method-subtitle parameter-title">Return Value</h4>
-		<p>An instance of BFTask. On successful execution, task.result will be nil. On failed execution, task.error may contain an NSError with AWSAutoScalingErrorDomain domian and the following error code: AWSAutoScalingErrorScalingActivityInProgress.</p>
+		<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will be <code>nil</code>. On failed execution, <code>task.error</code> may contain an <code>NSError</code> with <code>AWSAutoScalingErrorDomain</code> domian and the following error code: <code>AWSAutoScalingErrorScalingActivityInProgress</code>.</p>
 	</div>
 	
 	
@@ -3247,7 +3448,7 @@
 	
 	<div class="method-subsection return">
 		<h4 class="method-subtitle parameter-title">Return Value</h4>
-		<p>An instance of BFTask. On successful execution, task.result will be nil.</p>
+		<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will be <code>nil</code>.</p>
 	</div>
 	
 	
@@ -3310,7 +3511,7 @@
 	
 	<div class="method-subsection return">
 		<h4 class="method-subtitle parameter-title">Return Value</h4>
-		<p>An instance of BFTask. On successful execution, task.result will be nil.</p>
+		<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will be <code>nil</code>.</p>
 	</div>
 	
 	
@@ -3349,6 +3550,8 @@
 	<div class="method-subsection brief-description">
 		<p> Terminates the specified instance. Optionally, the desired group size can be adjusted. </p>
 
+
+<p><note> This call simply registers a termination request. The termination of the instance cannot happen immediately. </note></p>
 	</div>		
 	
     
@@ -3371,7 +3574,7 @@
 	
 	<div class="method-subsection return">
 		<h4 class="method-subtitle parameter-title">Return Value</h4>
-		<p>An instance of BFTask. On successful execution, task.result will contain an instance of AWSAutoScalingActivityType. On failed execution, task.error may contain an NSError with AWSAutoScalingErrorDomain domian and the following error code: AWSAutoScalingErrorScalingActivityInProgress.</p>
+		<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSAutoScalingActivityType</code>. On failed execution, <code>task.error</code> may contain an <code>NSError</code> with <code>AWSAutoScalingErrorDomain</code> domian and the following error code: <code>AWSAutoScalingErrorScalingActivityInProgress</code>.</p>
 	</div>
 	
 	
@@ -3413,8 +3616,7 @@
 		<p> Updates the configuration for the specified <a>AutoScalingGroup</a>. </p>
 
 
-<p> The new settings are registered upon the completion of this call. Any launch configuration settings take effect on any triggers after this call returns. Scaling activities that are currently in progress aren't affected. </p>
-
+<p><note><p> To update an Auto Scaling group with a launch configuration that has the <code>InstanceMonitoring</code> flag set to <code>False</code>, you must first ensure that collection of group metrics is disabled. Otherwise, calls to <a>UpdateAutoScalingGroup</a> will fail. If you have previously enabled group metrics collection, you can disable collection of all group metrics by calling <a>DisableMetricsCollection</a>. </p></note><p> The new settings are registered upon the completion of this call. Any launch configuration settings take effect on any triggers after this call returns. Scaling activities that are currently in progress aren&rsquo;t affected. </p><note><ul><li><p>If a new value is specified for <i>MinSize</i> without specifying the value for <i>DesiredCapacity</i>, and if the new <i>MinSize</i> is larger than the current size of the Auto Scaling Group, there will be an implicit call to <a>SetDesiredCapacity</a> to set the group to the new <i>MinSize</i>. </p></li><li><p>If a new value is specified for <i>MaxSize</i> without specifying the value for <i>DesiredCapacity</i>, and the new <i>MaxSize</i> is smaller than the current size of the Auto Scaling Group, there will be an implicit call to <a>SetDesiredCapacity</a> to set the group to the new <i>MaxSize</i>. </p></li><li><p>All other optional parameters are left unchanged if not passed in the request.</p></li></ul></note></p>
 	</div>		
 	
     
@@ -3437,7 +3639,7 @@
 	
 	<div class="method-subsection return">
 		<h4 class="method-subtitle parameter-title">Return Value</h4>
-		<p>An instance of BFTask. On successful execution, task.result will be nil. On failed execution, task.error may contain an NSError with AWSAutoScalingErrorDomain domian and the following error code: AWSAutoScalingErrorScalingActivityInProgress.</p>
+		<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will be <code>nil</code>. On failed execution, <code>task.error</code> may contain an <code>NSError</code> with <code>AWSAutoScalingErrorDomain</code> domian and the following error code: <code>AWSAutoScalingErrorScalingActivityInProgress</code>.</p>
 	</div>
 	
 	
@@ -3472,6 +3674,9 @@
 					
                     
                     
+                    
+                    
+
 				</div>
 				<div class="main-navigation navigation-bottom">
 					<ul>
@@ -3482,7 +3687,7 @@
 				<div id="footer">
 					<hr />
 					<div class="footer-copyright">
-						<p><span class="copyright">&copy; 2014 Amazon Web Services, Inc.. All rights reserved. (Last updated: 2014-09-29)</span><br />
+						<p><span class="copyright">&copy; 2015 Amazon Web Services, Inc.. All rights reserved. (Last updated: 2015-02-09)</span><br />
 						
 						<span class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.2 (build 963)</a>.</span></p>
 						

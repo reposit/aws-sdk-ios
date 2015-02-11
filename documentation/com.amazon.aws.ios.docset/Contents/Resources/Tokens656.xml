@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSS3Transition.html">
+	<File path="Classes/AWSElasticLoadBalancingDescribeAccessPointsOutput.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSS3Transition</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSElasticLoadBalancingDescribeAccessPointsOutput</TokenIdentifier>
 			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			<DeclaredIn>AWSElasticLoadBalancingModel.h</DeclaredIn>
             
 			
 			<NodeRef refid="656"/>
@@ -13,113 +13,78 @@
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3Transition/setDate:</TokenIdentifier>
-			<Abstract type="html">Indicates at what date the object is to be moved or deleted. Should be in GMT ISO 8601 Format.</Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSElasticLoadBalancingDescribeAccessPointsOutput/setLoadBalancerDescriptions:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSElasticLoadBalancingModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSDate *date</Declaration>
+			<Declaration>@property (nonatomic, strong) NSArray *loadBalancerDescriptions</Declaration>
 			
 			
-			<Anchor>//api/name/date</Anchor>
+			<Anchor>//api/name/loadBalancerDescriptions</Anchor>
             <NodeRef refid="656"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3Transition/date</TokenIdentifier>
-			<Abstract type="html">Indicates at what date the object is to be moved or deleted. Should be in GMT ISO 8601 Format.</Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSElasticLoadBalancingDescribeAccessPointsOutput/loadBalancerDescriptions</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSElasticLoadBalancingModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSDate *date</Declaration>
+			<Declaration>@property (nonatomic, strong) NSArray *loadBalancerDescriptions</Declaration>
 			
 			
-			<Anchor>//api/name/date</Anchor>
+			<Anchor>//api/name/loadBalancerDescriptions</Anchor>
             <NodeRef refid="656"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSS3Transition/date</TokenIdentifier>
-			<Abstract type="html">Indicates at what date the object is to be moved or deleted. Should be in GMT ISO 8601 Format.</Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSElasticLoadBalancingDescribeAccessPointsOutput/loadBalancerDescriptions</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSElasticLoadBalancingModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSDate *date</Declaration>
+			<Declaration>@property (nonatomic, strong) NSArray *loadBalancerDescriptions</Declaration>
 			
 			
-			<Anchor>//api/name/date</Anchor>
+			<Anchor>//api/name/loadBalancerDescriptions</Anchor>
             <NodeRef refid="656"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3Transition/setDays:</TokenIdentifier>
-			<Abstract type="html">Indicates the lifetime, in days, of the objects that are subject to the rule. The value must be a non-zero positive integer.</Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSElasticLoadBalancingDescribeAccessPointsOutput/setNextMarker:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSElasticLoadBalancingModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSNumber *days</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *nextMarker</Declaration>
 			
 			
-			<Anchor>//api/name/days</Anchor>
+			<Anchor>//api/name/nextMarker</Anchor>
             <NodeRef refid="656"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3Transition/days</TokenIdentifier>
-			<Abstract type="html">Indicates the lifetime, in days, of the objects that are subject to the rule. The value must be a non-zero positive integer.</Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSElasticLoadBalancingDescribeAccessPointsOutput/nextMarker</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSElasticLoadBalancingModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSNumber *days</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *nextMarker</Declaration>
 			
 			
-			<Anchor>//api/name/days</Anchor>
+			<Anchor>//api/name/nextMarker</Anchor>
             <NodeRef refid="656"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSS3Transition/days</TokenIdentifier>
-			<Abstract type="html">Indicates the lifetime, in days, of the objects that are subject to the rule. The value must be a non-zero positive integer.</Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSElasticLoadBalancingDescribeAccessPointsOutput/nextMarker</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSElasticLoadBalancingModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSNumber *days</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *nextMarker</Declaration>
 			
 			
-			<Anchor>//api/name/days</Anchor>
+			<Anchor>//api/name/nextMarker</Anchor>
             <NodeRef refid="656"/>
 		</Token>
 		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3Transition/setStorageClass:</TokenIdentifier>
-			<Abstract type="html">The class of storage used to store the object.</Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, assign) AWSS3TransitionStorageClass storageClass</Declaration>
-			
-			
-			<Anchor>//api/name/storageClass</Anchor>
-            <NodeRef refid="656"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3Transition/storageClass</TokenIdentifier>
-			<Abstract type="html">The class of storage used to store the object.</Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, assign) AWSS3TransitionStorageClass storageClass</Declaration>
-			
-			
-			<Anchor>//api/name/storageClass</Anchor>
-            <NodeRef refid="656"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSS3Transition/storageClass</TokenIdentifier>
-			<Abstract type="html">The class of storage used to store the object.</Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, assign) AWSS3TransitionStorageClass storageClass</Declaration>
-			
-			
-			<Anchor>//api/name/storageClass</Anchor>
-            <NodeRef refid="656"/>
-		</Token>
-		
+        
         
 	</File>
 </Tokens>

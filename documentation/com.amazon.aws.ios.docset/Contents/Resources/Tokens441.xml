@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSEC2LaunchPermissionModifications.html">
+	<File path="Classes/AWSEC2DisassociateAddressRequest.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSEC2LaunchPermissionModifications</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Describes a launch permission modification.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSEC2DisassociateAddressRequest</TokenIdentifier>
+			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
             
 			
@@ -13,77 +13,114 @@
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2LaunchPermissionModifications/setAdd:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The AWS account ID to add to the list of launch permissions for the AMI.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DisassociateAddressRequest/setAssociationId:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;[EC2-VPC] The association ID. Required for EC2-VPC.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSArray *add</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *associationId</Declaration>
 			
 			
-			<Anchor>//api/name/add</Anchor>
+			<Anchor>//api/name/associationId</Anchor>
             <NodeRef refid="441"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2LaunchPermissionModifications/add</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The AWS account ID to add to the list of launch permissions for the AMI.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DisassociateAddressRequest/associationId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;[EC2-VPC] The association ID. Required for EC2-VPC.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSArray *add</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *associationId</Declaration>
 			
 			
-			<Anchor>//api/name/add</Anchor>
+			<Anchor>//api/name/associationId</Anchor>
             <NodeRef refid="441"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2LaunchPermissionModifications/add</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The AWS account ID to add to the list of launch permissions for the AMI.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2DisassociateAddressRequest/associationId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;[EC2-VPC] The association ID. Required for EC2-VPC.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSArray *add</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *associationId</Declaration>
 			
 			
-			<Anchor>//api/name/add</Anchor>
+			<Anchor>//api/name/associationId</Anchor>
             <NodeRef refid="441"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2LaunchPermissionModifications/setRemove:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The AWS account ID to remove from the list of launch permissions for the AMI.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DisassociateAddressRequest/setDryRun:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSArray *remove</Declaration>
+			<Declaration>@property (nonatomic, strong) NSNumber *dryRun</Declaration>
 			
 			
-			<Anchor>//api/name/remove</Anchor>
+			<Anchor>//api/name/dryRun</Anchor>
             <NodeRef refid="441"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2LaunchPermissionModifications/remove</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The AWS account ID to remove from the list of launch permissions for the AMI.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DisassociateAddressRequest/dryRun</TokenIdentifier>
+			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSArray *remove</Declaration>
+			<Declaration>@property (nonatomic, strong) NSNumber *dryRun</Declaration>
 			
 			
-			<Anchor>//api/name/remove</Anchor>
+			<Anchor>//api/name/dryRun</Anchor>
             <NodeRef refid="441"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2LaunchPermissionModifications/remove</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The AWS account ID to remove from the list of launch permissions for the AMI.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2DisassociateAddressRequest/dryRun</TokenIdentifier>
+			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSArray *remove</Declaration>
+			<Declaration>@property (nonatomic, strong) NSNumber *dryRun</Declaration>
 			
 			
-			<Anchor>//api/name/remove</Anchor>
+			<Anchor>//api/name/dryRun</Anchor>
             <NodeRef refid="441"/>
 		</Token>
 		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DisassociateAddressRequest/setPublicIp:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;[EC2-Classic] The Elastic IP address. Required for EC2-Classic.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *publicIp</Declaration>
+			
+			
+			<Anchor>//api/name/publicIp</Anchor>
+            <NodeRef refid="441"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DisassociateAddressRequest/publicIp</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;[EC2-Classic] The Elastic IP address. Required for EC2-Classic.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *publicIp</Declaration>
+			
+			
+			<Anchor>//api/name/publicIp</Anchor>
+            <NodeRef refid="441"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2DisassociateAddressRequest/publicIp</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;[EC2-Classic] The Elastic IP address. Required for EC2-Classic.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *publicIp</Declaration>
+			
+			
+			<Anchor>//api/name/publicIp</Anchor>
+            <NodeRef refid="441"/>
+		</Token>
+		
+        
         
 	</File>
 </Tokens>

@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSS3GetBucketVersioningOutput.html">
+	<File path="Classes/AWSEC2VolumeStatusEvent.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSS3GetBucketVersioningOutput</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSEC2VolumeStatusEvent</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Describes a volume status event.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
             
 			
 			<NodeRef refid="607"/>
@@ -13,77 +13,186 @@
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3GetBucketVersioningOutput/setMFADelete:</TokenIdentifier>
-			<Abstract type="html">Specifies whether MFA delete is enabled in the bucket versioning configuration. This element is only returned if the bucket has been configured with MFA delete. If the bucket has never been so configured, this element is not returned.</Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2VolumeStatusEvent/setDetail:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;A description of the event.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, assign) AWSS3MFADeleteStatus MFADelete</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *detail</Declaration>
 			
 			
-			<Anchor>//api/name/MFADelete</Anchor>
+			<Anchor>//api/name/detail</Anchor>
             <NodeRef refid="607"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3GetBucketVersioningOutput/MFADelete</TokenIdentifier>
-			<Abstract type="html">Specifies whether MFA delete is enabled in the bucket versioning configuration. This element is only returned if the bucket has been configured with MFA delete. If the bucket has never been so configured, this element is not returned.</Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2VolumeStatusEvent/detail</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;A description of the event.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, assign) AWSS3MFADeleteStatus MFADelete</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *detail</Declaration>
 			
 			
-			<Anchor>//api/name/MFADelete</Anchor>
+			<Anchor>//api/name/detail</Anchor>
             <NodeRef refid="607"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSS3GetBucketVersioningOutput/MFADelete</TokenIdentifier>
-			<Abstract type="html">Specifies whether MFA delete is enabled in the bucket versioning configuration. This element is only returned if the bucket has been configured with MFA delete. If the bucket has never been so configured, this element is not returned.</Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2VolumeStatusEvent/detail</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;A description of the event.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, assign) AWSS3MFADeleteStatus MFADelete</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *detail</Declaration>
 			
 			
-			<Anchor>//api/name/MFADelete</Anchor>
+			<Anchor>//api/name/detail</Anchor>
             <NodeRef refid="607"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3GetBucketVersioningOutput/setStatus:</TokenIdentifier>
-			<Abstract type="html">The versioning state of the bucket.</Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2VolumeStatusEvent/setEventId:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of this event.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, assign) AWSS3BucketVersioningStatus status</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *eventId</Declaration>
 			
 			
-			<Anchor>//api/name/status</Anchor>
+			<Anchor>//api/name/eventId</Anchor>
             <NodeRef refid="607"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3GetBucketVersioningOutput/status</TokenIdentifier>
-			<Abstract type="html">The versioning state of the bucket.</Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2VolumeStatusEvent/eventId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of this event.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, assign) AWSS3BucketVersioningStatus status</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *eventId</Declaration>
 			
 			
-			<Anchor>//api/name/status</Anchor>
+			<Anchor>//api/name/eventId</Anchor>
             <NodeRef refid="607"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSS3GetBucketVersioningOutput/status</TokenIdentifier>
-			<Abstract type="html">The versioning state of the bucket.</Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2VolumeStatusEvent/eventId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of this event.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, assign) AWSS3BucketVersioningStatus status</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *eventId</Declaration>
 			
 			
-			<Anchor>//api/name/status</Anchor>
+			<Anchor>//api/name/eventId</Anchor>
             <NodeRef refid="607"/>
 		</Token>
 		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2VolumeStatusEvent/setEventType:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The type of this event.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *eventType</Declaration>
+			
+			
+			<Anchor>//api/name/eventType</Anchor>
+            <NodeRef refid="607"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2VolumeStatusEvent/eventType</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The type of this event.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *eventType</Declaration>
+			
+			
+			<Anchor>//api/name/eventType</Anchor>
+            <NodeRef refid="607"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2VolumeStatusEvent/eventType</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The type of this event.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *eventType</Declaration>
+			
+			
+			<Anchor>//api/name/eventType</Anchor>
+            <NodeRef refid="607"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2VolumeStatusEvent/setNotAfter:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The latest end time of the event.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSDate *notAfter</Declaration>
+			
+			
+			<Anchor>//api/name/notAfter</Anchor>
+            <NodeRef refid="607"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2VolumeStatusEvent/notAfter</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The latest end time of the event.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSDate *notAfter</Declaration>
+			
+			
+			<Anchor>//api/name/notAfter</Anchor>
+            <NodeRef refid="607"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2VolumeStatusEvent/notAfter</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The latest end time of the event.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSDate *notAfter</Declaration>
+			
+			
+			<Anchor>//api/name/notAfter</Anchor>
+            <NodeRef refid="607"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2VolumeStatusEvent/setNotBefore:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The earliest start time of the event.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSDate *notBefore</Declaration>
+			
+			
+			<Anchor>//api/name/notBefore</Anchor>
+            <NodeRef refid="607"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2VolumeStatusEvent/notBefore</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The earliest start time of the event.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSDate *notBefore</Declaration>
+			
+			
+			<Anchor>//api/name/notBefore</Anchor>
+            <NodeRef refid="607"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2VolumeStatusEvent/notBefore</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The earliest start time of the event.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSDate *notBefore</Declaration>
+			
+			
+			<Anchor>//api/name/notBefore</Anchor>
+            <NodeRef refid="607"/>
+		</Token>
+		
+        
         
 	</File>
 </Tokens>

@@ -1,57 +1,126 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Constants/AWSCognitoLoginProviderKey.html">
+	<File path="Classes/AWSS3PutBucketRequestPaymentRequest.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/c/tdef/AWSCognitoLoginProviderKey</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSS3PutBucketRequestPaymentRequest</TokenIdentifier>
 			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSIdentityProvider.h</DeclaredIn>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
             
 			
 			<NodeRef refid="838"/>
 		</Token>
 		
 		
-        
-        <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSCognitoLoginProviderKeyUnknown</TokenIdentifier>
-            <Abstract type="html"></Abstract>
-            <Declaration>AWSCognitoLoginProviderKeyUnknown</Declaration>
-            
-            <DeclaredIn>AWSIdentityProvider.h</DeclaredIn>
-            
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3PutBucketRequestPaymentRequest/setBucket:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *bucket</Declaration>
+			
+			
+			<Anchor>//api/name/bucket</Anchor>
             <NodeRef refid="838"/>
-        </Token>
-        
-        <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSCognitoLoginProviderKeyFacebook</TokenIdentifier>
-            <Abstract type="html"></Abstract>
-            <Declaration>AWSCognitoLoginProviderKeyFacebook</Declaration>
-            
-            <DeclaredIn>AWSIdentityProvider.h</DeclaredIn>
-            
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3PutBucketRequestPaymentRequest/bucket</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *bucket</Declaration>
+			
+			
+			<Anchor>//api/name/bucket</Anchor>
             <NodeRef refid="838"/>
-        </Token>
-        
-        <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSCognitoLoginProviderKeyGoogle</TokenIdentifier>
-            <Abstract type="html"></Abstract>
-            <Declaration>AWSCognitoLoginProviderKeyGoogle</Declaration>
-            
-            <DeclaredIn>AWSIdentityProvider.h</DeclaredIn>
-            
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSS3PutBucketRequestPaymentRequest/bucket</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *bucket</Declaration>
+			
+			
+			<Anchor>//api/name/bucket</Anchor>
             <NodeRef refid="838"/>
-        </Token>
-        
-        <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSCognitoLoginProviderKeyLoginWithAmazon</TokenIdentifier>
-            <Abstract type="html"></Abstract>
-            <Declaration>AWSCognitoLoginProviderKeyLoginWithAmazon</Declaration>
-            
-            <DeclaredIn>AWSIdentityProvider.h</DeclaredIn>
-            
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3PutBucketRequestPaymentRequest/setContentMD5:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *contentMD5</Declaration>
+			
+			
+			<Anchor>//api/name/contentMD5</Anchor>
             <NodeRef refid="838"/>
-        </Token>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3PutBucketRequestPaymentRequest/contentMD5</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *contentMD5</Declaration>
+			
+			
+			<Anchor>//api/name/contentMD5</Anchor>
+            <NodeRef refid="838"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSS3PutBucketRequestPaymentRequest/contentMD5</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *contentMD5</Declaration>
+			
+			
+			<Anchor>//api/name/contentMD5</Anchor>
+            <NodeRef refid="838"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3PutBucketRequestPaymentRequest/setRequestPaymentConfiguration:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) AWSS3RequestPaymentConfiguration *requestPaymentConfiguration</Declaration>
+			
+			
+			<Anchor>//api/name/requestPaymentConfiguration</Anchor>
+            <NodeRef refid="838"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3PutBucketRequestPaymentRequest/requestPaymentConfiguration</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) AWSS3RequestPaymentConfiguration *requestPaymentConfiguration</Declaration>
+			
+			
+			<Anchor>//api/name/requestPaymentConfiguration</Anchor>
+            <NodeRef refid="838"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSS3PutBucketRequestPaymentRequest/requestPaymentConfiguration</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) AWSS3RequestPaymentConfiguration *requestPaymentConfiguration</Declaration>
+			
+			
+			<Anchor>//api/name/requestPaymentConfiguration</Anchor>
+            <NodeRef refid="838"/>
+		</Token>
+		
+        
         
 	</File>
 </Tokens>

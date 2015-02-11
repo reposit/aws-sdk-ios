@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSSNSCreatePlatformEndpointInput.html">
+	<File path="Classes/AWSKinesisGetShardIteratorInput.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSSNSCreatePlatformEndpointInput</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Input for CreatePlatformEndpoint action.&lt;/p&gt;
-Required parameters: [PlatformApplicationArn, Token]</Abstract>
-			<DeclaredIn>AWSSNSModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSKinesisGetShardIteratorInput</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Represents the input for &lt;code&gt;GetShardIterator&lt;/code&gt;.&lt;/p&gt;
+Required parameters: [StreamName, ShardId, ShardIteratorType]</Abstract>
+			<DeclaredIn>AWSKinesisModel.h</DeclaredIn>
             
 			
 			<NodeRef refid="710"/>
@@ -14,149 +14,150 @@ Required parameters: [PlatformApplicationArn, Token]</Abstract>
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSSNSCreatePlatformEndpointInput/setAttributes:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;For a list of attributes, see SetEndpointAttributes.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSNSModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSKinesisGetShardIteratorInput/setShardId:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The shard ID of the shard to get the iterator for.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSKinesisModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSDictionary *attributes</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *shardId</Declaration>
 			
 			
-			<Anchor>//api/name/attributes</Anchor>
+			<Anchor>//api/name/shardId</Anchor>
             <NodeRef refid="710"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSSNSCreatePlatformEndpointInput/attributes</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;For a list of attributes, see SetEndpointAttributes.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSNSModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSKinesisGetShardIteratorInput/shardId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The shard ID of the shard to get the iterator for.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSKinesisModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSDictionary *attributes</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *shardId</Declaration>
 			
 			
-			<Anchor>//api/name/attributes</Anchor>
+			<Anchor>//api/name/shardId</Anchor>
             <NodeRef refid="710"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSSNSCreatePlatformEndpointInput/attributes</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;For a list of attributes, see SetEndpointAttributes.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSNSModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSKinesisGetShardIteratorInput/shardId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The shard ID of the shard to get the iterator for.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSKinesisModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSDictionary *attributes</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *shardId</Declaration>
 			
 			
-			<Anchor>//api/name/attributes</Anchor>
+			<Anchor>//api/name/shardId</Anchor>
             <NodeRef refid="710"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSSNSCreatePlatformEndpointInput/setCustomUserData:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Arbitrary user data to associate with the endpoint. Amazon SNS does not use this data. The data must be in UTF-8 format and less than 2KB.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSNSModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSKinesisGetShardIteratorInput/setShardIteratorType:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Determines how the shard iterator is used to start reading data records from the shard.&lt;/p&gt;&lt;p&gt;The following are the valid shard iterator types:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;ATSEQUENCENUMBER - Start reading exactly from the position denoted by a specific sequence number.&lt;/li&gt;&lt;li&gt;AFTERSEQUENCENUMBER - Start reading right after the position denoted by a specific sequence number.&lt;/li&gt;&lt;li&gt;TRIM_HORIZON - Start reading at the last untrimmed record in the shard in the system, which is the oldest data record in the shard.&lt;/li&gt;&lt;li&gt;LATEST - Start reading just after the most recent record in the shard, so that you always read the most recent data in the shard.&lt;/li&gt;&lt;/ul&gt;</Abstract>
+			<DeclaredIn>AWSKinesisModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *customUserData</Declaration>
+			<Declaration>@property (nonatomic, assign) AWSKinesisShardIteratorType shardIteratorType</Declaration>
 			
 			
-			<Anchor>//api/name/customUserData</Anchor>
+			<Anchor>//api/name/shardIteratorType</Anchor>
             <NodeRef refid="710"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSSNSCreatePlatformEndpointInput/customUserData</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Arbitrary user data to associate with the endpoint. Amazon SNS does not use this data. The data must be in UTF-8 format and less than 2KB.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSNSModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSKinesisGetShardIteratorInput/shardIteratorType</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Determines how the shard iterator is used to start reading data records from the shard.&lt;/p&gt;&lt;p&gt;The following are the valid shard iterator types:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;ATSEQUENCENUMBER - Start reading exactly from the position denoted by a specific sequence number.&lt;/li&gt;&lt;li&gt;AFTERSEQUENCENUMBER - Start reading right after the position denoted by a specific sequence number.&lt;/li&gt;&lt;li&gt;TRIM_HORIZON - Start reading at the last untrimmed record in the shard in the system, which is the oldest data record in the shard.&lt;/li&gt;&lt;li&gt;LATEST - Start reading just after the most recent record in the shard, so that you always read the most recent data in the shard.&lt;/li&gt;&lt;/ul&gt;</Abstract>
+			<DeclaredIn>AWSKinesisModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *customUserData</Declaration>
+			<Declaration>@property (nonatomic, assign) AWSKinesisShardIteratorType shardIteratorType</Declaration>
 			
 			
-			<Anchor>//api/name/customUserData</Anchor>
+			<Anchor>//api/name/shardIteratorType</Anchor>
             <NodeRef refid="710"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSSNSCreatePlatformEndpointInput/customUserData</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Arbitrary user data to associate with the endpoint. Amazon SNS does not use this data. The data must be in UTF-8 format and less than 2KB.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSNSModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSKinesisGetShardIteratorInput/shardIteratorType</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Determines how the shard iterator is used to start reading data records from the shard.&lt;/p&gt;&lt;p&gt;The following are the valid shard iterator types:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;ATSEQUENCENUMBER - Start reading exactly from the position denoted by a specific sequence number.&lt;/li&gt;&lt;li&gt;AFTERSEQUENCENUMBER - Start reading right after the position denoted by a specific sequence number.&lt;/li&gt;&lt;li&gt;TRIM_HORIZON - Start reading at the last untrimmed record in the shard in the system, which is the oldest data record in the shard.&lt;/li&gt;&lt;li&gt;LATEST - Start reading just after the most recent record in the shard, so that you always read the most recent data in the shard.&lt;/li&gt;&lt;/ul&gt;</Abstract>
+			<DeclaredIn>AWSKinesisModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *customUserData</Declaration>
+			<Declaration>@property (nonatomic, assign) AWSKinesisShardIteratorType shardIteratorType</Declaration>
 			
 			
-			<Anchor>//api/name/customUserData</Anchor>
+			<Anchor>//api/name/shardIteratorType</Anchor>
             <NodeRef refid="710"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSSNSCreatePlatformEndpointInput/setPlatformApplicationArn:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;PlatformApplicationArn returned from CreatePlatformApplication is used to create a an endpoint.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSNSModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSKinesisGetShardIteratorInput/setStartingSequenceNumber:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The sequence number of the data record in the shard from which to start reading from.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSKinesisModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *platformApplicationArn</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *startingSequenceNumber</Declaration>
 			
 			
-			<Anchor>//api/name/platformApplicationArn</Anchor>
+			<Anchor>//api/name/startingSequenceNumber</Anchor>
             <NodeRef refid="710"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSSNSCreatePlatformEndpointInput/platformApplicationArn</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;PlatformApplicationArn returned from CreatePlatformApplication is used to create a an endpoint.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSNSModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSKinesisGetShardIteratorInput/startingSequenceNumber</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The sequence number of the data record in the shard from which to start reading from.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSKinesisModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *platformApplicationArn</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *startingSequenceNumber</Declaration>
 			
 			
-			<Anchor>//api/name/platformApplicationArn</Anchor>
+			<Anchor>//api/name/startingSequenceNumber</Anchor>
             <NodeRef refid="710"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSSNSCreatePlatformEndpointInput/platformApplicationArn</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;PlatformApplicationArn returned from CreatePlatformApplication is used to create a an endpoint.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSNSModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSKinesisGetShardIteratorInput/startingSequenceNumber</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The sequence number of the data record in the shard from which to start reading from.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSKinesisModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *platformApplicationArn</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *startingSequenceNumber</Declaration>
 			
 			
-			<Anchor>//api/name/platformApplicationArn</Anchor>
+			<Anchor>//api/name/startingSequenceNumber</Anchor>
             <NodeRef refid="710"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSSNSCreatePlatformEndpointInput/setToken:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Unique identifier created by the notification service for an app on a device. The specific name for Token will vary, depending on which notification service is being used. For example, when using APNS as the notification service, you need the device token. Alternatively, when using GCM or ADM, the device token equivalent is called the registration ID.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSNSModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSKinesisGetShardIteratorInput/setStreamName:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The name of the stream.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSKinesisModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *token</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *streamName</Declaration>
 			
 			
-			<Anchor>//api/name/token</Anchor>
+			<Anchor>//api/name/streamName</Anchor>
             <NodeRef refid="710"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSSNSCreatePlatformEndpointInput/token</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Unique identifier created by the notification service for an app on a device. The specific name for Token will vary, depending on which notification service is being used. For example, when using APNS as the notification service, you need the device token. Alternatively, when using GCM or ADM, the device token equivalent is called the registration ID.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSNSModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSKinesisGetShardIteratorInput/streamName</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The name of the stream.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSKinesisModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *token</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *streamName</Declaration>
 			
 			
-			<Anchor>//api/name/token</Anchor>
+			<Anchor>//api/name/streamName</Anchor>
             <NodeRef refid="710"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSSNSCreatePlatformEndpointInput/token</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Unique identifier created by the notification service for an app on a device. The specific name for Token will vary, depending on which notification service is being used. For example, when using APNS as the notification service, you need the device token. Alternatively, when using GCM or ADM, the device token equivalent is called the registration ID.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSNSModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSKinesisGetShardIteratorInput/streamName</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The name of the stream.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSKinesisModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *token</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *streamName</Declaration>
 			
 			
-			<Anchor>//api/name/token</Anchor>
+			<Anchor>//api/name/streamName</Anchor>
             <NodeRef refid="710"/>
 		</Token>
 		
+        
         
 	</File>
 </Tokens>

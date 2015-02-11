@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSCloudWatchDescribeAlarmHistoryOutput.html">
+	<File path="Classes/AWSCloudWatchDatapoint.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSCloudWatchDescribeAlarmHistoryOutput</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt; The output for the &lt;a&gt;DescribeAlarmHistory&lt;/a&gt; action. &lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSCloudWatchDatapoint</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; The &lt;code&gt;Datapoint&lt;/code&gt; data type encapsulates the statistical data that Amazon CloudWatch computes from metric data. &lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSCloudWatchModel.h</DeclaredIn>
             
 			
@@ -13,77 +13,258 @@
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSCloudWatchDescribeAlarmHistoryOutput/setAlarmHistoryItems:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt; A list of alarm histories in JSON format. &lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCloudWatchDatapoint/setAverage:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; The average of metric values that correspond to the datapoint. &lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSCloudWatchModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSArray *alarmHistoryItems</Declaration>
+			<Declaration>@property (nonatomic, strong) NSNumber *average</Declaration>
 			
 			
-			<Anchor>//api/name/alarmHistoryItems</Anchor>
+			<Anchor>//api/name/average</Anchor>
             <NodeRef refid="91"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSCloudWatchDescribeAlarmHistoryOutput/alarmHistoryItems</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt; A list of alarm histories in JSON format. &lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCloudWatchDatapoint/average</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; The average of metric values that correspond to the datapoint. &lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSCloudWatchModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSArray *alarmHistoryItems</Declaration>
+			<Declaration>@property (nonatomic, strong) NSNumber *average</Declaration>
 			
 			
-			<Anchor>//api/name/alarmHistoryItems</Anchor>
+			<Anchor>//api/name/average</Anchor>
             <NodeRef refid="91"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSCloudWatchDescribeAlarmHistoryOutput/alarmHistoryItems</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt; A list of alarm histories in JSON format. &lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSCloudWatchDatapoint/average</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; The average of metric values that correspond to the datapoint. &lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSCloudWatchModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSArray *alarmHistoryItems</Declaration>
+			<Declaration>@property (nonatomic, strong) NSNumber *average</Declaration>
 			
 			
-			<Anchor>//api/name/alarmHistoryItems</Anchor>
+			<Anchor>//api/name/average</Anchor>
             <NodeRef refid="91"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSCloudWatchDescribeAlarmHistoryOutput/setNextToken:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt; A string that marks the start of the next batch of returned results. &lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCloudWatchDatapoint/setMaximum:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; The maximum of the metric value used for the datapoint. &lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSCloudWatchModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *nextToken</Declaration>
+			<Declaration>@property (nonatomic, strong) NSNumber *maximum</Declaration>
 			
 			
-			<Anchor>//api/name/nextToken</Anchor>
+			<Anchor>//api/name/maximum</Anchor>
             <NodeRef refid="91"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSCloudWatchDescribeAlarmHistoryOutput/nextToken</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt; A string that marks the start of the next batch of returned results. &lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCloudWatchDatapoint/maximum</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; The maximum of the metric value used for the datapoint. &lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSCloudWatchModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *nextToken</Declaration>
+			<Declaration>@property (nonatomic, strong) NSNumber *maximum</Declaration>
 			
 			
-			<Anchor>//api/name/nextToken</Anchor>
+			<Anchor>//api/name/maximum</Anchor>
             <NodeRef refid="91"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSCloudWatchDescribeAlarmHistoryOutput/nextToken</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt; A string that marks the start of the next batch of returned results. &lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSCloudWatchDatapoint/maximum</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; The maximum of the metric value used for the datapoint. &lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSCloudWatchModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *nextToken</Declaration>
+			<Declaration>@property (nonatomic, strong) NSNumber *maximum</Declaration>
 			
 			
-			<Anchor>//api/name/nextToken</Anchor>
+			<Anchor>//api/name/maximum</Anchor>
             <NodeRef refid="91"/>
 		</Token>
 		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCloudWatchDatapoint/setMinimum:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; The minimum metric value used for the datapoint. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSCloudWatchModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *minimum</Declaration>
+			
+			
+			<Anchor>//api/name/minimum</Anchor>
+            <NodeRef refid="91"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCloudWatchDatapoint/minimum</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; The minimum metric value used for the datapoint. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSCloudWatchModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *minimum</Declaration>
+			
+			
+			<Anchor>//api/name/minimum</Anchor>
+            <NodeRef refid="91"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSCloudWatchDatapoint/minimum</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; The minimum metric value used for the datapoint. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSCloudWatchModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *minimum</Declaration>
+			
+			
+			<Anchor>//api/name/minimum</Anchor>
+            <NodeRef refid="91"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCloudWatchDatapoint/setSampleCount:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; The number of metric values that contributed to the aggregate value of this datapoint. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSCloudWatchModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *sampleCount</Declaration>
+			
+			
+			<Anchor>//api/name/sampleCount</Anchor>
+            <NodeRef refid="91"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCloudWatchDatapoint/sampleCount</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; The number of metric values that contributed to the aggregate value of this datapoint. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSCloudWatchModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *sampleCount</Declaration>
+			
+			
+			<Anchor>//api/name/sampleCount</Anchor>
+            <NodeRef refid="91"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSCloudWatchDatapoint/sampleCount</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; The number of metric values that contributed to the aggregate value of this datapoint. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSCloudWatchModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *sampleCount</Declaration>
+			
+			
+			<Anchor>//api/name/sampleCount</Anchor>
+            <NodeRef refid="91"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCloudWatchDatapoint/setSum:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; The sum of metric values used for the datapoint. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSCloudWatchModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *sum</Declaration>
+			
+			
+			<Anchor>//api/name/sum</Anchor>
+            <NodeRef refid="91"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCloudWatchDatapoint/sum</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; The sum of metric values used for the datapoint. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSCloudWatchModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *sum</Declaration>
+			
+			
+			<Anchor>//api/name/sum</Anchor>
+            <NodeRef refid="91"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSCloudWatchDatapoint/sum</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; The sum of metric values used for the datapoint. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSCloudWatchModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *sum</Declaration>
+			
+			
+			<Anchor>//api/name/sum</Anchor>
+            <NodeRef refid="91"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCloudWatchDatapoint/setTimestamp:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; The time stamp used for the datapoint. Amazon CloudWatch uses Coordinated Universal Time (UTC) when returning time stamps, which do not accommodate seasonal adjustments such as daylight savings time. For more information, see Time stamps in the &lt;i&gt;Amazon CloudWatch Developer Guide&lt;/i&gt;. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSCloudWatchModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSDate *timestamp</Declaration>
+			
+			
+			<Anchor>//api/name/timestamp</Anchor>
+            <NodeRef refid="91"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCloudWatchDatapoint/timestamp</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; The time stamp used for the datapoint. Amazon CloudWatch uses Coordinated Universal Time (UTC) when returning time stamps, which do not accommodate seasonal adjustments such as daylight savings time. For more information, see Time stamps in the &lt;i&gt;Amazon CloudWatch Developer Guide&lt;/i&gt;. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSCloudWatchModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSDate *timestamp</Declaration>
+			
+			
+			<Anchor>//api/name/timestamp</Anchor>
+            <NodeRef refid="91"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSCloudWatchDatapoint/timestamp</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; The time stamp used for the datapoint. Amazon CloudWatch uses Coordinated Universal Time (UTC) when returning time stamps, which do not accommodate seasonal adjustments such as daylight savings time. For more information, see Time stamps in the &lt;i&gt;Amazon CloudWatch Developer Guide&lt;/i&gt;. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSCloudWatchModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSDate *timestamp</Declaration>
+			
+			
+			<Anchor>//api/name/timestamp</Anchor>
+            <NodeRef refid="91"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCloudWatchDatapoint/setUnit:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; The standard unit used for the datapoint. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSCloudWatchModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) AWSCloudWatchStandardUnit unit</Declaration>
+			
+			
+			<Anchor>//api/name/unit</Anchor>
+            <NodeRef refid="91"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCloudWatchDatapoint/unit</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; The standard unit used for the datapoint. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSCloudWatchModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) AWSCloudWatchStandardUnit unit</Declaration>
+			
+			
+			<Anchor>//api/name/unit</Anchor>
+            <NodeRef refid="91"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSCloudWatchDatapoint/unit</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; The standard unit used for the datapoint. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSCloudWatchModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) AWSCloudWatchStandardUnit unit</Declaration>
+			
+			
+			<Anchor>//api/name/unit</Anchor>
+            <NodeRef refid="91"/>
+		</Token>
+		
+        
         
 	</File>
 </Tokens>

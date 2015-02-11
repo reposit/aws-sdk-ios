@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSEC2DescribeReservedInstancesRequest.html">
+	<File path="Classes/AWSEC2DeleteSecurityGroupRequest.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSEC2DescribeReservedInstancesRequest</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSEC2DeleteSecurityGroupRequest</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
             
@@ -13,113 +13,114 @@
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DescribeReservedInstancesRequest/setFilters:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;One or more filters.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;availability-zone&lt;/code&gt; - The Availability Zone where the Reserved Instance can be used.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;duration&lt;/code&gt; - The duration of the Reserved Instance (one year or three years), in seconds (&lt;code&gt;31536000&lt;/code&gt; | &lt;code&gt;94608000&lt;/code&gt;).&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;end&lt;/code&gt; - The time when the Reserved Instance expires.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;fixed-price&lt;/code&gt; - The purchase price of the Reserved Instance (for example, 9800.0).&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;instance-type&lt;/code&gt; - The instance type on which the Reserved Instance can be used.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;product-description&lt;/code&gt; - The product description of the Reserved Instance (&lt;code&gt;Linux/UNIX&lt;/code&gt; | &lt;code&gt;Linux/UNIX (Amazon VPC)&lt;/code&gt; | &lt;code&gt;Windows&lt;/code&gt; | &lt;code&gt;Windows (Amazon VPC)&lt;/code&gt;).&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;reserved-instances-id&lt;/code&gt; - The ID of the Reserved Instance.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;start&lt;/code&gt; - The time at which the Reserved Instance purchase request was placed.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;state&lt;/code&gt; - The state of the Reserved Instance (&lt;code&gt;pending-payment&lt;/code&gt; | &lt;code&gt;active&lt;/code&gt; | &lt;code&gt;payment-failed&lt;/code&gt; | &lt;code&gt;retired&lt;/code&gt;).&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;tag&lt;/code&gt;:&lt;i&gt;key&lt;/i&gt;=&lt;i&gt;value&lt;/i&gt; - The key/value combination of a tag assigned to the resource.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;tag-key&lt;/code&gt; - The key of a tag assigned to the resource. This filter is independent of the &lt;code&gt;tag-value&lt;/code&gt; filter. For example, if you use both the filter &quot;tag-key=Purpose&quot; and the filter &quot;tag-value=X&quot;, you get any resources assigned both the tag key Purpose (regardless of what the tag&apos;s value is), and the tag value X (regardless of what the tag&apos;s key is). If you want to list only resources where Purpose is X, see the &lt;code&gt;tag&lt;/code&gt;:&lt;i&gt;key&lt;/i&gt;=&lt;i&gt;value&lt;/i&gt; filter.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;tag-value&lt;/code&gt; - The value of a tag assigned to the resource. This filter is independent of the &lt;code&gt;tag-key&lt;/code&gt; filter.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;usage-price&lt;/code&gt; - The usage price of the Reserved Instance, per hour (for example, 0.84).&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DeleteSecurityGroupRequest/setDryRun:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSArray *filters</Declaration>
+			<Declaration>@property (nonatomic, strong) NSNumber *dryRun</Declaration>
 			
 			
-			<Anchor>//api/name/filters</Anchor>
+			<Anchor>//api/name/dryRun</Anchor>
             <NodeRef refid="341"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DescribeReservedInstancesRequest/filters</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;One or more filters.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;availability-zone&lt;/code&gt; - The Availability Zone where the Reserved Instance can be used.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;duration&lt;/code&gt; - The duration of the Reserved Instance (one year or three years), in seconds (&lt;code&gt;31536000&lt;/code&gt; | &lt;code&gt;94608000&lt;/code&gt;).&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;end&lt;/code&gt; - The time when the Reserved Instance expires.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;fixed-price&lt;/code&gt; - The purchase price of the Reserved Instance (for example, 9800.0).&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;instance-type&lt;/code&gt; - The instance type on which the Reserved Instance can be used.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;product-description&lt;/code&gt; - The product description of the Reserved Instance (&lt;code&gt;Linux/UNIX&lt;/code&gt; | &lt;code&gt;Linux/UNIX (Amazon VPC)&lt;/code&gt; | &lt;code&gt;Windows&lt;/code&gt; | &lt;code&gt;Windows (Amazon VPC)&lt;/code&gt;).&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;reserved-instances-id&lt;/code&gt; - The ID of the Reserved Instance.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;start&lt;/code&gt; - The time at which the Reserved Instance purchase request was placed.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;state&lt;/code&gt; - The state of the Reserved Instance (&lt;code&gt;pending-payment&lt;/code&gt; | &lt;code&gt;active&lt;/code&gt; | &lt;code&gt;payment-failed&lt;/code&gt; | &lt;code&gt;retired&lt;/code&gt;).&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;tag&lt;/code&gt;:&lt;i&gt;key&lt;/i&gt;=&lt;i&gt;value&lt;/i&gt; - The key/value combination of a tag assigned to the resource.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;tag-key&lt;/code&gt; - The key of a tag assigned to the resource. This filter is independent of the &lt;code&gt;tag-value&lt;/code&gt; filter. For example, if you use both the filter &quot;tag-key=Purpose&quot; and the filter &quot;tag-value=X&quot;, you get any resources assigned both the tag key Purpose (regardless of what the tag&apos;s value is), and the tag value X (regardless of what the tag&apos;s key is). If you want to list only resources where Purpose is X, see the &lt;code&gt;tag&lt;/code&gt;:&lt;i&gt;key&lt;/i&gt;=&lt;i&gt;value&lt;/i&gt; filter.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;tag-value&lt;/code&gt; - The value of a tag assigned to the resource. This filter is independent of the &lt;code&gt;tag-key&lt;/code&gt; filter.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;usage-price&lt;/code&gt; - The usage price of the Reserved Instance, per hour (for example, 0.84).&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DeleteSecurityGroupRequest/dryRun</TokenIdentifier>
+			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSArray *filters</Declaration>
+			<Declaration>@property (nonatomic, strong) NSNumber *dryRun</Declaration>
 			
 			
-			<Anchor>//api/name/filters</Anchor>
+			<Anchor>//api/name/dryRun</Anchor>
             <NodeRef refid="341"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2DescribeReservedInstancesRequest/filters</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;One or more filters.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;availability-zone&lt;/code&gt; - The Availability Zone where the Reserved Instance can be used.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;duration&lt;/code&gt; - The duration of the Reserved Instance (one year or three years), in seconds (&lt;code&gt;31536000&lt;/code&gt; | &lt;code&gt;94608000&lt;/code&gt;).&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;end&lt;/code&gt; - The time when the Reserved Instance expires.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;fixed-price&lt;/code&gt; - The purchase price of the Reserved Instance (for example, 9800.0).&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;instance-type&lt;/code&gt; - The instance type on which the Reserved Instance can be used.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;product-description&lt;/code&gt; - The product description of the Reserved Instance (&lt;code&gt;Linux/UNIX&lt;/code&gt; | &lt;code&gt;Linux/UNIX (Amazon VPC)&lt;/code&gt; | &lt;code&gt;Windows&lt;/code&gt; | &lt;code&gt;Windows (Amazon VPC)&lt;/code&gt;).&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;reserved-instances-id&lt;/code&gt; - The ID of the Reserved Instance.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;start&lt;/code&gt; - The time at which the Reserved Instance purchase request was placed.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;state&lt;/code&gt; - The state of the Reserved Instance (&lt;code&gt;pending-payment&lt;/code&gt; | &lt;code&gt;active&lt;/code&gt; | &lt;code&gt;payment-failed&lt;/code&gt; | &lt;code&gt;retired&lt;/code&gt;).&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;tag&lt;/code&gt;:&lt;i&gt;key&lt;/i&gt;=&lt;i&gt;value&lt;/i&gt; - The key/value combination of a tag assigned to the resource.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;tag-key&lt;/code&gt; - The key of a tag assigned to the resource. This filter is independent of the &lt;code&gt;tag-value&lt;/code&gt; filter. For example, if you use both the filter &quot;tag-key=Purpose&quot; and the filter &quot;tag-value=X&quot;, you get any resources assigned both the tag key Purpose (regardless of what the tag&apos;s value is), and the tag value X (regardless of what the tag&apos;s key is). If you want to list only resources where Purpose is X, see the &lt;code&gt;tag&lt;/code&gt;:&lt;i&gt;key&lt;/i&gt;=&lt;i&gt;value&lt;/i&gt; filter.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;tag-value&lt;/code&gt; - The value of a tag assigned to the resource. This filter is independent of the &lt;code&gt;tag-key&lt;/code&gt; filter.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;usage-price&lt;/code&gt; - The usage price of the Reserved Instance, per hour (for example, 0.84).&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2DeleteSecurityGroupRequest/dryRun</TokenIdentifier>
+			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSArray *filters</Declaration>
+			<Declaration>@property (nonatomic, strong) NSNumber *dryRun</Declaration>
 			
 			
-			<Anchor>//api/name/filters</Anchor>
+			<Anchor>//api/name/dryRun</Anchor>
             <NodeRef refid="341"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DescribeReservedInstancesRequest/setOfferingType:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The Reserved Instance offering type.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DeleteSecurityGroupRequest/setGroupId:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the security group. Required for a nondefault VPC.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, assign) AWSEC2OfferingTypeValues offeringType</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *groupId</Declaration>
 			
 			
-			<Anchor>//api/name/offeringType</Anchor>
+			<Anchor>//api/name/groupId</Anchor>
             <NodeRef refid="341"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DescribeReservedInstancesRequest/offeringType</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The Reserved Instance offering type.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DeleteSecurityGroupRequest/groupId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the security group. Required for a nondefault VPC.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, assign) AWSEC2OfferingTypeValues offeringType</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *groupId</Declaration>
 			
 			
-			<Anchor>//api/name/offeringType</Anchor>
+			<Anchor>//api/name/groupId</Anchor>
             <NodeRef refid="341"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2DescribeReservedInstancesRequest/offeringType</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The Reserved Instance offering type.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2DeleteSecurityGroupRequest/groupId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the security group. Required for a nondefault VPC.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, assign) AWSEC2OfferingTypeValues offeringType</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *groupId</Declaration>
 			
 			
-			<Anchor>//api/name/offeringType</Anchor>
+			<Anchor>//api/name/groupId</Anchor>
             <NodeRef refid="341"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DescribeReservedInstancesRequest/setReservedInstancesIds:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;One or more Reserved Instance IDs.&lt;/p&gt;&lt;p&gt;Default: Describes all your Reserved Instances, or only those otherwise specified.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DeleteSecurityGroupRequest/setGroupName:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;[EC2-Classic, default VPC] The name of the security group. You can specify either the security group name or the security group ID.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSArray *reservedInstancesIds</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *groupName</Declaration>
 			
 			
-			<Anchor>//api/name/reservedInstancesIds</Anchor>
+			<Anchor>//api/name/groupName</Anchor>
             <NodeRef refid="341"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DescribeReservedInstancesRequest/reservedInstancesIds</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;One or more Reserved Instance IDs.&lt;/p&gt;&lt;p&gt;Default: Describes all your Reserved Instances, or only those otherwise specified.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DeleteSecurityGroupRequest/groupName</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;[EC2-Classic, default VPC] The name of the security group. You can specify either the security group name or the security group ID.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSArray *reservedInstancesIds</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *groupName</Declaration>
 			
 			
-			<Anchor>//api/name/reservedInstancesIds</Anchor>
+			<Anchor>//api/name/groupName</Anchor>
             <NodeRef refid="341"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2DescribeReservedInstancesRequest/reservedInstancesIds</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;One or more Reserved Instance IDs.&lt;/p&gt;&lt;p&gt;Default: Describes all your Reserved Instances, or only those otherwise specified.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2DeleteSecurityGroupRequest/groupName</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;[EC2-Classic, default VPC] The name of the security group. You can specify either the security group name or the security group ID.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSArray *reservedInstancesIds</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *groupName</Declaration>
 			
 			
-			<Anchor>//api/name/reservedInstancesIds</Anchor>
+			<Anchor>//api/name/groupName</Anchor>
             <NodeRef refid="341"/>
 		</Token>
 		
+        
         
 	</File>
 </Tokens>

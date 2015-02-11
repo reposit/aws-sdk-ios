@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSEC2DeleteVpnConnectionRouteRequest.html">
+	<File path="Classes/AWSEC2CreateInternetGatewayRequest.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSEC2DeleteVpnConnectionRouteRequest</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSEC2CreateInternetGatewayRequest</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
             
@@ -13,77 +13,42 @@
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DeleteVpnConnectionRouteRequest/setDestinationCidrBlock:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The CIDR block associated with the local subnet of the customer network.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2CreateInternetGatewayRequest/setDryRun:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *destinationCidrBlock</Declaration>
+			<Declaration>@property (nonatomic, strong) NSNumber *dryRun</Declaration>
 			
 			
-			<Anchor>//api/name/destinationCidrBlock</Anchor>
+			<Anchor>//api/name/dryRun</Anchor>
             <NodeRef refid="296"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DeleteVpnConnectionRouteRequest/destinationCidrBlock</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The CIDR block associated with the local subnet of the customer network.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2CreateInternetGatewayRequest/dryRun</TokenIdentifier>
+			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *destinationCidrBlock</Declaration>
+			<Declaration>@property (nonatomic, strong) NSNumber *dryRun</Declaration>
 			
 			
-			<Anchor>//api/name/destinationCidrBlock</Anchor>
+			<Anchor>//api/name/dryRun</Anchor>
             <NodeRef refid="296"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2DeleteVpnConnectionRouteRequest/destinationCidrBlock</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The CIDR block associated with the local subnet of the customer network.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2CreateInternetGatewayRequest/dryRun</TokenIdentifier>
+			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *destinationCidrBlock</Declaration>
+			<Declaration>@property (nonatomic, strong) NSNumber *dryRun</Declaration>
 			
 			
-			<Anchor>//api/name/destinationCidrBlock</Anchor>
+			<Anchor>//api/name/dryRun</Anchor>
             <NodeRef refid="296"/>
 		</Token>
 		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DeleteVpnConnectionRouteRequest/setVpnConnectionId:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The ID of the VPN connection.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *vpnConnectionId</Declaration>
-			
-			
-			<Anchor>//api/name/vpnConnectionId</Anchor>
-            <NodeRef refid="296"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DeleteVpnConnectionRouteRequest/vpnConnectionId</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The ID of the VPN connection.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *vpnConnectionId</Declaration>
-			
-			
-			<Anchor>//api/name/vpnConnectionId</Anchor>
-            <NodeRef refid="296"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2DeleteVpnConnectionRouteRequest/vpnConnectionId</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The ID of the VPN connection.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *vpnConnectionId</Declaration>
-			
-			
-			<Anchor>//api/name/vpnConnectionId</Anchor>
-            <NodeRef refid="296"/>
-		</Token>
-		
+        
         
 	</File>
 </Tokens>

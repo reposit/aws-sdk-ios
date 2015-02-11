@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSSQSReceiveMessageResult.html">
+	<File path="Classes/AWSS3GetBucketCorsOutput.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSSQSReceiveMessageResult</TokenIdentifier>
-			<Abstract type="html">A list of received messages.</Abstract>
-			<DeclaredIn>AWSSQSModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSS3GetBucketCorsOutput</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
             
 			
 			<NodeRef refid="776"/>
@@ -13,41 +13,42 @@
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSSQSReceiveMessageResult/setMessages:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;A list of messages.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSQSModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3GetBucketCorsOutput/setCORSRules:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSArray *messages</Declaration>
+			<Declaration>@property (nonatomic, strong) NSArray *CORSRules</Declaration>
 			
 			
-			<Anchor>//api/name/messages</Anchor>
+			<Anchor>//api/name/CORSRules</Anchor>
             <NodeRef refid="776"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSSQSReceiveMessageResult/messages</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;A list of messages.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSQSModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3GetBucketCorsOutput/CORSRules</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSArray *messages</Declaration>
+			<Declaration>@property (nonatomic, strong) NSArray *CORSRules</Declaration>
 			
 			
-			<Anchor>//api/name/messages</Anchor>
+			<Anchor>//api/name/CORSRules</Anchor>
             <NodeRef refid="776"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSSQSReceiveMessageResult/messages</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;A list of messages.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSQSModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSS3GetBucketCorsOutput/CORSRules</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSArray *messages</Declaration>
+			<Declaration>@property (nonatomic, strong) NSArray *CORSRules</Declaration>
 			
 			
-			<Anchor>//api/name/messages</Anchor>
+			<Anchor>//api/name/CORSRules</Anchor>
             <NodeRef refid="776"/>
 		</Token>
 		
+        
         
 	</File>
 </Tokens>

@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSEC2BundleInstanceResult.html">
+	<File path="Classes/AWSDynamoDBObjectMapper.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSEC2BundleInstanceResult</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSDynamoDBObjectMapper</TokenIdentifier>
+			<Abstract type="html">Object mapper for domain-object interaction with DynamoDB.</Abstract>
+			<DeclaredIn>AWSDynamoDBObjectMapper.h</DeclaredIn>
             
 			
 			<NodeRef refid="221"/>
@@ -13,41 +13,283 @@
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2BundleInstanceResult/setBundleTask:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Information about the bundle task.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSDynamoDBObjectMapper/setConfiguration:</TokenIdentifier>
+			<Abstract type="html">The service configuration used to instantiate this service client.</Abstract>
+			<DeclaredIn>AWSDynamoDBObjectMapper.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) AWSEC2BundleTask *bundleTask</Declaration>
+			<Declaration>@property (nonatomic, strong, readonly) AWSDynamoDBObjectMapperConfiguration *configuration</Declaration>
 			
 			
-			<Anchor>//api/name/bundleTask</Anchor>
+			<Anchor>//api/name/configuration</Anchor>
             <NodeRef refid="221"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2BundleInstanceResult/bundleTask</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Information about the bundle task.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSDynamoDBObjectMapper/configuration</TokenIdentifier>
+			<Abstract type="html">The service configuration used to instantiate this service client.</Abstract>
+			<DeclaredIn>AWSDynamoDBObjectMapper.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) AWSEC2BundleTask *bundleTask</Declaration>
+			<Declaration>@property (nonatomic, strong, readonly) AWSDynamoDBObjectMapperConfiguration *configuration</Declaration>
 			
 			
-			<Anchor>//api/name/bundleTask</Anchor>
+			<Anchor>//api/name/configuration</Anchor>
             <NodeRef refid="221"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2BundleInstanceResult/bundleTask</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Information about the bundle task.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSDynamoDBObjectMapper/configuration</TokenIdentifier>
+			<Abstract type="html">The service configuration used to instantiate this service client.</Abstract>
+			<DeclaredIn>AWSDynamoDBObjectMapper.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) AWSEC2BundleTask *bundleTask</Declaration>
+			<Declaration>@property (nonatomic, strong, readonly) AWSDynamoDBObjectMapperConfiguration *configuration</Declaration>
 			
 			
-			<Anchor>//api/name/bundleTask</Anchor>
+			<Anchor>//api/name/configuration</Anchor>
             <NodeRef refid="221"/>
 		</Token>
 		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/AWSDynamoDBObjectMapper/defaultDynamoDBObjectMapper</TokenIdentifier>
+			<Abstract type="html">Returns the singleton service client. If the singleton object does not exist, the SDK instantiates the default service client with defaultServiceConfiguration from [AWSServiceManager defaultServiceManager]. The reference to this object is maintained by the SDK, and you do not need to retain it manually.</Abstract>
+			<DeclaredIn>AWSDynamoDBObjectMapper.h</DeclaredIn>
+			
+			<Declaration>+ (instancetype)defaultDynamoDBObjectMapper</Declaration>
+			
+			<ReturnValue><Abstract type="html">The default service client.</Abstract></ReturnValue>
+			<Anchor>//api/name/defaultDynamoDBObjectMapper</Anchor>
+            <NodeRef refid="221"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSDynamoDBObjectMapper/initWithConfiguration:objectMapperConfiguration:</TokenIdentifier>
+			<Abstract type="html">Instantiates the service client with the given service configuration.</Abstract>
+			<DeclaredIn>AWSDynamoDBObjectMapper.h</DeclaredIn>
+			
+			<Declaration>- (instancetype)initWithConfiguration:(AWSServiceConfiguration *)configuration objectMapperConfiguration:(AWSDynamoDBObjectMapperConfiguration *)objectMapperConfiguration</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>configuration</Name>
+					<Abstract type="html">The service configuration object.</Abstract>
+				</Parameter><Parameter>
+					<Name>objectMapperConfiguration</Name>
+					<Abstract type="html">The DynamoDB Object Mapper configuration object.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An instance of the service client.</Abstract></ReturnValue>
+			<Anchor>//api/name/initWithConfiguration:objectMapperConfiguration:</Anchor>
+            <NodeRef refid="221"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSDynamoDBObjectMapper/save:</TokenIdentifier>
+			<Abstract type="html">Saves the object given into DynamoDB, using the default configuration.</Abstract>
+			<DeclaredIn>AWSDynamoDBObjectMapper.h</DeclaredIn>
+			
+			<Declaration>- (BFTask *)save:(AWSDynamoDBModel *)model</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>model</Name>
+					<Abstract type="html">A model to save.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">BFTask.</Abstract></ReturnValue>
+			<Anchor>//api/name/save:</Anchor>
+            <NodeRef refid="221"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSDynamoDBObjectMapper/save:configuration:</TokenIdentifier>
+			<Abstract type="html">Saves the object given into DynamoDB, using the specified configuration.</Abstract>
+			<DeclaredIn>AWSDynamoDBObjectMapper.h</DeclaredIn>
+			
+			<Declaration>- (BFTask *)save:(AWSDynamoDBModel *)model configuration:(AWSDynamoDBObjectMapperConfiguration *)configuration</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>model</Name>
+					<Abstract type="html">A model to save.</Abstract>
+				</Parameter><Parameter>
+					<Name>configuration</Name>
+					<Abstract type="html">A configuration.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">BFTask.</Abstract></ReturnValue>
+			<Anchor>//api/name/save:configuration:</Anchor>
+            <NodeRef refid="221"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSDynamoDBObjectMapper/remove:</TokenIdentifier>
+			<Abstract type="html">Deletes the given object from its DynamoDB table using the default configuration.</Abstract>
+			<DeclaredIn>AWSDynamoDBObjectMapper.h</DeclaredIn>
+			
+			<Declaration>- (BFTask *)remove:(AWSDynamoDBModel *)model</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>model</Name>
+					<Abstract type="html">A model to delete.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">BFTask.</Abstract></ReturnValue>
+			<Anchor>//api/name/remove:</Anchor>
+            <NodeRef refid="221"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSDynamoDBObjectMapper/remove:configuration:</TokenIdentifier>
+			<Abstract type="html">Deletes the given object from its DynamoDB table using the specified configuration.</Abstract>
+			<DeclaredIn>AWSDynamoDBObjectMapper.h</DeclaredIn>
+			
+			<Declaration>- (BFTask *)remove:(AWSDynamoDBModel *)model configuration:(AWSDynamoDBObjectMapperConfiguration *)configuration</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>model</Name>
+					<Abstract type="html">A model to delete.</Abstract>
+				</Parameter><Parameter>
+					<Name>configuration</Name>
+					<Abstract type="html">A configuration.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">BFTask.</Abstract></ReturnValue>
+			<Anchor>//api/name/remove:configuration:</Anchor>
+            <NodeRef refid="221"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSDynamoDBObjectMapper/load:hashKey:rangeKey:</TokenIdentifier>
+			<Abstract type="html">Loads an object with a hash and range key, using the default configuration.</Abstract>
+			<DeclaredIn>AWSDynamoDBObjectMapper.h</DeclaredIn>
+			
+			<Declaration>- (BFTask *)load:(Class)resultClass hashKey:(id)hashKey rangeKey:(id)rangeKey</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>resultClass</Name>
+					<Abstract type="html">The class of the result object.</Abstract>
+				</Parameter><Parameter>
+					<Name>hashKey</Name>
+					<Abstract type="html">A hash key value.</Abstract>
+				</Parameter><Parameter>
+					<Name>rangeKey</Name>
+					<Abstract type="html">A range key value.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">BFTask.</Abstract></ReturnValue>
+			<Anchor>//api/name/load:hashKey:rangeKey:</Anchor>
+            <NodeRef refid="221"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSDynamoDBObjectMapper/load:hashKey:rangeKey:configuration:</TokenIdentifier>
+			<Abstract type="html">Returns an object with the given hash key, or null if no such object exists.</Abstract>
+			<DeclaredIn>AWSDynamoDBObjectMapper.h</DeclaredIn>
+			
+			<Declaration>- (BFTask *)load:(Class)resultClass hashKey:(id)hashKey rangeKey:(id)rangeKey configuration:(AWSDynamoDBObjectMapperConfiguration *)configuration</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>resultClass</Name>
+					<Abstract type="html">The class of the result object.</Abstract>
+				</Parameter><Parameter>
+					<Name>hashKey</Name>
+					<Abstract type="html">A hash key value.</Abstract>
+				</Parameter><Parameter>
+					<Name>rangeKey</Name>
+					<Abstract type="html">A range key value.</Abstract>
+				</Parameter><Parameter>
+					<Name>configuration</Name>
+					<Abstract type="html">A configuration.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">BFTask.</Abstract></ReturnValue>
+			<Anchor>//api/name/load:hashKey:rangeKey:configuration:</Anchor>
+            <NodeRef refid="221"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSDynamoDBObjectMapper/query:expression:</TokenIdentifier>
+			<Abstract type="html">Queries an Amazon DynamoDB table and returns the matching results as an unmodifiable list of instantiated objects, using the default configuration.</Abstract>
+			<DeclaredIn>AWSDynamoDBObjectMapper.h</DeclaredIn>
+			
+			<Declaration>- (BFTask *)query:(Class)resultClass expression:(AWSDynamoDBQueryExpression *)expression</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>resultClass</Name>
+					<Abstract type="html">The class of the result object.</Abstract>
+				</Parameter><Parameter>
+					<Name>expression</Name>
+					<Abstract type="html">An expression object.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">BFTask.</Abstract></ReturnValue>
+			<Anchor>//api/name/query:expression:</Anchor>
+            <NodeRef refid="221"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSDynamoDBObjectMapper/query:expression:configuration:</TokenIdentifier>
+			<Abstract type="html">Queries an Amazon DynamoDB table and returns the matching results as an unmodifiable list of instantiated objects.</Abstract>
+			<DeclaredIn>AWSDynamoDBObjectMapper.h</DeclaredIn>
+			
+			<Declaration>- (BFTask *)query:(Class)resultClass expression:(AWSDynamoDBQueryExpression *)expression configuration:(AWSDynamoDBObjectMapperConfiguration *)configuration</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>resultClass</Name>
+					<Abstract type="html">The class of the result object.</Abstract>
+				</Parameter><Parameter>
+					<Name>expression</Name>
+					<Abstract type="html">An expression object.</Abstract>
+				</Parameter><Parameter>
+					<Name>configuration</Name>
+					<Abstract type="html">A configuration.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">BFTask.</Abstract></ReturnValue>
+			<Anchor>//api/name/query:expression:configuration:</Anchor>
+            <NodeRef refid="221"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSDynamoDBObjectMapper/scan:expression:</TokenIdentifier>
+			<Abstract type="html">Scans through an Amazon DynamoDB table and returns the matching results as an AWSDynamoDBPaginatedOutput of instantiated objects, using the default configuration.</Abstract>
+			<DeclaredIn>AWSDynamoDBObjectMapper.h</DeclaredIn>
+			
+			<Declaration>- (BFTask *)scan:(Class)resultClass expression:(AWSDynamoDBScanExpression *)expression</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>resultClass</Name>
+					<Abstract type="html">The class of the result object.</Abstract>
+				</Parameter><Parameter>
+					<Name>expression</Name>
+					<Abstract type="html">An expression object.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">BFTask.</Abstract></ReturnValue>
+			<Anchor>//api/name/scan:expression:</Anchor>
+            <NodeRef refid="221"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSDynamoDBObjectMapper/scan:expression:configuration:</TokenIdentifier>
+			<Abstract type="html">Scans through an Amazon DynamoDB table and returns the matching results as an AWSDynamoDBPaginatedOutput of instantiated objects.</Abstract>
+			<DeclaredIn>AWSDynamoDBObjectMapper.h</DeclaredIn>
+			
+			<Declaration>- (BFTask *)scan:(Class)resultClass expression:(AWSDynamoDBScanExpression *)expression configuration:(AWSDynamoDBObjectMapperConfiguration *)configuration</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>resultClass</Name>
+					<Abstract type="html">The class of the result object.</Abstract>
+				</Parameter><Parameter>
+					<Name>expression</Name>
+					<Abstract type="html">An expression object.</Abstract>
+				</Parameter><Parameter>
+					<Name>configuration</Name>
+					<Abstract type="html">A configuration.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">BFTask.</Abstract></ReturnValue>
+			<Anchor>//api/name/scan:expression:configuration:</Anchor>
+            <NodeRef refid="221"/>
+		</Token>
+		
+        
         
 	</File>
 </Tokens>

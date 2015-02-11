@@ -1,5 +1,5 @@
 /*
- * Copyright 2010-2014 Amazon.com, Inc. or its affiliates. All Rights Reserved.
+ * Copyright 2010-2015 Amazon.com, Inc. or its affiliates. All Rights Reserved.
  *
  * Licensed under the Apache License, Version 2.0 (the "License").
  * You may not use this file except in compliance with the License.
@@ -28,6 +28,7 @@ typedef NS_ENUM(NSInteger, AWSS3TransferManagerErrorType) {
 };
 
 typedef NS_ENUM(NSInteger, AWSS3TransferManagerRequestState) {
+    AWSS3TransferManagerRequestStateNotStarted,
     AWSS3TransferManagerRequestStateRunning,
     AWSS3TransferManagerRequestStatePaused,
     AWSS3TransferManagerRequestStateCanceling,
@@ -108,18 +109,6 @@ typedef void (^AWSS3TransferManagerResumeAllBlock) (AWSRequest *request);
  *  @return BFTask.
  */
 - (BFTask *)clearCache;
-
-
-/**
- *  The limit of the disk cache size in bytes. When exceeded, older requests will be discarded. Setting this value to 0.0 meaning no practical limit. The default value is 5MB.
- */
-@property (nonatomic, assign) NSUInteger diskByteLimit;
-
-/**
- *  The age limit of the cached requests. When exceeded, requests older than the specified age will be discarded. Setting this value to 0 meaning no practical limit. The default is no age limit(i.e. 0.0).
- */
-@property (nonatomic, assign) NSTimeInterval diskAgeLimit;
-
 
 @end
 

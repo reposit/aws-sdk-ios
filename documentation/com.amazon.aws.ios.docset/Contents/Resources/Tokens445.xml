@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSEC2ModifyNetworkInterfaceAttributeRequest.html">
+	<File path="Classes/AWSEC2DiskImageDetail.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSEC2ModifyNetworkInterfaceAttributeRequest</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSEC2DiskImageDetail</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
             
@@ -13,149 +13,114 @@
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ModifyNetworkInterfaceAttributeRequest/setAttachment:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The ID of the interface attachment.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DiskImageDetail/setBytes:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) AWSEC2NetworkInterfaceAttachmentChanges *attachment</Declaration>
+			<Declaration>@property (nonatomic, strong) NSNumber *bytes</Declaration>
 			
 			
-			<Anchor>//api/name/attachment</Anchor>
+			<Anchor>//api/name/bytes</Anchor>
             <NodeRef refid="445"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ModifyNetworkInterfaceAttributeRequest/attachment</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The ID of the interface attachment.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DiskImageDetail/bytes</TokenIdentifier>
+			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) AWSEC2NetworkInterfaceAttachmentChanges *attachment</Declaration>
+			<Declaration>@property (nonatomic, strong) NSNumber *bytes</Declaration>
 			
 			
-			<Anchor>//api/name/attachment</Anchor>
+			<Anchor>//api/name/bytes</Anchor>
             <NodeRef refid="445"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2ModifyNetworkInterfaceAttributeRequest/attachment</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The ID of the interface attachment.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2DiskImageDetail/bytes</TokenIdentifier>
+			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) AWSEC2NetworkInterfaceAttachmentChanges *attachment</Declaration>
+			<Declaration>@property (nonatomic, strong) NSNumber *bytes</Declaration>
 			
 			
-			<Anchor>//api/name/attachment</Anchor>
+			<Anchor>//api/name/bytes</Anchor>
             <NodeRef refid="445"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ModifyNetworkInterfaceAttributeRequest/setGroups:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Changes the security groups for the network interface. The new set of groups you specify replaces the current set. You must specify at least one group, even if it&apos;s just the default security group in the VPC. You must specify the ID of the security group, not the name.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DiskImageDetail/setFormat:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The disk image format.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSArray *groups</Declaration>
+			<Declaration>@property (nonatomic, assign) AWSEC2DiskImageFormat format</Declaration>
 			
 			
-			<Anchor>//api/name/groups</Anchor>
+			<Anchor>//api/name/format</Anchor>
             <NodeRef refid="445"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ModifyNetworkInterfaceAttributeRequest/groups</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Changes the security groups for the network interface. The new set of groups you specify replaces the current set. You must specify at least one group, even if it&apos;s just the default security group in the VPC. You must specify the ID of the security group, not the name.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DiskImageDetail/format</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The disk image format.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSArray *groups</Declaration>
+			<Declaration>@property (nonatomic, assign) AWSEC2DiskImageFormat format</Declaration>
 			
 			
-			<Anchor>//api/name/groups</Anchor>
+			<Anchor>//api/name/format</Anchor>
             <NodeRef refid="445"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2ModifyNetworkInterfaceAttributeRequest/groups</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Changes the security groups for the network interface. The new set of groups you specify replaces the current set. You must specify at least one group, even if it&apos;s just the default security group in the VPC. You must specify the ID of the security group, not the name.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2DiskImageDetail/format</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The disk image format.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSArray *groups</Declaration>
+			<Declaration>@property (nonatomic, assign) AWSEC2DiskImageFormat format</Declaration>
 			
 			
-			<Anchor>//api/name/groups</Anchor>
+			<Anchor>//api/name/format</Anchor>
             <NodeRef refid="445"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ModifyNetworkInterfaceAttributeRequest/setNetworkInterfaceId:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The ID of the network interface.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DiskImageDetail/setImportManifestUrl:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;A presigned URL for the import manifest stored in Amazon S3. For information about creating a presigned URL for an Amazon S3 object, read the &quot;Query String Request Authentication Alternative&quot; section of the Authenticating REST Requests topic in the &lt;i&gt;Amazon Simple Storage Service Developer Guide&lt;/i&gt;.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *networkInterfaceId</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *importManifestUrl</Declaration>
 			
 			
-			<Anchor>//api/name/networkInterfaceId</Anchor>
+			<Anchor>//api/name/importManifestUrl</Anchor>
             <NodeRef refid="445"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ModifyNetworkInterfaceAttributeRequest/networkInterfaceId</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The ID of the network interface.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DiskImageDetail/importManifestUrl</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;A presigned URL for the import manifest stored in Amazon S3. For information about creating a presigned URL for an Amazon S3 object, read the &quot;Query String Request Authentication Alternative&quot; section of the Authenticating REST Requests topic in the &lt;i&gt;Amazon Simple Storage Service Developer Guide&lt;/i&gt;.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *networkInterfaceId</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *importManifestUrl</Declaration>
 			
 			
-			<Anchor>//api/name/networkInterfaceId</Anchor>
+			<Anchor>//api/name/importManifestUrl</Anchor>
             <NodeRef refid="445"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2ModifyNetworkInterfaceAttributeRequest/networkInterfaceId</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The ID of the network interface.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2DiskImageDetail/importManifestUrl</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;A presigned URL for the import manifest stored in Amazon S3. For information about creating a presigned URL for an Amazon S3 object, read the &quot;Query String Request Authentication Alternative&quot; section of the Authenticating REST Requests topic in the &lt;i&gt;Amazon Simple Storage Service Developer Guide&lt;/i&gt;.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *networkInterfaceId</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *importManifestUrl</Declaration>
 			
 			
-			<Anchor>//api/name/networkInterfaceId</Anchor>
+			<Anchor>//api/name/importManifestUrl</Anchor>
             <NodeRef refid="445"/>
 		</Token>
 		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ModifyNetworkInterfaceAttributeRequest/setSourceDestCheck:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Indicates whether source/destination checking is enabled. A value of &lt;code&gt;true&lt;/code&gt; means checking is enabled, and &lt;code&gt;false&lt;/code&gt; means checking is disabled. This value must be &lt;code&gt;false&lt;/code&gt; for a NAT instance to perform NAT. For more information, see NAT Instances in the &lt;i&gt;Amazon Virtual Private Cloud User Guide&lt;/i&gt;.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) AWSEC2AttributeBooleanValue *sourceDestCheck</Declaration>
-			
-			
-			<Anchor>//api/name/sourceDestCheck</Anchor>
-            <NodeRef refid="445"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ModifyNetworkInterfaceAttributeRequest/sourceDestCheck</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Indicates whether source/destination checking is enabled. A value of &lt;code&gt;true&lt;/code&gt; means checking is enabled, and &lt;code&gt;false&lt;/code&gt; means checking is disabled. This value must be &lt;code&gt;false&lt;/code&gt; for a NAT instance to perform NAT. For more information, see NAT Instances in the &lt;i&gt;Amazon Virtual Private Cloud User Guide&lt;/i&gt;.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) AWSEC2AttributeBooleanValue *sourceDestCheck</Declaration>
-			
-			
-			<Anchor>//api/name/sourceDestCheck</Anchor>
-            <NodeRef refid="445"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2ModifyNetworkInterfaceAttributeRequest/sourceDestCheck</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Indicates whether source/destination checking is enabled. A value of &lt;code&gt;true&lt;/code&gt; means checking is enabled, and &lt;code&gt;false&lt;/code&gt; means checking is disabled. This value must be &lt;code&gt;false&lt;/code&gt; for a NAT instance to perform NAT. For more information, see NAT Instances in the &lt;i&gt;Amazon Virtual Private Cloud User Guide&lt;/i&gt;.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) AWSEC2AttributeBooleanValue *sourceDestCheck</Declaration>
-			
-			
-			<Anchor>//api/name/sourceDestCheck</Anchor>
-            <NodeRef refid="445"/>
-		</Token>
-		
+        
         
 	</File>
 </Tokens>

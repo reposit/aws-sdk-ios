@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSAutoScalingTag.html">
+	<File path="Classes/AWSAutoScalingSetInstanceHealthQuery.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSAutoScalingTag</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt; The tag applied to an Auto Scaling group. &lt;/p&gt;
-Required parameters: [Key]</Abstract>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSAutoScalingSetInstanceHealthQuery</TokenIdentifier>
+			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
             
 			
@@ -14,185 +13,114 @@ Required parameters: [Key]</Abstract>
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingTag/setKey:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt; The key of the tag. &lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingSetInstanceHealthQuery/setHealthStatus:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; The health status of the instance. Set to &lt;code&gt;Healthy&lt;/code&gt; if you want the instance to remain in service. Set to &lt;code&gt;Unhealthy&lt;/code&gt; if you want the instance to be out of service. Auto Scaling will terminate and replace the unhealthy instance. &lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *key</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *healthStatus</Declaration>
 			
 			
-			<Anchor>//api/name/key</Anchor>
+			<Anchor>//api/name/healthStatus</Anchor>
             <NodeRef refid="81"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingTag/key</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt; The key of the tag. &lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingSetInstanceHealthQuery/healthStatus</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; The health status of the instance. Set to &lt;code&gt;Healthy&lt;/code&gt; if you want the instance to remain in service. Set to &lt;code&gt;Unhealthy&lt;/code&gt; if you want the instance to be out of service. Auto Scaling will terminate and replace the unhealthy instance. &lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *key</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *healthStatus</Declaration>
 			
 			
-			<Anchor>//api/name/key</Anchor>
+			<Anchor>//api/name/healthStatus</Anchor>
             <NodeRef refid="81"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSAutoScalingTag/key</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt; The key of the tag. &lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSAutoScalingSetInstanceHealthQuery/healthStatus</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; The health status of the instance. Set to &lt;code&gt;Healthy&lt;/code&gt; if you want the instance to remain in service. Set to &lt;code&gt;Unhealthy&lt;/code&gt; if you want the instance to be out of service. Auto Scaling will terminate and replace the unhealthy instance. &lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *key</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *healthStatus</Declaration>
 			
 			
-			<Anchor>//api/name/key</Anchor>
+			<Anchor>//api/name/healthStatus</Anchor>
             <NodeRef refid="81"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingTag/setPropagateAtLaunch:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt; Specifies whether the new tag will be applied to instances launched after the tag is created. The same behavior applies to updates: If you change a tag, the changed tag will be applied to all instances launched after you made the change. &lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingSetInstanceHealthQuery/setInstanceId:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; The identifier of the Amazon EC2 instance. &lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSNumber *propagateAtLaunch</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *instanceId</Declaration>
 			
 			
-			<Anchor>//api/name/propagateAtLaunch</Anchor>
+			<Anchor>//api/name/instanceId</Anchor>
             <NodeRef refid="81"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingTag/propagateAtLaunch</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt; Specifies whether the new tag will be applied to instances launched after the tag is created. The same behavior applies to updates: If you change a tag, the changed tag will be applied to all instances launched after you made the change. &lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingSetInstanceHealthQuery/instanceId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; The identifier of the Amazon EC2 instance. &lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSNumber *propagateAtLaunch</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *instanceId</Declaration>
 			
 			
-			<Anchor>//api/name/propagateAtLaunch</Anchor>
+			<Anchor>//api/name/instanceId</Anchor>
             <NodeRef refid="81"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSAutoScalingTag/propagateAtLaunch</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt; Specifies whether the new tag will be applied to instances launched after the tag is created. The same behavior applies to updates: If you change a tag, the changed tag will be applied to all instances launched after you made the change. &lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSAutoScalingSetInstanceHealthQuery/instanceId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; The identifier of the Amazon EC2 instance. &lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSNumber *propagateAtLaunch</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *instanceId</Declaration>
 			
 			
-			<Anchor>//api/name/propagateAtLaunch</Anchor>
+			<Anchor>//api/name/instanceId</Anchor>
             <NodeRef refid="81"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingTag/setResourceId:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt; The name of the Auto Scaling group. &lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingSetInstanceHealthQuery/setShouldRespectGracePeriod:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;If the Auto Scaling group of the specified instance has a &lt;code&gt;HealthCheckGracePeriod&lt;/code&gt; specified for the group, by default, this call will respect the grace period. Set this to &lt;code&gt;False&lt;/code&gt;, if you do not want the call to respect the grace period associated with the group.&lt;/p&gt;&lt;p&gt;For more information, see the &lt;code&gt;HealthCheckGracePeriod&lt;/code&gt; parameter description in the &lt;a&gt;CreateAutoScalingGroup&lt;/a&gt; action. &lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *resourceId</Declaration>
+			<Declaration>@property (nonatomic, strong) NSNumber *shouldRespectGracePeriod</Declaration>
 			
 			
-			<Anchor>//api/name/resourceId</Anchor>
+			<Anchor>//api/name/shouldRespectGracePeriod</Anchor>
             <NodeRef refid="81"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingTag/resourceId</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt; The name of the Auto Scaling group. &lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingSetInstanceHealthQuery/shouldRespectGracePeriod</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;If the Auto Scaling group of the specified instance has a &lt;code&gt;HealthCheckGracePeriod&lt;/code&gt; specified for the group, by default, this call will respect the grace period. Set this to &lt;code&gt;False&lt;/code&gt;, if you do not want the call to respect the grace period associated with the group.&lt;/p&gt;&lt;p&gt;For more information, see the &lt;code&gt;HealthCheckGracePeriod&lt;/code&gt; parameter description in the &lt;a&gt;CreateAutoScalingGroup&lt;/a&gt; action. &lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *resourceId</Declaration>
+			<Declaration>@property (nonatomic, strong) NSNumber *shouldRespectGracePeriod</Declaration>
 			
 			
-			<Anchor>//api/name/resourceId</Anchor>
+			<Anchor>//api/name/shouldRespectGracePeriod</Anchor>
             <NodeRef refid="81"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSAutoScalingTag/resourceId</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt; The name of the Auto Scaling group. &lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSAutoScalingSetInstanceHealthQuery/shouldRespectGracePeriod</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;If the Auto Scaling group of the specified instance has a &lt;code&gt;HealthCheckGracePeriod&lt;/code&gt; specified for the group, by default, this call will respect the grace period. Set this to &lt;code&gt;False&lt;/code&gt;, if you do not want the call to respect the grace period associated with the group.&lt;/p&gt;&lt;p&gt;For more information, see the &lt;code&gt;HealthCheckGracePeriod&lt;/code&gt; parameter description in the &lt;a&gt;CreateAutoScalingGroup&lt;/a&gt; action. &lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *resourceId</Declaration>
+			<Declaration>@property (nonatomic, strong) NSNumber *shouldRespectGracePeriod</Declaration>
 			
 			
-			<Anchor>//api/name/resourceId</Anchor>
+			<Anchor>//api/name/shouldRespectGracePeriod</Anchor>
             <NodeRef refid="81"/>
 		</Token>
 		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingTag/setResourceType:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt; The kind of resource to which the tag is applied. Currently, Auto Scaling supports the &lt;code&gt;auto-scaling-group&lt;/code&gt; resource type. &lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *resourceType</Declaration>
-			
-			
-			<Anchor>//api/name/resourceType</Anchor>
-            <NodeRef refid="81"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingTag/resourceType</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt; The kind of resource to which the tag is applied. Currently, Auto Scaling supports the &lt;code&gt;auto-scaling-group&lt;/code&gt; resource type. &lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *resourceType</Declaration>
-			
-			
-			<Anchor>//api/name/resourceType</Anchor>
-            <NodeRef refid="81"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSAutoScalingTag/resourceType</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt; The kind of resource to which the tag is applied. Currently, Auto Scaling supports the &lt;code&gt;auto-scaling-group&lt;/code&gt; resource type. &lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *resourceType</Declaration>
-			
-			
-			<Anchor>//api/name/resourceType</Anchor>
-            <NodeRef refid="81"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingTag/setValue:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt; The value of the tag. &lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *value</Declaration>
-			
-			
-			<Anchor>//api/name/value</Anchor>
-            <NodeRef refid="81"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingTag/value</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt; The value of the tag. &lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *value</Declaration>
-			
-			
-			<Anchor>//api/name/value</Anchor>
-            <NodeRef refid="81"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSAutoScalingTag/value</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt; The value of the tag. &lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *value</Declaration>
-			
-			
-			<Anchor>//api/name/value</Anchor>
-            <NodeRef refid="81"/>
-		</Token>
-		
+        
         
 	</File>
 </Tokens>

@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSSQSGetQueueUrlRequest.html">
+	<File path="Classes/AWSS3DeleteObjectOutput.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSSQSGetQueueUrlRequest</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSS3DeleteObjectOutput</TokenIdentifier>
 			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSSQSModel.h</DeclaredIn>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
             
 			
 			<NodeRef refid="767"/>
@@ -13,77 +13,78 @@
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSSQSGetQueueUrlRequest/setQueueName:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The name of the queue whose URL must be fetched. Maximum 80 characters; alphanumeric characters, hyphens (-), and underscores (_) are allowed.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSQSModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3DeleteObjectOutput/setDeleteMarker:</TokenIdentifier>
+			<Abstract type="html">Specifies whether the versioned object that was permanently deleted was (true) or was not (false) a delete marker.</Abstract>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *queueName</Declaration>
+			<Declaration>@property (nonatomic, strong) NSNumber *deleteMarker</Declaration>
 			
 			
-			<Anchor>//api/name/queueName</Anchor>
+			<Anchor>//api/name/deleteMarker</Anchor>
             <NodeRef refid="767"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSSQSGetQueueUrlRequest/queueName</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The name of the queue whose URL must be fetched. Maximum 80 characters; alphanumeric characters, hyphens (-), and underscores (_) are allowed.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSQSModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3DeleteObjectOutput/deleteMarker</TokenIdentifier>
+			<Abstract type="html">Specifies whether the versioned object that was permanently deleted was (true) or was not (false) a delete marker.</Abstract>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *queueName</Declaration>
+			<Declaration>@property (nonatomic, strong) NSNumber *deleteMarker</Declaration>
 			
 			
-			<Anchor>//api/name/queueName</Anchor>
+			<Anchor>//api/name/deleteMarker</Anchor>
             <NodeRef refid="767"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSSQSGetQueueUrlRequest/queueName</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The name of the queue whose URL must be fetched. Maximum 80 characters; alphanumeric characters, hyphens (-), and underscores (_) are allowed.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSQSModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSS3DeleteObjectOutput/deleteMarker</TokenIdentifier>
+			<Abstract type="html">Specifies whether the versioned object that was permanently deleted was (true) or was not (false) a delete marker.</Abstract>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *queueName</Declaration>
+			<Declaration>@property (nonatomic, strong) NSNumber *deleteMarker</Declaration>
 			
 			
-			<Anchor>//api/name/queueName</Anchor>
+			<Anchor>//api/name/deleteMarker</Anchor>
             <NodeRef refid="767"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSSQSGetQueueUrlRequest/setQueueOwnerAWSAccountId:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The AWS account ID of the account that created the queue.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSQSModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3DeleteObjectOutput/setVersionId:</TokenIdentifier>
+			<Abstract type="html">Returns the version ID of the delete marker created as a result of the DELETE operation.</Abstract>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *queueOwnerAWSAccountId</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *versionId</Declaration>
 			
 			
-			<Anchor>//api/name/queueOwnerAWSAccountId</Anchor>
+			<Anchor>//api/name/versionId</Anchor>
             <NodeRef refid="767"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSSQSGetQueueUrlRequest/queueOwnerAWSAccountId</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The AWS account ID of the account that created the queue.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSQSModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3DeleteObjectOutput/versionId</TokenIdentifier>
+			<Abstract type="html">Returns the version ID of the delete marker created as a result of the DELETE operation.</Abstract>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *queueOwnerAWSAccountId</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *versionId</Declaration>
 			
 			
-			<Anchor>//api/name/queueOwnerAWSAccountId</Anchor>
+			<Anchor>//api/name/versionId</Anchor>
             <NodeRef refid="767"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSSQSGetQueueUrlRequest/queueOwnerAWSAccountId</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The AWS account ID of the account that created the queue.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSQSModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSS3DeleteObjectOutput/versionId</TokenIdentifier>
+			<Abstract type="html">Returns the version ID of the delete marker created as a result of the DELETE operation.</Abstract>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *queueOwnerAWSAccountId</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *versionId</Declaration>
 			
 			
-			<Anchor>//api/name/queueOwnerAWSAccountId</Anchor>
+			<Anchor>//api/name/versionId</Anchor>
             <NodeRef refid="767"/>
 		</Token>
 		
+        
         
 	</File>
 </Tokens>

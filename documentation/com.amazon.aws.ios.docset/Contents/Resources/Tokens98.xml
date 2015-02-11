@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSCloudWatchDisableAlarmActionsInput.html">
+	<File path="Classes/AWSCloudWatchDescribeAlarmsOutput.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSCloudWatchDisableAlarmActionsInput</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;&lt;/p&gt;
-Required parameters: [AlarmNames]</Abstract>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSCloudWatchDescribeAlarmsOutput</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; The output for the &lt;a&gt;DescribeAlarms&lt;/a&gt; action. &lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSCloudWatchModel.h</DeclaredIn>
             
 			
@@ -14,41 +13,78 @@ Required parameters: [AlarmNames]</Abstract>
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSCloudWatchDisableAlarmActionsInput/setAlarmNames:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt; The names of the alarms to disable actions for. &lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCloudWatchDescribeAlarmsOutput/setMetricAlarms:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; A list of information for the specified alarms. &lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSCloudWatchModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSArray *alarmNames</Declaration>
+			<Declaration>@property (nonatomic, strong) NSArray *metricAlarms</Declaration>
 			
 			
-			<Anchor>//api/name/alarmNames</Anchor>
+			<Anchor>//api/name/metricAlarms</Anchor>
             <NodeRef refid="98"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSCloudWatchDisableAlarmActionsInput/alarmNames</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt; The names of the alarms to disable actions for. &lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCloudWatchDescribeAlarmsOutput/metricAlarms</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; A list of information for the specified alarms. &lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSCloudWatchModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSArray *alarmNames</Declaration>
+			<Declaration>@property (nonatomic, strong) NSArray *metricAlarms</Declaration>
 			
 			
-			<Anchor>//api/name/alarmNames</Anchor>
+			<Anchor>//api/name/metricAlarms</Anchor>
             <NodeRef refid="98"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSCloudWatchDisableAlarmActionsInput/alarmNames</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt; The names of the alarms to disable actions for. &lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSCloudWatchDescribeAlarmsOutput/metricAlarms</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; A list of information for the specified alarms. &lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSCloudWatchModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSArray *alarmNames</Declaration>
+			<Declaration>@property (nonatomic, strong) NSArray *metricAlarms</Declaration>
 			
 			
-			<Anchor>//api/name/alarmNames</Anchor>
+			<Anchor>//api/name/metricAlarms</Anchor>
             <NodeRef refid="98"/>
 		</Token>
 		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCloudWatchDescribeAlarmsOutput/setNextToken:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; A string that marks the start of the next batch of returned results. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSCloudWatchModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *nextToken</Declaration>
+			
+			
+			<Anchor>//api/name/nextToken</Anchor>
+            <NodeRef refid="98"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCloudWatchDescribeAlarmsOutput/nextToken</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; A string that marks the start of the next batch of returned results. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSCloudWatchModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *nextToken</Declaration>
+			
+			
+			<Anchor>//api/name/nextToken</Anchor>
+            <NodeRef refid="98"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSCloudWatchDescribeAlarmsOutput/nextToken</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; A string that marks the start of the next batch of returned results. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSCloudWatchModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *nextToken</Declaration>
+			
+			
+			<Anchor>//api/name/nextToken</Anchor>
+            <NodeRef refid="98"/>
+		</Token>
+		
+        
         
 	</File>
 </Tokens>

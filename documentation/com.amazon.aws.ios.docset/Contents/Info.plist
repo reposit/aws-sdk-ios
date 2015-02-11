@@ -5,19 +5,19 @@
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
 	<key>CFBundleIdentifier</key>
-	<string>aws.amazon.com.AWS-SDK-for-iOS-v2.0.8</string>
+	<string>aws.amazon.com.AWS-SDK-for-iOS-v2.0.16</string>
 	<key>CFBundleName</key>
-	<string>AWS SDK for iOS v2.0.8 Documentation</string>
+	<string>AWS SDK for iOS v2.0.16 Documentation</string>
 	<key>CFBundleShortVersionString</key>
-	<string>2.0.8</string>
+	<string>2.0.16</string>
 	<key>CFBundleVersion</key>
-	<string>2.0.8</string>
+	<string>2.0.16</string>
 	
 	
 	
 	
 	<key>DocSetFeedName</key>
-	<string>AWS SDK for iOS v2.0.8 Documentation</string>
+	<string>AWS SDK for iOS v2.0.16 Documentation</string>
 	
 	<key>DocSetMinimumXcodeVersion</key>
 	<string>3.0</string>
@@ -29,6 +29,6 @@
 	<key>DocSetPublisherName</key>
 	<string>Amazon Web Services, Inc.</string>
 	<key>NSHumanReadableCopyright</key>
-	<string>Copyright © 2014 Amazon Web Services, Inc.. All rights reserved.</string>
+	<string>Copyright © 2015 Amazon Web Services, Inc.. All rights reserved.</string>
 </dict>
 </plist>

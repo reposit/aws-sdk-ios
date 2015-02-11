@@ -1,67 +1,55 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Constants/AWSKinesisShardIteratorType.html">
+	<File path="Classes/AWSSNSGetTopicAttributesInput.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/c/tdef/AWSKinesisShardIteratorType</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSKinesisModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSSNSGetTopicAttributesInput</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Input for GetTopicAttributes action.&lt;/p&gt;
+Required parameters: [TopicArn]</Abstract>
+			<DeclaredIn>AWSSNSModel.h</DeclaredIn>
             
 			
 			<NodeRef refid="932"/>
 		</Token>
 		
 		
-        
-        <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSKinesisShardIteratorTypeUnknown</TokenIdentifier>
-            <Abstract type="html"></Abstract>
-            <Declaration>AWSKinesisShardIteratorTypeUnknown</Declaration>
-            
-            <DeclaredIn>AWSKinesisModel.h</DeclaredIn>
-            
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSNSGetTopicAttributesInput/setTopicArn:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ARN of the topic whose properties you want to get.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSNSModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *topicArn</Declaration>
+			
+			
+			<Anchor>//api/name/topicArn</Anchor>
             <NodeRef refid="932"/>
-        </Token>
-        
-        <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSKinesisShardIteratorTypeAtSequenceNumber</TokenIdentifier>
-            <Abstract type="html"></Abstract>
-            <Declaration>AWSKinesisShardIteratorTypeAtSequenceNumber</Declaration>
-            
-            <DeclaredIn>AWSKinesisModel.h</DeclaredIn>
-            
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSNSGetTopicAttributesInput/topicArn</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ARN of the topic whose properties you want to get.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSNSModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *topicArn</Declaration>
+			
+			
+			<Anchor>//api/name/topicArn</Anchor>
             <NodeRef refid="932"/>
-        </Token>
-        
-        <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSKinesisShardIteratorTypeAfterSequenceNumber</TokenIdentifier>
-            <Abstract type="html"></Abstract>
-            <Declaration>AWSKinesisShardIteratorTypeAfterSequenceNumber</Declaration>
-            
-            <DeclaredIn>AWSKinesisModel.h</DeclaredIn>
-            
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSSNSGetTopicAttributesInput/topicArn</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ARN of the topic whose properties you want to get.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSNSModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *topicArn</Declaration>
+			
+			
+			<Anchor>//api/name/topicArn</Anchor>
             <NodeRef refid="932"/>
-        </Token>
+		</Token>
+		
         
-        <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSKinesisShardIteratorTypeTrimHorizon</TokenIdentifier>
-            <Abstract type="html"></Abstract>
-            <Declaration>AWSKinesisShardIteratorTypeTrimHorizon</Declaration>
-            
-            <DeclaredIn>AWSKinesisModel.h</DeclaredIn>
-            
-            <NodeRef refid="932"/>
-        </Token>
-        
-        <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSKinesisShardIteratorTypeLatest</TokenIdentifier>
-            <Abstract type="html"></Abstract>
-            <Declaration>AWSKinesisShardIteratorTypeLatest</Declaration>
-            
-            <DeclaredIn>AWSKinesisModel.h</DeclaredIn>
-            
-            <NodeRef refid="932"/>
-        </Token>
         
 	</File>
 </Tokens>

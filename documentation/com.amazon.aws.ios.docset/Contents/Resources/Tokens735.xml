@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSSNSMessageAttributeValue.html">
+	<File path="Classes/AWSMobileAnalyticsERSEvent.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSSNSMessageAttributeValue</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The user-specified message attribute value. For string data types, the value attribute has the same restrictions on the content as the message body. For more information, see Publish.&lt;/p&gt;&lt;p&gt;Name, type, and value must not be empty or null. In addition, the message body should not be empty or null. All parts of the message attribute, including name, type, and value, are included in the message size restriction, which is currently 256 KB (262,144 bytes). For more information, see Using Amazon SNS Message Attributes.&lt;/p&gt;
-Required parameters: [DataType]</Abstract>
-			<DeclaredIn>AWSSNSModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSMobileAnalyticsERSEvent</TokenIdentifier>
+			<Abstract type="html">Represents a single event that happened on a client device. Attributes and metrics are optional.
+Required parameters: [eventType, timestamp, session]</Abstract>
+			<DeclaredIn>AWSMobileAnalyticsERSModel.h</DeclaredIn>
             
 			
 			<NodeRef refid="735"/>
@@ -14,113 +14,222 @@ Required parameters: [DataType]</Abstract>
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSSNSMessageAttributeValue/setBinaryValue:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Binary type attributes can store any binary data, for example, compressed data, encrypted data, or images.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSNSModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSMobileAnalyticsERSEvent/setAttributes:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSMobileAnalyticsERSModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSData *binaryValue</Declaration>
+			<Declaration>@property (nonatomic, strong) NSDictionary *attributes</Declaration>
 			
 			
-			<Anchor>//api/name/binaryValue</Anchor>
+			<Anchor>//api/name/attributes</Anchor>
             <NodeRef refid="735"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSSNSMessageAttributeValue/binaryValue</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Binary type attributes can store any binary data, for example, compressed data, encrypted data, or images.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSNSModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSMobileAnalyticsERSEvent/attributes</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSMobileAnalyticsERSModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSData *binaryValue</Declaration>
+			<Declaration>@property (nonatomic, strong) NSDictionary *attributes</Declaration>
 			
 			
-			<Anchor>//api/name/binaryValue</Anchor>
+			<Anchor>//api/name/attributes</Anchor>
             <NodeRef refid="735"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSSNSMessageAttributeValue/binaryValue</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Binary type attributes can store any binary data, for example, compressed data, encrypted data, or images.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSNSModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSMobileAnalyticsERSEvent/attributes</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSMobileAnalyticsERSModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSData *binaryValue</Declaration>
+			<Declaration>@property (nonatomic, strong) NSDictionary *attributes</Declaration>
 			
 			
-			<Anchor>//api/name/binaryValue</Anchor>
+			<Anchor>//api/name/attributes</Anchor>
             <NodeRef refid="735"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSSNSMessageAttributeValue/setDataType:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Amazon SNS supports the following logical data types: String, Number, and Binary. For more information, see Message Attribute Data Types.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSNSModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSMobileAnalyticsERSEvent/setEventType:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSMobileAnalyticsERSModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *dataType</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *eventType</Declaration>
 			
 			
-			<Anchor>//api/name/dataType</Anchor>
+			<Anchor>//api/name/eventType</Anchor>
             <NodeRef refid="735"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSSNSMessageAttributeValue/dataType</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Amazon SNS supports the following logical data types: String, Number, and Binary. For more information, see Message Attribute Data Types.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSNSModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSMobileAnalyticsERSEvent/eventType</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSMobileAnalyticsERSModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *dataType</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *eventType</Declaration>
 			
 			
-			<Anchor>//api/name/dataType</Anchor>
+			<Anchor>//api/name/eventType</Anchor>
             <NodeRef refid="735"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSSNSMessageAttributeValue/dataType</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Amazon SNS supports the following logical data types: String, Number, and Binary. For more information, see Message Attribute Data Types.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSNSModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSMobileAnalyticsERSEvent/eventType</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSMobileAnalyticsERSModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *dataType</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *eventType</Declaration>
 			
 			
-			<Anchor>//api/name/dataType</Anchor>
+			<Anchor>//api/name/eventType</Anchor>
             <NodeRef refid="735"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSSNSMessageAttributeValue/setStringValue:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Strings are Unicode with UTF8 binary encoding. For a list of code values, see http://en.wikipedia.org/wiki/ASCII#ASCIIprintablecharacters.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSNSModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSMobileAnalyticsERSEvent/setMetrics:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSMobileAnalyticsERSModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *stringValue</Declaration>
+			<Declaration>@property (nonatomic, strong) NSDictionary *metrics</Declaration>
 			
 			
-			<Anchor>//api/name/stringValue</Anchor>
+			<Anchor>//api/name/metrics</Anchor>
             <NodeRef refid="735"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSSNSMessageAttributeValue/stringValue</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Strings are Unicode with UTF8 binary encoding. For a list of code values, see http://en.wikipedia.org/wiki/ASCII#ASCIIprintablecharacters.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSNSModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSMobileAnalyticsERSEvent/metrics</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSMobileAnalyticsERSModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *stringValue</Declaration>
+			<Declaration>@property (nonatomic, strong) NSDictionary *metrics</Declaration>
 			
 			
-			<Anchor>//api/name/stringValue</Anchor>
+			<Anchor>//api/name/metrics</Anchor>
             <NodeRef refid="735"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSSNSMessageAttributeValue/stringValue</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Strings are Unicode with UTF8 binary encoding. For a list of code values, see http://en.wikipedia.org/wiki/ASCII#ASCIIprintablecharacters.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSNSModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSMobileAnalyticsERSEvent/metrics</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSMobileAnalyticsERSModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *stringValue</Declaration>
+			<Declaration>@property (nonatomic, strong) NSDictionary *metrics</Declaration>
 			
 			
-			<Anchor>//api/name/stringValue</Anchor>
+			<Anchor>//api/name/metrics</Anchor>
             <NodeRef refid="735"/>
 		</Token>
 		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSMobileAnalyticsERSEvent/setSession:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSMobileAnalyticsERSModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) AWSMobileAnalyticsERSSession *session</Declaration>
+			
+			
+			<Anchor>//api/name/session</Anchor>
+            <NodeRef refid="735"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSMobileAnalyticsERSEvent/session</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSMobileAnalyticsERSModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) AWSMobileAnalyticsERSSession *session</Declaration>
+			
+			
+			<Anchor>//api/name/session</Anchor>
+            <NodeRef refid="735"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSMobileAnalyticsERSEvent/session</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSMobileAnalyticsERSModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) AWSMobileAnalyticsERSSession *session</Declaration>
+			
+			
+			<Anchor>//api/name/session</Anchor>
+            <NodeRef refid="735"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSMobileAnalyticsERSEvent/setTimestamp:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSMobileAnalyticsERSModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *timestamp</Declaration>
+			
+			
+			<Anchor>//api/name/timestamp</Anchor>
+            <NodeRef refid="735"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSMobileAnalyticsERSEvent/timestamp</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSMobileAnalyticsERSModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *timestamp</Declaration>
+			
+			
+			<Anchor>//api/name/timestamp</Anchor>
+            <NodeRef refid="735"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSMobileAnalyticsERSEvent/timestamp</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSMobileAnalyticsERSModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *timestamp</Declaration>
+			
+			
+			<Anchor>//api/name/timestamp</Anchor>
+            <NodeRef refid="735"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSMobileAnalyticsERSEvent/setVersion:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSMobileAnalyticsERSModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *version</Declaration>
+			
+			
+			<Anchor>//api/name/version</Anchor>
+            <NodeRef refid="735"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSMobileAnalyticsERSEvent/version</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSMobileAnalyticsERSModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *version</Declaration>
+			
+			
+			<Anchor>//api/name/version</Anchor>
+            <NodeRef refid="735"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSMobileAnalyticsERSEvent/version</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSMobileAnalyticsERSModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *version</Declaration>
+			
+			
+			<Anchor>//api/name/version</Anchor>
+            <NodeRef refid="735"/>
+		</Token>
+		
+        
         
 	</File>
 </Tokens>

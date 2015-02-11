@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSSNSEndpoint.html">
+	<File path="Classes/AWSKinesisListTagsForStreamOutput.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSSNSEndpoint</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Endpoint for mobile app and device.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSNSModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSKinesisListTagsForStreamOutput</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Represents the output for &lt;code&gt;ListTagsForStream&lt;/code&gt;.&lt;/p&gt;
+Required parameters: [Tags, HasMoreTags]</Abstract>
+			<DeclaredIn>AWSKinesisModel.h</DeclaredIn>
             
 			
 			<NodeRef refid="716"/>
@@ -13,77 +14,78 @@
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSSNSEndpoint/setAttributes:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Attributes for endpoint.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSNSModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSKinesisListTagsForStreamOutput/setHasMoreTags:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;If set to &lt;code&gt;true&lt;/code&gt;, more tags are available. To request additional tags, set &lt;code&gt;ExclusiveStartTagKey&lt;/code&gt; to the key of the last tag returned.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSKinesisModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSDictionary *attributes</Declaration>
+			<Declaration>@property (nonatomic, strong) NSNumber *hasMoreTags</Declaration>
 			
 			
-			<Anchor>//api/name/attributes</Anchor>
+			<Anchor>//api/name/hasMoreTags</Anchor>
             <NodeRef refid="716"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSSNSEndpoint/attributes</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Attributes for endpoint.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSNSModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSKinesisListTagsForStreamOutput/hasMoreTags</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;If set to &lt;code&gt;true&lt;/code&gt;, more tags are available. To request additional tags, set &lt;code&gt;ExclusiveStartTagKey&lt;/code&gt; to the key of the last tag returned.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSKinesisModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSDictionary *attributes</Declaration>
+			<Declaration>@property (nonatomic, strong) NSNumber *hasMoreTags</Declaration>
 			
 			
-			<Anchor>//api/name/attributes</Anchor>
+			<Anchor>//api/name/hasMoreTags</Anchor>
             <NodeRef refid="716"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSSNSEndpoint/attributes</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Attributes for endpoint.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSNSModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSKinesisListTagsForStreamOutput/hasMoreTags</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;If set to &lt;code&gt;true&lt;/code&gt;, more tags are available. To request additional tags, set &lt;code&gt;ExclusiveStartTagKey&lt;/code&gt; to the key of the last tag returned.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSKinesisModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSDictionary *attributes</Declaration>
+			<Declaration>@property (nonatomic, strong) NSNumber *hasMoreTags</Declaration>
 			
 			
-			<Anchor>//api/name/attributes</Anchor>
+			<Anchor>//api/name/hasMoreTags</Anchor>
             <NodeRef refid="716"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSSNSEndpoint/setEndpointArn:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;EndpointArn for mobile app and device.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSNSModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSKinesisListTagsForStreamOutput/setTags:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;A list of tags associated with &lt;code&gt;StreamName&lt;/code&gt;, starting with the first tag after &lt;code&gt;ExclusiveStartTagKey&lt;/code&gt; and up to the specified &lt;code&gt;Limit&lt;/code&gt;. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSKinesisModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *endpointArn</Declaration>
+			<Declaration>@property (nonatomic, strong) NSArray *tags</Declaration>
 			
 			
-			<Anchor>//api/name/endpointArn</Anchor>
+			<Anchor>//api/name/tags</Anchor>
             <NodeRef refid="716"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSSNSEndpoint/endpointArn</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;EndpointArn for mobile app and device.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSNSModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSKinesisListTagsForStreamOutput/tags</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;A list of tags associated with &lt;code&gt;StreamName&lt;/code&gt;, starting with the first tag after &lt;code&gt;ExclusiveStartTagKey&lt;/code&gt; and up to the specified &lt;code&gt;Limit&lt;/code&gt;. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSKinesisModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *endpointArn</Declaration>
+			<Declaration>@property (nonatomic, strong) NSArray *tags</Declaration>
 			
 			
-			<Anchor>//api/name/endpointArn</Anchor>
+			<Anchor>//api/name/tags</Anchor>
             <NodeRef refid="716"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSSNSEndpoint/endpointArn</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;EndpointArn for mobile app and device.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSNSModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSKinesisListTagsForStreamOutput/tags</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;A list of tags associated with &lt;code&gt;StreamName&lt;/code&gt;, starting with the first tag after &lt;code&gt;ExclusiveStartTagKey&lt;/code&gt; and up to the specified &lt;code&gt;Limit&lt;/code&gt;. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSKinesisModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *endpointArn</Declaration>
+			<Declaration>@property (nonatomic, strong) NSArray *tags</Declaration>
 			
 			
-			<Anchor>//api/name/endpointArn</Anchor>
+			<Anchor>//api/name/tags</Anchor>
             <NodeRef refid="716"/>
 		</Token>
 		
+        
         
 	</File>
 </Tokens>

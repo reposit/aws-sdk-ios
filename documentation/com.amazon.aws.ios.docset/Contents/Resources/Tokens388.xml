@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSEC2EbsInstanceBlockDevice.html">
+	<File path="Classes/AWSEC2DescribePlacementGroupsRequest.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSEC2EbsInstanceBlockDevice</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Describes a parameter used to set up an Amazon EBS volume in a block device mapping.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSEC2DescribePlacementGroupsRequest</TokenIdentifier>
+			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
             
 			
@@ -13,149 +13,114 @@
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2EbsInstanceBlockDevice/setAttachTime:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The time stamp when the attachment initiated.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DescribePlacementGroupsRequest/setDryRun:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSDate *attachTime</Declaration>
+			<Declaration>@property (nonatomic, strong) NSNumber *dryRun</Declaration>
 			
 			
-			<Anchor>//api/name/attachTime</Anchor>
+			<Anchor>//api/name/dryRun</Anchor>
             <NodeRef refid="388"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2EbsInstanceBlockDevice/attachTime</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The time stamp when the attachment initiated.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DescribePlacementGroupsRequest/dryRun</TokenIdentifier>
+			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSDate *attachTime</Declaration>
+			<Declaration>@property (nonatomic, strong) NSNumber *dryRun</Declaration>
 			
 			
-			<Anchor>//api/name/attachTime</Anchor>
+			<Anchor>//api/name/dryRun</Anchor>
             <NodeRef refid="388"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2EbsInstanceBlockDevice/attachTime</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The time stamp when the attachment initiated.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2DescribePlacementGroupsRequest/dryRun</TokenIdentifier>
+			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSDate *attachTime</Declaration>
+			<Declaration>@property (nonatomic, strong) NSNumber *dryRun</Declaration>
 			
 			
-			<Anchor>//api/name/attachTime</Anchor>
+			<Anchor>//api/name/dryRun</Anchor>
             <NodeRef refid="388"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2EbsInstanceBlockDevice/setDeleteOnTermination:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Indicates whether the volume is deleted on instance termination.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DescribePlacementGroupsRequest/setFilters:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;One or more filters.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;group-name&lt;/code&gt; - The name of the placement group.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;state&lt;/code&gt; - The state of the placement group (&lt;code&gt;pending&lt;/code&gt; | &lt;code&gt;available&lt;/code&gt; | &lt;code&gt;deleting&lt;/code&gt; | &lt;code&gt;deleted&lt;/code&gt;).&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;strategy&lt;/code&gt; - The strategy of the placement group (&lt;code&gt;cluster&lt;/code&gt;).&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSNumber *deleteOnTermination</Declaration>
+			<Declaration>@property (nonatomic, strong) NSArray *filters</Declaration>
 			
 			
-			<Anchor>//api/name/deleteOnTermination</Anchor>
+			<Anchor>//api/name/filters</Anchor>
             <NodeRef refid="388"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2EbsInstanceBlockDevice/deleteOnTermination</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Indicates whether the volume is deleted on instance termination.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DescribePlacementGroupsRequest/filters</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;One or more filters.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;group-name&lt;/code&gt; - The name of the placement group.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;state&lt;/code&gt; - The state of the placement group (&lt;code&gt;pending&lt;/code&gt; | &lt;code&gt;available&lt;/code&gt; | &lt;code&gt;deleting&lt;/code&gt; | &lt;code&gt;deleted&lt;/code&gt;).&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;strategy&lt;/code&gt; - The strategy of the placement group (&lt;code&gt;cluster&lt;/code&gt;).&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSNumber *deleteOnTermination</Declaration>
+			<Declaration>@property (nonatomic, strong) NSArray *filters</Declaration>
 			
 			
-			<Anchor>//api/name/deleteOnTermination</Anchor>
+			<Anchor>//api/name/filters</Anchor>
             <NodeRef refid="388"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2EbsInstanceBlockDevice/deleteOnTermination</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Indicates whether the volume is deleted on instance termination.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2DescribePlacementGroupsRequest/filters</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;One or more filters.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;group-name&lt;/code&gt; - The name of the placement group.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;state&lt;/code&gt; - The state of the placement group (&lt;code&gt;pending&lt;/code&gt; | &lt;code&gt;available&lt;/code&gt; | &lt;code&gt;deleting&lt;/code&gt; | &lt;code&gt;deleted&lt;/code&gt;).&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;strategy&lt;/code&gt; - The strategy of the placement group (&lt;code&gt;cluster&lt;/code&gt;).&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSNumber *deleteOnTermination</Declaration>
+			<Declaration>@property (nonatomic, strong) NSArray *filters</Declaration>
 			
 			
-			<Anchor>//api/name/deleteOnTermination</Anchor>
+			<Anchor>//api/name/filters</Anchor>
             <NodeRef refid="388"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2EbsInstanceBlockDevice/setStatus:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The attachment state.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DescribePlacementGroupsRequest/setGroupNames:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;One or more placement group names.&lt;/p&gt;&lt;p&gt;Default: Describes all your placement groups, or only those otherwise specified.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, assign) AWSEC2AttachmentStatus status</Declaration>
+			<Declaration>@property (nonatomic, strong) NSArray *groupNames</Declaration>
 			
 			
-			<Anchor>//api/name/status</Anchor>
+			<Anchor>//api/name/groupNames</Anchor>
             <NodeRef refid="388"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2EbsInstanceBlockDevice/status</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The attachment state.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DescribePlacementGroupsRequest/groupNames</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;One or more placement group names.&lt;/p&gt;&lt;p&gt;Default: Describes all your placement groups, or only those otherwise specified.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, assign) AWSEC2AttachmentStatus status</Declaration>
+			<Declaration>@property (nonatomic, strong) NSArray *groupNames</Declaration>
 			
 			
-			<Anchor>//api/name/status</Anchor>
+			<Anchor>//api/name/groupNames</Anchor>
             <NodeRef refid="388"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2EbsInstanceBlockDevice/status</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The attachment state.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2DescribePlacementGroupsRequest/groupNames</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;One or more placement group names.&lt;/p&gt;&lt;p&gt;Default: Describes all your placement groups, or only those otherwise specified.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, assign) AWSEC2AttachmentStatus status</Declaration>
+			<Declaration>@property (nonatomic, strong) NSArray *groupNames</Declaration>
 			
 			
-			<Anchor>//api/name/status</Anchor>
+			<Anchor>//api/name/groupNames</Anchor>
             <NodeRef refid="388"/>
 		</Token>
 		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2EbsInstanceBlockDevice/setVolumeId:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The ID of the Amazon EBS volume.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *volumeId</Declaration>
-			
-			
-			<Anchor>//api/name/volumeId</Anchor>
-            <NodeRef refid="388"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2EbsInstanceBlockDevice/volumeId</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The ID of the Amazon EBS volume.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *volumeId</Declaration>
-			
-			
-			<Anchor>//api/name/volumeId</Anchor>
-            <NodeRef refid="388"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2EbsInstanceBlockDevice/volumeId</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The ID of the Amazon EBS volume.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *volumeId</Declaration>
-			
-			
-			<Anchor>//api/name/volumeId</Anchor>
-            <NodeRef refid="388"/>
-		</Token>
-		
+        
         
 	</File>
 </Tokens>

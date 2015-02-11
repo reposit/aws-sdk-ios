@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSEC2DiskImageDetail.html">
+	<File path="Classes/AWSEC2DescribeNetworkInterfaceAttributeResult.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSEC2DiskImageDetail</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSEC2DescribeNetworkInterfaceAttributeResult</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
             
@@ -13,77 +13,186 @@
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DiskImageDetail/setFormat:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The disk image format.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DescribeNetworkInterfaceAttributeResult/setAttachment:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The attachment (if any) of the network interface.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, assign) AWSEC2DiskImageFormat format</Declaration>
+			<Declaration>@property (nonatomic, strong) AWSEC2NetworkInterfaceAttachment *attachment</Declaration>
 			
 			
-			<Anchor>//api/name/format</Anchor>
+			<Anchor>//api/name/attachment</Anchor>
             <NodeRef refid="385"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DiskImageDetail/format</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The disk image format.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DescribeNetworkInterfaceAttributeResult/attachment</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The attachment (if any) of the network interface.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, assign) AWSEC2DiskImageFormat format</Declaration>
+			<Declaration>@property (nonatomic, strong) AWSEC2NetworkInterfaceAttachment *attachment</Declaration>
 			
 			
-			<Anchor>//api/name/format</Anchor>
+			<Anchor>//api/name/attachment</Anchor>
             <NodeRef refid="385"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2DiskImageDetail/format</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The disk image format.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2DescribeNetworkInterfaceAttributeResult/attachment</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The attachment (if any) of the network interface.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, assign) AWSEC2DiskImageFormat format</Declaration>
+			<Declaration>@property (nonatomic, strong) AWSEC2NetworkInterfaceAttachment *attachment</Declaration>
 			
 			
-			<Anchor>//api/name/format</Anchor>
+			<Anchor>//api/name/attachment</Anchor>
             <NodeRef refid="385"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DiskImageDetail/setImportManifestUrl:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;A presigned URL for the import manifest stored in Amazon S3. For information about creating a presigned URL for an Amazon S3 object, read the &quot;Query String Request Authentication Alternative&quot; section of the Authenticating REST Requests topic in the &lt;i&gt;Amazon Simple Storage Service Developer Guide&lt;/i&gt;.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DescribeNetworkInterfaceAttributeResult/setDetail:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The description of the network interface.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *importManifestUrl</Declaration>
+			<Declaration>@property (nonatomic, strong) AWSEC2AttributeValue *detail</Declaration>
 			
 			
-			<Anchor>//api/name/importManifestUrl</Anchor>
+			<Anchor>//api/name/detail</Anchor>
             <NodeRef refid="385"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DiskImageDetail/importManifestUrl</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;A presigned URL for the import manifest stored in Amazon S3. For information about creating a presigned URL for an Amazon S3 object, read the &quot;Query String Request Authentication Alternative&quot; section of the Authenticating REST Requests topic in the &lt;i&gt;Amazon Simple Storage Service Developer Guide&lt;/i&gt;.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DescribeNetworkInterfaceAttributeResult/detail</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The description of the network interface.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *importManifestUrl</Declaration>
+			<Declaration>@property (nonatomic, strong) AWSEC2AttributeValue *detail</Declaration>
 			
 			
-			<Anchor>//api/name/importManifestUrl</Anchor>
+			<Anchor>//api/name/detail</Anchor>
             <NodeRef refid="385"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2DiskImageDetail/importManifestUrl</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;A presigned URL for the import manifest stored in Amazon S3. For information about creating a presigned URL for an Amazon S3 object, read the &quot;Query String Request Authentication Alternative&quot; section of the Authenticating REST Requests topic in the &lt;i&gt;Amazon Simple Storage Service Developer Guide&lt;/i&gt;.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2DescribeNetworkInterfaceAttributeResult/detail</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The description of the network interface.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *importManifestUrl</Declaration>
+			<Declaration>@property (nonatomic, strong) AWSEC2AttributeValue *detail</Declaration>
 			
 			
-			<Anchor>//api/name/importManifestUrl</Anchor>
+			<Anchor>//api/name/detail</Anchor>
             <NodeRef refid="385"/>
 		</Token>
 		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DescribeNetworkInterfaceAttributeResult/setGroups:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The security groups associated with the network interface.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray *groups</Declaration>
+			
+			
+			<Anchor>//api/name/groups</Anchor>
+            <NodeRef refid="385"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DescribeNetworkInterfaceAttributeResult/groups</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The security groups associated with the network interface.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray *groups</Declaration>
+			
+			
+			<Anchor>//api/name/groups</Anchor>
+            <NodeRef refid="385"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2DescribeNetworkInterfaceAttributeResult/groups</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The security groups associated with the network interface.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray *groups</Declaration>
+			
+			
+			<Anchor>//api/name/groups</Anchor>
+            <NodeRef refid="385"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DescribeNetworkInterfaceAttributeResult/setNetworkInterfaceId:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the network interface.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *networkInterfaceId</Declaration>
+			
+			
+			<Anchor>//api/name/networkInterfaceId</Anchor>
+            <NodeRef refid="385"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DescribeNetworkInterfaceAttributeResult/networkInterfaceId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the network interface.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *networkInterfaceId</Declaration>
+			
+			
+			<Anchor>//api/name/networkInterfaceId</Anchor>
+            <NodeRef refid="385"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2DescribeNetworkInterfaceAttributeResult/networkInterfaceId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the network interface.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *networkInterfaceId</Declaration>
+			
+			
+			<Anchor>//api/name/networkInterfaceId</Anchor>
+            <NodeRef refid="385"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DescribeNetworkInterfaceAttributeResult/setSourceDestCheck:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Indicates whether source/destination checking is enabled.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) AWSEC2AttributeBooleanValue *sourceDestCheck</Declaration>
+			
+			
+			<Anchor>//api/name/sourceDestCheck</Anchor>
+            <NodeRef refid="385"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DescribeNetworkInterfaceAttributeResult/sourceDestCheck</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Indicates whether source/destination checking is enabled.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) AWSEC2AttributeBooleanValue *sourceDestCheck</Declaration>
+			
+			
+			<Anchor>//api/name/sourceDestCheck</Anchor>
+            <NodeRef refid="385"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2DescribeNetworkInterfaceAttributeResult/sourceDestCheck</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Indicates whether source/destination checking is enabled.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) AWSEC2AttributeBooleanValue *sourceDestCheck</Declaration>
+			
+			
+			<Anchor>//api/name/sourceDestCheck</Anchor>
+            <NodeRef refid="385"/>
+		</Token>
+		
+        
         
 	</File>
 </Tokens>

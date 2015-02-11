@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSSESListIdentitiesRequest.html">
+	<File path="Classes/AWSElasticLoadBalancingPolicyAttribute.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSSESListIdentitiesRequest</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Represents a request instructing the service to list all identities for the AWS Account.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSESModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSElasticLoadBalancingPolicyAttribute</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSElasticLoadBalancingModel.h</DeclaredIn>
             
 			
 			<NodeRef refid="680"/>
@@ -13,113 +13,78 @@
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSSESListIdentitiesRequest/setIdentityType:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The type of the identities to list. Possible values are &quot;EmailAddress&quot; and &quot;Domain&quot;. If this parameter is omitted, then all identities will be listed.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSESModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSElasticLoadBalancingPolicyAttribute/setAttributeName:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSElasticLoadBalancingModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, assign) AWSSESIdentityType identityType</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *attributeName</Declaration>
 			
 			
-			<Anchor>//api/name/identityType</Anchor>
+			<Anchor>//api/name/attributeName</Anchor>
             <NodeRef refid="680"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSSESListIdentitiesRequest/identityType</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The type of the identities to list. Possible values are &quot;EmailAddress&quot; and &quot;Domain&quot;. If this parameter is omitted, then all identities will be listed.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSESModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSElasticLoadBalancingPolicyAttribute/attributeName</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSElasticLoadBalancingModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, assign) AWSSESIdentityType identityType</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *attributeName</Declaration>
 			
 			
-			<Anchor>//api/name/identityType</Anchor>
+			<Anchor>//api/name/attributeName</Anchor>
             <NodeRef refid="680"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSSESListIdentitiesRequest/identityType</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The type of the identities to list. Possible values are &quot;EmailAddress&quot; and &quot;Domain&quot;. If this parameter is omitted, then all identities will be listed.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSESModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSElasticLoadBalancingPolicyAttribute/attributeName</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSElasticLoadBalancingModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, assign) AWSSESIdentityType identityType</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *attributeName</Declaration>
 			
 			
-			<Anchor>//api/name/identityType</Anchor>
+			<Anchor>//api/name/attributeName</Anchor>
             <NodeRef refid="680"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSSESListIdentitiesRequest/setMaxItems:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The maximum number of identities per page. Possible values are 1-100 inclusive.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSESModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSElasticLoadBalancingPolicyAttribute/setAttributeValue:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSElasticLoadBalancingModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSNumber *maxItems</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *attributeValue</Declaration>
 			
 			
-			<Anchor>//api/name/maxItems</Anchor>
+			<Anchor>//api/name/attributeValue</Anchor>
             <NodeRef refid="680"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSSESListIdentitiesRequest/maxItems</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The maximum number of identities per page. Possible values are 1-100 inclusive.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSESModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSElasticLoadBalancingPolicyAttribute/attributeValue</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSElasticLoadBalancingModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSNumber *maxItems</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *attributeValue</Declaration>
 			
 			
-			<Anchor>//api/name/maxItems</Anchor>
+			<Anchor>//api/name/attributeValue</Anchor>
             <NodeRef refid="680"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSSESListIdentitiesRequest/maxItems</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The maximum number of identities per page. Possible values are 1-100 inclusive.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSESModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSElasticLoadBalancingPolicyAttribute/attributeValue</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSElasticLoadBalancingModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSNumber *maxItems</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *attributeValue</Declaration>
 			
 			
-			<Anchor>//api/name/maxItems</Anchor>
+			<Anchor>//api/name/attributeValue</Anchor>
             <NodeRef refid="680"/>
 		</Token>
 		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSSESListIdentitiesRequest/setNextToken:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The token to use for pagination.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSESModel.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *nextToken</Declaration>
-			
-			
-			<Anchor>//api/name/nextToken</Anchor>
-            <NodeRef refid="680"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSSESListIdentitiesRequest/nextToken</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The token to use for pagination.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSESModel.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *nextToken</Declaration>
-			
-			
-			<Anchor>//api/name/nextToken</Anchor>
-            <NodeRef refid="680"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSSESListIdentitiesRequest/nextToken</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The token to use for pagination.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSESModel.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *nextToken</Declaration>
-			
-			
-			<Anchor>//api/name/nextToken</Anchor>
-            <NodeRef refid="680"/>
-		</Token>
-		
+        
         
 	</File>
 </Tokens>

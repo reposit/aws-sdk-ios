@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSEC2EnableVolumeIORequest.html">
+	<File path="Classes/AWSEC2DescribeRegionsResult.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSEC2EnableVolumeIORequest</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSEC2DescribeRegionsResult</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
             
@@ -13,41 +13,42 @@
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2EnableVolumeIORequest/setVolumeId:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The ID of the volume.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DescribeRegionsResult/setRegions:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Information about one or more regions.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *volumeId</Declaration>
+			<Declaration>@property (nonatomic, strong) NSArray *regions</Declaration>
 			
 			
-			<Anchor>//api/name/volumeId</Anchor>
+			<Anchor>//api/name/regions</Anchor>
             <NodeRef refid="391"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2EnableVolumeIORequest/volumeId</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The ID of the volume.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DescribeRegionsResult/regions</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Information about one or more regions.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *volumeId</Declaration>
+			<Declaration>@property (nonatomic, strong) NSArray *regions</Declaration>
 			
 			
-			<Anchor>//api/name/volumeId</Anchor>
+			<Anchor>//api/name/regions</Anchor>
             <NodeRef refid="391"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2EnableVolumeIORequest/volumeId</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The ID of the volume.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2DescribeRegionsResult/regions</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Information about one or more regions.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *volumeId</Declaration>
+			<Declaration>@property (nonatomic, strong) NSArray *regions</Declaration>
 			
 			
-			<Anchor>//api/name/volumeId</Anchor>
+			<Anchor>//api/name/regions</Anchor>
             <NodeRef refid="391"/>
 		</Token>
 		
+        
         
 	</File>
 </Tokens>

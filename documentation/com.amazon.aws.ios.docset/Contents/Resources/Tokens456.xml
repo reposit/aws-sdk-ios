@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSEC2NetworkAclAssociation.html">
+	<File path="Classes/AWSEC2GetConsoleOutputRequest.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSEC2NetworkAclAssociation</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Describes an association between a network ACL and a subnet.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSEC2GetConsoleOutputRequest</TokenIdentifier>
+			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
             
 			
@@ -13,113 +13,78 @@
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2NetworkAclAssociation/setNetworkAclAssociationId:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The ID of the association between a network ACL and a subnet.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2GetConsoleOutputRequest/setDryRun:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *networkAclAssociationId</Declaration>
+			<Declaration>@property (nonatomic, strong) NSNumber *dryRun</Declaration>
 			
 			
-			<Anchor>//api/name/networkAclAssociationId</Anchor>
+			<Anchor>//api/name/dryRun</Anchor>
             <NodeRef refid="456"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2NetworkAclAssociation/networkAclAssociationId</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The ID of the association between a network ACL and a subnet.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2GetConsoleOutputRequest/dryRun</TokenIdentifier>
+			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *networkAclAssociationId</Declaration>
+			<Declaration>@property (nonatomic, strong) NSNumber *dryRun</Declaration>
 			
 			
-			<Anchor>//api/name/networkAclAssociationId</Anchor>
+			<Anchor>//api/name/dryRun</Anchor>
             <NodeRef refid="456"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2NetworkAclAssociation/networkAclAssociationId</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The ID of the association between a network ACL and a subnet.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2GetConsoleOutputRequest/dryRun</TokenIdentifier>
+			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *networkAclAssociationId</Declaration>
+			<Declaration>@property (nonatomic, strong) NSNumber *dryRun</Declaration>
 			
 			
-			<Anchor>//api/name/networkAclAssociationId</Anchor>
+			<Anchor>//api/name/dryRun</Anchor>
             <NodeRef refid="456"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2NetworkAclAssociation/setNetworkAclId:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The ID of the network ACL.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2GetConsoleOutputRequest/setInstanceId:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the instance.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *networkAclId</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *instanceId</Declaration>
 			
 			
-			<Anchor>//api/name/networkAclId</Anchor>
+			<Anchor>//api/name/instanceId</Anchor>
             <NodeRef refid="456"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2NetworkAclAssociation/networkAclId</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The ID of the network ACL.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2GetConsoleOutputRequest/instanceId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the instance.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *networkAclId</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *instanceId</Declaration>
 			
 			
-			<Anchor>//api/name/networkAclId</Anchor>
+			<Anchor>//api/name/instanceId</Anchor>
             <NodeRef refid="456"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2NetworkAclAssociation/networkAclId</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The ID of the network ACL.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2GetConsoleOutputRequest/instanceId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the instance.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *networkAclId</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *instanceId</Declaration>
 			
 			
-			<Anchor>//api/name/networkAclId</Anchor>
+			<Anchor>//api/name/instanceId</Anchor>
             <NodeRef refid="456"/>
 		</Token>
 		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2NetworkAclAssociation/setSubnetId:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The ID of the subnet.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *subnetId</Declaration>
-			
-			
-			<Anchor>//api/name/subnetId</Anchor>
-            <NodeRef refid="456"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2NetworkAclAssociation/subnetId</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The ID of the subnet.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *subnetId</Declaration>
-			
-			
-			<Anchor>//api/name/subnetId</Anchor>
-            <NodeRef refid="456"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2NetworkAclAssociation/subnetId</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The ID of the subnet.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *subnetId</Declaration>
-			
-			
-			<Anchor>//api/name/subnetId</Anchor>
-            <NodeRef refid="456"/>
-		</Token>
-		
+        
         
 	</File>
 </Tokens>

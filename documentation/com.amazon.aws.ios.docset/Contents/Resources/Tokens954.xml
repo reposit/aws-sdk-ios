@@ -1,47 +1,54 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Constants/AWSS3Payer.html">
+	<File path="Classes/AWSSNSSubscribeResponse.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/c/tdef/AWSS3Payer</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSSNSSubscribeResponse</TokenIdentifier>
+			<Abstract type="html">Response for Subscribe action.</Abstract>
+			<DeclaredIn>AWSSNSModel.h</DeclaredIn>
             
 			
 			<NodeRef refid="954"/>
 		</Token>
 		
 		
-        
-        <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSS3PayerUnknown</TokenIdentifier>
-            <Abstract type="html"></Abstract>
-            <Declaration>AWSS3PayerUnknown</Declaration>
-            
-            <DeclaredIn>AWSS3Model.h</DeclaredIn>
-            
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSNSSubscribeResponse/setSubscriptionArn:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ARN of the subscription, if the service was able to create a subscription immediately (without requiring endpoint owner confirmation).&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSNSModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *subscriptionArn</Declaration>
+			
+			
+			<Anchor>//api/name/subscriptionArn</Anchor>
             <NodeRef refid="954"/>
-        </Token>
-        
-        <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSS3PayerRequester</TokenIdentifier>
-            <Abstract type="html"></Abstract>
-            <Declaration>AWSS3PayerRequester</Declaration>
-            
-            <DeclaredIn>AWSS3Model.h</DeclaredIn>
-            
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSNSSubscribeResponse/subscriptionArn</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ARN of the subscription, if the service was able to create a subscription immediately (without requiring endpoint owner confirmation).&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSNSModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *subscriptionArn</Declaration>
+			
+			
+			<Anchor>//api/name/subscriptionArn</Anchor>
             <NodeRef refid="954"/>
-        </Token>
-        
-        <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSS3PayerBucketOwner</TokenIdentifier>
-            <Abstract type="html"></Abstract>
-            <Declaration>AWSS3PayerBucketOwner</Declaration>
-            
-            <DeclaredIn>AWSS3Model.h</DeclaredIn>
-            
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSSNSSubscribeResponse/subscriptionArn</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ARN of the subscription, if the service was able to create a subscription immediately (without requiring endpoint owner confirmation).&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSNSModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *subscriptionArn</Declaration>
+			
+			
+			<Anchor>//api/name/subscriptionArn</Anchor>
             <NodeRef refid="954"/>
-        </Token>
+		</Token>
+		
+        
         
 	</File>
 </Tokens>

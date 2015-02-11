@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSEC2RegisterImageRequest.html">
+	<File path="Classes/AWSEC2InstanceAttribute.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSEC2RegisterImageRequest</TokenIdentifier>
-			<Abstract type="html"></Abstract>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSEC2InstanceAttribute</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Describes an instance attribute.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
             
 			
@@ -13,44 +13,8 @@
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2RegisterImageRequest/setArchitecture:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The architecture of the AMI.&lt;/p&gt;&lt;p&gt;Default: For Amazon EBS-backed AMIs, &lt;code&gt;i386&lt;/code&gt;. For instance store-backed AMIs, the architecture specified in the manifest file.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, assign) AWSEC2ArchitectureValues architecture</Declaration>
-			
-			
-			<Anchor>//api/name/architecture</Anchor>
-            <NodeRef refid="477"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2RegisterImageRequest/architecture</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The architecture of the AMI.&lt;/p&gt;&lt;p&gt;Default: For Amazon EBS-backed AMIs, &lt;code&gt;i386&lt;/code&gt;. For instance store-backed AMIs, the architecture specified in the manifest file.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, assign) AWSEC2ArchitectureValues architecture</Declaration>
-			
-			
-			<Anchor>//api/name/architecture</Anchor>
-            <NodeRef refid="477"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2RegisterImageRequest/architecture</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The architecture of the AMI.&lt;/p&gt;&lt;p&gt;Default: For Amazon EBS-backed AMIs, &lt;code&gt;i386&lt;/code&gt;. For instance store-backed AMIs, the architecture specified in the manifest file.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, assign) AWSEC2ArchitectureValues architecture</Declaration>
-			
-			
-			<Anchor>//api/name/architecture</Anchor>
-            <NodeRef refid="477"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2RegisterImageRequest/setBlockDeviceMappings:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;One or more block device mapping entries.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2InstanceAttribute/setBlockDeviceMappings:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The block device mapping of the instance.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
 			<Declaration>@property (nonatomic, strong) NSArray *blockDeviceMappings</Declaration>
@@ -61,8 +25,8 @@
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2RegisterImageRequest/blockDeviceMappings</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;One or more block device mapping entries.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2InstanceAttribute/blockDeviceMappings</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The block device mapping of the instance.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
 			<Declaration>@property (nonatomic, strong) NSArray *blockDeviceMappings</Declaration>
@@ -73,8 +37,8 @@
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2RegisterImageRequest/blockDeviceMappings</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;One or more block device mapping entries.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2InstanceAttribute/blockDeviceMappings</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The block device mapping of the instance.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
 			<Declaration>@property (nonatomic, strong) NSArray *blockDeviceMappings</Declaration>
@@ -85,47 +49,227 @@
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2RegisterImageRequest/setImageLocation:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The full path to your AMI manifest in Amazon S3 storage.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2InstanceAttribute/setDisableApiTermination:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;If the value is &lt;code&gt;true&lt;/code&gt;, you can&apos;t terminate the instance through the Amazon EC2 console, CLI, or API; otherwise, you can.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *imageLocation</Declaration>
+			<Declaration>@property (nonatomic, strong) AWSEC2AttributeBooleanValue *disableApiTermination</Declaration>
 			
 			
-			<Anchor>//api/name/imageLocation</Anchor>
+			<Anchor>//api/name/disableApiTermination</Anchor>
             <NodeRef refid="477"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2RegisterImageRequest/imageLocation</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The full path to your AMI manifest in Amazon S3 storage.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2InstanceAttribute/disableApiTermination</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;If the value is &lt;code&gt;true&lt;/code&gt;, you can&apos;t terminate the instance through the Amazon EC2 console, CLI, or API; otherwise, you can.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *imageLocation</Declaration>
+			<Declaration>@property (nonatomic, strong) AWSEC2AttributeBooleanValue *disableApiTermination</Declaration>
 			
 			
-			<Anchor>//api/name/imageLocation</Anchor>
+			<Anchor>//api/name/disableApiTermination</Anchor>
             <NodeRef refid="477"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2RegisterImageRequest/imageLocation</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The full path to your AMI manifest in Amazon S3 storage.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2InstanceAttribute/disableApiTermination</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;If the value is &lt;code&gt;true&lt;/code&gt;, you can&apos;t terminate the instance through the Amazon EC2 console, CLI, or API; otherwise, you can.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *imageLocation</Declaration>
+			<Declaration>@property (nonatomic, strong) AWSEC2AttributeBooleanValue *disableApiTermination</Declaration>
 			
 			
-			<Anchor>//api/name/imageLocation</Anchor>
+			<Anchor>//api/name/disableApiTermination</Anchor>
             <NodeRef refid="477"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2RegisterImageRequest/setKernelId:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The ID of the kernel.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2InstanceAttribute/setEbsOptimized:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Indicates whether the instance is optimized for EBS I/O.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *kernelId</Declaration>
+			<Declaration>@property (nonatomic, strong) AWSEC2AttributeBooleanValue *ebsOptimized</Declaration>
+			
+			
+			<Anchor>//api/name/ebsOptimized</Anchor>
+            <NodeRef refid="477"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2InstanceAttribute/ebsOptimized</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Indicates whether the instance is optimized for EBS I/O.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) AWSEC2AttributeBooleanValue *ebsOptimized</Declaration>
+			
+			
+			<Anchor>//api/name/ebsOptimized</Anchor>
+            <NodeRef refid="477"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2InstanceAttribute/ebsOptimized</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Indicates whether the instance is optimized for EBS I/O.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) AWSEC2AttributeBooleanValue *ebsOptimized</Declaration>
+			
+			
+			<Anchor>//api/name/ebsOptimized</Anchor>
+            <NodeRef refid="477"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2InstanceAttribute/setGroups:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The security groups associated with the instance.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray *groups</Declaration>
+			
+			
+			<Anchor>//api/name/groups</Anchor>
+            <NodeRef refid="477"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2InstanceAttribute/groups</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The security groups associated with the instance.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray *groups</Declaration>
+			
+			
+			<Anchor>//api/name/groups</Anchor>
+            <NodeRef refid="477"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2InstanceAttribute/groups</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The security groups associated with the instance.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray *groups</Declaration>
+			
+			
+			<Anchor>//api/name/groups</Anchor>
+            <NodeRef refid="477"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2InstanceAttribute/setInstanceId:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the instance.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *instanceId</Declaration>
+			
+			
+			<Anchor>//api/name/instanceId</Anchor>
+            <NodeRef refid="477"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2InstanceAttribute/instanceId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the instance.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *instanceId</Declaration>
+			
+			
+			<Anchor>//api/name/instanceId</Anchor>
+            <NodeRef refid="477"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2InstanceAttribute/instanceId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the instance.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *instanceId</Declaration>
+			
+			
+			<Anchor>//api/name/instanceId</Anchor>
+            <NodeRef refid="477"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2InstanceAttribute/setInstanceInitiatedShutdownBehavior:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Indicates whether an instance stops or terminates when you initiate shutdown from the instance (using the operating system command for system shutdown).&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) AWSEC2AttributeValue *instanceInitiatedShutdownBehavior</Declaration>
+			
+			
+			<Anchor>//api/name/instanceInitiatedShutdownBehavior</Anchor>
+            <NodeRef refid="477"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2InstanceAttribute/instanceInitiatedShutdownBehavior</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Indicates whether an instance stops or terminates when you initiate shutdown from the instance (using the operating system command for system shutdown).&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) AWSEC2AttributeValue *instanceInitiatedShutdownBehavior</Declaration>
+			
+			
+			<Anchor>//api/name/instanceInitiatedShutdownBehavior</Anchor>
+            <NodeRef refid="477"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2InstanceAttribute/instanceInitiatedShutdownBehavior</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Indicates whether an instance stops or terminates when you initiate shutdown from the instance (using the operating system command for system shutdown).&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) AWSEC2AttributeValue *instanceInitiatedShutdownBehavior</Declaration>
+			
+			
+			<Anchor>//api/name/instanceInitiatedShutdownBehavior</Anchor>
+            <NodeRef refid="477"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2InstanceAttribute/setInstanceType:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The instance type.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) AWSEC2AttributeValue *instanceType</Declaration>
+			
+			
+			<Anchor>//api/name/instanceType</Anchor>
+            <NodeRef refid="477"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2InstanceAttribute/instanceType</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The instance type.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) AWSEC2AttributeValue *instanceType</Declaration>
+			
+			
+			<Anchor>//api/name/instanceType</Anchor>
+            <NodeRef refid="477"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2InstanceAttribute/instanceType</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The instance type.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) AWSEC2AttributeValue *instanceType</Declaration>
+			
+			
+			<Anchor>//api/name/instanceType</Anchor>
+            <NodeRef refid="477"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2InstanceAttribute/setKernelId:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The kernel ID.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) AWSEC2AttributeValue *kernelId</Declaration>
 			
 			
 			<Anchor>//api/name/kernelId</Anchor>
@@ -133,11 +277,11 @@
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2RegisterImageRequest/kernelId</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The ID of the kernel.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2InstanceAttribute/kernelId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The kernel ID.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *kernelId</Declaration>
+			<Declaration>@property (nonatomic, strong) AWSEC2AttributeValue *kernelId</Declaration>
 			
 			
 			<Anchor>//api/name/kernelId</Anchor>
@@ -145,11 +289,11 @@
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2RegisterImageRequest/kernelId</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The ID of the kernel.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2InstanceAttribute/kernelId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The kernel ID.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *kernelId</Declaration>
+			<Declaration>@property (nonatomic, strong) AWSEC2AttributeValue *kernelId</Declaration>
 			
 			
 			<Anchor>//api/name/kernelId</Anchor>
@@ -157,47 +301,47 @@
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2RegisterImageRequest/setName:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;A name for your AMI.&lt;/p&gt;&lt;p&gt;Constraints: 3-128 alphanumeric characters, parenthesis (()), commas (,), slashes (/), dashes (-), or underscores (_)&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2InstanceAttribute/setProductCodes:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;A list of product codes.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *name</Declaration>
+			<Declaration>@property (nonatomic, strong) NSArray *productCodes</Declaration>
 			
 			
-			<Anchor>//api/name/name</Anchor>
+			<Anchor>//api/name/productCodes</Anchor>
             <NodeRef refid="477"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2RegisterImageRequest/name</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;A name for your AMI.&lt;/p&gt;&lt;p&gt;Constraints: 3-128 alphanumeric characters, parenthesis (()), commas (,), slashes (/), dashes (-), or underscores (_)&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2InstanceAttribute/productCodes</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;A list of product codes.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *name</Declaration>
+			<Declaration>@property (nonatomic, strong) NSArray *productCodes</Declaration>
 			
 			
-			<Anchor>//api/name/name</Anchor>
+			<Anchor>//api/name/productCodes</Anchor>
             <NodeRef refid="477"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2RegisterImageRequest/name</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;A name for your AMI.&lt;/p&gt;&lt;p&gt;Constraints: 3-128 alphanumeric characters, parenthesis (()), commas (,), slashes (/), dashes (-), or underscores (_)&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2InstanceAttribute/productCodes</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;A list of product codes.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *name</Declaration>
+			<Declaration>@property (nonatomic, strong) NSArray *productCodes</Declaration>
 			
 			
-			<Anchor>//api/name/name</Anchor>
+			<Anchor>//api/name/productCodes</Anchor>
             <NodeRef refid="477"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2RegisterImageRequest/setRamdiskId:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The ID of the RAM disk.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2InstanceAttribute/setRamdiskId:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The RAM disk ID.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *ramdiskId</Declaration>
+			<Declaration>@property (nonatomic, strong) AWSEC2AttributeValue *ramdiskId</Declaration>
 			
 			
 			<Anchor>//api/name/ramdiskId</Anchor>
@@ -205,11 +349,11 @@
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2RegisterImageRequest/ramdiskId</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The ID of the RAM disk.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2InstanceAttribute/ramdiskId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The RAM disk ID.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *ramdiskId</Declaration>
+			<Declaration>@property (nonatomic, strong) AWSEC2AttributeValue *ramdiskId</Declaration>
 			
 			
 			<Anchor>//api/name/ramdiskId</Anchor>
@@ -217,11 +361,11 @@
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2RegisterImageRequest/ramdiskId</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The ID of the RAM disk.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2InstanceAttribute/ramdiskId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The RAM disk ID.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *ramdiskId</Declaration>
+			<Declaration>@property (nonatomic, strong) AWSEC2AttributeValue *ramdiskId</Declaration>
 			
 			
 			<Anchor>//api/name/ramdiskId</Anchor>
@@ -229,11 +373,11 @@
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2RegisterImageRequest/setRootDeviceName:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The name of the root device (for example, &lt;code&gt;/dev/sda1&lt;/code&gt;, or &lt;code&gt;xvda&lt;/code&gt;).&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2InstanceAttribute/setRootDeviceName:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The name of the root device (for example, &lt;code&gt;/dev/sda1&lt;/code&gt;).&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *rootDeviceName</Declaration>
+			<Declaration>@property (nonatomic, strong) AWSEC2AttributeValue *rootDeviceName</Declaration>
 			
 			
 			<Anchor>//api/name/rootDeviceName</Anchor>
@@ -241,11 +385,11 @@
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2RegisterImageRequest/rootDeviceName</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The name of the root device (for example, &lt;code&gt;/dev/sda1&lt;/code&gt;, or &lt;code&gt;xvda&lt;/code&gt;).&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2InstanceAttribute/rootDeviceName</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The name of the root device (for example, &lt;code&gt;/dev/sda1&lt;/code&gt;).&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *rootDeviceName</Declaration>
+			<Declaration>@property (nonatomic, strong) AWSEC2AttributeValue *rootDeviceName</Declaration>
 			
 			
 			<Anchor>//api/name/rootDeviceName</Anchor>
@@ -253,11 +397,11 @@
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2RegisterImageRequest/rootDeviceName</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The name of the root device (for example, &lt;code&gt;/dev/sda1&lt;/code&gt;, or &lt;code&gt;xvda&lt;/code&gt;).&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2InstanceAttribute/rootDeviceName</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The name of the root device (for example, &lt;code&gt;/dev/sda1&lt;/code&gt;).&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *rootDeviceName</Declaration>
+			<Declaration>@property (nonatomic, strong) AWSEC2AttributeValue *rootDeviceName</Declaration>
 			
 			
 			<Anchor>//api/name/rootDeviceName</Anchor>
@@ -265,11 +409,47 @@
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2RegisterImageRequest/setSriovNetSupport:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Set to &lt;code&gt;simple&lt;/code&gt; to enable enhanced networking for the AMI and any instances that you launch from the AMI.&lt;/p&gt;&lt;p&gt;There is no way to disable enhanced networking at this time.&lt;/p&gt;&lt;p&gt;This option is supported only for HVM AMIs. Specifying this option with a PV AMI can make instances launched from the AMI unreachable.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2InstanceAttribute/setSourceDestCheck:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Indicates whether source/destination checking is enabled. A value of &lt;code&gt;true&lt;/code&gt; means checking is enabled, and &lt;code&gt;false&lt;/code&gt; means checking is disabled. This value must be &lt;code&gt;false&lt;/code&gt; for a NAT instance to perform NAT.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *sriovNetSupport</Declaration>
+			<Declaration>@property (nonatomic, strong) AWSEC2AttributeBooleanValue *sourceDestCheck</Declaration>
+			
+			
+			<Anchor>//api/name/sourceDestCheck</Anchor>
+            <NodeRef refid="477"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2InstanceAttribute/sourceDestCheck</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Indicates whether source/destination checking is enabled. A value of &lt;code&gt;true&lt;/code&gt; means checking is enabled, and &lt;code&gt;false&lt;/code&gt; means checking is disabled. This value must be &lt;code&gt;false&lt;/code&gt; for a NAT instance to perform NAT.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) AWSEC2AttributeBooleanValue *sourceDestCheck</Declaration>
+			
+			
+			<Anchor>//api/name/sourceDestCheck</Anchor>
+            <NodeRef refid="477"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2InstanceAttribute/sourceDestCheck</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Indicates whether source/destination checking is enabled. A value of &lt;code&gt;true&lt;/code&gt; means checking is enabled, and &lt;code&gt;false&lt;/code&gt; means checking is disabled. This value must be &lt;code&gt;false&lt;/code&gt; for a NAT instance to perform NAT.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) AWSEC2AttributeBooleanValue *sourceDestCheck</Declaration>
+			
+			
+			<Anchor>//api/name/sourceDestCheck</Anchor>
+            <NodeRef refid="477"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2InstanceAttribute/setSriovNetSupport:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The value to use for a resource attribute.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) AWSEC2AttributeValue *sriovNetSupport</Declaration>
 			
 			
 			<Anchor>//api/name/sriovNetSupport</Anchor>
@@ -277,11 +457,11 @@
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2RegisterImageRequest/sriovNetSupport</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Set to &lt;code&gt;simple&lt;/code&gt; to enable enhanced networking for the AMI and any instances that you launch from the AMI.&lt;/p&gt;&lt;p&gt;There is no way to disable enhanced networking at this time.&lt;/p&gt;&lt;p&gt;This option is supported only for HVM AMIs. Specifying this option with a PV AMI can make instances launched from the AMI unreachable.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2InstanceAttribute/sriovNetSupport</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The value to use for a resource attribute.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *sriovNetSupport</Declaration>
+			<Declaration>@property (nonatomic, strong) AWSEC2AttributeValue *sriovNetSupport</Declaration>
 			
 			
 			<Anchor>//api/name/sriovNetSupport</Anchor>
@@ -289,11 +469,11 @@
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2RegisterImageRequest/sriovNetSupport</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Set to &lt;code&gt;simple&lt;/code&gt; to enable enhanced networking for the AMI and any instances that you launch from the AMI.&lt;/p&gt;&lt;p&gt;There is no way to disable enhanced networking at this time.&lt;/p&gt;&lt;p&gt;This option is supported only for HVM AMIs. Specifying this option with a PV AMI can make instances launched from the AMI unreachable.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2InstanceAttribute/sriovNetSupport</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The value to use for a resource attribute.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *sriovNetSupport</Declaration>
+			<Declaration>@property (nonatomic, strong) AWSEC2AttributeValue *sriovNetSupport</Declaration>
 			
 			
 			<Anchor>//api/name/sriovNetSupport</Anchor>
@@ -301,41 +481,42 @@
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2RegisterImageRequest/setVirtualizationType:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The type of virtualization.&lt;/p&gt;&lt;p&gt;Default: &lt;code&gt;paravirtual&lt;/code&gt;&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2InstanceAttribute/setUserData:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The Base64-encoded MIME user data.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *virtualizationType</Declaration>
+			<Declaration>@property (nonatomic, strong) AWSEC2AttributeValue *userData</Declaration>
 			
 			
-			<Anchor>//api/name/virtualizationType</Anchor>
+			<Anchor>//api/name/userData</Anchor>
             <NodeRef refid="477"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2RegisterImageRequest/virtualizationType</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The type of virtualization.&lt;/p&gt;&lt;p&gt;Default: &lt;code&gt;paravirtual&lt;/code&gt;&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2InstanceAttribute/userData</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The Base64-encoded MIME user data.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *virtualizationType</Declaration>
+			<Declaration>@property (nonatomic, strong) AWSEC2AttributeValue *userData</Declaration>
 			
 			
-			<Anchor>//api/name/virtualizationType</Anchor>
+			<Anchor>//api/name/userData</Anchor>
             <NodeRef refid="477"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2RegisterImageRequest/virtualizationType</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The type of virtualization.&lt;/p&gt;&lt;p&gt;Default: &lt;code&gt;paravirtual&lt;/code&gt;&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2InstanceAttribute/userData</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The Base64-encoded MIME user data.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *virtualizationType</Declaration>
+			<Declaration>@property (nonatomic, strong) AWSEC2AttributeValue *userData</Declaration>
 			
 			
-			<Anchor>//api/name/virtualizationType</Anchor>
+			<Anchor>//api/name/userData</Anchor>
             <NodeRef refid="477"/>
 		</Token>
 		
+        
         
 	</File>
 </Tokens>

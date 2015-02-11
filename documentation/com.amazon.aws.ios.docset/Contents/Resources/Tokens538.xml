@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSEC2Volume.html">
+	<File path="Classes/AWSEC2RegisterImageRequest.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSEC2Volume</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Describes a volume.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSEC2RegisterImageRequest</TokenIdentifier>
+			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
             
 			
@@ -13,365 +13,402 @@
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2Volume/setAvailabilityZone:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The Availability Zone for the volume.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2RegisterImageRequest/setArchitecture:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The architecture of the AMI.&lt;/p&gt;&lt;p&gt;Default: For Amazon EBS-backed AMIs, &lt;code&gt;i386&lt;/code&gt;. For instance store-backed AMIs, the architecture specified in the manifest file.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *availabilityZone</Declaration>
+			<Declaration>@property (nonatomic, assign) AWSEC2ArchitectureValues architecture</Declaration>
 			
 			
-			<Anchor>//api/name/availabilityZone</Anchor>
+			<Anchor>//api/name/architecture</Anchor>
             <NodeRef refid="538"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2Volume/availabilityZone</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The Availability Zone for the volume.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2RegisterImageRequest/architecture</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The architecture of the AMI.&lt;/p&gt;&lt;p&gt;Default: For Amazon EBS-backed AMIs, &lt;code&gt;i386&lt;/code&gt;. For instance store-backed AMIs, the architecture specified in the manifest file.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *availabilityZone</Declaration>
+			<Declaration>@property (nonatomic, assign) AWSEC2ArchitectureValues architecture</Declaration>
 			
 			
-			<Anchor>//api/name/availabilityZone</Anchor>
+			<Anchor>//api/name/architecture</Anchor>
             <NodeRef refid="538"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2Volume/availabilityZone</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The Availability Zone for the volume.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2RegisterImageRequest/architecture</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The architecture of the AMI.&lt;/p&gt;&lt;p&gt;Default: For Amazon EBS-backed AMIs, &lt;code&gt;i386&lt;/code&gt;. For instance store-backed AMIs, the architecture specified in the manifest file.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *availabilityZone</Declaration>
+			<Declaration>@property (nonatomic, assign) AWSEC2ArchitectureValues architecture</Declaration>
 			
 			
-			<Anchor>//api/name/availabilityZone</Anchor>
+			<Anchor>//api/name/architecture</Anchor>
             <NodeRef refid="538"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2Volume/setCreateTime:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The time stamp when volume creation was initiated.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2RegisterImageRequest/setBlockDeviceMappings:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;One or more block device mapping entries.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSDate *createTime</Declaration>
+			<Declaration>@property (nonatomic, strong) NSArray *blockDeviceMappings</Declaration>
 			
 			
-			<Anchor>//api/name/createTime</Anchor>
+			<Anchor>//api/name/blockDeviceMappings</Anchor>
             <NodeRef refid="538"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2Volume/createTime</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The time stamp when volume creation was initiated.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2RegisterImageRequest/blockDeviceMappings</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;One or more block device mapping entries.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSDate *createTime</Declaration>
+			<Declaration>@property (nonatomic, strong) NSArray *blockDeviceMappings</Declaration>
 			
 			
-			<Anchor>//api/name/createTime</Anchor>
+			<Anchor>//api/name/blockDeviceMappings</Anchor>
             <NodeRef refid="538"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2Volume/createTime</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The time stamp when volume creation was initiated.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2RegisterImageRequest/blockDeviceMappings</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;One or more block device mapping entries.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSDate *createTime</Declaration>
+			<Declaration>@property (nonatomic, strong) NSArray *blockDeviceMappings</Declaration>
 			
 			
-			<Anchor>//api/name/createTime</Anchor>
+			<Anchor>//api/name/blockDeviceMappings</Anchor>
             <NodeRef refid="538"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2Volume/setEncrypted:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Indicates whether the volume is encrypted.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2RegisterImageRequest/setDetail:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;A description for your AMI.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSNumber *encrypted</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *detail</Declaration>
 			
 			
-			<Anchor>//api/name/encrypted</Anchor>
+			<Anchor>//api/name/detail</Anchor>
             <NodeRef refid="538"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2Volume/encrypted</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Indicates whether the volume is encrypted.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2RegisterImageRequest/detail</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;A description for your AMI.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSNumber *encrypted</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *detail</Declaration>
 			
 			
-			<Anchor>//api/name/encrypted</Anchor>
+			<Anchor>//api/name/detail</Anchor>
             <NodeRef refid="538"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2Volume/encrypted</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Indicates whether the volume is encrypted.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2RegisterImageRequest/detail</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;A description for your AMI.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSNumber *encrypted</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *detail</Declaration>
 			
 			
-			<Anchor>//api/name/encrypted</Anchor>
+			<Anchor>//api/name/detail</Anchor>
             <NodeRef refid="538"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2Volume/setIops:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The number of I/O operations per second (IOPS) that the volume supports.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2RegisterImageRequest/setDryRun:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSNumber *iops</Declaration>
+			<Declaration>@property (nonatomic, strong) NSNumber *dryRun</Declaration>
 			
 			
-			<Anchor>//api/name/iops</Anchor>
+			<Anchor>//api/name/dryRun</Anchor>
             <NodeRef refid="538"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2Volume/iops</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The number of I/O operations per second (IOPS) that the volume supports.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2RegisterImageRequest/dryRun</TokenIdentifier>
+			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSNumber *iops</Declaration>
+			<Declaration>@property (nonatomic, strong) NSNumber *dryRun</Declaration>
 			
 			
-			<Anchor>//api/name/iops</Anchor>
+			<Anchor>//api/name/dryRun</Anchor>
             <NodeRef refid="538"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2Volume/iops</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The number of I/O operations per second (IOPS) that the volume supports.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2RegisterImageRequest/dryRun</TokenIdentifier>
+			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSNumber *iops</Declaration>
+			<Declaration>@property (nonatomic, strong) NSNumber *dryRun</Declaration>
 			
 			
-			<Anchor>//api/name/iops</Anchor>
+			<Anchor>//api/name/dryRun</Anchor>
             <NodeRef refid="538"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2Volume/setSize:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The size of the volume, in GiBs.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2RegisterImageRequest/setImageLocation:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The full path to your AMI manifest in Amazon S3 storage.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSNumber *size</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *imageLocation</Declaration>
 			
 			
-			<Anchor>//api/name/size</Anchor>
+			<Anchor>//api/name/imageLocation</Anchor>
             <NodeRef refid="538"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2Volume/size</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The size of the volume, in GiBs.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2RegisterImageRequest/imageLocation</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The full path to your AMI manifest in Amazon S3 storage.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSNumber *size</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *imageLocation</Declaration>
 			
 			
-			<Anchor>//api/name/size</Anchor>
+			<Anchor>//api/name/imageLocation</Anchor>
             <NodeRef refid="538"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2Volume/size</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The size of the volume, in GiBs.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2RegisterImageRequest/imageLocation</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The full path to your AMI manifest in Amazon S3 storage.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSNumber *size</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *imageLocation</Declaration>
 			
 			
-			<Anchor>//api/name/size</Anchor>
+			<Anchor>//api/name/imageLocation</Anchor>
             <NodeRef refid="538"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2Volume/setSnapshotId:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The snapshot from which the volume was created, if applicable.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2RegisterImageRequest/setKernelId:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the kernel.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *snapshotId</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *kernelId</Declaration>
 			
 			
-			<Anchor>//api/name/snapshotId</Anchor>
+			<Anchor>//api/name/kernelId</Anchor>
             <NodeRef refid="538"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2Volume/snapshotId</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The snapshot from which the volume was created, if applicable.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2RegisterImageRequest/kernelId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the kernel.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *snapshotId</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *kernelId</Declaration>
 			
 			
-			<Anchor>//api/name/snapshotId</Anchor>
+			<Anchor>//api/name/kernelId</Anchor>
             <NodeRef refid="538"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2Volume/snapshotId</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The snapshot from which the volume was created, if applicable.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2RegisterImageRequest/kernelId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the kernel.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *snapshotId</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *kernelId</Declaration>
 			
 			
-			<Anchor>//api/name/snapshotId</Anchor>
+			<Anchor>//api/name/kernelId</Anchor>
             <NodeRef refid="538"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2Volume/setState:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The volume state.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2RegisterImageRequest/setName:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;A name for your AMI.&lt;/p&gt;&lt;p&gt;Constraints: 3-128 alphanumeric characters, parentheses (()), square brackets ([]), spaces ( ), periods (.), slashes (/), dashes (-), single quotes (&apos;), at-signs (@), or underscores(_)&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, assign) AWSEC2VolumeState state</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *name</Declaration>
 			
 			
-			<Anchor>//api/name/state</Anchor>
+			<Anchor>//api/name/name</Anchor>
             <NodeRef refid="538"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2Volume/state</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The volume state.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2RegisterImageRequest/name</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;A name for your AMI.&lt;/p&gt;&lt;p&gt;Constraints: 3-128 alphanumeric characters, parentheses (()), square brackets ([]), spaces ( ), periods (.), slashes (/), dashes (-), single quotes (&apos;), at-signs (@), or underscores(_)&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, assign) AWSEC2VolumeState state</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *name</Declaration>
 			
 			
-			<Anchor>//api/name/state</Anchor>
+			<Anchor>//api/name/name</Anchor>
             <NodeRef refid="538"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2Volume/state</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The volume state.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2RegisterImageRequest/name</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;A name for your AMI.&lt;/p&gt;&lt;p&gt;Constraints: 3-128 alphanumeric characters, parentheses (()), square brackets ([]), spaces ( ), periods (.), slashes (/), dashes (-), single quotes (&apos;), at-signs (@), or underscores(_)&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, assign) AWSEC2VolumeState state</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *name</Declaration>
 			
 			
-			<Anchor>//api/name/state</Anchor>
+			<Anchor>//api/name/name</Anchor>
             <NodeRef refid="538"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2Volume/setTags:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Any tags assigned to the volume.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2RegisterImageRequest/setRamdiskId:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the RAM disk.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSArray *tags</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *ramdiskId</Declaration>
 			
 			
-			<Anchor>//api/name/tags</Anchor>
+			<Anchor>//api/name/ramdiskId</Anchor>
             <NodeRef refid="538"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2Volume/tags</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Any tags assigned to the volume.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2RegisterImageRequest/ramdiskId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the RAM disk.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSArray *tags</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *ramdiskId</Declaration>
 			
 			
-			<Anchor>//api/name/tags</Anchor>
+			<Anchor>//api/name/ramdiskId</Anchor>
             <NodeRef refid="538"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2Volume/tags</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Any tags assigned to the volume.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2RegisterImageRequest/ramdiskId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the RAM disk.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSArray *tags</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *ramdiskId</Declaration>
 			
 			
-			<Anchor>//api/name/tags</Anchor>
+			<Anchor>//api/name/ramdiskId</Anchor>
             <NodeRef refid="538"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2Volume/setVolumeId:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The ID of the volume.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2RegisterImageRequest/setRootDeviceName:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The name of the root device (for example, &lt;code&gt;/dev/sda1&lt;/code&gt;, or &lt;code&gt;xvda&lt;/code&gt;).&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *volumeId</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *rootDeviceName</Declaration>
 			
 			
-			<Anchor>//api/name/volumeId</Anchor>
+			<Anchor>//api/name/rootDeviceName</Anchor>
             <NodeRef refid="538"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2Volume/volumeId</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The ID of the volume.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2RegisterImageRequest/rootDeviceName</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The name of the root device (for example, &lt;code&gt;/dev/sda1&lt;/code&gt;, or &lt;code&gt;xvda&lt;/code&gt;).&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *volumeId</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *rootDeviceName</Declaration>
 			
 			
-			<Anchor>//api/name/volumeId</Anchor>
+			<Anchor>//api/name/rootDeviceName</Anchor>
             <NodeRef refid="538"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2Volume/volumeId</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The ID of the volume.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2RegisterImageRequest/rootDeviceName</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The name of the root device (for example, &lt;code&gt;/dev/sda1&lt;/code&gt;, or &lt;code&gt;xvda&lt;/code&gt;).&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *volumeId</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *rootDeviceName</Declaration>
 			
 			
-			<Anchor>//api/name/volumeId</Anchor>
+			<Anchor>//api/name/rootDeviceName</Anchor>
             <NodeRef refid="538"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2Volume/setVolumeType:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The volume type. This can be &lt;code&gt;gp2&lt;/code&gt; for General Purpose (SSD) volumes, &lt;code&gt;io1&lt;/code&gt; for Provisioned IOPS (SSD) volumes, or &lt;code&gt;standard&lt;/code&gt; for Magnetic volumes.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2RegisterImageRequest/setSriovNetSupport:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Set to &lt;code&gt;simple&lt;/code&gt; to enable enhanced networking for the AMI and any instances that you launch from the AMI.&lt;/p&gt;&lt;p&gt;There is no way to disable enhanced networking at this time.&lt;/p&gt;&lt;p&gt;This option is supported only for HVM AMIs. Specifying this option with a PV AMI can make instances launched from the AMI unreachable.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, assign) AWSEC2VolumeType volumeType</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *sriovNetSupport</Declaration>
 			
 			
-			<Anchor>//api/name/volumeType</Anchor>
+			<Anchor>//api/name/sriovNetSupport</Anchor>
             <NodeRef refid="538"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2Volume/volumeType</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The volume type. This can be &lt;code&gt;gp2&lt;/code&gt; for General Purpose (SSD) volumes, &lt;code&gt;io1&lt;/code&gt; for Provisioned IOPS (SSD) volumes, or &lt;code&gt;standard&lt;/code&gt; for Magnetic volumes.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2RegisterImageRequest/sriovNetSupport</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Set to &lt;code&gt;simple&lt;/code&gt; to enable enhanced networking for the AMI and any instances that you launch from the AMI.&lt;/p&gt;&lt;p&gt;There is no way to disable enhanced networking at this time.&lt;/p&gt;&lt;p&gt;This option is supported only for HVM AMIs. Specifying this option with a PV AMI can make instances launched from the AMI unreachable.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, assign) AWSEC2VolumeType volumeType</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *sriovNetSupport</Declaration>
 			
 			
-			<Anchor>//api/name/volumeType</Anchor>
+			<Anchor>//api/name/sriovNetSupport</Anchor>
             <NodeRef refid="538"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2Volume/volumeType</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The volume type. This can be &lt;code&gt;gp2&lt;/code&gt; for General Purpose (SSD) volumes, &lt;code&gt;io1&lt;/code&gt; for Provisioned IOPS (SSD) volumes, or &lt;code&gt;standard&lt;/code&gt; for Magnetic volumes.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2RegisterImageRequest/sriovNetSupport</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Set to &lt;code&gt;simple&lt;/code&gt; to enable enhanced networking for the AMI and any instances that you launch from the AMI.&lt;/p&gt;&lt;p&gt;There is no way to disable enhanced networking at this time.&lt;/p&gt;&lt;p&gt;This option is supported only for HVM AMIs. Specifying this option with a PV AMI can make instances launched from the AMI unreachable.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, assign) AWSEC2VolumeType volumeType</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *sriovNetSupport</Declaration>
 			
 			
-			<Anchor>//api/name/volumeType</Anchor>
+			<Anchor>//api/name/sriovNetSupport</Anchor>
             <NodeRef refid="538"/>
 		</Token>
 		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2RegisterImageRequest/setVirtualizationType:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The type of virtualization.&lt;/p&gt;&lt;p&gt;Default: &lt;code&gt;paravirtual&lt;/code&gt;&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *virtualizationType</Declaration>
+			
+			
+			<Anchor>//api/name/virtualizationType</Anchor>
+            <NodeRef refid="538"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2RegisterImageRequest/virtualizationType</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The type of virtualization.&lt;/p&gt;&lt;p&gt;Default: &lt;code&gt;paravirtual&lt;/code&gt;&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *virtualizationType</Declaration>
+			
+			
+			<Anchor>//api/name/virtualizationType</Anchor>
+            <NodeRef refid="538"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2RegisterImageRequest/virtualizationType</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The type of virtualization.&lt;/p&gt;&lt;p&gt;Default: &lt;code&gt;paravirtual&lt;/code&gt;&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *virtualizationType</Declaration>
+			
+			
+			<Anchor>//api/name/virtualizationType</Anchor>
+            <NodeRef refid="538"/>
+		</Token>
+		
+        
         
 	</File>
 </Tokens>

@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSEC2VolumeDetail.html">
+	<File path="Classes/AWSEC2RejectVpcPeeringConnectionRequest.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSEC2VolumeDetail</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Describes an Amazon EBS volume.&lt;/p&gt;
-Required parameters: [Size]</Abstract>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSEC2RejectVpcPeeringConnectionRequest</TokenIdentifier>
+			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
             
 			
@@ -14,41 +13,78 @@ Required parameters: [Size]</Abstract>
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2VolumeDetail/setSize:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The size of the volume, in GiB.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2RejectVpcPeeringConnectionRequest/setDryRun:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSNumber *size</Declaration>
+			<Declaration>@property (nonatomic, strong) NSNumber *dryRun</Declaration>
 			
 			
-			<Anchor>//api/name/size</Anchor>
+			<Anchor>//api/name/dryRun</Anchor>
             <NodeRef refid="540"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2VolumeDetail/size</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The size of the volume, in GiB.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2RejectVpcPeeringConnectionRequest/dryRun</TokenIdentifier>
+			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSNumber *size</Declaration>
+			<Declaration>@property (nonatomic, strong) NSNumber *dryRun</Declaration>
 			
 			
-			<Anchor>//api/name/size</Anchor>
+			<Anchor>//api/name/dryRun</Anchor>
             <NodeRef refid="540"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2VolumeDetail/size</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The size of the volume, in GiB.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2RejectVpcPeeringConnectionRequest/dryRun</TokenIdentifier>
+			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSNumber *size</Declaration>
+			<Declaration>@property (nonatomic, strong) NSNumber *dryRun</Declaration>
 			
 			
-			<Anchor>//api/name/size</Anchor>
+			<Anchor>//api/name/dryRun</Anchor>
             <NodeRef refid="540"/>
 		</Token>
 		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2RejectVpcPeeringConnectionRequest/setVpcPeeringConnectionId:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the VPC peering connection.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *vpcPeeringConnectionId</Declaration>
+			
+			
+			<Anchor>//api/name/vpcPeeringConnectionId</Anchor>
+            <NodeRef refid="540"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2RejectVpcPeeringConnectionRequest/vpcPeeringConnectionId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the VPC peering connection.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *vpcPeeringConnectionId</Declaration>
+			
+			
+			<Anchor>//api/name/vpcPeeringConnectionId</Anchor>
+            <NodeRef refid="540"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2RejectVpcPeeringConnectionRequest/vpcPeeringConnectionId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the VPC peering connection.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *vpcPeeringConnectionId</Declaration>
+			
+			
+			<Anchor>//api/name/vpcPeeringConnectionId</Anchor>
+            <NodeRef refid="540"/>
+		</Token>
+		
+        
         
 	</File>
 </Tokens>

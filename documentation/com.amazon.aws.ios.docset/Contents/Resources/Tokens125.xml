@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSCognitoIdentityIdentityPoolShortDescription.html">
+	<File path="Classes/AWSCognitoIdentityGetCredentialsForIdentityResponse.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSCognitoIdentityIdentityPoolShortDescription</TokenIdentifier>
-			<Abstract type="html">A description of the identity pool.</Abstract>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSCognitoIdentityGetCredentialsForIdentityResponse</TokenIdentifier>
+			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSCognitoIdentityModel.h</DeclaredIn>
             
 			
@@ -13,77 +13,78 @@
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoIdentityIdentityPoolShortDescription/setIdentityPoolId:</TokenIdentifier>
-			<Abstract type="html">An identity pool ID in the format REGION:GUID.</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoIdentityGetCredentialsForIdentityResponse/setCredentials:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSCognitoIdentityModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *identityPoolId</Declaration>
+			<Declaration>@property (nonatomic, strong) AWSCognitoIdentityCredentials *credentials</Declaration>
 			
 			
-			<Anchor>//api/name/identityPoolId</Anchor>
+			<Anchor>//api/name/credentials</Anchor>
             <NodeRef refid="125"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoIdentityIdentityPoolShortDescription/identityPoolId</TokenIdentifier>
-			<Abstract type="html">An identity pool ID in the format REGION:GUID.</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoIdentityGetCredentialsForIdentityResponse/credentials</TokenIdentifier>
+			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSCognitoIdentityModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *identityPoolId</Declaration>
+			<Declaration>@property (nonatomic, strong) AWSCognitoIdentityCredentials *credentials</Declaration>
 			
 			
-			<Anchor>//api/name/identityPoolId</Anchor>
+			<Anchor>//api/name/credentials</Anchor>
             <NodeRef refid="125"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSCognitoIdentityIdentityPoolShortDescription/identityPoolId</TokenIdentifier>
-			<Abstract type="html">An identity pool ID in the format REGION:GUID.</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSCognitoIdentityGetCredentialsForIdentityResponse/credentials</TokenIdentifier>
+			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSCognitoIdentityModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *identityPoolId</Declaration>
+			<Declaration>@property (nonatomic, strong) AWSCognitoIdentityCredentials *credentials</Declaration>
 			
 			
-			<Anchor>//api/name/identityPoolId</Anchor>
+			<Anchor>//api/name/credentials</Anchor>
             <NodeRef refid="125"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoIdentityIdentityPoolShortDescription/setIdentityPoolName:</TokenIdentifier>
-			<Abstract type="html">A string that you provide.</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoIdentityGetCredentialsForIdentityResponse/setIdentityId:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSCognitoIdentityModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *identityPoolName</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *identityId</Declaration>
 			
 			
-			<Anchor>//api/name/identityPoolName</Anchor>
+			<Anchor>//api/name/identityId</Anchor>
             <NodeRef refid="125"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoIdentityIdentityPoolShortDescription/identityPoolName</TokenIdentifier>
-			<Abstract type="html">A string that you provide.</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoIdentityGetCredentialsForIdentityResponse/identityId</TokenIdentifier>
+			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSCognitoIdentityModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *identityPoolName</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *identityId</Declaration>
 			
 			
-			<Anchor>//api/name/identityPoolName</Anchor>
+			<Anchor>//api/name/identityId</Anchor>
             <NodeRef refid="125"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSCognitoIdentityIdentityPoolShortDescription/identityPoolName</TokenIdentifier>
-			<Abstract type="html">A string that you provide.</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSCognitoIdentityGetCredentialsForIdentityResponse/identityId</TokenIdentifier>
+			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSCognitoIdentityModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *identityPoolName</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *identityId</Declaration>
 			
 			
-			<Anchor>//api/name/identityPoolName</Anchor>
+			<Anchor>//api/name/identityId</Anchor>
             <NodeRef refid="125"/>
 		</Token>
 		
+        
         
 	</File>
 </Tokens>

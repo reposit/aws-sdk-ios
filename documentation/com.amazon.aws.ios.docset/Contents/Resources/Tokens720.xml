@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSSNSGetPlatformApplicationAttributesResponse.html">
+	<File path="Classes/AWSKinesisPutRecordsInput.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSSNSGetPlatformApplicationAttributesResponse</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Response for GetPlatformApplicationAttributes action.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSNSModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSKinesisPutRecordsInput</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;A &lt;code&gt;PutRecords&lt;/code&gt; request.&lt;/p&gt;
+Required parameters: [Records, StreamName]</Abstract>
+			<DeclaredIn>AWSKinesisModel.h</DeclaredIn>
             
 			
 			<NodeRef refid="720"/>
@@ -13,41 +14,78 @@
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSSNSGetPlatformApplicationAttributesResponse/setAttributes:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Attributes include the following:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;code&gt;EventEndpointCreated&lt;/code&gt; -- Topic ARN to which EndpointCreated event notifications should be sent.&lt;/li&gt;&lt;li&gt;&lt;code&gt;EventEndpointDeleted&lt;/code&gt; -- Topic ARN to which EndpointDeleted event notifications should be sent.&lt;/li&gt;&lt;li&gt;&lt;code&gt;EventEndpointUpdated&lt;/code&gt; -- Topic ARN to which EndpointUpdate event notifications should be sent.&lt;/li&gt;&lt;li&gt;&lt;code&gt;EventDeliveryFailure&lt;/code&gt; -- Topic ARN to which DeliveryFailure event notifications should be sent upon Direct Publish delivery failure (permanent) to one of the application&apos;s endpoints.&lt;/li&gt;&lt;/ul&gt;</Abstract>
-			<DeclaredIn>AWSSNSModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSKinesisPutRecordsInput/setRecords:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The records associated with the request.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSKinesisModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSDictionary *attributes</Declaration>
+			<Declaration>@property (nonatomic, strong) NSArray *records</Declaration>
 			
 			
-			<Anchor>//api/name/attributes</Anchor>
+			<Anchor>//api/name/records</Anchor>
             <NodeRef refid="720"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSSNSGetPlatformApplicationAttributesResponse/attributes</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Attributes include the following:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;code&gt;EventEndpointCreated&lt;/code&gt; -- Topic ARN to which EndpointCreated event notifications should be sent.&lt;/li&gt;&lt;li&gt;&lt;code&gt;EventEndpointDeleted&lt;/code&gt; -- Topic ARN to which EndpointDeleted event notifications should be sent.&lt;/li&gt;&lt;li&gt;&lt;code&gt;EventEndpointUpdated&lt;/code&gt; -- Topic ARN to which EndpointUpdate event notifications should be sent.&lt;/li&gt;&lt;li&gt;&lt;code&gt;EventDeliveryFailure&lt;/code&gt; -- Topic ARN to which DeliveryFailure event notifications should be sent upon Direct Publish delivery failure (permanent) to one of the application&apos;s endpoints.&lt;/li&gt;&lt;/ul&gt;</Abstract>
-			<DeclaredIn>AWSSNSModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSKinesisPutRecordsInput/records</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The records associated with the request.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSKinesisModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSDictionary *attributes</Declaration>
+			<Declaration>@property (nonatomic, strong) NSArray *records</Declaration>
 			
 			
-			<Anchor>//api/name/attributes</Anchor>
+			<Anchor>//api/name/records</Anchor>
             <NodeRef refid="720"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSSNSGetPlatformApplicationAttributesResponse/attributes</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Attributes include the following:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;code&gt;EventEndpointCreated&lt;/code&gt; -- Topic ARN to which EndpointCreated event notifications should be sent.&lt;/li&gt;&lt;li&gt;&lt;code&gt;EventEndpointDeleted&lt;/code&gt; -- Topic ARN to which EndpointDeleted event notifications should be sent.&lt;/li&gt;&lt;li&gt;&lt;code&gt;EventEndpointUpdated&lt;/code&gt; -- Topic ARN to which EndpointUpdate event notifications should be sent.&lt;/li&gt;&lt;li&gt;&lt;code&gt;EventDeliveryFailure&lt;/code&gt; -- Topic ARN to which DeliveryFailure event notifications should be sent upon Direct Publish delivery failure (permanent) to one of the application&apos;s endpoints.&lt;/li&gt;&lt;/ul&gt;</Abstract>
-			<DeclaredIn>AWSSNSModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSKinesisPutRecordsInput/records</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The records associated with the request.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSKinesisModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSDictionary *attributes</Declaration>
+			<Declaration>@property (nonatomic, strong) NSArray *records</Declaration>
 			
 			
-			<Anchor>//api/name/attributes</Anchor>
+			<Anchor>//api/name/records</Anchor>
             <NodeRef refid="720"/>
 		</Token>
 		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSKinesisPutRecordsInput/setStreamName:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The stream name associated with the request.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSKinesisModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *streamName</Declaration>
+			
+			
+			<Anchor>//api/name/streamName</Anchor>
+            <NodeRef refid="720"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSKinesisPutRecordsInput/streamName</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The stream name associated with the request.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSKinesisModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *streamName</Declaration>
+			
+			
+			<Anchor>//api/name/streamName</Anchor>
+            <NodeRef refid="720"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSKinesisPutRecordsInput/streamName</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The stream name associated with the request.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSKinesisModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *streamName</Declaration>
+			
+			
+			<Anchor>//api/name/streamName</Anchor>
+            <NodeRef refid="720"/>
+		</Token>
+		
+        
         
 	</File>
 </Tokens>

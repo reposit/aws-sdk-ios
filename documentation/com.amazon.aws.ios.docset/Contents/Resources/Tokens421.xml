@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSEC2InstanceExportDetails.html">
+	<File path="Classes/AWSEC2DescribeVolumeStatusResult.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSEC2InstanceExportDetails</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Describes an instance export task.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSEC2DescribeVolumeStatusResult</TokenIdentifier>
+			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
             
 			
@@ -13,77 +13,78 @@
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2InstanceExportDetails/setInstanceId:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The ID of the resource being exported.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DescribeVolumeStatusResult/setNextToken:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The next paginated set of results to return.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *instanceId</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *nextToken</Declaration>
 			
 			
-			<Anchor>//api/name/instanceId</Anchor>
+			<Anchor>//api/name/nextToken</Anchor>
             <NodeRef refid="421"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2InstanceExportDetails/instanceId</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The ID of the resource being exported.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DescribeVolumeStatusResult/nextToken</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The next paginated set of results to return.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *instanceId</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *nextToken</Declaration>
 			
 			
-			<Anchor>//api/name/instanceId</Anchor>
+			<Anchor>//api/name/nextToken</Anchor>
             <NodeRef refid="421"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2InstanceExportDetails/instanceId</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The ID of the resource being exported.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2DescribeVolumeStatusResult/nextToken</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The next paginated set of results to return.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *instanceId</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *nextToken</Declaration>
 			
 			
-			<Anchor>//api/name/instanceId</Anchor>
+			<Anchor>//api/name/nextToken</Anchor>
             <NodeRef refid="421"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2InstanceExportDetails/setTargetEnvironment:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The target virtualization environment.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DescribeVolumeStatusResult/setVolumeStatuses:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;A list of volumes.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, assign) AWSEC2ExportEnvironment targetEnvironment</Declaration>
+			<Declaration>@property (nonatomic, strong) NSArray *volumeStatuses</Declaration>
 			
 			
-			<Anchor>//api/name/targetEnvironment</Anchor>
+			<Anchor>//api/name/volumeStatuses</Anchor>
             <NodeRef refid="421"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2InstanceExportDetails/targetEnvironment</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The target virtualization environment.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DescribeVolumeStatusResult/volumeStatuses</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;A list of volumes.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, assign) AWSEC2ExportEnvironment targetEnvironment</Declaration>
+			<Declaration>@property (nonatomic, strong) NSArray *volumeStatuses</Declaration>
 			
 			
-			<Anchor>//api/name/targetEnvironment</Anchor>
+			<Anchor>//api/name/volumeStatuses</Anchor>
             <NodeRef refid="421"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2InstanceExportDetails/targetEnvironment</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The target virtualization environment.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2DescribeVolumeStatusResult/volumeStatuses</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;A list of volumes.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, assign) AWSEC2ExportEnvironment targetEnvironment</Declaration>
+			<Declaration>@property (nonatomic, strong) NSArray *volumeStatuses</Declaration>
 			
 			
-			<Anchor>//api/name/targetEnvironment</Anchor>
+			<Anchor>//api/name/volumeStatuses</Anchor>
             <NodeRef refid="421"/>
 		</Token>
 		
+        
         
 	</File>
 </Tokens>

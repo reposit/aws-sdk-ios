@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSCognitoIdentity.html">
+	<File path="Classes/AWSCognitoCredentialsProvider.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSCognitoIdentity</TokenIdentifier>
-			<Abstract type="html">&lt;fullname&gt;Amazon Cognito&lt;/fullname&gt;&lt;p&gt;Amazon Cognito is a web service that delivers scoped temporary credentials to mobile devices andother untrusted environments. Amazon Cognito uniquely identifies a device and supplies the userwith a consistent identity over the lifetime of an application.&lt;/p&gt;&lt;p&gt;Using Amazon Cognito, you can enable authentication with one or more third-party identityproviders (Facebook, Google, or Login with Amazon), and you can also choose to supportunauthenticated access from your app. Cognito delivers a unique identifier for each userand acts as an OpenID token provider trusted by AWS Security Token Service (STS) to accesstemporary, limited-privilege AWS credentials.&lt;/p&gt;&lt;p&gt;To provide end-user credentials, first make an unsigned call to &lt;a&gt;GetId&lt;/a&gt;. If the enduser is authenticated with one of the supported identity providers, set the &lt;code&gt;Logins&lt;/code&gt; map with the identity provider token. &lt;code&gt;GetId&lt;/code&gt; returns aunique identifier for the user.&lt;/p&gt;&lt;p&gt;Next, make an unsigned call to &lt;a&gt;GetOpenIdToken&lt;/a&gt;, which returns the OpenID tokennecessary to call STS and retrieve AWS credentials. This call expects the same &lt;code&gt;Logins&lt;/code&gt; map as the &lt;code&gt;GetId&lt;/code&gt; call, as well as the &lt;code&gt;IdentityID&lt;/code&gt; originally returned by &lt;code&gt;GetId&lt;/code&gt;. The token returned by &lt;code&gt;GetOpenIdToken&lt;/code&gt; can be passed to the STS operation AssumeRoleWithWebIdentity to retrieve AWS credentials.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSCognitoIdentity.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSCognitoCredentialsProvider</TokenIdentifier>
+			<Abstract type="html">An AWSCredentialsProvider that uses Amazon Cognito to fetch temporary credentials tied to an identity.</Abstract>
+			<DeclaredIn>AWSCredentialsProvider.h</DeclaredIn>
             
 			
 			<NodeRef refid="115"/>
@@ -13,210 +13,564 @@
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoIdentity/createIdentityPool:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Creates a new identity pool. The identity pool is a store of user identity information thatis specific to your AWS account. The limit on identity pools is 60 per account.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSCognitoIdentity.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoCredentialsProvider/setAccessKey:</TokenIdentifier>
+			<Abstract type="html">Access Key component of credentials</Abstract>
+			<DeclaredIn>AWSCredentialsProvider.h</DeclaredIn>
 			
-	<RelatedTokens>
-		<TokenIdentifier>//apple_ref/occ/cl/AWSCognitoIdentityCreateIdentityPoolInput</TokenIdentifier>
-		<TokenIdentifier>//apple_ref/occ/cl/AWSCognitoIdentityIdentityPool</TokenIdentifier>
-		
-	</RelatedTokens>
-	
-			<Declaration>- (BFTask *)createIdentityPool:(AWSCognitoIdentityCreateIdentityPoolInput *)request</Declaration>
-			<Parameters>
-				<Parameter>
-					<Name>request</Name>
-					<Abstract type="html">A container for the necessary parameters to execute the CreateIdentityPool service method.</Abstract>
-				</Parameter>
-			</Parameters>
-			<ReturnValue><Abstract type="html">An instance of BFTask. On successful execution, task.result will contain an instance of AWSCognitoIdentityIdentityPool. On failed execution, task.error may contain an NSError with AWSCognitoIdentityErrorDomain domian and the following error code: AWSCognitoIdentityErrorInvalidParameter, AWSCognitoIdentityErrorNotAuthorized, AWSCognitoIdentityErrorResourceConflict, AWSCognitoIdentityErrorTooManyRequests, AWSCognitoIdentityErrorInternalError, AWSCognitoIdentityErrorLimitExceeded.</Abstract></ReturnValue>
-			<Anchor>//api/name/createIdentityPool:</Anchor>
+			<Declaration>@property (nonatomic, strong, readonly) NSString *accessKey</Declaration>
+			
+			
+			<Anchor>//api/name/accessKey</Anchor>
             <NodeRef refid="115"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoIdentity/deleteIdentityPool:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Deletes a user pool. Once a pool is deleted, users will not be able to authenticate withthe pool.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSCognitoIdentity.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoCredentialsProvider/accessKey</TokenIdentifier>
+			<Abstract type="html">Access Key component of credentials</Abstract>
+			<DeclaredIn>AWSCredentialsProvider.h</DeclaredIn>
 			
-	<RelatedTokens>
-		<TokenIdentifier>//apple_ref/occ/cl/AWSCognitoIdentityDeleteIdentityPoolInput</TokenIdentifier>
-		
-	</RelatedTokens>
-	
-			<Declaration>- (BFTask *)deleteIdentityPool:(AWSCognitoIdentityDeleteIdentityPoolInput *)request</Declaration>
-			<Parameters>
-				<Parameter>
-					<Name>request</Name>
-					<Abstract type="html">A container for the necessary parameters to execute the DeleteIdentityPool service method.</Abstract>
-				</Parameter>
-			</Parameters>
-			<ReturnValue><Abstract type="html">An instance of BFTask. On successful execution, task.result will be nil. On failed execution, task.error may contain an NSError with AWSCognitoIdentityErrorDomain domian and the following error code: AWSCognitoIdentityErrorInvalidParameter, AWSCognitoIdentityErrorResourceNotFound, AWSCognitoIdentityErrorNotAuthorized, AWSCognitoIdentityErrorTooManyRequests, AWSCognitoIdentityErrorInternalError.</Abstract></ReturnValue>
-			<Anchor>//api/name/deleteIdentityPool:</Anchor>
+			<Declaration>@property (nonatomic, strong, readonly) NSString *accessKey</Declaration>
+			
+			
+			<Anchor>//api/name/accessKey</Anchor>
             <NodeRef refid="115"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoIdentity/describeIdentityPool:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Gets details about a particular identity pool, including the pool name, ID description,creation date, and current number of users.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSCognitoIdentity.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSCognitoCredentialsProvider/accessKey</TokenIdentifier>
+			<Abstract type="html">Access Key component of credentials</Abstract>
+			<DeclaredIn>AWSCredentialsProvider.h</DeclaredIn>
 			
-	<RelatedTokens>
-		<TokenIdentifier>//apple_ref/occ/cl/AWSCognitoIdentityDescribeIdentityPoolInput</TokenIdentifier>
-		<TokenIdentifier>//apple_ref/occ/cl/AWSCognitoIdentityIdentityPool</TokenIdentifier>
-		
-	</RelatedTokens>
-	
-			<Declaration>- (BFTask *)describeIdentityPool:(AWSCognitoIdentityDescribeIdentityPoolInput *)request</Declaration>
-			<Parameters>
-				<Parameter>
-					<Name>request</Name>
-					<Abstract type="html">A container for the necessary parameters to execute the DescribeIdentityPool service method.</Abstract>
-				</Parameter>
-			</Parameters>
-			<ReturnValue><Abstract type="html">An instance of BFTask. On successful execution, task.result will contain an instance of AWSCognitoIdentityIdentityPool. On failed execution, task.error may contain an NSError with AWSCognitoIdentityErrorDomain domian and the following error code: AWSCognitoIdentityErrorInvalidParameter, AWSCognitoIdentityErrorResourceNotFound, AWSCognitoIdentityErrorNotAuthorized, AWSCognitoIdentityErrorTooManyRequests, AWSCognitoIdentityErrorInternalError.</Abstract></ReturnValue>
-			<Anchor>//api/name/describeIdentityPool:</Anchor>
+			<Declaration>@property (nonatomic, strong, readonly) NSString *accessKey</Declaration>
+			
+			
+			<Anchor>//api/name/accessKey</Anchor>
             <NodeRef refid="115"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoIdentity/getId:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Generates (or retrieves) a Cognito ID. Supplying multiple logins will create an implicitlinked account.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSCognitoIdentity.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoCredentialsProvider/setSecretKey:</TokenIdentifier>
+			<Abstract type="html">Secret Access Key component of credentials</Abstract>
+			<DeclaredIn>AWSCredentialsProvider.h</DeclaredIn>
 			
-	<RelatedTokens>
-		<TokenIdentifier>//apple_ref/occ/cl/AWSCognitoIdentityGetIdInput</TokenIdentifier>
-		<TokenIdentifier>//apple_ref/occ/cl/AWSCognitoIdentityGetIdResponse</TokenIdentifier>
-		
-	</RelatedTokens>
-	
-			<Declaration>- (BFTask *)getId:(AWSCognitoIdentityGetIdInput *)request</Declaration>
-			<Parameters>
-				<Parameter>
-					<Name>request</Name>
-					<Abstract type="html">A container for the necessary parameters to execute the GetId service method.</Abstract>
-				</Parameter>
-			</Parameters>
-			<ReturnValue><Abstract type="html">An instance of BFTask. On successful execution, task.result will contain an instance of AWSCognitoIdentityGetIdResponse. On failed execution, task.error may contain an NSError with AWSCognitoIdentityErrorDomain domian and the following error code: AWSCognitoIdentityErrorInvalidParameter, AWSCognitoIdentityErrorResourceNotFound, AWSCognitoIdentityErrorNotAuthorized, AWSCognitoIdentityErrorResourceConflict, AWSCognitoIdentityErrorTooManyRequests, AWSCognitoIdentityErrorInternalError, AWSCognitoIdentityErrorLimitExceeded.</Abstract></ReturnValue>
-			<Anchor>//api/name/getId:</Anchor>
+			<Declaration>@property (nonatomic, strong, readonly) NSString *secretKey</Declaration>
+			
+			
+			<Anchor>//api/name/secretKey</Anchor>
             <NodeRef refid="115"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoIdentity/getOpenIdToken:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Gets an OpenID token, using a known Cognito ID. This known Cognito ID is returned by&lt;a&gt;GetId&lt;/a&gt;. You can optionally add additional logins for the identity. Supplying multiple loginscreates an implicit link.&lt;/p&gt;&lt;p&gt;The OpenId token is valid for 15 minutes.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSCognitoIdentity.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoCredentialsProvider/secretKey</TokenIdentifier>
+			<Abstract type="html">Secret Access Key component of credentials</Abstract>
+			<DeclaredIn>AWSCredentialsProvider.h</DeclaredIn>
 			
-	<RelatedTokens>
-		<TokenIdentifier>//apple_ref/occ/cl/AWSCognitoIdentityGetOpenIdTokenInput</TokenIdentifier>
-		<TokenIdentifier>//apple_ref/occ/cl/AWSCognitoIdentityGetOpenIdTokenResponse</TokenIdentifier>
-		
-	</RelatedTokens>
-	
-			<Declaration>- (BFTask *)getOpenIdToken:(AWSCognitoIdentityGetOpenIdTokenInput *)request</Declaration>
-			<Parameters>
-				<Parameter>
-					<Name>request</Name>
-					<Abstract type="html">A container for the necessary parameters to execute the GetOpenIdToken service method.</Abstract>
-				</Parameter>
-			</Parameters>
-			<ReturnValue><Abstract type="html">An instance of BFTask. On successful execution, task.result will contain an instance of AWSCognitoIdentityGetOpenIdTokenResponse. On failed execution, task.error may contain an NSError with AWSCognitoIdentityErrorDomain domian and the following error code: AWSCognitoIdentityErrorInvalidParameter, AWSCognitoIdentityErrorResourceNotFound, AWSCognitoIdentityErrorNotAuthorized, AWSCognitoIdentityErrorResourceConflict, AWSCognitoIdentityErrorTooManyRequests, AWSCognitoIdentityErrorInternalError.</Abstract></ReturnValue>
-			<Anchor>//api/name/getOpenIdToken:</Anchor>
+			<Declaration>@property (nonatomic, strong, readonly) NSString *secretKey</Declaration>
+			
+			
+			<Anchor>//api/name/secretKey</Anchor>
             <NodeRef refid="115"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoIdentity/listIdentities:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Lists the identities in a pool.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSCognitoIdentity.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSCognitoCredentialsProvider/secretKey</TokenIdentifier>
+			<Abstract type="html">Secret Access Key component of credentials</Abstract>
+			<DeclaredIn>AWSCredentialsProvider.h</DeclaredIn>
 			
-	<RelatedTokens>
-		<TokenIdentifier>//apple_ref/occ/cl/AWSCognitoIdentityListIdentitiesInput</TokenIdentifier>
-		<TokenIdentifier>//apple_ref/occ/cl/AWSCognitoIdentityListIdentitiesResponse</TokenIdentifier>
-		
-	</RelatedTokens>
-	
-			<Declaration>- (BFTask *)listIdentities:(AWSCognitoIdentityListIdentitiesInput *)request</Declaration>
-			<Parameters>
-				<Parameter>
-					<Name>request</Name>
-					<Abstract type="html">A container for the necessary parameters to execute the ListIdentities service method.</Abstract>
-				</Parameter>
-			</Parameters>
-			<ReturnValue><Abstract type="html">An instance of BFTask. On successful execution, task.result will contain an instance of AWSCognitoIdentityListIdentitiesResponse. On failed execution, task.error may contain an NSError with AWSCognitoIdentityErrorDomain domian and the following error code: AWSCognitoIdentityErrorInvalidParameter, AWSCognitoIdentityErrorResourceNotFound, AWSCognitoIdentityErrorNotAuthorized, AWSCognitoIdentityErrorTooManyRequests, AWSCognitoIdentityErrorInternalError.</Abstract></ReturnValue>
-			<Anchor>//api/name/listIdentities:</Anchor>
+			<Declaration>@property (nonatomic, strong, readonly) NSString *secretKey</Declaration>
+			
+			
+			<Anchor>//api/name/secretKey</Anchor>
             <NodeRef refid="115"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoIdentity/listIdentityPools:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Lists all of the Cognito identity pools registered for your account.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSCognitoIdentity.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoCredentialsProvider/setSessionKey:</TokenIdentifier>
+			<Abstract type="html">Session Token component of credentials</Abstract>
+			<DeclaredIn>AWSCredentialsProvider.h</DeclaredIn>
 			
-	<RelatedTokens>
-		<TokenIdentifier>//apple_ref/occ/cl/AWSCognitoIdentityListIdentityPoolsInput</TokenIdentifier>
-		<TokenIdentifier>//apple_ref/occ/cl/AWSCognitoIdentityListIdentityPoolsResponse</TokenIdentifier>
-		
-	</RelatedTokens>
-	
-			<Declaration>- (BFTask *)listIdentityPools:(AWSCognitoIdentityListIdentityPoolsInput *)request</Declaration>
-			<Parameters>
-				<Parameter>
-					<Name>request</Name>
-					<Abstract type="html">A container for the necessary parameters to execute the ListIdentityPools service method.</Abstract>
-				</Parameter>
-			</Parameters>
-			<ReturnValue><Abstract type="html">An instance of BFTask. On successful execution, task.result will contain an instance of AWSCognitoIdentityListIdentityPoolsResponse. On failed execution, task.error may contain an NSError with AWSCognitoIdentityErrorDomain domian and the following error code: AWSCognitoIdentityErrorInvalidParameter, AWSCognitoIdentityErrorNotAuthorized, AWSCognitoIdentityErrorTooManyRequests, AWSCognitoIdentityErrorInternalError.</Abstract></ReturnValue>
-			<Anchor>//api/name/listIdentityPools:</Anchor>
+			<Declaration>@property (nonatomic, strong, readonly) NSString *sessionKey</Declaration>
+			
+			
+			<Anchor>//api/name/sessionKey</Anchor>
             <NodeRef refid="115"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoIdentity/unlinkIdentity:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Unlinks a federated identity from an existing account. Unlinked logins will be considerednew identities next time they are seen. Removing the last linked login will make thisidentity inaccessible.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSCognitoIdentity.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoCredentialsProvider/sessionKey</TokenIdentifier>
+			<Abstract type="html">Session Token component of credentials</Abstract>
+			<DeclaredIn>AWSCredentialsProvider.h</DeclaredIn>
 			
-	<RelatedTokens>
-		<TokenIdentifier>//apple_ref/occ/cl/AWSCognitoIdentityUnlinkIdentityInput</TokenIdentifier>
-		
-	</RelatedTokens>
-	
-			<Declaration>- (BFTask *)unlinkIdentity:(AWSCognitoIdentityUnlinkIdentityInput *)request</Declaration>
-			<Parameters>
-				<Parameter>
-					<Name>request</Name>
-					<Abstract type="html">A container for the necessary parameters to execute the UnlinkIdentity service method.</Abstract>
-				</Parameter>
-			</Parameters>
-			<ReturnValue><Abstract type="html">An instance of BFTask. On successful execution, task.result will be nil. On failed execution, task.error may contain an NSError with AWSCognitoIdentityErrorDomain domian and the following error code: AWSCognitoIdentityErrorInvalidParameter, AWSCognitoIdentityErrorResourceNotFound, AWSCognitoIdentityErrorNotAuthorized, AWSCognitoIdentityErrorResourceConflict, AWSCognitoIdentityErrorTooManyRequests, AWSCognitoIdentityErrorInternalError.</Abstract></ReturnValue>
-			<Anchor>//api/name/unlinkIdentity:</Anchor>
+			<Declaration>@property (nonatomic, strong, readonly) NSString *sessionKey</Declaration>
+			
+			
+			<Anchor>//api/name/sessionKey</Anchor>
             <NodeRef refid="115"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoIdentity/updateIdentityPool:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Updates a user pool.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSCognitoIdentity.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSCognitoCredentialsProvider/sessionKey</TokenIdentifier>
+			<Abstract type="html">Session Token component of credentials</Abstract>
+			<DeclaredIn>AWSCredentialsProvider.h</DeclaredIn>
 			
-	<RelatedTokens>
-		<TokenIdentifier>//apple_ref/occ/cl/AWSCognitoIdentityIdentityPool</TokenIdentifier>
-		<TokenIdentifier>//apple_ref/occ/cl/AWSCognitoIdentityIdentityPool</TokenIdentifier>
-		
-	</RelatedTokens>
-	
-			<Declaration>- (BFTask *)updateIdentityPool:(AWSCognitoIdentityIdentityPool *)request</Declaration>
-			<Parameters>
-				<Parameter>
-					<Name>request</Name>
-					<Abstract type="html">A container for the necessary parameters to execute the UpdateIdentityPool service method.</Abstract>
-				</Parameter>
-			</Parameters>
-			<ReturnValue><Abstract type="html">An instance of BFTask. On successful execution, task.result will contain an instance of AWSCognitoIdentityIdentityPool. On failed execution, task.error may contain an NSError with AWSCognitoIdentityErrorDomain domian and the following error code: AWSCognitoIdentityErrorInvalidParameter, AWSCognitoIdentityErrorResourceNotFound, AWSCognitoIdentityErrorNotAuthorized, AWSCognitoIdentityErrorResourceConflict, AWSCognitoIdentityErrorTooManyRequests, AWSCognitoIdentityErrorInternalError.</Abstract></ReturnValue>
-			<Anchor>//api/name/updateIdentityPool:</Anchor>
+			<Declaration>@property (nonatomic, strong, readonly) NSString *sessionKey</Declaration>
+			
+			
+			<Anchor>//api/name/sessionKey</Anchor>
             <NodeRef refid="115"/>
 		</Token>
 		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoCredentialsProvider/setExpiration:</TokenIdentifier>
+			<Abstract type="html">Date at which these credentials will expire</Abstract>
+			<DeclaredIn>AWSCredentialsProvider.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong, readonly) NSDate *expiration</Declaration>
+			
+			
+			<Anchor>//api/name/expiration</Anchor>
+            <NodeRef refid="115"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoCredentialsProvider/expiration</TokenIdentifier>
+			<Abstract type="html">Date at which these credentials will expire</Abstract>
+			<DeclaredIn>AWSCredentialsProvider.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong, readonly) NSDate *expiration</Declaration>
+			
+			
+			<Anchor>//api/name/expiration</Anchor>
+            <NodeRef refid="115"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSCognitoCredentialsProvider/expiration</TokenIdentifier>
+			<Abstract type="html">Date at which these credentials will expire</Abstract>
+			<DeclaredIn>AWSCredentialsProvider.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong, readonly) NSDate *expiration</Declaration>
+			
+			
+			<Anchor>//api/name/expiration</Anchor>
+            <NodeRef refid="115"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoCredentialsProvider/setIdentityProvider:</TokenIdentifier>
+			<Abstract type="html">The identityProvider which is responsible for establishing the identity id and
+(optionally) the open id token for use in the Amazon Cognito authflow.</Abstract>
+			<DeclaredIn>AWSCredentialsProvider.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) id&lt;AWSCognitoIdentityProvider&gt; identityProvider</Declaration>
+			
+			
+			<Anchor>//api/name/identityProvider</Anchor>
+            <NodeRef refid="115"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoCredentialsProvider/identityProvider</TokenIdentifier>
+			<Abstract type="html">The identityProvider which is responsible for establishing the identity id and
+(optionally) the open id token for use in the Amazon Cognito authflow.</Abstract>
+			<DeclaredIn>AWSCredentialsProvider.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) id&lt;AWSCognitoIdentityProvider&gt; identityProvider</Declaration>
+			
+			
+			<Anchor>//api/name/identityProvider</Anchor>
+            <NodeRef refid="115"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSCognitoCredentialsProvider/identityProvider</TokenIdentifier>
+			<Abstract type="html">The identityProvider which is responsible for establishing the identity id and
+(optionally) the open id token for use in the Amazon Cognito authflow.</Abstract>
+			<DeclaredIn>AWSCredentialsProvider.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) id&lt;AWSCognitoIdentityProvider&gt; identityProvider</Declaration>
+			
+			
+			<Anchor>//api/name/identityProvider</Anchor>
+            <NodeRef refid="115"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoCredentialsProvider/setIdentityId:</TokenIdentifier>
+			<Abstract type="html">The identity id associated with this provider. This value will be fetched from the keychain
+at startup. If you do not want to reuse the existing identity id, you must call the clearKeychain method.</Abstract>
+			<DeclaredIn>AWSCredentialsProvider.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong, readonly) NSString *identityId</Declaration>
+			
+			
+			<Anchor>//api/name/identityId</Anchor>
+            <NodeRef refid="115"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoCredentialsProvider/identityId</TokenIdentifier>
+			<Abstract type="html">The identity id associated with this provider. This value will be fetched from the keychain
+at startup. If you do not want to reuse the existing identity id, you must call the clearKeychain method.</Abstract>
+			<DeclaredIn>AWSCredentialsProvider.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong, readonly) NSString *identityId</Declaration>
+			
+			
+			<Anchor>//api/name/identityId</Anchor>
+            <NodeRef refid="115"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSCognitoCredentialsProvider/identityId</TokenIdentifier>
+			<Abstract type="html">The identity id associated with this provider. This value will be fetched from the keychain
+at startup. If you do not want to reuse the existing identity id, you must call the clearKeychain method.</Abstract>
+			<DeclaredIn>AWSCredentialsProvider.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong, readonly) NSString *identityId</Declaration>
+			
+			
+			<Anchor>//api/name/identityId</Anchor>
+            <NodeRef refid="115"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoCredentialsProvider/setIdentityPoolId:</TokenIdentifier>
+			<Abstract type="html">The identity pool id associated with this provider. Also used to create a namedspaced
+keychain area to store identity id and credentials.</Abstract>
+			<DeclaredIn>AWSCredentialsProvider.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong, readonly) NSString *identityPoolId</Declaration>
+			
+			
+			<Anchor>//api/name/identityPoolId</Anchor>
+            <NodeRef refid="115"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoCredentialsProvider/identityPoolId</TokenIdentifier>
+			<Abstract type="html">The identity pool id associated with this provider. Also used to create a namedspaced
+keychain area to store identity id and credentials.</Abstract>
+			<DeclaredIn>AWSCredentialsProvider.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong, readonly) NSString *identityPoolId</Declaration>
+			
+			
+			<Anchor>//api/name/identityPoolId</Anchor>
+            <NodeRef refid="115"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSCognitoCredentialsProvider/identityPoolId</TokenIdentifier>
+			<Abstract type="html">The identity pool id associated with this provider. Also used to create a namedspaced
+keychain area to store identity id and credentials.</Abstract>
+			<DeclaredIn>AWSCredentialsProvider.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong, readonly) NSString *identityPoolId</Declaration>
+			
+			
+			<Anchor>//api/name/identityPoolId</Anchor>
+            <NodeRef refid="115"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoCredentialsProvider/setLogins:</TokenIdentifier>
+			<Abstract type="html">Each entry in logins represents a single login with an identity provider.
+The key is the domain of the login provider (e.g. &apos;graph.facebook.com&apos;) and the value is the
+OAuth/OpenId Connect token that results from an authentication with that login provider.</Abstract>
+			<DeclaredIn>AWSCredentialsProvider.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSDictionary *logins</Declaration>
+			
+			
+			<Anchor>//api/name/logins</Anchor>
+            <NodeRef refid="115"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoCredentialsProvider/logins</TokenIdentifier>
+			<Abstract type="html">Each entry in logins represents a single login with an identity provider.
+The key is the domain of the login provider (e.g. &apos;graph.facebook.com&apos;) and the value is the
+OAuth/OpenId Connect token that results from an authentication with that login provider.</Abstract>
+			<DeclaredIn>AWSCredentialsProvider.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSDictionary *logins</Declaration>
+			
+			
+			<Anchor>//api/name/logins</Anchor>
+            <NodeRef refid="115"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSCognitoCredentialsProvider/logins</TokenIdentifier>
+			<Abstract type="html">Each entry in logins represents a single login with an identity provider.
+The key is the domain of the login provider (e.g. &apos;graph.facebook.com&apos;) and the value is the
+OAuth/OpenId Connect token that results from an authentication with that login provider.</Abstract>
+			<DeclaredIn>AWSCredentialsProvider.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSDictionary *logins</Declaration>
+			
+			
+			<Anchor>//api/name/logins</Anchor>
+            <NodeRef refid="115"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/AWSCognitoCredentialsProvider/credentialsWithRegionType:identityPoolId:</TokenIdentifier>
+			<Abstract type="html">Factory method for credentials provider with enhanced authentication flow. This is the recommended
+constructor for first time Amazon Cognito developers. Will create an instance of AWSEnhancedCognitoIdentityProvider.</Abstract>
+			<DeclaredIn>AWSCredentialsProvider.h</DeclaredIn>
+			
+			<Declaration>+ (instancetype)credentialsWithRegionType:(AWSRegionType)regionType identityPoolId:(NSString *)identityPoolId</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>regionType</Name>
+					<Abstract type="html">The region in which your identity pool exists.</Abstract>
+				</Parameter><Parameter>
+					<Name>identityPoolId</Name>
+					<Abstract type="html">The identity pool id for this provider. Value is used to communicate with
+Amazon Cognito as well as namespace values stored in the keychain.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/credentialsWithRegionType:identityPoolId:</Anchor>
+            <NodeRef refid="115"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/AWSCognitoCredentialsProvider/credentialsWithRegionType:identityProvider:unauthRoleArn:authRoleArn:</TokenIdentifier>
+			<Abstract type="html">Factory method for credentials provider with pre-created AWSCognitoIdentityProvider. Use this
+method when using developer authenticated identities.</Abstract>
+			<DeclaredIn>AWSCredentialsProvider.h</DeclaredIn>
+			
+			<Declaration>+ (instancetype)credentialsWithRegionType:(AWSRegionType)regionType identityProvider:(id&lt;AWSCognitoIdentityProvider&gt;)identityProvider unauthRoleArn:(NSString *)unauthRoleArn authRoleArn:(NSString *)authRoleArn</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>regionType</Name>
+					<Abstract type="html">The region in which your identity pool exists.</Abstract>
+				</Parameter><Parameter>
+					<Name>identityProvider</Name>
+					<Abstract type="html">Implementation of AWSCognitoIdentityProvider which is responsible for
+acquirind identity id and (optionally) OpenId Connect token.</Abstract>
+				</Parameter><Parameter>
+					<Name>unauthRoleArn</Name>
+					<Abstract type="html">The role ARN to use when getting credentials for unauthenticated identities.
+Provider will check the &lt;code&gt;isAuthenticated&lt;/code&gt; property of the identity provider to
+determine which role to use. Can be nil if unauthenticated identities are not supported or
+if using enhanced authentication flow.</Abstract>
+				</Parameter><Parameter>
+					<Name>authRoleArn</Name>
+					<Abstract type="html">The role ARN to use when getting credentials for authenticated identities.
+Provider will check the &lt;code&gt;isAuthenticated&lt;/code&gt; property of the identity provider to
+determine which role to use. Can be nil if authenticated identities are not supported or
+if using enhanced authentication flow.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/credentialsWithRegionType:identityProvider:unauthRoleArn:authRoleArn:</Anchor>
+            <NodeRef refid="115"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/AWSCognitoCredentialsProvider/credentialsWithRegionType:accountId:identityPoolId:unauthRoleArn:authRoleArn:</TokenIdentifier>
+			<Abstract type="html">Factory method for credentials provider with basic auth flow. Only use this method if you still
+need to set your IAM roles client side. This method will create an instance of AWSBasicCognitoIdentityProvider.</Abstract>
+			<DeclaredIn>AWSCredentialsProvider.h</DeclaredIn>
+			
+			<Declaration>+ (instancetype)credentialsWithRegionType:(AWSRegionType)regionType accountId:(NSString *)accountId identityPoolId:(NSString *)identityPoolId unauthRoleArn:(NSString *)unauthRoleArn authRoleArn:(NSString *)authRoleArn</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>regionType</Name>
+					<Abstract type="html">The region in which your identity pool exists.</Abstract>
+				</Parameter><Parameter>
+					<Name>accountId</Name>
+					<Abstract type="html">The AWS account id for the owner of the identity pool. Can be nil as this value
+is no longer required</Abstract>
+				</Parameter><Parameter>
+					<Name>identityPoolId</Name>
+					<Abstract type="html">The identity pool id for this provider. Value is used to communicate with
+Amazon Cognito as well as namespace values stored in the keychain.</Abstract>
+				</Parameter><Parameter>
+					<Name>unauthRoleArn</Name>
+					<Abstract type="html">The role ARN to use when getting credentials for unauthenticated identities.
+Provider will check the &lt;code&gt;isAuthenticated&lt;/code&gt; property of the identity provider to
+determine which role to use. Can be nil if unauthenticated identities are not supported.</Abstract>
+				</Parameter><Parameter>
+					<Name>authRoleArn</Name>
+					<Abstract type="html">The role ARN to use when getting credentials for authenticated identities.
+Provider will check the &lt;code&gt;isAuthenticated&lt;/code&gt; property of the identity provider to
+determine which role to use. Can be nil if authenticated identities are not supported.</Abstract>
+				</Parameter><Parameter>
+					<Name>identityId</Name>
+					<Abstract type="html">The identity id to initialize this provider. If nil, the provider will attempt
+to read from the keychain</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/credentialsWithRegionType:accountId:identityPoolId:unauthRoleArn:authRoleArn:</Anchor>
+            <NodeRef refid="115"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoCredentialsProvider/initWithRegionType:identityId:identityPoolId:logins:</TokenIdentifier>
+			<Abstract type="html">Initializer for credentials provider with enhanced authentication flow. This is the recommended
+method for first time Amazon Cognito developers. Will create an instance of AWSEnhancedCognitoIdentityProvider.</Abstract>
+			<DeclaredIn>AWSCredentialsProvider.h</DeclaredIn>
+			
+			<Declaration>- (instancetype)initWithRegionType:(AWSRegionType)regionType identityId:(NSString *)identityId identityPoolId:(NSString *)identityPoolId logins:(NSDictionary *)logins</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>regionType</Name>
+					<Abstract type="html">The region in which your identity pool exists.</Abstract>
+				</Parameter><Parameter>
+					<Name>identityId</Name>
+					<Abstract type="html">The identity id to initialize this provider. If nil, the provider will attempt
+to read from the keychain.</Abstract>
+				</Parameter><Parameter>
+					<Name>identityPoolId</Name>
+					<Abstract type="html">The identity pool id for this provider. Value is used to communicate with
+Amazon Cognito as well as namespace values stored in the keychain.</Abstract>
+				</Parameter><Parameter>
+					<Name>logins</Name>
+					<Abstract type="html">The map of logins to link to this identity. Can be nil if identity is unauthenticated.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/initWithRegionType:identityId:identityPoolId:logins:</Anchor>
+            <NodeRef refid="115"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoCredentialsProvider/initWithRegionType:identityProvider:unauthRoleArn:authRoleArn:</TokenIdentifier>
+			<Abstract type="html">Initializer for credentials provider with pre-created AWSCognitoIdentityProvider. Use this
+method when using developer authenticated identities.</Abstract>
+			<DeclaredIn>AWSCredentialsProvider.h</DeclaredIn>
+			
+			<Declaration>- (instancetype)initWithRegionType:(AWSRegionType)regionType identityProvider:(id&lt;AWSCognitoIdentityProvider&gt;)identityProvider unauthRoleArn:(NSString *)unauthRoleArn authRoleArn:(NSString *)authRoleArn</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>regionType</Name>
+					<Abstract type="html">The region in which your identity pool exists.</Abstract>
+				</Parameter><Parameter>
+					<Name>identityProvider</Name>
+					<Abstract type="html">Implementation of AWSCognitoIdentityProvider which is responsible for
+acquirind identity id and (optionally) OpenId Connect token.</Abstract>
+				</Parameter><Parameter>
+					<Name>unauthRoleArn</Name>
+					<Abstract type="html">The role ARN to use when getting credentials for authenticated identities.
+Provider will check the &lt;code&gt;isAuthenticated&lt;/code&gt; property of the identity provider to
+determine which role to use. Can be nil if authenticated identities are not supported or
+if using enhanced authentication flow.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/initWithRegionType:identityProvider:unauthRoleArn:authRoleArn:</Anchor>
+            <NodeRef refid="115"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoCredentialsProvider/initWithRegionType:identityId:accountId:identityPoolId:unauthRoleArn:authRoleArn:logins:</TokenIdentifier>
+			<Abstract type="html">Initializer for credentials provider with basic auth flow. Only use this method if you still
+need to set your IAM roles client side. This method will create an instance of AWSBasicCognitoIdentityProvider.</Abstract>
+			<DeclaredIn>AWSCredentialsProvider.h</DeclaredIn>
+			
+			<Declaration>- (instancetype)initWithRegionType:(AWSRegionType)regionType identityId:(NSString *)identityId accountId:(NSString *)accountId identityPoolId:(NSString *)identityPoolId unauthRoleArn:(NSString *)unauthRoleArn authRoleArn:(NSString *)authRoleArn logins:(NSDictionary *)logins</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>regionType</Name>
+					<Abstract type="html">The region in which your identity pool exists.</Abstract>
+				</Parameter><Parameter>
+					<Name>identityId</Name>
+					<Abstract type="html">The identity id to initialize this provider. If nil, the provider will attempt
+to read from the keychain</Abstract>
+				</Parameter><Parameter>
+					<Name>accountId</Name>
+					<Abstract type="html">The AWS account id for the owner of the identity pool. Can be nil as this value
+is no longer required</Abstract>
+				</Parameter><Parameter>
+					<Name>identityPoolId</Name>
+					<Abstract type="html">The identity pool id for this provider. Value is used to communicate with
+Amazon Cognito as well as namespace values stored in the keychain.</Abstract>
+				</Parameter><Parameter>
+					<Name>unauthRoleArn</Name>
+					<Abstract type="html">The role ARN to use when getting credentials for authenticated identities.
+Provider will check the &lt;code&gt;isAuthenticated&lt;/code&gt; property of the identity provider to
+determine which role to use. Can be nil if authenticated identities are not supported.</Abstract>
+				</Parameter><Parameter>
+					<Name>logins</Name>
+					<Abstract type="html">The map of logins to link to this identity. Can be nil if identity is unauthenticated.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/initWithRegionType:identityId:accountId:identityPoolId:unauthRoleArn:authRoleArn:logins:</Anchor>
+            <NodeRef refid="115"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoCredentialsProvider/refresh</TokenIdentifier>
+			<Abstract type="html">Refreshes the locally stored credentials. The SDK automatically calls this method when necessary,
+and you do not need to call this method manually.</Abstract>
+			<DeclaredIn>AWSCredentialsProvider.h</DeclaredIn>
+			
+			<Declaration>- (BFTask *)refresh</Declaration>
+			
+			<ReturnValue><Abstract type="html">BFTask</Abstract></ReturnValue>
+			<Anchor>//api/name/refresh</Anchor>
+            <NodeRef refid="115"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoCredentialsProvider/getIdentityId</TokenIdentifier>
+			<Abstract type="html">Get/retrieve the identity id for this provider. If an identity id is already set on this
+provider, no remote call is made and the identity will be returned as a result of the BFTask
+(the identityId is also available as a property).
+If no identityId is set on this provider, one will be retrieved from the service.</Abstract>
+			<DeclaredIn>AWSCredentialsProvider.h</DeclaredIn>
+			
+			<Declaration>- (BFTask *)getIdentityId</Declaration>
+			
+			<ReturnValue><Abstract type="html">BFTask</Abstract></ReturnValue>
+			<Anchor>//api/name/getIdentityId</Anchor>
+            <NodeRef refid="115"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoCredentialsProvider/clearKeychain</TokenIdentifier>
+			<Abstract type="html">Clear ALL saved values for this provider (identityId, credentials, logins)</Abstract>
+			<DeclaredIn>AWSCredentialsProvider.h</DeclaredIn>
+			
+			<Declaration>- (void)clearKeychain</Declaration>
+			
+			
+			<Anchor>//api/name/clearKeychain</Anchor>
+            <NodeRef refid="115"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoCredentialsProvider/clearCredentials</TokenIdentifier>
+			<Abstract type="html">Clear the cached AWS credentials for this provider.</Abstract>
+			<DeclaredIn>AWSCredentialsProvider.h</DeclaredIn>
+			
+			<Declaration>- (void)clearCredentials</Declaration>
+			
+			
+			<Anchor>//api/name/clearCredentials</Anchor>
+            <NodeRef refid="115"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/AWSCognitoCredentialsProvider/shouldResetIdentityId:</TokenIdentifier>
+			<Abstract type="html">Internal method used to determine if the identityId should be reset on a provider</Abstract>
+			<DeclaredIn>AWSCredentialsProvider.h</DeclaredIn>
+			
+			<Declaration>+ (BOOL)shouldResetIdentityId:(NSError *)error</Declaration>
+			
+			
+			<Anchor>//api/name/shouldResetIdentityId:</Anchor>
+            <NodeRef refid="115"/>
+		</Token>
+		
+        
         
 	</File>
 </Tokens>

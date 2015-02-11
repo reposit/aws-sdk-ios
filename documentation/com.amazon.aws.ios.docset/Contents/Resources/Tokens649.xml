@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSS3RestoreRequest.html">
+	<File path="Classes/AWSElasticLoadBalancingDeleteLoadBalancerListenerInput.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSS3RestoreRequest</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSElasticLoadBalancingDeleteLoadBalancerListenerInput</TokenIdentifier>
 			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			<DeclaredIn>AWSElasticLoadBalancingModel.h</DeclaredIn>
             
 			
 			<NodeRef refid="649"/>
@@ -13,41 +13,78 @@
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3RestoreRequest/setDays:</TokenIdentifier>
-			<Abstract type="html">Lifetime of the active copy in days</Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSElasticLoadBalancingDeleteLoadBalancerListenerInput/setLoadBalancerName:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSElasticLoadBalancingModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSNumber *days</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *loadBalancerName</Declaration>
 			
 			
-			<Anchor>//api/name/days</Anchor>
+			<Anchor>//api/name/loadBalancerName</Anchor>
             <NodeRef refid="649"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3RestoreRequest/days</TokenIdentifier>
-			<Abstract type="html">Lifetime of the active copy in days</Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSElasticLoadBalancingDeleteLoadBalancerListenerInput/loadBalancerName</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSElasticLoadBalancingModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSNumber *days</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *loadBalancerName</Declaration>
 			
 			
-			<Anchor>//api/name/days</Anchor>
+			<Anchor>//api/name/loadBalancerName</Anchor>
             <NodeRef refid="649"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSS3RestoreRequest/days</TokenIdentifier>
-			<Abstract type="html">Lifetime of the active copy in days</Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSElasticLoadBalancingDeleteLoadBalancerListenerInput/loadBalancerName</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSElasticLoadBalancingModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSNumber *days</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *loadBalancerName</Declaration>
 			
 			
-			<Anchor>//api/name/days</Anchor>
+			<Anchor>//api/name/loadBalancerName</Anchor>
             <NodeRef refid="649"/>
 		</Token>
 		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSElasticLoadBalancingDeleteLoadBalancerListenerInput/setLoadBalancerPorts:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSElasticLoadBalancingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray *loadBalancerPorts</Declaration>
+			
+			
+			<Anchor>//api/name/loadBalancerPorts</Anchor>
+            <NodeRef refid="649"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSElasticLoadBalancingDeleteLoadBalancerListenerInput/loadBalancerPorts</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSElasticLoadBalancingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray *loadBalancerPorts</Declaration>
+			
+			
+			<Anchor>//api/name/loadBalancerPorts</Anchor>
+            <NodeRef refid="649"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSElasticLoadBalancingDeleteLoadBalancerListenerInput/loadBalancerPorts</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSElasticLoadBalancingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray *loadBalancerPorts</Declaration>
+			
+			
+			<Anchor>//api/name/loadBalancerPorts</Anchor>
+            <NodeRef refid="649"/>
+		</Token>
+		
+        
         
 	</File>
 </Tokens>

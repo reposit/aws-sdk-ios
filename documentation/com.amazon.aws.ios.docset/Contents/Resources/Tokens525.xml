@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSEC2StopInstancesRequest.html">
+	<File path="Classes/AWSEC2PlacementGroup.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSEC2StopInstancesRequest</TokenIdentifier>
-			<Abstract type="html"></Abstract>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSEC2PlacementGroup</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Describes a placement group.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
             
 			
@@ -13,77 +13,114 @@
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2StopInstancesRequest/setForce:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Forces the instances to stop. The instances do not have an opportunity to flush file system caches or file system metadata. If you use this option, you must perform file system check and repair procedures. This option is not recommended for Windows instances.&lt;/p&gt;&lt;p&gt;Default: &lt;code&gt;false&lt;/code&gt;&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2PlacementGroup/setGroupName:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The name of the placement group.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSNumber *force</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *groupName</Declaration>
 			
 			
-			<Anchor>//api/name/force</Anchor>
+			<Anchor>//api/name/groupName</Anchor>
             <NodeRef refid="525"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2StopInstancesRequest/force</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Forces the instances to stop. The instances do not have an opportunity to flush file system caches or file system metadata. If you use this option, you must perform file system check and repair procedures. This option is not recommended for Windows instances.&lt;/p&gt;&lt;p&gt;Default: &lt;code&gt;false&lt;/code&gt;&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2PlacementGroup/groupName</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The name of the placement group.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSNumber *force</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *groupName</Declaration>
 			
 			
-			<Anchor>//api/name/force</Anchor>
+			<Anchor>//api/name/groupName</Anchor>
             <NodeRef refid="525"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2StopInstancesRequest/force</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Forces the instances to stop. The instances do not have an opportunity to flush file system caches or file system metadata. If you use this option, you must perform file system check and repair procedures. This option is not recommended for Windows instances.&lt;/p&gt;&lt;p&gt;Default: &lt;code&gt;false&lt;/code&gt;&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2PlacementGroup/groupName</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The name of the placement group.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSNumber *force</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *groupName</Declaration>
 			
 			
-			<Anchor>//api/name/force</Anchor>
+			<Anchor>//api/name/groupName</Anchor>
             <NodeRef refid="525"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2StopInstancesRequest/setInstanceIds:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;One or more instance IDs.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2PlacementGroup/setState:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The state of the placement group.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSArray *instanceIds</Declaration>
+			<Declaration>@property (nonatomic, assign) AWSEC2PlacementGroupState state</Declaration>
 			
 			
-			<Anchor>//api/name/instanceIds</Anchor>
+			<Anchor>//api/name/state</Anchor>
             <NodeRef refid="525"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2StopInstancesRequest/instanceIds</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;One or more instance IDs.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2PlacementGroup/state</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The state of the placement group.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSArray *instanceIds</Declaration>
+			<Declaration>@property (nonatomic, assign) AWSEC2PlacementGroupState state</Declaration>
 			
 			
-			<Anchor>//api/name/instanceIds</Anchor>
+			<Anchor>//api/name/state</Anchor>
             <NodeRef refid="525"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2StopInstancesRequest/instanceIds</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;One or more instance IDs.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2PlacementGroup/state</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The state of the placement group.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSArray *instanceIds</Declaration>
+			<Declaration>@property (nonatomic, assign) AWSEC2PlacementGroupState state</Declaration>
 			
 			
-			<Anchor>//api/name/instanceIds</Anchor>
+			<Anchor>//api/name/state</Anchor>
             <NodeRef refid="525"/>
 		</Token>
 		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2PlacementGroup/setStrategy:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The placement strategy.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) AWSEC2PlacementStrategy strategy</Declaration>
+			
+			
+			<Anchor>//api/name/strategy</Anchor>
+            <NodeRef refid="525"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2PlacementGroup/strategy</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The placement strategy.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) AWSEC2PlacementStrategy strategy</Declaration>
+			
+			
+			<Anchor>//api/name/strategy</Anchor>
+            <NodeRef refid="525"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2PlacementGroup/strategy</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The placement strategy.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) AWSEC2PlacementStrategy strategy</Declaration>
+			
+			
+			<Anchor>//api/name/strategy</Anchor>
+            <NodeRef refid="525"/>
+		</Token>
+		
+        
         
 	</File>
 </Tokens>

@@ -11,7 +11,7 @@
 	<body>
 		<header id="top_header">
 			<div id="library" class="hideInXcode">
-				<h1><a id="libraryTitle" href="../index.html">AWS SDK for iOS v2.0.8 </a></h1>
+				<h1><a id="libraryTitle" href="../index.html">AWS SDK for iOS v2.0.16 </a></h1>
 				<a id="developerHome" href="../index.html">Amazon Web Services, Inc.</a>
 			</div>
 			
@@ -37,6 +37,16 @@
 	
 	
 	
+	<option value="properties">Properties</option>
+	
+	<option value="//api/name/configuration">&nbsp;&nbsp;&nbsp;&nbsp;configuration</option>
+	
+	
+	
+	
+	<option value="class_methods">Class Methods</option>
+	
+	<option value="//api/name/defaultEC2">&nbsp;&nbsp;&nbsp;&nbsp;+ defaultEC2</option>
 	
 	
 	
@@ -283,6 +293,8 @@
 	
 	<option value="//api/name/importVolume:">&nbsp;&nbsp;&nbsp;&nbsp;- importVolume:</option>
 	
+	<option value="//api/name/initWithConfiguration:">&nbsp;&nbsp;&nbsp;&nbsp;- initWithConfiguration:</option>
+	
 	<option value="//api/name/modifyImageAttribute:">&nbsp;&nbsp;&nbsp;&nbsp;- modifyImageAttribute:</option>
 	
 	<option value="//api/name/modifyInstanceAttribute:">&nbsp;&nbsp;&nbsp;&nbsp;- modifyInstanceAttribute:</option>
@@ -373,7 +385,19 @@
 
 
 
+<li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#properties">Properties</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/configuration">configuration</a></span></li>
+	
+</ul></li>
 
+
+
+<li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#class_methods">Class Methods</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/defaultEC2">defaultEC2</a></span></li>
+	
+</ul></li>
 
 
 
@@ -619,6 +643,8 @@
 	
 	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/importVolume:">importVolume:</a></span></li>
 	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/initWithConfiguration:">initWithConfiguration:</a></span></li>
+	
 	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/modifyImageAttribute:">modifyImageAttribute:</a></span></li>
 	
 	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/modifyInstanceAttribute:">modifyInstanceAttribute:</a></span></li>
@@ -741,6 +767,24 @@
 
 						<ul class="task-list">
 							<li>
+	<span class="tooltip">
+		<code><a href="#//api/name/configuration">&nbsp;&nbsp;configuration</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/defaultEC2">+&nbsp;defaultEC2</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/initWithConfiguration:">&ndash;&nbsp;initWithConfiguration:</a></code>
+	</span>
+	
+	
+</li><li>
 	<span class="tooltip">
 		<code><a href="#//api/name/acceptVpcPeeringConnection:">&ndash;&nbsp;acceptVpcPeeringConnection:</a></code>
 	</span>
@@ -1673,7 +1717,101 @@
 					
 					
 					
+					<div class="section section-methods">
+						<a title="Properties" name="properties"></a>
+						<h2 class="subtitle subtitle-methods">Properties</h2>
+						
+						<div class="section-method">
+	<a name="//api/name/configuration" title="configuration"></a>
+	<h3 class="subsubtitle method-title">configuration</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>The service configuration used to instantiate this service client.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, strong, readonly) AWSServiceConfiguration *configuration</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<div class="warning"><p><strong>Warning:</strong> Once the client is instantiated, do not modify the configuration object. It may cause unspecified behaviors.</p></div>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AWSEC2.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+					</div>
 					
+					
+					
+					<div class="section section-methods">
+						<a title="Class Methods" name="class_methods"></a>
+						<h2 class="subtitle subtitle-methods">Class Methods</h2>
+						
+						<div class="section-method">
+	<a name="//api/name/defaultEC2" title="defaultEC2"></a>
+	<h3 class="subsubtitle method-title">defaultEC2</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Returns the singleton service client. If the singleton object does not exist, the SDK instantiates the default service client with <code>defaultServiceConfiguration</code> from <code>[AWSServiceManager defaultServiceManager]</code>. The reference to this object is maintained by the SDK, and you do not need to retain it manually.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>+ (instancetype)defaultEC2</code></div>
+
+    
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>The default service client.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AWSEC2.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+					</div>
 					
 					
 					
@@ -1712,7 +1850,7 @@
 	
 	<div class="method-subsection return">
 		<h4 class="method-subtitle parameter-title">Return Value</h4>
-		<p>An instance of BFTask. On successful execution, task.result will contain an instance of AWSEC2AcceptVpcPeeringConnectionResult.</p>
+		<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSEC2AcceptVpcPeeringConnectionResult</code>.</p>
 	</div>
 	
 	
@@ -1778,7 +1916,7 @@
 	
 	<div class="method-subsection return">
 		<h4 class="method-subtitle parameter-title">Return Value</h4>
-		<p>An instance of BFTask. On successful execution, task.result will contain an instance of AWSEC2AllocateAddressResult.</p>
+		<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSEC2AllocateAddressResult</code>.</p>
 	</div>
 	
 	
@@ -1844,7 +1982,7 @@
 	
 	<div class="method-subsection return">
 		<h4 class="method-subtitle parameter-title">Return Value</h4>
-		<p>An instance of BFTask. On successful execution, task.result will be nil.</p>
+		<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will be <code>nil</code>.</p>
 	</div>
 	
 	
@@ -1887,10 +2025,10 @@
 <p>An Elastic IP address is for use in either the EC2-Classic platform or in a VPC. For more information, see <a href="http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/elastic-ip-addresses-eip.html">Elastic IP Addresses</a> in the <i>Amazon Elastic Compute Cloud User Guide</i>.</p>
 
 
-<p>[EC2-Classic, default VPC] If the Elastic IP address is already associated with a different instance, it is disassociated from that instance and associated with the specified instance.</p>
+<p>[EC2-Classic, VPC in an EC2-VPC-only account] If the Elastic IP address is already associated with a different instance, it is disassociated from that instance and associated with the specified instance.</p>
 
 
-<p>[EC2-VPC] If you don't specify a private IP address, the Elastic IP address is associated with the primary IP address. If the Elastic IP address is already associated with a different instance or a network interface, you get an error unless you allow reassociation.</p>
+<p>[VPC in an EC2-Classic account] If you don't specify a private IP address, the Elastic IP address is associated with the primary IP address. If the Elastic IP address is already associated with a different instance or a network interface, you get an error unless you allow reassociation.</p>
 
 
 <p>This is an idempotent operation. If you perform the operation more than once, Amazon EC2 doesn't return an error.</p>
@@ -1917,7 +2055,7 @@
 	
 	<div class="method-subsection return">
 		<h4 class="method-subtitle parameter-title">Return Value</h4>
-		<p>An instance of BFTask. On successful execution, task.result will contain an instance of AWSEC2AssociateAddressResult.</p>
+		<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSEC2AssociateAddressResult</code>.</p>
 	</div>
 	
 	
@@ -1986,7 +2124,7 @@
 	
 	<div class="method-subsection return">
 		<h4 class="method-subtitle parameter-title">Return Value</h4>
-		<p>An instance of BFTask. On successful execution, task.result will be nil.</p>
+		<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will be <code>nil</code>.</p>
 	</div>
 	
 	
@@ -2050,7 +2188,7 @@
 	
 	<div class="method-subsection return">
 		<h4 class="method-subtitle parameter-title">Return Value</h4>
-		<p>An instance of BFTask. On successful execution, task.result will contain an instance of AWSEC2AssociateRouteTableResult.</p>
+		<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSEC2AssociateRouteTableResult</code>.</p>
 	</div>
 	
 	
@@ -2089,7 +2227,7 @@
 	
 	
 	<div class="method-subsection brief-description">
-		<p>Attaches an Internet gateway to a VPC, enabling connectivity between the Internet and the VPC. For more information about your VPC and Internet gateway, see the <a href="http://docs.&awsdomain;/AmazonVPC/latest/UserGuide/">Amazon Virtual Private Cloud User Guide</a>.</p>
+		<p>Attaches an Internet gateway to a VPC, enabling connectivity between the Internet and the VPC. For more information about your VPC and Internet gateway, see the <a href="http://docs.aws.amazon.com/AmazonVPC/latest/UserGuide/">Amazon Virtual Private Cloud User Guide</a>.</p>
 
 	</div>		
 	
@@ -2113,7 +2251,7 @@
 	
 	<div class="method-subsection return">
 		<h4 class="method-subtitle parameter-title">Return Value</h4>
-		<p>An instance of BFTask. On successful execution, task.result will be nil.</p>
+		<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will be <code>nil</code>.</p>
 	</div>
 	
 	
@@ -2174,7 +2312,7 @@
 	
 	<div class="method-subsection return">
 		<h4 class="method-subtitle parameter-title">Return Value</h4>
-		<p>An instance of BFTask. On successful execution, task.result will contain an instance of AWSEC2AttachNetworkInterfaceResult.</p>
+		<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSEC2AttachNetworkInterfaceResult</code>.</p>
 	</div>
 	
 	
@@ -2255,7 +2393,7 @@
 	
 	<div class="method-subsection return">
 		<h4 class="method-subtitle parameter-title">Return Value</h4>
-		<p>An instance of BFTask. On successful execution, task.result will contain an instance of AWSEC2VolumeAttachment.</p>
+		<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSEC2VolumeAttachment</code>.</p>
 	</div>
 	
 	
@@ -2318,7 +2456,7 @@
 	
 	<div class="method-subsection return">
 		<h4 class="method-subtitle parameter-title">Return Value</h4>
-		<p>An instance of BFTask. On successful execution, task.result will contain an instance of AWSEC2AttachVpnGatewayResult.</p>
+		<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSEC2AttachVpnGatewayResult</code>.</p>
 	</div>
 	
 	
@@ -2357,7 +2495,7 @@
 	
 	
 	<div class="method-subsection brief-description">
-		<p>Adds one or more egress rules to a security group for use with a VPC. Specifically, this action permits instances to send traffic to one or more CIDR IP address ranges, or to one or more security groups for the same VPC.</p>
+		<p>Adds one or more egress rules to a security group for use with a VPC. Specifically, this action permits instances to send traffic to one or more destination CIDR IP address ranges, or to one or more destination security groups for the same VPC.</p>
 
 
 <p><important><p>You can have up to 50 rules per security group (covering both ingress and egress rules).</p></important><p>A security group is for use with instances either in the EC2-Classic platform or in a specific VPC. This action doesn&rsquo;t apply to security groups for use in EC2-Classic. For more information, see <a href="http://docs.aws.amazon.com/AmazonVPC/latest/UserGuide/VPC_SecurityGroups.html">Security Groups for Your VPC</a> in the <i>Amazon Virtual Private Cloud User Guide</i>.</p><p>Each rule consists of the protocol (for example, TCP), plus either a CIDR range or a source group. For the TCP and UDP protocols, you must also specify the destination port or port range. For the ICMP protocol, you must also specify the ICMP type and code. You can use -1 for the type or code to mean all types or all codes.</p><p>Rule changes are propagated to affected instances as quickly as possible. However, a small delay might occur.</p></p>
@@ -2383,7 +2521,7 @@
 	
 	<div class="method-subsection return">
 		<h4 class="method-subtitle parameter-title">Return Value</h4>
-		<p>An instance of BFTask. On successful execution, task.result will be nil.</p>
+		<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will be <code>nil</code>.</p>
 	</div>
 	
 	
@@ -2446,7 +2584,7 @@
 	
 	<div class="method-subsection return">
 		<h4 class="method-subtitle parameter-title">Return Value</h4>
-		<p>An instance of BFTask. On successful execution, task.result will be nil.</p>
+		<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will be <code>nil</code>.</p>
 	</div>
 	
 	
@@ -2489,8 +2627,7 @@
 <p>During bundling, only the root device volume (C:\) is bundled. Data on other instance store volumes is not preserved.</p>
 
 
-<p>For more information, see <a href="http://docs.aws.amazon.com/AWSEC2/latest/WindowsGuide/Creating_InstanceStoreBacked_WinAMI.html">Creating an Instance Store-Backed Windows AMI</a>.</p>
-
+<p><note><p>This procedure is not applicable for Linux/Unix instances or Windows instances that are backed by Amazon EBS.</p></note><p>For more information, see <a href="http://docs.aws.amazon.com/AWSEC2/latest/WindowsGuide/Creating_InstanceStoreBacked_WinAMI.html">Creating an Instance Store-Backed Windows AMI</a>.</p></p>
 	</div>		
 	
     
@@ -2513,7 +2650,7 @@
 	
 	<div class="method-subsection return">
 		<h4 class="method-subtitle parameter-title">Return Value</h4>
-		<p>An instance of BFTask. On successful execution, task.result will contain an instance of AWSEC2BundleInstanceResult.</p>
+		<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSEC2BundleInstanceResult</code>.</p>
 	</div>
 	
 	
@@ -2576,7 +2713,7 @@
 	
 	<div class="method-subsection return">
 		<h4 class="method-subtitle parameter-title">Return Value</h4>
-		<p>An instance of BFTask. On successful execution, task.result will contain an instance of AWSEC2CancelBundleTaskResult.</p>
+		<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSEC2CancelBundleTaskResult</code>.</p>
 	</div>
 	
 	
@@ -2642,7 +2779,7 @@
 	
 	<div class="method-subsection return">
 		<h4 class="method-subtitle parameter-title">Return Value</h4>
-		<p>An instance of BFTask. On successful execution, task.result will be nil.</p>
+		<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will be <code>nil</code>.</p>
 	</div>
 	
 	
@@ -2703,7 +2840,7 @@
 	
 	<div class="method-subsection return">
 		<h4 class="method-subtitle parameter-title">Return Value</h4>
-		<p>An instance of BFTask. On successful execution, task.result will be nil.</p>
+		<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will be <code>nil</code>.</p>
 	</div>
 	
 	
@@ -2767,7 +2904,7 @@
 	
 	<div class="method-subsection return">
 		<h4 class="method-subtitle parameter-title">Return Value</h4>
-		<p>An instance of BFTask. On successful execution, task.result will contain an instance of AWSEC2CancelReservedInstancesListingResult.</p>
+		<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSEC2CancelReservedInstancesListingResult</code>.</p>
 	</div>
 	
 	
@@ -2832,7 +2969,7 @@
 	
 	<div class="method-subsection return">
 		<h4 class="method-subtitle parameter-title">Return Value</h4>
-		<p>An instance of BFTask. On successful execution, task.result will contain an instance of AWSEC2CancelSpotInstanceRequestsResult.</p>
+		<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSEC2CancelSpotInstanceRequestsResult</code>.</p>
 	</div>
 	
 	
@@ -2895,7 +3032,7 @@
 	
 	<div class="method-subsection return">
 		<h4 class="method-subtitle parameter-title">Return Value</h4>
-		<p>An instance of BFTask. On successful execution, task.result will contain an instance of AWSEC2ConfirmProductInstanceResult.</p>
+		<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSEC2ConfirmProductInstanceResult</code>.</p>
 	</div>
 	
 	
@@ -2940,8 +3077,7 @@
 <p>For devices that use Border Gateway Protocol (BGP), you can also provide the device's BGP Autonomous System Number (ASN). You can use an existing ASN assigned to your network. If you don't have an ASN already, you can use a private ASN (in the 64512 - 65534 range).</p>
 
 
-<p>For more information about VPN customer gateways, see <a href="http://docs.aws.amazon.com/AmazonVPC/latest/UserGuide/VPC_VPN.html">Adding a Hardware Virtual Private Gateway to Your VPC</a> in the <i>Amazon Virtual Private Cloud User Guide</i>.</p>
-
+<p><note><p>Amazon EC2 supports all 2-byte ASN numbers in the range of 1 - 65534, with the exception of 7224, which is reserved in the <code>us-east-1</code> region, and 9059, which is reserved in the <code>eu-west-1</code> region.</p></note><p>For more information about VPN customer gateways, see <a href="http://docs.aws.amazon.com/AmazonVPC/latest/UserGuide/VPC_VPN.html">Adding a Hardware Virtual Private Gateway to Your VPC</a> in the <i>Amazon Virtual Private Cloud User Guide</i>.</p></p>
 	</div>		
 	
     
@@ -2964,7 +3100,7 @@
 	
 	<div class="method-subsection return">
 		<h4 class="method-subtitle parameter-title">Return Value</h4>
-		<p>An instance of BFTask. On successful execution, task.result will contain an instance of AWSEC2CreateCustomerGatewayResult.</p>
+		<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSEC2CreateCustomerGatewayResult</code>.</p>
 	</div>
 	
 	
@@ -3009,7 +3145,7 @@
 <ul><li><code>domain-name-servers</code> - The IP addresses of up to four domain name servers, or <code>AmazonProvidedDNS</code>. The default DHCP option set specifies <code>AmazonProvidedDNS</code>. If specifying more than one domain name server, specify the IP addresses in a single parameter, separated by commas.</li><li><code>domain-name</code> - If you're using AmazonProvidedDNS in <code>us-east-1</code>, specify <code>ec2.internal</code>. If you're using AmazonProvidedDNS in another region, specify <code>region.compute.internal</code> (for example, <code>ap-northeast-1.compute.internal</code>). Otherwise, specify a domain name (for example, <code>MyCompany.com</code>). If specifying more than one domain name, separate them with spaces.</li><li><code>ntp-servers</code> - The IP addresses of up to four Network Time Protocol (NTP) servers.</li><li><code>netbios-name-servers</code> - The IP addresses of up to four NetBIOS name servers.</li><li><code>netbios-node-type</code> - The NetBIOS node type (1, 2, 4, or 8). We recommend that you specify 2 (broadcast and multicast are not currently supported). For more information about these node types, see <a href="http://www.ietf.org/rfc/rfc2132.txt">RFC 2132</a>. </li></ul>
 
 
-<p>For more information about DHCP options, see <a href="http://docs.aws.amazon.com/AmazonVPC/latest/UserGuide/VPC_DHCP_Options.html">DHCP Options Sets</a> in the <i>Amazon Virtual Private Cloud User Guide</i>.</p>
+<p>Your VPC automatically starts out with a set of DHCP options that includes only a DNS server that we provide (AmazonProvidedDNS). If you create a set of options, and if your VPC has an Internet gateway, make sure to set the <code>domain-name-servers</code> option either to <code>AmazonProvidedDNS</code> or to a domain name server of your choice. For more information about DHCP options, see <a href="http://docs.aws.amazon.com/AmazonVPC/latest/UserGuide/VPC_DHCP_Options.html">DHCP Options Sets</a> in the <i>Amazon Virtual Private Cloud User Guide</i>.</p>
 
 	</div>		
 	
@@ -3033,7 +3169,7 @@
 	
 	<div class="method-subsection return">
 		<h4 class="method-subtitle parameter-title">Return Value</h4>
-		<p>An instance of BFTask. On successful execution, task.result will contain an instance of AWSEC2CreateDhcpOptionsResult.</p>
+		<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSEC2CreateDhcpOptionsResult</code>.</p>
 	</div>
 	
 	
@@ -3102,7 +3238,7 @@
 	
 	<div class="method-subsection return">
 		<h4 class="method-subtitle parameter-title">Return Value</h4>
-		<p>An instance of BFTask. On successful execution, task.result will contain an instance of AWSEC2CreateImageResult.</p>
+		<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSEC2CreateImageResult</code>.</p>
 	</div>
 	
 	
@@ -3168,7 +3304,7 @@
 	
 	<div class="method-subsection return">
 		<h4 class="method-subtitle parameter-title">Return Value</h4>
-		<p>An instance of BFTask. On successful execution, task.result will contain an instance of AWSEC2CreateInstanceExportTaskResult.</p>
+		<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSEC2CreateInstanceExportTaskResult</code>.</p>
 	</div>
 	
 	
@@ -3210,7 +3346,7 @@
 		<p>Creates an Internet gateway for use with a VPC. After creating the Internet gateway, you attach it to a VPC using <a>AttachInternetGateway</a>.</p>
 
 
-<p>For more information about your VPC and Internet gateway, see the <a href="http://docs.&awsdomain;/AmazonVPC/latest/UserGuide/">Amazon Virtual Private Cloud User Guide</a>.</p>
+<p>For more information about your VPC and Internet gateway, see the <a href="http://docs.aws.amazon.com/AmazonVPC/latest/UserGuide/">Amazon Virtual Private Cloud User Guide</a>.</p>
 
 	</div>		
 	
@@ -3234,7 +3370,7 @@
 	
 	<div class="method-subsection return">
 		<h4 class="method-subtitle parameter-title">Return Value</h4>
-		<p>An instance of BFTask. On successful execution, task.result will contain an instance of AWSEC2CreateInternetGatewayResult.</p>
+		<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSEC2CreateInternetGatewayResult</code>.</p>
 	</div>
 	
 	
@@ -3279,6 +3415,9 @@
 <p>You can have up to five thousand key pairs per region.</p>
 
 
+<p>The key pair returned to you is available only in the region in which you create it. To create a key pair that is available in all regions, use <a>ImportKeyPair</a>.</p>
+
+
 <p>For more information about key pairs, see <a href="http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-key-pairs.html">Key Pairs</a> in the <i>Amazon Elastic Compute Cloud User Guide</i>.</p>
 
 	</div>		
@@ -3303,7 +3442,7 @@
 	
 	<div class="method-subsection return">
 		<h4 class="method-subtitle parameter-title">Return Value</h4>
-		<p>An instance of BFTask. On successful execution, task.result will contain an instance of AWSEC2KeyPair.</p>
+		<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSEC2KeyPair</code>.</p>
 	</div>
 	
 	
@@ -3369,7 +3508,7 @@
 	
 	<div class="method-subsection return">
 		<h4 class="method-subtitle parameter-title">Return Value</h4>
-		<p>An instance of BFTask. On successful execution, task.result will contain an instance of AWSEC2CreateNetworkAclResult.</p>
+		<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSEC2CreateNetworkAclResult</code>.</p>
 	</div>
 	
 	
@@ -3441,7 +3580,7 @@
 	
 	<div class="method-subsection return">
 		<h4 class="method-subtitle parameter-title">Return Value</h4>
-		<p>An instance of BFTask. On successful execution, task.result will be nil.</p>
+		<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will be <code>nil</code>.</p>
 	</div>
 	
 	
@@ -3505,7 +3644,7 @@
 	
 	<div class="method-subsection return">
 		<h4 class="method-subtitle parameter-title">Return Value</h4>
-		<p>An instance of BFTask. On successful execution, task.result will contain an instance of AWSEC2CreateNetworkInterfaceResult.</p>
+		<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSEC2CreateNetworkInterfaceResult</code>.</p>
 	</div>
 	
 	
@@ -3571,7 +3710,7 @@
 	
 	<div class="method-subsection return">
 		<h4 class="method-subtitle parameter-title">Return Value</h4>
-		<p>An instance of BFTask. On successful execution, task.result will be nil.</p>
+		<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will be <code>nil</code>.</p>
 	</div>
 	
 	
@@ -3608,7 +3747,13 @@
 	
 	
 	<div class="method-subsection brief-description">
-		<p>Creates a listing for Amazon EC2 Reserved Instances to be sold in the Reserved Instance Marketplace. You can submit one Reserved Instance listing at a time.</p>
+		<p>Creates a listing for Amazon EC2 Reserved Instances to be sold in the Reserved Instance Marketplace. You can submit one Reserved Instance listing at a time. To get a list of your Reserved Instances, you can use the <a>DescribeReservedInstances</a> operation.</p>
+
+
+<p>The Reserved Instance Marketplace matches sellers who want to resell Reserved Instance capacity that they no longer need with buyers who want to purchase additional capacity. Reserved Instances bought and sold through the Reserved Instance Marketplace work like any other Reserved Instances. </p>
+
+
+<p>To sell your Reserved Instances, you must first register as a Seller in the Reserved Instance Marketplace. After completing the registration process, you can create a Reserved Instance Marketplace listing of some or all of your Reserved Instances, and specify the upfront price to receive for them. Your Reserved Instance listings then become available for purchase. To view the details of your Reserved Instance listing, you can use the <a>DescribeReservedInstancesListings</a> operation.</p>
 
 
 <p>For more information, see <a href="http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ri-market-general.html">Reserved Instance Marketplace</a> in the <i>Amazon Elastic Compute Cloud User Guide</i>.</p>
@@ -3635,7 +3780,7 @@
 	
 	<div class="method-subsection return">
 		<h4 class="method-subtitle parameter-title">Return Value</h4>
-		<p>An instance of BFTask. On successful execution, task.result will contain an instance of AWSEC2CreateReservedInstancesListingResult.</p>
+		<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSEC2CreateReservedInstancesListingResult</code>.</p>
 	</div>
 	
 	
@@ -3677,7 +3822,7 @@
 		<p>Creates a route in a route table within a VPC.</p>
 
 
-<p>You must specify one of the following targets: Internet gateway, NAT instance, VPC peering connection, or network interface.</p>
+<p>You must specify one of the following targets: Internet gateway or virtual private gateway, NAT instance, VPC peering connection, or network interface.</p>
 
 
 <p>When determining how to route traffic, we use the route with the most specific match. For example, let's say the traffic is destined for <code>192.0.2.3</code>, and the route table includes the following two routes:</p>
@@ -3713,7 +3858,7 @@
 	
 	<div class="method-subsection return">
 		<h4 class="method-subtitle parameter-title">Return Value</h4>
-		<p>An instance of BFTask. On successful execution, task.result will be nil.</p>
+		<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will be <code>nil</code>.</p>
 	</div>
 	
 	
@@ -3777,7 +3922,7 @@
 	
 	<div class="method-subsection return">
 		<h4 class="method-subtitle parameter-title">Return Value</h4>
-		<p>An instance of BFTask. On successful execution, task.result will contain an instance of AWSEC2CreateRouteTableResult.</p>
+		<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSEC2CreateRouteTableResult</code>.</p>
 	</div>
 	
 	
@@ -3845,7 +3990,7 @@
 	
 	<div class="method-subsection return">
 		<h4 class="method-subtitle parameter-title">Return Value</h4>
-		<p>An instance of BFTask. On successful execution, task.result will contain an instance of AWSEC2CreateSecurityGroupResult.</p>
+		<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSEC2CreateSecurityGroupResult</code>.</p>
 	</div>
 	
 	
@@ -3923,7 +4068,7 @@
 	
 	<div class="method-subsection return">
 		<h4 class="method-subtitle parameter-title">Return Value</h4>
-		<p>An instance of BFTask. On successful execution, task.result will contain an instance of AWSEC2Snapshot.</p>
+		<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSEC2Snapshot</code>.</p>
 	</div>
 	
 	
@@ -3986,7 +4131,7 @@
 	
 	<div class="method-subsection return">
 		<h4 class="method-subtitle parameter-title">Return Value</h4>
-		<p>An instance of BFTask. On successful execution, task.result will contain an instance of AWSEC2CreateSpotDatafeedSubscriptionResult.</p>
+		<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSEC2CreateSpotDatafeedSubscriptionResult</code>.</p>
 	</div>
 	
 	
@@ -4031,7 +4176,7 @@
 <p>When you create each subnet, you provide the VPC ID and the CIDR block you want for the subnet. After you create a subnet, you can't change its CIDR block. The subnet's CIDR block can be the same as the VPC's CIDR block (assuming you want only a single subnet in the VPC), or a subset of the VPC's CIDR block. If you create more than one subnet in a VPC, the subnets' CIDR blocks must not overlap. The smallest subnet (and VPC) you can create uses a /28 netmask (16 IP addresses), and the largest uses a /16 netmask (65,536 IP addresses).</p>
 
 
-<p><important><p>AWS reserves both the first four and the last IP address in each subnet&rsquo;s CIDR block. They&rsquo;re not available for use.</p></important><p>If you add more than one subnet to a VPC, they&rsquo;re set up in a star topology with a logical router in the middle.</p><p>For more information about subnets, see <a href="http://docs.aws.amazon.com/AmazonVPC/latest/UserGuide/VPC_Subnets.html">Your VPC and Subnets</a> in the <i>Amazon Virtual Private Cloud User Guide</i>.</p></p>
+<p><important><p>AWS reserves both the first four and the last IP address in each subnet&rsquo;s CIDR block. They&rsquo;re not available for use.</p></important><p>If you add more than one subnet to a VPC, they&rsquo;re set up in a star topology with a logical router in the middle.</p><p>If you launch an instance in a VPC using an Amazon EBS-backed AMI, the IP address doesn&rsquo;t change if you stop and restart the instance (unlike a similar instance launched outside a VPC, which gets a new IP address when restarted). It&rsquo;s therefore possible to have a subnet with no running instances (they&rsquo;re all stopped), but no remaining IP addresses available.</p><p>For more information about subnets, see <a href="http://docs.aws.amazon.com/AmazonVPC/latest/UserGuide/VPC_Subnets.html">Your VPC and Subnets</a> in the <i>Amazon Virtual Private Cloud User Guide</i>.</p></p>
 	</div>		
 	
     
@@ -4054,7 +4199,7 @@
 	
 	<div class="method-subsection return">
 		<h4 class="method-subtitle parameter-title">Return Value</h4>
-		<p>An instance of BFTask. On successful execution, task.result will contain an instance of AWSEC2CreateSubnetResult.</p>
+		<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSEC2CreateSubnetResult</code>.</p>
 	</div>
 	
 	
@@ -4120,7 +4265,7 @@
 	
 	<div class="method-subsection return">
 		<h4 class="method-subtitle parameter-title">Return Value</h4>
-		<p>An instance of BFTask. On successful execution, task.result will be nil.</p>
+		<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will be <code>nil</code>.</p>
 	</div>
 	
 	
@@ -4190,7 +4335,7 @@
 	
 	<div class="method-subsection return">
 		<h4 class="method-subtitle parameter-title">Return Value</h4>
-		<p>An instance of BFTask. On successful execution, task.result will contain an instance of AWSEC2Volume.</p>
+		<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSEC2Volume</code>.</p>
 	</div>
 	
 	
@@ -4259,7 +4404,7 @@
 	
 	<div class="method-subsection return">
 		<h4 class="method-subtitle parameter-title">Return Value</h4>
-		<p>An instance of BFTask. On successful execution, task.result will contain an instance of AWSEC2CreateVpcResult.</p>
+		<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSEC2CreateVpcResult</code>.</p>
 	</div>
 	
 	
@@ -4328,7 +4473,7 @@
 	
 	<div class="method-subsection return">
 		<h4 class="method-subtitle parameter-title">Return Value</h4>
-		<p>An instance of BFTask. On successful execution, task.result will contain an instance of AWSEC2CreateVpcPeeringConnectionResult.</p>
+		<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSEC2CreateVpcPeeringConnectionResult</code>.</p>
 	</div>
 	
 	
@@ -4396,7 +4541,7 @@
 	
 	<div class="method-subsection return">
 		<h4 class="method-subtitle parameter-title">Return Value</h4>
-		<p>An instance of BFTask. On successful execution, task.result will contain an instance of AWSEC2CreateVpnConnectionResult.</p>
+		<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSEC2CreateVpnConnectionResult</code>.</p>
 	</div>
 	
 	
@@ -4462,7 +4607,7 @@
 	
 	<div class="method-subsection return">
 		<h4 class="method-subtitle parameter-title">Return Value</h4>
-		<p>An instance of BFTask. On successful execution, task.result will be nil.</p>
+		<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will be <code>nil</code>.</p>
 	</div>
 	
 	
@@ -4526,7 +4671,7 @@
 	
 	<div class="method-subsection return">
 		<h4 class="method-subtitle parameter-title">Return Value</h4>
-		<p>An instance of BFTask. On successful execution, task.result will contain an instance of AWSEC2CreateVpnGatewayResult.</p>
+		<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSEC2CreateVpnGatewayResult</code>.</p>
 	</div>
 	
 	
@@ -4589,7 +4734,7 @@
 	
 	<div class="method-subsection return">
 		<h4 class="method-subtitle parameter-title">Return Value</h4>
-		<p>An instance of BFTask. On successful execution, task.result will be nil.</p>
+		<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will be <code>nil</code>.</p>
 	</div>
 	
 	
@@ -4650,7 +4795,7 @@
 	
 	<div class="method-subsection return">
 		<h4 class="method-subtitle parameter-title">Return Value</h4>
-		<p>An instance of BFTask. On successful execution, task.result will be nil.</p>
+		<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will be <code>nil</code>.</p>
 	</div>
 	
 	
@@ -4711,7 +4856,7 @@
 	
 	<div class="method-subsection return">
 		<h4 class="method-subtitle parameter-title">Return Value</h4>
-		<p>An instance of BFTask. On successful execution, task.result will be nil.</p>
+		<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will be <code>nil</code>.</p>
 	</div>
 	
 	
@@ -4772,7 +4917,7 @@
 	
 	<div class="method-subsection return">
 		<h4 class="method-subtitle parameter-title">Return Value</h4>
-		<p>An instance of BFTask. On successful execution, task.result will be nil.</p>
+		<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will be <code>nil</code>.</p>
 	</div>
 	
 	
@@ -4833,7 +4978,7 @@
 	
 	<div class="method-subsection return">
 		<h4 class="method-subtitle parameter-title">Return Value</h4>
-		<p>An instance of BFTask. On successful execution, task.result will be nil.</p>
+		<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will be <code>nil</code>.</p>
 	</div>
 	
 	
@@ -4894,7 +5039,7 @@
 	
 	<div class="method-subsection return">
 		<h4 class="method-subtitle parameter-title">Return Value</h4>
-		<p>An instance of BFTask. On successful execution, task.result will be nil.</p>
+		<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will be <code>nil</code>.</p>
 	</div>
 	
 	
@@ -4955,7 +5100,7 @@
 	
 	<div class="method-subsection return">
 		<h4 class="method-subtitle parameter-title">Return Value</h4>
-		<p>An instance of BFTask. On successful execution, task.result will be nil.</p>
+		<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will be <code>nil</code>.</p>
 	</div>
 	
 	
@@ -5016,7 +5161,7 @@
 	
 	<div class="method-subsection return">
 		<h4 class="method-subtitle parameter-title">Return Value</h4>
-		<p>An instance of BFTask. On successful execution, task.result will be nil.</p>
+		<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will be <code>nil</code>.</p>
 	</div>
 	
 	
@@ -5077,7 +5222,7 @@
 	
 	<div class="method-subsection return">
 		<h4 class="method-subtitle parameter-title">Return Value</h4>
-		<p>An instance of BFTask. On successful execution, task.result will be nil.</p>
+		<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will be <code>nil</code>.</p>
 	</div>
 	
 	
@@ -5138,7 +5283,7 @@
 	
 	<div class="method-subsection return">
 		<h4 class="method-subtitle parameter-title">Return Value</h4>
-		<p>An instance of BFTask. On successful execution, task.result will be nil.</p>
+		<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will be <code>nil</code>.</p>
 	</div>
 	
 	
@@ -5202,7 +5347,7 @@
 	
 	<div class="method-subsection return">
 		<h4 class="method-subtitle parameter-title">Return Value</h4>
-		<p>An instance of BFTask. On successful execution, task.result will be nil.</p>
+		<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will be <code>nil</code>.</p>
 	</div>
 	
 	
@@ -5272,7 +5417,7 @@
 	
 	<div class="method-subsection return">
 		<h4 class="method-subtitle parameter-title">Return Value</h4>
-		<p>An instance of BFTask. On successful execution, task.result will be nil.</p>
+		<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will be <code>nil</code>.</p>
 	</div>
 	
 	
@@ -5333,7 +5478,7 @@
 	
 	<div class="method-subsection return">
 		<h4 class="method-subtitle parameter-title">Return Value</h4>
-		<p>An instance of BFTask. On successful execution, task.result will be nil.</p>
+		<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will be <code>nil</code>.</p>
 	</div>
 	
 	
@@ -5394,7 +5539,7 @@
 	
 	<div class="method-subsection return">
 		<h4 class="method-subtitle parameter-title">Return Value</h4>
-		<p>An instance of BFTask. On successful execution, task.result will be nil.</p>
+		<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will be <code>nil</code>.</p>
 	</div>
 	
 	
@@ -5458,7 +5603,7 @@
 	
 	<div class="method-subsection return">
 		<h4 class="method-subtitle parameter-title">Return Value</h4>
-		<p>An instance of BFTask. On successful execution, task.result will be nil.</p>
+		<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will be <code>nil</code>.</p>
 	</div>
 	
 	
@@ -5498,8 +5643,7 @@
 		<p>Deletes the specified Amazon EBS volume. The volume must be in the <code>available</code> state (not attached to an instance).</p>
 
 
-<p>For more information, see <a href="http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ebs-deleting-volume.html">Deleting an Amazon EBS Volume</a> in the <i>Amazon Elastic Compute Cloud User Guide</i>.</p>
-
+<p><note><p>The volume may remain in the <code>deleting</code> state for several minutes.</p></note><p>For more information, see <a href="http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ebs-deleting-volume.html">Deleting an Amazon EBS Volume</a> in the <i>Amazon Elastic Compute Cloud User Guide</i>.</p></p>
 	</div>		
 	
     
@@ -5522,7 +5666,7 @@
 	
 	<div class="method-subsection return">
 		<h4 class="method-subtitle parameter-title">Return Value</h4>
-		<p>An instance of BFTask. On successful execution, task.result will be nil.</p>
+		<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will be <code>nil</code>.</p>
 	</div>
 	
 	
@@ -5583,7 +5727,7 @@
 	
 	<div class="method-subsection return">
 		<h4 class="method-subtitle parameter-title">Return Value</h4>
-		<p>An instance of BFTask. On successful execution, task.result will be nil.</p>
+		<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will be <code>nil</code>.</p>
 	</div>
 	
 	
@@ -5620,7 +5764,7 @@
 	
 	
 	<div class="method-subsection brief-description">
-		<p>Deletes a VPC peering connection. Either the owner of the requester VPC or the owner of the peer VPC can delete the VPC peering connection if it's in the <code>active</code> state. The owner of the requester VPC can delete a VPC peering connection in the <code>pending-acceptance</code> state.</p>
+		<p>Deletes a VPC peering connection. Either the owner of the requester VPC or the owner of the peer VPC can delete the VPC peering connection if it's in the <code>active</code> state. The owner of the requester VPC can delete a VPC peering connection in the <code>pending-acceptance</code> state. </p>
 
 	</div>		
 	
@@ -5644,7 +5788,7 @@
 	
 	<div class="method-subsection return">
 		<h4 class="method-subtitle parameter-title">Return Value</h4>
-		<p>An instance of BFTask. On successful execution, task.result will contain an instance of AWSEC2DeleteVpcPeeringConnectionResult.</p>
+		<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSEC2DeleteVpcPeeringConnectionResult</code>.</p>
 	</div>
 	
 	
@@ -5686,7 +5830,7 @@
 		<p>Deletes the specified VPN connection.</p>
 
 
-<p>If you're deleting the VPC and its associated components, we recommend that you detach the virtual private gateway from the VPC and delete the VPC before deleting the VPN connection.</p>
+<p>If you're deleting the VPC and its associated components, we recommend that you detach the virtual private gateway from the VPC and delete the VPC before deleting the VPN connection. If you believe that the tunnel credentials for your VPN connection have been compromised, you can delete the VPN connection and create a new one that has new keys, without needing to delete the VPC or virtual private gateway. If you create a new VPN connection, you must reconfigure the customer gateway using the new configuration information returned with the new VPN connection ID.</p>
 
 	</div>		
 	
@@ -5710,7 +5854,7 @@
 	
 	<div class="method-subsection return">
 		<h4 class="method-subtitle parameter-title">Return Value</h4>
-		<p>An instance of BFTask. On successful execution, task.result will be nil.</p>
+		<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will be <code>nil</code>.</p>
 	</div>
 	
 	
@@ -5771,7 +5915,7 @@
 	
 	<div class="method-subsection return">
 		<h4 class="method-subtitle parameter-title">Return Value</h4>
-		<p>An instance of BFTask. On successful execution, task.result will be nil.</p>
+		<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will be <code>nil</code>.</p>
 	</div>
 	
 	
@@ -5832,7 +5976,7 @@
 	
 	<div class="method-subsection return">
 		<h4 class="method-subtitle parameter-title">Return Value</h4>
-		<p>An instance of BFTask. On successful execution, task.result will be nil.</p>
+		<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will be <code>nil</code>.</p>
 	</div>
 	
 	
@@ -5896,7 +6040,7 @@
 	
 	<div class="method-subsection return">
 		<h4 class="method-subtitle parameter-title">Return Value</h4>
-		<p>An instance of BFTask. On successful execution, task.result will be nil.</p>
+		<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will be <code>nil</code>.</p>
 	</div>
 	
 	
@@ -5957,7 +6101,7 @@
 	
 	<div class="method-subsection return">
 		<h4 class="method-subtitle parameter-title">Return Value</h4>
-		<p>An instance of BFTask. On successful execution, task.result will contain an instance of AWSEC2DescribeAccountAttributesResult.</p>
+		<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSEC2DescribeAccountAttributesResult</code>.</p>
 	</div>
 	
 	
@@ -6023,7 +6167,7 @@
 	
 	<div class="method-subsection return">
 		<h4 class="method-subtitle parameter-title">Return Value</h4>
-		<p>An instance of BFTask. On successful execution, task.result will contain an instance of AWSEC2DescribeAddressesResult.</p>
+		<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSEC2DescribeAddressesResult</code>.</p>
 	</div>
 	
 	
@@ -6089,7 +6233,7 @@
 	
 	<div class="method-subsection return">
 		<h4 class="method-subtitle parameter-title">Return Value</h4>
-		<p>An instance of BFTask. On successful execution, task.result will contain an instance of AWSEC2DescribeAvailabilityZonesResult.</p>
+		<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSEC2DescribeAvailabilityZonesResult</code>.</p>
 	</div>
 	
 	
@@ -6130,6 +6274,8 @@
 	<div class="method-subsection brief-description">
 		<p>Describes one or more of your bundling tasks.</p>
 
+
+<p><note><p>Completed bundle tasks are listed for only a limited time. If your bundle task is no longer in the list, you can still register an AMI from it. Just use <code>RegisterImage</code> with the Amazon S3 bucket name and image manifest name you provided to the bundle task.</p></note></p>
 	</div>		
 	
     
@@ -6152,7 +6298,7 @@
 	
 	<div class="method-subsection return">
 		<h4 class="method-subtitle parameter-title">Return Value</h4>
-		<p>An instance of BFTask. On successful execution, task.result will contain an instance of AWSEC2DescribeBundleTasksResult.</p>
+		<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSEC2DescribeBundleTasksResult</code>.</p>
 	</div>
 	
 	
@@ -6215,7 +6361,7 @@
 	
 	<div class="method-subsection return">
 		<h4 class="method-subtitle parameter-title">Return Value</h4>
-		<p>An instance of BFTask. On successful execution, task.result will contain an instance of AWSEC2DescribeConversionTasksResult.</p>
+		<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSEC2DescribeConversionTasksResult</code>.</p>
 	</div>
 	
 	
@@ -6281,7 +6427,7 @@
 	
 	<div class="method-subsection return">
 		<h4 class="method-subtitle parameter-title">Return Value</h4>
-		<p>An instance of BFTask. On successful execution, task.result will contain an instance of AWSEC2DescribeCustomerGatewaysResult.</p>
+		<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSEC2DescribeCustomerGatewaysResult</code>.</p>
 	</div>
 	
 	
@@ -6347,7 +6493,7 @@
 	
 	<div class="method-subsection return">
 		<h4 class="method-subtitle parameter-title">Return Value</h4>
-		<p>An instance of BFTask. On successful execution, task.result will contain an instance of AWSEC2DescribeDhcpOptionsResult.</p>
+		<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSEC2DescribeDhcpOptionsResult</code>.</p>
 	</div>
 	
 	
@@ -6410,7 +6556,7 @@
 	
 	<div class="method-subsection return">
 		<h4 class="method-subtitle parameter-title">Return Value</h4>
-		<p>An instance of BFTask. On successful execution, task.result will contain an instance of AWSEC2DescribeExportTasksResult.</p>
+		<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSEC2DescribeExportTasksResult</code>.</p>
 	</div>
 	
 	
@@ -6473,7 +6619,7 @@
 	
 	<div class="method-subsection return">
 		<h4 class="method-subtitle parameter-title">Return Value</h4>
-		<p>An instance of BFTask. On successful execution, task.result will contain an instance of AWSEC2ImageAttribute.</p>
+		<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSEC2ImageAttribute</code>.</p>
 	</div>
 	
 	
@@ -6514,6 +6660,8 @@
 	<div class="method-subsection brief-description">
 		<p>Describes one or more of the images (AMIs, AKIs, and ARIs) available to you. Images available to you include public images, private images that you own, and private images owned by other AWS accounts but for which you have explicit launch permissions.</p>
 
+
+<p><note><p>Deregistered images are included in the returned results for an unspecified interval after deregistration.</p></note></p>
 	</div>		
 	
     
@@ -6536,7 +6684,7 @@
 	
 	<div class="method-subsection return">
 		<h4 class="method-subtitle parameter-title">Return Value</h4>
-		<p>An instance of BFTask. On successful execution, task.result will contain an instance of AWSEC2DescribeImagesResult.</p>
+		<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSEC2DescribeImagesResult</code>.</p>
 	</div>
 	
 	
@@ -6575,7 +6723,7 @@
 	
 	
 	<div class="method-subsection brief-description">
-		<p>Describes the specified attribute of the specified instance. You can specify only one attribute at a time.</p>
+		<p>Describes the specified attribute of the specified instance. You can specify only one attribute at a time. Valid attribute values are: <code>instanceType</code> | <code>kernel</code> | <code>ramdisk</code> | <code>userData</code> | <code>disableApiTermination</code> | <code>instanceInitiatedShutdownBehavior</code> | <code>rootDeviceName</code> | <code>blockDeviceMapping</code> | <code>productCodes</code> | <code>sourceDestCheck</code> | <code>groupSet</code> | <code>ebsOptimized</code> | <code>sriovNetSupport</code></p>
 
 	</div>		
 	
@@ -6599,7 +6747,7 @@
 	
 	<div class="method-subsection return">
 		<h4 class="method-subtitle parameter-title">Return Value</h4>
-		<p>An instance of BFTask. On successful execution, task.result will contain an instance of AWSEC2InstanceAttribute.</p>
+		<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSEC2InstanceAttribute</code>.</p>
 	</div>
 	
 	
@@ -6680,7 +6828,7 @@
 	
 	<div class="method-subsection return">
 		<h4 class="method-subtitle parameter-title">Return Value</h4>
-		<p>An instance of BFTask. On successful execution, task.result will contain an instance of AWSEC2DescribeInstanceStatusResult.</p>
+		<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSEC2DescribeInstanceStatusResult</code>.</p>
 	</div>
 	
 	
@@ -6749,7 +6897,7 @@
 	
 	<div class="method-subsection return">
 		<h4 class="method-subtitle parameter-title">Return Value</h4>
-		<p>An instance of BFTask. On successful execution, task.result will contain an instance of AWSEC2DescribeInstancesResult.</p>
+		<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSEC2DescribeInstancesResult</code>.</p>
 	</div>
 	
 	
@@ -6812,7 +6960,7 @@
 	
 	<div class="method-subsection return">
 		<h4 class="method-subtitle parameter-title">Return Value</h4>
-		<p>An instance of BFTask. On successful execution, task.result will contain an instance of AWSEC2DescribeInternetGatewaysResult.</p>
+		<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSEC2DescribeInternetGatewaysResult</code>.</p>
 	</div>
 	
 	
@@ -6878,7 +7026,7 @@
 	
 	<div class="method-subsection return">
 		<h4 class="method-subtitle parameter-title">Return Value</h4>
-		<p>An instance of BFTask. On successful execution, task.result will contain an instance of AWSEC2DescribeKeyPairsResult.</p>
+		<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSEC2DescribeKeyPairsResult</code>.</p>
 	</div>
 	
 	
@@ -6944,7 +7092,7 @@
 	
 	<div class="method-subsection return">
 		<h4 class="method-subtitle parameter-title">Return Value</h4>
-		<p>An instance of BFTask. On successful execution, task.result will contain an instance of AWSEC2DescribeNetworkAclsResult.</p>
+		<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSEC2DescribeNetworkAclsResult</code>.</p>
 	</div>
 	
 	
@@ -7007,7 +7155,7 @@
 	
 	<div class="method-subsection return">
 		<h4 class="method-subtitle parameter-title">Return Value</h4>
-		<p>An instance of BFTask. On successful execution, task.result will contain an instance of AWSEC2DescribeNetworkInterfaceAttributeResult.</p>
+		<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSEC2DescribeNetworkInterfaceAttributeResult</code>.</p>
 	</div>
 	
 	
@@ -7070,7 +7218,7 @@
 	
 	<div class="method-subsection return">
 		<h4 class="method-subtitle parameter-title">Return Value</h4>
-		<p>An instance of BFTask. On successful execution, task.result will contain an instance of AWSEC2DescribeNetworkInterfacesResult.</p>
+		<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSEC2DescribeNetworkInterfacesResult</code>.</p>
 	</div>
 	
 	
@@ -7133,7 +7281,7 @@
 	
 	<div class="method-subsection return">
 		<h4 class="method-subtitle parameter-title">Return Value</h4>
-		<p>An instance of BFTask. On successful execution, task.result will contain an instance of AWSEC2DescribePlacementGroupsResult.</p>
+		<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSEC2DescribePlacementGroupsResult</code>.</p>
 	</div>
 	
 	
@@ -7199,7 +7347,7 @@
 	
 	<div class="method-subsection return">
 		<h4 class="method-subtitle parameter-title">Return Value</h4>
-		<p>An instance of BFTask. On successful execution, task.result will contain an instance of AWSEC2DescribeRegionsResult.</p>
+		<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSEC2DescribeRegionsResult</code>.</p>
 	</div>
 	
 	
@@ -7265,7 +7413,7 @@
 	
 	<div class="method-subsection return">
 		<h4 class="method-subtitle parameter-title">Return Value</h4>
-		<p>An instance of BFTask. On successful execution, task.result will contain an instance of AWSEC2DescribeReservedInstancesResult.</p>
+		<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSEC2DescribeReservedInstancesResult</code>.</p>
 	</div>
 	
 	
@@ -7307,6 +7455,15 @@
 		<p>Describes your account's Reserved Instance listings in the Reserved Instance Marketplace.</p>
 
 
+<p>The Reserved Instance Marketplace matches sellers who want to resell Reserved Instance capacity that they no longer need with buyers who want to purchase additional capacity. Reserved Instances bought and sold through the Reserved Instance Marketplace work like any other Reserved Instances. </p>
+
+
+<p>As a seller, you choose to list some or all of your Reserved Instances, and you specify the upfront price to receive for them. Your Reserved Instances are then listed in the Reserved Instance Marketplace and are available for purchase. </p>
+
+
+<p>As a buyer, you specify the configuration of the Reserved Instance to purchase, and the Marketplace matches what you're searching for with what's available. The Marketplace first sells the lowest priced Reserved Instances to you, and continues to sell available Reserved Instance listings to you until your demand is met. You are charged based on the total price of all of the listings that you purchase.</p>
+
+
 <p>For more information, see <a href="http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ri-market-general.html">Reserved Instance Marketplace</a> in the <i>Amazon Elastic Compute Cloud User Guide</i>.</p>
 
 	</div>		
@@ -7331,7 +7488,7 @@
 	
 	<div class="method-subsection return">
 		<h4 class="method-subtitle parameter-title">Return Value</h4>
-		<p>An instance of BFTask. On successful execution, task.result will contain an instance of AWSEC2DescribeReservedInstancesListingsResult.</p>
+		<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSEC2DescribeReservedInstancesListingsResult</code>.</p>
 	</div>
 	
 	
@@ -7372,6 +7529,9 @@
 	<div class="method-subsection brief-description">
 		<p>Describes the modifications made to your Reserved Instances. If no parameter is specified, information about all your Reserved Instances modification requests is returned. If a modification ID is specified, only information about the specific modification is returned.</p>
 
+
+<p>For more information, see <a href="http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ri-modifying.html">Modifying Reserved Instances</a> in the Amazon Elastic Compute Cloud User Guide.</p>
+
 	</div>		
 	
     
@@ -7394,7 +7554,7 @@
 	
 	<div class="method-subsection return">
 		<h4 class="method-subtitle parameter-title">Return Value</h4>
-		<p>An instance of BFTask. On successful execution, task.result will contain an instance of AWSEC2DescribeReservedInstancesModificationsResult.</p>
+		<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSEC2DescribeReservedInstancesModificationsResult</code>.</p>
 	</div>
 	
 	
@@ -7460,7 +7620,7 @@
 	
 	<div class="method-subsection return">
 		<h4 class="method-subtitle parameter-title">Return Value</h4>
-		<p>An instance of BFTask. On successful execution, task.result will contain an instance of AWSEC2DescribeReservedInstancesOfferingsResult.</p>
+		<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSEC2DescribeReservedInstancesOfferingsResult</code>.</p>
 	</div>
 	
 	
@@ -7526,7 +7686,7 @@
 	
 	<div class="method-subsection return">
 		<h4 class="method-subtitle parameter-title">Return Value</h4>
-		<p>An instance of BFTask. On successful execution, task.result will contain an instance of AWSEC2DescribeRouteTablesResult.</p>
+		<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSEC2DescribeRouteTablesResult</code>.</p>
 	</div>
 	
 	
@@ -7592,7 +7752,7 @@
 	
 	<div class="method-subsection return">
 		<h4 class="method-subtitle parameter-title">Return Value</h4>
-		<p>An instance of BFTask. On successful execution, task.result will contain an instance of AWSEC2DescribeSecurityGroupsResult.</p>
+		<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSEC2DescribeSecurityGroupsResult</code>.</p>
 	</div>
 	
 	
@@ -7634,7 +7794,7 @@
 		<p>Describes the specified attribute of the specified snapshot. You can specify only one attribute at a time.</p>
 
 
-<p>For more information about Amazon EBS snapshots, see <a href='http://docs.&awsdomain;/AWSEC2/latest/UserGuide/EBSSnapshots.html'>Amazon EBS Snapshots</a> in the <i>Amazon Elastic Compute Cloud User Guide</i>.</p>
+<p>For more information about Amazon EBS snapshots, see <a href='http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/EBSSnapshots.html'>Amazon EBS Snapshots</a> in the <i>Amazon Elastic Compute Cloud User Guide</i>.</p>
 
 	</div>		
 	
@@ -7658,7 +7818,7 @@
 	
 	<div class="method-subsection return">
 		<h4 class="method-subtitle parameter-title">Return Value</h4>
-		<p>An instance of BFTask. On successful execution, task.result will contain an instance of AWSEC2DescribeSnapshotAttributeResult.</p>
+		<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSEC2DescribeSnapshotAttributeResult</code>.</p>
 	</div>
 	
 	
@@ -7718,7 +7878,7 @@
 <p>If you specify a list of restorable users, only snapshots with create snapshot permissions for those users are returned. You can specify AWS account IDs (if you own the snapshots), <code>self</code> for snapshots for which you own or have explicit permissions, or <code>all</code> for public snapshots.</p>
 
 
-<p>For more information about Amazon EBS snapshots, see <a href='http://docs.&awsdomain;/AWSEC2/latest/UserGuide/EBSSnapshots.html'>Amazon EBS Snapshots</a> in the <i>Amazon Elastic Compute Cloud User Guide</i>.</p>
+<p>For more information about Amazon EBS snapshots, see <a href='http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/EBSSnapshots.html'>Amazon EBS Snapshots</a> in the <i>Amazon Elastic Compute Cloud User Guide</i>.</p>
 
 	</div>		
 	
@@ -7742,7 +7902,7 @@
 	
 	<div class="method-subsection return">
 		<h4 class="method-subtitle parameter-title">Return Value</h4>
-		<p>An instance of BFTask. On successful execution, task.result will contain an instance of AWSEC2DescribeSnapshotsResult.</p>
+		<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSEC2DescribeSnapshotsResult</code>.</p>
 	</div>
 	
 	
@@ -7805,7 +7965,7 @@
 	
 	<div class="method-subsection return">
 		<h4 class="method-subtitle parameter-title">Return Value</h4>
-		<p>An instance of BFTask. On successful execution, task.result will contain an instance of AWSEC2DescribeSpotDatafeedSubscriptionResult.</p>
+		<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSEC2DescribeSpotDatafeedSubscriptionResult</code>.</p>
 	</div>
 	
 	
@@ -7819,6 +7979,8 @@
 	<div class="method-subsection see-also-section">
 		<h4 class="method-subtitle">See Also</h4>
 		<ul>
+			
+			<li><code><p><a href="../Classes/AWSEC2DescribeSpotDatafeedSubscriptionRequest.html">AWSEC2DescribeSpotDatafeedSubscriptionRequest</a></p></code></li>
 			
 			<li><code><p><a href="../Classes/AWSEC2DescribeSpotDatafeedSubscriptionResult.html">AWSEC2DescribeSpotDatafeedSubscriptionResult</a></p></code></li>
 			
@@ -7869,7 +8031,7 @@
 	
 	<div class="method-subsection return">
 		<h4 class="method-subtitle parameter-title">Return Value</h4>
-		<p>An instance of BFTask. On successful execution, task.result will contain an instance of AWSEC2DescribeSpotInstanceRequestsResult.</p>
+		<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSEC2DescribeSpotInstanceRequestsResult</code>.</p>
 	</div>
 	
 	
@@ -7913,6 +8075,9 @@
 
 <p>When you specify an Availability Zone, this operation describes the price history for the specified Availability Zone with the most recent set of prices listed first. If you don't specify an Availability Zone, you get the prices across all Availability Zones, starting with the most recent set. However, if you're using an API version earlier than 2011-05-15, you get the lowest price across the region for the specified time period. The prices returned are listed in chronological order, from the oldest to the most recent.</p>
 
+
+<p>When you specify the start and end time options, this operation returns two pieces of data: the prices of the instance types within the time range that you specified and the time when the price changed. The price is valid within the time period that you specified; the response merely indicates the last time that the price changed.</p>
+
 	</div>		
 	
     
@@ -7935,7 +8100,7 @@
 	
 	<div class="method-subsection return">
 		<h4 class="method-subtitle parameter-title">Return Value</h4>
-		<p>An instance of BFTask. On successful execution, task.result will contain an instance of AWSEC2DescribeSpotPriceHistoryResult.</p>
+		<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSEC2DescribeSpotPriceHistoryResult</code>.</p>
 	</div>
 	
 	
@@ -8001,7 +8166,7 @@
 	
 	<div class="method-subsection return">
 		<h4 class="method-subtitle parameter-title">Return Value</h4>
-		<p>An instance of BFTask. On successful execution, task.result will contain an instance of AWSEC2DescribeSubnetsResult.</p>
+		<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSEC2DescribeSubnetsResult</code>.</p>
 	</div>
 	
 	
@@ -8067,7 +8232,7 @@
 	
 	<div class="method-subsection return">
 		<h4 class="method-subtitle parameter-title">Return Value</h4>
-		<p>An instance of BFTask. On successful execution, task.result will contain an instance of AWSEC2DescribeTagsResult.</p>
+		<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSEC2DescribeTagsResult</code>.</p>
 	</div>
 	
 	
@@ -8109,7 +8274,7 @@
 		<p>Describes the specified attribute of the specified volume. You can specify only one attribute at a time.</p>
 
 
-<p>For more information about Amazon EBS volumes, see <a href='http://docs.&awsdomain;/AWSEC2/latest/UserGuide/EBSVolumes.html'>Amazon EBS Volumes</a> in the <i>Amazon Elastic Compute Cloud User Guide</i>.</p>
+<p>For more information about Amazon EBS volumes, see <a href='http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/EBSVolumes.html'>Amazon EBS Volumes</a> in the <i>Amazon Elastic Compute Cloud User Guide</i>.</p>
 
 	</div>		
 	
@@ -8133,7 +8298,7 @@
 	
 	<div class="method-subsection return">
 		<h4 class="method-subtitle parameter-title">Return Value</h4>
-		<p>An instance of BFTask. On successful execution, task.result will contain an instance of AWSEC2DescribeVolumeAttributeResult.</p>
+		<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSEC2DescribeVolumeAttributeResult</code>.</p>
 	</div>
 	
 	
@@ -8186,6 +8351,8 @@
 
 <p><i>Actions</i>: Reflect the actions you may have to take in response to an event. For example, if the status of the volume is <code>impaired</code> and the volume event shows <code>potential-data-inconsistency</code>, then the action shows <code>enable-volume-io</code>. This means that you may want to enable the I/O operations for the volume by calling the <a>EnableVolumeIO</a> action and then check the volume for data consistency.</p>
 
+
+<p><note><p>Volume status is based on the volume status checks, and does not reflect the volume state. Therefore, volume status does not indicate volumes in the <code>error</code> state (for example, when a volume is incapable of accepting I/O.)</p></note></p>
 	</div>		
 	
     
@@ -8208,7 +8375,7 @@
 	
 	<div class="method-subsection return">
 		<h4 class="method-subtitle parameter-title">Return Value</h4>
-		<p>An instance of BFTask. On successful execution, task.result will contain an instance of AWSEC2DescribeVolumeStatusResult.</p>
+		<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSEC2DescribeVolumeStatusResult</code>.</p>
 	</div>
 	
 	
@@ -8250,7 +8417,10 @@
 		<p>Describes the specified Amazon EBS volumes.</p>
 
 
-<p>For more information about Amazon EBS volumes, see <a href='http://docs.&awsdomain;/AWSEC2/latest/UserGuide/EBSVolumes.html'>Amazon EBS Volumes</a> in the <i>Amazon Elastic Compute Cloud User Guide</i>.</p>
+<p>If you are describing a long list of volumes, you can paginate the output to make the list more manageable. The <code>MaxResults</code> parameter sets the maximum number of results returned in a single page. If the list of results exceeds your <code>MaxResults</code> value, then that number of results is returned along with a <code>NextToken</code> value that can be passed to a subsequent <code>DescribeVolumes</code> request to retrieve the remaining results.</p>
+
+
+<p>For more information about Amazon EBS volumes, see <a href='http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/EBSVolumes.html'>Amazon EBS Volumes</a> in the <i>Amazon Elastic Compute Cloud User Guide</i>.</p>
 
 	</div>		
 	
@@ -8274,7 +8444,7 @@
 	
 	<div class="method-subsection return">
 		<h4 class="method-subtitle parameter-title">Return Value</h4>
-		<p>An instance of BFTask. On successful execution, task.result will contain an instance of AWSEC2DescribeVolumesResult.</p>
+		<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSEC2DescribeVolumesResult</code>.</p>
 	</div>
 	
 	
@@ -8337,7 +8507,7 @@
 	
 	<div class="method-subsection return">
 		<h4 class="method-subtitle parameter-title">Return Value</h4>
-		<p>An instance of BFTask. On successful execution, task.result will contain an instance of AWSEC2DescribeVpcAttributeResult.</p>
+		<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSEC2DescribeVpcAttributeResult</code>.</p>
 	</div>
 	
 	
@@ -8400,7 +8570,7 @@
 	
 	<div class="method-subsection return">
 		<h4 class="method-subtitle parameter-title">Return Value</h4>
-		<p>An instance of BFTask. On successful execution, task.result will contain an instance of AWSEC2DescribeVpcPeeringConnectionsResult.</p>
+		<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSEC2DescribeVpcPeeringConnectionsResult</code>.</p>
 	</div>
 	
 	
@@ -8463,7 +8633,7 @@
 	
 	<div class="method-subsection return">
 		<h4 class="method-subtitle parameter-title">Return Value</h4>
-		<p>An instance of BFTask. On successful execution, task.result will contain an instance of AWSEC2DescribeVpcsResult.</p>
+		<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSEC2DescribeVpcsResult</code>.</p>
 	</div>
 	
 	
@@ -8529,7 +8699,7 @@
 	
 	<div class="method-subsection return">
 		<h4 class="method-subtitle parameter-title">Return Value</h4>
-		<p>An instance of BFTask. On successful execution, task.result will contain an instance of AWSEC2DescribeVpnConnectionsResult.</p>
+		<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSEC2DescribeVpnConnectionsResult</code>.</p>
 	</div>
 	
 	
@@ -8595,7 +8765,7 @@
 	
 	<div class="method-subsection return">
 		<h4 class="method-subtitle parameter-title">Return Value</h4>
-		<p>An instance of BFTask. On successful execution, task.result will contain an instance of AWSEC2DescribeVpnGatewaysResult.</p>
+		<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSEC2DescribeVpnGatewaysResult</code>.</p>
 	</div>
 	
 	
@@ -8658,7 +8828,7 @@
 	
 	<div class="method-subsection return">
 		<h4 class="method-subtitle parameter-title">Return Value</h4>
-		<p>An instance of BFTask. On successful execution, task.result will be nil.</p>
+		<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will be <code>nil</code>.</p>
 	</div>
 	
 	
@@ -8719,7 +8889,7 @@
 	
 	<div class="method-subsection return">
 		<h4 class="method-subtitle parameter-title">Return Value</h4>
-		<p>An instance of BFTask. On successful execution, task.result will be nil.</p>
+		<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will be <code>nil</code>.</p>
 	</div>
 	
 	
@@ -8789,7 +8959,7 @@
 	
 	<div class="method-subsection return">
 		<h4 class="method-subtitle parameter-title">Return Value</h4>
-		<p>An instance of BFTask. On successful execution, task.result will contain an instance of AWSEC2VolumeAttachment.</p>
+		<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSEC2VolumeAttachment</code>.</p>
 	</div>
 	
 	
@@ -8855,7 +9025,7 @@
 	
 	<div class="method-subsection return">
 		<h4 class="method-subtitle parameter-title">Return Value</h4>
-		<p>An instance of BFTask. On successful execution, task.result will be nil.</p>
+		<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will be <code>nil</code>.</p>
 	</div>
 	
 	
@@ -8892,7 +9062,7 @@
 	
 	
 	<div class="method-subsection brief-description">
-		<p>Disables a virtual private gateway (VGW) from propagating routes to the routing tables of a VPC.</p>
+		<p>Disables a virtual private gateway (VGW) from propagating routes to a specified route table of a VPC.</p>
 
 	</div>		
 	
@@ -8916,7 +9086,7 @@
 	
 	<div class="method-subsection return">
 		<h4 class="method-subtitle parameter-title">Return Value</h4>
-		<p>An instance of BFTask. On successful execution, task.result will be nil.</p>
+		<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will be <code>nil</code>.</p>
 	</div>
 	
 	
@@ -8956,6 +9126,9 @@
 		<p>Disassociates an Elastic IP address from the instance or network interface it's associated with.</p>
 
 
+<p>An Elastic IP address is for use in either the EC2-Classic platform or in a VPC. For more information, see <a href="http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/elastic-ip-addresses-eip.html">Elastic IP Addresses</a> in the <i>Amazon Elastic Compute Cloud User Guide</i>.</p>
+
+
 <p>This is an idempotent operation. If you perform the operation more than once, Amazon EC2 doesn't return an error.</p>
 
 	</div>		
@@ -8980,7 +9153,7 @@
 	
 	<div class="method-subsection return">
 		<h4 class="method-subtitle parameter-title">Return Value</h4>
-		<p>An instance of BFTask. On successful execution, task.result will be nil.</p>
+		<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will be <code>nil</code>.</p>
 	</div>
 	
 	
@@ -9044,7 +9217,7 @@
 	
 	<div class="method-subsection return">
 		<h4 class="method-subtitle parameter-title">Return Value</h4>
-		<p>An instance of BFTask. On successful execution, task.result will be nil.</p>
+		<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will be <code>nil</code>.</p>
 	</div>
 	
 	
@@ -9081,7 +9254,7 @@
 	
 	
 	<div class="method-subsection brief-description">
-		<p>Enables a virtual private gateway (VGW) to propagate routes to the routing tables of a VPC.</p>
+		<p>Enables a virtual private gateway (VGW) to propagate routes to the specified route table of a VPC.</p>
 
 	</div>		
 	
@@ -9105,7 +9278,7 @@
 	
 	<div class="method-subsection return">
 		<h4 class="method-subtitle parameter-title">Return Value</h4>
-		<p>An instance of BFTask. On successful execution, task.result will be nil.</p>
+		<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will be <code>nil</code>.</p>
 	</div>
 	
 	
@@ -9166,7 +9339,7 @@
 	
 	<div class="method-subsection return">
 		<h4 class="method-subtitle parameter-title">Return Value</h4>
-		<p>An instance of BFTask. On successful execution, task.result will be nil.</p>
+		<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will be <code>nil</code>.</p>
 	</div>
 	
 	
@@ -9239,7 +9412,7 @@
 	
 	<div class="method-subsection return">
 		<h4 class="method-subtitle parameter-title">Return Value</h4>
-		<p>An instance of BFTask. On successful execution, task.result will contain an instance of AWSEC2GetConsoleOutputResult.</p>
+		<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSEC2GetConsoleOutputResult</code>.</p>
 	</div>
 	
 	
@@ -9281,7 +9454,7 @@
 		<p>Retrieves the encrypted administrator password for an instance running Windows.</p>
 
 
-<p>The Windows password is only generated the first time an AMI is launched. It is not generated for rebundled AMIs or after the password is changed on an instance.</p>
+<p>The Windows password is generated at boot if the <code>EC2Config</code> service plugin, <code>Ec2SetPassword</code>, is enabled. This usually only happens the first time an AMI is launched, and then <code>Ec2SetPassword</code> is automatically disabled. The password is not generated for rebundled AMIs unless <code>Ec2SetPassword</code> is enabled before bundling.</p>
 
 
 <p>The password is encrypted using the key pair that you specified when you launched the instance. You must provide the corresponding key pair file.</p>
@@ -9311,7 +9484,7 @@
 	
 	<div class="method-subsection return">
 		<h4 class="method-subtitle parameter-title">Return Value</h4>
-		<p>An instance of BFTask. On successful execution, task.result will contain an instance of AWSEC2GetPasswordDataResult.</p>
+		<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSEC2GetPasswordDataResult</code>.</p>
 	</div>
 	
 	
@@ -9374,7 +9547,7 @@
 	
 	<div class="method-subsection return">
 		<h4 class="method-subtitle parameter-title">Return Value</h4>
-		<p>An instance of BFTask. On successful execution, task.result will contain an instance of AWSEC2ImportInstanceResult.</p>
+		<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSEC2ImportInstanceResult</code>.</p>
 	</div>
 	
 	
@@ -9440,7 +9613,7 @@
 	
 	<div class="method-subsection return">
 		<h4 class="method-subtitle parameter-title">Return Value</h4>
-		<p>An instance of BFTask. On successful execution, task.result will contain an instance of AWSEC2ImportKeyPairResult.</p>
+		<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSEC2ImportKeyPairResult</code>.</p>
 	</div>
 	
 	
@@ -9503,7 +9676,7 @@
 	
 	<div class="method-subsection return">
 		<h4 class="method-subtitle parameter-title">Return Value</h4>
-		<p>An instance of BFTask. On successful execution, task.result will contain an instance of AWSEC2ImportVolumeResult.</p>
+		<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSEC2ImportVolumeResult</code>.</p>
 	</div>
 	
 	
@@ -9536,6 +9709,62 @@
 </div>
 						
 						<div class="section-method">
+	<a name="//api/name/initWithConfiguration:" title="initWithConfiguration:"></a>
+	<h3 class="subsubtitle method-title">initWithConfiguration:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Instantiates the service client with the given service configuration.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (instancetype)initWithConfiguration:(AWSServiceConfiguration *)<em>configuration</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>configuration</em></dt>
+			<dd><p>The service configuration object.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>An instance of the service client.</p>
+	</div>
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<div class="warning"><p><strong>Warning:</strong> Once the client is instantiated, do not modify the configuration object. It may cause unspecified behaviors.</p></div><div class="warning"><p><strong>Warning:</strong> Unlike the singleton method, you are responsible for maintaining a strong reference to this object. If the service client is released before completing a service request, the request may fail with unspecified errors.</p></div>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AWSEC2.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
 	<a name="//api/name/modifyImageAttribute:" title="modifyImageAttribute:"></a>
 	<h3 class="subsubtitle method-title">modifyImageAttribute:</h3>
 	
@@ -9544,6 +9773,8 @@
 	<div class="method-subsection brief-description">
 		<p>Modifies the specified attribute of the specified AMI. You can specify only one attribute at a time.</p>
 
+
+<p><note><p>AWS Marketplace product codes cannot be modified. Images with an AWS Marketplace product code cannot be made public.</p></note></p>
 	</div>		
 	
     
@@ -9566,7 +9797,7 @@
 	
 	<div class="method-subsection return">
 		<h4 class="method-subtitle parameter-title">Return Value</h4>
-		<p>An instance of BFTask. On successful execution, task.result will be nil.</p>
+		<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will be <code>nil</code>.</p>
 	</div>
 	
 	
@@ -9630,7 +9861,7 @@
 	
 	<div class="method-subsection return">
 		<h4 class="method-subtitle parameter-title">Return Value</h4>
-		<p>An instance of BFTask. On successful execution, task.result will be nil.</p>
+		<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will be <code>nil</code>.</p>
 	</div>
 	
 	
@@ -9691,7 +9922,7 @@
 	
 	<div class="method-subsection return">
 		<h4 class="method-subtitle parameter-title">Return Value</h4>
-		<p>An instance of BFTask. On successful execution, task.result will be nil.</p>
+		<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will be <code>nil</code>.</p>
 	</div>
 	
 	
@@ -9730,6 +9961,9 @@
 	<div class="method-subsection brief-description">
 		<p>Modifies the Availability Zone, instance count, instance type, or network platform (EC2-Classic or EC2-VPC) of your Reserved Instances. The Reserved Instances to be modified must be identical, except for Availability Zone, network platform, and instance type.</p>
 
+
+<p>For more information, see <a href="http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ri-modifying.html">Modifying Reserved Instances</a> in the Amazon Elastic Compute Cloud User Guide.</p>
+
 	</div>		
 	
     
@@ -9752,7 +9986,7 @@
 	
 	<div class="method-subsection return">
 		<h4 class="method-subtitle parameter-title">Return Value</h4>
-		<p>An instance of BFTask. On successful execution, task.result will contain an instance of AWSEC2ModifyReservedInstancesResult.</p>
+		<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSEC2ModifyReservedInstancesResult</code>.</p>
 	</div>
 	
 	
@@ -9796,6 +10030,8 @@
 
 <p>For more information on modifying snapshot permissions, see <a href="http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ebs-modifying-snapshot-permissions.html">Sharing Snapshots</a> in the <i>Amazon Elastic Compute Cloud User Guide</i>.</p>
 
+
+<p><note><p>Snapshots with AWS Marketplace product codes cannot be made public.</p></note></p>
 	</div>		
 	
     
@@ -9818,7 +10054,7 @@
 	
 	<div class="method-subsection return">
 		<h4 class="method-subtitle parameter-title">Return Value</h4>
-		<p>An instance of BFTask. On successful execution, task.result will be nil.</p>
+		<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will be <code>nil</code>.</p>
 	</div>
 	
 	
@@ -9879,7 +10115,7 @@
 	
 	<div class="method-subsection return">
 		<h4 class="method-subtitle parameter-title">Return Value</h4>
-		<p>An instance of BFTask. On successful execution, task.result will be nil.</p>
+		<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will be <code>nil</code>.</p>
 	</div>
 	
 	
@@ -9946,7 +10182,7 @@
 	
 	<div class="method-subsection return">
 		<h4 class="method-subtitle parameter-title">Return Value</h4>
-		<p>An instance of BFTask. On successful execution, task.result will be nil.</p>
+		<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will be <code>nil</code>.</p>
 	</div>
 	
 	
@@ -10007,7 +10243,7 @@
 	
 	<div class="method-subsection return">
 		<h4 class="method-subtitle parameter-title">Return Value</h4>
-		<p>An instance of BFTask. On successful execution, task.result will be nil.</p>
+		<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will be <code>nil</code>.</p>
 	</div>
 	
 	
@@ -10068,7 +10304,7 @@
 	
 	<div class="method-subsection return">
 		<h4 class="method-subtitle parameter-title">Return Value</h4>
-		<p>An instance of BFTask. On successful execution, task.result will contain an instance of AWSEC2MonitorInstancesResult.</p>
+		<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSEC2MonitorInstancesResult</code>.</p>
 	</div>
 	
 	
@@ -10110,7 +10346,10 @@
 		<p>Purchases a Reserved Instance for use with your account. With Amazon EC2 Reserved Instances, you obtain a capacity reservation for a certain instance configuration over a specified period of time. You pay a lower usage rate than with On-Demand instances for the time that you actually use the capacity reservation.</p>
 
 
-<p>For more information, see <a href="http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ri-market-general.html">Reserved Instance Marketplace</a> in the <i>Amazon Elastic Compute Cloud User Guide</i>.</p>
+<p>Use <a>DescribeReservedInstancesOfferings</a> to get a list of Reserved Instance offerings that match your specifications. After you've purchased a Reserved Instance, you can check for your new Reserved Instance with <a>DescribeReservedInstances</a>.</p>
+
+
+<p>For more information, see <a href="http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/concepts-on-demand-reserved-instances.html">Reserved Instances</a> and <a href="http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ri-market-general.html">Reserved Instance Marketplace</a> in the <i>Amazon Elastic Compute Cloud User Guide</i>.</p>
 
 	</div>		
 	
@@ -10134,7 +10373,7 @@
 	
 	<div class="method-subsection return">
 		<h4 class="method-subtitle parameter-title">Return Value</h4>
-		<p>An instance of BFTask. On successful execution, task.result will contain an instance of AWSEC2PurchaseReservedInstancesOfferingResult.</p>
+		<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSEC2PurchaseReservedInstancesOfferingResult</code>.</p>
 	</div>
 	
 	
@@ -10203,7 +10442,7 @@
 	
 	<div class="method-subsection return">
 		<h4 class="method-subtitle parameter-title">Return Value</h4>
-		<p>An instance of BFTask. On successful execution, task.result will be nil.</p>
+		<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will be <code>nil</code>.</p>
 	</div>
 	
 	
@@ -10243,11 +10482,7 @@
 		<p>Registers an AMI. When you're creating an AMI, this is the final step you must complete before you can launch an instance from the AMI. For more information about creating AMIs, see <a href="http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/creating-an-ami.html">Creating Your Own AMIs</a> in the <i>Amazon Elastic Compute Cloud User Guide</i>.</p>
 
 
-<p>You can also use <code>RegisterImage</code> to create an Amazon EBS-backed AMI from a snapshot of a root device volume. For more information, see <a href="http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/Using_LaunchingInstanceFromSnapshot.html">Launching an Instance from a Snapshot</a> in the <i>Amazon Elastic Compute Cloud User Guide</i>.</p>
-
-
-<p>If needed, you can deregister an AMI at any time. Any modifications you make to an AMI backed by an instance store volume invalidates its registration. If you make changes to an image, deregister the previous image and register the new image.</p>
-
+<p><note><p>For Amazon EBS-backed instances, <a>CreateImage</a> creates and registers the AMI in a single request, so you don&rsquo;t have to register the AMI yourself.</p></note><p>You can also use <code>RegisterImage</code> to create an Amazon EBS-backed AMI from a snapshot of a root device volume. For more information, see <a href="http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/Using_LaunchingInstanceFromSnapshot.html">Launching an Instance from a Snapshot</a> in the <i>Amazon Elastic Compute Cloud User Guide</i>.</p><p>If needed, you can deregister an AMI at any time. Any modifications you make to an AMI backed by an instance store volume invalidates its registration. If you make changes to an image, deregister the previous image and register the new image.</p><note><p>You can&rsquo;t register an image where a secondary (non-root) snapshot has AWS Marketplace product codes.</p></note></p>
 	</div>		
 	
     
@@ -10270,7 +10505,7 @@
 	
 	<div class="method-subsection return">
 		<h4 class="method-subtitle parameter-title">Return Value</h4>
-		<p>An instance of BFTask. On successful execution, task.result will contain an instance of AWSEC2RegisterImageResult.</p>
+		<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSEC2RegisterImageResult</code>.</p>
 	</div>
 	
 	
@@ -10309,7 +10544,7 @@
 	
 	
 	<div class="method-subsection brief-description">
-		<p>Rejects a VPC peering connection request. The VPC peering connection must be in the <code>pending-acceptance</code> state. Use the <code>DescribeVpcPeeringConnections</code> request to view your outstanding VPC peering connection requests.</p>
+		<p>Rejects a VPC peering connection request. The VPC peering connection must be in the <code>pending-acceptance</code> state. Use the <a>DescribeVpcPeeringConnections</a> request to view your outstanding VPC peering connection requests. To delete an active VPC peering connection, or to delete a VPC peering connection request that you initiated, use <a>DeleteVpcPeeringConnection</a>.</p>
 
 	</div>		
 	
@@ -10333,7 +10568,7 @@
 	
 	<div class="method-subsection return">
 		<h4 class="method-subtitle parameter-title">Return Value</h4>
-		<p>An instance of BFTask. On successful execution, task.result will contain an instance of AWSEC2RejectVpcPeeringConnectionResult.</p>
+		<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSEC2RejectVpcPeeringConnectionResult</code>.</p>
 	</div>
 	
 	
@@ -10381,7 +10616,7 @@
 <p>[EC2-Classic, default VPC] Releasing an Elastic IP address automatically disassociates it from any instance that it's associated with. To disassociate an Elastic IP address without releasing it, use <a>DisassociateAddress</a>.</p>
 
 
-<p>[Nondefault VPC] You must use the <a>DisassociateAddress</a> to disassociate the Elastic IP address before you try to release it. Otherwise, Amazon EC2 returns an error (<code>InvalidIPAddress.InUse</code>).</p>
+<p>[Nondefault VPC] You must use <a>DisassociateAddress</a> to disassociate the Elastic IP address before you try to release it. Otherwise, Amazon EC2 returns an error (<code>InvalidIPAddress.InUse</code>).</p>
 
 	</div>		
 	
@@ -10405,7 +10640,7 @@
 	
 	<div class="method-subsection return">
 		<h4 class="method-subtitle parameter-title">Return Value</h4>
-		<p>An instance of BFTask. On successful execution, task.result will be nil.</p>
+		<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will be <code>nil</code>.</p>
 	</div>
 	
 	
@@ -10466,7 +10701,7 @@
 	
 	<div class="method-subsection return">
 		<h4 class="method-subtitle parameter-title">Return Value</h4>
-		<p>An instance of BFTask. On successful execution, task.result will contain an instance of AWSEC2ReplaceNetworkAclAssociationResult.</p>
+		<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSEC2ReplaceNetworkAclAssociationResult</code>.</p>
 	</div>
 	
 	
@@ -10529,7 +10764,7 @@
 	
 	<div class="method-subsection return">
 		<h4 class="method-subtitle parameter-title">Return Value</h4>
-		<p>An instance of BFTask. On successful execution, task.result will be nil.</p>
+		<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will be <code>nil</code>.</p>
 	</div>
 	
 	
@@ -10566,7 +10801,7 @@
 	
 	
 	<div class="method-subsection brief-description">
-		<p>Replaces an existing route within a route table in a VPC. You must provide only one of the following: Internet gateway, NAT instance, VPC peering connection, or network interface.</p>
+		<p>Replaces an existing route within a route table in a VPC. You must provide only one of the following: Internet gateway or virtual private gateway, NAT instance, VPC peering connection, or network interface.</p>
 
 
 <p>For more information about route tables, see <a href="http://docs.aws.amazon.com/AmazonVPC/latest/UserGuide/VPC_Route_Tables.html">Route Tables</a> in the <i>Amazon Virtual Private Cloud User Guide</i>.</p>
@@ -10593,7 +10828,7 @@
 	
 	<div class="method-subsection return">
 		<h4 class="method-subtitle parameter-title">Return Value</h4>
-		<p>An instance of BFTask. On successful execution, task.result will be nil.</p>
+		<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will be <code>nil</code>.</p>
 	</div>
 	
 	
@@ -10657,7 +10892,7 @@
 	
 	<div class="method-subsection return">
 		<h4 class="method-subtitle parameter-title">Return Value</h4>
-		<p>An instance of BFTask. On successful execution, task.result will contain an instance of AWSEC2ReplaceRouteTableAssociationResult.</p>
+		<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSEC2ReplaceRouteTableAssociationResult</code>.</p>
 	</div>
 	
 	
@@ -10723,7 +10958,7 @@
 	
 	<div class="method-subsection return">
 		<h4 class="method-subtitle parameter-title">Return Value</h4>
-		<p>An instance of BFTask. On successful execution, task.result will contain an instance of AWSEC2ReplicateImageResult.</p>
+		<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSEC2ReplicateImageResult</code>.</p>
 	</div>
 	
 	
@@ -10768,8 +11003,7 @@
 <p>Copies of encrypted Amazon EBS snapshots remain encrypted. Copies of unencrypted snapshots remain unencrypted.</p>
 
 
-<p>For more information, see <a href="http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ebs-copy-snapshot.html">Copying an Amazon EBS Snapshot</a> in the <i>Amazon Elastic Compute Cloud User Guide</i>.</p>
-
+<p><note><p>Copying snapshots that were encrypted with non-default AWS Key Management Service (KMS) master keys is not supported at this time. </p></note><p>For more information, see <a href="http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ebs-copy-snapshot.html">Copying an Amazon EBS Snapshot</a> in the <i>Amazon Elastic Compute Cloud User Guide</i>.</p></p>
 	</div>		
 	
     
@@ -10792,7 +11026,7 @@
 	
 	<div class="method-subsection return">
 		<h4 class="method-subtitle parameter-title">Return Value</h4>
-		<p>An instance of BFTask. On successful execution, task.result will contain an instance of AWSEC2ReplicateSnapshotResult.</p>
+		<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSEC2ReplicateSnapshotResult</code>.</p>
 	</div>
 	
 	
@@ -10833,6 +11067,9 @@
 	<div class="method-subsection brief-description">
 		<p>Submits feedback about the status of an instance. The instance must be in the <code>running</code> state. If your experience with the instance differs from the instance status returned by <a>DescribeInstanceStatus</a>, use <a>ReportInstanceStatus</a> to report your experience with the instance. Amazon EC2 collects this information to improve the accuracy of status checks.</p>
 
+
+<p>Use of this action does not change the value returned by <a>DescribeInstanceStatus</a>.</p>
+
 	</div>		
 	
     
@@ -10855,7 +11092,7 @@
 	
 	<div class="method-subsection return">
 		<h4 class="method-subtitle parameter-title">Return Value</h4>
-		<p>An instance of BFTask. On successful execution, task.result will be nil.</p>
+		<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will be <code>nil</code>.</p>
 	</div>
 	
 	
@@ -10894,6 +11131,9 @@
 	<div class="method-subsection brief-description">
 		<p>Creates a Spot Instance request. Spot Instances are instances that Amazon EC2 starts on your behalf when the maximum price that you specify exceeds the current Spot Price. Amazon EC2 periodically sets the Spot Price based on available Spot Instance capacity and current Spot Instance requests. For more information about Spot Instances, see <a href="http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/using-spot-instances.html">Spot Instances</a> in the <i>Amazon Elastic Compute Cloud User Guide</i>.</p>
 
+
+<p>Users must be subscribed to the required product to run an instance with AWS Marketplace product codes.</p>
+
 	</div>		
 	
     
@@ -10916,7 +11156,7 @@
 	
 	<div class="method-subsection return">
 		<h4 class="method-subtitle parameter-title">Return Value</h4>
-		<p>An instance of BFTask. On successful execution, task.result will contain an instance of AWSEC2RequestSpotInstancesResult.</p>
+		<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSEC2RequestSpotInstancesResult</code>.</p>
 	</div>
 	
 	
@@ -10979,7 +11219,7 @@
 	
 	<div class="method-subsection return">
 		<h4 class="method-subtitle parameter-title">Return Value</h4>
-		<p>An instance of BFTask. On successful execution, task.result will be nil.</p>
+		<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will be <code>nil</code>.</p>
 	</div>
 	
 	
@@ -11016,7 +11256,7 @@
 	
 	
 	<div class="method-subsection brief-description">
-		<p>Resets an attribute of an instance to its default value. To reset the kernel or RAM disk, the instance must be in a stopped state. To reset the <code>SourceDestCheck</code>, the instance can be either running or stopped.</p>
+		<p>Resets an attribute of an instance to its default value. To reset the <code>kernel</code> or <code>ramdisk</code>, the instance must be in a stopped state. To reset the <code>SourceDestCheck</code>, the instance can be either running or stopped.</p>
 
 
 <p>The <code>SourceDestCheck</code> attribute controls whether source/destination checking is enabled. The default value is <code>true</code>, which means checking is enabled. This value must be <code>false</code> for a NAT instance to perform NAT. For more information, see <a href="http://docs.aws.amazon.com/AmazonVPC/latest/UserGuide/VPC_NAT_Instance.html">NAT Instances</a> in the <i>Amazon Virtual Private Cloud User Guide</i>.</p>
@@ -11043,7 +11283,7 @@
 	
 	<div class="method-subsection return">
 		<h4 class="method-subtitle parameter-title">Return Value</h4>
-		<p>An instance of BFTask. On successful execution, task.result will be nil.</p>
+		<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will be <code>nil</code>.</p>
 	</div>
 	
 	
@@ -11104,7 +11344,7 @@
 	
 	<div class="method-subsection return">
 		<h4 class="method-subtitle parameter-title">Return Value</h4>
-		<p>An instance of BFTask. On successful execution, task.result will be nil.</p>
+		<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will be <code>nil</code>.</p>
 	</div>
 	
 	
@@ -11168,7 +11408,7 @@
 	
 	<div class="method-subsection return">
 		<h4 class="method-subtitle parameter-title">Return Value</h4>
-		<p>An instance of BFTask. On successful execution, task.result will be nil.</p>
+		<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will be <code>nil</code>.</p>
 	</div>
 	
 	
@@ -11235,7 +11475,7 @@
 	
 	<div class="method-subsection return">
 		<h4 class="method-subtitle parameter-title">Return Value</h4>
-		<p>An instance of BFTask. On successful execution, task.result will be nil.</p>
+		<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will be <code>nil</code>.</p>
 	</div>
 	
 	
@@ -11302,7 +11542,7 @@
 	
 	<div class="method-subsection return">
 		<h4 class="method-subtitle parameter-title">Return Value</h4>
-		<p>An instance of BFTask. On successful execution, task.result will be nil.</p>
+		<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will be <code>nil</code>.</p>
 	</div>
 	
 	
@@ -11384,7 +11624,7 @@
 	
 	<div class="method-subsection return">
 		<h4 class="method-subtitle parameter-title">Return Value</h4>
-		<p>An instance of BFTask. On successful execution, task.result will contain an instance of AWSEC2Reservation.</p>
+		<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSEC2Reservation</code>.</p>
 	</div>
 	
 	
@@ -11459,7 +11699,7 @@
 	
 	<div class="method-subsection return">
 		<h4 class="method-subtitle parameter-title">Return Value</h4>
-		<p>An instance of BFTask. On successful execution, task.result will contain an instance of AWSEC2StartInstancesResult.</p>
+		<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSEC2StartInstancesResult</code>.</p>
 	</div>
 	
 	
@@ -11540,7 +11780,7 @@
 	
 	<div class="method-subsection return">
 		<h4 class="method-subtitle parameter-title">Return Value</h4>
-		<p>An instance of BFTask. On successful execution, task.result will contain an instance of AWSEC2StopInstancesResult.</p>
+		<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSEC2StopInstancesResult</code>.</p>
 	</div>
 	
 	
@@ -11615,7 +11855,7 @@
 	
 	<div class="method-subsection return">
 		<h4 class="method-subtitle parameter-title">Return Value</h4>
-		<p>An instance of BFTask. On successful execution, task.result will contain an instance of AWSEC2TerminateInstancesResult.</p>
+		<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSEC2TerminateInstancesResult</code>.</p>
 	</div>
 	
 	
@@ -11678,7 +11918,7 @@
 	
 	<div class="method-subsection return">
 		<h4 class="method-subtitle parameter-title">Return Value</h4>
-		<p>An instance of BFTask. On successful execution, task.result will be nil.</p>
+		<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will be <code>nil</code>.</p>
 	</div>
 	
 	
@@ -11739,7 +11979,7 @@
 	
 	<div class="method-subsection return">
 		<h4 class="method-subtitle parameter-title">Return Value</h4>
-		<p>An instance of BFTask. On successful execution, task.result will contain an instance of AWSEC2UnmonitorInstancesResult.</p>
+		<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSEC2UnmonitorInstancesResult</code>.</p>
 	</div>
 	
 	
@@ -11776,6 +12016,9 @@
 					
                     
                     
+                    
+                    
+
 				</div>
 				<div class="main-navigation navigation-bottom">
 					<ul>
@@ -11786,7 +12029,7 @@
 				<div id="footer">
 					<hr />
 					<div class="footer-copyright">
-						<p><span class="copyright">&copy; 2014 Amazon Web Services, Inc.. All rights reserved. (Last updated: 2014-09-29)</span><br />
+						<p><span class="copyright">&copy; 2015 Amazon Web Services, Inc.. All rights reserved. (Last updated: 2015-02-09)</span><br />
 						
 						<span class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.2 (build 963)</a>.</span></p>
 						

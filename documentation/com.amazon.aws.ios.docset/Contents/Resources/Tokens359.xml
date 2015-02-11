@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSEC2DescribeVolumeAttributeRequest.html">
+	<File path="Classes/AWSEC2DescribeAvailabilityZonesResult.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSEC2DescribeVolumeAttributeRequest</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSEC2DescribeAvailabilityZonesResult</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
             
@@ -13,77 +13,42 @@
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DescribeVolumeAttributeRequest/setAttribute:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The instance attribute.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DescribeAvailabilityZonesResult/setAvailabilityZones:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Information about one or more Availability Zones.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, assign) AWSEC2VolumeAttributeName attribute</Declaration>
+			<Declaration>@property (nonatomic, strong) NSArray *availabilityZones</Declaration>
 			
 			
-			<Anchor>//api/name/attribute</Anchor>
+			<Anchor>//api/name/availabilityZones</Anchor>
             <NodeRef refid="359"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DescribeVolumeAttributeRequest/attribute</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The instance attribute.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DescribeAvailabilityZonesResult/availabilityZones</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Information about one or more Availability Zones.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, assign) AWSEC2VolumeAttributeName attribute</Declaration>
+			<Declaration>@property (nonatomic, strong) NSArray *availabilityZones</Declaration>
 			
 			
-			<Anchor>//api/name/attribute</Anchor>
+			<Anchor>//api/name/availabilityZones</Anchor>
             <NodeRef refid="359"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2DescribeVolumeAttributeRequest/attribute</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The instance attribute.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2DescribeAvailabilityZonesResult/availabilityZones</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Information about one or more Availability Zones.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, assign) AWSEC2VolumeAttributeName attribute</Declaration>
+			<Declaration>@property (nonatomic, strong) NSArray *availabilityZones</Declaration>
 			
 			
-			<Anchor>//api/name/attribute</Anchor>
+			<Anchor>//api/name/availabilityZones</Anchor>
             <NodeRef refid="359"/>
 		</Token>
 		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DescribeVolumeAttributeRequest/setVolumeId:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The ID of the volume.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *volumeId</Declaration>
-			
-			
-			<Anchor>//api/name/volumeId</Anchor>
-            <NodeRef refid="359"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DescribeVolumeAttributeRequest/volumeId</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The ID of the volume.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *volumeId</Declaration>
-			
-			
-			<Anchor>//api/name/volumeId</Anchor>
-            <NodeRef refid="359"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2DescribeVolumeAttributeRequest/volumeId</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The ID of the volume.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *volumeId</Declaration>
-			
-			
-			<Anchor>//api/name/volumeId</Anchor>
-            <NodeRef refid="359"/>
-		</Token>
-		
+        
         
 	</File>
 </Tokens>

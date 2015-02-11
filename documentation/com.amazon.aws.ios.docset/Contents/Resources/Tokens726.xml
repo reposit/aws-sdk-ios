@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSSNSListEndpointsByPlatformApplicationResponse.html">
+	<File path="Classes/AWSKinesisRemoveTagsFromStreamInput.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSSNSListEndpointsByPlatformApplicationResponse</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Response for ListEndpointsByPlatformApplication action.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSNSModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSKinesisRemoveTagsFromStreamInput</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Represents the input for &lt;code&gt;RemoveTagsFromStream&lt;/code&gt;.&lt;/p&gt;
+Required parameters: [StreamName, TagKeys]</Abstract>
+			<DeclaredIn>AWSKinesisModel.h</DeclaredIn>
             
 			
 			<NodeRef refid="726"/>
@@ -13,77 +14,78 @@
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSSNSListEndpointsByPlatformApplicationResponse/setEndpoints:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Endpoints returned for ListEndpointsByPlatformApplication action.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSNSModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSKinesisRemoveTagsFromStreamInput/setStreamName:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The name of the stream.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSKinesisModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSArray *endpoints</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *streamName</Declaration>
 			
 			
-			<Anchor>//api/name/endpoints</Anchor>
+			<Anchor>//api/name/streamName</Anchor>
             <NodeRef refid="726"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSSNSListEndpointsByPlatformApplicationResponse/endpoints</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Endpoints returned for ListEndpointsByPlatformApplication action.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSNSModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSKinesisRemoveTagsFromStreamInput/streamName</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The name of the stream.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSKinesisModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSArray *endpoints</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *streamName</Declaration>
 			
 			
-			<Anchor>//api/name/endpoints</Anchor>
+			<Anchor>//api/name/streamName</Anchor>
             <NodeRef refid="726"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSSNSListEndpointsByPlatformApplicationResponse/endpoints</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Endpoints returned for ListEndpointsByPlatformApplication action.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSNSModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSKinesisRemoveTagsFromStreamInput/streamName</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The name of the stream.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSKinesisModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSArray *endpoints</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *streamName</Declaration>
 			
 			
-			<Anchor>//api/name/endpoints</Anchor>
+			<Anchor>//api/name/streamName</Anchor>
             <NodeRef refid="726"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSSNSListEndpointsByPlatformApplicationResponse/setNextToken:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;NextToken string is returned when calling ListEndpointsByPlatformApplication action if additional records are available after the first page results.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSNSModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSKinesisRemoveTagsFromStreamInput/setTagKeys:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;A list of tag keys. Each corresponding tag is removed from the stream.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSKinesisModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *nextToken</Declaration>
+			<Declaration>@property (nonatomic, strong) NSArray *tagKeys</Declaration>
 			
 			
-			<Anchor>//api/name/nextToken</Anchor>
+			<Anchor>//api/name/tagKeys</Anchor>
             <NodeRef refid="726"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSSNSListEndpointsByPlatformApplicationResponse/nextToken</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;NextToken string is returned when calling ListEndpointsByPlatformApplication action if additional records are available after the first page results.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSNSModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSKinesisRemoveTagsFromStreamInput/tagKeys</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;A list of tag keys. Each corresponding tag is removed from the stream.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSKinesisModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *nextToken</Declaration>
+			<Declaration>@property (nonatomic, strong) NSArray *tagKeys</Declaration>
 			
 			
-			<Anchor>//api/name/nextToken</Anchor>
+			<Anchor>//api/name/tagKeys</Anchor>
             <NodeRef refid="726"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSSNSListEndpointsByPlatformApplicationResponse/nextToken</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;NextToken string is returned when calling ListEndpointsByPlatformApplication action if additional records are available after the first page results.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSNSModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSKinesisRemoveTagsFromStreamInput/tagKeys</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;A list of tag keys. Each corresponding tag is removed from the stream.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSKinesisModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *nextToken</Declaration>
+			<Declaration>@property (nonatomic, strong) NSArray *tagKeys</Declaration>
 			
 			
-			<Anchor>//api/name/nextToken</Anchor>
+			<Anchor>//api/name/tagKeys</Anchor>
             <NodeRef refid="726"/>
 		</Token>
 		
+        
         
 	</File>
 </Tokens>

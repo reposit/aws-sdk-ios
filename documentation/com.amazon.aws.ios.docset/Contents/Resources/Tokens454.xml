@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSEC2Monitoring.html">
+	<File path="Classes/AWSEC2ExportToS3TaskSpecification.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSEC2Monitoring</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Describes the monitoring for the instance.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSEC2ExportToS3TaskSpecification</TokenIdentifier>
+			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
             
 			
@@ -13,41 +13,150 @@
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2Monitoring/setState:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Indicates whether monitoring is enabled for the instance.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ExportToS3TaskSpecification/setContainerFormat:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, assign) AWSEC2MonitoringState state</Declaration>
+			<Declaration>@property (nonatomic, assign) AWSEC2ContainerFormat containerFormat</Declaration>
 			
 			
-			<Anchor>//api/name/state</Anchor>
+			<Anchor>//api/name/containerFormat</Anchor>
             <NodeRef refid="454"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2Monitoring/state</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Indicates whether monitoring is enabled for the instance.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ExportToS3TaskSpecification/containerFormat</TokenIdentifier>
+			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, assign) AWSEC2MonitoringState state</Declaration>
+			<Declaration>@property (nonatomic, assign) AWSEC2ContainerFormat containerFormat</Declaration>
 			
 			
-			<Anchor>//api/name/state</Anchor>
+			<Anchor>//api/name/containerFormat</Anchor>
             <NodeRef refid="454"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2Monitoring/state</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Indicates whether monitoring is enabled for the instance.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2ExportToS3TaskSpecification/containerFormat</TokenIdentifier>
+			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, assign) AWSEC2MonitoringState state</Declaration>
+			<Declaration>@property (nonatomic, assign) AWSEC2ContainerFormat containerFormat</Declaration>
 			
 			
-			<Anchor>//api/name/state</Anchor>
+			<Anchor>//api/name/containerFormat</Anchor>
             <NodeRef refid="454"/>
 		</Token>
 		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ExportToS3TaskSpecification/setDiskImageFormat:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) AWSEC2DiskImageFormat diskImageFormat</Declaration>
+			
+			
+			<Anchor>//api/name/diskImageFormat</Anchor>
+            <NodeRef refid="454"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ExportToS3TaskSpecification/diskImageFormat</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) AWSEC2DiskImageFormat diskImageFormat</Declaration>
+			
+			
+			<Anchor>//api/name/diskImageFormat</Anchor>
+            <NodeRef refid="454"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2ExportToS3TaskSpecification/diskImageFormat</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) AWSEC2DiskImageFormat diskImageFormat</Declaration>
+			
+			
+			<Anchor>//api/name/diskImageFormat</Anchor>
+            <NodeRef refid="454"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ExportToS3TaskSpecification/setS3Bucket:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *s3Bucket</Declaration>
+			
+			
+			<Anchor>//api/name/s3Bucket</Anchor>
+            <NodeRef refid="454"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ExportToS3TaskSpecification/s3Bucket</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *s3Bucket</Declaration>
+			
+			
+			<Anchor>//api/name/s3Bucket</Anchor>
+            <NodeRef refid="454"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2ExportToS3TaskSpecification/s3Bucket</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *s3Bucket</Declaration>
+			
+			
+			<Anchor>//api/name/s3Bucket</Anchor>
+            <NodeRef refid="454"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ExportToS3TaskSpecification/setS3Prefix:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The image is written to a single object in the Amazon S3 bucket at the S3 key s3prefix + exportTaskId + &apos;.&apos; + diskImageFormat.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *s3Prefix</Declaration>
+			
+			
+			<Anchor>//api/name/s3Prefix</Anchor>
+            <NodeRef refid="454"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ExportToS3TaskSpecification/s3Prefix</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The image is written to a single object in the Amazon S3 bucket at the S3 key s3prefix + exportTaskId + &apos;.&apos; + diskImageFormat.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *s3Prefix</Declaration>
+			
+			
+			<Anchor>//api/name/s3Prefix</Anchor>
+            <NodeRef refid="454"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2ExportToS3TaskSpecification/s3Prefix</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The image is written to a single object in the Amazon S3 bucket at the S3 key s3prefix + exportTaskId + &apos;.&apos; + diskImageFormat.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *s3Prefix</Declaration>
+			
+			
+			<Anchor>//api/name/s3Prefix</Anchor>
+            <NodeRef refid="454"/>
+		</Token>
+		
+        
         
 	</File>
 </Tokens>

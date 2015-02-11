@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSEC2DiskImageDescription.html">
+	<File path="Classes/AWSEC2DescribeNetworkInterfaceAttributeRequest.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSEC2DiskImageDescription</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSEC2DescribeNetworkInterfaceAttributeRequest</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
             
@@ -13,149 +13,114 @@
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DiskImageDescription/setChecksum:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The checksum computed for the disk image.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DescribeNetworkInterfaceAttributeRequest/setAttribute:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The attribute of the network interface.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *checksum</Declaration>
+			<Declaration>@property (nonatomic, assign) AWSEC2NetworkInterfaceAttribute attribute</Declaration>
 			
 			
-			<Anchor>//api/name/checksum</Anchor>
+			<Anchor>//api/name/attribute</Anchor>
             <NodeRef refid="384"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DiskImageDescription/checksum</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The checksum computed for the disk image.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DescribeNetworkInterfaceAttributeRequest/attribute</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The attribute of the network interface.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *checksum</Declaration>
+			<Declaration>@property (nonatomic, assign) AWSEC2NetworkInterfaceAttribute attribute</Declaration>
 			
 			
-			<Anchor>//api/name/checksum</Anchor>
+			<Anchor>//api/name/attribute</Anchor>
             <NodeRef refid="384"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2DiskImageDescription/checksum</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The checksum computed for the disk image.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2DescribeNetworkInterfaceAttributeRequest/attribute</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The attribute of the network interface.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *checksum</Declaration>
+			<Declaration>@property (nonatomic, assign) AWSEC2NetworkInterfaceAttribute attribute</Declaration>
 			
 			
-			<Anchor>//api/name/checksum</Anchor>
+			<Anchor>//api/name/attribute</Anchor>
             <NodeRef refid="384"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DiskImageDescription/setFormat:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The disk image format.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DescribeNetworkInterfaceAttributeRequest/setDryRun:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, assign) AWSEC2DiskImageFormat format</Declaration>
+			<Declaration>@property (nonatomic, strong) NSNumber *dryRun</Declaration>
 			
 			
-			<Anchor>//api/name/format</Anchor>
+			<Anchor>//api/name/dryRun</Anchor>
             <NodeRef refid="384"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DiskImageDescription/format</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The disk image format.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DescribeNetworkInterfaceAttributeRequest/dryRun</TokenIdentifier>
+			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, assign) AWSEC2DiskImageFormat format</Declaration>
+			<Declaration>@property (nonatomic, strong) NSNumber *dryRun</Declaration>
 			
 			
-			<Anchor>//api/name/format</Anchor>
+			<Anchor>//api/name/dryRun</Anchor>
             <NodeRef refid="384"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2DiskImageDescription/format</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The disk image format.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2DescribeNetworkInterfaceAttributeRequest/dryRun</TokenIdentifier>
+			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, assign) AWSEC2DiskImageFormat format</Declaration>
+			<Declaration>@property (nonatomic, strong) NSNumber *dryRun</Declaration>
 			
 			
-			<Anchor>//api/name/format</Anchor>
+			<Anchor>//api/name/dryRun</Anchor>
             <NodeRef refid="384"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DiskImageDescription/setImportManifestUrl:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;A presigned URL for the import manifest stored in Amazon S3. For information about creating a presigned URL for an Amazon S3 object, read the &quot;Query String Request Authentication Alternative&quot; section of the Authenticating REST Requests topic in the &lt;i&gt;Amazon Simple Storage Service Developer Guide&lt;/i&gt;.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DescribeNetworkInterfaceAttributeRequest/setNetworkInterfaceId:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the network interface.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *importManifestUrl</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *networkInterfaceId</Declaration>
 			
 			
-			<Anchor>//api/name/importManifestUrl</Anchor>
+			<Anchor>//api/name/networkInterfaceId</Anchor>
             <NodeRef refid="384"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DiskImageDescription/importManifestUrl</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;A presigned URL for the import manifest stored in Amazon S3. For information about creating a presigned URL for an Amazon S3 object, read the &quot;Query String Request Authentication Alternative&quot; section of the Authenticating REST Requests topic in the &lt;i&gt;Amazon Simple Storage Service Developer Guide&lt;/i&gt;.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DescribeNetworkInterfaceAttributeRequest/networkInterfaceId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the network interface.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *importManifestUrl</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *networkInterfaceId</Declaration>
 			
 			
-			<Anchor>//api/name/importManifestUrl</Anchor>
+			<Anchor>//api/name/networkInterfaceId</Anchor>
             <NodeRef refid="384"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2DiskImageDescription/importManifestUrl</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;A presigned URL for the import manifest stored in Amazon S3. For information about creating a presigned URL for an Amazon S3 object, read the &quot;Query String Request Authentication Alternative&quot; section of the Authenticating REST Requests topic in the &lt;i&gt;Amazon Simple Storage Service Developer Guide&lt;/i&gt;.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2DescribeNetworkInterfaceAttributeRequest/networkInterfaceId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the network interface.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *importManifestUrl</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *networkInterfaceId</Declaration>
 			
 			
-			<Anchor>//api/name/importManifestUrl</Anchor>
+			<Anchor>//api/name/networkInterfaceId</Anchor>
             <NodeRef refid="384"/>
 		</Token>
 		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DiskImageDescription/setSize:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The size of the disk image.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSNumber *size</Declaration>
-			
-			
-			<Anchor>//api/name/size</Anchor>
-            <NodeRef refid="384"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DiskImageDescription/size</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The size of the disk image.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSNumber *size</Declaration>
-			
-			
-			<Anchor>//api/name/size</Anchor>
-            <NodeRef refid="384"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2DiskImageDescription/size</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The size of the disk image.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSNumber *size</Declaration>
-			
-			
-			<Anchor>//api/name/size</Anchor>
-            <NodeRef refid="384"/>
-		</Token>
-		
+        
         
 	</File>
 </Tokens>

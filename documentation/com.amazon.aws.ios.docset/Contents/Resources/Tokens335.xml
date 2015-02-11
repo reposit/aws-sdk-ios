@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSEC2DescribeReservedInstancesListingsRequest.html">
+	<File path="Classes/AWSEC2DeleteNetworkAclEntryRequest.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSEC2DescribeReservedInstancesListingsRequest</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSEC2DeleteNetworkAclEntryRequest</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
             
@@ -13,113 +13,150 @@
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DescribeReservedInstancesListingsRequest/setFilters:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;One or more filters.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;reserved-instances-id&lt;/code&gt; - The ID of the Reserved Instances.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;reserved-instances-listing-id&lt;/code&gt; - The ID of the Reserved Instances listing.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;status&lt;/code&gt; - The status of the Reserved Instance listing (&lt;code&gt;pending&lt;/code&gt; | &lt;code&gt;active&lt;/code&gt; | &lt;code&gt;cancelled&lt;/code&gt; | &lt;code&gt;closed&lt;/code&gt;).&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;status-message&lt;/code&gt; - The reason for the status.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DeleteNetworkAclEntryRequest/setDryRun:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSArray *filters</Declaration>
+			<Declaration>@property (nonatomic, strong) NSNumber *dryRun</Declaration>
 			
 			
-			<Anchor>//api/name/filters</Anchor>
+			<Anchor>//api/name/dryRun</Anchor>
             <NodeRef refid="335"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DescribeReservedInstancesListingsRequest/filters</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;One or more filters.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;reserved-instances-id&lt;/code&gt; - The ID of the Reserved Instances.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;reserved-instances-listing-id&lt;/code&gt; - The ID of the Reserved Instances listing.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;status&lt;/code&gt; - The status of the Reserved Instance listing (&lt;code&gt;pending&lt;/code&gt; | &lt;code&gt;active&lt;/code&gt; | &lt;code&gt;cancelled&lt;/code&gt; | &lt;code&gt;closed&lt;/code&gt;).&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;status-message&lt;/code&gt; - The reason for the status.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DeleteNetworkAclEntryRequest/dryRun</TokenIdentifier>
+			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSArray *filters</Declaration>
+			<Declaration>@property (nonatomic, strong) NSNumber *dryRun</Declaration>
 			
 			
-			<Anchor>//api/name/filters</Anchor>
+			<Anchor>//api/name/dryRun</Anchor>
             <NodeRef refid="335"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2DescribeReservedInstancesListingsRequest/filters</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;One or more filters.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;reserved-instances-id&lt;/code&gt; - The ID of the Reserved Instances.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;reserved-instances-listing-id&lt;/code&gt; - The ID of the Reserved Instances listing.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;status&lt;/code&gt; - The status of the Reserved Instance listing (&lt;code&gt;pending&lt;/code&gt; | &lt;code&gt;active&lt;/code&gt; | &lt;code&gt;cancelled&lt;/code&gt; | &lt;code&gt;closed&lt;/code&gt;).&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;status-message&lt;/code&gt; - The reason for the status.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2DeleteNetworkAclEntryRequest/dryRun</TokenIdentifier>
+			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSArray *filters</Declaration>
+			<Declaration>@property (nonatomic, strong) NSNumber *dryRun</Declaration>
 			
 			
-			<Anchor>//api/name/filters</Anchor>
+			<Anchor>//api/name/dryRun</Anchor>
             <NodeRef refid="335"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DescribeReservedInstancesListingsRequest/setReservedInstancesId:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;One or more Reserved Instance IDs.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DeleteNetworkAclEntryRequest/setEgress:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Indicates whether the rule is an egress rule.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *reservedInstancesId</Declaration>
+			<Declaration>@property (nonatomic, strong) NSNumber *egress</Declaration>
 			
 			
-			<Anchor>//api/name/reservedInstancesId</Anchor>
+			<Anchor>//api/name/egress</Anchor>
             <NodeRef refid="335"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DescribeReservedInstancesListingsRequest/reservedInstancesId</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;One or more Reserved Instance IDs.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DeleteNetworkAclEntryRequest/egress</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Indicates whether the rule is an egress rule.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *reservedInstancesId</Declaration>
+			<Declaration>@property (nonatomic, strong) NSNumber *egress</Declaration>
 			
 			
-			<Anchor>//api/name/reservedInstancesId</Anchor>
+			<Anchor>//api/name/egress</Anchor>
             <NodeRef refid="335"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2DescribeReservedInstancesListingsRequest/reservedInstancesId</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;One or more Reserved Instance IDs.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2DeleteNetworkAclEntryRequest/egress</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Indicates whether the rule is an egress rule.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *reservedInstancesId</Declaration>
+			<Declaration>@property (nonatomic, strong) NSNumber *egress</Declaration>
 			
 			
-			<Anchor>//api/name/reservedInstancesId</Anchor>
+			<Anchor>//api/name/egress</Anchor>
             <NodeRef refid="335"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DescribeReservedInstancesListingsRequest/setReservedInstancesListingId:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;One or more Reserved Instance Listing IDs.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DeleteNetworkAclEntryRequest/setNetworkAclId:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the network ACL.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *reservedInstancesListingId</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *networkAclId</Declaration>
 			
 			
-			<Anchor>//api/name/reservedInstancesListingId</Anchor>
+			<Anchor>//api/name/networkAclId</Anchor>
             <NodeRef refid="335"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DescribeReservedInstancesListingsRequest/reservedInstancesListingId</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;One or more Reserved Instance Listing IDs.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DeleteNetworkAclEntryRequest/networkAclId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the network ACL.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *reservedInstancesListingId</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *networkAclId</Declaration>
 			
 			
-			<Anchor>//api/name/reservedInstancesListingId</Anchor>
+			<Anchor>//api/name/networkAclId</Anchor>
             <NodeRef refid="335"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2DescribeReservedInstancesListingsRequest/reservedInstancesListingId</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;One or more Reserved Instance Listing IDs.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2DeleteNetworkAclEntryRequest/networkAclId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the network ACL.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *reservedInstancesListingId</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *networkAclId</Declaration>
 			
 			
-			<Anchor>//api/name/reservedInstancesListingId</Anchor>
+			<Anchor>//api/name/networkAclId</Anchor>
             <NodeRef refid="335"/>
 		</Token>
 		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DeleteNetworkAclEntryRequest/setRuleNumber:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The rule number of the entry to delete.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *ruleNumber</Declaration>
+			
+			
+			<Anchor>//api/name/ruleNumber</Anchor>
+            <NodeRef refid="335"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DeleteNetworkAclEntryRequest/ruleNumber</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The rule number of the entry to delete.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *ruleNumber</Declaration>
+			
+			
+			<Anchor>//api/name/ruleNumber</Anchor>
+            <NodeRef refid="335"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2DeleteNetworkAclEntryRequest/ruleNumber</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The rule number of the entry to delete.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *ruleNumber</Declaration>
+			
+			
+			<Anchor>//api/name/ruleNumber</Anchor>
+            <NodeRef refid="335"/>
+		</Token>
+		
+        
         
 	</File>
 </Tokens>

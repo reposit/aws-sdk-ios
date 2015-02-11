@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSSNSListPlatformApplicationsInput.html">
+	<File path="Classes/AWSKinesisSequenceNumberRange.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSSNSListPlatformApplicationsInput</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Input for ListPlatformApplications action.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSNSModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSKinesisSequenceNumberRange</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The range of possible sequence numbers for the shard.&lt;/p&gt;
+Required parameters: [StartingSequenceNumber]</Abstract>
+			<DeclaredIn>AWSKinesisModel.h</DeclaredIn>
             
 			
 			<NodeRef refid="727"/>
@@ -13,41 +14,78 @@
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSSNSListPlatformApplicationsInput/setNextToken:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;NextToken string is used when calling ListPlatformApplications action to retrieve additional records that are available after the first page results.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSNSModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSKinesisSequenceNumberRange/setEndingSequenceNumber:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ending sequence number for the range. Shards that are in the OPEN state have an ending sequence number of &lt;code&gt;null&lt;/code&gt;.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSKinesisModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *nextToken</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *endingSequenceNumber</Declaration>
 			
 			
-			<Anchor>//api/name/nextToken</Anchor>
+			<Anchor>//api/name/endingSequenceNumber</Anchor>
             <NodeRef refid="727"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSSNSListPlatformApplicationsInput/nextToken</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;NextToken string is used when calling ListPlatformApplications action to retrieve additional records that are available after the first page results.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSNSModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSKinesisSequenceNumberRange/endingSequenceNumber</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ending sequence number for the range. Shards that are in the OPEN state have an ending sequence number of &lt;code&gt;null&lt;/code&gt;.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSKinesisModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *nextToken</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *endingSequenceNumber</Declaration>
 			
 			
-			<Anchor>//api/name/nextToken</Anchor>
+			<Anchor>//api/name/endingSequenceNumber</Anchor>
             <NodeRef refid="727"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSSNSListPlatformApplicationsInput/nextToken</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;NextToken string is used when calling ListPlatformApplications action to retrieve additional records that are available after the first page results.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSNSModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSKinesisSequenceNumberRange/endingSequenceNumber</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ending sequence number for the range. Shards that are in the OPEN state have an ending sequence number of &lt;code&gt;null&lt;/code&gt;.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSKinesisModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *nextToken</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *endingSequenceNumber</Declaration>
 			
 			
-			<Anchor>//api/name/nextToken</Anchor>
+			<Anchor>//api/name/endingSequenceNumber</Anchor>
             <NodeRef refid="727"/>
 		</Token>
 		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSKinesisSequenceNumberRange/setStartingSequenceNumber:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The starting sequence number for the range.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSKinesisModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *startingSequenceNumber</Declaration>
+			
+			
+			<Anchor>//api/name/startingSequenceNumber</Anchor>
+            <NodeRef refid="727"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSKinesisSequenceNumberRange/startingSequenceNumber</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The starting sequence number for the range.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSKinesisModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *startingSequenceNumber</Declaration>
+			
+			
+			<Anchor>//api/name/startingSequenceNumber</Anchor>
+            <NodeRef refid="727"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSKinesisSequenceNumberRange/startingSequenceNumber</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The starting sequence number for the range.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSKinesisModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *startingSequenceNumber</Declaration>
+			
+			
+			<Anchor>//api/name/startingSequenceNumber</Anchor>
+            <NodeRef refid="727"/>
+		</Token>
+		
+        
         
 	</File>
 </Tokens>

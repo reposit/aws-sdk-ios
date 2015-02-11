@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSEC2SpotDatafeedSubscription.html">
+	<File path="Classes/AWSEC2NetworkAcl.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSEC2SpotDatafeedSubscription</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Describes the datafeed for a Spot Instance.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSEC2NetworkAcl</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Describes a network ACL.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
             
 			
@@ -13,185 +13,222 @@
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2SpotDatafeedSubscription/setBucket:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The Amazon S3 bucket where the Spot Instance datafeed is located.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2NetworkAcl/setAssociations:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Any associations between the network ACL and one or more subnets&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *bucket</Declaration>
+			<Declaration>@property (nonatomic, strong) NSArray *associations</Declaration>
 			
 			
-			<Anchor>//api/name/bucket</Anchor>
+			<Anchor>//api/name/associations</Anchor>
             <NodeRef refid="516"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2SpotDatafeedSubscription/bucket</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The Amazon S3 bucket where the Spot Instance datafeed is located.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2NetworkAcl/associations</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Any associations between the network ACL and one or more subnets&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *bucket</Declaration>
+			<Declaration>@property (nonatomic, strong) NSArray *associations</Declaration>
 			
 			
-			<Anchor>//api/name/bucket</Anchor>
+			<Anchor>//api/name/associations</Anchor>
             <NodeRef refid="516"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2SpotDatafeedSubscription/bucket</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The Amazon S3 bucket where the Spot Instance datafeed is located.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2NetworkAcl/associations</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Any associations between the network ACL and one or more subnets&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *bucket</Declaration>
+			<Declaration>@property (nonatomic, strong) NSArray *associations</Declaration>
 			
 			
-			<Anchor>//api/name/bucket</Anchor>
+			<Anchor>//api/name/associations</Anchor>
             <NodeRef refid="516"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2SpotDatafeedSubscription/setFault:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The fault codes for the Spot Instance request, if any.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2NetworkAcl/setEntries:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;One or more entries (rules) in the network ACL.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) AWSEC2SpotInstanceStateFault *fault</Declaration>
+			<Declaration>@property (nonatomic, strong) NSArray *entries</Declaration>
 			
 			
-			<Anchor>//api/name/fault</Anchor>
+			<Anchor>//api/name/entries</Anchor>
             <NodeRef refid="516"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2SpotDatafeedSubscription/fault</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The fault codes for the Spot Instance request, if any.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2NetworkAcl/entries</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;One or more entries (rules) in the network ACL.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) AWSEC2SpotInstanceStateFault *fault</Declaration>
+			<Declaration>@property (nonatomic, strong) NSArray *entries</Declaration>
 			
 			
-			<Anchor>//api/name/fault</Anchor>
+			<Anchor>//api/name/entries</Anchor>
             <NodeRef refid="516"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2SpotDatafeedSubscription/fault</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The fault codes for the Spot Instance request, if any.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2NetworkAcl/entries</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;One or more entries (rules) in the network ACL.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) AWSEC2SpotInstanceStateFault *fault</Declaration>
+			<Declaration>@property (nonatomic, strong) NSArray *entries</Declaration>
 			
 			
-			<Anchor>//api/name/fault</Anchor>
+			<Anchor>//api/name/entries</Anchor>
             <NodeRef refid="516"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2SpotDatafeedSubscription/setOwnerId:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The AWS account ID of the account.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2NetworkAcl/setIsDefault:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Indicates whether this is the default network ACL for the VPC.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *ownerId</Declaration>
+			<Declaration>@property (nonatomic, strong) NSNumber *isDefault</Declaration>
 			
 			
-			<Anchor>//api/name/ownerId</Anchor>
+			<Anchor>//api/name/isDefault</Anchor>
             <NodeRef refid="516"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2SpotDatafeedSubscription/ownerId</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The AWS account ID of the account.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2NetworkAcl/isDefault</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Indicates whether this is the default network ACL for the VPC.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *ownerId</Declaration>
+			<Declaration>@property (nonatomic, strong) NSNumber *isDefault</Declaration>
 			
 			
-			<Anchor>//api/name/ownerId</Anchor>
+			<Anchor>//api/name/isDefault</Anchor>
             <NodeRef refid="516"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2SpotDatafeedSubscription/ownerId</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The AWS account ID of the account.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2NetworkAcl/isDefault</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Indicates whether this is the default network ACL for the VPC.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *ownerId</Declaration>
+			<Declaration>@property (nonatomic, strong) NSNumber *isDefault</Declaration>
 			
 			
-			<Anchor>//api/name/ownerId</Anchor>
+			<Anchor>//api/name/isDefault</Anchor>
             <NodeRef refid="516"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2SpotDatafeedSubscription/setPrefix:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The prefix that is prepended to datafeed files.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2NetworkAcl/setNetworkAclId:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the network ACL.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *prefix</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *networkAclId</Declaration>
 			
 			
-			<Anchor>//api/name/prefix</Anchor>
+			<Anchor>//api/name/networkAclId</Anchor>
             <NodeRef refid="516"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2SpotDatafeedSubscription/prefix</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The prefix that is prepended to datafeed files.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2NetworkAcl/networkAclId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the network ACL.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *prefix</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *networkAclId</Declaration>
 			
 			
-			<Anchor>//api/name/prefix</Anchor>
+			<Anchor>//api/name/networkAclId</Anchor>
             <NodeRef refid="516"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2SpotDatafeedSubscription/prefix</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The prefix that is prepended to datafeed files.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2NetworkAcl/networkAclId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the network ACL.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *prefix</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *networkAclId</Declaration>
 			
 			
-			<Anchor>//api/name/prefix</Anchor>
+			<Anchor>//api/name/networkAclId</Anchor>
             <NodeRef refid="516"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2SpotDatafeedSubscription/setState:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The state of the Spot Instance datafeed subscription.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2NetworkAcl/setTags:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Any tags assigned to the network ACL.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, assign) AWSEC2DatafeedSubscriptionState state</Declaration>
+			<Declaration>@property (nonatomic, strong) NSArray *tags</Declaration>
 			
 			
-			<Anchor>//api/name/state</Anchor>
+			<Anchor>//api/name/tags</Anchor>
             <NodeRef refid="516"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2SpotDatafeedSubscription/state</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The state of the Spot Instance datafeed subscription.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2NetworkAcl/tags</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Any tags assigned to the network ACL.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, assign) AWSEC2DatafeedSubscriptionState state</Declaration>
+			<Declaration>@property (nonatomic, strong) NSArray *tags</Declaration>
 			
 			
-			<Anchor>//api/name/state</Anchor>
+			<Anchor>//api/name/tags</Anchor>
             <NodeRef refid="516"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2SpotDatafeedSubscription/state</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The state of the Spot Instance datafeed subscription.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2NetworkAcl/tags</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Any tags assigned to the network ACL.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, assign) AWSEC2DatafeedSubscriptionState state</Declaration>
+			<Declaration>@property (nonatomic, strong) NSArray *tags</Declaration>
 			
 			
-			<Anchor>//api/name/state</Anchor>
+			<Anchor>//api/name/tags</Anchor>
             <NodeRef refid="516"/>
 		</Token>
 		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2NetworkAcl/setVpcId:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the VPC for the network ACL.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *vpcId</Declaration>
+			
+			
+			<Anchor>//api/name/vpcId</Anchor>
+            <NodeRef refid="516"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2NetworkAcl/vpcId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the VPC for the network ACL.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *vpcId</Declaration>
+			
+			
+			<Anchor>//api/name/vpcId</Anchor>
+            <NodeRef refid="516"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2NetworkAcl/vpcId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the VPC for the network ACL.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *vpcId</Declaration>
+			
+			
+			<Anchor>//api/name/vpcId</Anchor>
+            <NodeRef refid="516"/>
+		</Token>
+		
+        
         
 	</File>
 </Tokens>

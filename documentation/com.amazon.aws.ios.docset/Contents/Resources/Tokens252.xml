@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSEC2CreateReservedInstancesListingRequest.html">
+	<File path="Classes/AWSEC2AssignPrivateIpAddressesRequest.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSEC2CreateReservedInstancesListingRequest</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSEC2AssignPrivateIpAddressesRequest</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
             
@@ -13,149 +13,150 @@
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2CreateReservedInstancesListingRequest/setClientToken:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Unique, case-sensitive identifier you provide to ensure idempotency of your listings. This helps avoid duplicate listings. For more information, see Ensuring Idempotency in the &lt;i&gt;Amazon Elastic Compute Cloud User Guide&lt;/i&gt;.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2AssignPrivateIpAddressesRequest/setAllowReassignment:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Indicates whether to allow an IP address that is already assigned to another network interface or instance to be reassigned to the specified network interface.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *clientToken</Declaration>
+			<Declaration>@property (nonatomic, strong) NSNumber *allowReassignment</Declaration>
 			
 			
-			<Anchor>//api/name/clientToken</Anchor>
+			<Anchor>//api/name/allowReassignment</Anchor>
             <NodeRef refid="252"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2CreateReservedInstancesListingRequest/clientToken</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Unique, case-sensitive identifier you provide to ensure idempotency of your listings. This helps avoid duplicate listings. For more information, see Ensuring Idempotency in the &lt;i&gt;Amazon Elastic Compute Cloud User Guide&lt;/i&gt;.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2AssignPrivateIpAddressesRequest/allowReassignment</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Indicates whether to allow an IP address that is already assigned to another network interface or instance to be reassigned to the specified network interface.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *clientToken</Declaration>
+			<Declaration>@property (nonatomic, strong) NSNumber *allowReassignment</Declaration>
 			
 			
-			<Anchor>//api/name/clientToken</Anchor>
+			<Anchor>//api/name/allowReassignment</Anchor>
             <NodeRef refid="252"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2CreateReservedInstancesListingRequest/clientToken</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Unique, case-sensitive identifier you provide to ensure idempotency of your listings. This helps avoid duplicate listings. For more information, see Ensuring Idempotency in the &lt;i&gt;Amazon Elastic Compute Cloud User Guide&lt;/i&gt;.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2AssignPrivateIpAddressesRequest/allowReassignment</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Indicates whether to allow an IP address that is already assigned to another network interface or instance to be reassigned to the specified network interface.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *clientToken</Declaration>
+			<Declaration>@property (nonatomic, strong) NSNumber *allowReassignment</Declaration>
 			
 			
-			<Anchor>//api/name/clientToken</Anchor>
+			<Anchor>//api/name/allowReassignment</Anchor>
             <NodeRef refid="252"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2CreateReservedInstancesListingRequest/setInstanceCount:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The number of instances that are a part of a Reserved Instance account to be listed in the Reserved Instance Marketplace. This number should be less than or equal to the instance count associated with the Reserved Instance ID specified in this call.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2AssignPrivateIpAddressesRequest/setNetworkInterfaceId:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the network interface.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSNumber *instanceCount</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *networkInterfaceId</Declaration>
 			
 			
-			<Anchor>//api/name/instanceCount</Anchor>
+			<Anchor>//api/name/networkInterfaceId</Anchor>
             <NodeRef refid="252"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2CreateReservedInstancesListingRequest/instanceCount</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The number of instances that are a part of a Reserved Instance account to be listed in the Reserved Instance Marketplace. This number should be less than or equal to the instance count associated with the Reserved Instance ID specified in this call.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2AssignPrivateIpAddressesRequest/networkInterfaceId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the network interface.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSNumber *instanceCount</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *networkInterfaceId</Declaration>
 			
 			
-			<Anchor>//api/name/instanceCount</Anchor>
+			<Anchor>//api/name/networkInterfaceId</Anchor>
             <NodeRef refid="252"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2CreateReservedInstancesListingRequest/instanceCount</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The number of instances that are a part of a Reserved Instance account to be listed in the Reserved Instance Marketplace. This number should be less than or equal to the instance count associated with the Reserved Instance ID specified in this call.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2AssignPrivateIpAddressesRequest/networkInterfaceId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the network interface.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSNumber *instanceCount</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *networkInterfaceId</Declaration>
 			
 			
-			<Anchor>//api/name/instanceCount</Anchor>
+			<Anchor>//api/name/networkInterfaceId</Anchor>
             <NodeRef refid="252"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2CreateReservedInstancesListingRequest/setPriceSchedules:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;A list specifying the price of the Reserved Instance for each month remaining in the Reserved Instance term.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2AssignPrivateIpAddressesRequest/setPrivateIpAddresses:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;One or more IP addresses to be assigned as a secondary private IP address to the network interface. You can&apos;t specify this parameter when also specifying a number of secondary IP addresses.&lt;/p&gt;&lt;p&gt;If you don&apos;t specify an IP address, Amazon EC2 automatically selects an IP address within the subnet range.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSArray *priceSchedules</Declaration>
+			<Declaration>@property (nonatomic, strong) NSArray *privateIpAddresses</Declaration>
 			
 			
-			<Anchor>//api/name/priceSchedules</Anchor>
+			<Anchor>//api/name/privateIpAddresses</Anchor>
             <NodeRef refid="252"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2CreateReservedInstancesListingRequest/priceSchedules</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;A list specifying the price of the Reserved Instance for each month remaining in the Reserved Instance term.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2AssignPrivateIpAddressesRequest/privateIpAddresses</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;One or more IP addresses to be assigned as a secondary private IP address to the network interface. You can&apos;t specify this parameter when also specifying a number of secondary IP addresses.&lt;/p&gt;&lt;p&gt;If you don&apos;t specify an IP address, Amazon EC2 automatically selects an IP address within the subnet range.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSArray *priceSchedules</Declaration>
+			<Declaration>@property (nonatomic, strong) NSArray *privateIpAddresses</Declaration>
 			
 			
-			<Anchor>//api/name/priceSchedules</Anchor>
+			<Anchor>//api/name/privateIpAddresses</Anchor>
             <NodeRef refid="252"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2CreateReservedInstancesListingRequest/priceSchedules</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;A list specifying the price of the Reserved Instance for each month remaining in the Reserved Instance term.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2AssignPrivateIpAddressesRequest/privateIpAddresses</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;One or more IP addresses to be assigned as a secondary private IP address to the network interface. You can&apos;t specify this parameter when also specifying a number of secondary IP addresses.&lt;/p&gt;&lt;p&gt;If you don&apos;t specify an IP address, Amazon EC2 automatically selects an IP address within the subnet range.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSArray *priceSchedules</Declaration>
+			<Declaration>@property (nonatomic, strong) NSArray *privateIpAddresses</Declaration>
 			
 			
-			<Anchor>//api/name/priceSchedules</Anchor>
+			<Anchor>//api/name/privateIpAddresses</Anchor>
             <NodeRef refid="252"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2CreateReservedInstancesListingRequest/setReservedInstancesId:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The ID of the active Reserved Instance.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2AssignPrivateIpAddressesRequest/setSecondaryPrivateIpAddressCount:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The number of secondary IP addresses to assign to the network interface. You can&apos;t specify this parameter when also specifying private IP addresses.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *reservedInstancesId</Declaration>
+			<Declaration>@property (nonatomic, strong) NSNumber *secondaryPrivateIpAddressCount</Declaration>
 			
 			
-			<Anchor>//api/name/reservedInstancesId</Anchor>
+			<Anchor>//api/name/secondaryPrivateIpAddressCount</Anchor>
             <NodeRef refid="252"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2CreateReservedInstancesListingRequest/reservedInstancesId</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The ID of the active Reserved Instance.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2AssignPrivateIpAddressesRequest/secondaryPrivateIpAddressCount</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The number of secondary IP addresses to assign to the network interface. You can&apos;t specify this parameter when also specifying private IP addresses.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *reservedInstancesId</Declaration>
+			<Declaration>@property (nonatomic, strong) NSNumber *secondaryPrivateIpAddressCount</Declaration>
 			
 			
-			<Anchor>//api/name/reservedInstancesId</Anchor>
+			<Anchor>//api/name/secondaryPrivateIpAddressCount</Anchor>
             <NodeRef refid="252"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2CreateReservedInstancesListingRequest/reservedInstancesId</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The ID of the active Reserved Instance.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2AssignPrivateIpAddressesRequest/secondaryPrivateIpAddressCount</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The number of secondary IP addresses to assign to the network interface. You can&apos;t specify this parameter when also specifying private IP addresses.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *reservedInstancesId</Declaration>
+			<Declaration>@property (nonatomic, strong) NSNumber *secondaryPrivateIpAddressCount</Declaration>
 			
 			
-			<Anchor>//api/name/reservedInstancesId</Anchor>
+			<Anchor>//api/name/secondaryPrivateIpAddressCount</Anchor>
             <NodeRef refid="252"/>
 		</Token>
 		
+        
         
 	</File>
 </Tokens>

@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSSQSListDeadLetterSourceQueuesRequest.html">
+	<File path="Classes/AWSS3DeleteObjectsOutput.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSSQSListDeadLetterSourceQueuesRequest</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSS3DeleteObjectsOutput</TokenIdentifier>
 			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSSQSModel.h</DeclaredIn>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
             
 			
 			<NodeRef refid="769"/>
@@ -13,41 +13,78 @@
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSSQSListDeadLetterSourceQueuesRequest/setQueueUrl:</TokenIdentifier>
-			<Abstract type="html">The queue URL of a dead letter queue.</Abstract>
-			<DeclaredIn>AWSSQSModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3DeleteObjectsOutput/setDeleted:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *queueUrl</Declaration>
+			<Declaration>@property (nonatomic, strong) NSArray *deleted</Declaration>
 			
 			
-			<Anchor>//api/name/queueUrl</Anchor>
+			<Anchor>//api/name/deleted</Anchor>
             <NodeRef refid="769"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSSQSListDeadLetterSourceQueuesRequest/queueUrl</TokenIdentifier>
-			<Abstract type="html">The queue URL of a dead letter queue.</Abstract>
-			<DeclaredIn>AWSSQSModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3DeleteObjectsOutput/deleted</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *queueUrl</Declaration>
+			<Declaration>@property (nonatomic, strong) NSArray *deleted</Declaration>
 			
 			
-			<Anchor>//api/name/queueUrl</Anchor>
+			<Anchor>//api/name/deleted</Anchor>
             <NodeRef refid="769"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSSQSListDeadLetterSourceQueuesRequest/queueUrl</TokenIdentifier>
-			<Abstract type="html">The queue URL of a dead letter queue.</Abstract>
-			<DeclaredIn>AWSSQSModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSS3DeleteObjectsOutput/deleted</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *queueUrl</Declaration>
+			<Declaration>@property (nonatomic, strong) NSArray *deleted</Declaration>
 			
 			
-			<Anchor>//api/name/queueUrl</Anchor>
+			<Anchor>//api/name/deleted</Anchor>
             <NodeRef refid="769"/>
 		</Token>
 		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3DeleteObjectsOutput/setErrors:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray *errors</Declaration>
+			
+			
+			<Anchor>//api/name/errors</Anchor>
+            <NodeRef refid="769"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3DeleteObjectsOutput/errors</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray *errors</Declaration>
+			
+			
+			<Anchor>//api/name/errors</Anchor>
+            <NodeRef refid="769"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSS3DeleteObjectsOutput/errors</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray *errors</Declaration>
+			
+			
+			<Anchor>//api/name/errors</Anchor>
+            <NodeRef refid="769"/>
+		</Token>
+		
+        
         
 	</File>
 </Tokens>

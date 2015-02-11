@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSSimpleDBBatchPutAttributesRequest.html">
+	<File path="Classes/AWSS3Grantee.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSSimpleDBBatchPutAttributesRequest</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSS3Grantee</TokenIdentifier>
 			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSSimpleDBModel.h</DeclaredIn>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
             
 			
 			<NodeRef refid="804"/>
@@ -13,77 +13,186 @@
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSSimpleDBBatchPutAttributesRequest/setDomainName:</TokenIdentifier>
-			<Abstract type="html">The name of the domain in which the attributes are being stored.</Abstract>
-			<DeclaredIn>AWSSimpleDBModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3Grantee/setDisplayName:</TokenIdentifier>
+			<Abstract type="html">Screen name of the grantee.</Abstract>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *domainName</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *displayName</Declaration>
 			
 			
-			<Anchor>//api/name/domainName</Anchor>
+			<Anchor>//api/name/displayName</Anchor>
             <NodeRef refid="804"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSSimpleDBBatchPutAttributesRequest/domainName</TokenIdentifier>
-			<Abstract type="html">The name of the domain in which the attributes are being stored.</Abstract>
-			<DeclaredIn>AWSSimpleDBModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3Grantee/displayName</TokenIdentifier>
+			<Abstract type="html">Screen name of the grantee.</Abstract>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *domainName</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *displayName</Declaration>
 			
 			
-			<Anchor>//api/name/domainName</Anchor>
+			<Anchor>//api/name/displayName</Anchor>
             <NodeRef refid="804"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSSimpleDBBatchPutAttributesRequest/domainName</TokenIdentifier>
-			<Abstract type="html">The name of the domain in which the attributes are being stored.</Abstract>
-			<DeclaredIn>AWSSimpleDBModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSS3Grantee/displayName</TokenIdentifier>
+			<Abstract type="html">Screen name of the grantee.</Abstract>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *domainName</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *displayName</Declaration>
 			
 			
-			<Anchor>//api/name/domainName</Anchor>
+			<Anchor>//api/name/displayName</Anchor>
             <NodeRef refid="804"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSSimpleDBBatchPutAttributesRequest/setItems:</TokenIdentifier>
-			<Abstract type="html">A list of items on which to perform the operation.</Abstract>
-			<DeclaredIn>AWSSimpleDBModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3Grantee/setEmailAddress:</TokenIdentifier>
+			<Abstract type="html">Email address of the grantee.</Abstract>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSArray *items</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *emailAddress</Declaration>
 			
 			
-			<Anchor>//api/name/items</Anchor>
+			<Anchor>//api/name/emailAddress</Anchor>
             <NodeRef refid="804"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSSimpleDBBatchPutAttributesRequest/items</TokenIdentifier>
-			<Abstract type="html">A list of items on which to perform the operation.</Abstract>
-			<DeclaredIn>AWSSimpleDBModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3Grantee/emailAddress</TokenIdentifier>
+			<Abstract type="html">Email address of the grantee.</Abstract>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSArray *items</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *emailAddress</Declaration>
 			
 			
-			<Anchor>//api/name/items</Anchor>
+			<Anchor>//api/name/emailAddress</Anchor>
             <NodeRef refid="804"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSSimpleDBBatchPutAttributesRequest/items</TokenIdentifier>
-			<Abstract type="html">A list of items on which to perform the operation.</Abstract>
-			<DeclaredIn>AWSSimpleDBModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSS3Grantee/emailAddress</TokenIdentifier>
+			<Abstract type="html">Email address of the grantee.</Abstract>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSArray *items</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *emailAddress</Declaration>
 			
 			
-			<Anchor>//api/name/items</Anchor>
+			<Anchor>//api/name/emailAddress</Anchor>
             <NodeRef refid="804"/>
 		</Token>
 		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3Grantee/setIdentifier:</TokenIdentifier>
+			<Abstract type="html">The canonical user ID of the grantee.</Abstract>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *identifier</Declaration>
+			
+			
+			<Anchor>//api/name/identifier</Anchor>
+            <NodeRef refid="804"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3Grantee/identifier</TokenIdentifier>
+			<Abstract type="html">The canonical user ID of the grantee.</Abstract>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *identifier</Declaration>
+			
+			
+			<Anchor>//api/name/identifier</Anchor>
+            <NodeRef refid="804"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSS3Grantee/identifier</TokenIdentifier>
+			<Abstract type="html">The canonical user ID of the grantee.</Abstract>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *identifier</Declaration>
+			
+			
+			<Anchor>//api/name/identifier</Anchor>
+            <NodeRef refid="804"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3Grantee/setTypes:</TokenIdentifier>
+			<Abstract type="html">Type of grantee</Abstract>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) AWSS3Types types</Declaration>
+			
+			
+			<Anchor>//api/name/types</Anchor>
+            <NodeRef refid="804"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3Grantee/types</TokenIdentifier>
+			<Abstract type="html">Type of grantee</Abstract>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) AWSS3Types types</Declaration>
+			
+			
+			<Anchor>//api/name/types</Anchor>
+            <NodeRef refid="804"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSS3Grantee/types</TokenIdentifier>
+			<Abstract type="html">Type of grantee</Abstract>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) AWSS3Types types</Declaration>
+			
+			
+			<Anchor>//api/name/types</Anchor>
+            <NodeRef refid="804"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3Grantee/setURI:</TokenIdentifier>
+			<Abstract type="html">URI of the grantee group.</Abstract>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *URI</Declaration>
+			
+			
+			<Anchor>//api/name/URI</Anchor>
+            <NodeRef refid="804"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3Grantee/URI</TokenIdentifier>
+			<Abstract type="html">URI of the grantee group.</Abstract>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *URI</Declaration>
+			
+			
+			<Anchor>//api/name/URI</Anchor>
+            <NodeRef refid="804"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSS3Grantee/URI</TokenIdentifier>
+			<Abstract type="html">URI of the grantee group.</Abstract>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *URI</Declaration>
+			
+			
+			<Anchor>//api/name/URI</Anchor>
+            <NodeRef refid="804"/>
+		</Token>
+		
+        
         
 	</File>
 </Tokens>

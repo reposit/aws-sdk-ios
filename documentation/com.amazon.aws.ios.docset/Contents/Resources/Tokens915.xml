@@ -1,47 +1,54 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Constants/AWSEC2VirtualizationType.html">
+	<File path="Classes/AWSSNSConfirmSubscriptionResponse.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/c/tdef/AWSEC2VirtualizationType</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSSNSConfirmSubscriptionResponse</TokenIdentifier>
+			<Abstract type="html">Response for ConfirmSubscriptions action.</Abstract>
+			<DeclaredIn>AWSSNSModel.h</DeclaredIn>
             
 			
 			<NodeRef refid="915"/>
 		</Token>
 		
 		
-        
-        <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSEC2VirtualizationTypeUnknown</TokenIdentifier>
-            <Abstract type="html"></Abstract>
-            <Declaration>AWSEC2VirtualizationTypeUnknown</Declaration>
-            
-            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
-            
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSNSConfirmSubscriptionResponse/setSubscriptionArn:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ARN of the created subscription.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSNSModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *subscriptionArn</Declaration>
+			
+			
+			<Anchor>//api/name/subscriptionArn</Anchor>
             <NodeRef refid="915"/>
-        </Token>
-        
-        <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSEC2VirtualizationTypeHVM</TokenIdentifier>
-            <Abstract type="html"></Abstract>
-            <Declaration>AWSEC2VirtualizationTypeHVM</Declaration>
-            
-            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
-            
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSNSConfirmSubscriptionResponse/subscriptionArn</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ARN of the created subscription.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSNSModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *subscriptionArn</Declaration>
+			
+			
+			<Anchor>//api/name/subscriptionArn</Anchor>
             <NodeRef refid="915"/>
-        </Token>
-        
-        <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSEC2VirtualizationTypeParavirtual</TokenIdentifier>
-            <Abstract type="html"></Abstract>
-            <Declaration>AWSEC2VirtualizationTypeParavirtual</Declaration>
-            
-            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
-            
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSSNSConfirmSubscriptionResponse/subscriptionArn</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ARN of the created subscription.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSNSModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *subscriptionArn</Declaration>
+			
+			
+			<Anchor>//api/name/subscriptionArn</Anchor>
             <NodeRef refid="915"/>
-        </Token>
+		</Token>
+		
+        
         
 	</File>
 </Tokens>

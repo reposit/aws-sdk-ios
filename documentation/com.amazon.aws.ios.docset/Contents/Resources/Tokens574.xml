@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSKinesisSequenceNumberRange.html">
+	<File path="Classes/AWSEC2RouteTableAssociation.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSKinesisSequenceNumberRange</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The range of possible sequence numbers for the shard.&lt;/p&gt;
-Required parameters: [StartingSequenceNumber]</Abstract>
-			<DeclaredIn>AWSKinesisModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSEC2RouteTableAssociation</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Describes an association between a route table and a subnet.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
             
 			
 			<NodeRef refid="574"/>
@@ -14,77 +13,150 @@ Required parameters: [StartingSequenceNumber]</Abstract>
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSKinesisSequenceNumberRange/setEndingSequenceNumber:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The ending sequence number for the range. Shards that are in the OPEN state have an ending sequence number of &lt;code&gt;null&lt;/code&gt;.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSKinesisModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2RouteTableAssociation/setMain:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Indicates whether this is the main route table.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *endingSequenceNumber</Declaration>
+			<Declaration>@property (nonatomic, strong) NSNumber *main</Declaration>
 			
 			
-			<Anchor>//api/name/endingSequenceNumber</Anchor>
+			<Anchor>//api/name/main</Anchor>
             <NodeRef refid="574"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSKinesisSequenceNumberRange/endingSequenceNumber</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The ending sequence number for the range. Shards that are in the OPEN state have an ending sequence number of &lt;code&gt;null&lt;/code&gt;.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSKinesisModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2RouteTableAssociation/main</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Indicates whether this is the main route table.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *endingSequenceNumber</Declaration>
+			<Declaration>@property (nonatomic, strong) NSNumber *main</Declaration>
 			
 			
-			<Anchor>//api/name/endingSequenceNumber</Anchor>
+			<Anchor>//api/name/main</Anchor>
             <NodeRef refid="574"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSKinesisSequenceNumberRange/endingSequenceNumber</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The ending sequence number for the range. Shards that are in the OPEN state have an ending sequence number of &lt;code&gt;null&lt;/code&gt;.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSKinesisModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2RouteTableAssociation/main</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Indicates whether this is the main route table.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *endingSequenceNumber</Declaration>
+			<Declaration>@property (nonatomic, strong) NSNumber *main</Declaration>
 			
 			
-			<Anchor>//api/name/endingSequenceNumber</Anchor>
+			<Anchor>//api/name/main</Anchor>
             <NodeRef refid="574"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSKinesisSequenceNumberRange/setStartingSequenceNumber:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The starting sequence number for the range.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSKinesisModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2RouteTableAssociation/setRouteTableAssociationId:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the association between a route table and a subnet.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *startingSequenceNumber</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *routeTableAssociationId</Declaration>
 			
 			
-			<Anchor>//api/name/startingSequenceNumber</Anchor>
+			<Anchor>//api/name/routeTableAssociationId</Anchor>
             <NodeRef refid="574"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSKinesisSequenceNumberRange/startingSequenceNumber</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The starting sequence number for the range.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSKinesisModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2RouteTableAssociation/routeTableAssociationId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the association between a route table and a subnet.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *startingSequenceNumber</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *routeTableAssociationId</Declaration>
 			
 			
-			<Anchor>//api/name/startingSequenceNumber</Anchor>
+			<Anchor>//api/name/routeTableAssociationId</Anchor>
             <NodeRef refid="574"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSKinesisSequenceNumberRange/startingSequenceNumber</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The starting sequence number for the range.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSKinesisModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2RouteTableAssociation/routeTableAssociationId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the association between a route table and a subnet.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *startingSequenceNumber</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *routeTableAssociationId</Declaration>
 			
 			
-			<Anchor>//api/name/startingSequenceNumber</Anchor>
+			<Anchor>//api/name/routeTableAssociationId</Anchor>
             <NodeRef refid="574"/>
 		</Token>
 		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2RouteTableAssociation/setRouteTableId:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the route table.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *routeTableId</Declaration>
+			
+			
+			<Anchor>//api/name/routeTableId</Anchor>
+            <NodeRef refid="574"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2RouteTableAssociation/routeTableId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the route table.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *routeTableId</Declaration>
+			
+			
+			<Anchor>//api/name/routeTableId</Anchor>
+            <NodeRef refid="574"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2RouteTableAssociation/routeTableId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the route table.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *routeTableId</Declaration>
+			
+			
+			<Anchor>//api/name/routeTableId</Anchor>
+            <NodeRef refid="574"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2RouteTableAssociation/setSubnetId:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the subnet.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *subnetId</Declaration>
+			
+			
+			<Anchor>//api/name/subnetId</Anchor>
+            <NodeRef refid="574"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2RouteTableAssociation/subnetId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the subnet.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *subnetId</Declaration>
+			
+			
+			<Anchor>//api/name/subnetId</Anchor>
+            <NodeRef refid="574"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2RouteTableAssociation/subnetId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the subnet.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *subnetId</Declaration>
+			
+			
+			<Anchor>//api/name/subnetId</Anchor>
+            <NodeRef refid="574"/>
+		</Token>
+		
+        
         
 	</File>
 </Tokens>

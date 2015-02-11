@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSSESDeleteVerifiedEmailAddressRequest.html">
+	<File path="Classes/AWSElasticLoadBalancingDetachLoadBalancerFromSubnetsInput.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSSESDeleteVerifiedEmailAddressRequest</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Represents a request instructing the service to delete an address from the list of verified email addresses.&lt;/p&gt;
-Required parameters: [EmailAddress]</Abstract>
-			<DeclaredIn>AWSSESModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSElasticLoadBalancingDetachLoadBalancerFromSubnetsInput</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSElasticLoadBalancingModel.h</DeclaredIn>
             
 			
 			<NodeRef refid="667"/>
@@ -14,41 +13,78 @@ Required parameters: [EmailAddress]</Abstract>
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSSESDeleteVerifiedEmailAddressRequest/setEmailAddress:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;An email address to be removed from the list of verified addresses.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSESModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSElasticLoadBalancingDetachLoadBalancerFromSubnetsInput/setLoadBalancerName:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSElasticLoadBalancingModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *emailAddress</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *loadBalancerName</Declaration>
 			
 			
-			<Anchor>//api/name/emailAddress</Anchor>
+			<Anchor>//api/name/loadBalancerName</Anchor>
             <NodeRef refid="667"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSSESDeleteVerifiedEmailAddressRequest/emailAddress</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;An email address to be removed from the list of verified addresses.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSESModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSElasticLoadBalancingDetachLoadBalancerFromSubnetsInput/loadBalancerName</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSElasticLoadBalancingModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *emailAddress</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *loadBalancerName</Declaration>
 			
 			
-			<Anchor>//api/name/emailAddress</Anchor>
+			<Anchor>//api/name/loadBalancerName</Anchor>
             <NodeRef refid="667"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSSESDeleteVerifiedEmailAddressRequest/emailAddress</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;An email address to be removed from the list of verified addresses.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSESModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSElasticLoadBalancingDetachLoadBalancerFromSubnetsInput/loadBalancerName</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSElasticLoadBalancingModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *emailAddress</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *loadBalancerName</Declaration>
 			
 			
-			<Anchor>//api/name/emailAddress</Anchor>
+			<Anchor>//api/name/loadBalancerName</Anchor>
             <NodeRef refid="667"/>
 		</Token>
 		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSElasticLoadBalancingDetachLoadBalancerFromSubnetsInput/setSubnets:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSElasticLoadBalancingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray *subnets</Declaration>
+			
+			
+			<Anchor>//api/name/subnets</Anchor>
+            <NodeRef refid="667"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSElasticLoadBalancingDetachLoadBalancerFromSubnetsInput/subnets</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSElasticLoadBalancingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray *subnets</Declaration>
+			
+			
+			<Anchor>//api/name/subnets</Anchor>
+            <NodeRef refid="667"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSElasticLoadBalancingDetachLoadBalancerFromSubnetsInput/subnets</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSElasticLoadBalancingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray *subnets</Declaration>
+			
+			
+			<Anchor>//api/name/subnets</Anchor>
+            <NodeRef refid="667"/>
+		</Token>
+		
+        
         
 	</File>
 </Tokens>

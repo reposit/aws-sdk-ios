@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSS3MultipartUpload.html">
+	<File path="Classes/AWSElasticLoadBalancingAttachLoadBalancerToSubnetsInput.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSS3MultipartUpload</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSElasticLoadBalancingAttachLoadBalancerToSubnetsInput</TokenIdentifier>
 			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			<DeclaredIn>AWSElasticLoadBalancingModel.h</DeclaredIn>
             
 			
 			<NodeRef refid="629"/>
@@ -13,185 +13,78 @@
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3MultipartUpload/setInitiated:</TokenIdentifier>
-			<Abstract type="html">Date and time at which the multipart upload was initiated.</Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSElasticLoadBalancingAttachLoadBalancerToSubnetsInput/setLoadBalancerName:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSElasticLoadBalancingModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSDate *initiated</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *loadBalancerName</Declaration>
 			
 			
-			<Anchor>//api/name/initiated</Anchor>
+			<Anchor>//api/name/loadBalancerName</Anchor>
             <NodeRef refid="629"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3MultipartUpload/initiated</TokenIdentifier>
-			<Abstract type="html">Date and time at which the multipart upload was initiated.</Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSElasticLoadBalancingAttachLoadBalancerToSubnetsInput/loadBalancerName</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSElasticLoadBalancingModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSDate *initiated</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *loadBalancerName</Declaration>
 			
 			
-			<Anchor>//api/name/initiated</Anchor>
+			<Anchor>//api/name/loadBalancerName</Anchor>
             <NodeRef refid="629"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSS3MultipartUpload/initiated</TokenIdentifier>
-			<Abstract type="html">Date and time at which the multipart upload was initiated.</Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSElasticLoadBalancingAttachLoadBalancerToSubnetsInput/loadBalancerName</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSElasticLoadBalancingModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSDate *initiated</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *loadBalancerName</Declaration>
 			
 			
-			<Anchor>//api/name/initiated</Anchor>
+			<Anchor>//api/name/loadBalancerName</Anchor>
             <NodeRef refid="629"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3MultipartUpload/setInitiator:</TokenIdentifier>
-			<Abstract type="html">Identifies who initiated the multipart upload.</Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSElasticLoadBalancingAttachLoadBalancerToSubnetsInput/setSubnets:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSElasticLoadBalancingModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) AWSS3Initiator *initiator</Declaration>
+			<Declaration>@property (nonatomic, strong) NSArray *subnets</Declaration>
 			
 			
-			<Anchor>//api/name/initiator</Anchor>
+			<Anchor>//api/name/subnets</Anchor>
             <NodeRef refid="629"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3MultipartUpload/initiator</TokenIdentifier>
-			<Abstract type="html">Identifies who initiated the multipart upload.</Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSElasticLoadBalancingAttachLoadBalancerToSubnetsInput/subnets</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSElasticLoadBalancingModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) AWSS3Initiator *initiator</Declaration>
+			<Declaration>@property (nonatomic, strong) NSArray *subnets</Declaration>
 			
 			
-			<Anchor>//api/name/initiator</Anchor>
+			<Anchor>//api/name/subnets</Anchor>
             <NodeRef refid="629"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSS3MultipartUpload/initiator</TokenIdentifier>
-			<Abstract type="html">Identifies who initiated the multipart upload.</Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSElasticLoadBalancingAttachLoadBalancerToSubnetsInput/subnets</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSElasticLoadBalancingModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) AWSS3Initiator *initiator</Declaration>
+			<Declaration>@property (nonatomic, strong) NSArray *subnets</Declaration>
 			
 			
-			<Anchor>//api/name/initiator</Anchor>
+			<Anchor>//api/name/subnets</Anchor>
             <NodeRef refid="629"/>
 		</Token>
 		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3MultipartUpload/setKey:</TokenIdentifier>
-			<Abstract type="html">Key of the object for which the multipart upload was initiated.</Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *key</Declaration>
-			
-			
-			<Anchor>//api/name/key</Anchor>
-            <NodeRef refid="629"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3MultipartUpload/key</TokenIdentifier>
-			<Abstract type="html">Key of the object for which the multipart upload was initiated.</Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *key</Declaration>
-			
-			
-			<Anchor>//api/name/key</Anchor>
-            <NodeRef refid="629"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSS3MultipartUpload/key</TokenIdentifier>
-			<Abstract type="html">Key of the object for which the multipart upload was initiated.</Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *key</Declaration>
-			
-			
-			<Anchor>//api/name/key</Anchor>
-            <NodeRef refid="629"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3MultipartUpload/setStorageClass:</TokenIdentifier>
-			<Abstract type="html">The class of storage used to store the object.</Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, assign) AWSS3StorageClass storageClass</Declaration>
-			
-			
-			<Anchor>//api/name/storageClass</Anchor>
-            <NodeRef refid="629"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3MultipartUpload/storageClass</TokenIdentifier>
-			<Abstract type="html">The class of storage used to store the object.</Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, assign) AWSS3StorageClass storageClass</Declaration>
-			
-			
-			<Anchor>//api/name/storageClass</Anchor>
-            <NodeRef refid="629"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSS3MultipartUpload/storageClass</TokenIdentifier>
-			<Abstract type="html">The class of storage used to store the object.</Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, assign) AWSS3StorageClass storageClass</Declaration>
-			
-			
-			<Anchor>//api/name/storageClass</Anchor>
-            <NodeRef refid="629"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3MultipartUpload/setUploadId:</TokenIdentifier>
-			<Abstract type="html">Upload ID that identifies the multipart upload.</Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *uploadId</Declaration>
-			
-			
-			<Anchor>//api/name/uploadId</Anchor>
-            <NodeRef refid="629"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3MultipartUpload/uploadId</TokenIdentifier>
-			<Abstract type="html">Upload ID that identifies the multipart upload.</Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *uploadId</Declaration>
-			
-			
-			<Anchor>//api/name/uploadId</Anchor>
-            <NodeRef refid="629"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSS3MultipartUpload/uploadId</TokenIdentifier>
-			<Abstract type="html">Upload ID that identifies the multipart upload.</Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *uploadId</Declaration>
-			
-			
-			<Anchor>//api/name/uploadId</Anchor>
-            <NodeRef refid="629"/>
-		</Token>
-		
+        
         
 	</File>
 </Tokens>

@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSEC2IpPermission.html">
+	<File path="Classes/AWSEC2DetachVolumeRequest.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSEC2IpPermission</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Describes a security group rule.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSEC2DetachVolumeRequest</TokenIdentifier>
+			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
             
 			
@@ -13,185 +13,186 @@
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2IpPermission/setFromPort:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The start of port range for the TCP and UDP protocols, or an ICMP type number. A value of &lt;code&gt;-1&lt;/code&gt; indicates all ICMP types.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DetachVolumeRequest/setDevice:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The device name.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSNumber *fromPort</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *device</Declaration>
 			
 			
-			<Anchor>//api/name/fromPort</Anchor>
+			<Anchor>//api/name/device</Anchor>
             <NodeRef refid="436"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2IpPermission/fromPort</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The start of port range for the TCP and UDP protocols, or an ICMP type number. A value of &lt;code&gt;-1&lt;/code&gt; indicates all ICMP types.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DetachVolumeRequest/device</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The device name.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSNumber *fromPort</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *device</Declaration>
 			
 			
-			<Anchor>//api/name/fromPort</Anchor>
+			<Anchor>//api/name/device</Anchor>
             <NodeRef refid="436"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2IpPermission/fromPort</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The start of port range for the TCP and UDP protocols, or an ICMP type number. A value of &lt;code&gt;-1&lt;/code&gt; indicates all ICMP types.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2DetachVolumeRequest/device</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The device name.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSNumber *fromPort</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *device</Declaration>
 			
 			
-			<Anchor>//api/name/fromPort</Anchor>
+			<Anchor>//api/name/device</Anchor>
             <NodeRef refid="436"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2IpPermission/setIpProtocol:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The protocol.&lt;/p&gt;&lt;p&gt;When you call &lt;a&gt;DescribeSecurityGroups&lt;/a&gt;, the protocol value returned is the number. Exception: For TCP, UDP, and ICMP, the value returned is the name (for example, &lt;code&gt;tcp&lt;/code&gt;, &lt;code&gt;udp&lt;/code&gt;, or &lt;code&gt;icmp&lt;/code&gt;). For a list of protocol numbers, see Protocol Numbers.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DetachVolumeRequest/setDryRun:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *ipProtocol</Declaration>
+			<Declaration>@property (nonatomic, strong) NSNumber *dryRun</Declaration>
 			
 			
-			<Anchor>//api/name/ipProtocol</Anchor>
+			<Anchor>//api/name/dryRun</Anchor>
             <NodeRef refid="436"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2IpPermission/ipProtocol</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The protocol.&lt;/p&gt;&lt;p&gt;When you call &lt;a&gt;DescribeSecurityGroups&lt;/a&gt;, the protocol value returned is the number. Exception: For TCP, UDP, and ICMP, the value returned is the name (for example, &lt;code&gt;tcp&lt;/code&gt;, &lt;code&gt;udp&lt;/code&gt;, or &lt;code&gt;icmp&lt;/code&gt;). For a list of protocol numbers, see Protocol Numbers.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DetachVolumeRequest/dryRun</TokenIdentifier>
+			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *ipProtocol</Declaration>
+			<Declaration>@property (nonatomic, strong) NSNumber *dryRun</Declaration>
 			
 			
-			<Anchor>//api/name/ipProtocol</Anchor>
+			<Anchor>//api/name/dryRun</Anchor>
             <NodeRef refid="436"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2IpPermission/ipProtocol</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The protocol.&lt;/p&gt;&lt;p&gt;When you call &lt;a&gt;DescribeSecurityGroups&lt;/a&gt;, the protocol value returned is the number. Exception: For TCP, UDP, and ICMP, the value returned is the name (for example, &lt;code&gt;tcp&lt;/code&gt;, &lt;code&gt;udp&lt;/code&gt;, or &lt;code&gt;icmp&lt;/code&gt;). For a list of protocol numbers, see Protocol Numbers.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2DetachVolumeRequest/dryRun</TokenIdentifier>
+			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *ipProtocol</Declaration>
+			<Declaration>@property (nonatomic, strong) NSNumber *dryRun</Declaration>
 			
 			
-			<Anchor>//api/name/ipProtocol</Anchor>
+			<Anchor>//api/name/dryRun</Anchor>
             <NodeRef refid="436"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2IpPermission/setIpRanges:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;One or more IP ranges.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DetachVolumeRequest/setForce:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Forces detachment if the previous detachment attempt did not occur cleanly (for example, logging into an instance, unmounting the volume, and detaching normally). This option can lead to data loss or a corrupted file system. Use this option only as a last resort to detach a volume from a failed instance. The instance won&apos;t have an opportunity to flush file system caches or file system metadata. If you use this option, you must perform file system check and repair procedures.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSArray *ipRanges</Declaration>
+			<Declaration>@property (nonatomic, strong) NSNumber *force</Declaration>
 			
 			
-			<Anchor>//api/name/ipRanges</Anchor>
+			<Anchor>//api/name/force</Anchor>
             <NodeRef refid="436"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2IpPermission/ipRanges</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;One or more IP ranges.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DetachVolumeRequest/force</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Forces detachment if the previous detachment attempt did not occur cleanly (for example, logging into an instance, unmounting the volume, and detaching normally). This option can lead to data loss or a corrupted file system. Use this option only as a last resort to detach a volume from a failed instance. The instance won&apos;t have an opportunity to flush file system caches or file system metadata. If you use this option, you must perform file system check and repair procedures.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSArray *ipRanges</Declaration>
+			<Declaration>@property (nonatomic, strong) NSNumber *force</Declaration>
 			
 			
-			<Anchor>//api/name/ipRanges</Anchor>
+			<Anchor>//api/name/force</Anchor>
             <NodeRef refid="436"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2IpPermission/ipRanges</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;One or more IP ranges.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2DetachVolumeRequest/force</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Forces detachment if the previous detachment attempt did not occur cleanly (for example, logging into an instance, unmounting the volume, and detaching normally). This option can lead to data loss or a corrupted file system. Use this option only as a last resort to detach a volume from a failed instance. The instance won&apos;t have an opportunity to flush file system caches or file system metadata. If you use this option, you must perform file system check and repair procedures.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSArray *ipRanges</Declaration>
+			<Declaration>@property (nonatomic, strong) NSNumber *force</Declaration>
 			
 			
-			<Anchor>//api/name/ipRanges</Anchor>
+			<Anchor>//api/name/force</Anchor>
             <NodeRef refid="436"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2IpPermission/setToPort:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The end of port range for the TCP and UDP protocols, or an ICMP code. A value of &lt;code&gt;-1&lt;/code&gt; indicates all ICMP codes for the specified ICMP type.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DetachVolumeRequest/setInstanceId:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the instance.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSNumber *toPort</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *instanceId</Declaration>
 			
 			
-			<Anchor>//api/name/toPort</Anchor>
+			<Anchor>//api/name/instanceId</Anchor>
             <NodeRef refid="436"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2IpPermission/toPort</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The end of port range for the TCP and UDP protocols, or an ICMP code. A value of &lt;code&gt;-1&lt;/code&gt; indicates all ICMP codes for the specified ICMP type.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DetachVolumeRequest/instanceId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the instance.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSNumber *toPort</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *instanceId</Declaration>
 			
 			
-			<Anchor>//api/name/toPort</Anchor>
+			<Anchor>//api/name/instanceId</Anchor>
             <NodeRef refid="436"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2IpPermission/toPort</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The end of port range for the TCP and UDP protocols, or an ICMP code. A value of &lt;code&gt;-1&lt;/code&gt; indicates all ICMP codes for the specified ICMP type.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2DetachVolumeRequest/instanceId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the instance.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSNumber *toPort</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *instanceId</Declaration>
 			
 			
-			<Anchor>//api/name/toPort</Anchor>
+			<Anchor>//api/name/instanceId</Anchor>
             <NodeRef refid="436"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2IpPermission/setUserIdGroupPairs:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;One or more security group and AWS account ID pairs.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DetachVolumeRequest/setVolumeId:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the volume.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSArray *userIdGroupPairs</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *volumeId</Declaration>
 			
 			
-			<Anchor>//api/name/userIdGroupPairs</Anchor>
+			<Anchor>//api/name/volumeId</Anchor>
             <NodeRef refid="436"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2IpPermission/userIdGroupPairs</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;One or more security group and AWS account ID pairs.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DetachVolumeRequest/volumeId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the volume.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSArray *userIdGroupPairs</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *volumeId</Declaration>
 			
 			
-			<Anchor>//api/name/userIdGroupPairs</Anchor>
+			<Anchor>//api/name/volumeId</Anchor>
             <NodeRef refid="436"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2IpPermission/userIdGroupPairs</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;One or more security group and AWS account ID pairs.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2DetachVolumeRequest/volumeId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the volume.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSArray *userIdGroupPairs</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *volumeId</Declaration>
 			
 			
-			<Anchor>//api/name/userIdGroupPairs</Anchor>
+			<Anchor>//api/name/volumeId</Anchor>
             <NodeRef refid="436"/>
 		</Token>
 		
+        
         
 	</File>
 </Tokens>

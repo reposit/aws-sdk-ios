@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSEC2Vpc.html">
+	<File path="Classes/AWSEC2ReplaceRouteRequest.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSEC2Vpc</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Describes a VPC.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSEC2ReplaceRouteRequest</TokenIdentifier>
+			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
             
 			
@@ -13,257 +13,258 @@
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2Vpc/setCidrBlock:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The CIDR block for the VPC.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ReplaceRouteRequest/setDestinationCidrBlock:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The CIDR address block used for the destination match. The value you provide must match the CIDR of an existing route in the table.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *cidrBlock</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *destinationCidrBlock</Declaration>
 			
 			
-			<Anchor>//api/name/cidrBlock</Anchor>
+			<Anchor>//api/name/destinationCidrBlock</Anchor>
             <NodeRef refid="546"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2Vpc/cidrBlock</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The CIDR block for the VPC.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ReplaceRouteRequest/destinationCidrBlock</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The CIDR address block used for the destination match. The value you provide must match the CIDR of an existing route in the table.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *cidrBlock</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *destinationCidrBlock</Declaration>
 			
 			
-			<Anchor>//api/name/cidrBlock</Anchor>
+			<Anchor>//api/name/destinationCidrBlock</Anchor>
             <NodeRef refid="546"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2Vpc/cidrBlock</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The CIDR block for the VPC.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2ReplaceRouteRequest/destinationCidrBlock</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The CIDR address block used for the destination match. The value you provide must match the CIDR of an existing route in the table.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *cidrBlock</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *destinationCidrBlock</Declaration>
 			
 			
-			<Anchor>//api/name/cidrBlock</Anchor>
+			<Anchor>//api/name/destinationCidrBlock</Anchor>
             <NodeRef refid="546"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2Vpc/setDhcpOptionsId:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The ID of the set of DHCP options you&apos;ve associated with the VPC (or &lt;code&gt;default&lt;/code&gt; if the default options are associated with the VPC).&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ReplaceRouteRequest/setDryRun:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *dhcpOptionsId</Declaration>
+			<Declaration>@property (nonatomic, strong) NSNumber *dryRun</Declaration>
 			
 			
-			<Anchor>//api/name/dhcpOptionsId</Anchor>
+			<Anchor>//api/name/dryRun</Anchor>
             <NodeRef refid="546"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2Vpc/dhcpOptionsId</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The ID of the set of DHCP options you&apos;ve associated with the VPC (or &lt;code&gt;default&lt;/code&gt; if the default options are associated with the VPC).&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ReplaceRouteRequest/dryRun</TokenIdentifier>
+			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *dhcpOptionsId</Declaration>
+			<Declaration>@property (nonatomic, strong) NSNumber *dryRun</Declaration>
 			
 			
-			<Anchor>//api/name/dhcpOptionsId</Anchor>
+			<Anchor>//api/name/dryRun</Anchor>
             <NodeRef refid="546"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2Vpc/dhcpOptionsId</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The ID of the set of DHCP options you&apos;ve associated with the VPC (or &lt;code&gt;default&lt;/code&gt; if the default options are associated with the VPC).&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2ReplaceRouteRequest/dryRun</TokenIdentifier>
+			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *dhcpOptionsId</Declaration>
+			<Declaration>@property (nonatomic, strong) NSNumber *dryRun</Declaration>
 			
 			
-			<Anchor>//api/name/dhcpOptionsId</Anchor>
+			<Anchor>//api/name/dryRun</Anchor>
             <NodeRef refid="546"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2Vpc/setInstanceTenancy:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The allowed tenancy of instances launched into the VPC.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ReplaceRouteRequest/setGatewayId:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of an Internet gateway or virtual private gateway.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, assign) AWSEC2Tenancy instanceTenancy</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *gatewayId</Declaration>
 			
 			
-			<Anchor>//api/name/instanceTenancy</Anchor>
+			<Anchor>//api/name/gatewayId</Anchor>
             <NodeRef refid="546"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2Vpc/instanceTenancy</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The allowed tenancy of instances launched into the VPC.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ReplaceRouteRequest/gatewayId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of an Internet gateway or virtual private gateway.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, assign) AWSEC2Tenancy instanceTenancy</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *gatewayId</Declaration>
 			
 			
-			<Anchor>//api/name/instanceTenancy</Anchor>
+			<Anchor>//api/name/gatewayId</Anchor>
             <NodeRef refid="546"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2Vpc/instanceTenancy</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The allowed tenancy of instances launched into the VPC.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2ReplaceRouteRequest/gatewayId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of an Internet gateway or virtual private gateway.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, assign) AWSEC2Tenancy instanceTenancy</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *gatewayId</Declaration>
 			
 			
-			<Anchor>//api/name/instanceTenancy</Anchor>
+			<Anchor>//api/name/gatewayId</Anchor>
             <NodeRef refid="546"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2Vpc/setIsDefault:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Indicates whether the VPC is the default VPC.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ReplaceRouteRequest/setInstanceId:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of a NAT instance in your VPC.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSNumber *isDefault</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *instanceId</Declaration>
 			
 			
-			<Anchor>//api/name/isDefault</Anchor>
+			<Anchor>//api/name/instanceId</Anchor>
             <NodeRef refid="546"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2Vpc/isDefault</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Indicates whether the VPC is the default VPC.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ReplaceRouteRequest/instanceId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of a NAT instance in your VPC.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSNumber *isDefault</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *instanceId</Declaration>
 			
 			
-			<Anchor>//api/name/isDefault</Anchor>
+			<Anchor>//api/name/instanceId</Anchor>
             <NodeRef refid="546"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2Vpc/isDefault</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Indicates whether the VPC is the default VPC.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2ReplaceRouteRequest/instanceId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of a NAT instance in your VPC.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSNumber *isDefault</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *instanceId</Declaration>
 			
 			
-			<Anchor>//api/name/isDefault</Anchor>
+			<Anchor>//api/name/instanceId</Anchor>
             <NodeRef refid="546"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2Vpc/setState:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The current state of the VPC.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ReplaceRouteRequest/setNetworkInterfaceId:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of a network interface.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, assign) AWSEC2VpcState state</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *networkInterfaceId</Declaration>
 			
 			
-			<Anchor>//api/name/state</Anchor>
+			<Anchor>//api/name/networkInterfaceId</Anchor>
             <NodeRef refid="546"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2Vpc/state</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The current state of the VPC.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ReplaceRouteRequest/networkInterfaceId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of a network interface.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, assign) AWSEC2VpcState state</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *networkInterfaceId</Declaration>
 			
 			
-			<Anchor>//api/name/state</Anchor>
+			<Anchor>//api/name/networkInterfaceId</Anchor>
             <NodeRef refid="546"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2Vpc/state</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The current state of the VPC.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2ReplaceRouteRequest/networkInterfaceId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of a network interface.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, assign) AWSEC2VpcState state</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *networkInterfaceId</Declaration>
 			
 			
-			<Anchor>//api/name/state</Anchor>
+			<Anchor>//api/name/networkInterfaceId</Anchor>
             <NodeRef refid="546"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2Vpc/setTags:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Any tags assigned to the VPC.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ReplaceRouteRequest/setRouteTableId:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the route table.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSArray *tags</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *routeTableId</Declaration>
 			
 			
-			<Anchor>//api/name/tags</Anchor>
+			<Anchor>//api/name/routeTableId</Anchor>
             <NodeRef refid="546"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2Vpc/tags</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Any tags assigned to the VPC.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ReplaceRouteRequest/routeTableId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the route table.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSArray *tags</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *routeTableId</Declaration>
 			
 			
-			<Anchor>//api/name/tags</Anchor>
+			<Anchor>//api/name/routeTableId</Anchor>
             <NodeRef refid="546"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2Vpc/tags</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Any tags assigned to the VPC.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2ReplaceRouteRequest/routeTableId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the route table.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSArray *tags</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *routeTableId</Declaration>
 			
 			
-			<Anchor>//api/name/tags</Anchor>
+			<Anchor>//api/name/routeTableId</Anchor>
             <NodeRef refid="546"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2Vpc/setVpcId:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The ID of the VPC.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ReplaceRouteRequest/setVpcPeeringConnectionId:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of a VPC peering connection.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *vpcId</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *vpcPeeringConnectionId</Declaration>
 			
 			
-			<Anchor>//api/name/vpcId</Anchor>
+			<Anchor>//api/name/vpcPeeringConnectionId</Anchor>
             <NodeRef refid="546"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2Vpc/vpcId</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The ID of the VPC.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ReplaceRouteRequest/vpcPeeringConnectionId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of a VPC peering connection.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *vpcId</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *vpcPeeringConnectionId</Declaration>
 			
 			
-			<Anchor>//api/name/vpcId</Anchor>
+			<Anchor>//api/name/vpcPeeringConnectionId</Anchor>
             <NodeRef refid="546"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2Vpc/vpcId</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The ID of the VPC.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2ReplaceRouteRequest/vpcPeeringConnectionId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of a VPC peering connection.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *vpcId</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *vpcPeeringConnectionId</Declaration>
 			
 			
-			<Anchor>//api/name/vpcId</Anchor>
+			<Anchor>//api/name/vpcPeeringConnectionId</Anchor>
             <NodeRef refid="546"/>
 		</Token>
 		
+        
         
 	</File>
 </Tokens>

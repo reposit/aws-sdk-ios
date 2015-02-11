@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSMobileAnalyticsVirtualMonetizationEventBuilder.html">
+	<File path="Classes/AWSEC2SpotPrice.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSMobileAnalyticsVirtualMonetizationEventBuilder</TokenIdentifier>
-			<Abstract type="html">AWSMobileAnalyticsVirtualMonetizationEventBuilder builds monetization events to track virtual purchases from your In-Game store.
-In order to build a Virtual monetization event, you must call all of the setters on this builder.</Abstract>
-			<DeclaredIn>AWSMobileAnalyticsVirtualMonetizationEventBuilder.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSEC2SpotPrice</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Describes the Spot Price.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
             
 			
 			<NodeRef refid="585"/>
@@ -14,103 +13,186 @@ In order to build a Virtual monetization event, you must call all of the setters
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/clm/AWSMobileAnalyticsVirtualMonetizationEventBuilder/builderWithEventClient:</TokenIdentifier>
-			<Abstract type="html">Create a monetization builder that can record purchase events from your In-Game Store</Abstract>
-			<DeclaredIn>AWSMobileAnalyticsVirtualMonetizationEventBuilder.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2SpotPrice/setAvailabilityZone:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The Availability Zone.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>+ (AWSMobileAnalyticsVirtualMonetizationEventBuilder *)builderWithEventClient:(id&lt;AWSMobileAnalyticsEventClient&gt;)theEventClient</Declaration>
-			<Parameters>
-				<Parameter>
-					<Name>theEventClient</Name>
-					<Abstract type="html">The event client used to create the event</Abstract>
-				</Parameter>
-			</Parameters>
-			<ReturnValue><Abstract type="html">a monetization event builder for In-Game store purchases</Abstract></ReturnValue>
-			<Anchor>//api/name/builderWithEventClient:</Anchor>
+			<Declaration>@property (nonatomic, strong) NSString *availabilityZone</Declaration>
+			
+			
+			<Anchor>//api/name/availabilityZone</Anchor>
             <NodeRef refid="585"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSMobileAnalyticsVirtualMonetizationEventBuilder/withProductId:</TokenIdentifier>
-			<Abstract type="html">Sets the product id for the item(s) being purchased</Abstract>
-			<DeclaredIn>AWSMobileAnalyticsVirtualMonetizationEventBuilder.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2SpotPrice/availabilityZone</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The Availability Zone.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>- (void)withProductId:(NSString *)theProductId</Declaration>
-			<Parameters>
-				<Parameter>
-					<Name>withProductId</Name>
-					<Abstract type="html">The product id of the item(s) being purchased</Abstract>
-				</Parameter>
-			</Parameters>
+			<Declaration>@property (nonatomic, strong) NSString *availabilityZone</Declaration>
 			
-			<Anchor>//api/name/withProductId:</Anchor>
+			
+			<Anchor>//api/name/availabilityZone</Anchor>
             <NodeRef refid="585"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSMobileAnalyticsVirtualMonetizationEventBuilder/withItemPrice:</TokenIdentifier>
-			<Abstract type="html">Sets the item price of the item being purchased</Abstract>
-			<DeclaredIn>AWSMobileAnalyticsVirtualMonetizationEventBuilder.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2SpotPrice/availabilityZone</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The Availability Zone.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>- (void)withItemPrice:(double)theItemPrice</Declaration>
-			<Parameters>
-				<Parameter>
-					<Name>theItemPrice</Name>
-					<Abstract type="html">The numerical item price</Abstract>
-				</Parameter>
-			</Parameters>
+			<Declaration>@property (nonatomic, strong) NSString *availabilityZone</Declaration>
 			
-			<Anchor>//api/name/withItemPrice:</Anchor>
+			
+			<Anchor>//api/name/availabilityZone</Anchor>
             <NodeRef refid="585"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSMobileAnalyticsVirtualMonetizationEventBuilder/withQuantity:</TokenIdentifier>
-			<Abstract type="html">Sets the quantity of item(s) being purchased.</Abstract>
-			<DeclaredIn>AWSMobileAnalyticsVirtualMonetizationEventBuilder.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2SpotPrice/setInstanceType:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The instance type.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>- (void)withQuantity:(NSInteger)theQuantity</Declaration>
-			<Parameters>
-				<Parameter>
-					<Name>theQuantity</Name>
-					<Abstract type="html">The quantity of items purchased</Abstract>
-				</Parameter>
-			</Parameters>
+			<Declaration>@property (nonatomic, assign) AWSEC2InstanceType instanceType</Declaration>
 			
-			<Anchor>//api/name/withQuantity:</Anchor>
+			
+			<Anchor>//api/name/instanceType</Anchor>
             <NodeRef refid="585"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSMobileAnalyticsVirtualMonetizationEventBuilder/withCurrency:</TokenIdentifier>
-			<Abstract type="html">Sets the currency of the item price</Abstract>
-			<DeclaredIn>AWSMobileAnalyticsVirtualMonetizationEventBuilder.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2SpotPrice/instanceType</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The instance type.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>- (void)withCurrency:(NSString *)theCurrency</Declaration>
-			<Parameters>
-				<Parameter>
-					<Name>theCurrency</Name>
-					<Abstract type="html">The currency of the item price</Abstract>
-				</Parameter>
-			</Parameters>
+			<Declaration>@property (nonatomic, assign) AWSEC2InstanceType instanceType</Declaration>
 			
-			<Anchor>//api/name/withCurrency:</Anchor>
+			
+			<Anchor>//api/name/instanceType</Anchor>
             <NodeRef refid="585"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSMobileAnalyticsVirtualMonetizationEventBuilder/build</TokenIdentifier>
-			<Abstract type="html">Builds the monetization event using the parameters set on the builder. You must
-still record the event.</Abstract>
-			<DeclaredIn>AWSMobileAnalyticsVirtualMonetizationEventBuilder.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2SpotPrice/instanceType</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The instance type.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>- (id&lt;AWSMobileAnalyticsEvent&gt;)build</Declaration>
+			<Declaration>@property (nonatomic, assign) AWSEC2InstanceType instanceType</Declaration>
 			
-			<ReturnValue><Abstract type="html">an AWSMobileAnalyticsEvent to record</Abstract></ReturnValue>
-			<Anchor>//api/name/build</Anchor>
+			
+			<Anchor>//api/name/instanceType</Anchor>
             <NodeRef refid="585"/>
 		</Token>
 		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2SpotPrice/setProductDescription:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;A general description of the AMI.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) AWSEC2RIProductDescription productDescription</Declaration>
+			
+			
+			<Anchor>//api/name/productDescription</Anchor>
+            <NodeRef refid="585"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2SpotPrice/productDescription</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;A general description of the AMI.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) AWSEC2RIProductDescription productDescription</Declaration>
+			
+			
+			<Anchor>//api/name/productDescription</Anchor>
+            <NodeRef refid="585"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2SpotPrice/productDescription</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;A general description of the AMI.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) AWSEC2RIProductDescription productDescription</Declaration>
+			
+			
+			<Anchor>//api/name/productDescription</Anchor>
+            <NodeRef refid="585"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2SpotPrice/setSpotPrice:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The maximum price you will pay to launch one or more Spot Instances.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *spotPrice</Declaration>
+			
+			
+			<Anchor>//api/name/spotPrice</Anchor>
+            <NodeRef refid="585"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2SpotPrice/spotPrice</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The maximum price you will pay to launch one or more Spot Instances.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *spotPrice</Declaration>
+			
+			
+			<Anchor>//api/name/spotPrice</Anchor>
+            <NodeRef refid="585"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2SpotPrice/spotPrice</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The maximum price you will pay to launch one or more Spot Instances.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *spotPrice</Declaration>
+			
+			
+			<Anchor>//api/name/spotPrice</Anchor>
+            <NodeRef refid="585"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2SpotPrice/setTimestamp:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The date and time the request was created.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSDate *timestamp</Declaration>
+			
+			
+			<Anchor>//api/name/timestamp</Anchor>
+            <NodeRef refid="585"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2SpotPrice/timestamp</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The date and time the request was created.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSDate *timestamp</Declaration>
+			
+			
+			<Anchor>//api/name/timestamp</Anchor>
+            <NodeRef refid="585"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2SpotPrice/timestamp</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The date and time the request was created.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSDate *timestamp</Declaration>
+			
+			
+			<Anchor>//api/name/timestamp</Anchor>
+            <NodeRef refid="585"/>
+		</Token>
+		
+        
         
 	</File>
 </Tokens>

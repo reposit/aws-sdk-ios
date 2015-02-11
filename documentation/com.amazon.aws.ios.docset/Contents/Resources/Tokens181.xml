@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSDynamoDBPutRequest.html">
+	<File path="Classes/AWSCognitoSyncSubscribeToDatasetRequest.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSDynamoDBPutRequest</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Represents a request to perform a &lt;i&gt;PutItem&lt;/i&gt; operation on an item.&lt;/p&gt;
-Required parameters: [Item]</Abstract>
-			<DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSCognitoSyncSubscribeToDatasetRequest</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;A request to &lt;code&gt;SubscribeToDatasetRequest&lt;/code&gt;.&lt;/p&gt;
+Required parameters: [IdentityPoolId, IdentityId, DatasetName, DeviceId]</Abstract>
+			<DeclaredIn>AWSCognitoSyncModel.h</DeclaredIn>
             
 			
 			<NodeRef refid="181"/>
@@ -14,41 +14,150 @@ Required parameters: [Item]</Abstract>
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSDynamoDBPutRequest/setItem:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;A map of attribute name to attribute values, representing the primary key of an item to be processed by &lt;i&gt;PutItem&lt;/i&gt;. All of the table&apos;s primary key attributes must be specified, and their data types must match those of the table&apos;s key schema. If any attributes are present in the item which are part of an index key schema for the table, their types must match the index key schema.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoSyncSubscribeToDatasetRequest/setDatasetName:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The name of the dataset to subcribe to.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSCognitoSyncModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSDictionary *item</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *datasetName</Declaration>
 			
 			
-			<Anchor>//api/name/item</Anchor>
+			<Anchor>//api/name/datasetName</Anchor>
             <NodeRef refid="181"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSDynamoDBPutRequest/item</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;A map of attribute name to attribute values, representing the primary key of an item to be processed by &lt;i&gt;PutItem&lt;/i&gt;. All of the table&apos;s primary key attributes must be specified, and their data types must match those of the table&apos;s key schema. If any attributes are present in the item which are part of an index key schema for the table, their types must match the index key schema.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoSyncSubscribeToDatasetRequest/datasetName</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The name of the dataset to subcribe to.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSCognitoSyncModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSDictionary *item</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *datasetName</Declaration>
 			
 			
-			<Anchor>//api/name/item</Anchor>
+			<Anchor>//api/name/datasetName</Anchor>
             <NodeRef refid="181"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSDynamoDBPutRequest/item</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;A map of attribute name to attribute values, representing the primary key of an item to be processed by &lt;i&gt;PutItem&lt;/i&gt;. All of the table&apos;s primary key attributes must be specified, and their data types must match those of the table&apos;s key schema. If any attributes are present in the item which are part of an index key schema for the table, their types must match the index key schema.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSCognitoSyncSubscribeToDatasetRequest/datasetName</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The name of the dataset to subcribe to.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSCognitoSyncModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSDictionary *item</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *datasetName</Declaration>
 			
 			
-			<Anchor>//api/name/item</Anchor>
+			<Anchor>//api/name/datasetName</Anchor>
             <NodeRef refid="181"/>
 		</Token>
 		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoSyncSubscribeToDatasetRequest/setDeviceId:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The unique ID generated for this device by Cognito.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSCognitoSyncModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *deviceId</Declaration>
+			
+			
+			<Anchor>//api/name/deviceId</Anchor>
+            <NodeRef refid="181"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoSyncSubscribeToDatasetRequest/deviceId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The unique ID generated for this device by Cognito.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSCognitoSyncModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *deviceId</Declaration>
+			
+			
+			<Anchor>//api/name/deviceId</Anchor>
+            <NodeRef refid="181"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSCognitoSyncSubscribeToDatasetRequest/deviceId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The unique ID generated for this device by Cognito.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSCognitoSyncModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *deviceId</Declaration>
+			
+			
+			<Anchor>//api/name/deviceId</Anchor>
+            <NodeRef refid="181"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoSyncSubscribeToDatasetRequest/setIdentityId:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Unique ID for this identity.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSCognitoSyncModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *identityId</Declaration>
+			
+			
+			<Anchor>//api/name/identityId</Anchor>
+            <NodeRef refid="181"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoSyncSubscribeToDatasetRequest/identityId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Unique ID for this identity.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSCognitoSyncModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *identityId</Declaration>
+			
+			
+			<Anchor>//api/name/identityId</Anchor>
+            <NodeRef refid="181"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSCognitoSyncSubscribeToDatasetRequest/identityId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Unique ID for this identity.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSCognitoSyncModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *identityId</Declaration>
+			
+			
+			<Anchor>//api/name/identityId</Anchor>
+            <NodeRef refid="181"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoSyncSubscribeToDatasetRequest/setIdentityPoolId:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;A name-spaced GUID (for example, us-east-1:23EC4050-6AEA-7089-A2DD-08002EXAMPLE) created by Amazon Cognito. The ID of the pool to which the identity belongs.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSCognitoSyncModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *identityPoolId</Declaration>
+			
+			
+			<Anchor>//api/name/identityPoolId</Anchor>
+            <NodeRef refid="181"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoSyncSubscribeToDatasetRequest/identityPoolId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;A name-spaced GUID (for example, us-east-1:23EC4050-6AEA-7089-A2DD-08002EXAMPLE) created by Amazon Cognito. The ID of the pool to which the identity belongs.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSCognitoSyncModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *identityPoolId</Declaration>
+			
+			
+			<Anchor>//api/name/identityPoolId</Anchor>
+            <NodeRef refid="181"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSCognitoSyncSubscribeToDatasetRequest/identityPoolId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;A name-spaced GUID (for example, us-east-1:23EC4050-6AEA-7089-A2DD-08002EXAMPLE) created by Amazon Cognito. The ID of the pool to which the identity belongs.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSCognitoSyncModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *identityPoolId</Declaration>
+			
+			
+			<Anchor>//api/name/identityPoolId</Anchor>
+            <NodeRef refid="181"/>
+		</Token>
+		
+        
         
 	</File>
 </Tokens>

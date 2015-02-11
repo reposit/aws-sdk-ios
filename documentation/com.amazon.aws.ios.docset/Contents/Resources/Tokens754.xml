@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSSQSChangeMessageVisibilityBatchResult.html">
+	<File path="Classes/AWSS3Condition.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSSQSChangeMessageVisibilityBatchResult</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt; For each message in the batch, the response contains a &lt;a&gt;ChangeMessageVisibilityBatchResultEntry&lt;/a&gt; tag if the message succeeds or a &lt;a&gt;BatchResultErrorEntry&lt;/a&gt; tag if the message fails. &lt;/p&gt;
-Required parameters: [Successful, Failed]</Abstract>
-			<DeclaredIn>AWSSQSModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSS3Condition</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
             
 			
 			<NodeRef refid="754"/>
@@ -14,77 +13,78 @@ Required parameters: [Successful, Failed]</Abstract>
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSSQSChangeMessageVisibilityBatchResult/setFailed:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;A list of &lt;a&gt;BatchResultErrorEntry&lt;/a&gt; items.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSQSModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3Condition/setHttpErrorCodeReturnedEquals:</TokenIdentifier>
+			<Abstract type="html">The HTTP error code when the redirect is applied. In the event of an error, if the error code equals this value, then the specified redirect is applied. Required when parent element Condition is specified and sibling KeyPrefixEquals is not specified. If both are specified, then both must be true for the redirect to be applied.</Abstract>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSArray *failed</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *httpErrorCodeReturnedEquals</Declaration>
 			
 			
-			<Anchor>//api/name/failed</Anchor>
+			<Anchor>//api/name/httpErrorCodeReturnedEquals</Anchor>
             <NodeRef refid="754"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSSQSChangeMessageVisibilityBatchResult/failed</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;A list of &lt;a&gt;BatchResultErrorEntry&lt;/a&gt; items.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSQSModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3Condition/httpErrorCodeReturnedEquals</TokenIdentifier>
+			<Abstract type="html">The HTTP error code when the redirect is applied. In the event of an error, if the error code equals this value, then the specified redirect is applied. Required when parent element Condition is specified and sibling KeyPrefixEquals is not specified. If both are specified, then both must be true for the redirect to be applied.</Abstract>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSArray *failed</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *httpErrorCodeReturnedEquals</Declaration>
 			
 			
-			<Anchor>//api/name/failed</Anchor>
+			<Anchor>//api/name/httpErrorCodeReturnedEquals</Anchor>
             <NodeRef refid="754"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSSQSChangeMessageVisibilityBatchResult/failed</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;A list of &lt;a&gt;BatchResultErrorEntry&lt;/a&gt; items.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSQSModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSS3Condition/httpErrorCodeReturnedEquals</TokenIdentifier>
+			<Abstract type="html">The HTTP error code when the redirect is applied. In the event of an error, if the error code equals this value, then the specified redirect is applied. Required when parent element Condition is specified and sibling KeyPrefixEquals is not specified. If both are specified, then both must be true for the redirect to be applied.</Abstract>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSArray *failed</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *httpErrorCodeReturnedEquals</Declaration>
 			
 			
-			<Anchor>//api/name/failed</Anchor>
+			<Anchor>//api/name/httpErrorCodeReturnedEquals</Anchor>
             <NodeRef refid="754"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSSQSChangeMessageVisibilityBatchResult/setSuccessful:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;A list of &lt;a&gt;ChangeMessageVisibilityBatchResultEntry&lt;/a&gt; items.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSQSModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3Condition/setKeyPrefixEquals:</TokenIdentifier>
+			<Abstract type="html">The object key name prefix when the redirect is applied. For example, to redirect requests for ExamplePage.html, the key prefix will be ExamplePage.html. To redirect request for all pages with the prefix docs/, the key prefix will be /docs, which identifies all objects in the docs/ folder. Required when the parent element Condition is specified and sibling HttpErrorCodeReturnedEquals is not specified. If both conditions are specified, both must be true for the redirect to be applied.</Abstract>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSArray *successful</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *keyPrefixEquals</Declaration>
 			
 			
-			<Anchor>//api/name/successful</Anchor>
+			<Anchor>//api/name/keyPrefixEquals</Anchor>
             <NodeRef refid="754"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSSQSChangeMessageVisibilityBatchResult/successful</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;A list of &lt;a&gt;ChangeMessageVisibilityBatchResultEntry&lt;/a&gt; items.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSQSModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3Condition/keyPrefixEquals</TokenIdentifier>
+			<Abstract type="html">The object key name prefix when the redirect is applied. For example, to redirect requests for ExamplePage.html, the key prefix will be ExamplePage.html. To redirect request for all pages with the prefix docs/, the key prefix will be /docs, which identifies all objects in the docs/ folder. Required when the parent element Condition is specified and sibling HttpErrorCodeReturnedEquals is not specified. If both conditions are specified, both must be true for the redirect to be applied.</Abstract>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSArray *successful</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *keyPrefixEquals</Declaration>
 			
 			
-			<Anchor>//api/name/successful</Anchor>
+			<Anchor>//api/name/keyPrefixEquals</Anchor>
             <NodeRef refid="754"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSSQSChangeMessageVisibilityBatchResult/successful</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;A list of &lt;a&gt;ChangeMessageVisibilityBatchResultEntry&lt;/a&gt; items.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSQSModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSS3Condition/keyPrefixEquals</TokenIdentifier>
+			<Abstract type="html">The object key name prefix when the redirect is applied. For example, to redirect requests for ExamplePage.html, the key prefix will be ExamplePage.html. To redirect request for all pages with the prefix docs/, the key prefix will be /docs, which identifies all objects in the docs/ folder. Required when the parent element Condition is specified and sibling HttpErrorCodeReturnedEquals is not specified. If both conditions are specified, both must be true for the redirect to be applied.</Abstract>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSArray *successful</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *keyPrefixEquals</Declaration>
 			
 			
-			<Anchor>//api/name/successful</Anchor>
+			<Anchor>//api/name/keyPrefixEquals</Anchor>
             <NodeRef refid="754"/>
 		</Token>
 		
+        
         
 	</File>
 </Tokens>

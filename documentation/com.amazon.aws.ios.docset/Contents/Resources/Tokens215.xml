@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSEC2AuthorizeSecurityGroupEgressRequest.html">
+	<File path="Classes/AWSDynamoDBKeysAndAttributes.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSEC2AuthorizeSecurityGroupEgressRequest</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSDynamoDBKeysAndAttributes</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Represents a set of primary keys and, for each key, the attributes to retrieve from the table.&lt;/p&gt;&lt;p&gt;For each primary key, you must provide &lt;i&gt;all&lt;/i&gt; of the key attributes. For example, with a hash type primary key, you only need to specify the hash attribute. For a hash-and-range type primary key, you must specify &lt;i&gt;both&lt;/i&gt; the hash attribute and the range attribute.&lt;/p&gt;
+Required parameters: [Keys]</Abstract>
+			<DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
             
 			
 			<NodeRef refid="215"/>
@@ -13,293 +14,186 @@
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2AuthorizeSecurityGroupEgressRequest/setCidrIp:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The CIDR IP address range. You can&apos;t specify this parameter when specifying a source security group.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSDynamoDBKeysAndAttributes/setAttributesToGet:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;One or more attributes to retrieve from the table or index. If no attribute names are specified then all attributes will be returned. If any of the specified attributes are not found, they will not appear in the result.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *cidrIp</Declaration>
+			<Declaration>@property (nonatomic, strong) NSArray *attributesToGet</Declaration>
 			
 			
-			<Anchor>//api/name/cidrIp</Anchor>
+			<Anchor>//api/name/attributesToGet</Anchor>
             <NodeRef refid="215"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2AuthorizeSecurityGroupEgressRequest/cidrIp</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The CIDR IP address range. You can&apos;t specify this parameter when specifying a source security group.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSDynamoDBKeysAndAttributes/attributesToGet</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;One or more attributes to retrieve from the table or index. If no attribute names are specified then all attributes will be returned. If any of the specified attributes are not found, they will not appear in the result.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *cidrIp</Declaration>
+			<Declaration>@property (nonatomic, strong) NSArray *attributesToGet</Declaration>
 			
 			
-			<Anchor>//api/name/cidrIp</Anchor>
+			<Anchor>//api/name/attributesToGet</Anchor>
             <NodeRef refid="215"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2AuthorizeSecurityGroupEgressRequest/cidrIp</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The CIDR IP address range. You can&apos;t specify this parameter when specifying a source security group.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSDynamoDBKeysAndAttributes/attributesToGet</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;One or more attributes to retrieve from the table or index. If no attribute names are specified then all attributes will be returned. If any of the specified attributes are not found, they will not appear in the result.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *cidrIp</Declaration>
+			<Declaration>@property (nonatomic, strong) NSArray *attributesToGet</Declaration>
 			
 			
-			<Anchor>//api/name/cidrIp</Anchor>
+			<Anchor>//api/name/attributesToGet</Anchor>
             <NodeRef refid="215"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2AuthorizeSecurityGroupEgressRequest/setFromPort:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The start of port range for the TCP and UDP protocols, or an ICMP type number. For the ICMP type number, use &lt;code&gt;-1&lt;/code&gt; to specify all ICMP types.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSDynamoDBKeysAndAttributes/setConsistentRead:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The consistency of a read operation. If set to &lt;code&gt;true&lt;/code&gt;, then a strongly consistent read is used; otherwise, an eventually consistent read is used.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSNumber *fromPort</Declaration>
+			<Declaration>@property (nonatomic, strong) NSNumber *consistentRead</Declaration>
 			
 			
-			<Anchor>//api/name/fromPort</Anchor>
+			<Anchor>//api/name/consistentRead</Anchor>
             <NodeRef refid="215"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2AuthorizeSecurityGroupEgressRequest/fromPort</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The start of port range for the TCP and UDP protocols, or an ICMP type number. For the ICMP type number, use &lt;code&gt;-1&lt;/code&gt; to specify all ICMP types.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSDynamoDBKeysAndAttributes/consistentRead</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The consistency of a read operation. If set to &lt;code&gt;true&lt;/code&gt;, then a strongly consistent read is used; otherwise, an eventually consistent read is used.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSNumber *fromPort</Declaration>
+			<Declaration>@property (nonatomic, strong) NSNumber *consistentRead</Declaration>
 			
 			
-			<Anchor>//api/name/fromPort</Anchor>
+			<Anchor>//api/name/consistentRead</Anchor>
             <NodeRef refid="215"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2AuthorizeSecurityGroupEgressRequest/fromPort</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The start of port range for the TCP and UDP protocols, or an ICMP type number. For the ICMP type number, use &lt;code&gt;-1&lt;/code&gt; to specify all ICMP types.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSDynamoDBKeysAndAttributes/consistentRead</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The consistency of a read operation. If set to &lt;code&gt;true&lt;/code&gt;, then a strongly consistent read is used; otherwise, an eventually consistent read is used.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSNumber *fromPort</Declaration>
+			<Declaration>@property (nonatomic, strong) NSNumber *consistentRead</Declaration>
 			
 			
-			<Anchor>//api/name/fromPort</Anchor>
+			<Anchor>//api/name/consistentRead</Anchor>
             <NodeRef refid="215"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2AuthorizeSecurityGroupEgressRequest/setGroupId:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The ID of the security group.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSDynamoDBKeysAndAttributes/setExpressionAttributeNames:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;One or more substitution tokens for simplifying complex expressions. The following are some use cases for an &lt;i&gt;ExpressionAttributeNames&lt;/i&gt; value:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;To shorten an attribute name that is very long or unwieldy in an expression.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;To create a placeholder for repeating occurrences of an attribute name in an expression.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;To prevent special characters in an attribute name from being misinterpreted in an expression.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Use the &lt;b&gt;#&lt;/b&gt; character in an expression to dereference an attribute name. For example, consider the following expression:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;order.customerInfo.LastName = &quot;Smith&quot; OR order.customerInfo.LastName = &quot;Jones&quot;&lt;/code&gt;&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Now suppose that you specified the following for &lt;i&gt;ExpressionAttributeNames&lt;/i&gt;:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;{&quot;n&quot;:&quot;order.customerInfo.LastName&quot;}&lt;/code&gt;&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;The expression can now be simplified as follows:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;#n = &quot;Smith&quot; OR #n = &quot;Jones&quot;&lt;/code&gt;&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</Abstract>
+			<DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *groupId</Declaration>
+			<Declaration>@property (nonatomic, strong) NSDictionary *expressionAttributeNames</Declaration>
 			
 			
-			<Anchor>//api/name/groupId</Anchor>
+			<Anchor>//api/name/expressionAttributeNames</Anchor>
             <NodeRef refid="215"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2AuthorizeSecurityGroupEgressRequest/groupId</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The ID of the security group.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSDynamoDBKeysAndAttributes/expressionAttributeNames</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;One or more substitution tokens for simplifying complex expressions. The following are some use cases for an &lt;i&gt;ExpressionAttributeNames&lt;/i&gt; value:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;To shorten an attribute name that is very long or unwieldy in an expression.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;To create a placeholder for repeating occurrences of an attribute name in an expression.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;To prevent special characters in an attribute name from being misinterpreted in an expression.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Use the &lt;b&gt;#&lt;/b&gt; character in an expression to dereference an attribute name. For example, consider the following expression:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;order.customerInfo.LastName = &quot;Smith&quot; OR order.customerInfo.LastName = &quot;Jones&quot;&lt;/code&gt;&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Now suppose that you specified the following for &lt;i&gt;ExpressionAttributeNames&lt;/i&gt;:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;{&quot;n&quot;:&quot;order.customerInfo.LastName&quot;}&lt;/code&gt;&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;The expression can now be simplified as follows:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;#n = &quot;Smith&quot; OR #n = &quot;Jones&quot;&lt;/code&gt;&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</Abstract>
+			<DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *groupId</Declaration>
+			<Declaration>@property (nonatomic, strong) NSDictionary *expressionAttributeNames</Declaration>
 			
 			
-			<Anchor>//api/name/groupId</Anchor>
+			<Anchor>//api/name/expressionAttributeNames</Anchor>
             <NodeRef refid="215"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2AuthorizeSecurityGroupEgressRequest/groupId</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The ID of the security group.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSDynamoDBKeysAndAttributes/expressionAttributeNames</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;One or more substitution tokens for simplifying complex expressions. The following are some use cases for an &lt;i&gt;ExpressionAttributeNames&lt;/i&gt; value:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;To shorten an attribute name that is very long or unwieldy in an expression.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;To create a placeholder for repeating occurrences of an attribute name in an expression.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;To prevent special characters in an attribute name from being misinterpreted in an expression.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Use the &lt;b&gt;#&lt;/b&gt; character in an expression to dereference an attribute name. For example, consider the following expression:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;order.customerInfo.LastName = &quot;Smith&quot; OR order.customerInfo.LastName = &quot;Jones&quot;&lt;/code&gt;&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Now suppose that you specified the following for &lt;i&gt;ExpressionAttributeNames&lt;/i&gt;:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;{&quot;n&quot;:&quot;order.customerInfo.LastName&quot;}&lt;/code&gt;&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;The expression can now be simplified as follows:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;#n = &quot;Smith&quot; OR #n = &quot;Jones&quot;&lt;/code&gt;&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</Abstract>
+			<DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *groupId</Declaration>
+			<Declaration>@property (nonatomic, strong) NSDictionary *expressionAttributeNames</Declaration>
 			
 			
-			<Anchor>//api/name/groupId</Anchor>
+			<Anchor>//api/name/expressionAttributeNames</Anchor>
             <NodeRef refid="215"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2AuthorizeSecurityGroupEgressRequest/setIpPermissions:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSDynamoDBKeysAndAttributes/setKeys:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The primary key attribute values that define the items and the attributes associated with the items.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSArray *ipPermissions</Declaration>
+			<Declaration>@property (nonatomic, strong) NSArray *keys</Declaration>
 			
 			
-			<Anchor>//api/name/ipPermissions</Anchor>
+			<Anchor>//api/name/keys</Anchor>
             <NodeRef refid="215"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2AuthorizeSecurityGroupEgressRequest/ipPermissions</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSDynamoDBKeysAndAttributes/keys</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The primary key attribute values that define the items and the attributes associated with the items.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSArray *ipPermissions</Declaration>
+			<Declaration>@property (nonatomic, strong) NSArray *keys</Declaration>
 			
 			
-			<Anchor>//api/name/ipPermissions</Anchor>
+			<Anchor>//api/name/keys</Anchor>
             <NodeRef refid="215"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2AuthorizeSecurityGroupEgressRequest/ipPermissions</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSDynamoDBKeysAndAttributes/keys</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The primary key attribute values that define the items and the attributes associated with the items.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSArray *ipPermissions</Declaration>
+			<Declaration>@property (nonatomic, strong) NSArray *keys</Declaration>
 			
 			
-			<Anchor>//api/name/ipPermissions</Anchor>
+			<Anchor>//api/name/keys</Anchor>
             <NodeRef refid="215"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2AuthorizeSecurityGroupEgressRequest/setIpProtocol:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The IP protocol name (&lt;code&gt;tcp&lt;/code&gt;, &lt;code&gt;udp&lt;/code&gt;, &lt;code&gt;icmp&lt;/code&gt;) or number (see Protocol Numbers). Use &lt;code&gt;-1&lt;/code&gt; to specify all.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSDynamoDBKeysAndAttributes/setProjectionExpression:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;One or more attributes to retrieve from the table. These attributes can include scalars, sets, or elements of a JSON document. The attributes in the expression must be separated by commas.&lt;/p&gt;&lt;p&gt;If no attribute names are specified, then all attributes will be returned. If any of the requested attributes are not found, they will not appear in the result.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *ipProtocol</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *projectionExpression</Declaration>
 			
 			
-			<Anchor>//api/name/ipProtocol</Anchor>
+			<Anchor>//api/name/projectionExpression</Anchor>
             <NodeRef refid="215"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2AuthorizeSecurityGroupEgressRequest/ipProtocol</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The IP protocol name (&lt;code&gt;tcp&lt;/code&gt;, &lt;code&gt;udp&lt;/code&gt;, &lt;code&gt;icmp&lt;/code&gt;) or number (see Protocol Numbers). Use &lt;code&gt;-1&lt;/code&gt; to specify all.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSDynamoDBKeysAndAttributes/projectionExpression</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;One or more attributes to retrieve from the table. These attributes can include scalars, sets, or elements of a JSON document. The attributes in the expression must be separated by commas.&lt;/p&gt;&lt;p&gt;If no attribute names are specified, then all attributes will be returned. If any of the requested attributes are not found, they will not appear in the result.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *ipProtocol</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *projectionExpression</Declaration>
 			
 			
-			<Anchor>//api/name/ipProtocol</Anchor>
+			<Anchor>//api/name/projectionExpression</Anchor>
             <NodeRef refid="215"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2AuthorizeSecurityGroupEgressRequest/ipProtocol</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The IP protocol name (&lt;code&gt;tcp&lt;/code&gt;, &lt;code&gt;udp&lt;/code&gt;, &lt;code&gt;icmp&lt;/code&gt;) or number (see Protocol Numbers). Use &lt;code&gt;-1&lt;/code&gt; to specify all.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSDynamoDBKeysAndAttributes/projectionExpression</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;One or more attributes to retrieve from the table. These attributes can include scalars, sets, or elements of a JSON document. The attributes in the expression must be separated by commas.&lt;/p&gt;&lt;p&gt;If no attribute names are specified, then all attributes will be returned. If any of the requested attributes are not found, they will not appear in the result.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *ipProtocol</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *projectionExpression</Declaration>
 			
 			
-			<Anchor>//api/name/ipProtocol</Anchor>
+			<Anchor>//api/name/projectionExpression</Anchor>
             <NodeRef refid="215"/>
 		</Token>
 		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2AuthorizeSecurityGroupEgressRequest/setSourceSecurityGroupName:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;[EC2-Classic, default VPC] The name of the source security group. You can&apos;t specify a source security group and a CIDR IP address range.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *sourceSecurityGroupName</Declaration>
-			
-			
-			<Anchor>//api/name/sourceSecurityGroupName</Anchor>
-            <NodeRef refid="215"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2AuthorizeSecurityGroupEgressRequest/sourceSecurityGroupName</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;[EC2-Classic, default VPC] The name of the source security group. You can&apos;t specify a source security group and a CIDR IP address range.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *sourceSecurityGroupName</Declaration>
-			
-			
-			<Anchor>//api/name/sourceSecurityGroupName</Anchor>
-            <NodeRef refid="215"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2AuthorizeSecurityGroupEgressRequest/sourceSecurityGroupName</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;[EC2-Classic, default VPC] The name of the source security group. You can&apos;t specify a source security group and a CIDR IP address range.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *sourceSecurityGroupName</Declaration>
-			
-			
-			<Anchor>//api/name/sourceSecurityGroupName</Anchor>
-            <NodeRef refid="215"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2AuthorizeSecurityGroupEgressRequest/setSourceSecurityGroupOwnerId:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The ID of the source security group. You can&apos;t specify a source security group and a CIDR IP address range.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *sourceSecurityGroupOwnerId</Declaration>
-			
-			
-			<Anchor>//api/name/sourceSecurityGroupOwnerId</Anchor>
-            <NodeRef refid="215"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2AuthorizeSecurityGroupEgressRequest/sourceSecurityGroupOwnerId</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The ID of the source security group. You can&apos;t specify a source security group and a CIDR IP address range.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *sourceSecurityGroupOwnerId</Declaration>
-			
-			
-			<Anchor>//api/name/sourceSecurityGroupOwnerId</Anchor>
-            <NodeRef refid="215"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2AuthorizeSecurityGroupEgressRequest/sourceSecurityGroupOwnerId</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The ID of the source security group. You can&apos;t specify a source security group and a CIDR IP address range.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *sourceSecurityGroupOwnerId</Declaration>
-			
-			
-			<Anchor>//api/name/sourceSecurityGroupOwnerId</Anchor>
-            <NodeRef refid="215"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2AuthorizeSecurityGroupEgressRequest/setToPort:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The end of port range for the TCP and UDP protocols, or an ICMP code number. For the ICMP code number, use &lt;code&gt;-1&lt;/code&gt; to specify all ICMP codes for the ICMP type.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSNumber *toPort</Declaration>
-			
-			
-			<Anchor>//api/name/toPort</Anchor>
-            <NodeRef refid="215"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2AuthorizeSecurityGroupEgressRequest/toPort</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The end of port range for the TCP and UDP protocols, or an ICMP code number. For the ICMP code number, use &lt;code&gt;-1&lt;/code&gt; to specify all ICMP codes for the ICMP type.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSNumber *toPort</Declaration>
-			
-			
-			<Anchor>//api/name/toPort</Anchor>
-            <NodeRef refid="215"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2AuthorizeSecurityGroupEgressRequest/toPort</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The end of port range for the TCP and UDP protocols, or an ICMP code number. For the ICMP code number, use &lt;code&gt;-1&lt;/code&gt; to specify all ICMP codes for the ICMP type.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSNumber *toPort</Declaration>
-			
-			
-			<Anchor>//api/name/toPort</Anchor>
-            <NodeRef refid="215"/>
-		</Token>
-		
+        
         
 	</File>
 </Tokens>

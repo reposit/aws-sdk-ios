@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSSNSTopic.html">
+	<File path="Classes/AWSS3ChunkedEncodingInputStream.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSSNSTopic</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;A wrapper type for the topic&apos;s Amazon Resource Name (ARN). To retrieve a topic&apos;s attributes, use &lt;code&gt;GetTopicAttributes&lt;/code&gt;.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSNSModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSS3ChunkedEncodingInputStream</TokenIdentifier>
+			<Abstract type="html">A subclass of NSInputStream that wraps an input stream and adds
+signature of chunk data.</Abstract>
+			<DeclaredIn>AWSSignature.h</DeclaredIn>
             
 			
 			<NodeRef refid="747"/>
@@ -13,41 +14,43 @@
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSSNSTopic/setTopicArn:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The topic&apos;s ARN.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSNSModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3ChunkedEncodingInputStream/initWithInputStream:date:scope:kSigning:headerSignature:</TokenIdentifier>
+			<Abstract type="html">Initialize the input stream with date, scope, signing key and signature
+of request headers.</Abstract>
+			<DeclaredIn>AWSSignature.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *topicArn</Declaration>
+			<Declaration>- (instancetype)initWithInputStream:(NSInputStream *)stream date:(NSDate *)date scope:(NSString *)scope kSigning:(NSData *)kSigning headerSignature:(NSString *)headerSignature</Declaration>
 			
 			
-			<Anchor>//api/name/topicArn</Anchor>
+			<Anchor>//api/name/initWithInputStream:date:scope:kSigning:headerSignature:</Anchor>
             <NodeRef refid="747"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSSNSTopic/topicArn</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The topic&apos;s ARN.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSNSModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/clm/AWSS3ChunkedEncodingInputStream/computeContentLengthForChunkedData:</TokenIdentifier>
+			<Abstract type="html">Computes new content length after data being chunked encoded.</Abstract>
+			<DeclaredIn>AWSSignature.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *topicArn</Declaration>
+			<Declaration>+ (NSUInteger)computeContentLengthForChunkedData:(NSUInteger)dataLength</Declaration>
 			
 			
-			<Anchor>//api/name/topicArn</Anchor>
+			<Anchor>//api/name/computeContentLengthForChunkedData:</Anchor>
             <NodeRef refid="747"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSSNSTopic/topicArn</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The topic&apos;s ARN.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSNSModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/clm/AWSS3ChunkedEncodingInputStream/oneChunkedDataSize:</TokenIdentifier>
+			<Abstract type="html">Computes the size of one data chunk</Abstract>
+			<DeclaredIn>AWSSignature.m</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *topicArn</Declaration>
+			<Declaration>+ (NSUInteger)oneChunkedDataSize:(NSUInteger)dataLength</Declaration>
 			
 			
-			<Anchor>//api/name/topicArn</Anchor>
+			<Anchor>//api/name/oneChunkedDataSize:</Anchor>
             <NodeRef refid="747"/>
 		</Token>
 		
+        
         
 	</File>
 </Tokens>

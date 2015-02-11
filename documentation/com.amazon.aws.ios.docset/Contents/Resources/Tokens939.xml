@@ -1,117 +1,90 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Constants/AWSRegionType.html">
+	<File path="Classes/AWSSNSListSubscriptionsByTopicResponse.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/c/tdef/AWSRegionType</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSServiceEnum.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSSNSListSubscriptionsByTopicResponse</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Response for ListSubscriptionsByTopic action.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSNSModel.h</DeclaredIn>
             
 			
 			<NodeRef refid="939"/>
 		</Token>
 		
 		
-        
-        <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSRegionUnknown</TokenIdentifier>
-            <Abstract type="html"></Abstract>
-            <Declaration>AWSRegionUnknown</Declaration>
-            
-            <DeclaredIn>AWSServiceEnum.h</DeclaredIn>
-            
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSNSListSubscriptionsByTopicResponse/setNextToken:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Token to pass along to the next &lt;code&gt;ListSubscriptionsByTopic&lt;/code&gt; request. This element is returned if there are more subscriptions to retrieve.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSNSModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *nextToken</Declaration>
+			
+			
+			<Anchor>//api/name/nextToken</Anchor>
             <NodeRef refid="939"/>
-        </Token>
-        
-        <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSRegionUSEast1</TokenIdentifier>
-            <Abstract type="html"></Abstract>
-            <Declaration>AWSRegionUSEast1</Declaration>
-            
-            <DeclaredIn>AWSServiceEnum.h</DeclaredIn>
-            
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSNSListSubscriptionsByTopicResponse/nextToken</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Token to pass along to the next &lt;code&gt;ListSubscriptionsByTopic&lt;/code&gt; request. This element is returned if there are more subscriptions to retrieve.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSNSModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *nextToken</Declaration>
+			
+			
+			<Anchor>//api/name/nextToken</Anchor>
             <NodeRef refid="939"/>
-        </Token>
-        
-        <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSRegionUSWest1</TokenIdentifier>
-            <Abstract type="html"></Abstract>
-            <Declaration>AWSRegionUSWest1</Declaration>
-            
-            <DeclaredIn>AWSServiceEnum.h</DeclaredIn>
-            
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSSNSListSubscriptionsByTopicResponse/nextToken</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Token to pass along to the next &lt;code&gt;ListSubscriptionsByTopic&lt;/code&gt; request. This element is returned if there are more subscriptions to retrieve.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSNSModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *nextToken</Declaration>
+			
+			
+			<Anchor>//api/name/nextToken</Anchor>
             <NodeRef refid="939"/>
-        </Token>
-        
-        <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSRegionEUWest1</TokenIdentifier>
-            <Abstract type="html"></Abstract>
-            <Declaration>AWSRegionEUWest1</Declaration>
-            
-            <DeclaredIn>AWSServiceEnum.h</DeclaredIn>
-            
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSNSListSubscriptionsByTopicResponse/setSubscriptions:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;A list of subscriptions.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSNSModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray *subscriptions</Declaration>
+			
+			
+			<Anchor>//api/name/subscriptions</Anchor>
             <NodeRef refid="939"/>
-        </Token>
-        
-        <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSRegionAPSoutheast1</TokenIdentifier>
-            <Abstract type="html"></Abstract>
-            <Declaration>AWSRegionAPSoutheast1</Declaration>
-            
-            <DeclaredIn>AWSServiceEnum.h</DeclaredIn>
-            
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSNSListSubscriptionsByTopicResponse/subscriptions</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;A list of subscriptions.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSNSModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray *subscriptions</Declaration>
+			
+			
+			<Anchor>//api/name/subscriptions</Anchor>
             <NodeRef refid="939"/>
-        </Token>
-        
-        <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSRegionAPNortheast1</TokenIdentifier>
-            <Abstract type="html"></Abstract>
-            <Declaration>AWSRegionAPNortheast1</Declaration>
-            
-            <DeclaredIn>AWSServiceEnum.h</DeclaredIn>
-            
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSSNSListSubscriptionsByTopicResponse/subscriptions</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;A list of subscriptions.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSNSModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray *subscriptions</Declaration>
+			
+			
+			<Anchor>//api/name/subscriptions</Anchor>
             <NodeRef refid="939"/>
-        </Token>
+		</Token>
+		
         
-        <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSRegionUSWest2</TokenIdentifier>
-            <Abstract type="html"></Abstract>
-            <Declaration>AWSRegionUSWest2</Declaration>
-            
-            <DeclaredIn>AWSServiceEnum.h</DeclaredIn>
-            
-            <NodeRef refid="939"/>
-        </Token>
-        
-        <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSRegionSAEast1</TokenIdentifier>
-            <Abstract type="html"></Abstract>
-            <Declaration>AWSRegionSAEast1</Declaration>
-            
-            <DeclaredIn>AWSServiceEnum.h</DeclaredIn>
-            
-            <NodeRef refid="939"/>
-        </Token>
-        
-        <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSRegionAPSoutheast2</TokenIdentifier>
-            <Abstract type="html"></Abstract>
-            <Declaration>AWSRegionAPSoutheast2</Declaration>
-            
-            <DeclaredIn>AWSServiceEnum.h</DeclaredIn>
-            
-            <NodeRef refid="939"/>
-        </Token>
-        
-        <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSRegionCNNorth1</TokenIdentifier>
-            <Abstract type="html"></Abstract>
-            <Declaration>AWSRegionCNNorth1</Declaration>
-            
-            <DeclaredIn>AWSServiceEnum.h</DeclaredIn>
-            
-            <NodeRef refid="939"/>
-        </Token>
         
 	</File>
 </Tokens>

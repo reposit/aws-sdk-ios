@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSEC2DescribeNetworkInterfaceAttributeRequest.html">
+	<File path="Classes/AWSEC2CreateVpnConnectionRouteRequest.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSEC2DescribeNetworkInterfaceAttributeRequest</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSEC2CreateVpnConnectionRouteRequest</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
             
@@ -13,77 +13,78 @@
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DescribeNetworkInterfaceAttributeRequest/setAttribute:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The attribute of the network interface.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2CreateVpnConnectionRouteRequest/setDestinationCidrBlock:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The CIDR block associated with the local subnet of the customer network.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, assign) AWSEC2NetworkInterfaceAttribute attribute</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *destinationCidrBlock</Declaration>
 			
 			
-			<Anchor>//api/name/attribute</Anchor>
+			<Anchor>//api/name/destinationCidrBlock</Anchor>
             <NodeRef refid="327"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DescribeNetworkInterfaceAttributeRequest/attribute</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The attribute of the network interface.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2CreateVpnConnectionRouteRequest/destinationCidrBlock</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The CIDR block associated with the local subnet of the customer network.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, assign) AWSEC2NetworkInterfaceAttribute attribute</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *destinationCidrBlock</Declaration>
 			
 			
-			<Anchor>//api/name/attribute</Anchor>
+			<Anchor>//api/name/destinationCidrBlock</Anchor>
             <NodeRef refid="327"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2DescribeNetworkInterfaceAttributeRequest/attribute</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The attribute of the network interface.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2CreateVpnConnectionRouteRequest/destinationCidrBlock</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The CIDR block associated with the local subnet of the customer network.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, assign) AWSEC2NetworkInterfaceAttribute attribute</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *destinationCidrBlock</Declaration>
 			
 			
-			<Anchor>//api/name/attribute</Anchor>
+			<Anchor>//api/name/destinationCidrBlock</Anchor>
             <NodeRef refid="327"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DescribeNetworkInterfaceAttributeRequest/setNetworkInterfaceId:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The ID of the network interface.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2CreateVpnConnectionRouteRequest/setVpnConnectionId:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the VPN connection.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *networkInterfaceId</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *vpnConnectionId</Declaration>
 			
 			
-			<Anchor>//api/name/networkInterfaceId</Anchor>
+			<Anchor>//api/name/vpnConnectionId</Anchor>
             <NodeRef refid="327"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DescribeNetworkInterfaceAttributeRequest/networkInterfaceId</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The ID of the network interface.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2CreateVpnConnectionRouteRequest/vpnConnectionId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the VPN connection.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *networkInterfaceId</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *vpnConnectionId</Declaration>
 			
 			
-			<Anchor>//api/name/networkInterfaceId</Anchor>
+			<Anchor>//api/name/vpnConnectionId</Anchor>
             <NodeRef refid="327"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2DescribeNetworkInterfaceAttributeRequest/networkInterfaceId</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The ID of the network interface.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2CreateVpnConnectionRouteRequest/vpnConnectionId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the VPN connection.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *networkInterfaceId</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *vpnConnectionId</Declaration>
 			
 			
-			<Anchor>//api/name/networkInterfaceId</Anchor>
+			<Anchor>//api/name/vpnConnectionId</Anchor>
             <NodeRef refid="327"/>
 		</Token>
 		
+        
         
 	</File>
 </Tokens>

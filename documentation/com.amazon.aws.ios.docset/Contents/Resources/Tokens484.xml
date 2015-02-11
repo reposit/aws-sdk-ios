@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSEC2ReplaceRouteTableAssociationRequest.html">
+	<File path="Classes/AWSEC2InstanceNetworkInterfaceAssociation.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSEC2ReplaceRouteTableAssociationRequest</TokenIdentifier>
-			<Abstract type="html"></Abstract>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSEC2InstanceNetworkInterfaceAssociation</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Describes association information for an Elastic IP address.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
             
 			
@@ -13,77 +13,114 @@
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ReplaceRouteTableAssociationRequest/setAssociationId:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The association ID.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2InstanceNetworkInterfaceAssociation/setIpOwnerId:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the owner of the Elastic IP address.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *associationId</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *ipOwnerId</Declaration>
 			
 			
-			<Anchor>//api/name/associationId</Anchor>
+			<Anchor>//api/name/ipOwnerId</Anchor>
             <NodeRef refid="484"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ReplaceRouteTableAssociationRequest/associationId</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The association ID.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2InstanceNetworkInterfaceAssociation/ipOwnerId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the owner of the Elastic IP address.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *associationId</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *ipOwnerId</Declaration>
 			
 			
-			<Anchor>//api/name/associationId</Anchor>
+			<Anchor>//api/name/ipOwnerId</Anchor>
             <NodeRef refid="484"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2ReplaceRouteTableAssociationRequest/associationId</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The association ID.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2InstanceNetworkInterfaceAssociation/ipOwnerId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the owner of the Elastic IP address.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *associationId</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *ipOwnerId</Declaration>
 			
 			
-			<Anchor>//api/name/associationId</Anchor>
+			<Anchor>//api/name/ipOwnerId</Anchor>
             <NodeRef refid="484"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ReplaceRouteTableAssociationRequest/setRouteTableId:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The ID of the new route table to associate with the subnet.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2InstanceNetworkInterfaceAssociation/setPublicDnsName:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The public DNS name.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *routeTableId</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *publicDnsName</Declaration>
 			
 			
-			<Anchor>//api/name/routeTableId</Anchor>
+			<Anchor>//api/name/publicDnsName</Anchor>
             <NodeRef refid="484"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ReplaceRouteTableAssociationRequest/routeTableId</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The ID of the new route table to associate with the subnet.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2InstanceNetworkInterfaceAssociation/publicDnsName</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The public DNS name.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *routeTableId</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *publicDnsName</Declaration>
 			
 			
-			<Anchor>//api/name/routeTableId</Anchor>
+			<Anchor>//api/name/publicDnsName</Anchor>
             <NodeRef refid="484"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2ReplaceRouteTableAssociationRequest/routeTableId</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The ID of the new route table to associate with the subnet.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2InstanceNetworkInterfaceAssociation/publicDnsName</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The public DNS name.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *routeTableId</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *publicDnsName</Declaration>
 			
 			
-			<Anchor>//api/name/routeTableId</Anchor>
+			<Anchor>//api/name/publicDnsName</Anchor>
             <NodeRef refid="484"/>
 		</Token>
 		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2InstanceNetworkInterfaceAssociation/setPublicIp:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The public IP address or Elastic IP address bound to the network interface.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *publicIp</Declaration>
+			
+			
+			<Anchor>//api/name/publicIp</Anchor>
+            <NodeRef refid="484"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2InstanceNetworkInterfaceAssociation/publicIp</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The public IP address or Elastic IP address bound to the network interface.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *publicIp</Declaration>
+			
+			
+			<Anchor>//api/name/publicIp</Anchor>
+            <NodeRef refid="484"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2InstanceNetworkInterfaceAssociation/publicIp</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The public IP address or Elastic IP address bound to the network interface.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *publicIp</Declaration>
+			
+			
+			<Anchor>//api/name/publicIp</Anchor>
+            <NodeRef refid="484"/>
+		</Token>
+		
+        
         
 	</File>
 </Tokens>

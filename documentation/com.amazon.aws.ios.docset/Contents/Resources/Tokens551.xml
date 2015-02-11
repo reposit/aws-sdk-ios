@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSEC2VpnConnection.html">
+	<File path="Classes/AWSEC2ReplicateSnapshotRequest.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSEC2VpnConnection</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Describes a VPN connection.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSEC2ReplicateSnapshotRequest</TokenIdentifier>
+			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
             
 			
@@ -13,365 +13,222 @@
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2VpnConnection/setCustomerGatewayConfiguration:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The configuration information for the VPN connection&apos;s customer gateway (in the native XML format). This element is always present in the &lt;a&gt;CreateVpnConnection&lt;/a&gt; response; however, it&apos;s present in the &lt;a&gt;DescribeVpnConnections&lt;/a&gt; response only if the VPN connection is in the &lt;code&gt;pending&lt;/code&gt; or &lt;code&gt;available&lt;/code&gt; state.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ReplicateSnapshotRequest/setDestinationRegion:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The destination region of the snapshot copy operation. This parameter is required in the &lt;code&gt;PresignedUrl&lt;/code&gt;.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *customerGatewayConfiguration</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *destinationRegion</Declaration>
 			
 			
-			<Anchor>//api/name/customerGatewayConfiguration</Anchor>
+			<Anchor>//api/name/destinationRegion</Anchor>
             <NodeRef refid="551"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2VpnConnection/customerGatewayConfiguration</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The configuration information for the VPN connection&apos;s customer gateway (in the native XML format). This element is always present in the &lt;a&gt;CreateVpnConnection&lt;/a&gt; response; however, it&apos;s present in the &lt;a&gt;DescribeVpnConnections&lt;/a&gt; response only if the VPN connection is in the &lt;code&gt;pending&lt;/code&gt; or &lt;code&gt;available&lt;/code&gt; state.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ReplicateSnapshotRequest/destinationRegion</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The destination region of the snapshot copy operation. This parameter is required in the &lt;code&gt;PresignedUrl&lt;/code&gt;.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *customerGatewayConfiguration</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *destinationRegion</Declaration>
 			
 			
-			<Anchor>//api/name/customerGatewayConfiguration</Anchor>
+			<Anchor>//api/name/destinationRegion</Anchor>
             <NodeRef refid="551"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2VpnConnection/customerGatewayConfiguration</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The configuration information for the VPN connection&apos;s customer gateway (in the native XML format). This element is always present in the &lt;a&gt;CreateVpnConnection&lt;/a&gt; response; however, it&apos;s present in the &lt;a&gt;DescribeVpnConnections&lt;/a&gt; response only if the VPN connection is in the &lt;code&gt;pending&lt;/code&gt; or &lt;code&gt;available&lt;/code&gt; state.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2ReplicateSnapshotRequest/destinationRegion</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The destination region of the snapshot copy operation. This parameter is required in the &lt;code&gt;PresignedUrl&lt;/code&gt;.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *customerGatewayConfiguration</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *destinationRegion</Declaration>
 			
 			
-			<Anchor>//api/name/customerGatewayConfiguration</Anchor>
+			<Anchor>//api/name/destinationRegion</Anchor>
             <NodeRef refid="551"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2VpnConnection/setCustomerGatewayId:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The ID of the customer gateway at your end of the VPN connection.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ReplicateSnapshotRequest/setDetail:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;A description for the new Amazon EBS snapshot.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *customerGatewayId</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *detail</Declaration>
 			
 			
-			<Anchor>//api/name/customerGatewayId</Anchor>
+			<Anchor>//api/name/detail</Anchor>
             <NodeRef refid="551"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2VpnConnection/customerGatewayId</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The ID of the customer gateway at your end of the VPN connection.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ReplicateSnapshotRequest/detail</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;A description for the new Amazon EBS snapshot.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *customerGatewayId</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *detail</Declaration>
 			
 			
-			<Anchor>//api/name/customerGatewayId</Anchor>
+			<Anchor>//api/name/detail</Anchor>
             <NodeRef refid="551"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2VpnConnection/customerGatewayId</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The ID of the customer gateway at your end of the VPN connection.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2ReplicateSnapshotRequest/detail</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;A description for the new Amazon EBS snapshot.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *customerGatewayId</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *detail</Declaration>
 			
 			
-			<Anchor>//api/name/customerGatewayId</Anchor>
+			<Anchor>//api/name/detail</Anchor>
             <NodeRef refid="551"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2VpnConnection/setOptions:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The VPN connection options.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ReplicateSnapshotRequest/setDryRun:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) AWSEC2VpnConnectionOptions *options</Declaration>
+			<Declaration>@property (nonatomic, strong) NSNumber *dryRun</Declaration>
 			
 			
-			<Anchor>//api/name/options</Anchor>
+			<Anchor>//api/name/dryRun</Anchor>
             <NodeRef refid="551"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2VpnConnection/options</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The VPN connection options.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ReplicateSnapshotRequest/dryRun</TokenIdentifier>
+			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) AWSEC2VpnConnectionOptions *options</Declaration>
+			<Declaration>@property (nonatomic, strong) NSNumber *dryRun</Declaration>
 			
 			
-			<Anchor>//api/name/options</Anchor>
+			<Anchor>//api/name/dryRun</Anchor>
             <NodeRef refid="551"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2VpnConnection/options</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The VPN connection options.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2ReplicateSnapshotRequest/dryRun</TokenIdentifier>
+			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) AWSEC2VpnConnectionOptions *options</Declaration>
+			<Declaration>@property (nonatomic, strong) NSNumber *dryRun</Declaration>
 			
 			
-			<Anchor>//api/name/options</Anchor>
+			<Anchor>//api/name/dryRun</Anchor>
             <NodeRef refid="551"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2VpnConnection/setRoutes:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The static routes associated with the VPN connection.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ReplicateSnapshotRequest/setPresignedUrl:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The pre-signed URL that facilitates copying an encrypted snapshot. This parameter is only required when copying an encrypted snapshot with the Amazon EC2 Query API; it is available as an optional parameter in all other cases. The &lt;code&gt;PresignedUrl&lt;/code&gt; should use the snapshot source endpoint, the &lt;code&gt;CopySnapshot&lt;/code&gt; action, and include the &lt;code&gt;SourceRegion&lt;/code&gt;, &lt;code&gt;SourceSnapshotId&lt;/code&gt;, and &lt;code&gt;DestinationRegion&lt;/code&gt; parameters. The &lt;code&gt;PresignedUrl&lt;/code&gt; must be signed using AWS Signature Version 4. Because Amazon EBS snapshots are stored in Amazon S3, the signing algorithm for this parameter uses the same logic that is described in Authenticating Requests by Using Query Parameters (AWS Signature Version 4) in the &lt;i&gt;Amazon Simple Storage Service API Reference&lt;/i&gt;. An invalid or improperly signed &lt;code&gt;PresignedUrl&lt;/code&gt; will cause the copy operation to fail asynchronously, and the snapshot will move to an &lt;code&gt;error&lt;/code&gt; state.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSArray *routes</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *presignedUrl</Declaration>
 			
 			
-			<Anchor>//api/name/routes</Anchor>
+			<Anchor>//api/name/presignedUrl</Anchor>
             <NodeRef refid="551"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2VpnConnection/routes</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The static routes associated with the VPN connection.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ReplicateSnapshotRequest/presignedUrl</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The pre-signed URL that facilitates copying an encrypted snapshot. This parameter is only required when copying an encrypted snapshot with the Amazon EC2 Query API; it is available as an optional parameter in all other cases. The &lt;code&gt;PresignedUrl&lt;/code&gt; should use the snapshot source endpoint, the &lt;code&gt;CopySnapshot&lt;/code&gt; action, and include the &lt;code&gt;SourceRegion&lt;/code&gt;, &lt;code&gt;SourceSnapshotId&lt;/code&gt;, and &lt;code&gt;DestinationRegion&lt;/code&gt; parameters. The &lt;code&gt;PresignedUrl&lt;/code&gt; must be signed using AWS Signature Version 4. Because Amazon EBS snapshots are stored in Amazon S3, the signing algorithm for this parameter uses the same logic that is described in Authenticating Requests by Using Query Parameters (AWS Signature Version 4) in the &lt;i&gt;Amazon Simple Storage Service API Reference&lt;/i&gt;. An invalid or improperly signed &lt;code&gt;PresignedUrl&lt;/code&gt; will cause the copy operation to fail asynchronously, and the snapshot will move to an &lt;code&gt;error&lt;/code&gt; state.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSArray *routes</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *presignedUrl</Declaration>
 			
 			
-			<Anchor>//api/name/routes</Anchor>
+			<Anchor>//api/name/presignedUrl</Anchor>
             <NodeRef refid="551"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2VpnConnection/routes</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The static routes associated with the VPN connection.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2ReplicateSnapshotRequest/presignedUrl</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The pre-signed URL that facilitates copying an encrypted snapshot. This parameter is only required when copying an encrypted snapshot with the Amazon EC2 Query API; it is available as an optional parameter in all other cases. The &lt;code&gt;PresignedUrl&lt;/code&gt; should use the snapshot source endpoint, the &lt;code&gt;CopySnapshot&lt;/code&gt; action, and include the &lt;code&gt;SourceRegion&lt;/code&gt;, &lt;code&gt;SourceSnapshotId&lt;/code&gt;, and &lt;code&gt;DestinationRegion&lt;/code&gt; parameters. The &lt;code&gt;PresignedUrl&lt;/code&gt; must be signed using AWS Signature Version 4. Because Amazon EBS snapshots are stored in Amazon S3, the signing algorithm for this parameter uses the same logic that is described in Authenticating Requests by Using Query Parameters (AWS Signature Version 4) in the &lt;i&gt;Amazon Simple Storage Service API Reference&lt;/i&gt;. An invalid or improperly signed &lt;code&gt;PresignedUrl&lt;/code&gt; will cause the copy operation to fail asynchronously, and the snapshot will move to an &lt;code&gt;error&lt;/code&gt; state.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSArray *routes</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *presignedUrl</Declaration>
 			
 			
-			<Anchor>//api/name/routes</Anchor>
+			<Anchor>//api/name/presignedUrl</Anchor>
             <NodeRef refid="551"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2VpnConnection/setState:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The current state of the VPN connection.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ReplicateSnapshotRequest/setSourceRegion:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the region that contains the snapshot to be copied.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, assign) AWSEC2VpnState state</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *sourceRegion</Declaration>
 			
 			
-			<Anchor>//api/name/state</Anchor>
+			<Anchor>//api/name/sourceRegion</Anchor>
             <NodeRef refid="551"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2VpnConnection/state</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The current state of the VPN connection.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ReplicateSnapshotRequest/sourceRegion</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the region that contains the snapshot to be copied.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, assign) AWSEC2VpnState state</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *sourceRegion</Declaration>
 			
 			
-			<Anchor>//api/name/state</Anchor>
+			<Anchor>//api/name/sourceRegion</Anchor>
             <NodeRef refid="551"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2VpnConnection/state</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The current state of the VPN connection.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2ReplicateSnapshotRequest/sourceRegion</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the region that contains the snapshot to be copied.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, assign) AWSEC2VpnState state</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *sourceRegion</Declaration>
 			
 			
-			<Anchor>//api/name/state</Anchor>
+			<Anchor>//api/name/sourceRegion</Anchor>
             <NodeRef refid="551"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2VpnConnection/setTags:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Any tags assigned to the VPN connection.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ReplicateSnapshotRequest/setSourceSnapshotId:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the Amazon EBS snapshot to copy.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSArray *tags</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *sourceSnapshotId</Declaration>
 			
 			
-			<Anchor>//api/name/tags</Anchor>
+			<Anchor>//api/name/sourceSnapshotId</Anchor>
             <NodeRef refid="551"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2VpnConnection/tags</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Any tags assigned to the VPN connection.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ReplicateSnapshotRequest/sourceSnapshotId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the Amazon EBS snapshot to copy.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSArray *tags</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *sourceSnapshotId</Declaration>
 			
 			
-			<Anchor>//api/name/tags</Anchor>
+			<Anchor>//api/name/sourceSnapshotId</Anchor>
             <NodeRef refid="551"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2VpnConnection/tags</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Any tags assigned to the VPN connection.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2ReplicateSnapshotRequest/sourceSnapshotId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the Amazon EBS snapshot to copy.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSArray *tags</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *sourceSnapshotId</Declaration>
 			
 			
-			<Anchor>//api/name/tags</Anchor>
+			<Anchor>//api/name/sourceSnapshotId</Anchor>
             <NodeRef refid="551"/>
 		</Token>
 		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2VpnConnection/setType:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The type of VPN connection.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, assign) AWSEC2GatewayType type</Declaration>
-			
-			
-			<Anchor>//api/name/type</Anchor>
-            <NodeRef refid="551"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2VpnConnection/type</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The type of VPN connection.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, assign) AWSEC2GatewayType type</Declaration>
-			
-			
-			<Anchor>//api/name/type</Anchor>
-            <NodeRef refid="551"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2VpnConnection/type</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The type of VPN connection.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, assign) AWSEC2GatewayType type</Declaration>
-			
-			
-			<Anchor>//api/name/type</Anchor>
-            <NodeRef refid="551"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2VpnConnection/setVgwTelemetry:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Information about the VPN tunnel.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSArray *vgwTelemetry</Declaration>
-			
-			
-			<Anchor>//api/name/vgwTelemetry</Anchor>
-            <NodeRef refid="551"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2VpnConnection/vgwTelemetry</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Information about the VPN tunnel.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSArray *vgwTelemetry</Declaration>
-			
-			
-			<Anchor>//api/name/vgwTelemetry</Anchor>
-            <NodeRef refid="551"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2VpnConnection/vgwTelemetry</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Information about the VPN tunnel.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSArray *vgwTelemetry</Declaration>
-			
-			
-			<Anchor>//api/name/vgwTelemetry</Anchor>
-            <NodeRef refid="551"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2VpnConnection/setVpnConnectionId:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The ID of the VPN connection.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *vpnConnectionId</Declaration>
-			
-			
-			<Anchor>//api/name/vpnConnectionId</Anchor>
-            <NodeRef refid="551"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2VpnConnection/vpnConnectionId</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The ID of the VPN connection.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *vpnConnectionId</Declaration>
-			
-			
-			<Anchor>//api/name/vpnConnectionId</Anchor>
-            <NodeRef refid="551"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2VpnConnection/vpnConnectionId</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The ID of the VPN connection.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *vpnConnectionId</Declaration>
-			
-			
-			<Anchor>//api/name/vpnConnectionId</Anchor>
-            <NodeRef refid="551"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2VpnConnection/setVpnGatewayId:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The ID of the virtual private gateway at the AWS side of the VPN connection.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *vpnGatewayId</Declaration>
-			
-			
-			<Anchor>//api/name/vpnGatewayId</Anchor>
-            <NodeRef refid="551"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2VpnConnection/vpnGatewayId</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The ID of the virtual private gateway at the AWS side of the VPN connection.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *vpnGatewayId</Declaration>
-			
-			
-			<Anchor>//api/name/vpnGatewayId</Anchor>
-            <NodeRef refid="551"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2VpnConnection/vpnGatewayId</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The ID of the virtual private gateway at the AWS side of the VPN connection.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *vpnGatewayId</Declaration>
-			
-			
-			<Anchor>//api/name/vpnGatewayId</Anchor>
-            <NodeRef refid="551"/>
-		</Token>
-		
+        
         
 	</File>
 </Tokens>

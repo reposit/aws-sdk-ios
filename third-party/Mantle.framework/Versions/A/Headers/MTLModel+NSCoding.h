@@ -8,6 +8,8 @@
 
 #import "MTLModel.h"
 
+void aws_loadMTLNSCoding();
+
 // Defines how a MTLModel property key should be encoded into an archive.
 //
 // MTLModelEncodingBehaviorExcluded      - The property should never be encoded.

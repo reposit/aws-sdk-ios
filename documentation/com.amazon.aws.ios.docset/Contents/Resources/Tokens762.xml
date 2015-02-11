@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSSQSDeleteMessageBatchResultEntry.html">
+	<File path="Classes/AWSS3DeleteBucketPolicyRequest.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSSQSDeleteMessageBatchResultEntry</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Encloses the id an entry in &lt;a&gt;DeleteMessageBatch&lt;/a&gt;.&lt;/p&gt;
-Required parameters: [Id]</Abstract>
-			<DeclaredIn>AWSSQSModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSS3DeleteBucketPolicyRequest</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
             
 			
 			<NodeRef refid="762"/>
@@ -14,41 +13,42 @@ Required parameters: [Id]</Abstract>
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSSQSDeleteMessageBatchResultEntry/setId:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Represents a successfully deleted message.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSQSModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3DeleteBucketPolicyRequest/setBucket:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *id</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *bucket</Declaration>
 			
 			
-			<Anchor>//api/name/id</Anchor>
+			<Anchor>//api/name/bucket</Anchor>
             <NodeRef refid="762"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSSQSDeleteMessageBatchResultEntry/id</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Represents a successfully deleted message.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSQSModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3DeleteBucketPolicyRequest/bucket</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *id</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *bucket</Declaration>
 			
 			
-			<Anchor>//api/name/id</Anchor>
+			<Anchor>//api/name/bucket</Anchor>
             <NodeRef refid="762"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSSQSDeleteMessageBatchResultEntry/id</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Represents a successfully deleted message.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSQSModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSS3DeleteBucketPolicyRequest/bucket</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *id</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *bucket</Declaration>
 			
 			
-			<Anchor>//api/name/id</Anchor>
+			<Anchor>//api/name/bucket</Anchor>
             <NodeRef refid="762"/>
 		</Token>
 		
+        
         
 	</File>
 </Tokens>

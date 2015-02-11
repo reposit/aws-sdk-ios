@@ -1,77 +1,162 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Constants/AWSEC2EventCode.html">
+	<File path="Classes/AWSS3WebsiteConfiguration.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/c/tdef/AWSEC2EventCode</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSS3WebsiteConfiguration</TokenIdentifier>
 			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
             
 			
 			<NodeRef refid="870"/>
 		</Token>
 		
 		
-        
-        <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSEC2EventCodeUnknown</TokenIdentifier>
-            <Abstract type="html"></Abstract>
-            <Declaration>AWSEC2EventCodeUnknown</Declaration>
-            
-            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
-            
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3WebsiteConfiguration/setErrorDocument:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) AWSS3ErrorDocument *errorDocument</Declaration>
+			
+			
+			<Anchor>//api/name/errorDocument</Anchor>
             <NodeRef refid="870"/>
-        </Token>
-        
-        <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSEC2EventCodeInstanceReboot</TokenIdentifier>
-            <Abstract type="html"></Abstract>
-            <Declaration>AWSEC2EventCodeInstanceReboot</Declaration>
-            
-            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
-            
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3WebsiteConfiguration/errorDocument</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) AWSS3ErrorDocument *errorDocument</Declaration>
+			
+			
+			<Anchor>//api/name/errorDocument</Anchor>
             <NodeRef refid="870"/>
-        </Token>
-        
-        <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSEC2EventCodeSystemReboot</TokenIdentifier>
-            <Abstract type="html"></Abstract>
-            <Declaration>AWSEC2EventCodeSystemReboot</Declaration>
-            
-            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
-            
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSS3WebsiteConfiguration/errorDocument</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) AWSS3ErrorDocument *errorDocument</Declaration>
+			
+			
+			<Anchor>//api/name/errorDocument</Anchor>
             <NodeRef refid="870"/>
-        </Token>
-        
-        <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSEC2EventCodeSystemMaintenance</TokenIdentifier>
-            <Abstract type="html"></Abstract>
-            <Declaration>AWSEC2EventCodeSystemMaintenance</Declaration>
-            
-            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
-            
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3WebsiteConfiguration/setIndexDocument:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) AWSS3IndexDocument *indexDocument</Declaration>
+			
+			
+			<Anchor>//api/name/indexDocument</Anchor>
             <NodeRef refid="870"/>
-        </Token>
-        
-        <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSEC2EventCodeInstanceRetirement</TokenIdentifier>
-            <Abstract type="html"></Abstract>
-            <Declaration>AWSEC2EventCodeInstanceRetirement</Declaration>
-            
-            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
-            
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3WebsiteConfiguration/indexDocument</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) AWSS3IndexDocument *indexDocument</Declaration>
+			
+			
+			<Anchor>//api/name/indexDocument</Anchor>
             <NodeRef refid="870"/>
-        </Token>
-        
-        <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSEC2EventCodeInstanceStop</TokenIdentifier>
-            <Abstract type="html"></Abstract>
-            <Declaration>AWSEC2EventCodeInstanceStop</Declaration>
-            
-            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
-            
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSS3WebsiteConfiguration/indexDocument</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) AWSS3IndexDocument *indexDocument</Declaration>
+			
+			
+			<Anchor>//api/name/indexDocument</Anchor>
             <NodeRef refid="870"/>
-        </Token>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3WebsiteConfiguration/setRedirectAllRequestsTo:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) AWSS3RedirectAllRequestsTo *redirectAllRequestsTo</Declaration>
+			
+			
+			<Anchor>//api/name/redirectAllRequestsTo</Anchor>
+            <NodeRef refid="870"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3WebsiteConfiguration/redirectAllRequestsTo</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) AWSS3RedirectAllRequestsTo *redirectAllRequestsTo</Declaration>
+			
+			
+			<Anchor>//api/name/redirectAllRequestsTo</Anchor>
+            <NodeRef refid="870"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSS3WebsiteConfiguration/redirectAllRequestsTo</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) AWSS3RedirectAllRequestsTo *redirectAllRequestsTo</Declaration>
+			
+			
+			<Anchor>//api/name/redirectAllRequestsTo</Anchor>
+            <NodeRef refid="870"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3WebsiteConfiguration/setRoutingRules:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray *routingRules</Declaration>
+			
+			
+			<Anchor>//api/name/routingRules</Anchor>
+            <NodeRef refid="870"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3WebsiteConfiguration/routingRules</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray *routingRules</Declaration>
+			
+			
+			<Anchor>//api/name/routingRules</Anchor>
+            <NodeRef refid="870"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSS3WebsiteConfiguration/routingRules</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray *routingRules</Declaration>
+			
+			
+			<Anchor>//api/name/routingRules</Anchor>
+            <NodeRef refid="870"/>
+		</Token>
+		
+        
         
 	</File>
 </Tokens>

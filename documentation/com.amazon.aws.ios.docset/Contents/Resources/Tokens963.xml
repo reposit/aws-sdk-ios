@@ -1,57 +1,91 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Constants/AWSS3Type.html">
+	<File path="Classes/AWSSQSChangeMessageVisibilityBatchResult.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/c/tdef/AWSS3Type</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSSQSChangeMessageVisibilityBatchResult</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; For each message in the batch, the response contains a &lt;a&gt;ChangeMessageVisibilityBatchResultEntry&lt;/a&gt; tag if the message succeeds or a &lt;a&gt;BatchResultErrorEntry&lt;/a&gt; tag if the message fails. &lt;/p&gt;
+Required parameters: [Successful, Failed]</Abstract>
+			<DeclaredIn>AWSSQSModel.h</DeclaredIn>
             
 			
 			<NodeRef refid="963"/>
 		</Token>
 		
 		
-        
-        <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSS3TypeUnknown</TokenIdentifier>
-            <Abstract type="html"></Abstract>
-            <Declaration>AWSS3TypeUnknown</Declaration>
-            
-            <DeclaredIn>AWSS3Model.h</DeclaredIn>
-            
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSQSChangeMessageVisibilityBatchResult/setFailed:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;A list of &lt;a&gt;BatchResultErrorEntry&lt;/a&gt; items.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSQSModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray *failed</Declaration>
+			
+			
+			<Anchor>//api/name/failed</Anchor>
             <NodeRef refid="963"/>
-        </Token>
-        
-        <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSS3TypeCanonicalUser</TokenIdentifier>
-            <Abstract type="html"></Abstract>
-            <Declaration>AWSS3TypeCanonicalUser</Declaration>
-            
-            <DeclaredIn>AWSS3Model.h</DeclaredIn>
-            
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSQSChangeMessageVisibilityBatchResult/failed</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;A list of &lt;a&gt;BatchResultErrorEntry&lt;/a&gt; items.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSQSModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray *failed</Declaration>
+			
+			
+			<Anchor>//api/name/failed</Anchor>
             <NodeRef refid="963"/>
-        </Token>
-        
-        <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSS3TypeAmazonCustomerByEmail</TokenIdentifier>
-            <Abstract type="html"></Abstract>
-            <Declaration>AWSS3TypeAmazonCustomerByEmail</Declaration>
-            
-            <DeclaredIn>AWSS3Model.h</DeclaredIn>
-            
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSSQSChangeMessageVisibilityBatchResult/failed</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;A list of &lt;a&gt;BatchResultErrorEntry&lt;/a&gt; items.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSQSModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray *failed</Declaration>
+			
+			
+			<Anchor>//api/name/failed</Anchor>
             <NodeRef refid="963"/>
-        </Token>
-        
-        <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSS3TypeGroup</TokenIdentifier>
-            <Abstract type="html"></Abstract>
-            <Declaration>AWSS3TypeGroup</Declaration>
-            
-            <DeclaredIn>AWSS3Model.h</DeclaredIn>
-            
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSQSChangeMessageVisibilityBatchResult/setSuccessful:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;A list of &lt;a&gt;ChangeMessageVisibilityBatchResultEntry&lt;/a&gt; items.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSQSModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray *successful</Declaration>
+			
+			
+			<Anchor>//api/name/successful</Anchor>
             <NodeRef refid="963"/>
-        </Token>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSQSChangeMessageVisibilityBatchResult/successful</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;A list of &lt;a&gt;ChangeMessageVisibilityBatchResultEntry&lt;/a&gt; items.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSQSModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray *successful</Declaration>
+			
+			
+			<Anchor>//api/name/successful</Anchor>
+            <NodeRef refid="963"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSSQSChangeMessageVisibilityBatchResult/successful</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;A list of &lt;a&gt;ChangeMessageVisibilityBatchResultEntry&lt;/a&gt; items.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSQSModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray *successful</Declaration>
+			
+			
+			<Anchor>//api/name/successful</Anchor>
+            <NodeRef refid="963"/>
+		</Token>
+		
+        
         
 	</File>
 </Tokens>

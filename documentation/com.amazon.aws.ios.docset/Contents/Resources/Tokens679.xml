@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSSESIdentityVerificationAttributes.html">
+	<File path="Classes/AWSElasticLoadBalancingPolicies.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSSESIdentityVerificationAttributes</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Represents the verification attributes of a single identity.&lt;/p&gt;
-Required parameters: [VerificationStatus]</Abstract>
-			<DeclaredIn>AWSSESModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSElasticLoadBalancingPolicies</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSElasticLoadBalancingModel.h</DeclaredIn>
             
 			
 			<NodeRef refid="679"/>
@@ -14,77 +13,114 @@ Required parameters: [VerificationStatus]</Abstract>
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSSESIdentityVerificationAttributes/setVerificationStatus:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The verification status of the identity: &quot;Pending&quot;, &quot;Success&quot;, &quot;Failed&quot;, or &quot;TemporaryFailure&quot;.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSESModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSElasticLoadBalancingPolicies/setAppCookieStickinessPolicies:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSElasticLoadBalancingModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, assign) AWSSESVerificationStatus verificationStatus</Declaration>
+			<Declaration>@property (nonatomic, strong) NSArray *appCookieStickinessPolicies</Declaration>
 			
 			
-			<Anchor>//api/name/verificationStatus</Anchor>
+			<Anchor>//api/name/appCookieStickinessPolicies</Anchor>
             <NodeRef refid="679"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSSESIdentityVerificationAttributes/verificationStatus</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The verification status of the identity: &quot;Pending&quot;, &quot;Success&quot;, &quot;Failed&quot;, or &quot;TemporaryFailure&quot;.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSESModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSElasticLoadBalancingPolicies/appCookieStickinessPolicies</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSElasticLoadBalancingModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, assign) AWSSESVerificationStatus verificationStatus</Declaration>
+			<Declaration>@property (nonatomic, strong) NSArray *appCookieStickinessPolicies</Declaration>
 			
 			
-			<Anchor>//api/name/verificationStatus</Anchor>
+			<Anchor>//api/name/appCookieStickinessPolicies</Anchor>
             <NodeRef refid="679"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSSESIdentityVerificationAttributes/verificationStatus</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The verification status of the identity: &quot;Pending&quot;, &quot;Success&quot;, &quot;Failed&quot;, or &quot;TemporaryFailure&quot;.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSESModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSElasticLoadBalancingPolicies/appCookieStickinessPolicies</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSElasticLoadBalancingModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, assign) AWSSESVerificationStatus verificationStatus</Declaration>
+			<Declaration>@property (nonatomic, strong) NSArray *appCookieStickinessPolicies</Declaration>
 			
 			
-			<Anchor>//api/name/verificationStatus</Anchor>
+			<Anchor>//api/name/appCookieStickinessPolicies</Anchor>
             <NodeRef refid="679"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSSESIdentityVerificationAttributes/setVerificationToken:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The verification token for a domain identity. Null for email address identities.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSESModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSElasticLoadBalancingPolicies/setLBCookieStickinessPolicies:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSElasticLoadBalancingModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *verificationToken</Declaration>
+			<Declaration>@property (nonatomic, strong) NSArray *LBCookieStickinessPolicies</Declaration>
 			
 			
-			<Anchor>//api/name/verificationToken</Anchor>
+			<Anchor>//api/name/LBCookieStickinessPolicies</Anchor>
             <NodeRef refid="679"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSSESIdentityVerificationAttributes/verificationToken</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The verification token for a domain identity. Null for email address identities.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSESModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSElasticLoadBalancingPolicies/LBCookieStickinessPolicies</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSElasticLoadBalancingModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *verificationToken</Declaration>
+			<Declaration>@property (nonatomic, strong) NSArray *LBCookieStickinessPolicies</Declaration>
 			
 			
-			<Anchor>//api/name/verificationToken</Anchor>
+			<Anchor>//api/name/LBCookieStickinessPolicies</Anchor>
             <NodeRef refid="679"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSSESIdentityVerificationAttributes/verificationToken</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The verification token for a domain identity. Null for email address identities.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSESModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSElasticLoadBalancingPolicies/LBCookieStickinessPolicies</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSElasticLoadBalancingModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *verificationToken</Declaration>
+			<Declaration>@property (nonatomic, strong) NSArray *LBCookieStickinessPolicies</Declaration>
 			
 			
-			<Anchor>//api/name/verificationToken</Anchor>
+			<Anchor>//api/name/LBCookieStickinessPolicies</Anchor>
             <NodeRef refid="679"/>
 		</Token>
 		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSElasticLoadBalancingPolicies/setOtherPolicies:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSElasticLoadBalancingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray *otherPolicies</Declaration>
+			
+			
+			<Anchor>//api/name/otherPolicies</Anchor>
+            <NodeRef refid="679"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSElasticLoadBalancingPolicies/otherPolicies</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSElasticLoadBalancingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray *otherPolicies</Declaration>
+			
+			
+			<Anchor>//api/name/otherPolicies</Anchor>
+            <NodeRef refid="679"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSElasticLoadBalancingPolicies/otherPolicies</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSElasticLoadBalancingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray *otherPolicies</Declaration>
+			
+			
+			<Anchor>//api/name/otherPolicies</Anchor>
+            <NodeRef refid="679"/>
+		</Token>
+		
+        
         
 	</File>
 </Tokens>

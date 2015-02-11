@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSSESGetIdentityVerificationAttributesResponse.html">
+	<File path="Classes/AWSElasticLoadBalancingListenerDescription.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSSESGetIdentityVerificationAttributesResponse</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Represents the verification attributes for a list of identities.&lt;/p&gt;
-Required parameters: [VerificationAttributes]</Abstract>
-			<DeclaredIn>AWSSESModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSElasticLoadBalancingListenerDescription</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSElasticLoadBalancingModel.h</DeclaredIn>
             
 			
 			<NodeRef refid="674"/>
@@ -14,41 +13,78 @@ Required parameters: [VerificationAttributes]</Abstract>
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSSESGetIdentityVerificationAttributesResponse/setVerificationAttributes:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;A map of Identities to IdentityVerificationAttributes objects.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSESModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSElasticLoadBalancingListenerDescription/setListener:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSElasticLoadBalancingModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSDictionary *verificationAttributes</Declaration>
+			<Declaration>@property (nonatomic, strong) AWSElasticLoadBalancingListener *listener</Declaration>
 			
 			
-			<Anchor>//api/name/verificationAttributes</Anchor>
+			<Anchor>//api/name/listener</Anchor>
             <NodeRef refid="674"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSSESGetIdentityVerificationAttributesResponse/verificationAttributes</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;A map of Identities to IdentityVerificationAttributes objects.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSESModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSElasticLoadBalancingListenerDescription/listener</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSElasticLoadBalancingModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSDictionary *verificationAttributes</Declaration>
+			<Declaration>@property (nonatomic, strong) AWSElasticLoadBalancingListener *listener</Declaration>
 			
 			
-			<Anchor>//api/name/verificationAttributes</Anchor>
+			<Anchor>//api/name/listener</Anchor>
             <NodeRef refid="674"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSSESGetIdentityVerificationAttributesResponse/verificationAttributes</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;A map of Identities to IdentityVerificationAttributes objects.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSESModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSElasticLoadBalancingListenerDescription/listener</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSElasticLoadBalancingModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSDictionary *verificationAttributes</Declaration>
+			<Declaration>@property (nonatomic, strong) AWSElasticLoadBalancingListener *listener</Declaration>
 			
 			
-			<Anchor>//api/name/verificationAttributes</Anchor>
+			<Anchor>//api/name/listener</Anchor>
             <NodeRef refid="674"/>
 		</Token>
 		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSElasticLoadBalancingListenerDescription/setPolicyNames:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSElasticLoadBalancingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray *policyNames</Declaration>
+			
+			
+			<Anchor>//api/name/policyNames</Anchor>
+            <NodeRef refid="674"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSElasticLoadBalancingListenerDescription/policyNames</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSElasticLoadBalancingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray *policyNames</Declaration>
+			
+			
+			<Anchor>//api/name/policyNames</Anchor>
+            <NodeRef refid="674"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSElasticLoadBalancingListenerDescription/policyNames</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSElasticLoadBalancingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray *policyNames</Declaration>
+			
+			
+			<Anchor>//api/name/policyNames</Anchor>
+            <NodeRef refid="674"/>
+		</Token>
+		
+        
         
 	</File>
 </Tokens>

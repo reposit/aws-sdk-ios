@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSEC2CreateSubnetResult.html">
+	<File path="Classes/AWSEC2AttachVpnGatewayResult.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSEC2CreateSubnetResult</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSEC2AttachVpnGatewayResult</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
             
@@ -13,41 +13,42 @@
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2CreateSubnetResult/setSubnet:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Information about the subnet.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2AttachVpnGatewayResult/setVpcAttachment:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Information about the attachment.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) AWSEC2Subnet *subnet</Declaration>
+			<Declaration>@property (nonatomic, strong) AWSEC2VpcAttachment *vpcAttachment</Declaration>
 			
 			
-			<Anchor>//api/name/subnet</Anchor>
+			<Anchor>//api/name/vpcAttachment</Anchor>
             <NodeRef refid="263"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2CreateSubnetResult/subnet</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Information about the subnet.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2AttachVpnGatewayResult/vpcAttachment</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Information about the attachment.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) AWSEC2Subnet *subnet</Declaration>
+			<Declaration>@property (nonatomic, strong) AWSEC2VpcAttachment *vpcAttachment</Declaration>
 			
 			
-			<Anchor>//api/name/subnet</Anchor>
+			<Anchor>//api/name/vpcAttachment</Anchor>
             <NodeRef refid="263"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2CreateSubnetResult/subnet</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Information about the subnet.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2AttachVpnGatewayResult/vpcAttachment</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Information about the attachment.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) AWSEC2Subnet *subnet</Declaration>
+			<Declaration>@property (nonatomic, strong) AWSEC2VpcAttachment *vpcAttachment</Declaration>
 			
 			
-			<Anchor>//api/name/subnet</Anchor>
+			<Anchor>//api/name/vpcAttachment</Anchor>
             <NodeRef refid="263"/>
 		</Token>
 		
+        
         
 	</File>
 </Tokens>

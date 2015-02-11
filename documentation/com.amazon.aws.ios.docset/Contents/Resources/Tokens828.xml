@@ -1,157 +1,306 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Constants/AWSAutoScalingLifecycleState.html">
+	<File path="Classes/AWSS3ObjectVersion.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/c/tdef/AWSAutoScalingLifecycleState</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSS3ObjectVersion</TokenIdentifier>
 			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
             
 			
 			<NodeRef refid="828"/>
 		</Token>
 		
 		
-        
-        <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSAutoScalingLifecycleStateUnknown</TokenIdentifier>
-            <Abstract type="html"></Abstract>
-            <Declaration>AWSAutoScalingLifecycleStateUnknown</Declaration>
-            
-            <DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
-            
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3ObjectVersion/setETag:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *ETag</Declaration>
+			
+			
+			<Anchor>//api/name/ETag</Anchor>
             <NodeRef refid="828"/>
-        </Token>
-        
-        <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSAutoScalingLifecycleStatePending</TokenIdentifier>
-            <Abstract type="html"></Abstract>
-            <Declaration>AWSAutoScalingLifecycleStatePending</Declaration>
-            
-            <DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
-            
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3ObjectVersion/ETag</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *ETag</Declaration>
+			
+			
+			<Anchor>//api/name/ETag</Anchor>
             <NodeRef refid="828"/>
-        </Token>
-        
-        <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSAutoScalingLifecycleStatePendingWait</TokenIdentifier>
-            <Abstract type="html"></Abstract>
-            <Declaration>AWSAutoScalingLifecycleStatePendingWait</Declaration>
-            
-            <DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
-            
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSS3ObjectVersion/ETag</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *ETag</Declaration>
+			
+			
+			<Anchor>//api/name/ETag</Anchor>
             <NodeRef refid="828"/>
-        </Token>
-        
-        <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSAutoScalingLifecycleStatePendingProceed</TokenIdentifier>
-            <Abstract type="html"></Abstract>
-            <Declaration>AWSAutoScalingLifecycleStatePendingProceed</Declaration>
-            
-            <DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
-            
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3ObjectVersion/setIsLatest:</TokenIdentifier>
+			<Abstract type="html">Specifies whether the object is (true) or is not (false) the latest version of an object.</Abstract>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *isLatest</Declaration>
+			
+			
+			<Anchor>//api/name/isLatest</Anchor>
             <NodeRef refid="828"/>
-        </Token>
-        
-        <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSAutoScalingLifecycleStateQuarantined</TokenIdentifier>
-            <Abstract type="html"></Abstract>
-            <Declaration>AWSAutoScalingLifecycleStateQuarantined</Declaration>
-            
-            <DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
-            
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3ObjectVersion/isLatest</TokenIdentifier>
+			<Abstract type="html">Specifies whether the object is (true) or is not (false) the latest version of an object.</Abstract>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *isLatest</Declaration>
+			
+			
+			<Anchor>//api/name/isLatest</Anchor>
             <NodeRef refid="828"/>
-        </Token>
-        
-        <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSAutoScalingLifecycleStateInService</TokenIdentifier>
-            <Abstract type="html"></Abstract>
-            <Declaration>AWSAutoScalingLifecycleStateInService</Declaration>
-            
-            <DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
-            
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSS3ObjectVersion/isLatest</TokenIdentifier>
+			<Abstract type="html">Specifies whether the object is (true) or is not (false) the latest version of an object.</Abstract>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *isLatest</Declaration>
+			
+			
+			<Anchor>//api/name/isLatest</Anchor>
             <NodeRef refid="828"/>
-        </Token>
-        
-        <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSAutoScalingLifecycleStateTerminating</TokenIdentifier>
-            <Abstract type="html"></Abstract>
-            <Declaration>AWSAutoScalingLifecycleStateTerminating</Declaration>
-            
-            <DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
-            
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3ObjectVersion/setKey:</TokenIdentifier>
+			<Abstract type="html">The object key.</Abstract>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *key</Declaration>
+			
+			
+			<Anchor>//api/name/key</Anchor>
             <NodeRef refid="828"/>
-        </Token>
-        
-        <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSAutoScalingLifecycleStateTerminatingWait</TokenIdentifier>
-            <Abstract type="html"></Abstract>
-            <Declaration>AWSAutoScalingLifecycleStateTerminatingWait</Declaration>
-            
-            <DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
-            
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3ObjectVersion/key</TokenIdentifier>
+			<Abstract type="html">The object key.</Abstract>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *key</Declaration>
+			
+			
+			<Anchor>//api/name/key</Anchor>
             <NodeRef refid="828"/>
-        </Token>
-        
-        <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSAutoScalingLifecycleStateTerminatingProceed</TokenIdentifier>
-            <Abstract type="html"></Abstract>
-            <Declaration>AWSAutoScalingLifecycleStateTerminatingProceed</Declaration>
-            
-            <DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
-            
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSS3ObjectVersion/key</TokenIdentifier>
+			<Abstract type="html">The object key.</Abstract>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *key</Declaration>
+			
+			
+			<Anchor>//api/name/key</Anchor>
             <NodeRef refid="828"/>
-        </Token>
-        
-        <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSAutoScalingLifecycleStateTerminated</TokenIdentifier>
-            <Abstract type="html"></Abstract>
-            <Declaration>AWSAutoScalingLifecycleStateTerminated</Declaration>
-            
-            <DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
-            
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3ObjectVersion/setLastModified:</TokenIdentifier>
+			<Abstract type="html">Date and time the object was last modified.</Abstract>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSDate *lastModified</Declaration>
+			
+			
+			<Anchor>//api/name/lastModified</Anchor>
             <NodeRef refid="828"/>
-        </Token>
-        
-        <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSAutoScalingLifecycleStateDetaching</TokenIdentifier>
-            <Abstract type="html"></Abstract>
-            <Declaration>AWSAutoScalingLifecycleStateDetaching</Declaration>
-            
-            <DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
-            
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3ObjectVersion/lastModified</TokenIdentifier>
+			<Abstract type="html">Date and time the object was last modified.</Abstract>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSDate *lastModified</Declaration>
+			
+			
+			<Anchor>//api/name/lastModified</Anchor>
             <NodeRef refid="828"/>
-        </Token>
-        
-        <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSAutoScalingLifecycleStateDetached</TokenIdentifier>
-            <Abstract type="html"></Abstract>
-            <Declaration>AWSAutoScalingLifecycleStateDetached</Declaration>
-            
-            <DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
-            
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSS3ObjectVersion/lastModified</TokenIdentifier>
+			<Abstract type="html">Date and time the object was last modified.</Abstract>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSDate *lastModified</Declaration>
+			
+			
+			<Anchor>//api/name/lastModified</Anchor>
             <NodeRef refid="828"/>
-        </Token>
-        
-        <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSAutoScalingLifecycleStateEnteringStandby</TokenIdentifier>
-            <Abstract type="html"></Abstract>
-            <Declaration>AWSAutoScalingLifecycleStateEnteringStandby</Declaration>
-            
-            <DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
-            
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3ObjectVersion/setOwner:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) AWSS3Owner *owner</Declaration>
+			
+			
+			<Anchor>//api/name/owner</Anchor>
             <NodeRef refid="828"/>
-        </Token>
-        
-        <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSAutoScalingLifecycleStateStandby</TokenIdentifier>
-            <Abstract type="html"></Abstract>
-            <Declaration>AWSAutoScalingLifecycleStateStandby</Declaration>
-            
-            <DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
-            
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3ObjectVersion/owner</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) AWSS3Owner *owner</Declaration>
+			
+			
+			<Anchor>//api/name/owner</Anchor>
             <NodeRef refid="828"/>
-        </Token>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSS3ObjectVersion/owner</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) AWSS3Owner *owner</Declaration>
+			
+			
+			<Anchor>//api/name/owner</Anchor>
+            <NodeRef refid="828"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3ObjectVersion/setSize:</TokenIdentifier>
+			<Abstract type="html">Size in bytes of the object.</Abstract>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *size</Declaration>
+			
+			
+			<Anchor>//api/name/size</Anchor>
+            <NodeRef refid="828"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3ObjectVersion/size</TokenIdentifier>
+			<Abstract type="html">Size in bytes of the object.</Abstract>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *size</Declaration>
+			
+			
+			<Anchor>//api/name/size</Anchor>
+            <NodeRef refid="828"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSS3ObjectVersion/size</TokenIdentifier>
+			<Abstract type="html">Size in bytes of the object.</Abstract>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *size</Declaration>
+			
+			
+			<Anchor>//api/name/size</Anchor>
+            <NodeRef refid="828"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3ObjectVersion/setStorageClass:</TokenIdentifier>
+			<Abstract type="html">The class of storage used to store the object.</Abstract>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) AWSS3ObjectVersionStorageClass storageClass</Declaration>
+			
+			
+			<Anchor>//api/name/storageClass</Anchor>
+            <NodeRef refid="828"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3ObjectVersion/storageClass</TokenIdentifier>
+			<Abstract type="html">The class of storage used to store the object.</Abstract>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) AWSS3ObjectVersionStorageClass storageClass</Declaration>
+			
+			
+			<Anchor>//api/name/storageClass</Anchor>
+            <NodeRef refid="828"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSS3ObjectVersion/storageClass</TokenIdentifier>
+			<Abstract type="html">The class of storage used to store the object.</Abstract>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) AWSS3ObjectVersionStorageClass storageClass</Declaration>
+			
+			
+			<Anchor>//api/name/storageClass</Anchor>
+            <NodeRef refid="828"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3ObjectVersion/setVersionId:</TokenIdentifier>
+			<Abstract type="html">Version ID of an object.</Abstract>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *versionId</Declaration>
+			
+			
+			<Anchor>//api/name/versionId</Anchor>
+            <NodeRef refid="828"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3ObjectVersion/versionId</TokenIdentifier>
+			<Abstract type="html">Version ID of an object.</Abstract>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *versionId</Declaration>
+			
+			
+			<Anchor>//api/name/versionId</Anchor>
+            <NodeRef refid="828"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSS3ObjectVersion/versionId</TokenIdentifier>
+			<Abstract type="html">Version ID of an object.</Abstract>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *versionId</Declaration>
+			
+			
+			<Anchor>//api/name/versionId</Anchor>
+            <NodeRef refid="828"/>
+		</Token>
+		
+        
         
 	</File>
 </Tokens>

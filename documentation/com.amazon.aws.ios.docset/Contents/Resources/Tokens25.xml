@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSAutoScalingDeleteTagsType.html">
+	<File path="Classes/AWSAutoScalingDeletePolicyType.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSAutoScalingDeleteTagsType</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSAutoScalingDeletePolicyType</TokenIdentifier>
 			<Abstract type="html">&lt;p&gt;&lt;/p&gt;
-Required parameters: [Tags]</Abstract>
+Required parameters: [PolicyName]</Abstract>
 			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
             
 			
@@ -14,41 +14,78 @@ Required parameters: [Tags]</Abstract>
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingDeleteTagsType/setTags:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Each tag should be defined by its resource type, resource ID, key, value, and a propagate flag. Valid values are: Resource type = &lt;i&gt;auto-scaling-group&lt;/i&gt;, Resource ID = &lt;i&gt;AutoScalingGroupName&lt;/i&gt;, key=&lt;i&gt;value&lt;/i&gt;, value=&lt;i&gt;value&lt;/i&gt;, propagate=&lt;i&gt;true&lt;/i&gt; or &lt;i&gt;false&lt;/i&gt;. &lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingDeletePolicyType/setAutoScalingGroupName:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The name of the Auto Scaling group.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSArray *tags</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *autoScalingGroupName</Declaration>
 			
 			
-			<Anchor>//api/name/tags</Anchor>
+			<Anchor>//api/name/autoScalingGroupName</Anchor>
             <NodeRef refid="25"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingDeleteTagsType/tags</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Each tag should be defined by its resource type, resource ID, key, value, and a propagate flag. Valid values are: Resource type = &lt;i&gt;auto-scaling-group&lt;/i&gt;, Resource ID = &lt;i&gt;AutoScalingGroupName&lt;/i&gt;, key=&lt;i&gt;value&lt;/i&gt;, value=&lt;i&gt;value&lt;/i&gt;, propagate=&lt;i&gt;true&lt;/i&gt; or &lt;i&gt;false&lt;/i&gt;. &lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingDeletePolicyType/autoScalingGroupName</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The name of the Auto Scaling group.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSArray *tags</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *autoScalingGroupName</Declaration>
 			
 			
-			<Anchor>//api/name/tags</Anchor>
+			<Anchor>//api/name/autoScalingGroupName</Anchor>
             <NodeRef refid="25"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSAutoScalingDeleteTagsType/tags</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Each tag should be defined by its resource type, resource ID, key, value, and a propagate flag. Valid values are: Resource type = &lt;i&gt;auto-scaling-group&lt;/i&gt;, Resource ID = &lt;i&gt;AutoScalingGroupName&lt;/i&gt;, key=&lt;i&gt;value&lt;/i&gt;, value=&lt;i&gt;value&lt;/i&gt;, propagate=&lt;i&gt;true&lt;/i&gt; or &lt;i&gt;false&lt;/i&gt;. &lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSAutoScalingDeletePolicyType/autoScalingGroupName</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The name of the Auto Scaling group.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSArray *tags</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *autoScalingGroupName</Declaration>
 			
 			
-			<Anchor>//api/name/tags</Anchor>
+			<Anchor>//api/name/autoScalingGroupName</Anchor>
             <NodeRef refid="25"/>
 		</Token>
 		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingDeletePolicyType/setPolicyName:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The name or PolicyARN of the policy you want to delete.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *policyName</Declaration>
+			
+			
+			<Anchor>//api/name/policyName</Anchor>
+            <NodeRef refid="25"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingDeletePolicyType/policyName</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The name or PolicyARN of the policy you want to delete.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *policyName</Declaration>
+			
+			
+			<Anchor>//api/name/policyName</Anchor>
+            <NodeRef refid="25"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSAutoScalingDeletePolicyType/policyName</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The name or PolicyARN of the policy you want to delete.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *policyName</Declaration>
+			
+			
+			<Anchor>//api/name/policyName</Anchor>
+            <NodeRef refid="25"/>
+		</Token>
+		
+        
         
 	</File>
 </Tokens>

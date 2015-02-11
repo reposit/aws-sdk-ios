@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSEC2AvailabilityZone.html">
+	<File path="Classes/AWSDynamoDBListTablesOutput.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSEC2AvailabilityZone</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Describes an Availability Zone.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSDynamoDBListTablesOutput</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Represents the output of a &lt;i&gt;ListTables&lt;/i&gt; operation.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
             
 			
 			<NodeRef refid="217"/>
@@ -13,149 +13,78 @@
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2AvailabilityZone/setMessages:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Any messages about the Availability Zone.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSDynamoDBListTablesOutput/setLastEvaluatedTableName:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The name of the last table in the current page of results. Use this value as the &lt;i&gt;ExclusiveStartTableName&lt;/i&gt; in a new request to obtain the next page of results, until all the table names are returned.&lt;/p&gt;&lt;p&gt;If you do not receive a &lt;i&gt;LastEvaluatedTableName&lt;/i&gt; value in the response, this means that there are no more table names to be retrieved.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSArray *messages</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *lastEvaluatedTableName</Declaration>
 			
 			
-			<Anchor>//api/name/messages</Anchor>
+			<Anchor>//api/name/lastEvaluatedTableName</Anchor>
             <NodeRef refid="217"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2AvailabilityZone/messages</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Any messages about the Availability Zone.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSDynamoDBListTablesOutput/lastEvaluatedTableName</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The name of the last table in the current page of results. Use this value as the &lt;i&gt;ExclusiveStartTableName&lt;/i&gt; in a new request to obtain the next page of results, until all the table names are returned.&lt;/p&gt;&lt;p&gt;If you do not receive a &lt;i&gt;LastEvaluatedTableName&lt;/i&gt; value in the response, this means that there are no more table names to be retrieved.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSArray *messages</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *lastEvaluatedTableName</Declaration>
 			
 			
-			<Anchor>//api/name/messages</Anchor>
+			<Anchor>//api/name/lastEvaluatedTableName</Anchor>
             <NodeRef refid="217"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2AvailabilityZone/messages</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Any messages about the Availability Zone.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSDynamoDBListTablesOutput/lastEvaluatedTableName</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The name of the last table in the current page of results. Use this value as the &lt;i&gt;ExclusiveStartTableName&lt;/i&gt; in a new request to obtain the next page of results, until all the table names are returned.&lt;/p&gt;&lt;p&gt;If you do not receive a &lt;i&gt;LastEvaluatedTableName&lt;/i&gt; value in the response, this means that there are no more table names to be retrieved.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSArray *messages</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *lastEvaluatedTableName</Declaration>
 			
 			
-			<Anchor>//api/name/messages</Anchor>
+			<Anchor>//api/name/lastEvaluatedTableName</Anchor>
             <NodeRef refid="217"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2AvailabilityZone/setRegionName:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The name of the region.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSDynamoDBListTablesOutput/setTableNames:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The names of the tables associated with the current account at the current endpoint. The maximum size of this array is 100. &lt;/p&gt;&lt;p&gt;If &lt;i&gt;LastEvaluatedTableName&lt;/i&gt; also appears in the output, you can use this value as the &lt;i&gt;ExclusiveStartTableName&lt;/i&gt; parameter in a subsequent &lt;i&gt;ListTables&lt;/i&gt; request and obtain the next page of results.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *regionName</Declaration>
+			<Declaration>@property (nonatomic, strong) NSArray *tableNames</Declaration>
 			
 			
-			<Anchor>//api/name/regionName</Anchor>
+			<Anchor>//api/name/tableNames</Anchor>
             <NodeRef refid="217"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2AvailabilityZone/regionName</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The name of the region.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSDynamoDBListTablesOutput/tableNames</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The names of the tables associated with the current account at the current endpoint. The maximum size of this array is 100. &lt;/p&gt;&lt;p&gt;If &lt;i&gt;LastEvaluatedTableName&lt;/i&gt; also appears in the output, you can use this value as the &lt;i&gt;ExclusiveStartTableName&lt;/i&gt; parameter in a subsequent &lt;i&gt;ListTables&lt;/i&gt; request and obtain the next page of results.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *regionName</Declaration>
+			<Declaration>@property (nonatomic, strong) NSArray *tableNames</Declaration>
 			
 			
-			<Anchor>//api/name/regionName</Anchor>
+			<Anchor>//api/name/tableNames</Anchor>
             <NodeRef refid="217"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2AvailabilityZone/regionName</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The name of the region.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSDynamoDBListTablesOutput/tableNames</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The names of the tables associated with the current account at the current endpoint. The maximum size of this array is 100. &lt;/p&gt;&lt;p&gt;If &lt;i&gt;LastEvaluatedTableName&lt;/i&gt; also appears in the output, you can use this value as the &lt;i&gt;ExclusiveStartTableName&lt;/i&gt; parameter in a subsequent &lt;i&gt;ListTables&lt;/i&gt; request and obtain the next page of results.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *regionName</Declaration>
+			<Declaration>@property (nonatomic, strong) NSArray *tableNames</Declaration>
 			
 			
-			<Anchor>//api/name/regionName</Anchor>
+			<Anchor>//api/name/tableNames</Anchor>
             <NodeRef refid="217"/>
 		</Token>
 		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2AvailabilityZone/setState:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The state of the Availability Zone.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, assign) AWSEC2AvailabilityZoneState state</Declaration>
-			
-			
-			<Anchor>//api/name/state</Anchor>
-            <NodeRef refid="217"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2AvailabilityZone/state</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The state of the Availability Zone.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, assign) AWSEC2AvailabilityZoneState state</Declaration>
-			
-			
-			<Anchor>//api/name/state</Anchor>
-            <NodeRef refid="217"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2AvailabilityZone/state</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The state of the Availability Zone.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, assign) AWSEC2AvailabilityZoneState state</Declaration>
-			
-			
-			<Anchor>//api/name/state</Anchor>
-            <NodeRef refid="217"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2AvailabilityZone/setZoneName:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The name of the Availability Zone.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *zoneName</Declaration>
-			
-			
-			<Anchor>//api/name/zoneName</Anchor>
-            <NodeRef refid="217"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2AvailabilityZone/zoneName</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The name of the Availability Zone.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *zoneName</Declaration>
-			
-			
-			<Anchor>//api/name/zoneName</Anchor>
-            <NodeRef refid="217"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2AvailabilityZone/zoneName</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The name of the Availability Zone.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *zoneName</Declaration>
-			
-			
-			<Anchor>//api/name/zoneName</Anchor>
-            <NodeRef refid="217"/>
-		</Token>
-		
+        
         
 	</File>
 </Tokens>

@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSCloudWatchDescribeAlarmsOutput.html">
+	<File path="Classes/AWSCloudWatchDescribeAlarmsForMetricInput.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSCloudWatchDescribeAlarmsOutput</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt; The output for the &lt;a&gt;DescribeAlarms&lt;/a&gt; action. &lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSCloudWatchDescribeAlarmsForMetricInput</TokenIdentifier>
+			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSCloudWatchModel.h</DeclaredIn>
             
 			
@@ -13,77 +13,222 @@
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSCloudWatchDescribeAlarmsOutput/setMetricAlarms:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt; A list of information for the specified alarms. &lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCloudWatchDescribeAlarmsForMetricInput/setDimensions:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; The list of dimensions associated with the metric. &lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSCloudWatchModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSArray *metricAlarms</Declaration>
+			<Declaration>@property (nonatomic, strong) NSArray *dimensions</Declaration>
 			
 			
-			<Anchor>//api/name/metricAlarms</Anchor>
+			<Anchor>//api/name/dimensions</Anchor>
             <NodeRef refid="95"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSCloudWatchDescribeAlarmsOutput/metricAlarms</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt; A list of information for the specified alarms. &lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCloudWatchDescribeAlarmsForMetricInput/dimensions</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; The list of dimensions associated with the metric. &lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSCloudWatchModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSArray *metricAlarms</Declaration>
+			<Declaration>@property (nonatomic, strong) NSArray *dimensions</Declaration>
 			
 			
-			<Anchor>//api/name/metricAlarms</Anchor>
+			<Anchor>//api/name/dimensions</Anchor>
             <NodeRef refid="95"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSCloudWatchDescribeAlarmsOutput/metricAlarms</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt; A list of information for the specified alarms. &lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSCloudWatchDescribeAlarmsForMetricInput/dimensions</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; The list of dimensions associated with the metric. &lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSCloudWatchModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSArray *metricAlarms</Declaration>
+			<Declaration>@property (nonatomic, strong) NSArray *dimensions</Declaration>
 			
 			
-			<Anchor>//api/name/metricAlarms</Anchor>
+			<Anchor>//api/name/dimensions</Anchor>
             <NodeRef refid="95"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSCloudWatchDescribeAlarmsOutput/setNextToken:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt; A string that marks the start of the next batch of returned results. &lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCloudWatchDescribeAlarmsForMetricInput/setMetricName:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; The name of the metric. &lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSCloudWatchModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *nextToken</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *metricName</Declaration>
 			
 			
-			<Anchor>//api/name/nextToken</Anchor>
+			<Anchor>//api/name/metricName</Anchor>
             <NodeRef refid="95"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSCloudWatchDescribeAlarmsOutput/nextToken</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt; A string that marks the start of the next batch of returned results. &lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCloudWatchDescribeAlarmsForMetricInput/metricName</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; The name of the metric. &lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSCloudWatchModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *nextToken</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *metricName</Declaration>
 			
 			
-			<Anchor>//api/name/nextToken</Anchor>
+			<Anchor>//api/name/metricName</Anchor>
             <NodeRef refid="95"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSCloudWatchDescribeAlarmsOutput/nextToken</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt; A string that marks the start of the next batch of returned results. &lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSCloudWatchDescribeAlarmsForMetricInput/metricName</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; The name of the metric. &lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSCloudWatchModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *nextToken</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *metricName</Declaration>
 			
 			
-			<Anchor>//api/name/nextToken</Anchor>
+			<Anchor>//api/name/metricName</Anchor>
             <NodeRef refid="95"/>
 		</Token>
 		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCloudWatchDescribeAlarmsForMetricInput/setNamespace:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; The namespace of the metric. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSCloudWatchModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *namespace</Declaration>
+			
+			
+			<Anchor>//api/name/namespace</Anchor>
+            <NodeRef refid="95"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCloudWatchDescribeAlarmsForMetricInput/namespace</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; The namespace of the metric. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSCloudWatchModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *namespace</Declaration>
+			
+			
+			<Anchor>//api/name/namespace</Anchor>
+            <NodeRef refid="95"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSCloudWatchDescribeAlarmsForMetricInput/namespace</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; The namespace of the metric. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSCloudWatchModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *namespace</Declaration>
+			
+			
+			<Anchor>//api/name/namespace</Anchor>
+            <NodeRef refid="95"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCloudWatchDescribeAlarmsForMetricInput/setPeriod:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; The period in seconds over which the statistic is applied. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSCloudWatchModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *period</Declaration>
+			
+			
+			<Anchor>//api/name/period</Anchor>
+            <NodeRef refid="95"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCloudWatchDescribeAlarmsForMetricInput/period</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; The period in seconds over which the statistic is applied. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSCloudWatchModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *period</Declaration>
+			
+			
+			<Anchor>//api/name/period</Anchor>
+            <NodeRef refid="95"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSCloudWatchDescribeAlarmsForMetricInput/period</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; The period in seconds over which the statistic is applied. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSCloudWatchModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *period</Declaration>
+			
+			
+			<Anchor>//api/name/period</Anchor>
+            <NodeRef refid="95"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCloudWatchDescribeAlarmsForMetricInput/setStatistic:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; The statistic for the metric. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSCloudWatchModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) AWSCloudWatchStatistic statistic</Declaration>
+			
+			
+			<Anchor>//api/name/statistic</Anchor>
+            <NodeRef refid="95"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCloudWatchDescribeAlarmsForMetricInput/statistic</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; The statistic for the metric. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSCloudWatchModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) AWSCloudWatchStatistic statistic</Declaration>
+			
+			
+			<Anchor>//api/name/statistic</Anchor>
+            <NodeRef refid="95"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSCloudWatchDescribeAlarmsForMetricInput/statistic</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; The statistic for the metric. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSCloudWatchModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) AWSCloudWatchStatistic statistic</Declaration>
+			
+			
+			<Anchor>//api/name/statistic</Anchor>
+            <NodeRef refid="95"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCloudWatchDescribeAlarmsForMetricInput/setUnit:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; The unit for the metric. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSCloudWatchModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) AWSCloudWatchStandardUnit unit</Declaration>
+			
+			
+			<Anchor>//api/name/unit</Anchor>
+            <NodeRef refid="95"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCloudWatchDescribeAlarmsForMetricInput/unit</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; The unit for the metric. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSCloudWatchModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) AWSCloudWatchStandardUnit unit</Declaration>
+			
+			
+			<Anchor>//api/name/unit</Anchor>
+            <NodeRef refid="95"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSCloudWatchDescribeAlarmsForMetricInput/unit</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; The unit for the metric. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSCloudWatchModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) AWSCloudWatchStandardUnit unit</Declaration>
+			
+			
+			<Anchor>//api/name/unit</Anchor>
+            <NodeRef refid="95"/>
+		</Token>
+		
+        
         
 	</File>
 </Tokens>

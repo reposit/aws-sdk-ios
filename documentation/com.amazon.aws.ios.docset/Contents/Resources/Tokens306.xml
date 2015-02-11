@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSEC2DescribeBundleTasksResult.html">
+	<File path="Classes/AWSEC2CreateReservedInstancesListingResult.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSEC2DescribeBundleTasksResult</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSEC2CreateReservedInstancesListingResult</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
             
@@ -13,41 +13,42 @@
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DescribeBundleTasksResult/setBundleTasks:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Information about one or more bundle tasks.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2CreateReservedInstancesListingResult/setReservedInstancesListings:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Information about the Reserved Instances listing.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSArray *bundleTasks</Declaration>
+			<Declaration>@property (nonatomic, strong) NSArray *reservedInstancesListings</Declaration>
 			
 			
-			<Anchor>//api/name/bundleTasks</Anchor>
+			<Anchor>//api/name/reservedInstancesListings</Anchor>
             <NodeRef refid="306"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DescribeBundleTasksResult/bundleTasks</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Information about one or more bundle tasks.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2CreateReservedInstancesListingResult/reservedInstancesListings</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Information about the Reserved Instances listing.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSArray *bundleTasks</Declaration>
+			<Declaration>@property (nonatomic, strong) NSArray *reservedInstancesListings</Declaration>
 			
 			
-			<Anchor>//api/name/bundleTasks</Anchor>
+			<Anchor>//api/name/reservedInstancesListings</Anchor>
             <NodeRef refid="306"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2DescribeBundleTasksResult/bundleTasks</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Information about one or more bundle tasks.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2CreateReservedInstancesListingResult/reservedInstancesListings</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Information about the Reserved Instances listing.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSArray *bundleTasks</Declaration>
+			<Declaration>@property (nonatomic, strong) NSArray *reservedInstancesListings</Declaration>
 			
 			
-			<Anchor>//api/name/bundleTasks</Anchor>
+			<Anchor>//api/name/reservedInstancesListings</Anchor>
             <NodeRef refid="306"/>
 		</Token>
 		
+        
         
 	</File>
 </Tokens>

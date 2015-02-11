@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSDynamoDBKeysAndAttributes.html">
+	<File path="Classes/AWSCognitoSyncListDatasetsResponse.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSDynamoDBKeysAndAttributes</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Represents a set of primary keys and, for each key, the attributes to retrieve from the table.&lt;/p&gt;&lt;p&gt;For each primary key, you must provide &lt;i&gt;all&lt;/i&gt; of the key attributes. For example, with a hash type primary key, you only need to specify the hash attribute. For a hash-and-range type primary key, you must specify &lt;i&gt;both&lt;/i&gt; the hash attribute and the range attribute.&lt;/p&gt;
-Required parameters: [Keys]</Abstract>
-			<DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSCognitoSyncListDatasetsResponse</TokenIdentifier>
+			<Abstract type="html">Returned for a successful ListDatasets request.</Abstract>
+			<DeclaredIn>AWSCognitoSyncModel.h</DeclaredIn>
             
 			
 			<NodeRef refid="168"/>
@@ -14,113 +13,114 @@ Required parameters: [Keys]</Abstract>
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSDynamoDBKeysAndAttributes/setAttributesToGet:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;One or more attributes to retrieve from the table or index. If no attribute names are specified then all attributes will be returned. If any of the specified attributes are not found, they will not appear in the result.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoSyncListDatasetsResponse/setCount:</TokenIdentifier>
+			<Abstract type="html">Number of datasets returned.</Abstract>
+			<DeclaredIn>AWSCognitoSyncModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSArray *attributesToGet</Declaration>
+			<Declaration>@property (nonatomic, strong) NSNumber *count</Declaration>
 			
 			
-			<Anchor>//api/name/attributesToGet</Anchor>
+			<Anchor>//api/name/count</Anchor>
             <NodeRef refid="168"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSDynamoDBKeysAndAttributes/attributesToGet</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;One or more attributes to retrieve from the table or index. If no attribute names are specified then all attributes will be returned. If any of the specified attributes are not found, they will not appear in the result.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoSyncListDatasetsResponse/count</TokenIdentifier>
+			<Abstract type="html">Number of datasets returned.</Abstract>
+			<DeclaredIn>AWSCognitoSyncModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSArray *attributesToGet</Declaration>
+			<Declaration>@property (nonatomic, strong) NSNumber *count</Declaration>
 			
 			
-			<Anchor>//api/name/attributesToGet</Anchor>
+			<Anchor>//api/name/count</Anchor>
             <NodeRef refid="168"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSDynamoDBKeysAndAttributes/attributesToGet</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;One or more attributes to retrieve from the table or index. If no attribute names are specified then all attributes will be returned. If any of the specified attributes are not found, they will not appear in the result.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSCognitoSyncListDatasetsResponse/count</TokenIdentifier>
+			<Abstract type="html">Number of datasets returned.</Abstract>
+			<DeclaredIn>AWSCognitoSyncModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSArray *attributesToGet</Declaration>
+			<Declaration>@property (nonatomic, strong) NSNumber *count</Declaration>
 			
 			
-			<Anchor>//api/name/attributesToGet</Anchor>
+			<Anchor>//api/name/count</Anchor>
             <NodeRef refid="168"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSDynamoDBKeysAndAttributes/setConsistentRead:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The consistency of a read operation. If set to &lt;code&gt;true&lt;/code&gt;, then a strongly consistent read is used; otherwise, an eventually consistent read is used.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoSyncListDatasetsResponse/setDatasets:</TokenIdentifier>
+			<Abstract type="html">A set of datasets.</Abstract>
+			<DeclaredIn>AWSCognitoSyncModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSNumber *consistentRead</Declaration>
+			<Declaration>@property (nonatomic, strong) NSArray *datasets</Declaration>
 			
 			
-			<Anchor>//api/name/consistentRead</Anchor>
+			<Anchor>//api/name/datasets</Anchor>
             <NodeRef refid="168"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSDynamoDBKeysAndAttributes/consistentRead</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The consistency of a read operation. If set to &lt;code&gt;true&lt;/code&gt;, then a strongly consistent read is used; otherwise, an eventually consistent read is used.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoSyncListDatasetsResponse/datasets</TokenIdentifier>
+			<Abstract type="html">A set of datasets.</Abstract>
+			<DeclaredIn>AWSCognitoSyncModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSNumber *consistentRead</Declaration>
+			<Declaration>@property (nonatomic, strong) NSArray *datasets</Declaration>
 			
 			
-			<Anchor>//api/name/consistentRead</Anchor>
+			<Anchor>//api/name/datasets</Anchor>
             <NodeRef refid="168"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSDynamoDBKeysAndAttributes/consistentRead</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The consistency of a read operation. If set to &lt;code&gt;true&lt;/code&gt;, then a strongly consistent read is used; otherwise, an eventually consistent read is used.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSCognitoSyncListDatasetsResponse/datasets</TokenIdentifier>
+			<Abstract type="html">A set of datasets.</Abstract>
+			<DeclaredIn>AWSCognitoSyncModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSNumber *consistentRead</Declaration>
+			<Declaration>@property (nonatomic, strong) NSArray *datasets</Declaration>
 			
 			
-			<Anchor>//api/name/consistentRead</Anchor>
+			<Anchor>//api/name/datasets</Anchor>
             <NodeRef refid="168"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSDynamoDBKeysAndAttributes/setKeys:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The primary key attribute values that define the items and the attributes associated with the items.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoSyncListDatasetsResponse/setNextToken:</TokenIdentifier>
+			<Abstract type="html">A pagination token for obtaining the next page of results.</Abstract>
+			<DeclaredIn>AWSCognitoSyncModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSArray *keys</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *nextToken</Declaration>
 			
 			
-			<Anchor>//api/name/keys</Anchor>
+			<Anchor>//api/name/nextToken</Anchor>
             <NodeRef refid="168"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSDynamoDBKeysAndAttributes/keys</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The primary key attribute values that define the items and the attributes associated with the items.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoSyncListDatasetsResponse/nextToken</TokenIdentifier>
+			<Abstract type="html">A pagination token for obtaining the next page of results.</Abstract>
+			<DeclaredIn>AWSCognitoSyncModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSArray *keys</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *nextToken</Declaration>
 			
 			
-			<Anchor>//api/name/keys</Anchor>
+			<Anchor>//api/name/nextToken</Anchor>
             <NodeRef refid="168"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSDynamoDBKeysAndAttributes/keys</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The primary key attribute values that define the items and the attributes associated with the items.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSCognitoSyncListDatasetsResponse/nextToken</TokenIdentifier>
+			<Abstract type="html">A pagination token for obtaining the next page of results.</Abstract>
+			<DeclaredIn>AWSCognitoSyncModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSArray *keys</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *nextToken</Declaration>
 			
 			
-			<Anchor>//api/name/keys</Anchor>
+			<Anchor>//api/name/nextToken</Anchor>
             <NodeRef refid="168"/>
 		</Token>
 		
+        
         
 	</File>
 </Tokens>

@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSS3LifecycleExpiration.html">
+	<File path="Classes/AWSEC2VpnStaticRoute.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSS3LifecycleExpiration</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSEC2VpnStaticRoute</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Describes a static route for a VPN connection.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
             
 			
 			<NodeRef refid="619"/>
@@ -13,77 +13,114 @@
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3LifecycleExpiration/setDate:</TokenIdentifier>
-			<Abstract type="html">Indicates at what date the object is to be moved or deleted. Should be in GMT ISO 8601 Format.</Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2VpnStaticRoute/setDestinationCidrBlock:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The CIDR block associated with the local subnet of the customer data center.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSDate *date</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *destinationCidrBlock</Declaration>
 			
 			
-			<Anchor>//api/name/date</Anchor>
+			<Anchor>//api/name/destinationCidrBlock</Anchor>
             <NodeRef refid="619"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3LifecycleExpiration/date</TokenIdentifier>
-			<Abstract type="html">Indicates at what date the object is to be moved or deleted. Should be in GMT ISO 8601 Format.</Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2VpnStaticRoute/destinationCidrBlock</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The CIDR block associated with the local subnet of the customer data center.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSDate *date</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *destinationCidrBlock</Declaration>
 			
 			
-			<Anchor>//api/name/date</Anchor>
+			<Anchor>//api/name/destinationCidrBlock</Anchor>
             <NodeRef refid="619"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSS3LifecycleExpiration/date</TokenIdentifier>
-			<Abstract type="html">Indicates at what date the object is to be moved or deleted. Should be in GMT ISO 8601 Format.</Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2VpnStaticRoute/destinationCidrBlock</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The CIDR block associated with the local subnet of the customer data center.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSDate *date</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *destinationCidrBlock</Declaration>
 			
 			
-			<Anchor>//api/name/date</Anchor>
+			<Anchor>//api/name/destinationCidrBlock</Anchor>
             <NodeRef refid="619"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3LifecycleExpiration/setDays:</TokenIdentifier>
-			<Abstract type="html">Indicates the lifetime, in days, of the objects that are subject to the rule. The value must be a non-zero positive integer.</Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2VpnStaticRoute/setSource:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Indicates how the routes were provided.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSNumber *days</Declaration>
+			<Declaration>@property (nonatomic, assign) AWSEC2VpnStaticRouteSource source</Declaration>
 			
 			
-			<Anchor>//api/name/days</Anchor>
+			<Anchor>//api/name/source</Anchor>
             <NodeRef refid="619"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3LifecycleExpiration/days</TokenIdentifier>
-			<Abstract type="html">Indicates the lifetime, in days, of the objects that are subject to the rule. The value must be a non-zero positive integer.</Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2VpnStaticRoute/source</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Indicates how the routes were provided.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSNumber *days</Declaration>
+			<Declaration>@property (nonatomic, assign) AWSEC2VpnStaticRouteSource source</Declaration>
 			
 			
-			<Anchor>//api/name/days</Anchor>
+			<Anchor>//api/name/source</Anchor>
             <NodeRef refid="619"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSS3LifecycleExpiration/days</TokenIdentifier>
-			<Abstract type="html">Indicates the lifetime, in days, of the objects that are subject to the rule. The value must be a non-zero positive integer.</Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2VpnStaticRoute/source</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Indicates how the routes were provided.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSNumber *days</Declaration>
+			<Declaration>@property (nonatomic, assign) AWSEC2VpnStaticRouteSource source</Declaration>
 			
 			
-			<Anchor>//api/name/days</Anchor>
+			<Anchor>//api/name/source</Anchor>
             <NodeRef refid="619"/>
 		</Token>
 		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2VpnStaticRoute/setState:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The current state of the static route.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) AWSEC2VpnState state</Declaration>
+			
+			
+			<Anchor>//api/name/state</Anchor>
+            <NodeRef refid="619"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2VpnStaticRoute/state</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The current state of the static route.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) AWSEC2VpnState state</Declaration>
+			
+			
+			<Anchor>//api/name/state</Anchor>
+            <NodeRef refid="619"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2VpnStaticRoute/state</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The current state of the static route.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) AWSEC2VpnState state</Declaration>
+			
+			
+			<Anchor>//api/name/state</Anchor>
+            <NodeRef refid="619"/>
+		</Token>
+		
+        
         
 	</File>
 </Tokens>

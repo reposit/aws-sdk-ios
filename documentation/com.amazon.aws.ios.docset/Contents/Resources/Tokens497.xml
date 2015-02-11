@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSEC2ReservedInstancesId.html">
+	<File path="Classes/AWSEC2IpRange.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSEC2ReservedInstancesId</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Describes the ID of a Reserved Instance.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSEC2IpRange</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Describes an IP range.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
             
 			
@@ -13,41 +13,42 @@
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ReservedInstancesId/setReservedInstancesId:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The ID of the Reserved Instance.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2IpRange/setCidrIp:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The CIDR range. You can either specify a CIDR range or a source security group, not both.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *reservedInstancesId</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *cidrIp</Declaration>
 			
 			
-			<Anchor>//api/name/reservedInstancesId</Anchor>
+			<Anchor>//api/name/cidrIp</Anchor>
             <NodeRef refid="497"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ReservedInstancesId/reservedInstancesId</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The ID of the Reserved Instance.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2IpRange/cidrIp</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The CIDR range. You can either specify a CIDR range or a source security group, not both.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *reservedInstancesId</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *cidrIp</Declaration>
 			
 			
-			<Anchor>//api/name/reservedInstancesId</Anchor>
+			<Anchor>//api/name/cidrIp</Anchor>
             <NodeRef refid="497"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2ReservedInstancesId/reservedInstancesId</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The ID of the Reserved Instance.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2IpRange/cidrIp</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The CIDR range. You can either specify a CIDR range or a source security group, not both.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *reservedInstancesId</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *cidrIp</Declaration>
 			
 			
-			<Anchor>//api/name/reservedInstancesId</Anchor>
+			<Anchor>//api/name/cidrIp</Anchor>
             <NodeRef refid="497"/>
 		</Token>
 		
+        
         
 	</File>
 </Tokens>

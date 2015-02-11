@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSAutoScalingTagsType.html">
+	<File path="Classes/AWSAutoScalingTag.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSAutoScalingTagsType</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSAutoScalingTag</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; The tag applied to an Auto Scaling group. &lt;/p&gt;
+Required parameters: [Key]</Abstract>
 			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
             
 			
@@ -13,77 +14,186 @@
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingTagsType/setNextToken:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt; A string used to mark the start of the next batch of returned results. &lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingTag/setKey:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; The key of the tag. &lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *nextToken</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *key</Declaration>
 			
 			
-			<Anchor>//api/name/nextToken</Anchor>
+			<Anchor>//api/name/key</Anchor>
             <NodeRef refid="83"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingTagsType/nextToken</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt; A string used to mark the start of the next batch of returned results. &lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingTag/key</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; The key of the tag. &lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *nextToken</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *key</Declaration>
 			
 			
-			<Anchor>//api/name/nextToken</Anchor>
+			<Anchor>//api/name/key</Anchor>
             <NodeRef refid="83"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSAutoScalingTagsType/nextToken</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt; A string used to mark the start of the next batch of returned results. &lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSAutoScalingTag/key</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; The key of the tag. &lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *nextToken</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *key</Declaration>
 			
 			
-			<Anchor>//api/name/nextToken</Anchor>
+			<Anchor>//api/name/key</Anchor>
             <NodeRef refid="83"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingTagsType/setTags:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt; The list of tags. &lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingTag/setPropagateAtLaunch:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; Specifies whether the new tag will be applied to instances launched after the tag is created. The same behavior applies to updates: If you change a tag, the changed tag will be applied to all instances launched after you made the change. &lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSArray *tags</Declaration>
+			<Declaration>@property (nonatomic, strong) NSNumber *propagateAtLaunch</Declaration>
 			
 			
-			<Anchor>//api/name/tags</Anchor>
+			<Anchor>//api/name/propagateAtLaunch</Anchor>
             <NodeRef refid="83"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingTagsType/tags</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt; The list of tags. &lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingTag/propagateAtLaunch</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; Specifies whether the new tag will be applied to instances launched after the tag is created. The same behavior applies to updates: If you change a tag, the changed tag will be applied to all instances launched after you made the change. &lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSArray *tags</Declaration>
+			<Declaration>@property (nonatomic, strong) NSNumber *propagateAtLaunch</Declaration>
 			
 			
-			<Anchor>//api/name/tags</Anchor>
+			<Anchor>//api/name/propagateAtLaunch</Anchor>
             <NodeRef refid="83"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSAutoScalingTagsType/tags</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt; The list of tags. &lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSAutoScalingTag/propagateAtLaunch</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; Specifies whether the new tag will be applied to instances launched after the tag is created. The same behavior applies to updates: If you change a tag, the changed tag will be applied to all instances launched after you made the change. &lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSArray *tags</Declaration>
+			<Declaration>@property (nonatomic, strong) NSNumber *propagateAtLaunch</Declaration>
 			
 			
-			<Anchor>//api/name/tags</Anchor>
+			<Anchor>//api/name/propagateAtLaunch</Anchor>
             <NodeRef refid="83"/>
 		</Token>
 		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingTag/setResourceId:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; The name of the Auto Scaling group. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *resourceId</Declaration>
+			
+			
+			<Anchor>//api/name/resourceId</Anchor>
+            <NodeRef refid="83"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingTag/resourceId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; The name of the Auto Scaling group. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *resourceId</Declaration>
+			
+			
+			<Anchor>//api/name/resourceId</Anchor>
+            <NodeRef refid="83"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSAutoScalingTag/resourceId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; The name of the Auto Scaling group. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *resourceId</Declaration>
+			
+			
+			<Anchor>//api/name/resourceId</Anchor>
+            <NodeRef refid="83"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingTag/setResourceType:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; The kind of resource to which the tag is applied. Currently, Auto Scaling supports the &lt;code&gt;auto-scaling-group&lt;/code&gt; resource type. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *resourceType</Declaration>
+			
+			
+			<Anchor>//api/name/resourceType</Anchor>
+            <NodeRef refid="83"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingTag/resourceType</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; The kind of resource to which the tag is applied. Currently, Auto Scaling supports the &lt;code&gt;auto-scaling-group&lt;/code&gt; resource type. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *resourceType</Declaration>
+			
+			
+			<Anchor>//api/name/resourceType</Anchor>
+            <NodeRef refid="83"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSAutoScalingTag/resourceType</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; The kind of resource to which the tag is applied. Currently, Auto Scaling supports the &lt;code&gt;auto-scaling-group&lt;/code&gt; resource type. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *resourceType</Declaration>
+			
+			
+			<Anchor>//api/name/resourceType</Anchor>
+            <NodeRef refid="83"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingTag/setValue:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; The value of the tag. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *value</Declaration>
+			
+			
+			<Anchor>//api/name/value</Anchor>
+            <NodeRef refid="83"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingTag/value</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; The value of the tag. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *value</Declaration>
+			
+			
+			<Anchor>//api/name/value</Anchor>
+            <NodeRef refid="83"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSAutoScalingTag/value</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; The value of the tag. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *value</Declaration>
+			
+			
+			<Anchor>//api/name/value</Anchor>
+            <NodeRef refid="83"/>
+		</Token>
+		
+        
         
 	</File>
 </Tokens>

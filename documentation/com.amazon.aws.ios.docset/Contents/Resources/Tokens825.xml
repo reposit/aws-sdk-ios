@@ -1,13 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Protocols/AWSMobileAnalyticsOptions.html">
+	<File path="Classes/AWSS3NotificationConfiguration.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/intf/AWSMobileAnalyticsOptions</TokenIdentifier>
-			<Abstract type="html">The AWSMobileAnalyticsOptions protocol is implemented by all classes that can
-provide options such as enablement of event collection and allowance of event
-delivery on WAN within the SDK.</Abstract>
-			<DeclaredIn>AWSMobileAnalyticsOptions.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSS3NotificationConfiguration</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
             
 			
 			<NodeRef refid="825"/>
@@ -15,83 +13,114 @@ delivery on WAN within the SDK.</Abstract>
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/intfm/AWSMobileAnalyticsOptions/setAllowEventCollection:</TokenIdentifier>
-			<Abstract type="html">Indicates whether or not event collection is enabled for the SDK.</Abstract>
-			<DeclaredIn>AWSMobileAnalyticsOptions.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3NotificationConfiguration/setCloudFunctionConfiguration:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, readonly) BOOL allowEventCollection</Declaration>
+			<Declaration>@property (nonatomic, strong) AWSS3CloudFunctionConfiguration *cloudFunctionConfiguration</Declaration>
 			
-			<ReturnValue><Abstract type="html">YES/NO indicating if event collection is enabled</Abstract></ReturnValue>
-			<Anchor>//api/name/allowEventCollection</Anchor>
+			
+			<Anchor>//api/name/cloudFunctionConfiguration</Anchor>
             <NodeRef refid="825"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/intfm/AWSMobileAnalyticsOptions/allowEventCollection</TokenIdentifier>
-			<Abstract type="html">Indicates whether or not event collection is enabled for the SDK.</Abstract>
-			<DeclaredIn>AWSMobileAnalyticsOptions.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3NotificationConfiguration/cloudFunctionConfiguration</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, readonly) BOOL allowEventCollection</Declaration>
+			<Declaration>@property (nonatomic, strong) AWSS3CloudFunctionConfiguration *cloudFunctionConfiguration</Declaration>
 			
-			<ReturnValue><Abstract type="html">YES/NO indicating if event collection is enabled</Abstract></ReturnValue>
-			<Anchor>//api/name/allowEventCollection</Anchor>
+			
+			<Anchor>//api/name/cloudFunctionConfiguration</Anchor>
             <NodeRef refid="825"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/intfp/AWSMobileAnalyticsOptions/allowEventCollection</TokenIdentifier>
-			<Abstract type="html">Indicates whether or not event collection is enabled for the SDK.</Abstract>
-			<DeclaredIn>AWSMobileAnalyticsOptions.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSS3NotificationConfiguration/cloudFunctionConfiguration</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, readonly) BOOL allowEventCollection</Declaration>
+			<Declaration>@property (nonatomic, strong) AWSS3CloudFunctionConfiguration *cloudFunctionConfiguration</Declaration>
 			
-			<ReturnValue><Abstract type="html">YES/NO indicating if event collection is enabled</Abstract></ReturnValue>
-			<Anchor>//api/name/allowEventCollection</Anchor>
+			
+			<Anchor>//api/name/cloudFunctionConfiguration</Anchor>
             <NodeRef refid="825"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/intfm/AWSMobileAnalyticsOptions/setAllowWANDelivery:</TokenIdentifier>
-			<Abstract type="html">Indicates whether or not events will be sent to Mobile Analytics website over WAN (mobile) networks.</Abstract>
-			<DeclaredIn>AWSMobileAnalyticsOptions.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3NotificationConfiguration/setQueueConfiguration:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, readonly) BOOL allowWANDelivery</Declaration>
+			<Declaration>@property (nonatomic, strong) AWSS3QueueConfiguration *queueConfiguration</Declaration>
 			
-			<ReturnValue><Abstract type="html">YES indicates events will be delivered via WAN or WIFI networks.
-NO indicates events will be delivered via WIFI
-network only.</Abstract></ReturnValue>
-			<Anchor>//api/name/allowWANDelivery</Anchor>
+			
+			<Anchor>//api/name/queueConfiguration</Anchor>
             <NodeRef refid="825"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/intfm/AWSMobileAnalyticsOptions/allowWANDelivery</TokenIdentifier>
-			<Abstract type="html">Indicates whether or not events will be sent to Mobile Analytics website over WAN (mobile) networks.</Abstract>
-			<DeclaredIn>AWSMobileAnalyticsOptions.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3NotificationConfiguration/queueConfiguration</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, readonly) BOOL allowWANDelivery</Declaration>
+			<Declaration>@property (nonatomic, strong) AWSS3QueueConfiguration *queueConfiguration</Declaration>
 			
-			<ReturnValue><Abstract type="html">YES indicates events will be delivered via WAN or WIFI networks.
-NO indicates events will be delivered via WIFI
-network only.</Abstract></ReturnValue>
-			<Anchor>//api/name/allowWANDelivery</Anchor>
+			
+			<Anchor>//api/name/queueConfiguration</Anchor>
             <NodeRef refid="825"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/intfp/AWSMobileAnalyticsOptions/allowWANDelivery</TokenIdentifier>
-			<Abstract type="html">Indicates whether or not events will be sent to Mobile Analytics website over WAN (mobile) networks.</Abstract>
-			<DeclaredIn>AWSMobileAnalyticsOptions.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSS3NotificationConfiguration/queueConfiguration</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, readonly) BOOL allowWANDelivery</Declaration>
+			<Declaration>@property (nonatomic, strong) AWSS3QueueConfiguration *queueConfiguration</Declaration>
 			
-			<ReturnValue><Abstract type="html">YES indicates events will be delivered via WAN or WIFI networks.
-NO indicates events will be delivered via WIFI
-network only.</Abstract></ReturnValue>
-			<Anchor>//api/name/allowWANDelivery</Anchor>
+			
+			<Anchor>//api/name/queueConfiguration</Anchor>
             <NodeRef refid="825"/>
 		</Token>
 		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3NotificationConfiguration/setTopicConfiguration:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) AWSS3TopicConfiguration *topicConfiguration</Declaration>
+			
+			
+			<Anchor>//api/name/topicConfiguration</Anchor>
+            <NodeRef refid="825"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3NotificationConfiguration/topicConfiguration</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) AWSS3TopicConfiguration *topicConfiguration</Declaration>
+			
+			
+			<Anchor>//api/name/topicConfiguration</Anchor>
+            <NodeRef refid="825"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSS3NotificationConfiguration/topicConfiguration</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) AWSS3TopicConfiguration *topicConfiguration</Declaration>
+			
+			
+			<Anchor>//api/name/topicConfiguration</Anchor>
+            <NodeRef refid="825"/>
+		</Token>
+		
+        
         
 	</File>
 </Tokens>

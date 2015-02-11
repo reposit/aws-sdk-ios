@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSEC2DeleteSecurityGroupRequest.html">
+	<File path="Classes/AWSEC2CreateCustomerGatewayRequest.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSEC2DeleteSecurityGroupRequest</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSEC2CreateCustomerGatewayRequest</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
             
@@ -13,77 +13,150 @@
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DeleteSecurityGroupRequest/setGroupId:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The ID of the security group.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2CreateCustomerGatewayRequest/setBgpAsn:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;For devices that support BGP, the customer gateway&apos;s BGP ASN.&lt;/p&gt;&lt;p&gt;Default: 65000&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *groupId</Declaration>
+			<Declaration>@property (nonatomic, strong) NSNumber *bgpAsn</Declaration>
 			
 			
-			<Anchor>//api/name/groupId</Anchor>
+			<Anchor>//api/name/bgpAsn</Anchor>
             <NodeRef refid="288"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DeleteSecurityGroupRequest/groupId</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The ID of the security group.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2CreateCustomerGatewayRequest/bgpAsn</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;For devices that support BGP, the customer gateway&apos;s BGP ASN.&lt;/p&gt;&lt;p&gt;Default: 65000&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *groupId</Declaration>
+			<Declaration>@property (nonatomic, strong) NSNumber *bgpAsn</Declaration>
 			
 			
-			<Anchor>//api/name/groupId</Anchor>
+			<Anchor>//api/name/bgpAsn</Anchor>
             <NodeRef refid="288"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2DeleteSecurityGroupRequest/groupId</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The ID of the security group.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2CreateCustomerGatewayRequest/bgpAsn</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;For devices that support BGP, the customer gateway&apos;s BGP ASN.&lt;/p&gt;&lt;p&gt;Default: 65000&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *groupId</Declaration>
+			<Declaration>@property (nonatomic, strong) NSNumber *bgpAsn</Declaration>
 			
 			
-			<Anchor>//api/name/groupId</Anchor>
+			<Anchor>//api/name/bgpAsn</Anchor>
             <NodeRef refid="288"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DeleteSecurityGroupRequest/setGroupName:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;[EC2-Classic, default VPC] The name of the security group.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2CreateCustomerGatewayRequest/setDryRun:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *groupName</Declaration>
+			<Declaration>@property (nonatomic, strong) NSNumber *dryRun</Declaration>
 			
 			
-			<Anchor>//api/name/groupName</Anchor>
+			<Anchor>//api/name/dryRun</Anchor>
             <NodeRef refid="288"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DeleteSecurityGroupRequest/groupName</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;[EC2-Classic, default VPC] The name of the security group.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2CreateCustomerGatewayRequest/dryRun</TokenIdentifier>
+			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *groupName</Declaration>
+			<Declaration>@property (nonatomic, strong) NSNumber *dryRun</Declaration>
 			
 			
-			<Anchor>//api/name/groupName</Anchor>
+			<Anchor>//api/name/dryRun</Anchor>
             <NodeRef refid="288"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2DeleteSecurityGroupRequest/groupName</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;[EC2-Classic, default VPC] The name of the security group.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2CreateCustomerGatewayRequest/dryRun</TokenIdentifier>
+			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *groupName</Declaration>
+			<Declaration>@property (nonatomic, strong) NSNumber *dryRun</Declaration>
 			
 			
-			<Anchor>//api/name/groupName</Anchor>
+			<Anchor>//api/name/dryRun</Anchor>
             <NodeRef refid="288"/>
 		</Token>
 		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2CreateCustomerGatewayRequest/setPublicIp:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The Internet-routable IP address for the customer gateway&apos;s outside interface. The address must be static.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *publicIp</Declaration>
+			
+			
+			<Anchor>//api/name/publicIp</Anchor>
+            <NodeRef refid="288"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2CreateCustomerGatewayRequest/publicIp</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The Internet-routable IP address for the customer gateway&apos;s outside interface. The address must be static.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *publicIp</Declaration>
+			
+			
+			<Anchor>//api/name/publicIp</Anchor>
+            <NodeRef refid="288"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2CreateCustomerGatewayRequest/publicIp</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The Internet-routable IP address for the customer gateway&apos;s outside interface. The address must be static.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *publicIp</Declaration>
+			
+			
+			<Anchor>//api/name/publicIp</Anchor>
+            <NodeRef refid="288"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2CreateCustomerGatewayRequest/setTypes:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The type of VPN connection that this customer gateway supports (&lt;code&gt;ipsec.1&lt;/code&gt;).&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) AWSEC2GatewayType types</Declaration>
+			
+			
+			<Anchor>//api/name/types</Anchor>
+            <NodeRef refid="288"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2CreateCustomerGatewayRequest/types</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The type of VPN connection that this customer gateway supports (&lt;code&gt;ipsec.1&lt;/code&gt;).&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) AWSEC2GatewayType types</Declaration>
+			
+			
+			<Anchor>//api/name/types</Anchor>
+            <NodeRef refid="288"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2CreateCustomerGatewayRequest/types</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The type of VPN connection that this customer gateway supports (&lt;code&gt;ipsec.1&lt;/code&gt;).&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) AWSEC2GatewayType types</Declaration>
+			
+			
+			<Anchor>//api/name/types</Anchor>
+            <NodeRef refid="288"/>
+		</Token>
+		
+        
         
 	</File>
 </Tokens>

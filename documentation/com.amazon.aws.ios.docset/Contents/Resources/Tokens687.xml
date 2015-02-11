@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSSESSendEmailResponse.html">
+	<File path="Classes/AWSElasticLoadBalancingRemoveAvailabilityZonesInput.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSSESSendEmailResponse</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Represents a unique message ID returned from a successful &lt;code&gt;SendEmail&lt;/code&gt; request. &lt;/p&gt;
-Required parameters: [MessageId]</Abstract>
-			<DeclaredIn>AWSSESModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSElasticLoadBalancingRemoveAvailabilityZonesInput</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSElasticLoadBalancingModel.h</DeclaredIn>
             
 			
 			<NodeRef refid="687"/>
@@ -14,41 +13,78 @@ Required parameters: [MessageId]</Abstract>
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSSESSendEmailResponse/setMessageId:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The unique message identifier returned from the &lt;code&gt;SendEmail&lt;/code&gt; action. &lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSESModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSElasticLoadBalancingRemoveAvailabilityZonesInput/setAvailabilityZones:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSElasticLoadBalancingModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *messageId</Declaration>
+			<Declaration>@property (nonatomic, strong) NSArray *availabilityZones</Declaration>
 			
 			
-			<Anchor>//api/name/messageId</Anchor>
+			<Anchor>//api/name/availabilityZones</Anchor>
             <NodeRef refid="687"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSSESSendEmailResponse/messageId</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The unique message identifier returned from the &lt;code&gt;SendEmail&lt;/code&gt; action. &lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSESModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSElasticLoadBalancingRemoveAvailabilityZonesInput/availabilityZones</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSElasticLoadBalancingModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *messageId</Declaration>
+			<Declaration>@property (nonatomic, strong) NSArray *availabilityZones</Declaration>
 			
 			
-			<Anchor>//api/name/messageId</Anchor>
+			<Anchor>//api/name/availabilityZones</Anchor>
             <NodeRef refid="687"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSSESSendEmailResponse/messageId</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The unique message identifier returned from the &lt;code&gt;SendEmail&lt;/code&gt; action. &lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSESModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSElasticLoadBalancingRemoveAvailabilityZonesInput/availabilityZones</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSElasticLoadBalancingModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *messageId</Declaration>
+			<Declaration>@property (nonatomic, strong) NSArray *availabilityZones</Declaration>
 			
 			
-			<Anchor>//api/name/messageId</Anchor>
+			<Anchor>//api/name/availabilityZones</Anchor>
             <NodeRef refid="687"/>
 		</Token>
 		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSElasticLoadBalancingRemoveAvailabilityZonesInput/setLoadBalancerName:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSElasticLoadBalancingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *loadBalancerName</Declaration>
+			
+			
+			<Anchor>//api/name/loadBalancerName</Anchor>
+            <NodeRef refid="687"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSElasticLoadBalancingRemoveAvailabilityZonesInput/loadBalancerName</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSElasticLoadBalancingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *loadBalancerName</Declaration>
+			
+			
+			<Anchor>//api/name/loadBalancerName</Anchor>
+            <NodeRef refid="687"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSElasticLoadBalancingRemoveAvailabilityZonesInput/loadBalancerName</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSElasticLoadBalancingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *loadBalancerName</Declaration>
+			
+			
+			<Anchor>//api/name/loadBalancerName</Anchor>
+            <NodeRef refid="687"/>
+		</Token>
+		
+        
         
 	</File>
 </Tokens>

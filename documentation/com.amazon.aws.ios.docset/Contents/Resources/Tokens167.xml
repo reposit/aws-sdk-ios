@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSDynamoDBKeySchemaElement.html">
+	<File path="Classes/AWSCognitoSyncListDatasetsRequest.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSDynamoDBKeySchemaElement</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Represents &lt;i&gt;a single element&lt;/i&gt; of a key schema. A key schema specifies the attributes that make up the primary key of a table, or the key attributes of an index.&lt;/p&gt;&lt;p&gt;A &lt;i&gt;KeySchemaElement&lt;/i&gt; represents exactly one attribute of the primary key. For example, a hash type primary key would be represented by one &lt;i&gt;KeySchemaElement&lt;/i&gt;. A hash-and-range type primary key would require one &lt;i&gt;KeySchemaElement&lt;/i&gt; for the hash attribute, and another &lt;i&gt;KeySchemaElement&lt;/i&gt; for the range attribute.&lt;/p&gt;
-Required parameters: [AttributeName, KeyType]</Abstract>
-			<DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSCognitoSyncListDatasetsRequest</TokenIdentifier>
+			<Abstract type="html">Request for a list of datasets for an identity.
+Required parameters: [IdentityId, IdentityPoolId]</Abstract>
+			<DeclaredIn>AWSCognitoSyncModel.h</DeclaredIn>
             
 			
 			<NodeRef refid="167"/>
@@ -14,77 +14,150 @@ Required parameters: [AttributeName, KeyType]</Abstract>
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSDynamoDBKeySchemaElement/setAttributeName:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The name of a key attribute.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoSyncListDatasetsRequest/setIdentityId:</TokenIdentifier>
+			<Abstract type="html">A name-spaced GUID (for example, us-east-1:23EC4050-6AEA-7089-A2DD-08002EXAMPLE) created by Amazon Cognito. GUID generation is unique within a region.</Abstract>
+			<DeclaredIn>AWSCognitoSyncModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *attributeName</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *identityId</Declaration>
 			
 			
-			<Anchor>//api/name/attributeName</Anchor>
+			<Anchor>//api/name/identityId</Anchor>
             <NodeRef refid="167"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSDynamoDBKeySchemaElement/attributeName</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The name of a key attribute.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoSyncListDatasetsRequest/identityId</TokenIdentifier>
+			<Abstract type="html">A name-spaced GUID (for example, us-east-1:23EC4050-6AEA-7089-A2DD-08002EXAMPLE) created by Amazon Cognito. GUID generation is unique within a region.</Abstract>
+			<DeclaredIn>AWSCognitoSyncModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *attributeName</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *identityId</Declaration>
 			
 			
-			<Anchor>//api/name/attributeName</Anchor>
+			<Anchor>//api/name/identityId</Anchor>
             <NodeRef refid="167"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSDynamoDBKeySchemaElement/attributeName</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The name of a key attribute.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSCognitoSyncListDatasetsRequest/identityId</TokenIdentifier>
+			<Abstract type="html">A name-spaced GUID (for example, us-east-1:23EC4050-6AEA-7089-A2DD-08002EXAMPLE) created by Amazon Cognito. GUID generation is unique within a region.</Abstract>
+			<DeclaredIn>AWSCognitoSyncModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *attributeName</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *identityId</Declaration>
 			
 			
-			<Anchor>//api/name/attributeName</Anchor>
+			<Anchor>//api/name/identityId</Anchor>
             <NodeRef refid="167"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSDynamoDBKeySchemaElement/setKeyType:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The attribute data, consisting of the data type and the attribute value itself.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoSyncListDatasetsRequest/setIdentityPoolId:</TokenIdentifier>
+			<Abstract type="html">A name-spaced GUID (for example, us-east-1:23EC4050-6AEA-7089-A2DD-08002EXAMPLE) created by Amazon Cognito. GUID generation is unique within a region.</Abstract>
+			<DeclaredIn>AWSCognitoSyncModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, assign) AWSDynamoDBKeyType keyType</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *identityPoolId</Declaration>
 			
 			
-			<Anchor>//api/name/keyType</Anchor>
+			<Anchor>//api/name/identityPoolId</Anchor>
             <NodeRef refid="167"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSDynamoDBKeySchemaElement/keyType</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The attribute data, consisting of the data type and the attribute value itself.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoSyncListDatasetsRequest/identityPoolId</TokenIdentifier>
+			<Abstract type="html">A name-spaced GUID (for example, us-east-1:23EC4050-6AEA-7089-A2DD-08002EXAMPLE) created by Amazon Cognito. GUID generation is unique within a region.</Abstract>
+			<DeclaredIn>AWSCognitoSyncModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, assign) AWSDynamoDBKeyType keyType</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *identityPoolId</Declaration>
 			
 			
-			<Anchor>//api/name/keyType</Anchor>
+			<Anchor>//api/name/identityPoolId</Anchor>
             <NodeRef refid="167"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSDynamoDBKeySchemaElement/keyType</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The attribute data, consisting of the data type and the attribute value itself.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSCognitoSyncListDatasetsRequest/identityPoolId</TokenIdentifier>
+			<Abstract type="html">A name-spaced GUID (for example, us-east-1:23EC4050-6AEA-7089-A2DD-08002EXAMPLE) created by Amazon Cognito. GUID generation is unique within a region.</Abstract>
+			<DeclaredIn>AWSCognitoSyncModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, assign) AWSDynamoDBKeyType keyType</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *identityPoolId</Declaration>
 			
 			
-			<Anchor>//api/name/keyType</Anchor>
+			<Anchor>//api/name/identityPoolId</Anchor>
             <NodeRef refid="167"/>
 		</Token>
 		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoSyncListDatasetsRequest/setMaxResults:</TokenIdentifier>
+			<Abstract type="html">The maximum number of results to be returned.</Abstract>
+			<DeclaredIn>AWSCognitoSyncModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *maxResults</Declaration>
+			
+			
+			<Anchor>//api/name/maxResults</Anchor>
+            <NodeRef refid="167"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoSyncListDatasetsRequest/maxResults</TokenIdentifier>
+			<Abstract type="html">The maximum number of results to be returned.</Abstract>
+			<DeclaredIn>AWSCognitoSyncModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *maxResults</Declaration>
+			
+			
+			<Anchor>//api/name/maxResults</Anchor>
+            <NodeRef refid="167"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSCognitoSyncListDatasetsRequest/maxResults</TokenIdentifier>
+			<Abstract type="html">The maximum number of results to be returned.</Abstract>
+			<DeclaredIn>AWSCognitoSyncModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *maxResults</Declaration>
+			
+			
+			<Anchor>//api/name/maxResults</Anchor>
+            <NodeRef refid="167"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoSyncListDatasetsRequest/setNextToken:</TokenIdentifier>
+			<Abstract type="html">A pagination token for obtaining the next page of results.</Abstract>
+			<DeclaredIn>AWSCognitoSyncModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *nextToken</Declaration>
+			
+			
+			<Anchor>//api/name/nextToken</Anchor>
+            <NodeRef refid="167"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoSyncListDatasetsRequest/nextToken</TokenIdentifier>
+			<Abstract type="html">A pagination token for obtaining the next page of results.</Abstract>
+			<DeclaredIn>AWSCognitoSyncModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *nextToken</Declaration>
+			
+			
+			<Anchor>//api/name/nextToken</Anchor>
+            <NodeRef refid="167"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSCognitoSyncListDatasetsRequest/nextToken</TokenIdentifier>
+			<Abstract type="html">A pagination token for obtaining the next page of results.</Abstract>
+			<DeclaredIn>AWSCognitoSyncModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *nextToken</Declaration>
+			
+			
+			<Anchor>//api/name/nextToken</Anchor>
+            <NodeRef refid="167"/>
+		</Token>
+		
+        
         
 	</File>
 </Tokens>

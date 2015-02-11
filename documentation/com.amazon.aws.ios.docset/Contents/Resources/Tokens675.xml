@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSSESGetSendQuotaResponse.html">
+	<File path="Classes/AWSElasticLoadBalancingLoadBalancerAttributes.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSSESGetSendQuotaResponse</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Represents the user&apos;s current activity limits returned from a successful &lt;code&gt;GetSendQuota&lt;/code&gt; request. &lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSESModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSElasticLoadBalancingLoadBalancerAttributes</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSElasticLoadBalancingModel.h</DeclaredIn>
             
 			
 			<NodeRef refid="675"/>
@@ -13,113 +13,150 @@
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSSESGetSendQuotaResponse/setMax24HourSend:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The maximum number of emails the user is allowed to send in a 24-hour interval.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSESModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSElasticLoadBalancingLoadBalancerAttributes/setAccessLog:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSElasticLoadBalancingModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSNumber *max24HourSend</Declaration>
+			<Declaration>@property (nonatomic, strong) AWSElasticLoadBalancingAccessLog *accessLog</Declaration>
 			
 			
-			<Anchor>//api/name/max24HourSend</Anchor>
+			<Anchor>//api/name/accessLog</Anchor>
             <NodeRef refid="675"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSSESGetSendQuotaResponse/max24HourSend</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The maximum number of emails the user is allowed to send in a 24-hour interval.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSESModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSElasticLoadBalancingLoadBalancerAttributes/accessLog</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSElasticLoadBalancingModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSNumber *max24HourSend</Declaration>
+			<Declaration>@property (nonatomic, strong) AWSElasticLoadBalancingAccessLog *accessLog</Declaration>
 			
 			
-			<Anchor>//api/name/max24HourSend</Anchor>
+			<Anchor>//api/name/accessLog</Anchor>
             <NodeRef refid="675"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSSESGetSendQuotaResponse/max24HourSend</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The maximum number of emails the user is allowed to send in a 24-hour interval.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSESModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSElasticLoadBalancingLoadBalancerAttributes/accessLog</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSElasticLoadBalancingModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSNumber *max24HourSend</Declaration>
+			<Declaration>@property (nonatomic, strong) AWSElasticLoadBalancingAccessLog *accessLog</Declaration>
 			
 			
-			<Anchor>//api/name/max24HourSend</Anchor>
+			<Anchor>//api/name/accessLog</Anchor>
             <NodeRef refid="675"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSSESGetSendQuotaResponse/setMaxSendRate:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The maximum number of emails the user is allowed to send per second.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSESModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSElasticLoadBalancingLoadBalancerAttributes/setConnectionDraining:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSElasticLoadBalancingModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSNumber *maxSendRate</Declaration>
+			<Declaration>@property (nonatomic, strong) AWSElasticLoadBalancingConnectionDraining *connectionDraining</Declaration>
 			
 			
-			<Anchor>//api/name/maxSendRate</Anchor>
+			<Anchor>//api/name/connectionDraining</Anchor>
             <NodeRef refid="675"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSSESGetSendQuotaResponse/maxSendRate</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The maximum number of emails the user is allowed to send per second.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSESModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSElasticLoadBalancingLoadBalancerAttributes/connectionDraining</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSElasticLoadBalancingModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSNumber *maxSendRate</Declaration>
+			<Declaration>@property (nonatomic, strong) AWSElasticLoadBalancingConnectionDraining *connectionDraining</Declaration>
 			
 			
-			<Anchor>//api/name/maxSendRate</Anchor>
+			<Anchor>//api/name/connectionDraining</Anchor>
             <NodeRef refid="675"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSSESGetSendQuotaResponse/maxSendRate</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The maximum number of emails the user is allowed to send per second.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSESModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSElasticLoadBalancingLoadBalancerAttributes/connectionDraining</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSElasticLoadBalancingModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSNumber *maxSendRate</Declaration>
+			<Declaration>@property (nonatomic, strong) AWSElasticLoadBalancingConnectionDraining *connectionDraining</Declaration>
 			
 			
-			<Anchor>//api/name/maxSendRate</Anchor>
+			<Anchor>//api/name/connectionDraining</Anchor>
             <NodeRef refid="675"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSSESGetSendQuotaResponse/setSentLast24Hours:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The number of emails sent during the previous 24 hours.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSESModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSElasticLoadBalancingLoadBalancerAttributes/setConnectionSettings:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSElasticLoadBalancingModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSNumber *sentLast24Hours</Declaration>
+			<Declaration>@property (nonatomic, strong) AWSElasticLoadBalancingConnectionSettings *connectionSettings</Declaration>
 			
 			
-			<Anchor>//api/name/sentLast24Hours</Anchor>
+			<Anchor>//api/name/connectionSettings</Anchor>
             <NodeRef refid="675"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSSESGetSendQuotaResponse/sentLast24Hours</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The number of emails sent during the previous 24 hours.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSESModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSElasticLoadBalancingLoadBalancerAttributes/connectionSettings</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSElasticLoadBalancingModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSNumber *sentLast24Hours</Declaration>
+			<Declaration>@property (nonatomic, strong) AWSElasticLoadBalancingConnectionSettings *connectionSettings</Declaration>
 			
 			
-			<Anchor>//api/name/sentLast24Hours</Anchor>
+			<Anchor>//api/name/connectionSettings</Anchor>
             <NodeRef refid="675"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSSESGetSendQuotaResponse/sentLast24Hours</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The number of emails sent during the previous 24 hours.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSESModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSElasticLoadBalancingLoadBalancerAttributes/connectionSettings</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSElasticLoadBalancingModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSNumber *sentLast24Hours</Declaration>
+			<Declaration>@property (nonatomic, strong) AWSElasticLoadBalancingConnectionSettings *connectionSettings</Declaration>
 			
 			
-			<Anchor>//api/name/sentLast24Hours</Anchor>
+			<Anchor>//api/name/connectionSettings</Anchor>
             <NodeRef refid="675"/>
 		</Token>
 		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSElasticLoadBalancingLoadBalancerAttributes/setCrossZoneLoadBalancing:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSElasticLoadBalancingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) AWSElasticLoadBalancingCrossZoneLoadBalancing *crossZoneLoadBalancing</Declaration>
+			
+			
+			<Anchor>//api/name/crossZoneLoadBalancing</Anchor>
+            <NodeRef refid="675"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSElasticLoadBalancingLoadBalancerAttributes/crossZoneLoadBalancing</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSElasticLoadBalancingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) AWSElasticLoadBalancingCrossZoneLoadBalancing *crossZoneLoadBalancing</Declaration>
+			
+			
+			<Anchor>//api/name/crossZoneLoadBalancing</Anchor>
+            <NodeRef refid="675"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSElasticLoadBalancingLoadBalancerAttributes/crossZoneLoadBalancing</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSElasticLoadBalancingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) AWSElasticLoadBalancingCrossZoneLoadBalancing *crossZoneLoadBalancing</Declaration>
+			
+			
+			<Anchor>//api/name/crossZoneLoadBalancing</Anchor>
+            <NodeRef refid="675"/>
+		</Token>
+		
+        
         
 	</File>
 </Tokens>

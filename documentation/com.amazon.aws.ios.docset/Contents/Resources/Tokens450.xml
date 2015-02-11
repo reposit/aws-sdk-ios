@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSEC2ModifyVolumeAttributeRequest.html">
+	<File path="Classes/AWSEC2EnableVgwRoutePropagationRequest.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSEC2ModifyVolumeAttributeRequest</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSEC2EnableVgwRoutePropagationRequest</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
             
@@ -13,77 +13,78 @@
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ModifyVolumeAttributeRequest/setAutoEnableIO:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Indicates whether the volume should be auto-enabled for I/O operations.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2EnableVgwRoutePropagationRequest/setGatewayId:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the virtual private gateway.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) AWSEC2AttributeBooleanValue *autoEnableIO</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *gatewayId</Declaration>
 			
 			
-			<Anchor>//api/name/autoEnableIO</Anchor>
+			<Anchor>//api/name/gatewayId</Anchor>
             <NodeRef refid="450"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ModifyVolumeAttributeRequest/autoEnableIO</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Indicates whether the volume should be auto-enabled for I/O operations.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2EnableVgwRoutePropagationRequest/gatewayId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the virtual private gateway.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) AWSEC2AttributeBooleanValue *autoEnableIO</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *gatewayId</Declaration>
 			
 			
-			<Anchor>//api/name/autoEnableIO</Anchor>
+			<Anchor>//api/name/gatewayId</Anchor>
             <NodeRef refid="450"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2ModifyVolumeAttributeRequest/autoEnableIO</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Indicates whether the volume should be auto-enabled for I/O operations.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2EnableVgwRoutePropagationRequest/gatewayId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the virtual private gateway.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) AWSEC2AttributeBooleanValue *autoEnableIO</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *gatewayId</Declaration>
 			
 			
-			<Anchor>//api/name/autoEnableIO</Anchor>
+			<Anchor>//api/name/gatewayId</Anchor>
             <NodeRef refid="450"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ModifyVolumeAttributeRequest/setVolumeId:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The ID of the volume.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2EnableVgwRoutePropagationRequest/setRouteTableId:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the route table.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *volumeId</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *routeTableId</Declaration>
 			
 			
-			<Anchor>//api/name/volumeId</Anchor>
+			<Anchor>//api/name/routeTableId</Anchor>
             <NodeRef refid="450"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ModifyVolumeAttributeRequest/volumeId</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The ID of the volume.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2EnableVgwRoutePropagationRequest/routeTableId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the route table.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *volumeId</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *routeTableId</Declaration>
 			
 			
-			<Anchor>//api/name/volumeId</Anchor>
+			<Anchor>//api/name/routeTableId</Anchor>
             <NodeRef refid="450"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2ModifyVolumeAttributeRequest/volumeId</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The ID of the volume.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2EnableVgwRoutePropagationRequest/routeTableId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the route table.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *volumeId</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *routeTableId</Declaration>
 			
 			
-			<Anchor>//api/name/volumeId</Anchor>
+			<Anchor>//api/name/routeTableId</Anchor>
             <NodeRef refid="450"/>
 		</Token>
 		
+        
         
 	</File>
 </Tokens>

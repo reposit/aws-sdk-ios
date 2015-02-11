@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSAutoScalingDeleteScheduledActionType.html">
+	<File path="Classes/AWSAutoScalingDeleteNotificationConfigurationType.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSAutoScalingDeleteScheduledActionType</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSAutoScalingDeleteNotificationConfigurationType</TokenIdentifier>
 			<Abstract type="html">&lt;p&gt;&lt;/p&gt;
-Required parameters: [ScheduledActionName]</Abstract>
+Required parameters: [AutoScalingGroupName, TopicARN]</Abstract>
 			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
             
 			
@@ -14,7 +14,7 @@ Required parameters: [ScheduledActionName]</Abstract>
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingDeleteScheduledActionType/setAutoScalingGroupName:</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingDeleteNotificationConfigurationType/setAutoScalingGroupName:</TokenIdentifier>
 			<Abstract type="html">&lt;p&gt;The name of the Auto Scaling group.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
 			
@@ -26,7 +26,7 @@ Required parameters: [ScheduledActionName]</Abstract>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingDeleteScheduledActionType/autoScalingGroupName</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingDeleteNotificationConfigurationType/autoScalingGroupName</TokenIdentifier>
 			<Abstract type="html">&lt;p&gt;The name of the Auto Scaling group.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
 			
@@ -38,7 +38,7 @@ Required parameters: [ScheduledActionName]</Abstract>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSAutoScalingDeleteScheduledActionType/autoScalingGroupName</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSAutoScalingDeleteNotificationConfigurationType/autoScalingGroupName</TokenIdentifier>
 			<Abstract type="html">&lt;p&gt;The name of the Auto Scaling group.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
 			
@@ -50,41 +50,42 @@ Required parameters: [ScheduledActionName]</Abstract>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingDeleteScheduledActionType/setScheduledActionName:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The name of the action you want to delete.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingDeleteNotificationConfigurationType/setTopicARN:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The Amazon Resource Name (ARN) of the Amazon Simple Notification Service (SNS) topic.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *scheduledActionName</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *topicARN</Declaration>
 			
 			
-			<Anchor>//api/name/scheduledActionName</Anchor>
+			<Anchor>//api/name/topicARN</Anchor>
             <NodeRef refid="24"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingDeleteScheduledActionType/scheduledActionName</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The name of the action you want to delete.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingDeleteNotificationConfigurationType/topicARN</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The Amazon Resource Name (ARN) of the Amazon Simple Notification Service (SNS) topic.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *scheduledActionName</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *topicARN</Declaration>
 			
 			
-			<Anchor>//api/name/scheduledActionName</Anchor>
+			<Anchor>//api/name/topicARN</Anchor>
             <NodeRef refid="24"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSAutoScalingDeleteScheduledActionType/scheduledActionName</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The name of the action you want to delete.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSAutoScalingDeleteNotificationConfigurationType/topicARN</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The Amazon Resource Name (ARN) of the Amazon Simple Notification Service (SNS) topic.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *scheduledActionName</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *topicARN</Declaration>
 			
 			
-			<Anchor>//api/name/scheduledActionName</Anchor>
+			<Anchor>//api/name/topicARN</Anchor>
             <NodeRef refid="24"/>
 		</Token>
 		
+        
         
 	</File>
 </Tokens>

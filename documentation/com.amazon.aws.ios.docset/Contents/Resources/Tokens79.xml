@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSAutoScalingSetInstanceHealthQuery.html">
+	<File path="Classes/AWSAutoScalingScheduledUpdateGroupAction.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSAutoScalingSetInstanceHealthQuery</TokenIdentifier>
-			<Abstract type="html"></Abstract>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSAutoScalingScheduledUpdateGroupAction</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; This data type stores information about a scheduled update to an Auto Scaling group. &lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
             
 			
@@ -13,113 +13,366 @@
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingSetInstanceHealthQuery/setHealthStatus:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt; The health status of the instance. Set to &lt;code&gt;Healthy&lt;/code&gt; if you want the instance to remain in service. Set to &lt;code&gt;Unhealthy&lt;/code&gt; if you want the instance to be out of service. Auto Scaling will terminate and replace the unhealthy instance. &lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingScheduledUpdateGroupAction/setAutoScalingGroupName:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; The name of the Auto Scaling group to be updated. &lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *healthStatus</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *autoScalingGroupName</Declaration>
 			
 			
-			<Anchor>//api/name/healthStatus</Anchor>
+			<Anchor>//api/name/autoScalingGroupName</Anchor>
             <NodeRef refid="79"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingSetInstanceHealthQuery/healthStatus</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt; The health status of the instance. Set to &lt;code&gt;Healthy&lt;/code&gt; if you want the instance to remain in service. Set to &lt;code&gt;Unhealthy&lt;/code&gt; if you want the instance to be out of service. Auto Scaling will terminate and replace the unhealthy instance. &lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingScheduledUpdateGroupAction/autoScalingGroupName</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; The name of the Auto Scaling group to be updated. &lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *healthStatus</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *autoScalingGroupName</Declaration>
 			
 			
-			<Anchor>//api/name/healthStatus</Anchor>
+			<Anchor>//api/name/autoScalingGroupName</Anchor>
             <NodeRef refid="79"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSAutoScalingSetInstanceHealthQuery/healthStatus</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt; The health status of the instance. Set to &lt;code&gt;Healthy&lt;/code&gt; if you want the instance to remain in service. Set to &lt;code&gt;Unhealthy&lt;/code&gt; if you want the instance to be out of service. Auto Scaling will terminate and replace the unhealthy instance. &lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSAutoScalingScheduledUpdateGroupAction/autoScalingGroupName</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; The name of the Auto Scaling group to be updated. &lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *healthStatus</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *autoScalingGroupName</Declaration>
 			
 			
-			<Anchor>//api/name/healthStatus</Anchor>
+			<Anchor>//api/name/autoScalingGroupName</Anchor>
             <NodeRef refid="79"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingSetInstanceHealthQuery/setInstanceId:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt; The identifier of the Amazon EC2 instance. &lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingScheduledUpdateGroupAction/setDesiredCapacity:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; The number of instances you prefer to maintain in your Auto Scaling group. &lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *instanceId</Declaration>
+			<Declaration>@property (nonatomic, strong) NSNumber *desiredCapacity</Declaration>
 			
 			
-			<Anchor>//api/name/instanceId</Anchor>
+			<Anchor>//api/name/desiredCapacity</Anchor>
             <NodeRef refid="79"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingSetInstanceHealthQuery/instanceId</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt; The identifier of the Amazon EC2 instance. &lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingScheduledUpdateGroupAction/desiredCapacity</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; The number of instances you prefer to maintain in your Auto Scaling group. &lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *instanceId</Declaration>
+			<Declaration>@property (nonatomic, strong) NSNumber *desiredCapacity</Declaration>
 			
 			
-			<Anchor>//api/name/instanceId</Anchor>
+			<Anchor>//api/name/desiredCapacity</Anchor>
             <NodeRef refid="79"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSAutoScalingSetInstanceHealthQuery/instanceId</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt; The identifier of the Amazon EC2 instance. &lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSAutoScalingScheduledUpdateGroupAction/desiredCapacity</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; The number of instances you prefer to maintain in your Auto Scaling group. &lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *instanceId</Declaration>
+			<Declaration>@property (nonatomic, strong) NSNumber *desiredCapacity</Declaration>
 			
 			
-			<Anchor>//api/name/instanceId</Anchor>
+			<Anchor>//api/name/desiredCapacity</Anchor>
             <NodeRef refid="79"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingSetInstanceHealthQuery/setShouldRespectGracePeriod:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;If the Auto Scaling group of the specified instance has a &lt;code&gt;HealthCheckGracePeriod&lt;/code&gt; specified for the group, by default, this call will respect the grace period. Set this to &lt;code&gt;False&lt;/code&gt;, if you do not want the call to respect the grace period associated with the group.&lt;/p&gt;&lt;p&gt;For more information, see the &lt;code&gt;HealthCheckGracePeriod&lt;/code&gt; parameter description in the &lt;a&gt;CreateAutoScalingGroup&lt;/a&gt; action. &lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingScheduledUpdateGroupAction/setEndTime:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; The time that the action is scheduled to end. This value can be up to one month in the future. &lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSNumber *shouldRespectGracePeriod</Declaration>
+			<Declaration>@property (nonatomic, strong) NSDate *endTime</Declaration>
 			
 			
-			<Anchor>//api/name/shouldRespectGracePeriod</Anchor>
+			<Anchor>//api/name/endTime</Anchor>
             <NodeRef refid="79"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingSetInstanceHealthQuery/shouldRespectGracePeriod</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;If the Auto Scaling group of the specified instance has a &lt;code&gt;HealthCheckGracePeriod&lt;/code&gt; specified for the group, by default, this call will respect the grace period. Set this to &lt;code&gt;False&lt;/code&gt;, if you do not want the call to respect the grace period associated with the group.&lt;/p&gt;&lt;p&gt;For more information, see the &lt;code&gt;HealthCheckGracePeriod&lt;/code&gt; parameter description in the &lt;a&gt;CreateAutoScalingGroup&lt;/a&gt; action. &lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingScheduledUpdateGroupAction/endTime</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; The time that the action is scheduled to end. This value can be up to one month in the future. &lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSNumber *shouldRespectGracePeriod</Declaration>
+			<Declaration>@property (nonatomic, strong) NSDate *endTime</Declaration>
 			
 			
-			<Anchor>//api/name/shouldRespectGracePeriod</Anchor>
+			<Anchor>//api/name/endTime</Anchor>
             <NodeRef refid="79"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSAutoScalingSetInstanceHealthQuery/shouldRespectGracePeriod</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;If the Auto Scaling group of the specified instance has a &lt;code&gt;HealthCheckGracePeriod&lt;/code&gt; specified for the group, by default, this call will respect the grace period. Set this to &lt;code&gt;False&lt;/code&gt;, if you do not want the call to respect the grace period associated with the group.&lt;/p&gt;&lt;p&gt;For more information, see the &lt;code&gt;HealthCheckGracePeriod&lt;/code&gt; parameter description in the &lt;a&gt;CreateAutoScalingGroup&lt;/a&gt; action. &lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSAutoScalingScheduledUpdateGroupAction/endTime</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; The time that the action is scheduled to end. This value can be up to one month in the future. &lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSNumber *shouldRespectGracePeriod</Declaration>
+			<Declaration>@property (nonatomic, strong) NSDate *endTime</Declaration>
 			
 			
-			<Anchor>//api/name/shouldRespectGracePeriod</Anchor>
+			<Anchor>//api/name/endTime</Anchor>
             <NodeRef refid="79"/>
 		</Token>
 		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingScheduledUpdateGroupAction/setMaxSize:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; The maximum size of the Auto Scaling group. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *maxSize</Declaration>
+			
+			
+			<Anchor>//api/name/maxSize</Anchor>
+            <NodeRef refid="79"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingScheduledUpdateGroupAction/maxSize</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; The maximum size of the Auto Scaling group. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *maxSize</Declaration>
+			
+			
+			<Anchor>//api/name/maxSize</Anchor>
+            <NodeRef refid="79"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSAutoScalingScheduledUpdateGroupAction/maxSize</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; The maximum size of the Auto Scaling group. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *maxSize</Declaration>
+			
+			
+			<Anchor>//api/name/maxSize</Anchor>
+            <NodeRef refid="79"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingScheduledUpdateGroupAction/setMinSize:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; The minimum size of the Auto Scaling group. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *minSize</Declaration>
+			
+			
+			<Anchor>//api/name/minSize</Anchor>
+            <NodeRef refid="79"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingScheduledUpdateGroupAction/minSize</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; The minimum size of the Auto Scaling group. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *minSize</Declaration>
+			
+			
+			<Anchor>//api/name/minSize</Anchor>
+            <NodeRef refid="79"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSAutoScalingScheduledUpdateGroupAction/minSize</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; The minimum size of the Auto Scaling group. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *minSize</Declaration>
+			
+			
+			<Anchor>//api/name/minSize</Anchor>
+            <NodeRef refid="79"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingScheduledUpdateGroupAction/setRecurrence:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; The regular schedule that an action occurs. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *recurrence</Declaration>
+			
+			
+			<Anchor>//api/name/recurrence</Anchor>
+            <NodeRef refid="79"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingScheduledUpdateGroupAction/recurrence</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; The regular schedule that an action occurs. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *recurrence</Declaration>
+			
+			
+			<Anchor>//api/name/recurrence</Anchor>
+            <NodeRef refid="79"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSAutoScalingScheduledUpdateGroupAction/recurrence</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; The regular schedule that an action occurs. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *recurrence</Declaration>
+			
+			
+			<Anchor>//api/name/recurrence</Anchor>
+            <NodeRef refid="79"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingScheduledUpdateGroupAction/setScheduledActionARN:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; The Amazon Resource Name (ARN) of this scheduled action. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *scheduledActionARN</Declaration>
+			
+			
+			<Anchor>//api/name/scheduledActionARN</Anchor>
+            <NodeRef refid="79"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingScheduledUpdateGroupAction/scheduledActionARN</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; The Amazon Resource Name (ARN) of this scheduled action. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *scheduledActionARN</Declaration>
+			
+			
+			<Anchor>//api/name/scheduledActionARN</Anchor>
+            <NodeRef refid="79"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSAutoScalingScheduledUpdateGroupAction/scheduledActionARN</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; The Amazon Resource Name (ARN) of this scheduled action. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *scheduledActionARN</Declaration>
+			
+			
+			<Anchor>//api/name/scheduledActionARN</Anchor>
+            <NodeRef refid="79"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingScheduledUpdateGroupAction/setScheduledActionName:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; The name of this scheduled action. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *scheduledActionName</Declaration>
+			
+			
+			<Anchor>//api/name/scheduledActionName</Anchor>
+            <NodeRef refid="79"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingScheduledUpdateGroupAction/scheduledActionName</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; The name of this scheduled action. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *scheduledActionName</Declaration>
+			
+			
+			<Anchor>//api/name/scheduledActionName</Anchor>
+            <NodeRef refid="79"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSAutoScalingScheduledUpdateGroupAction/scheduledActionName</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; The name of this scheduled action. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *scheduledActionName</Declaration>
+			
+			
+			<Anchor>//api/name/scheduledActionName</Anchor>
+            <NodeRef refid="79"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingScheduledUpdateGroupAction/setStartTime:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; The time that the action is scheduled to begin. This value can be up to one month in the future. &lt;/p&gt;&lt;p&gt;When &lt;code&gt;StartTime&lt;/code&gt; and &lt;code&gt;EndTime&lt;/code&gt; are specified with &lt;code&gt;Recurrence&lt;/code&gt;, they form the boundaries of when the recurring action will start and stop.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSDate *startTime</Declaration>
+			
+			
+			<Anchor>//api/name/startTime</Anchor>
+            <NodeRef refid="79"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingScheduledUpdateGroupAction/startTime</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; The time that the action is scheduled to begin. This value can be up to one month in the future. &lt;/p&gt;&lt;p&gt;When &lt;code&gt;StartTime&lt;/code&gt; and &lt;code&gt;EndTime&lt;/code&gt; are specified with &lt;code&gt;Recurrence&lt;/code&gt;, they form the boundaries of when the recurring action will start and stop.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSDate *startTime</Declaration>
+			
+			
+			<Anchor>//api/name/startTime</Anchor>
+            <NodeRef refid="79"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSAutoScalingScheduledUpdateGroupAction/startTime</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; The time that the action is scheduled to begin. This value can be up to one month in the future. &lt;/p&gt;&lt;p&gt;When &lt;code&gt;StartTime&lt;/code&gt; and &lt;code&gt;EndTime&lt;/code&gt; are specified with &lt;code&gt;Recurrence&lt;/code&gt;, they form the boundaries of when the recurring action will start and stop.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSDate *startTime</Declaration>
+			
+			
+			<Anchor>//api/name/startTime</Anchor>
+            <NodeRef refid="79"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingScheduledUpdateGroupAction/setTime:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;&lt;code&gt;Time&lt;/code&gt; is deprecated.&lt;/p&gt;&lt;p&gt;The time that the action is scheduled to begin. &lt;code&gt;Time&lt;/code&gt; is an alias for &lt;code&gt;StartTime&lt;/code&gt;. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSDate *time</Declaration>
+			
+			
+			<Anchor>//api/name/time</Anchor>
+            <NodeRef refid="79"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingScheduledUpdateGroupAction/time</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;&lt;code&gt;Time&lt;/code&gt; is deprecated.&lt;/p&gt;&lt;p&gt;The time that the action is scheduled to begin. &lt;code&gt;Time&lt;/code&gt; is an alias for &lt;code&gt;StartTime&lt;/code&gt;. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSDate *time</Declaration>
+			
+			
+			<Anchor>//api/name/time</Anchor>
+            <NodeRef refid="79"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSAutoScalingScheduledUpdateGroupAction/time</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;&lt;code&gt;Time&lt;/code&gt; is deprecated.&lt;/p&gt;&lt;p&gt;The time that the action is scheduled to begin. &lt;code&gt;Time&lt;/code&gt; is an alias for &lt;code&gt;StartTime&lt;/code&gt;. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSDate *time</Declaration>
+			
+			
+			<Anchor>//api/name/time</Anchor>
+            <NodeRef refid="79"/>
+		</Token>
+		
+        
         
 	</File>
 </Tokens>

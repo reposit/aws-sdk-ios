@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSSNSSubscription.html">
+	<File path="Classes/AWSS3CORSRule.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSSNSSubscription</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;A wrapper type for the attributes of an Amazon SNS subscription.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSNSModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSS3CORSRule</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
             
 			
 			<NodeRef refid="746"/>
@@ -13,185 +13,186 @@
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSSNSSubscription/setEndpoint:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The subscription&apos;s endpoint (format depends on the protocol).&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSNSModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3CORSRule/setAllowedHeaders:</TokenIdentifier>
+			<Abstract type="html">Specifies which headers are allowed in a pre-flight OPTIONS request.</Abstract>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *endpoint</Declaration>
+			<Declaration>@property (nonatomic, strong) NSArray *allowedHeaders</Declaration>
 			
 			
-			<Anchor>//api/name/endpoint</Anchor>
+			<Anchor>//api/name/allowedHeaders</Anchor>
             <NodeRef refid="746"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSSNSSubscription/endpoint</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The subscription&apos;s endpoint (format depends on the protocol).&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSNSModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3CORSRule/allowedHeaders</TokenIdentifier>
+			<Abstract type="html">Specifies which headers are allowed in a pre-flight OPTIONS request.</Abstract>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *endpoint</Declaration>
+			<Declaration>@property (nonatomic, strong) NSArray *allowedHeaders</Declaration>
 			
 			
-			<Anchor>//api/name/endpoint</Anchor>
+			<Anchor>//api/name/allowedHeaders</Anchor>
             <NodeRef refid="746"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSSNSSubscription/endpoint</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The subscription&apos;s endpoint (format depends on the protocol).&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSNSModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSS3CORSRule/allowedHeaders</TokenIdentifier>
+			<Abstract type="html">Specifies which headers are allowed in a pre-flight OPTIONS request.</Abstract>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *endpoint</Declaration>
+			<Declaration>@property (nonatomic, strong) NSArray *allowedHeaders</Declaration>
 			
 			
-			<Anchor>//api/name/endpoint</Anchor>
+			<Anchor>//api/name/allowedHeaders</Anchor>
             <NodeRef refid="746"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSSNSSubscription/setOwner:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The subscription&apos;s owner.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSNSModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3CORSRule/setAllowedMethods:</TokenIdentifier>
+			<Abstract type="html">Identifies HTTP methods that the domain/origin specified in the rule is allowed to execute.</Abstract>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *owner</Declaration>
+			<Declaration>@property (nonatomic, strong) NSArray *allowedMethods</Declaration>
 			
 			
-			<Anchor>//api/name/owner</Anchor>
+			<Anchor>//api/name/allowedMethods</Anchor>
             <NodeRef refid="746"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSSNSSubscription/owner</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The subscription&apos;s owner.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSNSModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3CORSRule/allowedMethods</TokenIdentifier>
+			<Abstract type="html">Identifies HTTP methods that the domain/origin specified in the rule is allowed to execute.</Abstract>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *owner</Declaration>
+			<Declaration>@property (nonatomic, strong) NSArray *allowedMethods</Declaration>
 			
 			
-			<Anchor>//api/name/owner</Anchor>
+			<Anchor>//api/name/allowedMethods</Anchor>
             <NodeRef refid="746"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSSNSSubscription/owner</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The subscription&apos;s owner.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSNSModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSS3CORSRule/allowedMethods</TokenIdentifier>
+			<Abstract type="html">Identifies HTTP methods that the domain/origin specified in the rule is allowed to execute.</Abstract>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *owner</Declaration>
+			<Declaration>@property (nonatomic, strong) NSArray *allowedMethods</Declaration>
 			
 			
-			<Anchor>//api/name/owner</Anchor>
+			<Anchor>//api/name/allowedMethods</Anchor>
             <NodeRef refid="746"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSSNSSubscription/setProtocol:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The subscription&apos;s protocol.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSNSModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3CORSRule/setAllowedOrigins:</TokenIdentifier>
+			<Abstract type="html">One or more origins you want customers to be able to access the bucket from.</Abstract>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *protocol</Declaration>
+			<Declaration>@property (nonatomic, strong) NSArray *allowedOrigins</Declaration>
 			
 			
-			<Anchor>//api/name/protocol</Anchor>
+			<Anchor>//api/name/allowedOrigins</Anchor>
             <NodeRef refid="746"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSSNSSubscription/protocol</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The subscription&apos;s protocol.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSNSModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3CORSRule/allowedOrigins</TokenIdentifier>
+			<Abstract type="html">One or more origins you want customers to be able to access the bucket from.</Abstract>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *protocol</Declaration>
+			<Declaration>@property (nonatomic, strong) NSArray *allowedOrigins</Declaration>
 			
 			
-			<Anchor>//api/name/protocol</Anchor>
+			<Anchor>//api/name/allowedOrigins</Anchor>
             <NodeRef refid="746"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSSNSSubscription/protocol</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The subscription&apos;s protocol.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSNSModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSS3CORSRule/allowedOrigins</TokenIdentifier>
+			<Abstract type="html">One or more origins you want customers to be able to access the bucket from.</Abstract>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *protocol</Declaration>
+			<Declaration>@property (nonatomic, strong) NSArray *allowedOrigins</Declaration>
 			
 			
-			<Anchor>//api/name/protocol</Anchor>
+			<Anchor>//api/name/allowedOrigins</Anchor>
             <NodeRef refid="746"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSSNSSubscription/setSubscriptionArn:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The subscription&apos;s ARN.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSNSModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3CORSRule/setExposeHeaders:</TokenIdentifier>
+			<Abstract type="html">One or more headers in the response that you want customers to be able to access from their applications (for example, from a JavaScript XMLHttpRequest object).</Abstract>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *subscriptionArn</Declaration>
+			<Declaration>@property (nonatomic, strong) NSArray *exposeHeaders</Declaration>
 			
 			
-			<Anchor>//api/name/subscriptionArn</Anchor>
+			<Anchor>//api/name/exposeHeaders</Anchor>
             <NodeRef refid="746"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSSNSSubscription/subscriptionArn</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The subscription&apos;s ARN.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSNSModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3CORSRule/exposeHeaders</TokenIdentifier>
+			<Abstract type="html">One or more headers in the response that you want customers to be able to access from their applications (for example, from a JavaScript XMLHttpRequest object).</Abstract>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *subscriptionArn</Declaration>
+			<Declaration>@property (nonatomic, strong) NSArray *exposeHeaders</Declaration>
 			
 			
-			<Anchor>//api/name/subscriptionArn</Anchor>
+			<Anchor>//api/name/exposeHeaders</Anchor>
             <NodeRef refid="746"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSSNSSubscription/subscriptionArn</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The subscription&apos;s ARN.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSNSModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSS3CORSRule/exposeHeaders</TokenIdentifier>
+			<Abstract type="html">One or more headers in the response that you want customers to be able to access from their applications (for example, from a JavaScript XMLHttpRequest object).</Abstract>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *subscriptionArn</Declaration>
+			<Declaration>@property (nonatomic, strong) NSArray *exposeHeaders</Declaration>
 			
 			
-			<Anchor>//api/name/subscriptionArn</Anchor>
+			<Anchor>//api/name/exposeHeaders</Anchor>
             <NodeRef refid="746"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSSNSSubscription/setTopicArn:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The ARN of the subscription&apos;s topic.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSNSModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3CORSRule/setMaxAgeSeconds:</TokenIdentifier>
+			<Abstract type="html">The time in seconds that your browser is to cache the preflight response for the specified resource.</Abstract>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *topicArn</Declaration>
+			<Declaration>@property (nonatomic, strong) NSNumber *maxAgeSeconds</Declaration>
 			
 			
-			<Anchor>//api/name/topicArn</Anchor>
+			<Anchor>//api/name/maxAgeSeconds</Anchor>
             <NodeRef refid="746"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSSNSSubscription/topicArn</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The ARN of the subscription&apos;s topic.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSNSModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3CORSRule/maxAgeSeconds</TokenIdentifier>
+			<Abstract type="html">The time in seconds that your browser is to cache the preflight response for the specified resource.</Abstract>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *topicArn</Declaration>
+			<Declaration>@property (nonatomic, strong) NSNumber *maxAgeSeconds</Declaration>
 			
 			
-			<Anchor>//api/name/topicArn</Anchor>
+			<Anchor>//api/name/maxAgeSeconds</Anchor>
             <NodeRef refid="746"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSSNSSubscription/topicArn</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The ARN of the subscription&apos;s topic.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSNSModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSS3CORSRule/maxAgeSeconds</TokenIdentifier>
+			<Abstract type="html">The time in seconds that your browser is to cache the preflight response for the specified resource.</Abstract>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *topicArn</Declaration>
+			<Declaration>@property (nonatomic, strong) NSNumber *maxAgeSeconds</Declaration>
 			
 			
-			<Anchor>//api/name/topicArn</Anchor>
+			<Anchor>//api/name/maxAgeSeconds</Anchor>
             <NodeRef refid="746"/>
 		</Token>
 		
+        
         
 	</File>
 </Tokens>

@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSSESVerifyEmailAddressRequest.html">
+	<File path="Classes/AWSElasticLoadBalancingTagKeyOnly.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSSESVerifyEmailAddressRequest</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Represents a request instructing the service to begin email address verification.&lt;/p&gt;
-Required parameters: [EmailAddress]</Abstract>
-			<DeclaredIn>AWSSESModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSElasticLoadBalancingTagKeyOnly</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSElasticLoadBalancingModel.h</DeclaredIn>
             
 			
 			<NodeRef refid="700"/>
@@ -14,41 +13,42 @@ Required parameters: [EmailAddress]</Abstract>
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSSESVerifyEmailAddressRequest/setEmailAddress:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The email address to be verified.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSESModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSElasticLoadBalancingTagKeyOnly/setKey:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSElasticLoadBalancingModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *emailAddress</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *key</Declaration>
 			
 			
-			<Anchor>//api/name/emailAddress</Anchor>
+			<Anchor>//api/name/key</Anchor>
             <NodeRef refid="700"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSSESVerifyEmailAddressRequest/emailAddress</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The email address to be verified.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSESModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSElasticLoadBalancingTagKeyOnly/key</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSElasticLoadBalancingModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *emailAddress</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *key</Declaration>
 			
 			
-			<Anchor>//api/name/emailAddress</Anchor>
+			<Anchor>//api/name/key</Anchor>
             <NodeRef refid="700"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSSESVerifyEmailAddressRequest/emailAddress</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The email address to be verified.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSESModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSElasticLoadBalancingTagKeyOnly/key</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSElasticLoadBalancingModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *emailAddress</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *key</Declaration>
 			
 			
-			<Anchor>//api/name/emailAddress</Anchor>
+			<Anchor>//api/name/key</Anchor>
             <NodeRef refid="700"/>
 		</Token>
 		
+        
         
 	</File>
 </Tokens>

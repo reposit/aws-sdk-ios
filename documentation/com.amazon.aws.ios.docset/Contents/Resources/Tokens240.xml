@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSEC2CreateImageRequest.html">
+	<File path="Classes/AWSDynamoDBUpdateItemOutput.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSEC2CreateImageRequest</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSDynamoDBUpdateItemOutput</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Represents the output of an &lt;i&gt;UpdateItem&lt;/i&gt; operation.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
             
 			
 			<NodeRef refid="240"/>
@@ -13,149 +13,114 @@
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2CreateImageRequest/setBlockDeviceMappings:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Information about one or more block device mappings.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSDynamoDBUpdateItemOutput/setAttributes:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;A map of attribute values as they appeared before the &lt;i&gt;UpdateItem&lt;/i&gt; operation. This map only appears if &lt;i&gt;ReturnValues&lt;/i&gt; was specified as something other than &lt;code&gt;NONE&lt;/code&gt; in the request. Each element represents one attribute.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSArray *blockDeviceMappings</Declaration>
+			<Declaration>@property (nonatomic, strong) NSDictionary *attributes</Declaration>
 			
 			
-			<Anchor>//api/name/blockDeviceMappings</Anchor>
+			<Anchor>//api/name/attributes</Anchor>
             <NodeRef refid="240"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2CreateImageRequest/blockDeviceMappings</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Information about one or more block device mappings.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSDynamoDBUpdateItemOutput/attributes</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;A map of attribute values as they appeared before the &lt;i&gt;UpdateItem&lt;/i&gt; operation. This map only appears if &lt;i&gt;ReturnValues&lt;/i&gt; was specified as something other than &lt;code&gt;NONE&lt;/code&gt; in the request. Each element represents one attribute.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSArray *blockDeviceMappings</Declaration>
+			<Declaration>@property (nonatomic, strong) NSDictionary *attributes</Declaration>
 			
 			
-			<Anchor>//api/name/blockDeviceMappings</Anchor>
+			<Anchor>//api/name/attributes</Anchor>
             <NodeRef refid="240"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2CreateImageRequest/blockDeviceMappings</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Information about one or more block device mappings.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSDynamoDBUpdateItemOutput/attributes</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;A map of attribute values as they appeared before the &lt;i&gt;UpdateItem&lt;/i&gt; operation. This map only appears if &lt;i&gt;ReturnValues&lt;/i&gt; was specified as something other than &lt;code&gt;NONE&lt;/code&gt; in the request. Each element represents one attribute.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSArray *blockDeviceMappings</Declaration>
+			<Declaration>@property (nonatomic, strong) NSDictionary *attributes</Declaration>
 			
 			
-			<Anchor>//api/name/blockDeviceMappings</Anchor>
+			<Anchor>//api/name/attributes</Anchor>
             <NodeRef refid="240"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2CreateImageRequest/setInstanceId:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The ID of the instance.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSDynamoDBUpdateItemOutput/setConsumedCapacity:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The capacity units consumed by an operation. The data returned includes the total provisioned throughput consumed, along with statistics for the table and any indexes involved in the operation. &lt;i&gt;ConsumedCapacity&lt;/i&gt; is only returned if the request asked for it. For more information, see Provisioned Throughput in the &lt;i&gt;Amazon DynamoDB Developer Guide&lt;/i&gt;.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *instanceId</Declaration>
+			<Declaration>@property (nonatomic, strong) AWSDynamoDBConsumedCapacity *consumedCapacity</Declaration>
 			
 			
-			<Anchor>//api/name/instanceId</Anchor>
+			<Anchor>//api/name/consumedCapacity</Anchor>
             <NodeRef refid="240"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2CreateImageRequest/instanceId</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The ID of the instance.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSDynamoDBUpdateItemOutput/consumedCapacity</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The capacity units consumed by an operation. The data returned includes the total provisioned throughput consumed, along with statistics for the table and any indexes involved in the operation. &lt;i&gt;ConsumedCapacity&lt;/i&gt; is only returned if the request asked for it. For more information, see Provisioned Throughput in the &lt;i&gt;Amazon DynamoDB Developer Guide&lt;/i&gt;.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *instanceId</Declaration>
+			<Declaration>@property (nonatomic, strong) AWSDynamoDBConsumedCapacity *consumedCapacity</Declaration>
 			
 			
-			<Anchor>//api/name/instanceId</Anchor>
+			<Anchor>//api/name/consumedCapacity</Anchor>
             <NodeRef refid="240"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2CreateImageRequest/instanceId</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The ID of the instance.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSDynamoDBUpdateItemOutput/consumedCapacity</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The capacity units consumed by an operation. The data returned includes the total provisioned throughput consumed, along with statistics for the table and any indexes involved in the operation. &lt;i&gt;ConsumedCapacity&lt;/i&gt; is only returned if the request asked for it. For more information, see Provisioned Throughput in the &lt;i&gt;Amazon DynamoDB Developer Guide&lt;/i&gt;.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *instanceId</Declaration>
+			<Declaration>@property (nonatomic, strong) AWSDynamoDBConsumedCapacity *consumedCapacity</Declaration>
 			
 			
-			<Anchor>//api/name/instanceId</Anchor>
+			<Anchor>//api/name/consumedCapacity</Anchor>
             <NodeRef refid="240"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2CreateImageRequest/setName:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;A name for the new image.&lt;/p&gt;&lt;p&gt;Constraints: 3-128 alphanumeric characters, parenthesis (()), periods (.), slashes (/), dashes (-), or underscores(_)&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSDynamoDBUpdateItemOutput/setItemCollectionMetrics:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Information about item collections, if any, that were affected by the operation. &lt;i&gt;ItemCollectionMetrics&lt;/i&gt; is only returned if the request asked for it. If the table does not have any local secondary indexes, this information is not returned in the response.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *name</Declaration>
+			<Declaration>@property (nonatomic, strong) AWSDynamoDBItemCollectionMetrics *itemCollectionMetrics</Declaration>
 			
 			
-			<Anchor>//api/name/name</Anchor>
+			<Anchor>//api/name/itemCollectionMetrics</Anchor>
             <NodeRef refid="240"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2CreateImageRequest/name</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;A name for the new image.&lt;/p&gt;&lt;p&gt;Constraints: 3-128 alphanumeric characters, parenthesis (()), periods (.), slashes (/), dashes (-), or underscores(_)&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSDynamoDBUpdateItemOutput/itemCollectionMetrics</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Information about item collections, if any, that were affected by the operation. &lt;i&gt;ItemCollectionMetrics&lt;/i&gt; is only returned if the request asked for it. If the table does not have any local secondary indexes, this information is not returned in the response.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *name</Declaration>
+			<Declaration>@property (nonatomic, strong) AWSDynamoDBItemCollectionMetrics *itemCollectionMetrics</Declaration>
 			
 			
-			<Anchor>//api/name/name</Anchor>
+			<Anchor>//api/name/itemCollectionMetrics</Anchor>
             <NodeRef refid="240"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2CreateImageRequest/name</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;A name for the new image.&lt;/p&gt;&lt;p&gt;Constraints: 3-128 alphanumeric characters, parenthesis (()), periods (.), slashes (/), dashes (-), or underscores(_)&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSDynamoDBUpdateItemOutput/itemCollectionMetrics</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Information about item collections, if any, that were affected by the operation. &lt;i&gt;ItemCollectionMetrics&lt;/i&gt; is only returned if the request asked for it. If the table does not have any local secondary indexes, this information is not returned in the response.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *name</Declaration>
+			<Declaration>@property (nonatomic, strong) AWSDynamoDBItemCollectionMetrics *itemCollectionMetrics</Declaration>
 			
 			
-			<Anchor>//api/name/name</Anchor>
+			<Anchor>//api/name/itemCollectionMetrics</Anchor>
             <NodeRef refid="240"/>
 		</Token>
 		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2CreateImageRequest/setNoReboot:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;By default, this parameter is set to &lt;code&gt;false&lt;/code&gt;, which means Amazon EC2 attempts to shut down the instance cleanly before image creation and then reboots the instance. When the parameter is set to &lt;code&gt;true&lt;/code&gt;, Amazon EC2 doesn&apos;t shut down the instance before creating the image. When this option is used, file system integrity on the created image can&apos;t be guaranteed.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSNumber *noReboot</Declaration>
-			
-			
-			<Anchor>//api/name/noReboot</Anchor>
-            <NodeRef refid="240"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2CreateImageRequest/noReboot</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;By default, this parameter is set to &lt;code&gt;false&lt;/code&gt;, which means Amazon EC2 attempts to shut down the instance cleanly before image creation and then reboots the instance. When the parameter is set to &lt;code&gt;true&lt;/code&gt;, Amazon EC2 doesn&apos;t shut down the instance before creating the image. When this option is used, file system integrity on the created image can&apos;t be guaranteed.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSNumber *noReboot</Declaration>
-			
-			
-			<Anchor>//api/name/noReboot</Anchor>
-            <NodeRef refid="240"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2CreateImageRequest/noReboot</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;By default, this parameter is set to &lt;code&gt;false&lt;/code&gt;, which means Amazon EC2 attempts to shut down the instance cleanly before image creation and then reboots the instance. When the parameter is set to &lt;code&gt;true&lt;/code&gt;, Amazon EC2 doesn&apos;t shut down the instance before creating the image. When this option is used, file system integrity on the created image can&apos;t be guaranteed.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSNumber *noReboot</Declaration>
-			
-			
-			<Anchor>//api/name/noReboot</Anchor>
-            <NodeRef refid="240"/>
-		</Token>
-		
+        
         
 	</File>
 </Tokens>

@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSEC2ImageAttribute.html">
+	<File path="Classes/AWSEC2DescribeSnapshotAttributeResult.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSEC2ImageAttribute</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Describes an image attribute.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSEC2DescribeSnapshotAttributeResult</TokenIdentifier>
+			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
             
 			
@@ -13,152 +13,44 @@
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ImageAttribute/setBlockDeviceMappings:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;One or more block device mapping entries.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DescribeSnapshotAttributeResult/setCreateVolumePermissions:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;A list of permissions for creating volumes from the snapshot.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSArray *blockDeviceMappings</Declaration>
+			<Declaration>@property (nonatomic, strong) NSArray *createVolumePermissions</Declaration>
 			
 			
-			<Anchor>//api/name/blockDeviceMappings</Anchor>
+			<Anchor>//api/name/createVolumePermissions</Anchor>
             <NodeRef refid="405"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ImageAttribute/blockDeviceMappings</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;One or more block device mapping entries.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DescribeSnapshotAttributeResult/createVolumePermissions</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;A list of permissions for creating volumes from the snapshot.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSArray *blockDeviceMappings</Declaration>
+			<Declaration>@property (nonatomic, strong) NSArray *createVolumePermissions</Declaration>
 			
 			
-			<Anchor>//api/name/blockDeviceMappings</Anchor>
+			<Anchor>//api/name/createVolumePermissions</Anchor>
             <NodeRef refid="405"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2ImageAttribute/blockDeviceMappings</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;One or more block device mapping entries.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2DescribeSnapshotAttributeResult/createVolumePermissions</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;A list of permissions for creating volumes from the snapshot.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSArray *blockDeviceMappings</Declaration>
+			<Declaration>@property (nonatomic, strong) NSArray *createVolumePermissions</Declaration>
 			
 			
-			<Anchor>//api/name/blockDeviceMappings</Anchor>
+			<Anchor>//api/name/createVolumePermissions</Anchor>
             <NodeRef refid="405"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ImageAttribute/setImageId:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The ID of the AMI.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *imageId</Declaration>
-			
-			
-			<Anchor>//api/name/imageId</Anchor>
-            <NodeRef refid="405"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ImageAttribute/imageId</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The ID of the AMI.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *imageId</Declaration>
-			
-			
-			<Anchor>//api/name/imageId</Anchor>
-            <NodeRef refid="405"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2ImageAttribute/imageId</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The ID of the AMI.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *imageId</Declaration>
-			
-			
-			<Anchor>//api/name/imageId</Anchor>
-            <NodeRef refid="405"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ImageAttribute/setKernelId:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The kernel ID.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) AWSEC2AttributeValue *kernelId</Declaration>
-			
-			
-			<Anchor>//api/name/kernelId</Anchor>
-            <NodeRef refid="405"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ImageAttribute/kernelId</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The kernel ID.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) AWSEC2AttributeValue *kernelId</Declaration>
-			
-			
-			<Anchor>//api/name/kernelId</Anchor>
-            <NodeRef refid="405"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2ImageAttribute/kernelId</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The kernel ID.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) AWSEC2AttributeValue *kernelId</Declaration>
-			
-			
-			<Anchor>//api/name/kernelId</Anchor>
-            <NodeRef refid="405"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ImageAttribute/setLaunchPermissions:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;One or more launch permissions.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSArray *launchPermissions</Declaration>
-			
-			
-			<Anchor>//api/name/launchPermissions</Anchor>
-            <NodeRef refid="405"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ImageAttribute/launchPermissions</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;One or more launch permissions.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSArray *launchPermissions</Declaration>
-			
-			
-			<Anchor>//api/name/launchPermissions</Anchor>
-            <NodeRef refid="405"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2ImageAttribute/launchPermissions</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;One or more launch permissions.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSArray *launchPermissions</Declaration>
-			
-			
-			<Anchor>//api/name/launchPermissions</Anchor>
-            <NodeRef refid="405"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ImageAttribute/setProductCodes:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;One or more product codes.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DescribeSnapshotAttributeResult/setProductCodes:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;A list of product codes.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
 			<Declaration>@property (nonatomic, strong) NSArray *productCodes</Declaration>
@@ -169,8 +61,8 @@
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ImageAttribute/productCodes</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;One or more product codes.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DescribeSnapshotAttributeResult/productCodes</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;A list of product codes.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
 			<Declaration>@property (nonatomic, strong) NSArray *productCodes</Declaration>
@@ -181,8 +73,8 @@
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2ImageAttribute/productCodes</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;One or more product codes.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2DescribeSnapshotAttributeResult/productCodes</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;A list of product codes.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
 			<Declaration>@property (nonatomic, strong) NSArray *productCodes</Declaration>
@@ -193,41 +85,42 @@
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ImageAttribute/setRamdiskId:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The RAM disk ID.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DescribeSnapshotAttributeResult/setSnapshotId:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the Amazon EBS snapshot.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) AWSEC2AttributeValue *ramdiskId</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *snapshotId</Declaration>
 			
 			
-			<Anchor>//api/name/ramdiskId</Anchor>
+			<Anchor>//api/name/snapshotId</Anchor>
             <NodeRef refid="405"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ImageAttribute/ramdiskId</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The RAM disk ID.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DescribeSnapshotAttributeResult/snapshotId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the Amazon EBS snapshot.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) AWSEC2AttributeValue *ramdiskId</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *snapshotId</Declaration>
 			
 			
-			<Anchor>//api/name/ramdiskId</Anchor>
+			<Anchor>//api/name/snapshotId</Anchor>
             <NodeRef refid="405"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2ImageAttribute/ramdiskId</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The RAM disk ID.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2DescribeSnapshotAttributeResult/snapshotId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the Amazon EBS snapshot.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) AWSEC2AttributeValue *ramdiskId</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *snapshotId</Declaration>
 			
 			
-			<Anchor>//api/name/ramdiskId</Anchor>
+			<Anchor>//api/name/snapshotId</Anchor>
             <NodeRef refid="405"/>
 		</Token>
 		
+        
         
 	</File>
 </Tokens>

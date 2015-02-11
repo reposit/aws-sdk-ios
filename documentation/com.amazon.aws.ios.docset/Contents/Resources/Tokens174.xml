@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSDynamoDBObjectMapperConfiguration.html">
+	<File path="Classes/AWSCognitoSyncRecord.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSDynamoDBObjectMapperConfiguration</TokenIdentifier>
-			<Abstract type="html">Immutable configuration object for service call behavior. An instance of this configuration is supplied to every DynamoDBMapper at construction. New instances can be given to the mapper object on individual save, load, and remove operations to override the defaults.</Abstract>
-			<DeclaredIn>AWSDynamoDBObjectMapper.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSCognitoSyncRecord</TokenIdentifier>
+			<Abstract type="html">The basic data structure of a dataset.</Abstract>
+			<DeclaredIn>AWSCognitoSyncModel.h</DeclaredIn>
             
 			
 			<NodeRef refid="174"/>
@@ -13,77 +13,222 @@
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSDynamoDBObjectMapperConfiguration/setSaveBehavior:</TokenIdentifier>
-			<Abstract type="html">The behavior for the save operation.</Abstract>
-			<DeclaredIn>AWSDynamoDBObjectMapper.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoSyncRecord/setDeviceLastModifiedDate:</TokenIdentifier>
+			<Abstract type="html">The last modified date of the client device.</Abstract>
+			<DeclaredIn>AWSCognitoSyncModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, assign) AWSDynamoDBObjectMapperSaveBehavior saveBehavior</Declaration>
+			<Declaration>@property (nonatomic, strong) NSDate *deviceLastModifiedDate</Declaration>
 			
 			
-			<Anchor>//api/name/saveBehavior</Anchor>
+			<Anchor>//api/name/deviceLastModifiedDate</Anchor>
             <NodeRef refid="174"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSDynamoDBObjectMapperConfiguration/saveBehavior</TokenIdentifier>
-			<Abstract type="html">The behavior for the save operation.</Abstract>
-			<DeclaredIn>AWSDynamoDBObjectMapper.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoSyncRecord/deviceLastModifiedDate</TokenIdentifier>
+			<Abstract type="html">The last modified date of the client device.</Abstract>
+			<DeclaredIn>AWSCognitoSyncModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, assign) AWSDynamoDBObjectMapperSaveBehavior saveBehavior</Declaration>
+			<Declaration>@property (nonatomic, strong) NSDate *deviceLastModifiedDate</Declaration>
 			
 			
-			<Anchor>//api/name/saveBehavior</Anchor>
+			<Anchor>//api/name/deviceLastModifiedDate</Anchor>
             <NodeRef refid="174"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSDynamoDBObjectMapperConfiguration/saveBehavior</TokenIdentifier>
-			<Abstract type="html">The behavior for the save operation.</Abstract>
-			<DeclaredIn>AWSDynamoDBObjectMapper.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSCognitoSyncRecord/deviceLastModifiedDate</TokenIdentifier>
+			<Abstract type="html">The last modified date of the client device.</Abstract>
+			<DeclaredIn>AWSCognitoSyncModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, assign) AWSDynamoDBObjectMapperSaveBehavior saveBehavior</Declaration>
+			<Declaration>@property (nonatomic, strong) NSDate *deviceLastModifiedDate</Declaration>
 			
 			
-			<Anchor>//api/name/saveBehavior</Anchor>
+			<Anchor>//api/name/deviceLastModifiedDate</Anchor>
             <NodeRef refid="174"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSDynamoDBObjectMapperConfiguration/setConsistentRead:</TokenIdentifier>
-			<Abstract type="html">When set to @YES, AWSDynamoDBObjectMapper uses consistent read to read data from the table. When set to @NO, it uses eventually consistant read.</Abstract>
-			<DeclaredIn>AWSDynamoDBObjectMapper.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoSyncRecord/setKey:</TokenIdentifier>
+			<Abstract type="html">The key for the record.</Abstract>
+			<DeclaredIn>AWSCognitoSyncModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSNumber *consistentRead</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *key</Declaration>
 			
 			
-			<Anchor>//api/name/consistentRead</Anchor>
+			<Anchor>//api/name/key</Anchor>
             <NodeRef refid="174"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSDynamoDBObjectMapperConfiguration/consistentRead</TokenIdentifier>
-			<Abstract type="html">When set to @YES, AWSDynamoDBObjectMapper uses consistent read to read data from the table. When set to @NO, it uses eventually consistant read.</Abstract>
-			<DeclaredIn>AWSDynamoDBObjectMapper.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoSyncRecord/key</TokenIdentifier>
+			<Abstract type="html">The key for the record.</Abstract>
+			<DeclaredIn>AWSCognitoSyncModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSNumber *consistentRead</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *key</Declaration>
 			
 			
-			<Anchor>//api/name/consistentRead</Anchor>
+			<Anchor>//api/name/key</Anchor>
             <NodeRef refid="174"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSDynamoDBObjectMapperConfiguration/consistentRead</TokenIdentifier>
-			<Abstract type="html">When set to @YES, AWSDynamoDBObjectMapper uses consistent read to read data from the table. When set to @NO, it uses eventually consistant read.</Abstract>
-			<DeclaredIn>AWSDynamoDBObjectMapper.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSCognitoSyncRecord/key</TokenIdentifier>
+			<Abstract type="html">The key for the record.</Abstract>
+			<DeclaredIn>AWSCognitoSyncModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSNumber *consistentRead</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *key</Declaration>
 			
 			
-			<Anchor>//api/name/consistentRead</Anchor>
+			<Anchor>//api/name/key</Anchor>
             <NodeRef refid="174"/>
 		</Token>
 		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoSyncRecord/setLastModifiedBy:</TokenIdentifier>
+			<Abstract type="html">The user/device that made the last change to this record.</Abstract>
+			<DeclaredIn>AWSCognitoSyncModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *lastModifiedBy</Declaration>
+			
+			
+			<Anchor>//api/name/lastModifiedBy</Anchor>
+            <NodeRef refid="174"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoSyncRecord/lastModifiedBy</TokenIdentifier>
+			<Abstract type="html">The user/device that made the last change to this record.</Abstract>
+			<DeclaredIn>AWSCognitoSyncModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *lastModifiedBy</Declaration>
+			
+			
+			<Anchor>//api/name/lastModifiedBy</Anchor>
+            <NodeRef refid="174"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSCognitoSyncRecord/lastModifiedBy</TokenIdentifier>
+			<Abstract type="html">The user/device that made the last change to this record.</Abstract>
+			<DeclaredIn>AWSCognitoSyncModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *lastModifiedBy</Declaration>
+			
+			
+			<Anchor>//api/name/lastModifiedBy</Anchor>
+            <NodeRef refid="174"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoSyncRecord/setLastModifiedDate:</TokenIdentifier>
+			<Abstract type="html">The date on which the record was last modified.</Abstract>
+			<DeclaredIn>AWSCognitoSyncModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSDate *lastModifiedDate</Declaration>
+			
+			
+			<Anchor>//api/name/lastModifiedDate</Anchor>
+            <NodeRef refid="174"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoSyncRecord/lastModifiedDate</TokenIdentifier>
+			<Abstract type="html">The date on which the record was last modified.</Abstract>
+			<DeclaredIn>AWSCognitoSyncModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSDate *lastModifiedDate</Declaration>
+			
+			
+			<Anchor>//api/name/lastModifiedDate</Anchor>
+            <NodeRef refid="174"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSCognitoSyncRecord/lastModifiedDate</TokenIdentifier>
+			<Abstract type="html">The date on which the record was last modified.</Abstract>
+			<DeclaredIn>AWSCognitoSyncModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSDate *lastModifiedDate</Declaration>
+			
+			
+			<Anchor>//api/name/lastModifiedDate</Anchor>
+            <NodeRef refid="174"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoSyncRecord/setSyncCount:</TokenIdentifier>
+			<Abstract type="html">The server sync count for this record.</Abstract>
+			<DeclaredIn>AWSCognitoSyncModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *syncCount</Declaration>
+			
+			
+			<Anchor>//api/name/syncCount</Anchor>
+            <NodeRef refid="174"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoSyncRecord/syncCount</TokenIdentifier>
+			<Abstract type="html">The server sync count for this record.</Abstract>
+			<DeclaredIn>AWSCognitoSyncModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *syncCount</Declaration>
+			
+			
+			<Anchor>//api/name/syncCount</Anchor>
+            <NodeRef refid="174"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSCognitoSyncRecord/syncCount</TokenIdentifier>
+			<Abstract type="html">The server sync count for this record.</Abstract>
+			<DeclaredIn>AWSCognitoSyncModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *syncCount</Declaration>
+			
+			
+			<Anchor>//api/name/syncCount</Anchor>
+            <NodeRef refid="174"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoSyncRecord/setValue:</TokenIdentifier>
+			<Abstract type="html">The value for the record.</Abstract>
+			<DeclaredIn>AWSCognitoSyncModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *value</Declaration>
+			
+			
+			<Anchor>//api/name/value</Anchor>
+            <NodeRef refid="174"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoSyncRecord/value</TokenIdentifier>
+			<Abstract type="html">The value for the record.</Abstract>
+			<DeclaredIn>AWSCognitoSyncModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *value</Declaration>
+			
+			
+			<Anchor>//api/name/value</Anchor>
+            <NodeRef refid="174"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSCognitoSyncRecord/value</TokenIdentifier>
+			<Abstract type="html">The value for the record.</Abstract>
+			<DeclaredIn>AWSCognitoSyncModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *value</Declaration>
+			
+			
+			<Anchor>//api/name/value</Anchor>
+            <NodeRef refid="174"/>
+		</Token>
+		
+        
         
 	</File>
 </Tokens>

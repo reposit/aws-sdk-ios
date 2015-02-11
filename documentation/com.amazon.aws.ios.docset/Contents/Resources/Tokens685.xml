@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSSESSendDataPoint.html">
+	<File path="Classes/AWSElasticLoadBalancingRegisterEndPointsInput.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSSESSendDataPoint</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Represents sending statistics data. Each &lt;code&gt;SendDataPoint&lt;/code&gt; contains statistics for a 15-minute period of sending activity. &lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSESModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSElasticLoadBalancingRegisterEndPointsInput</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSElasticLoadBalancingModel.h</DeclaredIn>
             
 			
 			<NodeRef refid="685"/>
@@ -13,185 +13,78 @@
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSSESSendDataPoint/setBounces:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Number of emails that have bounced.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSESModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSElasticLoadBalancingRegisterEndPointsInput/setInstances:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSElasticLoadBalancingModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSNumber *bounces</Declaration>
+			<Declaration>@property (nonatomic, strong) NSArray *instances</Declaration>
 			
 			
-			<Anchor>//api/name/bounces</Anchor>
+			<Anchor>//api/name/instances</Anchor>
             <NodeRef refid="685"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSSESSendDataPoint/bounces</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Number of emails that have bounced.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSESModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSElasticLoadBalancingRegisterEndPointsInput/instances</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSElasticLoadBalancingModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSNumber *bounces</Declaration>
+			<Declaration>@property (nonatomic, strong) NSArray *instances</Declaration>
 			
 			
-			<Anchor>//api/name/bounces</Anchor>
+			<Anchor>//api/name/instances</Anchor>
             <NodeRef refid="685"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSSESSendDataPoint/bounces</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Number of emails that have bounced.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSESModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSElasticLoadBalancingRegisterEndPointsInput/instances</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSElasticLoadBalancingModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSNumber *bounces</Declaration>
+			<Declaration>@property (nonatomic, strong) NSArray *instances</Declaration>
 			
 			
-			<Anchor>//api/name/bounces</Anchor>
+			<Anchor>//api/name/instances</Anchor>
             <NodeRef refid="685"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSSESSendDataPoint/setComplaints:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Number of unwanted emails that were rejected by recipients.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSESModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSElasticLoadBalancingRegisterEndPointsInput/setLoadBalancerName:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSElasticLoadBalancingModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSNumber *complaints</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *loadBalancerName</Declaration>
 			
 			
-			<Anchor>//api/name/complaints</Anchor>
+			<Anchor>//api/name/loadBalancerName</Anchor>
             <NodeRef refid="685"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSSESSendDataPoint/complaints</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Number of unwanted emails that were rejected by recipients.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSESModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSElasticLoadBalancingRegisterEndPointsInput/loadBalancerName</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSElasticLoadBalancingModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSNumber *complaints</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *loadBalancerName</Declaration>
 			
 			
-			<Anchor>//api/name/complaints</Anchor>
+			<Anchor>//api/name/loadBalancerName</Anchor>
             <NodeRef refid="685"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSSESSendDataPoint/complaints</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Number of unwanted emails that were rejected by recipients.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSESModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSElasticLoadBalancingRegisterEndPointsInput/loadBalancerName</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSElasticLoadBalancingModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSNumber *complaints</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *loadBalancerName</Declaration>
 			
 			
-			<Anchor>//api/name/complaints</Anchor>
+			<Anchor>//api/name/loadBalancerName</Anchor>
             <NodeRef refid="685"/>
 		</Token>
 		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSSESSendDataPoint/setDeliveryAttempts:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Number of emails that have been enqueued for sending.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSESModel.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSNumber *deliveryAttempts</Declaration>
-			
-			
-			<Anchor>//api/name/deliveryAttempts</Anchor>
-            <NodeRef refid="685"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSSESSendDataPoint/deliveryAttempts</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Number of emails that have been enqueued for sending.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSESModel.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSNumber *deliveryAttempts</Declaration>
-			
-			
-			<Anchor>//api/name/deliveryAttempts</Anchor>
-            <NodeRef refid="685"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSSESSendDataPoint/deliveryAttempts</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Number of emails that have been enqueued for sending.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSESModel.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSNumber *deliveryAttempts</Declaration>
-			
-			
-			<Anchor>//api/name/deliveryAttempts</Anchor>
-            <NodeRef refid="685"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSSESSendDataPoint/setRejects:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Number of emails rejected by Amazon SES.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSESModel.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSNumber *rejects</Declaration>
-			
-			
-			<Anchor>//api/name/rejects</Anchor>
-            <NodeRef refid="685"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSSESSendDataPoint/rejects</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Number of emails rejected by Amazon SES.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSESModel.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSNumber *rejects</Declaration>
-			
-			
-			<Anchor>//api/name/rejects</Anchor>
-            <NodeRef refid="685"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSSESSendDataPoint/rejects</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Number of emails rejected by Amazon SES.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSESModel.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSNumber *rejects</Declaration>
-			
-			
-			<Anchor>//api/name/rejects</Anchor>
-            <NodeRef refid="685"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSSESSendDataPoint/setTimestamp:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Time of the data point.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSESModel.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSDate *timestamp</Declaration>
-			
-			
-			<Anchor>//api/name/timestamp</Anchor>
-            <NodeRef refid="685"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSSESSendDataPoint/timestamp</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Time of the data point.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSESModel.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSDate *timestamp</Declaration>
-			
-			
-			<Anchor>//api/name/timestamp</Anchor>
-            <NodeRef refid="685"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSSESSendDataPoint/timestamp</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Time of the data point.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSESModel.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSDate *timestamp</Declaration>
-			
-			
-			<Anchor>//api/name/timestamp</Anchor>
-            <NodeRef refid="685"/>
-		</Token>
-		
+        
         
 	</File>
 </Tokens>

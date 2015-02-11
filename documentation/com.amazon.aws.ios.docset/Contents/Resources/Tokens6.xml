@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSAutoScalingAlarm.html">
+	<File path="Classes/AWSAutoScalingActivityType.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSAutoScalingAlarm</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The Alarm data type.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSAutoScalingActivityType</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; The output for the &lt;a&gt;TerminateInstanceInAutoScalingGroup&lt;/a&gt; action. &lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
             
 			
@@ -13,77 +13,42 @@
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingAlarm/setAlarmARN:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The Amazon Resource Name (ARN) of the alarm.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingActivityType/setActivity:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; A scaling Activity. &lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *alarmARN</Declaration>
+			<Declaration>@property (nonatomic, strong) AWSAutoScalingActivity *activity</Declaration>
 			
 			
-			<Anchor>//api/name/alarmARN</Anchor>
+			<Anchor>//api/name/activity</Anchor>
             <NodeRef refid="6"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingAlarm/alarmARN</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The Amazon Resource Name (ARN) of the alarm.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingActivityType/activity</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; A scaling Activity. &lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *alarmARN</Declaration>
+			<Declaration>@property (nonatomic, strong) AWSAutoScalingActivity *activity</Declaration>
 			
 			
-			<Anchor>//api/name/alarmARN</Anchor>
+			<Anchor>//api/name/activity</Anchor>
             <NodeRef refid="6"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSAutoScalingAlarm/alarmARN</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The Amazon Resource Name (ARN) of the alarm.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSAutoScalingActivityType/activity</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; A scaling Activity. &lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *alarmARN</Declaration>
+			<Declaration>@property (nonatomic, strong) AWSAutoScalingActivity *activity</Declaration>
 			
 			
-			<Anchor>//api/name/alarmARN</Anchor>
+			<Anchor>//api/name/activity</Anchor>
             <NodeRef refid="6"/>
 		</Token>
 		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingAlarm/setAlarmName:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The name of the alarm.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *alarmName</Declaration>
-			
-			
-			<Anchor>//api/name/alarmName</Anchor>
-            <NodeRef refid="6"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingAlarm/alarmName</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The name of the alarm.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *alarmName</Declaration>
-			
-			
-			<Anchor>//api/name/alarmName</Anchor>
-            <NodeRef refid="6"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSAutoScalingAlarm/alarmName</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The name of the alarm.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *alarmName</Declaration>
-			
-			
-			<Anchor>//api/name/alarmName</Anchor>
-            <NodeRef refid="6"/>
-		</Token>
-		
+        
         
 	</File>
 </Tokens>

@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSEC2ImportVolumeTaskDetails.html">
+	<File path="Classes/AWSEC2DescribeSubnetsResult.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSEC2ImportVolumeTaskDetails</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Describes an import volume task.&lt;/p&gt;
-Required parameters: [BytesConverted, AvailabilityZone, Image, Volume]</Abstract>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSEC2DescribeSubnetsResult</TokenIdentifier>
+			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
             
 			
@@ -14,149 +13,42 @@ Required parameters: [BytesConverted, AvailabilityZone, Image, Volume]</Abstract
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ImportVolumeTaskDetails/setAvailabilityZone:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The Availability Zone where the resulting volume will reside.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DescribeSubnetsResult/setSubnets:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Information about one or more subnets.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *availabilityZone</Declaration>
+			<Declaration>@property (nonatomic, strong) NSArray *subnets</Declaration>
 			
 			
-			<Anchor>//api/name/availabilityZone</Anchor>
+			<Anchor>//api/name/subnets</Anchor>
             <NodeRef refid="415"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ImportVolumeTaskDetails/availabilityZone</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The Availability Zone where the resulting volume will reside.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DescribeSubnetsResult/subnets</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Information about one or more subnets.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *availabilityZone</Declaration>
+			<Declaration>@property (nonatomic, strong) NSArray *subnets</Declaration>
 			
 			
-			<Anchor>//api/name/availabilityZone</Anchor>
+			<Anchor>//api/name/subnets</Anchor>
             <NodeRef refid="415"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2ImportVolumeTaskDetails/availabilityZone</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The Availability Zone where the resulting volume will reside.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2DescribeSubnetsResult/subnets</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Information about one or more subnets.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *availabilityZone</Declaration>
+			<Declaration>@property (nonatomic, strong) NSArray *subnets</Declaration>
 			
 			
-			<Anchor>//api/name/availabilityZone</Anchor>
+			<Anchor>//api/name/subnets</Anchor>
             <NodeRef refid="415"/>
 		</Token>
 		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ImportVolumeTaskDetails/setBytesConverted:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The number of bytes converted so far.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSNumber *bytesConverted</Declaration>
-			
-			
-			<Anchor>//api/name/bytesConverted</Anchor>
-            <NodeRef refid="415"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ImportVolumeTaskDetails/bytesConverted</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The number of bytes converted so far.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSNumber *bytesConverted</Declaration>
-			
-			
-			<Anchor>//api/name/bytesConverted</Anchor>
-            <NodeRef refid="415"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2ImportVolumeTaskDetails/bytesConverted</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The number of bytes converted so far.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSNumber *bytesConverted</Declaration>
-			
-			
-			<Anchor>//api/name/bytesConverted</Anchor>
-            <NodeRef refid="415"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ImportVolumeTaskDetails/setImage:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The image.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) AWSEC2DiskImageDescription *image</Declaration>
-			
-			
-			<Anchor>//api/name/image</Anchor>
-            <NodeRef refid="415"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ImportVolumeTaskDetails/image</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The image.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) AWSEC2DiskImageDescription *image</Declaration>
-			
-			
-			<Anchor>//api/name/image</Anchor>
-            <NodeRef refid="415"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2ImportVolumeTaskDetails/image</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The image.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) AWSEC2DiskImageDescription *image</Declaration>
-			
-			
-			<Anchor>//api/name/image</Anchor>
-            <NodeRef refid="415"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ImportVolumeTaskDetails/setVolume:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The volume.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) AWSEC2DiskImageVolumeDescription *volume</Declaration>
-			
-			
-			<Anchor>//api/name/volume</Anchor>
-            <NodeRef refid="415"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ImportVolumeTaskDetails/volume</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The volume.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) AWSEC2DiskImageVolumeDescription *volume</Declaration>
-			
-			
-			<Anchor>//api/name/volume</Anchor>
-            <NodeRef refid="415"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2ImportVolumeTaskDetails/volume</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The volume.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) AWSEC2DiskImageVolumeDescription *volume</Declaration>
-			
-			
-			<Anchor>//api/name/volume</Anchor>
-            <NodeRef refid="415"/>
-		</Token>
-		
+        
         
 	</File>
 </Tokens>

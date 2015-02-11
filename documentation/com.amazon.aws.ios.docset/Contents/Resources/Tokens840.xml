@@ -1,127 +1,162 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Constants/AWSCognitoSyncErrorType.html">
+	<File path="Classes/AWSS3PutBucketVersioningRequest.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/c/tdef/AWSCognitoSyncErrorType</TokenIdentifier>
-			<Abstract type="html">Copyright 2014 Amazon.com, Inc. or its affiliates. All Rights Reserved.</Abstract>
-			<DeclaredIn>AWSCognitoSyncModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSS3PutBucketVersioningRequest</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
             
 			
 			<NodeRef refid="840"/>
 		</Token>
 		
 		
-        
-        <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSCognitoSyncErrorUnknown</TokenIdentifier>
-            <Abstract type="html"></Abstract>
-            <Declaration>AWSCognitoSyncErrorUnknown</Declaration>
-            
-            <DeclaredIn>AWSCognitoSyncModel.h</DeclaredIn>
-            
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3PutBucketVersioningRequest/setBucket:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *bucket</Declaration>
+			
+			
+			<Anchor>//api/name/bucket</Anchor>
             <NodeRef refid="840"/>
-        </Token>
-        
-        <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSCognitoSyncErrorIncompleteSignature</TokenIdentifier>
-            <Abstract type="html"></Abstract>
-            <Declaration>AWSCognitoSyncErrorIncompleteSignature</Declaration>
-            
-            <DeclaredIn>AWSCognitoSyncModel.h</DeclaredIn>
-            
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3PutBucketVersioningRequest/bucket</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *bucket</Declaration>
+			
+			
+			<Anchor>//api/name/bucket</Anchor>
             <NodeRef refid="840"/>
-        </Token>
-        
-        <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSCognitoSyncErrorInvalidClientTokenId</TokenIdentifier>
-            <Abstract type="html"></Abstract>
-            <Declaration>AWSCognitoSyncErrorInvalidClientTokenId</Declaration>
-            
-            <DeclaredIn>AWSCognitoSyncModel.h</DeclaredIn>
-            
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSS3PutBucketVersioningRequest/bucket</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *bucket</Declaration>
+			
+			
+			<Anchor>//api/name/bucket</Anchor>
             <NodeRef refid="840"/>
-        </Token>
-        
-        <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSCognitoSyncErrorMissingAuthenticationToken</TokenIdentifier>
-            <Abstract type="html"></Abstract>
-            <Declaration>AWSCognitoSyncErrorMissingAuthenticationToken</Declaration>
-            
-            <DeclaredIn>AWSCognitoSyncModel.h</DeclaredIn>
-            
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3PutBucketVersioningRequest/setContentMD5:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *contentMD5</Declaration>
+			
+			
+			<Anchor>//api/name/contentMD5</Anchor>
             <NodeRef refid="840"/>
-        </Token>
-        
-        <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSCognitoSyncErrorInternalError</TokenIdentifier>
-            <Abstract type="html"></Abstract>
-            <Declaration>AWSCognitoSyncErrorInternalError</Declaration>
-            
-            <DeclaredIn>AWSCognitoSyncModel.h</DeclaredIn>
-            
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3PutBucketVersioningRequest/contentMD5</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *contentMD5</Declaration>
+			
+			
+			<Anchor>//api/name/contentMD5</Anchor>
             <NodeRef refid="840"/>
-        </Token>
-        
-        <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSCognitoSyncErrorInvalidParameter</TokenIdentifier>
-            <Abstract type="html"></Abstract>
-            <Declaration>AWSCognitoSyncErrorInvalidParameter</Declaration>
-            
-            <DeclaredIn>AWSCognitoSyncModel.h</DeclaredIn>
-            
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSS3PutBucketVersioningRequest/contentMD5</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *contentMD5</Declaration>
+			
+			
+			<Anchor>//api/name/contentMD5</Anchor>
             <NodeRef refid="840"/>
-        </Token>
-        
-        <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSCognitoSyncErrorLimitExceeded</TokenIdentifier>
-            <Abstract type="html"></Abstract>
-            <Declaration>AWSCognitoSyncErrorLimitExceeded</Declaration>
-            
-            <DeclaredIn>AWSCognitoSyncModel.h</DeclaredIn>
-            
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3PutBucketVersioningRequest/setMFA:</TokenIdentifier>
+			<Abstract type="html">The concatenation of the authentication device&apos;s serial number, a space, and the value that is displayed on your authentication device.</Abstract>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *MFA</Declaration>
+			
+			
+			<Anchor>//api/name/MFA</Anchor>
             <NodeRef refid="840"/>
-        </Token>
-        
-        <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSCognitoSyncErrorNotAuthorized</TokenIdentifier>
-            <Abstract type="html"></Abstract>
-            <Declaration>AWSCognitoSyncErrorNotAuthorized</Declaration>
-            
-            <DeclaredIn>AWSCognitoSyncModel.h</DeclaredIn>
-            
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3PutBucketVersioningRequest/MFA</TokenIdentifier>
+			<Abstract type="html">The concatenation of the authentication device&apos;s serial number, a space, and the value that is displayed on your authentication device.</Abstract>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *MFA</Declaration>
+			
+			
+			<Anchor>//api/name/MFA</Anchor>
             <NodeRef refid="840"/>
-        </Token>
-        
-        <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSCognitoSyncErrorResourceConflict</TokenIdentifier>
-            <Abstract type="html"></Abstract>
-            <Declaration>AWSCognitoSyncErrorResourceConflict</Declaration>
-            
-            <DeclaredIn>AWSCognitoSyncModel.h</DeclaredIn>
-            
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSS3PutBucketVersioningRequest/MFA</TokenIdentifier>
+			<Abstract type="html">The concatenation of the authentication device&apos;s serial number, a space, and the value that is displayed on your authentication device.</Abstract>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *MFA</Declaration>
+			
+			
+			<Anchor>//api/name/MFA</Anchor>
             <NodeRef refid="840"/>
-        </Token>
-        
-        <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSCognitoSyncErrorResourceNotFound</TokenIdentifier>
-            <Abstract type="html"></Abstract>
-            <Declaration>AWSCognitoSyncErrorResourceNotFound</Declaration>
-            
-            <DeclaredIn>AWSCognitoSyncModel.h</DeclaredIn>
-            
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3PutBucketVersioningRequest/setVersioningConfiguration:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) AWSS3VersioningConfiguration *versioningConfiguration</Declaration>
+			
+			
+			<Anchor>//api/name/versioningConfiguration</Anchor>
             <NodeRef refid="840"/>
-        </Token>
-        
-        <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSCognitoSyncErrorTooManyRequests</TokenIdentifier>
-            <Abstract type="html"></Abstract>
-            <Declaration>AWSCognitoSyncErrorTooManyRequests</Declaration>
-            
-            <DeclaredIn>AWSCognitoSyncModel.h</DeclaredIn>
-            
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3PutBucketVersioningRequest/versioningConfiguration</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) AWSS3VersioningConfiguration *versioningConfiguration</Declaration>
+			
+			
+			<Anchor>//api/name/versioningConfiguration</Anchor>
             <NodeRef refid="840"/>
-        </Token>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSS3PutBucketVersioningRequest/versioningConfiguration</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) AWSS3VersioningConfiguration *versioningConfiguration</Declaration>
+			
+			
+			<Anchor>//api/name/versioningConfiguration</Anchor>
+            <NodeRef refid="840"/>
+		</Token>
+		
+        
         
 	</File>
 </Tokens>

@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSCognitoIdentityUnlinkIdentityInput.html">
+	<File path="Classes/AWSCognitoIdentityGetOpenIdTokenForDeveloperIdentityResponse.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSCognitoIdentityUnlinkIdentityInput</TokenIdentifier>
-			<Abstract type="html">Input to the UnlinkIdentity action.
-Required parameters: [IdentityId, Logins, LoginsToRemove]</Abstract>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSCognitoIdentityGetOpenIdTokenForDeveloperIdentityResponse</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Returned in response to a successful &lt;code&gt;GetOpenIdTokenForDeveloperIdentity&lt;/code&gt; request.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSCognitoIdentityModel.h</DeclaredIn>
             
 			
@@ -14,8 +13,8 @@ Required parameters: [IdentityId, Logins, LoginsToRemove]</Abstract>
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoIdentityUnlinkIdentityInput/setIdentityId:</TokenIdentifier>
-			<Abstract type="html">A unique identifier in the format REGION:GUID.</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoIdentityGetOpenIdTokenForDeveloperIdentityResponse/setIdentityId:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;A unique identifier in the format REGION:GUID.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSCognitoIdentityModel.h</DeclaredIn>
 			
 			<Declaration>@property (nonatomic, strong) NSString *identityId</Declaration>
@@ -26,8 +25,8 @@ Required parameters: [IdentityId, Logins, LoginsToRemove]</Abstract>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoIdentityUnlinkIdentityInput/identityId</TokenIdentifier>
-			<Abstract type="html">A unique identifier in the format REGION:GUID.</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoIdentityGetOpenIdTokenForDeveloperIdentityResponse/identityId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;A unique identifier in the format REGION:GUID.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSCognitoIdentityModel.h</DeclaredIn>
 			
 			<Declaration>@property (nonatomic, strong) NSString *identityId</Declaration>
@@ -38,8 +37,8 @@ Required parameters: [IdentityId, Logins, LoginsToRemove]</Abstract>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSCognitoIdentityUnlinkIdentityInput/identityId</TokenIdentifier>
-			<Abstract type="html">A unique identifier in the format REGION:GUID.</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSCognitoIdentityGetOpenIdTokenForDeveloperIdentityResponse/identityId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;A unique identifier in the format REGION:GUID.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSCognitoIdentityModel.h</DeclaredIn>
 			
 			<Declaration>@property (nonatomic, strong) NSString *identityId</Declaration>
@@ -50,77 +49,42 @@ Required parameters: [IdentityId, Logins, LoginsToRemove]</Abstract>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoIdentityUnlinkIdentityInput/setLogins:</TokenIdentifier>
-			<Abstract type="html">A set of optional name/value pairs that map provider names to provider tokens.</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoIdentityGetOpenIdTokenForDeveloperIdentityResponse/setToken:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;An OpenID token.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSCognitoIdentityModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSDictionary *logins</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *token</Declaration>
 			
 			
-			<Anchor>//api/name/logins</Anchor>
+			<Anchor>//api/name/token</Anchor>
             <NodeRef refid="131"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoIdentityUnlinkIdentityInput/logins</TokenIdentifier>
-			<Abstract type="html">A set of optional name/value pairs that map provider names to provider tokens.</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoIdentityGetOpenIdTokenForDeveloperIdentityResponse/token</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;An OpenID token.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSCognitoIdentityModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSDictionary *logins</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *token</Declaration>
 			
 			
-			<Anchor>//api/name/logins</Anchor>
+			<Anchor>//api/name/token</Anchor>
             <NodeRef refid="131"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSCognitoIdentityUnlinkIdentityInput/logins</TokenIdentifier>
-			<Abstract type="html">A set of optional name/value pairs that map provider names to provider tokens.</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSCognitoIdentityGetOpenIdTokenForDeveloperIdentityResponse/token</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;An OpenID token.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSCognitoIdentityModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSDictionary *logins</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *token</Declaration>
 			
 			
-			<Anchor>//api/name/logins</Anchor>
+			<Anchor>//api/name/token</Anchor>
             <NodeRef refid="131"/>
 		</Token>
 		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoIdentityUnlinkIdentityInput/setLoginsToRemove:</TokenIdentifier>
-			<Abstract type="html">Provider names to unlink from this identity.</Abstract>
-			<DeclaredIn>AWSCognitoIdentityModel.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSArray *loginsToRemove</Declaration>
-			
-			
-			<Anchor>//api/name/loginsToRemove</Anchor>
-            <NodeRef refid="131"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoIdentityUnlinkIdentityInput/loginsToRemove</TokenIdentifier>
-			<Abstract type="html">Provider names to unlink from this identity.</Abstract>
-			<DeclaredIn>AWSCognitoIdentityModel.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSArray *loginsToRemove</Declaration>
-			
-			
-			<Anchor>//api/name/loginsToRemove</Anchor>
-            <NodeRef refid="131"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSCognitoIdentityUnlinkIdentityInput/loginsToRemove</TokenIdentifier>
-			<Abstract type="html">Provider names to unlink from this identity.</Abstract>
-			<DeclaredIn>AWSCognitoIdentityModel.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSArray *loginsToRemove</Declaration>
-			
-			
-			<Anchor>//api/name/loginsToRemove</Anchor>
-            <NodeRef refid="131"/>
-		</Token>
-		
+        
         
 	</File>
 </Tokens>

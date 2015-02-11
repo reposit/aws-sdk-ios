@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSSNSCreatePlatformApplicationInput.html">
+	<File path="Classes/AWSKinesisGetRecordsInput.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSSNSCreatePlatformApplicationInput</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Input for CreatePlatformApplication action.&lt;/p&gt;
-Required parameters: [Name, Platform, Attributes]</Abstract>
-			<DeclaredIn>AWSSNSModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSKinesisGetRecordsInput</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Represents the input for &lt;code&gt;GetRecords&lt;/code&gt;.&lt;/p&gt;
+Required parameters: [ShardIterator]</Abstract>
+			<DeclaredIn>AWSKinesisModel.h</DeclaredIn>
             
 			
 			<NodeRef refid="708"/>
@@ -14,113 +14,78 @@ Required parameters: [Name, Platform, Attributes]</Abstract>
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSSNSCreatePlatformApplicationInput/setAttributes:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;For a list of attributes, see SetPlatformApplicationAttributes&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSNSModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSKinesisGetRecordsInput/setLimit:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The maximum number of records to return. Specify a value of up to 10,000. If you specify a value that is greater than 10,000, &lt;code&gt;GetRecords&lt;/code&gt; throws &lt;code&gt;InvalidArgumentException&lt;/code&gt;.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSKinesisModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSDictionary *attributes</Declaration>
+			<Declaration>@property (nonatomic, strong) NSNumber *limit</Declaration>
 			
 			
-			<Anchor>//api/name/attributes</Anchor>
+			<Anchor>//api/name/limit</Anchor>
             <NodeRef refid="708"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSSNSCreatePlatformApplicationInput/attributes</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;For a list of attributes, see SetPlatformApplicationAttributes&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSNSModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSKinesisGetRecordsInput/limit</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The maximum number of records to return. Specify a value of up to 10,000. If you specify a value that is greater than 10,000, &lt;code&gt;GetRecords&lt;/code&gt; throws &lt;code&gt;InvalidArgumentException&lt;/code&gt;.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSKinesisModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSDictionary *attributes</Declaration>
+			<Declaration>@property (nonatomic, strong) NSNumber *limit</Declaration>
 			
 			
-			<Anchor>//api/name/attributes</Anchor>
+			<Anchor>//api/name/limit</Anchor>
             <NodeRef refid="708"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSSNSCreatePlatformApplicationInput/attributes</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;For a list of attributes, see SetPlatformApplicationAttributes&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSNSModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSKinesisGetRecordsInput/limit</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The maximum number of records to return. Specify a value of up to 10,000. If you specify a value that is greater than 10,000, &lt;code&gt;GetRecords&lt;/code&gt; throws &lt;code&gt;InvalidArgumentException&lt;/code&gt;.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSKinesisModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSDictionary *attributes</Declaration>
+			<Declaration>@property (nonatomic, strong) NSNumber *limit</Declaration>
 			
 			
-			<Anchor>//api/name/attributes</Anchor>
+			<Anchor>//api/name/limit</Anchor>
             <NodeRef refid="708"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSSNSCreatePlatformApplicationInput/setName:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Application names must be made up of only uppercase and lowercase ASCII letters, numbers, underscores, hyphens, and periods, and must be between 1 and 256 characters long.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSNSModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSKinesisGetRecordsInput/setShardIterator:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The position in the shard from which you want to start sequentially reading data records. A shard iterator specifies this position using the sequence number of a data record in the shard.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSKinesisModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *name</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *shardIterator</Declaration>
 			
 			
-			<Anchor>//api/name/name</Anchor>
+			<Anchor>//api/name/shardIterator</Anchor>
             <NodeRef refid="708"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSSNSCreatePlatformApplicationInput/name</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Application names must be made up of only uppercase and lowercase ASCII letters, numbers, underscores, hyphens, and periods, and must be between 1 and 256 characters long.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSNSModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSKinesisGetRecordsInput/shardIterator</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The position in the shard from which you want to start sequentially reading data records. A shard iterator specifies this position using the sequence number of a data record in the shard.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSKinesisModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *name</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *shardIterator</Declaration>
 			
 			
-			<Anchor>//api/name/name</Anchor>
+			<Anchor>//api/name/shardIterator</Anchor>
             <NodeRef refid="708"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSSNSCreatePlatformApplicationInput/name</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Application names must be made up of only uppercase and lowercase ASCII letters, numbers, underscores, hyphens, and periods, and must be between 1 and 256 characters long.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSNSModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSKinesisGetRecordsInput/shardIterator</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The position in the shard from which you want to start sequentially reading data records. A shard iterator specifies this position using the sequence number of a data record in the shard.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSKinesisModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *name</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *shardIterator</Declaration>
 			
 			
-			<Anchor>//api/name/name</Anchor>
+			<Anchor>//api/name/shardIterator</Anchor>
             <NodeRef refid="708"/>
 		</Token>
 		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSSNSCreatePlatformApplicationInput/setPlatform:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The following platforms are supported: ADM (Amazon Device Messaging), APNS (Apple Push Notification Service), APNS_SANDBOX, and GCM (Google Cloud Messaging).&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSNSModel.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *platform</Declaration>
-			
-			
-			<Anchor>//api/name/platform</Anchor>
-            <NodeRef refid="708"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSSNSCreatePlatformApplicationInput/platform</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The following platforms are supported: ADM (Amazon Device Messaging), APNS (Apple Push Notification Service), APNS_SANDBOX, and GCM (Google Cloud Messaging).&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSNSModel.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *platform</Declaration>
-			
-			
-			<Anchor>//api/name/platform</Anchor>
-            <NodeRef refid="708"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSSNSCreatePlatformApplicationInput/platform</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The following platforms are supported: ADM (Amazon Device Messaging), APNS (Apple Push Notification Service), APNS_SANDBOX, and GCM (Google Cloud Messaging).&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSNSModel.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *platform</Declaration>
-			
-			
-			<Anchor>//api/name/platform</Anchor>
-            <NodeRef refid="708"/>
-		</Token>
-		
+        
         
 	</File>
 </Tokens>

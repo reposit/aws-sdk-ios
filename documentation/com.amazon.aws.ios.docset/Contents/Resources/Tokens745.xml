@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSSNSSubscribeResponse.html">
+	<File path="Classes/AWSS3CORSConfiguration.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSSNSSubscribeResponse</TokenIdentifier>
-			<Abstract type="html">Response for Subscribe action.</Abstract>
-			<DeclaredIn>AWSSNSModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSS3CORSConfiguration</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
             
 			
 			<NodeRef refid="745"/>
@@ -13,41 +13,42 @@
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSSNSSubscribeResponse/setSubscriptionArn:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The ARN of the subscription, if the service was able to create a subscription immediately (without requiring endpoint owner confirmation).&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSNSModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3CORSConfiguration/setCORSRules:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *subscriptionArn</Declaration>
+			<Declaration>@property (nonatomic, strong) NSArray *CORSRules</Declaration>
 			
 			
-			<Anchor>//api/name/subscriptionArn</Anchor>
+			<Anchor>//api/name/CORSRules</Anchor>
             <NodeRef refid="745"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSSNSSubscribeResponse/subscriptionArn</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The ARN of the subscription, if the service was able to create a subscription immediately (without requiring endpoint owner confirmation).&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSNSModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3CORSConfiguration/CORSRules</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *subscriptionArn</Declaration>
+			<Declaration>@property (nonatomic, strong) NSArray *CORSRules</Declaration>
 			
 			
-			<Anchor>//api/name/subscriptionArn</Anchor>
+			<Anchor>//api/name/CORSRules</Anchor>
             <NodeRef refid="745"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSSNSSubscribeResponse/subscriptionArn</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The ARN of the subscription, if the service was able to create a subscription immediately (without requiring endpoint owner confirmation).&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSNSModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSS3CORSConfiguration/CORSRules</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *subscriptionArn</Declaration>
+			<Declaration>@property (nonatomic, strong) NSArray *CORSRules</Declaration>
 			
 			
-			<Anchor>//api/name/subscriptionArn</Anchor>
+			<Anchor>//api/name/CORSRules</Anchor>
             <NodeRef refid="745"/>
 		</Token>
 		
+        
         
 	</File>
 </Tokens>

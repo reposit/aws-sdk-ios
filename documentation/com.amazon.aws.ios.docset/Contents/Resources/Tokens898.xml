@@ -1,67 +1,55 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Constants/AWSEC2ReservedInstanceState.html">
+	<File path="Classes/AWSSESSendRawEmailResponse.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/c/tdef/AWSEC2ReservedInstanceState</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSSESSendRawEmailResponse</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Represents a unique message ID returned from a successful &lt;code&gt;SendRawEmail&lt;/code&gt; request. &lt;/p&gt;
+Required parameters: [MessageId]</Abstract>
+			<DeclaredIn>AWSSESModel.h</DeclaredIn>
             
 			
 			<NodeRef refid="898"/>
 		</Token>
 		
 		
-        
-        <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSEC2ReservedInstanceStateUnknown</TokenIdentifier>
-            <Abstract type="html"></Abstract>
-            <Declaration>AWSEC2ReservedInstanceStateUnknown</Declaration>
-            
-            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
-            
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSESSendRawEmailResponse/setMessageId:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The unique message identifier returned from the &lt;code&gt;SendRawEmail&lt;/code&gt; action. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSESModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *messageId</Declaration>
+			
+			
+			<Anchor>//api/name/messageId</Anchor>
             <NodeRef refid="898"/>
-        </Token>
-        
-        <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSEC2ReservedInstanceStatePaymentPending</TokenIdentifier>
-            <Abstract type="html"></Abstract>
-            <Declaration>AWSEC2ReservedInstanceStatePaymentPending</Declaration>
-            
-            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
-            
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSESSendRawEmailResponse/messageId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The unique message identifier returned from the &lt;code&gt;SendRawEmail&lt;/code&gt; action. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSESModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *messageId</Declaration>
+			
+			
+			<Anchor>//api/name/messageId</Anchor>
             <NodeRef refid="898"/>
-        </Token>
-        
-        <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSEC2ReservedInstanceStateActive</TokenIdentifier>
-            <Abstract type="html"></Abstract>
-            <Declaration>AWSEC2ReservedInstanceStateActive</Declaration>
-            
-            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
-            
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSSESSendRawEmailResponse/messageId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The unique message identifier returned from the &lt;code&gt;SendRawEmail&lt;/code&gt; action. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSESModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *messageId</Declaration>
+			
+			
+			<Anchor>//api/name/messageId</Anchor>
             <NodeRef refid="898"/>
-        </Token>
+		</Token>
+		
         
-        <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSEC2ReservedInstanceStatePaymentFailed</TokenIdentifier>
-            <Abstract type="html"></Abstract>
-            <Declaration>AWSEC2ReservedInstanceStatePaymentFailed</Declaration>
-            
-            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
-            
-            <NodeRef refid="898"/>
-        </Token>
-        
-        <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSEC2ReservedInstanceStateRetired</TokenIdentifier>
-            <Abstract type="html"></Abstract>
-            <Declaration>AWSEC2ReservedInstanceStateRetired</Declaration>
-            
-            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
-            
-            <NodeRef refid="898"/>
-        </Token>
         
 	</File>
 </Tokens>

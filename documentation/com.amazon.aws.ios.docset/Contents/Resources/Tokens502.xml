@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSEC2ResetImageAttributeRequest.html">
+	<File path="Classes/AWSEC2LaunchPermissionModifications.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSEC2ResetImageAttributeRequest</TokenIdentifier>
-			<Abstract type="html"></Abstract>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSEC2LaunchPermissionModifications</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Describes a launch permission modification.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
             
 			
@@ -13,77 +13,78 @@
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ResetImageAttributeRequest/setAttribute:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The attribute to reset (currently you can only reset the launch permission attribute).&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2LaunchPermissionModifications/setAdd:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The AWS account ID to add to the list of launch permissions for the AMI.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, assign) AWSEC2ResetImageAttributeName attribute</Declaration>
+			<Declaration>@property (nonatomic, strong) NSArray *add</Declaration>
 			
 			
-			<Anchor>//api/name/attribute</Anchor>
+			<Anchor>//api/name/add</Anchor>
             <NodeRef refid="502"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ResetImageAttributeRequest/attribute</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The attribute to reset (currently you can only reset the launch permission attribute).&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2LaunchPermissionModifications/add</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The AWS account ID to add to the list of launch permissions for the AMI.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, assign) AWSEC2ResetImageAttributeName attribute</Declaration>
+			<Declaration>@property (nonatomic, strong) NSArray *add</Declaration>
 			
 			
-			<Anchor>//api/name/attribute</Anchor>
+			<Anchor>//api/name/add</Anchor>
             <NodeRef refid="502"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2ResetImageAttributeRequest/attribute</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The attribute to reset (currently you can only reset the launch permission attribute).&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2LaunchPermissionModifications/add</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The AWS account ID to add to the list of launch permissions for the AMI.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, assign) AWSEC2ResetImageAttributeName attribute</Declaration>
+			<Declaration>@property (nonatomic, strong) NSArray *add</Declaration>
 			
 			
-			<Anchor>//api/name/attribute</Anchor>
+			<Anchor>//api/name/add</Anchor>
             <NodeRef refid="502"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ResetImageAttributeRequest/setImageId:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The ID of the AMI.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2LaunchPermissionModifications/setRemove:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The AWS account ID to remove from the list of launch permissions for the AMI.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *imageId</Declaration>
+			<Declaration>@property (nonatomic, strong) NSArray *remove</Declaration>
 			
 			
-			<Anchor>//api/name/imageId</Anchor>
+			<Anchor>//api/name/remove</Anchor>
             <NodeRef refid="502"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ResetImageAttributeRequest/imageId</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The ID of the AMI.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2LaunchPermissionModifications/remove</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The AWS account ID to remove from the list of launch permissions for the AMI.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *imageId</Declaration>
+			<Declaration>@property (nonatomic, strong) NSArray *remove</Declaration>
 			
 			
-			<Anchor>//api/name/imageId</Anchor>
+			<Anchor>//api/name/remove</Anchor>
             <NodeRef refid="502"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2ResetImageAttributeRequest/imageId</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The ID of the AMI.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2LaunchPermissionModifications/remove</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The AWS account ID to remove from the list of launch permissions for the AMI.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *imageId</Declaration>
+			<Declaration>@property (nonatomic, strong) NSArray *remove</Declaration>
 			
 			
-			<Anchor>//api/name/imageId</Anchor>
+			<Anchor>//api/name/remove</Anchor>
             <NodeRef refid="502"/>
 		</Token>
 		
+        
         
 	</File>
 </Tokens>

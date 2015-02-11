@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSSNSAddPermissionInput.html">
+	<File path="Classes/AWSKinesisCreateStreamInput.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSSNSAddPermissionInput</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSSNSModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSKinesisCreateStreamInput</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Represents the input for &lt;code&gt;CreateStream&lt;/code&gt;.&lt;/p&gt;
+Required parameters: [StreamName, ShardCount]</Abstract>
+			<DeclaredIn>AWSKinesisModel.h</DeclaredIn>
             
 			
 			<NodeRef refid="704"/>
@@ -13,149 +14,78 @@
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSSNSAddPermissionInput/setAWSAccountId:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The AWS account IDs of the users (principals) who will be given access to the specified actions. The users must have AWS accounts, but do not need to be signed up for this service. &lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSNSModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSKinesisCreateStreamInput/setShardCount:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The number of shards that the stream will use. The throughput of the stream is a function of the number of shards; more shards are required for greater provisioned throughput.&lt;/p&gt;&lt;p&gt;&lt;b&gt;Note:&lt;/b&gt; The default limit for an AWS account is 10 shards per stream. If you need to create a stream with more than 10 shards, contact AWS Support to increase the limit on your account.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSKinesisModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSArray *AWSAccountId</Declaration>
+			<Declaration>@property (nonatomic, strong) NSNumber *shardCount</Declaration>
 			
 			
-			<Anchor>//api/name/AWSAccountId</Anchor>
+			<Anchor>//api/name/shardCount</Anchor>
             <NodeRef refid="704"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSSNSAddPermissionInput/AWSAccountId</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The AWS account IDs of the users (principals) who will be given access to the specified actions. The users must have AWS accounts, but do not need to be signed up for this service. &lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSNSModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSKinesisCreateStreamInput/shardCount</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The number of shards that the stream will use. The throughput of the stream is a function of the number of shards; more shards are required for greater provisioned throughput.&lt;/p&gt;&lt;p&gt;&lt;b&gt;Note:&lt;/b&gt; The default limit for an AWS account is 10 shards per stream. If you need to create a stream with more than 10 shards, contact AWS Support to increase the limit on your account.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSKinesisModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSArray *AWSAccountId</Declaration>
+			<Declaration>@property (nonatomic, strong) NSNumber *shardCount</Declaration>
 			
 			
-			<Anchor>//api/name/AWSAccountId</Anchor>
+			<Anchor>//api/name/shardCount</Anchor>
             <NodeRef refid="704"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSSNSAddPermissionInput/AWSAccountId</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The AWS account IDs of the users (principals) who will be given access to the specified actions. The users must have AWS accounts, but do not need to be signed up for this service. &lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSNSModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSKinesisCreateStreamInput/shardCount</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The number of shards that the stream will use. The throughput of the stream is a function of the number of shards; more shards are required for greater provisioned throughput.&lt;/p&gt;&lt;p&gt;&lt;b&gt;Note:&lt;/b&gt; The default limit for an AWS account is 10 shards per stream. If you need to create a stream with more than 10 shards, contact AWS Support to increase the limit on your account.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSKinesisModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSArray *AWSAccountId</Declaration>
+			<Declaration>@property (nonatomic, strong) NSNumber *shardCount</Declaration>
 			
 			
-			<Anchor>//api/name/AWSAccountId</Anchor>
+			<Anchor>//api/name/shardCount</Anchor>
             <NodeRef refid="704"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSSNSAddPermissionInput/setActionName:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The action you want to allow for the specified principal(s).&lt;/p&gt;&lt;p&gt;Valid values: any Amazon SNS action name.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSNSModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSKinesisCreateStreamInput/setStreamName:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;A name to identify the stream. The stream name is scoped to the AWS account used by the application that creates the stream. It is also scoped by region. That is, two streams in two different AWS accounts can have the same name, and two streams in the same AWS account, but in two different regions, can have the same name.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSKinesisModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSArray *actionName</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *streamName</Declaration>
 			
 			
-			<Anchor>//api/name/actionName</Anchor>
+			<Anchor>//api/name/streamName</Anchor>
             <NodeRef refid="704"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSSNSAddPermissionInput/actionName</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The action you want to allow for the specified principal(s).&lt;/p&gt;&lt;p&gt;Valid values: any Amazon SNS action name.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSNSModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSKinesisCreateStreamInput/streamName</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;A name to identify the stream. The stream name is scoped to the AWS account used by the application that creates the stream. It is also scoped by region. That is, two streams in two different AWS accounts can have the same name, and two streams in the same AWS account, but in two different regions, can have the same name.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSKinesisModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSArray *actionName</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *streamName</Declaration>
 			
 			
-			<Anchor>//api/name/actionName</Anchor>
+			<Anchor>//api/name/streamName</Anchor>
             <NodeRef refid="704"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSSNSAddPermissionInput/actionName</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The action you want to allow for the specified principal(s).&lt;/p&gt;&lt;p&gt;Valid values: any Amazon SNS action name.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSNSModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSKinesisCreateStreamInput/streamName</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;A name to identify the stream. The stream name is scoped to the AWS account used by the application that creates the stream. It is also scoped by region. That is, two streams in two different AWS accounts can have the same name, and two streams in the same AWS account, but in two different regions, can have the same name.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSKinesisModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSArray *actionName</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *streamName</Declaration>
 			
 			
-			<Anchor>//api/name/actionName</Anchor>
+			<Anchor>//api/name/streamName</Anchor>
             <NodeRef refid="704"/>
 		</Token>
 		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSSNSAddPermissionInput/setLabel:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;A unique identifier for the new policy statement.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSNSModel.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *label</Declaration>
-			
-			
-			<Anchor>//api/name/label</Anchor>
-            <NodeRef refid="704"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSSNSAddPermissionInput/label</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;A unique identifier for the new policy statement.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSNSModel.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *label</Declaration>
-			
-			
-			<Anchor>//api/name/label</Anchor>
-            <NodeRef refid="704"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSSNSAddPermissionInput/label</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;A unique identifier for the new policy statement.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSNSModel.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *label</Declaration>
-			
-			
-			<Anchor>//api/name/label</Anchor>
-            <NodeRef refid="704"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSSNSAddPermissionInput/setTopicArn:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The ARN of the topic whose access control policy you wish to modify.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSNSModel.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *topicArn</Declaration>
-			
-			
-			<Anchor>//api/name/topicArn</Anchor>
-            <NodeRef refid="704"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSSNSAddPermissionInput/topicArn</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The ARN of the topic whose access control policy you wish to modify.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSNSModel.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *topicArn</Declaration>
-			
-			
-			<Anchor>//api/name/topicArn</Anchor>
-            <NodeRef refid="704"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSSNSAddPermissionInput/topicArn</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The ARN of the topic whose access control policy you wish to modify.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSNSModel.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *topicArn</Declaration>
-			
-			
-			<Anchor>//api/name/topicArn</Anchor>
-            <NodeRef refid="704"/>
-		</Token>
-		
+        
         
 	</File>
 </Tokens>

@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Categories/NSDate+AWS.html">
+	<File path="Classes/AWSS3LoggingEnabled.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cat/NSDate(AWS)</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSS3LoggingEnabled</TokenIdentifier>
 			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSCategory.h</DeclaredIn>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
             
 			
 			<NodeRef refid="821"/>
@@ -13,35 +13,114 @@
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/NSDate/aws_setRuntimeClockSkew:</TokenIdentifier>
-			<Abstract type="html">Set the clock skew for the current device.  This clock skew will be used for calculating
-signatures to AWS signatures and for parsing/converting date values from responses.</Abstract>
-			<DeclaredIn>AWSCategory.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3LoggingEnabled/setTargetBucket:</TokenIdentifier>
+			<Abstract type="html">Specifies the bucket where you want Amazon S3 to store server access logs. You can have your logs delivered to any bucket that you own, including the same bucket that is being logged. You can also configure multiple buckets to deliver their logs to the same target bucket. In this case you should choose a different TargetPrefix for each source bucket so that the delivered log files can be distinguished by key.</Abstract>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>+ (void)aws_setRuntimeClockSkew:(NSTimeInterval)clockskew</Declaration>
-			<Parameters>
-				<Parameter>
-					<Name>clockskew</Name>
-					<Abstract type="html">the skew (in seconds) for this device.  If the clock on the device is fast, pass positive skew to correct.  If the clock on the device is slow, pass negative skew to correct.</Abstract>
-				</Parameter>
-			</Parameters>
+			<Declaration>@property (nonatomic, strong) NSString *targetBucket</Declaration>
 			
-			<Anchor>//api/name/aws_setRuntimeClockSkew:</Anchor>
+			
+			<Anchor>//api/name/targetBucket</Anchor>
             <NodeRef refid="821"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/NSDate/aws_getRuntimeClockSkew</TokenIdentifier>
-			<Abstract type="html">Get the clock skew for the current device.</Abstract>
-			<DeclaredIn>AWSCategory.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3LoggingEnabled/targetBucket</TokenIdentifier>
+			<Abstract type="html">Specifies the bucket where you want Amazon S3 to store server access logs. You can have your logs delivered to any bucket that you own, including the same bucket that is being logged. You can also configure multiple buckets to deliver their logs to the same target bucket. In this case you should choose a different TargetPrefix for each source bucket so that the delivered log files can be distinguished by key.</Abstract>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>+ (NSTimeInterval)aws_getRuntimeClockSkew</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *targetBucket</Declaration>
 			
-			<ReturnValue><Abstract type="html">the skew (in seconds) currently set for this device.  Positive clock skew implies the device is fast, negative implies the device is slow.</Abstract></ReturnValue>
-			<Anchor>//api/name/aws_getRuntimeClockSkew</Anchor>
+			
+			<Anchor>//api/name/targetBucket</Anchor>
             <NodeRef refid="821"/>
 		</Token>
 		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSS3LoggingEnabled/targetBucket</TokenIdentifier>
+			<Abstract type="html">Specifies the bucket where you want Amazon S3 to store server access logs. You can have your logs delivered to any bucket that you own, including the same bucket that is being logged. You can also configure multiple buckets to deliver their logs to the same target bucket. In this case you should choose a different TargetPrefix for each source bucket so that the delivered log files can be distinguished by key.</Abstract>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *targetBucket</Declaration>
+			
+			
+			<Anchor>//api/name/targetBucket</Anchor>
+            <NodeRef refid="821"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3LoggingEnabled/setTargetGrants:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray *targetGrants</Declaration>
+			
+			
+			<Anchor>//api/name/targetGrants</Anchor>
+            <NodeRef refid="821"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3LoggingEnabled/targetGrants</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray *targetGrants</Declaration>
+			
+			
+			<Anchor>//api/name/targetGrants</Anchor>
+            <NodeRef refid="821"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSS3LoggingEnabled/targetGrants</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray *targetGrants</Declaration>
+			
+			
+			<Anchor>//api/name/targetGrants</Anchor>
+            <NodeRef refid="821"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3LoggingEnabled/setTargetPrefix:</TokenIdentifier>
+			<Abstract type="html">This element lets you specify a prefix for the keys that the log files will be stored under.</Abstract>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *targetPrefix</Declaration>
+			
+			
+			<Anchor>//api/name/targetPrefix</Anchor>
+            <NodeRef refid="821"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3LoggingEnabled/targetPrefix</TokenIdentifier>
+			<Abstract type="html">This element lets you specify a prefix for the keys that the log files will be stored under.</Abstract>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *targetPrefix</Declaration>
+			
+			
+			<Anchor>//api/name/targetPrefix</Anchor>
+            <NodeRef refid="821"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSS3LoggingEnabled/targetPrefix</TokenIdentifier>
+			<Abstract type="html">This element lets you specify a prefix for the keys that the log files will be stored under.</Abstract>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *targetPrefix</Declaration>
+			
+			
+			<Anchor>//api/name/targetPrefix</Anchor>
+            <NodeRef refid="821"/>
+		</Token>
+		
+        
         
 	</File>
 </Tokens>
