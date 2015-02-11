@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Constants/AWSDynamoDBObjectMapperVersion.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/c/tdef/AWSDynamoDBObjectMapperVersion</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSDynamoDBObjectMapper.m</DeclaredIn>
+            
+			
+			<NodeRef refid="1069"/>
+		</Token>
+		
+		
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/AWSDynamoDBObjectMapperVersionUnknown</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>AWSDynamoDBObjectMapperVersionUnknown</Declaration>
+            
+            <DeclaredIn>AWSDynamoDBObjectMapper.m</DeclaredIn>
+            
+            <NodeRef refid="1069"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/AWSDynamoDBObjectMapperVersion1</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>AWSDynamoDBObjectMapperVersion1</Declaration>
+            
+            <DeclaredIn>AWSDynamoDBObjectMapper.m</DeclaredIn>
+            
+            <NodeRef refid="1069"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/AWSDynamoDBObjectMapperVersion2</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>AWSDynamoDBObjectMapperVersion2</Declaration>
+            
+            <DeclaredIn>AWSDynamoDBObjectMapper.m</DeclaredIn>
+            
+            <NodeRef refid="1069"/>
+        </Token>
+        
+        
+	</File>
+</Tokens>
