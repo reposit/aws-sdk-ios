@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Constants/AWSSESIdentityType.html">
+	<File path="Constants/AWSLogLevel.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/c/tdef/AWSSESIdentityType</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSSESModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/c/tdef/AWSLogLevel</TokenIdentifier>
+			<Abstract type="html">Copyright 2010-2015 Amazon.com, Inc. or its affiliates. All Rights Reserved.</Abstract>
+			<DeclaredIn>AWSLogging.h</DeclaredIn>
             
 			
 			<NodeRef refid="1187"/>
@@ -14,31 +14,71 @@
 		
         
         <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSSESIdentityTypeUnknown</TokenIdentifier>
+            <TokenIdentifier>//apple_ref/c/econst/AWSLogLevelUnknown</TokenIdentifier>
             <Abstract type="html"></Abstract>
-            <Declaration>AWSSESIdentityTypeUnknown</Declaration>
+            <Declaration>AWSLogLevelUnknown</Declaration>
             
-            <DeclaredIn>AWSSESModel.h</DeclaredIn>
+            <DeclaredIn>AWSLogging.h</DeclaredIn>
             
             <NodeRef refid="1187"/>
         </Token>
         
         <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSSESIdentityTypeEmailAddress</TokenIdentifier>
+            <TokenIdentifier>//apple_ref/c/econst/AWSLogLevelNone</TokenIdentifier>
             <Abstract type="html"></Abstract>
-            <Declaration>AWSSESIdentityTypeEmailAddress</Declaration>
+            <Declaration>AWSLogLevelNone</Declaration>
             
-            <DeclaredIn>AWSSESModel.h</DeclaredIn>
+            <DeclaredIn>AWSLogging.h</DeclaredIn>
             
             <NodeRef refid="1187"/>
         </Token>
         
         <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSSESIdentityTypeDomain</TokenIdentifier>
+            <TokenIdentifier>//apple_ref/c/econst/AWSLogLevelError</TokenIdentifier>
             <Abstract type="html"></Abstract>
-            <Declaration>AWSSESIdentityTypeDomain</Declaration>
+            <Declaration>AWSLogLevelError</Declaration>
             
-            <DeclaredIn>AWSSESModel.h</DeclaredIn>
+            <DeclaredIn>AWSLogging.h</DeclaredIn>
+            
+            <NodeRef refid="1187"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/AWSLogLevelWarn</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>AWSLogLevelWarn</Declaration>
+            
+            <DeclaredIn>AWSLogging.h</DeclaredIn>
+            
+            <NodeRef refid="1187"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/AWSLogLevelInfo</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>AWSLogLevelInfo</Declaration>
+            
+            <DeclaredIn>AWSLogging.h</DeclaredIn>
+            
+            <NodeRef refid="1187"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/AWSLogLevelDebug</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>AWSLogLevelDebug</Declaration>
+            
+            <DeclaredIn>AWSLogging.h</DeclaredIn>
+            
+            <NodeRef refid="1187"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/AWSLogLevelVerbose</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>AWSLogLevelVerbose</Declaration>
+            
+            <DeclaredIn>AWSLogging.h</DeclaredIn>
             
             <NodeRef refid="1187"/>
         </Token>

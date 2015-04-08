@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSEC2SpotDatafeedSubscription.html">
+	<File path="Classes/AWSEC2RouteTableAssociation.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSEC2SpotDatafeedSubscription</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Describes the datafeed for a Spot Instance.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSEC2RouteTableAssociation</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Describes an association between a route table and a subnet.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
             
 			
@@ -13,182 +13,146 @@
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2SpotDatafeedSubscription/setBucket:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The Amazon S3 bucket where the Spot Instance datafeed is located.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2RouteTableAssociation/setMain:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Indicates whether this is the main route table.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *bucket</Declaration>
+			<Declaration>@property (nonatomic, strong) NSNumber *main</Declaration>
 			
 			
-			<Anchor>//api/name/bucket</Anchor>
+			<Anchor>//api/name/main</Anchor>
             <NodeRef refid="580"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2SpotDatafeedSubscription/bucket</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The Amazon S3 bucket where the Spot Instance datafeed is located.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2RouteTableAssociation/main</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Indicates whether this is the main route table.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *bucket</Declaration>
+			<Declaration>@property (nonatomic, strong) NSNumber *main</Declaration>
 			
 			
-			<Anchor>//api/name/bucket</Anchor>
+			<Anchor>//api/name/main</Anchor>
             <NodeRef refid="580"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2SpotDatafeedSubscription/bucket</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The Amazon S3 bucket where the Spot Instance datafeed is located.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2RouteTableAssociation/main</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Indicates whether this is the main route table.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *bucket</Declaration>
+			<Declaration>@property (nonatomic, strong) NSNumber *main</Declaration>
 			
 			
-			<Anchor>//api/name/bucket</Anchor>
+			<Anchor>//api/name/main</Anchor>
             <NodeRef refid="580"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2SpotDatafeedSubscription/setFault:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The fault codes for the Spot Instance request, if any.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2RouteTableAssociation/setRouteTableAssociationId:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the association between a route table and a subnet.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) AWSEC2SpotInstanceStateFault *fault</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *routeTableAssociationId</Declaration>
 			
 			
-			<Anchor>//api/name/fault</Anchor>
+			<Anchor>//api/name/routeTableAssociationId</Anchor>
             <NodeRef refid="580"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2SpotDatafeedSubscription/fault</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The fault codes for the Spot Instance request, if any.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2RouteTableAssociation/routeTableAssociationId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the association between a route table and a subnet.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) AWSEC2SpotInstanceStateFault *fault</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *routeTableAssociationId</Declaration>
 			
 			
-			<Anchor>//api/name/fault</Anchor>
+			<Anchor>//api/name/routeTableAssociationId</Anchor>
             <NodeRef refid="580"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2SpotDatafeedSubscription/fault</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The fault codes for the Spot Instance request, if any.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2RouteTableAssociation/routeTableAssociationId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the association between a route table and a subnet.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) AWSEC2SpotInstanceStateFault *fault</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *routeTableAssociationId</Declaration>
 			
 			
-			<Anchor>//api/name/fault</Anchor>
+			<Anchor>//api/name/routeTableAssociationId</Anchor>
             <NodeRef refid="580"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2SpotDatafeedSubscription/setOwnerId:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The AWS account ID of the account.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2RouteTableAssociation/setRouteTableId:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the route table.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *ownerId</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *routeTableId</Declaration>
 			
 			
-			<Anchor>//api/name/ownerId</Anchor>
+			<Anchor>//api/name/routeTableId</Anchor>
             <NodeRef refid="580"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2SpotDatafeedSubscription/ownerId</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The AWS account ID of the account.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2RouteTableAssociation/routeTableId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the route table.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *ownerId</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *routeTableId</Declaration>
 			
 			
-			<Anchor>//api/name/ownerId</Anchor>
+			<Anchor>//api/name/routeTableId</Anchor>
             <NodeRef refid="580"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2SpotDatafeedSubscription/ownerId</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The AWS account ID of the account.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2RouteTableAssociation/routeTableId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the route table.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *ownerId</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *routeTableId</Declaration>
 			
 			
-			<Anchor>//api/name/ownerId</Anchor>
+			<Anchor>//api/name/routeTableId</Anchor>
             <NodeRef refid="580"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2SpotDatafeedSubscription/setPrefix:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The prefix that is prepended to datafeed files.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2RouteTableAssociation/setSubnetId:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the subnet.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *prefix</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *subnetId</Declaration>
 			
 			
-			<Anchor>//api/name/prefix</Anchor>
+			<Anchor>//api/name/subnetId</Anchor>
             <NodeRef refid="580"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2SpotDatafeedSubscription/prefix</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The prefix that is prepended to datafeed files.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2RouteTableAssociation/subnetId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the subnet.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *prefix</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *subnetId</Declaration>
 			
 			
-			<Anchor>//api/name/prefix</Anchor>
+			<Anchor>//api/name/subnetId</Anchor>
             <NodeRef refid="580"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2SpotDatafeedSubscription/prefix</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The prefix that is prepended to datafeed files.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2RouteTableAssociation/subnetId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the subnet.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *prefix</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *subnetId</Declaration>
 			
 			
-			<Anchor>//api/name/prefix</Anchor>
-            <NodeRef refid="580"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2SpotDatafeedSubscription/setState:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The state of the Spot Instance datafeed subscription.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, assign) AWSEC2DatafeedSubscriptionState state</Declaration>
-			
-			
-			<Anchor>//api/name/state</Anchor>
-            <NodeRef refid="580"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2SpotDatafeedSubscription/state</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The state of the Spot Instance datafeed subscription.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, assign) AWSEC2DatafeedSubscriptionState state</Declaration>
-			
-			
-			<Anchor>//api/name/state</Anchor>
-            <NodeRef refid="580"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2SpotDatafeedSubscription/state</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The state of the Spot Instance datafeed subscription.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, assign) AWSEC2DatafeedSubscriptionState state</Declaration>
-			
-			
-			<Anchor>//api/name/state</Anchor>
+			<Anchor>//api/name/subnetId</Anchor>
             <NodeRef refid="580"/>
 		</Token>
 		

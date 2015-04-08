@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSKinesisListStreamsOutput.html">
+	<File path="Classes/AWSKinesisAddTagsToStreamInput.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSKinesisListStreamsOutput</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Represents the output for &lt;code&gt;ListStreams&lt;/code&gt;.&lt;/p&gt;
-Required parameters: [StreamNames, HasMoreStreams]</Abstract>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSKinesisAddTagsToStreamInput</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Represents the input for &lt;code&gt;AddTagsToStream&lt;/code&gt;.&lt;/p&gt;
+Required parameters: [StreamName, Tags]</Abstract>
 			<DeclaredIn>AWSKinesisModel.h</DeclaredIn>
             
 			
@@ -14,74 +14,74 @@ Required parameters: [StreamNames, HasMoreStreams]</Abstract>
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSKinesisListStreamsOutput/setHasMoreStreams:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;If set to &lt;code&gt;true&lt;/code&gt;, there are more streams available to list.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSKinesisAddTagsToStreamInput/setStreamName:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The name of the stream.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSKinesisModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSNumber *hasMoreStreams</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *streamName</Declaration>
 			
 			
-			<Anchor>//api/name/hasMoreStreams</Anchor>
+			<Anchor>//api/name/streamName</Anchor>
             <NodeRef refid="714"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSKinesisListStreamsOutput/hasMoreStreams</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;If set to &lt;code&gt;true&lt;/code&gt;, there are more streams available to list.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSKinesisAddTagsToStreamInput/streamName</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The name of the stream.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSKinesisModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSNumber *hasMoreStreams</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *streamName</Declaration>
 			
 			
-			<Anchor>//api/name/hasMoreStreams</Anchor>
+			<Anchor>//api/name/streamName</Anchor>
             <NodeRef refid="714"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSKinesisListStreamsOutput/hasMoreStreams</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;If set to &lt;code&gt;true&lt;/code&gt;, there are more streams available to list.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSKinesisAddTagsToStreamInput/streamName</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The name of the stream.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSKinesisModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSNumber *hasMoreStreams</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *streamName</Declaration>
 			
 			
-			<Anchor>//api/name/hasMoreStreams</Anchor>
+			<Anchor>//api/name/streamName</Anchor>
             <NodeRef refid="714"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSKinesisListStreamsOutput/setStreamNames:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The names of the streams that are associated with the AWS account making the &lt;code&gt;ListStreams&lt;/code&gt; request.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSKinesisAddTagsToStreamInput/setTags:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The set of key-value pairs to use to create the tags.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSKinesisModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSArray *streamNames</Declaration>
+			<Declaration>@property (nonatomic, strong) NSDictionary *tags</Declaration>
 			
 			
-			<Anchor>//api/name/streamNames</Anchor>
+			<Anchor>//api/name/tags</Anchor>
             <NodeRef refid="714"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSKinesisListStreamsOutput/streamNames</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The names of the streams that are associated with the AWS account making the &lt;code&gt;ListStreams&lt;/code&gt; request.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSKinesisAddTagsToStreamInput/tags</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The set of key-value pairs to use to create the tags.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSKinesisModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSArray *streamNames</Declaration>
+			<Declaration>@property (nonatomic, strong) NSDictionary *tags</Declaration>
 			
 			
-			<Anchor>//api/name/streamNames</Anchor>
+			<Anchor>//api/name/tags</Anchor>
             <NodeRef refid="714"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSKinesisListStreamsOutput/streamNames</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The names of the streams that are associated with the AWS account making the &lt;code&gt;ListStreams&lt;/code&gt; request.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSKinesisAddTagsToStreamInput/tags</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The set of key-value pairs to use to create the tags.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSKinesisModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSArray *streamNames</Declaration>
+			<Declaration>@property (nonatomic, strong) NSDictionary *tags</Declaration>
 			
 			
-			<Anchor>//api/name/streamNames</Anchor>
+			<Anchor>//api/name/tags</Anchor>
             <NodeRef refid="714"/>
 		</Token>
 		

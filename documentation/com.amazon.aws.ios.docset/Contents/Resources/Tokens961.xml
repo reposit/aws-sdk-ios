@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSSQSChangeMessageVisibilityBatchRequest.html">
+	<File path="Classes/AWSSNSListTopicsInput.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSSQSChangeMessageVisibilityBatchRequest</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSSNSListTopicsInput</TokenIdentifier>
 			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSSQSModel.h</DeclaredIn>
+			<DeclaredIn>AWSSNSModel.h</DeclaredIn>
             
 			
 			<NodeRef refid="961"/>
@@ -13,74 +13,38 @@
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSSQSChangeMessageVisibilityBatchRequest/setEntries:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;A list of receipt handles of the messages for which the visibility timeout must be changed.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSQSModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSNSListTopicsInput/setNextToken:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Token returned by the previous &lt;code&gt;ListTopics&lt;/code&gt; request.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSNSModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSArray *entries</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *nextToken</Declaration>
 			
 			
-			<Anchor>//api/name/entries</Anchor>
+			<Anchor>//api/name/nextToken</Anchor>
             <NodeRef refid="961"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSSQSChangeMessageVisibilityBatchRequest/entries</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;A list of receipt handles of the messages for which the visibility timeout must be changed.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSQSModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSNSListTopicsInput/nextToken</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Token returned by the previous &lt;code&gt;ListTopics&lt;/code&gt; request.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSNSModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSArray *entries</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *nextToken</Declaration>
 			
 			
-			<Anchor>//api/name/entries</Anchor>
+			<Anchor>//api/name/nextToken</Anchor>
             <NodeRef refid="961"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSSQSChangeMessageVisibilityBatchRequest/entries</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;A list of receipt handles of the messages for which the visibility timeout must be changed.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSQSModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSSNSListTopicsInput/nextToken</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Token returned by the previous &lt;code&gt;ListTopics&lt;/code&gt; request.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSNSModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSArray *entries</Declaration>
-			
-			
-			<Anchor>//api/name/entries</Anchor>
-            <NodeRef refid="961"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSSQSChangeMessageVisibilityBatchRequest/setQueueUrl:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The URL of the Amazon SQS queue to take action on.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSQSModel.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *queueUrl</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *nextToken</Declaration>
 			
 			
-			<Anchor>//api/name/queueUrl</Anchor>
-            <NodeRef refid="961"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSSQSChangeMessageVisibilityBatchRequest/queueUrl</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The URL of the Amazon SQS queue to take action on.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSQSModel.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *queueUrl</Declaration>
-			
-			
-			<Anchor>//api/name/queueUrl</Anchor>
-            <NodeRef refid="961"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSSQSChangeMessageVisibilityBatchRequest/queueUrl</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The URL of the Amazon SQS queue to take action on.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSQSModel.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *queueUrl</Declaration>
-			
-			
-			<Anchor>//api/name/queueUrl</Anchor>
+			<Anchor>//api/name/nextToken</Anchor>
             <NodeRef refid="961"/>
 		</Token>
 		

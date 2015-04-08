@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSCloudWatchEnableAlarmActionsInput.html">
+	<File path="Classes/AWSCloudWatchDisableAlarmActionsInput.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSCloudWatchEnableAlarmActionsInput</TokenIdentifier>
-			<Abstract type="html"></Abstract>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSCloudWatchDisableAlarmActionsInput</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;&lt;/p&gt;
+Required parameters: [AlarmNames]</Abstract>
 			<DeclaredIn>AWSCloudWatchModel.h</DeclaredIn>
             
 			
@@ -13,8 +14,8 @@
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSCloudWatchEnableAlarmActionsInput/setAlarmNames:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt; The names of the alarms to enable actions for. &lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCloudWatchDisableAlarmActionsInput/setAlarmNames:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; The names of the alarms to disable actions for. &lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSCloudWatchModel.h</DeclaredIn>
 			
 			<Declaration>@property (nonatomic, strong) NSArray *alarmNames</Declaration>
@@ -25,8 +26,8 @@
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSCloudWatchEnableAlarmActionsInput/alarmNames</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt; The names of the alarms to enable actions for. &lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCloudWatchDisableAlarmActionsInput/alarmNames</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; The names of the alarms to disable actions for. &lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSCloudWatchModel.h</DeclaredIn>
 			
 			<Declaration>@property (nonatomic, strong) NSArray *alarmNames</Declaration>
@@ -37,8 +38,8 @@
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSCloudWatchEnableAlarmActionsInput/alarmNames</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt; The names of the alarms to enable actions for. &lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSCloudWatchDisableAlarmActionsInput/alarmNames</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; The names of the alarms to disable actions for. &lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSCloudWatchModel.h</DeclaredIn>
 			
 			<Declaration>@property (nonatomic, strong) NSArray *alarmNames</Declaration>

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSS3IndexDocument.html">
+	<File path="Classes/AWSS3GetBucketTaggingRequest.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSS3IndexDocument</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSS3GetBucketTaggingRequest</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSS3Model.h</DeclaredIn>
             
@@ -13,38 +13,38 @@
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3IndexDocument/setSuffix:</TokenIdentifier>
-			<Abstract type="html">A suffix that is appended to a request that is for a directory on the website endpoint (e.g. if the suffix is index.html and you make a request to samplebucket/images/ the data that is returned will be for the object with the key name images/index.html) The suffix must not be empty and must not include a slash character.</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3GetBucketTaggingRequest/setBucket:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *suffix</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *bucket</Declaration>
 			
 			
-			<Anchor>//api/name/suffix</Anchor>
+			<Anchor>//api/name/bucket</Anchor>
             <NodeRef refid="808"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3IndexDocument/suffix</TokenIdentifier>
-			<Abstract type="html">A suffix that is appended to a request that is for a directory on the website endpoint (e.g. if the suffix is index.html and you make a request to samplebucket/images/ the data that is returned will be for the object with the key name images/index.html) The suffix must not be empty and must not include a slash character.</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3GetBucketTaggingRequest/bucket</TokenIdentifier>
+			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *suffix</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *bucket</Declaration>
 			
 			
-			<Anchor>//api/name/suffix</Anchor>
+			<Anchor>//api/name/bucket</Anchor>
             <NodeRef refid="808"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSS3IndexDocument/suffix</TokenIdentifier>
-			<Abstract type="html">A suffix that is appended to a request that is for a directory on the website endpoint (e.g. if the suffix is index.html and you make a request to samplebucket/images/ the data that is returned will be for the object with the key name images/index.html) The suffix must not be empty and must not include a slash character.</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSS3GetBucketTaggingRequest/bucket</TokenIdentifier>
+			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *suffix</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *bucket</Declaration>
 			
 			
-			<Anchor>//api/name/suffix</Anchor>
+			<Anchor>//api/name/bucket</Anchor>
             <NodeRef refid="808"/>
 		</Token>
 		

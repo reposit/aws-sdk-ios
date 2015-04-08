@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSEC2CancelledSpotInstanceRequest.html">
+	<File path="Classes/AWSEC2CancelExportTaskRequest.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSEC2CancelledSpotInstanceRequest</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Describes a request to cancel a Spot Instance.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSEC2CancelExportTaskRequest</TokenIdentifier>
+			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
             
 			
@@ -13,74 +13,38 @@
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2CancelledSpotInstanceRequest/setSpotInstanceRequestId:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The ID of the Spot Instance request.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2CancelExportTaskRequest/setExportTaskId:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the export task. This is the ID returned by &lt;code&gt;CreateInstanceExportTask&lt;/code&gt;.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *spotInstanceRequestId</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *exportTaskId</Declaration>
 			
 			
-			<Anchor>//api/name/spotInstanceRequestId</Anchor>
+			<Anchor>//api/name/exportTaskId</Anchor>
             <NodeRef refid="284"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2CancelledSpotInstanceRequest/spotInstanceRequestId</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The ID of the Spot Instance request.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2CancelExportTaskRequest/exportTaskId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the export task. This is the ID returned by &lt;code&gt;CreateInstanceExportTask&lt;/code&gt;.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *spotInstanceRequestId</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *exportTaskId</Declaration>
 			
 			
-			<Anchor>//api/name/spotInstanceRequestId</Anchor>
+			<Anchor>//api/name/exportTaskId</Anchor>
             <NodeRef refid="284"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2CancelledSpotInstanceRequest/spotInstanceRequestId</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The ID of the Spot Instance request.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2CancelExportTaskRequest/exportTaskId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the export task. This is the ID returned by &lt;code&gt;CreateInstanceExportTask&lt;/code&gt;.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *spotInstanceRequestId</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *exportTaskId</Declaration>
 			
 			
-			<Anchor>//api/name/spotInstanceRequestId</Anchor>
-            <NodeRef refid="284"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2CancelledSpotInstanceRequest/setState:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The state of the Spot Instance request.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, assign) AWSEC2CancelSpotInstanceRequestState state</Declaration>
-			
-			
-			<Anchor>//api/name/state</Anchor>
-            <NodeRef refid="284"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2CancelledSpotInstanceRequest/state</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The state of the Spot Instance request.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, assign) AWSEC2CancelSpotInstanceRequestState state</Declaration>
-			
-			
-			<Anchor>//api/name/state</Anchor>
-            <NodeRef refid="284"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2CancelledSpotInstanceRequest/state</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The state of the Spot Instance request.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, assign) AWSEC2CancelSpotInstanceRequestState state</Declaration>
-			
-			
-			<Anchor>//api/name/state</Anchor>
+			<Anchor>//api/name/exportTaskId</Anchor>
             <NodeRef refid="284"/>
 		</Token>
 		

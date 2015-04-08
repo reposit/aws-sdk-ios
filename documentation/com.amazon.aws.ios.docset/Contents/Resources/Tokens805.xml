@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSS3HeadBucketRequest.html">
+	<File path="Classes/AWSS3GetBucketRequestPaymentOutput.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSS3HeadBucketRequest</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSS3GetBucketRequestPaymentOutput</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSS3Model.h</DeclaredIn>
             
@@ -13,38 +13,38 @@
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3HeadBucketRequest/setBucket:</TokenIdentifier>
-			<Abstract type="html"></Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3GetBucketRequestPaymentOutput/setPayer:</TokenIdentifier>
+			<Abstract type="html">Specifies who pays for the download and request fees.</Abstract>
 			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *bucket</Declaration>
+			<Declaration>@property (nonatomic, assign) AWSS3Payer payer</Declaration>
 			
 			
-			<Anchor>//api/name/bucket</Anchor>
+			<Anchor>//api/name/payer</Anchor>
             <NodeRef refid="805"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3HeadBucketRequest/bucket</TokenIdentifier>
-			<Abstract type="html"></Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3GetBucketRequestPaymentOutput/payer</TokenIdentifier>
+			<Abstract type="html">Specifies who pays for the download and request fees.</Abstract>
 			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *bucket</Declaration>
+			<Declaration>@property (nonatomic, assign) AWSS3Payer payer</Declaration>
 			
 			
-			<Anchor>//api/name/bucket</Anchor>
+			<Anchor>//api/name/payer</Anchor>
             <NodeRef refid="805"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSS3HeadBucketRequest/bucket</TokenIdentifier>
-			<Abstract type="html"></Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSS3GetBucketRequestPaymentOutput/payer</TokenIdentifier>
+			<Abstract type="html">Specifies who pays for the download and request fees.</Abstract>
 			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *bucket</Declaration>
+			<Declaration>@property (nonatomic, assign) AWSS3Payer payer</Declaration>
 			
 			
-			<Anchor>//api/name/bucket</Anchor>
+			<Anchor>//api/name/payer</Anchor>
             <NodeRef refid="805"/>
 		</Token>
 		

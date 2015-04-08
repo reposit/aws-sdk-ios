@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Constants/AWSMobileAnalyticsERSErrorType.html">
+	<File path="Constants/AWSEC2SnapshotAttributeName.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/c/tdef/AWSMobileAnalyticsERSErrorType</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/c/tdef/AWSEC2SnapshotAttributeName</TokenIdentifier>
 			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSMobileAnalyticsERSModel.h</DeclaredIn>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
             
 			
 			<NodeRef refid="1157"/>
@@ -14,51 +14,31 @@
 		
         
         <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSMobileAnalyticsERSErrorUnknown</TokenIdentifier>
+            <TokenIdentifier>//apple_ref/c/econst/AWSEC2SnapshotAttributeNameUnknown</TokenIdentifier>
             <Abstract type="html"></Abstract>
-            <Declaration>AWSMobileAnalyticsERSErrorUnknown</Declaration>
+            <Declaration>AWSEC2SnapshotAttributeNameUnknown</Declaration>
             
-            <DeclaredIn>AWSMobileAnalyticsERSModel.h</DeclaredIn>
+            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
             
             <NodeRef refid="1157"/>
         </Token>
         
         <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSMobileAnalyticsERSErrorIncompleteSignature</TokenIdentifier>
+            <TokenIdentifier>//apple_ref/c/econst/AWSEC2SnapshotAttributeNameProductCodes</TokenIdentifier>
             <Abstract type="html"></Abstract>
-            <Declaration>AWSMobileAnalyticsERSErrorIncompleteSignature</Declaration>
+            <Declaration>AWSEC2SnapshotAttributeNameProductCodes</Declaration>
             
-            <DeclaredIn>AWSMobileAnalyticsERSModel.h</DeclaredIn>
+            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
             
             <NodeRef refid="1157"/>
         </Token>
         
         <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSMobileAnalyticsERSErrorInvalidClientTokenId</TokenIdentifier>
+            <TokenIdentifier>//apple_ref/c/econst/AWSEC2SnapshotAttributeNameCreateVolumePermission</TokenIdentifier>
             <Abstract type="html"></Abstract>
-            <Declaration>AWSMobileAnalyticsERSErrorInvalidClientTokenId</Declaration>
+            <Declaration>AWSEC2SnapshotAttributeNameCreateVolumePermission</Declaration>
             
-            <DeclaredIn>AWSMobileAnalyticsERSModel.h</DeclaredIn>
-            
-            <NodeRef refid="1157"/>
-        </Token>
-        
-        <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSMobileAnalyticsERSErrorMissingAuthenticationToken</TokenIdentifier>
-            <Abstract type="html"></Abstract>
-            <Declaration>AWSMobileAnalyticsERSErrorMissingAuthenticationToken</Declaration>
-            
-            <DeclaredIn>AWSMobileAnalyticsERSModel.h</DeclaredIn>
-            
-            <NodeRef refid="1157"/>
-        </Token>
-        
-        <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSMobileAnalyticsERSErrorBadRequest</TokenIdentifier>
-            <Abstract type="html"></Abstract>
-            <Declaration>AWSMobileAnalyticsERSErrorBadRequest</Declaration>
-            
-            <DeclaredIn>AWSMobileAnalyticsERSModel.h</DeclaredIn>
+            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
             
             <NodeRef refid="1157"/>
         </Token>

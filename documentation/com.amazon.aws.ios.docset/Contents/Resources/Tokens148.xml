@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSCognitoRecord.html">
+	<File path="Classes/AWSCognitoIdentitySetIdentityPoolRolesInput.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSCognitoRecord</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSCognitoIdentitySetIdentityPoolRolesInput</TokenIdentifier>
 			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSCognitoRecord.h</DeclaredIn>
+			<DeclaredIn>AWSCognitoIdentityModel.h</DeclaredIn>
             
 			
 			<NodeRef refid="148"/>
@@ -13,82 +13,74 @@
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoRecord/setData:</TokenIdentifier>
-			<Abstract type="html">The data for the record.</Abstract>
-			<DeclaredIn>AWSCognitoRecord.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoIdentitySetIdentityPoolRolesInput/setIdentityPoolId:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSCognitoIdentityModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) AWSCognitoRecordValue *data</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *identityPoolId</Declaration>
 			
 			
-			<Anchor>//api/name/data</Anchor>
+			<Anchor>//api/name/identityPoolId</Anchor>
             <NodeRef refid="148"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoRecord/data</TokenIdentifier>
-			<Abstract type="html">The data for the record.</Abstract>
-			<DeclaredIn>AWSCognitoRecord.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoIdentitySetIdentityPoolRolesInput/identityPoolId</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSCognitoIdentityModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) AWSCognitoRecordValue *data</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *identityPoolId</Declaration>
 			
 			
-			<Anchor>//api/name/data</Anchor>
+			<Anchor>//api/name/identityPoolId</Anchor>
             <NodeRef refid="148"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSCognitoRecord/data</TokenIdentifier>
-			<Abstract type="html">The data for the record.</Abstract>
-			<DeclaredIn>AWSCognitoRecord.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSCognitoIdentitySetIdentityPoolRolesInput/identityPoolId</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSCognitoIdentityModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) AWSCognitoRecordValue *data</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *identityPoolId</Declaration>
 			
 			
-			<Anchor>//api/name/data</Anchor>
+			<Anchor>//api/name/identityPoolId</Anchor>
             <NodeRef refid="148"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoRecord/initWithId:data:</TokenIdentifier>
-			<Abstract type="html">Initializes a AWSCognitoRecord with the given recordID, given data, and a dirtyCount and recordVersion of 0.</Abstract>
-			<DeclaredIn>AWSCognitoRecord.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoIdentitySetIdentityPoolRolesInput/setRoles:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSCognitoIdentityModel.h</DeclaredIn>
 			
-			<Declaration>- (instancetype)initWithId:(NSString *)recordId data:(AWSCognitoRecordValue *)data</Declaration>
-			<Parameters>
-				<Parameter>
-					<Name>data</Name>
-					<Abstract type="html">the initial data that the AWSCognitoRecord will contain</Abstract>
-				</Parameter><Parameter>
-					<Name>recordID</Name>
-					<Abstract type="html">The record ID of the AWSCognitoRecord</Abstract>
-				</Parameter>
-			</Parameters>
+			<Declaration>@property (nonatomic, strong) NSDictionary *roles</Declaration>
 			
-			<Anchor>//api/name/initWithId:data:</Anchor>
+			
+			<Anchor>//api/name/roles</Anchor>
             <NodeRef refid="148"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoRecord/isDeleted</TokenIdentifier>
-			<Abstract type="html">Returns true if this record has been deleted</Abstract>
-			<DeclaredIn>AWSCognitoRecord.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoIdentitySetIdentityPoolRolesInput/roles</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSCognitoIdentityModel.h</DeclaredIn>
 			
-			<Declaration>- (BOOL)isDeleted</Declaration>
+			<Declaration>@property (nonatomic, strong) NSDictionary *roles</Declaration>
 			
 			
-			<Anchor>//api/name/isDeleted</Anchor>
+			<Anchor>//api/name/roles</Anchor>
             <NodeRef refid="148"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoRecord/isDirty</TokenIdentifier>
-			<Abstract type="html">Boolean indicating whether or not the record has updates/deletes that need to be synced with the server.</Abstract>
-			<DeclaredIn>AWSCognitoRecord.m</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSCognitoIdentitySetIdentityPoolRolesInput/roles</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSCognitoIdentityModel.h</DeclaredIn>
 			
-			<Declaration>- (BOOL)isDirty</Declaration>
+			<Declaration>@property (nonatomic, strong) NSDictionary *roles</Declaration>
 			
 			
-			<Anchor>//api/name/isDirty</Anchor>
+			<Anchor>//api/name/roles</Anchor>
             <NodeRef refid="148"/>
 		</Token>
 		

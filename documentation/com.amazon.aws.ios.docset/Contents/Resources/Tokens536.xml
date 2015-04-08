@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSEC2RecurringCharge.html">
+	<File path="Classes/AWSEC2ProductCode.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSEC2RecurringCharge</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Describes a recurring charge.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSEC2ProductCode</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Describes a product code.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
             
 			
@@ -13,74 +13,74 @@
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2RecurringCharge/setAmount:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The amount of the recurring charge.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ProductCode/setProductCodeId:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The product code.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSNumber *amount</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *productCodeId</Declaration>
 			
 			
-			<Anchor>//api/name/amount</Anchor>
+			<Anchor>//api/name/productCodeId</Anchor>
             <NodeRef refid="536"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2RecurringCharge/amount</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The amount of the recurring charge.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ProductCode/productCodeId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The product code.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSNumber *amount</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *productCodeId</Declaration>
 			
 			
-			<Anchor>//api/name/amount</Anchor>
+			<Anchor>//api/name/productCodeId</Anchor>
             <NodeRef refid="536"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2RecurringCharge/amount</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The amount of the recurring charge.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2ProductCode/productCodeId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The product code.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSNumber *amount</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *productCodeId</Declaration>
 			
 			
-			<Anchor>//api/name/amount</Anchor>
+			<Anchor>//api/name/productCodeId</Anchor>
             <NodeRef refid="536"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2RecurringCharge/setFrequency:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The frequency of the recurring charge.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ProductCode/setProductCodeType:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The type of product code.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, assign) AWSEC2RecurringChargeFrequency frequency</Declaration>
+			<Declaration>@property (nonatomic, assign) AWSEC2ProductCodeValues productCodeType</Declaration>
 			
 			
-			<Anchor>//api/name/frequency</Anchor>
+			<Anchor>//api/name/productCodeType</Anchor>
             <NodeRef refid="536"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2RecurringCharge/frequency</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The frequency of the recurring charge.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ProductCode/productCodeType</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The type of product code.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, assign) AWSEC2RecurringChargeFrequency frequency</Declaration>
+			<Declaration>@property (nonatomic, assign) AWSEC2ProductCodeValues productCodeType</Declaration>
 			
 			
-			<Anchor>//api/name/frequency</Anchor>
+			<Anchor>//api/name/productCodeType</Anchor>
             <NodeRef refid="536"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2RecurringCharge/frequency</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The frequency of the recurring charge.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2ProductCode/productCodeType</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The type of product code.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, assign) AWSEC2RecurringChargeFrequency frequency</Declaration>
+			<Declaration>@property (nonatomic, assign) AWSEC2ProductCodeValues productCodeType</Declaration>
 			
 			
-			<Anchor>//api/name/frequency</Anchor>
+			<Anchor>//api/name/productCodeType</Anchor>
             <NodeRef refid="536"/>
 		</Token>
 		

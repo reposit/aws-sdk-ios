@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Constants/AWSS3EncodingType.html">
+	<File path="Constants/AWSEC2Tenancy.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/c/tdef/AWSS3EncodingType</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/c/tdef/AWSEC2Tenancy</TokenIdentifier>
 			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
             
 			
 			<NodeRef refid="1166"/>
@@ -14,21 +14,31 @@
 		
         
         <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSS3EncodingTypeUnknown</TokenIdentifier>
+            <TokenIdentifier>//apple_ref/c/econst/AWSEC2TenancyUnknown</TokenIdentifier>
             <Abstract type="html"></Abstract>
-            <Declaration>AWSS3EncodingTypeUnknown</Declaration>
+            <Declaration>AWSEC2TenancyUnknown</Declaration>
             
-            <DeclaredIn>AWSS3Model.h</DeclaredIn>
+            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
             
             <NodeRef refid="1166"/>
         </Token>
         
         <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSS3EncodingTypeURL</TokenIdentifier>
+            <TokenIdentifier>//apple_ref/c/econst/AWSEC2TenancyDefault</TokenIdentifier>
             <Abstract type="html"></Abstract>
-            <Declaration>AWSS3EncodingTypeURL</Declaration>
+            <Declaration>AWSEC2TenancyDefault</Declaration>
             
-            <DeclaredIn>AWSS3Model.h</DeclaredIn>
+            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
+            
+            <NodeRef refid="1166"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/AWSEC2TenancyDedicated</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>AWSEC2TenancyDedicated</Declaration>
+            
+            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
             
             <NodeRef refid="1166"/>
         </Token>

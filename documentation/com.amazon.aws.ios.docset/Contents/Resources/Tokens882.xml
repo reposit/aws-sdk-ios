@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSSESGetIdentityVerificationAttributesRequest.html">
+	<File path="Classes/AWSS3Transition.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSSESGetIdentityVerificationAttributesRequest</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Represents a request instructing the service to provide the verification attributes for a list of identities.&lt;/p&gt;
-Required parameters: [Identities]</Abstract>
-			<DeclaredIn>AWSSESModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSS3Transition</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
             
 			
 			<NodeRef refid="882"/>
@@ -14,38 +13,110 @@ Required parameters: [Identities]</Abstract>
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSSESGetIdentityVerificationAttributesRequest/setIdentities:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;A list of identities.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSESModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3Transition/setDate:</TokenIdentifier>
+			<Abstract type="html">Indicates at what date the object is to be moved or deleted. Should be in GMT ISO 8601 Format.</Abstract>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSArray *identities</Declaration>
+			<Declaration>@property (nonatomic, strong) NSDate *date</Declaration>
 			
 			
-			<Anchor>//api/name/identities</Anchor>
+			<Anchor>//api/name/date</Anchor>
             <NodeRef refid="882"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSSESGetIdentityVerificationAttributesRequest/identities</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;A list of identities.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSESModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3Transition/date</TokenIdentifier>
+			<Abstract type="html">Indicates at what date the object is to be moved or deleted. Should be in GMT ISO 8601 Format.</Abstract>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSArray *identities</Declaration>
+			<Declaration>@property (nonatomic, strong) NSDate *date</Declaration>
 			
 			
-			<Anchor>//api/name/identities</Anchor>
+			<Anchor>//api/name/date</Anchor>
             <NodeRef refid="882"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSSESGetIdentityVerificationAttributesRequest/identities</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;A list of identities.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSESModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSS3Transition/date</TokenIdentifier>
+			<Abstract type="html">Indicates at what date the object is to be moved or deleted. Should be in GMT ISO 8601 Format.</Abstract>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSArray *identities</Declaration>
+			<Declaration>@property (nonatomic, strong) NSDate *date</Declaration>
 			
 			
-			<Anchor>//api/name/identities</Anchor>
+			<Anchor>//api/name/date</Anchor>
+            <NodeRef refid="882"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3Transition/setDays:</TokenIdentifier>
+			<Abstract type="html">Indicates the lifetime, in days, of the objects that are subject to the rule. The value must be a non-zero positive integer.</Abstract>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *days</Declaration>
+			
+			
+			<Anchor>//api/name/days</Anchor>
+            <NodeRef refid="882"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3Transition/days</TokenIdentifier>
+			<Abstract type="html">Indicates the lifetime, in days, of the objects that are subject to the rule. The value must be a non-zero positive integer.</Abstract>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *days</Declaration>
+			
+			
+			<Anchor>//api/name/days</Anchor>
+            <NodeRef refid="882"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSS3Transition/days</TokenIdentifier>
+			<Abstract type="html">Indicates the lifetime, in days, of the objects that are subject to the rule. The value must be a non-zero positive integer.</Abstract>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *days</Declaration>
+			
+			
+			<Anchor>//api/name/days</Anchor>
+            <NodeRef refid="882"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3Transition/setStorageClass:</TokenIdentifier>
+			<Abstract type="html">The class of storage used to store the object.</Abstract>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) AWSS3TransitionStorageClass storageClass</Declaration>
+			
+			
+			<Anchor>//api/name/storageClass</Anchor>
+            <NodeRef refid="882"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3Transition/storageClass</TokenIdentifier>
+			<Abstract type="html">The class of storage used to store the object.</Abstract>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) AWSS3TransitionStorageClass storageClass</Declaration>
+			
+			
+			<Anchor>//api/name/storageClass</Anchor>
+            <NodeRef refid="882"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSS3Transition/storageClass</TokenIdentifier>
+			<Abstract type="html">The class of storage used to store the object.</Abstract>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) AWSS3TransitionStorageClass storageClass</Declaration>
+			
+			
+			<Anchor>//api/name/storageClass</Anchor>
             <NodeRef refid="882"/>
 		</Token>
 		

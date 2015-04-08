@@ -1,157 +1,269 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Constants/AWSAutoScalingLifecycleState.html">
+	<File path="Classes/AWSSimpleDBDomainMetadataResult.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/c/tdef/AWSAutoScalingLifecycleState</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSSimpleDBDomainMetadataResult</TokenIdentifier>
 			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
+			<DeclaredIn>AWSSimpleDBModel.h</DeclaredIn>
             
 			
 			<NodeRef refid="1046"/>
 		</Token>
 		
 		
-        
-        <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSAutoScalingLifecycleStateUnknown</TokenIdentifier>
-            <Abstract type="html"></Abstract>
-            <Declaration>AWSAutoScalingLifecycleStateUnknown</Declaration>
-            
-            <DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
-            
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSimpleDBDomainMetadataResult/setAttributeNameCount:</TokenIdentifier>
+			<Abstract type="html">The number of unique attribute names in the domain.</Abstract>
+			<DeclaredIn>AWSSimpleDBModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *attributeNameCount</Declaration>
+			
+			
+			<Anchor>//api/name/attributeNameCount</Anchor>
             <NodeRef refid="1046"/>
-        </Token>
-        
-        <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSAutoScalingLifecycleStatePending</TokenIdentifier>
-            <Abstract type="html"></Abstract>
-            <Declaration>AWSAutoScalingLifecycleStatePending</Declaration>
-            
-            <DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
-            
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSimpleDBDomainMetadataResult/attributeNameCount</TokenIdentifier>
+			<Abstract type="html">The number of unique attribute names in the domain.</Abstract>
+			<DeclaredIn>AWSSimpleDBModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *attributeNameCount</Declaration>
+			
+			
+			<Anchor>//api/name/attributeNameCount</Anchor>
             <NodeRef refid="1046"/>
-        </Token>
-        
-        <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSAutoScalingLifecycleStatePendingWait</TokenIdentifier>
-            <Abstract type="html"></Abstract>
-            <Declaration>AWSAutoScalingLifecycleStatePendingWait</Declaration>
-            
-            <DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
-            
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSSimpleDBDomainMetadataResult/attributeNameCount</TokenIdentifier>
+			<Abstract type="html">The number of unique attribute names in the domain.</Abstract>
+			<DeclaredIn>AWSSimpleDBModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *attributeNameCount</Declaration>
+			
+			
+			<Anchor>//api/name/attributeNameCount</Anchor>
             <NodeRef refid="1046"/>
-        </Token>
-        
-        <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSAutoScalingLifecycleStatePendingProceed</TokenIdentifier>
-            <Abstract type="html"></Abstract>
-            <Declaration>AWSAutoScalingLifecycleStatePendingProceed</Declaration>
-            
-            <DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
-            
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSimpleDBDomainMetadataResult/setAttributeNamesSizeBytes:</TokenIdentifier>
+			<Abstract type="html">The total size of all unique attribute names in the domain, in bytes.</Abstract>
+			<DeclaredIn>AWSSimpleDBModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *attributeNamesSizeBytes</Declaration>
+			
+			
+			<Anchor>//api/name/attributeNamesSizeBytes</Anchor>
             <NodeRef refid="1046"/>
-        </Token>
-        
-        <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSAutoScalingLifecycleStateQuarantined</TokenIdentifier>
-            <Abstract type="html"></Abstract>
-            <Declaration>AWSAutoScalingLifecycleStateQuarantined</Declaration>
-            
-            <DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
-            
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSimpleDBDomainMetadataResult/attributeNamesSizeBytes</TokenIdentifier>
+			<Abstract type="html">The total size of all unique attribute names in the domain, in bytes.</Abstract>
+			<DeclaredIn>AWSSimpleDBModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *attributeNamesSizeBytes</Declaration>
+			
+			
+			<Anchor>//api/name/attributeNamesSizeBytes</Anchor>
             <NodeRef refid="1046"/>
-        </Token>
-        
-        <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSAutoScalingLifecycleStateInService</TokenIdentifier>
-            <Abstract type="html"></Abstract>
-            <Declaration>AWSAutoScalingLifecycleStateInService</Declaration>
-            
-            <DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
-            
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSSimpleDBDomainMetadataResult/attributeNamesSizeBytes</TokenIdentifier>
+			<Abstract type="html">The total size of all unique attribute names in the domain, in bytes.</Abstract>
+			<DeclaredIn>AWSSimpleDBModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *attributeNamesSizeBytes</Declaration>
+			
+			
+			<Anchor>//api/name/attributeNamesSizeBytes</Anchor>
             <NodeRef refid="1046"/>
-        </Token>
-        
-        <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSAutoScalingLifecycleStateTerminating</TokenIdentifier>
-            <Abstract type="html"></Abstract>
-            <Declaration>AWSAutoScalingLifecycleStateTerminating</Declaration>
-            
-            <DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
-            
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSimpleDBDomainMetadataResult/setAttributeValueCount:</TokenIdentifier>
+			<Abstract type="html">The number of all attribute name/value pairs in the domain.</Abstract>
+			<DeclaredIn>AWSSimpleDBModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *attributeValueCount</Declaration>
+			
+			
+			<Anchor>//api/name/attributeValueCount</Anchor>
             <NodeRef refid="1046"/>
-        </Token>
-        
-        <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSAutoScalingLifecycleStateTerminatingWait</TokenIdentifier>
-            <Abstract type="html"></Abstract>
-            <Declaration>AWSAutoScalingLifecycleStateTerminatingWait</Declaration>
-            
-            <DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
-            
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSimpleDBDomainMetadataResult/attributeValueCount</TokenIdentifier>
+			<Abstract type="html">The number of all attribute name/value pairs in the domain.</Abstract>
+			<DeclaredIn>AWSSimpleDBModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *attributeValueCount</Declaration>
+			
+			
+			<Anchor>//api/name/attributeValueCount</Anchor>
             <NodeRef refid="1046"/>
-        </Token>
-        
-        <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSAutoScalingLifecycleStateTerminatingProceed</TokenIdentifier>
-            <Abstract type="html"></Abstract>
-            <Declaration>AWSAutoScalingLifecycleStateTerminatingProceed</Declaration>
-            
-            <DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
-            
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSSimpleDBDomainMetadataResult/attributeValueCount</TokenIdentifier>
+			<Abstract type="html">The number of all attribute name/value pairs in the domain.</Abstract>
+			<DeclaredIn>AWSSimpleDBModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *attributeValueCount</Declaration>
+			
+			
+			<Anchor>//api/name/attributeValueCount</Anchor>
             <NodeRef refid="1046"/>
-        </Token>
-        
-        <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSAutoScalingLifecycleStateTerminated</TokenIdentifier>
-            <Abstract type="html"></Abstract>
-            <Declaration>AWSAutoScalingLifecycleStateTerminated</Declaration>
-            
-            <DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
-            
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSimpleDBDomainMetadataResult/setAttributeValuesSizeBytes:</TokenIdentifier>
+			<Abstract type="html">The total size of all attribute values in the domain, in bytes.</Abstract>
+			<DeclaredIn>AWSSimpleDBModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *attributeValuesSizeBytes</Declaration>
+			
+			
+			<Anchor>//api/name/attributeValuesSizeBytes</Anchor>
             <NodeRef refid="1046"/>
-        </Token>
-        
-        <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSAutoScalingLifecycleStateDetaching</TokenIdentifier>
-            <Abstract type="html"></Abstract>
-            <Declaration>AWSAutoScalingLifecycleStateDetaching</Declaration>
-            
-            <DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
-            
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSimpleDBDomainMetadataResult/attributeValuesSizeBytes</TokenIdentifier>
+			<Abstract type="html">The total size of all attribute values in the domain, in bytes.</Abstract>
+			<DeclaredIn>AWSSimpleDBModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *attributeValuesSizeBytes</Declaration>
+			
+			
+			<Anchor>//api/name/attributeValuesSizeBytes</Anchor>
             <NodeRef refid="1046"/>
-        </Token>
-        
-        <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSAutoScalingLifecycleStateDetached</TokenIdentifier>
-            <Abstract type="html"></Abstract>
-            <Declaration>AWSAutoScalingLifecycleStateDetached</Declaration>
-            
-            <DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
-            
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSSimpleDBDomainMetadataResult/attributeValuesSizeBytes</TokenIdentifier>
+			<Abstract type="html">The total size of all attribute values in the domain, in bytes.</Abstract>
+			<DeclaredIn>AWSSimpleDBModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *attributeValuesSizeBytes</Declaration>
+			
+			
+			<Anchor>//api/name/attributeValuesSizeBytes</Anchor>
             <NodeRef refid="1046"/>
-        </Token>
-        
-        <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSAutoScalingLifecycleStateEnteringStandby</TokenIdentifier>
-            <Abstract type="html"></Abstract>
-            <Declaration>AWSAutoScalingLifecycleStateEnteringStandby</Declaration>
-            
-            <DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
-            
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSimpleDBDomainMetadataResult/setItemCount:</TokenIdentifier>
+			<Abstract type="html">The number of all items in the domain.</Abstract>
+			<DeclaredIn>AWSSimpleDBModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *itemCount</Declaration>
+			
+			
+			<Anchor>//api/name/itemCount</Anchor>
             <NodeRef refid="1046"/>
-        </Token>
-        
-        <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSAutoScalingLifecycleStateStandby</TokenIdentifier>
-            <Abstract type="html"></Abstract>
-            <Declaration>AWSAutoScalingLifecycleStateStandby</Declaration>
-            
-            <DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
-            
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSimpleDBDomainMetadataResult/itemCount</TokenIdentifier>
+			<Abstract type="html">The number of all items in the domain.</Abstract>
+			<DeclaredIn>AWSSimpleDBModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *itemCount</Declaration>
+			
+			
+			<Anchor>//api/name/itemCount</Anchor>
             <NodeRef refid="1046"/>
-        </Token>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSSimpleDBDomainMetadataResult/itemCount</TokenIdentifier>
+			<Abstract type="html">The number of all items in the domain.</Abstract>
+			<DeclaredIn>AWSSimpleDBModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *itemCount</Declaration>
+			
+			
+			<Anchor>//api/name/itemCount</Anchor>
+            <NodeRef refid="1046"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSimpleDBDomainMetadataResult/setItemNamesSizeBytes:</TokenIdentifier>
+			<Abstract type="html">The total size of all item names in the domain, in bytes.</Abstract>
+			<DeclaredIn>AWSSimpleDBModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *itemNamesSizeBytes</Declaration>
+			
+			
+			<Anchor>//api/name/itemNamesSizeBytes</Anchor>
+            <NodeRef refid="1046"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSimpleDBDomainMetadataResult/itemNamesSizeBytes</TokenIdentifier>
+			<Abstract type="html">The total size of all item names in the domain, in bytes.</Abstract>
+			<DeclaredIn>AWSSimpleDBModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *itemNamesSizeBytes</Declaration>
+			
+			
+			<Anchor>//api/name/itemNamesSizeBytes</Anchor>
+            <NodeRef refid="1046"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSSimpleDBDomainMetadataResult/itemNamesSizeBytes</TokenIdentifier>
+			<Abstract type="html">The total size of all item names in the domain, in bytes.</Abstract>
+			<DeclaredIn>AWSSimpleDBModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *itemNamesSizeBytes</Declaration>
+			
+			
+			<Anchor>//api/name/itemNamesSizeBytes</Anchor>
+            <NodeRef refid="1046"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSimpleDBDomainMetadataResult/setTimestamp:</TokenIdentifier>
+			<Abstract type="html">The data and time when metadata was calculated, in Epoch (UNIX) seconds.</Abstract>
+			<DeclaredIn>AWSSimpleDBModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *timestamp</Declaration>
+			
+			
+			<Anchor>//api/name/timestamp</Anchor>
+            <NodeRef refid="1046"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSimpleDBDomainMetadataResult/timestamp</TokenIdentifier>
+			<Abstract type="html">The data and time when metadata was calculated, in Epoch (UNIX) seconds.</Abstract>
+			<DeclaredIn>AWSSimpleDBModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *timestamp</Declaration>
+			
+			
+			<Anchor>//api/name/timestamp</Anchor>
+            <NodeRef refid="1046"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSSimpleDBDomainMetadataResult/timestamp</TokenIdentifier>
+			<Abstract type="html">The data and time when metadata was calculated, in Epoch (UNIX) seconds.</Abstract>
+			<DeclaredIn>AWSSimpleDBModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *timestamp</Declaration>
+			
+			
+			<Anchor>//api/name/timestamp</Anchor>
+            <NodeRef refid="1046"/>
+		</Token>
+		
         
         
 	</File>

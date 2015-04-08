@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Constants/AWSS3PresignedURLErrorType.html">
+	<File path="Constants/AWSElasticLoadBalancingErrorType.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/c/tdef/AWSS3PresignedURLErrorType</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSS3PreSignedURL.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/c/tdef/AWSElasticLoadBalancingErrorType</TokenIdentifier>
+			<Abstract type="html">Copyright 2010-2015 Amazon.com, Inc. or its affiliates. All Rights Reserved.</Abstract>
+			<DeclaredIn>AWSElasticLoadBalancingModel.h</DeclaredIn>
             
 			
 			<NodeRef refid="1178"/>
@@ -14,101 +14,231 @@
 		
         
         <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSS3PresignedURLErrorUnknown</TokenIdentifier>
+            <TokenIdentifier>//apple_ref/c/econst/AWSElasticLoadBalancingErrorUnknown</TokenIdentifier>
             <Abstract type="html"></Abstract>
-            <Declaration>AWSS3PresignedURLErrorUnknown</Declaration>
+            <Declaration>AWSElasticLoadBalancingErrorUnknown</Declaration>
             
-            <DeclaredIn>AWSS3PreSignedURL.h</DeclaredIn>
+            <DeclaredIn>AWSElasticLoadBalancingModel.h</DeclaredIn>
             
             <NodeRef refid="1178"/>
         </Token>
         
         <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSS3PresignedURLErrorAccessKeyIsNil</TokenIdentifier>
+            <TokenIdentifier>//apple_ref/c/econst/AWSElasticLoadBalancingErrorIncompleteSignature</TokenIdentifier>
             <Abstract type="html"></Abstract>
-            <Declaration>AWSS3PresignedURLErrorAccessKeyIsNil</Declaration>
+            <Declaration>AWSElasticLoadBalancingErrorIncompleteSignature</Declaration>
             
-            <DeclaredIn>AWSS3PreSignedURL.h</DeclaredIn>
+            <DeclaredIn>AWSElasticLoadBalancingModel.h</DeclaredIn>
             
             <NodeRef refid="1178"/>
         </Token>
         
         <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSS3PresignedURLErrorSecretKeyIsNil</TokenIdentifier>
+            <TokenIdentifier>//apple_ref/c/econst/AWSElasticLoadBalancingErrorInvalidClientTokenId</TokenIdentifier>
             <Abstract type="html"></Abstract>
-            <Declaration>AWSS3PresignedURLErrorSecretKeyIsNil</Declaration>
+            <Declaration>AWSElasticLoadBalancingErrorInvalidClientTokenId</Declaration>
             
-            <DeclaredIn>AWSS3PreSignedURL.h</DeclaredIn>
+            <DeclaredIn>AWSElasticLoadBalancingModel.h</DeclaredIn>
             
             <NodeRef refid="1178"/>
         </Token>
         
         <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSS3PresignedURLErrorBucketNameIsNil</TokenIdentifier>
+            <TokenIdentifier>//apple_ref/c/econst/AWSElasticLoadBalancingErrorMissingAuthenticationToken</TokenIdentifier>
             <Abstract type="html"></Abstract>
-            <Declaration>AWSS3PresignedURLErrorBucketNameIsNil</Declaration>
+            <Declaration>AWSElasticLoadBalancingErrorMissingAuthenticationToken</Declaration>
             
-            <DeclaredIn>AWSS3PreSignedURL.h</DeclaredIn>
+            <DeclaredIn>AWSElasticLoadBalancingModel.h</DeclaredIn>
             
             <NodeRef refid="1178"/>
         </Token>
         
         <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSS3PresignedURLErrorKeyNameIsNil</TokenIdentifier>
+            <TokenIdentifier>//apple_ref/c/econst/AWSElasticLoadBalancingErrorAccessPointNotFound</TokenIdentifier>
             <Abstract type="html"></Abstract>
-            <Declaration>AWSS3PresignedURLErrorKeyNameIsNil</Declaration>
+            <Declaration>AWSElasticLoadBalancingErrorAccessPointNotFound</Declaration>
             
-            <DeclaredIn>AWSS3PreSignedURL.h</DeclaredIn>
+            <DeclaredIn>AWSElasticLoadBalancingModel.h</DeclaredIn>
             
             <NodeRef refid="1178"/>
         </Token>
         
         <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSS3PresignedURLErrorInvalidExpiresDate</TokenIdentifier>
+            <TokenIdentifier>//apple_ref/c/econst/AWSElasticLoadBalancingErrorCertificateNotFound</TokenIdentifier>
             <Abstract type="html"></Abstract>
-            <Declaration>AWSS3PresignedURLErrorInvalidExpiresDate</Declaration>
+            <Declaration>AWSElasticLoadBalancingErrorCertificateNotFound</Declaration>
             
-            <DeclaredIn>AWSS3PreSignedURL.h</DeclaredIn>
+            <DeclaredIn>AWSElasticLoadBalancingModel.h</DeclaredIn>
             
             <NodeRef refid="1178"/>
         </Token>
         
         <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSS3PresignedURLErrorUnsupportedHTTPVerbs</TokenIdentifier>
+            <TokenIdentifier>//apple_ref/c/econst/AWSElasticLoadBalancingErrorDuplicateAccessPointName</TokenIdentifier>
             <Abstract type="html"></Abstract>
-            <Declaration>AWSS3PresignedURLErrorUnsupportedHTTPVerbs</Declaration>
+            <Declaration>AWSElasticLoadBalancingErrorDuplicateAccessPointName</Declaration>
             
-            <DeclaredIn>AWSS3PreSignedURL.h</DeclaredIn>
+            <DeclaredIn>AWSElasticLoadBalancingModel.h</DeclaredIn>
             
             <NodeRef refid="1178"/>
         </Token>
         
         <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSS3PresignedURLErrorEndpointIsNil</TokenIdentifier>
+            <TokenIdentifier>//apple_ref/c/econst/AWSElasticLoadBalancingErrorDuplicateListener</TokenIdentifier>
             <Abstract type="html"></Abstract>
-            <Declaration>AWSS3PresignedURLErrorEndpointIsNil</Declaration>
+            <Declaration>AWSElasticLoadBalancingErrorDuplicateListener</Declaration>
             
-            <DeclaredIn>AWSS3PreSignedURL.h</DeclaredIn>
+            <DeclaredIn>AWSElasticLoadBalancingModel.h</DeclaredIn>
             
             <NodeRef refid="1178"/>
         </Token>
         
         <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSS3PresignedURLErrorInvalidServiceType</TokenIdentifier>
+            <TokenIdentifier>//apple_ref/c/econst/AWSElasticLoadBalancingErrorDuplicatePolicyName</TokenIdentifier>
             <Abstract type="html"></Abstract>
-            <Declaration>AWSS3PresignedURLErrorInvalidServiceType</Declaration>
+            <Declaration>AWSElasticLoadBalancingErrorDuplicatePolicyName</Declaration>
             
-            <DeclaredIn>AWSS3PreSignedURL.h</DeclaredIn>
+            <DeclaredIn>AWSElasticLoadBalancingModel.h</DeclaredIn>
             
             <NodeRef refid="1178"/>
         </Token>
         
         <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSS3PreSignedURLErrorCredentialProviderIsNil</TokenIdentifier>
+            <TokenIdentifier>//apple_ref/c/econst/AWSElasticLoadBalancingErrorDuplicateTagKeys</TokenIdentifier>
             <Abstract type="html"></Abstract>
-            <Declaration>AWSS3PreSignedURLErrorCredentialProviderIsNil</Declaration>
+            <Declaration>AWSElasticLoadBalancingErrorDuplicateTagKeys</Declaration>
             
-            <DeclaredIn>AWSS3PreSignedURL.h</DeclaredIn>
+            <DeclaredIn>AWSElasticLoadBalancingModel.h</DeclaredIn>
+            
+            <NodeRef refid="1178"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/AWSElasticLoadBalancingErrorInvalidConfigurationRequest</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>AWSElasticLoadBalancingErrorInvalidConfigurationRequest</Declaration>
+            
+            <DeclaredIn>AWSElasticLoadBalancingModel.h</DeclaredIn>
+            
+            <NodeRef refid="1178"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/AWSElasticLoadBalancingErrorInvalidEndPoint</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>AWSElasticLoadBalancingErrorInvalidEndPoint</Declaration>
+            
+            <DeclaredIn>AWSElasticLoadBalancingModel.h</DeclaredIn>
+            
+            <NodeRef refid="1178"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/AWSElasticLoadBalancingErrorInvalidScheme</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>AWSElasticLoadBalancingErrorInvalidScheme</Declaration>
+            
+            <DeclaredIn>AWSElasticLoadBalancingModel.h</DeclaredIn>
+            
+            <NodeRef refid="1178"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/AWSElasticLoadBalancingErrorInvalidSecurityGroup</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>AWSElasticLoadBalancingErrorInvalidSecurityGroup</Declaration>
+            
+            <DeclaredIn>AWSElasticLoadBalancingModel.h</DeclaredIn>
+            
+            <NodeRef refid="1178"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/AWSElasticLoadBalancingErrorInvalidSubnet</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>AWSElasticLoadBalancingErrorInvalidSubnet</Declaration>
+            
+            <DeclaredIn>AWSElasticLoadBalancingModel.h</DeclaredIn>
+            
+            <NodeRef refid="1178"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/AWSElasticLoadBalancingErrorListenerNotFound</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>AWSElasticLoadBalancingErrorListenerNotFound</Declaration>
+            
+            <DeclaredIn>AWSElasticLoadBalancingModel.h</DeclaredIn>
+            
+            <NodeRef refid="1178"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/AWSElasticLoadBalancingErrorLoadBalancerAttributeNotFound</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>AWSElasticLoadBalancingErrorLoadBalancerAttributeNotFound</Declaration>
+            
+            <DeclaredIn>AWSElasticLoadBalancingModel.h</DeclaredIn>
+            
+            <NodeRef refid="1178"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/AWSElasticLoadBalancingErrorPolicyNotFound</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>AWSElasticLoadBalancingErrorPolicyNotFound</Declaration>
+            
+            <DeclaredIn>AWSElasticLoadBalancingModel.h</DeclaredIn>
+            
+            <NodeRef refid="1178"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/AWSElasticLoadBalancingErrorPolicyTypeNotFound</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>AWSElasticLoadBalancingErrorPolicyTypeNotFound</Declaration>
+            
+            <DeclaredIn>AWSElasticLoadBalancingModel.h</DeclaredIn>
+            
+            <NodeRef refid="1178"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/AWSElasticLoadBalancingErrorSubnetNotFound</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>AWSElasticLoadBalancingErrorSubnetNotFound</Declaration>
+            
+            <DeclaredIn>AWSElasticLoadBalancingModel.h</DeclaredIn>
+            
+            <NodeRef refid="1178"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/AWSElasticLoadBalancingErrorTooManyAccessPoints</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>AWSElasticLoadBalancingErrorTooManyAccessPoints</Declaration>
+            
+            <DeclaredIn>AWSElasticLoadBalancingModel.h</DeclaredIn>
+            
+            <NodeRef refid="1178"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/AWSElasticLoadBalancingErrorTooManyPolicies</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>AWSElasticLoadBalancingErrorTooManyPolicies</Declaration>
+            
+            <DeclaredIn>AWSElasticLoadBalancingModel.h</DeclaredIn>
+            
+            <NodeRef refid="1178"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/AWSElasticLoadBalancingErrorTooManyTags</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>AWSElasticLoadBalancingErrorTooManyTags</Declaration>
+            
+            <DeclaredIn>AWSElasticLoadBalancingModel.h</DeclaredIn>
             
             <NodeRef refid="1178"/>
         </Token>

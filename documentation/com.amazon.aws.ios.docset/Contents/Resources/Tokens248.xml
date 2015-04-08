@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSEC2AccountAttributeValue.html">
+	<File path="Classes/AWSDynamoDBWriteRequest.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSEC2AccountAttributeValue</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Describes a value of an account attribute.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSDynamoDBWriteRequest</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Represents an operation to perform - either &lt;i&gt;DeleteItem&lt;/i&gt; or &lt;i&gt;PutItem&lt;/i&gt;. You can only specify one of these operations, not both, in a single &lt;i&gt;WriteRequest&lt;/i&gt;. If you do need to perform both of these operations, you will need to specify two separate &lt;i&gt;WriteRequest&lt;/i&gt; objects.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
             
 			
 			<NodeRef refid="248"/>
@@ -13,38 +13,74 @@
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2AccountAttributeValue/setAttributeValue:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The value of the attribute.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSDynamoDBWriteRequest/setDeleteRequest:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;A request to perform a &lt;i&gt;DeleteItem&lt;/i&gt; operation.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *attributeValue</Declaration>
+			<Declaration>@property (nonatomic, strong) AWSDynamoDBDeleteRequest *deleteRequest</Declaration>
 			
 			
-			<Anchor>//api/name/attributeValue</Anchor>
+			<Anchor>//api/name/deleteRequest</Anchor>
             <NodeRef refid="248"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2AccountAttributeValue/attributeValue</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The value of the attribute.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSDynamoDBWriteRequest/deleteRequest</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;A request to perform a &lt;i&gt;DeleteItem&lt;/i&gt; operation.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *attributeValue</Declaration>
+			<Declaration>@property (nonatomic, strong) AWSDynamoDBDeleteRequest *deleteRequest</Declaration>
 			
 			
-			<Anchor>//api/name/attributeValue</Anchor>
+			<Anchor>//api/name/deleteRequest</Anchor>
             <NodeRef refid="248"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2AccountAttributeValue/attributeValue</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The value of the attribute.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSDynamoDBWriteRequest/deleteRequest</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;A request to perform a &lt;i&gt;DeleteItem&lt;/i&gt; operation.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *attributeValue</Declaration>
+			<Declaration>@property (nonatomic, strong) AWSDynamoDBDeleteRequest *deleteRequest</Declaration>
 			
 			
-			<Anchor>//api/name/attributeValue</Anchor>
+			<Anchor>//api/name/deleteRequest</Anchor>
+            <NodeRef refid="248"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSDynamoDBWriteRequest/setPutRequest:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;A request to perform a &lt;i&gt;PutItem&lt;/i&gt; operation.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) AWSDynamoDBPutRequest *putRequest</Declaration>
+			
+			
+			<Anchor>//api/name/putRequest</Anchor>
+            <NodeRef refid="248"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSDynamoDBWriteRequest/putRequest</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;A request to perform a &lt;i&gt;PutItem&lt;/i&gt; operation.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) AWSDynamoDBPutRequest *putRequest</Declaration>
+			
+			
+			<Anchor>//api/name/putRequest</Anchor>
+            <NodeRef refid="248"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSDynamoDBWriteRequest/putRequest</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;A request to perform a &lt;i&gt;PutItem&lt;/i&gt; operation.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) AWSDynamoDBPutRequest *putRequest</Declaration>
+			
+			
+			<Anchor>//api/name/putRequest</Anchor>
             <NodeRef refid="248"/>
 		</Token>
 		

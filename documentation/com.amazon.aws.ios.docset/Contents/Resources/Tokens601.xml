@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSEC2VgwTelemetry.html">
+	<File path="Classes/AWSEC2TerminateInstancesRequest.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSEC2VgwTelemetry</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Describes telemetry for a VPN tunnel.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSEC2TerminateInstancesRequest</TokenIdentifier>
+			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
             
 			
@@ -13,182 +13,74 @@
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2VgwTelemetry/setAcceptedRouteCount:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The number of accepted routes.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2TerminateInstancesRequest/setDryRun:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSNumber *acceptedRouteCount</Declaration>
+			<Declaration>@property (nonatomic, strong) NSNumber *dryRun</Declaration>
 			
 			
-			<Anchor>//api/name/acceptedRouteCount</Anchor>
+			<Anchor>//api/name/dryRun</Anchor>
             <NodeRef refid="601"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2VgwTelemetry/acceptedRouteCount</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The number of accepted routes.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2TerminateInstancesRequest/dryRun</TokenIdentifier>
+			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSNumber *acceptedRouteCount</Declaration>
+			<Declaration>@property (nonatomic, strong) NSNumber *dryRun</Declaration>
 			
 			
-			<Anchor>//api/name/acceptedRouteCount</Anchor>
+			<Anchor>//api/name/dryRun</Anchor>
             <NodeRef refid="601"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2VgwTelemetry/acceptedRouteCount</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The number of accepted routes.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2TerminateInstancesRequest/dryRun</TokenIdentifier>
+			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSNumber *acceptedRouteCount</Declaration>
+			<Declaration>@property (nonatomic, strong) NSNumber *dryRun</Declaration>
 			
 			
-			<Anchor>//api/name/acceptedRouteCount</Anchor>
+			<Anchor>//api/name/dryRun</Anchor>
             <NodeRef refid="601"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2VgwTelemetry/setLastStatusChange:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The date and time of the last change in status.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2TerminateInstancesRequest/setInstanceIds:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;One or more instance IDs.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSDate *lastStatusChange</Declaration>
+			<Declaration>@property (nonatomic, strong) NSArray *instanceIds</Declaration>
 			
 			
-			<Anchor>//api/name/lastStatusChange</Anchor>
+			<Anchor>//api/name/instanceIds</Anchor>
             <NodeRef refid="601"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2VgwTelemetry/lastStatusChange</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The date and time of the last change in status.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2TerminateInstancesRequest/instanceIds</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;One or more instance IDs.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSDate *lastStatusChange</Declaration>
+			<Declaration>@property (nonatomic, strong) NSArray *instanceIds</Declaration>
 			
 			
-			<Anchor>//api/name/lastStatusChange</Anchor>
+			<Anchor>//api/name/instanceIds</Anchor>
             <NodeRef refid="601"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2VgwTelemetry/lastStatusChange</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The date and time of the last change in status.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2TerminateInstancesRequest/instanceIds</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;One or more instance IDs.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSDate *lastStatusChange</Declaration>
+			<Declaration>@property (nonatomic, strong) NSArray *instanceIds</Declaration>
 			
 			
-			<Anchor>//api/name/lastStatusChange</Anchor>
-            <NodeRef refid="601"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2VgwTelemetry/setOutsideIpAddress:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The Internet-routable IP address of the virtual private gateway&apos;s outside interface.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *outsideIpAddress</Declaration>
-			
-			
-			<Anchor>//api/name/outsideIpAddress</Anchor>
-            <NodeRef refid="601"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2VgwTelemetry/outsideIpAddress</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The Internet-routable IP address of the virtual private gateway&apos;s outside interface.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *outsideIpAddress</Declaration>
-			
-			
-			<Anchor>//api/name/outsideIpAddress</Anchor>
-            <NodeRef refid="601"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2VgwTelemetry/outsideIpAddress</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The Internet-routable IP address of the virtual private gateway&apos;s outside interface.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *outsideIpAddress</Declaration>
-			
-			
-			<Anchor>//api/name/outsideIpAddress</Anchor>
-            <NodeRef refid="601"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2VgwTelemetry/setStatus:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The status of the VPN tunnel.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, assign) AWSEC2TelemetryStatus status</Declaration>
-			
-			
-			<Anchor>//api/name/status</Anchor>
-            <NodeRef refid="601"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2VgwTelemetry/status</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The status of the VPN tunnel.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, assign) AWSEC2TelemetryStatus status</Declaration>
-			
-			
-			<Anchor>//api/name/status</Anchor>
-            <NodeRef refid="601"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2VgwTelemetry/status</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The status of the VPN tunnel.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, assign) AWSEC2TelemetryStatus status</Declaration>
-			
-			
-			<Anchor>//api/name/status</Anchor>
-            <NodeRef refid="601"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2VgwTelemetry/setStatusMessage:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;If an error occurs, a description of the error.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *statusMessage</Declaration>
-			
-			
-			<Anchor>//api/name/statusMessage</Anchor>
-            <NodeRef refid="601"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2VgwTelemetry/statusMessage</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;If an error occurs, a description of the error.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *statusMessage</Declaration>
-			
-			
-			<Anchor>//api/name/statusMessage</Anchor>
-            <NodeRef refid="601"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2VgwTelemetry/statusMessage</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;If an error occurs, a description of the error.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *statusMessage</Declaration>
-			
-			
-			<Anchor>//api/name/statusMessage</Anchor>
+			<Anchor>//api/name/instanceIds</Anchor>
             <NodeRef refid="601"/>
 		</Token>
 		

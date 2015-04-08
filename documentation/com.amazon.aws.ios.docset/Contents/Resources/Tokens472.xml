@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSEC2ImportKeyPairResult.html">
+	<File path="Classes/AWSEC2ImportInstanceRequest.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSEC2ImportKeyPairResult</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSEC2ImportInstanceRequest</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
             
@@ -13,74 +13,182 @@
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ImportKeyPairResult/setKeyFingerprint:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The MD5 public key fingerprint as specified in section 4 of RFC 4716.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ImportInstanceRequest/setDetail:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;A description for the instance being imported.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *keyFingerprint</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *detail</Declaration>
 			
 			
-			<Anchor>//api/name/keyFingerprint</Anchor>
+			<Anchor>//api/name/detail</Anchor>
             <NodeRef refid="472"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ImportKeyPairResult/keyFingerprint</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The MD5 public key fingerprint as specified in section 4 of RFC 4716.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ImportInstanceRequest/detail</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;A description for the instance being imported.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *keyFingerprint</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *detail</Declaration>
 			
 			
-			<Anchor>//api/name/keyFingerprint</Anchor>
+			<Anchor>//api/name/detail</Anchor>
             <NodeRef refid="472"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2ImportKeyPairResult/keyFingerprint</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The MD5 public key fingerprint as specified in section 4 of RFC 4716.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2ImportInstanceRequest/detail</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;A description for the instance being imported.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *keyFingerprint</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *detail</Declaration>
 			
 			
-			<Anchor>//api/name/keyFingerprint</Anchor>
+			<Anchor>//api/name/detail</Anchor>
             <NodeRef refid="472"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ImportKeyPairResult/setKeyName:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The key pair name you provided.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ImportInstanceRequest/setDiskImages:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *keyName</Declaration>
+			<Declaration>@property (nonatomic, strong) NSArray *diskImages</Declaration>
 			
 			
-			<Anchor>//api/name/keyName</Anchor>
+			<Anchor>//api/name/diskImages</Anchor>
             <NodeRef refid="472"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ImportKeyPairResult/keyName</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The key pair name you provided.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ImportInstanceRequest/diskImages</TokenIdentifier>
+			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *keyName</Declaration>
+			<Declaration>@property (nonatomic, strong) NSArray *diskImages</Declaration>
 			
 			
-			<Anchor>//api/name/keyName</Anchor>
+			<Anchor>//api/name/diskImages</Anchor>
             <NodeRef refid="472"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2ImportKeyPairResult/keyName</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The key pair name you provided.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2ImportInstanceRequest/diskImages</TokenIdentifier>
+			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *keyName</Declaration>
+			<Declaration>@property (nonatomic, strong) NSArray *diskImages</Declaration>
 			
 			
-			<Anchor>//api/name/keyName</Anchor>
+			<Anchor>//api/name/diskImages</Anchor>
+            <NodeRef refid="472"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ImportInstanceRequest/setDryRun:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *dryRun</Declaration>
+			
+			
+			<Anchor>//api/name/dryRun</Anchor>
+            <NodeRef refid="472"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ImportInstanceRequest/dryRun</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *dryRun</Declaration>
+			
+			
+			<Anchor>//api/name/dryRun</Anchor>
+            <NodeRef refid="472"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2ImportInstanceRequest/dryRun</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *dryRun</Declaration>
+			
+			
+			<Anchor>//api/name/dryRun</Anchor>
+            <NodeRef refid="472"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ImportInstanceRequest/setLaunchSpecification:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) AWSEC2ImportInstanceLaunchSpecification *launchSpecification</Declaration>
+			
+			
+			<Anchor>//api/name/launchSpecification</Anchor>
+            <NodeRef refid="472"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ImportInstanceRequest/launchSpecification</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) AWSEC2ImportInstanceLaunchSpecification *launchSpecification</Declaration>
+			
+			
+			<Anchor>//api/name/launchSpecification</Anchor>
+            <NodeRef refid="472"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2ImportInstanceRequest/launchSpecification</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) AWSEC2ImportInstanceLaunchSpecification *launchSpecification</Declaration>
+			
+			
+			<Anchor>//api/name/launchSpecification</Anchor>
+            <NodeRef refid="472"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ImportInstanceRequest/setPlatform:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The instance operating system.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) AWSEC2PlatformValues platform</Declaration>
+			
+			
+			<Anchor>//api/name/platform</Anchor>
+            <NodeRef refid="472"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ImportInstanceRequest/platform</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The instance operating system.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) AWSEC2PlatformValues platform</Declaration>
+			
+			
+			<Anchor>//api/name/platform</Anchor>
+            <NodeRef refid="472"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2ImportInstanceRequest/platform</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The instance operating system.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) AWSEC2PlatformValues platform</Declaration>
+			
+			
+			<Anchor>//api/name/platform</Anchor>
             <NodeRef refid="472"/>
 		</Token>
 		

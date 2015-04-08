@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSS3NotificationConfiguration.html">
+	<File path="Classes/AWSS3IndexDocument.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSS3NotificationConfiguration</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSS3IndexDocument</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSS3Model.h</DeclaredIn>
             
@@ -13,110 +13,38 @@
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3NotificationConfiguration/setCloudFunctionConfiguration:</TokenIdentifier>
-			<Abstract type="html"></Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3IndexDocument/setSuffix:</TokenIdentifier>
+			<Abstract type="html">A suffix that is appended to a request that is for a directory on the website endpoint (e.g. if the suffix is index.html and you make a request to samplebucket/images/ the data that is returned will be for the object with the key name images/index.html) The suffix must not be empty and must not include a slash character.</Abstract>
 			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) AWSS3CloudFunctionConfiguration *cloudFunctionConfiguration</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *suffix</Declaration>
 			
 			
-			<Anchor>//api/name/cloudFunctionConfiguration</Anchor>
+			<Anchor>//api/name/suffix</Anchor>
             <NodeRef refid="825"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3NotificationConfiguration/cloudFunctionConfiguration</TokenIdentifier>
-			<Abstract type="html"></Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3IndexDocument/suffix</TokenIdentifier>
+			<Abstract type="html">A suffix that is appended to a request that is for a directory on the website endpoint (e.g. if the suffix is index.html and you make a request to samplebucket/images/ the data that is returned will be for the object with the key name images/index.html) The suffix must not be empty and must not include a slash character.</Abstract>
 			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) AWSS3CloudFunctionConfiguration *cloudFunctionConfiguration</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *suffix</Declaration>
 			
 			
-			<Anchor>//api/name/cloudFunctionConfiguration</Anchor>
+			<Anchor>//api/name/suffix</Anchor>
             <NodeRef refid="825"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSS3NotificationConfiguration/cloudFunctionConfiguration</TokenIdentifier>
-			<Abstract type="html"></Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSS3IndexDocument/suffix</TokenIdentifier>
+			<Abstract type="html">A suffix that is appended to a request that is for a directory on the website endpoint (e.g. if the suffix is index.html and you make a request to samplebucket/images/ the data that is returned will be for the object with the key name images/index.html) The suffix must not be empty and must not include a slash character.</Abstract>
 			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) AWSS3CloudFunctionConfiguration *cloudFunctionConfiguration</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *suffix</Declaration>
 			
 			
-			<Anchor>//api/name/cloudFunctionConfiguration</Anchor>
-            <NodeRef refid="825"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3NotificationConfiguration/setQueueConfiguration:</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) AWSS3QueueConfiguration *queueConfiguration</Declaration>
-			
-			
-			<Anchor>//api/name/queueConfiguration</Anchor>
-            <NodeRef refid="825"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3NotificationConfiguration/queueConfiguration</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) AWSS3QueueConfiguration *queueConfiguration</Declaration>
-			
-			
-			<Anchor>//api/name/queueConfiguration</Anchor>
-            <NodeRef refid="825"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSS3NotificationConfiguration/queueConfiguration</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) AWSS3QueueConfiguration *queueConfiguration</Declaration>
-			
-			
-			<Anchor>//api/name/queueConfiguration</Anchor>
-            <NodeRef refid="825"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3NotificationConfiguration/setTopicConfiguration:</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) AWSS3TopicConfiguration *topicConfiguration</Declaration>
-			
-			
-			<Anchor>//api/name/topicConfiguration</Anchor>
-            <NodeRef refid="825"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3NotificationConfiguration/topicConfiguration</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) AWSS3TopicConfiguration *topicConfiguration</Declaration>
-			
-			
-			<Anchor>//api/name/topicConfiguration</Anchor>
-            <NodeRef refid="825"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSS3NotificationConfiguration/topicConfiguration</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) AWSS3TopicConfiguration *topicConfiguration</Declaration>
-			
-			
-			<Anchor>//api/name/topicConfiguration</Anchor>
+			<Anchor>//api/name/suffix</Anchor>
             <NodeRef refid="825"/>
 		</Token>
 		

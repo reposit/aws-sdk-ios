@@ -1,137 +1,90 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Constants/AWSCognitoSyncErrorType.html">
+	<File path="Classes/AWSStaticCredentialsProvider.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/c/tdef/AWSCognitoSyncErrorType</TokenIdentifier>
-			<Abstract type="html">Copyright 2014 Amazon.com, Inc. or its affiliates. All Rights Reserved.</Abstract>
-			<DeclaredIn>AWSCognitoSyncModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSStaticCredentialsProvider</TokenIdentifier>
+			<Abstract type="html">This credentials provider is intended only for testing purposes.
+We strongly discourage embedding AWS credentials in your production apps because they can be easily extracted and abused. Consider using AWSCognitoCredentialsProvider.</Abstract>
+			<DeclaredIn>AWSCredentialsProvider.h</DeclaredIn>
             
 			
 			<NodeRef refid="1059"/>
 		</Token>
 		
 		
-        
-        <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSCognitoSyncErrorUnknown</TokenIdentifier>
-            <Abstract type="html"></Abstract>
-            <Declaration>AWSCognitoSyncErrorUnknown</Declaration>
-            
-            <DeclaredIn>AWSCognitoSyncModel.h</DeclaredIn>
-            
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSStaticCredentialsProvider/setAccessKey:</TokenIdentifier>
+			<Abstract type="html">Access Key component of credentials.</Abstract>
+			<DeclaredIn>AWSCredentialsProvider.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSString *accessKey</Declaration>
+			
+			
+			<Anchor>//api/name/accessKey</Anchor>
             <NodeRef refid="1059"/>
-        </Token>
-        
-        <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSCognitoSyncErrorIncompleteSignature</TokenIdentifier>
-            <Abstract type="html"></Abstract>
-            <Declaration>AWSCognitoSyncErrorIncompleteSignature</Declaration>
-            
-            <DeclaredIn>AWSCognitoSyncModel.h</DeclaredIn>
-            
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSStaticCredentialsProvider/accessKey</TokenIdentifier>
+			<Abstract type="html">Access Key component of credentials.</Abstract>
+			<DeclaredIn>AWSCredentialsProvider.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSString *accessKey</Declaration>
+			
+			
+			<Anchor>//api/name/accessKey</Anchor>
             <NodeRef refid="1059"/>
-        </Token>
-        
-        <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSCognitoSyncErrorInvalidClientTokenId</TokenIdentifier>
-            <Abstract type="html"></Abstract>
-            <Declaration>AWSCognitoSyncErrorInvalidClientTokenId</Declaration>
-            
-            <DeclaredIn>AWSCognitoSyncModel.h</DeclaredIn>
-            
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSStaticCredentialsProvider/accessKey</TokenIdentifier>
+			<Abstract type="html">Access Key component of credentials.</Abstract>
+			<DeclaredIn>AWSCredentialsProvider.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSString *accessKey</Declaration>
+			
+			
+			<Anchor>//api/name/accessKey</Anchor>
             <NodeRef refid="1059"/>
-        </Token>
-        
-        <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSCognitoSyncErrorMissingAuthenticationToken</TokenIdentifier>
-            <Abstract type="html"></Abstract>
-            <Declaration>AWSCognitoSyncErrorMissingAuthenticationToken</Declaration>
-            
-            <DeclaredIn>AWSCognitoSyncModel.h</DeclaredIn>
-            
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSStaticCredentialsProvider/setSecretKey:</TokenIdentifier>
+			<Abstract type="html">Secret Access Key component of credentials.</Abstract>
+			<DeclaredIn>AWSCredentialsProvider.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSString *secretKey</Declaration>
+			
+			
+			<Anchor>//api/name/secretKey</Anchor>
             <NodeRef refid="1059"/>
-        </Token>
-        
-        <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSCognitoSyncErrorInternalError</TokenIdentifier>
-            <Abstract type="html"></Abstract>
-            <Declaration>AWSCognitoSyncErrorInternalError</Declaration>
-            
-            <DeclaredIn>AWSCognitoSyncModel.h</DeclaredIn>
-            
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSStaticCredentialsProvider/secretKey</TokenIdentifier>
+			<Abstract type="html">Secret Access Key component of credentials.</Abstract>
+			<DeclaredIn>AWSCredentialsProvider.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSString *secretKey</Declaration>
+			
+			
+			<Anchor>//api/name/secretKey</Anchor>
             <NodeRef refid="1059"/>
-        </Token>
-        
-        <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSCognitoSyncErrorInvalidConfiguration</TokenIdentifier>
-            <Abstract type="html"></Abstract>
-            <Declaration>AWSCognitoSyncErrorInvalidConfiguration</Declaration>
-            
-            <DeclaredIn>AWSCognitoSyncModel.h</DeclaredIn>
-            
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSStaticCredentialsProvider/secretKey</TokenIdentifier>
+			<Abstract type="html">Secret Access Key component of credentials.</Abstract>
+			<DeclaredIn>AWSCredentialsProvider.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSString *secretKey</Declaration>
+			
+			
+			<Anchor>//api/name/secretKey</Anchor>
             <NodeRef refid="1059"/>
-        </Token>
-        
-        <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSCognitoSyncErrorInvalidParameter</TokenIdentifier>
-            <Abstract type="html"></Abstract>
-            <Declaration>AWSCognitoSyncErrorInvalidParameter</Declaration>
-            
-            <DeclaredIn>AWSCognitoSyncModel.h</DeclaredIn>
-            
-            <NodeRef refid="1059"/>
-        </Token>
-        
-        <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSCognitoSyncErrorLimitExceeded</TokenIdentifier>
-            <Abstract type="html"></Abstract>
-            <Declaration>AWSCognitoSyncErrorLimitExceeded</Declaration>
-            
-            <DeclaredIn>AWSCognitoSyncModel.h</DeclaredIn>
-            
-            <NodeRef refid="1059"/>
-        </Token>
-        
-        <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSCognitoSyncErrorNotAuthorized</TokenIdentifier>
-            <Abstract type="html"></Abstract>
-            <Declaration>AWSCognitoSyncErrorNotAuthorized</Declaration>
-            
-            <DeclaredIn>AWSCognitoSyncModel.h</DeclaredIn>
-            
-            <NodeRef refid="1059"/>
-        </Token>
-        
-        <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSCognitoSyncErrorResourceConflict</TokenIdentifier>
-            <Abstract type="html"></Abstract>
-            <Declaration>AWSCognitoSyncErrorResourceConflict</Declaration>
-            
-            <DeclaredIn>AWSCognitoSyncModel.h</DeclaredIn>
-            
-            <NodeRef refid="1059"/>
-        </Token>
-        
-        <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSCognitoSyncErrorResourceNotFound</TokenIdentifier>
-            <Abstract type="html"></Abstract>
-            <Declaration>AWSCognitoSyncErrorResourceNotFound</Declaration>
-            
-            <DeclaredIn>AWSCognitoSyncModel.h</DeclaredIn>
-            
-            <NodeRef refid="1059"/>
-        </Token>
-        
-        <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSCognitoSyncErrorTooManyRequests</TokenIdentifier>
-            <Abstract type="html"></Abstract>
-            <Declaration>AWSCognitoSyncErrorTooManyRequests</Declaration>
-            
-            <DeclaredIn>AWSCognitoSyncModel.h</DeclaredIn>
-            
-            <NodeRef refid="1059"/>
-        </Token>
+		</Token>
+		
         
         
 	</File>

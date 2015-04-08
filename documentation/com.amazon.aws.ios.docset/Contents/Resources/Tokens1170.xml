@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Constants/AWSS3MFADelete.html">
+	<File path="Constants/AWSEC2VolumeState.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/c/tdef/AWSS3MFADelete</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/c/tdef/AWSEC2VolumeState</TokenIdentifier>
 			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
             
 			
 			<NodeRef refid="1170"/>
@@ -14,31 +14,71 @@
 		
         
         <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSS3MFADeleteUnknown</TokenIdentifier>
+            <TokenIdentifier>//apple_ref/c/econst/AWSEC2VolumeStateUnknown</TokenIdentifier>
             <Abstract type="html"></Abstract>
-            <Declaration>AWSS3MFADeleteUnknown</Declaration>
+            <Declaration>AWSEC2VolumeStateUnknown</Declaration>
             
-            <DeclaredIn>AWSS3Model.h</DeclaredIn>
+            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
             
             <NodeRef refid="1170"/>
         </Token>
         
         <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSS3MFADeleteEnabled</TokenIdentifier>
+            <TokenIdentifier>//apple_ref/c/econst/AWSEC2VolumeStateCreating</TokenIdentifier>
             <Abstract type="html"></Abstract>
-            <Declaration>AWSS3MFADeleteEnabled</Declaration>
+            <Declaration>AWSEC2VolumeStateCreating</Declaration>
             
-            <DeclaredIn>AWSS3Model.h</DeclaredIn>
+            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
             
             <NodeRef refid="1170"/>
         </Token>
         
         <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSS3MFADeleteDisabled</TokenIdentifier>
+            <TokenIdentifier>//apple_ref/c/econst/AWSEC2VolumeStateAvailable</TokenIdentifier>
             <Abstract type="html"></Abstract>
-            <Declaration>AWSS3MFADeleteDisabled</Declaration>
+            <Declaration>AWSEC2VolumeStateAvailable</Declaration>
             
-            <DeclaredIn>AWSS3Model.h</DeclaredIn>
+            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
+            
+            <NodeRef refid="1170"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/AWSEC2VolumeStateInUse</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>AWSEC2VolumeStateInUse</Declaration>
+            
+            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
+            
+            <NodeRef refid="1170"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/AWSEC2VolumeStateDeleting</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>AWSEC2VolumeStateDeleting</Declaration>
+            
+            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
+            
+            <NodeRef refid="1170"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/AWSEC2VolumeStateDeleted</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>AWSEC2VolumeStateDeleted</Declaration>
+            
+            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
+            
+            <NodeRef refid="1170"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/AWSEC2VolumeStateError</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>AWSEC2VolumeStateError</Declaration>
+            
+            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
             
             <NodeRef refid="1170"/>
         </Token>

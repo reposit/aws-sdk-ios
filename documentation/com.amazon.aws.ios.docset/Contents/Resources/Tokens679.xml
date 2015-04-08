@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSElasticLoadBalancingPolicies.html">
+	<File path="Classes/AWSElasticLoadBalancingListener.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSElasticLoadBalancingPolicies</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSElasticLoadBalancingListener</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSElasticLoadBalancingModel.h</DeclaredIn>
             
@@ -13,110 +13,182 @@
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSElasticLoadBalancingPolicies/setAppCookieStickinessPolicies:</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSElasticLoadBalancingListener/setInstancePort:</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSElasticLoadBalancingModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSArray *appCookieStickinessPolicies</Declaration>
+			<Declaration>@property (nonatomic, strong) NSNumber *instancePort</Declaration>
 			
 			
-			<Anchor>//api/name/appCookieStickinessPolicies</Anchor>
+			<Anchor>//api/name/instancePort</Anchor>
             <NodeRef refid="679"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSElasticLoadBalancingPolicies/appCookieStickinessPolicies</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSElasticLoadBalancingListener/instancePort</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSElasticLoadBalancingModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSArray *appCookieStickinessPolicies</Declaration>
+			<Declaration>@property (nonatomic, strong) NSNumber *instancePort</Declaration>
 			
 			
-			<Anchor>//api/name/appCookieStickinessPolicies</Anchor>
+			<Anchor>//api/name/instancePort</Anchor>
             <NodeRef refid="679"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSElasticLoadBalancingPolicies/appCookieStickinessPolicies</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSElasticLoadBalancingListener/instancePort</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSElasticLoadBalancingModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSArray *appCookieStickinessPolicies</Declaration>
+			<Declaration>@property (nonatomic, strong) NSNumber *instancePort</Declaration>
 			
 			
-			<Anchor>//api/name/appCookieStickinessPolicies</Anchor>
+			<Anchor>//api/name/instancePort</Anchor>
             <NodeRef refid="679"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSElasticLoadBalancingPolicies/setLBCookieStickinessPolicies:</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSElasticLoadBalancingListener/setInstanceProtocol:</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSElasticLoadBalancingModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSArray *LBCookieStickinessPolicies</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *instanceProtocol</Declaration>
 			
 			
-			<Anchor>//api/name/LBCookieStickinessPolicies</Anchor>
+			<Anchor>//api/name/instanceProtocol</Anchor>
             <NodeRef refid="679"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSElasticLoadBalancingPolicies/LBCookieStickinessPolicies</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSElasticLoadBalancingListener/instanceProtocol</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSElasticLoadBalancingModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSArray *LBCookieStickinessPolicies</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *instanceProtocol</Declaration>
 			
 			
-			<Anchor>//api/name/LBCookieStickinessPolicies</Anchor>
+			<Anchor>//api/name/instanceProtocol</Anchor>
             <NodeRef refid="679"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSElasticLoadBalancingPolicies/LBCookieStickinessPolicies</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSElasticLoadBalancingListener/instanceProtocol</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSElasticLoadBalancingModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSArray *LBCookieStickinessPolicies</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *instanceProtocol</Declaration>
 			
 			
-			<Anchor>//api/name/LBCookieStickinessPolicies</Anchor>
+			<Anchor>//api/name/instanceProtocol</Anchor>
             <NodeRef refid="679"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSElasticLoadBalancingPolicies/setOtherPolicies:</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSElasticLoadBalancingListener/setLoadBalancerPort:</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSElasticLoadBalancingModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSArray *otherPolicies</Declaration>
+			<Declaration>@property (nonatomic, strong) NSNumber *loadBalancerPort</Declaration>
 			
 			
-			<Anchor>//api/name/otherPolicies</Anchor>
+			<Anchor>//api/name/loadBalancerPort</Anchor>
             <NodeRef refid="679"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSElasticLoadBalancingPolicies/otherPolicies</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSElasticLoadBalancingListener/loadBalancerPort</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSElasticLoadBalancingModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSArray *otherPolicies</Declaration>
+			<Declaration>@property (nonatomic, strong) NSNumber *loadBalancerPort</Declaration>
 			
 			
-			<Anchor>//api/name/otherPolicies</Anchor>
+			<Anchor>//api/name/loadBalancerPort</Anchor>
             <NodeRef refid="679"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSElasticLoadBalancingPolicies/otherPolicies</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSElasticLoadBalancingListener/loadBalancerPort</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSElasticLoadBalancingModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSArray *otherPolicies</Declaration>
+			<Declaration>@property (nonatomic, strong) NSNumber *loadBalancerPort</Declaration>
 			
 			
-			<Anchor>//api/name/otherPolicies</Anchor>
+			<Anchor>//api/name/loadBalancerPort</Anchor>
+            <NodeRef refid="679"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSElasticLoadBalancingListener/setProtocols:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSElasticLoadBalancingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *protocols</Declaration>
+			
+			
+			<Anchor>//api/name/protocols</Anchor>
+            <NodeRef refid="679"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSElasticLoadBalancingListener/protocols</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSElasticLoadBalancingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *protocols</Declaration>
+			
+			
+			<Anchor>//api/name/protocols</Anchor>
+            <NodeRef refid="679"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSElasticLoadBalancingListener/protocols</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSElasticLoadBalancingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *protocols</Declaration>
+			
+			
+			<Anchor>//api/name/protocols</Anchor>
+            <NodeRef refid="679"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSElasticLoadBalancingListener/setSSLCertificateId:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSElasticLoadBalancingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *SSLCertificateId</Declaration>
+			
+			
+			<Anchor>//api/name/SSLCertificateId</Anchor>
+            <NodeRef refid="679"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSElasticLoadBalancingListener/SSLCertificateId</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSElasticLoadBalancingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *SSLCertificateId</Declaration>
+			
+			
+			<Anchor>//api/name/SSLCertificateId</Anchor>
+            <NodeRef refid="679"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSElasticLoadBalancingListener/SSLCertificateId</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSElasticLoadBalancingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *SSLCertificateId</Declaration>
+			
+			
+			<Anchor>//api/name/SSLCertificateId</Anchor>
             <NodeRef refid="679"/>
 		</Token>
 		

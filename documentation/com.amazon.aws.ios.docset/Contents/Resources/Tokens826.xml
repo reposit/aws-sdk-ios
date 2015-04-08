@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSS3Object.html">
+	<File path="Classes/AWSS3Initiator.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSS3Object</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSS3Initiator</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSS3Model.h</DeclaredIn>
             
@@ -13,218 +13,74 @@
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3Object/setETag:</TokenIdentifier>
-			<Abstract type="html"></Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3Initiator/setDisplayName:</TokenIdentifier>
+			<Abstract type="html">Name of the Principal.</Abstract>
 			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *ETag</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *displayName</Declaration>
 			
 			
-			<Anchor>//api/name/ETag</Anchor>
+			<Anchor>//api/name/displayName</Anchor>
             <NodeRef refid="826"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3Object/ETag</TokenIdentifier>
-			<Abstract type="html"></Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3Initiator/displayName</TokenIdentifier>
+			<Abstract type="html">Name of the Principal.</Abstract>
 			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *ETag</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *displayName</Declaration>
 			
 			
-			<Anchor>//api/name/ETag</Anchor>
+			<Anchor>//api/name/displayName</Anchor>
             <NodeRef refid="826"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSS3Object/ETag</TokenIdentifier>
-			<Abstract type="html"></Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSS3Initiator/displayName</TokenIdentifier>
+			<Abstract type="html">Name of the Principal.</Abstract>
 			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *ETag</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *displayName</Declaration>
 			
 			
-			<Anchor>//api/name/ETag</Anchor>
+			<Anchor>//api/name/displayName</Anchor>
             <NodeRef refid="826"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3Object/setKey:</TokenIdentifier>
-			<Abstract type="html"></Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3Initiator/setIdentifier:</TokenIdentifier>
+			<Abstract type="html">If the principal is an AWS account, it provides the Canonical User ID. If the principal is an IAM User, it provides a user ARN value.</Abstract>
 			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *key</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *identifier</Declaration>
 			
 			
-			<Anchor>//api/name/key</Anchor>
+			<Anchor>//api/name/identifier</Anchor>
             <NodeRef refid="826"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3Object/key</TokenIdentifier>
-			<Abstract type="html"></Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3Initiator/identifier</TokenIdentifier>
+			<Abstract type="html">If the principal is an AWS account, it provides the Canonical User ID. If the principal is an IAM User, it provides a user ARN value.</Abstract>
 			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *key</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *identifier</Declaration>
 			
 			
-			<Anchor>//api/name/key</Anchor>
+			<Anchor>//api/name/identifier</Anchor>
             <NodeRef refid="826"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSS3Object/key</TokenIdentifier>
-			<Abstract type="html"></Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSS3Initiator/identifier</TokenIdentifier>
+			<Abstract type="html">If the principal is an AWS account, it provides the Canonical User ID. If the principal is an IAM User, it provides a user ARN value.</Abstract>
 			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *key</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *identifier</Declaration>
 			
 			
-			<Anchor>//api/name/key</Anchor>
-            <NodeRef refid="826"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3Object/setLastModified:</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSDate *lastModified</Declaration>
-			
-			
-			<Anchor>//api/name/lastModified</Anchor>
-            <NodeRef refid="826"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3Object/lastModified</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSDate *lastModified</Declaration>
-			
-			
-			<Anchor>//api/name/lastModified</Anchor>
-            <NodeRef refid="826"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSS3Object/lastModified</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSDate *lastModified</Declaration>
-			
-			
-			<Anchor>//api/name/lastModified</Anchor>
-            <NodeRef refid="826"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3Object/setOwner:</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) AWSS3Owner *owner</Declaration>
-			
-			
-			<Anchor>//api/name/owner</Anchor>
-            <NodeRef refid="826"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3Object/owner</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) AWSS3Owner *owner</Declaration>
-			
-			
-			<Anchor>//api/name/owner</Anchor>
-            <NodeRef refid="826"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSS3Object/owner</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) AWSS3Owner *owner</Declaration>
-			
-			
-			<Anchor>//api/name/owner</Anchor>
-            <NodeRef refid="826"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3Object/setSize:</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSNumber *size</Declaration>
-			
-			
-			<Anchor>//api/name/size</Anchor>
-            <NodeRef refid="826"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3Object/size</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSNumber *size</Declaration>
-			
-			
-			<Anchor>//api/name/size</Anchor>
-            <NodeRef refid="826"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSS3Object/size</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSNumber *size</Declaration>
-			
-			
-			<Anchor>//api/name/size</Anchor>
-            <NodeRef refid="826"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3Object/setStorageClass:</TokenIdentifier>
-			<Abstract type="html">The class of storage used to store the object.</Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, assign) AWSS3ObjectStorageClass storageClass</Declaration>
-			
-			
-			<Anchor>//api/name/storageClass</Anchor>
-            <NodeRef refid="826"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3Object/storageClass</TokenIdentifier>
-			<Abstract type="html">The class of storage used to store the object.</Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, assign) AWSS3ObjectStorageClass storageClass</Declaration>
-			
-			
-			<Anchor>//api/name/storageClass</Anchor>
-            <NodeRef refid="826"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSS3Object/storageClass</TokenIdentifier>
-			<Abstract type="html">The class of storage used to store the object.</Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, assign) AWSS3ObjectStorageClass storageClass</Declaration>
-			
-			
-			<Anchor>//api/name/storageClass</Anchor>
+			<Anchor>//api/name/identifier</Anchor>
             <NodeRef refid="826"/>
 		</Token>
 		

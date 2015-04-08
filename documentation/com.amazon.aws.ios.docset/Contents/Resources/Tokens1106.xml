@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Constants/AWSEC2NetworkInterfaceAttribute.html">
+	<File path="Constants/AWSDynamoDBSelect.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/c/tdef/AWSEC2NetworkInterfaceAttribute</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/c/tdef/AWSDynamoDBSelect</TokenIdentifier>
 			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			<DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
             
 			
 			<NodeRef refid="1106"/>
@@ -14,51 +14,51 @@
 		
         
         <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSEC2NetworkInterfaceAttributeUnknown</TokenIdentifier>
+            <TokenIdentifier>//apple_ref/c/econst/AWSDynamoDBSelectUnknown</TokenIdentifier>
             <Abstract type="html"></Abstract>
-            <Declaration>AWSEC2NetworkInterfaceAttributeUnknown</Declaration>
+            <Declaration>AWSDynamoDBSelectUnknown</Declaration>
             
-            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
+            <DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
             
             <NodeRef refid="1106"/>
         </Token>
         
         <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSEC2NetworkInterfaceAttributeDescription</TokenIdentifier>
+            <TokenIdentifier>//apple_ref/c/econst/AWSDynamoDBSelectAllAttributes</TokenIdentifier>
             <Abstract type="html"></Abstract>
-            <Declaration>AWSEC2NetworkInterfaceAttributeDescription</Declaration>
+            <Declaration>AWSDynamoDBSelectAllAttributes</Declaration>
             
-            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
+            <DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
             
             <NodeRef refid="1106"/>
         </Token>
         
         <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSEC2NetworkInterfaceAttributeGroupSet</TokenIdentifier>
+            <TokenIdentifier>//apple_ref/c/econst/AWSDynamoDBSelectAllProjectedAttributes</TokenIdentifier>
             <Abstract type="html"></Abstract>
-            <Declaration>AWSEC2NetworkInterfaceAttributeGroupSet</Declaration>
+            <Declaration>AWSDynamoDBSelectAllProjectedAttributes</Declaration>
             
-            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
+            <DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
             
             <NodeRef refid="1106"/>
         </Token>
         
         <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSEC2NetworkInterfaceAttributeSourceDestCheck</TokenIdentifier>
+            <TokenIdentifier>//apple_ref/c/econst/AWSDynamoDBSelectSpecificAttributes</TokenIdentifier>
             <Abstract type="html"></Abstract>
-            <Declaration>AWSEC2NetworkInterfaceAttributeSourceDestCheck</Declaration>
+            <Declaration>AWSDynamoDBSelectSpecificAttributes</Declaration>
             
-            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
+            <DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
             
             <NodeRef refid="1106"/>
         </Token>
         
         <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSEC2NetworkInterfaceAttributeAttachment</TokenIdentifier>
+            <TokenIdentifier>//apple_ref/c/econst/AWSDynamoDBSelectCount</TokenIdentifier>
             <Abstract type="html"></Abstract>
-            <Declaration>AWSEC2NetworkInterfaceAttributeAttachment</Declaration>
+            <Declaration>AWSDynamoDBSelectCount</Declaration>
             
-            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
+            <DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
             
             <NodeRef refid="1106"/>
         </Token>

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSS3LifecycleExpiration.html">
+	<File path="Classes/AWSS3GetBucketWebsiteOutput.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSS3LifecycleExpiration</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSS3GetBucketWebsiteOutput</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSS3Model.h</DeclaredIn>
             
@@ -13,74 +13,146 @@
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3LifecycleExpiration/setDate:</TokenIdentifier>
-			<Abstract type="html">Indicates at what date the object is to be moved or deleted. Should be in GMT ISO 8601 Format.</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3GetBucketWebsiteOutput/setErrorDocument:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSDate *date</Declaration>
+			<Declaration>@property (nonatomic, strong) AWSS3ErrorDocument *errorDocument</Declaration>
 			
 			
-			<Anchor>//api/name/date</Anchor>
+			<Anchor>//api/name/errorDocument</Anchor>
             <NodeRef refid="811"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3LifecycleExpiration/date</TokenIdentifier>
-			<Abstract type="html">Indicates at what date the object is to be moved or deleted. Should be in GMT ISO 8601 Format.</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3GetBucketWebsiteOutput/errorDocument</TokenIdentifier>
+			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSDate *date</Declaration>
+			<Declaration>@property (nonatomic, strong) AWSS3ErrorDocument *errorDocument</Declaration>
 			
 			
-			<Anchor>//api/name/date</Anchor>
+			<Anchor>//api/name/errorDocument</Anchor>
             <NodeRef refid="811"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSS3LifecycleExpiration/date</TokenIdentifier>
-			<Abstract type="html">Indicates at what date the object is to be moved or deleted. Should be in GMT ISO 8601 Format.</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSS3GetBucketWebsiteOutput/errorDocument</TokenIdentifier>
+			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSDate *date</Declaration>
+			<Declaration>@property (nonatomic, strong) AWSS3ErrorDocument *errorDocument</Declaration>
 			
 			
-			<Anchor>//api/name/date</Anchor>
+			<Anchor>//api/name/errorDocument</Anchor>
             <NodeRef refid="811"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3LifecycleExpiration/setDays:</TokenIdentifier>
-			<Abstract type="html">Indicates the lifetime, in days, of the objects that are subject to the rule. The value must be a non-zero positive integer.</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3GetBucketWebsiteOutput/setIndexDocument:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSNumber *days</Declaration>
+			<Declaration>@property (nonatomic, strong) AWSS3IndexDocument *indexDocument</Declaration>
 			
 			
-			<Anchor>//api/name/days</Anchor>
+			<Anchor>//api/name/indexDocument</Anchor>
             <NodeRef refid="811"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3LifecycleExpiration/days</TokenIdentifier>
-			<Abstract type="html">Indicates the lifetime, in days, of the objects that are subject to the rule. The value must be a non-zero positive integer.</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3GetBucketWebsiteOutput/indexDocument</TokenIdentifier>
+			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSNumber *days</Declaration>
+			<Declaration>@property (nonatomic, strong) AWSS3IndexDocument *indexDocument</Declaration>
 			
 			
-			<Anchor>//api/name/days</Anchor>
+			<Anchor>//api/name/indexDocument</Anchor>
             <NodeRef refid="811"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSS3LifecycleExpiration/days</TokenIdentifier>
-			<Abstract type="html">Indicates the lifetime, in days, of the objects that are subject to the rule. The value must be a non-zero positive integer.</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSS3GetBucketWebsiteOutput/indexDocument</TokenIdentifier>
+			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSNumber *days</Declaration>
+			<Declaration>@property (nonatomic, strong) AWSS3IndexDocument *indexDocument</Declaration>
 			
 			
-			<Anchor>//api/name/days</Anchor>
+			<Anchor>//api/name/indexDocument</Anchor>
+            <NodeRef refid="811"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3GetBucketWebsiteOutput/setRedirectAllRequestsTo:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) AWSS3RedirectAllRequestsTo *redirectAllRequestsTo</Declaration>
+			
+			
+			<Anchor>//api/name/redirectAllRequestsTo</Anchor>
+            <NodeRef refid="811"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3GetBucketWebsiteOutput/redirectAllRequestsTo</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) AWSS3RedirectAllRequestsTo *redirectAllRequestsTo</Declaration>
+			
+			
+			<Anchor>//api/name/redirectAllRequestsTo</Anchor>
+            <NodeRef refid="811"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSS3GetBucketWebsiteOutput/redirectAllRequestsTo</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) AWSS3RedirectAllRequestsTo *redirectAllRequestsTo</Declaration>
+			
+			
+			<Anchor>//api/name/redirectAllRequestsTo</Anchor>
+            <NodeRef refid="811"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3GetBucketWebsiteOutput/setRoutingRules:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray *routingRules</Declaration>
+			
+			
+			<Anchor>//api/name/routingRules</Anchor>
+            <NodeRef refid="811"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3GetBucketWebsiteOutput/routingRules</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray *routingRules</Declaration>
+			
+			
+			<Anchor>//api/name/routingRules</Anchor>
+            <NodeRef refid="811"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSS3GetBucketWebsiteOutput/routingRules</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray *routingRules</Declaration>
+			
+			
+			<Anchor>//api/name/routingRules</Anchor>
             <NodeRef refid="811"/>
 		</Token>
 		

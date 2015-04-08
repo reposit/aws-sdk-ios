@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSElasticLoadBalancingConfigureHealthCheckInput.html">
+	<File path="Classes/AWSElasticLoadBalancingAppCookieStickinessPolicy.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSElasticLoadBalancingConfigureHealthCheckInput</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSElasticLoadBalancingAppCookieStickinessPolicy</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSElasticLoadBalancingModel.h</DeclaredIn>
             
@@ -13,74 +13,74 @@
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSElasticLoadBalancingConfigureHealthCheckInput/setHealthCheck:</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSElasticLoadBalancingAppCookieStickinessPolicy/setCookieName:</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSElasticLoadBalancingModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) AWSElasticLoadBalancingHealthCheck *healthCheck</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *cookieName</Declaration>
 			
 			
-			<Anchor>//api/name/healthCheck</Anchor>
+			<Anchor>//api/name/cookieName</Anchor>
             <NodeRef refid="632"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSElasticLoadBalancingConfigureHealthCheckInput/healthCheck</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSElasticLoadBalancingAppCookieStickinessPolicy/cookieName</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSElasticLoadBalancingModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) AWSElasticLoadBalancingHealthCheck *healthCheck</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *cookieName</Declaration>
 			
 			
-			<Anchor>//api/name/healthCheck</Anchor>
+			<Anchor>//api/name/cookieName</Anchor>
             <NodeRef refid="632"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSElasticLoadBalancingConfigureHealthCheckInput/healthCheck</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSElasticLoadBalancingAppCookieStickinessPolicy/cookieName</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSElasticLoadBalancingModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) AWSElasticLoadBalancingHealthCheck *healthCheck</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *cookieName</Declaration>
 			
 			
-			<Anchor>//api/name/healthCheck</Anchor>
+			<Anchor>//api/name/cookieName</Anchor>
             <NodeRef refid="632"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSElasticLoadBalancingConfigureHealthCheckInput/setLoadBalancerName:</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSElasticLoadBalancingAppCookieStickinessPolicy/setPolicyName:</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSElasticLoadBalancingModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *loadBalancerName</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *policyName</Declaration>
 			
 			
-			<Anchor>//api/name/loadBalancerName</Anchor>
+			<Anchor>//api/name/policyName</Anchor>
             <NodeRef refid="632"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSElasticLoadBalancingConfigureHealthCheckInput/loadBalancerName</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSElasticLoadBalancingAppCookieStickinessPolicy/policyName</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSElasticLoadBalancingModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *loadBalancerName</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *policyName</Declaration>
 			
 			
-			<Anchor>//api/name/loadBalancerName</Anchor>
+			<Anchor>//api/name/policyName</Anchor>
             <NodeRef refid="632"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSElasticLoadBalancingConfigureHealthCheckInput/loadBalancerName</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSElasticLoadBalancingAppCookieStickinessPolicy/policyName</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSElasticLoadBalancingModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *loadBalancerName</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *policyName</Declaration>
 			
 			
-			<Anchor>//api/name/loadBalancerName</Anchor>
+			<Anchor>//api/name/policyName</Anchor>
             <NodeRef refid="632"/>
 		</Token>
 		

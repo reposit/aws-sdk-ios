@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Constants/AWSS3BucketCannedACL.html">
+	<File path="Constants/AWSEC2StatusType.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/c/tdef/AWSS3BucketCannedACL</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/c/tdef/AWSEC2StatusType</TokenIdentifier>
 			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
             
 			
 			<NodeRef refid="1162"/>
@@ -14,51 +14,41 @@
 		
         
         <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSS3BucketCannedACLUnknown</TokenIdentifier>
+            <TokenIdentifier>//apple_ref/c/econst/AWSEC2StatusTypeUnknown</TokenIdentifier>
             <Abstract type="html"></Abstract>
-            <Declaration>AWSS3BucketCannedACLUnknown</Declaration>
+            <Declaration>AWSEC2StatusTypeUnknown</Declaration>
             
-            <DeclaredIn>AWSS3Model.h</DeclaredIn>
+            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
             
             <NodeRef refid="1162"/>
         </Token>
         
         <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSS3BucketCannedACLPrivate</TokenIdentifier>
+            <TokenIdentifier>//apple_ref/c/econst/AWSEC2StatusTypePassed</TokenIdentifier>
             <Abstract type="html"></Abstract>
-            <Declaration>AWSS3BucketCannedACLPrivate</Declaration>
+            <Declaration>AWSEC2StatusTypePassed</Declaration>
             
-            <DeclaredIn>AWSS3Model.h</DeclaredIn>
+            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
             
             <NodeRef refid="1162"/>
         </Token>
         
         <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSS3BucketCannedACLPublicRead</TokenIdentifier>
+            <TokenIdentifier>//apple_ref/c/econst/AWSEC2StatusTypeFailed</TokenIdentifier>
             <Abstract type="html"></Abstract>
-            <Declaration>AWSS3BucketCannedACLPublicRead</Declaration>
+            <Declaration>AWSEC2StatusTypeFailed</Declaration>
             
-            <DeclaredIn>AWSS3Model.h</DeclaredIn>
+            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
             
             <NodeRef refid="1162"/>
         </Token>
         
         <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSS3BucketCannedACLPublicReadWrite</TokenIdentifier>
+            <TokenIdentifier>//apple_ref/c/econst/AWSEC2StatusTypeInsufficientData</TokenIdentifier>
             <Abstract type="html"></Abstract>
-            <Declaration>AWSS3BucketCannedACLPublicReadWrite</Declaration>
+            <Declaration>AWSEC2StatusTypeInsufficientData</Declaration>
             
-            <DeclaredIn>AWSS3Model.h</DeclaredIn>
-            
-            <NodeRef refid="1162"/>
-        </Token>
-        
-        <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSS3BucketCannedACLAuthenticatedRead</TokenIdentifier>
-            <Abstract type="html"></Abstract>
-            <Declaration>AWSS3BucketCannedACLAuthenticatedRead</Declaration>
-            
-            <DeclaredIn>AWSS3Model.h</DeclaredIn>
+            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
             
             <NodeRef refid="1162"/>
         </Token>

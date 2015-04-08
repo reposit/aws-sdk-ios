@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSEC2DescribeNetworkInterfaceAttributeResult.html">
+	<File path="Classes/AWSEC2DescribeKeyPairsRequest.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSEC2DescribeNetworkInterfaceAttributeResult</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSEC2DescribeKeyPairsRequest</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
             
@@ -13,182 +13,110 @@
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DescribeNetworkInterfaceAttributeResult/setAttachment:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The attachment (if any) of the network interface.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DescribeKeyPairsRequest/setDryRun:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) AWSEC2NetworkInterfaceAttachment *attachment</Declaration>
+			<Declaration>@property (nonatomic, strong) NSNumber *dryRun</Declaration>
 			
 			
-			<Anchor>//api/name/attachment</Anchor>
+			<Anchor>//api/name/dryRun</Anchor>
             <NodeRef refid="385"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DescribeNetworkInterfaceAttributeResult/attachment</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The attachment (if any) of the network interface.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DescribeKeyPairsRequest/dryRun</TokenIdentifier>
+			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) AWSEC2NetworkInterfaceAttachment *attachment</Declaration>
+			<Declaration>@property (nonatomic, strong) NSNumber *dryRun</Declaration>
 			
 			
-			<Anchor>//api/name/attachment</Anchor>
+			<Anchor>//api/name/dryRun</Anchor>
             <NodeRef refid="385"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2DescribeNetworkInterfaceAttributeResult/attachment</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The attachment (if any) of the network interface.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2DescribeKeyPairsRequest/dryRun</TokenIdentifier>
+			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) AWSEC2NetworkInterfaceAttachment *attachment</Declaration>
+			<Declaration>@property (nonatomic, strong) NSNumber *dryRun</Declaration>
 			
 			
-			<Anchor>//api/name/attachment</Anchor>
+			<Anchor>//api/name/dryRun</Anchor>
             <NodeRef refid="385"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DescribeNetworkInterfaceAttributeResult/setDetail:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The description of the network interface.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DescribeKeyPairsRequest/setFilters:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;One or more filters.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;fingerprint&lt;/code&gt; - The fingerprint of the key pair.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;key-name&lt;/code&gt; - The name of the key pair.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) AWSEC2AttributeValue *detail</Declaration>
+			<Declaration>@property (nonatomic, strong) NSArray *filters</Declaration>
 			
 			
-			<Anchor>//api/name/detail</Anchor>
+			<Anchor>//api/name/filters</Anchor>
             <NodeRef refid="385"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DescribeNetworkInterfaceAttributeResult/detail</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The description of the network interface.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DescribeKeyPairsRequest/filters</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;One or more filters.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;fingerprint&lt;/code&gt; - The fingerprint of the key pair.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;key-name&lt;/code&gt; - The name of the key pair.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) AWSEC2AttributeValue *detail</Declaration>
+			<Declaration>@property (nonatomic, strong) NSArray *filters</Declaration>
 			
 			
-			<Anchor>//api/name/detail</Anchor>
+			<Anchor>//api/name/filters</Anchor>
             <NodeRef refid="385"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2DescribeNetworkInterfaceAttributeResult/detail</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The description of the network interface.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2DescribeKeyPairsRequest/filters</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;One or more filters.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;fingerprint&lt;/code&gt; - The fingerprint of the key pair.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;key-name&lt;/code&gt; - The name of the key pair.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) AWSEC2AttributeValue *detail</Declaration>
+			<Declaration>@property (nonatomic, strong) NSArray *filters</Declaration>
 			
 			
-			<Anchor>//api/name/detail</Anchor>
+			<Anchor>//api/name/filters</Anchor>
             <NodeRef refid="385"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DescribeNetworkInterfaceAttributeResult/setGroups:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The security groups associated with the network interface.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DescribeKeyPairsRequest/setKeyNames:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;One or more key pair names.&lt;/p&gt;&lt;p&gt;Default: Describes all your key pairs.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSArray *groups</Declaration>
+			<Declaration>@property (nonatomic, strong) NSArray *keyNames</Declaration>
 			
 			
-			<Anchor>//api/name/groups</Anchor>
+			<Anchor>//api/name/keyNames</Anchor>
             <NodeRef refid="385"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DescribeNetworkInterfaceAttributeResult/groups</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The security groups associated with the network interface.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DescribeKeyPairsRequest/keyNames</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;One or more key pair names.&lt;/p&gt;&lt;p&gt;Default: Describes all your key pairs.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSArray *groups</Declaration>
+			<Declaration>@property (nonatomic, strong) NSArray *keyNames</Declaration>
 			
 			
-			<Anchor>//api/name/groups</Anchor>
+			<Anchor>//api/name/keyNames</Anchor>
             <NodeRef refid="385"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2DescribeNetworkInterfaceAttributeResult/groups</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The security groups associated with the network interface.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2DescribeKeyPairsRequest/keyNames</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;One or more key pair names.&lt;/p&gt;&lt;p&gt;Default: Describes all your key pairs.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSArray *groups</Declaration>
+			<Declaration>@property (nonatomic, strong) NSArray *keyNames</Declaration>
 			
 			
-			<Anchor>//api/name/groups</Anchor>
-            <NodeRef refid="385"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DescribeNetworkInterfaceAttributeResult/setNetworkInterfaceId:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The ID of the network interface.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *networkInterfaceId</Declaration>
-			
-			
-			<Anchor>//api/name/networkInterfaceId</Anchor>
-            <NodeRef refid="385"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DescribeNetworkInterfaceAttributeResult/networkInterfaceId</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The ID of the network interface.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *networkInterfaceId</Declaration>
-			
-			
-			<Anchor>//api/name/networkInterfaceId</Anchor>
-            <NodeRef refid="385"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2DescribeNetworkInterfaceAttributeResult/networkInterfaceId</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The ID of the network interface.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *networkInterfaceId</Declaration>
-			
-			
-			<Anchor>//api/name/networkInterfaceId</Anchor>
-            <NodeRef refid="385"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DescribeNetworkInterfaceAttributeResult/setSourceDestCheck:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Indicates whether source/destination checking is enabled.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) AWSEC2AttributeBooleanValue *sourceDestCheck</Declaration>
-			
-			
-			<Anchor>//api/name/sourceDestCheck</Anchor>
-            <NodeRef refid="385"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DescribeNetworkInterfaceAttributeResult/sourceDestCheck</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Indicates whether source/destination checking is enabled.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) AWSEC2AttributeBooleanValue *sourceDestCheck</Declaration>
-			
-			
-			<Anchor>//api/name/sourceDestCheck</Anchor>
-            <NodeRef refid="385"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2DescribeNetworkInterfaceAttributeResult/sourceDestCheck</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Indicates whether source/destination checking is enabled.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) AWSEC2AttributeBooleanValue *sourceDestCheck</Declaration>
-			
-			
-			<Anchor>//api/name/sourceDestCheck</Anchor>
+			<Anchor>//api/name/keyNames</Anchor>
             <NodeRef refid="385"/>
 		</Token>
 		

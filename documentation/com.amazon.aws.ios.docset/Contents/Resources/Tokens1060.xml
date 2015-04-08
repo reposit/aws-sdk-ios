@@ -1,47 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Constants/AWSCognitoSyncOperation.html">
+	<File path="Classes/AWSSynchronizedMutableDictionary.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/c/tdef/AWSCognitoSyncOperation</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSCognitoSyncModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSSynchronizedMutableDictionary</TokenIdentifier>
+			<Abstract type="html">Copyright 2010-2015 Amazon.com, Inc. or its affiliates. All Rights Reserved.</Abstract>
+			<DeclaredIn>AWSSynchronizedMutableDictionary.h</DeclaredIn>
             
 			
 			<NodeRef refid="1060"/>
 		</Token>
 		
 		
-        
-        <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSCognitoSyncOperationUnknown</TokenIdentifier>
-            <Abstract type="html"></Abstract>
-            <Declaration>AWSCognitoSyncOperationUnknown</Declaration>
-            
-            <DeclaredIn>AWSCognitoSyncModel.h</DeclaredIn>
-            
-            <NodeRef refid="1060"/>
-        </Token>
-        
-        <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSCognitoSyncOperationReplace</TokenIdentifier>
-            <Abstract type="html"></Abstract>
-            <Declaration>AWSCognitoSyncOperationReplace</Declaration>
-            
-            <DeclaredIn>AWSCognitoSyncModel.h</DeclaredIn>
-            
-            <NodeRef refid="1060"/>
-        </Token>
-        
-        <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSCognitoSyncOperationRemove</TokenIdentifier>
-            <Abstract type="html"></Abstract>
-            <Declaration>AWSCognitoSyncOperationRemove</Declaration>
-            
-            <DeclaredIn>AWSCognitoSyncModel.h</DeclaredIn>
-            
-            <NodeRef refid="1060"/>
-        </Token>
         
         
 	</File>

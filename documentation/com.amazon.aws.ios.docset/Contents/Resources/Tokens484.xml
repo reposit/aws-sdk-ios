@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSEC2InstanceNetworkInterfaceAssociation.html">
+	<File path="Classes/AWSEC2InstanceBlockDeviceMappingSpecification.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSEC2InstanceNetworkInterfaceAssociation</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Describes association information for an Elastic IP address.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSEC2InstanceBlockDeviceMappingSpecification</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Describes a block device mapping entry.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
             
 			
@@ -13,110 +13,146 @@
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2InstanceNetworkInterfaceAssociation/setIpOwnerId:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The ID of the owner of the Elastic IP address.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2InstanceBlockDeviceMappingSpecification/setDeviceName:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The device name exposed to the instance (for example, &lt;filename&gt;/dev/sdh&lt;/filename&gt;).&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *ipOwnerId</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *deviceName</Declaration>
 			
 			
-			<Anchor>//api/name/ipOwnerId</Anchor>
+			<Anchor>//api/name/deviceName</Anchor>
             <NodeRef refid="484"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2InstanceNetworkInterfaceAssociation/ipOwnerId</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The ID of the owner of the Elastic IP address.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2InstanceBlockDeviceMappingSpecification/deviceName</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The device name exposed to the instance (for example, &lt;filename&gt;/dev/sdh&lt;/filename&gt;).&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *ipOwnerId</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *deviceName</Declaration>
 			
 			
-			<Anchor>//api/name/ipOwnerId</Anchor>
+			<Anchor>//api/name/deviceName</Anchor>
             <NodeRef refid="484"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2InstanceNetworkInterfaceAssociation/ipOwnerId</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The ID of the owner of the Elastic IP address.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2InstanceBlockDeviceMappingSpecification/deviceName</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The device name exposed to the instance (for example, &lt;filename&gt;/dev/sdh&lt;/filename&gt;).&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *ipOwnerId</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *deviceName</Declaration>
 			
 			
-			<Anchor>//api/name/ipOwnerId</Anchor>
+			<Anchor>//api/name/deviceName</Anchor>
             <NodeRef refid="484"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2InstanceNetworkInterfaceAssociation/setPublicDnsName:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The public DNS name.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2InstanceBlockDeviceMappingSpecification/setEbs:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Parameters used to automatically set up Amazon EBS volumes when the instance is launched.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *publicDnsName</Declaration>
+			<Declaration>@property (nonatomic, strong) AWSEC2EbsInstanceBlockDeviceSpecification *ebs</Declaration>
 			
 			
-			<Anchor>//api/name/publicDnsName</Anchor>
+			<Anchor>//api/name/ebs</Anchor>
             <NodeRef refid="484"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2InstanceNetworkInterfaceAssociation/publicDnsName</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The public DNS name.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2InstanceBlockDeviceMappingSpecification/ebs</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Parameters used to automatically set up Amazon EBS volumes when the instance is launched.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *publicDnsName</Declaration>
+			<Declaration>@property (nonatomic, strong) AWSEC2EbsInstanceBlockDeviceSpecification *ebs</Declaration>
 			
 			
-			<Anchor>//api/name/publicDnsName</Anchor>
+			<Anchor>//api/name/ebs</Anchor>
             <NodeRef refid="484"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2InstanceNetworkInterfaceAssociation/publicDnsName</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The public DNS name.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2InstanceBlockDeviceMappingSpecification/ebs</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Parameters used to automatically set up Amazon EBS volumes when the instance is launched.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *publicDnsName</Declaration>
+			<Declaration>@property (nonatomic, strong) AWSEC2EbsInstanceBlockDeviceSpecification *ebs</Declaration>
 			
 			
-			<Anchor>//api/name/publicDnsName</Anchor>
+			<Anchor>//api/name/ebs</Anchor>
             <NodeRef refid="484"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2InstanceNetworkInterfaceAssociation/setPublicIp:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The public IP address or Elastic IP address bound to the network interface.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2InstanceBlockDeviceMappingSpecification/setNoDevice:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;suppress the specified device included in the block device mapping.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *publicIp</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *noDevice</Declaration>
 			
 			
-			<Anchor>//api/name/publicIp</Anchor>
+			<Anchor>//api/name/noDevice</Anchor>
             <NodeRef refid="484"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2InstanceNetworkInterfaceAssociation/publicIp</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The public IP address or Elastic IP address bound to the network interface.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2InstanceBlockDeviceMappingSpecification/noDevice</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;suppress the specified device included in the block device mapping.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *publicIp</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *noDevice</Declaration>
 			
 			
-			<Anchor>//api/name/publicIp</Anchor>
+			<Anchor>//api/name/noDevice</Anchor>
             <NodeRef refid="484"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2InstanceNetworkInterfaceAssociation/publicIp</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The public IP address or Elastic IP address bound to the network interface.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2InstanceBlockDeviceMappingSpecification/noDevice</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;suppress the specified device included in the block device mapping.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *publicIp</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *noDevice</Declaration>
 			
 			
-			<Anchor>//api/name/publicIp</Anchor>
+			<Anchor>//api/name/noDevice</Anchor>
+            <NodeRef refid="484"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2InstanceBlockDeviceMappingSpecification/setVirtualName:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The virtual device name.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *virtualName</Declaration>
+			
+			
+			<Anchor>//api/name/virtualName</Anchor>
+            <NodeRef refid="484"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2InstanceBlockDeviceMappingSpecification/virtualName</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The virtual device name.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *virtualName</Declaration>
+			
+			
+			<Anchor>//api/name/virtualName</Anchor>
+            <NodeRef refid="484"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2InstanceBlockDeviceMappingSpecification/virtualName</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The virtual device name.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *virtualName</Declaration>
+			
+			
+			<Anchor>//api/name/virtualName</Anchor>
             <NodeRef refid="484"/>
 		</Token>
 		

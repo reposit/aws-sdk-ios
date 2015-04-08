@@ -1,21 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSS3ListPartsOutput.html">
+	<File path="Classes/AWSS3GetPreSignedURLRequest.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSS3ListPartsOutput</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSS3GetPreSignedURLRequest</TokenIdentifier>
+			<Abstract type="html">The GetPreSignedURLRequest contains the parameters used to create
+a pre signed URL.</Abstract>
+			<DeclaredIn>AWSS3PreSignedURL.h</DeclaredIn>
             
 			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSS3PreSignedURLBuilder</TokenIdentifier>
+		
+	</RelatedTokens>
+	
 			<NodeRef refid="819"/>
 		</Token>
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3ListPartsOutput/setBucket:</TokenIdentifier>
-			<Abstract type="html">Name of the bucket to which the multipart upload was initiated.</Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3GetPreSignedURLRequest/setBucket:</TokenIdentifier>
+			<Abstract type="html">The name of the bucket</Abstract>
+			<DeclaredIn>AWSS3PreSignedURL.h</DeclaredIn>
 			
 			<Declaration>@property (nonatomic, strong) NSString *bucket</Declaration>
 			
@@ -25,9 +31,9 @@
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3ListPartsOutput/bucket</TokenIdentifier>
-			<Abstract type="html">Name of the bucket to which the multipart upload was initiated.</Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3GetPreSignedURLRequest/bucket</TokenIdentifier>
+			<Abstract type="html">The name of the bucket</Abstract>
+			<DeclaredIn>AWSS3PreSignedURL.h</DeclaredIn>
 			
 			<Declaration>@property (nonatomic, strong) NSString *bucket</Declaration>
 			
@@ -37,9 +43,9 @@
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSS3ListPartsOutput/bucket</TokenIdentifier>
-			<Abstract type="html">Name of the bucket to which the multipart upload was initiated.</Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSS3GetPreSignedURLRequest/bucket</TokenIdentifier>
+			<Abstract type="html">The name of the bucket</Abstract>
+			<DeclaredIn>AWSS3PreSignedURL.h</DeclaredIn>
 			
 			<Declaration>@property (nonatomic, strong) NSString *bucket</Declaration>
 			
@@ -49,81 +55,9 @@
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3ListPartsOutput/setInitiator:</TokenIdentifier>
-			<Abstract type="html">Identifies who initiated the multipart upload.</Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) AWSS3Initiator *initiator</Declaration>
-			
-			
-			<Anchor>//api/name/initiator</Anchor>
-            <NodeRef refid="819"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3ListPartsOutput/initiator</TokenIdentifier>
-			<Abstract type="html">Identifies who initiated the multipart upload.</Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) AWSS3Initiator *initiator</Declaration>
-			
-			
-			<Anchor>//api/name/initiator</Anchor>
-            <NodeRef refid="819"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSS3ListPartsOutput/initiator</TokenIdentifier>
-			<Abstract type="html">Identifies who initiated the multipart upload.</Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) AWSS3Initiator *initiator</Declaration>
-			
-			
-			<Anchor>//api/name/initiator</Anchor>
-            <NodeRef refid="819"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3ListPartsOutput/setIsTruncated:</TokenIdentifier>
-			<Abstract type="html">Indicates whether the returned list of parts is truncated.</Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSNumber *isTruncated</Declaration>
-			
-			
-			<Anchor>//api/name/isTruncated</Anchor>
-            <NodeRef refid="819"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3ListPartsOutput/isTruncated</TokenIdentifier>
-			<Abstract type="html">Indicates whether the returned list of parts is truncated.</Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSNumber *isTruncated</Declaration>
-			
-			
-			<Anchor>//api/name/isTruncated</Anchor>
-            <NodeRef refid="819"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSS3ListPartsOutput/isTruncated</TokenIdentifier>
-			<Abstract type="html">Indicates whether the returned list of parts is truncated.</Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSNumber *isTruncated</Declaration>
-			
-			
-			<Anchor>//api/name/isTruncated</Anchor>
-            <NodeRef refid="819"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3ListPartsOutput/setKey:</TokenIdentifier>
-			<Abstract type="html">Object key for which the multipart upload was initiated.</Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3GetPreSignedURLRequest/setKey:</TokenIdentifier>
+			<Abstract type="html">The name of the S3 object</Abstract>
+			<DeclaredIn>AWSS3PreSignedURL.h</DeclaredIn>
 			
 			<Declaration>@property (nonatomic, strong) NSString *key</Declaration>
 			
@@ -133,9 +67,9 @@
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3ListPartsOutput/key</TokenIdentifier>
-			<Abstract type="html">Object key for which the multipart upload was initiated.</Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3GetPreSignedURLRequest/key</TokenIdentifier>
+			<Abstract type="html">The name of the S3 object</Abstract>
+			<DeclaredIn>AWSS3PreSignedURL.h</DeclaredIn>
 			
 			<Declaration>@property (nonatomic, strong) NSString *key</Declaration>
 			
@@ -145,9 +79,9 @@
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSS3ListPartsOutput/key</TokenIdentifier>
-			<Abstract type="html">Object key for which the multipart upload was initiated.</Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSS3GetPreSignedURLRequest/key</TokenIdentifier>
+			<Abstract type="html">The name of the S3 object</Abstract>
+			<DeclaredIn>AWSS3PreSignedURL.h</DeclaredIn>
 			
 			<Declaration>@property (nonatomic, strong) NSString *key</Declaration>
 			
@@ -157,254 +91,182 @@
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3ListPartsOutput/setMaxParts:</TokenIdentifier>
-			<Abstract type="html">Maximum number of parts that were allowed in the response.</Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3GetPreSignedURLRequest/setHTTPMethod:</TokenIdentifier>
+			<Abstract type="html">Specifies the verb used in the pre-signed URL. accepted AWSHTTPMethodGET, AWSHTTPMethodPUT, AWSHTTPMethodHEAD.</Abstract>
+			<DeclaredIn>AWSS3PreSignedURL.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSNumber *maxParts</Declaration>
+			<Declaration>@property (nonatomic, assign) AWSHTTPMethod HTTPMethod</Declaration>
 			
 			
-			<Anchor>//api/name/maxParts</Anchor>
+			<Anchor>//api/name/HTTPMethod</Anchor>
             <NodeRef refid="819"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3ListPartsOutput/maxParts</TokenIdentifier>
-			<Abstract type="html">Maximum number of parts that were allowed in the response.</Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3GetPreSignedURLRequest/HTTPMethod</TokenIdentifier>
+			<Abstract type="html">Specifies the verb used in the pre-signed URL. accepted AWSHTTPMethodGET, AWSHTTPMethodPUT, AWSHTTPMethodHEAD.</Abstract>
+			<DeclaredIn>AWSS3PreSignedURL.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSNumber *maxParts</Declaration>
+			<Declaration>@property (nonatomic, assign) AWSHTTPMethod HTTPMethod</Declaration>
 			
 			
-			<Anchor>//api/name/maxParts</Anchor>
+			<Anchor>//api/name/HTTPMethod</Anchor>
             <NodeRef refid="819"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSS3ListPartsOutput/maxParts</TokenIdentifier>
-			<Abstract type="html">Maximum number of parts that were allowed in the response.</Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSS3GetPreSignedURLRequest/HTTPMethod</TokenIdentifier>
+			<Abstract type="html">Specifies the verb used in the pre-signed URL. accepted AWSHTTPMethodGET, AWSHTTPMethodPUT, AWSHTTPMethodHEAD.</Abstract>
+			<DeclaredIn>AWSS3PreSignedURL.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSNumber *maxParts</Declaration>
+			<Declaration>@property (nonatomic, assign) AWSHTTPMethod HTTPMethod</Declaration>
 			
 			
-			<Anchor>//api/name/maxParts</Anchor>
+			<Anchor>//api/name/HTTPMethod</Anchor>
             <NodeRef refid="819"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3ListPartsOutput/setNextPartNumberMarker:</TokenIdentifier>
-			<Abstract type="html">When a list is truncated, this element specifies the last part in the list, as well as the value to use for the part-number-marker request parameter in a subsequent request.</Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3GetPreSignedURLRequest/setExpires:</TokenIdentifier>
+			<Abstract type="html">The time when the signature expires, specified as an NSDate object.</Abstract>
+			<DeclaredIn>AWSS3PreSignedURL.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSNumber *nextPartNumberMarker</Declaration>
+			<Declaration>@property (nonatomic, strong) NSDate *expires</Declaration>
 			
 			
-			<Anchor>//api/name/nextPartNumberMarker</Anchor>
+			<Anchor>//api/name/expires</Anchor>
             <NodeRef refid="819"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3ListPartsOutput/nextPartNumberMarker</TokenIdentifier>
-			<Abstract type="html">When a list is truncated, this element specifies the last part in the list, as well as the value to use for the part-number-marker request parameter in a subsequent request.</Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3GetPreSignedURLRequest/expires</TokenIdentifier>
+			<Abstract type="html">The time when the signature expires, specified as an NSDate object.</Abstract>
+			<DeclaredIn>AWSS3PreSignedURL.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSNumber *nextPartNumberMarker</Declaration>
+			<Declaration>@property (nonatomic, strong) NSDate *expires</Declaration>
 			
 			
-			<Anchor>//api/name/nextPartNumberMarker</Anchor>
+			<Anchor>//api/name/expires</Anchor>
             <NodeRef refid="819"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSS3ListPartsOutput/nextPartNumberMarker</TokenIdentifier>
-			<Abstract type="html">When a list is truncated, this element specifies the last part in the list, as well as the value to use for the part-number-marker request parameter in a subsequent request.</Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSS3GetPreSignedURLRequest/expires</TokenIdentifier>
+			<Abstract type="html">The time when the signature expires, specified as an NSDate object.</Abstract>
+			<DeclaredIn>AWSS3PreSignedURL.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSNumber *nextPartNumberMarker</Declaration>
+			<Declaration>@property (nonatomic, strong) NSDate *expires</Declaration>
 			
 			
-			<Anchor>//api/name/nextPartNumberMarker</Anchor>
+			<Anchor>//api/name/expires</Anchor>
             <NodeRef refid="819"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3ListPartsOutput/setOwner:</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3GetPreSignedURLRequest/setMinimumCredentialsExpirationInterval:</TokenIdentifier>
+			<Abstract type="html">(Optional) AWSS3GetPreSignedURLRequest will automatically refresh temporary credential if expiration duration in less than minimumCredentialsExpirationInterval. Only applied for credential provider using temporary token (e.g. CognitoIdentityProvider). Default value is 3000 seconds.</Abstract>
+			<DeclaredIn>AWSS3PreSignedURL.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) AWSS3Owner *owner</Declaration>
+			<Declaration>@property (nonatomic, assign) NSTimeInterval minimumCredentialsExpirationInterval</Declaration>
 			
 			
-			<Anchor>//api/name/owner</Anchor>
+			<Anchor>//api/name/minimumCredentialsExpirationInterval</Anchor>
             <NodeRef refid="819"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3ListPartsOutput/owner</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3GetPreSignedURLRequest/minimumCredentialsExpirationInterval</TokenIdentifier>
+			<Abstract type="html">(Optional) AWSS3GetPreSignedURLRequest will automatically refresh temporary credential if expiration duration in less than minimumCredentialsExpirationInterval. Only applied for credential provider using temporary token (e.g. CognitoIdentityProvider). Default value is 3000 seconds.</Abstract>
+			<DeclaredIn>AWSS3PreSignedURL.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) AWSS3Owner *owner</Declaration>
+			<Declaration>@property (nonatomic, assign) NSTimeInterval minimumCredentialsExpirationInterval</Declaration>
 			
 			
-			<Anchor>//api/name/owner</Anchor>
+			<Anchor>//api/name/minimumCredentialsExpirationInterval</Anchor>
             <NodeRef refid="819"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSS3ListPartsOutput/owner</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSS3GetPreSignedURLRequest/minimumCredentialsExpirationInterval</TokenIdentifier>
+			<Abstract type="html">(Optional) AWSS3GetPreSignedURLRequest will automatically refresh temporary credential if expiration duration in less than minimumCredentialsExpirationInterval. Only applied for credential provider using temporary token (e.g. CognitoIdentityProvider). Default value is 3000 seconds.</Abstract>
+			<DeclaredIn>AWSS3PreSignedURL.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) AWSS3Owner *owner</Declaration>
+			<Declaration>@property (nonatomic, assign) NSTimeInterval minimumCredentialsExpirationInterval</Declaration>
 			
 			
-			<Anchor>//api/name/owner</Anchor>
+			<Anchor>//api/name/minimumCredentialsExpirationInterval</Anchor>
             <NodeRef refid="819"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3ListPartsOutput/setPartNumberMarker:</TokenIdentifier>
-			<Abstract type="html">Part number after which listing begins.</Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3GetPreSignedURLRequest/setVersionId:</TokenIdentifier>
+			<Abstract type="html">(Optional) VersionId used in the pre signed URL. Default is nil.</Abstract>
+			<DeclaredIn>AWSS3PreSignedURL.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSNumber *partNumberMarker</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *versionId</Declaration>
 			
 			
-			<Anchor>//api/name/partNumberMarker</Anchor>
+			<Anchor>//api/name/versionId</Anchor>
             <NodeRef refid="819"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3ListPartsOutput/partNumberMarker</TokenIdentifier>
-			<Abstract type="html">Part number after which listing begins.</Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3GetPreSignedURLRequest/versionId</TokenIdentifier>
+			<Abstract type="html">(Optional) VersionId used in the pre signed URL. Default is nil.</Abstract>
+			<DeclaredIn>AWSS3PreSignedURL.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSNumber *partNumberMarker</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *versionId</Declaration>
 			
 			
-			<Anchor>//api/name/partNumberMarker</Anchor>
+			<Anchor>//api/name/versionId</Anchor>
             <NodeRef refid="819"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSS3ListPartsOutput/partNumberMarker</TokenIdentifier>
-			<Abstract type="html">Part number after which listing begins.</Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSS3GetPreSignedURLRequest/versionId</TokenIdentifier>
+			<Abstract type="html">(Optional) VersionId used in the pre signed URL. Default is nil.</Abstract>
+			<DeclaredIn>AWSS3PreSignedURL.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSNumber *partNumberMarker</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *versionId</Declaration>
 			
 			
-			<Anchor>//api/name/partNumberMarker</Anchor>
+			<Anchor>//api/name/versionId</Anchor>
             <NodeRef refid="819"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3ListPartsOutput/setParts:</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3GetPreSignedURLRequest/setContentType:</TokenIdentifier>
+			<Abstract type="html">(Optional) A standard MIME type describing the format of the object data. only apply when AWSHTTPMethod property is AWSHTTPMethodPUT.</Abstract>
+			<DeclaredIn>AWSS3PreSignedURL.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSArray *parts</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *contentType</Declaration>
 			
 			
-			<Anchor>//api/name/parts</Anchor>
+			<Anchor>//api/name/contentType</Anchor>
             <NodeRef refid="819"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3ListPartsOutput/parts</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3GetPreSignedURLRequest/contentType</TokenIdentifier>
+			<Abstract type="html">(Optional) A standard MIME type describing the format of the object data. only apply when AWSHTTPMethod property is AWSHTTPMethodPUT.</Abstract>
+			<DeclaredIn>AWSS3PreSignedURL.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSArray *parts</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *contentType</Declaration>
 			
 			
-			<Anchor>//api/name/parts</Anchor>
+			<Anchor>//api/name/contentType</Anchor>
             <NodeRef refid="819"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSS3ListPartsOutput/parts</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSS3GetPreSignedURLRequest/contentType</TokenIdentifier>
+			<Abstract type="html">(Optional) A standard MIME type describing the format of the object data. only apply when AWSHTTPMethod property is AWSHTTPMethodPUT.</Abstract>
+			<DeclaredIn>AWSS3PreSignedURL.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSArray *parts</Declaration>
-			
-			
-			<Anchor>//api/name/parts</Anchor>
-            <NodeRef refid="819"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3ListPartsOutput/setStorageClass:</TokenIdentifier>
-			<Abstract type="html">The class of storage used to store the object.</Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, assign) AWSS3StorageClass storageClass</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *contentType</Declaration>
 			
 			
-			<Anchor>//api/name/storageClass</Anchor>
-            <NodeRef refid="819"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3ListPartsOutput/storageClass</TokenIdentifier>
-			<Abstract type="html">The class of storage used to store the object.</Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, assign) AWSS3StorageClass storageClass</Declaration>
-			
-			
-			<Anchor>//api/name/storageClass</Anchor>
-            <NodeRef refid="819"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSS3ListPartsOutput/storageClass</TokenIdentifier>
-			<Abstract type="html">The class of storage used to store the object.</Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, assign) AWSS3StorageClass storageClass</Declaration>
-			
-			
-			<Anchor>//api/name/storageClass</Anchor>
-            <NodeRef refid="819"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3ListPartsOutput/setUploadId:</TokenIdentifier>
-			<Abstract type="html">Upload ID identifying the multipart upload whose parts are being listed.</Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *uploadId</Declaration>
-			
-			
-			<Anchor>//api/name/uploadId</Anchor>
-            <NodeRef refid="819"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3ListPartsOutput/uploadId</TokenIdentifier>
-			<Abstract type="html">Upload ID identifying the multipart upload whose parts are being listed.</Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *uploadId</Declaration>
-			
-			
-			<Anchor>//api/name/uploadId</Anchor>
-            <NodeRef refid="819"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSS3ListPartsOutput/uploadId</TokenIdentifier>
-			<Abstract type="html">Upload ID identifying the multipart upload whose parts are being listed.</Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *uploadId</Declaration>
-			
-			
-			<Anchor>//api/name/uploadId</Anchor>
+			<Anchor>//api/name/contentType</Anchor>
             <NodeRef refid="819"/>
 		</Token>
 		

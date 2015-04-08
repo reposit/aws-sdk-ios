@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSElasticLoadBalancingRegisterEndPointsOutput.html">
+	<File path="Classes/AWSElasticLoadBalancingPolicyAttribute.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSElasticLoadBalancingRegisterEndPointsOutput</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSElasticLoadBalancingPolicyAttribute</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSElasticLoadBalancingModel.h</DeclaredIn>
             
@@ -13,38 +13,74 @@
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSElasticLoadBalancingRegisterEndPointsOutput/setInstances:</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSElasticLoadBalancingPolicyAttribute/setAttributeName:</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSElasticLoadBalancingModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSArray *instances</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *attributeName</Declaration>
 			
 			
-			<Anchor>//api/name/instances</Anchor>
+			<Anchor>//api/name/attributeName</Anchor>
             <NodeRef refid="686"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSElasticLoadBalancingRegisterEndPointsOutput/instances</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSElasticLoadBalancingPolicyAttribute/attributeName</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSElasticLoadBalancingModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSArray *instances</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *attributeName</Declaration>
 			
 			
-			<Anchor>//api/name/instances</Anchor>
+			<Anchor>//api/name/attributeName</Anchor>
             <NodeRef refid="686"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSElasticLoadBalancingRegisterEndPointsOutput/instances</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSElasticLoadBalancingPolicyAttribute/attributeName</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSElasticLoadBalancingModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSArray *instances</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *attributeName</Declaration>
 			
 			
-			<Anchor>//api/name/instances</Anchor>
+			<Anchor>//api/name/attributeName</Anchor>
+            <NodeRef refid="686"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSElasticLoadBalancingPolicyAttribute/setAttributeValue:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSElasticLoadBalancingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *attributeValue</Declaration>
+			
+			
+			<Anchor>//api/name/attributeValue</Anchor>
+            <NodeRef refid="686"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSElasticLoadBalancingPolicyAttribute/attributeValue</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSElasticLoadBalancingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *attributeValue</Declaration>
+			
+			
+			<Anchor>//api/name/attributeValue</Anchor>
+            <NodeRef refid="686"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSElasticLoadBalancingPolicyAttribute/attributeValue</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSElasticLoadBalancingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *attributeValue</Declaration>
+			
+			
+			<Anchor>//api/name/attributeValue</Anchor>
             <NodeRef refid="686"/>
 		</Token>
 		

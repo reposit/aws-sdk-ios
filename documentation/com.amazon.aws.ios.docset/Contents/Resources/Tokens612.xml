@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSEC2VpcPeeringConnection.html">
+	<File path="Classes/AWSEC2VolumeStatusDetails.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSEC2VpcPeeringConnection</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Describes a VPC peering connection.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSEC2VolumeStatusDetails</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Describes a volume status.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
             
 			
@@ -13,119 +13,47 @@
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2VpcPeeringConnection/setAccepterVpcInfo:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The information of the peer VPC.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2VolumeStatusDetails/setName:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The name of the volume status.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) AWSEC2VpcPeeringConnectionVpcInfo *accepterVpcInfo</Declaration>
+			<Declaration>@property (nonatomic, assign) AWSEC2VolumeStatusName name</Declaration>
 			
 			
-			<Anchor>//api/name/accepterVpcInfo</Anchor>
+			<Anchor>//api/name/name</Anchor>
             <NodeRef refid="612"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2VpcPeeringConnection/accepterVpcInfo</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The information of the peer VPC.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2VolumeStatusDetails/name</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The name of the volume status.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) AWSEC2VpcPeeringConnectionVpcInfo *accepterVpcInfo</Declaration>
+			<Declaration>@property (nonatomic, assign) AWSEC2VolumeStatusName name</Declaration>
 			
 			
-			<Anchor>//api/name/accepterVpcInfo</Anchor>
+			<Anchor>//api/name/name</Anchor>
             <NodeRef refid="612"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2VpcPeeringConnection/accepterVpcInfo</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The information of the peer VPC.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2VolumeStatusDetails/name</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The name of the volume status.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) AWSEC2VpcPeeringConnectionVpcInfo *accepterVpcInfo</Declaration>
+			<Declaration>@property (nonatomic, assign) AWSEC2VolumeStatusName name</Declaration>
 			
 			
-			<Anchor>//api/name/accepterVpcInfo</Anchor>
+			<Anchor>//api/name/name</Anchor>
             <NodeRef refid="612"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2VpcPeeringConnection/setExpirationTime:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The time that an unaccepted VPC peering connection will expire.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2VolumeStatusDetails/setStatus:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The intended status of the volume status.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSDate *expirationTime</Declaration>
-			
-			
-			<Anchor>//api/name/expirationTime</Anchor>
-            <NodeRef refid="612"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2VpcPeeringConnection/expirationTime</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The time that an unaccepted VPC peering connection will expire.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSDate *expirationTime</Declaration>
-			
-			
-			<Anchor>//api/name/expirationTime</Anchor>
-            <NodeRef refid="612"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2VpcPeeringConnection/expirationTime</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The time that an unaccepted VPC peering connection will expire.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSDate *expirationTime</Declaration>
-			
-			
-			<Anchor>//api/name/expirationTime</Anchor>
-            <NodeRef refid="612"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2VpcPeeringConnection/setRequesterVpcInfo:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The information of the requester VPC.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) AWSEC2VpcPeeringConnectionVpcInfo *requesterVpcInfo</Declaration>
-			
-			
-			<Anchor>//api/name/requesterVpcInfo</Anchor>
-            <NodeRef refid="612"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2VpcPeeringConnection/requesterVpcInfo</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The information of the requester VPC.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) AWSEC2VpcPeeringConnectionVpcInfo *requesterVpcInfo</Declaration>
-			
-			
-			<Anchor>//api/name/requesterVpcInfo</Anchor>
-            <NodeRef refid="612"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2VpcPeeringConnection/requesterVpcInfo</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The information of the requester VPC.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) AWSEC2VpcPeeringConnectionVpcInfo *requesterVpcInfo</Declaration>
-			
-			
-			<Anchor>//api/name/requesterVpcInfo</Anchor>
-            <NodeRef refid="612"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2VpcPeeringConnection/setStatus:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The status of the VPC peering connection.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) AWSEC2VpcPeeringConnectionStateReason *status</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *status</Declaration>
 			
 			
 			<Anchor>//api/name/status</Anchor>
@@ -133,11 +61,11 @@
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2VpcPeeringConnection/status</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The status of the VPC peering connection.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2VolumeStatusDetails/status</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The intended status of the volume status.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) AWSEC2VpcPeeringConnectionStateReason *status</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *status</Declaration>
 			
 			
 			<Anchor>//api/name/status</Anchor>
@@ -145,86 +73,14 @@
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2VpcPeeringConnection/status</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The status of the VPC peering connection.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2VolumeStatusDetails/status</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The intended status of the volume status.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) AWSEC2VpcPeeringConnectionStateReason *status</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *status</Declaration>
 			
 			
 			<Anchor>//api/name/status</Anchor>
-            <NodeRef refid="612"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2VpcPeeringConnection/setTags:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Any tags assigned to the resource.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSArray *tags</Declaration>
-			
-			
-			<Anchor>//api/name/tags</Anchor>
-            <NodeRef refid="612"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2VpcPeeringConnection/tags</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Any tags assigned to the resource.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSArray *tags</Declaration>
-			
-			
-			<Anchor>//api/name/tags</Anchor>
-            <NodeRef refid="612"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2VpcPeeringConnection/tags</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Any tags assigned to the resource.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSArray *tags</Declaration>
-			
-			
-			<Anchor>//api/name/tags</Anchor>
-            <NodeRef refid="612"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2VpcPeeringConnection/setVpcPeeringConnectionId:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The ID of the VPC peering connection.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *vpcPeeringConnectionId</Declaration>
-			
-			
-			<Anchor>//api/name/vpcPeeringConnectionId</Anchor>
-            <NodeRef refid="612"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2VpcPeeringConnection/vpcPeeringConnectionId</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The ID of the VPC peering connection.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *vpcPeeringConnectionId</Declaration>
-			
-			
-			<Anchor>//api/name/vpcPeeringConnectionId</Anchor>
-            <NodeRef refid="612"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2VpcPeeringConnection/vpcPeeringConnectionId</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The ID of the VPC peering connection.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *vpcPeeringConnectionId</Declaration>
-			
-			
-			<Anchor>//api/name/vpcPeeringConnectionId</Anchor>
             <NodeRef refid="612"/>
 		</Token>
 		

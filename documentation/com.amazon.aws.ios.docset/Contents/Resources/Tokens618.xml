@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSEC2VpnGateway.html">
+	<File path="Classes/AWSEC2VpcPeeringConnection.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSEC2VpnGateway</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Describes a virtual private gateway.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSEC2VpcPeeringConnection</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Describes a VPC peering connection.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
             
 			
@@ -13,80 +13,152 @@
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2VpnGateway/setAvailabilityZone:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The Availability Zone where the virtual private gateway was created.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2VpcPeeringConnection/setAccepterVpcInfo:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The information of the peer VPC.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *availabilityZone</Declaration>
+			<Declaration>@property (nonatomic, strong) AWSEC2VpcPeeringConnectionVpcInfo *accepterVpcInfo</Declaration>
 			
 			
-			<Anchor>//api/name/availabilityZone</Anchor>
+			<Anchor>//api/name/accepterVpcInfo</Anchor>
             <NodeRef refid="618"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2VpnGateway/availabilityZone</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The Availability Zone where the virtual private gateway was created.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2VpcPeeringConnection/accepterVpcInfo</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The information of the peer VPC.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *availabilityZone</Declaration>
+			<Declaration>@property (nonatomic, strong) AWSEC2VpcPeeringConnectionVpcInfo *accepterVpcInfo</Declaration>
 			
 			
-			<Anchor>//api/name/availabilityZone</Anchor>
+			<Anchor>//api/name/accepterVpcInfo</Anchor>
             <NodeRef refid="618"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2VpnGateway/availabilityZone</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The Availability Zone where the virtual private gateway was created.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2VpcPeeringConnection/accepterVpcInfo</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The information of the peer VPC.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *availabilityZone</Declaration>
+			<Declaration>@property (nonatomic, strong) AWSEC2VpcPeeringConnectionVpcInfo *accepterVpcInfo</Declaration>
 			
 			
-			<Anchor>//api/name/availabilityZone</Anchor>
+			<Anchor>//api/name/accepterVpcInfo</Anchor>
             <NodeRef refid="618"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2VpnGateway/setState:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The current state of the virtual private gateway.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2VpcPeeringConnection/setExpirationTime:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The time that an unaccepted VPC peering connection will expire.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, assign) AWSEC2VpnState state</Declaration>
+			<Declaration>@property (nonatomic, strong) NSDate *expirationTime</Declaration>
 			
 			
-			<Anchor>//api/name/state</Anchor>
+			<Anchor>//api/name/expirationTime</Anchor>
             <NodeRef refid="618"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2VpnGateway/state</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The current state of the virtual private gateway.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2VpcPeeringConnection/expirationTime</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The time that an unaccepted VPC peering connection will expire.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, assign) AWSEC2VpnState state</Declaration>
+			<Declaration>@property (nonatomic, strong) NSDate *expirationTime</Declaration>
 			
 			
-			<Anchor>//api/name/state</Anchor>
+			<Anchor>//api/name/expirationTime</Anchor>
             <NodeRef refid="618"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2VpnGateway/state</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The current state of the virtual private gateway.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2VpcPeeringConnection/expirationTime</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The time that an unaccepted VPC peering connection will expire.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, assign) AWSEC2VpnState state</Declaration>
+			<Declaration>@property (nonatomic, strong) NSDate *expirationTime</Declaration>
 			
 			
-			<Anchor>//api/name/state</Anchor>
+			<Anchor>//api/name/expirationTime</Anchor>
             <NodeRef refid="618"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2VpnGateway/setTags:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Any tags assigned to the virtual private gateway.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2VpcPeeringConnection/setRequesterVpcInfo:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The information of the requester VPC.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) AWSEC2VpcPeeringConnectionVpcInfo *requesterVpcInfo</Declaration>
+			
+			
+			<Anchor>//api/name/requesterVpcInfo</Anchor>
+            <NodeRef refid="618"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2VpcPeeringConnection/requesterVpcInfo</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The information of the requester VPC.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) AWSEC2VpcPeeringConnectionVpcInfo *requesterVpcInfo</Declaration>
+			
+			
+			<Anchor>//api/name/requesterVpcInfo</Anchor>
+            <NodeRef refid="618"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2VpcPeeringConnection/requesterVpcInfo</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The information of the requester VPC.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) AWSEC2VpcPeeringConnectionVpcInfo *requesterVpcInfo</Declaration>
+			
+			
+			<Anchor>//api/name/requesterVpcInfo</Anchor>
+            <NodeRef refid="618"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2VpcPeeringConnection/setStatus:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The status of the VPC peering connection.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) AWSEC2VpcPeeringConnectionStateReason *status</Declaration>
+			
+			
+			<Anchor>//api/name/status</Anchor>
+            <NodeRef refid="618"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2VpcPeeringConnection/status</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The status of the VPC peering connection.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) AWSEC2VpcPeeringConnectionStateReason *status</Declaration>
+			
+			
+			<Anchor>//api/name/status</Anchor>
+            <NodeRef refid="618"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2VpcPeeringConnection/status</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The status of the VPC peering connection.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) AWSEC2VpcPeeringConnectionStateReason *status</Declaration>
+			
+			
+			<Anchor>//api/name/status</Anchor>
+            <NodeRef refid="618"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2VpcPeeringConnection/setTags:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Any tags assigned to the resource.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
 			<Declaration>@property (nonatomic, strong) NSArray *tags</Declaration>
@@ -97,8 +169,8 @@
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2VpnGateway/tags</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Any tags assigned to the virtual private gateway.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2VpcPeeringConnection/tags</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Any tags assigned to the resource.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
 			<Declaration>@property (nonatomic, strong) NSArray *tags</Declaration>
@@ -109,8 +181,8 @@
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2VpnGateway/tags</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Any tags assigned to the virtual private gateway.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2VpcPeeringConnection/tags</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Any tags assigned to the resource.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
 			<Declaration>@property (nonatomic, strong) NSArray *tags</Declaration>
@@ -121,110 +193,38 @@
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2VpnGateway/setTypes:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The type of VPN connection the virtual private gateway supports.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2VpcPeeringConnection/setVpcPeeringConnectionId:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the VPC peering connection.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, assign) AWSEC2GatewayType types</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *vpcPeeringConnectionId</Declaration>
 			
 			
-			<Anchor>//api/name/types</Anchor>
+			<Anchor>//api/name/vpcPeeringConnectionId</Anchor>
             <NodeRef refid="618"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2VpnGateway/types</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The type of VPN connection the virtual private gateway supports.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2VpcPeeringConnection/vpcPeeringConnectionId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the VPC peering connection.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, assign) AWSEC2GatewayType types</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *vpcPeeringConnectionId</Declaration>
 			
 			
-			<Anchor>//api/name/types</Anchor>
+			<Anchor>//api/name/vpcPeeringConnectionId</Anchor>
             <NodeRef refid="618"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2VpnGateway/types</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The type of VPN connection the virtual private gateway supports.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2VpcPeeringConnection/vpcPeeringConnectionId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the VPC peering connection.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, assign) AWSEC2GatewayType types</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *vpcPeeringConnectionId</Declaration>
 			
 			
-			<Anchor>//api/name/types</Anchor>
-            <NodeRef refid="618"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2VpnGateway/setVpcAttachments:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Any VPCs attached to the virtual private gateway.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSArray *vpcAttachments</Declaration>
-			
-			
-			<Anchor>//api/name/vpcAttachments</Anchor>
-            <NodeRef refid="618"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2VpnGateway/vpcAttachments</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Any VPCs attached to the virtual private gateway.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSArray *vpcAttachments</Declaration>
-			
-			
-			<Anchor>//api/name/vpcAttachments</Anchor>
-            <NodeRef refid="618"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2VpnGateway/vpcAttachments</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Any VPCs attached to the virtual private gateway.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSArray *vpcAttachments</Declaration>
-			
-			
-			<Anchor>//api/name/vpcAttachments</Anchor>
-            <NodeRef refid="618"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2VpnGateway/setVpnGatewayId:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The ID of the virtual private gateway.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *vpnGatewayId</Declaration>
-			
-			
-			<Anchor>//api/name/vpnGatewayId</Anchor>
-            <NodeRef refid="618"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2VpnGateway/vpnGatewayId</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The ID of the virtual private gateway.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *vpnGatewayId</Declaration>
-			
-			
-			<Anchor>//api/name/vpnGatewayId</Anchor>
-            <NodeRef refid="618"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2VpnGateway/vpnGatewayId</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The ID of the virtual private gateway.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *vpnGatewayId</Declaration>
-			
-			
-			<Anchor>//api/name/vpnGatewayId</Anchor>
+			<Anchor>//api/name/vpcPeeringConnectionId</Anchor>
             <NodeRef refid="618"/>
 		</Token>
 		

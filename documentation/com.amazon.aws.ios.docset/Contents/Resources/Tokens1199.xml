@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Constants/AWSXMLParserErrorType.html">
+	<File path="Constants/AWSS3Event.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/c/tdef/AWSXMLParserErrorType</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/c/tdef/AWSS3Event</TokenIdentifier>
 			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSSerialization.h</DeclaredIn>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
             
 			
 			<NodeRef refid="1199"/>
@@ -14,91 +14,61 @@
 		
         
         <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSXMLParserUnknownError</TokenIdentifier>
+            <TokenIdentifier>//apple_ref/c/econst/AWSS3EventUnknown</TokenIdentifier>
             <Abstract type="html"></Abstract>
-            <Declaration>AWSXMLParserUnknownError</Declaration>
+            <Declaration>AWSS3EventUnknown</Declaration>
             
-            <DeclaredIn>AWSSerialization.h</DeclaredIn>
+            <DeclaredIn>AWSS3Model.h</DeclaredIn>
             
             <NodeRef refid="1199"/>
         </Token>
         
         <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSXMLParserNoTypeDefinitionInRule</TokenIdentifier>
+            <TokenIdentifier>//apple_ref/c/econst/AWSS3EventS3ReducedRedundancyLostObject</TokenIdentifier>
             <Abstract type="html"></Abstract>
-            <Declaration>AWSXMLParserNoTypeDefinitionInRule</Declaration>
+            <Declaration>AWSS3EventS3ReducedRedundancyLostObject</Declaration>
             
-            <DeclaredIn>AWSSerialization.h</DeclaredIn>
+            <DeclaredIn>AWSS3Model.h</DeclaredIn>
             
             <NodeRef refid="1199"/>
         </Token>
         
         <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSXMLParserUnHandledType</TokenIdentifier>
+            <TokenIdentifier>//apple_ref/c/econst/AWSS3EventS3ObjectCreatedPut</TokenIdentifier>
             <Abstract type="html"></Abstract>
-            <Declaration>AWSXMLParserUnHandledType</Declaration>
+            <Declaration>AWSS3EventS3ObjectCreatedPut</Declaration>
             
-            <DeclaredIn>AWSSerialization.h</DeclaredIn>
+            <DeclaredIn>AWSS3Model.h</DeclaredIn>
             
             <NodeRef refid="1199"/>
         </Token>
         
         <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSXMLParserUnExpectedType</TokenIdentifier>
+            <TokenIdentifier>//apple_ref/c/econst/AWSS3EventS3ObjectCreatedPost</TokenIdentifier>
             <Abstract type="html"></Abstract>
-            <Declaration>AWSXMLParserUnExpectedType</Declaration>
+            <Declaration>AWSS3EventS3ObjectCreatedPost</Declaration>
             
-            <DeclaredIn>AWSSerialization.h</DeclaredIn>
+            <DeclaredIn>AWSS3Model.h</DeclaredIn>
             
             <NodeRef refid="1199"/>
         </Token>
         
         <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSXMLParserDefinitionFileIsEmpty</TokenIdentifier>
+            <TokenIdentifier>//apple_ref/c/econst/AWSS3EventS3ObjectCreatedCopy</TokenIdentifier>
             <Abstract type="html"></Abstract>
-            <Declaration>AWSXMLParserDefinitionFileIsEmpty</Declaration>
+            <Declaration>AWSS3EventS3ObjectCreatedCopy</Declaration>
             
-            <DeclaredIn>AWSSerialization.h</DeclaredIn>
+            <DeclaredIn>AWSS3Model.h</DeclaredIn>
             
             <NodeRef refid="1199"/>
         </Token>
         
         <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSXMLParserUnexpectedXMLElement</TokenIdentifier>
+            <TokenIdentifier>//apple_ref/c/econst/AWSS3EventS3ObjectCreatedCompleteMultipartUpload</TokenIdentifier>
             <Abstract type="html"></Abstract>
-            <Declaration>AWSXMLParserUnexpectedXMLElement</Declaration>
+            <Declaration>AWSS3EventS3ObjectCreatedCompleteMultipartUpload</Declaration>
             
-            <DeclaredIn>AWSSerialization.h</DeclaredIn>
-            
-            <NodeRef refid="1199"/>
-        </Token>
-        
-        <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSXMLParserXMLNameNotFoundInDefinition</TokenIdentifier>
-            <Abstract type="html"></Abstract>
-            <Declaration>AWSXMLParserXMLNameNotFoundInDefinition</Declaration>
-            
-            <DeclaredIn>AWSSerialization.h</DeclaredIn>
-            
-            <NodeRef refid="1199"/>
-        </Token>
-        
-        <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSXMLParserMissingRequiredXMLElements</TokenIdentifier>
-            <Abstract type="html"></Abstract>
-            <Declaration>AWSXMLParserMissingRequiredXMLElements</Declaration>
-            
-            <DeclaredIn>AWSSerialization.h</DeclaredIn>
-            
-            <NodeRef refid="1199"/>
-        </Token>
-        
-        <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSXMLParserInvalidXMLValue</TokenIdentifier>
-            <Abstract type="html"></Abstract>
-            <Declaration>AWSXMLParserInvalidXMLValue</Declaration>
-            
-            <DeclaredIn>AWSSerialization.h</DeclaredIn>
+            <DeclaredIn>AWSS3Model.h</DeclaredIn>
             
             <NodeRef refid="1199"/>
         </Token>

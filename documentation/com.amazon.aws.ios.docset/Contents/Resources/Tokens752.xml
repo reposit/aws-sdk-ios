@@ -1,52 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSS3CompletedMultipartUpload.html">
+	<File path="Classes/AWSMobileAnalyticsEnvironment.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSS3CompletedMultipartUpload</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSMobileAnalyticsEnvironment</TokenIdentifier>
+			<Abstract type="html">Copyright 2010-2015 Amazon.com, Inc. or its affiliates. All Rights Reserved.</Abstract>
+			<DeclaredIn>AWSMobileAnalyticsConfiguration.h</DeclaredIn>
             
 			
 			<NodeRef refid="752"/>
 		</Token>
 		
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3CompletedMultipartUpload/setParts:</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSArray *parts</Declaration>
-			
-			
-			<Anchor>//api/name/parts</Anchor>
-            <NodeRef refid="752"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3CompletedMultipartUpload/parts</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSArray *parts</Declaration>
-			
-			
-			<Anchor>//api/name/parts</Anchor>
-            <NodeRef refid="752"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSS3CompletedMultipartUpload/parts</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSArray *parts</Declaration>
-			
-			
-			<Anchor>//api/name/parts</Anchor>
-            <NodeRef refid="752"/>
-		</Token>
 		
         
         

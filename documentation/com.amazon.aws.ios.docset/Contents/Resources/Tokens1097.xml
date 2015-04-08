@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Constants/AWSEC2ImageState.html">
+	<File path="Constants/AWSDynamoDBIndexStatus.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/c/tdef/AWSEC2ImageState</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/c/tdef/AWSDynamoDBIndexStatus</TokenIdentifier>
 			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			<DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
             
 			
 			<NodeRef refid="1097"/>
@@ -14,31 +14,51 @@
 		
         
         <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSEC2ImageStateUnknown</TokenIdentifier>
+            <TokenIdentifier>//apple_ref/c/econst/AWSDynamoDBIndexStatusUnknown</TokenIdentifier>
             <Abstract type="html"></Abstract>
-            <Declaration>AWSEC2ImageStateUnknown</Declaration>
+            <Declaration>AWSDynamoDBIndexStatusUnknown</Declaration>
             
-            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
+            <DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
             
             <NodeRef refid="1097"/>
         </Token>
         
         <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSEC2ImageStateAvailable</TokenIdentifier>
+            <TokenIdentifier>//apple_ref/c/econst/AWSDynamoDBIndexStatusCreating</TokenIdentifier>
             <Abstract type="html"></Abstract>
-            <Declaration>AWSEC2ImageStateAvailable</Declaration>
+            <Declaration>AWSDynamoDBIndexStatusCreating</Declaration>
             
-            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
+            <DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
             
             <NodeRef refid="1097"/>
         </Token>
         
         <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSEC2ImageStateDeregistered</TokenIdentifier>
+            <TokenIdentifier>//apple_ref/c/econst/AWSDynamoDBIndexStatusUpdating</TokenIdentifier>
             <Abstract type="html"></Abstract>
-            <Declaration>AWSEC2ImageStateDeregistered</Declaration>
+            <Declaration>AWSDynamoDBIndexStatusUpdating</Declaration>
             
-            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
+            <DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
+            
+            <NodeRef refid="1097"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/AWSDynamoDBIndexStatusDeleting</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>AWSDynamoDBIndexStatusDeleting</Declaration>
+            
+            <DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
+            
+            <NodeRef refid="1097"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/AWSDynamoDBIndexStatusActive</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>AWSDynamoDBIndexStatusActive</Declaration>
+            
+            <DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
             
             <NodeRef refid="1097"/>
         </Token>

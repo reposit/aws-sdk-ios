@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Constants/AWSNetworkingRetryType.html">
+	<File path="Constants/AWSEC2SpotInstanceState.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/c/tdef/AWSNetworkingRetryType</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/c/tdef/AWSEC2SpotInstanceState</TokenIdentifier>
 			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSNetworking.h</DeclaredIn>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
             
 			
 			<NodeRef refid="1159"/>
@@ -14,51 +14,61 @@
 		
         
         <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSNetworkingRetryTypeUnknown</TokenIdentifier>
+            <TokenIdentifier>//apple_ref/c/econst/AWSEC2SpotInstanceStateUnknown</TokenIdentifier>
             <Abstract type="html"></Abstract>
-            <Declaration>AWSNetworkingRetryTypeUnknown</Declaration>
+            <Declaration>AWSEC2SpotInstanceStateUnknown</Declaration>
             
-            <DeclaredIn>AWSNetworking.h</DeclaredIn>
+            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
             
             <NodeRef refid="1159"/>
         </Token>
         
         <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSNetworkingRetryTypeShouldNotRetry</TokenIdentifier>
+            <TokenIdentifier>//apple_ref/c/econst/AWSEC2SpotInstanceStateOpen</TokenIdentifier>
             <Abstract type="html"></Abstract>
-            <Declaration>AWSNetworkingRetryTypeShouldNotRetry</Declaration>
+            <Declaration>AWSEC2SpotInstanceStateOpen</Declaration>
             
-            <DeclaredIn>AWSNetworking.h</DeclaredIn>
+            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
             
             <NodeRef refid="1159"/>
         </Token>
         
         <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSNetworkingRetryTypeShouldRetry</TokenIdentifier>
+            <TokenIdentifier>//apple_ref/c/econst/AWSEC2SpotInstanceStateActive</TokenIdentifier>
             <Abstract type="html"></Abstract>
-            <Declaration>AWSNetworkingRetryTypeShouldRetry</Declaration>
+            <Declaration>AWSEC2SpotInstanceStateActive</Declaration>
             
-            <DeclaredIn>AWSNetworking.h</DeclaredIn>
+            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
             
             <NodeRef refid="1159"/>
         </Token>
         
         <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSNetworkingRetryTypeShouldRefreshCredentialsAndRetry</TokenIdentifier>
+            <TokenIdentifier>//apple_ref/c/econst/AWSEC2SpotInstanceStateClosed</TokenIdentifier>
             <Abstract type="html"></Abstract>
-            <Declaration>AWSNetworkingRetryTypeShouldRefreshCredentialsAndRetry</Declaration>
+            <Declaration>AWSEC2SpotInstanceStateClosed</Declaration>
             
-            <DeclaredIn>AWSNetworking.h</DeclaredIn>
+            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
             
             <NodeRef refid="1159"/>
         </Token>
         
         <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSNetworkingRetryTypeShouldCorrectClockSkewAndRetry</TokenIdentifier>
+            <TokenIdentifier>//apple_ref/c/econst/AWSEC2SpotInstanceStateCancelled</TokenIdentifier>
             <Abstract type="html"></Abstract>
-            <Declaration>AWSNetworkingRetryTypeShouldCorrectClockSkewAndRetry</Declaration>
+            <Declaration>AWSEC2SpotInstanceStateCancelled</Declaration>
             
-            <DeclaredIn>AWSNetworking.h</DeclaredIn>
+            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
+            
+            <NodeRef refid="1159"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/AWSEC2SpotInstanceStateFailed</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>AWSEC2SpotInstanceStateFailed</Declaration>
+            
+            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
             
             <NodeRef refid="1159"/>
         </Token>

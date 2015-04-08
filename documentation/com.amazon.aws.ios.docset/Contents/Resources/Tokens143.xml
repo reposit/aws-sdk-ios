@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSCognitoIdentityMergeDeveloperIdentitiesInput.html">
+	<File path="Classes/AWSCognitoIdentityLookupDeveloperIdentityInput.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSCognitoIdentityMergeDeveloperIdentitiesInput</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Input to the &lt;code&gt;MergeDeveloperIdentities&lt;/code&gt; action.&lt;/p&gt;
-Required parameters: [SourceUserIdentifier, DestinationUserIdentifier, DeveloperProviderName, IdentityPoolId]</Abstract>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSCognitoIdentityLookupDeveloperIdentityInput</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Input to the &lt;code&gt;LookupDeveloperIdentityInput&lt;/code&gt; action.&lt;/p&gt;
+Required parameters: [IdentityPoolId]</Abstract>
 			<DeclaredIn>AWSCognitoIdentityModel.h</DeclaredIn>
             
 			
@@ -14,79 +14,79 @@ Required parameters: [SourceUserIdentifier, DestinationUserIdentifier, Developer
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoIdentityMergeDeveloperIdentitiesInput/setDestinationUserIdentifier:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;User identifier for the destination user. The value should be a &lt;code&gt;DeveloperUserIdentifier&lt;/code&gt;.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoIdentityLookupDeveloperIdentityInput/setDeveloperUserIdentifier:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;A unique ID used by your backend authentication process to identify a user. Typically, a developer identity provider would issue many developer user identifiers, in keeping with the number of users.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSCognitoIdentityModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *destinationUserIdentifier</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *developerUserIdentifier</Declaration>
 			
 			
-			<Anchor>//api/name/destinationUserIdentifier</Anchor>
+			<Anchor>//api/name/developerUserIdentifier</Anchor>
             <NodeRef refid="143"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoIdentityMergeDeveloperIdentitiesInput/destinationUserIdentifier</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;User identifier for the destination user. The value should be a &lt;code&gt;DeveloperUserIdentifier&lt;/code&gt;.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoIdentityLookupDeveloperIdentityInput/developerUserIdentifier</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;A unique ID used by your backend authentication process to identify a user. Typically, a developer identity provider would issue many developer user identifiers, in keeping with the number of users.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSCognitoIdentityModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *destinationUserIdentifier</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *developerUserIdentifier</Declaration>
 			
 			
-			<Anchor>//api/name/destinationUserIdentifier</Anchor>
+			<Anchor>//api/name/developerUserIdentifier</Anchor>
             <NodeRef refid="143"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSCognitoIdentityMergeDeveloperIdentitiesInput/destinationUserIdentifier</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;User identifier for the destination user. The value should be a &lt;code&gt;DeveloperUserIdentifier&lt;/code&gt;.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSCognitoIdentityLookupDeveloperIdentityInput/developerUserIdentifier</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;A unique ID used by your backend authentication process to identify a user. Typically, a developer identity provider would issue many developer user identifiers, in keeping with the number of users.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSCognitoIdentityModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *destinationUserIdentifier</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *developerUserIdentifier</Declaration>
 			
 			
-			<Anchor>//api/name/destinationUserIdentifier</Anchor>
+			<Anchor>//api/name/developerUserIdentifier</Anchor>
             <NodeRef refid="143"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoIdentityMergeDeveloperIdentitiesInput/setDeveloperProviderName:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The &quot;domain&quot; by which Cognito will refer to your users. This is a (pseudo) domain name that you provide while creating an identity pool. This name acts as a placeholder that allows your backend and the Cognito service to communicate about the developer provider. For the &lt;code&gt;DeveloperProviderName&lt;/code&gt;, you can use letters as well as period (.), underscore (_), and dash (-).&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoIdentityLookupDeveloperIdentityInput/setIdentityId:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;A unique identifier in the format REGION:GUID.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSCognitoIdentityModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *developerProviderName</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *identityId</Declaration>
 			
 			
-			<Anchor>//api/name/developerProviderName</Anchor>
+			<Anchor>//api/name/identityId</Anchor>
             <NodeRef refid="143"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoIdentityMergeDeveloperIdentitiesInput/developerProviderName</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The &quot;domain&quot; by which Cognito will refer to your users. This is a (pseudo) domain name that you provide while creating an identity pool. This name acts as a placeholder that allows your backend and the Cognito service to communicate about the developer provider. For the &lt;code&gt;DeveloperProviderName&lt;/code&gt;, you can use letters as well as period (.), underscore (_), and dash (-).&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoIdentityLookupDeveloperIdentityInput/identityId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;A unique identifier in the format REGION:GUID.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSCognitoIdentityModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *developerProviderName</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *identityId</Declaration>
 			
 			
-			<Anchor>//api/name/developerProviderName</Anchor>
+			<Anchor>//api/name/identityId</Anchor>
             <NodeRef refid="143"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSCognitoIdentityMergeDeveloperIdentitiesInput/developerProviderName</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The &quot;domain&quot; by which Cognito will refer to your users. This is a (pseudo) domain name that you provide while creating an identity pool. This name acts as a placeholder that allows your backend and the Cognito service to communicate about the developer provider. For the &lt;code&gt;DeveloperProviderName&lt;/code&gt;, you can use letters as well as period (.), underscore (_), and dash (-).&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSCognitoIdentityLookupDeveloperIdentityInput/identityId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;A unique identifier in the format REGION:GUID.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSCognitoIdentityModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *developerProviderName</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *identityId</Declaration>
 			
 			
-			<Anchor>//api/name/developerProviderName</Anchor>
+			<Anchor>//api/name/identityId</Anchor>
             <NodeRef refid="143"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoIdentityMergeDeveloperIdentitiesInput/setIdentityPoolId:</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoIdentityLookupDeveloperIdentityInput/setIdentityPoolId:</TokenIdentifier>
 			<Abstract type="html">&lt;p&gt;An identity pool ID in the format REGION:GUID.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSCognitoIdentityModel.h</DeclaredIn>
 			
@@ -98,7 +98,7 @@ Required parameters: [SourceUserIdentifier, DestinationUserIdentifier, Developer
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoIdentityMergeDeveloperIdentitiesInput/identityPoolId</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoIdentityLookupDeveloperIdentityInput/identityPoolId</TokenIdentifier>
 			<Abstract type="html">&lt;p&gt;An identity pool ID in the format REGION:GUID.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSCognitoIdentityModel.h</DeclaredIn>
 			
@@ -110,7 +110,7 @@ Required parameters: [SourceUserIdentifier, DestinationUserIdentifier, Developer
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSCognitoIdentityMergeDeveloperIdentitiesInput/identityPoolId</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSCognitoIdentityLookupDeveloperIdentityInput/identityPoolId</TokenIdentifier>
 			<Abstract type="html">&lt;p&gt;An identity pool ID in the format REGION:GUID.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSCognitoIdentityModel.h</DeclaredIn>
 			
@@ -122,38 +122,74 @@ Required parameters: [SourceUserIdentifier, DestinationUserIdentifier, Developer
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoIdentityMergeDeveloperIdentitiesInput/setSourceUserIdentifier:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;User identifier for the source user. The value should be a &lt;code&gt;DeveloperUserIdentifier&lt;/code&gt;.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoIdentityLookupDeveloperIdentityInput/setMaxResults:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The maximum number of identities to return.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSCognitoIdentityModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *sourceUserIdentifier</Declaration>
+			<Declaration>@property (nonatomic, strong) NSNumber *maxResults</Declaration>
 			
 			
-			<Anchor>//api/name/sourceUserIdentifier</Anchor>
+			<Anchor>//api/name/maxResults</Anchor>
             <NodeRef refid="143"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoIdentityMergeDeveloperIdentitiesInput/sourceUserIdentifier</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;User identifier for the source user. The value should be a &lt;code&gt;DeveloperUserIdentifier&lt;/code&gt;.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoIdentityLookupDeveloperIdentityInput/maxResults</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The maximum number of identities to return.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSCognitoIdentityModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *sourceUserIdentifier</Declaration>
+			<Declaration>@property (nonatomic, strong) NSNumber *maxResults</Declaration>
 			
 			
-			<Anchor>//api/name/sourceUserIdentifier</Anchor>
+			<Anchor>//api/name/maxResults</Anchor>
             <NodeRef refid="143"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSCognitoIdentityMergeDeveloperIdentitiesInput/sourceUserIdentifier</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;User identifier for the source user. The value should be a &lt;code&gt;DeveloperUserIdentifier&lt;/code&gt;.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSCognitoIdentityLookupDeveloperIdentityInput/maxResults</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The maximum number of identities to return.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSCognitoIdentityModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *sourceUserIdentifier</Declaration>
+			<Declaration>@property (nonatomic, strong) NSNumber *maxResults</Declaration>
 			
 			
-			<Anchor>//api/name/sourceUserIdentifier</Anchor>
+			<Anchor>//api/name/maxResults</Anchor>
+            <NodeRef refid="143"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoIdentityLookupDeveloperIdentityInput/setNextToken:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;A pagination token. The first call you make will have &lt;code&gt;NextToken&lt;/code&gt; set to null. After that the service will return &lt;code&gt;NextToken&lt;/code&gt; values as needed. For example, let&apos;s say you make a request with &lt;code&gt;MaxResults&lt;/code&gt; set to 10, and there are 20 matches in the database. The service will return a pagination token as a part of the response. This token can be used to call the API again and get results starting from the 11th match.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSCognitoIdentityModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *nextToken</Declaration>
+			
+			
+			<Anchor>//api/name/nextToken</Anchor>
+            <NodeRef refid="143"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoIdentityLookupDeveloperIdentityInput/nextToken</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;A pagination token. The first call you make will have &lt;code&gt;NextToken&lt;/code&gt; set to null. After that the service will return &lt;code&gt;NextToken&lt;/code&gt; values as needed. For example, let&apos;s say you make a request with &lt;code&gt;MaxResults&lt;/code&gt; set to 10, and there are 20 matches in the database. The service will return a pagination token as a part of the response. This token can be used to call the API again and get results starting from the 11th match.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSCognitoIdentityModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *nextToken</Declaration>
+			
+			
+			<Anchor>//api/name/nextToken</Anchor>
+            <NodeRef refid="143"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSCognitoIdentityLookupDeveloperIdentityInput/nextToken</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;A pagination token. The first call you make will have &lt;code&gt;NextToken&lt;/code&gt; set to null. After that the service will return &lt;code&gt;NextToken&lt;/code&gt; values as needed. For example, let&apos;s say you make a request with &lt;code&gt;MaxResults&lt;/code&gt; set to 10, and there are 20 matches in the database. The service will return a pagination token as a part of the response. This token can be used to call the API again and get results starting from the 11th match.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSCognitoIdentityModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *nextToken</Declaration>
+			
+			
+			<Anchor>//api/name/nextToken</Anchor>
             <NodeRef refid="143"/>
 		</Token>
 		

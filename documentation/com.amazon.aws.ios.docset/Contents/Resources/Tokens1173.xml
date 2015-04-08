@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Constants/AWSS3ObjectCannedACL.html">
+	<File path="Constants/AWSEC2VolumeType.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/c/tdef/AWSS3ObjectCannedACL</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/c/tdef/AWSEC2VolumeType</TokenIdentifier>
 			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
             
 			
 			<NodeRef refid="1173"/>
@@ -14,71 +14,41 @@
 		
         
         <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSS3ObjectCannedACLUnknown</TokenIdentifier>
+            <TokenIdentifier>//apple_ref/c/econst/AWSEC2VolumeTypeUnknown</TokenIdentifier>
             <Abstract type="html"></Abstract>
-            <Declaration>AWSS3ObjectCannedACLUnknown</Declaration>
+            <Declaration>AWSEC2VolumeTypeUnknown</Declaration>
             
-            <DeclaredIn>AWSS3Model.h</DeclaredIn>
+            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
             
             <NodeRef refid="1173"/>
         </Token>
         
         <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSS3ObjectCannedACLPrivate</TokenIdentifier>
+            <TokenIdentifier>//apple_ref/c/econst/AWSEC2VolumeTypeStandard</TokenIdentifier>
             <Abstract type="html"></Abstract>
-            <Declaration>AWSS3ObjectCannedACLPrivate</Declaration>
+            <Declaration>AWSEC2VolumeTypeStandard</Declaration>
             
-            <DeclaredIn>AWSS3Model.h</DeclaredIn>
+            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
             
             <NodeRef refid="1173"/>
         </Token>
         
         <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSS3ObjectCannedACLPublicRead</TokenIdentifier>
+            <TokenIdentifier>//apple_ref/c/econst/AWSEC2VolumeTypeIO1</TokenIdentifier>
             <Abstract type="html"></Abstract>
-            <Declaration>AWSS3ObjectCannedACLPublicRead</Declaration>
+            <Declaration>AWSEC2VolumeTypeIO1</Declaration>
             
-            <DeclaredIn>AWSS3Model.h</DeclaredIn>
+            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
             
             <NodeRef refid="1173"/>
         </Token>
         
         <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSS3ObjectCannedACLPublicReadWrite</TokenIdentifier>
+            <TokenIdentifier>//apple_ref/c/econst/AWSEC2VolumeTypeGp2</TokenIdentifier>
             <Abstract type="html"></Abstract>
-            <Declaration>AWSS3ObjectCannedACLPublicReadWrite</Declaration>
+            <Declaration>AWSEC2VolumeTypeGp2</Declaration>
             
-            <DeclaredIn>AWSS3Model.h</DeclaredIn>
-            
-            <NodeRef refid="1173"/>
-        </Token>
-        
-        <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSS3ObjectCannedACLAuthenticatedRead</TokenIdentifier>
-            <Abstract type="html"></Abstract>
-            <Declaration>AWSS3ObjectCannedACLAuthenticatedRead</Declaration>
-            
-            <DeclaredIn>AWSS3Model.h</DeclaredIn>
-            
-            <NodeRef refid="1173"/>
-        </Token>
-        
-        <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSS3ObjectCannedACLBucketOwnerRead</TokenIdentifier>
-            <Abstract type="html"></Abstract>
-            <Declaration>AWSS3ObjectCannedACLBucketOwnerRead</Declaration>
-            
-            <DeclaredIn>AWSS3Model.h</DeclaredIn>
-            
-            <NodeRef refid="1173"/>
-        </Token>
-        
-        <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSS3ObjectCannedACLBucketOwnerFullControl</TokenIdentifier>
-            <Abstract type="html"></Abstract>
-            <Declaration>AWSS3ObjectCannedACLBucketOwnerFullControl</Declaration>
-            
-            <DeclaredIn>AWSS3Model.h</DeclaredIn>
+            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
             
             <NodeRef refid="1173"/>
         </Token>

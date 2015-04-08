@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSEC2DiskImage.html">
+	<File path="Classes/AWSEC2DhcpConfiguration.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSEC2DiskImage</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Describes a disk image.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSEC2DhcpConfiguration</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Describes a DHCP configuration option.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
             
 			
@@ -13,110 +13,74 @@
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DiskImage/setDetail:</TokenIdentifier>
-			<Abstract type="html"></Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DhcpConfiguration/setKey:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The name of a DHCP option.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *detail</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *key</Declaration>
 			
 			
-			<Anchor>//api/name/detail</Anchor>
+			<Anchor>//api/name/key</Anchor>
             <NodeRef refid="443"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DiskImage/detail</TokenIdentifier>
-			<Abstract type="html"></Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DhcpConfiguration/key</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The name of a DHCP option.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *detail</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *key</Declaration>
 			
 			
-			<Anchor>//api/name/detail</Anchor>
+			<Anchor>//api/name/key</Anchor>
             <NodeRef refid="443"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2DiskImage/detail</TokenIdentifier>
-			<Abstract type="html"></Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2DhcpConfiguration/key</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The name of a DHCP option.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *detail</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *key</Declaration>
 			
 			
-			<Anchor>//api/name/detail</Anchor>
+			<Anchor>//api/name/key</Anchor>
             <NodeRef refid="443"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DiskImage/setImage:</TokenIdentifier>
-			<Abstract type="html"></Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DhcpConfiguration/setValues:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;One or more values for the DHCP option.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) AWSEC2DiskImageDetail *image</Declaration>
+			<Declaration>@property (nonatomic, strong) NSArray *values</Declaration>
 			
 			
-			<Anchor>//api/name/image</Anchor>
+			<Anchor>//api/name/values</Anchor>
             <NodeRef refid="443"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DiskImage/image</TokenIdentifier>
-			<Abstract type="html"></Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DhcpConfiguration/values</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;One or more values for the DHCP option.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) AWSEC2DiskImageDetail *image</Declaration>
+			<Declaration>@property (nonatomic, strong) NSArray *values</Declaration>
 			
 			
-			<Anchor>//api/name/image</Anchor>
+			<Anchor>//api/name/values</Anchor>
             <NodeRef refid="443"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2DiskImage/image</TokenIdentifier>
-			<Abstract type="html"></Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2DhcpConfiguration/values</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;One or more values for the DHCP option.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) AWSEC2DiskImageDetail *image</Declaration>
+			<Declaration>@property (nonatomic, strong) NSArray *values</Declaration>
 			
 			
-			<Anchor>//api/name/image</Anchor>
-            <NodeRef refid="443"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DiskImage/setVolume:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Describes an Amazon EBS volume.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) AWSEC2VolumeDetail *volume</Declaration>
-			
-			
-			<Anchor>//api/name/volume</Anchor>
-            <NodeRef refid="443"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DiskImage/volume</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Describes an Amazon EBS volume.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) AWSEC2VolumeDetail *volume</Declaration>
-			
-			
-			<Anchor>//api/name/volume</Anchor>
-            <NodeRef refid="443"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2DiskImage/volume</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Describes an Amazon EBS volume.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) AWSEC2VolumeDetail *volume</Declaration>
-			
-			
-			<Anchor>//api/name/volume</Anchor>
+			<Anchor>//api/name/values</Anchor>
             <NodeRef refid="443"/>
 		</Token>
 		

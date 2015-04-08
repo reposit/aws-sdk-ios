@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSS3ListBucketsOutput.html">
+	<File path="Classes/AWSS3GetBucketWebsiteRequest.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSS3ListBucketsOutput</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSS3GetBucketWebsiteRequest</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSS3Model.h</DeclaredIn>
             
@@ -13,74 +13,38 @@
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3ListBucketsOutput/setBuckets:</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3GetBucketWebsiteRequest/setBucket:</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSArray *buckets</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *bucket</Declaration>
 			
 			
-			<Anchor>//api/name/buckets</Anchor>
+			<Anchor>//api/name/bucket</Anchor>
             <NodeRef refid="812"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3ListBucketsOutput/buckets</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3GetBucketWebsiteRequest/bucket</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSArray *buckets</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *bucket</Declaration>
 			
 			
-			<Anchor>//api/name/buckets</Anchor>
+			<Anchor>//api/name/bucket</Anchor>
             <NodeRef refid="812"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSS3ListBucketsOutput/buckets</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSS3GetBucketWebsiteRequest/bucket</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSArray *buckets</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *bucket</Declaration>
 			
 			
-			<Anchor>//api/name/buckets</Anchor>
-            <NodeRef refid="812"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3ListBucketsOutput/setOwner:</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) AWSS3Owner *owner</Declaration>
-			
-			
-			<Anchor>//api/name/owner</Anchor>
-            <NodeRef refid="812"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3ListBucketsOutput/owner</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) AWSS3Owner *owner</Declaration>
-			
-			
-			<Anchor>//api/name/owner</Anchor>
-            <NodeRef refid="812"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSS3ListBucketsOutput/owner</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) AWSS3Owner *owner</Declaration>
-			
-			
-			<Anchor>//api/name/owner</Anchor>
+			<Anchor>//api/name/bucket</Anchor>
             <NodeRef refid="812"/>
 		</Token>
 		

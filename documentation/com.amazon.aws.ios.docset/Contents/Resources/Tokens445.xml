@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSEC2DiskImageDetail.html">
+	<File path="Classes/AWSEC2DisableVgwRoutePropagationRequest.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSEC2DiskImageDetail</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSEC2DisableVgwRoutePropagationRequest</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
             
@@ -13,110 +13,74 @@
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DiskImageDetail/setBytes:</TokenIdentifier>
-			<Abstract type="html"></Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DisableVgwRoutePropagationRequest/setGatewayId:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the virtual private gateway.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSNumber *bytes</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *gatewayId</Declaration>
 			
 			
-			<Anchor>//api/name/bytes</Anchor>
+			<Anchor>//api/name/gatewayId</Anchor>
             <NodeRef refid="445"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DiskImageDetail/bytes</TokenIdentifier>
-			<Abstract type="html"></Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DisableVgwRoutePropagationRequest/gatewayId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the virtual private gateway.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSNumber *bytes</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *gatewayId</Declaration>
 			
 			
-			<Anchor>//api/name/bytes</Anchor>
+			<Anchor>//api/name/gatewayId</Anchor>
             <NodeRef refid="445"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2DiskImageDetail/bytes</TokenIdentifier>
-			<Abstract type="html"></Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2DisableVgwRoutePropagationRequest/gatewayId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the virtual private gateway.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSNumber *bytes</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *gatewayId</Declaration>
 			
 			
-			<Anchor>//api/name/bytes</Anchor>
+			<Anchor>//api/name/gatewayId</Anchor>
             <NodeRef refid="445"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DiskImageDetail/setFormat:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The disk image format.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DisableVgwRoutePropagationRequest/setRouteTableId:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the route table.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, assign) AWSEC2DiskImageFormat format</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *routeTableId</Declaration>
 			
 			
-			<Anchor>//api/name/format</Anchor>
+			<Anchor>//api/name/routeTableId</Anchor>
             <NodeRef refid="445"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DiskImageDetail/format</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The disk image format.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DisableVgwRoutePropagationRequest/routeTableId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the route table.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, assign) AWSEC2DiskImageFormat format</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *routeTableId</Declaration>
 			
 			
-			<Anchor>//api/name/format</Anchor>
+			<Anchor>//api/name/routeTableId</Anchor>
             <NodeRef refid="445"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2DiskImageDetail/format</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The disk image format.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2DisableVgwRoutePropagationRequest/routeTableId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the route table.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, assign) AWSEC2DiskImageFormat format</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *routeTableId</Declaration>
 			
 			
-			<Anchor>//api/name/format</Anchor>
-            <NodeRef refid="445"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DiskImageDetail/setImportManifestUrl:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;A presigned URL for the import manifest stored in Amazon S3. For information about creating a presigned URL for an Amazon S3 object, read the &quot;Query String Request Authentication Alternative&quot; section of the Authenticating REST Requests topic in the &lt;i&gt;Amazon Simple Storage Service Developer Guide&lt;/i&gt;.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *importManifestUrl</Declaration>
-			
-			
-			<Anchor>//api/name/importManifestUrl</Anchor>
-            <NodeRef refid="445"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DiskImageDetail/importManifestUrl</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;A presigned URL for the import manifest stored in Amazon S3. For information about creating a presigned URL for an Amazon S3 object, read the &quot;Query String Request Authentication Alternative&quot; section of the Authenticating REST Requests topic in the &lt;i&gt;Amazon Simple Storage Service Developer Guide&lt;/i&gt;.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *importManifestUrl</Declaration>
-			
-			
-			<Anchor>//api/name/importManifestUrl</Anchor>
-            <NodeRef refid="445"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2DiskImageDetail/importManifestUrl</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;A presigned URL for the import manifest stored in Amazon S3. For information about creating a presigned URL for an Amazon S3 object, read the &quot;Query String Request Authentication Alternative&quot; section of the Authenticating REST Requests topic in the &lt;i&gt;Amazon Simple Storage Service Developer Guide&lt;/i&gt;.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *importManifestUrl</Declaration>
-			
-			
-			<Anchor>//api/name/importManifestUrl</Anchor>
+			<Anchor>//api/name/routeTableId</Anchor>
             <NodeRef refid="445"/>
 		</Token>
 		

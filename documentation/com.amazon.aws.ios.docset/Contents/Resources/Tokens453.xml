@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSEC2ExportToS3Task.html">
+	<File path="Classes/AWSEC2EbsInstanceBlockDevice.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSEC2ExportToS3Task</TokenIdentifier>
-			<Abstract type="html"></Abstract>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSEC2EbsInstanceBlockDevice</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Describes a parameter used to set up an Amazon EBS volume in a block device mapping.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
             
 			
@@ -13,146 +13,146 @@
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ExportToS3Task/setContainerFormat:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The container format used to combine disk images with metadata (such as OVF). If absent, only the disk image is exported.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2EbsInstanceBlockDevice/setAttachTime:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The time stamp when the attachment initiated.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, assign) AWSEC2ContainerFormat containerFormat</Declaration>
+			<Declaration>@property (nonatomic, strong) NSDate *attachTime</Declaration>
 			
 			
-			<Anchor>//api/name/containerFormat</Anchor>
+			<Anchor>//api/name/attachTime</Anchor>
             <NodeRef refid="453"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ExportToS3Task/containerFormat</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The container format used to combine disk images with metadata (such as OVF). If absent, only the disk image is exported.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2EbsInstanceBlockDevice/attachTime</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The time stamp when the attachment initiated.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, assign) AWSEC2ContainerFormat containerFormat</Declaration>
+			<Declaration>@property (nonatomic, strong) NSDate *attachTime</Declaration>
 			
 			
-			<Anchor>//api/name/containerFormat</Anchor>
+			<Anchor>//api/name/attachTime</Anchor>
             <NodeRef refid="453"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2ExportToS3Task/containerFormat</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The container format used to combine disk images with metadata (such as OVF). If absent, only the disk image is exported.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2EbsInstanceBlockDevice/attachTime</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The time stamp when the attachment initiated.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, assign) AWSEC2ContainerFormat containerFormat</Declaration>
+			<Declaration>@property (nonatomic, strong) NSDate *attachTime</Declaration>
 			
 			
-			<Anchor>//api/name/containerFormat</Anchor>
+			<Anchor>//api/name/attachTime</Anchor>
             <NodeRef refid="453"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ExportToS3Task/setDiskImageFormat:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The format for the exported image.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2EbsInstanceBlockDevice/setDeleteOnTermination:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Indicates whether the volume is deleted on instance termination.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, assign) AWSEC2DiskImageFormat diskImageFormat</Declaration>
+			<Declaration>@property (nonatomic, strong) NSNumber *deleteOnTermination</Declaration>
 			
 			
-			<Anchor>//api/name/diskImageFormat</Anchor>
+			<Anchor>//api/name/deleteOnTermination</Anchor>
             <NodeRef refid="453"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ExportToS3Task/diskImageFormat</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The format for the exported image.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2EbsInstanceBlockDevice/deleteOnTermination</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Indicates whether the volume is deleted on instance termination.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, assign) AWSEC2DiskImageFormat diskImageFormat</Declaration>
+			<Declaration>@property (nonatomic, strong) NSNumber *deleteOnTermination</Declaration>
 			
 			
-			<Anchor>//api/name/diskImageFormat</Anchor>
+			<Anchor>//api/name/deleteOnTermination</Anchor>
             <NodeRef refid="453"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2ExportToS3Task/diskImageFormat</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The format for the exported image.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2EbsInstanceBlockDevice/deleteOnTermination</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Indicates whether the volume is deleted on instance termination.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, assign) AWSEC2DiskImageFormat diskImageFormat</Declaration>
+			<Declaration>@property (nonatomic, strong) NSNumber *deleteOnTermination</Declaration>
 			
 			
-			<Anchor>//api/name/diskImageFormat</Anchor>
+			<Anchor>//api/name/deleteOnTermination</Anchor>
             <NodeRef refid="453"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ExportToS3Task/setS3Bucket:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The Amazon S3 bucket for the destination image. The destination bucket must exist and grant WRITE and READ_ACL permissions to the AWS account &lt;code&gt;vm-import-export@amazon.com&lt;/code&gt;.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2EbsInstanceBlockDevice/setStatus:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The attachment state.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *s3Bucket</Declaration>
+			<Declaration>@property (nonatomic, assign) AWSEC2AttachmentStatus status</Declaration>
 			
 			
-			<Anchor>//api/name/s3Bucket</Anchor>
+			<Anchor>//api/name/status</Anchor>
             <NodeRef refid="453"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ExportToS3Task/s3Bucket</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The Amazon S3 bucket for the destination image. The destination bucket must exist and grant WRITE and READ_ACL permissions to the AWS account &lt;code&gt;vm-import-export@amazon.com&lt;/code&gt;.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2EbsInstanceBlockDevice/status</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The attachment state.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *s3Bucket</Declaration>
+			<Declaration>@property (nonatomic, assign) AWSEC2AttachmentStatus status</Declaration>
 			
 			
-			<Anchor>//api/name/s3Bucket</Anchor>
+			<Anchor>//api/name/status</Anchor>
             <NodeRef refid="453"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2ExportToS3Task/s3Bucket</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The Amazon S3 bucket for the destination image. The destination bucket must exist and grant WRITE and READ_ACL permissions to the AWS account &lt;code&gt;vm-import-export@amazon.com&lt;/code&gt;.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2EbsInstanceBlockDevice/status</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The attachment state.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *s3Bucket</Declaration>
+			<Declaration>@property (nonatomic, assign) AWSEC2AttachmentStatus status</Declaration>
 			
 			
-			<Anchor>//api/name/s3Bucket</Anchor>
+			<Anchor>//api/name/status</Anchor>
             <NodeRef refid="453"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ExportToS3Task/setS3Key:</TokenIdentifier>
-			<Abstract type="html"></Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2EbsInstanceBlockDevice/setVolumeId:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the Amazon EBS volume.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *s3Key</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *volumeId</Declaration>
 			
 			
-			<Anchor>//api/name/s3Key</Anchor>
+			<Anchor>//api/name/volumeId</Anchor>
             <NodeRef refid="453"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ExportToS3Task/s3Key</TokenIdentifier>
-			<Abstract type="html"></Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2EbsInstanceBlockDevice/volumeId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the Amazon EBS volume.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *s3Key</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *volumeId</Declaration>
 			
 			
-			<Anchor>//api/name/s3Key</Anchor>
+			<Anchor>//api/name/volumeId</Anchor>
             <NodeRef refid="453"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2ExportToS3Task/s3Key</TokenIdentifier>
-			<Abstract type="html"></Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2EbsInstanceBlockDevice/volumeId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the Amazon EBS volume.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *s3Key</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *volumeId</Declaration>
 			
 			
-			<Anchor>//api/name/s3Key</Anchor>
+			<Anchor>//api/name/volumeId</Anchor>
             <NodeRef refid="453"/>
 		</Token>
 		

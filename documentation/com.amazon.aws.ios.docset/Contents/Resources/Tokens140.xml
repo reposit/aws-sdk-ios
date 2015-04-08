@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSCognitoIdentityListIdentityPoolsResponse.html">
+	<File path="Classes/AWSCognitoIdentityListIdentitiesResponse.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSCognitoIdentityListIdentityPoolsResponse</TokenIdentifier>
-			<Abstract type="html">The result of a successful ListIdentityPools action.</Abstract>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSCognitoIdentityListIdentitiesResponse</TokenIdentifier>
+			<Abstract type="html">The response to a ListIdentities request.</Abstract>
 			<DeclaredIn>AWSCognitoIdentityModel.h</DeclaredIn>
             
 			
@@ -13,43 +13,79 @@
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoIdentityListIdentityPoolsResponse/setIdentityPools:</TokenIdentifier>
-			<Abstract type="html">The identity pools returned by the ListIdentityPools action.</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoIdentityListIdentitiesResponse/setIdentities:</TokenIdentifier>
+			<Abstract type="html">An object containing a set of identities and associated mappings.</Abstract>
 			<DeclaredIn>AWSCognitoIdentityModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSArray *identityPools</Declaration>
+			<Declaration>@property (nonatomic, strong) NSArray *identities</Declaration>
 			
 			
-			<Anchor>//api/name/identityPools</Anchor>
+			<Anchor>//api/name/identities</Anchor>
             <NodeRef refid="140"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoIdentityListIdentityPoolsResponse/identityPools</TokenIdentifier>
-			<Abstract type="html">The identity pools returned by the ListIdentityPools action.</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoIdentityListIdentitiesResponse/identities</TokenIdentifier>
+			<Abstract type="html">An object containing a set of identities and associated mappings.</Abstract>
 			<DeclaredIn>AWSCognitoIdentityModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSArray *identityPools</Declaration>
+			<Declaration>@property (nonatomic, strong) NSArray *identities</Declaration>
 			
 			
-			<Anchor>//api/name/identityPools</Anchor>
+			<Anchor>//api/name/identities</Anchor>
             <NodeRef refid="140"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSCognitoIdentityListIdentityPoolsResponse/identityPools</TokenIdentifier>
-			<Abstract type="html">The identity pools returned by the ListIdentityPools action.</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSCognitoIdentityListIdentitiesResponse/identities</TokenIdentifier>
+			<Abstract type="html">An object containing a set of identities and associated mappings.</Abstract>
 			<DeclaredIn>AWSCognitoIdentityModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSArray *identityPools</Declaration>
+			<Declaration>@property (nonatomic, strong) NSArray *identities</Declaration>
 			
 			
-			<Anchor>//api/name/identityPools</Anchor>
+			<Anchor>//api/name/identities</Anchor>
             <NodeRef refid="140"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoIdentityListIdentityPoolsResponse/setNextToken:</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoIdentityListIdentitiesResponse/setIdentityPoolId:</TokenIdentifier>
+			<Abstract type="html">An identity pool ID in the format REGION:GUID.</Abstract>
+			<DeclaredIn>AWSCognitoIdentityModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *identityPoolId</Declaration>
+			
+			
+			<Anchor>//api/name/identityPoolId</Anchor>
+            <NodeRef refid="140"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoIdentityListIdentitiesResponse/identityPoolId</TokenIdentifier>
+			<Abstract type="html">An identity pool ID in the format REGION:GUID.</Abstract>
+			<DeclaredIn>AWSCognitoIdentityModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *identityPoolId</Declaration>
+			
+			
+			<Anchor>//api/name/identityPoolId</Anchor>
+            <NodeRef refid="140"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSCognitoIdentityListIdentitiesResponse/identityPoolId</TokenIdentifier>
+			<Abstract type="html">An identity pool ID in the format REGION:GUID.</Abstract>
+			<DeclaredIn>AWSCognitoIdentityModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *identityPoolId</Declaration>
+			
+			
+			<Anchor>//api/name/identityPoolId</Anchor>
+            <NodeRef refid="140"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoIdentityListIdentitiesResponse/setNextToken:</TokenIdentifier>
 			<Abstract type="html">A pagination token.</Abstract>
 			<DeclaredIn>AWSCognitoIdentityModel.h</DeclaredIn>
 			
@@ -61,7 +97,7 @@
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoIdentityListIdentityPoolsResponse/nextToken</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoIdentityListIdentitiesResponse/nextToken</TokenIdentifier>
 			<Abstract type="html">A pagination token.</Abstract>
 			<DeclaredIn>AWSCognitoIdentityModel.h</DeclaredIn>
 			
@@ -73,7 +109,7 @@
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSCognitoIdentityListIdentityPoolsResponse/nextToken</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSCognitoIdentityListIdentitiesResponse/nextToken</TokenIdentifier>
 			<Abstract type="html">A pagination token.</Abstract>
 			<DeclaredIn>AWSCognitoIdentityModel.h</DeclaredIn>
 			

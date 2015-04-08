@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Constants/AWSS3Types.html">
+	<File path="Constants/AWSKinesisShardIteratorType.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/c/tdef/AWSS3Types</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/c/tdef/AWSKinesisShardIteratorType</TokenIdentifier>
 			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			<DeclaredIn>AWSKinesisModel.h</DeclaredIn>
             
 			
 			<NodeRef refid="1185"/>
@@ -14,41 +14,51 @@
 		
         
         <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSS3TypesUnknown</TokenIdentifier>
+            <TokenIdentifier>//apple_ref/c/econst/AWSKinesisShardIteratorTypeUnknown</TokenIdentifier>
             <Abstract type="html"></Abstract>
-            <Declaration>AWSS3TypesUnknown</Declaration>
+            <Declaration>AWSKinesisShardIteratorTypeUnknown</Declaration>
             
-            <DeclaredIn>AWSS3Model.h</DeclaredIn>
+            <DeclaredIn>AWSKinesisModel.h</DeclaredIn>
             
             <NodeRef refid="1185"/>
         </Token>
         
         <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSS3TypesCanonicalUser</TokenIdentifier>
+            <TokenIdentifier>//apple_ref/c/econst/AWSKinesisShardIteratorTypeAtSequenceNumber</TokenIdentifier>
             <Abstract type="html"></Abstract>
-            <Declaration>AWSS3TypesCanonicalUser</Declaration>
+            <Declaration>AWSKinesisShardIteratorTypeAtSequenceNumber</Declaration>
             
-            <DeclaredIn>AWSS3Model.h</DeclaredIn>
+            <DeclaredIn>AWSKinesisModel.h</DeclaredIn>
             
             <NodeRef refid="1185"/>
         </Token>
         
         <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSS3TypesAmazonCustomerByEmail</TokenIdentifier>
+            <TokenIdentifier>//apple_ref/c/econst/AWSKinesisShardIteratorTypeAfterSequenceNumber</TokenIdentifier>
             <Abstract type="html"></Abstract>
-            <Declaration>AWSS3TypesAmazonCustomerByEmail</Declaration>
+            <Declaration>AWSKinesisShardIteratorTypeAfterSequenceNumber</Declaration>
             
-            <DeclaredIn>AWSS3Model.h</DeclaredIn>
+            <DeclaredIn>AWSKinesisModel.h</DeclaredIn>
             
             <NodeRef refid="1185"/>
         </Token>
         
         <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSS3TypesGroup</TokenIdentifier>
+            <TokenIdentifier>//apple_ref/c/econst/AWSKinesisShardIteratorTypeTrimHorizon</TokenIdentifier>
             <Abstract type="html"></Abstract>
-            <Declaration>AWSS3TypesGroup</Declaration>
+            <Declaration>AWSKinesisShardIteratorTypeTrimHorizon</Declaration>
             
-            <DeclaredIn>AWSS3Model.h</DeclaredIn>
+            <DeclaredIn>AWSKinesisModel.h</DeclaredIn>
+            
+            <NodeRef refid="1185"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/AWSKinesisShardIteratorTypeLatest</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>AWSKinesisShardIteratorTypeLatest</Declaration>
+            
+            <DeclaredIn>AWSKinesisModel.h</DeclaredIn>
             
             <NodeRef refid="1185"/>
         </Token>

@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Constants/AWSS3BucketVersioningStatus.html">
+	<File path="Constants/AWSEC2TelemetryStatus.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/c/tdef/AWSS3BucketVersioningStatus</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/c/tdef/AWSEC2TelemetryStatus</TokenIdentifier>
 			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
             
 			
 			<NodeRef refid="1165"/>
@@ -14,31 +14,31 @@
 		
         
         <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSS3BucketVersioningStatusUnknown</TokenIdentifier>
+            <TokenIdentifier>//apple_ref/c/econst/AWSEC2TelemetryStatusUnknown</TokenIdentifier>
             <Abstract type="html"></Abstract>
-            <Declaration>AWSS3BucketVersioningStatusUnknown</Declaration>
+            <Declaration>AWSEC2TelemetryStatusUnknown</Declaration>
             
-            <DeclaredIn>AWSS3Model.h</DeclaredIn>
+            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
             
             <NodeRef refid="1165"/>
         </Token>
         
         <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSS3BucketVersioningStatusEnabled</TokenIdentifier>
+            <TokenIdentifier>//apple_ref/c/econst/AWSEC2TelemetryStatusUp</TokenIdentifier>
             <Abstract type="html"></Abstract>
-            <Declaration>AWSS3BucketVersioningStatusEnabled</Declaration>
+            <Declaration>AWSEC2TelemetryStatusUp</Declaration>
             
-            <DeclaredIn>AWSS3Model.h</DeclaredIn>
+            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
             
             <NodeRef refid="1165"/>
         </Token>
         
         <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSS3BucketVersioningStatusSuspended</TokenIdentifier>
+            <TokenIdentifier>//apple_ref/c/econst/AWSEC2TelemetryStatusDown</TokenIdentifier>
             <Abstract type="html"></Abstract>
-            <Declaration>AWSS3BucketVersioningStatusSuspended</Declaration>
+            <Declaration>AWSEC2TelemetryStatusDown</Declaration>
             
-            <DeclaredIn>AWSS3Model.h</DeclaredIn>
+            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
             
             <NodeRef refid="1165"/>
         </Token>

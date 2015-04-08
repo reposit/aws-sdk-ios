@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSDynamoDBObjectMapper.html">
+	<File path="Classes/AWSDynamoDBListTablesOutput.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSDynamoDBObjectMapper</TokenIdentifier>
-			<Abstract type="html">Object mapper for domain-object interaction with DynamoDB.</Abstract>
-			<DeclaredIn>AWSDynamoDBObjectMapper.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSDynamoDBListTablesOutput</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Represents the output of a &lt;i&gt;ListTables&lt;/i&gt; operation.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
             
 			
 			<NodeRef refid="221"/>
@@ -13,279 +13,74 @@
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSDynamoDBObjectMapper/setConfiguration:</TokenIdentifier>
-			<Abstract type="html">The service configuration used to instantiate this service client.</Abstract>
-			<DeclaredIn>AWSDynamoDBObjectMapper.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSDynamoDBListTablesOutput/setLastEvaluatedTableName:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The name of the last table in the current page of results. Use this value as the &lt;i&gt;ExclusiveStartTableName&lt;/i&gt; in a new request to obtain the next page of results, until all the table names are returned.&lt;/p&gt;&lt;p&gt;If you do not receive a &lt;i&gt;LastEvaluatedTableName&lt;/i&gt; value in the response, this means that there are no more table names to be retrieved.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong, readonly) AWSDynamoDBObjectMapperConfiguration *configuration</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *lastEvaluatedTableName</Declaration>
 			
 			
-			<Anchor>//api/name/configuration</Anchor>
+			<Anchor>//api/name/lastEvaluatedTableName</Anchor>
             <NodeRef refid="221"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSDynamoDBObjectMapper/configuration</TokenIdentifier>
-			<Abstract type="html">The service configuration used to instantiate this service client.</Abstract>
-			<DeclaredIn>AWSDynamoDBObjectMapper.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSDynamoDBListTablesOutput/lastEvaluatedTableName</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The name of the last table in the current page of results. Use this value as the &lt;i&gt;ExclusiveStartTableName&lt;/i&gt; in a new request to obtain the next page of results, until all the table names are returned.&lt;/p&gt;&lt;p&gt;If you do not receive a &lt;i&gt;LastEvaluatedTableName&lt;/i&gt; value in the response, this means that there are no more table names to be retrieved.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong, readonly) AWSDynamoDBObjectMapperConfiguration *configuration</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *lastEvaluatedTableName</Declaration>
 			
 			
-			<Anchor>//api/name/configuration</Anchor>
+			<Anchor>//api/name/lastEvaluatedTableName</Anchor>
             <NodeRef refid="221"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSDynamoDBObjectMapper/configuration</TokenIdentifier>
-			<Abstract type="html">The service configuration used to instantiate this service client.</Abstract>
-			<DeclaredIn>AWSDynamoDBObjectMapper.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSDynamoDBListTablesOutput/lastEvaluatedTableName</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The name of the last table in the current page of results. Use this value as the &lt;i&gt;ExclusiveStartTableName&lt;/i&gt; in a new request to obtain the next page of results, until all the table names are returned.&lt;/p&gt;&lt;p&gt;If you do not receive a &lt;i&gt;LastEvaluatedTableName&lt;/i&gt; value in the response, this means that there are no more table names to be retrieved.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong, readonly) AWSDynamoDBObjectMapperConfiguration *configuration</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *lastEvaluatedTableName</Declaration>
 			
 			
-			<Anchor>//api/name/configuration</Anchor>
+			<Anchor>//api/name/lastEvaluatedTableName</Anchor>
             <NodeRef refid="221"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/clm/AWSDynamoDBObjectMapper/defaultDynamoDBObjectMapper</TokenIdentifier>
-			<Abstract type="html">Returns the singleton service client. If the singleton object does not exist, the SDK instantiates the default service client with defaultServiceConfiguration from [AWSServiceManager defaultServiceManager]. The reference to this object is maintained by the SDK, and you do not need to retain it manually.</Abstract>
-			<DeclaredIn>AWSDynamoDBObjectMapper.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSDynamoDBListTablesOutput/setTableNames:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The names of the tables associated with the current account at the current endpoint. The maximum size of this array is 100. &lt;/p&gt;&lt;p&gt;If &lt;i&gt;LastEvaluatedTableName&lt;/i&gt; also appears in the output, you can use this value as the &lt;i&gt;ExclusiveStartTableName&lt;/i&gt; parameter in a subsequent &lt;i&gt;ListTables&lt;/i&gt; request and obtain the next page of results.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
 			
-			<Declaration>+ (instancetype)defaultDynamoDBObjectMapper</Declaration>
+			<Declaration>@property (nonatomic, strong) NSArray *tableNames</Declaration>
 			
-			<ReturnValue><Abstract type="html">The default service client.</Abstract></ReturnValue>
-			<Anchor>//api/name/defaultDynamoDBObjectMapper</Anchor>
+			
+			<Anchor>//api/name/tableNames</Anchor>
             <NodeRef refid="221"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSDynamoDBObjectMapper/initWithConfiguration:objectMapperConfiguration:</TokenIdentifier>
-			<Abstract type="html">Instantiates the service client with the given service configuration.</Abstract>
-			<DeclaredIn>AWSDynamoDBObjectMapper.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSDynamoDBListTablesOutput/tableNames</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The names of the tables associated with the current account at the current endpoint. The maximum size of this array is 100. &lt;/p&gt;&lt;p&gt;If &lt;i&gt;LastEvaluatedTableName&lt;/i&gt; also appears in the output, you can use this value as the &lt;i&gt;ExclusiveStartTableName&lt;/i&gt; parameter in a subsequent &lt;i&gt;ListTables&lt;/i&gt; request and obtain the next page of results.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
 			
-			<Declaration>- (instancetype)initWithConfiguration:(AWSServiceConfiguration *)configuration objectMapperConfiguration:(AWSDynamoDBObjectMapperConfiguration *)objectMapperConfiguration</Declaration>
-			<Parameters>
-				<Parameter>
-					<Name>configuration</Name>
-					<Abstract type="html">The service configuration object.</Abstract>
-				</Parameter><Parameter>
-					<Name>objectMapperConfiguration</Name>
-					<Abstract type="html">The DynamoDB Object Mapper configuration object.</Abstract>
-				</Parameter>
-			</Parameters>
-			<ReturnValue><Abstract type="html">An instance of the service client.</Abstract></ReturnValue>
-			<Anchor>//api/name/initWithConfiguration:objectMapperConfiguration:</Anchor>
+			<Declaration>@property (nonatomic, strong) NSArray *tableNames</Declaration>
+			
+			
+			<Anchor>//api/name/tableNames</Anchor>
             <NodeRef refid="221"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSDynamoDBObjectMapper/save:</TokenIdentifier>
-			<Abstract type="html">Saves the object given into DynamoDB, using the default configuration.</Abstract>
-			<DeclaredIn>AWSDynamoDBObjectMapper.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSDynamoDBListTablesOutput/tableNames</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The names of the tables associated with the current account at the current endpoint. The maximum size of this array is 100. &lt;/p&gt;&lt;p&gt;If &lt;i&gt;LastEvaluatedTableName&lt;/i&gt; also appears in the output, you can use this value as the &lt;i&gt;ExclusiveStartTableName&lt;/i&gt; parameter in a subsequent &lt;i&gt;ListTables&lt;/i&gt; request and obtain the next page of results.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
 			
-			<Declaration>- (BFTask *)save:(AWSDynamoDBModel *)model</Declaration>
-			<Parameters>
-				<Parameter>
-					<Name>model</Name>
-					<Abstract type="html">A model to save.</Abstract>
-				</Parameter>
-			</Parameters>
-			<ReturnValue><Abstract type="html">BFTask.</Abstract></ReturnValue>
-			<Anchor>//api/name/save:</Anchor>
-            <NodeRef refid="221"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSDynamoDBObjectMapper/save:configuration:</TokenIdentifier>
-			<Abstract type="html">Saves the object given into DynamoDB, using the specified configuration.</Abstract>
-			<DeclaredIn>AWSDynamoDBObjectMapper.h</DeclaredIn>
+			<Declaration>@property (nonatomic, strong) NSArray *tableNames</Declaration>
 			
-			<Declaration>- (BFTask *)save:(AWSDynamoDBModel *)model configuration:(AWSDynamoDBObjectMapperConfiguration *)configuration</Declaration>
-			<Parameters>
-				<Parameter>
-					<Name>model</Name>
-					<Abstract type="html">A model to save.</Abstract>
-				</Parameter><Parameter>
-					<Name>configuration</Name>
-					<Abstract type="html">A configuration.</Abstract>
-				</Parameter>
-			</Parameters>
-			<ReturnValue><Abstract type="html">BFTask.</Abstract></ReturnValue>
-			<Anchor>//api/name/save:configuration:</Anchor>
-            <NodeRef refid="221"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSDynamoDBObjectMapper/remove:</TokenIdentifier>
-			<Abstract type="html">Deletes the given object from its DynamoDB table using the default configuration.</Abstract>
-			<DeclaredIn>AWSDynamoDBObjectMapper.h</DeclaredIn>
 			
-			<Declaration>- (BFTask *)remove:(AWSDynamoDBModel *)model</Declaration>
-			<Parameters>
-				<Parameter>
-					<Name>model</Name>
-					<Abstract type="html">A model to delete.</Abstract>
-				</Parameter>
-			</Parameters>
-			<ReturnValue><Abstract type="html">BFTask.</Abstract></ReturnValue>
-			<Anchor>//api/name/remove:</Anchor>
-            <NodeRef refid="221"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSDynamoDBObjectMapper/remove:configuration:</TokenIdentifier>
-			<Abstract type="html">Deletes the given object from its DynamoDB table using the specified configuration.</Abstract>
-			<DeclaredIn>AWSDynamoDBObjectMapper.h</DeclaredIn>
-			
-			<Declaration>- (BFTask *)remove:(AWSDynamoDBModel *)model configuration:(AWSDynamoDBObjectMapperConfiguration *)configuration</Declaration>
-			<Parameters>
-				<Parameter>
-					<Name>model</Name>
-					<Abstract type="html">A model to delete.</Abstract>
-				</Parameter><Parameter>
-					<Name>configuration</Name>
-					<Abstract type="html">A configuration.</Abstract>
-				</Parameter>
-			</Parameters>
-			<ReturnValue><Abstract type="html">BFTask.</Abstract></ReturnValue>
-			<Anchor>//api/name/remove:configuration:</Anchor>
-            <NodeRef refid="221"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSDynamoDBObjectMapper/load:hashKey:rangeKey:</TokenIdentifier>
-			<Abstract type="html">Loads an object with a hash and range key, using the default configuration.</Abstract>
-			<DeclaredIn>AWSDynamoDBObjectMapper.h</DeclaredIn>
-			
-			<Declaration>- (BFTask *)load:(Class)resultClass hashKey:(id)hashKey rangeKey:(id)rangeKey</Declaration>
-			<Parameters>
-				<Parameter>
-					<Name>resultClass</Name>
-					<Abstract type="html">The class of the result object.</Abstract>
-				</Parameter><Parameter>
-					<Name>hashKey</Name>
-					<Abstract type="html">A hash key value.</Abstract>
-				</Parameter><Parameter>
-					<Name>rangeKey</Name>
-					<Abstract type="html">A range key value.</Abstract>
-				</Parameter>
-			</Parameters>
-			<ReturnValue><Abstract type="html">BFTask.</Abstract></ReturnValue>
-			<Anchor>//api/name/load:hashKey:rangeKey:</Anchor>
-            <NodeRef refid="221"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSDynamoDBObjectMapper/load:hashKey:rangeKey:configuration:</TokenIdentifier>
-			<Abstract type="html">Returns an object with the given hash key, or null if no such object exists.</Abstract>
-			<DeclaredIn>AWSDynamoDBObjectMapper.h</DeclaredIn>
-			
-			<Declaration>- (BFTask *)load:(Class)resultClass hashKey:(id)hashKey rangeKey:(id)rangeKey configuration:(AWSDynamoDBObjectMapperConfiguration *)configuration</Declaration>
-			<Parameters>
-				<Parameter>
-					<Name>resultClass</Name>
-					<Abstract type="html">The class of the result object.</Abstract>
-				</Parameter><Parameter>
-					<Name>hashKey</Name>
-					<Abstract type="html">A hash key value.</Abstract>
-				</Parameter><Parameter>
-					<Name>rangeKey</Name>
-					<Abstract type="html">A range key value.</Abstract>
-				</Parameter><Parameter>
-					<Name>configuration</Name>
-					<Abstract type="html">A configuration.</Abstract>
-				</Parameter>
-			</Parameters>
-			<ReturnValue><Abstract type="html">BFTask.</Abstract></ReturnValue>
-			<Anchor>//api/name/load:hashKey:rangeKey:configuration:</Anchor>
-            <NodeRef refid="221"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSDynamoDBObjectMapper/query:expression:</TokenIdentifier>
-			<Abstract type="html">Queries an Amazon DynamoDB table and returns the matching results as an unmodifiable list of instantiated objects, using the default configuration.</Abstract>
-			<DeclaredIn>AWSDynamoDBObjectMapper.h</DeclaredIn>
-			
-			<Declaration>- (BFTask *)query:(Class)resultClass expression:(AWSDynamoDBQueryExpression *)expression</Declaration>
-			<Parameters>
-				<Parameter>
-					<Name>resultClass</Name>
-					<Abstract type="html">The class of the result object.</Abstract>
-				</Parameter><Parameter>
-					<Name>expression</Name>
-					<Abstract type="html">An expression object.</Abstract>
-				</Parameter>
-			</Parameters>
-			<ReturnValue><Abstract type="html">BFTask.</Abstract></ReturnValue>
-			<Anchor>//api/name/query:expression:</Anchor>
-            <NodeRef refid="221"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSDynamoDBObjectMapper/query:expression:configuration:</TokenIdentifier>
-			<Abstract type="html">Queries an Amazon DynamoDB table and returns the matching results as an unmodifiable list of instantiated objects.</Abstract>
-			<DeclaredIn>AWSDynamoDBObjectMapper.h</DeclaredIn>
-			
-			<Declaration>- (BFTask *)query:(Class)resultClass expression:(AWSDynamoDBQueryExpression *)expression configuration:(AWSDynamoDBObjectMapperConfiguration *)configuration</Declaration>
-			<Parameters>
-				<Parameter>
-					<Name>resultClass</Name>
-					<Abstract type="html">The class of the result object.</Abstract>
-				</Parameter><Parameter>
-					<Name>expression</Name>
-					<Abstract type="html">An expression object.</Abstract>
-				</Parameter><Parameter>
-					<Name>configuration</Name>
-					<Abstract type="html">A configuration.</Abstract>
-				</Parameter>
-			</Parameters>
-			<ReturnValue><Abstract type="html">BFTask.</Abstract></ReturnValue>
-			<Anchor>//api/name/query:expression:configuration:</Anchor>
-            <NodeRef refid="221"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSDynamoDBObjectMapper/scan:expression:</TokenIdentifier>
-			<Abstract type="html">Scans through an Amazon DynamoDB table and returns the matching results as an AWSDynamoDBPaginatedOutput of instantiated objects, using the default configuration.</Abstract>
-			<DeclaredIn>AWSDynamoDBObjectMapper.h</DeclaredIn>
-			
-			<Declaration>- (BFTask *)scan:(Class)resultClass expression:(AWSDynamoDBScanExpression *)expression</Declaration>
-			<Parameters>
-				<Parameter>
-					<Name>resultClass</Name>
-					<Abstract type="html">The class of the result object.</Abstract>
-				</Parameter><Parameter>
-					<Name>expression</Name>
-					<Abstract type="html">An expression object.</Abstract>
-				</Parameter>
-			</Parameters>
-			<ReturnValue><Abstract type="html">BFTask.</Abstract></ReturnValue>
-			<Anchor>//api/name/scan:expression:</Anchor>
-            <NodeRef refid="221"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSDynamoDBObjectMapper/scan:expression:configuration:</TokenIdentifier>
-			<Abstract type="html">Scans through an Amazon DynamoDB table and returns the matching results as an AWSDynamoDBPaginatedOutput of instantiated objects.</Abstract>
-			<DeclaredIn>AWSDynamoDBObjectMapper.h</DeclaredIn>
-			
-			<Declaration>- (BFTask *)scan:(Class)resultClass expression:(AWSDynamoDBScanExpression *)expression configuration:(AWSDynamoDBObjectMapperConfiguration *)configuration</Declaration>
-			<Parameters>
-				<Parameter>
-					<Name>resultClass</Name>
-					<Abstract type="html">The class of the result object.</Abstract>
-				</Parameter><Parameter>
-					<Name>expression</Name>
-					<Abstract type="html">An expression object.</Abstract>
-				</Parameter><Parameter>
-					<Name>configuration</Name>
-					<Abstract type="html">A configuration.</Abstract>
-				</Parameter>
-			</Parameters>
-			<ReturnValue><Abstract type="html">BFTask.</Abstract></ReturnValue>
-			<Anchor>//api/name/scan:expression:configuration:</Anchor>
+			<Anchor>//api/name/tableNames</Anchor>
             <NodeRef refid="221"/>
 		</Token>
 		

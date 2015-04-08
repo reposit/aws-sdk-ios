@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSEC2PurchaseReservedInstancesOfferingRequest.html">
+	<File path="Classes/AWSEC2PriceScheduleSpecification.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSEC2PurchaseReservedInstancesOfferingRequest</TokenIdentifier>
-			<Abstract type="html"></Abstract>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSEC2PriceScheduleSpecification</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Describes the price for a Reserved Instance.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
             
 			
@@ -13,146 +13,110 @@
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2PurchaseReservedInstancesOfferingRequest/setDryRun:</TokenIdentifier>
-			<Abstract type="html"></Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2PriceScheduleSpecification/setCurrencyCode:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The currency for transacting the Reserved Instance resale. At this time, the only supported currency is &lt;code&gt;USD&lt;/code&gt;.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSNumber *dryRun</Declaration>
+			<Declaration>@property (nonatomic, assign) AWSEC2CurrencyCodeValues currencyCode</Declaration>
 			
 			
-			<Anchor>//api/name/dryRun</Anchor>
+			<Anchor>//api/name/currencyCode</Anchor>
             <NodeRef refid="533"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2PurchaseReservedInstancesOfferingRequest/dryRun</TokenIdentifier>
-			<Abstract type="html"></Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2PriceScheduleSpecification/currencyCode</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The currency for transacting the Reserved Instance resale. At this time, the only supported currency is &lt;code&gt;USD&lt;/code&gt;.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSNumber *dryRun</Declaration>
+			<Declaration>@property (nonatomic, assign) AWSEC2CurrencyCodeValues currencyCode</Declaration>
 			
 			
-			<Anchor>//api/name/dryRun</Anchor>
+			<Anchor>//api/name/currencyCode</Anchor>
             <NodeRef refid="533"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2PurchaseReservedInstancesOfferingRequest/dryRun</TokenIdentifier>
-			<Abstract type="html"></Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2PriceScheduleSpecification/currencyCode</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The currency for transacting the Reserved Instance resale. At this time, the only supported currency is &lt;code&gt;USD&lt;/code&gt;.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSNumber *dryRun</Declaration>
+			<Declaration>@property (nonatomic, assign) AWSEC2CurrencyCodeValues currencyCode</Declaration>
 			
 			
-			<Anchor>//api/name/dryRun</Anchor>
+			<Anchor>//api/name/currencyCode</Anchor>
             <NodeRef refid="533"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2PurchaseReservedInstancesOfferingRequest/setInstanceCount:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The number of Reserved Instances to purchase.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2PriceScheduleSpecification/setPrice:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The fixed price for the term.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSNumber *instanceCount</Declaration>
+			<Declaration>@property (nonatomic, strong) NSNumber *price</Declaration>
 			
 			
-			<Anchor>//api/name/instanceCount</Anchor>
+			<Anchor>//api/name/price</Anchor>
             <NodeRef refid="533"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2PurchaseReservedInstancesOfferingRequest/instanceCount</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The number of Reserved Instances to purchase.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2PriceScheduleSpecification/price</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The fixed price for the term.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSNumber *instanceCount</Declaration>
+			<Declaration>@property (nonatomic, strong) NSNumber *price</Declaration>
 			
 			
-			<Anchor>//api/name/instanceCount</Anchor>
+			<Anchor>//api/name/price</Anchor>
             <NodeRef refid="533"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2PurchaseReservedInstancesOfferingRequest/instanceCount</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The number of Reserved Instances to purchase.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2PriceScheduleSpecification/price</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The fixed price for the term.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSNumber *instanceCount</Declaration>
+			<Declaration>@property (nonatomic, strong) NSNumber *price</Declaration>
 			
 			
-			<Anchor>//api/name/instanceCount</Anchor>
+			<Anchor>//api/name/price</Anchor>
             <NodeRef refid="533"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2PurchaseReservedInstancesOfferingRequest/setLimitPrice:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Specified for Reserved Instance Marketplace offerings to limit the total order and ensure that the Reserved Instances are not purchased at unexpected prices.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2PriceScheduleSpecification/setTerm:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The number of months remaining in the reservation. For example, 2 is the second to the last month before the capacity reservation expires.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) AWSEC2ReservedInstanceLimitPrice *limitPrice</Declaration>
+			<Declaration>@property (nonatomic, strong) NSNumber *term</Declaration>
 			
 			
-			<Anchor>//api/name/limitPrice</Anchor>
+			<Anchor>//api/name/term</Anchor>
             <NodeRef refid="533"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2PurchaseReservedInstancesOfferingRequest/limitPrice</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Specified for Reserved Instance Marketplace offerings to limit the total order and ensure that the Reserved Instances are not purchased at unexpected prices.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2PriceScheduleSpecification/term</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The number of months remaining in the reservation. For example, 2 is the second to the last month before the capacity reservation expires.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) AWSEC2ReservedInstanceLimitPrice *limitPrice</Declaration>
+			<Declaration>@property (nonatomic, strong) NSNumber *term</Declaration>
 			
 			
-			<Anchor>//api/name/limitPrice</Anchor>
+			<Anchor>//api/name/term</Anchor>
             <NodeRef refid="533"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2PurchaseReservedInstancesOfferingRequest/limitPrice</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Specified for Reserved Instance Marketplace offerings to limit the total order and ensure that the Reserved Instances are not purchased at unexpected prices.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2PriceScheduleSpecification/term</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The number of months remaining in the reservation. For example, 2 is the second to the last month before the capacity reservation expires.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) AWSEC2ReservedInstanceLimitPrice *limitPrice</Declaration>
+			<Declaration>@property (nonatomic, strong) NSNumber *term</Declaration>
 			
 			
-			<Anchor>//api/name/limitPrice</Anchor>
-            <NodeRef refid="533"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2PurchaseReservedInstancesOfferingRequest/setReservedInstancesOfferingId:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The ID of the Reserved Instance offering to purchase.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *reservedInstancesOfferingId</Declaration>
-			
-			
-			<Anchor>//api/name/reservedInstancesOfferingId</Anchor>
-            <NodeRef refid="533"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2PurchaseReservedInstancesOfferingRequest/reservedInstancesOfferingId</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The ID of the Reserved Instance offering to purchase.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *reservedInstancesOfferingId</Declaration>
-			
-			
-			<Anchor>//api/name/reservedInstancesOfferingId</Anchor>
-            <NodeRef refid="533"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2PurchaseReservedInstancesOfferingRequest/reservedInstancesOfferingId</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The ID of the Reserved Instance offering to purchase.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *reservedInstancesOfferingId</Declaration>
-			
-			
-			<Anchor>//api/name/reservedInstancesOfferingId</Anchor>
+			<Anchor>//api/name/term</Anchor>
             <NodeRef refid="533"/>
 		</Token>
 		

@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Constants/AWSEC2AttachmentStatus.html">
+	<File path="Constants/AWSCloudWatchComparisonOperator.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/c/tdef/AWSEC2AttachmentStatus</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/c/tdef/AWSCloudWatchComparisonOperator</TokenIdentifier>
 			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			<DeclaredIn>AWSCloudWatchModel.h</DeclaredIn>
             
 			
 			<NodeRef refid="1079"/>
@@ -14,51 +14,51 @@
 		
         
         <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSEC2AttachmentStatusUnknown</TokenIdentifier>
+            <TokenIdentifier>//apple_ref/c/econst/AWSCloudWatchComparisonOperatorUnknown</TokenIdentifier>
             <Abstract type="html"></Abstract>
-            <Declaration>AWSEC2AttachmentStatusUnknown</Declaration>
+            <Declaration>AWSCloudWatchComparisonOperatorUnknown</Declaration>
             
-            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
+            <DeclaredIn>AWSCloudWatchModel.h</DeclaredIn>
             
             <NodeRef refid="1079"/>
         </Token>
         
         <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSEC2AttachmentStatusAttaching</TokenIdentifier>
+            <TokenIdentifier>//apple_ref/c/econst/AWSCloudWatchComparisonOperatorGreaterThanOrEqualToThreshold</TokenIdentifier>
             <Abstract type="html"></Abstract>
-            <Declaration>AWSEC2AttachmentStatusAttaching</Declaration>
+            <Declaration>AWSCloudWatchComparisonOperatorGreaterThanOrEqualToThreshold</Declaration>
             
-            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
+            <DeclaredIn>AWSCloudWatchModel.h</DeclaredIn>
             
             <NodeRef refid="1079"/>
         </Token>
         
         <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSEC2AttachmentStatusAttached</TokenIdentifier>
+            <TokenIdentifier>//apple_ref/c/econst/AWSCloudWatchComparisonOperatorGreaterThanThreshold</TokenIdentifier>
             <Abstract type="html"></Abstract>
-            <Declaration>AWSEC2AttachmentStatusAttached</Declaration>
+            <Declaration>AWSCloudWatchComparisonOperatorGreaterThanThreshold</Declaration>
             
-            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
+            <DeclaredIn>AWSCloudWatchModel.h</DeclaredIn>
             
             <NodeRef refid="1079"/>
         </Token>
         
         <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSEC2AttachmentStatusDetaching</TokenIdentifier>
+            <TokenIdentifier>//apple_ref/c/econst/AWSCloudWatchComparisonOperatorLessThanThreshold</TokenIdentifier>
             <Abstract type="html"></Abstract>
-            <Declaration>AWSEC2AttachmentStatusDetaching</Declaration>
+            <Declaration>AWSCloudWatchComparisonOperatorLessThanThreshold</Declaration>
             
-            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
+            <DeclaredIn>AWSCloudWatchModel.h</DeclaredIn>
             
             <NodeRef refid="1079"/>
         </Token>
         
         <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSEC2AttachmentStatusDetached</TokenIdentifier>
+            <TokenIdentifier>//apple_ref/c/econst/AWSCloudWatchComparisonOperatorLessThanOrEqualToThreshold</TokenIdentifier>
             <Abstract type="html"></Abstract>
-            <Declaration>AWSEC2AttachmentStatusDetached</Declaration>
+            <Declaration>AWSCloudWatchComparisonOperatorLessThanOrEqualToThreshold</Declaration>
             
-            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
+            <DeclaredIn>AWSCloudWatchModel.h</DeclaredIn>
             
             <NodeRef refid="1079"/>
         </Token>

@@ -1,57 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Constants/AWSDynamoDBAttributeAction.html">
+	<File path="Classes/AWSURLSessionManager.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/c/tdef/AWSDynamoDBAttributeAction</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSURLSessionManager</TokenIdentifier>
+			<Abstract type="html">Copyright 2010-2015 Amazon.com, Inc. or its affiliates. All Rights Reserved.</Abstract>
+			<DeclaredIn>AWSURLSessionManager.h</DeclaredIn>
             
 			
 			<NodeRef refid="1062"/>
 		</Token>
 		
 		
-        
-        <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSDynamoDBAttributeActionUnknown</TokenIdentifier>
-            <Abstract type="html"></Abstract>
-            <Declaration>AWSDynamoDBAttributeActionUnknown</Declaration>
-            
-            <DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
-            
-            <NodeRef refid="1062"/>
-        </Token>
-        
-        <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSDynamoDBAttributeActionAdd</TokenIdentifier>
-            <Abstract type="html"></Abstract>
-            <Declaration>AWSDynamoDBAttributeActionAdd</Declaration>
-            
-            <DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
-            
-            <NodeRef refid="1062"/>
-        </Token>
-        
-        <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSDynamoDBAttributeActionPut</TokenIdentifier>
-            <Abstract type="html"></Abstract>
-            <Declaration>AWSDynamoDBAttributeActionPut</Declaration>
-            
-            <DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
-            
-            <NodeRef refid="1062"/>
-        </Token>
-        
-        <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSDynamoDBAttributeActionDelete</TokenIdentifier>
-            <Abstract type="html"></Abstract>
-            <Declaration>AWSDynamoDBAttributeActionDelete</Declaration>
-            
-            <DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
-            
-            <NodeRef refid="1062"/>
-        </Token>
         
         
 	</File>

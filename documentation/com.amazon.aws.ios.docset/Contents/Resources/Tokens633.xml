@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSElasticLoadBalancingConfigureHealthCheckOutput.html">
+	<File path="Classes/AWSElasticLoadBalancingApplySecurityGroupsToLoadBalancerInput.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSElasticLoadBalancingConfigureHealthCheckOutput</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSElasticLoadBalancingApplySecurityGroupsToLoadBalancerInput</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSElasticLoadBalancingModel.h</DeclaredIn>
             
@@ -13,38 +13,74 @@
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSElasticLoadBalancingConfigureHealthCheckOutput/setHealthCheck:</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSElasticLoadBalancingApplySecurityGroupsToLoadBalancerInput/setLoadBalancerName:</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSElasticLoadBalancingModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) AWSElasticLoadBalancingHealthCheck *healthCheck</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *loadBalancerName</Declaration>
 			
 			
-			<Anchor>//api/name/healthCheck</Anchor>
+			<Anchor>//api/name/loadBalancerName</Anchor>
             <NodeRef refid="633"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSElasticLoadBalancingConfigureHealthCheckOutput/healthCheck</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSElasticLoadBalancingApplySecurityGroupsToLoadBalancerInput/loadBalancerName</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSElasticLoadBalancingModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) AWSElasticLoadBalancingHealthCheck *healthCheck</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *loadBalancerName</Declaration>
 			
 			
-			<Anchor>//api/name/healthCheck</Anchor>
+			<Anchor>//api/name/loadBalancerName</Anchor>
             <NodeRef refid="633"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSElasticLoadBalancingConfigureHealthCheckOutput/healthCheck</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSElasticLoadBalancingApplySecurityGroupsToLoadBalancerInput/loadBalancerName</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSElasticLoadBalancingModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) AWSElasticLoadBalancingHealthCheck *healthCheck</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *loadBalancerName</Declaration>
 			
 			
-			<Anchor>//api/name/healthCheck</Anchor>
+			<Anchor>//api/name/loadBalancerName</Anchor>
+            <NodeRef refid="633"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSElasticLoadBalancingApplySecurityGroupsToLoadBalancerInput/setSecurityGroups:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSElasticLoadBalancingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray *securityGroups</Declaration>
+			
+			
+			<Anchor>//api/name/securityGroups</Anchor>
+            <NodeRef refid="633"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSElasticLoadBalancingApplySecurityGroupsToLoadBalancerInput/securityGroups</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSElasticLoadBalancingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray *securityGroups</Declaration>
+			
+			
+			<Anchor>//api/name/securityGroups</Anchor>
+            <NodeRef refid="633"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSElasticLoadBalancingApplySecurityGroupsToLoadBalancerInput/securityGroups</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSElasticLoadBalancingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray *securityGroups</Declaration>
+			
+			
+			<Anchor>//api/name/securityGroups</Anchor>
             <NodeRef refid="633"/>
 		</Token>
 		

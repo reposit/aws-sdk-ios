@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSElasticLoadBalancingDescribeTagsInput.html">
+	<File path="Classes/AWSElasticLoadBalancingDescribeLoadBalancerAttributesInput.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSElasticLoadBalancingDescribeTagsInput</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSElasticLoadBalancingDescribeLoadBalancerAttributesInput</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSElasticLoadBalancingModel.h</DeclaredIn>
             
@@ -13,38 +13,38 @@
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSElasticLoadBalancingDescribeTagsInput/setLoadBalancerNames:</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSElasticLoadBalancingDescribeLoadBalancerAttributesInput/setLoadBalancerName:</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSElasticLoadBalancingModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSArray *loadBalancerNames</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *loadBalancerName</Declaration>
 			
 			
-			<Anchor>//api/name/loadBalancerNames</Anchor>
+			<Anchor>//api/name/loadBalancerName</Anchor>
             <NodeRef refid="665"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSElasticLoadBalancingDescribeTagsInput/loadBalancerNames</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSElasticLoadBalancingDescribeLoadBalancerAttributesInput/loadBalancerName</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSElasticLoadBalancingModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSArray *loadBalancerNames</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *loadBalancerName</Declaration>
 			
 			
-			<Anchor>//api/name/loadBalancerNames</Anchor>
+			<Anchor>//api/name/loadBalancerName</Anchor>
             <NodeRef refid="665"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSElasticLoadBalancingDescribeTagsInput/loadBalancerNames</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSElasticLoadBalancingDescribeLoadBalancerAttributesInput/loadBalancerName</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSElasticLoadBalancingModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSArray *loadBalancerNames</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *loadBalancerName</Declaration>
 			
 			
-			<Anchor>//api/name/loadBalancerNames</Anchor>
+			<Anchor>//api/name/loadBalancerName</Anchor>
             <NodeRef refid="665"/>
 		</Token>
 		

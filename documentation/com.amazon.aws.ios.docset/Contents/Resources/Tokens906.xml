@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSSESVerifyDomainDkimResponse.html">
+	<File path="Classes/AWSSESIdentityVerificationAttributes.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSSESVerifyDomainDkimResponse</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Represents the DNS records that must be published in the domain name&apos;s DNS to complete DKIM setup.&lt;/p&gt;
-Required parameters: [DkimTokens]</Abstract>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSSESIdentityVerificationAttributes</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Represents the verification attributes of a single identity.&lt;/p&gt;
+Required parameters: [VerificationStatus]</Abstract>
 			<DeclaredIn>AWSSESModel.h</DeclaredIn>
             
 			
@@ -14,38 +14,74 @@ Required parameters: [DkimTokens]</Abstract>
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSSESVerifyDomainDkimResponse/setDkimTokens:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;A set of character strings that represent the domain&apos;s identity. If the identity is an email address, the tokens represent the domain of that address.&lt;/p&gt;&lt;p&gt;Using these tokens, you will need to create DNS CNAME records that point to DKIM public keys hosted by Amazon SES. Amazon Web Services will eventually detect that you have updated your DNS records; this detection process may take up to 72 hours. Upon successful detection, Amazon SES will be able to DKIM-sign emails originating from that domain.&lt;/p&gt;&lt;p&gt;For more information about creating DNS records using DKIM tokens, go to the Amazon SES Developer Guide.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSESIdentityVerificationAttributes/setVerificationStatus:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The verification status of the identity: &quot;Pending&quot;, &quot;Success&quot;, &quot;Failed&quot;, or &quot;TemporaryFailure&quot;.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSSESModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSArray *dkimTokens</Declaration>
+			<Declaration>@property (nonatomic, assign) AWSSESVerificationStatus verificationStatus</Declaration>
 			
 			
-			<Anchor>//api/name/dkimTokens</Anchor>
+			<Anchor>//api/name/verificationStatus</Anchor>
             <NodeRef refid="906"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSSESVerifyDomainDkimResponse/dkimTokens</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;A set of character strings that represent the domain&apos;s identity. If the identity is an email address, the tokens represent the domain of that address.&lt;/p&gt;&lt;p&gt;Using these tokens, you will need to create DNS CNAME records that point to DKIM public keys hosted by Amazon SES. Amazon Web Services will eventually detect that you have updated your DNS records; this detection process may take up to 72 hours. Upon successful detection, Amazon SES will be able to DKIM-sign emails originating from that domain.&lt;/p&gt;&lt;p&gt;For more information about creating DNS records using DKIM tokens, go to the Amazon SES Developer Guide.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSESIdentityVerificationAttributes/verificationStatus</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The verification status of the identity: &quot;Pending&quot;, &quot;Success&quot;, &quot;Failed&quot;, or &quot;TemporaryFailure&quot;.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSSESModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSArray *dkimTokens</Declaration>
+			<Declaration>@property (nonatomic, assign) AWSSESVerificationStatus verificationStatus</Declaration>
 			
 			
-			<Anchor>//api/name/dkimTokens</Anchor>
+			<Anchor>//api/name/verificationStatus</Anchor>
             <NodeRef refid="906"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSSESVerifyDomainDkimResponse/dkimTokens</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;A set of character strings that represent the domain&apos;s identity. If the identity is an email address, the tokens represent the domain of that address.&lt;/p&gt;&lt;p&gt;Using these tokens, you will need to create DNS CNAME records that point to DKIM public keys hosted by Amazon SES. Amazon Web Services will eventually detect that you have updated your DNS records; this detection process may take up to 72 hours. Upon successful detection, Amazon SES will be able to DKIM-sign emails originating from that domain.&lt;/p&gt;&lt;p&gt;For more information about creating DNS records using DKIM tokens, go to the Amazon SES Developer Guide.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSSESIdentityVerificationAttributes/verificationStatus</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The verification status of the identity: &quot;Pending&quot;, &quot;Success&quot;, &quot;Failed&quot;, or &quot;TemporaryFailure&quot;.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSSESModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSArray *dkimTokens</Declaration>
+			<Declaration>@property (nonatomic, assign) AWSSESVerificationStatus verificationStatus</Declaration>
 			
 			
-			<Anchor>//api/name/dkimTokens</Anchor>
+			<Anchor>//api/name/verificationStatus</Anchor>
+            <NodeRef refid="906"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSESIdentityVerificationAttributes/setVerificationToken:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The verification token for a domain identity. Null for email address identities.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSESModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *verificationToken</Declaration>
+			
+			
+			<Anchor>//api/name/verificationToken</Anchor>
+            <NodeRef refid="906"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSESIdentityVerificationAttributes/verificationToken</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The verification token for a domain identity. Null for email address identities.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSESModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *verificationToken</Declaration>
+			
+			
+			<Anchor>//api/name/verificationToken</Anchor>
+            <NodeRef refid="906"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSSESIdentityVerificationAttributes/verificationToken</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The verification token for a domain identity. Null for email address identities.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSESModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *verificationToken</Declaration>
+			
+			
+			<Anchor>//api/name/verificationToken</Anchor>
             <NodeRef refid="906"/>
 		</Token>
 		

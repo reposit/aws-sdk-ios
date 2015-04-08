@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSCloudWatchListMetricsInput.html">
+	<File path="Classes/AWSCloudWatchGetMetricStatisticsOutput.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSCloudWatchListMetricsInput</TokenIdentifier>
-			<Abstract type="html"></Abstract>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSCloudWatchGetMetricStatisticsOutput</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; The output for the &lt;a&gt;GetMetricStatistics&lt;/a&gt; action. &lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSCloudWatchModel.h</DeclaredIn>
             
 			
@@ -13,146 +13,74 @@
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSCloudWatchListMetricsInput/setDimensions:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt; A list of dimensions to filter against. &lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCloudWatchGetMetricStatisticsOutput/setDatapoints:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; The datapoints for the specified metric. &lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSCloudWatchModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSArray *dimensions</Declaration>
+			<Declaration>@property (nonatomic, strong) NSArray *datapoints</Declaration>
 			
 			
-			<Anchor>//api/name/dimensions</Anchor>
+			<Anchor>//api/name/datapoints</Anchor>
             <NodeRef refid="105"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSCloudWatchListMetricsInput/dimensions</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt; A list of dimensions to filter against. &lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCloudWatchGetMetricStatisticsOutput/datapoints</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; The datapoints for the specified metric. &lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSCloudWatchModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSArray *dimensions</Declaration>
+			<Declaration>@property (nonatomic, strong) NSArray *datapoints</Declaration>
 			
 			
-			<Anchor>//api/name/dimensions</Anchor>
+			<Anchor>//api/name/datapoints</Anchor>
             <NodeRef refid="105"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSCloudWatchListMetricsInput/dimensions</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt; A list of dimensions to filter against. &lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSCloudWatchGetMetricStatisticsOutput/datapoints</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; The datapoints for the specified metric. &lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSCloudWatchModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSArray *dimensions</Declaration>
+			<Declaration>@property (nonatomic, strong) NSArray *datapoints</Declaration>
 			
 			
-			<Anchor>//api/name/dimensions</Anchor>
+			<Anchor>//api/name/datapoints</Anchor>
             <NodeRef refid="105"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSCloudWatchListMetricsInput/setMetricName:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt; The name of the metric to filter against. &lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCloudWatchGetMetricStatisticsOutput/setLabel:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; A label describing the specified metric. &lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSCloudWatchModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *metricName</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *label</Declaration>
 			
 			
-			<Anchor>//api/name/metricName</Anchor>
+			<Anchor>//api/name/label</Anchor>
             <NodeRef refid="105"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSCloudWatchListMetricsInput/metricName</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt; The name of the metric to filter against. &lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCloudWatchGetMetricStatisticsOutput/label</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; A label describing the specified metric. &lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSCloudWatchModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *metricName</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *label</Declaration>
 			
 			
-			<Anchor>//api/name/metricName</Anchor>
+			<Anchor>//api/name/label</Anchor>
             <NodeRef refid="105"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSCloudWatchListMetricsInput/metricName</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt; The name of the metric to filter against. &lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSCloudWatchGetMetricStatisticsOutput/label</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; A label describing the specified metric. &lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSCloudWatchModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *metricName</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *label</Declaration>
 			
 			
-			<Anchor>//api/name/metricName</Anchor>
-            <NodeRef refid="105"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSCloudWatchListMetricsInput/setNamespace:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt; The namespace to filter against. &lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSCloudWatchModel.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *namespace</Declaration>
-			
-			
-			<Anchor>//api/name/namespace</Anchor>
-            <NodeRef refid="105"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSCloudWatchListMetricsInput/namespace</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt; The namespace to filter against. &lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSCloudWatchModel.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *namespace</Declaration>
-			
-			
-			<Anchor>//api/name/namespace</Anchor>
-            <NodeRef refid="105"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSCloudWatchListMetricsInput/namespace</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt; The namespace to filter against. &lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSCloudWatchModel.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *namespace</Declaration>
-			
-			
-			<Anchor>//api/name/namespace</Anchor>
-            <NodeRef refid="105"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSCloudWatchListMetricsInput/setNextToken:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt; The token returned by a previous call to indicate that there is more data available. &lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSCloudWatchModel.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *nextToken</Declaration>
-			
-			
-			<Anchor>//api/name/nextToken</Anchor>
-            <NodeRef refid="105"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSCloudWatchListMetricsInput/nextToken</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt; The token returned by a previous call to indicate that there is more data available. &lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSCloudWatchModel.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *nextToken</Declaration>
-			
-			
-			<Anchor>//api/name/nextToken</Anchor>
-            <NodeRef refid="105"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSCloudWatchListMetricsInput/nextToken</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt; The token returned by a previous call to indicate that there is more data available. &lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSCloudWatchModel.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *nextToken</Declaration>
-			
-			
-			<Anchor>//api/name/nextToken</Anchor>
+			<Anchor>//api/name/label</Anchor>
             <NodeRef refid="105"/>
 		</Token>
 		

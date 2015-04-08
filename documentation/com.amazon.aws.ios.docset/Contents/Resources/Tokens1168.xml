@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Constants/AWSS3Event.html">
+	<File path="Constants/AWSEC2VolumeAttachmentState.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/c/tdef/AWSS3Event</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/c/tdef/AWSEC2VolumeAttachmentState</TokenIdentifier>
 			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
             
 			
 			<NodeRef refid="1168"/>
@@ -14,61 +14,51 @@
 		
         
         <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSS3EventUnknown</TokenIdentifier>
+            <TokenIdentifier>//apple_ref/c/econst/AWSEC2VolumeAttachmentStateUnknown</TokenIdentifier>
             <Abstract type="html"></Abstract>
-            <Declaration>AWSS3EventUnknown</Declaration>
+            <Declaration>AWSEC2VolumeAttachmentStateUnknown</Declaration>
             
-            <DeclaredIn>AWSS3Model.h</DeclaredIn>
+            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
             
             <NodeRef refid="1168"/>
         </Token>
         
         <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSS3EventS3ReducedRedundancyLostObject</TokenIdentifier>
+            <TokenIdentifier>//apple_ref/c/econst/AWSEC2VolumeAttachmentStateAttaching</TokenIdentifier>
             <Abstract type="html"></Abstract>
-            <Declaration>AWSS3EventS3ReducedRedundancyLostObject</Declaration>
+            <Declaration>AWSEC2VolumeAttachmentStateAttaching</Declaration>
             
-            <DeclaredIn>AWSS3Model.h</DeclaredIn>
+            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
             
             <NodeRef refid="1168"/>
         </Token>
         
         <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSS3EventS3ObjectCreatedPut</TokenIdentifier>
+            <TokenIdentifier>//apple_ref/c/econst/AWSEC2VolumeAttachmentStateAttached</TokenIdentifier>
             <Abstract type="html"></Abstract>
-            <Declaration>AWSS3EventS3ObjectCreatedPut</Declaration>
+            <Declaration>AWSEC2VolumeAttachmentStateAttached</Declaration>
             
-            <DeclaredIn>AWSS3Model.h</DeclaredIn>
+            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
             
             <NodeRef refid="1168"/>
         </Token>
         
         <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSS3EventS3ObjectCreatedPost</TokenIdentifier>
+            <TokenIdentifier>//apple_ref/c/econst/AWSEC2VolumeAttachmentStateDetaching</TokenIdentifier>
             <Abstract type="html"></Abstract>
-            <Declaration>AWSS3EventS3ObjectCreatedPost</Declaration>
+            <Declaration>AWSEC2VolumeAttachmentStateDetaching</Declaration>
             
-            <DeclaredIn>AWSS3Model.h</DeclaredIn>
+            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
             
             <NodeRef refid="1168"/>
         </Token>
         
         <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSS3EventS3ObjectCreatedCopy</TokenIdentifier>
+            <TokenIdentifier>//apple_ref/c/econst/AWSEC2VolumeAttachmentStateDetached</TokenIdentifier>
             <Abstract type="html"></Abstract>
-            <Declaration>AWSS3EventS3ObjectCreatedCopy</Declaration>
+            <Declaration>AWSEC2VolumeAttachmentStateDetached</Declaration>
             
-            <DeclaredIn>AWSS3Model.h</DeclaredIn>
-            
-            <NodeRef refid="1168"/>
-        </Token>
-        
-        <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSS3EventS3ObjectCreatedCompleteMultipartUpload</TokenIdentifier>
-            <Abstract type="html"></Abstract>
-            <Declaration>AWSS3EventS3ObjectCreatedCompleteMultipartUpload</Declaration>
-            
-            <DeclaredIn>AWSS3Model.h</DeclaredIn>
+            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
             
             <NodeRef refid="1168"/>
         </Token>

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSElasticLoadBalancingCrossZoneLoadBalancing.html">
+	<File path="Classes/AWSElasticLoadBalancingCreateLBCookieStickinessPolicyInput.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSElasticLoadBalancingCrossZoneLoadBalancing</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSElasticLoadBalancingCreateLBCookieStickinessPolicyInput</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSElasticLoadBalancingModel.h</DeclaredIn>
             
@@ -13,38 +13,110 @@
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSElasticLoadBalancingCrossZoneLoadBalancing/setEnabled:</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSElasticLoadBalancingCreateLBCookieStickinessPolicyInput/setCookieExpirationPeriod:</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSElasticLoadBalancingModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSNumber *enabled</Declaration>
+			<Declaration>@property (nonatomic, strong) NSNumber *cookieExpirationPeriod</Declaration>
 			
 			
-			<Anchor>//api/name/enabled</Anchor>
+			<Anchor>//api/name/cookieExpirationPeriod</Anchor>
             <NodeRef refid="646"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSElasticLoadBalancingCrossZoneLoadBalancing/enabled</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSElasticLoadBalancingCreateLBCookieStickinessPolicyInput/cookieExpirationPeriod</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSElasticLoadBalancingModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSNumber *enabled</Declaration>
+			<Declaration>@property (nonatomic, strong) NSNumber *cookieExpirationPeriod</Declaration>
 			
 			
-			<Anchor>//api/name/enabled</Anchor>
+			<Anchor>//api/name/cookieExpirationPeriod</Anchor>
             <NodeRef refid="646"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSElasticLoadBalancingCrossZoneLoadBalancing/enabled</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSElasticLoadBalancingCreateLBCookieStickinessPolicyInput/cookieExpirationPeriod</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSElasticLoadBalancingModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSNumber *enabled</Declaration>
+			<Declaration>@property (nonatomic, strong) NSNumber *cookieExpirationPeriod</Declaration>
 			
 			
-			<Anchor>//api/name/enabled</Anchor>
+			<Anchor>//api/name/cookieExpirationPeriod</Anchor>
+            <NodeRef refid="646"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSElasticLoadBalancingCreateLBCookieStickinessPolicyInput/setLoadBalancerName:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSElasticLoadBalancingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *loadBalancerName</Declaration>
+			
+			
+			<Anchor>//api/name/loadBalancerName</Anchor>
+            <NodeRef refid="646"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSElasticLoadBalancingCreateLBCookieStickinessPolicyInput/loadBalancerName</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSElasticLoadBalancingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *loadBalancerName</Declaration>
+			
+			
+			<Anchor>//api/name/loadBalancerName</Anchor>
+            <NodeRef refid="646"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSElasticLoadBalancingCreateLBCookieStickinessPolicyInput/loadBalancerName</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSElasticLoadBalancingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *loadBalancerName</Declaration>
+			
+			
+			<Anchor>//api/name/loadBalancerName</Anchor>
+            <NodeRef refid="646"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSElasticLoadBalancingCreateLBCookieStickinessPolicyInput/setPolicyName:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSElasticLoadBalancingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *policyName</Declaration>
+			
+			
+			<Anchor>//api/name/policyName</Anchor>
+            <NodeRef refid="646"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSElasticLoadBalancingCreateLBCookieStickinessPolicyInput/policyName</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSElasticLoadBalancingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *policyName</Declaration>
+			
+			
+			<Anchor>//api/name/policyName</Anchor>
+            <NodeRef refid="646"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSElasticLoadBalancingCreateLBCookieStickinessPolicyInput/policyName</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSElasticLoadBalancingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *policyName</Declaration>
+			
+			
+			<Anchor>//api/name/policyName</Anchor>
             <NodeRef refid="646"/>
 		</Token>
 		

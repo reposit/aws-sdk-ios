@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Constants/AWSEC2MonitoringState.html">
+	<File path="Constants/AWSDynamoDBScalarAttributeType.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/c/tdef/AWSEC2MonitoringState</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/c/tdef/AWSDynamoDBScalarAttributeType</TokenIdentifier>
 			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			<DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
             
 			
 			<NodeRef refid="1105"/>
@@ -14,41 +14,41 @@
 		
         
         <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSEC2MonitoringStateUnknown</TokenIdentifier>
+            <TokenIdentifier>//apple_ref/c/econst/AWSDynamoDBScalarAttributeTypeUnknown</TokenIdentifier>
             <Abstract type="html"></Abstract>
-            <Declaration>AWSEC2MonitoringStateUnknown</Declaration>
+            <Declaration>AWSDynamoDBScalarAttributeTypeUnknown</Declaration>
             
-            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
+            <DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
             
             <NodeRef refid="1105"/>
         </Token>
         
         <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSEC2MonitoringStateDisabled</TokenIdentifier>
+            <TokenIdentifier>//apple_ref/c/econst/AWSDynamoDBScalarAttributeTypeS</TokenIdentifier>
             <Abstract type="html"></Abstract>
-            <Declaration>AWSEC2MonitoringStateDisabled</Declaration>
+            <Declaration>AWSDynamoDBScalarAttributeTypeS</Declaration>
             
-            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
+            <DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
             
             <NodeRef refid="1105"/>
         </Token>
         
         <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSEC2MonitoringStateEnabled</TokenIdentifier>
+            <TokenIdentifier>//apple_ref/c/econst/AWSDynamoDBScalarAttributeTypeN</TokenIdentifier>
             <Abstract type="html"></Abstract>
-            <Declaration>AWSEC2MonitoringStateEnabled</Declaration>
+            <Declaration>AWSDynamoDBScalarAttributeTypeN</Declaration>
             
-            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
+            <DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
             
             <NodeRef refid="1105"/>
         </Token>
         
         <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSEC2MonitoringStatePending</TokenIdentifier>
+            <TokenIdentifier>//apple_ref/c/econst/AWSDynamoDBScalarAttributeTypeB</TokenIdentifier>
             <Abstract type="html"></Abstract>
-            <Declaration>AWSEC2MonitoringStatePending</Declaration>
+            <Declaration>AWSDynamoDBScalarAttributeTypeB</Declaration>
             
-            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
+            <DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
             
             <NodeRef refid="1105"/>
         </Token>

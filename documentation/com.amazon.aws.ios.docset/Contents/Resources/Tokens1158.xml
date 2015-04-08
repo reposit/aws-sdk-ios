@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Constants/AWSNetworkingErrorType.html">
+	<File path="Constants/AWSEC2SnapshotState.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/c/tdef/AWSNetworkingErrorType</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/c/tdef/AWSEC2SnapshotState</TokenIdentifier>
 			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSNetworking.h</DeclaredIn>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
             
 			
 			<NodeRef refid="1158"/>
@@ -14,21 +14,41 @@
 		
         
         <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSNetworkingErrorUnknown</TokenIdentifier>
+            <TokenIdentifier>//apple_ref/c/econst/AWSEC2SnapshotStateUnknown</TokenIdentifier>
             <Abstract type="html"></Abstract>
-            <Declaration>AWSNetworkingErrorUnknown</Declaration>
+            <Declaration>AWSEC2SnapshotStateUnknown</Declaration>
             
-            <DeclaredIn>AWSNetworking.h</DeclaredIn>
+            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
             
             <NodeRef refid="1158"/>
         </Token>
         
         <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSNetworkingErrorCancelled</TokenIdentifier>
+            <TokenIdentifier>//apple_ref/c/econst/AWSEC2SnapshotStatePending</TokenIdentifier>
             <Abstract type="html"></Abstract>
-            <Declaration>AWSNetworkingErrorCancelled</Declaration>
+            <Declaration>AWSEC2SnapshotStatePending</Declaration>
             
-            <DeclaredIn>AWSNetworking.h</DeclaredIn>
+            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
+            
+            <NodeRef refid="1158"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/AWSEC2SnapshotStateCompleted</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>AWSEC2SnapshotStateCompleted</Declaration>
+            
+            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
+            
+            <NodeRef refid="1158"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/AWSEC2SnapshotStateError</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>AWSEC2SnapshotStateError</Declaration>
+            
+            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
             
             <NodeRef refid="1158"/>
         </Token>

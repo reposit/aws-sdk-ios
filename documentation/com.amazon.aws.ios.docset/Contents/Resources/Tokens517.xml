@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSEC2NetworkAclAssociation.html">
+	<File path="Classes/AWSEC2ModifyVpcAttributeRequest.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSEC2NetworkAclAssociation</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Describes an association between a network ACL and a subnet.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSEC2ModifyVpcAttributeRequest</TokenIdentifier>
+			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
             
 			
@@ -13,110 +13,110 @@
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2NetworkAclAssociation/setNetworkAclAssociationId:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The ID of the association between a network ACL and a subnet.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ModifyVpcAttributeRequest/setEnableDnsHostnames:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Indicates whether the instances launched in the VPC get DNS hostnames. If enabled, instances in the VPC get DNS hostnames; otherwise, they do not.&lt;/p&gt;&lt;p&gt;You can only enable DNS hostnames if you also enable DNS support.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *networkAclAssociationId</Declaration>
+			<Declaration>@property (nonatomic, strong) AWSEC2AttributeBooleanValue *enableDnsHostnames</Declaration>
 			
 			
-			<Anchor>//api/name/networkAclAssociationId</Anchor>
+			<Anchor>//api/name/enableDnsHostnames</Anchor>
             <NodeRef refid="517"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2NetworkAclAssociation/networkAclAssociationId</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The ID of the association between a network ACL and a subnet.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ModifyVpcAttributeRequest/enableDnsHostnames</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Indicates whether the instances launched in the VPC get DNS hostnames. If enabled, instances in the VPC get DNS hostnames; otherwise, they do not.&lt;/p&gt;&lt;p&gt;You can only enable DNS hostnames if you also enable DNS support.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *networkAclAssociationId</Declaration>
+			<Declaration>@property (nonatomic, strong) AWSEC2AttributeBooleanValue *enableDnsHostnames</Declaration>
 			
 			
-			<Anchor>//api/name/networkAclAssociationId</Anchor>
+			<Anchor>//api/name/enableDnsHostnames</Anchor>
             <NodeRef refid="517"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2NetworkAclAssociation/networkAclAssociationId</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The ID of the association between a network ACL and a subnet.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2ModifyVpcAttributeRequest/enableDnsHostnames</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Indicates whether the instances launched in the VPC get DNS hostnames. If enabled, instances in the VPC get DNS hostnames; otherwise, they do not.&lt;/p&gt;&lt;p&gt;You can only enable DNS hostnames if you also enable DNS support.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *networkAclAssociationId</Declaration>
+			<Declaration>@property (nonatomic, strong) AWSEC2AttributeBooleanValue *enableDnsHostnames</Declaration>
 			
 			
-			<Anchor>//api/name/networkAclAssociationId</Anchor>
+			<Anchor>//api/name/enableDnsHostnames</Anchor>
             <NodeRef refid="517"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2NetworkAclAssociation/setNetworkAclId:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The ID of the network ACL.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ModifyVpcAttributeRequest/setEnableDnsSupport:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Indicates whether the DNS resolution is supported for the VPC. If enabled, queries to the Amazon provided DNS server at the 169.254.169.253 IP address, or the reserved IP address at the base of the VPC network range &quot;plus two&quot; will succeed. If disabled, the Amazon provided DNS service in the VPC that resolves public DNS hostnames to IP addresses is not enabled.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *networkAclId</Declaration>
+			<Declaration>@property (nonatomic, strong) AWSEC2AttributeBooleanValue *enableDnsSupport</Declaration>
 			
 			
-			<Anchor>//api/name/networkAclId</Anchor>
+			<Anchor>//api/name/enableDnsSupport</Anchor>
             <NodeRef refid="517"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2NetworkAclAssociation/networkAclId</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The ID of the network ACL.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ModifyVpcAttributeRequest/enableDnsSupport</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Indicates whether the DNS resolution is supported for the VPC. If enabled, queries to the Amazon provided DNS server at the 169.254.169.253 IP address, or the reserved IP address at the base of the VPC network range &quot;plus two&quot; will succeed. If disabled, the Amazon provided DNS service in the VPC that resolves public DNS hostnames to IP addresses is not enabled.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *networkAclId</Declaration>
+			<Declaration>@property (nonatomic, strong) AWSEC2AttributeBooleanValue *enableDnsSupport</Declaration>
 			
 			
-			<Anchor>//api/name/networkAclId</Anchor>
+			<Anchor>//api/name/enableDnsSupport</Anchor>
             <NodeRef refid="517"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2NetworkAclAssociation/networkAclId</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The ID of the network ACL.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2ModifyVpcAttributeRequest/enableDnsSupport</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Indicates whether the DNS resolution is supported for the VPC. If enabled, queries to the Amazon provided DNS server at the 169.254.169.253 IP address, or the reserved IP address at the base of the VPC network range &quot;plus two&quot; will succeed. If disabled, the Amazon provided DNS service in the VPC that resolves public DNS hostnames to IP addresses is not enabled.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *networkAclId</Declaration>
+			<Declaration>@property (nonatomic, strong) AWSEC2AttributeBooleanValue *enableDnsSupport</Declaration>
 			
 			
-			<Anchor>//api/name/networkAclId</Anchor>
+			<Anchor>//api/name/enableDnsSupport</Anchor>
             <NodeRef refid="517"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2NetworkAclAssociation/setSubnetId:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The ID of the subnet.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ModifyVpcAttributeRequest/setVpcId:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the VPC.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *subnetId</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *vpcId</Declaration>
 			
 			
-			<Anchor>//api/name/subnetId</Anchor>
+			<Anchor>//api/name/vpcId</Anchor>
             <NodeRef refid="517"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2NetworkAclAssociation/subnetId</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The ID of the subnet.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ModifyVpcAttributeRequest/vpcId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the VPC.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *subnetId</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *vpcId</Declaration>
 			
 			
-			<Anchor>//api/name/subnetId</Anchor>
+			<Anchor>//api/name/vpcId</Anchor>
             <NodeRef refid="517"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2NetworkAclAssociation/subnetId</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The ID of the subnet.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2ModifyVpcAttributeRequest/vpcId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the VPC.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *subnetId</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *vpcId</Declaration>
 			
 			
-			<Anchor>//api/name/subnetId</Anchor>
+			<Anchor>//api/name/vpcId</Anchor>
             <NodeRef refid="517"/>
 		</Token>
 		

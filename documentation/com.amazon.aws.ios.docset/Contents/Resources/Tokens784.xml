@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSS3GetBucketNotificationOutput.html">
+	<File path="Classes/AWSS3DeleteObjectOutput.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSS3GetBucketNotificationOutput</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSS3DeleteObjectOutput</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSS3Model.h</DeclaredIn>
             
@@ -13,110 +13,74 @@
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3GetBucketNotificationOutput/setCloudFunctionConfiguration:</TokenIdentifier>
-			<Abstract type="html"></Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3DeleteObjectOutput/setDeleteMarker:</TokenIdentifier>
+			<Abstract type="html">Specifies whether the versioned object that was permanently deleted was (true) or was not (false) a delete marker.</Abstract>
 			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) AWSS3CloudFunctionConfiguration *cloudFunctionConfiguration</Declaration>
+			<Declaration>@property (nonatomic, strong) NSNumber *deleteMarker</Declaration>
 			
 			
-			<Anchor>//api/name/cloudFunctionConfiguration</Anchor>
+			<Anchor>//api/name/deleteMarker</Anchor>
             <NodeRef refid="784"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3GetBucketNotificationOutput/cloudFunctionConfiguration</TokenIdentifier>
-			<Abstract type="html"></Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3DeleteObjectOutput/deleteMarker</TokenIdentifier>
+			<Abstract type="html">Specifies whether the versioned object that was permanently deleted was (true) or was not (false) a delete marker.</Abstract>
 			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) AWSS3CloudFunctionConfiguration *cloudFunctionConfiguration</Declaration>
+			<Declaration>@property (nonatomic, strong) NSNumber *deleteMarker</Declaration>
 			
 			
-			<Anchor>//api/name/cloudFunctionConfiguration</Anchor>
+			<Anchor>//api/name/deleteMarker</Anchor>
             <NodeRef refid="784"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSS3GetBucketNotificationOutput/cloudFunctionConfiguration</TokenIdentifier>
-			<Abstract type="html"></Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSS3DeleteObjectOutput/deleteMarker</TokenIdentifier>
+			<Abstract type="html">Specifies whether the versioned object that was permanently deleted was (true) or was not (false) a delete marker.</Abstract>
 			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) AWSS3CloudFunctionConfiguration *cloudFunctionConfiguration</Declaration>
+			<Declaration>@property (nonatomic, strong) NSNumber *deleteMarker</Declaration>
 			
 			
-			<Anchor>//api/name/cloudFunctionConfiguration</Anchor>
+			<Anchor>//api/name/deleteMarker</Anchor>
             <NodeRef refid="784"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3GetBucketNotificationOutput/setQueueConfiguration:</TokenIdentifier>
-			<Abstract type="html"></Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3DeleteObjectOutput/setVersionId:</TokenIdentifier>
+			<Abstract type="html">Returns the version ID of the delete marker created as a result of the DELETE operation.</Abstract>
 			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) AWSS3QueueConfiguration *queueConfiguration</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *versionId</Declaration>
 			
 			
-			<Anchor>//api/name/queueConfiguration</Anchor>
+			<Anchor>//api/name/versionId</Anchor>
             <NodeRef refid="784"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3GetBucketNotificationOutput/queueConfiguration</TokenIdentifier>
-			<Abstract type="html"></Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3DeleteObjectOutput/versionId</TokenIdentifier>
+			<Abstract type="html">Returns the version ID of the delete marker created as a result of the DELETE operation.</Abstract>
 			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) AWSS3QueueConfiguration *queueConfiguration</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *versionId</Declaration>
 			
 			
-			<Anchor>//api/name/queueConfiguration</Anchor>
+			<Anchor>//api/name/versionId</Anchor>
             <NodeRef refid="784"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSS3GetBucketNotificationOutput/queueConfiguration</TokenIdentifier>
-			<Abstract type="html"></Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSS3DeleteObjectOutput/versionId</TokenIdentifier>
+			<Abstract type="html">Returns the version ID of the delete marker created as a result of the DELETE operation.</Abstract>
 			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) AWSS3QueueConfiguration *queueConfiguration</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *versionId</Declaration>
 			
 			
-			<Anchor>//api/name/queueConfiguration</Anchor>
-            <NodeRef refid="784"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3GetBucketNotificationOutput/setTopicConfiguration:</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) AWSS3TopicConfiguration *topicConfiguration</Declaration>
-			
-			
-			<Anchor>//api/name/topicConfiguration</Anchor>
-            <NodeRef refid="784"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3GetBucketNotificationOutput/topicConfiguration</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) AWSS3TopicConfiguration *topicConfiguration</Declaration>
-			
-			
-			<Anchor>//api/name/topicConfiguration</Anchor>
-            <NodeRef refid="784"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSS3GetBucketNotificationOutput/topicConfiguration</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) AWSS3TopicConfiguration *topicConfiguration</Declaration>
-			
-			
-			<Anchor>//api/name/topicConfiguration</Anchor>
+			<Anchor>//api/name/versionId</Anchor>
             <NodeRef refid="784"/>
 		</Token>
 		

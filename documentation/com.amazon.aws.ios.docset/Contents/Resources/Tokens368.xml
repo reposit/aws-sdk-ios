@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSEC2DescribeExportTasksRequest.html">
+	<File path="Classes/AWSEC2DescribeConversionTasksResult.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSEC2DescribeExportTasksRequest</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSEC2DescribeConversionTasksResult</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
             
@@ -13,38 +13,38 @@
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DescribeExportTasksRequest/setExportTaskIds:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;One or more export task IDs.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DescribeConversionTasksResult/setConversionTasks:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSArray *exportTaskIds</Declaration>
+			<Declaration>@property (nonatomic, strong) NSArray *conversionTasks</Declaration>
 			
 			
-			<Anchor>//api/name/exportTaskIds</Anchor>
+			<Anchor>//api/name/conversionTasks</Anchor>
             <NodeRef refid="368"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DescribeExportTasksRequest/exportTaskIds</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;One or more export task IDs.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DescribeConversionTasksResult/conversionTasks</TokenIdentifier>
+			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSArray *exportTaskIds</Declaration>
+			<Declaration>@property (nonatomic, strong) NSArray *conversionTasks</Declaration>
 			
 			
-			<Anchor>//api/name/exportTaskIds</Anchor>
+			<Anchor>//api/name/conversionTasks</Anchor>
             <NodeRef refid="368"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2DescribeExportTasksRequest/exportTaskIds</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;One or more export task IDs.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2DescribeConversionTasksResult/conversionTasks</TokenIdentifier>
+			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSArray *exportTaskIds</Declaration>
+			<Declaration>@property (nonatomic, strong) NSArray *conversionTasks</Declaration>
 			
 			
-			<Anchor>//api/name/exportTaskIds</Anchor>
+			<Anchor>//api/name/conversionTasks</Anchor>
             <NodeRef refid="368"/>
 		</Token>
 		

@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Constants/AWSEC2InstanceLifecycleType.html">
+	<File path="Constants/AWSDynamoDBObjectMapperVersion.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/c/tdef/AWSEC2InstanceLifecycleType</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/c/tdef/AWSDynamoDBObjectMapperVersion</TokenIdentifier>
+			<Abstract type="html">Copyright 2010-2015 Amazon.com, Inc. or its affiliates. All Rights Reserved.</Abstract>
+			<DeclaredIn>AWSDynamoDBObjectMapper.m</DeclaredIn>
             
 			
 			<NodeRef refid="1100"/>
@@ -14,21 +14,31 @@
 		
         
         <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSEC2InstanceLifecycleTypeUnknown</TokenIdentifier>
+            <TokenIdentifier>//apple_ref/c/econst/AWSDynamoDBObjectMapperVersionUnknown</TokenIdentifier>
             <Abstract type="html"></Abstract>
-            <Declaration>AWSEC2InstanceLifecycleTypeUnknown</Declaration>
+            <Declaration>AWSDynamoDBObjectMapperVersionUnknown</Declaration>
             
-            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
+            <DeclaredIn>AWSDynamoDBObjectMapper.m</DeclaredIn>
             
             <NodeRef refid="1100"/>
         </Token>
         
         <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSEC2InstanceLifecycleTypeSpot</TokenIdentifier>
+            <TokenIdentifier>//apple_ref/c/econst/AWSDynamoDBObjectMapperVersion1</TokenIdentifier>
             <Abstract type="html"></Abstract>
-            <Declaration>AWSEC2InstanceLifecycleTypeSpot</Declaration>
+            <Declaration>AWSDynamoDBObjectMapperVersion1</Declaration>
             
-            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
+            <DeclaredIn>AWSDynamoDBObjectMapper.m</DeclaredIn>
+            
+            <NodeRef refid="1100"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/AWSDynamoDBObjectMapperVersion2</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>AWSDynamoDBObjectMapperVersion2</Declaration>
+            
+            <DeclaredIn>AWSDynamoDBObjectMapper.m</DeclaredIn>
             
             <NodeRef refid="1100"/>
         </Token>

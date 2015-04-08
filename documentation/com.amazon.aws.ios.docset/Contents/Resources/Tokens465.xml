@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSEC2ImageAttribute.html">
+	<File path="Classes/AWSEC2GroupIdentifier.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSEC2ImageAttribute</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Describes an image attribute.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSEC2GroupIdentifier</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Describes a security group.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
             
 			
@@ -13,290 +13,74 @@
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ImageAttribute/setBlockDeviceMappings:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;One or more block device mapping entries.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2GroupIdentifier/setGroupId:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the security group.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSArray *blockDeviceMappings</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *groupId</Declaration>
 			
 			
-			<Anchor>//api/name/blockDeviceMappings</Anchor>
+			<Anchor>//api/name/groupId</Anchor>
             <NodeRef refid="465"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ImageAttribute/blockDeviceMappings</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;One or more block device mapping entries.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2GroupIdentifier/groupId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the security group.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSArray *blockDeviceMappings</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *groupId</Declaration>
 			
 			
-			<Anchor>//api/name/blockDeviceMappings</Anchor>
+			<Anchor>//api/name/groupId</Anchor>
             <NodeRef refid="465"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2ImageAttribute/blockDeviceMappings</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;One or more block device mapping entries.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2GroupIdentifier/groupId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the security group.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSArray *blockDeviceMappings</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *groupId</Declaration>
 			
 			
-			<Anchor>//api/name/blockDeviceMappings</Anchor>
+			<Anchor>//api/name/groupId</Anchor>
             <NodeRef refid="465"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ImageAttribute/setDetail:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;A description for the AMI.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2GroupIdentifier/setGroupName:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The name of the security group.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) AWSEC2AttributeValue *detail</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *groupName</Declaration>
 			
 			
-			<Anchor>//api/name/detail</Anchor>
+			<Anchor>//api/name/groupName</Anchor>
             <NodeRef refid="465"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ImageAttribute/detail</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;A description for the AMI.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2GroupIdentifier/groupName</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The name of the security group.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) AWSEC2AttributeValue *detail</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *groupName</Declaration>
 			
 			
-			<Anchor>//api/name/detail</Anchor>
+			<Anchor>//api/name/groupName</Anchor>
             <NodeRef refid="465"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2ImageAttribute/detail</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;A description for the AMI.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2GroupIdentifier/groupName</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The name of the security group.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) AWSEC2AttributeValue *detail</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *groupName</Declaration>
 			
 			
-			<Anchor>//api/name/detail</Anchor>
-            <NodeRef refid="465"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ImageAttribute/setImageId:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The ID of the AMI.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *imageId</Declaration>
-			
-			
-			<Anchor>//api/name/imageId</Anchor>
-            <NodeRef refid="465"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ImageAttribute/imageId</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The ID of the AMI.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *imageId</Declaration>
-			
-			
-			<Anchor>//api/name/imageId</Anchor>
-            <NodeRef refid="465"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2ImageAttribute/imageId</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The ID of the AMI.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *imageId</Declaration>
-			
-			
-			<Anchor>//api/name/imageId</Anchor>
-            <NodeRef refid="465"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ImageAttribute/setKernelId:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The kernel ID.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) AWSEC2AttributeValue *kernelId</Declaration>
-			
-			
-			<Anchor>//api/name/kernelId</Anchor>
-            <NodeRef refid="465"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ImageAttribute/kernelId</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The kernel ID.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) AWSEC2AttributeValue *kernelId</Declaration>
-			
-			
-			<Anchor>//api/name/kernelId</Anchor>
-            <NodeRef refid="465"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2ImageAttribute/kernelId</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The kernel ID.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) AWSEC2AttributeValue *kernelId</Declaration>
-			
-			
-			<Anchor>//api/name/kernelId</Anchor>
-            <NodeRef refid="465"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ImageAttribute/setLaunchPermissions:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;One or more launch permissions.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSArray *launchPermissions</Declaration>
-			
-			
-			<Anchor>//api/name/launchPermissions</Anchor>
-            <NodeRef refid="465"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ImageAttribute/launchPermissions</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;One or more launch permissions.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSArray *launchPermissions</Declaration>
-			
-			
-			<Anchor>//api/name/launchPermissions</Anchor>
-            <NodeRef refid="465"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2ImageAttribute/launchPermissions</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;One or more launch permissions.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSArray *launchPermissions</Declaration>
-			
-			
-			<Anchor>//api/name/launchPermissions</Anchor>
-            <NodeRef refid="465"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ImageAttribute/setProductCodes:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;One or more product codes.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSArray *productCodes</Declaration>
-			
-			
-			<Anchor>//api/name/productCodes</Anchor>
-            <NodeRef refid="465"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ImageAttribute/productCodes</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;One or more product codes.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSArray *productCodes</Declaration>
-			
-			
-			<Anchor>//api/name/productCodes</Anchor>
-            <NodeRef refid="465"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2ImageAttribute/productCodes</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;One or more product codes.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSArray *productCodes</Declaration>
-			
-			
-			<Anchor>//api/name/productCodes</Anchor>
-            <NodeRef refid="465"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ImageAttribute/setRamdiskId:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The RAM disk ID.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) AWSEC2AttributeValue *ramdiskId</Declaration>
-			
-			
-			<Anchor>//api/name/ramdiskId</Anchor>
-            <NodeRef refid="465"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ImageAttribute/ramdiskId</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The RAM disk ID.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) AWSEC2AttributeValue *ramdiskId</Declaration>
-			
-			
-			<Anchor>//api/name/ramdiskId</Anchor>
-            <NodeRef refid="465"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2ImageAttribute/ramdiskId</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The RAM disk ID.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) AWSEC2AttributeValue *ramdiskId</Declaration>
-			
-			
-			<Anchor>//api/name/ramdiskId</Anchor>
-            <NodeRef refid="465"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ImageAttribute/setSriovNetSupport:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The value to use for a resource attribute.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) AWSEC2AttributeValue *sriovNetSupport</Declaration>
-			
-			
-			<Anchor>//api/name/sriovNetSupport</Anchor>
-            <NodeRef refid="465"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ImageAttribute/sriovNetSupport</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The value to use for a resource attribute.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) AWSEC2AttributeValue *sriovNetSupport</Declaration>
-			
-			
-			<Anchor>//api/name/sriovNetSupport</Anchor>
-            <NodeRef refid="465"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2ImageAttribute/sriovNetSupport</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The value to use for a resource attribute.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) AWSEC2AttributeValue *sriovNetSupport</Declaration>
-			
-			
-			<Anchor>//api/name/sriovNetSupport</Anchor>
+			<Anchor>//api/name/groupName</Anchor>
             <NodeRef refid="465"/>
 		</Token>
 		

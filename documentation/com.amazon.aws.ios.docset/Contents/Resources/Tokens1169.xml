@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Constants/AWSS3ExpirationStatus.html">
+	<File path="Constants/AWSEC2VolumeAttributeName.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/c/tdef/AWSS3ExpirationStatus</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/c/tdef/AWSEC2VolumeAttributeName</TokenIdentifier>
 			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
             
 			
 			<NodeRef refid="1169"/>
@@ -14,31 +14,31 @@
 		
         
         <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSS3ExpirationStatusUnknown</TokenIdentifier>
+            <TokenIdentifier>//apple_ref/c/econst/AWSEC2VolumeAttributeNameUnknown</TokenIdentifier>
             <Abstract type="html"></Abstract>
-            <Declaration>AWSS3ExpirationStatusUnknown</Declaration>
+            <Declaration>AWSEC2VolumeAttributeNameUnknown</Declaration>
             
-            <DeclaredIn>AWSS3Model.h</DeclaredIn>
+            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
             
             <NodeRef refid="1169"/>
         </Token>
         
         <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSS3ExpirationStatusEnabled</TokenIdentifier>
+            <TokenIdentifier>//apple_ref/c/econst/AWSEC2VolumeAttributeNameAutoEnableIO</TokenIdentifier>
             <Abstract type="html"></Abstract>
-            <Declaration>AWSS3ExpirationStatusEnabled</Declaration>
+            <Declaration>AWSEC2VolumeAttributeNameAutoEnableIO</Declaration>
             
-            <DeclaredIn>AWSS3Model.h</DeclaredIn>
+            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
             
             <NodeRef refid="1169"/>
         </Token>
         
         <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSS3ExpirationStatusDisabled</TokenIdentifier>
+            <TokenIdentifier>//apple_ref/c/econst/AWSEC2VolumeAttributeNameProductCodes</TokenIdentifier>
             <Abstract type="html"></Abstract>
-            <Declaration>AWSS3ExpirationStatusDisabled</Declaration>
+            <Declaration>AWSEC2VolumeAttributeNameProductCodes</Declaration>
             
-            <DeclaredIn>AWSS3Model.h</DeclaredIn>
+            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
             
             <NodeRef refid="1169"/>
         </Token>

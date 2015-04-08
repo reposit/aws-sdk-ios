@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSCognitoIdentityIdentityPoolShortDescription.html">
+	<File path="Classes/AWSCognitoIdentityIdentityDescription.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSCognitoIdentityIdentityPoolShortDescription</TokenIdentifier>
-			<Abstract type="html">A description of the identity pool.</Abstract>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSCognitoIdentityIdentityDescription</TokenIdentifier>
+			<Abstract type="html">A description of the identity.</Abstract>
 			<DeclaredIn>AWSCognitoIdentityModel.h</DeclaredIn>
             
 			
@@ -13,74 +13,146 @@
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoIdentityIdentityPoolShortDescription/setIdentityPoolId:</TokenIdentifier>
-			<Abstract type="html">An identity pool ID in the format REGION:GUID.</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoIdentityIdentityDescription/setCreationDate:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSCognitoIdentityModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *identityPoolId</Declaration>
+			<Declaration>@property (nonatomic, strong) NSDate *creationDate</Declaration>
 			
 			
-			<Anchor>//api/name/identityPoolId</Anchor>
+			<Anchor>//api/name/creationDate</Anchor>
             <NodeRef refid="136"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoIdentityIdentityPoolShortDescription/identityPoolId</TokenIdentifier>
-			<Abstract type="html">An identity pool ID in the format REGION:GUID.</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoIdentityIdentityDescription/creationDate</TokenIdentifier>
+			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSCognitoIdentityModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *identityPoolId</Declaration>
+			<Declaration>@property (nonatomic, strong) NSDate *creationDate</Declaration>
 			
 			
-			<Anchor>//api/name/identityPoolId</Anchor>
+			<Anchor>//api/name/creationDate</Anchor>
             <NodeRef refid="136"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSCognitoIdentityIdentityPoolShortDescription/identityPoolId</TokenIdentifier>
-			<Abstract type="html">An identity pool ID in the format REGION:GUID.</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSCognitoIdentityIdentityDescription/creationDate</TokenIdentifier>
+			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSCognitoIdentityModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *identityPoolId</Declaration>
+			<Declaration>@property (nonatomic, strong) NSDate *creationDate</Declaration>
 			
 			
-			<Anchor>//api/name/identityPoolId</Anchor>
+			<Anchor>//api/name/creationDate</Anchor>
             <NodeRef refid="136"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoIdentityIdentityPoolShortDescription/setIdentityPoolName:</TokenIdentifier>
-			<Abstract type="html">A string that you provide.</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoIdentityIdentityDescription/setIdentityId:</TokenIdentifier>
+			<Abstract type="html">A unique identifier in the format REGION:GUID.</Abstract>
 			<DeclaredIn>AWSCognitoIdentityModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *identityPoolName</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *identityId</Declaration>
 			
 			
-			<Anchor>//api/name/identityPoolName</Anchor>
+			<Anchor>//api/name/identityId</Anchor>
             <NodeRef refid="136"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoIdentityIdentityPoolShortDescription/identityPoolName</TokenIdentifier>
-			<Abstract type="html">A string that you provide.</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoIdentityIdentityDescription/identityId</TokenIdentifier>
+			<Abstract type="html">A unique identifier in the format REGION:GUID.</Abstract>
 			<DeclaredIn>AWSCognitoIdentityModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *identityPoolName</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *identityId</Declaration>
 			
 			
-			<Anchor>//api/name/identityPoolName</Anchor>
+			<Anchor>//api/name/identityId</Anchor>
             <NodeRef refid="136"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSCognitoIdentityIdentityPoolShortDescription/identityPoolName</TokenIdentifier>
-			<Abstract type="html">A string that you provide.</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSCognitoIdentityIdentityDescription/identityId</TokenIdentifier>
+			<Abstract type="html">A unique identifier in the format REGION:GUID.</Abstract>
 			<DeclaredIn>AWSCognitoIdentityModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *identityPoolName</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *identityId</Declaration>
 			
 			
-			<Anchor>//api/name/identityPoolName</Anchor>
+			<Anchor>//api/name/identityId</Anchor>
+            <NodeRef refid="136"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoIdentityIdentityDescription/setLastModifiedDate:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSCognitoIdentityModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSDate *lastModifiedDate</Declaration>
+			
+			
+			<Anchor>//api/name/lastModifiedDate</Anchor>
+            <NodeRef refid="136"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoIdentityIdentityDescription/lastModifiedDate</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSCognitoIdentityModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSDate *lastModifiedDate</Declaration>
+			
+			
+			<Anchor>//api/name/lastModifiedDate</Anchor>
+            <NodeRef refid="136"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSCognitoIdentityIdentityDescription/lastModifiedDate</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSCognitoIdentityModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSDate *lastModifiedDate</Declaration>
+			
+			
+			<Anchor>//api/name/lastModifiedDate</Anchor>
+            <NodeRef refid="136"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoIdentityIdentityDescription/setLogins:</TokenIdentifier>
+			<Abstract type="html">A set of optional name-value pairs that map provider names to provider tokens.</Abstract>
+			<DeclaredIn>AWSCognitoIdentityModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray *logins</Declaration>
+			
+			
+			<Anchor>//api/name/logins</Anchor>
+            <NodeRef refid="136"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoIdentityIdentityDescription/logins</TokenIdentifier>
+			<Abstract type="html">A set of optional name-value pairs that map provider names to provider tokens.</Abstract>
+			<DeclaredIn>AWSCognitoIdentityModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray *logins</Declaration>
+			
+			
+			<Anchor>//api/name/logins</Anchor>
+            <NodeRef refid="136"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSCognitoIdentityIdentityDescription/logins</TokenIdentifier>
+			<Abstract type="html">A set of optional name-value pairs that map provider names to provider tokens.</Abstract>
+			<DeclaredIn>AWSCognitoIdentityModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray *logins</Declaration>
+			
+			
+			<Anchor>//api/name/logins</Anchor>
             <NodeRef refid="136"/>
 		</Token>
 		

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSEC2CreateSecurityGroupResult.html">
+	<File path="Classes/AWSEC2CreateReservedInstancesListingResult.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSEC2CreateSecurityGroupResult</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSEC2CreateReservedInstancesListingResult</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
             
@@ -13,38 +13,38 @@
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2CreateSecurityGroupResult/setGroupId:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The ID of the security group.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2CreateReservedInstancesListingResult/setReservedInstancesListings:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Information about the Reserved Instances listing.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *groupId</Declaration>
+			<Declaration>@property (nonatomic, strong) NSArray *reservedInstancesListings</Declaration>
 			
 			
-			<Anchor>//api/name/groupId</Anchor>
+			<Anchor>//api/name/reservedInstancesListings</Anchor>
             <NodeRef refid="311"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2CreateSecurityGroupResult/groupId</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The ID of the security group.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2CreateReservedInstancesListingResult/reservedInstancesListings</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Information about the Reserved Instances listing.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *groupId</Declaration>
+			<Declaration>@property (nonatomic, strong) NSArray *reservedInstancesListings</Declaration>
 			
 			
-			<Anchor>//api/name/groupId</Anchor>
+			<Anchor>//api/name/reservedInstancesListings</Anchor>
             <NodeRef refid="311"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2CreateSecurityGroupResult/groupId</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The ID of the security group.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2CreateReservedInstancesListingResult/reservedInstancesListings</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Information about the Reserved Instances listing.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *groupId</Declaration>
+			<Declaration>@property (nonatomic, strong) NSArray *reservedInstancesListings</Declaration>
 			
 			
-			<Anchor>//api/name/groupId</Anchor>
+			<Anchor>//api/name/reservedInstancesListings</Anchor>
             <NodeRef refid="311"/>
 		</Token>
 		

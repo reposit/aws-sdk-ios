@@ -1,386 +1,187 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html>
-	<head>
-		<meta http-equiv="Content-Type" content="html/html; charset=utf-8" />
-		<title>AWSCognito Class Reference</title>
-		<meta id="xcode-display" name="xcode-display" content="render"/>
-		<link rel="stylesheet" type="text/css" href="../css/styles.css" media="all" />
-		<link rel="stylesheet" type="text/css" media="print" href="../css/stylesPrint.css" />
-		<meta name="generator" content="appledoc 2.2 (build 963)" />
-	</head>
-	<body>
-		<header id="top_header">
-			<div id="library" class="hideInXcode">
-				<h1><a id="libraryTitle" href="../index.html">AWS SDK for iOS v2.0.16 </a></h1>
-				<a id="developerHome" href="../index.html">Amazon Web Services, Inc.</a>
-			</div>
+<head>
+	<meta charset="utf-8">
+
+	<title>AWSCognito Class Reference</title>
+
+	<link rel="stylesheet" href="../css/style.css">
+	<meta name="viewport" content="initial-scale=1, maximum-scale=1.4">
+	<meta name="generator" content="appledoc 2.2.1 (build 1333)">
+</head>
+<body class="appledoc">
+	<header>
+		<div class="container" class="hide-in-xcode">
 			
-			<div id="title" role="banner">
-				<h1 class="hideInXcode">AWSCognito Class Reference</h1>
-			</div>
-			<ul id="headerButtons" role="toolbar">
-				<li id="toc_button">
-					<button aria-label="Show Table of Contents" role="checkbox" class="open" id="table_of_contents"><span class="disclosure"></span>Table of Contents</button>
-				</li>
-				<li id="jumpto_button" role="navigation">
-					<select id="jumpTo">
+			<h1 id="library-title">
+				<a href="../index.html">AWS SDK for iOS v2.1.0 </a>
+			</h1>
+
+			<p id="developer-home">
+				<a href="../index.html">Amazon Web Services, Inc.</a>
+			</p>
+			
+		</div>
+	</header>
+
+	<aside>
+		<div class="container">
+			<nav>
+				<ul id="header-buttons" role="toolbar">
+					<li><a href="../index.html">Index</a></li>
+<li><a href="../hierarchy.html">Hierarchy</a></li>
+
+					<li id="on-this-page" role="navigation">
+						<label>
+							On This Page
+
+							<div class="chevron">
+								<div class="chevy chevron-left"></div>
+								<div class="chevy chevron-right"></div>
+							</div>
+
+							<select id="jump-to">
 	<option value="top">Jump To&#133;</option>
 	
 	<option value="overview">Overview</option>
 	
-	
+
 	
 	
 	<option value="tasks">Tasks</option>
 	
 	
+
 	
 	
+	<optgroup label="Properties">
+		
+		<option value="//api/name/configuration">configuration</option>
+		
+		<option value="//api/name/conflictHandler">conflictHandler</option>
+		
+		<option value="//api/name/datasetDeletedHandler">datasetDeletedHandler</option>
+		
+		<option value="//api/name/datasetMergedHandler">datasetMergedHandler</option>
+		
+		<option value="//api/name/deviceId">deviceId</option>
+		
+		<option value="//api/name/synchronizeOnWiFiOnly">synchronizeOnWiFiOnly</option>
+		
+		<option value="//api/name/synchronizeRetries">synchronizeRetries</option>
+		
+	</optgroup>
 	
-	<option value="properties">Properties</option>
+
 	
-	<option value="//api/name/configuration">&nbsp;&nbsp;&nbsp;&nbsp;configuration</option>
+	<optgroup label="Class Methods">
+		
+		<option value="//api/name/CognitoForKey:">+ CognitoForKey:</option>
+		
+		<option value="//api/name/cognitoDeviceId">+ cognitoDeviceId</option>
+		
+		<option value="//api/name/defaultCognito">+ defaultCognito</option>
+		
+		<option value="//api/name/defaultConflictHandler">+ defaultConflictHandler</option>
+		
+		<option value="//api/name/pushPlatform">+ pushPlatform</option>
+		
+		<option value="//api/name/registerCognitoWithConfiguration:forKey:">+ registerCognitoWithConfiguration:forKey:</option>
+		
+		<option value="//api/name/removeCognitoForKey:">+ removeCognitoForKey:</option>
+		
+		<option value="//api/name/setPushPlatform:">+ setPushPlatform:</option>
+		
+	</optgroup>
 	
-	<option value="//api/name/conflictHandler">&nbsp;&nbsp;&nbsp;&nbsp;conflictHandler</option>
+
 	
-	<option value="//api/name/datasetDeletedHandler">&nbsp;&nbsp;&nbsp;&nbsp;datasetDeletedHandler</option>
-	
-	<option value="//api/name/datasetMergedHandler">&nbsp;&nbsp;&nbsp;&nbsp;datasetMergedHandler</option>
-	
-	<option value="//api/name/deviceId">&nbsp;&nbsp;&nbsp;&nbsp;deviceId</option>
-	
-	<option value="//api/name/synchronizeOnWiFiOnly">&nbsp;&nbsp;&nbsp;&nbsp;synchronizeOnWiFiOnly</option>
-	
-	<option value="//api/name/synchronizeRetries">&nbsp;&nbsp;&nbsp;&nbsp;synchronizeRetries</option>
-	
-	
-	
-	
-	<option value="class_methods">Class Methods</option>
-	
-	<option value="//api/name/cognitoDeviceId">&nbsp;&nbsp;&nbsp;&nbsp;+ cognitoDeviceId</option>
-	
-	<option value="//api/name/defaultCognito">&nbsp;&nbsp;&nbsp;&nbsp;+ defaultCognito</option>
-	
-	<option value="//api/name/defaultConflictHandler">&nbsp;&nbsp;&nbsp;&nbsp;+ defaultConflictHandler</option>
-	
-	<option value="//api/name/pushPlatform">&nbsp;&nbsp;&nbsp;&nbsp;+ pushPlatform</option>
-	
-	<option value="//api/name/setPushPlatform:">&nbsp;&nbsp;&nbsp;&nbsp;+ setPushPlatform:</option>
-	
-	
-	
-	
-	<option value="instance_methods">Instance Methods</option>
-	
-	<option value="//api/name/initWithConfiguration:">&nbsp;&nbsp;&nbsp;&nbsp;- initWithConfiguration:</option>
-	
-	<option value="//api/name/listDatasets">&nbsp;&nbsp;&nbsp;&nbsp;- listDatasets</option>
-	
-	<option value="//api/name/openOrCreateDataset:">&nbsp;&nbsp;&nbsp;&nbsp;- openOrCreateDataset:</option>
-	
-	<option value="//api/name/refreshDatasetMetadata">&nbsp;&nbsp;&nbsp;&nbsp;- refreshDatasetMetadata</option>
-	
-	<option value="//api/name/registerDevice:">&nbsp;&nbsp;&nbsp;&nbsp;- registerDevice:</option>
-	
-	<option value="//api/name/subscribe:">&nbsp;&nbsp;&nbsp;&nbsp;- subscribe:</option>
-	
-	<option value="//api/name/subscribeAll">&nbsp;&nbsp;&nbsp;&nbsp;- subscribeAll</option>
-	
-	<option value="//api/name/unsubscribe:">&nbsp;&nbsp;&nbsp;&nbsp;- unsubscribe:</option>
-	
-	<option value="//api/name/unsubscribeAll">&nbsp;&nbsp;&nbsp;&nbsp;- unsubscribeAll</option>
-	
-	<option value="//api/name/wipe">&nbsp;&nbsp;&nbsp;&nbsp;- wipe</option>
-	
+	<optgroup label="Instance Methods">
+		
+		<option value="//api/name/initWithConfiguration:">- initWithConfiguration:</option>
+		
+		<option value="//api/name/listDatasets">- listDatasets</option>
+		
+		<option value="//api/name/openOrCreateDataset:">- openOrCreateDataset:</option>
+		
+		<option value="//api/name/refreshDatasetMetadata">- refreshDatasetMetadata</option>
+		
+		<option value="//api/name/registerDevice:">- registerDevice:</option>
+		
+		<option value="//api/name/subscribe:">- subscribe:</option>
+		
+		<option value="//api/name/subscribeAll">- subscribeAll</option>
+		
+		<option value="//api/name/unsubscribe:">- unsubscribe:</option>
+		
+		<option value="//api/name/unsubscribeAll">- unsubscribeAll</option>
+		
+		<option value="//api/name/wipe">- wipe</option>
+		
+	</optgroup>
 	
 	
 </select>
-				</li>
-			</ul>
-		</header>
-		<nav id="tocContainer" class="isShowingTOC">
-			<ul id="toc" role="tree">
-				
-<li role="treeitem"><span class="nodisclosure"></span><span class="sectionName"><a href="#overview">Overview</a></span></li>
+						</label>
+					</li>
+				</ul>
+			</nav>
+		</div>
+	</aside>
 
+	<article>
+		<div id="overview_contents" class="container">
+			<div id="content">
+				<main role="main">
+					<h1 class="title">AWSCognito Class Reference</h1>
 
-
-
-<li role="treeitem" id="task_treeitem"><span class="nodisclosure"></span><span class="sectionName"><a href="#tasks">Tasks</a></span><ul>
-	
-</ul></li>
-
-
-
-
-
-<li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#properties">Properties</a></span><ul>
-	
-	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/configuration">configuration</a></span></li>
-	
-	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/conflictHandler">conflictHandler</a></span></li>
-	
-	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/datasetDeletedHandler">datasetDeletedHandler</a></span></li>
-	
-	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/datasetMergedHandler">datasetMergedHandler</a></span></li>
-	
-	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/deviceId">deviceId</a></span></li>
-	
-	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/synchronizeOnWiFiOnly">synchronizeOnWiFiOnly</a></span></li>
-	
-	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/synchronizeRetries">synchronizeRetries</a></span></li>
-	
-</ul></li>
-
-
-
-<li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#class_methods">Class Methods</a></span><ul>
-	
-	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/cognitoDeviceId">cognitoDeviceId</a></span></li>
-	
-	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/defaultCognito">defaultCognito</a></span></li>
-	
-	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/defaultConflictHandler">defaultConflictHandler</a></span></li>
-	
-	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/pushPlatform">pushPlatform</a></span></li>
-	
-	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/setPushPlatform:">setPushPlatform:</a></span></li>
-	
-</ul></li>
-
-
-
-<li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#instance_methods">Instance Methods</a></span><ul>
-	
-	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/initWithConfiguration:">initWithConfiguration:</a></span></li>
-	
-	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/listDatasets">listDatasets</a></span></li>
-	
-	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/openOrCreateDataset:">openOrCreateDataset:</a></span></li>
-	
-	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/refreshDatasetMetadata">refreshDatasetMetadata</a></span></li>
-	
-	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/registerDevice:">registerDevice:</a></span></li>
-	
-	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/subscribe:">subscribe:</a></span></li>
-	
-	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/subscribeAll">subscribeAll</a></span></li>
-	
-	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/unsubscribe:">unsubscribe:</a></span></li>
-	
-	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/unsubscribeAll">unsubscribeAll</a></span></li>
-	
-	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/wipe">wipe</a></span></li>
-	
-</ul></li>
-
-
-			</ul>
-		</nav>
-		<article>
-			<div id="contents" class="isShowingTOC" role="main">
-				<a title="AWSCognito Class Reference" name="top"></a>
-				<div class="main-navigation navigation-top">
-					<ul>
-	<li><a href="../index.html">Index</a></li>
-	<li><a href="../hierarchy.html">Hierarchy</a></li>
-</ul>
-				</div>
-				<div id="header">
-					<div class="section-header">
-						<h1 class="title title-header">AWSCognito Class Reference</h1>
-					</div>		
-				</div>
-				<div id="container">	
 					
 					<div class="section section-specification"><table cellspacing="0"><tbody>
 						<tr>
-	<td class="specification-title">Inherits from</td>
-	<td class="specification-value">AWSService : NSObject</td>
+	<th>Inherits from</th>
+	<td><a href="../Classes/AWSService.html">AWSService</a> : NSObject</td>
 </tr><tr>
-	<td class="specification-title">Declared in</td>
-	<td class="specification-value">AWSCognito.h<br />AWSCognito.m</td>
+	<th>Declared in</th>
+	<td>AWSCognitoService.h<br />AWSCognitoService.m</td>
 </tr>
 						</tbody></table></div>
 					
-                    
+
                     
 					
 					<div class="section section-overview">
 						<a title="Overview" name="overview"></a>
 						<h2 class="subtitle subtitle-overview">Overview</h2>
-						<p>Copyright 2014 Amazon.com, Inc. or its affiliates. All Rights Reserved.</p>
+						<p>Copyright 2015 Amazon.com, Inc. or its affiliates. All Rights Reserved.</p>
 
-<p>Copyright 2014 Amazon.com, Inc. or its affiliates. All Rights Reserved.</p>
+<p>Copyright 2015 Amazon.com, Inc. or its affiliates. All Rights Reserved.</p>
 					</div>
 					
 					
-					
+
 					
 					
 					<div class="section section-tasks">
 						<a title="Tasks" name="tasks"></a>
-						<h2 class="subtitle subtitle-tasks">Tasks</h2>
 						
-						
+
 						
 						
 
-						<ul class="task-list">
-							<li>
-	<span class="tooltip">
-		<code><a href="#//api/name/configuration">&nbsp;&nbsp;configuration</a></code>
-	</span>
-	<span class="task-item-suffix">property</span>
-	
-</li><li>
-	<span class="tooltip">
-		<code><a href="#//api/name/conflictHandler">&nbsp;&nbsp;conflictHandler</a></code>
-	</span>
-	<span class="task-item-suffix">property</span>
-	
-</li><li>
-	<span class="tooltip">
-		<code><a href="#//api/name/datasetDeletedHandler">&nbsp;&nbsp;datasetDeletedHandler</a></code>
-	</span>
-	<span class="task-item-suffix">property</span>
-	
-</li><li>
-	<span class="tooltip">
-		<code><a href="#//api/name/datasetMergedHandler">&nbsp;&nbsp;datasetMergedHandler</a></code>
-	</span>
-	<span class="task-item-suffix">property</span>
-	
-</li><li>
-	<span class="tooltip">
-		<code><a href="#//api/name/deviceId">&nbsp;&nbsp;deviceId</a></code>
-	</span>
-	<span class="task-item-suffix">property</span>
-	
-</li><li>
-	<span class="tooltip">
-		<code><a href="#//api/name/synchronizeRetries">&nbsp;&nbsp;synchronizeRetries</a></code>
-	</span>
-	<span class="task-item-suffix">property</span>
-	
-</li><li>
-	<span class="tooltip">
-		<code><a href="#//api/name/synchronizeOnWiFiOnly">&nbsp;&nbsp;synchronizeOnWiFiOnly</a></code>
-	</span>
-	<span class="task-item-suffix">property</span>
-	
-</li><li>
-	<span class="tooltip">
-		<code><a href="#//api/name/initWithConfiguration:">&ndash;&nbsp;initWithConfiguration:</a></code>
-	</span>
-	
-	
-</li><li>
-	<span class="tooltip">
-		<code><a href="#//api/name/defaultCognito">+&nbsp;defaultCognito</a></code>
-	</span>
-	
-	
-</li><li>
-	<span class="tooltip">
-		<code><a href="#//api/name/openOrCreateDataset:">&ndash;&nbsp;openOrCreateDataset:</a></code>
-	</span>
-	
-	
-</li><li>
-	<span class="tooltip">
-		<code><a href="#//api/name/listDatasets">&ndash;&nbsp;listDatasets</a></code>
-	</span>
-	
-	
-</li><li>
-	<span class="tooltip">
-		<code><a href="#//api/name/refreshDatasetMetadata">&ndash;&nbsp;refreshDatasetMetadata</a></code>
-	</span>
-	
-	
-</li><li>
-	<span class="tooltip">
-		<code><a href="#//api/name/wipe">&ndash;&nbsp;wipe</a></code>
-	</span>
-	
-	
-</li><li>
-	<span class="tooltip">
-		<code><a href="#//api/name/defaultConflictHandler">+&nbsp;defaultConflictHandler</a></code>
-	</span>
-	
-	
-</li><li>
-	<span class="tooltip">
-		<code><a href="#//api/name/registerDevice:">&ndash;&nbsp;registerDevice:</a></code>
-	</span>
-	
-	
-</li><li>
-	<span class="tooltip">
-		<code><a href="#//api/name/cognitoDeviceId">+&nbsp;cognitoDeviceId</a></code>
-	</span>
-	
-	
-</li><li>
-	<span class="tooltip">
-		<code><a href="#//api/name/setPushPlatform:">+&nbsp;setPushPlatform:</a></code>
-	</span>
-	
-	
-</li><li>
-	<span class="tooltip">
-		<code><a href="#//api/name/pushPlatform">+&nbsp;pushPlatform</a></code>
-	</span>
-	
-	
-</li><li>
-	<span class="tooltip">
-		<code><a href="#//api/name/subscribe:">&ndash;&nbsp;subscribe:</a></code>
-	</span>
-	
-	
-</li><li>
-	<span class="tooltip">
-		<code><a href="#//api/name/subscribeAll">&ndash;&nbsp;subscribeAll</a></code>
-	</span>
-	
-	
-</li><li>
-	<span class="tooltip">
-		<code><a href="#//api/name/unsubscribe:">&ndash;&nbsp;unsubscribe:</a></code>
-	</span>
-	
-	
-</li><li>
-	<span class="tooltip">
-		<code><a href="#//api/name/unsubscribeAll">&ndash;&nbsp;unsubscribeAll</a></code>
-	</span>
-	
-	
-</li>
-						</ul>
-						
-					</div>
-					
-					
-					
-					
-					
-					<div class="section section-methods">
-						<a title="Properties" name="properties"></a>
-						<h2 class="subtitle subtitle-methods">Properties</h2>
-						
-						<div class="section-method">
+						<div class="task-list">
+							<div class="section-method">
 	<a name="//api/name/configuration" title="configuration"></a>
-	<h3 class="subsubtitle method-title">configuration</h3>
-	
-	
-	
-	<div class="method-subsection brief-description">
-		<p>The error domain for AWSCognito errors.</p>
+	<h3 class="method-title"><code><a href="#//api/name/configuration">&nbsp;&nbsp;configuration</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>The error domain for AWSCognito errors.</p>
 
 <ul>
 <li>AWSCognitoErrorUnknown - Unknow error.</li>
@@ -397,429 +198,989 @@ has exceeded the max number of retries.</li>
 <li>AWSCognitoErrorDeviceNotRegistered - The device has not been registered yet.</li>
 </ul>
 
-	</div>		
-	
-    
+			</div>
+			
+		    
 
-	<div class="method-subsection method-declaration"><code>@property (nonatomic, strong, readonly) AWSServiceConfiguration *configuration</code></div>
+			<div class="method-subsection method-declaration"><code>@property (nonatomic, strong, readonly) AWSServiceConfiguration *configuration</code></div>
 
-    
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	<div class="method-subsection declared-in-section">
-		<h4 class="method-subtitle">Declared In</h4>
-		<code class="declared-in-ref">AWSCognito.h</code><br />
-	</div>				
-	
-	
-</div>
-						
-						<div class="section-method">
+		    
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AWSCognitoService.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
 	<a name="//api/name/conflictHandler" title="conflictHandler"></a>
-	<h3 class="subsubtitle method-title">conflictHandler</h3>
-	
-	
-	
-	<div class="method-subsection brief-description">
-		<p>A conflict resolution handler that will receive calls when there is a
+	<h3 class="method-title"><code><a href="#//api/name/conflictHandler">&nbsp;&nbsp;conflictHandler</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>A conflict resolution handler that will receive calls when there is a
 conflict during a sync operation.  A conflict will occur when both remote and
 local data have been updated since the last sync time.
 When not explicitly set, we will use the default conflict resolution of
 &lsquo;last writer wins&rsquo;, where the data most recently updated will be persisted.
 This handler will be propagated to any AWSCognitoDataset opened by this client.</p>
-	</div>		
-	
-    
+			</div>
+			
+		    
 
-	<div class="method-subsection method-declaration"><code>@property (nonatomic, strong) AWSCognitoRecordConflictHandler conflictHandler</code></div>
+			<div class="method-subsection method-declaration"><code>@property (nonatomic, strong) AWSCognitoRecordConflictHandler conflictHandler</code></div>
 
-    
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	<div class="method-subsection declared-in-section">
-		<h4 class="method-subtitle">Declared In</h4>
-		<code class="declared-in-ref">AWSCognito.h</code><br />
-	</div>				
-	
-	
-</div>
-						
-						<div class="section-method">
+		    
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AWSCognitoService.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
 	<a name="//api/name/datasetDeletedHandler" title="datasetDeletedHandler"></a>
-	<h3 class="subsubtitle method-title">datasetDeletedHandler</h3>
-	
-	
-	
-	<div class="method-subsection brief-description">
-		<p>A deleted dataset handler. This handler will be called during a synchronization
+	<h3 class="method-title"><code><a href="#//api/name/datasetDeletedHandler">&nbsp;&nbsp;datasetDeletedHandler</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>A deleted dataset handler. This handler will be called during a synchronization
 when the remote service indicates that a dataset has been deleted.
 Returning YES from the handler will cause the service to recreate the dataset
 on the remote on the next synchronization. Returning NO or leaving this property
 nil will cause the client to delete the dataset locally.
 This handler will be propagated to any AWSCognitoDataset opened by this client.</p>
-	</div>		
-	
-    
+			</div>
+			
+		    
 
-	<div class="method-subsection method-declaration"><code>@property (nonatomic, strong) AWSCognitoDatasetDeletedHandler datasetDeletedHandler</code></div>
+			<div class="method-subsection method-declaration"><code>@property (nonatomic, strong) AWSCognitoDatasetDeletedHandler datasetDeletedHandler</code></div>
 
-    
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	<div class="method-subsection declared-in-section">
-		<h4 class="method-subtitle">Declared In</h4>
-		<code class="declared-in-ref">AWSCognito.h</code><br />
-	</div>				
-	
-	
-</div>
-						
-						<div class="section-method">
+		    
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AWSCognitoService.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
 	<a name="//api/name/datasetMergedHandler" title="datasetMergedHandler"></a>
-	<h3 class="subsubtitle method-title">datasetMergedHandler</h3>
-	
-	
-	
-	<div class="method-subsection brief-description">
-		<p>A merged dataset handler. This handler will be called during a synchronization
+	<h3 class="method-title"><code><a href="#//api/name/datasetMergedHandler">&nbsp;&nbsp;datasetMergedHandler</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>A merged dataset handler. This handler will be called during a synchronization
 when the remote service indicates that other datasets should be merged with this one.
 Merged datasets should be fetched, their data overlayed locally and then removed.
 Failing to implement this handler will result in merged datasets remaining on the
 service indefinitely.
 This handler will be propagated to any AWSCognitoDataset opened by this client.</p>
-	</div>		
-	
-    
+			</div>
+			
+		    
 
-	<div class="method-subsection method-declaration"><code>@property (nonatomic, strong) AWSCognitoDatasetMergedHandler datasetMergedHandler</code></div>
+			<div class="method-subsection method-declaration"><code>@property (nonatomic, strong) AWSCognitoDatasetMergedHandler datasetMergedHandler</code></div>
 
-    
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	<div class="method-subsection declared-in-section">
-		<h4 class="method-subtitle">Declared In</h4>
-		<code class="declared-in-ref">AWSCognito.h</code><br />
-	</div>				
-	
-	
-</div>
-						
-						<div class="section-method">
+		    
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AWSCognitoService.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
 	<a name="//api/name/deviceId" title="deviceId"></a>
-	<h3 class="subsubtitle method-title">deviceId</h3>
-	
-	
-	
-	<div class="method-subsection brief-description">
-		<p>The identifier used for this client in Amazon Cognito.  If not supplied
+	<h3 class="method-title"><code><a href="#//api/name/deviceId">&nbsp;&nbsp;deviceId</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>The identifier used for this client in Amazon Cognito.  If not supplied
 Amazon Cognito will create a random GUID for the device.</p>
-	</div>		
-	
-    
+			</div>
+			
+		    
 
-	<div class="method-subsection method-declaration"><code>@property (nonatomic, strong) NSString *deviceId</code></div>
+			<div class="method-subsection method-declaration"><code>@property (nonatomic, strong) NSString *deviceId</code></div>
 
-    
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	<div class="method-subsection declared-in-section">
-		<h4 class="method-subtitle">Declared In</h4>
-		<code class="declared-in-ref">AWSCognito.h</code><br />
-	</div>				
-	
-	
-</div>
-						
-						<div class="section-method">
-	<a name="//api/name/synchronizeOnWiFiOnly" title="synchronizeOnWiFiOnly"></a>
-	<h3 class="subsubtitle method-title">synchronizeOnWiFiOnly</h3>
-	
-	
-	
-	<div class="method-subsection brief-description">
-		<p>Only synchronize if device is on a WiFi network. Defaults to NO if not set.</p>
-	</div>		
-	
-    
+		    
+			
 
-	<div class="method-subsection method-declaration"><code>@property (nonatomic, assign) BOOL synchronizeOnWiFiOnly</code></div>
+			
 
-    
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	<div class="method-subsection declared-in-section">
-		<h4 class="method-subtitle">Declared In</h4>
-		<code class="declared-in-ref">AWSCognito.h</code><br />
-	</div>				
-	
-	
-</div>
-						
-						<div class="section-method">
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AWSCognitoService.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
 	<a name="//api/name/synchronizeRetries" title="synchronizeRetries"></a>
-	<h3 class="subsubtitle method-title">synchronizeRetries</h3>
-	
-	
-	
-	<div class="method-subsection brief-description">
-		<p>The number of times to attempt a synchronization before failing. This will
+	<h3 class="method-title"><code><a href="#//api/name/synchronizeRetries">&nbsp;&nbsp;synchronizeRetries</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>The number of times to attempt a synchronization before failing. This will
 be set on any AWSCognitoDatasets opened with this client. Defaults to 5 if not set.</p>
-	</div>		
-	
-    
+			</div>
+			
+		    
 
-	<div class="method-subsection method-declaration"><code>@property (nonatomic, assign) uint32_t synchronizeRetries</code></div>
+			<div class="method-subsection method-declaration"><code>@property (nonatomic, assign) uint32_t synchronizeRetries</code></div>
 
-    
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	<div class="method-subsection declared-in-section">
-		<h4 class="method-subtitle">Declared In</h4>
-		<code class="declared-in-ref">AWSCognito.h</code><br />
-	</div>				
-	
-	
-</div>
-						
-					</div>
-					
-					
-					
-					<div class="section section-methods">
-						<a title="Class Methods" name="class_methods"></a>
-						<h2 class="subtitle subtitle-methods">Class Methods</h2>
-						
-						<div class="section-method">
-	<a name="//api/name/cognitoDeviceId" title="cognitoDeviceId"></a>
-	<h3 class="subsubtitle method-title">cognitoDeviceId</h3>
-	
-	
-	
-	<div class="method-subsection brief-description">
-		<p>Get the device id Cognito Sync gave this device. nil if device has never been registered</p>
-	</div>		
-	
-    
+		    
+			
 
-	<div class="method-subsection method-declaration"><code>+ (NSString *)cognitoDeviceId</code></div>
+			
 
-    
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	<div class="method-subsection declared-in-section">
-		<h4 class="method-subtitle">Declared In</h4>
-		<code class="declared-in-ref">AWSCognito.h</code><br />
-	</div>				
-	
-	
-</div>
-						
-						<div class="section-method">
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AWSCognitoService.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/synchronizeOnWiFiOnly" title="synchronizeOnWiFiOnly"></a>
+	<h3 class="method-title"><code><a href="#//api/name/synchronizeOnWiFiOnly">&nbsp;&nbsp;synchronizeOnWiFiOnly</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Only synchronize if device is on a WiFi network. Defaults to NO if not set.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>@property (nonatomic, assign) BOOL synchronizeOnWiFiOnly</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AWSCognitoService.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
 	<a name="//api/name/defaultCognito" title="defaultCognito"></a>
-	<h3 class="subsubtitle method-title">defaultCognito</h3>
-	
-	
-	
-	<div class="method-subsection brief-description">
-		<p>Return a singleton instance of the AWSCognito client with the default service config.
+	<h3 class="method-title"><code><a href="#//api/name/defaultCognito">+&nbsp;defaultCognito</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Returns the singleton service client. If the singleton object does not exist, the SDK instantiates the default service client with <code>defaultServiceConfiguration</code> from <code>[AWSServiceManager defaultServiceManager]</code>. The reference to this object is maintained by the SDK, and you do not need to retain it manually. Returns <code>nil</code> if the credentials provider is not an instance of <code>AWSCognitoCredentials</code> provider.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>+ (instancetype)defaultCognito</code></div>
+
+		    
+			
+
+			
+			<div class="method-subsection return">
+				<h4 class="method-subtitle parameter-title">Return Value</h4>
+				<p>The default service client.</p>
+			</div>
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>For example, set the default service configuration in <code>- application:didFinishLaunchingWithOptions:</code></p>
+
+<p><em>Swift</em></p>
+
+<pre><code> func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -&gt; Bool {
+     let credentialProvider = AWSCognitoCredentialsProvider(regionType: .USEast1, identityPoolId: "YourIdentityPoolId")
+     let configuration = AWSServiceConfiguration(region: .USEast1, credentialsProvider: credentialProvider)
+     AWSServiceManager.defaultServiceManager().defaultServiceConfiguration = configuration
+
+     return true
+ }
+</code></pre>
+
+<p><em>Objective-C</em></p>
+
+<pre><code> - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+      AWSCognitoCredentialsProvider *credentialsProvider = [[AWSCognitoCredentialsProvider alloc] initWithRegionType:AWSRegionUSEast1
+                                                                                                      identityPoolId:@"YourIdentityPoolId"];
+      AWSServiceConfiguration *configuration = [[AWSServiceConfiguration alloc] initWithRegion:AWSRegionUSEast1
+                                                                           credentialsProvider:credentialsProvider];
+      [AWSServiceManager defaultServiceManager].defaultServiceConfiguration = configuration;
+
+      return YES;
+  }
+</code></pre>
+
+<p>Then call the following to get the default service client:</p>
+
+<p><em>Swift</em></p>
+
+<pre><code> let Cognito = AWSCognito.defaultCognito()
+</code></pre>
+
+<p><em>Objective-C</em></p>
+
+<pre><code> AWSCognito *Cognito = [AWSCognito defaultCognito];
+</code></pre>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AWSCognitoService.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/registerCognitoWithConfiguration:forKey:" title="registerCognitoWithConfiguration:forKey:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/registerCognitoWithConfiguration:forKey:">+&nbsp;registerCognitoWithConfiguration:forKey:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Creates a service client with the given service configuration and registers it for the key.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>+ (void)registerCognitoWithConfiguration:(AWSServiceConfiguration *)<em>configuration</em> forKey:(NSString *)<em>key</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>configuration</code></th>
+						<td><p>A service configuration object.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>key</code></th>
+						<td><p>A string to identify the service client.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>For example, set the default service configuration in <code>- application:didFinishLaunchingWithOptions:</code></p>
+
+<p><em>Swift</em></p>
+
+<pre><code> func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -&gt; Bool {
+     let credentialProvider = AWSCognitoCredentialsProvider(regionType: .USEast1, identityPoolId: "YourIdentityPoolId")
+     let configuration = AWSServiceConfiguration(region: .USWest2, credentialsProvider: credentialProvider)
+     AWSCognito.registerCognitoWithConfiguration(configuration, forKey: "USWest2Cognito")
+
+     return true
+ }
+</code></pre>
+
+<p><em>Objective-C</em></p>
+
+<pre><code> - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+     AWSCognitoCredentialsProvider *credentialsProvider = [[AWSCognitoCredentialsProvider alloc] initWithRegionType:AWSRegionUSEast1
+                                                                                                     identityPoolId:@"YourIdentityPoolId"];
+     AWSServiceConfiguration *configuration = [[AWSServiceConfiguration alloc] initWithRegion:AWSRegionUSWest2
+                                                                          credentialsProvider:credentialsProvider];
+
+     [AWSCognito registerCognitoWithConfiguration:configuration forKey:@"USWest2Cognito"];
+
+     return YES;
+ }
+</code></pre>
+
+<p>Then call the following to get the service client:</p>
+
+<p><em>Swift</em></p>
+
+<pre><code> let Cognito = AWSCognito(forKey: "USWest2Cognito")
+</code></pre>
+
+<p><em>Objective-C</em></p>
+
+<pre><code> AWSCognito *Cognito = [AWSCognito CognitoForKey:@"USWest2Cognito"];
+</code></pre><div class="warning"><p><strong>Warning:</strong> After calling this method, do not modify the configuration object. It may cause unspecified behaviors.</p></div>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AWSCognitoService.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/CognitoForKey:" title="CognitoForKey:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/CognitoForKey:">+&nbsp;CognitoForKey:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Retrieves the service client associated with the key. You need to call <code>+ registerCognitoWithConfiguration:forKey:</code> before invoking this method. If <code>+ registerCognitoWithConfiguration:forKey:</code> has not been called in advance or the key does not exist, this method returns <code>nil</code>.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>+ (instancetype)CognitoForKey:(NSString *)<em>key</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>key</code></th>
+						<td><p>A string to identify the service client.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+			<div class="method-subsection return">
+				<h4 class="method-subtitle parameter-title">Return Value</h4>
+				<p>An instance of the service client.</p>
+			</div>
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>For example, set the default service configuration in <code>- application:didFinishLaunchingWithOptions:</code></p>
+
+<p><em>Swift</em></p>
+
+<pre><code> func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -&gt; Bool {
+     let credentialProvider = AWSCognitoCredentialsProvider(regionType: .USEast1, identityPoolId: "YourIdentityPoolId")
+     let configuration = AWSServiceConfiguration(region: .USWest2, credentialsProvider: credentialProvider)
+     AWSCognito.registerCognitoWithConfiguration(configuration, forKey: "USWest2Cognito")
+
+     return true
+ }
+</code></pre>
+
+<p><em>Objective-C</em></p>
+
+<pre><code> - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+     AWSCognitoCredentialsProvider *credentialsProvider = [[AWSCognitoCredentialsProvider alloc] initWithRegionType:AWSRegionUSEast1
+                                                                                                     identityPoolId:@"YourIdentityPoolId"];
+     AWSServiceConfiguration *configuration = [[AWSServiceConfiguration alloc] initWithRegion:AWSRegionUSWest2
+                                                                          credentialsProvider:credentialsProvider];
+
+     [AWSCognito registerCognitoWithConfiguration:configuration forKey:@"USWest2Cognito"];
+
+     return YES;
+ }
+</code></pre>
+
+<p>Then call the following to get the service client:</p>
+
+<p><em>Swift</em></p>
+
+<pre><code> let Cognito = AWSCognito(forKey: "USWest2Cognito")
+</code></pre>
+
+<p><em>Objective-C</em></p>
+
+<pre><code> AWSCognito *Cognito = [AWSCognito CognitoForKey:@"USWest2Cognito"];
+</code></pre>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AWSCognitoService.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/removeCognitoForKey:" title="removeCognitoForKey:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/removeCognitoForKey:">+&nbsp;removeCognitoForKey:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Removes the service client associated with the key and release it.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>+ (void)removeCognitoForKey:(NSString *)<em>key</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>key</code></th>
+						<td><p>A string to identify the service client.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<div class="warning"><p><strong>Warning:</strong> Before calling this method, make sure no method is running on this client.</p></div>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AWSCognitoService.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/initWithConfiguration:" title="initWithConfiguration:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/initWithConfiguration:">&ndash;&nbsp;initWithConfiguration:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Initialize the instance with the supplied service config.
 Will return nil if the credentials provider is not an instance of
 AWSCognitoCredentials provider.</p>
-	</div>		
-	
-    
+			</div>
+			
+		    
 
-	<div class="method-subsection method-declaration"><code>+ (AWSCognito *)defaultCognito</code></div>
+			<div class="method-subsection method-declaration"><code>- (instancetype)initWithConfiguration:(AWSServiceConfiguration *)<em>configuration</em></code></div>
 
-    
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	<div class="method-subsection declared-in-section">
-		<h4 class="method-subtitle">Declared In</h4>
-		<code class="declared-in-ref">AWSCognito.h</code><br />
-	</div>				
-	
-	
-</div>
-						
-						<div class="section-method">
+		    
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AWSCognitoService.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/openOrCreateDataset:" title="openOrCreateDataset:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/openOrCreateDataset:">&ndash;&nbsp;openOrCreateDataset:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Opens an existing dataset or creates a new one.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (AWSCognitoDataset *)openOrCreateDataset:(NSString *)<em>datasetName</em></code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AWSCognitoService.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/listDatasets" title="listDatasets"></a>
+	<h3 class="method-title"><code><a href="#//api/name/listDatasets">&ndash;&nbsp;listDatasets</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>List all datasets our client is aware of. Call refreshDatasetMetadata to ensure
+the client has knowledge of all datasets available on the remote store.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (NSArray *)listDatasets</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AWSCognitoService.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/refreshDatasetMetadata" title="refreshDatasetMetadata"></a>
+	<h3 class="method-title"><code><a href="#//api/name/refreshDatasetMetadata">&ndash;&nbsp;refreshDatasetMetadata</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>List all of the datasets.  Returns a BFTask. The result of this task will be an array of AWSCognitoDatasetMetadata objects.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (BFTask *)refreshDatasetMetadata</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AWSCognitoService.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/wipe" title="wipe"></a>
+	<h3 class="method-title"><code><a href="#//api/name/wipe">&ndash;&nbsp;wipe</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Wipe all cached data.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)wipe</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AWSCognitoService.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
 	<a name="//api/name/defaultConflictHandler" title="defaultConflictHandler"></a>
-	<h3 class="subsubtitle method-title">defaultConflictHandler</h3>
-	
-	
-	
-	<div class="method-subsection brief-description">
-		<p>Get the default, last writer wins conflict handler</p>
-	</div>		
-	
-    
+	<h3 class="method-title"><code><a href="#//api/name/defaultConflictHandler">+&nbsp;defaultConflictHandler</a></code>
+</h3>
 
-	<div class="method-subsection method-declaration"><code>+ (AWSCognitoRecordConflictHandler)defaultConflictHandler</code></div>
+	<div class="method-info">
+		<div class="pointy-thing"></div>
 
-    
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	<div class="method-subsection declared-in-section">
-		<h4 class="method-subtitle">Declared In</h4>
-		<code class="declared-in-ref">AWSCognito.h</code><br />
-	</div>				
-	
-	
-</div>
-						
-						<div class="section-method">
-	<a name="//api/name/pushPlatform" title="pushPlatform"></a>
-	<h3 class="subsubtitle method-title">pushPlatform</h3>
-	
-	
-	
-	<div class="method-subsection brief-description">
-		<p>The push platform for push notifications</p>
-	</div>		
-	
-    
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Get the default, last writer wins conflict handler</p>
+			</div>
+			
+		    
 
-	<div class="method-subsection method-declaration"><code>+ (AWSCognitoSyncPlatform)pushPlatform</code></div>
+			<div class="method-subsection method-declaration"><code>+ (AWSCognitoRecordConflictHandler)defaultConflictHandler</code></div>
 
-    
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	<div class="method-subsection declared-in-section">
-		<h4 class="method-subtitle">Declared In</h4>
-		<code class="declared-in-ref">AWSCognito.h</code><br />
-	</div>				
-	
-	
-</div>
-						
-						<div class="section-method">
+		    
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AWSCognitoService.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/registerDevice:" title="registerDevice:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/registerDevice:">&ndash;&nbsp;registerDevice:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Register this device for push notifications.  You will not receive any notifications until you actually subscribe the
+dataset you want to receive push notifications for.  If your build targets Release, this will register the device
+with APNS, if your build targets Debug this will register the device with APNS_SANDBOX. Returns a BFTask.
+The result of this task will be a AWSCognitoSyncRegisterDeviceResponse.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (BFTask *)registerDevice:(NSData *)<em>deviceToken</em></code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AWSCognitoService.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/cognitoDeviceId" title="cognitoDeviceId"></a>
+	<h3 class="method-title"><code><a href="#//api/name/cognitoDeviceId">+&nbsp;cognitoDeviceId</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Get the device id Cognito Sync gave this device. nil if device has never been registered</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>+ (NSString *)cognitoDeviceId</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AWSCognitoService.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
 	<a name="//api/name/setPushPlatform:" title="setPushPlatform:"></a>
-	<h3 class="subsubtitle method-title">setPushPlatform:</h3>
-	
-	
-	
-	<div class="method-subsection brief-description">
-		<p>Used to override the platform for push notifications. If you are not using the CocoaPods distribution,</p>
+	<h3 class="method-title"><code><a href="#//api/name/setPushPlatform:">+&nbsp;setPushPlatform:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Used to override the platform for push notifications. If you are not using the CocoaPods distribution,</p>
 
 <h1>ifdef DEBUG</h1>
 
@@ -829,531 +1190,270 @@ AWSCognitoCredentials provider.</p>
 
 <p>will set push notifications to use the APNS_SANDBOX if your build targets Debug.  Otherwise it will
 always use APNS.</p>
-	</div>		
-	
-    
-
-	<div class="method-subsection method-declaration"><code>+ (void)setPushPlatform:(AWSCognitoSyncPlatform)<em>pushPlatform</em></code></div>
-
-    
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	<div class="method-subsection declared-in-section">
-		<h4 class="method-subtitle">Declared In</h4>
-		<code class="declared-in-ref">AWSCognito.h</code><br />
-	</div>				
-	
-	
-</div>
-						
-					</div>
-					
-					
-					
-					<div class="section section-methods">
-						<a title="Instance Methods" name="instance_methods"></a>
-						<h2 class="subtitle subtitle-methods">Instance Methods</h2>
-						
-						<div class="section-method">
-	<a name="//api/name/initWithConfiguration:" title="initWithConfiguration:"></a>
-	<h3 class="subsubtitle method-title">initWithConfiguration:</h3>
-	
-	
-	
-	<div class="method-subsection brief-description">
-		<p>Initialize the instance with the supplied service config.
-Will return nil if the credentials provider is not an instance of
-AWSCognitoCredentials provider.</p>
-	</div>		
-	
-    
-
-	<div class="method-subsection method-declaration"><code>- (instancetype)initWithConfiguration:(AWSServiceConfiguration *)<em>configuration</em></code></div>
-
-    
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	<div class="method-subsection declared-in-section">
-		<h4 class="method-subtitle">Declared In</h4>
-		<code class="declared-in-ref">AWSCognito.h</code><br />
-	</div>				
-	
-	
-</div>
-						
-						<div class="section-method">
-	<a name="//api/name/listDatasets" title="listDatasets"></a>
-	<h3 class="subsubtitle method-title">listDatasets</h3>
-	
-	
-	
-	<div class="method-subsection brief-description">
-		<p>List all datasets our client is aware of. Call refreshDatasetMetadata to ensure
-the client has knowledge of all datasets available on the remote store.</p>
-	</div>		
-	
-    
-
-	<div class="method-subsection method-declaration"><code>- (NSArray *)listDatasets</code></div>
-
-    
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	<div class="method-subsection declared-in-section">
-		<h4 class="method-subtitle">Declared In</h4>
-		<code class="declared-in-ref">AWSCognito.h</code><br />
-	</div>				
-	
-	
-</div>
-						
-						<div class="section-method">
-	<a name="//api/name/openOrCreateDataset:" title="openOrCreateDataset:"></a>
-	<h3 class="subsubtitle method-title">openOrCreateDataset:</h3>
-	
-	
-	
-	<div class="method-subsection brief-description">
-		<p>Opens an existing dataset or creates a new one.</p>
-	</div>		
-	
-    
-
-	<div class="method-subsection method-declaration"><code>- (AWSCognitoDataset *)openOrCreateDataset:(NSString *)<em>datasetName</em></code></div>
-
-    
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	<div class="method-subsection declared-in-section">
-		<h4 class="method-subtitle">Declared In</h4>
-		<code class="declared-in-ref">AWSCognito.h</code><br />
-	</div>				
-	
-	
-</div>
-						
-						<div class="section-method">
-	<a name="//api/name/refreshDatasetMetadata" title="refreshDatasetMetadata"></a>
-	<h3 class="subsubtitle method-title">refreshDatasetMetadata</h3>
-	
-	
-	
-	<div class="method-subsection brief-description">
-		<p>List all of the datasets.  Returns a BFTask. The result of this task will be an array of AWSCognitoDatasetMetadata objects.</p>
-	</div>		
-	
-    
-
-	<div class="method-subsection method-declaration"><code>- (BFTask *)refreshDatasetMetadata</code></div>
-
-    
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	<div class="method-subsection declared-in-section">
-		<h4 class="method-subtitle">Declared In</h4>
-		<code class="declared-in-ref">AWSCognito.h</code><br />
-	</div>				
-	
-	
-</div>
-						
-						<div class="section-method">
-	<a name="//api/name/registerDevice:" title="registerDevice:"></a>
-	<h3 class="subsubtitle method-title">registerDevice:</h3>
-	
-	
-	
-	<div class="method-subsection brief-description">
-		<p>Register this device for push notifications.  You will not receive any notifications until you actually subscribe the
-dataset you want to receive push notifications for.  If your build targets Release, this will register the device
-with APNS, if your build targets Debug this will register the device with APNS_SANDBOX. Returns a BFTask.
-The result of this task will be a AWSCognitoSyncRegisterDeviceResponse.</p>
-	</div>		
-	
-    
-
-	<div class="method-subsection method-declaration"><code>- (BFTask *)registerDevice:(NSData *)<em>deviceToken</em></code></div>
-
-    
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	<div class="method-subsection declared-in-section">
-		<h4 class="method-subtitle">Declared In</h4>
-		<code class="declared-in-ref">AWSCognito.h</code><br />
-	</div>				
-	
-	
-</div>
-						
-						<div class="section-method">
-	<a name="//api/name/subscribe:" title="subscribe:"></a>
-	<h3 class="subsubtitle method-title">subscribe:</h3>
-	
-	
-	
-	<div class="method-subsection brief-description">
-		<p>Subscribe to a list of datasets.  Make sure you have called synchronize on each of the datasets in the list
-at least once prior to calling this. Returns a BFTask.  The result of this task will be a NSArray of
-AWSCognitoSyncSubscribeToDatasetResponse</p>
-	</div>		
-	
-    
-
-	<div class="method-subsection method-declaration"><code>- (BFTask *)subscribe:(NSArray *)<em>datasetNames</em></code></div>
-
-    
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	<div class="method-subsection declared-in-section">
-		<h4 class="method-subtitle">Declared In</h4>
-		<code class="declared-in-ref">AWSCognito.h</code><br />
-	</div>				
-	
-	
-</div>
-						
-						<div class="section-method">
-	<a name="//api/name/subscribeAll" title="subscribeAll"></a>
-	<h3 class="subsubtitle method-title">subscribeAll</h3>
-	
-	
-	
-	<div class="method-subsection brief-description">
-		<p>Subscribe to all datasets you have locally.  Make sure you have called synchronize on all of your local datasets
-at least once prior to calling this. Returns a BFTask.  The result of this task will be a NSArray of
-AWSCognitoSyncSubscribeToDatasetResponse</p>
-	</div>		
-	
-    
-
-	<div class="method-subsection method-declaration"><code>- (BFTask *)subscribeAll</code></div>
-
-    
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	<div class="method-subsection declared-in-section">
-		<h4 class="method-subtitle">Declared In</h4>
-		<code class="declared-in-ref">AWSCognito.h</code><br />
-	</div>				
-	
-	
-</div>
-						
-						<div class="section-method">
-	<a name="//api/name/unsubscribe:" title="unsubscribe:"></a>
-	<h3 class="subsubtitle method-title">unsubscribe:</h3>
-	
-	
-	
-	<div class="method-subsection brief-description">
-		<p>Unsubscribe to a list of datasets. Returns a BFTask.  The result of this task will be a NSArray of
-AWSCognitoSyncUnsubscribeToDatasetResponse</p>
-	</div>		
-	
-    
-
-	<div class="method-subsection method-declaration"><code>- (BFTask *)unsubscribe:(NSArray *)<em>datasetNames</em></code></div>
-
-    
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	<div class="method-subsection declared-in-section">
-		<h4 class="method-subtitle">Declared In</h4>
-		<code class="declared-in-ref">AWSCognito.h</code><br />
-	</div>				
-	
-	
-</div>
-						
-						<div class="section-method">
-	<a name="//api/name/unsubscribeAll" title="unsubscribeAll"></a>
-	<h3 class="subsubtitle method-title">unsubscribeAll</h3>
-	
-	
-	
-	<div class="method-subsection brief-description">
-		<p>Unsubscribe to all datasets you have locally.  Make sure you have called synchronize on all of your local datasets
-at least once prior to calling this. Returns a BFTask.  The result of this task will be a NSArray of
-AWSCognitoSyncUnsubscribeToDatasetResponse</p>
-	</div>		
-	
-    
-
-	<div class="method-subsection method-declaration"><code>- (BFTask *)unsubscribeAll</code></div>
-
-    
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	<div class="method-subsection declared-in-section">
-		<h4 class="method-subtitle">Declared In</h4>
-		<code class="declared-in-ref">AWSCognito.h</code><br />
-	</div>				
-	
-	
-</div>
-						
-						<div class="section-method">
-	<a name="//api/name/wipe" title="wipe"></a>
-	<h3 class="subsubtitle method-title">wipe</h3>
-	
-	
-	
-	<div class="method-subsection brief-description">
-		<p>Wipe all cached data.</p>
-	</div>		
-	
-    
-
-	<div class="method-subsection method-declaration"><code>- (void)wipe</code></div>
-
-    
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	<div class="method-subsection declared-in-section">
-		<h4 class="method-subtitle">Declared In</h4>
-		<code class="declared-in-ref">AWSCognito.h</code><br />
-	</div>				
-	
-	
-</div>
-						
-					</div>
-					
-					
-                    
-                    
-                    
-                    
-
-				</div>
-				<div class="main-navigation navigation-bottom">
-					<ul>
-	<li><a href="../index.html">Index</a></li>
-	<li><a href="../hierarchy.html">Hierarchy</a></li>
-</ul>
-				</div>
-				<div id="footer">
-					<hr />
-					<div class="footer-copyright">
-						<p><span class="copyright">&copy; 2015 Amazon Web Services, Inc.. All rights reserved. (Last updated: 2015-02-09)</span><br />
-						
-						<span class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.2 (build 963)</a>.</span></p>
-						
-					</div>
-				</div>
 			</div>
-		</article>
-		<script type="text/javascript">
-			function jumpToChange()
-			{
-				window.location.hash = this.options[this.selectedIndex].value;
-			}
 			
-			function toggleTOC()
-			{
-				var contents = document.getElementById('contents');
-				var tocContainer = document.getElementById('tocContainer');
-				
-				if (this.getAttribute('class') == 'open')
-				{
-					this.setAttribute('class', '');
-					contents.setAttribute('class', '');
-					tocContainer.setAttribute('class', '');
+		    
+
+			<div class="method-subsection method-declaration"><code>+ (void)setPushPlatform:(AWSCognitoSyncPlatform)<em>pushPlatform</em></code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AWSCognitoService.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/pushPlatform" title="pushPlatform"></a>
+	<h3 class="method-title"><code><a href="#//api/name/pushPlatform">+&nbsp;pushPlatform</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>The push platform for push notifications</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>+ (AWSCognitoSyncPlatform)pushPlatform</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AWSCognitoService.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/subscribe:" title="subscribe:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/subscribe:">&ndash;&nbsp;subscribe:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Subscribe to a list of datasets.  Make sure you have called synchronize on each of the datasets in the list
+at least once prior to calling this. Returns a BFTask.  The result of this task will be a NSArray of
+AWSCognitoSyncSubscribeToDatasetResponse</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (BFTask *)subscribe:(NSArray *)<em>datasetNames</em></code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AWSCognitoService.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/subscribeAll" title="subscribeAll"></a>
+	<h3 class="method-title"><code><a href="#//api/name/subscribeAll">&ndash;&nbsp;subscribeAll</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Subscribe to all datasets you have locally.  Make sure you have called synchronize on all of your local datasets
+at least once prior to calling this. Returns a BFTask.  The result of this task will be a NSArray of
+AWSCognitoSyncSubscribeToDatasetResponse</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (BFTask *)subscribeAll</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AWSCognitoService.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/unsubscribe:" title="unsubscribe:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/unsubscribe:">&ndash;&nbsp;unsubscribe:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Unsubscribe to a list of datasets. Returns a BFTask.  The result of this task will be a NSArray of
+AWSCognitoSyncUnsubscribeToDatasetResponse</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (BFTask *)unsubscribe:(NSArray *)<em>datasetNames</em></code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AWSCognitoService.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/unsubscribeAll" title="unsubscribeAll"></a>
+	<h3 class="method-title"><code><a href="#//api/name/unsubscribeAll">&ndash;&nbsp;unsubscribeAll</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Unsubscribe to all datasets you have locally.  Make sure you have called synchronize on all of your local datasets
+at least once prior to calling this. Returns a BFTask.  The result of this task will be a NSArray of
+AWSCognitoSyncUnsubscribeToDatasetResponse</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (BFTask *)unsubscribeAll</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AWSCognitoService.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div>
+						</div>
+						
+					</div>
 					
-					window.name = "hideTOC";
-				}
-				else
-				{
-					this.setAttribute('class', 'open');
-					contents.setAttribute('class', 'isShowingTOC');
-					tocContainer.setAttribute('class', 'isShowingTOC');
 					
-					window.name = "";
-				}
-				return false;
-			}
-			
-			function toggleTOCEntryChildren(e)
-			{
-				e.stopPropagation();
-				var currentClass = this.getAttribute('class');
-				if (currentClass == 'children') {
-					this.setAttribute('class', 'children open');
-				}
-				else if (currentClass == 'children open') {
-					this.setAttribute('class', 'children');
-				}
-				return false;
-			}
-			
-			function tocEntryClick(e)
-			{
-				e.stopPropagation();
-				return true;
-			}
-			
-			function init()
-			{
-				var selectElement = document.getElementById('jumpTo');
-				selectElement.addEventListener('change', jumpToChange, false);
-				
-				var tocButton = document.getElementById('table_of_contents');
-				tocButton.addEventListener('click', toggleTOC, false);
-				
-				var taskTreeItem = document.getElementById('task_treeitem');
-				if (taskTreeItem.getElementsByTagName('li').length > 0)
-				{
-					taskTreeItem.setAttribute('class', 'children');
-					taskTreeItem.firstChild.setAttribute('class', 'disclosure');
-				}
-				
-				var tocList = document.getElementById('toc');
-				
-				var tocEntries = tocList.getElementsByTagName('li');
-				for (var i = 0; i < tocEntries.length; i++) {
-					tocEntries[i].addEventListener('click', toggleTOCEntryChildren, false);
-				}
-				
-				var tocLinks = tocList.getElementsByTagName('a');
-				for (var i = 0; i < tocLinks.length; i++) {
-					tocLinks[i].addEventListener('click', tocEntryClick, false);
-				}
-				
-				if (window.name == "hideTOC") {
-					toggleTOC.call(tocButton);
-				}
-			}
-			
-			window.onload = init;
-			
-			// If showing in Xcode, hide the TOC and Header
-			if (navigator.userAgent.match(/xcode/i)) {
-				document.getElementById("contents").className = "hideInXcode"
-				document.getElementById("tocContainer").className = "hideInXcode"
-				document.getElementById("top_header").className = "hideInXcode"
-			}
-			
-		</script>
-	</body>
+
+                    
+				</main>
+
+				<footer>
+					<div class="footer-copyright">
+						
+						<p class="copyright">Copyright &copy; 2015 Amazon Web Services, Inc. All rights reserved. Updated: 2015-03-25</p>
+						
+						
+						<p class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.2.1 (build 1333)</a>.</p>
+						
+					</div>
+				</footer>
+			</div>
+		</div>
+	</article>
+
+	<script src="../js/script.js"></script>
+</body>
 </html>

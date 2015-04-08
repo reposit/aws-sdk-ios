@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSS3WebsiteConfiguration.html">
+	<File path="Classes/AWSS3RequestPaymentConfiguration.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSS3WebsiteConfiguration</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSS3RequestPaymentConfiguration</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSS3Model.h</DeclaredIn>
             
@@ -13,146 +13,38 @@
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3WebsiteConfiguration/setErrorDocument:</TokenIdentifier>
-			<Abstract type="html"></Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3RequestPaymentConfiguration/setPayer:</TokenIdentifier>
+			<Abstract type="html">Specifies who pays for the download and request fees.</Abstract>
 			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) AWSS3ErrorDocument *errorDocument</Declaration>
+			<Declaration>@property (nonatomic, assign) AWSS3Payer payer</Declaration>
 			
 			
-			<Anchor>//api/name/errorDocument</Anchor>
+			<Anchor>//api/name/payer</Anchor>
             <NodeRef refid="870"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3WebsiteConfiguration/errorDocument</TokenIdentifier>
-			<Abstract type="html"></Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3RequestPaymentConfiguration/payer</TokenIdentifier>
+			<Abstract type="html">Specifies who pays for the download and request fees.</Abstract>
 			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) AWSS3ErrorDocument *errorDocument</Declaration>
+			<Declaration>@property (nonatomic, assign) AWSS3Payer payer</Declaration>
 			
 			
-			<Anchor>//api/name/errorDocument</Anchor>
+			<Anchor>//api/name/payer</Anchor>
             <NodeRef refid="870"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSS3WebsiteConfiguration/errorDocument</TokenIdentifier>
-			<Abstract type="html"></Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSS3RequestPaymentConfiguration/payer</TokenIdentifier>
+			<Abstract type="html">Specifies who pays for the download and request fees.</Abstract>
 			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) AWSS3ErrorDocument *errorDocument</Declaration>
+			<Declaration>@property (nonatomic, assign) AWSS3Payer payer</Declaration>
 			
 			
-			<Anchor>//api/name/errorDocument</Anchor>
-            <NodeRef refid="870"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3WebsiteConfiguration/setIndexDocument:</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) AWSS3IndexDocument *indexDocument</Declaration>
-			
-			
-			<Anchor>//api/name/indexDocument</Anchor>
-            <NodeRef refid="870"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3WebsiteConfiguration/indexDocument</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) AWSS3IndexDocument *indexDocument</Declaration>
-			
-			
-			<Anchor>//api/name/indexDocument</Anchor>
-            <NodeRef refid="870"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSS3WebsiteConfiguration/indexDocument</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) AWSS3IndexDocument *indexDocument</Declaration>
-			
-			
-			<Anchor>//api/name/indexDocument</Anchor>
-            <NodeRef refid="870"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3WebsiteConfiguration/setRedirectAllRequestsTo:</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) AWSS3RedirectAllRequestsTo *redirectAllRequestsTo</Declaration>
-			
-			
-			<Anchor>//api/name/redirectAllRequestsTo</Anchor>
-            <NodeRef refid="870"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3WebsiteConfiguration/redirectAllRequestsTo</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) AWSS3RedirectAllRequestsTo *redirectAllRequestsTo</Declaration>
-			
-			
-			<Anchor>//api/name/redirectAllRequestsTo</Anchor>
-            <NodeRef refid="870"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSS3WebsiteConfiguration/redirectAllRequestsTo</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) AWSS3RedirectAllRequestsTo *redirectAllRequestsTo</Declaration>
-			
-			
-			<Anchor>//api/name/redirectAllRequestsTo</Anchor>
-            <NodeRef refid="870"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3WebsiteConfiguration/setRoutingRules:</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSArray *routingRules</Declaration>
-			
-			
-			<Anchor>//api/name/routingRules</Anchor>
-            <NodeRef refid="870"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3WebsiteConfiguration/routingRules</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSArray *routingRules</Declaration>
-			
-			
-			<Anchor>//api/name/routingRules</Anchor>
-            <NodeRef refid="870"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSS3WebsiteConfiguration/routingRules</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSArray *routingRules</Declaration>
-			
-			
-			<Anchor>//api/name/routingRules</Anchor>
+			<Anchor>//api/name/payer</Anchor>
             <NodeRef refid="870"/>
 		</Token>
 		

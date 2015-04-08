@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSEC2GroupIdentifier.html">
+	<File path="Classes/AWSEC2Filter.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSEC2GroupIdentifier</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Describes a security group.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSEC2Filter</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;A filter name and value pair that is used to return a more specific list of results. Filters can be used to match a set of resources by various criteria, such as tags, attributes, or IDs.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
             
 			
@@ -13,74 +13,74 @@
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2GroupIdentifier/setGroupId:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The ID of the security group.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2Filter/setName:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The name of the filter. Filter names are case-sensitive.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *groupId</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *name</Declaration>
 			
 			
-			<Anchor>//api/name/groupId</Anchor>
+			<Anchor>//api/name/name</Anchor>
             <NodeRef refid="460"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2GroupIdentifier/groupId</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The ID of the security group.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2Filter/name</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The name of the filter. Filter names are case-sensitive.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *groupId</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *name</Declaration>
 			
 			
-			<Anchor>//api/name/groupId</Anchor>
+			<Anchor>//api/name/name</Anchor>
             <NodeRef refid="460"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2GroupIdentifier/groupId</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The ID of the security group.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2Filter/name</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The name of the filter. Filter names are case-sensitive.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *groupId</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *name</Declaration>
 			
 			
-			<Anchor>//api/name/groupId</Anchor>
+			<Anchor>//api/name/name</Anchor>
             <NodeRef refid="460"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2GroupIdentifier/setGroupName:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The name of the security group.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2Filter/setValues:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;One or more filter values. Filter values are case-sensitive.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *groupName</Declaration>
+			<Declaration>@property (nonatomic, strong) NSArray *values</Declaration>
 			
 			
-			<Anchor>//api/name/groupName</Anchor>
+			<Anchor>//api/name/values</Anchor>
             <NodeRef refid="460"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2GroupIdentifier/groupName</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The name of the security group.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2Filter/values</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;One or more filter values. Filter values are case-sensitive.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *groupName</Declaration>
+			<Declaration>@property (nonatomic, strong) NSArray *values</Declaration>
 			
 			
-			<Anchor>//api/name/groupName</Anchor>
+			<Anchor>//api/name/values</Anchor>
             <NodeRef refid="460"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2GroupIdentifier/groupName</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The name of the security group.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2Filter/values</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;One or more filter values. Filter values are case-sensitive.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *groupName</Declaration>
+			<Declaration>@property (nonatomic, strong) NSArray *values</Declaration>
 			
 			
-			<Anchor>//api/name/groupName</Anchor>
+			<Anchor>//api/name/values</Anchor>
             <NodeRef refid="460"/>
 		</Token>
 		

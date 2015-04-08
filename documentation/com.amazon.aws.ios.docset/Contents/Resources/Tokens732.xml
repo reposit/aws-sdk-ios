@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSLogger.html">
+	<File path="Classes/AWSKinesisPutRecordsOutput.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSLogger</TokenIdentifier>
-			<Abstract type="html">AWSLogger is an utility class that handles logging to the console.
-You can specify the log level to control how verbose the output will be.</Abstract>
-			<DeclaredIn>AWSLogging.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSKinesisPutRecordsOutput</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;&lt;code&gt;PutRecords&lt;/code&gt; results.&lt;/p&gt;
+Required parameters: [Records]</Abstract>
+			<DeclaredIn>AWSKinesisModel.h</DeclaredIn>
             
 			
 			<NodeRef refid="732"/>
@@ -14,70 +14,74 @@ You can specify the log level to control how verbose the output will be.</Abstra
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSLogger/setLogLevel:</TokenIdentifier>
-			<Abstract type="html">The log level setting. The default is AWSLogLevelNone.</Abstract>
-			<DeclaredIn>AWSLogging.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSKinesisPutRecordsOutput/setFailedRecordCount:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The number of unsuccessfully processed records in a &lt;code&gt;PutRecords&lt;/code&gt; request.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSKinesisModel.h</DeclaredIn>
 			
-			<Declaration>@property (atomic, assign) AWSLogLevel logLevel</Declaration>
+			<Declaration>@property (nonatomic, strong) NSNumber *failedRecordCount</Declaration>
 			
 			
-			<Anchor>//api/name/logLevel</Anchor>
+			<Anchor>//api/name/failedRecordCount</Anchor>
             <NodeRef refid="732"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSLogger/logLevel</TokenIdentifier>
-			<Abstract type="html">The log level setting. The default is AWSLogLevelNone.</Abstract>
-			<DeclaredIn>AWSLogging.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSKinesisPutRecordsOutput/failedRecordCount</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The number of unsuccessfully processed records in a &lt;code&gt;PutRecords&lt;/code&gt; request.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSKinesisModel.h</DeclaredIn>
 			
-			<Declaration>@property (atomic, assign) AWSLogLevel logLevel</Declaration>
+			<Declaration>@property (nonatomic, strong) NSNumber *failedRecordCount</Declaration>
 			
 			
-			<Anchor>//api/name/logLevel</Anchor>
+			<Anchor>//api/name/failedRecordCount</Anchor>
             <NodeRef refid="732"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSLogger/logLevel</TokenIdentifier>
-			<Abstract type="html">The log level setting. The default is AWSLogLevelNone.</Abstract>
-			<DeclaredIn>AWSLogging.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSKinesisPutRecordsOutput/failedRecordCount</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The number of unsuccessfully processed records in a &lt;code&gt;PutRecords&lt;/code&gt; request.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSKinesisModel.h</DeclaredIn>
 			
-			<Declaration>@property (atomic, assign) AWSLogLevel logLevel</Declaration>
+			<Declaration>@property (nonatomic, strong) NSNumber *failedRecordCount</Declaration>
 			
 			
-			<Anchor>//api/name/logLevel</Anchor>
+			<Anchor>//api/name/failedRecordCount</Anchor>
             <NodeRef refid="732"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/clm/AWSLogger/defaultLogger</TokenIdentifier>
-			<Abstract type="html">Returns the shared logger object.</Abstract>
-			<DeclaredIn>AWSLogging.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSKinesisPutRecordsOutput/setRecords:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;An array of successfully and unsuccessfully processed record results, correlated with the request by natural ordering. A record that is successfully added to your Amazon Kinesis stream includes &lt;code&gt;SequenceNumber&lt;/code&gt; and &lt;code&gt;ShardId&lt;/code&gt; in the result. A record that fails to be added to your Amazon Kinesis stream includes &lt;code&gt;ErrorCode&lt;/code&gt; and &lt;code&gt;ErrorMessage&lt;/code&gt; in the result.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSKinesisModel.h</DeclaredIn>
 			
-			<Declaration>+ (instancetype)defaultLogger</Declaration>
+			<Declaration>@property (nonatomic, strong) NSArray *records</Declaration>
 			
-			<ReturnValue><Abstract type="html">The shared logger object.</Abstract></ReturnValue>
-			<Anchor>//api/name/defaultLogger</Anchor>
+			
+			<Anchor>//api/name/records</Anchor>
             <NodeRef refid="732"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSLogger/log:format:</TokenIdentifier>
-			<Abstract type="html">Prints out the formatted logs to the console.</Abstract>
-			<DeclaredIn>AWSLogging.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSKinesisPutRecordsOutput/records</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;An array of successfully and unsuccessfully processed record results, correlated with the request by natural ordering. A record that is successfully added to your Amazon Kinesis stream includes &lt;code&gt;SequenceNumber&lt;/code&gt; and &lt;code&gt;ShardId&lt;/code&gt; in the result. A record that fails to be added to your Amazon Kinesis stream includes &lt;code&gt;ErrorCode&lt;/code&gt; and &lt;code&gt;ErrorMessage&lt;/code&gt; in the result.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSKinesisModel.h</DeclaredIn>
 			
-			<Declaration>- (void)log:(AWSLogLevel)logLevel format:(NSString *)fmt, ...</Declaration>
-			<Parameters>
-				<Parameter>
-					<Name>logLevel</Name>
-					<Abstract type="html">The level of this log.</Abstract>
-				</Parameter><Parameter>
-					<Name>fmt</Name>
-					<Abstract type="html">The formatted string to log.</Abstract>
-				</Parameter>
-			</Parameters>
+			<Declaration>@property (nonatomic, strong) NSArray *records</Declaration>
 			
-			<Anchor>//api/name/log:format:</Anchor>
+			
+			<Anchor>//api/name/records</Anchor>
+            <NodeRef refid="732"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSKinesisPutRecordsOutput/records</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;An array of successfully and unsuccessfully processed record results, correlated with the request by natural ordering. A record that is successfully added to your Amazon Kinesis stream includes &lt;code&gt;SequenceNumber&lt;/code&gt; and &lt;code&gt;ShardId&lt;/code&gt; in the result. A record that fails to be added to your Amazon Kinesis stream includes &lt;code&gt;ErrorCode&lt;/code&gt; and &lt;code&gt;ErrorMessage&lt;/code&gt; in the result.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSKinesisModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray *records</Declaration>
+			
+			
+			<Anchor>//api/name/records</Anchor>
             <NodeRef refid="732"/>
 		</Token>
 		

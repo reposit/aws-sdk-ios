@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSS3GetBucketLifecycleRequest.html">
+	<File path="Classes/AWSS3DeleteBucketPolicyRequest.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSS3GetBucketLifecycleRequest</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSS3DeleteBucketPolicyRequest</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSS3Model.h</DeclaredIn>
             
@@ -13,7 +13,7 @@
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3GetBucketLifecycleRequest/setBucket:</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3DeleteBucketPolicyRequest/setBucket:</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
@@ -25,7 +25,7 @@
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3GetBucketLifecycleRequest/bucket</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3DeleteBucketPolicyRequest/bucket</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
@@ -37,7 +37,7 @@
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSS3GetBucketLifecycleRequest/bucket</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSS3DeleteBucketPolicyRequest/bucket</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			

@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSKinesisSequenceNumberRange.html">
+	<File path="Classes/AWSKinesisListTagsForStreamOutput.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSKinesisSequenceNumberRange</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The range of possible sequence numbers for the shard.&lt;/p&gt;
-Required parameters: [StartingSequenceNumber]</Abstract>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSKinesisListTagsForStreamOutput</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Represents the output for &lt;code&gt;ListTagsForStream&lt;/code&gt;.&lt;/p&gt;
+Required parameters: [Tags, HasMoreTags]</Abstract>
 			<DeclaredIn>AWSKinesisModel.h</DeclaredIn>
             
 			
@@ -14,74 +14,74 @@ Required parameters: [StartingSequenceNumber]</Abstract>
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSKinesisSequenceNumberRange/setEndingSequenceNumber:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The ending sequence number for the range. Shards that are in the OPEN state have an ending sequence number of &lt;code&gt;null&lt;/code&gt;.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSKinesisListTagsForStreamOutput/setHasMoreTags:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;If set to &lt;code&gt;true&lt;/code&gt;, more tags are available. To request additional tags, set &lt;code&gt;ExclusiveStartTagKey&lt;/code&gt; to the key of the last tag returned.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSKinesisModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *endingSequenceNumber</Declaration>
+			<Declaration>@property (nonatomic, strong) NSNumber *hasMoreTags</Declaration>
 			
 			
-			<Anchor>//api/name/endingSequenceNumber</Anchor>
+			<Anchor>//api/name/hasMoreTags</Anchor>
             <NodeRef refid="727"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSKinesisSequenceNumberRange/endingSequenceNumber</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The ending sequence number for the range. Shards that are in the OPEN state have an ending sequence number of &lt;code&gt;null&lt;/code&gt;.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSKinesisListTagsForStreamOutput/hasMoreTags</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;If set to &lt;code&gt;true&lt;/code&gt;, more tags are available. To request additional tags, set &lt;code&gt;ExclusiveStartTagKey&lt;/code&gt; to the key of the last tag returned.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSKinesisModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *endingSequenceNumber</Declaration>
+			<Declaration>@property (nonatomic, strong) NSNumber *hasMoreTags</Declaration>
 			
 			
-			<Anchor>//api/name/endingSequenceNumber</Anchor>
+			<Anchor>//api/name/hasMoreTags</Anchor>
             <NodeRef refid="727"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSKinesisSequenceNumberRange/endingSequenceNumber</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The ending sequence number for the range. Shards that are in the OPEN state have an ending sequence number of &lt;code&gt;null&lt;/code&gt;.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSKinesisListTagsForStreamOutput/hasMoreTags</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;If set to &lt;code&gt;true&lt;/code&gt;, more tags are available. To request additional tags, set &lt;code&gt;ExclusiveStartTagKey&lt;/code&gt; to the key of the last tag returned.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSKinesisModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *endingSequenceNumber</Declaration>
+			<Declaration>@property (nonatomic, strong) NSNumber *hasMoreTags</Declaration>
 			
 			
-			<Anchor>//api/name/endingSequenceNumber</Anchor>
+			<Anchor>//api/name/hasMoreTags</Anchor>
             <NodeRef refid="727"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSKinesisSequenceNumberRange/setStartingSequenceNumber:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The starting sequence number for the range.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSKinesisListTagsForStreamOutput/setTags:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;A list of tags associated with &lt;code&gt;StreamName&lt;/code&gt;, starting with the first tag after &lt;code&gt;ExclusiveStartTagKey&lt;/code&gt; and up to the specified &lt;code&gt;Limit&lt;/code&gt;. &lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSKinesisModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *startingSequenceNumber</Declaration>
+			<Declaration>@property (nonatomic, strong) NSArray *tags</Declaration>
 			
 			
-			<Anchor>//api/name/startingSequenceNumber</Anchor>
+			<Anchor>//api/name/tags</Anchor>
             <NodeRef refid="727"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSKinesisSequenceNumberRange/startingSequenceNumber</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The starting sequence number for the range.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSKinesisListTagsForStreamOutput/tags</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;A list of tags associated with &lt;code&gt;StreamName&lt;/code&gt;, starting with the first tag after &lt;code&gt;ExclusiveStartTagKey&lt;/code&gt; and up to the specified &lt;code&gt;Limit&lt;/code&gt;. &lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSKinesisModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *startingSequenceNumber</Declaration>
+			<Declaration>@property (nonatomic, strong) NSArray *tags</Declaration>
 			
 			
-			<Anchor>//api/name/startingSequenceNumber</Anchor>
+			<Anchor>//api/name/tags</Anchor>
             <NodeRef refid="727"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSKinesisSequenceNumberRange/startingSequenceNumber</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The starting sequence number for the range.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSKinesisListTagsForStreamOutput/tags</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;A list of tags associated with &lt;code&gt;StreamName&lt;/code&gt;, starting with the first tag after &lt;code&gt;ExclusiveStartTagKey&lt;/code&gt; and up to the specified &lt;code&gt;Limit&lt;/code&gt;. &lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSKinesisModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *startingSequenceNumber</Declaration>
+			<Declaration>@property (nonatomic, strong) NSArray *tags</Declaration>
 			
 			
-			<Anchor>//api/name/startingSequenceNumber</Anchor>
+			<Anchor>//api/name/tags</Anchor>
             <NodeRef refid="727"/>
 		</Token>
 		

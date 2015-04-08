@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSEC2CreateSubnetResult.html">
+	<File path="Classes/AWSEC2CreateSecurityGroupResult.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSEC2CreateSubnetResult</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSEC2CreateSecurityGroupResult</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
             
@@ -13,38 +13,38 @@
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2CreateSubnetResult/setSubnet:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Information about the subnet.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2CreateSecurityGroupResult/setGroupId:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the security group.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) AWSEC2Subnet *subnet</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *groupId</Declaration>
 			
 			
-			<Anchor>//api/name/subnet</Anchor>
+			<Anchor>//api/name/groupId</Anchor>
             <NodeRef refid="316"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2CreateSubnetResult/subnet</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Information about the subnet.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2CreateSecurityGroupResult/groupId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the security group.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) AWSEC2Subnet *subnet</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *groupId</Declaration>
 			
 			
-			<Anchor>//api/name/subnet</Anchor>
+			<Anchor>//api/name/groupId</Anchor>
             <NodeRef refid="316"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2CreateSubnetResult/subnet</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Information about the subnet.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2CreateSecurityGroupResult/groupId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the security group.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) AWSEC2Subnet *subnet</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *groupId</Declaration>
 			
 			
-			<Anchor>//api/name/subnet</Anchor>
+			<Anchor>//api/name/groupId</Anchor>
             <NodeRef refid="316"/>
 		</Token>
 		

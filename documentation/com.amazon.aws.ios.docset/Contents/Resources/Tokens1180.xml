@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Constants/AWSS3ServerSideEncryption.html">
+	<File path="Constants/AWSHTTPMethod.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/c/tdef/AWSS3ServerSideEncryption</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/c/tdef/AWSHTTPMethod</TokenIdentifier>
 			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			<DeclaredIn>AWSNetworking.h</DeclaredIn>
             
 			
 			<NodeRef refid="1180"/>
@@ -14,21 +14,71 @@
 		
         
         <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSS3ServerSideEncryptionUnknown</TokenIdentifier>
+            <TokenIdentifier>//apple_ref/c/econst/AWSHTTPMethodUnknown</TokenIdentifier>
             <Abstract type="html"></Abstract>
-            <Declaration>AWSS3ServerSideEncryptionUnknown</Declaration>
+            <Declaration>AWSHTTPMethodUnknown</Declaration>
             
-            <DeclaredIn>AWSS3Model.h</DeclaredIn>
+            <DeclaredIn>AWSNetworking.h</DeclaredIn>
             
             <NodeRef refid="1180"/>
         </Token>
         
         <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSS3ServerSideEncryptionAES256</TokenIdentifier>
+            <TokenIdentifier>//apple_ref/c/econst/AWSHTTPMethodGET</TokenIdentifier>
             <Abstract type="html"></Abstract>
-            <Declaration>AWSS3ServerSideEncryptionAES256</Declaration>
+            <Declaration>AWSHTTPMethodGET</Declaration>
             
-            <DeclaredIn>AWSS3Model.h</DeclaredIn>
+            <DeclaredIn>AWSNetworking.h</DeclaredIn>
+            
+            <NodeRef refid="1180"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/AWSHTTPMethodHEAD</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>AWSHTTPMethodHEAD</Declaration>
+            
+            <DeclaredIn>AWSNetworking.h</DeclaredIn>
+            
+            <NodeRef refid="1180"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/AWSHTTPMethodPOST</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>AWSHTTPMethodPOST</Declaration>
+            
+            <DeclaredIn>AWSNetworking.h</DeclaredIn>
+            
+            <NodeRef refid="1180"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/AWSHTTPMethodPUT</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>AWSHTTPMethodPUT</Declaration>
+            
+            <DeclaredIn>AWSNetworking.h</DeclaredIn>
+            
+            <NodeRef refid="1180"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/AWSHTTPMethodPATCH</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>AWSHTTPMethodPATCH</Declaration>
+            
+            <DeclaredIn>AWSNetworking.h</DeclaredIn>
+            
+            <NodeRef refid="1180"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/AWSHTTPMethodDELETE</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>AWSHTTPMethodDELETE</Declaration>
+            
+            <DeclaredIn>AWSNetworking.h</DeclaredIn>
             
             <NodeRef refid="1180"/>
         </Token>

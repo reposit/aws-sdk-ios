@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSCognitoIdentityGetIdentityPoolRolesResponse.html">
+	<File path="Classes/AWSCognitoIdentityGetIdResponse.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSCognitoIdentityGetIdentityPoolRolesResponse</TokenIdentifier>
-			<Abstract type="html"></Abstract>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSCognitoIdentityGetIdResponse</TokenIdentifier>
+			<Abstract type="html">Returned in response to a GetId request.</Abstract>
 			<DeclaredIn>AWSCognitoIdentityModel.h</DeclaredIn>
             
 			
@@ -13,74 +13,38 @@
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoIdentityGetIdentityPoolRolesResponse/setIdentityPoolId:</TokenIdentifier>
-			<Abstract type="html"></Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoIdentityGetIdResponse/setIdentityId:</TokenIdentifier>
+			<Abstract type="html">A unique identifier in the format REGION:GUID.</Abstract>
 			<DeclaredIn>AWSCognitoIdentityModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *identityPoolId</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *identityId</Declaration>
 			
 			
-			<Anchor>//api/name/identityPoolId</Anchor>
+			<Anchor>//api/name/identityId</Anchor>
             <NodeRef refid="129"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoIdentityGetIdentityPoolRolesResponse/identityPoolId</TokenIdentifier>
-			<Abstract type="html"></Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoIdentityGetIdResponse/identityId</TokenIdentifier>
+			<Abstract type="html">A unique identifier in the format REGION:GUID.</Abstract>
 			<DeclaredIn>AWSCognitoIdentityModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *identityPoolId</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *identityId</Declaration>
 			
 			
-			<Anchor>//api/name/identityPoolId</Anchor>
+			<Anchor>//api/name/identityId</Anchor>
             <NodeRef refid="129"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSCognitoIdentityGetIdentityPoolRolesResponse/identityPoolId</TokenIdentifier>
-			<Abstract type="html"></Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSCognitoIdentityGetIdResponse/identityId</TokenIdentifier>
+			<Abstract type="html">A unique identifier in the format REGION:GUID.</Abstract>
 			<DeclaredIn>AWSCognitoIdentityModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *identityPoolId</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *identityId</Declaration>
 			
 			
-			<Anchor>//api/name/identityPoolId</Anchor>
-            <NodeRef refid="129"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoIdentityGetIdentityPoolRolesResponse/setRoles:</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSCognitoIdentityModel.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSDictionary *roles</Declaration>
-			
-			
-			<Anchor>//api/name/roles</Anchor>
-            <NodeRef refid="129"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoIdentityGetIdentityPoolRolesResponse/roles</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSCognitoIdentityModel.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSDictionary *roles</Declaration>
-			
-			
-			<Anchor>//api/name/roles</Anchor>
-            <NodeRef refid="129"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSCognitoIdentityGetIdentityPoolRolesResponse/roles</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSCognitoIdentityModel.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSDictionary *roles</Declaration>
-			
-			
-			<Anchor>//api/name/roles</Anchor>
+			<Anchor>//api/name/identityId</Anchor>
             <NodeRef refid="129"/>
 		</Token>
 		

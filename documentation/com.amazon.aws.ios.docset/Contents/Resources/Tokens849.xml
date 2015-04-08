@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSS3ReplicateObjectOutput.html">
+	<File path="Classes/AWSS3PutBucketAclRequest.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSS3ReplicateObjectOutput</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSS3PutBucketAclRequest</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSS3Model.h</DeclaredIn>
             
@@ -13,254 +13,326 @@
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3ReplicateObjectOutput/setExpiration:</TokenIdentifier>
-			<Abstract type="html">If the object expiration is configured, the response includes this header.</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3PutBucketAclRequest/setACL:</TokenIdentifier>
+			<Abstract type="html">The canned ACL to apply to the bucket.</Abstract>
 			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *expiration</Declaration>
+			<Declaration>@property (nonatomic, assign) AWSS3BucketCannedACL ACL</Declaration>
 			
 			
-			<Anchor>//api/name/expiration</Anchor>
+			<Anchor>//api/name/ACL</Anchor>
             <NodeRef refid="849"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3ReplicateObjectOutput/expiration</TokenIdentifier>
-			<Abstract type="html">If the object expiration is configured, the response includes this header.</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3PutBucketAclRequest/ACL</TokenIdentifier>
+			<Abstract type="html">The canned ACL to apply to the bucket.</Abstract>
 			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *expiration</Declaration>
+			<Declaration>@property (nonatomic, assign) AWSS3BucketCannedACL ACL</Declaration>
 			
 			
-			<Anchor>//api/name/expiration</Anchor>
+			<Anchor>//api/name/ACL</Anchor>
             <NodeRef refid="849"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSS3ReplicateObjectOutput/expiration</TokenIdentifier>
-			<Abstract type="html">If the object expiration is configured, the response includes this header.</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSS3PutBucketAclRequest/ACL</TokenIdentifier>
+			<Abstract type="html">The canned ACL to apply to the bucket.</Abstract>
 			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *expiration</Declaration>
+			<Declaration>@property (nonatomic, assign) AWSS3BucketCannedACL ACL</Declaration>
 			
 			
-			<Anchor>//api/name/expiration</Anchor>
+			<Anchor>//api/name/ACL</Anchor>
             <NodeRef refid="849"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3ReplicateObjectOutput/setReplicateObjectResult:</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3PutBucketAclRequest/setAccessControlPolicy:</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) AWSS3ReplicateObjectResult *replicateObjectResult</Declaration>
+			<Declaration>@property (nonatomic, strong) AWSS3AccessControlPolicy *accessControlPolicy</Declaration>
 			
 			
-			<Anchor>//api/name/replicateObjectResult</Anchor>
+			<Anchor>//api/name/accessControlPolicy</Anchor>
             <NodeRef refid="849"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3ReplicateObjectOutput/replicateObjectResult</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3PutBucketAclRequest/accessControlPolicy</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) AWSS3ReplicateObjectResult *replicateObjectResult</Declaration>
+			<Declaration>@property (nonatomic, strong) AWSS3AccessControlPolicy *accessControlPolicy</Declaration>
 			
 			
-			<Anchor>//api/name/replicateObjectResult</Anchor>
+			<Anchor>//api/name/accessControlPolicy</Anchor>
             <NodeRef refid="849"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSS3ReplicateObjectOutput/replicateObjectResult</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSS3PutBucketAclRequest/accessControlPolicy</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) AWSS3ReplicateObjectResult *replicateObjectResult</Declaration>
+			<Declaration>@property (nonatomic, strong) AWSS3AccessControlPolicy *accessControlPolicy</Declaration>
 			
 			
-			<Anchor>//api/name/replicateObjectResult</Anchor>
+			<Anchor>//api/name/accessControlPolicy</Anchor>
             <NodeRef refid="849"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3ReplicateObjectOutput/setReplicateSourceVersionId:</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3PutBucketAclRequest/setBucket:</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *replicateSourceVersionId</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *bucket</Declaration>
 			
 			
-			<Anchor>//api/name/replicateSourceVersionId</Anchor>
+			<Anchor>//api/name/bucket</Anchor>
             <NodeRef refid="849"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3ReplicateObjectOutput/replicateSourceVersionId</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3PutBucketAclRequest/bucket</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *replicateSourceVersionId</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *bucket</Declaration>
 			
 			
-			<Anchor>//api/name/replicateSourceVersionId</Anchor>
+			<Anchor>//api/name/bucket</Anchor>
             <NodeRef refid="849"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSS3ReplicateObjectOutput/replicateSourceVersionId</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSS3PutBucketAclRequest/bucket</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *replicateSourceVersionId</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *bucket</Declaration>
 			
 			
-			<Anchor>//api/name/replicateSourceVersionId</Anchor>
+			<Anchor>//api/name/bucket</Anchor>
             <NodeRef refid="849"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3ReplicateObjectOutput/setSSECustomerAlgorithm:</TokenIdentifier>
-			<Abstract type="html">If server-side encryption with a customer-provided encryption key was requested, the response will include this header confirming the encryption algorithm used.</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3PutBucketAclRequest/setContentMD5:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *SSECustomerAlgorithm</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *contentMD5</Declaration>
 			
 			
-			<Anchor>//api/name/SSECustomerAlgorithm</Anchor>
+			<Anchor>//api/name/contentMD5</Anchor>
             <NodeRef refid="849"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3ReplicateObjectOutput/SSECustomerAlgorithm</TokenIdentifier>
-			<Abstract type="html">If server-side encryption with a customer-provided encryption key was requested, the response will include this header confirming the encryption algorithm used.</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3PutBucketAclRequest/contentMD5</TokenIdentifier>
+			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *SSECustomerAlgorithm</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *contentMD5</Declaration>
 			
 			
-			<Anchor>//api/name/SSECustomerAlgorithm</Anchor>
+			<Anchor>//api/name/contentMD5</Anchor>
             <NodeRef refid="849"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSS3ReplicateObjectOutput/SSECustomerAlgorithm</TokenIdentifier>
-			<Abstract type="html">If server-side encryption with a customer-provided encryption key was requested, the response will include this header confirming the encryption algorithm used.</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSS3PutBucketAclRequest/contentMD5</TokenIdentifier>
+			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *SSECustomerAlgorithm</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *contentMD5</Declaration>
 			
 			
-			<Anchor>//api/name/SSECustomerAlgorithm</Anchor>
+			<Anchor>//api/name/contentMD5</Anchor>
             <NodeRef refid="849"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3ReplicateObjectOutput/setSSECustomerKeyMD5:</TokenIdentifier>
-			<Abstract type="html">If server-side encryption with a customer-provided encryption key was requested, the response will include this header to provide round trip message integrity verification of the customer-provided encryption key.</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3PutBucketAclRequest/setGrantFullControl:</TokenIdentifier>
+			<Abstract type="html">Allows grantee the read, write, read ACP, and write ACP permissions on the bucket.</Abstract>
 			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *SSECustomerKeyMD5</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *grantFullControl</Declaration>
 			
 			
-			<Anchor>//api/name/SSECustomerKeyMD5</Anchor>
+			<Anchor>//api/name/grantFullControl</Anchor>
             <NodeRef refid="849"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3ReplicateObjectOutput/SSECustomerKeyMD5</TokenIdentifier>
-			<Abstract type="html">If server-side encryption with a customer-provided encryption key was requested, the response will include this header to provide round trip message integrity verification of the customer-provided encryption key.</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3PutBucketAclRequest/grantFullControl</TokenIdentifier>
+			<Abstract type="html">Allows grantee the read, write, read ACP, and write ACP permissions on the bucket.</Abstract>
 			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *SSECustomerKeyMD5</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *grantFullControl</Declaration>
 			
 			
-			<Anchor>//api/name/SSECustomerKeyMD5</Anchor>
+			<Anchor>//api/name/grantFullControl</Anchor>
             <NodeRef refid="849"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSS3ReplicateObjectOutput/SSECustomerKeyMD5</TokenIdentifier>
-			<Abstract type="html">If server-side encryption with a customer-provided encryption key was requested, the response will include this header to provide round trip message integrity verification of the customer-provided encryption key.</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSS3PutBucketAclRequest/grantFullControl</TokenIdentifier>
+			<Abstract type="html">Allows grantee the read, write, read ACP, and write ACP permissions on the bucket.</Abstract>
 			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *SSECustomerKeyMD5</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *grantFullControl</Declaration>
 			
 			
-			<Anchor>//api/name/SSECustomerKeyMD5</Anchor>
+			<Anchor>//api/name/grantFullControl</Anchor>
             <NodeRef refid="849"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3ReplicateObjectOutput/setSSEKMSKeyId:</TokenIdentifier>
-			<Abstract type="html">If present, specifies the ID of the AWS Key Management Service (KMS) master encryption key that was used for the object.</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3PutBucketAclRequest/setGrantRead:</TokenIdentifier>
+			<Abstract type="html">Allows grantee to list the objects in the bucket.</Abstract>
 			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *SSEKMSKeyId</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *grantRead</Declaration>
 			
 			
-			<Anchor>//api/name/SSEKMSKeyId</Anchor>
+			<Anchor>//api/name/grantRead</Anchor>
             <NodeRef refid="849"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3ReplicateObjectOutput/SSEKMSKeyId</TokenIdentifier>
-			<Abstract type="html">If present, specifies the ID of the AWS Key Management Service (KMS) master encryption key that was used for the object.</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3PutBucketAclRequest/grantRead</TokenIdentifier>
+			<Abstract type="html">Allows grantee to list the objects in the bucket.</Abstract>
 			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *SSEKMSKeyId</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *grantRead</Declaration>
 			
 			
-			<Anchor>//api/name/SSEKMSKeyId</Anchor>
+			<Anchor>//api/name/grantRead</Anchor>
             <NodeRef refid="849"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSS3ReplicateObjectOutput/SSEKMSKeyId</TokenIdentifier>
-			<Abstract type="html">If present, specifies the ID of the AWS Key Management Service (KMS) master encryption key that was used for the object.</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSS3PutBucketAclRequest/grantRead</TokenIdentifier>
+			<Abstract type="html">Allows grantee to list the objects in the bucket.</Abstract>
 			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *SSEKMSKeyId</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *grantRead</Declaration>
 			
 			
-			<Anchor>//api/name/SSEKMSKeyId</Anchor>
+			<Anchor>//api/name/grantRead</Anchor>
             <NodeRef refid="849"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3ReplicateObjectOutput/setServerSideEncryption:</TokenIdentifier>
-			<Abstract type="html">The Server-side encryption algorithm used when storing this object in S3 (e.g., AES256, aws:kms).</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3PutBucketAclRequest/setGrantReadACP:</TokenIdentifier>
+			<Abstract type="html">Allows grantee to read the bucket ACL.</Abstract>
 			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, assign) AWSS3ServerSideEncryption serverSideEncryption</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *grantReadACP</Declaration>
 			
 			
-			<Anchor>//api/name/serverSideEncryption</Anchor>
+			<Anchor>//api/name/grantReadACP</Anchor>
             <NodeRef refid="849"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3ReplicateObjectOutput/serverSideEncryption</TokenIdentifier>
-			<Abstract type="html">The Server-side encryption algorithm used when storing this object in S3 (e.g., AES256, aws:kms).</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3PutBucketAclRequest/grantReadACP</TokenIdentifier>
+			<Abstract type="html">Allows grantee to read the bucket ACL.</Abstract>
 			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, assign) AWSS3ServerSideEncryption serverSideEncryption</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *grantReadACP</Declaration>
 			
 			
-			<Anchor>//api/name/serverSideEncryption</Anchor>
+			<Anchor>//api/name/grantReadACP</Anchor>
             <NodeRef refid="849"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSS3ReplicateObjectOutput/serverSideEncryption</TokenIdentifier>
-			<Abstract type="html">The Server-side encryption algorithm used when storing this object in S3 (e.g., AES256, aws:kms).</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSS3PutBucketAclRequest/grantReadACP</TokenIdentifier>
+			<Abstract type="html">Allows grantee to read the bucket ACL.</Abstract>
 			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, assign) AWSS3ServerSideEncryption serverSideEncryption</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *grantReadACP</Declaration>
 			
 			
-			<Anchor>//api/name/serverSideEncryption</Anchor>
+			<Anchor>//api/name/grantReadACP</Anchor>
+            <NodeRef refid="849"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3PutBucketAclRequest/setGrantWrite:</TokenIdentifier>
+			<Abstract type="html">Allows grantee to create, overwrite, and delete any object in the bucket.</Abstract>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *grantWrite</Declaration>
+			
+			
+			<Anchor>//api/name/grantWrite</Anchor>
+            <NodeRef refid="849"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3PutBucketAclRequest/grantWrite</TokenIdentifier>
+			<Abstract type="html">Allows grantee to create, overwrite, and delete any object in the bucket.</Abstract>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *grantWrite</Declaration>
+			
+			
+			<Anchor>//api/name/grantWrite</Anchor>
+            <NodeRef refid="849"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSS3PutBucketAclRequest/grantWrite</TokenIdentifier>
+			<Abstract type="html">Allows grantee to create, overwrite, and delete any object in the bucket.</Abstract>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *grantWrite</Declaration>
+			
+			
+			<Anchor>//api/name/grantWrite</Anchor>
+            <NodeRef refid="849"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3PutBucketAclRequest/setGrantWriteACP:</TokenIdentifier>
+			<Abstract type="html">Allows grantee to write the ACL for the applicable bucket.</Abstract>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *grantWriteACP</Declaration>
+			
+			
+			<Anchor>//api/name/grantWriteACP</Anchor>
+            <NodeRef refid="849"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3PutBucketAclRequest/grantWriteACP</TokenIdentifier>
+			<Abstract type="html">Allows grantee to write the ACL for the applicable bucket.</Abstract>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *grantWriteACP</Declaration>
+			
+			
+			<Anchor>//api/name/grantWriteACP</Anchor>
+            <NodeRef refid="849"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSS3PutBucketAclRequest/grantWriteACP</TokenIdentifier>
+			<Abstract type="html">Allows grantee to write the ACL for the applicable bucket.</Abstract>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *grantWriteACP</Declaration>
+			
+			
+			<Anchor>//api/name/grantWriteACP</Anchor>
             <NodeRef refid="849"/>
 		</Token>
 		

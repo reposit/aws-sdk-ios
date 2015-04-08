@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSEC2RouteTable.html">
+	<File path="Classes/AWSEC2ResetNetworkInterfaceAttributeRequest.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSEC2RouteTable</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Describes a route table.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSEC2ResetNetworkInterfaceAttributeRequest</TokenIdentifier>
+			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
             
 			
@@ -13,218 +13,110 @@
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2RouteTable/setAssociations:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The associations between the route table and one or more subnets.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ResetNetworkInterfaceAttributeRequest/setDryRun:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSArray *associations</Declaration>
+			<Declaration>@property (nonatomic, strong) NSNumber *dryRun</Declaration>
 			
 			
-			<Anchor>//api/name/associations</Anchor>
+			<Anchor>//api/name/dryRun</Anchor>
             <NodeRef refid="573"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2RouteTable/associations</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The associations between the route table and one or more subnets.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ResetNetworkInterfaceAttributeRequest/dryRun</TokenIdentifier>
+			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSArray *associations</Declaration>
+			<Declaration>@property (nonatomic, strong) NSNumber *dryRun</Declaration>
 			
 			
-			<Anchor>//api/name/associations</Anchor>
+			<Anchor>//api/name/dryRun</Anchor>
             <NodeRef refid="573"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2RouteTable/associations</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The associations between the route table and one or more subnets.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2ResetNetworkInterfaceAttributeRequest/dryRun</TokenIdentifier>
+			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSArray *associations</Declaration>
+			<Declaration>@property (nonatomic, strong) NSNumber *dryRun</Declaration>
 			
 			
-			<Anchor>//api/name/associations</Anchor>
+			<Anchor>//api/name/dryRun</Anchor>
             <NodeRef refid="573"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2RouteTable/setPropagatingVgws:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Any virtual private gateway (VGW) propagating routes.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ResetNetworkInterfaceAttributeRequest/setNetworkInterfaceId:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the network interface.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSArray *propagatingVgws</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *networkInterfaceId</Declaration>
 			
 			
-			<Anchor>//api/name/propagatingVgws</Anchor>
+			<Anchor>//api/name/networkInterfaceId</Anchor>
             <NodeRef refid="573"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2RouteTable/propagatingVgws</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Any virtual private gateway (VGW) propagating routes.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ResetNetworkInterfaceAttributeRequest/networkInterfaceId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the network interface.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSArray *propagatingVgws</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *networkInterfaceId</Declaration>
 			
 			
-			<Anchor>//api/name/propagatingVgws</Anchor>
+			<Anchor>//api/name/networkInterfaceId</Anchor>
             <NodeRef refid="573"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2RouteTable/propagatingVgws</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Any virtual private gateway (VGW) propagating routes.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2ResetNetworkInterfaceAttributeRequest/networkInterfaceId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the network interface.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSArray *propagatingVgws</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *networkInterfaceId</Declaration>
 			
 			
-			<Anchor>//api/name/propagatingVgws</Anchor>
+			<Anchor>//api/name/networkInterfaceId</Anchor>
             <NodeRef refid="573"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2RouteTable/setRouteTableId:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The ID of the route table.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ResetNetworkInterfaceAttributeRequest/setSourceDestCheck:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The source/destination checking attribute. Resets the value to &lt;code&gt;true&lt;/code&gt;.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *routeTableId</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *sourceDestCheck</Declaration>
 			
 			
-			<Anchor>//api/name/routeTableId</Anchor>
+			<Anchor>//api/name/sourceDestCheck</Anchor>
             <NodeRef refid="573"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2RouteTable/routeTableId</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The ID of the route table.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ResetNetworkInterfaceAttributeRequest/sourceDestCheck</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The source/destination checking attribute. Resets the value to &lt;code&gt;true&lt;/code&gt;.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *routeTableId</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *sourceDestCheck</Declaration>
 			
 			
-			<Anchor>//api/name/routeTableId</Anchor>
+			<Anchor>//api/name/sourceDestCheck</Anchor>
             <NodeRef refid="573"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2RouteTable/routeTableId</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The ID of the route table.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2ResetNetworkInterfaceAttributeRequest/sourceDestCheck</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The source/destination checking attribute. Resets the value to &lt;code&gt;true&lt;/code&gt;.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *routeTableId</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *sourceDestCheck</Declaration>
 			
 			
-			<Anchor>//api/name/routeTableId</Anchor>
-            <NodeRef refid="573"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2RouteTable/setRoutes:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The routes in the route table.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSArray *routes</Declaration>
-			
-			
-			<Anchor>//api/name/routes</Anchor>
-            <NodeRef refid="573"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2RouteTable/routes</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The routes in the route table.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSArray *routes</Declaration>
-			
-			
-			<Anchor>//api/name/routes</Anchor>
-            <NodeRef refid="573"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2RouteTable/routes</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The routes in the route table.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSArray *routes</Declaration>
-			
-			
-			<Anchor>//api/name/routes</Anchor>
-            <NodeRef refid="573"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2RouteTable/setTags:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Any tags assigned to the route table.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSArray *tags</Declaration>
-			
-			
-			<Anchor>//api/name/tags</Anchor>
-            <NodeRef refid="573"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2RouteTable/tags</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Any tags assigned to the route table.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSArray *tags</Declaration>
-			
-			
-			<Anchor>//api/name/tags</Anchor>
-            <NodeRef refid="573"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2RouteTable/tags</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Any tags assigned to the route table.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSArray *tags</Declaration>
-			
-			
-			<Anchor>//api/name/tags</Anchor>
-            <NodeRef refid="573"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2RouteTable/setVpcId:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The ID of the VPC.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *vpcId</Declaration>
-			
-			
-			<Anchor>//api/name/vpcId</Anchor>
-            <NodeRef refid="573"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2RouteTable/vpcId</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The ID of the VPC.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *vpcId</Declaration>
-			
-			
-			<Anchor>//api/name/vpcId</Anchor>
-            <NodeRef refid="573"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2RouteTable/vpcId</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The ID of the VPC.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *vpcId</Declaration>
-			
-			
-			<Anchor>//api/name/vpcId</Anchor>
+			<Anchor>//api/name/sourceDestCheck</Anchor>
             <NodeRef refid="573"/>
 		</Token>
 		

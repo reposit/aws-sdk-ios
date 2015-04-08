@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSElasticLoadBalancingSetLoadBalancerListenerSSLCertificateOutput.html">
+	<File path="Classes/AWSElasticLoadBalancingRegisterEndPointsOutput.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSElasticLoadBalancingSetLoadBalancerListenerSSLCertificateOutput</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSElasticLoadBalancingRegisterEndPointsOutput</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSElasticLoadBalancingModel.h</DeclaredIn>
             
@@ -11,6 +11,42 @@
 			<NodeRef refid="692"/>
 		</Token>
 		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSElasticLoadBalancingRegisterEndPointsOutput/setInstances:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSElasticLoadBalancingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray *instances</Declaration>
+			
+			
+			<Anchor>//api/name/instances</Anchor>
+            <NodeRef refid="692"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSElasticLoadBalancingRegisterEndPointsOutput/instances</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSElasticLoadBalancingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray *instances</Declaration>
+			
+			
+			<Anchor>//api/name/instances</Anchor>
+            <NodeRef refid="692"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSElasticLoadBalancingRegisterEndPointsOutput/instances</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSElasticLoadBalancingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray *instances</Declaration>
+			
+			
+			<Anchor>//api/name/instances</Anchor>
+            <NodeRef refid="692"/>
+		</Token>
 		
         
         

@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSDynamoDBScanExpression.html">
+	<File path="Classes/AWSDynamoDBPutRequest.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSDynamoDBScanExpression</TokenIdentifier>
-			<Abstract type="html">Options for filtering results from a scan operation. For example, callers can specify filter conditions so that only objects whose attributes match different conditions are returned (see ComparisonOperator for more information on the available comparison types).</Abstract>
-			<DeclaredIn>AWSDynamoDBObjectMapper.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSDynamoDBPutRequest</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Represents a request to perform a &lt;i&gt;PutItem&lt;/i&gt; operation on an item.&lt;/p&gt;
+Required parameters: [Item]</Abstract>
+			<DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
             
 			
 			<NodeRef refid="234"/>
@@ -13,110 +14,38 @@
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSDynamoDBScanExpression/setScanFilter:</TokenIdentifier>
-			<Abstract type="html">The scan filter.</Abstract>
-			<DeclaredIn>AWSDynamoDBObjectMapper.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSDynamoDBPutRequest/setItem:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;A map of attribute name to attribute values, representing the primary key of an item to be processed by &lt;i&gt;PutItem&lt;/i&gt;. All of the table&apos;s primary key attributes must be specified, and their data types must match those of the table&apos;s key schema. If any attributes are present in the item which are part of an index key schema for the table, their types must match the index key schema.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSDictionary *scanFilter</Declaration>
+			<Declaration>@property (nonatomic, strong) NSDictionary *item</Declaration>
 			
 			
-			<Anchor>//api/name/scanFilter</Anchor>
+			<Anchor>//api/name/item</Anchor>
             <NodeRef refid="234"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSDynamoDBScanExpression/scanFilter</TokenIdentifier>
-			<Abstract type="html">The scan filter.</Abstract>
-			<DeclaredIn>AWSDynamoDBObjectMapper.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSDynamoDBPutRequest/item</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;A map of attribute name to attribute values, representing the primary key of an item to be processed by &lt;i&gt;PutItem&lt;/i&gt;. All of the table&apos;s primary key attributes must be specified, and their data types must match those of the table&apos;s key schema. If any attributes are present in the item which are part of an index key schema for the table, their types must match the index key schema.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSDictionary *scanFilter</Declaration>
+			<Declaration>@property (nonatomic, strong) NSDictionary *item</Declaration>
 			
 			
-			<Anchor>//api/name/scanFilter</Anchor>
+			<Anchor>//api/name/item</Anchor>
             <NodeRef refid="234"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSDynamoDBScanExpression/scanFilter</TokenIdentifier>
-			<Abstract type="html">The scan filter.</Abstract>
-			<DeclaredIn>AWSDynamoDBObjectMapper.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSDynamoDBPutRequest/item</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;A map of attribute name to attribute values, representing the primary key of an item to be processed by &lt;i&gt;PutItem&lt;/i&gt;. All of the table&apos;s primary key attributes must be specified, and their data types must match those of the table&apos;s key schema. If any attributes are present in the item which are part of an index key schema for the table, their types must match the index key schema.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSDictionary *scanFilter</Declaration>
-			
-			
-			<Anchor>//api/name/scanFilter</Anchor>
-            <NodeRef refid="234"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSDynamoDBScanExpression/setExclusiveStartKey:</TokenIdentifier>
-			<Abstract type="html">The exclusive start key.</Abstract>
-			<DeclaredIn>AWSDynamoDBObjectMapper.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSDictionary *exclusiveStartKey</Declaration>
+			<Declaration>@property (nonatomic, strong) NSDictionary *item</Declaration>
 			
 			
-			<Anchor>//api/name/exclusiveStartKey</Anchor>
-            <NodeRef refid="234"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSDynamoDBScanExpression/exclusiveStartKey</TokenIdentifier>
-			<Abstract type="html">The exclusive start key.</Abstract>
-			<DeclaredIn>AWSDynamoDBObjectMapper.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSDictionary *exclusiveStartKey</Declaration>
-			
-			
-			<Anchor>//api/name/exclusiveStartKey</Anchor>
-            <NodeRef refid="234"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSDynamoDBScanExpression/exclusiveStartKey</TokenIdentifier>
-			<Abstract type="html">The exclusive start key.</Abstract>
-			<DeclaredIn>AWSDynamoDBObjectMapper.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSDictionary *exclusiveStartKey</Declaration>
-			
-			
-			<Anchor>//api/name/exclusiveStartKey</Anchor>
-            <NodeRef refid="234"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSDynamoDBScanExpression/setLimit:</TokenIdentifier>
-			<Abstract type="html">The limit.</Abstract>
-			<DeclaredIn>AWSDynamoDBObjectMapper.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSNumber *limit</Declaration>
-			
-			
-			<Anchor>//api/name/limit</Anchor>
-            <NodeRef refid="234"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSDynamoDBScanExpression/limit</TokenIdentifier>
-			<Abstract type="html">The limit.</Abstract>
-			<DeclaredIn>AWSDynamoDBObjectMapper.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSNumber *limit</Declaration>
-			
-			
-			<Anchor>//api/name/limit</Anchor>
-            <NodeRef refid="234"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSDynamoDBScanExpression/limit</TokenIdentifier>
-			<Abstract type="html">The limit.</Abstract>
-			<DeclaredIn>AWSDynamoDBObjectMapper.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSNumber *limit</Declaration>
-			
-			
-			<Anchor>//api/name/limit</Anchor>
+			<Anchor>//api/name/item</Anchor>
             <NodeRef refid="234"/>
 		</Token>
 		

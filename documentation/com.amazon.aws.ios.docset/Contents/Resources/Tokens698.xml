@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSElasticLoadBalancingTag.html">
+	<File path="Classes/AWSElasticLoadBalancingSetLoadBalancerListenerSSLCertificateInput.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSElasticLoadBalancingTag</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSElasticLoadBalancingSetLoadBalancerListenerSSLCertificateInput</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSElasticLoadBalancingModel.h</DeclaredIn>
             
@@ -13,74 +13,110 @@
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSElasticLoadBalancingTag/setKey:</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSElasticLoadBalancingSetLoadBalancerListenerSSLCertificateInput/setLoadBalancerName:</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSElasticLoadBalancingModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *key</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *loadBalancerName</Declaration>
 			
 			
-			<Anchor>//api/name/key</Anchor>
+			<Anchor>//api/name/loadBalancerName</Anchor>
             <NodeRef refid="698"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSElasticLoadBalancingTag/key</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSElasticLoadBalancingSetLoadBalancerListenerSSLCertificateInput/loadBalancerName</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSElasticLoadBalancingModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *key</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *loadBalancerName</Declaration>
 			
 			
-			<Anchor>//api/name/key</Anchor>
+			<Anchor>//api/name/loadBalancerName</Anchor>
             <NodeRef refid="698"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSElasticLoadBalancingTag/key</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSElasticLoadBalancingSetLoadBalancerListenerSSLCertificateInput/loadBalancerName</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSElasticLoadBalancingModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *key</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *loadBalancerName</Declaration>
 			
 			
-			<Anchor>//api/name/key</Anchor>
+			<Anchor>//api/name/loadBalancerName</Anchor>
             <NodeRef refid="698"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSElasticLoadBalancingTag/setValue:</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSElasticLoadBalancingSetLoadBalancerListenerSSLCertificateInput/setLoadBalancerPort:</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSElasticLoadBalancingModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *value</Declaration>
+			<Declaration>@property (nonatomic, strong) NSNumber *loadBalancerPort</Declaration>
 			
 			
-			<Anchor>//api/name/value</Anchor>
+			<Anchor>//api/name/loadBalancerPort</Anchor>
             <NodeRef refid="698"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSElasticLoadBalancingTag/value</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSElasticLoadBalancingSetLoadBalancerListenerSSLCertificateInput/loadBalancerPort</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSElasticLoadBalancingModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *value</Declaration>
+			<Declaration>@property (nonatomic, strong) NSNumber *loadBalancerPort</Declaration>
 			
 			
-			<Anchor>//api/name/value</Anchor>
+			<Anchor>//api/name/loadBalancerPort</Anchor>
             <NodeRef refid="698"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSElasticLoadBalancingTag/value</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSElasticLoadBalancingSetLoadBalancerListenerSSLCertificateInput/loadBalancerPort</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSElasticLoadBalancingModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *value</Declaration>
+			<Declaration>@property (nonatomic, strong) NSNumber *loadBalancerPort</Declaration>
 			
 			
-			<Anchor>//api/name/value</Anchor>
+			<Anchor>//api/name/loadBalancerPort</Anchor>
+            <NodeRef refid="698"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSElasticLoadBalancingSetLoadBalancerListenerSSLCertificateInput/setSSLCertificateId:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSElasticLoadBalancingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *SSLCertificateId</Declaration>
+			
+			
+			<Anchor>//api/name/SSLCertificateId</Anchor>
+            <NodeRef refid="698"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSElasticLoadBalancingSetLoadBalancerListenerSSLCertificateInput/SSLCertificateId</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSElasticLoadBalancingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *SSLCertificateId</Declaration>
+			
+			
+			<Anchor>//api/name/SSLCertificateId</Anchor>
+            <NodeRef refid="698"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSElasticLoadBalancingSetLoadBalancerListenerSSLCertificateInput/SSLCertificateId</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSElasticLoadBalancingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *SSLCertificateId</Declaration>
+			
+			
+			<Anchor>//api/name/SSLCertificateId</Anchor>
             <NodeRef refid="698"/>
 		</Token>
 		

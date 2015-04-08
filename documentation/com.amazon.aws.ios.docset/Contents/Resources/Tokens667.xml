@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSElasticLoadBalancingDetachLoadBalancerFromSubnetsInput.html">
+	<File path="Classes/AWSElasticLoadBalancingDescribeLoadBalancerPoliciesInput.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSElasticLoadBalancingDetachLoadBalancerFromSubnetsInput</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSElasticLoadBalancingDescribeLoadBalancerPoliciesInput</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSElasticLoadBalancingModel.h</DeclaredIn>
             
@@ -13,7 +13,7 @@
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSElasticLoadBalancingDetachLoadBalancerFromSubnetsInput/setLoadBalancerName:</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSElasticLoadBalancingDescribeLoadBalancerPoliciesInput/setLoadBalancerName:</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSElasticLoadBalancingModel.h</DeclaredIn>
 			
@@ -25,7 +25,7 @@
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSElasticLoadBalancingDetachLoadBalancerFromSubnetsInput/loadBalancerName</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSElasticLoadBalancingDescribeLoadBalancerPoliciesInput/loadBalancerName</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSElasticLoadBalancingModel.h</DeclaredIn>
 			
@@ -37,7 +37,7 @@
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSElasticLoadBalancingDetachLoadBalancerFromSubnetsInput/loadBalancerName</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSElasticLoadBalancingDescribeLoadBalancerPoliciesInput/loadBalancerName</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSElasticLoadBalancingModel.h</DeclaredIn>
 			
@@ -49,38 +49,38 @@
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSElasticLoadBalancingDetachLoadBalancerFromSubnetsInput/setSubnets:</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSElasticLoadBalancingDescribeLoadBalancerPoliciesInput/setPolicyNames:</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSElasticLoadBalancingModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSArray *subnets</Declaration>
+			<Declaration>@property (nonatomic, strong) NSArray *policyNames</Declaration>
 			
 			
-			<Anchor>//api/name/subnets</Anchor>
+			<Anchor>//api/name/policyNames</Anchor>
             <NodeRef refid="667"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSElasticLoadBalancingDetachLoadBalancerFromSubnetsInput/subnets</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSElasticLoadBalancingDescribeLoadBalancerPoliciesInput/policyNames</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSElasticLoadBalancingModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSArray *subnets</Declaration>
+			<Declaration>@property (nonatomic, strong) NSArray *policyNames</Declaration>
 			
 			
-			<Anchor>//api/name/subnets</Anchor>
+			<Anchor>//api/name/policyNames</Anchor>
             <NodeRef refid="667"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSElasticLoadBalancingDetachLoadBalancerFromSubnetsInput/subnets</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSElasticLoadBalancingDescribeLoadBalancerPoliciesInput/policyNames</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSElasticLoadBalancingModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSArray *subnets</Declaration>
+			<Declaration>@property (nonatomic, strong) NSArray *policyNames</Declaration>
 			
 			
-			<Anchor>//api/name/subnets</Anchor>
+			<Anchor>//api/name/policyNames</Anchor>
             <NodeRef refid="667"/>
 		</Token>
 		

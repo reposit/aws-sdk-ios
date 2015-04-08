@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSDynamoDBObjectMapperConfiguration.html">
+	<File path="Classes/AWSDynamoDBLocalSecondaryIndex.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSDynamoDBObjectMapperConfiguration</TokenIdentifier>
-			<Abstract type="html">Immutable configuration object for service call behavior. An instance of this configuration is supplied to every DynamoDBMapper at construction. New instances can be given to the mapper object on individual save, load, and remove operations to override the defaults.</Abstract>
-			<DeclaredIn>AWSDynamoDBObjectMapper.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSDynamoDBLocalSecondaryIndex</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Represents a local secondary index.&lt;/p&gt;
+Required parameters: [IndexName, KeySchema, Projection]</Abstract>
+			<DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
             
 			
 			<NodeRef refid="222"/>
@@ -13,74 +14,110 @@
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSDynamoDBObjectMapperConfiguration/setSaveBehavior:</TokenIdentifier>
-			<Abstract type="html">The behavior for the save operation.</Abstract>
-			<DeclaredIn>AWSDynamoDBObjectMapper.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSDynamoDBLocalSecondaryIndex/setIndexName:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The name of the local secondary index. The name must be unique among all other indexes on this table.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, assign) AWSDynamoDBObjectMapperSaveBehavior saveBehavior</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *indexName</Declaration>
 			
 			
-			<Anchor>//api/name/saveBehavior</Anchor>
+			<Anchor>//api/name/indexName</Anchor>
             <NodeRef refid="222"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSDynamoDBObjectMapperConfiguration/saveBehavior</TokenIdentifier>
-			<Abstract type="html">The behavior for the save operation.</Abstract>
-			<DeclaredIn>AWSDynamoDBObjectMapper.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSDynamoDBLocalSecondaryIndex/indexName</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The name of the local secondary index. The name must be unique among all other indexes on this table.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, assign) AWSDynamoDBObjectMapperSaveBehavior saveBehavior</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *indexName</Declaration>
 			
 			
-			<Anchor>//api/name/saveBehavior</Anchor>
+			<Anchor>//api/name/indexName</Anchor>
             <NodeRef refid="222"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSDynamoDBObjectMapperConfiguration/saveBehavior</TokenIdentifier>
-			<Abstract type="html">The behavior for the save operation.</Abstract>
-			<DeclaredIn>AWSDynamoDBObjectMapper.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSDynamoDBLocalSecondaryIndex/indexName</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The name of the local secondary index. The name must be unique among all other indexes on this table.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, assign) AWSDynamoDBObjectMapperSaveBehavior saveBehavior</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *indexName</Declaration>
 			
 			
-			<Anchor>//api/name/saveBehavior</Anchor>
+			<Anchor>//api/name/indexName</Anchor>
             <NodeRef refid="222"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSDynamoDBObjectMapperConfiguration/setConsistentRead:</TokenIdentifier>
-			<Abstract type="html">When set to @YES, AWSDynamoDBObjectMapper uses consistent read to read data from the table. When set to @NO, it uses eventually consistant read.</Abstract>
-			<DeclaredIn>AWSDynamoDBObjectMapper.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSDynamoDBLocalSecondaryIndex/setKeySchema:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The complete key schema for the local secondary index, consisting of one or more pairs of attribute names and key types (&lt;code&gt;HASH&lt;/code&gt; or &lt;code&gt;RANGE&lt;/code&gt;).&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSNumber *consistentRead</Declaration>
+			<Declaration>@property (nonatomic, strong) NSArray *keySchema</Declaration>
 			
 			
-			<Anchor>//api/name/consistentRead</Anchor>
+			<Anchor>//api/name/keySchema</Anchor>
             <NodeRef refid="222"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSDynamoDBObjectMapperConfiguration/consistentRead</TokenIdentifier>
-			<Abstract type="html">When set to @YES, AWSDynamoDBObjectMapper uses consistent read to read data from the table. When set to @NO, it uses eventually consistant read.</Abstract>
-			<DeclaredIn>AWSDynamoDBObjectMapper.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSDynamoDBLocalSecondaryIndex/keySchema</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The complete key schema for the local secondary index, consisting of one or more pairs of attribute names and key types (&lt;code&gt;HASH&lt;/code&gt; or &lt;code&gt;RANGE&lt;/code&gt;).&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSNumber *consistentRead</Declaration>
+			<Declaration>@property (nonatomic, strong) NSArray *keySchema</Declaration>
 			
 			
-			<Anchor>//api/name/consistentRead</Anchor>
+			<Anchor>//api/name/keySchema</Anchor>
             <NodeRef refid="222"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSDynamoDBObjectMapperConfiguration/consistentRead</TokenIdentifier>
-			<Abstract type="html">When set to @YES, AWSDynamoDBObjectMapper uses consistent read to read data from the table. When set to @NO, it uses eventually consistant read.</Abstract>
-			<DeclaredIn>AWSDynamoDBObjectMapper.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSDynamoDBLocalSecondaryIndex/keySchema</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The complete key schema for the local secondary index, consisting of one or more pairs of attribute names and key types (&lt;code&gt;HASH&lt;/code&gt; or &lt;code&gt;RANGE&lt;/code&gt;).&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSNumber *consistentRead</Declaration>
+			<Declaration>@property (nonatomic, strong) NSArray *keySchema</Declaration>
 			
 			
-			<Anchor>//api/name/consistentRead</Anchor>
+			<Anchor>//api/name/keySchema</Anchor>
+            <NodeRef refid="222"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSDynamoDBLocalSecondaryIndex/setProjection:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Represents attributes that are copied (projected) from the table into an index. These are in addition to the primary key attributes and index key attributes, which are automatically projected.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) AWSDynamoDBProjection *projection</Declaration>
+			
+			
+			<Anchor>//api/name/projection</Anchor>
+            <NodeRef refid="222"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSDynamoDBLocalSecondaryIndex/projection</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Represents attributes that are copied (projected) from the table into an index. These are in addition to the primary key attributes and index key attributes, which are automatically projected.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) AWSDynamoDBProjection *projection</Declaration>
+			
+			
+			<Anchor>//api/name/projection</Anchor>
+            <NodeRef refid="222"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSDynamoDBLocalSecondaryIndex/projection</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Represents attributes that are copied (projected) from the table into an index. These are in addition to the primary key attributes and index key attributes, which are automatically projected.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) AWSDynamoDBProjection *projection</Declaration>
+			
+			
+			<Anchor>//api/name/projection</Anchor>
             <NodeRef refid="222"/>
 		</Token>
 		

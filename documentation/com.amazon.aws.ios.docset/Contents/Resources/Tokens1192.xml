@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Constants/AWSSQSQueueAttributeName.html">
+	<File path="Constants/AWSRegionType.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/c/tdef/AWSSQSQueueAttributeName</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSSQSModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/c/tdef/AWSRegionType</TokenIdentifier>
+			<Abstract type="html">Copyright 2010-2015 Amazon.com, Inc. or its affiliates. All Rights Reserved.</Abstract>
+			<DeclaredIn>AWSServiceEnum.h</DeclaredIn>
             
 			
 			<NodeRef refid="1192"/>
@@ -14,141 +14,111 @@
 		
         
         <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSSQSQueueAttributeNameUnknown</TokenIdentifier>
+            <TokenIdentifier>//apple_ref/c/econst/AWSRegionUnknown</TokenIdentifier>
             <Abstract type="html"></Abstract>
-            <Declaration>AWSSQSQueueAttributeNameUnknown</Declaration>
+            <Declaration>AWSRegionUnknown</Declaration>
             
-            <DeclaredIn>AWSSQSModel.h</DeclaredIn>
+            <DeclaredIn>AWSServiceEnum.h</DeclaredIn>
             
             <NodeRef refid="1192"/>
         </Token>
         
         <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSSQSQueueAttributeNamePolicy</TokenIdentifier>
+            <TokenIdentifier>//apple_ref/c/econst/AWSRegionUSEast1</TokenIdentifier>
             <Abstract type="html"></Abstract>
-            <Declaration>AWSSQSQueueAttributeNamePolicy</Declaration>
+            <Declaration>AWSRegionUSEast1</Declaration>
             
-            <DeclaredIn>AWSSQSModel.h</DeclaredIn>
+            <DeclaredIn>AWSServiceEnum.h</DeclaredIn>
             
             <NodeRef refid="1192"/>
         </Token>
         
         <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSSQSQueueAttributeNameVisibilityTimeout</TokenIdentifier>
+            <TokenIdentifier>//apple_ref/c/econst/AWSRegionUSWest1</TokenIdentifier>
             <Abstract type="html"></Abstract>
-            <Declaration>AWSSQSQueueAttributeNameVisibilityTimeout</Declaration>
+            <Declaration>AWSRegionUSWest1</Declaration>
             
-            <DeclaredIn>AWSSQSModel.h</DeclaredIn>
+            <DeclaredIn>AWSServiceEnum.h</DeclaredIn>
             
             <NodeRef refid="1192"/>
         </Token>
         
         <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSSQSQueueAttributeNameMaximumMessageSize</TokenIdentifier>
+            <TokenIdentifier>//apple_ref/c/econst/AWSRegionUSWest2</TokenIdentifier>
             <Abstract type="html"></Abstract>
-            <Declaration>AWSSQSQueueAttributeNameMaximumMessageSize</Declaration>
+            <Declaration>AWSRegionUSWest2</Declaration>
             
-            <DeclaredIn>AWSSQSModel.h</DeclaredIn>
+            <DeclaredIn>AWSServiceEnum.h</DeclaredIn>
             
             <NodeRef refid="1192"/>
         </Token>
         
         <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSSQSQueueAttributeNameMessageRetentionPeriod</TokenIdentifier>
+            <TokenIdentifier>//apple_ref/c/econst/AWSRegionEUWest1</TokenIdentifier>
             <Abstract type="html"></Abstract>
-            <Declaration>AWSSQSQueueAttributeNameMessageRetentionPeriod</Declaration>
+            <Declaration>AWSRegionEUWest1</Declaration>
             
-            <DeclaredIn>AWSSQSModel.h</DeclaredIn>
+            <DeclaredIn>AWSServiceEnum.h</DeclaredIn>
             
             <NodeRef refid="1192"/>
         </Token>
         
         <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSSQSQueueAttributeNameApproximateNumberOfMessages</TokenIdentifier>
+            <TokenIdentifier>//apple_ref/c/econst/AWSRegionEUCentral1</TokenIdentifier>
             <Abstract type="html"></Abstract>
-            <Declaration>AWSSQSQueueAttributeNameApproximateNumberOfMessages</Declaration>
+            <Declaration>AWSRegionEUCentral1</Declaration>
             
-            <DeclaredIn>AWSSQSModel.h</DeclaredIn>
+            <DeclaredIn>AWSServiceEnum.h</DeclaredIn>
             
             <NodeRef refid="1192"/>
         </Token>
         
         <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSSQSQueueAttributeNameApproximateNumberOfMessagesNotVisible</TokenIdentifier>
+            <TokenIdentifier>//apple_ref/c/econst/AWSRegionAPSoutheast1</TokenIdentifier>
             <Abstract type="html"></Abstract>
-            <Declaration>AWSSQSQueueAttributeNameApproximateNumberOfMessagesNotVisible</Declaration>
+            <Declaration>AWSRegionAPSoutheast1</Declaration>
             
-            <DeclaredIn>AWSSQSModel.h</DeclaredIn>
+            <DeclaredIn>AWSServiceEnum.h</DeclaredIn>
             
             <NodeRef refid="1192"/>
         </Token>
         
         <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSSQSQueueAttributeNameCreatedTimestamp</TokenIdentifier>
+            <TokenIdentifier>//apple_ref/c/econst/AWSRegionAPNortheast1</TokenIdentifier>
             <Abstract type="html"></Abstract>
-            <Declaration>AWSSQSQueueAttributeNameCreatedTimestamp</Declaration>
+            <Declaration>AWSRegionAPNortheast1</Declaration>
             
-            <DeclaredIn>AWSSQSModel.h</DeclaredIn>
+            <DeclaredIn>AWSServiceEnum.h</DeclaredIn>
             
             <NodeRef refid="1192"/>
         </Token>
         
         <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSSQSQueueAttributeNameLastModifiedTimestamp</TokenIdentifier>
+            <TokenIdentifier>//apple_ref/c/econst/AWSRegionAPSoutheast2</TokenIdentifier>
             <Abstract type="html"></Abstract>
-            <Declaration>AWSSQSQueueAttributeNameLastModifiedTimestamp</Declaration>
+            <Declaration>AWSRegionAPSoutheast2</Declaration>
             
-            <DeclaredIn>AWSSQSModel.h</DeclaredIn>
+            <DeclaredIn>AWSServiceEnum.h</DeclaredIn>
             
             <NodeRef refid="1192"/>
         </Token>
         
         <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSSQSQueueAttributeNameQueueArn</TokenIdentifier>
+            <TokenIdentifier>//apple_ref/c/econst/AWSRegionSAEast1</TokenIdentifier>
             <Abstract type="html"></Abstract>
-            <Declaration>AWSSQSQueueAttributeNameQueueArn</Declaration>
+            <Declaration>AWSRegionSAEast1</Declaration>
             
-            <DeclaredIn>AWSSQSModel.h</DeclaredIn>
+            <DeclaredIn>AWSServiceEnum.h</DeclaredIn>
             
             <NodeRef refid="1192"/>
         </Token>
         
         <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSSQSQueueAttributeNameApproximateNumberOfMessagesDelayed</TokenIdentifier>
+            <TokenIdentifier>//apple_ref/c/econst/AWSRegionCNNorth1</TokenIdentifier>
             <Abstract type="html"></Abstract>
-            <Declaration>AWSSQSQueueAttributeNameApproximateNumberOfMessagesDelayed</Declaration>
+            <Declaration>AWSRegionCNNorth1</Declaration>
             
-            <DeclaredIn>AWSSQSModel.h</DeclaredIn>
-            
-            <NodeRef refid="1192"/>
-        </Token>
-        
-        <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSSQSQueueAttributeNameDelaySeconds</TokenIdentifier>
-            <Abstract type="html"></Abstract>
-            <Declaration>AWSSQSQueueAttributeNameDelaySeconds</Declaration>
-            
-            <DeclaredIn>AWSSQSModel.h</DeclaredIn>
-            
-            <NodeRef refid="1192"/>
-        </Token>
-        
-        <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSSQSQueueAttributeNameReceiveMessageWaitTimeSeconds</TokenIdentifier>
-            <Abstract type="html"></Abstract>
-            <Declaration>AWSSQSQueueAttributeNameReceiveMessageWaitTimeSeconds</Declaration>
-            
-            <DeclaredIn>AWSSQSModel.h</DeclaredIn>
-            
-            <NodeRef refid="1192"/>
-        </Token>
-        
-        <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSSQSQueueAttributeNameRedrivePolicy</TokenIdentifier>
-            <Abstract type="html"></Abstract>
-            <Declaration>AWSSQSQueueAttributeNameRedrivePolicy</Declaration>
-            
-            <DeclaredIn>AWSSQSModel.h</DeclaredIn>
+            <DeclaredIn>AWSServiceEnum.h</DeclaredIn>
             
             <NodeRef refid="1192"/>
         </Token>

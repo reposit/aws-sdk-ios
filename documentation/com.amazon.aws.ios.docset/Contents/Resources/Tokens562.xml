@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSEC2ReservedInstancesListing.html">
+	<File path="Classes/AWSEC2Reservation.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSEC2ReservedInstancesListing</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Describes a Reserved Instance listing.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSEC2Reservation</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Describes a reservation.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
             
 			
@@ -13,362 +13,182 @@
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ReservedInstancesListing/setClientToken:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The idempotency token you provided when you created the listing.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2Reservation/setGroups:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;One or more security groups.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *clientToken</Declaration>
+			<Declaration>@property (nonatomic, strong) NSArray *groups</Declaration>
 			
 			
-			<Anchor>//api/name/clientToken</Anchor>
+			<Anchor>//api/name/groups</Anchor>
             <NodeRef refid="562"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ReservedInstancesListing/clientToken</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The idempotency token you provided when you created the listing.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2Reservation/groups</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;One or more security groups.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *clientToken</Declaration>
+			<Declaration>@property (nonatomic, strong) NSArray *groups</Declaration>
 			
 			
-			<Anchor>//api/name/clientToken</Anchor>
+			<Anchor>//api/name/groups</Anchor>
             <NodeRef refid="562"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2ReservedInstancesListing/clientToken</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The idempotency token you provided when you created the listing.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2Reservation/groups</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;One or more security groups.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *clientToken</Declaration>
+			<Declaration>@property (nonatomic, strong) NSArray *groups</Declaration>
 			
 			
-			<Anchor>//api/name/clientToken</Anchor>
+			<Anchor>//api/name/groups</Anchor>
             <NodeRef refid="562"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ReservedInstancesListing/setCreateDate:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The time the listing was created.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2Reservation/setInstances:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;One or more instances.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSDate *createDate</Declaration>
+			<Declaration>@property (nonatomic, strong) NSArray *instances</Declaration>
 			
 			
-			<Anchor>//api/name/createDate</Anchor>
+			<Anchor>//api/name/instances</Anchor>
             <NodeRef refid="562"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ReservedInstancesListing/createDate</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The time the listing was created.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2Reservation/instances</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;One or more instances.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSDate *createDate</Declaration>
+			<Declaration>@property (nonatomic, strong) NSArray *instances</Declaration>
 			
 			
-			<Anchor>//api/name/createDate</Anchor>
+			<Anchor>//api/name/instances</Anchor>
             <NodeRef refid="562"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2ReservedInstancesListing/createDate</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The time the listing was created.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2Reservation/instances</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;One or more instances.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSDate *createDate</Declaration>
+			<Declaration>@property (nonatomic, strong) NSArray *instances</Declaration>
 			
 			
-			<Anchor>//api/name/createDate</Anchor>
+			<Anchor>//api/name/instances</Anchor>
             <NodeRef refid="562"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ReservedInstancesListing/setInstanceCounts:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The number of instances in this state.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2Reservation/setOwnerId:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the AWS account that owns the reservation.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSArray *instanceCounts</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *ownerId</Declaration>
 			
 			
-			<Anchor>//api/name/instanceCounts</Anchor>
+			<Anchor>//api/name/ownerId</Anchor>
             <NodeRef refid="562"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ReservedInstancesListing/instanceCounts</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The number of instances in this state.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2Reservation/ownerId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the AWS account that owns the reservation.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSArray *instanceCounts</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *ownerId</Declaration>
 			
 			
-			<Anchor>//api/name/instanceCounts</Anchor>
+			<Anchor>//api/name/ownerId</Anchor>
             <NodeRef refid="562"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2ReservedInstancesListing/instanceCounts</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The number of instances in this state.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2Reservation/ownerId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the AWS account that owns the reservation.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSArray *instanceCounts</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *ownerId</Declaration>
 			
 			
-			<Anchor>//api/name/instanceCounts</Anchor>
+			<Anchor>//api/name/ownerId</Anchor>
             <NodeRef refid="562"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ReservedInstancesListing/setPriceSchedules:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The price of the Reserved Instance listing.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2Reservation/setRequesterId:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the requester that launched the instances on your behalf (for example, AWS Management Console or Auto Scaling).&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSArray *priceSchedules</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *requesterId</Declaration>
 			
 			
-			<Anchor>//api/name/priceSchedules</Anchor>
+			<Anchor>//api/name/requesterId</Anchor>
             <NodeRef refid="562"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ReservedInstancesListing/priceSchedules</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The price of the Reserved Instance listing.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2Reservation/requesterId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the requester that launched the instances on your behalf (for example, AWS Management Console or Auto Scaling).&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSArray *priceSchedules</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *requesterId</Declaration>
 			
 			
-			<Anchor>//api/name/priceSchedules</Anchor>
+			<Anchor>//api/name/requesterId</Anchor>
             <NodeRef refid="562"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2ReservedInstancesListing/priceSchedules</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The price of the Reserved Instance listing.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2Reservation/requesterId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the requester that launched the instances on your behalf (for example, AWS Management Console or Auto Scaling).&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSArray *priceSchedules</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *requesterId</Declaration>
 			
 			
-			<Anchor>//api/name/priceSchedules</Anchor>
+			<Anchor>//api/name/requesterId</Anchor>
             <NodeRef refid="562"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ReservedInstancesListing/setReservedInstancesId:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The ID of the Reserved Instance.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2Reservation/setReservationId:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the reservation.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *reservedInstancesId</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *reservationId</Declaration>
 			
 			
-			<Anchor>//api/name/reservedInstancesId</Anchor>
+			<Anchor>//api/name/reservationId</Anchor>
             <NodeRef refid="562"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ReservedInstancesListing/reservedInstancesId</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The ID of the Reserved Instance.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2Reservation/reservationId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the reservation.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *reservedInstancesId</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *reservationId</Declaration>
 			
 			
-			<Anchor>//api/name/reservedInstancesId</Anchor>
+			<Anchor>//api/name/reservationId</Anchor>
             <NodeRef refid="562"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2ReservedInstancesListing/reservedInstancesId</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The ID of the Reserved Instance.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2Reservation/reservationId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the reservation.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *reservedInstancesId</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *reservationId</Declaration>
 			
 			
-			<Anchor>//api/name/reservedInstancesId</Anchor>
-            <NodeRef refid="562"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ReservedInstancesListing/setReservedInstancesListingId:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The ID of the Reserved Instance listing.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *reservedInstancesListingId</Declaration>
-			
-			
-			<Anchor>//api/name/reservedInstancesListingId</Anchor>
-            <NodeRef refid="562"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ReservedInstancesListing/reservedInstancesListingId</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The ID of the Reserved Instance listing.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *reservedInstancesListingId</Declaration>
-			
-			
-			<Anchor>//api/name/reservedInstancesListingId</Anchor>
-            <NodeRef refid="562"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2ReservedInstancesListing/reservedInstancesListingId</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The ID of the Reserved Instance listing.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *reservedInstancesListingId</Declaration>
-			
-			
-			<Anchor>//api/name/reservedInstancesListingId</Anchor>
-            <NodeRef refid="562"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ReservedInstancesListing/setStatus:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The status of the Reserved Instance listing.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, assign) AWSEC2ListingStatus status</Declaration>
-			
-			
-			<Anchor>//api/name/status</Anchor>
-            <NodeRef refid="562"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ReservedInstancesListing/status</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The status of the Reserved Instance listing.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, assign) AWSEC2ListingStatus status</Declaration>
-			
-			
-			<Anchor>//api/name/status</Anchor>
-            <NodeRef refid="562"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2ReservedInstancesListing/status</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The status of the Reserved Instance listing.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, assign) AWSEC2ListingStatus status</Declaration>
-			
-			
-			<Anchor>//api/name/status</Anchor>
-            <NodeRef refid="562"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ReservedInstancesListing/setStatusMessage:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The reason for the current status of the Reserved Instance listing. The response can be blank.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *statusMessage</Declaration>
-			
-			
-			<Anchor>//api/name/statusMessage</Anchor>
-            <NodeRef refid="562"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ReservedInstancesListing/statusMessage</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The reason for the current status of the Reserved Instance listing. The response can be blank.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *statusMessage</Declaration>
-			
-			
-			<Anchor>//api/name/statusMessage</Anchor>
-            <NodeRef refid="562"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2ReservedInstancesListing/statusMessage</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The reason for the current status of the Reserved Instance listing. The response can be blank.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *statusMessage</Declaration>
-			
-			
-			<Anchor>//api/name/statusMessage</Anchor>
-            <NodeRef refid="562"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ReservedInstancesListing/setTags:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Any tags assigned to the resource.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSArray *tags</Declaration>
-			
-			
-			<Anchor>//api/name/tags</Anchor>
-            <NodeRef refid="562"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ReservedInstancesListing/tags</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Any tags assigned to the resource.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSArray *tags</Declaration>
-			
-			
-			<Anchor>//api/name/tags</Anchor>
-            <NodeRef refid="562"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2ReservedInstancesListing/tags</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Any tags assigned to the resource.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSArray *tags</Declaration>
-			
-			
-			<Anchor>//api/name/tags</Anchor>
-            <NodeRef refid="562"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ReservedInstancesListing/setUpdateDate:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The last modified timestamp of the listing.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSDate *updateDate</Declaration>
-			
-			
-			<Anchor>//api/name/updateDate</Anchor>
-            <NodeRef refid="562"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ReservedInstancesListing/updateDate</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The last modified timestamp of the listing.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSDate *updateDate</Declaration>
-			
-			
-			<Anchor>//api/name/updateDate</Anchor>
-            <NodeRef refid="562"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2ReservedInstancesListing/updateDate</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The last modified timestamp of the listing.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSDate *updateDate</Declaration>
-			
-			
-			<Anchor>//api/name/updateDate</Anchor>
+			<Anchor>//api/name/reservationId</Anchor>
             <NodeRef refid="562"/>
 		</Token>
 		

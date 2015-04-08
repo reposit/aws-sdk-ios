@@ -1,88 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSElasticLoadBalancingSourceSecurityGroup.html">
+	<File path="Classes/AWSElasticLoadBalancingResponseSerializer.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSElasticLoadBalancingSourceSecurityGroup</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSElasticLoadBalancingModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSElasticLoadBalancingResponseSerializer</TokenIdentifier>
+			<Abstract type="html">Copyright 2010-2015 Amazon.com, Inc. or its affiliates. All Rights Reserved.</Abstract>
+			<DeclaredIn>AWSElasticLoadBalancingService.m</DeclaredIn>
             
 			
 			<NodeRef refid="697"/>
 		</Token>
 		
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSElasticLoadBalancingSourceSecurityGroup/setGroupName:</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSElasticLoadBalancingModel.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *groupName</Declaration>
-			
-			
-			<Anchor>//api/name/groupName</Anchor>
-            <NodeRef refid="697"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSElasticLoadBalancingSourceSecurityGroup/groupName</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSElasticLoadBalancingModel.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *groupName</Declaration>
-			
-			
-			<Anchor>//api/name/groupName</Anchor>
-            <NodeRef refid="697"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSElasticLoadBalancingSourceSecurityGroup/groupName</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSElasticLoadBalancingModel.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *groupName</Declaration>
-			
-			
-			<Anchor>//api/name/groupName</Anchor>
-            <NodeRef refid="697"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSElasticLoadBalancingSourceSecurityGroup/setOwnerAlias:</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSElasticLoadBalancingModel.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *ownerAlias</Declaration>
-			
-			
-			<Anchor>//api/name/ownerAlias</Anchor>
-            <NodeRef refid="697"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSElasticLoadBalancingSourceSecurityGroup/ownerAlias</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSElasticLoadBalancingModel.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *ownerAlias</Declaration>
-			
-			
-			<Anchor>//api/name/ownerAlias</Anchor>
-            <NodeRef refid="697"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSElasticLoadBalancingSourceSecurityGroup/ownerAlias</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSElasticLoadBalancingModel.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *ownerAlias</Declaration>
-			
-			
-			<Anchor>//api/name/ownerAlias</Anchor>
-            <NodeRef refid="697"/>
-		</Token>
 		
         
         

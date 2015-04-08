@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSS3PutBucketPolicyRequest.html">
+	<File path="Classes/AWSS3ListPartsRequest.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSS3PutBucketPolicyRequest</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSS3ListPartsRequest</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSS3Model.h</DeclaredIn>
             
@@ -13,7 +13,7 @@
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3PutBucketPolicyRequest/setBucket:</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3ListPartsRequest/setBucket:</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
@@ -25,7 +25,7 @@
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3PutBucketPolicyRequest/bucket</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3ListPartsRequest/bucket</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
@@ -37,7 +37,7 @@
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSS3PutBucketPolicyRequest/bucket</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSS3ListPartsRequest/bucket</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
@@ -49,74 +49,146 @@
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3PutBucketPolicyRequest/setContentMD5:</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3ListPartsRequest/setKey:</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *contentMD5</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *key</Declaration>
 			
 			
-			<Anchor>//api/name/contentMD5</Anchor>
+			<Anchor>//api/name/key</Anchor>
             <NodeRef refid="837"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3PutBucketPolicyRequest/contentMD5</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3ListPartsRequest/key</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *contentMD5</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *key</Declaration>
 			
 			
-			<Anchor>//api/name/contentMD5</Anchor>
+			<Anchor>//api/name/key</Anchor>
             <NodeRef refid="837"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSS3PutBucketPolicyRequest/contentMD5</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSS3ListPartsRequest/key</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *contentMD5</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *key</Declaration>
 			
 			
-			<Anchor>//api/name/contentMD5</Anchor>
+			<Anchor>//api/name/key</Anchor>
             <NodeRef refid="837"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3PutBucketPolicyRequest/setPolicy:</TokenIdentifier>
-			<Abstract type="html">The bucket policy as a JSON document.</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3ListPartsRequest/setMaxParts:</TokenIdentifier>
+			<Abstract type="html">Sets the maximum number of parts to return.</Abstract>
 			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *policy</Declaration>
+			<Declaration>@property (nonatomic, strong) NSNumber *maxParts</Declaration>
 			
 			
-			<Anchor>//api/name/policy</Anchor>
+			<Anchor>//api/name/maxParts</Anchor>
             <NodeRef refid="837"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3PutBucketPolicyRequest/policy</TokenIdentifier>
-			<Abstract type="html">The bucket policy as a JSON document.</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3ListPartsRequest/maxParts</TokenIdentifier>
+			<Abstract type="html">Sets the maximum number of parts to return.</Abstract>
 			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *policy</Declaration>
+			<Declaration>@property (nonatomic, strong) NSNumber *maxParts</Declaration>
 			
 			
-			<Anchor>//api/name/policy</Anchor>
+			<Anchor>//api/name/maxParts</Anchor>
             <NodeRef refid="837"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSS3PutBucketPolicyRequest/policy</TokenIdentifier>
-			<Abstract type="html">The bucket policy as a JSON document.</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSS3ListPartsRequest/maxParts</TokenIdentifier>
+			<Abstract type="html">Sets the maximum number of parts to return.</Abstract>
 			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *policy</Declaration>
+			<Declaration>@property (nonatomic, strong) NSNumber *maxParts</Declaration>
 			
 			
-			<Anchor>//api/name/policy</Anchor>
+			<Anchor>//api/name/maxParts</Anchor>
+            <NodeRef refid="837"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3ListPartsRequest/setPartNumberMarker:</TokenIdentifier>
+			<Abstract type="html">Specifies the part after which listing should begin. Only parts with higher part numbers will be listed.</Abstract>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *partNumberMarker</Declaration>
+			
+			
+			<Anchor>//api/name/partNumberMarker</Anchor>
+            <NodeRef refid="837"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3ListPartsRequest/partNumberMarker</TokenIdentifier>
+			<Abstract type="html">Specifies the part after which listing should begin. Only parts with higher part numbers will be listed.</Abstract>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *partNumberMarker</Declaration>
+			
+			
+			<Anchor>//api/name/partNumberMarker</Anchor>
+            <NodeRef refid="837"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSS3ListPartsRequest/partNumberMarker</TokenIdentifier>
+			<Abstract type="html">Specifies the part after which listing should begin. Only parts with higher part numbers will be listed.</Abstract>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *partNumberMarker</Declaration>
+			
+			
+			<Anchor>//api/name/partNumberMarker</Anchor>
+            <NodeRef refid="837"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3ListPartsRequest/setUploadId:</TokenIdentifier>
+			<Abstract type="html">Upload ID identifying the multipart upload whose parts are being listed.</Abstract>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *uploadId</Declaration>
+			
+			
+			<Anchor>//api/name/uploadId</Anchor>
+            <NodeRef refid="837"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3ListPartsRequest/uploadId</TokenIdentifier>
+			<Abstract type="html">Upload ID identifying the multipart upload whose parts are being listed.</Abstract>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *uploadId</Declaration>
+			
+			
+			<Anchor>//api/name/uploadId</Anchor>
+            <NodeRef refid="837"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSS3ListPartsRequest/uploadId</TokenIdentifier>
+			<Abstract type="html">Upload ID identifying the multipart upload whose parts are being listed.</Abstract>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *uploadId</Declaration>
+			
+			
+			<Anchor>//api/name/uploadId</Anchor>
             <NodeRef refid="837"/>
 		</Token>
 		

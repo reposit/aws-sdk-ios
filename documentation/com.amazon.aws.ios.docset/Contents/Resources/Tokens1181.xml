@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Constants/AWSS3StorageClass.html">
+	<File path="Constants/AWSJSONBuilderErrorType.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/c/tdef/AWSS3StorageClass</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/c/tdef/AWSJSONBuilderErrorType</TokenIdentifier>
 			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			<DeclaredIn>AWSSerialization.h</DeclaredIn>
             
 			
 			<NodeRef refid="1181"/>
@@ -14,31 +14,51 @@
 		
         
         <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSS3StorageClassUnknown</TokenIdentifier>
+            <TokenIdentifier>//apple_ref/c/econst/AWSJSONBuilderUnknownError</TokenIdentifier>
             <Abstract type="html"></Abstract>
-            <Declaration>AWSS3StorageClassUnknown</Declaration>
+            <Declaration>AWSJSONBuilderUnknownError</Declaration>
             
-            <DeclaredIn>AWSS3Model.h</DeclaredIn>
+            <DeclaredIn>AWSSerialization.h</DeclaredIn>
             
             <NodeRef refid="1181"/>
         </Token>
         
         <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSS3StorageClassStandard</TokenIdentifier>
+            <TokenIdentifier>//apple_ref/c/econst/AWSJSONBuilderDefinitionFileIsEmpty</TokenIdentifier>
             <Abstract type="html"></Abstract>
-            <Declaration>AWSS3StorageClassStandard</Declaration>
+            <Declaration>AWSJSONBuilderDefinitionFileIsEmpty</Declaration>
             
-            <DeclaredIn>AWSS3Model.h</DeclaredIn>
+            <DeclaredIn>AWSSerialization.h</DeclaredIn>
             
             <NodeRef refid="1181"/>
         </Token>
         
         <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSS3StorageClassReducedRedundancy</TokenIdentifier>
+            <TokenIdentifier>//apple_ref/c/econst/AWSJSONBuilderUndefinedActionRule</TokenIdentifier>
             <Abstract type="html"></Abstract>
-            <Declaration>AWSS3StorageClassReducedRedundancy</Declaration>
+            <Declaration>AWSJSONBuilderUndefinedActionRule</Declaration>
             
-            <DeclaredIn>AWSS3Model.h</DeclaredIn>
+            <DeclaredIn>AWSSerialization.h</DeclaredIn>
+            
+            <NodeRef refid="1181"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/AWSJSONBuilderInternalError</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>AWSJSONBuilderInternalError</Declaration>
+            
+            <DeclaredIn>AWSSerialization.h</DeclaredIn>
+            
+            <NodeRef refid="1181"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/AWSJSONBuilderInvalidParameter</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>AWSJSONBuilderInvalidParameter</Declaration>
+            
+            <DeclaredIn>AWSSerialization.h</DeclaredIn>
             
             <NodeRef refid="1181"/>
         </Token>

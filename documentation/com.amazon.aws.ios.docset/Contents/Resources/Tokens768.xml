@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSS3DeleteObjectRequest.html">
+	<File path="Classes/AWSS3CompleteMultipartUploadRequest.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSS3DeleteObjectRequest</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSS3CompleteMultipartUploadRequest</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSS3Model.h</DeclaredIn>
             
@@ -13,7 +13,7 @@
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3DeleteObjectRequest/setBucket:</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3CompleteMultipartUploadRequest/setBucket:</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
@@ -25,7 +25,7 @@
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3DeleteObjectRequest/bucket</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3CompleteMultipartUploadRequest/bucket</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
@@ -37,7 +37,7 @@
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSS3DeleteObjectRequest/bucket</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSS3CompleteMultipartUploadRequest/bucket</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
@@ -49,7 +49,7 @@
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3DeleteObjectRequest/setKey:</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3CompleteMultipartUploadRequest/setKey:</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
@@ -61,7 +61,7 @@
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3DeleteObjectRequest/key</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3CompleteMultipartUploadRequest/key</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
@@ -73,7 +73,7 @@
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSS3DeleteObjectRequest/key</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSS3CompleteMultipartUploadRequest/key</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
@@ -85,74 +85,74 @@
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3DeleteObjectRequest/setMFA:</TokenIdentifier>
-			<Abstract type="html">The concatenation of the authentication device&apos;s serial number, a space, and the value that is displayed on your authentication device.</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3CompleteMultipartUploadRequest/setMultipartUpload:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *MFA</Declaration>
+			<Declaration>@property (nonatomic, strong) AWSS3CompletedMultipartUpload *multipartUpload</Declaration>
 			
 			
-			<Anchor>//api/name/MFA</Anchor>
+			<Anchor>//api/name/multipartUpload</Anchor>
             <NodeRef refid="768"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3DeleteObjectRequest/MFA</TokenIdentifier>
-			<Abstract type="html">The concatenation of the authentication device&apos;s serial number, a space, and the value that is displayed on your authentication device.</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3CompleteMultipartUploadRequest/multipartUpload</TokenIdentifier>
+			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *MFA</Declaration>
+			<Declaration>@property (nonatomic, strong) AWSS3CompletedMultipartUpload *multipartUpload</Declaration>
 			
 			
-			<Anchor>//api/name/MFA</Anchor>
+			<Anchor>//api/name/multipartUpload</Anchor>
             <NodeRef refid="768"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSS3DeleteObjectRequest/MFA</TokenIdentifier>
-			<Abstract type="html">The concatenation of the authentication device&apos;s serial number, a space, and the value that is displayed on your authentication device.</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSS3CompleteMultipartUploadRequest/multipartUpload</TokenIdentifier>
+			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *MFA</Declaration>
+			<Declaration>@property (nonatomic, strong) AWSS3CompletedMultipartUpload *multipartUpload</Declaration>
 			
 			
-			<Anchor>//api/name/MFA</Anchor>
+			<Anchor>//api/name/multipartUpload</Anchor>
             <NodeRef refid="768"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3DeleteObjectRequest/setVersionId:</TokenIdentifier>
-			<Abstract type="html">VersionId used to reference a specific version of the object.</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3CompleteMultipartUploadRequest/setUploadId:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *versionId</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *uploadId</Declaration>
 			
 			
-			<Anchor>//api/name/versionId</Anchor>
+			<Anchor>//api/name/uploadId</Anchor>
             <NodeRef refid="768"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3DeleteObjectRequest/versionId</TokenIdentifier>
-			<Abstract type="html">VersionId used to reference a specific version of the object.</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3CompleteMultipartUploadRequest/uploadId</TokenIdentifier>
+			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *versionId</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *uploadId</Declaration>
 			
 			
-			<Anchor>//api/name/versionId</Anchor>
+			<Anchor>//api/name/uploadId</Anchor>
             <NodeRef refid="768"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSS3DeleteObjectRequest/versionId</TokenIdentifier>
-			<Abstract type="html">VersionId used to reference a specific version of the object.</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSS3CompleteMultipartUploadRequest/uploadId</TokenIdentifier>
+			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *versionId</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *uploadId</Declaration>
 			
 			
-			<Anchor>//api/name/versionId</Anchor>
+			<Anchor>//api/name/uploadId</Anchor>
             <NodeRef refid="768"/>
 		</Token>
 		

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSS3LifecycleConfiguration.html">
+	<File path="Classes/AWSS3GetBucketVersioningRequest.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSS3LifecycleConfiguration</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSS3GetBucketVersioningRequest</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSS3Model.h</DeclaredIn>
             
@@ -13,38 +13,38 @@
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3LifecycleConfiguration/setRules:</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3GetBucketVersioningRequest/setBucket:</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSArray *rules</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *bucket</Declaration>
 			
 			
-			<Anchor>//api/name/rules</Anchor>
+			<Anchor>//api/name/bucket</Anchor>
             <NodeRef refid="810"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3LifecycleConfiguration/rules</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3GetBucketVersioningRequest/bucket</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSArray *rules</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *bucket</Declaration>
 			
 			
-			<Anchor>//api/name/rules</Anchor>
+			<Anchor>//api/name/bucket</Anchor>
             <NodeRef refid="810"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSS3LifecycleConfiguration/rules</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSS3GetBucketVersioningRequest/bucket</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSArray *rules</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *bucket</Declaration>
 			
 			
-			<Anchor>//api/name/rules</Anchor>
+			<Anchor>//api/name/bucket</Anchor>
             <NodeRef refid="810"/>
 		</Token>
 		

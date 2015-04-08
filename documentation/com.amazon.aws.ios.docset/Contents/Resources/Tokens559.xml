@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSEC2ReservedInstances.html">
+	<File path="Classes/AWSEC2RequestSpotInstancesRequest.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSEC2ReservedInstances</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Describes a Reserved Instance.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSEC2RequestSpotInstancesRequest</TokenIdentifier>
+			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
             
 			
@@ -13,188 +13,80 @@
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ReservedInstances/setAvailabilityZone:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The Availability Zone in which the Reserved Instance can be used.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2RequestSpotInstancesRequest/setAvailabilityZoneGroup:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The user-specified name for a logical grouping of bids.&lt;/p&gt;&lt;p&gt;When you specify an Availability Zone group in a Spot Instance request, all Spot Instances in the request are launched in the same Availability Zone. Instance proximity is maintained with this parameter, but the choice of Availability Zone is not. The group applies only to bids for Spot Instances of the same instance type. Any additional Spot Instance requests that are specified with the same Availability Zone group name are launched in that same Availability Zone, as long as at least one instance from the group is still active.&lt;/p&gt;&lt;p&gt;If there is no active instance running in the Availability Zone group that you specify for a new Spot Instance request (all instances are terminated, the bid is expired, or the bid falls below current market), then Amazon EC2 launches the instance in any Availability Zone where the constraint can be met. Consequently, the subsequent set of Spot Instances could be placed in a different zone from the original request, even if you specified the same Availability Zone group.&lt;/p&gt;&lt;p&gt;Default: Instances are launched in any available Availability Zone.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *availabilityZone</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *availabilityZoneGroup</Declaration>
 			
 			
-			<Anchor>//api/name/availabilityZone</Anchor>
+			<Anchor>//api/name/availabilityZoneGroup</Anchor>
             <NodeRef refid="559"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ReservedInstances/availabilityZone</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The Availability Zone in which the Reserved Instance can be used.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2RequestSpotInstancesRequest/availabilityZoneGroup</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The user-specified name for a logical grouping of bids.&lt;/p&gt;&lt;p&gt;When you specify an Availability Zone group in a Spot Instance request, all Spot Instances in the request are launched in the same Availability Zone. Instance proximity is maintained with this parameter, but the choice of Availability Zone is not. The group applies only to bids for Spot Instances of the same instance type. Any additional Spot Instance requests that are specified with the same Availability Zone group name are launched in that same Availability Zone, as long as at least one instance from the group is still active.&lt;/p&gt;&lt;p&gt;If there is no active instance running in the Availability Zone group that you specify for a new Spot Instance request (all instances are terminated, the bid is expired, or the bid falls below current market), then Amazon EC2 launches the instance in any Availability Zone where the constraint can be met. Consequently, the subsequent set of Spot Instances could be placed in a different zone from the original request, even if you specified the same Availability Zone group.&lt;/p&gt;&lt;p&gt;Default: Instances are launched in any available Availability Zone.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *availabilityZone</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *availabilityZoneGroup</Declaration>
 			
 			
-			<Anchor>//api/name/availabilityZone</Anchor>
+			<Anchor>//api/name/availabilityZoneGroup</Anchor>
             <NodeRef refid="559"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2ReservedInstances/availabilityZone</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The Availability Zone in which the Reserved Instance can be used.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2RequestSpotInstancesRequest/availabilityZoneGroup</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The user-specified name for a logical grouping of bids.&lt;/p&gt;&lt;p&gt;When you specify an Availability Zone group in a Spot Instance request, all Spot Instances in the request are launched in the same Availability Zone. Instance proximity is maintained with this parameter, but the choice of Availability Zone is not. The group applies only to bids for Spot Instances of the same instance type. Any additional Spot Instance requests that are specified with the same Availability Zone group name are launched in that same Availability Zone, as long as at least one instance from the group is still active.&lt;/p&gt;&lt;p&gt;If there is no active instance running in the Availability Zone group that you specify for a new Spot Instance request (all instances are terminated, the bid is expired, or the bid falls below current market), then Amazon EC2 launches the instance in any Availability Zone where the constraint can be met. Consequently, the subsequent set of Spot Instances could be placed in a different zone from the original request, even if you specified the same Availability Zone group.&lt;/p&gt;&lt;p&gt;Default: Instances are launched in any available Availability Zone.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *availabilityZone</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *availabilityZoneGroup</Declaration>
 			
 			
-			<Anchor>//api/name/availabilityZone</Anchor>
+			<Anchor>//api/name/availabilityZoneGroup</Anchor>
             <NodeRef refid="559"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ReservedInstances/setCurrencyCode:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The currency of the Reserved Instance. It&apos;s specified using ISO 4217 standard currency codes. At this time, the only supported currency is &lt;code&gt;USD&lt;/code&gt;.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2RequestSpotInstancesRequest/setDryRun:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, assign) AWSEC2CurrencyCodeValues currencyCode</Declaration>
+			<Declaration>@property (nonatomic, strong) NSNumber *dryRun</Declaration>
 			
 			
-			<Anchor>//api/name/currencyCode</Anchor>
+			<Anchor>//api/name/dryRun</Anchor>
             <NodeRef refid="559"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ReservedInstances/currencyCode</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The currency of the Reserved Instance. It&apos;s specified using ISO 4217 standard currency codes. At this time, the only supported currency is &lt;code&gt;USD&lt;/code&gt;.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2RequestSpotInstancesRequest/dryRun</TokenIdentifier>
+			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, assign) AWSEC2CurrencyCodeValues currencyCode</Declaration>
+			<Declaration>@property (nonatomic, strong) NSNumber *dryRun</Declaration>
 			
 			
-			<Anchor>//api/name/currencyCode</Anchor>
+			<Anchor>//api/name/dryRun</Anchor>
             <NodeRef refid="559"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2ReservedInstances/currencyCode</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The currency of the Reserved Instance. It&apos;s specified using ISO 4217 standard currency codes. At this time, the only supported currency is &lt;code&gt;USD&lt;/code&gt;.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2RequestSpotInstancesRequest/dryRun</TokenIdentifier>
+			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, assign) AWSEC2CurrencyCodeValues currencyCode</Declaration>
+			<Declaration>@property (nonatomic, strong) NSNumber *dryRun</Declaration>
 			
 			
-			<Anchor>//api/name/currencyCode</Anchor>
+			<Anchor>//api/name/dryRun</Anchor>
             <NodeRef refid="559"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ReservedInstances/setDuration:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The duration of the Reserved Instance, in seconds.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSNumber *duration</Declaration>
-			
-			
-			<Anchor>//api/name/duration</Anchor>
-            <NodeRef refid="559"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ReservedInstances/duration</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The duration of the Reserved Instance, in seconds.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSNumber *duration</Declaration>
-			
-			
-			<Anchor>//api/name/duration</Anchor>
-            <NodeRef refid="559"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2ReservedInstances/duration</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The duration of the Reserved Instance, in seconds.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSNumber *duration</Declaration>
-			
-			
-			<Anchor>//api/name/duration</Anchor>
-            <NodeRef refid="559"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ReservedInstances/setEnd:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The time when the Reserved Instance expires.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSDate *end</Declaration>
-			
-			
-			<Anchor>//api/name/end</Anchor>
-            <NodeRef refid="559"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ReservedInstances/end</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The time when the Reserved Instance expires.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSDate *end</Declaration>
-			
-			
-			<Anchor>//api/name/end</Anchor>
-            <NodeRef refid="559"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2ReservedInstances/end</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The time when the Reserved Instance expires.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSDate *end</Declaration>
-			
-			
-			<Anchor>//api/name/end</Anchor>
-            <NodeRef refid="559"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ReservedInstances/setFixedPrice:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The purchase price of the Reserved Instance.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSNumber *fixedPrice</Declaration>
-			
-			
-			<Anchor>//api/name/fixedPrice</Anchor>
-            <NodeRef refid="559"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ReservedInstances/fixedPrice</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The purchase price of the Reserved Instance.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSNumber *fixedPrice</Declaration>
-			
-			
-			<Anchor>//api/name/fixedPrice</Anchor>
-            <NodeRef refid="559"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2ReservedInstances/fixedPrice</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The purchase price of the Reserved Instance.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSNumber *fixedPrice</Declaration>
-			
-			
-			<Anchor>//api/name/fixedPrice</Anchor>
-            <NodeRef refid="559"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ReservedInstances/setInstanceCount:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The number of Reserved Instances purchased.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2RequestSpotInstancesRequest/setInstanceCount:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The maximum number of Spot Instances to launch.&lt;/p&gt;&lt;p&gt;Default: 1&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
 			<Declaration>@property (nonatomic, strong) NSNumber *instanceCount</Declaration>
@@ -205,8 +97,8 @@
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ReservedInstances/instanceCount</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The number of Reserved Instances purchased.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2RequestSpotInstancesRequest/instanceCount</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The maximum number of Spot Instances to launch.&lt;/p&gt;&lt;p&gt;Default: 1&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
 			<Declaration>@property (nonatomic, strong) NSNumber *instanceCount</Declaration>
@@ -217,8 +109,8 @@
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2ReservedInstances/instanceCount</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The number of Reserved Instances purchased.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2RequestSpotInstancesRequest/instanceCount</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The maximum number of Spot Instances to launch.&lt;/p&gt;&lt;p&gt;Default: 1&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
 			<Declaration>@property (nonatomic, strong) NSNumber *instanceCount</Declaration>
@@ -229,362 +121,218 @@
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ReservedInstances/setInstanceTenancy:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The tenancy of the reserved instance.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2RequestSpotInstancesRequest/setLaunchGroup:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The instance launch group. Launch groups are Spot Instances that launch together and terminate together.&lt;/p&gt;&lt;p&gt;Default: Instances are launched and terminated individually&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, assign) AWSEC2Tenancy instanceTenancy</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *launchGroup</Declaration>
 			
 			
-			<Anchor>//api/name/instanceTenancy</Anchor>
+			<Anchor>//api/name/launchGroup</Anchor>
             <NodeRef refid="559"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ReservedInstances/instanceTenancy</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The tenancy of the reserved instance.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2RequestSpotInstancesRequest/launchGroup</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The instance launch group. Launch groups are Spot Instances that launch together and terminate together.&lt;/p&gt;&lt;p&gt;Default: Instances are launched and terminated individually&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, assign) AWSEC2Tenancy instanceTenancy</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *launchGroup</Declaration>
 			
 			
-			<Anchor>//api/name/instanceTenancy</Anchor>
+			<Anchor>//api/name/launchGroup</Anchor>
             <NodeRef refid="559"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2ReservedInstances/instanceTenancy</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The tenancy of the reserved instance.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2RequestSpotInstancesRequest/launchGroup</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The instance launch group. Launch groups are Spot Instances that launch together and terminate together.&lt;/p&gt;&lt;p&gt;Default: Instances are launched and terminated individually&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, assign) AWSEC2Tenancy instanceTenancy</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *launchGroup</Declaration>
 			
 			
-			<Anchor>//api/name/instanceTenancy</Anchor>
+			<Anchor>//api/name/launchGroup</Anchor>
             <NodeRef refid="559"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ReservedInstances/setInstanceType:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The instance type on which the Reserved Instance can be used.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2RequestSpotInstancesRequest/setLaunchSpecification:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Describes the launch specification of a Spot Instance.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, assign) AWSEC2InstanceType instanceType</Declaration>
+			<Declaration>@property (nonatomic, strong) AWSEC2RequestSpotLaunchSpecification *launchSpecification</Declaration>
 			
 			
-			<Anchor>//api/name/instanceType</Anchor>
+			<Anchor>//api/name/launchSpecification</Anchor>
             <NodeRef refid="559"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ReservedInstances/instanceType</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The instance type on which the Reserved Instance can be used.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2RequestSpotInstancesRequest/launchSpecification</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Describes the launch specification of a Spot Instance.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, assign) AWSEC2InstanceType instanceType</Declaration>
+			<Declaration>@property (nonatomic, strong) AWSEC2RequestSpotLaunchSpecification *launchSpecification</Declaration>
 			
 			
-			<Anchor>//api/name/instanceType</Anchor>
+			<Anchor>//api/name/launchSpecification</Anchor>
             <NodeRef refid="559"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2ReservedInstances/instanceType</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The instance type on which the Reserved Instance can be used.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2RequestSpotInstancesRequest/launchSpecification</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Describes the launch specification of a Spot Instance.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, assign) AWSEC2InstanceType instanceType</Declaration>
+			<Declaration>@property (nonatomic, strong) AWSEC2RequestSpotLaunchSpecification *launchSpecification</Declaration>
 			
 			
-			<Anchor>//api/name/instanceType</Anchor>
+			<Anchor>//api/name/launchSpecification</Anchor>
             <NodeRef refid="559"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ReservedInstances/setOfferingType:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The Reserved Instance offering type.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2RequestSpotInstancesRequest/setSpotPrice:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The maximum hourly price for any Spot Instance launched to fulfill the request.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, assign) AWSEC2OfferingTypeValues offeringType</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *spotPrice</Declaration>
 			
 			
-			<Anchor>//api/name/offeringType</Anchor>
+			<Anchor>//api/name/spotPrice</Anchor>
             <NodeRef refid="559"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ReservedInstances/offeringType</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The Reserved Instance offering type.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2RequestSpotInstancesRequest/spotPrice</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The maximum hourly price for any Spot Instance launched to fulfill the request.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, assign) AWSEC2OfferingTypeValues offeringType</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *spotPrice</Declaration>
 			
 			
-			<Anchor>//api/name/offeringType</Anchor>
+			<Anchor>//api/name/spotPrice</Anchor>
             <NodeRef refid="559"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2ReservedInstances/offeringType</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The Reserved Instance offering type.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2RequestSpotInstancesRequest/spotPrice</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The maximum hourly price for any Spot Instance launched to fulfill the request.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, assign) AWSEC2OfferingTypeValues offeringType</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *spotPrice</Declaration>
 			
 			
-			<Anchor>//api/name/offeringType</Anchor>
+			<Anchor>//api/name/spotPrice</Anchor>
             <NodeRef refid="559"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ReservedInstances/setProductDescription:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The Reserved Instance description.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2RequestSpotInstancesRequest/setTypes:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The Spot Instance request type.&lt;/p&gt;&lt;p&gt;Default: &lt;code&gt;one-time&lt;/code&gt;&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, assign) AWSEC2RIProductDescription productDescription</Declaration>
+			<Declaration>@property (nonatomic, assign) AWSEC2SpotInstanceType types</Declaration>
 			
 			
-			<Anchor>//api/name/productDescription</Anchor>
+			<Anchor>//api/name/types</Anchor>
             <NodeRef refid="559"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ReservedInstances/productDescription</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The Reserved Instance description.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2RequestSpotInstancesRequest/types</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The Spot Instance request type.&lt;/p&gt;&lt;p&gt;Default: &lt;code&gt;one-time&lt;/code&gt;&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, assign) AWSEC2RIProductDescription productDescription</Declaration>
+			<Declaration>@property (nonatomic, assign) AWSEC2SpotInstanceType types</Declaration>
 			
 			
-			<Anchor>//api/name/productDescription</Anchor>
+			<Anchor>//api/name/types</Anchor>
             <NodeRef refid="559"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2ReservedInstances/productDescription</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The Reserved Instance description.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2RequestSpotInstancesRequest/types</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The Spot Instance request type.&lt;/p&gt;&lt;p&gt;Default: &lt;code&gt;one-time&lt;/code&gt;&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, assign) AWSEC2RIProductDescription productDescription</Declaration>
+			<Declaration>@property (nonatomic, assign) AWSEC2SpotInstanceType types</Declaration>
 			
 			
-			<Anchor>//api/name/productDescription</Anchor>
+			<Anchor>//api/name/types</Anchor>
             <NodeRef refid="559"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ReservedInstances/setRecurringCharges:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The recurring charge tag assigned to the resource.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2RequestSpotInstancesRequest/setValidFrom:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The start date of the request. If this is a one-time request, the request becomes active at this date and time and remains active until all instances launch, the request expires, or the request is canceled. If the request is persistent, the request becomes active at this date and time and remains active until it expires or is canceled.&lt;/p&gt;&lt;p&gt;Default: The request is effective indefinitely.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSArray *recurringCharges</Declaration>
+			<Declaration>@property (nonatomic, strong) NSDate *validFrom</Declaration>
 			
 			
-			<Anchor>//api/name/recurringCharges</Anchor>
+			<Anchor>//api/name/validFrom</Anchor>
             <NodeRef refid="559"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ReservedInstances/recurringCharges</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The recurring charge tag assigned to the resource.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2RequestSpotInstancesRequest/validFrom</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The start date of the request. If this is a one-time request, the request becomes active at this date and time and remains active until all instances launch, the request expires, or the request is canceled. If the request is persistent, the request becomes active at this date and time and remains active until it expires or is canceled.&lt;/p&gt;&lt;p&gt;Default: The request is effective indefinitely.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSArray *recurringCharges</Declaration>
+			<Declaration>@property (nonatomic, strong) NSDate *validFrom</Declaration>
 			
 			
-			<Anchor>//api/name/recurringCharges</Anchor>
+			<Anchor>//api/name/validFrom</Anchor>
             <NodeRef refid="559"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2ReservedInstances/recurringCharges</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The recurring charge tag assigned to the resource.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2RequestSpotInstancesRequest/validFrom</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The start date of the request. If this is a one-time request, the request becomes active at this date and time and remains active until all instances launch, the request expires, or the request is canceled. If the request is persistent, the request becomes active at this date and time and remains active until it expires or is canceled.&lt;/p&gt;&lt;p&gt;Default: The request is effective indefinitely.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSArray *recurringCharges</Declaration>
+			<Declaration>@property (nonatomic, strong) NSDate *validFrom</Declaration>
 			
 			
-			<Anchor>//api/name/recurringCharges</Anchor>
+			<Anchor>//api/name/validFrom</Anchor>
             <NodeRef refid="559"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ReservedInstances/setReservedInstancesId:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The ID of the Reserved Instance.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2RequestSpotInstancesRequest/setValidUntil:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The end date of the request. If this is a one-time request, the request remains active until all instances launch, the request is canceled, or this date is reached. If the request is persistent, it remains active until it is canceled or this date and time is reached.&lt;/p&gt;&lt;p&gt;Default: The request is effective indefinitely.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *reservedInstancesId</Declaration>
+			<Declaration>@property (nonatomic, strong) NSDate *validUntil</Declaration>
 			
 			
-			<Anchor>//api/name/reservedInstancesId</Anchor>
+			<Anchor>//api/name/validUntil</Anchor>
             <NodeRef refid="559"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ReservedInstances/reservedInstancesId</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The ID of the Reserved Instance.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2RequestSpotInstancesRequest/validUntil</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The end date of the request. If this is a one-time request, the request remains active until all instances launch, the request is canceled, or this date is reached. If the request is persistent, it remains active until it is canceled or this date and time is reached.&lt;/p&gt;&lt;p&gt;Default: The request is effective indefinitely.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *reservedInstancesId</Declaration>
+			<Declaration>@property (nonatomic, strong) NSDate *validUntil</Declaration>
 			
 			
-			<Anchor>//api/name/reservedInstancesId</Anchor>
+			<Anchor>//api/name/validUntil</Anchor>
             <NodeRef refid="559"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2ReservedInstances/reservedInstancesId</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The ID of the Reserved Instance.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2RequestSpotInstancesRequest/validUntil</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The end date of the request. If this is a one-time request, the request remains active until all instances launch, the request is canceled, or this date is reached. If the request is persistent, it remains active until it is canceled or this date and time is reached.&lt;/p&gt;&lt;p&gt;Default: The request is effective indefinitely.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *reservedInstancesId</Declaration>
+			<Declaration>@property (nonatomic, strong) NSDate *validUntil</Declaration>
 			
 			
-			<Anchor>//api/name/reservedInstancesId</Anchor>
-            <NodeRef refid="559"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ReservedInstances/setStart:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The date and time the Reserved Instance started.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSDate *start</Declaration>
-			
-			
-			<Anchor>//api/name/start</Anchor>
-            <NodeRef refid="559"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ReservedInstances/start</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The date and time the Reserved Instance started.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSDate *start</Declaration>
-			
-			
-			<Anchor>//api/name/start</Anchor>
-            <NodeRef refid="559"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2ReservedInstances/start</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The date and time the Reserved Instance started.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSDate *start</Declaration>
-			
-			
-			<Anchor>//api/name/start</Anchor>
-            <NodeRef refid="559"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ReservedInstances/setState:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The state of the Reserved Instance purchase.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, assign) AWSEC2ReservedInstanceState state</Declaration>
-			
-			
-			<Anchor>//api/name/state</Anchor>
-            <NodeRef refid="559"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ReservedInstances/state</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The state of the Reserved Instance purchase.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, assign) AWSEC2ReservedInstanceState state</Declaration>
-			
-			
-			<Anchor>//api/name/state</Anchor>
-            <NodeRef refid="559"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2ReservedInstances/state</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The state of the Reserved Instance purchase.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, assign) AWSEC2ReservedInstanceState state</Declaration>
-			
-			
-			<Anchor>//api/name/state</Anchor>
-            <NodeRef refid="559"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ReservedInstances/setTags:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Any tags assigned to the resource.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSArray *tags</Declaration>
-			
-			
-			<Anchor>//api/name/tags</Anchor>
-            <NodeRef refid="559"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ReservedInstances/tags</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Any tags assigned to the resource.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSArray *tags</Declaration>
-			
-			
-			<Anchor>//api/name/tags</Anchor>
-            <NodeRef refid="559"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2ReservedInstances/tags</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Any tags assigned to the resource.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSArray *tags</Declaration>
-			
-			
-			<Anchor>//api/name/tags</Anchor>
-            <NodeRef refid="559"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ReservedInstances/setUsagePrice:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The usage price of the Reserved Instance, per hour.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSNumber *usagePrice</Declaration>
-			
-			
-			<Anchor>//api/name/usagePrice</Anchor>
-            <NodeRef refid="559"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ReservedInstances/usagePrice</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The usage price of the Reserved Instance, per hour.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSNumber *usagePrice</Declaration>
-			
-			
-			<Anchor>//api/name/usagePrice</Anchor>
-            <NodeRef refid="559"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2ReservedInstances/usagePrice</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The usage price of the Reserved Instance, per hour.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSNumber *usagePrice</Declaration>
-			
-			
-			<Anchor>//api/name/usagePrice</Anchor>
+			<Anchor>//api/name/validUntil</Anchor>
             <NodeRef refid="559"/>
 		</Token>
 		

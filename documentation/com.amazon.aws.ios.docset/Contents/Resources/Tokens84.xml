@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSAutoScalingTagDescription.html">
+	<File path="Classes/AWSAutoScalingTag.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSAutoScalingTagDescription</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt; The tag applied to an Auto Scaling group. &lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSAutoScalingTag</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; The tag applied to an Auto Scaling group. &lt;/p&gt;
+Required parameters: [Key]</Abstract>
 			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
             
 			
@@ -13,7 +14,7 @@
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingTagDescription/setKey:</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingTag/setKey:</TokenIdentifier>
 			<Abstract type="html">&lt;p&gt; The key of the tag. &lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
 			
@@ -25,7 +26,7 @@
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingTagDescription/key</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingTag/key</TokenIdentifier>
 			<Abstract type="html">&lt;p&gt; The key of the tag. &lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
 			
@@ -37,7 +38,7 @@
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSAutoScalingTagDescription/key</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSAutoScalingTag/key</TokenIdentifier>
 			<Abstract type="html">&lt;p&gt; The key of the tag. &lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
 			
@@ -49,7 +50,7 @@
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingTagDescription/setPropagateAtLaunch:</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingTag/setPropagateAtLaunch:</TokenIdentifier>
 			<Abstract type="html">&lt;p&gt; Specifies whether the new tag will be applied to instances launched after the tag is created. The same behavior applies to updates: If you change a tag, the changed tag will be applied to all instances launched after you made the change. &lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
 			
@@ -61,7 +62,7 @@
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingTagDescription/propagateAtLaunch</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingTag/propagateAtLaunch</TokenIdentifier>
 			<Abstract type="html">&lt;p&gt; Specifies whether the new tag will be applied to instances launched after the tag is created. The same behavior applies to updates: If you change a tag, the changed tag will be applied to all instances launched after you made the change. &lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
 			
@@ -73,7 +74,7 @@
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSAutoScalingTagDescription/propagateAtLaunch</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSAutoScalingTag/propagateAtLaunch</TokenIdentifier>
 			<Abstract type="html">&lt;p&gt; Specifies whether the new tag will be applied to instances launched after the tag is created. The same behavior applies to updates: If you change a tag, the changed tag will be applied to all instances launched after you made the change. &lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
 			
@@ -85,7 +86,7 @@
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingTagDescription/setResourceId:</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingTag/setResourceId:</TokenIdentifier>
 			<Abstract type="html">&lt;p&gt; The name of the Auto Scaling group. &lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
 			
@@ -97,7 +98,7 @@
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingTagDescription/resourceId</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingTag/resourceId</TokenIdentifier>
 			<Abstract type="html">&lt;p&gt; The name of the Auto Scaling group. &lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
 			
@@ -109,7 +110,7 @@
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSAutoScalingTagDescription/resourceId</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSAutoScalingTag/resourceId</TokenIdentifier>
 			<Abstract type="html">&lt;p&gt; The name of the Auto Scaling group. &lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
 			
@@ -121,7 +122,7 @@
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingTagDescription/setResourceType:</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingTag/setResourceType:</TokenIdentifier>
 			<Abstract type="html">&lt;p&gt; The kind of resource to which the tag is applied. Currently, Auto Scaling supports the &lt;code&gt;auto-scaling-group&lt;/code&gt; resource type. &lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
 			
@@ -133,7 +134,7 @@
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingTagDescription/resourceType</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingTag/resourceType</TokenIdentifier>
 			<Abstract type="html">&lt;p&gt; The kind of resource to which the tag is applied. Currently, Auto Scaling supports the &lt;code&gt;auto-scaling-group&lt;/code&gt; resource type. &lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
 			
@@ -145,7 +146,7 @@
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSAutoScalingTagDescription/resourceType</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSAutoScalingTag/resourceType</TokenIdentifier>
 			<Abstract type="html">&lt;p&gt; The kind of resource to which the tag is applied. Currently, Auto Scaling supports the &lt;code&gt;auto-scaling-group&lt;/code&gt; resource type. &lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
 			
@@ -157,7 +158,7 @@
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingTagDescription/setValue:</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingTag/setValue:</TokenIdentifier>
 			<Abstract type="html">&lt;p&gt; The value of the tag. &lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
 			
@@ -169,7 +170,7 @@
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingTagDescription/value</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingTag/value</TokenIdentifier>
 			<Abstract type="html">&lt;p&gt; The value of the tag. &lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
 			
@@ -181,7 +182,7 @@
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSAutoScalingTagDescription/value</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSAutoScalingTag/value</TokenIdentifier>
 			<Abstract type="html">&lt;p&gt; The value of the tag. &lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
 			

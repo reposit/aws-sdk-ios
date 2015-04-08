@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSEC2CreateVolumePermission.html">
+	<File path="Classes/AWSEC2CreateSpotDatafeedSubscriptionRequest.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSEC2CreateVolumePermission</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSEC2CreateSpotDatafeedSubscriptionRequest</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
             
@@ -13,74 +13,110 @@
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2CreateVolumePermission/setGroup:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The specific group that is to be added or removed from a volume&apos;s list of create volume permissions.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2CreateSpotDatafeedSubscriptionRequest/setBucket:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The Amazon S3 bucket in which to store the Spot Instance datafeed.&lt;/p&gt;&lt;p&gt;Constraints: Must be a valid bucket associated with your AWS account.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, assign) AWSEC2PermissionGroup group</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *bucket</Declaration>
 			
 			
-			<Anchor>//api/name/group</Anchor>
+			<Anchor>//api/name/bucket</Anchor>
             <NodeRef refid="318"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2CreateVolumePermission/group</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The specific group that is to be added or removed from a volume&apos;s list of create volume permissions.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2CreateSpotDatafeedSubscriptionRequest/bucket</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The Amazon S3 bucket in which to store the Spot Instance datafeed.&lt;/p&gt;&lt;p&gt;Constraints: Must be a valid bucket associated with your AWS account.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, assign) AWSEC2PermissionGroup group</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *bucket</Declaration>
 			
 			
-			<Anchor>//api/name/group</Anchor>
+			<Anchor>//api/name/bucket</Anchor>
             <NodeRef refid="318"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2CreateVolumePermission/group</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The specific group that is to be added or removed from a volume&apos;s list of create volume permissions.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2CreateSpotDatafeedSubscriptionRequest/bucket</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The Amazon S3 bucket in which to store the Spot Instance datafeed.&lt;/p&gt;&lt;p&gt;Constraints: Must be a valid bucket associated with your AWS account.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, assign) AWSEC2PermissionGroup group</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *bucket</Declaration>
 			
 			
-			<Anchor>//api/name/group</Anchor>
+			<Anchor>//api/name/bucket</Anchor>
             <NodeRef refid="318"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2CreateVolumePermission/setUserId:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The specific AWS account ID that is to be added or removed from a volume&apos;s list of create volume permissions.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2CreateSpotDatafeedSubscriptionRequest/setDryRun:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *userId</Declaration>
+			<Declaration>@property (nonatomic, strong) NSNumber *dryRun</Declaration>
 			
 			
-			<Anchor>//api/name/userId</Anchor>
+			<Anchor>//api/name/dryRun</Anchor>
             <NodeRef refid="318"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2CreateVolumePermission/userId</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The specific AWS account ID that is to be added or removed from a volume&apos;s list of create volume permissions.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2CreateSpotDatafeedSubscriptionRequest/dryRun</TokenIdentifier>
+			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *userId</Declaration>
+			<Declaration>@property (nonatomic, strong) NSNumber *dryRun</Declaration>
 			
 			
-			<Anchor>//api/name/userId</Anchor>
+			<Anchor>//api/name/dryRun</Anchor>
             <NodeRef refid="318"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2CreateVolumePermission/userId</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The specific AWS account ID that is to be added or removed from a volume&apos;s list of create volume permissions.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2CreateSpotDatafeedSubscriptionRequest/dryRun</TokenIdentifier>
+			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *userId</Declaration>
+			<Declaration>@property (nonatomic, strong) NSNumber *dryRun</Declaration>
 			
 			
-			<Anchor>//api/name/userId</Anchor>
+			<Anchor>//api/name/dryRun</Anchor>
+            <NodeRef refid="318"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2CreateSpotDatafeedSubscriptionRequest/setPrefix:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;A prefix for the datafeed file names.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *prefix</Declaration>
+			
+			
+			<Anchor>//api/name/prefix</Anchor>
+            <NodeRef refid="318"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2CreateSpotDatafeedSubscriptionRequest/prefix</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;A prefix for the datafeed file names.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *prefix</Declaration>
+			
+			
+			<Anchor>//api/name/prefix</Anchor>
+            <NodeRef refid="318"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2CreateSpotDatafeedSubscriptionRequest/prefix</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;A prefix for the datafeed file names.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *prefix</Declaration>
+			
+			
+			<Anchor>//api/name/prefix</Anchor>
             <NodeRef refid="318"/>
 		</Token>
 		

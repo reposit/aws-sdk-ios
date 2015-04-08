@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSCloudWatchMetric.html">
+	<File path="Classes/AWSCloudWatchListMetricsOutput.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSCloudWatchMetric</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt; The &lt;code&gt;Metric&lt;/code&gt; data type contains information about a specific metric. If you call &lt;a&gt;ListMetrics&lt;/a&gt;, Amazon CloudWatch returns information contained by this data type. &lt;/p&gt;&lt;p&gt; The example in the Examples section publishes two metrics named buffers and latency. Both metrics are in the examples namespace. Both metrics have two dimensions, InstanceID and InstanceType. &lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSCloudWatchListMetricsOutput</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; The output for the &lt;a&gt;ListMetrics&lt;/a&gt; action. &lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSCloudWatchModel.h</DeclaredIn>
             
 			
@@ -13,110 +13,74 @@
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSCloudWatchMetric/setDimensions:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt; A list of dimensions associated with the metric. &lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCloudWatchListMetricsOutput/setMetrics:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; A list of metrics used to generate statistics for an AWS account. &lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSCloudWatchModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSArray *dimensions</Declaration>
+			<Declaration>@property (nonatomic, strong) NSArray *metrics</Declaration>
 			
 			
-			<Anchor>//api/name/dimensions</Anchor>
+			<Anchor>//api/name/metrics</Anchor>
             <NodeRef refid="107"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSCloudWatchMetric/dimensions</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt; A list of dimensions associated with the metric. &lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCloudWatchListMetricsOutput/metrics</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; A list of metrics used to generate statistics for an AWS account. &lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSCloudWatchModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSArray *dimensions</Declaration>
+			<Declaration>@property (nonatomic, strong) NSArray *metrics</Declaration>
 			
 			
-			<Anchor>//api/name/dimensions</Anchor>
+			<Anchor>//api/name/metrics</Anchor>
             <NodeRef refid="107"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSCloudWatchMetric/dimensions</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt; A list of dimensions associated with the metric. &lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSCloudWatchListMetricsOutput/metrics</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; A list of metrics used to generate statistics for an AWS account. &lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSCloudWatchModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSArray *dimensions</Declaration>
+			<Declaration>@property (nonatomic, strong) NSArray *metrics</Declaration>
 			
 			
-			<Anchor>//api/name/dimensions</Anchor>
+			<Anchor>//api/name/metrics</Anchor>
             <NodeRef refid="107"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSCloudWatchMetric/setMetricName:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt; The name of the metric. &lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCloudWatchListMetricsOutput/setNextToken:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; A string that marks the start of the next batch of returned results. &lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSCloudWatchModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *metricName</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *nextToken</Declaration>
 			
 			
-			<Anchor>//api/name/metricName</Anchor>
+			<Anchor>//api/name/nextToken</Anchor>
             <NodeRef refid="107"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSCloudWatchMetric/metricName</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt; The name of the metric. &lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCloudWatchListMetricsOutput/nextToken</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; A string that marks the start of the next batch of returned results. &lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSCloudWatchModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *metricName</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *nextToken</Declaration>
 			
 			
-			<Anchor>//api/name/metricName</Anchor>
+			<Anchor>//api/name/nextToken</Anchor>
             <NodeRef refid="107"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSCloudWatchMetric/metricName</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt; The name of the metric. &lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSCloudWatchListMetricsOutput/nextToken</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; A string that marks the start of the next batch of returned results. &lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSCloudWatchModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *metricName</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *nextToken</Declaration>
 			
 			
-			<Anchor>//api/name/metricName</Anchor>
-            <NodeRef refid="107"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSCloudWatchMetric/setNamespace:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt; The namespace of the metric. &lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSCloudWatchModel.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *namespace</Declaration>
-			
-			
-			<Anchor>//api/name/namespace</Anchor>
-            <NodeRef refid="107"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSCloudWatchMetric/namespace</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt; The namespace of the metric. &lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSCloudWatchModel.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *namespace</Declaration>
-			
-			
-			<Anchor>//api/name/namespace</Anchor>
-            <NodeRef refid="107"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSCloudWatchMetric/namespace</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt; The namespace of the metric. &lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSCloudWatchModel.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *namespace</Declaration>
-			
-			
-			<Anchor>//api/name/namespace</Anchor>
+			<Anchor>//api/name/nextToken</Anchor>
             <NodeRef refid="107"/>
 		</Token>
 		

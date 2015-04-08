@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Constants/AWSXMLBuilderErrorType.html">
+	<File path="Constants/AWSS3ErrorType.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/c/tdef/AWSXMLBuilderErrorType</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSSerialization.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/c/tdef/AWSS3ErrorType</TokenIdentifier>
+			<Abstract type="html">Copyright 2010-2015 Amazon.com, Inc. or its affiliates. All Rights Reserved.</Abstract>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
             
 			
 			<NodeRef refid="1198"/>
@@ -14,71 +14,131 @@
 		
         
         <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSXMLBuilderUnknownError</TokenIdentifier>
+            <TokenIdentifier>//apple_ref/c/econst/AWSS3ErrorUnknown</TokenIdentifier>
             <Abstract type="html"></Abstract>
-            <Declaration>AWSXMLBuilderUnknownError</Declaration>
+            <Declaration>AWSS3ErrorUnknown</Declaration>
             
-            <DeclaredIn>AWSSerialization.h</DeclaredIn>
+            <DeclaredIn>AWSS3Model.h</DeclaredIn>
             
             <NodeRef refid="1198"/>
         </Token>
         
         <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSXMLBuilderDefinitionFileIsEmpty</TokenIdentifier>
+            <TokenIdentifier>//apple_ref/c/econst/AWSS3ErrorAccessDenied</TokenIdentifier>
             <Abstract type="html"></Abstract>
-            <Declaration>AWSXMLBuilderDefinitionFileIsEmpty</Declaration>
+            <Declaration>AWSS3ErrorAccessDenied</Declaration>
             
-            <DeclaredIn>AWSSerialization.h</DeclaredIn>
+            <DeclaredIn>AWSS3Model.h</DeclaredIn>
             
             <NodeRef refid="1198"/>
         </Token>
         
         <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSXMLBuilderUndefinedXMLNamespace</TokenIdentifier>
+            <TokenIdentifier>//apple_ref/c/econst/AWSS3ErrorExpiredToken</TokenIdentifier>
             <Abstract type="html"></Abstract>
-            <Declaration>AWSXMLBuilderUndefinedXMLNamespace</Declaration>
+            <Declaration>AWSS3ErrorExpiredToken</Declaration>
             
-            <DeclaredIn>AWSSerialization.h</DeclaredIn>
+            <DeclaredIn>AWSS3Model.h</DeclaredIn>
             
             <NodeRef refid="1198"/>
         </Token>
         
         <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSXMLBuilderUndefinedActionRule</TokenIdentifier>
+            <TokenIdentifier>//apple_ref/c/econst/AWSS3ErrorInvalidAccessKeyId</TokenIdentifier>
             <Abstract type="html"></Abstract>
-            <Declaration>AWSXMLBuilderUndefinedActionRule</Declaration>
+            <Declaration>AWSS3ErrorInvalidAccessKeyId</Declaration>
             
-            <DeclaredIn>AWSSerialization.h</DeclaredIn>
+            <DeclaredIn>AWSS3Model.h</DeclaredIn>
             
             <NodeRef refid="1198"/>
         </Token>
         
         <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSXMLBuilderMissingRequiredXMLElements</TokenIdentifier>
+            <TokenIdentifier>//apple_ref/c/econst/AWSS3ErrorInvalidToken</TokenIdentifier>
             <Abstract type="html"></Abstract>
-            <Declaration>AWSXMLBuilderMissingRequiredXMLElements</Declaration>
+            <Declaration>AWSS3ErrorInvalidToken</Declaration>
             
-            <DeclaredIn>AWSSerialization.h</DeclaredIn>
+            <DeclaredIn>AWSS3Model.h</DeclaredIn>
             
             <NodeRef refid="1198"/>
         </Token>
         
         <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSXMLBuilderInvalidXMLValue</TokenIdentifier>
+            <TokenIdentifier>//apple_ref/c/econst/AWSS3ErrorSignatureDoesNotMatch</TokenIdentifier>
             <Abstract type="html"></Abstract>
-            <Declaration>AWSXMLBuilderInvalidXMLValue</Declaration>
+            <Declaration>AWSS3ErrorSignatureDoesNotMatch</Declaration>
             
-            <DeclaredIn>AWSSerialization.h</DeclaredIn>
+            <DeclaredIn>AWSS3Model.h</DeclaredIn>
             
             <NodeRef refid="1198"/>
         </Token>
         
         <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSXMLBuilderUnCatchedRuleTypeInDifinitionFile</TokenIdentifier>
+            <TokenIdentifier>//apple_ref/c/econst/AWSS3ErrorTokenRefreshRequired</TokenIdentifier>
             <Abstract type="html"></Abstract>
-            <Declaration>AWSXMLBuilderUnCatchedRuleTypeInDifinitionFile</Declaration>
+            <Declaration>AWSS3ErrorTokenRefreshRequired</Declaration>
             
-            <DeclaredIn>AWSSerialization.h</DeclaredIn>
+            <DeclaredIn>AWSS3Model.h</DeclaredIn>
+            
+            <NodeRef refid="1198"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/AWSS3ErrorBucketAlreadyExists</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>AWSS3ErrorBucketAlreadyExists</Declaration>
+            
+            <DeclaredIn>AWSS3Model.h</DeclaredIn>
+            
+            <NodeRef refid="1198"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/AWSS3ErrorNoSuchBucket</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>AWSS3ErrorNoSuchBucket</Declaration>
+            
+            <DeclaredIn>AWSS3Model.h</DeclaredIn>
+            
+            <NodeRef refid="1198"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/AWSS3ErrorNoSuchKey</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>AWSS3ErrorNoSuchKey</Declaration>
+            
+            <DeclaredIn>AWSS3Model.h</DeclaredIn>
+            
+            <NodeRef refid="1198"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/AWSS3ErrorNoSuchUpload</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>AWSS3ErrorNoSuchUpload</Declaration>
+            
+            <DeclaredIn>AWSS3Model.h</DeclaredIn>
+            
+            <NodeRef refid="1198"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/AWSS3ErrorObjectAlreadyInActiveTier</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>AWSS3ErrorObjectAlreadyInActiveTier</Declaration>
+            
+            <DeclaredIn>AWSS3Model.h</DeclaredIn>
+            
+            <NodeRef refid="1198"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/AWSS3ErrorObjectNotInActiveTier</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>AWSS3ErrorObjectNotInActiveTier</Declaration>
+            
+            <DeclaredIn>AWSS3Model.h</DeclaredIn>
             
             <NodeRef refid="1198"/>
         </Token>

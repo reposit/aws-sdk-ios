@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Constants/AWSLogLevel.html">
+	<File path="Constants/AWSEC2ShutdownBehavior.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/c/tdef/AWSLogLevel</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/c/tdef/AWSEC2ShutdownBehavior</TokenIdentifier>
 			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSLogging.h</DeclaredIn>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
             
 			
 			<NodeRef refid="1156"/>
@@ -14,71 +14,31 @@
 		
         
         <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSLogLevelUnknown</TokenIdentifier>
+            <TokenIdentifier>//apple_ref/c/econst/AWSEC2ShutdownBehaviorUnknown</TokenIdentifier>
             <Abstract type="html"></Abstract>
-            <Declaration>AWSLogLevelUnknown</Declaration>
+            <Declaration>AWSEC2ShutdownBehaviorUnknown</Declaration>
             
-            <DeclaredIn>AWSLogging.h</DeclaredIn>
+            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
             
             <NodeRef refid="1156"/>
         </Token>
         
         <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSLogLevelNone</TokenIdentifier>
+            <TokenIdentifier>//apple_ref/c/econst/AWSEC2ShutdownBehaviorStop</TokenIdentifier>
             <Abstract type="html"></Abstract>
-            <Declaration>AWSLogLevelNone</Declaration>
+            <Declaration>AWSEC2ShutdownBehaviorStop</Declaration>
             
-            <DeclaredIn>AWSLogging.h</DeclaredIn>
+            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
             
             <NodeRef refid="1156"/>
         </Token>
         
         <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSLogLevelError</TokenIdentifier>
+            <TokenIdentifier>//apple_ref/c/econst/AWSEC2ShutdownBehaviorTerminate</TokenIdentifier>
             <Abstract type="html"></Abstract>
-            <Declaration>AWSLogLevelError</Declaration>
+            <Declaration>AWSEC2ShutdownBehaviorTerminate</Declaration>
             
-            <DeclaredIn>AWSLogging.h</DeclaredIn>
-            
-            <NodeRef refid="1156"/>
-        </Token>
-        
-        <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSLogLevelWarn</TokenIdentifier>
-            <Abstract type="html"></Abstract>
-            <Declaration>AWSLogLevelWarn</Declaration>
-            
-            <DeclaredIn>AWSLogging.h</DeclaredIn>
-            
-            <NodeRef refid="1156"/>
-        </Token>
-        
-        <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSLogLevelInfo</TokenIdentifier>
-            <Abstract type="html"></Abstract>
-            <Declaration>AWSLogLevelInfo</Declaration>
-            
-            <DeclaredIn>AWSLogging.h</DeclaredIn>
-            
-            <NodeRef refid="1156"/>
-        </Token>
-        
-        <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSLogLevelDebug</TokenIdentifier>
-            <Abstract type="html"></Abstract>
-            <Declaration>AWSLogLevelDebug</Declaration>
-            
-            <DeclaredIn>AWSLogging.h</DeclaredIn>
-            
-            <NodeRef refid="1156"/>
-        </Token>
-        
-        <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSLogLevelVerbose</TokenIdentifier>
-            <Abstract type="html"></Abstract>
-            <Declaration>AWSLogLevelVerbose</Declaration>
-            
-            <DeclaredIn>AWSLogging.h</DeclaredIn>
+            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
             
             <NodeRef refid="1156"/>
         </Token>

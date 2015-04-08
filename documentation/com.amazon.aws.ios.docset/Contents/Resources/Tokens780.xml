@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSS3GetBucketLocationOutput.html">
+	<File path="Classes/AWSS3DeleteBucketRequest.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSS3GetBucketLocationOutput</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSS3DeleteBucketRequest</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSS3Model.h</DeclaredIn>
             
@@ -13,38 +13,38 @@
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3GetBucketLocationOutput/setLocationConstraint:</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3DeleteBucketRequest/setBucket:</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, assign) AWSS3BucketLocationConstraint locationConstraint</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *bucket</Declaration>
 			
 			
-			<Anchor>//api/name/locationConstraint</Anchor>
+			<Anchor>//api/name/bucket</Anchor>
             <NodeRef refid="780"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3GetBucketLocationOutput/locationConstraint</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3DeleteBucketRequest/bucket</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, assign) AWSS3BucketLocationConstraint locationConstraint</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *bucket</Declaration>
 			
 			
-			<Anchor>//api/name/locationConstraint</Anchor>
+			<Anchor>//api/name/bucket</Anchor>
             <NodeRef refid="780"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSS3GetBucketLocationOutput/locationConstraint</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSS3DeleteBucketRequest/bucket</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, assign) AWSS3BucketLocationConstraint locationConstraint</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *bucket</Declaration>
 			
 			
-			<Anchor>//api/name/locationConstraint</Anchor>
+			<Anchor>//api/name/bucket</Anchor>
             <NodeRef refid="780"/>
 		</Token>
 		

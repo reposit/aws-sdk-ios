@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSSNSAddPermissionInput.html">
+	<File path="Classes/AWSSESSendDataPoint.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSSNSAddPermissionInput</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSSNSModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSSESSendDataPoint</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Represents sending statistics data. Each &lt;code&gt;SendDataPoint&lt;/code&gt; contains statistics for a 15-minute period of sending activity. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSESModel.h</DeclaredIn>
             
 			
 			<NodeRef refid="913"/>
@@ -13,146 +13,182 @@
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSSNSAddPermissionInput/setAWSAccountId:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The AWS account IDs of the users (principals) who will be given access to the specified actions. The users must have AWS accounts, but do not need to be signed up for this service. &lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSNSModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSESSendDataPoint/setBounces:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Number of emails that have bounced.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSESModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSArray *AWSAccountId</Declaration>
+			<Declaration>@property (nonatomic, strong) NSNumber *bounces</Declaration>
 			
 			
-			<Anchor>//api/name/AWSAccountId</Anchor>
+			<Anchor>//api/name/bounces</Anchor>
             <NodeRef refid="913"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSSNSAddPermissionInput/AWSAccountId</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The AWS account IDs of the users (principals) who will be given access to the specified actions. The users must have AWS accounts, but do not need to be signed up for this service. &lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSNSModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSESSendDataPoint/bounces</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Number of emails that have bounced.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSESModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSArray *AWSAccountId</Declaration>
+			<Declaration>@property (nonatomic, strong) NSNumber *bounces</Declaration>
 			
 			
-			<Anchor>//api/name/AWSAccountId</Anchor>
+			<Anchor>//api/name/bounces</Anchor>
             <NodeRef refid="913"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSSNSAddPermissionInput/AWSAccountId</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The AWS account IDs of the users (principals) who will be given access to the specified actions. The users must have AWS accounts, but do not need to be signed up for this service. &lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSNSModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSSESSendDataPoint/bounces</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Number of emails that have bounced.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSESModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSArray *AWSAccountId</Declaration>
+			<Declaration>@property (nonatomic, strong) NSNumber *bounces</Declaration>
 			
 			
-			<Anchor>//api/name/AWSAccountId</Anchor>
+			<Anchor>//api/name/bounces</Anchor>
             <NodeRef refid="913"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSSNSAddPermissionInput/setActionName:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The action you want to allow for the specified principal(s).&lt;/p&gt;&lt;p&gt;Valid values: any Amazon SNS action name.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSNSModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSESSendDataPoint/setComplaints:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Number of unwanted emails that were rejected by recipients.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSESModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSArray *actionName</Declaration>
+			<Declaration>@property (nonatomic, strong) NSNumber *complaints</Declaration>
 			
 			
-			<Anchor>//api/name/actionName</Anchor>
+			<Anchor>//api/name/complaints</Anchor>
             <NodeRef refid="913"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSSNSAddPermissionInput/actionName</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The action you want to allow for the specified principal(s).&lt;/p&gt;&lt;p&gt;Valid values: any Amazon SNS action name.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSNSModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSESSendDataPoint/complaints</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Number of unwanted emails that were rejected by recipients.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSESModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSArray *actionName</Declaration>
+			<Declaration>@property (nonatomic, strong) NSNumber *complaints</Declaration>
 			
 			
-			<Anchor>//api/name/actionName</Anchor>
+			<Anchor>//api/name/complaints</Anchor>
             <NodeRef refid="913"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSSNSAddPermissionInput/actionName</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The action you want to allow for the specified principal(s).&lt;/p&gt;&lt;p&gt;Valid values: any Amazon SNS action name.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSNSModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSSESSendDataPoint/complaints</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Number of unwanted emails that were rejected by recipients.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSESModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSArray *actionName</Declaration>
+			<Declaration>@property (nonatomic, strong) NSNumber *complaints</Declaration>
 			
 			
-			<Anchor>//api/name/actionName</Anchor>
+			<Anchor>//api/name/complaints</Anchor>
             <NodeRef refid="913"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSSNSAddPermissionInput/setLabel:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;A unique identifier for the new policy statement.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSNSModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSESSendDataPoint/setDeliveryAttempts:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Number of emails that have been enqueued for sending.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSESModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *label</Declaration>
+			<Declaration>@property (nonatomic, strong) NSNumber *deliveryAttempts</Declaration>
 			
 			
-			<Anchor>//api/name/label</Anchor>
+			<Anchor>//api/name/deliveryAttempts</Anchor>
             <NodeRef refid="913"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSSNSAddPermissionInput/label</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;A unique identifier for the new policy statement.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSNSModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSESSendDataPoint/deliveryAttempts</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Number of emails that have been enqueued for sending.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSESModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *label</Declaration>
+			<Declaration>@property (nonatomic, strong) NSNumber *deliveryAttempts</Declaration>
 			
 			
-			<Anchor>//api/name/label</Anchor>
+			<Anchor>//api/name/deliveryAttempts</Anchor>
             <NodeRef refid="913"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSSNSAddPermissionInput/label</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;A unique identifier for the new policy statement.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSNSModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSSESSendDataPoint/deliveryAttempts</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Number of emails that have been enqueued for sending.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSESModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *label</Declaration>
+			<Declaration>@property (nonatomic, strong) NSNumber *deliveryAttempts</Declaration>
 			
 			
-			<Anchor>//api/name/label</Anchor>
+			<Anchor>//api/name/deliveryAttempts</Anchor>
             <NodeRef refid="913"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSSNSAddPermissionInput/setTopicArn:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The ARN of the topic whose access control policy you wish to modify.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSNSModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSESSendDataPoint/setRejects:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Number of emails rejected by Amazon SES.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSESModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *topicArn</Declaration>
+			<Declaration>@property (nonatomic, strong) NSNumber *rejects</Declaration>
 			
 			
-			<Anchor>//api/name/topicArn</Anchor>
+			<Anchor>//api/name/rejects</Anchor>
             <NodeRef refid="913"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSSNSAddPermissionInput/topicArn</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The ARN of the topic whose access control policy you wish to modify.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSNSModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSESSendDataPoint/rejects</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Number of emails rejected by Amazon SES.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSESModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *topicArn</Declaration>
+			<Declaration>@property (nonatomic, strong) NSNumber *rejects</Declaration>
 			
 			
-			<Anchor>//api/name/topicArn</Anchor>
+			<Anchor>//api/name/rejects</Anchor>
             <NodeRef refid="913"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSSNSAddPermissionInput/topicArn</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The ARN of the topic whose access control policy you wish to modify.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSNSModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSSESSendDataPoint/rejects</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Number of emails rejected by Amazon SES.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSESModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *topicArn</Declaration>
+			<Declaration>@property (nonatomic, strong) NSNumber *rejects</Declaration>
 			
 			
-			<Anchor>//api/name/topicArn</Anchor>
+			<Anchor>//api/name/rejects</Anchor>
+            <NodeRef refid="913"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSESSendDataPoint/setTimestamp:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Time of the data point.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSESModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSDate *timestamp</Declaration>
+			
+			
+			<Anchor>//api/name/timestamp</Anchor>
+            <NodeRef refid="913"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSESSendDataPoint/timestamp</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Time of the data point.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSESModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSDate *timestamp</Declaration>
+			
+			
+			<Anchor>//api/name/timestamp</Anchor>
+            <NodeRef refid="913"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSSESSendDataPoint/timestamp</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Time of the data point.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSESModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSDate *timestamp</Declaration>
+			
+			
+			<Anchor>//api/name/timestamp</Anchor>
             <NodeRef refid="913"/>
 		</Token>
 		

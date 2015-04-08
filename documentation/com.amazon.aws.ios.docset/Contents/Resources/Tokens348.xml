@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSEC2DeleteVpcPeeringConnectionResult.html">
+	<File path="Classes/AWSEC2DeleteSpotDatafeedSubscriptionRequest.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSEC2DeleteVpcPeeringConnectionResult</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSEC2DeleteSpotDatafeedSubscriptionRequest</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
             
@@ -13,38 +13,38 @@
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DeleteVpcPeeringConnectionResult/setReturned:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Returns &lt;code&gt;true&lt;/code&gt; if the request succeeds; otherwise, it returns an error.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DeleteSpotDatafeedSubscriptionRequest/setDryRun:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSNumber *returned</Declaration>
+			<Declaration>@property (nonatomic, strong) NSNumber *dryRun</Declaration>
 			
 			
-			<Anchor>//api/name/returned</Anchor>
+			<Anchor>//api/name/dryRun</Anchor>
             <NodeRef refid="348"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DeleteVpcPeeringConnectionResult/returned</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Returns &lt;code&gt;true&lt;/code&gt; if the request succeeds; otherwise, it returns an error.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DeleteSpotDatafeedSubscriptionRequest/dryRun</TokenIdentifier>
+			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSNumber *returned</Declaration>
+			<Declaration>@property (nonatomic, strong) NSNumber *dryRun</Declaration>
 			
 			
-			<Anchor>//api/name/returned</Anchor>
+			<Anchor>//api/name/dryRun</Anchor>
             <NodeRef refid="348"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2DeleteVpcPeeringConnectionResult/returned</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Returns &lt;code&gt;true&lt;/code&gt; if the request succeeds; otherwise, it returns an error.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2DeleteSpotDatafeedSubscriptionRequest/dryRun</TokenIdentifier>
+			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSNumber *returned</Declaration>
+			<Declaration>@property (nonatomic, strong) NSNumber *dryRun</Declaration>
 			
 			
-			<Anchor>//api/name/returned</Anchor>
+			<Anchor>//api/name/dryRun</Anchor>
             <NodeRef refid="348"/>
 		</Token>
 		

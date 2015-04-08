@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSEC2ImportVolumeTaskDetails.html">
+	<File path="Classes/AWSEC2ImportInstanceVolumeDetailItem.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSEC2ImportVolumeTaskDetails</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSEC2ImportInstanceVolumeDetailItem</TokenIdentifier>
 			<Abstract type="html">&lt;p&gt;Describes an import volume task.&lt;/p&gt;
-Required parameters: [BytesConverted, AvailabilityZone, Image, Volume]</Abstract>
+Required parameters: [BytesConverted, AvailabilityZone, Image, Volume, Status]</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
             
 			
@@ -14,8 +14,8 @@ Required parameters: [BytesConverted, AvailabilityZone, Image, Volume]</Abstract
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ImportVolumeTaskDetails/setAvailabilityZone:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The Availability Zone where the resulting volume will reside.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ImportInstanceVolumeDetailItem/setAvailabilityZone:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The Availability Zone where the resulting instance will reside.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
 			<Declaration>@property (nonatomic, strong) NSString *availabilityZone</Declaration>
@@ -26,8 +26,8 @@ Required parameters: [BytesConverted, AvailabilityZone, Image, Volume]</Abstract
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ImportVolumeTaskDetails/availabilityZone</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The Availability Zone where the resulting volume will reside.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ImportInstanceVolumeDetailItem/availabilityZone</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The Availability Zone where the resulting instance will reside.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
 			<Declaration>@property (nonatomic, strong) NSString *availabilityZone</Declaration>
@@ -38,8 +38,8 @@ Required parameters: [BytesConverted, AvailabilityZone, Image, Volume]</Abstract
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2ImportVolumeTaskDetails/availabilityZone</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The Availability Zone where the resulting volume will reside.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2ImportInstanceVolumeDetailItem/availabilityZone</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The Availability Zone where the resulting instance will reside.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
 			<Declaration>@property (nonatomic, strong) NSString *availabilityZone</Declaration>
@@ -50,7 +50,7 @@ Required parameters: [BytesConverted, AvailabilityZone, Image, Volume]</Abstract
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ImportVolumeTaskDetails/setBytesConverted:</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ImportInstanceVolumeDetailItem/setBytesConverted:</TokenIdentifier>
 			<Abstract type="html">&lt;p&gt;The number of bytes converted so far.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
@@ -62,7 +62,7 @@ Required parameters: [BytesConverted, AvailabilityZone, Image, Volume]</Abstract
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ImportVolumeTaskDetails/bytesConverted</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ImportInstanceVolumeDetailItem/bytesConverted</TokenIdentifier>
 			<Abstract type="html">&lt;p&gt;The number of bytes converted so far.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
@@ -74,7 +74,7 @@ Required parameters: [BytesConverted, AvailabilityZone, Image, Volume]</Abstract
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2ImportVolumeTaskDetails/bytesConverted</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2ImportInstanceVolumeDetailItem/bytesConverted</TokenIdentifier>
 			<Abstract type="html">&lt;p&gt;The number of bytes converted so far.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
@@ -86,8 +86,8 @@ Required parameters: [BytesConverted, AvailabilityZone, Image, Volume]</Abstract
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ImportVolumeTaskDetails/setDetail:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The description you provided when starting the import volume task.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ImportInstanceVolumeDetailItem/setDetail:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
 			<Declaration>@property (nonatomic, strong) NSString *detail</Declaration>
@@ -98,8 +98,8 @@ Required parameters: [BytesConverted, AvailabilityZone, Image, Volume]</Abstract
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ImportVolumeTaskDetails/detail</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The description you provided when starting the import volume task.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ImportInstanceVolumeDetailItem/detail</TokenIdentifier>
+			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
 			<Declaration>@property (nonatomic, strong) NSString *detail</Declaration>
@@ -110,8 +110,8 @@ Required parameters: [BytesConverted, AvailabilityZone, Image, Volume]</Abstract
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2ImportVolumeTaskDetails/detail</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The description you provided when starting the import volume task.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2ImportInstanceVolumeDetailItem/detail</TokenIdentifier>
+			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
 			<Declaration>@property (nonatomic, strong) NSString *detail</Declaration>
@@ -122,7 +122,7 @@ Required parameters: [BytesConverted, AvailabilityZone, Image, Volume]</Abstract
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ImportVolumeTaskDetails/setImage:</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ImportInstanceVolumeDetailItem/setImage:</TokenIdentifier>
 			<Abstract type="html">&lt;p&gt;The image.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
@@ -134,7 +134,7 @@ Required parameters: [BytesConverted, AvailabilityZone, Image, Volume]</Abstract
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ImportVolumeTaskDetails/image</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ImportInstanceVolumeDetailItem/image</TokenIdentifier>
 			<Abstract type="html">&lt;p&gt;The image.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
@@ -146,7 +146,7 @@ Required parameters: [BytesConverted, AvailabilityZone, Image, Volume]</Abstract
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2ImportVolumeTaskDetails/image</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2ImportInstanceVolumeDetailItem/image</TokenIdentifier>
 			<Abstract type="html">&lt;p&gt;The image.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
@@ -158,7 +158,79 @@ Required parameters: [BytesConverted, AvailabilityZone, Image, Volume]</Abstract
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ImportVolumeTaskDetails/setVolume:</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ImportInstanceVolumeDetailItem/setStatus:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The status of the import of this particular disk image.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *status</Declaration>
+			
+			
+			<Anchor>//api/name/status</Anchor>
+            <NodeRef refid="475"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ImportInstanceVolumeDetailItem/status</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The status of the import of this particular disk image.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *status</Declaration>
+			
+			
+			<Anchor>//api/name/status</Anchor>
+            <NodeRef refid="475"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2ImportInstanceVolumeDetailItem/status</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The status of the import of this particular disk image.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *status</Declaration>
+			
+			
+			<Anchor>//api/name/status</Anchor>
+            <NodeRef refid="475"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ImportInstanceVolumeDetailItem/setStatusMessage:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The status information or errors related to the disk image.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *statusMessage</Declaration>
+			
+			
+			<Anchor>//api/name/statusMessage</Anchor>
+            <NodeRef refid="475"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ImportInstanceVolumeDetailItem/statusMessage</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The status information or errors related to the disk image.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *statusMessage</Declaration>
+			
+			
+			<Anchor>//api/name/statusMessage</Anchor>
+            <NodeRef refid="475"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2ImportInstanceVolumeDetailItem/statusMessage</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The status information or errors related to the disk image.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *statusMessage</Declaration>
+			
+			
+			<Anchor>//api/name/statusMessage</Anchor>
+            <NodeRef refid="475"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ImportInstanceVolumeDetailItem/setVolume:</TokenIdentifier>
 			<Abstract type="html">&lt;p&gt;The volume.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
@@ -170,7 +242,7 @@ Required parameters: [BytesConverted, AvailabilityZone, Image, Volume]</Abstract
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ImportVolumeTaskDetails/volume</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ImportInstanceVolumeDetailItem/volume</TokenIdentifier>
 			<Abstract type="html">&lt;p&gt;The volume.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
@@ -182,7 +254,7 @@ Required parameters: [BytesConverted, AvailabilityZone, Image, Volume]</Abstract
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2ImportVolumeTaskDetails/volume</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2ImportInstanceVolumeDetailItem/volume</TokenIdentifier>
 			<Abstract type="html">&lt;p&gt;The volume.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			

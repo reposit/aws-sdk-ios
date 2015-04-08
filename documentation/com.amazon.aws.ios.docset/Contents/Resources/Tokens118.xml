@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSCognitoIdentity.html">
+	<File path="Classes/AWSCognitoDataset.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSCognitoIdentity</TokenIdentifier>
-			<Abstract type="html">&lt;fullname&gt;Amazon Cognito&lt;/fullname&gt;&lt;p&gt;Amazon Cognito is a web service that delivers scoped temporary credentials to mobile devices and other untrusted environments. Amazon Cognito uniquely identifies a device and supplies the user with a consistent identity over the lifetime of an application.&lt;/p&gt;&lt;p&gt;Using Amazon Cognito, you can enable authentication with one or more third-party identity providers (Facebook, Google, or Login with Amazon), and you can also choose to support unauthenticated access from your app. Cognito delivers a unique identifier for each user and acts as an OpenID token provider trusted by AWS Security Token Service (STS) to access temporary, limited-privilege AWS credentials.&lt;/p&gt;&lt;p&gt;To provide end-user credentials, first make an unsigned call to &lt;a&gt;GetId&lt;/a&gt;. If the end user is authenticated with one of the supported identity providers, set the &lt;code&gt;Logins&lt;/code&gt; map with the identity provider token. &lt;code&gt;GetId&lt;/code&gt; returns a unique identifier for the user.&lt;/p&gt;&lt;p&gt;Next, make an unsigned call to &lt;a&gt;GetOpenIdToken&lt;/a&gt;, which returns the OpenID token necessary to call STS and retrieve AWS credentials. This call expects the same &lt;code&gt;Logins&lt;/code&gt; map as the &lt;code&gt;GetId&lt;/code&gt; call, as well as the &lt;code&gt;IdentityID&lt;/code&gt; originally returned by &lt;code&gt;GetId&lt;/code&gt;. The token returned by &lt;code&gt;GetOpenIdToken&lt;/code&gt; can be passed to the STS operation Developer Guide for iOS.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSCognitoIdentity.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSCognitoDataset</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSCognitoDataset.h</DeclaredIn>
             
 			
 			<NodeRef refid="118"/>
@@ -13,454 +13,417 @@
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoIdentity/setConfiguration:</TokenIdentifier>
-			<Abstract type="html">The service configuration used to instantiate this service client.</Abstract>
-			<DeclaredIn>AWSCognitoIdentity.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoDataset/setConflictHandler:</TokenIdentifier>
+			<Abstract type="html">A conflict resolution handler that will receive calls when there is a
+conflict during a sync operation.  A conflict will occur when both remote and
+local data have been updated since the last sync time.
+When not explicitly set, we will use the default conflict resolution of
+&apos;last writer wins&apos;, where the data most recently updated will be persisted.</Abstract>
+			<DeclaredIn>AWSCognitoDataset.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong, readonly) AWSServiceConfiguration *configuration</Declaration>
+			<Declaration>@property (nonatomic, copy) AWSCognitoRecordConflictHandler conflictHandler</Declaration>
 			
 			
-			<Anchor>//api/name/configuration</Anchor>
+			<Anchor>//api/name/conflictHandler</Anchor>
             <NodeRef refid="118"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoIdentity/configuration</TokenIdentifier>
-			<Abstract type="html">The service configuration used to instantiate this service client.</Abstract>
-			<DeclaredIn>AWSCognitoIdentity.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoDataset/conflictHandler</TokenIdentifier>
+			<Abstract type="html">A conflict resolution handler that will receive calls when there is a
+conflict during a sync operation.  A conflict will occur when both remote and
+local data have been updated since the last sync time.
+When not explicitly set, we will use the default conflict resolution of
+&apos;last writer wins&apos;, where the data most recently updated will be persisted.</Abstract>
+			<DeclaredIn>AWSCognitoDataset.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong, readonly) AWSServiceConfiguration *configuration</Declaration>
+			<Declaration>@property (nonatomic, copy) AWSCognitoRecordConflictHandler conflictHandler</Declaration>
 			
 			
-			<Anchor>//api/name/configuration</Anchor>
+			<Anchor>//api/name/conflictHandler</Anchor>
             <NodeRef refid="118"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSCognitoIdentity/configuration</TokenIdentifier>
-			<Abstract type="html">The service configuration used to instantiate this service client.</Abstract>
-			<DeclaredIn>AWSCognitoIdentity.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSCognitoDataset/conflictHandler</TokenIdentifier>
+			<Abstract type="html">A conflict resolution handler that will receive calls when there is a
+conflict during a sync operation.  A conflict will occur when both remote and
+local data have been updated since the last sync time.
+When not explicitly set, we will use the default conflict resolution of
+&apos;last writer wins&apos;, where the data most recently updated will be persisted.</Abstract>
+			<DeclaredIn>AWSCognitoDataset.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong, readonly) AWSServiceConfiguration *configuration</Declaration>
+			<Declaration>@property (nonatomic, copy) AWSCognitoRecordConflictHandler conflictHandler</Declaration>
 			
 			
-			<Anchor>//api/name/configuration</Anchor>
+			<Anchor>//api/name/conflictHandler</Anchor>
             <NodeRef refid="118"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/clm/AWSCognitoIdentity/defaultCognitoIdentity</TokenIdentifier>
-			<Abstract type="html">Returns the singleton service client. If the singleton object does not exist, the SDK instantiates the default service client with defaultServiceConfiguration from [AWSServiceManager defaultServiceManager]. The reference to this object is maintained by the SDK, and you do not need to retain it manually.</Abstract>
-			<DeclaredIn>AWSCognitoIdentity.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoDataset/setDatasetDeletedHandler:</TokenIdentifier>
+			<Abstract type="html">A deleted dataset handler. This handler will be called during a synchronization
+when the remote service indicates that a dataset has been deleted.
+Returning YES from the handler will cause the service to recreate the dataset
+on the remote on the next synchronization. Returning NO or leaving this property
+nil will cause the client to delete the dataset locally.</Abstract>
+			<DeclaredIn>AWSCognitoDataset.h</DeclaredIn>
 			
-			<Declaration>+ (instancetype)defaultCognitoIdentity</Declaration>
+			<Declaration>@property (nonatomic, copy) AWSCognitoDatasetDeletedHandler datasetDeletedHandler</Declaration>
 			
-			<ReturnValue><Abstract type="html">The default service client.</Abstract></ReturnValue>
-			<Anchor>//api/name/defaultCognitoIdentity</Anchor>
+			
+			<Anchor>//api/name/datasetDeletedHandler</Anchor>
             <NodeRef refid="118"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoIdentity/initWithConfiguration:</TokenIdentifier>
-			<Abstract type="html">Instantiates the service client with the given service configuration.</Abstract>
-			<DeclaredIn>AWSCognitoIdentity.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoDataset/datasetDeletedHandler</TokenIdentifier>
+			<Abstract type="html">A deleted dataset handler. This handler will be called during a synchronization
+when the remote service indicates that a dataset has been deleted.
+Returning YES from the handler will cause the service to recreate the dataset
+on the remote on the next synchronization. Returning NO or leaving this property
+nil will cause the client to delete the dataset locally.</Abstract>
+			<DeclaredIn>AWSCognitoDataset.h</DeclaredIn>
 			
-			<Declaration>- (instancetype)initWithConfiguration:(AWSServiceConfiguration *)configuration</Declaration>
-			<Parameters>
-				<Parameter>
-					<Name>configuration</Name>
-					<Abstract type="html">The service configuration object.</Abstract>
-				</Parameter>
-			</Parameters>
-			<ReturnValue><Abstract type="html">An instance of the service client.</Abstract></ReturnValue>
-			<Anchor>//api/name/initWithConfiguration:</Anchor>
+			<Declaration>@property (nonatomic, copy) AWSCognitoDatasetDeletedHandler datasetDeletedHandler</Declaration>
+			
+			
+			<Anchor>//api/name/datasetDeletedHandler</Anchor>
             <NodeRef refid="118"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoIdentity/createIdentityPool:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Creates a new identity pool. The identity pool is a store of user identity information that is specific to your AWS account. The limit on identity pools is 60 per account.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSCognitoIdentity.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSCognitoDataset/datasetDeletedHandler</TokenIdentifier>
+			<Abstract type="html">A deleted dataset handler. This handler will be called during a synchronization
+when the remote service indicates that a dataset has been deleted.
+Returning YES from the handler will cause the service to recreate the dataset
+on the remote on the next synchronization. Returning NO or leaving this property
+nil will cause the client to delete the dataset locally.</Abstract>
+			<DeclaredIn>AWSCognitoDataset.h</DeclaredIn>
 			
-	<RelatedTokens>
-		<TokenIdentifier>//apple_ref/occ/cl/AWSCognitoIdentityCreateIdentityPoolInput</TokenIdentifier>
-		<TokenIdentifier>//apple_ref/occ/cl/AWSCognitoIdentityIdentityPool</TokenIdentifier>
-		
-	</RelatedTokens>
-	
-			<Declaration>- (BFTask *)createIdentityPool:(AWSCognitoIdentityCreateIdentityPoolInput *)request</Declaration>
-			<Parameters>
-				<Parameter>
-					<Name>request</Name>
-					<Abstract type="html">A container for the necessary parameters to execute the CreateIdentityPool service method.</Abstract>
-				</Parameter>
-			</Parameters>
-			<ReturnValue><Abstract type="html">An instance of BFTask. On successful execution, task.result will contain an instance of AWSCognitoIdentityIdentityPool. On failed execution, task.error may contain an NSError with AWSCognitoIdentityErrorDomain domian and the following error code: AWSCognitoIdentityErrorInvalidParameter, AWSCognitoIdentityErrorNotAuthorized, AWSCognitoIdentityErrorResourceConflict, AWSCognitoIdentityErrorTooManyRequests, AWSCognitoIdentityErrorInternalError, AWSCognitoIdentityErrorLimitExceeded.</Abstract></ReturnValue>
-			<Anchor>//api/name/createIdentityPool:</Anchor>
+			<Declaration>@property (nonatomic, copy) AWSCognitoDatasetDeletedHandler datasetDeletedHandler</Declaration>
+			
+			
+			<Anchor>//api/name/datasetDeletedHandler</Anchor>
             <NodeRef refid="118"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoIdentity/deleteIdentityPool:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Deletes a user pool. Once a pool is deleted, users will not be able to authenticate with the pool.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSCognitoIdentity.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoDataset/setDatasetMergedHandler:</TokenIdentifier>
+			<Abstract type="html">A merged dataset handler. This handler will be called during a synchronization
+when the remote service indicates that other datasets should be merged with this one.
+Merged datasets should be fetched, their data overlayed locally and then removed.
+Failing to implement this handler will result in merged datasets remaining on the
+service indefinitely.</Abstract>
+			<DeclaredIn>AWSCognitoDataset.h</DeclaredIn>
 			
-	<RelatedTokens>
-		<TokenIdentifier>//apple_ref/occ/cl/AWSCognitoIdentityDeleteIdentityPoolInput</TokenIdentifier>
-		
-	</RelatedTokens>
-	
-			<Declaration>- (BFTask *)deleteIdentityPool:(AWSCognitoIdentityDeleteIdentityPoolInput *)request</Declaration>
-			<Parameters>
-				<Parameter>
-					<Name>request</Name>
-					<Abstract type="html">A container for the necessary parameters to execute the DeleteIdentityPool service method.</Abstract>
-				</Parameter>
-			</Parameters>
-			<ReturnValue><Abstract type="html">An instance of BFTask. On successful execution, task.result will be nil. On failed execution, task.error may contain an NSError with AWSCognitoIdentityErrorDomain domian and the following error code: AWSCognitoIdentityErrorInvalidParameter, AWSCognitoIdentityErrorResourceNotFound, AWSCognitoIdentityErrorNotAuthorized, AWSCognitoIdentityErrorTooManyRequests, AWSCognitoIdentityErrorInternalError.</Abstract></ReturnValue>
-			<Anchor>//api/name/deleteIdentityPool:</Anchor>
+			<Declaration>@property (nonatomic, copy) AWSCognitoDatasetMergedHandler datasetMergedHandler</Declaration>
+			
+			
+			<Anchor>//api/name/datasetMergedHandler</Anchor>
             <NodeRef refid="118"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoIdentity/describeIdentity:</TokenIdentifier>
-			<Abstract type="html">DescribeIdentity</Abstract>
-			<DeclaredIn>AWSCognitoIdentity.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoDataset/datasetMergedHandler</TokenIdentifier>
+			<Abstract type="html">A merged dataset handler. This handler will be called during a synchronization
+when the remote service indicates that other datasets should be merged with this one.
+Merged datasets should be fetched, their data overlayed locally and then removed.
+Failing to implement this handler will result in merged datasets remaining on the
+service indefinitely.</Abstract>
+			<DeclaredIn>AWSCognitoDataset.h</DeclaredIn>
 			
-	<RelatedTokens>
-		<TokenIdentifier>//apple_ref/occ/cl/AWSCognitoIdentityDescribeIdentityInput</TokenIdentifier>
-		<TokenIdentifier>//apple_ref/occ/cl/AWSCognitoIdentityIdentityDescription</TokenIdentifier>
-		
-	</RelatedTokens>
-	
-			<Declaration>- (BFTask *)describeIdentity:(AWSCognitoIdentityDescribeIdentityInput *)request</Declaration>
-			<Parameters>
-				<Parameter>
-					<Name>request</Name>
-					<Abstract type="html">A container for the necessary parameters to execute the DescribeIdentity service method.</Abstract>
-				</Parameter>
-			</Parameters>
-			<ReturnValue><Abstract type="html">An instance of BFTask. On successful execution, task.result will contain an instance of AWSCognitoIdentityIdentityDescription. On failed execution, task.error may contain an NSError with AWSCognitoIdentityErrorDomain domian and the following error code: AWSCognitoIdentityErrorInvalidParameter, AWSCognitoIdentityErrorResourceNotFound, AWSCognitoIdentityErrorNotAuthorized, AWSCognitoIdentityErrorTooManyRequests, AWSCognitoIdentityErrorInternalError.</Abstract></ReturnValue>
-			<Anchor>//api/name/describeIdentity:</Anchor>
+			<Declaration>@property (nonatomic, copy) AWSCognitoDatasetMergedHandler datasetMergedHandler</Declaration>
+			
+			
+			<Anchor>//api/name/datasetMergedHandler</Anchor>
             <NodeRef refid="118"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoIdentity/describeIdentityPool:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Gets details about a particular identity pool, including the pool name, ID description, creation date, and current number of users.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSCognitoIdentity.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSCognitoDataset/datasetMergedHandler</TokenIdentifier>
+			<Abstract type="html">A merged dataset handler. This handler will be called during a synchronization
+when the remote service indicates that other datasets should be merged with this one.
+Merged datasets should be fetched, their data overlayed locally and then removed.
+Failing to implement this handler will result in merged datasets remaining on the
+service indefinitely.</Abstract>
+			<DeclaredIn>AWSCognitoDataset.h</DeclaredIn>
 			
-	<RelatedTokens>
-		<TokenIdentifier>//apple_ref/occ/cl/AWSCognitoIdentityDescribeIdentityPoolInput</TokenIdentifier>
-		<TokenIdentifier>//apple_ref/occ/cl/AWSCognitoIdentityIdentityPool</TokenIdentifier>
-		
-	</RelatedTokens>
-	
-			<Declaration>- (BFTask *)describeIdentityPool:(AWSCognitoIdentityDescribeIdentityPoolInput *)request</Declaration>
-			<Parameters>
-				<Parameter>
-					<Name>request</Name>
-					<Abstract type="html">A container for the necessary parameters to execute the DescribeIdentityPool service method.</Abstract>
-				</Parameter>
-			</Parameters>
-			<ReturnValue><Abstract type="html">An instance of BFTask. On successful execution, task.result will contain an instance of AWSCognitoIdentityIdentityPool. On failed execution, task.error may contain an NSError with AWSCognitoIdentityErrorDomain domian and the following error code: AWSCognitoIdentityErrorInvalidParameter, AWSCognitoIdentityErrorResourceNotFound, AWSCognitoIdentityErrorNotAuthorized, AWSCognitoIdentityErrorTooManyRequests, AWSCognitoIdentityErrorInternalError.</Abstract></ReturnValue>
-			<Anchor>//api/name/describeIdentityPool:</Anchor>
+			<Declaration>@property (nonatomic, copy) AWSCognitoDatasetMergedHandler datasetMergedHandler</Declaration>
+			
+			
+			<Anchor>//api/name/datasetMergedHandler</Anchor>
             <NodeRef refid="118"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoIdentity/getCredentialsForIdentity:</TokenIdentifier>
-			<Abstract type="html">GetCredentialsForIdentity</Abstract>
-			<DeclaredIn>AWSCognitoIdentity.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoDataset/setSynchronizeRetries:</TokenIdentifier>
+			<Abstract type="html">The number of times to attempt a synchronization before failing. Defaults to
+to the value on the AWSCognito client that opened this dataset.</Abstract>
+			<DeclaredIn>AWSCognitoDataset.h</DeclaredIn>
 			
-	<RelatedTokens>
-		<TokenIdentifier>//apple_ref/occ/cl/AWSCognitoIdentityGetCredentialsForIdentityInput</TokenIdentifier>
-		<TokenIdentifier>//apple_ref/occ/cl/AWSCognitoIdentityGetCredentialsForIdentityResponse</TokenIdentifier>
-		
-	</RelatedTokens>
-	
-			<Declaration>- (BFTask *)getCredentialsForIdentity:(AWSCognitoIdentityGetCredentialsForIdentityInput *)request</Declaration>
-			<Parameters>
-				<Parameter>
-					<Name>request</Name>
-					<Abstract type="html">A container for the necessary parameters to execute the GetCredentialsForIdentity service method.</Abstract>
-				</Parameter>
-			</Parameters>
-			<ReturnValue><Abstract type="html">An instance of BFTask. On successful execution, task.result will contain an instance of AWSCognitoIdentityGetCredentialsForIdentityResponse. On failed execution, task.error may contain an NSError with AWSCognitoIdentityErrorDomain domian and the following error code: AWSCognitoIdentityErrorInvalidParameter, AWSCognitoIdentityErrorResourceNotFound, AWSCognitoIdentityErrorNotAuthorized, AWSCognitoIdentityErrorResourceConflict, AWSCognitoIdentityErrorTooManyRequests, AWSCognitoIdentityErrorInvalidIdentityPoolConfiguration, AWSCognitoIdentityErrorInternalError.</Abstract></ReturnValue>
-			<Anchor>//api/name/getCredentialsForIdentity:</Anchor>
+			<Declaration>@property (nonatomic, assign) uint32_t synchronizeRetries</Declaration>
+			
+			
+			<Anchor>//api/name/synchronizeRetries</Anchor>
             <NodeRef refid="118"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoIdentity/getId:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Generates (or retrieves) a Cognito ID. Supplying multiple logins will create an implicit linked account.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSCognitoIdentity.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoDataset/synchronizeRetries</TokenIdentifier>
+			<Abstract type="html">The number of times to attempt a synchronization before failing. Defaults to
+to the value on the AWSCognito client that opened this dataset.</Abstract>
+			<DeclaredIn>AWSCognitoDataset.h</DeclaredIn>
 			
-	<RelatedTokens>
-		<TokenIdentifier>//apple_ref/occ/cl/AWSCognitoIdentityGetIdInput</TokenIdentifier>
-		<TokenIdentifier>//apple_ref/occ/cl/AWSCognitoIdentityGetIdResponse</TokenIdentifier>
-		
-	</RelatedTokens>
-	
-			<Declaration>- (BFTask *)getId:(AWSCognitoIdentityGetIdInput *)request</Declaration>
-			<Parameters>
-				<Parameter>
-					<Name>request</Name>
-					<Abstract type="html">A container for the necessary parameters to execute the GetId service method.</Abstract>
-				</Parameter>
-			</Parameters>
-			<ReturnValue><Abstract type="html">An instance of BFTask. On successful execution, task.result will contain an instance of AWSCognitoIdentityGetIdResponse. On failed execution, task.error may contain an NSError with AWSCognitoIdentityErrorDomain domian and the following error code: AWSCognitoIdentityErrorInvalidParameter, AWSCognitoIdentityErrorResourceNotFound, AWSCognitoIdentityErrorNotAuthorized, AWSCognitoIdentityErrorResourceConflict, AWSCognitoIdentityErrorTooManyRequests, AWSCognitoIdentityErrorInternalError, AWSCognitoIdentityErrorLimitExceeded.</Abstract></ReturnValue>
-			<Anchor>//api/name/getId:</Anchor>
+			<Declaration>@property (nonatomic, assign) uint32_t synchronizeRetries</Declaration>
+			
+			
+			<Anchor>//api/name/synchronizeRetries</Anchor>
             <NodeRef refid="118"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoIdentity/getIdentityPoolRoles:</TokenIdentifier>
-			<Abstract type="html">GetIdentityPoolRoles</Abstract>
-			<DeclaredIn>AWSCognitoIdentity.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSCognitoDataset/synchronizeRetries</TokenIdentifier>
+			<Abstract type="html">The number of times to attempt a synchronization before failing. Defaults to
+to the value on the AWSCognito client that opened this dataset.</Abstract>
+			<DeclaredIn>AWSCognitoDataset.h</DeclaredIn>
 			
-	<RelatedTokens>
-		<TokenIdentifier>//apple_ref/occ/cl/AWSCognitoIdentityGetIdentityPoolRolesInput</TokenIdentifier>
-		<TokenIdentifier>//apple_ref/occ/cl/AWSCognitoIdentityGetIdentityPoolRolesResponse</TokenIdentifier>
-		
-	</RelatedTokens>
-	
-			<Declaration>- (BFTask *)getIdentityPoolRoles:(AWSCognitoIdentityGetIdentityPoolRolesInput *)request</Declaration>
-			<Parameters>
-				<Parameter>
-					<Name>request</Name>
-					<Abstract type="html">A container for the necessary parameters to execute the GetIdentityPoolRoles service method.</Abstract>
-				</Parameter>
-			</Parameters>
-			<ReturnValue><Abstract type="html">An instance of BFTask. On successful execution, task.result will contain an instance of AWSCognitoIdentityGetIdentityPoolRolesResponse. On failed execution, task.error may contain an NSError with AWSCognitoIdentityErrorDomain domian and the following error code: AWSCognitoIdentityErrorInvalidParameter, AWSCognitoIdentityErrorResourceNotFound, AWSCognitoIdentityErrorNotAuthorized, AWSCognitoIdentityErrorResourceConflict, AWSCognitoIdentityErrorTooManyRequests, AWSCognitoIdentityErrorInternalError.</Abstract></ReturnValue>
-			<Anchor>//api/name/getIdentityPoolRoles:</Anchor>
+			<Declaration>@property (nonatomic, assign) uint32_t synchronizeRetries</Declaration>
+			
+			
+			<Anchor>//api/name/synchronizeRetries</Anchor>
             <NodeRef refid="118"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoIdentity/getOpenIdToken:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Gets an OpenID token, using a known Cognito ID. This known Cognito ID is returned by &lt;a&gt;GetId&lt;/a&gt;. You can optionally add additional logins for the identity. Supplying multiple logins creates an implicit link.&lt;/p&gt;&lt;p&gt;The OpenId token is valid for 15 minutes.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSCognitoIdentity.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoDataset/setSynchronizeOnWiFiOnly:</TokenIdentifier>
+			<Abstract type="html">Only synchronize if device is on a WiFi network. Defaults to
+to the value on the AWSCognito client that opened this dataset.</Abstract>
+			<DeclaredIn>AWSCognitoDataset.h</DeclaredIn>
 			
-	<RelatedTokens>
-		<TokenIdentifier>//apple_ref/occ/cl/AWSCognitoIdentityGetOpenIdTokenInput</TokenIdentifier>
-		<TokenIdentifier>//apple_ref/occ/cl/AWSCognitoIdentityGetOpenIdTokenResponse</TokenIdentifier>
-		
-	</RelatedTokens>
-	
-			<Declaration>- (BFTask *)getOpenIdToken:(AWSCognitoIdentityGetOpenIdTokenInput *)request</Declaration>
-			<Parameters>
-				<Parameter>
-					<Name>request</Name>
-					<Abstract type="html">A container for the necessary parameters to execute the GetOpenIdToken service method.</Abstract>
-				</Parameter>
-			</Parameters>
-			<ReturnValue><Abstract type="html">An instance of BFTask. On successful execution, task.result will contain an instance of AWSCognitoIdentityGetOpenIdTokenResponse. On failed execution, task.error may contain an NSError with AWSCognitoIdentityErrorDomain domian and the following error code: AWSCognitoIdentityErrorInvalidParameter, AWSCognitoIdentityErrorResourceNotFound, AWSCognitoIdentityErrorNotAuthorized, AWSCognitoIdentityErrorResourceConflict, AWSCognitoIdentityErrorTooManyRequests, AWSCognitoIdentityErrorInternalError.</Abstract></ReturnValue>
-			<Anchor>//api/name/getOpenIdToken:</Anchor>
+			<Declaration>@property (nonatomic, assign) BOOL synchronizeOnWiFiOnly</Declaration>
+			
+			
+			<Anchor>//api/name/synchronizeOnWiFiOnly</Anchor>
             <NodeRef refid="118"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoIdentity/getOpenIdTokenForDeveloperIdentity:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Registers (or retrieves) a Cognito &lt;code&gt;IdentityId&lt;/code&gt; and an OpenID Connect token for a user authenticated by your backend authentication process. Supplying multiple logins will create an implicit linked account. You can only specify one developer provider as part of the &lt;code&gt;Logins&lt;/code&gt; map, which is linked to the identity pool. The developer provider is the &quot;domain&quot; by which Cognito will refer to your users.&lt;/p&gt;&lt;p&gt;You can use &lt;code&gt;GetOpenIdTokenForDeveloperIdentity&lt;/code&gt; to create a new identity and to link new logins (that is, user credentials issued by a public provider or developer provider) to an existing identity. When you want to create a new identity, the &lt;code&gt;IdentityId&lt;/code&gt; should be null. When you want to associate a new login with an existing authenticated/unauthenticated identity, you can do so by providing the existing &lt;code&gt;IdentityId&lt;/code&gt;. This API will create the identity in the specified &lt;code&gt;IdentityPoolId&lt;/code&gt;.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSCognitoIdentity.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoDataset/synchronizeOnWiFiOnly</TokenIdentifier>
+			<Abstract type="html">Only synchronize if device is on a WiFi network. Defaults to
+to the value on the AWSCognito client that opened this dataset.</Abstract>
+			<DeclaredIn>AWSCognitoDataset.h</DeclaredIn>
 			
-	<RelatedTokens>
-		<TokenIdentifier>//apple_ref/occ/cl/AWSCognitoIdentityGetOpenIdTokenForDeveloperIdentityInput</TokenIdentifier>
-		<TokenIdentifier>//apple_ref/occ/cl/AWSCognitoIdentityGetOpenIdTokenForDeveloperIdentityResponse</TokenIdentifier>
-		
-	</RelatedTokens>
-	
-			<Declaration>- (BFTask *)getOpenIdTokenForDeveloperIdentity:(AWSCognitoIdentityGetOpenIdTokenForDeveloperIdentityInput *)request</Declaration>
-			<Parameters>
-				<Parameter>
-					<Name>request</Name>
-					<Abstract type="html">A container for the necessary parameters to execute the GetOpenIdTokenForDeveloperIdentity service method.</Abstract>
-				</Parameter>
-			</Parameters>
-			<ReturnValue><Abstract type="html">An instance of BFTask. On successful execution, task.result will contain an instance of AWSCognitoIdentityGetOpenIdTokenForDeveloperIdentityResponse. On failed execution, task.error may contain an NSError with AWSCognitoIdentityErrorDomain domian and the following error code: AWSCognitoIdentityErrorInvalidParameter, AWSCognitoIdentityErrorResourceNotFound, AWSCognitoIdentityErrorNotAuthorized, AWSCognitoIdentityErrorResourceConflict, AWSCognitoIdentityErrorTooManyRequests, AWSCognitoIdentityErrorInternalError, AWSCognitoIdentityErrorDeveloperUserAlreadyRegistered.</Abstract></ReturnValue>
-			<Anchor>//api/name/getOpenIdTokenForDeveloperIdentity:</Anchor>
+			<Declaration>@property (nonatomic, assign) BOOL synchronizeOnWiFiOnly</Declaration>
+			
+			
+			<Anchor>//api/name/synchronizeOnWiFiOnly</Anchor>
             <NodeRef refid="118"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoIdentity/listIdentities:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Lists the identities in a pool.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSCognitoIdentity.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSCognitoDataset/synchronizeOnWiFiOnly</TokenIdentifier>
+			<Abstract type="html">Only synchronize if device is on a WiFi network. Defaults to
+to the value on the AWSCognito client that opened this dataset.</Abstract>
+			<DeclaredIn>AWSCognitoDataset.h</DeclaredIn>
 			
-	<RelatedTokens>
-		<TokenIdentifier>//apple_ref/occ/cl/AWSCognitoIdentityListIdentitiesInput</TokenIdentifier>
-		<TokenIdentifier>//apple_ref/occ/cl/AWSCognitoIdentityListIdentitiesResponse</TokenIdentifier>
-		
-	</RelatedTokens>
-	
-			<Declaration>- (BFTask *)listIdentities:(AWSCognitoIdentityListIdentitiesInput *)request</Declaration>
-			<Parameters>
-				<Parameter>
-					<Name>request</Name>
-					<Abstract type="html">A container for the necessary parameters to execute the ListIdentities service method.</Abstract>
-				</Parameter>
-			</Parameters>
-			<ReturnValue><Abstract type="html">An instance of BFTask. On successful execution, task.result will contain an instance of AWSCognitoIdentityListIdentitiesResponse. On failed execution, task.error may contain an NSError with AWSCognitoIdentityErrorDomain domian and the following error code: AWSCognitoIdentityErrorInvalidParameter, AWSCognitoIdentityErrorResourceNotFound, AWSCognitoIdentityErrorNotAuthorized, AWSCognitoIdentityErrorTooManyRequests, AWSCognitoIdentityErrorInternalError.</Abstract></ReturnValue>
-			<Anchor>//api/name/listIdentities:</Anchor>
+			<Declaration>@property (nonatomic, assign) BOOL synchronizeOnWiFiOnly</Declaration>
+			
+			
+			<Anchor>//api/name/synchronizeOnWiFiOnly</Anchor>
             <NodeRef refid="118"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoIdentity/listIdentityPools:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Lists all of the Cognito identity pools registered for your account.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSCognitoIdentity.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoDataset/setString:forKey:</TokenIdentifier>
+			<Abstract type="html">Sets a string object for the specified key in the dataset.</Abstract>
+			<DeclaredIn>AWSCognitoDataset.h</DeclaredIn>
 			
-	<RelatedTokens>
-		<TokenIdentifier>//apple_ref/occ/cl/AWSCognitoIdentityListIdentityPoolsInput</TokenIdentifier>
-		<TokenIdentifier>//apple_ref/occ/cl/AWSCognitoIdentityListIdentityPoolsResponse</TokenIdentifier>
-		
-	</RelatedTokens>
-	
-			<Declaration>- (BFTask *)listIdentityPools:(AWSCognitoIdentityListIdentityPoolsInput *)request</Declaration>
-			<Parameters>
-				<Parameter>
-					<Name>request</Name>
-					<Abstract type="html">A container for the necessary parameters to execute the ListIdentityPools service method.</Abstract>
-				</Parameter>
-			</Parameters>
-			<ReturnValue><Abstract type="html">An instance of BFTask. On successful execution, task.result will contain an instance of AWSCognitoIdentityListIdentityPoolsResponse. On failed execution, task.error may contain an NSError with AWSCognitoIdentityErrorDomain domian and the following error code: AWSCognitoIdentityErrorInvalidParameter, AWSCognitoIdentityErrorNotAuthorized, AWSCognitoIdentityErrorTooManyRequests, AWSCognitoIdentityErrorInternalError.</Abstract></ReturnValue>
-			<Anchor>//api/name/listIdentityPools:</Anchor>
+			<Declaration>- (void)setString:(NSString *)aString forKey:(NSString *)aKey</Declaration>
+			
+			
+			<Anchor>//api/name/setString:forKey:</Anchor>
             <NodeRef refid="118"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoIdentity/lookupDeveloperIdentity:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Retrieves the &lt;code&gt;IdentityID&lt;/code&gt; associated with a &lt;code&gt;DeveloperUserIdentifier&lt;/code&gt; or the list of &lt;code&gt;DeveloperUserIdentifier&lt;/code&gt;s associated with an &lt;code&gt;IdentityId&lt;/code&gt; for an existing identity. Either &lt;code&gt;IdentityID&lt;/code&gt; or &lt;code&gt;DeveloperUserIdentifier&lt;/code&gt; must not be null. If you supply only one of these values, the other value will be searched in the database and returned as a part of the response. If you supply both, &lt;code&gt;DeveloperUserIdentifier&lt;/code&gt; will be matched against &lt;code&gt;IdentityID&lt;/code&gt;. If the values are verified against the database, the response returns both values and is the same as the request. Otherwise a &lt;code&gt;ResourceConflictException&lt;/code&gt; is thrown.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSCognitoIdentity.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoDataset/stringForKey:</TokenIdentifier>
+			<Abstract type="html">Returns the string associated with the specified key.
+  </Abstract>
+			<DeclaredIn>AWSCognitoDataset.h</DeclaredIn>
 			
-	<RelatedTokens>
-		<TokenIdentifier>//apple_ref/occ/cl/AWSCognitoIdentityLookupDeveloperIdentityInput</TokenIdentifier>
-		<TokenIdentifier>//apple_ref/occ/cl/AWSCognitoIdentityLookupDeveloperIdentityResponse</TokenIdentifier>
-		
-	</RelatedTokens>
-	
-			<Declaration>- (BFTask *)lookupDeveloperIdentity:(AWSCognitoIdentityLookupDeveloperIdentityInput *)request</Declaration>
-			<Parameters>
-				<Parameter>
-					<Name>request</Name>
-					<Abstract type="html">A container for the necessary parameters to execute the LookupDeveloperIdentity service method.</Abstract>
-				</Parameter>
-			</Parameters>
-			<ReturnValue><Abstract type="html">An instance of BFTask. On successful execution, task.result will contain an instance of AWSCognitoIdentityLookupDeveloperIdentityResponse. On failed execution, task.error may contain an NSError with AWSCognitoIdentityErrorDomain domian and the following error code: AWSCognitoIdentityErrorInvalidParameter, AWSCognitoIdentityErrorResourceNotFound, AWSCognitoIdentityErrorNotAuthorized, AWSCognitoIdentityErrorResourceConflict, AWSCognitoIdentityErrorTooManyRequests, AWSCognitoIdentityErrorInternalError.</Abstract></ReturnValue>
-			<Anchor>//api/name/lookupDeveloperIdentity:</Anchor>
+			<Declaration>- (NSString *)stringForKey:(NSString *)aKey</Declaration>
+			
+			
+			<Anchor>//api/name/stringForKey:</Anchor>
             <NodeRef refid="118"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoIdentity/mergeDeveloperIdentities:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Merges two users having different &lt;code&gt;IdentityId&lt;/code&gt;s, existing in the same identity pool, and identified by the same developer provider. You can use this action to request that discrete users be merged and identified as a single user in the Cognito environment. Cognito associates the given source user (&lt;code&gt;SourceUserIdentifier&lt;/code&gt;) with the &lt;code&gt;IdentityId&lt;/code&gt; of the &lt;code&gt;DestinationUserIdentifier&lt;/code&gt;. Only developer-authenticated users can be merged. If the users to be merged are associated with the same public provider, but as two different users, an exception will be thrown.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSCognitoIdentity.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoDataset/synchronize</TokenIdentifier>
+			<Abstract type="html">Synchronize local changes with remote changes on the service.  First it pulls down changes from the service
+and attempts to overlay them on the local store.  Then it pushes any local updates to the service.  If at any
+point there is a conflict, conflict resolution is invoked.  No changes are pushed to the service until
+all conflicts are resolved.</Abstract>
+			<DeclaredIn>AWSCognitoDataset.h</DeclaredIn>
 			
-	<RelatedTokens>
-		<TokenIdentifier>//apple_ref/occ/cl/AWSCognitoIdentityMergeDeveloperIdentitiesInput</TokenIdentifier>
-		<TokenIdentifier>//apple_ref/occ/cl/AWSCognitoIdentityMergeDeveloperIdentitiesResponse</TokenIdentifier>
-		
-	</RelatedTokens>
-	
-			<Declaration>- (BFTask *)mergeDeveloperIdentities:(AWSCognitoIdentityMergeDeveloperIdentitiesInput *)request</Declaration>
-			<Parameters>
-				<Parameter>
-					<Name>request</Name>
-					<Abstract type="html">A container for the necessary parameters to execute the MergeDeveloperIdentities service method.</Abstract>
-				</Parameter>
-			</Parameters>
-			<ReturnValue><Abstract type="html">An instance of BFTask. On successful execution, task.result will contain an instance of AWSCognitoIdentityMergeDeveloperIdentitiesResponse. On failed execution, task.error may contain an NSError with AWSCognitoIdentityErrorDomain domian and the following error code: AWSCognitoIdentityErrorInvalidParameter, AWSCognitoIdentityErrorResourceNotFound, AWSCognitoIdentityErrorNotAuthorized, AWSCognitoIdentityErrorResourceConflict, AWSCognitoIdentityErrorTooManyRequests, AWSCognitoIdentityErrorInternalError.</Abstract></ReturnValue>
-			<Anchor>//api/name/mergeDeveloperIdentities:</Anchor>
+			<Declaration>- (BFTask *)synchronize</Declaration>
+			
+			
+			<Anchor>//api/name/synchronize</Anchor>
             <NodeRef refid="118"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoIdentity/setIdentityPoolRoles:</TokenIdentifier>
-			<Abstract type="html">SetIdentityPoolRoles</Abstract>
-			<DeclaredIn>AWSCognitoIdentity.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoDataset/synchronizeOnConnectivity</TokenIdentifier>
+			<Abstract type="html">Attempts to synchronize when device has connectivity.  First it checks connectivity, if device is online
+immediately invokes synchronize and returns the BFTask associated with the attempt.  If the device is offline,
+schedules a synchronize for the next time the device comes online and returns a BFTask with a nil result.
+The scheduled synchronize is only valid for the lifecycle of the dataset object.  The data will not be synchronized
+if the app is exited before connectivity is regained.  If you want to be notified when events occur during the
+scheduled synchronize, you must add observers of the notifications found in AWSCognito</Abstract>
+			<DeclaredIn>AWSCognitoDataset.h</DeclaredIn>
 			
-	<RelatedTokens>
-		<TokenIdentifier>//apple_ref/occ/cl/AWSCognitoIdentitySetIdentityPoolRolesInput</TokenIdentifier>
-		
-	</RelatedTokens>
-	
-			<Declaration>- (BFTask *)setIdentityPoolRoles:(AWSCognitoIdentitySetIdentityPoolRolesInput *)request</Declaration>
-			<Parameters>
-				<Parameter>
-					<Name>request</Name>
-					<Abstract type="html">A container for the necessary parameters to execute the SetIdentityPoolRoles service method.</Abstract>
-				</Parameter>
-			</Parameters>
-			<ReturnValue><Abstract type="html">An instance of BFTask. On successful execution, task.result will be nil. On failed execution, task.error may contain an NSError with AWSCognitoIdentityErrorDomain domian and the following error code: AWSCognitoIdentityErrorInvalidParameter, AWSCognitoIdentityErrorResourceNotFound, AWSCognitoIdentityErrorNotAuthorized, AWSCognitoIdentityErrorResourceConflict, AWSCognitoIdentityErrorTooManyRequests, AWSCognitoIdentityErrorInternalError.</Abstract></ReturnValue>
-			<Anchor>//api/name/setIdentityPoolRoles:</Anchor>
+			<Declaration>- (BFTask *)synchronizeOnConnectivity</Declaration>
+			
+			
+			<Anchor>//api/name/synchronizeOnConnectivity</Anchor>
             <NodeRef refid="118"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoIdentity/unlinkDeveloperIdentity:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Unlinks a &lt;code&gt;DeveloperUserIdentifier&lt;/code&gt; from an existing identity. Unlinked developer users will be considered new identities next time they are seen. If, for a given Cognito identity, you remove all federated identities as well as the developer user identifier, the Cognito identity becomes inaccessible.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSCognitoIdentity.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoDataset/subscribe</TokenIdentifier>
+			<Abstract type="html">Subscribes this dataset to push notifications</Abstract>
+			<DeclaredIn>AWSCognitoDataset.h</DeclaredIn>
 			
-	<RelatedTokens>
-		<TokenIdentifier>//apple_ref/occ/cl/AWSCognitoIdentityUnlinkDeveloperIdentityInput</TokenIdentifier>
-		
-	</RelatedTokens>
-	
-			<Declaration>- (BFTask *)unlinkDeveloperIdentity:(AWSCognitoIdentityUnlinkDeveloperIdentityInput *)request</Declaration>
-			<Parameters>
-				<Parameter>
-					<Name>request</Name>
-					<Abstract type="html">A container for the necessary parameters to execute the UnlinkDeveloperIdentity service method.</Abstract>
-				</Parameter>
-			</Parameters>
-			<ReturnValue><Abstract type="html">An instance of BFTask. On successful execution, task.result will be nil. On failed execution, task.error may contain an NSError with AWSCognitoIdentityErrorDomain domian and the following error code: AWSCognitoIdentityErrorInvalidParameter, AWSCognitoIdentityErrorResourceNotFound, AWSCognitoIdentityErrorNotAuthorized, AWSCognitoIdentityErrorResourceConflict, AWSCognitoIdentityErrorTooManyRequests, AWSCognitoIdentityErrorInternalError.</Abstract></ReturnValue>
-			<Anchor>//api/name/unlinkDeveloperIdentity:</Anchor>
+			<Declaration>- (BFTask *)subscribe</Declaration>
+			
+			
+			<Anchor>//api/name/subscribe</Anchor>
             <NodeRef refid="118"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoIdentity/unlinkIdentity:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Unlinks a federated identity from an existing account. Unlinked logins will be considered new identities next time they are seen. Removing the last linked login will make this identity inaccessible.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSCognitoIdentity.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoDataset/unsubscribe</TokenIdentifier>
+			<Abstract type="html">Unsubscribes this dataset to push notifications</Abstract>
+			<DeclaredIn>AWSCognitoDataset.h</DeclaredIn>
 			
-	<RelatedTokens>
-		<TokenIdentifier>//apple_ref/occ/cl/AWSCognitoIdentityUnlinkIdentityInput</TokenIdentifier>
-		
-	</RelatedTokens>
-	
-			<Declaration>- (BFTask *)unlinkIdentity:(AWSCognitoIdentityUnlinkIdentityInput *)request</Declaration>
-			<Parameters>
-				<Parameter>
-					<Name>request</Name>
-					<Abstract type="html">A container for the necessary parameters to execute the UnlinkIdentity service method.</Abstract>
-				</Parameter>
-			</Parameters>
-			<ReturnValue><Abstract type="html">An instance of BFTask. On successful execution, task.result will be nil. On failed execution, task.error may contain an NSError with AWSCognitoIdentityErrorDomain domian and the following error code: AWSCognitoIdentityErrorInvalidParameter, AWSCognitoIdentityErrorResourceNotFound, AWSCognitoIdentityErrorNotAuthorized, AWSCognitoIdentityErrorResourceConflict, AWSCognitoIdentityErrorTooManyRequests, AWSCognitoIdentityErrorInternalError.</Abstract></ReturnValue>
-			<Anchor>//api/name/unlinkIdentity:</Anchor>
+			<Declaration>- (BFTask *)unsubscribe</Declaration>
+			
+			
+			<Anchor>//api/name/unsubscribe</Anchor>
             <NodeRef refid="118"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoIdentity/updateIdentityPool:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Updates a user pool.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSCognitoIdentity.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoDataset/getAllRecords</TokenIdentifier>
+			<Abstract type="html">Returns all of the records in the dataset. Will return deleted records.</Abstract>
+			<DeclaredIn>AWSCognitoDataset.h</DeclaredIn>
 			
-	<RelatedTokens>
-		<TokenIdentifier>//apple_ref/occ/cl/AWSCognitoIdentityIdentityPool</TokenIdentifier>
-		<TokenIdentifier>//apple_ref/occ/cl/AWSCognitoIdentityIdentityPool</TokenIdentifier>
+			<Declaration>- (NSArray *)getAllRecords</Declaration>
+			
+			
+			<Anchor>//api/name/getAllRecords</Anchor>
+            <NodeRef refid="118"/>
+		</Token>
 		
-	</RelatedTokens>
-	
-			<Declaration>- (BFTask *)updateIdentityPool:(AWSCognitoIdentityIdentityPool *)request</Declaration>
-			<Parameters>
-				<Parameter>
-					<Name>request</Name>
-					<Abstract type="html">A container for the necessary parameters to execute the UpdateIdentityPool service method.</Abstract>
-				</Parameter>
-			</Parameters>
-			<ReturnValue><Abstract type="html">An instance of BFTask. On successful execution, task.result will contain an instance of AWSCognitoIdentityIdentityPool. On failed execution, task.error may contain an NSError with AWSCognitoIdentityErrorDomain domian and the following error code: AWSCognitoIdentityErrorInvalidParameter, AWSCognitoIdentityErrorResourceNotFound, AWSCognitoIdentityErrorNotAuthorized, AWSCognitoIdentityErrorResourceConflict, AWSCognitoIdentityErrorTooManyRequests, AWSCognitoIdentityErrorInternalError.</Abstract></ReturnValue>
-			<Anchor>//api/name/updateIdentityPool:</Anchor>
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoDataset/getAll</TokenIdentifier>
+			<Abstract type="html">Returns all the key value pairs in the dataset, ignore any deleted data.</Abstract>
+			<DeclaredIn>AWSCognitoDataset.h</DeclaredIn>
+			
+			<Declaration>- (NSDictionary *)getAll</Declaration>
+			
+			
+			<Anchor>//api/name/getAll</Anchor>
+            <NodeRef refid="118"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoDataset/removeObjectForKey:</TokenIdentifier>
+			<Abstract type="html">Remove a record from the dataset.</Abstract>
+			<DeclaredIn>AWSCognitoDataset.h</DeclaredIn>
+			
+			<Declaration>- (void)removeObjectForKey:(NSString *)aKey</Declaration>
+			
+			
+			<Anchor>//api/name/removeObjectForKey:</Anchor>
+            <NodeRef refid="118"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoDataset/recordForKey:</TokenIdentifier>
+			<Abstract type="html">Returns the record associated with the specified key.</Abstract>
+			<DeclaredIn>AWSCognitoDataset.h</DeclaredIn>
+			
+			<Declaration>- (AWSCognitoRecord *)recordForKey:(NSString *)aKey</Declaration>
+			
+			
+			<Anchor>//api/name/recordForKey:</Anchor>
+            <NodeRef refid="118"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoDataset/clear</TokenIdentifier>
+			<Abstract type="html">Clear this dataset locally.  Dataset will not be removed from the service until the next synchronize call.</Abstract>
+			<DeclaredIn>AWSCognitoDataset.h</DeclaredIn>
+			
+			<Declaration>- (void)clear</Declaration>
+			
+			
+			<Anchor>//api/name/clear</Anchor>
+            <NodeRef refid="118"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoDataset/size</TokenIdentifier>
+			<Abstract type="html">Returns the size in bytes for this dataset.</Abstract>
+			<DeclaredIn>AWSCognitoDataset.h</DeclaredIn>
+			
+			<Declaration>- (long)size</Declaration>
+			
+			
+			<Anchor>//api/name/size</Anchor>
+            <NodeRef refid="118"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoDataset/sizeForKey:</TokenIdentifier>
+			<Abstract type="html">Returns the size in bytes for the specified key.</Abstract>
+			<DeclaredIn>AWSCognitoDataset.h</DeclaredIn>
+			
+			<Declaration>- (long)sizeForKey:(NSString *)aKey</Declaration>
+			
+			
+			<Anchor>//api/name/sizeForKey:</Anchor>
+            <NodeRef refid="118"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoDataset/syncPull:</TokenIdentifier>
+			<Abstract type="html">The pull part of our sync
+1. Do a list records, overlay changes
+2. Resolve conflicts</Abstract>
+			<DeclaredIn>AWSCognitoDataset.m</DeclaredIn>
+			
+			<Declaration>- (BFTask *)syncPull:(uint32_t)remainingAttempts</Declaration>
+			
+			
+			<Anchor>//api/name/syncPull:</Anchor>
+            <NodeRef refid="118"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoDataset/syncPush:</TokenIdentifier>
+			<Abstract type="html">The push part of the sync
+1. Write any changes to remote
+2. Restart sync if errors occur</Abstract>
+			<DeclaredIn>AWSCognitoDataset.m</DeclaredIn>
+			
+			<Declaration>- (BFTask *)syncPush:(uint32_t)remainingAttempts</Declaration>
+			
+			
+			<Anchor>//api/name/syncPush:</Anchor>
             <NodeRef refid="118"/>
 		</Token>
 		

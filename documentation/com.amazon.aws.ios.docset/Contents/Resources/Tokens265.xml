@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSEC2AttributeValue.html">
+	<File path="Classes/AWSEC2AttachNetworkInterfaceResult.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSEC2AttributeValue</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The value to use for a resource attribute.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSEC2AttachNetworkInterfaceResult</TokenIdentifier>
+			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
             
 			
@@ -13,38 +13,38 @@
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2AttributeValue/setValue:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Valid values are case-sensitive and vary by action.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2AttachNetworkInterfaceResult/setAttachmentId:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the network interface attachment.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *value</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *attachmentId</Declaration>
 			
 			
-			<Anchor>//api/name/value</Anchor>
+			<Anchor>//api/name/attachmentId</Anchor>
             <NodeRef refid="265"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2AttributeValue/value</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Valid values are case-sensitive and vary by action.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2AttachNetworkInterfaceResult/attachmentId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the network interface attachment.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *value</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *attachmentId</Declaration>
 			
 			
-			<Anchor>//api/name/value</Anchor>
+			<Anchor>//api/name/attachmentId</Anchor>
             <NodeRef refid="265"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2AttributeValue/value</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Valid values are case-sensitive and vary by action.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2AttachNetworkInterfaceResult/attachmentId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the network interface attachment.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *value</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *attachmentId</Declaration>
 			
 			
-			<Anchor>//api/name/value</Anchor>
+			<Anchor>//api/name/attachmentId</Anchor>
             <NodeRef refid="265"/>
 		</Token>
 		

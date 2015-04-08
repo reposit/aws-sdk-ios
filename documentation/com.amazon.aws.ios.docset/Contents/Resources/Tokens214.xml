@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSDynamoDBKeySchemaElement.html">
+	<File path="Classes/AWSDynamoDBGlobalSecondaryIndex.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSDynamoDBKeySchemaElement</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Represents &lt;i&gt;a single element&lt;/i&gt; of a key schema. A key schema specifies the attributes that make up the primary key of a table, or the key attributes of an index.&lt;/p&gt;&lt;p&gt;A &lt;i&gt;KeySchemaElement&lt;/i&gt; represents exactly one attribute of the primary key. For example, a hash type primary key would be represented by one &lt;i&gt;KeySchemaElement&lt;/i&gt;. A hash-and-range type primary key would require one &lt;i&gt;KeySchemaElement&lt;/i&gt; for the hash attribute, and another &lt;i&gt;KeySchemaElement&lt;/i&gt; for the range attribute.&lt;/p&gt;
-Required parameters: [AttributeName, KeyType]</Abstract>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSDynamoDBGlobalSecondaryIndex</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Represents a global secondary index.&lt;/p&gt;
+Required parameters: [IndexName, KeySchema, Projection, ProvisionedThroughput]</Abstract>
 			<DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
             
 			
@@ -14,74 +14,146 @@ Required parameters: [AttributeName, KeyType]</Abstract>
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSDynamoDBKeySchemaElement/setAttributeName:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The name of a key attribute.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSDynamoDBGlobalSecondaryIndex/setIndexName:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The name of the global secondary index. The name must be unique among all other indexes on this table.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *attributeName</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *indexName</Declaration>
 			
 			
-			<Anchor>//api/name/attributeName</Anchor>
+			<Anchor>//api/name/indexName</Anchor>
             <NodeRef refid="214"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSDynamoDBKeySchemaElement/attributeName</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The name of a key attribute.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSDynamoDBGlobalSecondaryIndex/indexName</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The name of the global secondary index. The name must be unique among all other indexes on this table.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *attributeName</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *indexName</Declaration>
 			
 			
-			<Anchor>//api/name/attributeName</Anchor>
+			<Anchor>//api/name/indexName</Anchor>
             <NodeRef refid="214"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSDynamoDBKeySchemaElement/attributeName</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The name of a key attribute.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSDynamoDBGlobalSecondaryIndex/indexName</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The name of the global secondary index. The name must be unique among all other indexes on this table.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *attributeName</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *indexName</Declaration>
 			
 			
-			<Anchor>//api/name/attributeName</Anchor>
+			<Anchor>//api/name/indexName</Anchor>
             <NodeRef refid="214"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSDynamoDBKeySchemaElement/setKeyType:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The attribute data, consisting of the data type and the attribute value itself.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSDynamoDBGlobalSecondaryIndex/setKeySchema:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The complete key schema for a global secondary index, which consists of one or more pairs of attribute names and key types (&lt;code&gt;HASH&lt;/code&gt; or &lt;code&gt;RANGE&lt;/code&gt;).&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, assign) AWSDynamoDBKeyType keyType</Declaration>
+			<Declaration>@property (nonatomic, strong) NSArray *keySchema</Declaration>
 			
 			
-			<Anchor>//api/name/keyType</Anchor>
+			<Anchor>//api/name/keySchema</Anchor>
             <NodeRef refid="214"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSDynamoDBKeySchemaElement/keyType</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The attribute data, consisting of the data type and the attribute value itself.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSDynamoDBGlobalSecondaryIndex/keySchema</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The complete key schema for a global secondary index, which consists of one or more pairs of attribute names and key types (&lt;code&gt;HASH&lt;/code&gt; or &lt;code&gt;RANGE&lt;/code&gt;).&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, assign) AWSDynamoDBKeyType keyType</Declaration>
+			<Declaration>@property (nonatomic, strong) NSArray *keySchema</Declaration>
 			
 			
-			<Anchor>//api/name/keyType</Anchor>
+			<Anchor>//api/name/keySchema</Anchor>
             <NodeRef refid="214"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSDynamoDBKeySchemaElement/keyType</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The attribute data, consisting of the data type and the attribute value itself.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSDynamoDBGlobalSecondaryIndex/keySchema</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The complete key schema for a global secondary index, which consists of one or more pairs of attribute names and key types (&lt;code&gt;HASH&lt;/code&gt; or &lt;code&gt;RANGE&lt;/code&gt;).&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, assign) AWSDynamoDBKeyType keyType</Declaration>
+			<Declaration>@property (nonatomic, strong) NSArray *keySchema</Declaration>
 			
 			
-			<Anchor>//api/name/keyType</Anchor>
+			<Anchor>//api/name/keySchema</Anchor>
+            <NodeRef refid="214"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSDynamoDBGlobalSecondaryIndex/setProjection:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Represents attributes that are copied (projected) from the table into an index. These are in addition to the primary key attributes and index key attributes, which are automatically projected.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) AWSDynamoDBProjection *projection</Declaration>
+			
+			
+			<Anchor>//api/name/projection</Anchor>
+            <NodeRef refid="214"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSDynamoDBGlobalSecondaryIndex/projection</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Represents attributes that are copied (projected) from the table into an index. These are in addition to the primary key attributes and index key attributes, which are automatically projected.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) AWSDynamoDBProjection *projection</Declaration>
+			
+			
+			<Anchor>//api/name/projection</Anchor>
+            <NodeRef refid="214"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSDynamoDBGlobalSecondaryIndex/projection</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Represents attributes that are copied (projected) from the table into an index. These are in addition to the primary key attributes and index key attributes, which are automatically projected.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) AWSDynamoDBProjection *projection</Declaration>
+			
+			
+			<Anchor>//api/name/projection</Anchor>
+            <NodeRef refid="214"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSDynamoDBGlobalSecondaryIndex/setProvisionedThroughput:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Represents the provisioned throughput settings for a specified table or index. The settings can be modified using the &lt;i&gt;UpdateTable&lt;/i&gt; operation.&lt;/p&gt;&lt;p&gt;For current minimum and maximum provisioned throughput values, see Limits in the &lt;i&gt;Amazon DynamoDB Developer Guide&lt;/i&gt;.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) AWSDynamoDBProvisionedThroughput *provisionedThroughput</Declaration>
+			
+			
+			<Anchor>//api/name/provisionedThroughput</Anchor>
+            <NodeRef refid="214"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSDynamoDBGlobalSecondaryIndex/provisionedThroughput</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Represents the provisioned throughput settings for a specified table or index. The settings can be modified using the &lt;i&gt;UpdateTable&lt;/i&gt; operation.&lt;/p&gt;&lt;p&gt;For current minimum and maximum provisioned throughput values, see Limits in the &lt;i&gt;Amazon DynamoDB Developer Guide&lt;/i&gt;.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) AWSDynamoDBProvisionedThroughput *provisionedThroughput</Declaration>
+			
+			
+			<Anchor>//api/name/provisionedThroughput</Anchor>
+            <NodeRef refid="214"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSDynamoDBGlobalSecondaryIndex/provisionedThroughput</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Represents the provisioned throughput settings for a specified table or index. The settings can be modified using the &lt;i&gt;UpdateTable&lt;/i&gt; operation.&lt;/p&gt;&lt;p&gt;For current minimum and maximum provisioned throughput values, see Limits in the &lt;i&gt;Amazon DynamoDB Developer Guide&lt;/i&gt;.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) AWSDynamoDBProvisionedThroughput *provisionedThroughput</Declaration>
+			
+			
+			<Anchor>//api/name/provisionedThroughput</Anchor>
             <NodeRef refid="214"/>
 		</Token>
 		

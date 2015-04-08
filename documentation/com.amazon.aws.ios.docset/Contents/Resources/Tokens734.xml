@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSMobileAnalyticsERS.html">
+	<File path="Classes/AWSKinesisPutRecordsResultEntry.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSMobileAnalyticsERS</TokenIdentifier>
-			<Abstract type="html">A service which is used to record Amazon Mobile Analytics events</Abstract>
-			<DeclaredIn>AWSMobileAnalyticsERS.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSKinesisPutRecordsResultEntry</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Represents the result of an individual record from a &lt;code&gt;PutRecords&lt;/code&gt; request. A record that is successfully added to your Amazon Kinesis stream includes SequenceNumber and ShardId in the result. A record that fails to be added to your Amazon Kinesis stream includes ErrorCode and ErrorMessage in the result.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSKinesisModel.h</DeclaredIn>
             
 			
 			<NodeRef refid="734"/>
@@ -13,89 +13,146 @@
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSMobileAnalyticsERS/setConfiguration:</TokenIdentifier>
-			<Abstract type="html">The service configuration used to instantiate this service client.</Abstract>
-			<DeclaredIn>AWSMobileAnalyticsERS.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSKinesisPutRecordsResultEntry/setErrorCode:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The error code for an individual record result. &lt;code&gt;ErrorCodes&lt;/code&gt; can be either &lt;code&gt;ProvisionedThroughputExceededException&lt;/code&gt; or &lt;code&gt;InternalFailure&lt;/code&gt;.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSKinesisModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong, readonly) AWSServiceConfiguration *configuration</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *errorCode</Declaration>
 			
 			
-			<Anchor>//api/name/configuration</Anchor>
+			<Anchor>//api/name/errorCode</Anchor>
             <NodeRef refid="734"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSMobileAnalyticsERS/configuration</TokenIdentifier>
-			<Abstract type="html">The service configuration used to instantiate this service client.</Abstract>
-			<DeclaredIn>AWSMobileAnalyticsERS.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSKinesisPutRecordsResultEntry/errorCode</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The error code for an individual record result. &lt;code&gt;ErrorCodes&lt;/code&gt; can be either &lt;code&gt;ProvisionedThroughputExceededException&lt;/code&gt; or &lt;code&gt;InternalFailure&lt;/code&gt;.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSKinesisModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong, readonly) AWSServiceConfiguration *configuration</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *errorCode</Declaration>
 			
 			
-			<Anchor>//api/name/configuration</Anchor>
+			<Anchor>//api/name/errorCode</Anchor>
             <NodeRef refid="734"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSMobileAnalyticsERS/configuration</TokenIdentifier>
-			<Abstract type="html">The service configuration used to instantiate this service client.</Abstract>
-			<DeclaredIn>AWSMobileAnalyticsERS.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSKinesisPutRecordsResultEntry/errorCode</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The error code for an individual record result. &lt;code&gt;ErrorCodes&lt;/code&gt; can be either &lt;code&gt;ProvisionedThroughputExceededException&lt;/code&gt; or &lt;code&gt;InternalFailure&lt;/code&gt;.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSKinesisModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong, readonly) AWSServiceConfiguration *configuration</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *errorCode</Declaration>
 			
 			
-			<Anchor>//api/name/configuration</Anchor>
+			<Anchor>//api/name/errorCode</Anchor>
             <NodeRef refid="734"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/clm/AWSMobileAnalyticsERS/defaultMobileAnalyticsERS</TokenIdentifier>
-			<Abstract type="html">Returns the singleton service client. If the singleton object does not exist, the SDK instantiates the default service client with defaultServiceConfiguration from [AWSServiceManager defaultServiceManager]. The reference to this object is maintained by the SDK, and you do not need to retain it manually.</Abstract>
-			<DeclaredIn>AWSMobileAnalyticsERS.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSKinesisPutRecordsResultEntry/setErrorMessage:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The error message for an individual record result. An &lt;code&gt;ErrorCode&lt;/code&gt; value of &lt;code&gt;ProvisionedThroughputExceededException&lt;/code&gt; has an error message that includes the account ID, stream name, and shard ID. An &lt;code&gt;ErrorCode&lt;/code&gt; value of &lt;code&gt;InternalFailure&lt;/code&gt; has the error message &lt;code&gt;&quot;Internal Service Failure&quot;&lt;/code&gt;.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSKinesisModel.h</DeclaredIn>
 			
-			<Declaration>+ (instancetype)defaultMobileAnalyticsERS</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *errorMessage</Declaration>
 			
-			<ReturnValue><Abstract type="html">The default service client.</Abstract></ReturnValue>
-			<Anchor>//api/name/defaultMobileAnalyticsERS</Anchor>
+			
+			<Anchor>//api/name/errorMessage</Anchor>
             <NodeRef refid="734"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSMobileAnalyticsERS/initWithConfiguration:</TokenIdentifier>
-			<Abstract type="html">Instantiates the service client with the given service configuration.</Abstract>
-			<DeclaredIn>AWSMobileAnalyticsERS.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSKinesisPutRecordsResultEntry/errorMessage</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The error message for an individual record result. An &lt;code&gt;ErrorCode&lt;/code&gt; value of &lt;code&gt;ProvisionedThroughputExceededException&lt;/code&gt; has an error message that includes the account ID, stream name, and shard ID. An &lt;code&gt;ErrorCode&lt;/code&gt; value of &lt;code&gt;InternalFailure&lt;/code&gt; has the error message &lt;code&gt;&quot;Internal Service Failure&quot;&lt;/code&gt;.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSKinesisModel.h</DeclaredIn>
 			
-			<Declaration>- (instancetype)initWithConfiguration:(AWSServiceConfiguration *)configuration</Declaration>
-			<Parameters>
-				<Parameter>
-					<Name>configuration</Name>
-					<Abstract type="html">The service configuration object.</Abstract>
-				</Parameter>
-			</Parameters>
-			<ReturnValue><Abstract type="html">An instance of the service client.</Abstract></ReturnValue>
-			<Anchor>//api/name/initWithConfiguration:</Anchor>
+			<Declaration>@property (nonatomic, strong) NSString *errorMessage</Declaration>
+			
+			
+			<Anchor>//api/name/errorMessage</Anchor>
             <NodeRef refid="734"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSMobileAnalyticsERS/putEvents:</TokenIdentifier>
-			<Abstract type="html">Record a batch of events</Abstract>
-			<DeclaredIn>AWSMobileAnalyticsERS.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSKinesisPutRecordsResultEntry/errorMessage</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The error message for an individual record result. An &lt;code&gt;ErrorCode&lt;/code&gt; value of &lt;code&gt;ProvisionedThroughputExceededException&lt;/code&gt; has an error message that includes the account ID, stream name, and shard ID. An &lt;code&gt;ErrorCode&lt;/code&gt; value of &lt;code&gt;InternalFailure&lt;/code&gt; has the error message &lt;code&gt;&quot;Internal Service Failure&quot;&lt;/code&gt;.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSKinesisModel.h</DeclaredIn>
 			
-	<RelatedTokens>
-		<TokenIdentifier>//apple_ref/occ/cl/AWSMobileAnalyticsERSPutEventsInput</TokenIdentifier>
+			<Declaration>@property (nonatomic, strong) NSString *errorMessage</Declaration>
+			
+			
+			<Anchor>//api/name/errorMessage</Anchor>
+            <NodeRef refid="734"/>
+		</Token>
 		
-	</RelatedTokens>
-	
-			<Declaration>- (BFTask *)putEvents:(AWSMobileAnalyticsERSPutEventsInput *)request</Declaration>
-			<Parameters>
-				<Parameter>
-					<Name>request</Name>
-					<Abstract type="html">A container for the necessary parameters to execute the PutEvents service method.</Abstract>
-				</Parameter>
-			</Parameters>
-			<ReturnValue><Abstract type="html">An instance of BFTask. On successful execution, task.result will be nil. On failed execution, task.error may contain an NSError with AWSMobileAnalyticsERSErrorDomain domian and the following error code: AWSMobileAnalyticsERSErrorBadRequest.</Abstract></ReturnValue>
-			<Anchor>//api/name/putEvents:</Anchor>
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSKinesisPutRecordsResultEntry/setSequenceNumber:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The sequence number for an individual record result.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSKinesisModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *sequenceNumber</Declaration>
+			
+			
+			<Anchor>//api/name/sequenceNumber</Anchor>
+            <NodeRef refid="734"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSKinesisPutRecordsResultEntry/sequenceNumber</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The sequence number for an individual record result.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSKinesisModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *sequenceNumber</Declaration>
+			
+			
+			<Anchor>//api/name/sequenceNumber</Anchor>
+            <NodeRef refid="734"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSKinesisPutRecordsResultEntry/sequenceNumber</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The sequence number for an individual record result.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSKinesisModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *sequenceNumber</Declaration>
+			
+			
+			<Anchor>//api/name/sequenceNumber</Anchor>
+            <NodeRef refid="734"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSKinesisPutRecordsResultEntry/setShardId:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The shard ID for an individual record result.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSKinesisModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *shardId</Declaration>
+			
+			
+			<Anchor>//api/name/shardId</Anchor>
+            <NodeRef refid="734"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSKinesisPutRecordsResultEntry/shardId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The shard ID for an individual record result.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSKinesisModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *shardId</Declaration>
+			
+			
+			<Anchor>//api/name/shardId</Anchor>
+            <NodeRef refid="734"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSKinesisPutRecordsResultEntry/shardId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The shard ID for an individual record result.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSKinesisModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *shardId</Declaration>
+			
+			
+			<Anchor>//api/name/shardId</Anchor>
             <NodeRef refid="734"/>
 		</Token>
 		

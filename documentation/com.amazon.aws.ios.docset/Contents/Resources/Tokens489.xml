@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSEC2InstanceStateChange.html">
+	<File path="Classes/AWSEC2InstanceNetworkInterfaceAssociation.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSEC2InstanceStateChange</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Describes an instance state change.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSEC2InstanceNetworkInterfaceAssociation</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Describes association information for an Elastic IP address.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
             
 			
@@ -13,110 +13,110 @@
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2InstanceStateChange/setCurrentState:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The current state of the instance.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2InstanceNetworkInterfaceAssociation/setIpOwnerId:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the owner of the Elastic IP address.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) AWSEC2InstanceState *currentState</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *ipOwnerId</Declaration>
 			
 			
-			<Anchor>//api/name/currentState</Anchor>
+			<Anchor>//api/name/ipOwnerId</Anchor>
             <NodeRef refid="489"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2InstanceStateChange/currentState</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The current state of the instance.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2InstanceNetworkInterfaceAssociation/ipOwnerId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the owner of the Elastic IP address.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) AWSEC2InstanceState *currentState</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *ipOwnerId</Declaration>
 			
 			
-			<Anchor>//api/name/currentState</Anchor>
+			<Anchor>//api/name/ipOwnerId</Anchor>
             <NodeRef refid="489"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2InstanceStateChange/currentState</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The current state of the instance.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2InstanceNetworkInterfaceAssociation/ipOwnerId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the owner of the Elastic IP address.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) AWSEC2InstanceState *currentState</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *ipOwnerId</Declaration>
 			
 			
-			<Anchor>//api/name/currentState</Anchor>
+			<Anchor>//api/name/ipOwnerId</Anchor>
             <NodeRef refid="489"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2InstanceStateChange/setInstanceId:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The ID of the instance.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2InstanceNetworkInterfaceAssociation/setPublicDnsName:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The public DNS name.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *instanceId</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *publicDnsName</Declaration>
 			
 			
-			<Anchor>//api/name/instanceId</Anchor>
+			<Anchor>//api/name/publicDnsName</Anchor>
             <NodeRef refid="489"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2InstanceStateChange/instanceId</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The ID of the instance.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2InstanceNetworkInterfaceAssociation/publicDnsName</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The public DNS name.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *instanceId</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *publicDnsName</Declaration>
 			
 			
-			<Anchor>//api/name/instanceId</Anchor>
+			<Anchor>//api/name/publicDnsName</Anchor>
             <NodeRef refid="489"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2InstanceStateChange/instanceId</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The ID of the instance.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2InstanceNetworkInterfaceAssociation/publicDnsName</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The public DNS name.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *instanceId</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *publicDnsName</Declaration>
 			
 			
-			<Anchor>//api/name/instanceId</Anchor>
+			<Anchor>//api/name/publicDnsName</Anchor>
             <NodeRef refid="489"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2InstanceStateChange/setPreviousState:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The previous state of the instance.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2InstanceNetworkInterfaceAssociation/setPublicIp:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The public IP address or Elastic IP address bound to the network interface.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) AWSEC2InstanceState *previousState</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *publicIp</Declaration>
 			
 			
-			<Anchor>//api/name/previousState</Anchor>
+			<Anchor>//api/name/publicIp</Anchor>
             <NodeRef refid="489"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2InstanceStateChange/previousState</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The previous state of the instance.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2InstanceNetworkInterfaceAssociation/publicIp</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The public IP address or Elastic IP address bound to the network interface.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) AWSEC2InstanceState *previousState</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *publicIp</Declaration>
 			
 			
-			<Anchor>//api/name/previousState</Anchor>
+			<Anchor>//api/name/publicIp</Anchor>
             <NodeRef refid="489"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2InstanceStateChange/previousState</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The previous state of the instance.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2InstanceNetworkInterfaceAssociation/publicIp</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The public IP address or Elastic IP address bound to the network interface.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) AWSEC2InstanceState *previousState</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *publicIp</Declaration>
 			
 			
-			<Anchor>//api/name/previousState</Anchor>
+			<Anchor>//api/name/publicIp</Anchor>
             <NodeRef refid="489"/>
 		</Token>
 		

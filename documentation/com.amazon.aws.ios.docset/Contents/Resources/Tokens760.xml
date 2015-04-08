@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSS3DeleteBucketCorsRequest.html">
+	<File path="Classes/AWSS3Bucket.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSS3DeleteBucketCorsRequest</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSS3Bucket</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSS3Model.h</DeclaredIn>
             
@@ -13,38 +13,74 @@
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3DeleteBucketCorsRequest/setBucket:</TokenIdentifier>
-			<Abstract type="html"></Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3Bucket/setCreationDate:</TokenIdentifier>
+			<Abstract type="html">Date the bucket was created.</Abstract>
 			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *bucket</Declaration>
+			<Declaration>@property (nonatomic, strong) NSDate *creationDate</Declaration>
 			
 			
-			<Anchor>//api/name/bucket</Anchor>
+			<Anchor>//api/name/creationDate</Anchor>
             <NodeRef refid="760"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3DeleteBucketCorsRequest/bucket</TokenIdentifier>
-			<Abstract type="html"></Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3Bucket/creationDate</TokenIdentifier>
+			<Abstract type="html">Date the bucket was created.</Abstract>
 			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *bucket</Declaration>
+			<Declaration>@property (nonatomic, strong) NSDate *creationDate</Declaration>
 			
 			
-			<Anchor>//api/name/bucket</Anchor>
+			<Anchor>//api/name/creationDate</Anchor>
             <NodeRef refid="760"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSS3DeleteBucketCorsRequest/bucket</TokenIdentifier>
-			<Abstract type="html"></Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSS3Bucket/creationDate</TokenIdentifier>
+			<Abstract type="html">Date the bucket was created.</Abstract>
 			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *bucket</Declaration>
+			<Declaration>@property (nonatomic, strong) NSDate *creationDate</Declaration>
 			
 			
-			<Anchor>//api/name/bucket</Anchor>
+			<Anchor>//api/name/creationDate</Anchor>
+            <NodeRef refid="760"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3Bucket/setName:</TokenIdentifier>
+			<Abstract type="html">The name of the bucket.</Abstract>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *name</Declaration>
+			
+			
+			<Anchor>//api/name/name</Anchor>
+            <NodeRef refid="760"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3Bucket/name</TokenIdentifier>
+			<Abstract type="html">The name of the bucket.</Abstract>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *name</Declaration>
+			
+			
+			<Anchor>//api/name/name</Anchor>
+            <NodeRef refid="760"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSS3Bucket/name</TokenIdentifier>
+			<Abstract type="html">The name of the bucket.</Abstract>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *name</Declaration>
+			
+			
+			<Anchor>//api/name/name</Anchor>
             <NodeRef refid="760"/>
 		</Token>
 		

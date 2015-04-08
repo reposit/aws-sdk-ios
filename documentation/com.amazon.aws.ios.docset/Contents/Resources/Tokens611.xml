@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSEC2VpcAttachment.html">
+	<File path="Classes/AWSEC2VolumeStatusAction.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSEC2VpcAttachment</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Describes an attachment between a virtual private gateway and a VPC.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSEC2VolumeStatusAction</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Describes a volume status operation code.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
             
 			
@@ -13,74 +13,146 @@
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2VpcAttachment/setState:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The current state of the attachment.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2VolumeStatusAction/setCode:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The code identifying the operation, for example, &lt;code&gt;enable-volume-io&lt;/code&gt;.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, assign) AWSEC2AttachmentStatus state</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *code</Declaration>
 			
 			
-			<Anchor>//api/name/state</Anchor>
+			<Anchor>//api/name/code</Anchor>
             <NodeRef refid="611"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2VpcAttachment/state</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The current state of the attachment.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2VolumeStatusAction/code</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The code identifying the operation, for example, &lt;code&gt;enable-volume-io&lt;/code&gt;.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, assign) AWSEC2AttachmentStatus state</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *code</Declaration>
 			
 			
-			<Anchor>//api/name/state</Anchor>
+			<Anchor>//api/name/code</Anchor>
             <NodeRef refid="611"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2VpcAttachment/state</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The current state of the attachment.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2VolumeStatusAction/code</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The code identifying the operation, for example, &lt;code&gt;enable-volume-io&lt;/code&gt;.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, assign) AWSEC2AttachmentStatus state</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *code</Declaration>
 			
 			
-			<Anchor>//api/name/state</Anchor>
+			<Anchor>//api/name/code</Anchor>
             <NodeRef refid="611"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2VpcAttachment/setVpcId:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The ID of the VPC.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2VolumeStatusAction/setDetail:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;A description of the operation.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *vpcId</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *detail</Declaration>
 			
 			
-			<Anchor>//api/name/vpcId</Anchor>
+			<Anchor>//api/name/detail</Anchor>
             <NodeRef refid="611"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2VpcAttachment/vpcId</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The ID of the VPC.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2VolumeStatusAction/detail</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;A description of the operation.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *vpcId</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *detail</Declaration>
 			
 			
-			<Anchor>//api/name/vpcId</Anchor>
+			<Anchor>//api/name/detail</Anchor>
             <NodeRef refid="611"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2VpcAttachment/vpcId</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The ID of the VPC.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2VolumeStatusAction/detail</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;A description of the operation.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *vpcId</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *detail</Declaration>
 			
 			
-			<Anchor>//api/name/vpcId</Anchor>
+			<Anchor>//api/name/detail</Anchor>
+            <NodeRef refid="611"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2VolumeStatusAction/setEventId:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the event associated with this operation.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *eventId</Declaration>
+			
+			
+			<Anchor>//api/name/eventId</Anchor>
+            <NodeRef refid="611"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2VolumeStatusAction/eventId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the event associated with this operation.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *eventId</Declaration>
+			
+			
+			<Anchor>//api/name/eventId</Anchor>
+            <NodeRef refid="611"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2VolumeStatusAction/eventId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the event associated with this operation.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *eventId</Declaration>
+			
+			
+			<Anchor>//api/name/eventId</Anchor>
+            <NodeRef refid="611"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2VolumeStatusAction/setEventType:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The event type associated with this operation.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *eventType</Declaration>
+			
+			
+			<Anchor>//api/name/eventType</Anchor>
+            <NodeRef refid="611"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2VolumeStatusAction/eventType</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The event type associated with this operation.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *eventType</Declaration>
+			
+			
+			<Anchor>//api/name/eventType</Anchor>
+            <NodeRef refid="611"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2VolumeStatusAction/eventType</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The event type associated with this operation.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *eventType</Declaration>
+			
+			
+			<Anchor>//api/name/eventType</Anchor>
             <NodeRef refid="611"/>
 		</Token>
 		

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSS3VersioningConfiguration.html">
+	<File path="Classes/AWSS3ReplicatePartResult.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSS3VersioningConfiguration</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSS3ReplicatePartResult</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSS3Model.h</DeclaredIn>
             
@@ -13,74 +13,74 @@
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3VersioningConfiguration/setMFADelete:</TokenIdentifier>
-			<Abstract type="html">Specifies whether MFA delete is enabled in the bucket versioning configuration. This element is only returned if the bucket has been configured with MFA delete. If the bucket has never been so configured, this element is not returned.</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3ReplicatePartResult/setETag:</TokenIdentifier>
+			<Abstract type="html">Entity tag of the object.</Abstract>
 			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, assign) AWSS3MFADelete MFADelete</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *ETag</Declaration>
 			
 			
-			<Anchor>//api/name/MFADelete</Anchor>
+			<Anchor>//api/name/ETag</Anchor>
             <NodeRef refid="869"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3VersioningConfiguration/MFADelete</TokenIdentifier>
-			<Abstract type="html">Specifies whether MFA delete is enabled in the bucket versioning configuration. This element is only returned if the bucket has been configured with MFA delete. If the bucket has never been so configured, this element is not returned.</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3ReplicatePartResult/ETag</TokenIdentifier>
+			<Abstract type="html">Entity tag of the object.</Abstract>
 			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, assign) AWSS3MFADelete MFADelete</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *ETag</Declaration>
 			
 			
-			<Anchor>//api/name/MFADelete</Anchor>
+			<Anchor>//api/name/ETag</Anchor>
             <NodeRef refid="869"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSS3VersioningConfiguration/MFADelete</TokenIdentifier>
-			<Abstract type="html">Specifies whether MFA delete is enabled in the bucket versioning configuration. This element is only returned if the bucket has been configured with MFA delete. If the bucket has never been so configured, this element is not returned.</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSS3ReplicatePartResult/ETag</TokenIdentifier>
+			<Abstract type="html">Entity tag of the object.</Abstract>
 			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, assign) AWSS3MFADelete MFADelete</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *ETag</Declaration>
 			
 			
-			<Anchor>//api/name/MFADelete</Anchor>
+			<Anchor>//api/name/ETag</Anchor>
             <NodeRef refid="869"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3VersioningConfiguration/setStatus:</TokenIdentifier>
-			<Abstract type="html">The versioning state of the bucket.</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3ReplicatePartResult/setLastModified:</TokenIdentifier>
+			<Abstract type="html">Date and time at which the object was uploaded.</Abstract>
 			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, assign) AWSS3BucketVersioningStatus status</Declaration>
+			<Declaration>@property (nonatomic, strong) NSDate *lastModified</Declaration>
 			
 			
-			<Anchor>//api/name/status</Anchor>
+			<Anchor>//api/name/lastModified</Anchor>
             <NodeRef refid="869"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3VersioningConfiguration/status</TokenIdentifier>
-			<Abstract type="html">The versioning state of the bucket.</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3ReplicatePartResult/lastModified</TokenIdentifier>
+			<Abstract type="html">Date and time at which the object was uploaded.</Abstract>
 			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, assign) AWSS3BucketVersioningStatus status</Declaration>
+			<Declaration>@property (nonatomic, strong) NSDate *lastModified</Declaration>
 			
 			
-			<Anchor>//api/name/status</Anchor>
+			<Anchor>//api/name/lastModified</Anchor>
             <NodeRef refid="869"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSS3VersioningConfiguration/status</TokenIdentifier>
-			<Abstract type="html">The versioning state of the bucket.</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSS3ReplicatePartResult/lastModified</TokenIdentifier>
+			<Abstract type="html">Date and time at which the object was uploaded.</Abstract>
 			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, assign) AWSS3BucketVersioningStatus status</Declaration>
+			<Declaration>@property (nonatomic, strong) NSDate *lastModified</Declaration>
 			
 			
-			<Anchor>//api/name/status</Anchor>
+			<Anchor>//api/name/lastModified</Anchor>
             <NodeRef refid="869"/>
 		</Token>
 		

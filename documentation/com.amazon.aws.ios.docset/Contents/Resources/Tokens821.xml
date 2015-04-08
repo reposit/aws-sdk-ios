@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSS3LoggingEnabled.html">
+	<File path="Classes/AWSS3Grantee.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSS3LoggingEnabled</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSS3Grantee</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSS3Model.h</DeclaredIn>
             
@@ -13,110 +13,182 @@
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3LoggingEnabled/setTargetBucket:</TokenIdentifier>
-			<Abstract type="html">Specifies the bucket where you want Amazon S3 to store server access logs. You can have your logs delivered to any bucket that you own, including the same bucket that is being logged. You can also configure multiple buckets to deliver their logs to the same target bucket. In this case you should choose a different TargetPrefix for each source bucket so that the delivered log files can be distinguished by key.</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3Grantee/setDisplayName:</TokenIdentifier>
+			<Abstract type="html">Screen name of the grantee.</Abstract>
 			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *targetBucket</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *displayName</Declaration>
 			
 			
-			<Anchor>//api/name/targetBucket</Anchor>
+			<Anchor>//api/name/displayName</Anchor>
             <NodeRef refid="821"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3LoggingEnabled/targetBucket</TokenIdentifier>
-			<Abstract type="html">Specifies the bucket where you want Amazon S3 to store server access logs. You can have your logs delivered to any bucket that you own, including the same bucket that is being logged. You can also configure multiple buckets to deliver their logs to the same target bucket. In this case you should choose a different TargetPrefix for each source bucket so that the delivered log files can be distinguished by key.</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3Grantee/displayName</TokenIdentifier>
+			<Abstract type="html">Screen name of the grantee.</Abstract>
 			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *targetBucket</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *displayName</Declaration>
 			
 			
-			<Anchor>//api/name/targetBucket</Anchor>
+			<Anchor>//api/name/displayName</Anchor>
             <NodeRef refid="821"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSS3LoggingEnabled/targetBucket</TokenIdentifier>
-			<Abstract type="html">Specifies the bucket where you want Amazon S3 to store server access logs. You can have your logs delivered to any bucket that you own, including the same bucket that is being logged. You can also configure multiple buckets to deliver their logs to the same target bucket. In this case you should choose a different TargetPrefix for each source bucket so that the delivered log files can be distinguished by key.</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSS3Grantee/displayName</TokenIdentifier>
+			<Abstract type="html">Screen name of the grantee.</Abstract>
 			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *targetBucket</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *displayName</Declaration>
 			
 			
-			<Anchor>//api/name/targetBucket</Anchor>
+			<Anchor>//api/name/displayName</Anchor>
             <NodeRef refid="821"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3LoggingEnabled/setTargetGrants:</TokenIdentifier>
-			<Abstract type="html"></Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3Grantee/setEmailAddress:</TokenIdentifier>
+			<Abstract type="html">Email address of the grantee.</Abstract>
 			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSArray *targetGrants</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *emailAddress</Declaration>
 			
 			
-			<Anchor>//api/name/targetGrants</Anchor>
+			<Anchor>//api/name/emailAddress</Anchor>
             <NodeRef refid="821"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3LoggingEnabled/targetGrants</TokenIdentifier>
-			<Abstract type="html"></Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3Grantee/emailAddress</TokenIdentifier>
+			<Abstract type="html">Email address of the grantee.</Abstract>
 			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSArray *targetGrants</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *emailAddress</Declaration>
 			
 			
-			<Anchor>//api/name/targetGrants</Anchor>
+			<Anchor>//api/name/emailAddress</Anchor>
             <NodeRef refid="821"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSS3LoggingEnabled/targetGrants</TokenIdentifier>
-			<Abstract type="html"></Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSS3Grantee/emailAddress</TokenIdentifier>
+			<Abstract type="html">Email address of the grantee.</Abstract>
 			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSArray *targetGrants</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *emailAddress</Declaration>
 			
 			
-			<Anchor>//api/name/targetGrants</Anchor>
+			<Anchor>//api/name/emailAddress</Anchor>
             <NodeRef refid="821"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3LoggingEnabled/setTargetPrefix:</TokenIdentifier>
-			<Abstract type="html">This element lets you specify a prefix for the keys that the log files will be stored under.</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3Grantee/setIdentifier:</TokenIdentifier>
+			<Abstract type="html">The canonical user ID of the grantee.</Abstract>
 			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *targetPrefix</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *identifier</Declaration>
 			
 			
-			<Anchor>//api/name/targetPrefix</Anchor>
+			<Anchor>//api/name/identifier</Anchor>
             <NodeRef refid="821"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3LoggingEnabled/targetPrefix</TokenIdentifier>
-			<Abstract type="html">This element lets you specify a prefix for the keys that the log files will be stored under.</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3Grantee/identifier</TokenIdentifier>
+			<Abstract type="html">The canonical user ID of the grantee.</Abstract>
 			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *targetPrefix</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *identifier</Declaration>
 			
 			
-			<Anchor>//api/name/targetPrefix</Anchor>
+			<Anchor>//api/name/identifier</Anchor>
             <NodeRef refid="821"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSS3LoggingEnabled/targetPrefix</TokenIdentifier>
-			<Abstract type="html">This element lets you specify a prefix for the keys that the log files will be stored under.</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSS3Grantee/identifier</TokenIdentifier>
+			<Abstract type="html">The canonical user ID of the grantee.</Abstract>
 			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *targetPrefix</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *identifier</Declaration>
 			
 			
-			<Anchor>//api/name/targetPrefix</Anchor>
+			<Anchor>//api/name/identifier</Anchor>
+            <NodeRef refid="821"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3Grantee/setTypes:</TokenIdentifier>
+			<Abstract type="html">Type of grantee</Abstract>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) AWSS3Types types</Declaration>
+			
+			
+			<Anchor>//api/name/types</Anchor>
+            <NodeRef refid="821"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3Grantee/types</TokenIdentifier>
+			<Abstract type="html">Type of grantee</Abstract>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) AWSS3Types types</Declaration>
+			
+			
+			<Anchor>//api/name/types</Anchor>
+            <NodeRef refid="821"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSS3Grantee/types</TokenIdentifier>
+			<Abstract type="html">Type of grantee</Abstract>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) AWSS3Types types</Declaration>
+			
+			
+			<Anchor>//api/name/types</Anchor>
+            <NodeRef refid="821"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3Grantee/setURI:</TokenIdentifier>
+			<Abstract type="html">URI of the grantee group.</Abstract>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *URI</Declaration>
+			
+			
+			<Anchor>//api/name/URI</Anchor>
+            <NodeRef refid="821"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3Grantee/URI</TokenIdentifier>
+			<Abstract type="html">URI of the grantee group.</Abstract>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *URI</Declaration>
+			
+			
+			<Anchor>//api/name/URI</Anchor>
+            <NodeRef refid="821"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSS3Grantee/URI</TokenIdentifier>
+			<Abstract type="html">URI of the grantee group.</Abstract>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *URI</Declaration>
+			
+			
+			<Anchor>//api/name/URI</Anchor>
             <NodeRef refid="821"/>
 		</Token>
 		

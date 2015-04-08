@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSKinesisListTagsForStreamInput.html">
+	<File path="Classes/AWSKinesisCreateStreamInput.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSKinesisListTagsForStreamInput</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Represents the input for &lt;code&gt;ListTagsForStream&lt;/code&gt;.&lt;/p&gt;
-Required parameters: [StreamName]</Abstract>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSKinesisCreateStreamInput</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Represents the input for &lt;code&gt;CreateStream&lt;/code&gt;.&lt;/p&gt;
+Required parameters: [StreamName, ShardCount]</Abstract>
 			<DeclaredIn>AWSKinesisModel.h</DeclaredIn>
             
 			
@@ -14,80 +14,44 @@ Required parameters: [StreamName]</Abstract>
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSKinesisListTagsForStreamInput/setExclusiveStartTagKey:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The key to use as the starting point for the list of tags. If this parameter is set, &lt;code&gt;ListTagsForStream&lt;/code&gt; gets all tags that occur after &lt;code&gt;ExclusiveStartTagKey&lt;/code&gt;. &lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSKinesisCreateStreamInput/setShardCount:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The number of shards that the stream will use. The throughput of the stream is a function of the number of shards; more shards are required for greater provisioned throughput.&lt;/p&gt;&lt;p&gt;&lt;b&gt;Note:&lt;/b&gt; The default limit for an AWS account is 10 shards per stream. If you need to create a stream with more than 10 shards, contact AWS Support to increase the limit on your account.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSKinesisModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *exclusiveStartTagKey</Declaration>
+			<Declaration>@property (nonatomic, strong) NSNumber *shardCount</Declaration>
 			
 			
-			<Anchor>//api/name/exclusiveStartTagKey</Anchor>
+			<Anchor>//api/name/shardCount</Anchor>
             <NodeRef refid="715"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSKinesisListTagsForStreamInput/exclusiveStartTagKey</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The key to use as the starting point for the list of tags. If this parameter is set, &lt;code&gt;ListTagsForStream&lt;/code&gt; gets all tags that occur after &lt;code&gt;ExclusiveStartTagKey&lt;/code&gt;. &lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSKinesisCreateStreamInput/shardCount</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The number of shards that the stream will use. The throughput of the stream is a function of the number of shards; more shards are required for greater provisioned throughput.&lt;/p&gt;&lt;p&gt;&lt;b&gt;Note:&lt;/b&gt; The default limit for an AWS account is 10 shards per stream. If you need to create a stream with more than 10 shards, contact AWS Support to increase the limit on your account.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSKinesisModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *exclusiveStartTagKey</Declaration>
+			<Declaration>@property (nonatomic, strong) NSNumber *shardCount</Declaration>
 			
 			
-			<Anchor>//api/name/exclusiveStartTagKey</Anchor>
+			<Anchor>//api/name/shardCount</Anchor>
             <NodeRef refid="715"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSKinesisListTagsForStreamInput/exclusiveStartTagKey</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The key to use as the starting point for the list of tags. If this parameter is set, &lt;code&gt;ListTagsForStream&lt;/code&gt; gets all tags that occur after &lt;code&gt;ExclusiveStartTagKey&lt;/code&gt;. &lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSKinesisCreateStreamInput/shardCount</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The number of shards that the stream will use. The throughput of the stream is a function of the number of shards; more shards are required for greater provisioned throughput.&lt;/p&gt;&lt;p&gt;&lt;b&gt;Note:&lt;/b&gt; The default limit for an AWS account is 10 shards per stream. If you need to create a stream with more than 10 shards, contact AWS Support to increase the limit on your account.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSKinesisModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *exclusiveStartTagKey</Declaration>
+			<Declaration>@property (nonatomic, strong) NSNumber *shardCount</Declaration>
 			
 			
-			<Anchor>//api/name/exclusiveStartTagKey</Anchor>
+			<Anchor>//api/name/shardCount</Anchor>
             <NodeRef refid="715"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSKinesisListTagsForStreamInput/setLimit:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The number of tags to return. If this number is less than the total number of tags associated with the stream, &lt;code&gt;HasMoreTags&lt;/code&gt; is set to &lt;code&gt;true&lt;/code&gt;. To list additional tags, set &lt;code&gt;ExclusiveStartTagKey&lt;/code&gt; to the last key in the response.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSKinesisModel.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSNumber *limit</Declaration>
-			
-			
-			<Anchor>//api/name/limit</Anchor>
-            <NodeRef refid="715"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSKinesisListTagsForStreamInput/limit</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The number of tags to return. If this number is less than the total number of tags associated with the stream, &lt;code&gt;HasMoreTags&lt;/code&gt; is set to &lt;code&gt;true&lt;/code&gt;. To list additional tags, set &lt;code&gt;ExclusiveStartTagKey&lt;/code&gt; to the last key in the response.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSKinesisModel.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSNumber *limit</Declaration>
-			
-			
-			<Anchor>//api/name/limit</Anchor>
-            <NodeRef refid="715"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSKinesisListTagsForStreamInput/limit</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The number of tags to return. If this number is less than the total number of tags associated with the stream, &lt;code&gt;HasMoreTags&lt;/code&gt; is set to &lt;code&gt;true&lt;/code&gt;. To list additional tags, set &lt;code&gt;ExclusiveStartTagKey&lt;/code&gt; to the last key in the response.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSKinesisModel.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSNumber *limit</Declaration>
-			
-			
-			<Anchor>//api/name/limit</Anchor>
-            <NodeRef refid="715"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSKinesisListTagsForStreamInput/setStreamName:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The name of the stream.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSKinesisCreateStreamInput/setStreamName:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;A name to identify the stream. The stream name is scoped to the AWS account used by the application that creates the stream. It is also scoped by region. That is, two streams in two different AWS accounts can have the same name, and two streams in the same AWS account, but in two different regions, can have the same name.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSKinesisModel.h</DeclaredIn>
 			
 			<Declaration>@property (nonatomic, strong) NSString *streamName</Declaration>
@@ -98,8 +62,8 @@ Required parameters: [StreamName]</Abstract>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSKinesisListTagsForStreamInput/streamName</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The name of the stream.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSKinesisCreateStreamInput/streamName</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;A name to identify the stream. The stream name is scoped to the AWS account used by the application that creates the stream. It is also scoped by region. That is, two streams in two different AWS accounts can have the same name, and two streams in the same AWS account, but in two different regions, can have the same name.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSKinesisModel.h</DeclaredIn>
 			
 			<Declaration>@property (nonatomic, strong) NSString *streamName</Declaration>
@@ -110,8 +74,8 @@ Required parameters: [StreamName]</Abstract>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSKinesisListTagsForStreamInput/streamName</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The name of the stream.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSKinesisCreateStreamInput/streamName</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;A name to identify the stream. The stream name is scoped to the AWS account used by the application that creates the stream. It is also scoped by region. That is, two streams in two different AWS accounts can have the same name, and two streams in the same AWS account, but in two different regions, can have the same name.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSKinesisModel.h</DeclaredIn>
 			
 			<Declaration>@property (nonatomic, strong) NSString *streamName</Declaration>

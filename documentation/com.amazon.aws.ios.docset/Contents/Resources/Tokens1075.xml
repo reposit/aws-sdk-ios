@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Constants/AWSDynamoDBSelect.html">
+	<File path="Constants/AWSAppIdentificationStrategy.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/c/tdef/AWSDynamoDBSelect</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/c/tdef/AWSAppIdentificationStrategy</TokenIdentifier>
+			<Abstract type="html">Copyright 2010-2015 Amazon.com, Inc. or its affiliates. All Rights Reserved.</Abstract>
+			<DeclaredIn>AWSMobileAnalyticsConfiguration.h</DeclaredIn>
             
 			
 			<NodeRef refid="1075"/>
@@ -14,51 +14,21 @@
 		
         
         <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSDynamoDBSelectUnknown</TokenIdentifier>
+            <TokenIdentifier>//apple_ref/c/econst/AWSAppIdentificationStrategyGlobal</TokenIdentifier>
             <Abstract type="html"></Abstract>
-            <Declaration>AWSDynamoDBSelectUnknown</Declaration>
+            <Declaration>AWSAppIdentificationStrategyGlobal</Declaration>
             
-            <DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
+            <DeclaredIn>AWSMobileAnalyticsConfiguration.h</DeclaredIn>
             
             <NodeRef refid="1075"/>
         </Token>
         
         <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSDynamoDBSelectAllAttributes</TokenIdentifier>
+            <TokenIdentifier>//apple_ref/c/econst/AWSAppIdentificationStrategyPrivate</TokenIdentifier>
             <Abstract type="html"></Abstract>
-            <Declaration>AWSDynamoDBSelectAllAttributes</Declaration>
+            <Declaration>AWSAppIdentificationStrategyPrivate</Declaration>
             
-            <DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
-            
-            <NodeRef refid="1075"/>
-        </Token>
-        
-        <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSDynamoDBSelectAllProjectedAttributes</TokenIdentifier>
-            <Abstract type="html"></Abstract>
-            <Declaration>AWSDynamoDBSelectAllProjectedAttributes</Declaration>
-            
-            <DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
-            
-            <NodeRef refid="1075"/>
-        </Token>
-        
-        <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSDynamoDBSelectSpecificAttributes</TokenIdentifier>
-            <Abstract type="html"></Abstract>
-            <Declaration>AWSDynamoDBSelectSpecificAttributes</Declaration>
-            
-            <DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
-            
-            <NodeRef refid="1075"/>
-        </Token>
-        
-        <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSDynamoDBSelectCount</TokenIdentifier>
-            <Abstract type="html"></Abstract>
-            <Declaration>AWSDynamoDBSelectCount</Declaration>
-            
-            <DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
+            <DeclaredIn>AWSMobileAnalyticsConfiguration.h</DeclaredIn>
             
             <NodeRef refid="1075"/>
         </Token>

@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSEC2IcmpTypeCode.html">
+	<File path="Classes/AWSEC2GetPasswordDataRequest.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSEC2IcmpTypeCode</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Describes the ICMP type and code.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSEC2GetPasswordDataRequest</TokenIdentifier>
+			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
             
 			
@@ -13,74 +13,74 @@
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2IcmpTypeCode/setCode:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The ICMP type. A value of -1 means all types.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2GetPasswordDataRequest/setDryRun:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSNumber *code</Declaration>
+			<Declaration>@property (nonatomic, strong) NSNumber *dryRun</Declaration>
 			
 			
-			<Anchor>//api/name/code</Anchor>
+			<Anchor>//api/name/dryRun</Anchor>
             <NodeRef refid="463"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2IcmpTypeCode/code</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The ICMP type. A value of -1 means all types.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2GetPasswordDataRequest/dryRun</TokenIdentifier>
+			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSNumber *code</Declaration>
+			<Declaration>@property (nonatomic, strong) NSNumber *dryRun</Declaration>
 			
 			
-			<Anchor>//api/name/code</Anchor>
+			<Anchor>//api/name/dryRun</Anchor>
             <NodeRef refid="463"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2IcmpTypeCode/code</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The ICMP type. A value of -1 means all types.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2GetPasswordDataRequest/dryRun</TokenIdentifier>
+			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSNumber *code</Declaration>
+			<Declaration>@property (nonatomic, strong) NSNumber *dryRun</Declaration>
 			
 			
-			<Anchor>//api/name/code</Anchor>
+			<Anchor>//api/name/dryRun</Anchor>
             <NodeRef refid="463"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2IcmpTypeCode/setTypes:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The ICMP code. A value of -1 means all codes for the specified ICMP type.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2GetPasswordDataRequest/setInstanceId:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the Windows instance.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSNumber *types</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *instanceId</Declaration>
 			
 			
-			<Anchor>//api/name/types</Anchor>
+			<Anchor>//api/name/instanceId</Anchor>
             <NodeRef refid="463"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2IcmpTypeCode/types</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The ICMP code. A value of -1 means all codes for the specified ICMP type.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2GetPasswordDataRequest/instanceId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the Windows instance.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSNumber *types</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *instanceId</Declaration>
 			
 			
-			<Anchor>//api/name/types</Anchor>
+			<Anchor>//api/name/instanceId</Anchor>
             <NodeRef refid="463"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2IcmpTypeCode/types</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The ICMP code. A value of -1 means all codes for the specified ICMP type.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2GetPasswordDataRequest/instanceId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the Windows instance.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSNumber *types</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *instanceId</Declaration>
 			
 			
-			<Anchor>//api/name/types</Anchor>
+			<Anchor>//api/name/instanceId</Anchor>
             <NodeRef refid="463"/>
 		</Token>
 		

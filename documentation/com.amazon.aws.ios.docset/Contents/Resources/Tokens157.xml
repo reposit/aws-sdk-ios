@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSCognitoSyncDescribeDatasetRequest.html">
+	<File path="Classes/AWSCognitoSyncDataset.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSCognitoSyncDescribeDatasetRequest</TokenIdentifier>
-			<Abstract type="html">A request for metadata about a dataset (creation date, number of records, size) by owner and dataset name.
-Required parameters: [IdentityPoolId, IdentityId, DatasetName]</Abstract>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSCognitoSyncDataset</TokenIdentifier>
+			<Abstract type="html">A collection of data for an identity pool. An identity pool can have multiple datasets. A dataset is per identity and can be general or associated with a particular entity in an application (like a saved game). Datasets are automatically created if they don&apos;t exist. Data is synced by dataset, and a dataset can hold up to 1MB of key-value pairs.</Abstract>
 			<DeclaredIn>AWSCognitoSyncModel.h</DeclaredIn>
             
 			
@@ -14,7 +13,79 @@ Required parameters: [IdentityPoolId, IdentityId, DatasetName]</Abstract>
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoSyncDescribeDatasetRequest/setDatasetName:</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoSyncDataset/setCreationDate:</TokenIdentifier>
+			<Abstract type="html">Date on which the dataset was created.</Abstract>
+			<DeclaredIn>AWSCognitoSyncModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSDate *creationDate</Declaration>
+			
+			
+			<Anchor>//api/name/creationDate</Anchor>
+            <NodeRef refid="157"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoSyncDataset/creationDate</TokenIdentifier>
+			<Abstract type="html">Date on which the dataset was created.</Abstract>
+			<DeclaredIn>AWSCognitoSyncModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSDate *creationDate</Declaration>
+			
+			
+			<Anchor>//api/name/creationDate</Anchor>
+            <NodeRef refid="157"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSCognitoSyncDataset/creationDate</TokenIdentifier>
+			<Abstract type="html">Date on which the dataset was created.</Abstract>
+			<DeclaredIn>AWSCognitoSyncModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSDate *creationDate</Declaration>
+			
+			
+			<Anchor>//api/name/creationDate</Anchor>
+            <NodeRef refid="157"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoSyncDataset/setDataStorage:</TokenIdentifier>
+			<Abstract type="html">Total size in bytes of the records in this dataset.</Abstract>
+			<DeclaredIn>AWSCognitoSyncModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *dataStorage</Declaration>
+			
+			
+			<Anchor>//api/name/dataStorage</Anchor>
+            <NodeRef refid="157"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoSyncDataset/dataStorage</TokenIdentifier>
+			<Abstract type="html">Total size in bytes of the records in this dataset.</Abstract>
+			<DeclaredIn>AWSCognitoSyncModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *dataStorage</Declaration>
+			
+			
+			<Anchor>//api/name/dataStorage</Anchor>
+            <NodeRef refid="157"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSCognitoSyncDataset/dataStorage</TokenIdentifier>
+			<Abstract type="html">Total size in bytes of the records in this dataset.</Abstract>
+			<DeclaredIn>AWSCognitoSyncModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *dataStorage</Declaration>
+			
+			
+			<Anchor>//api/name/dataStorage</Anchor>
+            <NodeRef refid="157"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoSyncDataset/setDatasetName:</TokenIdentifier>
 			<Abstract type="html">A string of up to 128 characters. Allowed characters are a-z, A-Z, 0-9, &apos;_&apos; (underscore), &apos;-&apos; (dash), and &apos;.&apos; (dot).</Abstract>
 			<DeclaredIn>AWSCognitoSyncModel.h</DeclaredIn>
 			
@@ -26,7 +97,7 @@ Required parameters: [IdentityPoolId, IdentityId, DatasetName]</Abstract>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoSyncDescribeDatasetRequest/datasetName</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoSyncDataset/datasetName</TokenIdentifier>
 			<Abstract type="html">A string of up to 128 characters. Allowed characters are a-z, A-Z, 0-9, &apos;_&apos; (underscore), &apos;-&apos; (dash), and &apos;.&apos; (dot).</Abstract>
 			<DeclaredIn>AWSCognitoSyncModel.h</DeclaredIn>
 			
@@ -38,7 +109,7 @@ Required parameters: [IdentityPoolId, IdentityId, DatasetName]</Abstract>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSCognitoSyncDescribeDatasetRequest/datasetName</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSCognitoSyncDataset/datasetName</TokenIdentifier>
 			<Abstract type="html">A string of up to 128 characters. Allowed characters are a-z, A-Z, 0-9, &apos;_&apos; (underscore), &apos;-&apos; (dash), and &apos;.&apos; (dot).</Abstract>
 			<DeclaredIn>AWSCognitoSyncModel.h</DeclaredIn>
 			
@@ -50,7 +121,7 @@ Required parameters: [IdentityPoolId, IdentityId, DatasetName]</Abstract>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoSyncDescribeDatasetRequest/setIdentityId:</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoSyncDataset/setIdentityId:</TokenIdentifier>
 			<Abstract type="html">A name-spaced GUID (for example, us-east-1:23EC4050-6AEA-7089-A2DD-08002EXAMPLE) created by Amazon Cognito. GUID generation is unique within a region.</Abstract>
 			<DeclaredIn>AWSCognitoSyncModel.h</DeclaredIn>
 			
@@ -62,7 +133,7 @@ Required parameters: [IdentityPoolId, IdentityId, DatasetName]</Abstract>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoSyncDescribeDatasetRequest/identityId</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoSyncDataset/identityId</TokenIdentifier>
 			<Abstract type="html">A name-spaced GUID (for example, us-east-1:23EC4050-6AEA-7089-A2DD-08002EXAMPLE) created by Amazon Cognito. GUID generation is unique within a region.</Abstract>
 			<DeclaredIn>AWSCognitoSyncModel.h</DeclaredIn>
 			
@@ -74,7 +145,7 @@ Required parameters: [IdentityPoolId, IdentityId, DatasetName]</Abstract>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSCognitoSyncDescribeDatasetRequest/identityId</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSCognitoSyncDataset/identityId</TokenIdentifier>
 			<Abstract type="html">A name-spaced GUID (for example, us-east-1:23EC4050-6AEA-7089-A2DD-08002EXAMPLE) created by Amazon Cognito. GUID generation is unique within a region.</Abstract>
 			<DeclaredIn>AWSCognitoSyncModel.h</DeclaredIn>
 			
@@ -86,38 +157,110 @@ Required parameters: [IdentityPoolId, IdentityId, DatasetName]</Abstract>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoSyncDescribeDatasetRequest/setIdentityPoolId:</TokenIdentifier>
-			<Abstract type="html">A name-spaced GUID (for example, us-east-1:23EC4050-6AEA-7089-A2DD-08002EXAMPLE) created by Amazon Cognito. GUID generation is unique within a region.</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoSyncDataset/setLastModifiedBy:</TokenIdentifier>
+			<Abstract type="html">The device that made the last change to this dataset.</Abstract>
 			<DeclaredIn>AWSCognitoSyncModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *identityPoolId</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *lastModifiedBy</Declaration>
 			
 			
-			<Anchor>//api/name/identityPoolId</Anchor>
+			<Anchor>//api/name/lastModifiedBy</Anchor>
             <NodeRef refid="157"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoSyncDescribeDatasetRequest/identityPoolId</TokenIdentifier>
-			<Abstract type="html">A name-spaced GUID (for example, us-east-1:23EC4050-6AEA-7089-A2DD-08002EXAMPLE) created by Amazon Cognito. GUID generation is unique within a region.</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoSyncDataset/lastModifiedBy</TokenIdentifier>
+			<Abstract type="html">The device that made the last change to this dataset.</Abstract>
 			<DeclaredIn>AWSCognitoSyncModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *identityPoolId</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *lastModifiedBy</Declaration>
 			
 			
-			<Anchor>//api/name/identityPoolId</Anchor>
+			<Anchor>//api/name/lastModifiedBy</Anchor>
             <NodeRef refid="157"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSCognitoSyncDescribeDatasetRequest/identityPoolId</TokenIdentifier>
-			<Abstract type="html">A name-spaced GUID (for example, us-east-1:23EC4050-6AEA-7089-A2DD-08002EXAMPLE) created by Amazon Cognito. GUID generation is unique within a region.</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSCognitoSyncDataset/lastModifiedBy</TokenIdentifier>
+			<Abstract type="html">The device that made the last change to this dataset.</Abstract>
 			<DeclaredIn>AWSCognitoSyncModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *identityPoolId</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *lastModifiedBy</Declaration>
 			
 			
-			<Anchor>//api/name/identityPoolId</Anchor>
+			<Anchor>//api/name/lastModifiedBy</Anchor>
+            <NodeRef refid="157"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoSyncDataset/setLastModifiedDate:</TokenIdentifier>
+			<Abstract type="html">Date when the dataset was last modified.</Abstract>
+			<DeclaredIn>AWSCognitoSyncModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSDate *lastModifiedDate</Declaration>
+			
+			
+			<Anchor>//api/name/lastModifiedDate</Anchor>
+            <NodeRef refid="157"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoSyncDataset/lastModifiedDate</TokenIdentifier>
+			<Abstract type="html">Date when the dataset was last modified.</Abstract>
+			<DeclaredIn>AWSCognitoSyncModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSDate *lastModifiedDate</Declaration>
+			
+			
+			<Anchor>//api/name/lastModifiedDate</Anchor>
+            <NodeRef refid="157"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSCognitoSyncDataset/lastModifiedDate</TokenIdentifier>
+			<Abstract type="html">Date when the dataset was last modified.</Abstract>
+			<DeclaredIn>AWSCognitoSyncModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSDate *lastModifiedDate</Declaration>
+			
+			
+			<Anchor>//api/name/lastModifiedDate</Anchor>
+            <NodeRef refid="157"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoSyncDataset/setNumRecords:</TokenIdentifier>
+			<Abstract type="html">Number of records in this dataset.</Abstract>
+			<DeclaredIn>AWSCognitoSyncModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *numRecords</Declaration>
+			
+			
+			<Anchor>//api/name/numRecords</Anchor>
+            <NodeRef refid="157"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoSyncDataset/numRecords</TokenIdentifier>
+			<Abstract type="html">Number of records in this dataset.</Abstract>
+			<DeclaredIn>AWSCognitoSyncModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *numRecords</Declaration>
+			
+			
+			<Anchor>//api/name/numRecords</Anchor>
+            <NodeRef refid="157"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSCognitoSyncDataset/numRecords</TokenIdentifier>
+			<Abstract type="html">Number of records in this dataset.</Abstract>
+			<DeclaredIn>AWSCognitoSyncModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *numRecords</Declaration>
+			
+			
+			<Anchor>//api/name/numRecords</Anchor>
             <NodeRef refid="157"/>
 		</Token>
 		

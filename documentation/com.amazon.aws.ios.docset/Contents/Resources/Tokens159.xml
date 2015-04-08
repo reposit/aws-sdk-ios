@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSCognitoSyncDescribeIdentityPoolUsageRequest.html">
+	<File path="Classes/AWSCognitoSyncDeleteDatasetResponse.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSCognitoSyncDescribeIdentityPoolUsageRequest</TokenIdentifier>
-			<Abstract type="html">A request for usage information about the identity pool.
-Required parameters: [IdentityPoolId]</Abstract>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSCognitoSyncDeleteDatasetResponse</TokenIdentifier>
+			<Abstract type="html">Response to a successful DeleteDataset request.</Abstract>
 			<DeclaredIn>AWSCognitoSyncModel.h</DeclaredIn>
             
 			
@@ -14,38 +13,38 @@ Required parameters: [IdentityPoolId]</Abstract>
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoSyncDescribeIdentityPoolUsageRequest/setIdentityPoolId:</TokenIdentifier>
-			<Abstract type="html">A name-spaced GUID (for example, us-east-1:23EC4050-6AEA-7089-A2DD-08002EXAMPLE) created by Amazon Cognito. GUID generation is unique within a region.</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoSyncDeleteDatasetResponse/setDataset:</TokenIdentifier>
+			<Abstract type="html">A collection of data for an identity pool. An identity pool can have multiple datasets. A dataset is per identity and can be general or associated with a particular entity in an application (like a saved game). Datasets are automatically created if they don&apos;t exist. Data is synced by dataset, and a dataset can hold up to 1MB of key-value pairs.</Abstract>
 			<DeclaredIn>AWSCognitoSyncModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *identityPoolId</Declaration>
+			<Declaration>@property (nonatomic, strong) AWSCognitoSyncDataset *dataset</Declaration>
 			
 			
-			<Anchor>//api/name/identityPoolId</Anchor>
+			<Anchor>//api/name/dataset</Anchor>
             <NodeRef refid="159"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoSyncDescribeIdentityPoolUsageRequest/identityPoolId</TokenIdentifier>
-			<Abstract type="html">A name-spaced GUID (for example, us-east-1:23EC4050-6AEA-7089-A2DD-08002EXAMPLE) created by Amazon Cognito. GUID generation is unique within a region.</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoSyncDeleteDatasetResponse/dataset</TokenIdentifier>
+			<Abstract type="html">A collection of data for an identity pool. An identity pool can have multiple datasets. A dataset is per identity and can be general or associated with a particular entity in an application (like a saved game). Datasets are automatically created if they don&apos;t exist. Data is synced by dataset, and a dataset can hold up to 1MB of key-value pairs.</Abstract>
 			<DeclaredIn>AWSCognitoSyncModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *identityPoolId</Declaration>
+			<Declaration>@property (nonatomic, strong) AWSCognitoSyncDataset *dataset</Declaration>
 			
 			
-			<Anchor>//api/name/identityPoolId</Anchor>
+			<Anchor>//api/name/dataset</Anchor>
             <NodeRef refid="159"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSCognitoSyncDescribeIdentityPoolUsageRequest/identityPoolId</TokenIdentifier>
-			<Abstract type="html">A name-spaced GUID (for example, us-east-1:23EC4050-6AEA-7089-A2DD-08002EXAMPLE) created by Amazon Cognito. GUID generation is unique within a region.</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSCognitoSyncDeleteDatasetResponse/dataset</TokenIdentifier>
+			<Abstract type="html">A collection of data for an identity pool. An identity pool can have multiple datasets. A dataset is per identity and can be general or associated with a particular entity in an application (like a saved game). Datasets are automatically created if they don&apos;t exist. Data is synced by dataset, and a dataset can hold up to 1MB of key-value pairs.</Abstract>
 			<DeclaredIn>AWSCognitoSyncModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *identityPoolId</Declaration>
+			<Declaration>@property (nonatomic, strong) AWSCognitoSyncDataset *dataset</Declaration>
 			
 			
-			<Anchor>//api/name/identityPoolId</Anchor>
+			<Anchor>//api/name/dataset</Anchor>
             <NodeRef refid="159"/>
 		</Token>
 		

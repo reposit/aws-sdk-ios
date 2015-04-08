@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Constants/AWSS3BucketLogsPermission.html">
+	<File path="Constants/AWSEC2SummaryStatus.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/c/tdef/AWSS3BucketLogsPermission</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/c/tdef/AWSEC2SummaryStatus</TokenIdentifier>
 			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
             
 			
 			<NodeRef refid="1164"/>
@@ -14,41 +14,51 @@
 		
         
         <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSS3BucketLogsPermissionUnknown</TokenIdentifier>
+            <TokenIdentifier>//apple_ref/c/econst/AWSEC2SummaryStatusUnknown</TokenIdentifier>
             <Abstract type="html"></Abstract>
-            <Declaration>AWSS3BucketLogsPermissionUnknown</Declaration>
+            <Declaration>AWSEC2SummaryStatusUnknown</Declaration>
             
-            <DeclaredIn>AWSS3Model.h</DeclaredIn>
+            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
             
             <NodeRef refid="1164"/>
         </Token>
         
         <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSS3BucketLogsPermissionFullControl</TokenIdentifier>
+            <TokenIdentifier>//apple_ref/c/econst/AWSEC2SummaryStatusOK</TokenIdentifier>
             <Abstract type="html"></Abstract>
-            <Declaration>AWSS3BucketLogsPermissionFullControl</Declaration>
+            <Declaration>AWSEC2SummaryStatusOK</Declaration>
             
-            <DeclaredIn>AWSS3Model.h</DeclaredIn>
+            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
             
             <NodeRef refid="1164"/>
         </Token>
         
         <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSS3BucketLogsPermissionRead</TokenIdentifier>
+            <TokenIdentifier>//apple_ref/c/econst/AWSEC2SummaryStatusImpaired</TokenIdentifier>
             <Abstract type="html"></Abstract>
-            <Declaration>AWSS3BucketLogsPermissionRead</Declaration>
+            <Declaration>AWSEC2SummaryStatusImpaired</Declaration>
             
-            <DeclaredIn>AWSS3Model.h</DeclaredIn>
+            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
             
             <NodeRef refid="1164"/>
         </Token>
         
         <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSS3BucketLogsPermissionWrite</TokenIdentifier>
+            <TokenIdentifier>//apple_ref/c/econst/AWSEC2SummaryStatusInsufficientData</TokenIdentifier>
             <Abstract type="html"></Abstract>
-            <Declaration>AWSS3BucketLogsPermissionWrite</Declaration>
+            <Declaration>AWSEC2SummaryStatusInsufficientData</Declaration>
             
-            <DeclaredIn>AWSS3Model.h</DeclaredIn>
+            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
+            
+            <NodeRef refid="1164"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/AWSEC2SummaryStatusNotApplicable</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>AWSEC2SummaryStatusNotApplicable</Declaration>
+            
+            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
             
             <NodeRef refid="1164"/>
         </Token>

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSEC2CreateDhcpOptionsRequest.html">
+	<File path="Classes/AWSEC2ConfirmProductInstanceRequest.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSEC2CreateDhcpOptionsRequest</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSEC2ConfirmProductInstanceRequest</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
             
@@ -13,43 +13,7 @@
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2CreateDhcpOptionsRequest/setDhcpConfigurations:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;A DHCP configuration option.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSArray *dhcpConfigurations</Declaration>
-			
-			
-			<Anchor>//api/name/dhcpConfigurations</Anchor>
-            <NodeRef refid="290"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2CreateDhcpOptionsRequest/dhcpConfigurations</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;A DHCP configuration option.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSArray *dhcpConfigurations</Declaration>
-			
-			
-			<Anchor>//api/name/dhcpConfigurations</Anchor>
-            <NodeRef refid="290"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2CreateDhcpOptionsRequest/dhcpConfigurations</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;A DHCP configuration option.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSArray *dhcpConfigurations</Declaration>
-			
-			
-			<Anchor>//api/name/dhcpConfigurations</Anchor>
-            <NodeRef refid="290"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2CreateDhcpOptionsRequest/setDryRun:</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ConfirmProductInstanceRequest/setDryRun:</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
@@ -61,7 +25,7 @@
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2CreateDhcpOptionsRequest/dryRun</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ConfirmProductInstanceRequest/dryRun</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
@@ -73,7 +37,7 @@
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2CreateDhcpOptionsRequest/dryRun</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2ConfirmProductInstanceRequest/dryRun</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
@@ -81,6 +45,78 @@
 			
 			
 			<Anchor>//api/name/dryRun</Anchor>
+            <NodeRef refid="290"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ConfirmProductInstanceRequest/setInstanceId:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the instance.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *instanceId</Declaration>
+			
+			
+			<Anchor>//api/name/instanceId</Anchor>
+            <NodeRef refid="290"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ConfirmProductInstanceRequest/instanceId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the instance.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *instanceId</Declaration>
+			
+			
+			<Anchor>//api/name/instanceId</Anchor>
+            <NodeRef refid="290"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2ConfirmProductInstanceRequest/instanceId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the instance.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *instanceId</Declaration>
+			
+			
+			<Anchor>//api/name/instanceId</Anchor>
+            <NodeRef refid="290"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ConfirmProductInstanceRequest/setProductCode:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The product code. This must be a product code that you own.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *productCode</Declaration>
+			
+			
+			<Anchor>//api/name/productCode</Anchor>
+            <NodeRef refid="290"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ConfirmProductInstanceRequest/productCode</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The product code. This must be a product code that you own.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *productCode</Declaration>
+			
+			
+			<Anchor>//api/name/productCode</Anchor>
+            <NodeRef refid="290"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2ConfirmProductInstanceRequest/productCode</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The product code. This must be a product code that you own.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *productCode</Declaration>
+			
+			
+			<Anchor>//api/name/productCode</Anchor>
             <NodeRef refid="290"/>
 		</Token>
 		

@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSSNSListSubscriptionsByTopicResponse.html">
+	<File path="Classes/AWSSNSCreateTopicInput.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSSNSListSubscriptionsByTopicResponse</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Response for ListSubscriptionsByTopic action.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSSNSCreateTopicInput</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Input for CreateTopic action.&lt;/p&gt;
+Required parameters: [Name]</Abstract>
 			<DeclaredIn>AWSSNSModel.h</DeclaredIn>
             
 			
@@ -13,74 +14,38 @@
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSSNSListSubscriptionsByTopicResponse/setNextToken:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Token to pass along to the next &lt;code&gt;ListSubscriptionsByTopic&lt;/code&gt; request. This element is returned if there are more subscriptions to retrieve.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSNSCreateTopicInput/setName:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The name of the topic you want to create.&lt;/p&gt;&lt;p&gt;Constraints: Topic names must be made up of only uppercase and lowercase ASCII letters, numbers, underscores, and hyphens, and must be between 1 and 256 characters long. &lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSSNSModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *nextToken</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *name</Declaration>
 			
 			
-			<Anchor>//api/name/nextToken</Anchor>
+			<Anchor>//api/name/name</Anchor>
             <NodeRef refid="939"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSSNSListSubscriptionsByTopicResponse/nextToken</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Token to pass along to the next &lt;code&gt;ListSubscriptionsByTopic&lt;/code&gt; request. This element is returned if there are more subscriptions to retrieve.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSNSCreateTopicInput/name</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The name of the topic you want to create.&lt;/p&gt;&lt;p&gt;Constraints: Topic names must be made up of only uppercase and lowercase ASCII letters, numbers, underscores, and hyphens, and must be between 1 and 256 characters long. &lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSSNSModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *nextToken</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *name</Declaration>
 			
 			
-			<Anchor>//api/name/nextToken</Anchor>
+			<Anchor>//api/name/name</Anchor>
             <NodeRef refid="939"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSSNSListSubscriptionsByTopicResponse/nextToken</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Token to pass along to the next &lt;code&gt;ListSubscriptionsByTopic&lt;/code&gt; request. This element is returned if there are more subscriptions to retrieve.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSSNSCreateTopicInput/name</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The name of the topic you want to create.&lt;/p&gt;&lt;p&gt;Constraints: Topic names must be made up of only uppercase and lowercase ASCII letters, numbers, underscores, and hyphens, and must be between 1 and 256 characters long. &lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSSNSModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *nextToken</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *name</Declaration>
 			
 			
-			<Anchor>//api/name/nextToken</Anchor>
-            <NodeRef refid="939"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSSNSListSubscriptionsByTopicResponse/setSubscriptions:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;A list of subscriptions.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSNSModel.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSArray *subscriptions</Declaration>
-			
-			
-			<Anchor>//api/name/subscriptions</Anchor>
-            <NodeRef refid="939"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSSNSListSubscriptionsByTopicResponse/subscriptions</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;A list of subscriptions.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSNSModel.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSArray *subscriptions</Declaration>
-			
-			
-			<Anchor>//api/name/subscriptions</Anchor>
-            <NodeRef refid="939"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSSNSListSubscriptionsByTopicResponse/subscriptions</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;A list of subscriptions.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSNSModel.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSArray *subscriptions</Declaration>
-			
-			
-			<Anchor>//api/name/subscriptions</Anchor>
+			<Anchor>//api/name/name</Anchor>
             <NodeRef refid="939"/>
 		</Token>
 		

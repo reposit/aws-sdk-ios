@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSDynamoDBPutRequest.html">
+	<File path="Classes/AWSDynamoDBProvisionedThroughput.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSDynamoDBPutRequest</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Represents a request to perform a &lt;i&gt;PutItem&lt;/i&gt; operation on an item.&lt;/p&gt;
-Required parameters: [Item]</Abstract>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSDynamoDBProvisionedThroughput</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Represents the provisioned throughput settings for a specified table or index. The settings can be modified using the &lt;i&gt;UpdateTable&lt;/i&gt; operation.&lt;/p&gt;&lt;p&gt;For current minimum and maximum provisioned throughput values, see Limits in the &lt;i&gt;Amazon DynamoDB Developer Guide&lt;/i&gt;.&lt;/p&gt;
+Required parameters: [ReadCapacityUnits, WriteCapacityUnits]</Abstract>
 			<DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
             
 			
@@ -14,38 +14,74 @@ Required parameters: [Item]</Abstract>
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSDynamoDBPutRequest/setItem:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;A map of attribute name to attribute values, representing the primary key of an item to be processed by &lt;i&gt;PutItem&lt;/i&gt;. All of the table&apos;s primary key attributes must be specified, and their data types must match those of the table&apos;s key schema. If any attributes are present in the item which are part of an index key schema for the table, their types must match the index key schema.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSDynamoDBProvisionedThroughput/setReadCapacityUnits:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The maximum number of strongly consistent reads consumed per second before DynamoDB returns a &lt;i&gt;ThrottlingException&lt;/i&gt;. For more information, see Specifying Read and Write Requirements in the &lt;i&gt;Amazon DynamoDB Developer Guide&lt;/i&gt;.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSDictionary *item</Declaration>
+			<Declaration>@property (nonatomic, strong) NSNumber *readCapacityUnits</Declaration>
 			
 			
-			<Anchor>//api/name/item</Anchor>
+			<Anchor>//api/name/readCapacityUnits</Anchor>
             <NodeRef refid="230"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSDynamoDBPutRequest/item</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;A map of attribute name to attribute values, representing the primary key of an item to be processed by &lt;i&gt;PutItem&lt;/i&gt;. All of the table&apos;s primary key attributes must be specified, and their data types must match those of the table&apos;s key schema. If any attributes are present in the item which are part of an index key schema for the table, their types must match the index key schema.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSDynamoDBProvisionedThroughput/readCapacityUnits</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The maximum number of strongly consistent reads consumed per second before DynamoDB returns a &lt;i&gt;ThrottlingException&lt;/i&gt;. For more information, see Specifying Read and Write Requirements in the &lt;i&gt;Amazon DynamoDB Developer Guide&lt;/i&gt;.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSDictionary *item</Declaration>
+			<Declaration>@property (nonatomic, strong) NSNumber *readCapacityUnits</Declaration>
 			
 			
-			<Anchor>//api/name/item</Anchor>
+			<Anchor>//api/name/readCapacityUnits</Anchor>
             <NodeRef refid="230"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSDynamoDBPutRequest/item</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;A map of attribute name to attribute values, representing the primary key of an item to be processed by &lt;i&gt;PutItem&lt;/i&gt;. All of the table&apos;s primary key attributes must be specified, and their data types must match those of the table&apos;s key schema. If any attributes are present in the item which are part of an index key schema for the table, their types must match the index key schema.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSDynamoDBProvisionedThroughput/readCapacityUnits</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The maximum number of strongly consistent reads consumed per second before DynamoDB returns a &lt;i&gt;ThrottlingException&lt;/i&gt;. For more information, see Specifying Read and Write Requirements in the &lt;i&gt;Amazon DynamoDB Developer Guide&lt;/i&gt;.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSDictionary *item</Declaration>
+			<Declaration>@property (nonatomic, strong) NSNumber *readCapacityUnits</Declaration>
 			
 			
-			<Anchor>//api/name/item</Anchor>
+			<Anchor>//api/name/readCapacityUnits</Anchor>
+            <NodeRef refid="230"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSDynamoDBProvisionedThroughput/setWriteCapacityUnits:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The maximum number of writes consumed per second before DynamoDB returns a &lt;i&gt;ThrottlingException&lt;/i&gt;. For more information, see Specifying Read and Write Requirements in the &lt;i&gt;Amazon DynamoDB Developer Guide&lt;/i&gt;.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *writeCapacityUnits</Declaration>
+			
+			
+			<Anchor>//api/name/writeCapacityUnits</Anchor>
+            <NodeRef refid="230"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSDynamoDBProvisionedThroughput/writeCapacityUnits</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The maximum number of writes consumed per second before DynamoDB returns a &lt;i&gt;ThrottlingException&lt;/i&gt;. For more information, see Specifying Read and Write Requirements in the &lt;i&gt;Amazon DynamoDB Developer Guide&lt;/i&gt;.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *writeCapacityUnits</Declaration>
+			
+			
+			<Anchor>//api/name/writeCapacityUnits</Anchor>
+            <NodeRef refid="230"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSDynamoDBProvisionedThroughput/writeCapacityUnits</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The maximum number of writes consumed per second before DynamoDB returns a &lt;i&gt;ThrottlingException&lt;/i&gt;. For more information, see Specifying Read and Write Requirements in the &lt;i&gt;Amazon DynamoDB Developer Guide&lt;/i&gt;.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *writeCapacityUnits</Declaration>
+			
+			
+			<Anchor>//api/name/writeCapacityUnits</Anchor>
             <NodeRef refid="230"/>
 		</Token>
 		

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSEC2AuthorizeSecurityGroupEgressRequest.html">
+	<File path="Classes/AWSEC2AttachVolumeRequest.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSEC2AuthorizeSecurityGroupEgressRequest</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSEC2AttachVolumeRequest</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
             
@@ -13,43 +13,43 @@
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2AuthorizeSecurityGroupEgressRequest/setCidrIp:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The CIDR IP address range. You can&apos;t specify this parameter when specifying a source security group.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2AttachVolumeRequest/setDevice:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The device name to expose to the instance (for example, &lt;code&gt;/dev/sdh&lt;/code&gt; or &lt;code&gt;xvdh&lt;/code&gt;).&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *cidrIp</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *device</Declaration>
 			
 			
-			<Anchor>//api/name/cidrIp</Anchor>
+			<Anchor>//api/name/device</Anchor>
             <NodeRef refid="266"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2AuthorizeSecurityGroupEgressRequest/cidrIp</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The CIDR IP address range. You can&apos;t specify this parameter when specifying a source security group.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2AttachVolumeRequest/device</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The device name to expose to the instance (for example, &lt;code&gt;/dev/sdh&lt;/code&gt; or &lt;code&gt;xvdh&lt;/code&gt;).&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *cidrIp</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *device</Declaration>
 			
 			
-			<Anchor>//api/name/cidrIp</Anchor>
+			<Anchor>//api/name/device</Anchor>
             <NodeRef refid="266"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2AuthorizeSecurityGroupEgressRequest/cidrIp</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The CIDR IP address range. You can&apos;t specify this parameter when specifying a source security group.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2AttachVolumeRequest/device</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The device name to expose to the instance (for example, &lt;code&gt;/dev/sdh&lt;/code&gt; or &lt;code&gt;xvdh&lt;/code&gt;).&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *cidrIp</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *device</Declaration>
 			
 			
-			<Anchor>//api/name/cidrIp</Anchor>
+			<Anchor>//api/name/device</Anchor>
             <NodeRef refid="266"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2AuthorizeSecurityGroupEgressRequest/setDryRun:</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2AttachVolumeRequest/setDryRun:</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
@@ -61,7 +61,7 @@
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2AuthorizeSecurityGroupEgressRequest/dryRun</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2AttachVolumeRequest/dryRun</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
@@ -73,7 +73,7 @@
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2AuthorizeSecurityGroupEgressRequest/dryRun</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2AttachVolumeRequest/dryRun</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
@@ -85,254 +85,74 @@
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2AuthorizeSecurityGroupEgressRequest/setFromPort:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The start of port range for the TCP and UDP protocols, or an ICMP type number. For the ICMP type number, use &lt;code&gt;-1&lt;/code&gt; to specify all ICMP types.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2AttachVolumeRequest/setInstanceId:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the instance.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSNumber *fromPort</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *instanceId</Declaration>
 			
 			
-			<Anchor>//api/name/fromPort</Anchor>
+			<Anchor>//api/name/instanceId</Anchor>
             <NodeRef refid="266"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2AuthorizeSecurityGroupEgressRequest/fromPort</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The start of port range for the TCP and UDP protocols, or an ICMP type number. For the ICMP type number, use &lt;code&gt;-1&lt;/code&gt; to specify all ICMP types.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2AttachVolumeRequest/instanceId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the instance.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSNumber *fromPort</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *instanceId</Declaration>
 			
 			
-			<Anchor>//api/name/fromPort</Anchor>
+			<Anchor>//api/name/instanceId</Anchor>
             <NodeRef refid="266"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2AuthorizeSecurityGroupEgressRequest/fromPort</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The start of port range for the TCP and UDP protocols, or an ICMP type number. For the ICMP type number, use &lt;code&gt;-1&lt;/code&gt; to specify all ICMP types.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2AttachVolumeRequest/instanceId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the instance.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSNumber *fromPort</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *instanceId</Declaration>
 			
 			
-			<Anchor>//api/name/fromPort</Anchor>
+			<Anchor>//api/name/instanceId</Anchor>
             <NodeRef refid="266"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2AuthorizeSecurityGroupEgressRequest/setGroupId:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The ID of the security group.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2AttachVolumeRequest/setVolumeId:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the Amazon EBS volume. The volume and instance must be within the same Availability Zone.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *groupId</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *volumeId</Declaration>
 			
 			
-			<Anchor>//api/name/groupId</Anchor>
+			<Anchor>//api/name/volumeId</Anchor>
             <NodeRef refid="266"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2AuthorizeSecurityGroupEgressRequest/groupId</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The ID of the security group.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2AttachVolumeRequest/volumeId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the Amazon EBS volume. The volume and instance must be within the same Availability Zone.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *groupId</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *volumeId</Declaration>
 			
 			
-			<Anchor>//api/name/groupId</Anchor>
+			<Anchor>//api/name/volumeId</Anchor>
             <NodeRef refid="266"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2AuthorizeSecurityGroupEgressRequest/groupId</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The ID of the security group.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2AttachVolumeRequest/volumeId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the Amazon EBS volume. The volume and instance must be within the same Availability Zone.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *groupId</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *volumeId</Declaration>
 			
 			
-			<Anchor>//api/name/groupId</Anchor>
-            <NodeRef refid="266"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2AuthorizeSecurityGroupEgressRequest/setIpPermissions:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;A set of IP permissions. You can&apos;t specify a destination security group and a CIDR IP address range.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSArray *ipPermissions</Declaration>
-			
-			
-			<Anchor>//api/name/ipPermissions</Anchor>
-            <NodeRef refid="266"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2AuthorizeSecurityGroupEgressRequest/ipPermissions</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;A set of IP permissions. You can&apos;t specify a destination security group and a CIDR IP address range.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSArray *ipPermissions</Declaration>
-			
-			
-			<Anchor>//api/name/ipPermissions</Anchor>
-            <NodeRef refid="266"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2AuthorizeSecurityGroupEgressRequest/ipPermissions</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;A set of IP permissions. You can&apos;t specify a destination security group and a CIDR IP address range.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSArray *ipPermissions</Declaration>
-			
-			
-			<Anchor>//api/name/ipPermissions</Anchor>
-            <NodeRef refid="266"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2AuthorizeSecurityGroupEgressRequest/setIpProtocol:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The IP protocol name (&lt;code&gt;tcp&lt;/code&gt;, &lt;code&gt;udp&lt;/code&gt;, &lt;code&gt;icmp&lt;/code&gt;) or number (see Protocol Numbers). Use &lt;code&gt;-1&lt;/code&gt; to specify all.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *ipProtocol</Declaration>
-			
-			
-			<Anchor>//api/name/ipProtocol</Anchor>
-            <NodeRef refid="266"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2AuthorizeSecurityGroupEgressRequest/ipProtocol</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The IP protocol name (&lt;code&gt;tcp&lt;/code&gt;, &lt;code&gt;udp&lt;/code&gt;, &lt;code&gt;icmp&lt;/code&gt;) or number (see Protocol Numbers). Use &lt;code&gt;-1&lt;/code&gt; to specify all.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *ipProtocol</Declaration>
-			
-			
-			<Anchor>//api/name/ipProtocol</Anchor>
-            <NodeRef refid="266"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2AuthorizeSecurityGroupEgressRequest/ipProtocol</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The IP protocol name (&lt;code&gt;tcp&lt;/code&gt;, &lt;code&gt;udp&lt;/code&gt;, &lt;code&gt;icmp&lt;/code&gt;) or number (see Protocol Numbers). Use &lt;code&gt;-1&lt;/code&gt; to specify all.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *ipProtocol</Declaration>
-			
-			
-			<Anchor>//api/name/ipProtocol</Anchor>
-            <NodeRef refid="266"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2AuthorizeSecurityGroupEgressRequest/setSourceSecurityGroupName:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;[EC2-Classic, default VPC] The name of the destination security group. You can&apos;t specify a destination security group and a CIDR IP address range.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *sourceSecurityGroupName</Declaration>
-			
-			
-			<Anchor>//api/name/sourceSecurityGroupName</Anchor>
-            <NodeRef refid="266"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2AuthorizeSecurityGroupEgressRequest/sourceSecurityGroupName</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;[EC2-Classic, default VPC] The name of the destination security group. You can&apos;t specify a destination security group and a CIDR IP address range.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *sourceSecurityGroupName</Declaration>
-			
-			
-			<Anchor>//api/name/sourceSecurityGroupName</Anchor>
-            <NodeRef refid="266"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2AuthorizeSecurityGroupEgressRequest/sourceSecurityGroupName</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;[EC2-Classic, default VPC] The name of the destination security group. You can&apos;t specify a destination security group and a CIDR IP address range.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *sourceSecurityGroupName</Declaration>
-			
-			
-			<Anchor>//api/name/sourceSecurityGroupName</Anchor>
-            <NodeRef refid="266"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2AuthorizeSecurityGroupEgressRequest/setSourceSecurityGroupOwnerId:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The ID of the destination security group. You can&apos;t specify a destination security group and a CIDR IP address range.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *sourceSecurityGroupOwnerId</Declaration>
-			
-			
-			<Anchor>//api/name/sourceSecurityGroupOwnerId</Anchor>
-            <NodeRef refid="266"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2AuthorizeSecurityGroupEgressRequest/sourceSecurityGroupOwnerId</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The ID of the destination security group. You can&apos;t specify a destination security group and a CIDR IP address range.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *sourceSecurityGroupOwnerId</Declaration>
-			
-			
-			<Anchor>//api/name/sourceSecurityGroupOwnerId</Anchor>
-            <NodeRef refid="266"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2AuthorizeSecurityGroupEgressRequest/sourceSecurityGroupOwnerId</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The ID of the destination security group. You can&apos;t specify a destination security group and a CIDR IP address range.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *sourceSecurityGroupOwnerId</Declaration>
-			
-			
-			<Anchor>//api/name/sourceSecurityGroupOwnerId</Anchor>
-            <NodeRef refid="266"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2AuthorizeSecurityGroupEgressRequest/setToPort:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The end of port range for the TCP and UDP protocols, or an ICMP code number. For the ICMP code number, use &lt;code&gt;-1&lt;/code&gt; to specify all ICMP codes for the ICMP type.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSNumber *toPort</Declaration>
-			
-			
-			<Anchor>//api/name/toPort</Anchor>
-            <NodeRef refid="266"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2AuthorizeSecurityGroupEgressRequest/toPort</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The end of port range for the TCP and UDP protocols, or an ICMP code number. For the ICMP code number, use &lt;code&gt;-1&lt;/code&gt; to specify all ICMP codes for the ICMP type.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSNumber *toPort</Declaration>
-			
-			
-			<Anchor>//api/name/toPort</Anchor>
-            <NodeRef refid="266"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2AuthorizeSecurityGroupEgressRequest/toPort</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The end of port range for the TCP and UDP protocols, or an ICMP code number. For the ICMP code number, use &lt;code&gt;-1&lt;/code&gt; to specify all ICMP codes for the ICMP type.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSNumber *toPort</Declaration>
-			
-			
-			<Anchor>//api/name/toPort</Anchor>
+			<Anchor>//api/name/volumeId</Anchor>
             <NodeRef refid="266"/>
 		</Token>
 		

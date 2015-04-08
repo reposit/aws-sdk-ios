@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Constants/AWSKinesisShardIteratorType.html">
+	<File path="Constants/AWSEC2RouteState.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/c/tdef/AWSKinesisShardIteratorType</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/c/tdef/AWSEC2RouteState</TokenIdentifier>
 			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSKinesisModel.h</DeclaredIn>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
             
 			
 			<NodeRef refid="1154"/>
@@ -14,51 +14,31 @@
 		
         
         <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSKinesisShardIteratorTypeUnknown</TokenIdentifier>
+            <TokenIdentifier>//apple_ref/c/econst/AWSEC2RouteStateUnknown</TokenIdentifier>
             <Abstract type="html"></Abstract>
-            <Declaration>AWSKinesisShardIteratorTypeUnknown</Declaration>
+            <Declaration>AWSEC2RouteStateUnknown</Declaration>
             
-            <DeclaredIn>AWSKinesisModel.h</DeclaredIn>
+            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
             
             <NodeRef refid="1154"/>
         </Token>
         
         <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSKinesisShardIteratorTypeAtSequenceNumber</TokenIdentifier>
+            <TokenIdentifier>//apple_ref/c/econst/AWSEC2RouteStateActive</TokenIdentifier>
             <Abstract type="html"></Abstract>
-            <Declaration>AWSKinesisShardIteratorTypeAtSequenceNumber</Declaration>
+            <Declaration>AWSEC2RouteStateActive</Declaration>
             
-            <DeclaredIn>AWSKinesisModel.h</DeclaredIn>
+            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
             
             <NodeRef refid="1154"/>
         </Token>
         
         <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSKinesisShardIteratorTypeAfterSequenceNumber</TokenIdentifier>
+            <TokenIdentifier>//apple_ref/c/econst/AWSEC2RouteStateBlackhole</TokenIdentifier>
             <Abstract type="html"></Abstract>
-            <Declaration>AWSKinesisShardIteratorTypeAfterSequenceNumber</Declaration>
+            <Declaration>AWSEC2RouteStateBlackhole</Declaration>
             
-            <DeclaredIn>AWSKinesisModel.h</DeclaredIn>
-            
-            <NodeRef refid="1154"/>
-        </Token>
-        
-        <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSKinesisShardIteratorTypeTrimHorizon</TokenIdentifier>
-            <Abstract type="html"></Abstract>
-            <Declaration>AWSKinesisShardIteratorTypeTrimHorizon</Declaration>
-            
-            <DeclaredIn>AWSKinesisModel.h</DeclaredIn>
-            
-            <NodeRef refid="1154"/>
-        </Token>
-        
-        <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSKinesisShardIteratorTypeLatest</TokenIdentifier>
-            <Abstract type="html"></Abstract>
-            <Declaration>AWSKinesisShardIteratorTypeLatest</Declaration>
-            
-            <DeclaredIn>AWSKinesisModel.h</DeclaredIn>
+            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
             
             <NodeRef refid="1154"/>
         </Token>

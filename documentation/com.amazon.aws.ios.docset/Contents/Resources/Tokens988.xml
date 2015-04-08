@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSSQSSendMessageBatchRequestEntry.html">
+	<File path="Classes/AWSSQSDeleteMessageBatchRequest.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSSQSSendMessageBatchRequestEntry</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Contains the details of a single Amazon SQS message along with a &lt;code&gt;Id&lt;/code&gt;. &lt;/p&gt;
-Required parameters: [Id, MessageBody]</Abstract>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSSQSDeleteMessageBatchRequest</TokenIdentifier>
+			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSSQSModel.h</DeclaredIn>
             
 			
@@ -14,146 +13,74 @@ Required parameters: [Id, MessageBody]</Abstract>
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSSQSSendMessageBatchRequestEntry/setDelaySeconds:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The number of seconds for which the message has to be delayed.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSQSDeleteMessageBatchRequest/setEntries:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;A list of receipt handles for the messages to be deleted.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSSQSModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSNumber *delaySeconds</Declaration>
+			<Declaration>@property (nonatomic, strong) NSArray *entries</Declaration>
 			
 			
-			<Anchor>//api/name/delaySeconds</Anchor>
+			<Anchor>//api/name/entries</Anchor>
             <NodeRef refid="988"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSSQSSendMessageBatchRequestEntry/delaySeconds</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The number of seconds for which the message has to be delayed.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSQSDeleteMessageBatchRequest/entries</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;A list of receipt handles for the messages to be deleted.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSSQSModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSNumber *delaySeconds</Declaration>
+			<Declaration>@property (nonatomic, strong) NSArray *entries</Declaration>
 			
 			
-			<Anchor>//api/name/delaySeconds</Anchor>
+			<Anchor>//api/name/entries</Anchor>
             <NodeRef refid="988"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSSQSSendMessageBatchRequestEntry/delaySeconds</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The number of seconds for which the message has to be delayed.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSSQSDeleteMessageBatchRequest/entries</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;A list of receipt handles for the messages to be deleted.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSSQSModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSNumber *delaySeconds</Declaration>
+			<Declaration>@property (nonatomic, strong) NSArray *entries</Declaration>
 			
 			
-			<Anchor>//api/name/delaySeconds</Anchor>
+			<Anchor>//api/name/entries</Anchor>
             <NodeRef refid="988"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSSQSSendMessageBatchRequestEntry/setIdentifier:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;An identifier for the message in this batch. This is used to communicate the result. Note that the &lt;code&gt;Id&lt;/code&gt;s of a batch request need to be unique within the request.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSQSDeleteMessageBatchRequest/setQueueUrl:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The URL of the Amazon SQS queue to take action on.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSSQSModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *identifier</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *queueUrl</Declaration>
 			
 			
-			<Anchor>//api/name/identifier</Anchor>
+			<Anchor>//api/name/queueUrl</Anchor>
             <NodeRef refid="988"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSSQSSendMessageBatchRequestEntry/identifier</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;An identifier for the message in this batch. This is used to communicate the result. Note that the &lt;code&gt;Id&lt;/code&gt;s of a batch request need to be unique within the request.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSQSDeleteMessageBatchRequest/queueUrl</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The URL of the Amazon SQS queue to take action on.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSSQSModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *identifier</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *queueUrl</Declaration>
 			
 			
-			<Anchor>//api/name/identifier</Anchor>
+			<Anchor>//api/name/queueUrl</Anchor>
             <NodeRef refid="988"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSSQSSendMessageBatchRequestEntry/identifier</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;An identifier for the message in this batch. This is used to communicate the result. Note that the &lt;code&gt;Id&lt;/code&gt;s of a batch request need to be unique within the request.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSSQSDeleteMessageBatchRequest/queueUrl</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The URL of the Amazon SQS queue to take action on.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSSQSModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *identifier</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *queueUrl</Declaration>
 			
 			
-			<Anchor>//api/name/identifier</Anchor>
-            <NodeRef refid="988"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSSQSSendMessageBatchRequestEntry/setMessageAttributes:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Each message attribute consists of a Name, Type, and Value. For more information, see Message Attribute Items.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSQSModel.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSDictionary *messageAttributes</Declaration>
-			
-			
-			<Anchor>//api/name/messageAttributes</Anchor>
-            <NodeRef refid="988"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSSQSSendMessageBatchRequestEntry/messageAttributes</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Each message attribute consists of a Name, Type, and Value. For more information, see Message Attribute Items.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSQSModel.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSDictionary *messageAttributes</Declaration>
-			
-			
-			<Anchor>//api/name/messageAttributes</Anchor>
-            <NodeRef refid="988"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSSQSSendMessageBatchRequestEntry/messageAttributes</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Each message attribute consists of a Name, Type, and Value. For more information, see Message Attribute Items.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSQSModel.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSDictionary *messageAttributes</Declaration>
-			
-			
-			<Anchor>//api/name/messageAttributes</Anchor>
-            <NodeRef refid="988"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSSQSSendMessageBatchRequestEntry/setMessageBody:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Body of the message.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSQSModel.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *messageBody</Declaration>
-			
-			
-			<Anchor>//api/name/messageBody</Anchor>
-            <NodeRef refid="988"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSSQSSendMessageBatchRequestEntry/messageBody</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Body of the message.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSQSModel.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *messageBody</Declaration>
-			
-			
-			<Anchor>//api/name/messageBody</Anchor>
-            <NodeRef refid="988"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSSQSSendMessageBatchRequestEntry/messageBody</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Body of the message.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSQSModel.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *messageBody</Declaration>
-			
-			
-			<Anchor>//api/name/messageBody</Anchor>
+			<Anchor>//api/name/queueUrl</Anchor>
             <NodeRef refid="988"/>
 		</Token>
 		

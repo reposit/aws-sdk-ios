@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSCognitoIdentityDescribeIdentityPoolInput.html">
+	<File path="Classes/AWSCognitoIdentityDeleteIdentityPoolInput.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSCognitoIdentityDescribeIdentityPoolInput</TokenIdentifier>
-			<Abstract type="html">Input to the DescribeIdentityPool action.
+			<TokenIdentifier>//apple_ref/occ/cl/AWSCognitoIdentityDeleteIdentityPoolInput</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Input to the DeleteIdentityPool action.&lt;/p&gt;
 Required parameters: [IdentityPoolId]</Abstract>
 			<DeclaredIn>AWSCognitoIdentityModel.h</DeclaredIn>
             
@@ -14,7 +14,7 @@ Required parameters: [IdentityPoolId]</Abstract>
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoIdentityDescribeIdentityPoolInput/setIdentityPoolId:</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoIdentityDeleteIdentityPoolInput/setIdentityPoolId:</TokenIdentifier>
 			<Abstract type="html">An identity pool ID in the format REGION:GUID.</Abstract>
 			<DeclaredIn>AWSCognitoIdentityModel.h</DeclaredIn>
 			
@@ -26,7 +26,7 @@ Required parameters: [IdentityPoolId]</Abstract>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoIdentityDescribeIdentityPoolInput/identityPoolId</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoIdentityDeleteIdentityPoolInput/identityPoolId</TokenIdentifier>
 			<Abstract type="html">An identity pool ID in the format REGION:GUID.</Abstract>
 			<DeclaredIn>AWSCognitoIdentityModel.h</DeclaredIn>
 			
@@ -38,7 +38,7 @@ Required parameters: [IdentityPoolId]</Abstract>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSCognitoIdentityDescribeIdentityPoolInput/identityPoolId</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSCognitoIdentityDeleteIdentityPoolInput/identityPoolId</TokenIdentifier>
 			<Abstract type="html">An identity pool ID in the format REGION:GUID.</Abstract>
 			<DeclaredIn>AWSCognitoIdentityModel.h</DeclaredIn>
 			

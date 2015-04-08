@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Constants/AWSJSONBuilderErrorType.html">
+	<File path="Constants/AWSEC2ReservedInstanceState.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/c/tdef/AWSJSONBuilderErrorType</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/c/tdef/AWSEC2ReservedInstanceState</TokenIdentifier>
 			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSSerialization.h</DeclaredIn>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
             
 			
 			<NodeRef refid="1150"/>
@@ -14,51 +14,51 @@
 		
         
         <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSJSONBuilderUnknownError</TokenIdentifier>
+            <TokenIdentifier>//apple_ref/c/econst/AWSEC2ReservedInstanceStateUnknown</TokenIdentifier>
             <Abstract type="html"></Abstract>
-            <Declaration>AWSJSONBuilderUnknownError</Declaration>
+            <Declaration>AWSEC2ReservedInstanceStateUnknown</Declaration>
             
-            <DeclaredIn>AWSSerialization.h</DeclaredIn>
+            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
             
             <NodeRef refid="1150"/>
         </Token>
         
         <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSJSONBuilderDefinitionFileIsEmpty</TokenIdentifier>
+            <TokenIdentifier>//apple_ref/c/econst/AWSEC2ReservedInstanceStatePaymentPending</TokenIdentifier>
             <Abstract type="html"></Abstract>
-            <Declaration>AWSJSONBuilderDefinitionFileIsEmpty</Declaration>
+            <Declaration>AWSEC2ReservedInstanceStatePaymentPending</Declaration>
             
-            <DeclaredIn>AWSSerialization.h</DeclaredIn>
+            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
             
             <NodeRef refid="1150"/>
         </Token>
         
         <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSJSONBuilderUndefinedActionRule</TokenIdentifier>
+            <TokenIdentifier>//apple_ref/c/econst/AWSEC2ReservedInstanceStateActive</TokenIdentifier>
             <Abstract type="html"></Abstract>
-            <Declaration>AWSJSONBuilderUndefinedActionRule</Declaration>
+            <Declaration>AWSEC2ReservedInstanceStateActive</Declaration>
             
-            <DeclaredIn>AWSSerialization.h</DeclaredIn>
+            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
             
             <NodeRef refid="1150"/>
         </Token>
         
         <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSJSONBuilderInternalError</TokenIdentifier>
+            <TokenIdentifier>//apple_ref/c/econst/AWSEC2ReservedInstanceStatePaymentFailed</TokenIdentifier>
             <Abstract type="html"></Abstract>
-            <Declaration>AWSJSONBuilderInternalError</Declaration>
+            <Declaration>AWSEC2ReservedInstanceStatePaymentFailed</Declaration>
             
-            <DeclaredIn>AWSSerialization.h</DeclaredIn>
+            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
             
             <NodeRef refid="1150"/>
         </Token>
         
         <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSJSONBuilderInvalidParameter</TokenIdentifier>
+            <TokenIdentifier>//apple_ref/c/econst/AWSEC2ReservedInstanceStateRetired</TokenIdentifier>
             <Abstract type="html"></Abstract>
-            <Declaration>AWSJSONBuilderInvalidParameter</Declaration>
+            <Declaration>AWSEC2ReservedInstanceStateRetired</Declaration>
             
-            <DeclaredIn>AWSSerialization.h</DeclaredIn>
+            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
             
             <NodeRef refid="1150"/>
         </Token>

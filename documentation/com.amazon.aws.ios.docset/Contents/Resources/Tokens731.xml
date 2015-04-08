@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSKinesisTag.html">
+	<File path="Classes/AWSKinesisPutRecordsInput.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSKinesisTag</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Metadata assigned to the stream, consisting of a key-value pair.&lt;/p&gt;
-Required parameters: [Key]</Abstract>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSKinesisPutRecordsInput</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;A &lt;code&gt;PutRecords&lt;/code&gt; request.&lt;/p&gt;
+Required parameters: [Records, StreamName]</Abstract>
 			<DeclaredIn>AWSKinesisModel.h</DeclaredIn>
             
 			
@@ -14,74 +14,74 @@ Required parameters: [Key]</Abstract>
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSKinesisTag/setKey:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;A unique identifier for the tag. Maximum length: 128 characters. Valid characters: Unicode letters, digits, white space, _ . / = + - % @&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSKinesisPutRecordsInput/setRecords:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The records associated with the request.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSKinesisModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *key</Declaration>
+			<Declaration>@property (nonatomic, strong) NSArray *records</Declaration>
 			
 			
-			<Anchor>//api/name/key</Anchor>
+			<Anchor>//api/name/records</Anchor>
             <NodeRef refid="731"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSKinesisTag/key</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;A unique identifier for the tag. Maximum length: 128 characters. Valid characters: Unicode letters, digits, white space, _ . / = + - % @&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSKinesisPutRecordsInput/records</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The records associated with the request.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSKinesisModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *key</Declaration>
+			<Declaration>@property (nonatomic, strong) NSArray *records</Declaration>
 			
 			
-			<Anchor>//api/name/key</Anchor>
+			<Anchor>//api/name/records</Anchor>
             <NodeRef refid="731"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSKinesisTag/key</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;A unique identifier for the tag. Maximum length: 128 characters. Valid characters: Unicode letters, digits, white space, _ . / = + - % @&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSKinesisPutRecordsInput/records</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The records associated with the request.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSKinesisModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *key</Declaration>
+			<Declaration>@property (nonatomic, strong) NSArray *records</Declaration>
 			
 			
-			<Anchor>//api/name/key</Anchor>
+			<Anchor>//api/name/records</Anchor>
             <NodeRef refid="731"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSKinesisTag/setValue:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;An optional string, typically used to describe or define the tag. Maximum length: 256 characters. Valid characters: Unicode letters, digits, white space, _ . / = + - % @&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSKinesisPutRecordsInput/setStreamName:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The stream name associated with the request.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSKinesisModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *value</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *streamName</Declaration>
 			
 			
-			<Anchor>//api/name/value</Anchor>
+			<Anchor>//api/name/streamName</Anchor>
             <NodeRef refid="731"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSKinesisTag/value</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;An optional string, typically used to describe or define the tag. Maximum length: 256 characters. Valid characters: Unicode letters, digits, white space, _ . / = + - % @&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSKinesisPutRecordsInput/streamName</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The stream name associated with the request.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSKinesisModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *value</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *streamName</Declaration>
 			
 			
-			<Anchor>//api/name/value</Anchor>
+			<Anchor>//api/name/streamName</Anchor>
             <NodeRef refid="731"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSKinesisTag/value</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;An optional string, typically used to describe or define the tag. Maximum length: 256 characters. Valid characters: Unicode letters, digits, white space, _ . / = + - % @&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSKinesisPutRecordsInput/streamName</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The stream name associated with the request.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSKinesisModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *value</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *streamName</Declaration>
 			
 			
-			<Anchor>//api/name/value</Anchor>
+			<Anchor>//api/name/streamName</Anchor>
             <NodeRef refid="731"/>
 		</Token>
 		

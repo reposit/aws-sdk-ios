@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSEC2ReplicateSnapshotRequest.html">
+	<File path="Classes/AWSEC2ReplaceRouteRequest.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSEC2ReplicateSnapshotRequest</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSEC2ReplaceRouteRequest</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
             
@@ -13,79 +13,43 @@
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ReplicateSnapshotRequest/setDestinationRegion:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The destination region of the snapshot copy operation. This parameter is required in the &lt;code&gt;PresignedUrl&lt;/code&gt;.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ReplaceRouteRequest/setDestinationCidrBlock:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The CIDR address block used for the destination match. The value you provide must match the CIDR of an existing route in the table.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *destinationRegion</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *destinationCidrBlock</Declaration>
 			
 			
-			<Anchor>//api/name/destinationRegion</Anchor>
+			<Anchor>//api/name/destinationCidrBlock</Anchor>
             <NodeRef refid="551"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ReplicateSnapshotRequest/destinationRegion</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The destination region of the snapshot copy operation. This parameter is required in the &lt;code&gt;PresignedUrl&lt;/code&gt;.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ReplaceRouteRequest/destinationCidrBlock</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The CIDR address block used for the destination match. The value you provide must match the CIDR of an existing route in the table.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *destinationRegion</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *destinationCidrBlock</Declaration>
 			
 			
-			<Anchor>//api/name/destinationRegion</Anchor>
+			<Anchor>//api/name/destinationCidrBlock</Anchor>
             <NodeRef refid="551"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2ReplicateSnapshotRequest/destinationRegion</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The destination region of the snapshot copy operation. This parameter is required in the &lt;code&gt;PresignedUrl&lt;/code&gt;.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2ReplaceRouteRequest/destinationCidrBlock</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The CIDR address block used for the destination match. The value you provide must match the CIDR of an existing route in the table.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *destinationRegion</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *destinationCidrBlock</Declaration>
 			
 			
-			<Anchor>//api/name/destinationRegion</Anchor>
+			<Anchor>//api/name/destinationCidrBlock</Anchor>
             <NodeRef refid="551"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ReplicateSnapshotRequest/setDetail:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;A description for the new Amazon EBS snapshot.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *detail</Declaration>
-			
-			
-			<Anchor>//api/name/detail</Anchor>
-            <NodeRef refid="551"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ReplicateSnapshotRequest/detail</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;A description for the new Amazon EBS snapshot.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *detail</Declaration>
-			
-			
-			<Anchor>//api/name/detail</Anchor>
-            <NodeRef refid="551"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2ReplicateSnapshotRequest/detail</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;A description for the new Amazon EBS snapshot.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *detail</Declaration>
-			
-			
-			<Anchor>//api/name/detail</Anchor>
-            <NodeRef refid="551"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ReplicateSnapshotRequest/setDryRun:</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ReplaceRouteRequest/setDryRun:</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
@@ -97,7 +61,7 @@
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ReplicateSnapshotRequest/dryRun</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ReplaceRouteRequest/dryRun</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
@@ -109,7 +73,7 @@
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2ReplicateSnapshotRequest/dryRun</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2ReplaceRouteRequest/dryRun</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
@@ -121,110 +85,182 @@
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ReplicateSnapshotRequest/setPresignedUrl:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The pre-signed URL that facilitates copying an encrypted snapshot. This parameter is only required when copying an encrypted snapshot with the Amazon EC2 Query API; it is available as an optional parameter in all other cases. The &lt;code&gt;PresignedUrl&lt;/code&gt; should use the snapshot source endpoint, the &lt;code&gt;CopySnapshot&lt;/code&gt; action, and include the &lt;code&gt;SourceRegion&lt;/code&gt;, &lt;code&gt;SourceSnapshotId&lt;/code&gt;, and &lt;code&gt;DestinationRegion&lt;/code&gt; parameters. The &lt;code&gt;PresignedUrl&lt;/code&gt; must be signed using AWS Signature Version 4. Because Amazon EBS snapshots are stored in Amazon S3, the signing algorithm for this parameter uses the same logic that is described in Authenticating Requests by Using Query Parameters (AWS Signature Version 4) in the &lt;i&gt;Amazon Simple Storage Service API Reference&lt;/i&gt;. An invalid or improperly signed &lt;code&gt;PresignedUrl&lt;/code&gt; will cause the copy operation to fail asynchronously, and the snapshot will move to an &lt;code&gt;error&lt;/code&gt; state.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ReplaceRouteRequest/setGatewayId:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of an Internet gateway or virtual private gateway.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *presignedUrl</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *gatewayId</Declaration>
 			
 			
-			<Anchor>//api/name/presignedUrl</Anchor>
+			<Anchor>//api/name/gatewayId</Anchor>
             <NodeRef refid="551"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ReplicateSnapshotRequest/presignedUrl</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The pre-signed URL that facilitates copying an encrypted snapshot. This parameter is only required when copying an encrypted snapshot with the Amazon EC2 Query API; it is available as an optional parameter in all other cases. The &lt;code&gt;PresignedUrl&lt;/code&gt; should use the snapshot source endpoint, the &lt;code&gt;CopySnapshot&lt;/code&gt; action, and include the &lt;code&gt;SourceRegion&lt;/code&gt;, &lt;code&gt;SourceSnapshotId&lt;/code&gt;, and &lt;code&gt;DestinationRegion&lt;/code&gt; parameters. The &lt;code&gt;PresignedUrl&lt;/code&gt; must be signed using AWS Signature Version 4. Because Amazon EBS snapshots are stored in Amazon S3, the signing algorithm for this parameter uses the same logic that is described in Authenticating Requests by Using Query Parameters (AWS Signature Version 4) in the &lt;i&gt;Amazon Simple Storage Service API Reference&lt;/i&gt;. An invalid or improperly signed &lt;code&gt;PresignedUrl&lt;/code&gt; will cause the copy operation to fail asynchronously, and the snapshot will move to an &lt;code&gt;error&lt;/code&gt; state.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ReplaceRouteRequest/gatewayId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of an Internet gateway or virtual private gateway.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *presignedUrl</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *gatewayId</Declaration>
 			
 			
-			<Anchor>//api/name/presignedUrl</Anchor>
+			<Anchor>//api/name/gatewayId</Anchor>
             <NodeRef refid="551"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2ReplicateSnapshotRequest/presignedUrl</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The pre-signed URL that facilitates copying an encrypted snapshot. This parameter is only required when copying an encrypted snapshot with the Amazon EC2 Query API; it is available as an optional parameter in all other cases. The &lt;code&gt;PresignedUrl&lt;/code&gt; should use the snapshot source endpoint, the &lt;code&gt;CopySnapshot&lt;/code&gt; action, and include the &lt;code&gt;SourceRegion&lt;/code&gt;, &lt;code&gt;SourceSnapshotId&lt;/code&gt;, and &lt;code&gt;DestinationRegion&lt;/code&gt; parameters. The &lt;code&gt;PresignedUrl&lt;/code&gt; must be signed using AWS Signature Version 4. Because Amazon EBS snapshots are stored in Amazon S3, the signing algorithm for this parameter uses the same logic that is described in Authenticating Requests by Using Query Parameters (AWS Signature Version 4) in the &lt;i&gt;Amazon Simple Storage Service API Reference&lt;/i&gt;. An invalid or improperly signed &lt;code&gt;PresignedUrl&lt;/code&gt; will cause the copy operation to fail asynchronously, and the snapshot will move to an &lt;code&gt;error&lt;/code&gt; state.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2ReplaceRouteRequest/gatewayId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of an Internet gateway or virtual private gateway.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *presignedUrl</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *gatewayId</Declaration>
 			
 			
-			<Anchor>//api/name/presignedUrl</Anchor>
+			<Anchor>//api/name/gatewayId</Anchor>
             <NodeRef refid="551"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ReplicateSnapshotRequest/setSourceRegion:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The ID of the region that contains the snapshot to be copied.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ReplaceRouteRequest/setInstanceId:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of a NAT instance in your VPC.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *sourceRegion</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *instanceId</Declaration>
 			
 			
-			<Anchor>//api/name/sourceRegion</Anchor>
+			<Anchor>//api/name/instanceId</Anchor>
             <NodeRef refid="551"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ReplicateSnapshotRequest/sourceRegion</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The ID of the region that contains the snapshot to be copied.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ReplaceRouteRequest/instanceId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of a NAT instance in your VPC.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *sourceRegion</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *instanceId</Declaration>
 			
 			
-			<Anchor>//api/name/sourceRegion</Anchor>
+			<Anchor>//api/name/instanceId</Anchor>
             <NodeRef refid="551"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2ReplicateSnapshotRequest/sourceRegion</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The ID of the region that contains the snapshot to be copied.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2ReplaceRouteRequest/instanceId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of a NAT instance in your VPC.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *sourceRegion</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *instanceId</Declaration>
 			
 			
-			<Anchor>//api/name/sourceRegion</Anchor>
+			<Anchor>//api/name/instanceId</Anchor>
             <NodeRef refid="551"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ReplicateSnapshotRequest/setSourceSnapshotId:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The ID of the Amazon EBS snapshot to copy.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ReplaceRouteRequest/setNetworkInterfaceId:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of a network interface.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *sourceSnapshotId</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *networkInterfaceId</Declaration>
 			
 			
-			<Anchor>//api/name/sourceSnapshotId</Anchor>
+			<Anchor>//api/name/networkInterfaceId</Anchor>
             <NodeRef refid="551"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ReplicateSnapshotRequest/sourceSnapshotId</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The ID of the Amazon EBS snapshot to copy.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ReplaceRouteRequest/networkInterfaceId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of a network interface.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *sourceSnapshotId</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *networkInterfaceId</Declaration>
 			
 			
-			<Anchor>//api/name/sourceSnapshotId</Anchor>
+			<Anchor>//api/name/networkInterfaceId</Anchor>
             <NodeRef refid="551"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2ReplicateSnapshotRequest/sourceSnapshotId</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The ID of the Amazon EBS snapshot to copy.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2ReplaceRouteRequest/networkInterfaceId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of a network interface.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *sourceSnapshotId</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *networkInterfaceId</Declaration>
 			
 			
-			<Anchor>//api/name/sourceSnapshotId</Anchor>
+			<Anchor>//api/name/networkInterfaceId</Anchor>
+            <NodeRef refid="551"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ReplaceRouteRequest/setRouteTableId:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the route table.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *routeTableId</Declaration>
+			
+			
+			<Anchor>//api/name/routeTableId</Anchor>
+            <NodeRef refid="551"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ReplaceRouteRequest/routeTableId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the route table.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *routeTableId</Declaration>
+			
+			
+			<Anchor>//api/name/routeTableId</Anchor>
+            <NodeRef refid="551"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2ReplaceRouteRequest/routeTableId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the route table.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *routeTableId</Declaration>
+			
+			
+			<Anchor>//api/name/routeTableId</Anchor>
+            <NodeRef refid="551"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ReplaceRouteRequest/setVpcPeeringConnectionId:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of a VPC peering connection.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *vpcPeeringConnectionId</Declaration>
+			
+			
+			<Anchor>//api/name/vpcPeeringConnectionId</Anchor>
+            <NodeRef refid="551"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ReplaceRouteRequest/vpcPeeringConnectionId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of a VPC peering connection.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *vpcPeeringConnectionId</Declaration>
+			
+			
+			<Anchor>//api/name/vpcPeeringConnectionId</Anchor>
+            <NodeRef refid="551"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2ReplaceRouteRequest/vpcPeeringConnectionId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of a VPC peering connection.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *vpcPeeringConnectionId</Declaration>
+			
+			
+			<Anchor>//api/name/vpcPeeringConnectionId</Anchor>
             <NodeRef refid="551"/>
 		</Token>
 		

@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSCloudWatchDimensionFilter.html">
+	<File path="Classes/AWSCloudWatchDimension.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSCloudWatchDimensionFilter</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt; The &lt;code&gt;DimensionFilter&lt;/code&gt; data type is used to filter &lt;a&gt;ListMetrics&lt;/a&gt; results. &lt;/p&gt;
-Required parameters: [Name]</Abstract>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSCloudWatchDimension</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; The &lt;code&gt;Dimension&lt;/code&gt; data type further expands on the identity of a metric using a Name, Value pair. &lt;/p&gt;&lt;p&gt;For examples that use one or more dimensions, see &lt;a&gt;PutMetricData&lt;/a&gt;.&lt;/p&gt;
+Required parameters: [Name, Value]</Abstract>
 			<DeclaredIn>AWSCloudWatchModel.h</DeclaredIn>
             
 			
@@ -14,8 +14,8 @@ Required parameters: [Name]</Abstract>
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSCloudWatchDimensionFilter/setName:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt; The dimension name to be matched. &lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCloudWatchDimension/setName:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; The name of the dimension. &lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSCloudWatchModel.h</DeclaredIn>
 			
 			<Declaration>@property (nonatomic, strong) NSString *name</Declaration>
@@ -26,8 +26,8 @@ Required parameters: [Name]</Abstract>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSCloudWatchDimensionFilter/name</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt; The dimension name to be matched. &lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCloudWatchDimension/name</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; The name of the dimension. &lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSCloudWatchModel.h</DeclaredIn>
 			
 			<Declaration>@property (nonatomic, strong) NSString *name</Declaration>
@@ -38,8 +38,8 @@ Required parameters: [Name]</Abstract>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSCloudWatchDimensionFilter/name</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt; The dimension name to be matched. &lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSCloudWatchDimension/name</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; The name of the dimension. &lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSCloudWatchModel.h</DeclaredIn>
 			
 			<Declaration>@property (nonatomic, strong) NSString *name</Declaration>
@@ -50,8 +50,8 @@ Required parameters: [Name]</Abstract>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSCloudWatchDimensionFilter/setValue:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt; The value of the dimension to be matched. &lt;/p&gt;&lt;note&gt; Specifying a &lt;code&gt;Name&lt;/code&gt; without specifying a &lt;code&gt;Value&lt;/code&gt; returns all values associated with that &lt;code&gt;Name&lt;/code&gt;. &lt;/note&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCloudWatchDimension/setValue:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; The value representing the dimension measurement &lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSCloudWatchModel.h</DeclaredIn>
 			
 			<Declaration>@property (nonatomic, strong) NSString *value</Declaration>
@@ -62,8 +62,8 @@ Required parameters: [Name]</Abstract>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSCloudWatchDimensionFilter/value</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt; The value of the dimension to be matched. &lt;/p&gt;&lt;note&gt; Specifying a &lt;code&gt;Name&lt;/code&gt; without specifying a &lt;code&gt;Value&lt;/code&gt; returns all values associated with that &lt;code&gt;Name&lt;/code&gt;. &lt;/note&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCloudWatchDimension/value</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; The value representing the dimension measurement &lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSCloudWatchModel.h</DeclaredIn>
 			
 			<Declaration>@property (nonatomic, strong) NSString *value</Declaration>
@@ -74,8 +74,8 @@ Required parameters: [Name]</Abstract>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSCloudWatchDimensionFilter/value</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt; The value of the dimension to be matched. &lt;/p&gt;&lt;note&gt; Specifying a &lt;code&gt;Name&lt;/code&gt; without specifying a &lt;code&gt;Value&lt;/code&gt; returns all values associated with that &lt;code&gt;Name&lt;/code&gt;. &lt;/note&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSCloudWatchDimension/value</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; The value representing the dimension measurement &lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSCloudWatchModel.h</DeclaredIn>
 			
 			<Declaration>@property (nonatomic, strong) NSString *value</Declaration>

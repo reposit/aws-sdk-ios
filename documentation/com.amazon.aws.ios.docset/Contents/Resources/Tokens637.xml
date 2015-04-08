@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSElasticLoadBalancingCreateAccessPointOutput.html">
+	<File path="Classes/AWSElasticLoadBalancingBackendServerDescription.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSElasticLoadBalancingCreateAccessPointOutput</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSElasticLoadBalancingBackendServerDescription</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSElasticLoadBalancingModel.h</DeclaredIn>
             
@@ -13,38 +13,74 @@
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSElasticLoadBalancingCreateAccessPointOutput/setDNSName:</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSElasticLoadBalancingBackendServerDescription/setInstancePort:</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSElasticLoadBalancingModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *DNSName</Declaration>
+			<Declaration>@property (nonatomic, strong) NSNumber *instancePort</Declaration>
 			
 			
-			<Anchor>//api/name/DNSName</Anchor>
+			<Anchor>//api/name/instancePort</Anchor>
             <NodeRef refid="637"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSElasticLoadBalancingCreateAccessPointOutput/DNSName</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSElasticLoadBalancingBackendServerDescription/instancePort</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSElasticLoadBalancingModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *DNSName</Declaration>
+			<Declaration>@property (nonatomic, strong) NSNumber *instancePort</Declaration>
 			
 			
-			<Anchor>//api/name/DNSName</Anchor>
+			<Anchor>//api/name/instancePort</Anchor>
             <NodeRef refid="637"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSElasticLoadBalancingCreateAccessPointOutput/DNSName</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSElasticLoadBalancingBackendServerDescription/instancePort</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSElasticLoadBalancingModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *DNSName</Declaration>
+			<Declaration>@property (nonatomic, strong) NSNumber *instancePort</Declaration>
 			
 			
-			<Anchor>//api/name/DNSName</Anchor>
+			<Anchor>//api/name/instancePort</Anchor>
+            <NodeRef refid="637"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSElasticLoadBalancingBackendServerDescription/setPolicyNames:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSElasticLoadBalancingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray *policyNames</Declaration>
+			
+			
+			<Anchor>//api/name/policyNames</Anchor>
+            <NodeRef refid="637"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSElasticLoadBalancingBackendServerDescription/policyNames</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSElasticLoadBalancingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray *policyNames</Declaration>
+			
+			
+			<Anchor>//api/name/policyNames</Anchor>
+            <NodeRef refid="637"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSElasticLoadBalancingBackendServerDescription/policyNames</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSElasticLoadBalancingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray *policyNames</Declaration>
+			
+			
+			<Anchor>//api/name/policyNames</Anchor>
             <NodeRef refid="637"/>
 		</Token>
 		

@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Constants/AWSURLSessionTaskType.html">
+	<File path="Constants/AWSS3BucketVersioningStatus.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/c/tdef/AWSURLSessionTaskType</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/c/tdef/AWSS3BucketVersioningStatus</TokenIdentifier>
 			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSURLSessionManager.m</DeclaredIn>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
             
 			
 			<NodeRef refid="1196"/>
@@ -14,41 +14,31 @@
 		
         
         <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSURLSessionTaskTypeUnknown</TokenIdentifier>
+            <TokenIdentifier>//apple_ref/c/econst/AWSS3BucketVersioningStatusUnknown</TokenIdentifier>
             <Abstract type="html"></Abstract>
-            <Declaration>AWSURLSessionTaskTypeUnknown</Declaration>
+            <Declaration>AWSS3BucketVersioningStatusUnknown</Declaration>
             
-            <DeclaredIn>AWSURLSessionManager.m</DeclaredIn>
+            <DeclaredIn>AWSS3Model.h</DeclaredIn>
             
             <NodeRef refid="1196"/>
         </Token>
         
         <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSURLSessionTaskTypeData</TokenIdentifier>
+            <TokenIdentifier>//apple_ref/c/econst/AWSS3BucketVersioningStatusEnabled</TokenIdentifier>
             <Abstract type="html"></Abstract>
-            <Declaration>AWSURLSessionTaskTypeData</Declaration>
+            <Declaration>AWSS3BucketVersioningStatusEnabled</Declaration>
             
-            <DeclaredIn>AWSURLSessionManager.m</DeclaredIn>
+            <DeclaredIn>AWSS3Model.h</DeclaredIn>
             
             <NodeRef refid="1196"/>
         </Token>
         
         <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSURLSessionTaskTypeDownload</TokenIdentifier>
+            <TokenIdentifier>//apple_ref/c/econst/AWSS3BucketVersioningStatusSuspended</TokenIdentifier>
             <Abstract type="html"></Abstract>
-            <Declaration>AWSURLSessionTaskTypeDownload</Declaration>
+            <Declaration>AWSS3BucketVersioningStatusSuspended</Declaration>
             
-            <DeclaredIn>AWSURLSessionManager.m</DeclaredIn>
-            
-            <NodeRef refid="1196"/>
-        </Token>
-        
-        <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSURLSessionTaskTypeUpload</TokenIdentifier>
-            <Abstract type="html"></Abstract>
-            <Declaration>AWSURLSessionTaskTypeUpload</Declaration>
-            
-            <DeclaredIn>AWSURLSessionManager.m</DeclaredIn>
+            <DeclaredIn>AWSS3Model.h</DeclaredIn>
             
             <NodeRef refid="1196"/>
         </Token>

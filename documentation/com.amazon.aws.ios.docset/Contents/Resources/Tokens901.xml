@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSSESSetIdentityFeedbackForwardingEnabledRequest.html">
+	<File path="Classes/AWSSESGetIdentityVerificationAttributesResponse.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSSESSetIdentityFeedbackForwardingEnabledRequest</TokenIdentifier>
-			<Abstract type="html"></Abstract>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSSESGetIdentityVerificationAttributesResponse</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Represents the verification attributes for a list of identities.&lt;/p&gt;
+Required parameters: [VerificationAttributes]</Abstract>
 			<DeclaredIn>AWSSESModel.h</DeclaredIn>
             
 			
@@ -13,74 +14,38 @@
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSSESSetIdentityFeedbackForwardingEnabledRequest/setForwardingEnabled:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Sets whether Amazon SES will forward bounce and complaint notifications as email. &lt;code&gt;true&lt;/code&gt; specifies that Amazon SES will forward bounce and complaint notifications as email, in addition to any Amazon SNS topic publishing otherwise specified. &lt;code&gt;false&lt;/code&gt; specifies that Amazon SES will publish bounce and complaint notifications only through Amazon SNS. This value can only be set to &lt;code&gt;false&lt;/code&gt; when Amazon SNS topics are set for both &lt;code&gt;Bounce&lt;/code&gt; and &lt;code&gt;Complaint&lt;/code&gt; notification types.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSESGetIdentityVerificationAttributesResponse/setVerificationAttributes:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;A map of Identities to IdentityVerificationAttributes objects.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSSESModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSNumber *forwardingEnabled</Declaration>
+			<Declaration>@property (nonatomic, strong) NSDictionary *verificationAttributes</Declaration>
 			
 			
-			<Anchor>//api/name/forwardingEnabled</Anchor>
+			<Anchor>//api/name/verificationAttributes</Anchor>
             <NodeRef refid="901"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSSESSetIdentityFeedbackForwardingEnabledRequest/forwardingEnabled</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Sets whether Amazon SES will forward bounce and complaint notifications as email. &lt;code&gt;true&lt;/code&gt; specifies that Amazon SES will forward bounce and complaint notifications as email, in addition to any Amazon SNS topic publishing otherwise specified. &lt;code&gt;false&lt;/code&gt; specifies that Amazon SES will publish bounce and complaint notifications only through Amazon SNS. This value can only be set to &lt;code&gt;false&lt;/code&gt; when Amazon SNS topics are set for both &lt;code&gt;Bounce&lt;/code&gt; and &lt;code&gt;Complaint&lt;/code&gt; notification types.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSESGetIdentityVerificationAttributesResponse/verificationAttributes</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;A map of Identities to IdentityVerificationAttributes objects.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSSESModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSNumber *forwardingEnabled</Declaration>
+			<Declaration>@property (nonatomic, strong) NSDictionary *verificationAttributes</Declaration>
 			
 			
-			<Anchor>//api/name/forwardingEnabled</Anchor>
+			<Anchor>//api/name/verificationAttributes</Anchor>
             <NodeRef refid="901"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSSESSetIdentityFeedbackForwardingEnabledRequest/forwardingEnabled</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Sets whether Amazon SES will forward bounce and complaint notifications as email. &lt;code&gt;true&lt;/code&gt; specifies that Amazon SES will forward bounce and complaint notifications as email, in addition to any Amazon SNS topic publishing otherwise specified. &lt;code&gt;false&lt;/code&gt; specifies that Amazon SES will publish bounce and complaint notifications only through Amazon SNS. This value can only be set to &lt;code&gt;false&lt;/code&gt; when Amazon SNS topics are set for both &lt;code&gt;Bounce&lt;/code&gt; and &lt;code&gt;Complaint&lt;/code&gt; notification types.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSSESGetIdentityVerificationAttributesResponse/verificationAttributes</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;A map of Identities to IdentityVerificationAttributes objects.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSSESModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSNumber *forwardingEnabled</Declaration>
+			<Declaration>@property (nonatomic, strong) NSDictionary *verificationAttributes</Declaration>
 			
 			
-			<Anchor>//api/name/forwardingEnabled</Anchor>
-            <NodeRef refid="901"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSSESSetIdentityFeedbackForwardingEnabledRequest/setIdentity:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The identity for which to set bounce and complaint notification forwarding. Examples: &lt;code&gt;user@example.com&lt;/code&gt;, &lt;code&gt;example.com&lt;/code&gt;.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSESModel.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *identity</Declaration>
-			
-			
-			<Anchor>//api/name/identity</Anchor>
-            <NodeRef refid="901"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSSESSetIdentityFeedbackForwardingEnabledRequest/identity</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The identity for which to set bounce and complaint notification forwarding. Examples: &lt;code&gt;user@example.com&lt;/code&gt;, &lt;code&gt;example.com&lt;/code&gt;.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSESModel.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *identity</Declaration>
-			
-			
-			<Anchor>//api/name/identity</Anchor>
-            <NodeRef refid="901"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSSESSetIdentityFeedbackForwardingEnabledRequest/identity</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The identity for which to set bounce and complaint notification forwarding. Examples: &lt;code&gt;user@example.com&lt;/code&gt;, &lt;code&gt;example.com&lt;/code&gt;.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSESModel.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *identity</Declaration>
-			
-			
-			<Anchor>//api/name/identity</Anchor>
+			<Anchor>//api/name/verificationAttributes</Anchor>
             <NodeRef refid="901"/>
 		</Token>
 		

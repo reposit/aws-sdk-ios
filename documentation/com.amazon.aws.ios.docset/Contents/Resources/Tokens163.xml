@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSCognitoSyncGetIdentityPoolConfigurationRequest.html">
+	<File path="Classes/AWSCognitoSyncDescribeIdentityPoolUsageResponse.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSCognitoSyncGetIdentityPoolConfigurationRequest</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;A request to &lt;code&gt;GetIdentityPoolConfigurationRequest&lt;/code&gt;.&lt;/p&gt;
-Required parameters: [IdentityPoolId]</Abstract>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSCognitoSyncDescribeIdentityPoolUsageResponse</TokenIdentifier>
+			<Abstract type="html">Response to a successful DescribeIdentityPoolUsage request.</Abstract>
 			<DeclaredIn>AWSCognitoSyncModel.h</DeclaredIn>
             
 			
@@ -14,38 +13,38 @@ Required parameters: [IdentityPoolId]</Abstract>
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoSyncGetIdentityPoolConfigurationRequest/setIdentityPoolId:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;A name-spaced GUID (for example, us-east-1:23EC4050-6AEA-7089-A2DD-08002EXAMPLE) created by Amazon Cognito. This is the ID of the pool for which to return a configuration.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoSyncDescribeIdentityPoolUsageResponse/setIdentityPoolUsage:</TokenIdentifier>
+			<Abstract type="html">Information about the usage of the identity pool.</Abstract>
 			<DeclaredIn>AWSCognitoSyncModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *identityPoolId</Declaration>
+			<Declaration>@property (nonatomic, strong) AWSCognitoSyncIdentityPoolUsage *identityPoolUsage</Declaration>
 			
 			
-			<Anchor>//api/name/identityPoolId</Anchor>
+			<Anchor>//api/name/identityPoolUsage</Anchor>
             <NodeRef refid="163"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoSyncGetIdentityPoolConfigurationRequest/identityPoolId</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;A name-spaced GUID (for example, us-east-1:23EC4050-6AEA-7089-A2DD-08002EXAMPLE) created by Amazon Cognito. This is the ID of the pool for which to return a configuration.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoSyncDescribeIdentityPoolUsageResponse/identityPoolUsage</TokenIdentifier>
+			<Abstract type="html">Information about the usage of the identity pool.</Abstract>
 			<DeclaredIn>AWSCognitoSyncModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *identityPoolId</Declaration>
+			<Declaration>@property (nonatomic, strong) AWSCognitoSyncIdentityPoolUsage *identityPoolUsage</Declaration>
 			
 			
-			<Anchor>//api/name/identityPoolId</Anchor>
+			<Anchor>//api/name/identityPoolUsage</Anchor>
             <NodeRef refid="163"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSCognitoSyncGetIdentityPoolConfigurationRequest/identityPoolId</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;A name-spaced GUID (for example, us-east-1:23EC4050-6AEA-7089-A2DD-08002EXAMPLE) created by Amazon Cognito. This is the ID of the pool for which to return a configuration.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSCognitoSyncDescribeIdentityPoolUsageResponse/identityPoolUsage</TokenIdentifier>
+			<Abstract type="html">Information about the usage of the identity pool.</Abstract>
 			<DeclaredIn>AWSCognitoSyncModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *identityPoolId</Declaration>
+			<Declaration>@property (nonatomic, strong) AWSCognitoSyncIdentityPoolUsage *identityPoolUsage</Declaration>
 			
 			
-			<Anchor>//api/name/identityPoolId</Anchor>
+			<Anchor>//api/name/identityPoolUsage</Anchor>
             <NodeRef refid="163"/>
 		</Token>
 		

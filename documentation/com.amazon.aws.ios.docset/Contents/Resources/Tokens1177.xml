@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Constants/AWSS3Permission.html">
+	<File path="Constants/AWSEC2VpnStaticRouteSource.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/c/tdef/AWSS3Permission</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/c/tdef/AWSEC2VpnStaticRouteSource</TokenIdentifier>
 			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
             
 			
 			<NodeRef refid="1177"/>
@@ -14,61 +14,21 @@
 		
         
         <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSS3PermissionUnknown</TokenIdentifier>
+            <TokenIdentifier>//apple_ref/c/econst/AWSEC2VpnStaticRouteSourceUnknown</TokenIdentifier>
             <Abstract type="html"></Abstract>
-            <Declaration>AWSS3PermissionUnknown</Declaration>
+            <Declaration>AWSEC2VpnStaticRouteSourceUnknown</Declaration>
             
-            <DeclaredIn>AWSS3Model.h</DeclaredIn>
+            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
             
             <NodeRef refid="1177"/>
         </Token>
         
         <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSS3PermissionFullControl</TokenIdentifier>
+            <TokenIdentifier>//apple_ref/c/econst/AWSEC2VpnStaticRouteSourceStatic</TokenIdentifier>
             <Abstract type="html"></Abstract>
-            <Declaration>AWSS3PermissionFullControl</Declaration>
+            <Declaration>AWSEC2VpnStaticRouteSourceStatic</Declaration>
             
-            <DeclaredIn>AWSS3Model.h</DeclaredIn>
-            
-            <NodeRef refid="1177"/>
-        </Token>
-        
-        <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSS3PermissionWrite</TokenIdentifier>
-            <Abstract type="html"></Abstract>
-            <Declaration>AWSS3PermissionWrite</Declaration>
-            
-            <DeclaredIn>AWSS3Model.h</DeclaredIn>
-            
-            <NodeRef refid="1177"/>
-        </Token>
-        
-        <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSS3PermissionWriteAcp</TokenIdentifier>
-            <Abstract type="html"></Abstract>
-            <Declaration>AWSS3PermissionWriteAcp</Declaration>
-            
-            <DeclaredIn>AWSS3Model.h</DeclaredIn>
-            
-            <NodeRef refid="1177"/>
-        </Token>
-        
-        <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSS3PermissionRead</TokenIdentifier>
-            <Abstract type="html"></Abstract>
-            <Declaration>AWSS3PermissionRead</Declaration>
-            
-            <DeclaredIn>AWSS3Model.h</DeclaredIn>
-            
-            <NodeRef refid="1177"/>
-        </Token>
-        
-        <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSS3PermissionReadAcp</TokenIdentifier>
-            <Abstract type="html"></Abstract>
-            <Declaration>AWSS3PermissionReadAcp</Declaration>
-            
-            <DeclaredIn>AWSS3Model.h</DeclaredIn>
+            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
             
             <NodeRef refid="1177"/>
         </Token>

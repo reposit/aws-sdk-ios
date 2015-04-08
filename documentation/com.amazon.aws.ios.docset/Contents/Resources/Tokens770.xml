@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSS3DeleteObjectsRequest.html">
+	<File path="Classes/AWSS3CompletedPart.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSS3DeleteObjectsRequest</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSS3CompletedPart</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSS3Model.h</DeclaredIn>
             
@@ -13,110 +13,74 @@
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3DeleteObjectsRequest/setBucket:</TokenIdentifier>
-			<Abstract type="html"></Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3CompletedPart/setETag:</TokenIdentifier>
+			<Abstract type="html">Entity tag returned when the part was uploaded.</Abstract>
 			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *bucket</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *ETag</Declaration>
 			
 			
-			<Anchor>//api/name/bucket</Anchor>
+			<Anchor>//api/name/ETag</Anchor>
             <NodeRef refid="770"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3DeleteObjectsRequest/bucket</TokenIdentifier>
-			<Abstract type="html"></Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3CompletedPart/ETag</TokenIdentifier>
+			<Abstract type="html">Entity tag returned when the part was uploaded.</Abstract>
 			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *bucket</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *ETag</Declaration>
 			
 			
-			<Anchor>//api/name/bucket</Anchor>
+			<Anchor>//api/name/ETag</Anchor>
             <NodeRef refid="770"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSS3DeleteObjectsRequest/bucket</TokenIdentifier>
-			<Abstract type="html"></Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSS3CompletedPart/ETag</TokenIdentifier>
+			<Abstract type="html">Entity tag returned when the part was uploaded.</Abstract>
 			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *bucket</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *ETag</Declaration>
 			
 			
-			<Anchor>//api/name/bucket</Anchor>
+			<Anchor>//api/name/ETag</Anchor>
             <NodeRef refid="770"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3DeleteObjectsRequest/setMFA:</TokenIdentifier>
-			<Abstract type="html">The concatenation of the authentication device&apos;s serial number, a space, and the value that is displayed on your authentication device.</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3CompletedPart/setPartNumber:</TokenIdentifier>
+			<Abstract type="html">Part number that identifies the part.</Abstract>
 			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *MFA</Declaration>
+			<Declaration>@property (nonatomic, strong) NSNumber *partNumber</Declaration>
 			
 			
-			<Anchor>//api/name/MFA</Anchor>
+			<Anchor>//api/name/partNumber</Anchor>
             <NodeRef refid="770"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3DeleteObjectsRequest/MFA</TokenIdentifier>
-			<Abstract type="html">The concatenation of the authentication device&apos;s serial number, a space, and the value that is displayed on your authentication device.</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3CompletedPart/partNumber</TokenIdentifier>
+			<Abstract type="html">Part number that identifies the part.</Abstract>
 			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *MFA</Declaration>
+			<Declaration>@property (nonatomic, strong) NSNumber *partNumber</Declaration>
 			
 			
-			<Anchor>//api/name/MFA</Anchor>
+			<Anchor>//api/name/partNumber</Anchor>
             <NodeRef refid="770"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSS3DeleteObjectsRequest/MFA</TokenIdentifier>
-			<Abstract type="html">The concatenation of the authentication device&apos;s serial number, a space, and the value that is displayed on your authentication device.</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSS3CompletedPart/partNumber</TokenIdentifier>
+			<Abstract type="html">Part number that identifies the part.</Abstract>
 			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *MFA</Declaration>
+			<Declaration>@property (nonatomic, strong) NSNumber *partNumber</Declaration>
 			
 			
-			<Anchor>//api/name/MFA</Anchor>
-            <NodeRef refid="770"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3DeleteObjectsRequest/setRemove:</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) AWSS3Remove *remove</Declaration>
-			
-			
-			<Anchor>//api/name/remove</Anchor>
-            <NodeRef refid="770"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3DeleteObjectsRequest/remove</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) AWSS3Remove *remove</Declaration>
-			
-			
-			<Anchor>//api/name/remove</Anchor>
-            <NodeRef refid="770"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSS3DeleteObjectsRequest/remove</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) AWSS3Remove *remove</Declaration>
-			
-			
-			<Anchor>//api/name/remove</Anchor>
+			<Anchor>//api/name/partNumber</Anchor>
             <NodeRef refid="770"/>
 		</Token>
 		

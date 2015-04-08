@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSSESSendRawEmailResponse.html">
+	<File path="Classes/AWSSESGetIdentityNotificationAttributesRequest.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSSESSendRawEmailResponse</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Represents a unique message ID returned from a successful &lt;code&gt;SendRawEmail&lt;/code&gt; request. &lt;/p&gt;
-Required parameters: [MessageId]</Abstract>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSSESGetIdentityNotificationAttributesRequest</TokenIdentifier>
+			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSSESModel.h</DeclaredIn>
             
 			
@@ -14,38 +13,38 @@ Required parameters: [MessageId]</Abstract>
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSSESSendRawEmailResponse/setMessageId:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The unique message identifier returned from the &lt;code&gt;SendRawEmail&lt;/code&gt; action. &lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSESGetIdentityNotificationAttributesRequest/setIdentities:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;A list of one or more identities.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSSESModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *messageId</Declaration>
+			<Declaration>@property (nonatomic, strong) NSArray *identities</Declaration>
 			
 			
-			<Anchor>//api/name/messageId</Anchor>
+			<Anchor>//api/name/identities</Anchor>
             <NodeRef refid="898"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSSESSendRawEmailResponse/messageId</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The unique message identifier returned from the &lt;code&gt;SendRawEmail&lt;/code&gt; action. &lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSESGetIdentityNotificationAttributesRequest/identities</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;A list of one or more identities.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSSESModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *messageId</Declaration>
+			<Declaration>@property (nonatomic, strong) NSArray *identities</Declaration>
 			
 			
-			<Anchor>//api/name/messageId</Anchor>
+			<Anchor>//api/name/identities</Anchor>
             <NodeRef refid="898"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSSESSendRawEmailResponse/messageId</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The unique message identifier returned from the &lt;code&gt;SendRawEmail&lt;/code&gt; action. &lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSSESGetIdentityNotificationAttributesRequest/identities</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;A list of one or more identities.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSSESModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *messageId</Declaration>
+			<Declaration>@property (nonatomic, strong) NSArray *identities</Declaration>
 			
 			
-			<Anchor>//api/name/messageId</Anchor>
+			<Anchor>//api/name/identities</Anchor>
             <NodeRef refid="898"/>
 		</Token>
 		

@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Constants/AWSS3ObjectStorageClass.html">
+	<File path="Constants/AWSEC2VpcAttributeName.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/c/tdef/AWSS3ObjectStorageClass</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/c/tdef/AWSEC2VpcAttributeName</TokenIdentifier>
 			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
             
 			
 			<NodeRef refid="1174"/>
@@ -14,41 +14,31 @@
 		
         
         <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSS3ObjectStorageClassUnknown</TokenIdentifier>
+            <TokenIdentifier>//apple_ref/c/econst/AWSEC2VpcAttributeNameUnknown</TokenIdentifier>
             <Abstract type="html"></Abstract>
-            <Declaration>AWSS3ObjectStorageClassUnknown</Declaration>
+            <Declaration>AWSEC2VpcAttributeNameUnknown</Declaration>
             
-            <DeclaredIn>AWSS3Model.h</DeclaredIn>
+            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
             
             <NodeRef refid="1174"/>
         </Token>
         
         <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSS3ObjectStorageClassStandard</TokenIdentifier>
+            <TokenIdentifier>//apple_ref/c/econst/AWSEC2VpcAttributeNameEnableDNSSupport</TokenIdentifier>
             <Abstract type="html"></Abstract>
-            <Declaration>AWSS3ObjectStorageClassStandard</Declaration>
+            <Declaration>AWSEC2VpcAttributeNameEnableDNSSupport</Declaration>
             
-            <DeclaredIn>AWSS3Model.h</DeclaredIn>
+            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
             
             <NodeRef refid="1174"/>
         </Token>
         
         <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSS3ObjectStorageClassReducedRedundancy</TokenIdentifier>
+            <TokenIdentifier>//apple_ref/c/econst/AWSEC2VpcAttributeNameEnableDNSHostnames</TokenIdentifier>
             <Abstract type="html"></Abstract>
-            <Declaration>AWSS3ObjectStorageClassReducedRedundancy</Declaration>
+            <Declaration>AWSEC2VpcAttributeNameEnableDNSHostnames</Declaration>
             
-            <DeclaredIn>AWSS3Model.h</DeclaredIn>
-            
-            <NodeRef refid="1174"/>
-        </Token>
-        
-        <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSS3ObjectStorageClassGlacier</TokenIdentifier>
-            <Abstract type="html"></Abstract>
-            <Declaration>AWSS3ObjectStorageClassGlacier</Declaration>
-            
-            <DeclaredIn>AWSS3Model.h</DeclaredIn>
+            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
             
             <NodeRef refid="1174"/>
         </Token>

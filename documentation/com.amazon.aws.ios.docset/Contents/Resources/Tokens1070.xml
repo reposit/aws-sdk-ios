@@ -1,57 +1,65 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Constants/AWSDynamoDBProjectionType.html">
+	<File path="Protocols/AWSIdentityProvider.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/c/tdef/AWSDynamoDBProjectionType</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/intf/AWSIdentityProvider</TokenIdentifier>
+			<Abstract type="html">AWSIdentityProvider provides an interface for acquiring an identity token from a provider.</Abstract>
+			<DeclaredIn>AWSIdentityProvider.h</DeclaredIn>
             
 			
 			<NodeRef refid="1070"/>
 		</Token>
 		
 		
-        
-        <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSDynamoDBProjectionTypeUnknown</TokenIdentifier>
-            <Abstract type="html"></Abstract>
-            <Declaration>AWSDynamoDBProjectionTypeUnknown</Declaration>
-            
-            <DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
-            
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/AWSIdentityProvider/setToken:</TokenIdentifier>
+			<Abstract type="html">The token that identifies/authorizes a particular identity.</Abstract>
+			<DeclaredIn>AWSIdentityProvider.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong, readonly) NSString *token</Declaration>
+			
+			
+			<Anchor>//api/name/token</Anchor>
             <NodeRef refid="1070"/>
-        </Token>
-        
-        <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSDynamoDBProjectionTypeAll</TokenIdentifier>
-            <Abstract type="html"></Abstract>
-            <Declaration>AWSDynamoDBProjectionTypeAll</Declaration>
-            
-            <DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
-            
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/AWSIdentityProvider/token</TokenIdentifier>
+			<Abstract type="html">The token that identifies/authorizes a particular identity.</Abstract>
+			<DeclaredIn>AWSIdentityProvider.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong, readonly) NSString *token</Declaration>
+			
+			
+			<Anchor>//api/name/token</Anchor>
             <NodeRef refid="1070"/>
-        </Token>
-        
-        <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSDynamoDBProjectionTypeKeysOnly</TokenIdentifier>
-            <Abstract type="html"></Abstract>
-            <Declaration>AWSDynamoDBProjectionTypeKeysOnly</Declaration>
-            
-            <DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
-            
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfp/AWSIdentityProvider/token</TokenIdentifier>
+			<Abstract type="html">The token that identifies/authorizes a particular identity.</Abstract>
+			<DeclaredIn>AWSIdentityProvider.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong, readonly) NSString *token</Declaration>
+			
+			
+			<Anchor>//api/name/token</Anchor>
             <NodeRef refid="1070"/>
-        </Token>
-        
-        <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSDynamoDBProjectionTypeInclude</TokenIdentifier>
-            <Abstract type="html"></Abstract>
-            <Declaration>AWSDynamoDBProjectionTypeInclude</Declaration>
-            
-            <DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
-            
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/AWSIdentityProvider/refresh</TokenIdentifier>
+			<Abstract type="html">Refresh the token associated with this provider.</Abstract>
+			<DeclaredIn>AWSIdentityProvider.h</DeclaredIn>
+			
+			<Declaration>- (BFTask *)refresh</Declaration>
+			
+			
+			<Anchor>//api/name/refresh</Anchor>
             <NodeRef refid="1070"/>
-        </Token>
+		</Token>
+		
         
         
 	</File>

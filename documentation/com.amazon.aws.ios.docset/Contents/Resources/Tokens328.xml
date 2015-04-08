@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSEC2CreateVpnGatewayRequest.html">
+	<File path="Classes/AWSEC2CreateVpcRequest.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSEC2CreateVpnGatewayRequest</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSEC2CreateVpcRequest</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
             
@@ -13,43 +13,43 @@
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2CreateVpnGatewayRequest/setAvailabilityZone:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The Availability Zone for the virtual private gateway.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2CreateVpcRequest/setCidrBlock:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The network range for the VPC, in CIDR notation. For example, &lt;code&gt;10.0.0.0/16&lt;/code&gt;.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *availabilityZone</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *cidrBlock</Declaration>
 			
 			
-			<Anchor>//api/name/availabilityZone</Anchor>
+			<Anchor>//api/name/cidrBlock</Anchor>
             <NodeRef refid="328"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2CreateVpnGatewayRequest/availabilityZone</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The Availability Zone for the virtual private gateway.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2CreateVpcRequest/cidrBlock</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The network range for the VPC, in CIDR notation. For example, &lt;code&gt;10.0.0.0/16&lt;/code&gt;.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *availabilityZone</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *cidrBlock</Declaration>
 			
 			
-			<Anchor>//api/name/availabilityZone</Anchor>
+			<Anchor>//api/name/cidrBlock</Anchor>
             <NodeRef refid="328"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2CreateVpnGatewayRequest/availabilityZone</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The Availability Zone for the virtual private gateway.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2CreateVpcRequest/cidrBlock</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The network range for the VPC, in CIDR notation. For example, &lt;code&gt;10.0.0.0/16&lt;/code&gt;.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *availabilityZone</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *cidrBlock</Declaration>
 			
 			
-			<Anchor>//api/name/availabilityZone</Anchor>
+			<Anchor>//api/name/cidrBlock</Anchor>
             <NodeRef refid="328"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2CreateVpnGatewayRequest/setDryRun:</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2CreateVpcRequest/setDryRun:</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
@@ -61,7 +61,7 @@
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2CreateVpnGatewayRequest/dryRun</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2CreateVpcRequest/dryRun</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
@@ -73,7 +73,7 @@
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2CreateVpnGatewayRequest/dryRun</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2CreateVpcRequest/dryRun</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
@@ -85,38 +85,38 @@
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2CreateVpnGatewayRequest/setTypes:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The type of VPN connection this virtual private gateway supports.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2CreateVpcRequest/setInstanceTenancy:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The supported tenancy options for instances launched into the VPC. A value of &lt;code&gt;default&lt;/code&gt; means that instances can be launched with any tenancy; a value of &lt;code&gt;dedicated&lt;/code&gt; means all instances launched into the VPC are launched as dedicated tenancy instances regardless of the tenancy assigned to the instance at launch. Dedicated tenancy instances run on single-tenant hardware.&lt;/p&gt;&lt;p&gt;Default: &lt;code&gt;default&lt;/code&gt;&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, assign) AWSEC2GatewayType types</Declaration>
+			<Declaration>@property (nonatomic, assign) AWSEC2Tenancy instanceTenancy</Declaration>
 			
 			
-			<Anchor>//api/name/types</Anchor>
+			<Anchor>//api/name/instanceTenancy</Anchor>
             <NodeRef refid="328"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2CreateVpnGatewayRequest/types</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The type of VPN connection this virtual private gateway supports.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2CreateVpcRequest/instanceTenancy</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The supported tenancy options for instances launched into the VPC. A value of &lt;code&gt;default&lt;/code&gt; means that instances can be launched with any tenancy; a value of &lt;code&gt;dedicated&lt;/code&gt; means all instances launched into the VPC are launched as dedicated tenancy instances regardless of the tenancy assigned to the instance at launch. Dedicated tenancy instances run on single-tenant hardware.&lt;/p&gt;&lt;p&gt;Default: &lt;code&gt;default&lt;/code&gt;&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, assign) AWSEC2GatewayType types</Declaration>
+			<Declaration>@property (nonatomic, assign) AWSEC2Tenancy instanceTenancy</Declaration>
 			
 			
-			<Anchor>//api/name/types</Anchor>
+			<Anchor>//api/name/instanceTenancy</Anchor>
             <NodeRef refid="328"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2CreateVpnGatewayRequest/types</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The type of VPN connection this virtual private gateway supports.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2CreateVpcRequest/instanceTenancy</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The supported tenancy options for instances launched into the VPC. A value of &lt;code&gt;default&lt;/code&gt; means that instances can be launched with any tenancy; a value of &lt;code&gt;dedicated&lt;/code&gt; means all instances launched into the VPC are launched as dedicated tenancy instances regardless of the tenancy assigned to the instance at launch. Dedicated tenancy instances run on single-tenant hardware.&lt;/p&gt;&lt;p&gt;Default: &lt;code&gt;default&lt;/code&gt;&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, assign) AWSEC2GatewayType types</Declaration>
+			<Declaration>@property (nonatomic, assign) AWSEC2Tenancy instanceTenancy</Declaration>
 			
 			
-			<Anchor>//api/name/types</Anchor>
+			<Anchor>//api/name/instanceTenancy</Anchor>
             <NodeRef refid="328"/>
 		</Token>
 		

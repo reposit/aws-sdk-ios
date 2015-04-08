@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Constants/AWSEC2ParamBuilderErrorType.html">
+	<File path="Constants/AWSEC2ArchitectureValues.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/c/tdef/AWSEC2ParamBuilderErrorType</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/c/tdef/AWSEC2ArchitectureValues</TokenIdentifier>
 			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSSerialization.h</DeclaredIn>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
             
 			
 			<NodeRef refid="1109"/>
@@ -14,51 +14,31 @@
 		
         
         <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSEC2ParamBuilderUnknownError</TokenIdentifier>
+            <TokenIdentifier>//apple_ref/c/econst/AWSEC2ArchitectureValuesUnknown</TokenIdentifier>
             <Abstract type="html"></Abstract>
-            <Declaration>AWSEC2ParamBuilderUnknownError</Declaration>
+            <Declaration>AWSEC2ArchitectureValuesUnknown</Declaration>
             
-            <DeclaredIn>AWSSerialization.h</DeclaredIn>
+            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
             
             <NodeRef refid="1109"/>
         </Token>
         
         <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSEC2ParamBuilderDefinitionFileIsEmpty</TokenIdentifier>
+            <TokenIdentifier>//apple_ref/c/econst/AWSEC2ArchitectureValuesI386</TokenIdentifier>
             <Abstract type="html"></Abstract>
-            <Declaration>AWSEC2ParamBuilderDefinitionFileIsEmpty</Declaration>
+            <Declaration>AWSEC2ArchitectureValuesI386</Declaration>
             
-            <DeclaredIn>AWSSerialization.h</DeclaredIn>
+            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
             
             <NodeRef refid="1109"/>
         </Token>
         
         <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSEC2ParamBuilderUndefinedActionRule</TokenIdentifier>
+            <TokenIdentifier>//apple_ref/c/econst/AWSEC2ArchitectureValuesX86_64</TokenIdentifier>
             <Abstract type="html"></Abstract>
-            <Declaration>AWSEC2ParamBuilderUndefinedActionRule</Declaration>
+            <Declaration>AWSEC2ArchitectureValuesX86_64</Declaration>
             
-            <DeclaredIn>AWSSerialization.h</DeclaredIn>
-            
-            <NodeRef refid="1109"/>
-        </Token>
-        
-        <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSEC2ParamBuilderInternalError</TokenIdentifier>
-            <Abstract type="html"></Abstract>
-            <Declaration>AWSEC2ParamBuilderInternalError</Declaration>
-            
-            <DeclaredIn>AWSSerialization.h</DeclaredIn>
-            
-            <NodeRef refid="1109"/>
-        </Token>
-        
-        <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSEC2ParamBuilderInvalidParameter</TokenIdentifier>
-            <Abstract type="html"></Abstract>
-            <Declaration>AWSEC2ParamBuilderInvalidParameter</Declaration>
-            
-            <DeclaredIn>AWSSerialization.h</DeclaredIn>
+            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
             
             <NodeRef refid="1109"/>
         </Token>

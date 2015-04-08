@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Constants/AWSEC2DeviceType.html">
+	<File path="Constants/AWSCognitoIdentityProviderErrorType.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/c/tdef/AWSEC2DeviceType</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/c/tdef/AWSCognitoIdentityProviderErrorType</TokenIdentifier>
 			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			<DeclaredIn>AWSIdentityProvider.h</DeclaredIn>
             
 			
 			<NodeRef refid="1087"/>
@@ -14,31 +14,11 @@
 		
         
         <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSEC2DeviceTypeUnknown</TokenIdentifier>
+            <TokenIdentifier>//apple_ref/c/econst/AWSCognitoIdentityProviderErrorIdentityIsNil</TokenIdentifier>
             <Abstract type="html"></Abstract>
-            <Declaration>AWSEC2DeviceTypeUnknown</Declaration>
+            <Declaration>AWSCognitoIdentityProviderErrorIdentityIsNil</Declaration>
             
-            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
-            
-            <NodeRef refid="1087"/>
-        </Token>
-        
-        <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSEC2DeviceTypeEBS</TokenIdentifier>
-            <Abstract type="html"></Abstract>
-            <Declaration>AWSEC2DeviceTypeEBS</Declaration>
-            
-            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
-            
-            <NodeRef refid="1087"/>
-        </Token>
-        
-        <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSEC2DeviceTypeInstanceStore</TokenIdentifier>
-            <Abstract type="html"></Abstract>
-            <Declaration>AWSEC2DeviceTypeInstanceStore</Declaration>
-            
-            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
+            <DeclaredIn>AWSIdentityProvider.h</DeclaredIn>
             
             <NodeRef refid="1087"/>
         </Token>

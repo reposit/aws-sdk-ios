@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSEC2Monitoring.html">
+	<File path="Classes/AWSEC2ModifySubnetAttributeRequest.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSEC2Monitoring</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Describes the monitoring for the instance.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSEC2ModifySubnetAttributeRequest</TokenIdentifier>
+			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
             
 			
@@ -13,38 +13,74 @@
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2Monitoring/setState:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Indicates whether monitoring is enabled for the instance.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ModifySubnetAttributeRequest/setMapPublicIpOnLaunch:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The value to use when a resource attribute accepts a Boolean value.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, assign) AWSEC2MonitoringState state</Declaration>
+			<Declaration>@property (nonatomic, strong) AWSEC2AttributeBooleanValue *mapPublicIpOnLaunch</Declaration>
 			
 			
-			<Anchor>//api/name/state</Anchor>
+			<Anchor>//api/name/mapPublicIpOnLaunch</Anchor>
             <NodeRef refid="515"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2Monitoring/state</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Indicates whether monitoring is enabled for the instance.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ModifySubnetAttributeRequest/mapPublicIpOnLaunch</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The value to use when a resource attribute accepts a Boolean value.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, assign) AWSEC2MonitoringState state</Declaration>
+			<Declaration>@property (nonatomic, strong) AWSEC2AttributeBooleanValue *mapPublicIpOnLaunch</Declaration>
 			
 			
-			<Anchor>//api/name/state</Anchor>
+			<Anchor>//api/name/mapPublicIpOnLaunch</Anchor>
             <NodeRef refid="515"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2Monitoring/state</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Indicates whether monitoring is enabled for the instance.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2ModifySubnetAttributeRequest/mapPublicIpOnLaunch</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The value to use when a resource attribute accepts a Boolean value.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, assign) AWSEC2MonitoringState state</Declaration>
+			<Declaration>@property (nonatomic, strong) AWSEC2AttributeBooleanValue *mapPublicIpOnLaunch</Declaration>
 			
 			
-			<Anchor>//api/name/state</Anchor>
+			<Anchor>//api/name/mapPublicIpOnLaunch</Anchor>
+            <NodeRef refid="515"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ModifySubnetAttributeRequest/setSubnetId:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the subnet.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *subnetId</Declaration>
+			
+			
+			<Anchor>//api/name/subnetId</Anchor>
+            <NodeRef refid="515"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ModifySubnetAttributeRequest/subnetId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the subnet.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *subnetId</Declaration>
+			
+			
+			<Anchor>//api/name/subnetId</Anchor>
+            <NodeRef refid="515"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2ModifySubnetAttributeRequest/subnetId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the subnet.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *subnetId</Declaration>
+			
+			
+			<Anchor>//api/name/subnetId</Anchor>
             <NodeRef refid="515"/>
 		</Token>
 		

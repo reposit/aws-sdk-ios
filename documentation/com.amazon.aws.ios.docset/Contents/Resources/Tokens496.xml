@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSEC2IpPermission.html">
+	<File path="Classes/AWSEC2InstanceStatusDetails.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSEC2IpPermission</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Describes a security group rule.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSEC2InstanceStatusDetails</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Describes the instance status.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
             
 			
@@ -13,182 +13,110 @@
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2IpPermission/setFromPort:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The start of port range for the TCP and UDP protocols, or an ICMP type number. A value of &lt;code&gt;-1&lt;/code&gt; indicates all ICMP types.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2InstanceStatusDetails/setImpairedSince:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The time when a status check failed. For an instance that was launched and impaired, this is the time when the instance was launched.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSNumber *fromPort</Declaration>
+			<Declaration>@property (nonatomic, strong) NSDate *impairedSince</Declaration>
 			
 			
-			<Anchor>//api/name/fromPort</Anchor>
+			<Anchor>//api/name/impairedSince</Anchor>
             <NodeRef refid="496"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2IpPermission/fromPort</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The start of port range for the TCP and UDP protocols, or an ICMP type number. A value of &lt;code&gt;-1&lt;/code&gt; indicates all ICMP types.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2InstanceStatusDetails/impairedSince</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The time when a status check failed. For an instance that was launched and impaired, this is the time when the instance was launched.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSNumber *fromPort</Declaration>
+			<Declaration>@property (nonatomic, strong) NSDate *impairedSince</Declaration>
 			
 			
-			<Anchor>//api/name/fromPort</Anchor>
+			<Anchor>//api/name/impairedSince</Anchor>
             <NodeRef refid="496"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2IpPermission/fromPort</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The start of port range for the TCP and UDP protocols, or an ICMP type number. A value of &lt;code&gt;-1&lt;/code&gt; indicates all ICMP types.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2InstanceStatusDetails/impairedSince</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The time when a status check failed. For an instance that was launched and impaired, this is the time when the instance was launched.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSNumber *fromPort</Declaration>
+			<Declaration>@property (nonatomic, strong) NSDate *impairedSince</Declaration>
 			
 			
-			<Anchor>//api/name/fromPort</Anchor>
+			<Anchor>//api/name/impairedSince</Anchor>
             <NodeRef refid="496"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2IpPermission/setIpProtocol:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The protocol.&lt;/p&gt;&lt;p&gt;When you call &lt;a&gt;DescribeSecurityGroups&lt;/a&gt;, the protocol value returned is the number. Exception: For TCP, UDP, and ICMP, the value returned is the name (for example, &lt;code&gt;tcp&lt;/code&gt;, &lt;code&gt;udp&lt;/code&gt;, or &lt;code&gt;icmp&lt;/code&gt;). For a list of protocol numbers, see Protocol Numbers.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2InstanceStatusDetails/setName:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The type of instance status.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *ipProtocol</Declaration>
+			<Declaration>@property (nonatomic, assign) AWSEC2StatusName name</Declaration>
 			
 			
-			<Anchor>//api/name/ipProtocol</Anchor>
+			<Anchor>//api/name/name</Anchor>
             <NodeRef refid="496"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2IpPermission/ipProtocol</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The protocol.&lt;/p&gt;&lt;p&gt;When you call &lt;a&gt;DescribeSecurityGroups&lt;/a&gt;, the protocol value returned is the number. Exception: For TCP, UDP, and ICMP, the value returned is the name (for example, &lt;code&gt;tcp&lt;/code&gt;, &lt;code&gt;udp&lt;/code&gt;, or &lt;code&gt;icmp&lt;/code&gt;). For a list of protocol numbers, see Protocol Numbers.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2InstanceStatusDetails/name</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The type of instance status.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *ipProtocol</Declaration>
+			<Declaration>@property (nonatomic, assign) AWSEC2StatusName name</Declaration>
 			
 			
-			<Anchor>//api/name/ipProtocol</Anchor>
+			<Anchor>//api/name/name</Anchor>
             <NodeRef refid="496"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2IpPermission/ipProtocol</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The protocol.&lt;/p&gt;&lt;p&gt;When you call &lt;a&gt;DescribeSecurityGroups&lt;/a&gt;, the protocol value returned is the number. Exception: For TCP, UDP, and ICMP, the value returned is the name (for example, &lt;code&gt;tcp&lt;/code&gt;, &lt;code&gt;udp&lt;/code&gt;, or &lt;code&gt;icmp&lt;/code&gt;). For a list of protocol numbers, see Protocol Numbers.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2InstanceStatusDetails/name</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The type of instance status.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *ipProtocol</Declaration>
+			<Declaration>@property (nonatomic, assign) AWSEC2StatusName name</Declaration>
 			
 			
-			<Anchor>//api/name/ipProtocol</Anchor>
+			<Anchor>//api/name/name</Anchor>
             <NodeRef refid="496"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2IpPermission/setIpRanges:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;One or more IP ranges.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2InstanceStatusDetails/setStatus:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The status.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSArray *ipRanges</Declaration>
+			<Declaration>@property (nonatomic, assign) AWSEC2StatusType status</Declaration>
 			
 			
-			<Anchor>//api/name/ipRanges</Anchor>
+			<Anchor>//api/name/status</Anchor>
             <NodeRef refid="496"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2IpPermission/ipRanges</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;One or more IP ranges.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2InstanceStatusDetails/status</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The status.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSArray *ipRanges</Declaration>
+			<Declaration>@property (nonatomic, assign) AWSEC2StatusType status</Declaration>
 			
 			
-			<Anchor>//api/name/ipRanges</Anchor>
+			<Anchor>//api/name/status</Anchor>
             <NodeRef refid="496"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2IpPermission/ipRanges</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;One or more IP ranges.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2InstanceStatusDetails/status</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The status.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSArray *ipRanges</Declaration>
+			<Declaration>@property (nonatomic, assign) AWSEC2StatusType status</Declaration>
 			
 			
-			<Anchor>//api/name/ipRanges</Anchor>
-            <NodeRef refid="496"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2IpPermission/setToPort:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The end of port range for the TCP and UDP protocols, or an ICMP code. A value of &lt;code&gt;-1&lt;/code&gt; indicates all ICMP codes for the specified ICMP type.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSNumber *toPort</Declaration>
-			
-			
-			<Anchor>//api/name/toPort</Anchor>
-            <NodeRef refid="496"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2IpPermission/toPort</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The end of port range for the TCP and UDP protocols, or an ICMP code. A value of &lt;code&gt;-1&lt;/code&gt; indicates all ICMP codes for the specified ICMP type.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSNumber *toPort</Declaration>
-			
-			
-			<Anchor>//api/name/toPort</Anchor>
-            <NodeRef refid="496"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2IpPermission/toPort</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The end of port range for the TCP and UDP protocols, or an ICMP code. A value of &lt;code&gt;-1&lt;/code&gt; indicates all ICMP codes for the specified ICMP type.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSNumber *toPort</Declaration>
-			
-			
-			<Anchor>//api/name/toPort</Anchor>
-            <NodeRef refid="496"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2IpPermission/setUserIdGroupPairs:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;One or more security group and AWS account ID pairs.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSArray *userIdGroupPairs</Declaration>
-			
-			
-			<Anchor>//api/name/userIdGroupPairs</Anchor>
-            <NodeRef refid="496"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2IpPermission/userIdGroupPairs</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;One or more security group and AWS account ID pairs.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSArray *userIdGroupPairs</Declaration>
-			
-			
-			<Anchor>//api/name/userIdGroupPairs</Anchor>
-            <NodeRef refid="496"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2IpPermission/userIdGroupPairs</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;One or more security group and AWS account ID pairs.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSArray *userIdGroupPairs</Declaration>
-			
-			
-			<Anchor>//api/name/userIdGroupPairs</Anchor>
+			<Anchor>//api/name/status</Anchor>
             <NodeRef refid="496"/>
 		</Token>
 		

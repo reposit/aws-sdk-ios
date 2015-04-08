@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSEC2NetworkInterfaceAssociation.html">
+	<File path="Classes/AWSEC2Monitoring.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSEC2NetworkInterfaceAssociation</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Describes association information for an Elastic IP address.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSEC2Monitoring</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Describes the monitoring for the instance.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
             
 			
@@ -13,182 +13,38 @@
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2NetworkInterfaceAssociation/setAllocationId:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The allocation ID.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2Monitoring/setState:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Indicates whether monitoring is enabled for the instance.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *allocationId</Declaration>
+			<Declaration>@property (nonatomic, assign) AWSEC2MonitoringState state</Declaration>
 			
 			
-			<Anchor>//api/name/allocationId</Anchor>
+			<Anchor>//api/name/state</Anchor>
             <NodeRef refid="520"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2NetworkInterfaceAssociation/allocationId</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The allocation ID.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2Monitoring/state</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Indicates whether monitoring is enabled for the instance.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *allocationId</Declaration>
+			<Declaration>@property (nonatomic, assign) AWSEC2MonitoringState state</Declaration>
 			
 			
-			<Anchor>//api/name/allocationId</Anchor>
+			<Anchor>//api/name/state</Anchor>
             <NodeRef refid="520"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2NetworkInterfaceAssociation/allocationId</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The allocation ID.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2Monitoring/state</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Indicates whether monitoring is enabled for the instance.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *allocationId</Declaration>
+			<Declaration>@property (nonatomic, assign) AWSEC2MonitoringState state</Declaration>
 			
 			
-			<Anchor>//api/name/allocationId</Anchor>
-            <NodeRef refid="520"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2NetworkInterfaceAssociation/setAssociationId:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The association ID.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *associationId</Declaration>
-			
-			
-			<Anchor>//api/name/associationId</Anchor>
-            <NodeRef refid="520"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2NetworkInterfaceAssociation/associationId</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The association ID.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *associationId</Declaration>
-			
-			
-			<Anchor>//api/name/associationId</Anchor>
-            <NodeRef refid="520"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2NetworkInterfaceAssociation/associationId</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The association ID.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *associationId</Declaration>
-			
-			
-			<Anchor>//api/name/associationId</Anchor>
-            <NodeRef refid="520"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2NetworkInterfaceAssociation/setIpOwnerId:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The ID of the Elastic IP address owner.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *ipOwnerId</Declaration>
-			
-			
-			<Anchor>//api/name/ipOwnerId</Anchor>
-            <NodeRef refid="520"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2NetworkInterfaceAssociation/ipOwnerId</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The ID of the Elastic IP address owner.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *ipOwnerId</Declaration>
-			
-			
-			<Anchor>//api/name/ipOwnerId</Anchor>
-            <NodeRef refid="520"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2NetworkInterfaceAssociation/ipOwnerId</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The ID of the Elastic IP address owner.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *ipOwnerId</Declaration>
-			
-			
-			<Anchor>//api/name/ipOwnerId</Anchor>
-            <NodeRef refid="520"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2NetworkInterfaceAssociation/setPublicDnsName:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The public DNS name.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *publicDnsName</Declaration>
-			
-			
-			<Anchor>//api/name/publicDnsName</Anchor>
-            <NodeRef refid="520"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2NetworkInterfaceAssociation/publicDnsName</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The public DNS name.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *publicDnsName</Declaration>
-			
-			
-			<Anchor>//api/name/publicDnsName</Anchor>
-            <NodeRef refid="520"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2NetworkInterfaceAssociation/publicDnsName</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The public DNS name.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *publicDnsName</Declaration>
-			
-			
-			<Anchor>//api/name/publicDnsName</Anchor>
-            <NodeRef refid="520"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2NetworkInterfaceAssociation/setPublicIp:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The address of the Elastic IP address bound to the network interface.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *publicIp</Declaration>
-			
-			
-			<Anchor>//api/name/publicIp</Anchor>
-            <NodeRef refid="520"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2NetworkInterfaceAssociation/publicIp</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The address of the Elastic IP address bound to the network interface.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *publicIp</Declaration>
-			
-			
-			<Anchor>//api/name/publicIp</Anchor>
-            <NodeRef refid="520"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2NetworkInterfaceAssociation/publicIp</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The address of the Elastic IP address bound to the network interface.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *publicIp</Declaration>
-			
-			
-			<Anchor>//api/name/publicIp</Anchor>
+			<Anchor>//api/name/state</Anchor>
             <NodeRef refid="520"/>
 		</Token>
 		

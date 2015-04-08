@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSS3GetBucketPolicyOutput.html">
+	<File path="Classes/AWSS3DeleteObjectsOutput.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSS3GetBucketPolicyOutput</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSS3DeleteObjectsOutput</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSS3Model.h</DeclaredIn>
             
@@ -13,38 +13,74 @@
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3GetBucketPolicyOutput/setPolicy:</TokenIdentifier>
-			<Abstract type="html">The bucket policy as a JSON document.</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3DeleteObjectsOutput/setDeleted:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *policy</Declaration>
+			<Declaration>@property (nonatomic, strong) NSArray *deleted</Declaration>
 			
 			
-			<Anchor>//api/name/policy</Anchor>
+			<Anchor>//api/name/deleted</Anchor>
             <NodeRef refid="786"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3GetBucketPolicyOutput/policy</TokenIdentifier>
-			<Abstract type="html">The bucket policy as a JSON document.</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3DeleteObjectsOutput/deleted</TokenIdentifier>
+			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *policy</Declaration>
+			<Declaration>@property (nonatomic, strong) NSArray *deleted</Declaration>
 			
 			
-			<Anchor>//api/name/policy</Anchor>
+			<Anchor>//api/name/deleted</Anchor>
             <NodeRef refid="786"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSS3GetBucketPolicyOutput/policy</TokenIdentifier>
-			<Abstract type="html">The bucket policy as a JSON document.</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSS3DeleteObjectsOutput/deleted</TokenIdentifier>
+			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *policy</Declaration>
+			<Declaration>@property (nonatomic, strong) NSArray *deleted</Declaration>
 			
 			
-			<Anchor>//api/name/policy</Anchor>
+			<Anchor>//api/name/deleted</Anchor>
+            <NodeRef refid="786"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3DeleteObjectsOutput/setErrors:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray *errors</Declaration>
+			
+			
+			<Anchor>//api/name/errors</Anchor>
+            <NodeRef refid="786"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3DeleteObjectsOutput/errors</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray *errors</Declaration>
+			
+			
+			<Anchor>//api/name/errors</Anchor>
+            <NodeRef refid="786"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSS3DeleteObjectsOutput/errors</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray *errors</Declaration>
+			
+			
+			<Anchor>//api/name/errors</Anchor>
             <NodeRef refid="786"/>
 		</Token>
 		

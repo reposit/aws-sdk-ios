@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Constants/AWSEC2ExportEnvironment.html">
+	<File path="Constants/AWSCognitoSyncPlatform.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/c/tdef/AWSEC2ExportEnvironment</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/c/tdef/AWSCognitoSyncPlatform</TokenIdentifier>
 			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			<DeclaredIn>AWSCognitoSyncModel.h</DeclaredIn>
             
 			
 			<NodeRef refid="1092"/>
@@ -14,41 +14,51 @@
 		
         
         <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSEC2ExportEnvironmentUnknown</TokenIdentifier>
+            <TokenIdentifier>//apple_ref/c/econst/AWSCognitoSyncPlatformUnknown</TokenIdentifier>
             <Abstract type="html"></Abstract>
-            <Declaration>AWSEC2ExportEnvironmentUnknown</Declaration>
+            <Declaration>AWSCognitoSyncPlatformUnknown</Declaration>
             
-            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
+            <DeclaredIn>AWSCognitoSyncModel.h</DeclaredIn>
             
             <NodeRef refid="1092"/>
         </Token>
         
         <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSEC2ExportEnvironmentCitrix</TokenIdentifier>
+            <TokenIdentifier>//apple_ref/c/econst/AWSCognitoSyncPlatformApns</TokenIdentifier>
             <Abstract type="html"></Abstract>
-            <Declaration>AWSEC2ExportEnvironmentCitrix</Declaration>
+            <Declaration>AWSCognitoSyncPlatformApns</Declaration>
             
-            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
+            <DeclaredIn>AWSCognitoSyncModel.h</DeclaredIn>
             
             <NodeRef refid="1092"/>
         </Token>
         
         <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSEC2ExportEnvironmentVMware</TokenIdentifier>
+            <TokenIdentifier>//apple_ref/c/econst/AWSCognitoSyncPlatformApnsSandbox</TokenIdentifier>
             <Abstract type="html"></Abstract>
-            <Declaration>AWSEC2ExportEnvironmentVMware</Declaration>
+            <Declaration>AWSCognitoSyncPlatformApnsSandbox</Declaration>
             
-            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
+            <DeclaredIn>AWSCognitoSyncModel.h</DeclaredIn>
             
             <NodeRef refid="1092"/>
         </Token>
         
         <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSEC2ExportEnvironmentMicrosoft</TokenIdentifier>
+            <TokenIdentifier>//apple_ref/c/econst/AWSCognitoSyncPlatformGcm</TokenIdentifier>
             <Abstract type="html"></Abstract>
-            <Declaration>AWSEC2ExportEnvironmentMicrosoft</Declaration>
+            <Declaration>AWSCognitoSyncPlatformGcm</Declaration>
             
-            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
+            <DeclaredIn>AWSCognitoSyncModel.h</DeclaredIn>
+            
+            <NodeRef refid="1092"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/AWSCognitoSyncPlatformAdm</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>AWSCognitoSyncPlatformAdm</Declaration>
+            
+            <DeclaredIn>AWSCognitoSyncModel.h</DeclaredIn>
             
             <NodeRef refid="1092"/>
         </Token>

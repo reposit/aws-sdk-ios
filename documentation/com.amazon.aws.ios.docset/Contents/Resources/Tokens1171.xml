@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Constants/AWSS3MFADeleteStatus.html">
+	<File path="Constants/AWSEC2VolumeStatusInfoStatus.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/c/tdef/AWSS3MFADeleteStatus</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/c/tdef/AWSEC2VolumeStatusInfoStatus</TokenIdentifier>
 			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
             
 			
 			<NodeRef refid="1171"/>
@@ -14,31 +14,41 @@
 		
         
         <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSS3MFADeleteStatusUnknown</TokenIdentifier>
+            <TokenIdentifier>//apple_ref/c/econst/AWSEC2VolumeStatusInfoStatusUnknown</TokenIdentifier>
             <Abstract type="html"></Abstract>
-            <Declaration>AWSS3MFADeleteStatusUnknown</Declaration>
+            <Declaration>AWSEC2VolumeStatusInfoStatusUnknown</Declaration>
             
-            <DeclaredIn>AWSS3Model.h</DeclaredIn>
+            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
             
             <NodeRef refid="1171"/>
         </Token>
         
         <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSS3MFADeleteStatusEnabled</TokenIdentifier>
+            <TokenIdentifier>//apple_ref/c/econst/AWSEC2VolumeStatusInfoStatusOK</TokenIdentifier>
             <Abstract type="html"></Abstract>
-            <Declaration>AWSS3MFADeleteStatusEnabled</Declaration>
+            <Declaration>AWSEC2VolumeStatusInfoStatusOK</Declaration>
             
-            <DeclaredIn>AWSS3Model.h</DeclaredIn>
+            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
             
             <NodeRef refid="1171"/>
         </Token>
         
         <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSS3MFADeleteStatusDisabled</TokenIdentifier>
+            <TokenIdentifier>//apple_ref/c/econst/AWSEC2VolumeStatusInfoStatusImpaired</TokenIdentifier>
             <Abstract type="html"></Abstract>
-            <Declaration>AWSS3MFADeleteStatusDisabled</Declaration>
+            <Declaration>AWSEC2VolumeStatusInfoStatusImpaired</Declaration>
             
-            <DeclaredIn>AWSS3Model.h</DeclaredIn>
+            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
+            
+            <NodeRef refid="1171"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/AWSEC2VolumeStatusInfoStatusInsufficientData</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>AWSEC2VolumeStatusInfoStatusInsufficientData</Declaration>
+            
+            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
             
             <NodeRef refid="1171"/>
         </Token>

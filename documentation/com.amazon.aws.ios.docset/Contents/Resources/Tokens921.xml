@@ -1,52 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSSNSCreateTopicResponse.html">
+	<File path="Classes/AWSSESSetIdentityFeedbackForwardingEnabledResponse.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSSNSCreateTopicResponse</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Response from CreateTopic action.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSNSModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSSESSetIdentityFeedbackForwardingEnabledResponse</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;An empty element. Receiving this element indicates that the request completed successfully.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSESModel.h</DeclaredIn>
             
 			
 			<NodeRef refid="921"/>
 		</Token>
 		
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSSNSCreateTopicResponse/setTopicArn:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The Amazon Resource Name (ARN) assigned to the created topic.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSNSModel.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *topicArn</Declaration>
-			
-			
-			<Anchor>//api/name/topicArn</Anchor>
-            <NodeRef refid="921"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSSNSCreateTopicResponse/topicArn</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The Amazon Resource Name (ARN) assigned to the created topic.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSNSModel.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *topicArn</Declaration>
-			
-			
-			<Anchor>//api/name/topicArn</Anchor>
-            <NodeRef refid="921"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSSNSCreateTopicResponse/topicArn</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The Amazon Resource Name (ARN) assigned to the created topic.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSNSModel.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *topicArn</Declaration>
-			
-			
-			<Anchor>//api/name/topicArn</Anchor>
-            <NodeRef refid="921"/>
-		</Token>
 		
         
         

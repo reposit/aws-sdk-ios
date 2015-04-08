@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Constants/AWSEC2SnapshotAttributeName.html">
+	<File path="Constants/AWSEC2HypervisorType.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/c/tdef/AWSEC2SnapshotAttributeName</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/c/tdef/AWSEC2HypervisorType</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
             
@@ -14,9 +14,9 @@
 		
         
         <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSEC2SnapshotAttributeNameUnknown</TokenIdentifier>
+            <TokenIdentifier>//apple_ref/c/econst/AWSEC2HypervisorTypeUnknown</TokenIdentifier>
             <Abstract type="html"></Abstract>
-            <Declaration>AWSEC2SnapshotAttributeNameUnknown</Declaration>
+            <Declaration>AWSEC2HypervisorTypeUnknown</Declaration>
             
             <DeclaredIn>AWSEC2Model.h</DeclaredIn>
             
@@ -24,9 +24,9 @@
         </Token>
         
         <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSEC2SnapshotAttributeNameProductCodes</TokenIdentifier>
+            <TokenIdentifier>//apple_ref/c/econst/AWSEC2HypervisorTypeOvm</TokenIdentifier>
             <Abstract type="html"></Abstract>
-            <Declaration>AWSEC2SnapshotAttributeNameProductCodes</Declaration>
+            <Declaration>AWSEC2HypervisorTypeOvm</Declaration>
             
             <DeclaredIn>AWSEC2Model.h</DeclaredIn>
             
@@ -34,9 +34,9 @@
         </Token>
         
         <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSEC2SnapshotAttributeNameCreateVolumePermission</TokenIdentifier>
+            <TokenIdentifier>//apple_ref/c/econst/AWSEC2HypervisorTypeXen</TokenIdentifier>
             <Abstract type="html"></Abstract>
-            <Declaration>AWSEC2SnapshotAttributeNameCreateVolumePermission</Declaration>
+            <Declaration>AWSEC2HypervisorTypeXen</Declaration>
             
             <DeclaredIn>AWSEC2Model.h</DeclaredIn>
             

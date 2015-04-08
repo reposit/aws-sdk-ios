@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSDynamoDBQueryExpression.html">
+	<File path="Classes/AWSDynamoDBProvisionedThroughputDescription.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSDynamoDBQueryExpression</TokenIdentifier>
-			<Abstract type="html">A query expression.</Abstract>
-			<DeclaredIn>AWSDynamoDBObjectMapper.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSDynamoDBProvisionedThroughputDescription</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Represents the provisioned throughput settings for the table, consisting of read and write capacity units, along with data about increases and decreases.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
             
 			
 			<NodeRef refid="231"/>
@@ -13,218 +13,182 @@
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSDynamoDBQueryExpression/setScanIndexForward:</TokenIdentifier>
-			<Abstract type="html">When set to @YES, AWSDynamoDBObjectMapper scans the index forward. When set to @NO, it scans the other direction.</Abstract>
-			<DeclaredIn>AWSDynamoDBObjectMapper.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSDynamoDBProvisionedThroughputDescription/setLastDecreaseDateTime:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The date and time of the last provisioned throughput decrease for this table.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSNumber *scanIndexForward</Declaration>
+			<Declaration>@property (nonatomic, strong) NSDate *lastDecreaseDateTime</Declaration>
 			
 			
-			<Anchor>//api/name/scanIndexForward</Anchor>
+			<Anchor>//api/name/lastDecreaseDateTime</Anchor>
             <NodeRef refid="231"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSDynamoDBQueryExpression/scanIndexForward</TokenIdentifier>
-			<Abstract type="html">When set to @YES, AWSDynamoDBObjectMapper scans the index forward. When set to @NO, it scans the other direction.</Abstract>
-			<DeclaredIn>AWSDynamoDBObjectMapper.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSDynamoDBProvisionedThroughputDescription/lastDecreaseDateTime</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The date and time of the last provisioned throughput decrease for this table.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSNumber *scanIndexForward</Declaration>
+			<Declaration>@property (nonatomic, strong) NSDate *lastDecreaseDateTime</Declaration>
 			
 			
-			<Anchor>//api/name/scanIndexForward</Anchor>
+			<Anchor>//api/name/lastDecreaseDateTime</Anchor>
             <NodeRef refid="231"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSDynamoDBQueryExpression/scanIndexForward</TokenIdentifier>
-			<Abstract type="html">When set to @YES, AWSDynamoDBObjectMapper scans the index forward. When set to @NO, it scans the other direction.</Abstract>
-			<DeclaredIn>AWSDynamoDBObjectMapper.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSDynamoDBProvisionedThroughputDescription/lastDecreaseDateTime</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The date and time of the last provisioned throughput decrease for this table.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSNumber *scanIndexForward</Declaration>
+			<Declaration>@property (nonatomic, strong) NSDate *lastDecreaseDateTime</Declaration>
 			
 			
-			<Anchor>//api/name/scanIndexForward</Anchor>
+			<Anchor>//api/name/lastDecreaseDateTime</Anchor>
             <NodeRef refid="231"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSDynamoDBQueryExpression/setHashKeyValues:</TokenIdentifier>
-			<Abstract type="html">The value of the hash key.</Abstract>
-			<DeclaredIn>AWSDynamoDBObjectMapper.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSDynamoDBProvisionedThroughputDescription/setLastIncreaseDateTime:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The date and time of the last provisioned throughput increase for this table.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) id hashKeyValues</Declaration>
+			<Declaration>@property (nonatomic, strong) NSDate *lastIncreaseDateTime</Declaration>
 			
 			
-			<Anchor>//api/name/hashKeyValues</Anchor>
+			<Anchor>//api/name/lastIncreaseDateTime</Anchor>
             <NodeRef refid="231"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSDynamoDBQueryExpression/hashKeyValues</TokenIdentifier>
-			<Abstract type="html">The value of the hash key.</Abstract>
-			<DeclaredIn>AWSDynamoDBObjectMapper.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSDynamoDBProvisionedThroughputDescription/lastIncreaseDateTime</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The date and time of the last provisioned throughput increase for this table.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) id hashKeyValues</Declaration>
+			<Declaration>@property (nonatomic, strong) NSDate *lastIncreaseDateTime</Declaration>
 			
 			
-			<Anchor>//api/name/hashKeyValues</Anchor>
+			<Anchor>//api/name/lastIncreaseDateTime</Anchor>
             <NodeRef refid="231"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSDynamoDBQueryExpression/hashKeyValues</TokenIdentifier>
-			<Abstract type="html">The value of the hash key.</Abstract>
-			<DeclaredIn>AWSDynamoDBObjectMapper.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSDynamoDBProvisionedThroughputDescription/lastIncreaseDateTime</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The date and time of the last provisioned throughput increase for this table.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) id hashKeyValues</Declaration>
+			<Declaration>@property (nonatomic, strong) NSDate *lastIncreaseDateTime</Declaration>
 			
 			
-			<Anchor>//api/name/hashKeyValues</Anchor>
+			<Anchor>//api/name/lastIncreaseDateTime</Anchor>
             <NodeRef refid="231"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSDynamoDBQueryExpression/setRangeKeyConditions:</TokenIdentifier>
-			<Abstract type="html">The range key conditions.</Abstract>
-			<DeclaredIn>AWSDynamoDBObjectMapper.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSDynamoDBProvisionedThroughputDescription/setNumberOfDecreasesToday:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The number of provisioned throughput decreases for this table during this UTC calendar day. For current maximums on provisioned throughput decreases, see Limits in the &lt;i&gt;Amazon DynamoDB Developer Guide&lt;/i&gt;.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSDictionary *rangeKeyConditions</Declaration>
+			<Declaration>@property (nonatomic, strong) NSNumber *numberOfDecreasesToday</Declaration>
 			
 			
-			<Anchor>//api/name/rangeKeyConditions</Anchor>
+			<Anchor>//api/name/numberOfDecreasesToday</Anchor>
             <NodeRef refid="231"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSDynamoDBQueryExpression/rangeKeyConditions</TokenIdentifier>
-			<Abstract type="html">The range key conditions.</Abstract>
-			<DeclaredIn>AWSDynamoDBObjectMapper.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSDynamoDBProvisionedThroughputDescription/numberOfDecreasesToday</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The number of provisioned throughput decreases for this table during this UTC calendar day. For current maximums on provisioned throughput decreases, see Limits in the &lt;i&gt;Amazon DynamoDB Developer Guide&lt;/i&gt;.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSDictionary *rangeKeyConditions</Declaration>
+			<Declaration>@property (nonatomic, strong) NSNumber *numberOfDecreasesToday</Declaration>
 			
 			
-			<Anchor>//api/name/rangeKeyConditions</Anchor>
+			<Anchor>//api/name/numberOfDecreasesToday</Anchor>
             <NodeRef refid="231"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSDynamoDBQueryExpression/rangeKeyConditions</TokenIdentifier>
-			<Abstract type="html">The range key conditions.</Abstract>
-			<DeclaredIn>AWSDynamoDBObjectMapper.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSDynamoDBProvisionedThroughputDescription/numberOfDecreasesToday</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The number of provisioned throughput decreases for this table during this UTC calendar day. For current maximums on provisioned throughput decreases, see Limits in the &lt;i&gt;Amazon DynamoDB Developer Guide&lt;/i&gt;.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSDictionary *rangeKeyConditions</Declaration>
+			<Declaration>@property (nonatomic, strong) NSNumber *numberOfDecreasesToday</Declaration>
 			
 			
-			<Anchor>//api/name/rangeKeyConditions</Anchor>
+			<Anchor>//api/name/numberOfDecreasesToday</Anchor>
             <NodeRef refid="231"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSDynamoDBQueryExpression/setExclusiveStartKey:</TokenIdentifier>
-			<Abstract type="html">The exclusive start key.</Abstract>
-			<DeclaredIn>AWSDynamoDBObjectMapper.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSDynamoDBProvisionedThroughputDescription/setReadCapacityUnits:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The maximum number of strongly consistent reads consumed per second before DynamoDB returns a &lt;i&gt;ThrottlingException&lt;/i&gt;. Eventually consistent reads require less effort than strongly consistent reads, so a setting of 50 &lt;i&gt;ReadCapacityUnits&lt;/i&gt; per second provides 100 eventually consistent &lt;i&gt;ReadCapacityUnits&lt;/i&gt; per second.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSDictionary *exclusiveStartKey</Declaration>
+			<Declaration>@property (nonatomic, strong) NSNumber *readCapacityUnits</Declaration>
 			
 			
-			<Anchor>//api/name/exclusiveStartKey</Anchor>
+			<Anchor>//api/name/readCapacityUnits</Anchor>
             <NodeRef refid="231"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSDynamoDBQueryExpression/exclusiveStartKey</TokenIdentifier>
-			<Abstract type="html">The exclusive start key.</Abstract>
-			<DeclaredIn>AWSDynamoDBObjectMapper.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSDynamoDBProvisionedThroughputDescription/readCapacityUnits</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The maximum number of strongly consistent reads consumed per second before DynamoDB returns a &lt;i&gt;ThrottlingException&lt;/i&gt;. Eventually consistent reads require less effort than strongly consistent reads, so a setting of 50 &lt;i&gt;ReadCapacityUnits&lt;/i&gt; per second provides 100 eventually consistent &lt;i&gt;ReadCapacityUnits&lt;/i&gt; per second.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSDictionary *exclusiveStartKey</Declaration>
+			<Declaration>@property (nonatomic, strong) NSNumber *readCapacityUnits</Declaration>
 			
 			
-			<Anchor>//api/name/exclusiveStartKey</Anchor>
+			<Anchor>//api/name/readCapacityUnits</Anchor>
             <NodeRef refid="231"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSDynamoDBQueryExpression/exclusiveStartKey</TokenIdentifier>
-			<Abstract type="html">The exclusive start key.</Abstract>
-			<DeclaredIn>AWSDynamoDBObjectMapper.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSDynamoDBProvisionedThroughputDescription/readCapacityUnits</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The maximum number of strongly consistent reads consumed per second before DynamoDB returns a &lt;i&gt;ThrottlingException&lt;/i&gt;. Eventually consistent reads require less effort than strongly consistent reads, so a setting of 50 &lt;i&gt;ReadCapacityUnits&lt;/i&gt; per second provides 100 eventually consistent &lt;i&gt;ReadCapacityUnits&lt;/i&gt; per second.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSDictionary *exclusiveStartKey</Declaration>
+			<Declaration>@property (nonatomic, strong) NSNumber *readCapacityUnits</Declaration>
 			
 			
-			<Anchor>//api/name/exclusiveStartKey</Anchor>
+			<Anchor>//api/name/readCapacityUnits</Anchor>
             <NodeRef refid="231"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSDynamoDBQueryExpression/setLimit:</TokenIdentifier>
-			<Abstract type="html">The limit.</Abstract>
-			<DeclaredIn>AWSDynamoDBObjectMapper.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSDynamoDBProvisionedThroughputDescription/setWriteCapacityUnits:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The maximum number of writes consumed per second before DynamoDB returns a &lt;i&gt;ThrottlingException&lt;/i&gt;.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSNumber *limit</Declaration>
+			<Declaration>@property (nonatomic, strong) NSNumber *writeCapacityUnits</Declaration>
 			
 			
-			<Anchor>//api/name/limit</Anchor>
+			<Anchor>//api/name/writeCapacityUnits</Anchor>
             <NodeRef refid="231"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSDynamoDBQueryExpression/limit</TokenIdentifier>
-			<Abstract type="html">The limit.</Abstract>
-			<DeclaredIn>AWSDynamoDBObjectMapper.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSDynamoDBProvisionedThroughputDescription/writeCapacityUnits</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The maximum number of writes consumed per second before DynamoDB returns a &lt;i&gt;ThrottlingException&lt;/i&gt;.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSNumber *limit</Declaration>
+			<Declaration>@property (nonatomic, strong) NSNumber *writeCapacityUnits</Declaration>
 			
 			
-			<Anchor>//api/name/limit</Anchor>
+			<Anchor>//api/name/writeCapacityUnits</Anchor>
             <NodeRef refid="231"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSDynamoDBQueryExpression/limit</TokenIdentifier>
-			<Abstract type="html">The limit.</Abstract>
-			<DeclaredIn>AWSDynamoDBObjectMapper.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSDynamoDBProvisionedThroughputDescription/writeCapacityUnits</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The maximum number of writes consumed per second before DynamoDB returns a &lt;i&gt;ThrottlingException&lt;/i&gt;.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSNumber *limit</Declaration>
-			
-			
-			<Anchor>//api/name/limit</Anchor>
-            <NodeRef refid="231"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSDynamoDBQueryExpression/setIndexName:</TokenIdentifier>
-			<Abstract type="html">The index name.</Abstract>
-			<DeclaredIn>AWSDynamoDBObjectMapper.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *indexName</Declaration>
+			<Declaration>@property (nonatomic, strong) NSNumber *writeCapacityUnits</Declaration>
 			
 			
-			<Anchor>//api/name/indexName</Anchor>
-            <NodeRef refid="231"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSDynamoDBQueryExpression/indexName</TokenIdentifier>
-			<Abstract type="html">The index name.</Abstract>
-			<DeclaredIn>AWSDynamoDBObjectMapper.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *indexName</Declaration>
-			
-			
-			<Anchor>//api/name/indexName</Anchor>
-            <NodeRef refid="231"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSDynamoDBQueryExpression/indexName</TokenIdentifier>
-			<Abstract type="html">The index name.</Abstract>
-			<DeclaredIn>AWSDynamoDBObjectMapper.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *indexName</Declaration>
-			
-			
-			<Anchor>//api/name/indexName</Anchor>
+			<Anchor>//api/name/writeCapacityUnits</Anchor>
             <NodeRef refid="231"/>
 		</Token>
 		

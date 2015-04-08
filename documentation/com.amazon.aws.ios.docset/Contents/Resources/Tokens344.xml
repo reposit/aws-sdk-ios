@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSEC2DeleteSubnetRequest.html">
+	<File path="Classes/AWSEC2DeleteRouteRequest.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSEC2DeleteSubnetRequest</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSEC2DeleteRouteRequest</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
             
@@ -13,7 +13,43 @@
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DeleteSubnetRequest/setDryRun:</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DeleteRouteRequest/setDestinationCidrBlock:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The CIDR range for the route. The value you specify must match the CIDR for the route exactly.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *destinationCidrBlock</Declaration>
+			
+			
+			<Anchor>//api/name/destinationCidrBlock</Anchor>
+            <NodeRef refid="344"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DeleteRouteRequest/destinationCidrBlock</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The CIDR range for the route. The value you specify must match the CIDR for the route exactly.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *destinationCidrBlock</Declaration>
+			
+			
+			<Anchor>//api/name/destinationCidrBlock</Anchor>
+            <NodeRef refid="344"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2DeleteRouteRequest/destinationCidrBlock</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The CIDR range for the route. The value you specify must match the CIDR for the route exactly.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *destinationCidrBlock</Declaration>
+			
+			
+			<Anchor>//api/name/destinationCidrBlock</Anchor>
+            <NodeRef refid="344"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DeleteRouteRequest/setDryRun:</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
@@ -25,7 +61,7 @@
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DeleteSubnetRequest/dryRun</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DeleteRouteRequest/dryRun</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
@@ -37,7 +73,7 @@
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2DeleteSubnetRequest/dryRun</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2DeleteRouteRequest/dryRun</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
@@ -49,38 +85,38 @@
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DeleteSubnetRequest/setSubnetId:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The ID of the subnet.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DeleteRouteRequest/setRouteTableId:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the route table.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *subnetId</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *routeTableId</Declaration>
 			
 			
-			<Anchor>//api/name/subnetId</Anchor>
+			<Anchor>//api/name/routeTableId</Anchor>
             <NodeRef refid="344"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DeleteSubnetRequest/subnetId</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The ID of the subnet.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DeleteRouteRequest/routeTableId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the route table.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *subnetId</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *routeTableId</Declaration>
 			
 			
-			<Anchor>//api/name/subnetId</Anchor>
+			<Anchor>//api/name/routeTableId</Anchor>
             <NodeRef refid="344"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2DeleteSubnetRequest/subnetId</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The ID of the subnet.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2DeleteRouteRequest/routeTableId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the route table.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *subnetId</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *routeTableId</Declaration>
 			
 			
-			<Anchor>//api/name/subnetId</Anchor>
+			<Anchor>//api/name/routeTableId</Anchor>
             <NodeRef refid="344"/>
 		</Token>
 		

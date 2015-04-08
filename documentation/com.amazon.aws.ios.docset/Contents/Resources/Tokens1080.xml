@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Constants/AWSEC2AvailabilityZoneState.html">
+	<File path="Constants/AWSCloudWatchErrorType.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/c/tdef/AWSEC2AvailabilityZoneState</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/c/tdef/AWSCloudWatchErrorType</TokenIdentifier>
+			<Abstract type="html">Copyright 2010-2015 Amazon.com, Inc. or its affiliates. All Rights Reserved.</Abstract>
+			<DeclaredIn>AWSCloudWatchModel.h</DeclaredIn>
             
 			
 			<NodeRef refid="1080"/>
@@ -14,21 +14,121 @@
 		
         
         <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSEC2AvailabilityZoneStateUnknown</TokenIdentifier>
+            <TokenIdentifier>//apple_ref/c/econst/AWSCloudWatchErrorUnknown</TokenIdentifier>
             <Abstract type="html"></Abstract>
-            <Declaration>AWSEC2AvailabilityZoneStateUnknown</Declaration>
+            <Declaration>AWSCloudWatchErrorUnknown</Declaration>
             
-            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
+            <DeclaredIn>AWSCloudWatchModel.h</DeclaredIn>
             
             <NodeRef refid="1080"/>
         </Token>
         
         <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSEC2AvailabilityZoneStateAvailable</TokenIdentifier>
+            <TokenIdentifier>//apple_ref/c/econst/AWSCloudWatchErrorIncompleteSignature</TokenIdentifier>
             <Abstract type="html"></Abstract>
-            <Declaration>AWSEC2AvailabilityZoneStateAvailable</Declaration>
+            <Declaration>AWSCloudWatchErrorIncompleteSignature</Declaration>
             
-            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
+            <DeclaredIn>AWSCloudWatchModel.h</DeclaredIn>
+            
+            <NodeRef refid="1080"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/AWSCloudWatchErrorInvalidClientTokenId</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>AWSCloudWatchErrorInvalidClientTokenId</Declaration>
+            
+            <DeclaredIn>AWSCloudWatchModel.h</DeclaredIn>
+            
+            <NodeRef refid="1080"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/AWSCloudWatchErrorMissingAuthenticationToken</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>AWSCloudWatchErrorMissingAuthenticationToken</Declaration>
+            
+            <DeclaredIn>AWSCloudWatchModel.h</DeclaredIn>
+            
+            <NodeRef refid="1080"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/AWSCloudWatchErrorInternalService</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>AWSCloudWatchErrorInternalService</Declaration>
+            
+            <DeclaredIn>AWSCloudWatchModel.h</DeclaredIn>
+            
+            <NodeRef refid="1080"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/AWSCloudWatchErrorInvalidFormat</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>AWSCloudWatchErrorInvalidFormat</Declaration>
+            
+            <DeclaredIn>AWSCloudWatchModel.h</DeclaredIn>
+            
+            <NodeRef refid="1080"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/AWSCloudWatchErrorInvalidNextToken</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>AWSCloudWatchErrorInvalidNextToken</Declaration>
+            
+            <DeclaredIn>AWSCloudWatchModel.h</DeclaredIn>
+            
+            <NodeRef refid="1080"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/AWSCloudWatchErrorInvalidParameterCombination</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>AWSCloudWatchErrorInvalidParameterCombination</Declaration>
+            
+            <DeclaredIn>AWSCloudWatchModel.h</DeclaredIn>
+            
+            <NodeRef refid="1080"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/AWSCloudWatchErrorInvalidParameterValue</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>AWSCloudWatchErrorInvalidParameterValue</Declaration>
+            
+            <DeclaredIn>AWSCloudWatchModel.h</DeclaredIn>
+            
+            <NodeRef refid="1080"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/AWSCloudWatchErrorLimitExceeded</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>AWSCloudWatchErrorLimitExceeded</Declaration>
+            
+            <DeclaredIn>AWSCloudWatchModel.h</DeclaredIn>
+            
+            <NodeRef refid="1080"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/AWSCloudWatchErrorMissingRequiredParameter</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>AWSCloudWatchErrorMissingRequiredParameter</Declaration>
+            
+            <DeclaredIn>AWSCloudWatchModel.h</DeclaredIn>
+            
+            <NodeRef refid="1080"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/AWSCloudWatchErrorResourceNotFound</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>AWSCloudWatchErrorResourceNotFound</Declaration>
+            
+            <DeclaredIn>AWSCloudWatchModel.h</DeclaredIn>
             
             <NodeRef refid="1080"/>
         </Token>

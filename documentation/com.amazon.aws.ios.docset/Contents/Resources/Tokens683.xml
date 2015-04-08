@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSElasticLoadBalancingPolicyDescription.html">
+	<File path="Classes/AWSElasticLoadBalancingModifyLoadBalancerAttributesInput.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSElasticLoadBalancingPolicyDescription</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSElasticLoadBalancingModifyLoadBalancerAttributesInput</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSElasticLoadBalancingModel.h</DeclaredIn>
             
@@ -13,110 +13,74 @@
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSElasticLoadBalancingPolicyDescription/setPolicyAttributeDescriptions:</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSElasticLoadBalancingModifyLoadBalancerAttributesInput/setLoadBalancerAttributes:</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSElasticLoadBalancingModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSArray *policyAttributeDescriptions</Declaration>
+			<Declaration>@property (nonatomic, strong) AWSElasticLoadBalancingLoadBalancerAttributes *loadBalancerAttributes</Declaration>
 			
 			
-			<Anchor>//api/name/policyAttributeDescriptions</Anchor>
+			<Anchor>//api/name/loadBalancerAttributes</Anchor>
             <NodeRef refid="683"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSElasticLoadBalancingPolicyDescription/policyAttributeDescriptions</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSElasticLoadBalancingModifyLoadBalancerAttributesInput/loadBalancerAttributes</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSElasticLoadBalancingModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSArray *policyAttributeDescriptions</Declaration>
+			<Declaration>@property (nonatomic, strong) AWSElasticLoadBalancingLoadBalancerAttributes *loadBalancerAttributes</Declaration>
 			
 			
-			<Anchor>//api/name/policyAttributeDescriptions</Anchor>
+			<Anchor>//api/name/loadBalancerAttributes</Anchor>
             <NodeRef refid="683"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSElasticLoadBalancingPolicyDescription/policyAttributeDescriptions</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSElasticLoadBalancingModifyLoadBalancerAttributesInput/loadBalancerAttributes</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSElasticLoadBalancingModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSArray *policyAttributeDescriptions</Declaration>
+			<Declaration>@property (nonatomic, strong) AWSElasticLoadBalancingLoadBalancerAttributes *loadBalancerAttributes</Declaration>
 			
 			
-			<Anchor>//api/name/policyAttributeDescriptions</Anchor>
+			<Anchor>//api/name/loadBalancerAttributes</Anchor>
             <NodeRef refid="683"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSElasticLoadBalancingPolicyDescription/setPolicyName:</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSElasticLoadBalancingModifyLoadBalancerAttributesInput/setLoadBalancerName:</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSElasticLoadBalancingModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *policyName</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *loadBalancerName</Declaration>
 			
 			
-			<Anchor>//api/name/policyName</Anchor>
+			<Anchor>//api/name/loadBalancerName</Anchor>
             <NodeRef refid="683"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSElasticLoadBalancingPolicyDescription/policyName</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSElasticLoadBalancingModifyLoadBalancerAttributesInput/loadBalancerName</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSElasticLoadBalancingModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *policyName</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *loadBalancerName</Declaration>
 			
 			
-			<Anchor>//api/name/policyName</Anchor>
+			<Anchor>//api/name/loadBalancerName</Anchor>
             <NodeRef refid="683"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSElasticLoadBalancingPolicyDescription/policyName</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSElasticLoadBalancingModifyLoadBalancerAttributesInput/loadBalancerName</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSElasticLoadBalancingModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *policyName</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *loadBalancerName</Declaration>
 			
 			
-			<Anchor>//api/name/policyName</Anchor>
-            <NodeRef refid="683"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSElasticLoadBalancingPolicyDescription/setPolicyTypeName:</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSElasticLoadBalancingModel.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *policyTypeName</Declaration>
-			
-			
-			<Anchor>//api/name/policyTypeName</Anchor>
-            <NodeRef refid="683"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSElasticLoadBalancingPolicyDescription/policyTypeName</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSElasticLoadBalancingModel.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *policyTypeName</Declaration>
-			
-			
-			<Anchor>//api/name/policyTypeName</Anchor>
-            <NodeRef refid="683"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSElasticLoadBalancingPolicyDescription/policyTypeName</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSElasticLoadBalancingModel.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *policyTypeName</Declaration>
-			
-			
-			<Anchor>//api/name/policyTypeName</Anchor>
+			<Anchor>//api/name/loadBalancerName</Anchor>
             <NodeRef refid="683"/>
 		</Token>
 		

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSEC2ModifyVolumeAttributeRequest.html">
+	<File path="Classes/AWSEC2ModifyNetworkInterfaceAttributeRequest.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSEC2ModifyVolumeAttributeRequest</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSEC2ModifyNetworkInterfaceAttributeRequest</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
             
@@ -13,43 +13,79 @@
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ModifyVolumeAttributeRequest/setAutoEnableIO:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Indicates whether the volume should be auto-enabled for I/O operations.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ModifyNetworkInterfaceAttributeRequest/setAttachment:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Information about the interface attachment. If modifying the &apos;delete on termination&apos; attribute, you must specify the ID of the interface attachment.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) AWSEC2AttributeBooleanValue *autoEnableIO</Declaration>
+			<Declaration>@property (nonatomic, strong) AWSEC2NetworkInterfaceAttachmentChanges *attachment</Declaration>
 			
 			
-			<Anchor>//api/name/autoEnableIO</Anchor>
+			<Anchor>//api/name/attachment</Anchor>
             <NodeRef refid="511"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ModifyVolumeAttributeRequest/autoEnableIO</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Indicates whether the volume should be auto-enabled for I/O operations.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ModifyNetworkInterfaceAttributeRequest/attachment</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Information about the interface attachment. If modifying the &apos;delete on termination&apos; attribute, you must specify the ID of the interface attachment.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) AWSEC2AttributeBooleanValue *autoEnableIO</Declaration>
+			<Declaration>@property (nonatomic, strong) AWSEC2NetworkInterfaceAttachmentChanges *attachment</Declaration>
 			
 			
-			<Anchor>//api/name/autoEnableIO</Anchor>
+			<Anchor>//api/name/attachment</Anchor>
             <NodeRef refid="511"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2ModifyVolumeAttributeRequest/autoEnableIO</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Indicates whether the volume should be auto-enabled for I/O operations.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2ModifyNetworkInterfaceAttributeRequest/attachment</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Information about the interface attachment. If modifying the &apos;delete on termination&apos; attribute, you must specify the ID of the interface attachment.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) AWSEC2AttributeBooleanValue *autoEnableIO</Declaration>
+			<Declaration>@property (nonatomic, strong) AWSEC2NetworkInterfaceAttachmentChanges *attachment</Declaration>
 			
 			
-			<Anchor>//api/name/autoEnableIO</Anchor>
+			<Anchor>//api/name/attachment</Anchor>
             <NodeRef refid="511"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ModifyVolumeAttributeRequest/setDryRun:</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ModifyNetworkInterfaceAttributeRequest/setDetail:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;A description for the network interface.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) AWSEC2AttributeValue *detail</Declaration>
+			
+			
+			<Anchor>//api/name/detail</Anchor>
+            <NodeRef refid="511"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ModifyNetworkInterfaceAttributeRequest/detail</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;A description for the network interface.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) AWSEC2AttributeValue *detail</Declaration>
+			
+			
+			<Anchor>//api/name/detail</Anchor>
+            <NodeRef refid="511"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2ModifyNetworkInterfaceAttributeRequest/detail</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;A description for the network interface.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) AWSEC2AttributeValue *detail</Declaration>
+			
+			
+			<Anchor>//api/name/detail</Anchor>
+            <NodeRef refid="511"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ModifyNetworkInterfaceAttributeRequest/setDryRun:</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
@@ -61,7 +97,7 @@
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ModifyVolumeAttributeRequest/dryRun</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ModifyNetworkInterfaceAttributeRequest/dryRun</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
@@ -73,7 +109,7 @@
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2ModifyVolumeAttributeRequest/dryRun</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2ModifyNetworkInterfaceAttributeRequest/dryRun</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
@@ -85,38 +121,110 @@
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ModifyVolumeAttributeRequest/setVolumeId:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The ID of the volume.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ModifyNetworkInterfaceAttributeRequest/setGroups:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Changes the security groups for the network interface. The new set of groups you specify replaces the current set. You must specify at least one group, even if it&apos;s just the default security group in the VPC. You must specify the ID of the security group, not the name.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *volumeId</Declaration>
+			<Declaration>@property (nonatomic, strong) NSArray *groups</Declaration>
 			
 			
-			<Anchor>//api/name/volumeId</Anchor>
+			<Anchor>//api/name/groups</Anchor>
             <NodeRef refid="511"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ModifyVolumeAttributeRequest/volumeId</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The ID of the volume.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ModifyNetworkInterfaceAttributeRequest/groups</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Changes the security groups for the network interface. The new set of groups you specify replaces the current set. You must specify at least one group, even if it&apos;s just the default security group in the VPC. You must specify the ID of the security group, not the name.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *volumeId</Declaration>
+			<Declaration>@property (nonatomic, strong) NSArray *groups</Declaration>
 			
 			
-			<Anchor>//api/name/volumeId</Anchor>
+			<Anchor>//api/name/groups</Anchor>
             <NodeRef refid="511"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2ModifyVolumeAttributeRequest/volumeId</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The ID of the volume.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2ModifyNetworkInterfaceAttributeRequest/groups</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Changes the security groups for the network interface. The new set of groups you specify replaces the current set. You must specify at least one group, even if it&apos;s just the default security group in the VPC. You must specify the ID of the security group, not the name.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *volumeId</Declaration>
+			<Declaration>@property (nonatomic, strong) NSArray *groups</Declaration>
 			
 			
-			<Anchor>//api/name/volumeId</Anchor>
+			<Anchor>//api/name/groups</Anchor>
+            <NodeRef refid="511"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ModifyNetworkInterfaceAttributeRequest/setNetworkInterfaceId:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the network interface.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *networkInterfaceId</Declaration>
+			
+			
+			<Anchor>//api/name/networkInterfaceId</Anchor>
+            <NodeRef refid="511"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ModifyNetworkInterfaceAttributeRequest/networkInterfaceId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the network interface.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *networkInterfaceId</Declaration>
+			
+			
+			<Anchor>//api/name/networkInterfaceId</Anchor>
+            <NodeRef refid="511"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2ModifyNetworkInterfaceAttributeRequest/networkInterfaceId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the network interface.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *networkInterfaceId</Declaration>
+			
+			
+			<Anchor>//api/name/networkInterfaceId</Anchor>
+            <NodeRef refid="511"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ModifyNetworkInterfaceAttributeRequest/setSourceDestCheck:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Indicates whether source/destination checking is enabled. A value of &lt;code&gt;true&lt;/code&gt; means checking is enabled, and &lt;code&gt;false&lt;/code&gt; means checking is disabled. This value must be &lt;code&gt;false&lt;/code&gt; for a NAT instance to perform NAT. For more information, see NAT Instances in the &lt;i&gt;Amazon Virtual Private Cloud User Guide&lt;/i&gt;.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) AWSEC2AttributeBooleanValue *sourceDestCheck</Declaration>
+			
+			
+			<Anchor>//api/name/sourceDestCheck</Anchor>
+            <NodeRef refid="511"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ModifyNetworkInterfaceAttributeRequest/sourceDestCheck</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Indicates whether source/destination checking is enabled. A value of &lt;code&gt;true&lt;/code&gt; means checking is enabled, and &lt;code&gt;false&lt;/code&gt; means checking is disabled. This value must be &lt;code&gt;false&lt;/code&gt; for a NAT instance to perform NAT. For more information, see NAT Instances in the &lt;i&gt;Amazon Virtual Private Cloud User Guide&lt;/i&gt;.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) AWSEC2AttributeBooleanValue *sourceDestCheck</Declaration>
+			
+			
+			<Anchor>//api/name/sourceDestCheck</Anchor>
+            <NodeRef refid="511"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2ModifyNetworkInterfaceAttributeRequest/sourceDestCheck</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Indicates whether source/destination checking is enabled. A value of &lt;code&gt;true&lt;/code&gt; means checking is enabled, and &lt;code&gt;false&lt;/code&gt; means checking is disabled. This value must be &lt;code&gt;false&lt;/code&gt; for a NAT instance to perform NAT. For more information, see NAT Instances in the &lt;i&gt;Amazon Virtual Private Cloud User Guide&lt;/i&gt;.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) AWSEC2AttributeBooleanValue *sourceDestCheck</Declaration>
+			
+			
+			<Anchor>//api/name/sourceDestCheck</Anchor>
             <NodeRef refid="511"/>
 		</Token>
 		

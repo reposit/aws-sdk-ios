@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSEC2InstanceNetworkInterfaceAttachment.html">
+	<File path="Classes/AWSEC2InstanceCount.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSEC2InstanceNetworkInterfaceAttachment</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Describes a network interface attachment.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSEC2InstanceCount</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Describes a Reserved Instance listing state.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
             
 			
@@ -13,182 +13,74 @@
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2InstanceNetworkInterfaceAttachment/setAttachTime:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The time stamp when the attachment initiated.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2InstanceCount/setInstanceCount:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;he number of listed Reserved Instances in the state specified by the &lt;code&gt;state&lt;/code&gt;.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSDate *attachTime</Declaration>
+			<Declaration>@property (nonatomic, strong) NSNumber *instanceCount</Declaration>
 			
 			
-			<Anchor>//api/name/attachTime</Anchor>
+			<Anchor>//api/name/instanceCount</Anchor>
             <NodeRef refid="485"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2InstanceNetworkInterfaceAttachment/attachTime</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The time stamp when the attachment initiated.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2InstanceCount/instanceCount</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;he number of listed Reserved Instances in the state specified by the &lt;code&gt;state&lt;/code&gt;.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSDate *attachTime</Declaration>
+			<Declaration>@property (nonatomic, strong) NSNumber *instanceCount</Declaration>
 			
 			
-			<Anchor>//api/name/attachTime</Anchor>
+			<Anchor>//api/name/instanceCount</Anchor>
             <NodeRef refid="485"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2InstanceNetworkInterfaceAttachment/attachTime</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The time stamp when the attachment initiated.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2InstanceCount/instanceCount</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;he number of listed Reserved Instances in the state specified by the &lt;code&gt;state&lt;/code&gt;.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSDate *attachTime</Declaration>
+			<Declaration>@property (nonatomic, strong) NSNumber *instanceCount</Declaration>
 			
 			
-			<Anchor>//api/name/attachTime</Anchor>
+			<Anchor>//api/name/instanceCount</Anchor>
             <NodeRef refid="485"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2InstanceNetworkInterfaceAttachment/setAttachmentId:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The ID of the network interface attachment.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2InstanceCount/setState:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The states of the listed Reserved Instances.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *attachmentId</Declaration>
+			<Declaration>@property (nonatomic, assign) AWSEC2ListingState state</Declaration>
 			
 			
-			<Anchor>//api/name/attachmentId</Anchor>
+			<Anchor>//api/name/state</Anchor>
             <NodeRef refid="485"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2InstanceNetworkInterfaceAttachment/attachmentId</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The ID of the network interface attachment.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2InstanceCount/state</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The states of the listed Reserved Instances.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *attachmentId</Declaration>
+			<Declaration>@property (nonatomic, assign) AWSEC2ListingState state</Declaration>
 			
 			
-			<Anchor>//api/name/attachmentId</Anchor>
+			<Anchor>//api/name/state</Anchor>
             <NodeRef refid="485"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2InstanceNetworkInterfaceAttachment/attachmentId</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The ID of the network interface attachment.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2InstanceCount/state</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The states of the listed Reserved Instances.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *attachmentId</Declaration>
+			<Declaration>@property (nonatomic, assign) AWSEC2ListingState state</Declaration>
 			
 			
-			<Anchor>//api/name/attachmentId</Anchor>
-            <NodeRef refid="485"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2InstanceNetworkInterfaceAttachment/setDeleteOnTermination:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Indicates whether the network interface is deleted when the instance is terminated.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSNumber *deleteOnTermination</Declaration>
-			
-			
-			<Anchor>//api/name/deleteOnTermination</Anchor>
-            <NodeRef refid="485"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2InstanceNetworkInterfaceAttachment/deleteOnTermination</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Indicates whether the network interface is deleted when the instance is terminated.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSNumber *deleteOnTermination</Declaration>
-			
-			
-			<Anchor>//api/name/deleteOnTermination</Anchor>
-            <NodeRef refid="485"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2InstanceNetworkInterfaceAttachment/deleteOnTermination</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Indicates whether the network interface is deleted when the instance is terminated.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSNumber *deleteOnTermination</Declaration>
-			
-			
-			<Anchor>//api/name/deleteOnTermination</Anchor>
-            <NodeRef refid="485"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2InstanceNetworkInterfaceAttachment/setDeviceIndex:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The index of the device on the instance for the network interface attachment.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSNumber *deviceIndex</Declaration>
-			
-			
-			<Anchor>//api/name/deviceIndex</Anchor>
-            <NodeRef refid="485"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2InstanceNetworkInterfaceAttachment/deviceIndex</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The index of the device on the instance for the network interface attachment.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSNumber *deviceIndex</Declaration>
-			
-			
-			<Anchor>//api/name/deviceIndex</Anchor>
-            <NodeRef refid="485"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2InstanceNetworkInterfaceAttachment/deviceIndex</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The index of the device on the instance for the network interface attachment.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSNumber *deviceIndex</Declaration>
-			
-			
-			<Anchor>//api/name/deviceIndex</Anchor>
-            <NodeRef refid="485"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2InstanceNetworkInterfaceAttachment/setStatus:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The attachment state.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, assign) AWSEC2AttachmentStatus status</Declaration>
-			
-			
-			<Anchor>//api/name/status</Anchor>
-            <NodeRef refid="485"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2InstanceNetworkInterfaceAttachment/status</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The attachment state.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, assign) AWSEC2AttachmentStatus status</Declaration>
-			
-			
-			<Anchor>//api/name/status</Anchor>
-            <NodeRef refid="485"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2InstanceNetworkInterfaceAttachment/status</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The attachment state.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, assign) AWSEC2AttachmentStatus status</Declaration>
-			
-			
-			<Anchor>//api/name/status</Anchor>
+			<Anchor>//api/name/state</Anchor>
             <NodeRef refid="485"/>
 		</Token>
 		

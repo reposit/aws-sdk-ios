@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSCognitoIdentityCreateIdentityPoolInput.html">
+	<File path="Classes/AWSCognitoDatasetMetadata.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSCognitoIdentityCreateIdentityPoolInput</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Input to the CreateIdentityPool action.&lt;/p&gt;
-Required parameters: [IdentityPoolName, AllowUnauthenticatedIdentities]</Abstract>
-			<DeclaredIn>AWSCognitoIdentityModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSCognitoDatasetMetadata</TokenIdentifier>
+			<Abstract type="html">Copyright 2015 Amazon.com, Inc. or its affiliates. All Rights Reserved.</Abstract>
+			<DeclaredIn>AWSCognitoDataset.h</DeclaredIn>
             
 			
 			<NodeRef refid="119"/>
@@ -14,182 +13,266 @@ Required parameters: [IdentityPoolName, AllowUnauthenticatedIdentities]</Abstrac
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoIdentityCreateIdentityPoolInput/setAllowUnauthenticatedIdentities:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;TRUE if the identity pool supports unauthenticated logins.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSCognitoIdentityModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoDatasetMetadata/setName:</TokenIdentifier>
+			<Abstract type="html">The name of this dataset</Abstract>
+			<DeclaredIn>AWSCognitoDataset.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSNumber *allowUnauthenticatedIdentities</Declaration>
+			<Declaration>@property (nonatomic, readonly) NSString *name</Declaration>
 			
 			
-			<Anchor>//api/name/allowUnauthenticatedIdentities</Anchor>
+			<Anchor>//api/name/name</Anchor>
             <NodeRef refid="119"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoIdentityCreateIdentityPoolInput/allowUnauthenticatedIdentities</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;TRUE if the identity pool supports unauthenticated logins.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSCognitoIdentityModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoDatasetMetadata/name</TokenIdentifier>
+			<Abstract type="html">The name of this dataset</Abstract>
+			<DeclaredIn>AWSCognitoDataset.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSNumber *allowUnauthenticatedIdentities</Declaration>
+			<Declaration>@property (nonatomic, readonly) NSString *name</Declaration>
 			
 			
-			<Anchor>//api/name/allowUnauthenticatedIdentities</Anchor>
+			<Anchor>//api/name/name</Anchor>
             <NodeRef refid="119"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSCognitoIdentityCreateIdentityPoolInput/allowUnauthenticatedIdentities</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;TRUE if the identity pool supports unauthenticated logins.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSCognitoIdentityModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSCognitoDatasetMetadata/name</TokenIdentifier>
+			<Abstract type="html">The name of this dataset</Abstract>
+			<DeclaredIn>AWSCognitoDataset.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSNumber *allowUnauthenticatedIdentities</Declaration>
+			<Declaration>@property (nonatomic, readonly) NSString *name</Declaration>
 			
 			
-			<Anchor>//api/name/allowUnauthenticatedIdentities</Anchor>
+			<Anchor>//api/name/name</Anchor>
             <NodeRef refid="119"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoIdentityCreateIdentityPoolInput/setDeveloperProviderName:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The &quot;domain&quot; by which Cognito will refer to your users. This name acts as a placeholder that allows your backend and the Cognito service to communicate about the developer provider. For the &lt;code&gt;DeveloperProviderName&lt;/code&gt;, you can use letters as well as period (&lt;code&gt;.&lt;/code&gt;), underscore (&lt;code&gt;_&lt;/code&gt;), and dash (&lt;code&gt;-&lt;/code&gt;).&lt;/p&gt;&lt;p&gt;Once you have set a developer provider name, you cannot change it. Please take care in setting this parameter.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSCognitoIdentityModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoDatasetMetadata/setLastSyncCount:</TokenIdentifier>
+			<Abstract type="html">The last sync count known on the client device.</Abstract>
+			<DeclaredIn>AWSCognitoDataset.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *developerProviderName</Declaration>
+			<Declaration>@property (nonatomic, readonly) NSNumber *lastSyncCount</Declaration>
 			
 			
-			<Anchor>//api/name/developerProviderName</Anchor>
+			<Anchor>//api/name/lastSyncCount</Anchor>
             <NodeRef refid="119"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoIdentityCreateIdentityPoolInput/developerProviderName</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The &quot;domain&quot; by which Cognito will refer to your users. This name acts as a placeholder that allows your backend and the Cognito service to communicate about the developer provider. For the &lt;code&gt;DeveloperProviderName&lt;/code&gt;, you can use letters as well as period (&lt;code&gt;.&lt;/code&gt;), underscore (&lt;code&gt;_&lt;/code&gt;), and dash (&lt;code&gt;-&lt;/code&gt;).&lt;/p&gt;&lt;p&gt;Once you have set a developer provider name, you cannot change it. Please take care in setting this parameter.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSCognitoIdentityModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoDatasetMetadata/lastSyncCount</TokenIdentifier>
+			<Abstract type="html">The last sync count known on the client device.</Abstract>
+			<DeclaredIn>AWSCognitoDataset.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *developerProviderName</Declaration>
+			<Declaration>@property (nonatomic, readonly) NSNumber *lastSyncCount</Declaration>
 			
 			
-			<Anchor>//api/name/developerProviderName</Anchor>
+			<Anchor>//api/name/lastSyncCount</Anchor>
             <NodeRef refid="119"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSCognitoIdentityCreateIdentityPoolInput/developerProviderName</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The &quot;domain&quot; by which Cognito will refer to your users. This name acts as a placeholder that allows your backend and the Cognito service to communicate about the developer provider. For the &lt;code&gt;DeveloperProviderName&lt;/code&gt;, you can use letters as well as period (&lt;code&gt;.&lt;/code&gt;), underscore (&lt;code&gt;_&lt;/code&gt;), and dash (&lt;code&gt;-&lt;/code&gt;).&lt;/p&gt;&lt;p&gt;Once you have set a developer provider name, you cannot change it. Please take care in setting this parameter.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSCognitoIdentityModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSCognitoDatasetMetadata/lastSyncCount</TokenIdentifier>
+			<Abstract type="html">The last sync count known on the client device.</Abstract>
+			<DeclaredIn>AWSCognitoDataset.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *developerProviderName</Declaration>
+			<Declaration>@property (nonatomic, readonly) NSNumber *lastSyncCount</Declaration>
 			
 			
-			<Anchor>//api/name/developerProviderName</Anchor>
+			<Anchor>//api/name/lastSyncCount</Anchor>
             <NodeRef refid="119"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoIdentityCreateIdentityPoolInput/setIdentityPoolName:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;A string that you provide.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSCognitoIdentityModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoDatasetMetadata/setCreationDate:</TokenIdentifier>
+			<Abstract type="html">The creation date of the dataset on the remote store.</Abstract>
+			<DeclaredIn>AWSCognitoDataset.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *identityPoolName</Declaration>
+			<Declaration>@property (nonatomic, readonly) NSDate *creationDate</Declaration>
 			
 			
-			<Anchor>//api/name/identityPoolName</Anchor>
+			<Anchor>//api/name/creationDate</Anchor>
             <NodeRef refid="119"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoIdentityCreateIdentityPoolInput/identityPoolName</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;A string that you provide.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSCognitoIdentityModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoDatasetMetadata/creationDate</TokenIdentifier>
+			<Abstract type="html">The creation date of the dataset on the remote store.</Abstract>
+			<DeclaredIn>AWSCognitoDataset.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *identityPoolName</Declaration>
+			<Declaration>@property (nonatomic, readonly) NSDate *creationDate</Declaration>
 			
 			
-			<Anchor>//api/name/identityPoolName</Anchor>
+			<Anchor>//api/name/creationDate</Anchor>
             <NodeRef refid="119"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSCognitoIdentityCreateIdentityPoolInput/identityPoolName</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;A string that you provide.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSCognitoIdentityModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSCognitoDatasetMetadata/creationDate</TokenIdentifier>
+			<Abstract type="html">The creation date of the dataset on the remote store.</Abstract>
+			<DeclaredIn>AWSCognitoDataset.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *identityPoolName</Declaration>
+			<Declaration>@property (nonatomic, readonly) NSDate *creationDate</Declaration>
 			
 			
-			<Anchor>//api/name/identityPoolName</Anchor>
+			<Anchor>//api/name/creationDate</Anchor>
             <NodeRef refid="119"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoIdentityCreateIdentityPoolInput/setOpenIdConnectProviderARNs:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;A list of OpendID Connect provider ARNs.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSCognitoIdentityModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoDatasetMetadata/setDataStorage:</TokenIdentifier>
+			<Abstract type="html">The amount of storage on the remote store this dataset uses.</Abstract>
+			<DeclaredIn>AWSCognitoDataset.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSArray *openIdConnectProviderARNs</Declaration>
+			<Declaration>@property (nonatomic, readonly) NSNumber *dataStorage</Declaration>
 			
 			
-			<Anchor>//api/name/openIdConnectProviderARNs</Anchor>
+			<Anchor>//api/name/dataStorage</Anchor>
             <NodeRef refid="119"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoIdentityCreateIdentityPoolInput/openIdConnectProviderARNs</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;A list of OpendID Connect provider ARNs.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSCognitoIdentityModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoDatasetMetadata/dataStorage</TokenIdentifier>
+			<Abstract type="html">The amount of storage on the remote store this dataset uses.</Abstract>
+			<DeclaredIn>AWSCognitoDataset.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSArray *openIdConnectProviderARNs</Declaration>
+			<Declaration>@property (nonatomic, readonly) NSNumber *dataStorage</Declaration>
 			
 			
-			<Anchor>//api/name/openIdConnectProviderARNs</Anchor>
+			<Anchor>//api/name/dataStorage</Anchor>
             <NodeRef refid="119"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSCognitoIdentityCreateIdentityPoolInput/openIdConnectProviderARNs</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;A list of OpendID Connect provider ARNs.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSCognitoIdentityModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSCognitoDatasetMetadata/dataStorage</TokenIdentifier>
+			<Abstract type="html">The amount of storage on the remote store this dataset uses.</Abstract>
+			<DeclaredIn>AWSCognitoDataset.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSArray *openIdConnectProviderARNs</Declaration>
+			<Declaration>@property (nonatomic, readonly) NSNumber *dataStorage</Declaration>
 			
 			
-			<Anchor>//api/name/openIdConnectProviderARNs</Anchor>
+			<Anchor>//api/name/dataStorage</Anchor>
             <NodeRef refid="119"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoIdentityCreateIdentityPoolInput/setSupportedLoginProviders:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Optional key:value pairs mapping provider names to provider app IDs.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSCognitoIdentityModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoDatasetMetadata/setLastModifiedBy:</TokenIdentifier>
+			<Abstract type="html">The id of the last device to modify this dataset.</Abstract>
+			<DeclaredIn>AWSCognitoDataset.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSDictionary *supportedLoginProviders</Declaration>
+			<Declaration>@property (nonatomic, readonly) NSString *lastModifiedBy</Declaration>
 			
 			
-			<Anchor>//api/name/supportedLoginProviders</Anchor>
+			<Anchor>//api/name/lastModifiedBy</Anchor>
             <NodeRef refid="119"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoIdentityCreateIdentityPoolInput/supportedLoginProviders</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Optional key:value pairs mapping provider names to provider app IDs.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSCognitoIdentityModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoDatasetMetadata/lastModifiedBy</TokenIdentifier>
+			<Abstract type="html">The id of the last device to modify this dataset.</Abstract>
+			<DeclaredIn>AWSCognitoDataset.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSDictionary *supportedLoginProviders</Declaration>
+			<Declaration>@property (nonatomic, readonly) NSString *lastModifiedBy</Declaration>
 			
 			
-			<Anchor>//api/name/supportedLoginProviders</Anchor>
+			<Anchor>//api/name/lastModifiedBy</Anchor>
             <NodeRef refid="119"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSCognitoIdentityCreateIdentityPoolInput/supportedLoginProviders</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Optional key:value pairs mapping provider names to provider app IDs.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSCognitoIdentityModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSCognitoDatasetMetadata/lastModifiedBy</TokenIdentifier>
+			<Abstract type="html">The id of the last device to modify this dataset.</Abstract>
+			<DeclaredIn>AWSCognitoDataset.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSDictionary *supportedLoginProviders</Declaration>
+			<Declaration>@property (nonatomic, readonly) NSString *lastModifiedBy</Declaration>
 			
 			
-			<Anchor>//api/name/supportedLoginProviders</Anchor>
+			<Anchor>//api/name/lastModifiedBy</Anchor>
+            <NodeRef refid="119"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoDatasetMetadata/setLastModifiedDate:</TokenIdentifier>
+			<Abstract type="html">The date this dataset was last modified</Abstract>
+			<DeclaredIn>AWSCognitoDataset.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSDate *lastModifiedDate</Declaration>
+			
+			
+			<Anchor>//api/name/lastModifiedDate</Anchor>
+            <NodeRef refid="119"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoDatasetMetadata/lastModifiedDate</TokenIdentifier>
+			<Abstract type="html">The date this dataset was last modified</Abstract>
+			<DeclaredIn>AWSCognitoDataset.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSDate *lastModifiedDate</Declaration>
+			
+			
+			<Anchor>//api/name/lastModifiedDate</Anchor>
+            <NodeRef refid="119"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSCognitoDatasetMetadata/lastModifiedDate</TokenIdentifier>
+			<Abstract type="html">The date this dataset was last modified</Abstract>
+			<DeclaredIn>AWSCognitoDataset.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSDate *lastModifiedDate</Declaration>
+			
+			
+			<Anchor>//api/name/lastModifiedDate</Anchor>
+            <NodeRef refid="119"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoDatasetMetadata/setNumRecords:</TokenIdentifier>
+			<Abstract type="html">The number of records in this dataset on the remote store.</Abstract>
+			<DeclaredIn>AWSCognitoDataset.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSNumber *numRecords</Declaration>
+			
+			
+			<Anchor>//api/name/numRecords</Anchor>
+            <NodeRef refid="119"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoDatasetMetadata/numRecords</TokenIdentifier>
+			<Abstract type="html">The number of records in this dataset on the remote store.</Abstract>
+			<DeclaredIn>AWSCognitoDataset.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSNumber *numRecords</Declaration>
+			
+			
+			<Anchor>//api/name/numRecords</Anchor>
+            <NodeRef refid="119"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSCognitoDatasetMetadata/numRecords</TokenIdentifier>
+			<Abstract type="html">The number of records in this dataset on the remote store.</Abstract>
+			<DeclaredIn>AWSCognitoDataset.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSNumber *numRecords</Declaration>
+			
+			
+			<Anchor>//api/name/numRecords</Anchor>
+            <NodeRef refid="119"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoDatasetMetadata/isDeleted</TokenIdentifier>
+			<Abstract type="html">Returns true if this dataset has been cleared locally, but not synchronized.</Abstract>
+			<DeclaredIn>AWSCognitoDataset.h</DeclaredIn>
+			
+			<Declaration>- (BOOL)isDeleted</Declaration>
+			
+			
+			<Anchor>//api/name/isDeleted</Anchor>
             <NodeRef refid="119"/>
 		</Token>
 		

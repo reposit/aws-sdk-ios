@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSEC2ImportInstanceVolumeDetailItem.html">
+	<File path="Classes/AWSEC2ImageAttribute.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSEC2ImportInstanceVolumeDetailItem</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Describes an import volume task.&lt;/p&gt;
-Required parameters: [BytesConverted, AvailabilityZone, Image, Volume, Status]</Abstract>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSEC2ImageAttribute</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Describes an image attribute.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
             
 			
@@ -14,83 +13,47 @@ Required parameters: [BytesConverted, AvailabilityZone, Image, Volume, Status]</
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ImportInstanceVolumeDetailItem/setAvailabilityZone:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The Availability Zone where the resulting instance will reside.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ImageAttribute/setBlockDeviceMappings:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;One or more block device mapping entries.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *availabilityZone</Declaration>
+			<Declaration>@property (nonatomic, strong) NSArray *blockDeviceMappings</Declaration>
 			
 			
-			<Anchor>//api/name/availabilityZone</Anchor>
+			<Anchor>//api/name/blockDeviceMappings</Anchor>
             <NodeRef refid="470"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ImportInstanceVolumeDetailItem/availabilityZone</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The Availability Zone where the resulting instance will reside.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ImageAttribute/blockDeviceMappings</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;One or more block device mapping entries.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *availabilityZone</Declaration>
+			<Declaration>@property (nonatomic, strong) NSArray *blockDeviceMappings</Declaration>
 			
 			
-			<Anchor>//api/name/availabilityZone</Anchor>
+			<Anchor>//api/name/blockDeviceMappings</Anchor>
             <NodeRef refid="470"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2ImportInstanceVolumeDetailItem/availabilityZone</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The Availability Zone where the resulting instance will reside.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2ImageAttribute/blockDeviceMappings</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;One or more block device mapping entries.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *availabilityZone</Declaration>
+			<Declaration>@property (nonatomic, strong) NSArray *blockDeviceMappings</Declaration>
 			
 			
-			<Anchor>//api/name/availabilityZone</Anchor>
+			<Anchor>//api/name/blockDeviceMappings</Anchor>
             <NodeRef refid="470"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ImportInstanceVolumeDetailItem/setBytesConverted:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The number of bytes converted so far.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ImageAttribute/setDetail:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;A description for the AMI.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSNumber *bytesConverted</Declaration>
-			
-			
-			<Anchor>//api/name/bytesConverted</Anchor>
-            <NodeRef refid="470"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ImportInstanceVolumeDetailItem/bytesConverted</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The number of bytes converted so far.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSNumber *bytesConverted</Declaration>
-			
-			
-			<Anchor>//api/name/bytesConverted</Anchor>
-            <NodeRef refid="470"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2ImportInstanceVolumeDetailItem/bytesConverted</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The number of bytes converted so far.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSNumber *bytesConverted</Declaration>
-			
-			
-			<Anchor>//api/name/bytesConverted</Anchor>
-            <NodeRef refid="470"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ImportInstanceVolumeDetailItem/setDetail:</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *detail</Declaration>
+			<Declaration>@property (nonatomic, strong) AWSEC2AttributeValue *detail</Declaration>
 			
 			
 			<Anchor>//api/name/detail</Anchor>
@@ -98,11 +61,11 @@ Required parameters: [BytesConverted, AvailabilityZone, Image, Volume, Status]</
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ImportInstanceVolumeDetailItem/detail</TokenIdentifier>
-			<Abstract type="html"></Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ImageAttribute/detail</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;A description for the AMI.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *detail</Declaration>
+			<Declaration>@property (nonatomic, strong) AWSEC2AttributeValue *detail</Declaration>
 			
 			
 			<Anchor>//api/name/detail</Anchor>
@@ -110,11 +73,11 @@ Required parameters: [BytesConverted, AvailabilityZone, Image, Volume, Status]</
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2ImportInstanceVolumeDetailItem/detail</TokenIdentifier>
-			<Abstract type="html"></Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2ImageAttribute/detail</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;A description for the AMI.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *detail</Declaration>
+			<Declaration>@property (nonatomic, strong) AWSEC2AttributeValue *detail</Declaration>
 			
 			
 			<Anchor>//api/name/detail</Anchor>
@@ -122,146 +85,218 @@ Required parameters: [BytesConverted, AvailabilityZone, Image, Volume, Status]</
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ImportInstanceVolumeDetailItem/setImage:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The image.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ImageAttribute/setImageId:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the AMI.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) AWSEC2DiskImageDescription *image</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *imageId</Declaration>
 			
 			
-			<Anchor>//api/name/image</Anchor>
+			<Anchor>//api/name/imageId</Anchor>
             <NodeRef refid="470"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ImportInstanceVolumeDetailItem/image</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The image.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ImageAttribute/imageId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the AMI.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) AWSEC2DiskImageDescription *image</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *imageId</Declaration>
 			
 			
-			<Anchor>//api/name/image</Anchor>
+			<Anchor>//api/name/imageId</Anchor>
             <NodeRef refid="470"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2ImportInstanceVolumeDetailItem/image</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The image.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2ImageAttribute/imageId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the AMI.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) AWSEC2DiskImageDescription *image</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *imageId</Declaration>
 			
 			
-			<Anchor>//api/name/image</Anchor>
+			<Anchor>//api/name/imageId</Anchor>
             <NodeRef refid="470"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ImportInstanceVolumeDetailItem/setStatus:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The status of the import of this particular disk image.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ImageAttribute/setKernelId:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The kernel ID.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *status</Declaration>
+			<Declaration>@property (nonatomic, strong) AWSEC2AttributeValue *kernelId</Declaration>
 			
 			
-			<Anchor>//api/name/status</Anchor>
+			<Anchor>//api/name/kernelId</Anchor>
             <NodeRef refid="470"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ImportInstanceVolumeDetailItem/status</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The status of the import of this particular disk image.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ImageAttribute/kernelId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The kernel ID.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *status</Declaration>
+			<Declaration>@property (nonatomic, strong) AWSEC2AttributeValue *kernelId</Declaration>
 			
 			
-			<Anchor>//api/name/status</Anchor>
+			<Anchor>//api/name/kernelId</Anchor>
             <NodeRef refid="470"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2ImportInstanceVolumeDetailItem/status</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The status of the import of this particular disk image.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2ImageAttribute/kernelId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The kernel ID.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *status</Declaration>
+			<Declaration>@property (nonatomic, strong) AWSEC2AttributeValue *kernelId</Declaration>
 			
 			
-			<Anchor>//api/name/status</Anchor>
+			<Anchor>//api/name/kernelId</Anchor>
             <NodeRef refid="470"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ImportInstanceVolumeDetailItem/setStatusMessage:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The status information or errors related to the disk image.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ImageAttribute/setLaunchPermissions:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;One or more launch permissions.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *statusMessage</Declaration>
+			<Declaration>@property (nonatomic, strong) NSArray *launchPermissions</Declaration>
 			
 			
-			<Anchor>//api/name/statusMessage</Anchor>
+			<Anchor>//api/name/launchPermissions</Anchor>
             <NodeRef refid="470"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ImportInstanceVolumeDetailItem/statusMessage</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The status information or errors related to the disk image.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ImageAttribute/launchPermissions</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;One or more launch permissions.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *statusMessage</Declaration>
+			<Declaration>@property (nonatomic, strong) NSArray *launchPermissions</Declaration>
 			
 			
-			<Anchor>//api/name/statusMessage</Anchor>
+			<Anchor>//api/name/launchPermissions</Anchor>
             <NodeRef refid="470"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2ImportInstanceVolumeDetailItem/statusMessage</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The status information or errors related to the disk image.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2ImageAttribute/launchPermissions</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;One or more launch permissions.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *statusMessage</Declaration>
+			<Declaration>@property (nonatomic, strong) NSArray *launchPermissions</Declaration>
 			
 			
-			<Anchor>//api/name/statusMessage</Anchor>
+			<Anchor>//api/name/launchPermissions</Anchor>
             <NodeRef refid="470"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ImportInstanceVolumeDetailItem/setVolume:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The volume.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ImageAttribute/setProductCodes:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;One or more product codes.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) AWSEC2DiskImageVolumeDescription *volume</Declaration>
+			<Declaration>@property (nonatomic, strong) NSArray *productCodes</Declaration>
 			
 			
-			<Anchor>//api/name/volume</Anchor>
+			<Anchor>//api/name/productCodes</Anchor>
             <NodeRef refid="470"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ImportInstanceVolumeDetailItem/volume</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The volume.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ImageAttribute/productCodes</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;One or more product codes.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) AWSEC2DiskImageVolumeDescription *volume</Declaration>
+			<Declaration>@property (nonatomic, strong) NSArray *productCodes</Declaration>
 			
 			
-			<Anchor>//api/name/volume</Anchor>
+			<Anchor>//api/name/productCodes</Anchor>
             <NodeRef refid="470"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2ImportInstanceVolumeDetailItem/volume</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The volume.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2ImageAttribute/productCodes</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;One or more product codes.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) AWSEC2DiskImageVolumeDescription *volume</Declaration>
+			<Declaration>@property (nonatomic, strong) NSArray *productCodes</Declaration>
 			
 			
-			<Anchor>//api/name/volume</Anchor>
+			<Anchor>//api/name/productCodes</Anchor>
+            <NodeRef refid="470"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ImageAttribute/setRamdiskId:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The RAM disk ID.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) AWSEC2AttributeValue *ramdiskId</Declaration>
+			
+			
+			<Anchor>//api/name/ramdiskId</Anchor>
+            <NodeRef refid="470"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ImageAttribute/ramdiskId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The RAM disk ID.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) AWSEC2AttributeValue *ramdiskId</Declaration>
+			
+			
+			<Anchor>//api/name/ramdiskId</Anchor>
+            <NodeRef refid="470"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2ImageAttribute/ramdiskId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The RAM disk ID.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) AWSEC2AttributeValue *ramdiskId</Declaration>
+			
+			
+			<Anchor>//api/name/ramdiskId</Anchor>
+            <NodeRef refid="470"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ImageAttribute/setSriovNetSupport:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The value to use for a resource attribute.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) AWSEC2AttributeValue *sriovNetSupport</Declaration>
+			
+			
+			<Anchor>//api/name/sriovNetSupport</Anchor>
+            <NodeRef refid="470"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ImageAttribute/sriovNetSupport</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The value to use for a resource attribute.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) AWSEC2AttributeValue *sriovNetSupport</Declaration>
+			
+			
+			<Anchor>//api/name/sriovNetSupport</Anchor>
+            <NodeRef refid="470"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2ImageAttribute/sriovNetSupport</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The value to use for a resource attribute.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) AWSEC2AttributeValue *sriovNetSupport</Declaration>
+			
+			
+			<Anchor>//api/name/sriovNetSupport</Anchor>
             <NodeRef refid="470"/>
 		</Token>
 		

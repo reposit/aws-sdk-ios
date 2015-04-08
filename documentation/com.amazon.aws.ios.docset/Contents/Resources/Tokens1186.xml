@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Constants/AWSSESErrorType.html">
+	<File path="Constants/AWSKinesisStreamStatus.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/c/tdef/AWSSESErrorType</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/c/tdef/AWSKinesisStreamStatus</TokenIdentifier>
 			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSSESModel.h</DeclaredIn>
+			<DeclaredIn>AWSKinesisModel.h</DeclaredIn>
             
 			
 			<NodeRef refid="1186"/>
@@ -14,51 +14,51 @@
 		
         
         <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSSESErrorUnknown</TokenIdentifier>
+            <TokenIdentifier>//apple_ref/c/econst/AWSKinesisStreamStatusUnknown</TokenIdentifier>
             <Abstract type="html"></Abstract>
-            <Declaration>AWSSESErrorUnknown</Declaration>
+            <Declaration>AWSKinesisStreamStatusUnknown</Declaration>
             
-            <DeclaredIn>AWSSESModel.h</DeclaredIn>
+            <DeclaredIn>AWSKinesisModel.h</DeclaredIn>
             
             <NodeRef refid="1186"/>
         </Token>
         
         <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSSESErrorIncompleteSignature</TokenIdentifier>
+            <TokenIdentifier>//apple_ref/c/econst/AWSKinesisStreamStatusCreating</TokenIdentifier>
             <Abstract type="html"></Abstract>
-            <Declaration>AWSSESErrorIncompleteSignature</Declaration>
+            <Declaration>AWSKinesisStreamStatusCreating</Declaration>
             
-            <DeclaredIn>AWSSESModel.h</DeclaredIn>
+            <DeclaredIn>AWSKinesisModel.h</DeclaredIn>
             
             <NodeRef refid="1186"/>
         </Token>
         
         <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSSESErrorInvalidClientTokenId</TokenIdentifier>
+            <TokenIdentifier>//apple_ref/c/econst/AWSKinesisStreamStatusDeleting</TokenIdentifier>
             <Abstract type="html"></Abstract>
-            <Declaration>AWSSESErrorInvalidClientTokenId</Declaration>
+            <Declaration>AWSKinesisStreamStatusDeleting</Declaration>
             
-            <DeclaredIn>AWSSESModel.h</DeclaredIn>
+            <DeclaredIn>AWSKinesisModel.h</DeclaredIn>
             
             <NodeRef refid="1186"/>
         </Token>
         
         <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSSESErrorMissingAuthenticationToken</TokenIdentifier>
+            <TokenIdentifier>//apple_ref/c/econst/AWSKinesisStreamStatusActive</TokenIdentifier>
             <Abstract type="html"></Abstract>
-            <Declaration>AWSSESErrorMissingAuthenticationToken</Declaration>
+            <Declaration>AWSKinesisStreamStatusActive</Declaration>
             
-            <DeclaredIn>AWSSESModel.h</DeclaredIn>
+            <DeclaredIn>AWSKinesisModel.h</DeclaredIn>
             
             <NodeRef refid="1186"/>
         </Token>
         
         <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSSESErrorMessageRejected</TokenIdentifier>
+            <TokenIdentifier>//apple_ref/c/econst/AWSKinesisStreamStatusUpdating</TokenIdentifier>
             <Abstract type="html"></Abstract>
-            <Declaration>AWSSESErrorMessageRejected</Declaration>
+            <Declaration>AWSKinesisStreamStatusUpdating</Declaration>
             
-            <DeclaredIn>AWSSESModel.h</DeclaredIn>
+            <DeclaredIn>AWSKinesisModel.h</DeclaredIn>
             
             <NodeRef refid="1186"/>
         </Token>

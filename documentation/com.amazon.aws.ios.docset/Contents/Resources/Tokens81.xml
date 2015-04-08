@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSAutoScalingSetInstanceHealthQuery.html">
+	<File path="Classes/AWSAutoScalingSetDesiredCapacityType.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSAutoScalingSetInstanceHealthQuery</TokenIdentifier>
-			<Abstract type="html"></Abstract>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSAutoScalingSetDesiredCapacityType</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;&lt;/p&gt;
+Required parameters: [AutoScalingGroupName, DesiredCapacity]</Abstract>
 			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
             
 			
@@ -13,110 +14,110 @@
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingSetInstanceHealthQuery/setHealthStatus:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt; The health status of the instance. Set to &lt;code&gt;Healthy&lt;/code&gt; if you want the instance to remain in service. Set to &lt;code&gt;Unhealthy&lt;/code&gt; if you want the instance to be out of service. Auto Scaling will terminate and replace the unhealthy instance. &lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingSetDesiredCapacityType/setAutoScalingGroupName:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; The name of the Auto Scaling group. &lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *healthStatus</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *autoScalingGroupName</Declaration>
 			
 			
-			<Anchor>//api/name/healthStatus</Anchor>
+			<Anchor>//api/name/autoScalingGroupName</Anchor>
             <NodeRef refid="81"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingSetInstanceHealthQuery/healthStatus</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt; The health status of the instance. Set to &lt;code&gt;Healthy&lt;/code&gt; if you want the instance to remain in service. Set to &lt;code&gt;Unhealthy&lt;/code&gt; if you want the instance to be out of service. Auto Scaling will terminate and replace the unhealthy instance. &lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingSetDesiredCapacityType/autoScalingGroupName</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; The name of the Auto Scaling group. &lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *healthStatus</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *autoScalingGroupName</Declaration>
 			
 			
-			<Anchor>//api/name/healthStatus</Anchor>
+			<Anchor>//api/name/autoScalingGroupName</Anchor>
             <NodeRef refid="81"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSAutoScalingSetInstanceHealthQuery/healthStatus</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt; The health status of the instance. Set to &lt;code&gt;Healthy&lt;/code&gt; if you want the instance to remain in service. Set to &lt;code&gt;Unhealthy&lt;/code&gt; if you want the instance to be out of service. Auto Scaling will terminate and replace the unhealthy instance. &lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSAutoScalingSetDesiredCapacityType/autoScalingGroupName</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; The name of the Auto Scaling group. &lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *healthStatus</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *autoScalingGroupName</Declaration>
 			
 			
-			<Anchor>//api/name/healthStatus</Anchor>
+			<Anchor>//api/name/autoScalingGroupName</Anchor>
             <NodeRef refid="81"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingSetInstanceHealthQuery/setInstanceId:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt; The identifier of the Amazon EC2 instance. &lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingSetDesiredCapacityType/setDesiredCapacity:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; The new capacity setting for the Auto Scaling group. &lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *instanceId</Declaration>
+			<Declaration>@property (nonatomic, strong) NSNumber *desiredCapacity</Declaration>
 			
 			
-			<Anchor>//api/name/instanceId</Anchor>
+			<Anchor>//api/name/desiredCapacity</Anchor>
             <NodeRef refid="81"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingSetInstanceHealthQuery/instanceId</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt; The identifier of the Amazon EC2 instance. &lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingSetDesiredCapacityType/desiredCapacity</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; The new capacity setting for the Auto Scaling group. &lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *instanceId</Declaration>
+			<Declaration>@property (nonatomic, strong) NSNumber *desiredCapacity</Declaration>
 			
 			
-			<Anchor>//api/name/instanceId</Anchor>
+			<Anchor>//api/name/desiredCapacity</Anchor>
             <NodeRef refid="81"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSAutoScalingSetInstanceHealthQuery/instanceId</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt; The identifier of the Amazon EC2 instance. &lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSAutoScalingSetDesiredCapacityType/desiredCapacity</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; The new capacity setting for the Auto Scaling group. &lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *instanceId</Declaration>
+			<Declaration>@property (nonatomic, strong) NSNumber *desiredCapacity</Declaration>
 			
 			
-			<Anchor>//api/name/instanceId</Anchor>
+			<Anchor>//api/name/desiredCapacity</Anchor>
             <NodeRef refid="81"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingSetInstanceHealthQuery/setShouldRespectGracePeriod:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;If the Auto Scaling group of the specified instance has a &lt;code&gt;HealthCheckGracePeriod&lt;/code&gt; specified for the group, by default, this call will respect the grace period. Set this to &lt;code&gt;False&lt;/code&gt;, if you do not want the call to respect the grace period associated with the group.&lt;/p&gt;&lt;p&gt;For more information, see the &lt;code&gt;HealthCheckGracePeriod&lt;/code&gt; parameter description in the &lt;a&gt;CreateAutoScalingGroup&lt;/a&gt; action. &lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingSetDesiredCapacityType/setHonorCooldown:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; By default, &lt;code&gt;SetDesiredCapacity&lt;/code&gt; overrides any cooldown period associated with the Auto Scaling group. Set to &lt;code&gt;True&lt;/code&gt; if you want Auto Scaling to wait for the cooldown period associated with the Auto Scaling group to complete before initiating a scaling activity to set your Auto Scaling group to the new capacity setting. &lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSNumber *shouldRespectGracePeriod</Declaration>
+			<Declaration>@property (nonatomic, strong) NSNumber *honorCooldown</Declaration>
 			
 			
-			<Anchor>//api/name/shouldRespectGracePeriod</Anchor>
+			<Anchor>//api/name/honorCooldown</Anchor>
             <NodeRef refid="81"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingSetInstanceHealthQuery/shouldRespectGracePeriod</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;If the Auto Scaling group of the specified instance has a &lt;code&gt;HealthCheckGracePeriod&lt;/code&gt; specified for the group, by default, this call will respect the grace period. Set this to &lt;code&gt;False&lt;/code&gt;, if you do not want the call to respect the grace period associated with the group.&lt;/p&gt;&lt;p&gt;For more information, see the &lt;code&gt;HealthCheckGracePeriod&lt;/code&gt; parameter description in the &lt;a&gt;CreateAutoScalingGroup&lt;/a&gt; action. &lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingSetDesiredCapacityType/honorCooldown</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; By default, &lt;code&gt;SetDesiredCapacity&lt;/code&gt; overrides any cooldown period associated with the Auto Scaling group. Set to &lt;code&gt;True&lt;/code&gt; if you want Auto Scaling to wait for the cooldown period associated with the Auto Scaling group to complete before initiating a scaling activity to set your Auto Scaling group to the new capacity setting. &lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSNumber *shouldRespectGracePeriod</Declaration>
+			<Declaration>@property (nonatomic, strong) NSNumber *honorCooldown</Declaration>
 			
 			
-			<Anchor>//api/name/shouldRespectGracePeriod</Anchor>
+			<Anchor>//api/name/honorCooldown</Anchor>
             <NodeRef refid="81"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSAutoScalingSetInstanceHealthQuery/shouldRespectGracePeriod</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;If the Auto Scaling group of the specified instance has a &lt;code&gt;HealthCheckGracePeriod&lt;/code&gt; specified for the group, by default, this call will respect the grace period. Set this to &lt;code&gt;False&lt;/code&gt;, if you do not want the call to respect the grace period associated with the group.&lt;/p&gt;&lt;p&gt;For more information, see the &lt;code&gt;HealthCheckGracePeriod&lt;/code&gt; parameter description in the &lt;a&gt;CreateAutoScalingGroup&lt;/a&gt; action. &lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSAutoScalingSetDesiredCapacityType/honorCooldown</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; By default, &lt;code&gt;SetDesiredCapacity&lt;/code&gt; overrides any cooldown period associated with the Auto Scaling group. Set to &lt;code&gt;True&lt;/code&gt; if you want Auto Scaling to wait for the cooldown period associated with the Auto Scaling group to complete before initiating a scaling activity to set your Auto Scaling group to the new capacity setting. &lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSNumber *shouldRespectGracePeriod</Declaration>
+			<Declaration>@property (nonatomic, strong) NSNumber *honorCooldown</Declaration>
 			
 			
-			<Anchor>//api/name/shouldRespectGracePeriod</Anchor>
+			<Anchor>//api/name/honorCooldown</Anchor>
             <NodeRef refid="81"/>
 		</Token>
 		

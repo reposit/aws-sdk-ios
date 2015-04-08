@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Constants/AWSS3TransitionStorageClass.html">
+	<File path="Constants/AWSKinesisRecorderErrorType.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/c/tdef/AWSS3TransitionStorageClass</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/c/tdef/AWSKinesisRecorderErrorType</TokenIdentifier>
 			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			<DeclaredIn>AWSKinesisRecorder.h</DeclaredIn>
             
 			
 			<NodeRef refid="1184"/>
@@ -14,21 +14,21 @@
 		
         
         <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSS3TransitionStorageClassUnknown</TokenIdentifier>
+            <TokenIdentifier>//apple_ref/c/econst/AWSKinesisRecorderErrorUnknown</TokenIdentifier>
             <Abstract type="html"></Abstract>
-            <Declaration>AWSS3TransitionStorageClassUnknown</Declaration>
+            <Declaration>AWSKinesisRecorderErrorUnknown</Declaration>
             
-            <DeclaredIn>AWSS3Model.h</DeclaredIn>
+            <DeclaredIn>AWSKinesisRecorder.h</DeclaredIn>
             
             <NodeRef refid="1184"/>
         </Token>
         
         <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSS3TransitionStorageClassGlacier</TokenIdentifier>
+            <TokenIdentifier>//apple_ref/c/econst/AWSKinesisRecorderErrorDataTooLarge</TokenIdentifier>
             <Abstract type="html"></Abstract>
-            <Declaration>AWSS3TransitionStorageClassGlacier</Declaration>
+            <Declaration>AWSKinesisRecorderErrorDataTooLarge</Declaration>
             
-            <DeclaredIn>AWSS3Model.h</DeclaredIn>
+            <DeclaredIn>AWSKinesisRecorder.h</DeclaredIn>
             
             <NodeRef refid="1184"/>
         </Token>

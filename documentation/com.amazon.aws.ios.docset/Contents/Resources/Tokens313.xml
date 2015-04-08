@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSEC2CreateSpotDatafeedSubscriptionRequest.html">
+	<File path="Classes/AWSEC2CreateRouteTableRequest.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSEC2CreateSpotDatafeedSubscriptionRequest</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSEC2CreateRouteTableRequest</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
             
@@ -13,43 +13,7 @@
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2CreateSpotDatafeedSubscriptionRequest/setBucket:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The Amazon S3 bucket in which to store the Spot Instance datafeed.&lt;/p&gt;&lt;p&gt;Constraints: Must be a valid bucket associated with your AWS account.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *bucket</Declaration>
-			
-			
-			<Anchor>//api/name/bucket</Anchor>
-            <NodeRef refid="313"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2CreateSpotDatafeedSubscriptionRequest/bucket</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The Amazon S3 bucket in which to store the Spot Instance datafeed.&lt;/p&gt;&lt;p&gt;Constraints: Must be a valid bucket associated with your AWS account.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *bucket</Declaration>
-			
-			
-			<Anchor>//api/name/bucket</Anchor>
-            <NodeRef refid="313"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2CreateSpotDatafeedSubscriptionRequest/bucket</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The Amazon S3 bucket in which to store the Spot Instance datafeed.&lt;/p&gt;&lt;p&gt;Constraints: Must be a valid bucket associated with your AWS account.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *bucket</Declaration>
-			
-			
-			<Anchor>//api/name/bucket</Anchor>
-            <NodeRef refid="313"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2CreateSpotDatafeedSubscriptionRequest/setDryRun:</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2CreateRouteTableRequest/setDryRun:</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
@@ -61,7 +25,7 @@
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2CreateSpotDatafeedSubscriptionRequest/dryRun</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2CreateRouteTableRequest/dryRun</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
@@ -73,7 +37,7 @@
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2CreateSpotDatafeedSubscriptionRequest/dryRun</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2CreateRouteTableRequest/dryRun</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
@@ -85,38 +49,38 @@
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2CreateSpotDatafeedSubscriptionRequest/setPrefix:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;A prefix for the datafeed file names.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2CreateRouteTableRequest/setVpcId:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the VPC.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *prefix</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *vpcId</Declaration>
 			
 			
-			<Anchor>//api/name/prefix</Anchor>
+			<Anchor>//api/name/vpcId</Anchor>
             <NodeRef refid="313"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2CreateSpotDatafeedSubscriptionRequest/prefix</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;A prefix for the datafeed file names.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2CreateRouteTableRequest/vpcId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the VPC.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *prefix</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *vpcId</Declaration>
 			
 			
-			<Anchor>//api/name/prefix</Anchor>
+			<Anchor>//api/name/vpcId</Anchor>
             <NodeRef refid="313"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2CreateSpotDatafeedSubscriptionRequest/prefix</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;A prefix for the datafeed file names.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2CreateRouteTableRequest/vpcId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the VPC.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *prefix</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *vpcId</Declaration>
 			
 			
-			<Anchor>//api/name/prefix</Anchor>
+			<Anchor>//api/name/vpcId</Anchor>
             <NodeRef refid="313"/>
 		</Token>
 		

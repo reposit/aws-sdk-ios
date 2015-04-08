@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Constants/AWSSESNotificationType.html">
+	<File path="Constants/AWSMobileAnalyticsERSErrorType.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/c/tdef/AWSSESNotificationType</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSSESModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/c/tdef/AWSMobileAnalyticsERSErrorType</TokenIdentifier>
+			<Abstract type="html">Copyright 2010-2015 Amazon.com, Inc. or its affiliates. All Rights Reserved.</Abstract>
+			<DeclaredIn>AWSMobileAnalyticsERSModel.h</DeclaredIn>
             
 			
 			<NodeRef refid="1188"/>
@@ -14,41 +14,51 @@
 		
         
         <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSSESNotificationTypeUnknown</TokenIdentifier>
+            <TokenIdentifier>//apple_ref/c/econst/AWSMobileAnalyticsERSErrorUnknown</TokenIdentifier>
             <Abstract type="html"></Abstract>
-            <Declaration>AWSSESNotificationTypeUnknown</Declaration>
+            <Declaration>AWSMobileAnalyticsERSErrorUnknown</Declaration>
             
-            <DeclaredIn>AWSSESModel.h</DeclaredIn>
+            <DeclaredIn>AWSMobileAnalyticsERSModel.h</DeclaredIn>
             
             <NodeRef refid="1188"/>
         </Token>
         
         <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSSESNotificationTypeBounce</TokenIdentifier>
+            <TokenIdentifier>//apple_ref/c/econst/AWSMobileAnalyticsERSErrorIncompleteSignature</TokenIdentifier>
             <Abstract type="html"></Abstract>
-            <Declaration>AWSSESNotificationTypeBounce</Declaration>
+            <Declaration>AWSMobileAnalyticsERSErrorIncompleteSignature</Declaration>
             
-            <DeclaredIn>AWSSESModel.h</DeclaredIn>
+            <DeclaredIn>AWSMobileAnalyticsERSModel.h</DeclaredIn>
             
             <NodeRef refid="1188"/>
         </Token>
         
         <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSSESNotificationTypeComplaint</TokenIdentifier>
+            <TokenIdentifier>//apple_ref/c/econst/AWSMobileAnalyticsERSErrorInvalidClientTokenId</TokenIdentifier>
             <Abstract type="html"></Abstract>
-            <Declaration>AWSSESNotificationTypeComplaint</Declaration>
+            <Declaration>AWSMobileAnalyticsERSErrorInvalidClientTokenId</Declaration>
             
-            <DeclaredIn>AWSSESModel.h</DeclaredIn>
+            <DeclaredIn>AWSMobileAnalyticsERSModel.h</DeclaredIn>
             
             <NodeRef refid="1188"/>
         </Token>
         
         <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSSESNotificationTypeDelivery</TokenIdentifier>
+            <TokenIdentifier>//apple_ref/c/econst/AWSMobileAnalyticsERSErrorMissingAuthenticationToken</TokenIdentifier>
             <Abstract type="html"></Abstract>
-            <Declaration>AWSSESNotificationTypeDelivery</Declaration>
+            <Declaration>AWSMobileAnalyticsERSErrorMissingAuthenticationToken</Declaration>
             
-            <DeclaredIn>AWSSESModel.h</DeclaredIn>
+            <DeclaredIn>AWSMobileAnalyticsERSModel.h</DeclaredIn>
+            
+            <NodeRef refid="1188"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/AWSMobileAnalyticsERSErrorBadRequest</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>AWSMobileAnalyticsERSErrorBadRequest</Declaration>
+            
+            <DeclaredIn>AWSMobileAnalyticsERSModel.h</DeclaredIn>
             
             <NodeRef refid="1188"/>
         </Token>

@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Constants/AWSKinesisStreamStatus.html">
+	<File path="Constants/AWSEC2RuleAction.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/c/tdef/AWSKinesisStreamStatus</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/c/tdef/AWSEC2RuleAction</TokenIdentifier>
 			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSKinesisModel.h</DeclaredIn>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
             
 			
 			<NodeRef refid="1155"/>
@@ -14,51 +14,31 @@
 		
         
         <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSKinesisStreamStatusUnknown</TokenIdentifier>
+            <TokenIdentifier>//apple_ref/c/econst/AWSEC2RuleActionUnknown</TokenIdentifier>
             <Abstract type="html"></Abstract>
-            <Declaration>AWSKinesisStreamStatusUnknown</Declaration>
+            <Declaration>AWSEC2RuleActionUnknown</Declaration>
             
-            <DeclaredIn>AWSKinesisModel.h</DeclaredIn>
+            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
             
             <NodeRef refid="1155"/>
         </Token>
         
         <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSKinesisStreamStatusCreating</TokenIdentifier>
+            <TokenIdentifier>//apple_ref/c/econst/AWSEC2RuleActionAllow</TokenIdentifier>
             <Abstract type="html"></Abstract>
-            <Declaration>AWSKinesisStreamStatusCreating</Declaration>
+            <Declaration>AWSEC2RuleActionAllow</Declaration>
             
-            <DeclaredIn>AWSKinesisModel.h</DeclaredIn>
+            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
             
             <NodeRef refid="1155"/>
         </Token>
         
         <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSKinesisStreamStatusDeleting</TokenIdentifier>
+            <TokenIdentifier>//apple_ref/c/econst/AWSEC2RuleActionDeny</TokenIdentifier>
             <Abstract type="html"></Abstract>
-            <Declaration>AWSKinesisStreamStatusDeleting</Declaration>
+            <Declaration>AWSEC2RuleActionDeny</Declaration>
             
-            <DeclaredIn>AWSKinesisModel.h</DeclaredIn>
-            
-            <NodeRef refid="1155"/>
-        </Token>
-        
-        <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSKinesisStreamStatusActive</TokenIdentifier>
-            <Abstract type="html"></Abstract>
-            <Declaration>AWSKinesisStreamStatusActive</Declaration>
-            
-            <DeclaredIn>AWSKinesisModel.h</DeclaredIn>
-            
-            <NodeRef refid="1155"/>
-        </Token>
-        
-        <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSKinesisStreamStatusUpdating</TokenIdentifier>
-            <Abstract type="html"></Abstract>
-            <Declaration>AWSKinesisStreamStatusUpdating</Declaration>
-            
-            <DeclaredIn>AWSKinesisModel.h</DeclaredIn>
+            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
             
             <NodeRef refid="1155"/>
         </Token>

@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Constants/AWSSTSErrorType.html">
+	<File path="Constants/AWSS3BucketCannedACL.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/c/tdef/AWSSTSErrorType</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/c/tdef/AWSS3BucketCannedACL</TokenIdentifier>
 			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSSTSModel.h</DeclaredIn>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
             
 			
 			<NodeRef refid="1193"/>
@@ -14,111 +14,51 @@
 		
         
         <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSSTSErrorUnknown</TokenIdentifier>
+            <TokenIdentifier>//apple_ref/c/econst/AWSS3BucketCannedACLUnknown</TokenIdentifier>
             <Abstract type="html"></Abstract>
-            <Declaration>AWSSTSErrorUnknown</Declaration>
+            <Declaration>AWSS3BucketCannedACLUnknown</Declaration>
             
-            <DeclaredIn>AWSSTSModel.h</DeclaredIn>
+            <DeclaredIn>AWSS3Model.h</DeclaredIn>
             
             <NodeRef refid="1193"/>
         </Token>
         
         <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSSTSErrorIncompleteSignature</TokenIdentifier>
+            <TokenIdentifier>//apple_ref/c/econst/AWSS3BucketCannedACLPrivate</TokenIdentifier>
             <Abstract type="html"></Abstract>
-            <Declaration>AWSSTSErrorIncompleteSignature</Declaration>
+            <Declaration>AWSS3BucketCannedACLPrivate</Declaration>
             
-            <DeclaredIn>AWSSTSModel.h</DeclaredIn>
+            <DeclaredIn>AWSS3Model.h</DeclaredIn>
             
             <NodeRef refid="1193"/>
         </Token>
         
         <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSSTSErrorInvalidClientTokenId</TokenIdentifier>
+            <TokenIdentifier>//apple_ref/c/econst/AWSS3BucketCannedACLPublicRead</TokenIdentifier>
             <Abstract type="html"></Abstract>
-            <Declaration>AWSSTSErrorInvalidClientTokenId</Declaration>
+            <Declaration>AWSS3BucketCannedACLPublicRead</Declaration>
             
-            <DeclaredIn>AWSSTSModel.h</DeclaredIn>
+            <DeclaredIn>AWSS3Model.h</DeclaredIn>
             
             <NodeRef refid="1193"/>
         </Token>
         
         <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSSTSErrorMissingAuthenticationToken</TokenIdentifier>
+            <TokenIdentifier>//apple_ref/c/econst/AWSS3BucketCannedACLPublicReadWrite</TokenIdentifier>
             <Abstract type="html"></Abstract>
-            <Declaration>AWSSTSErrorMissingAuthenticationToken</Declaration>
+            <Declaration>AWSS3BucketCannedACLPublicReadWrite</Declaration>
             
-            <DeclaredIn>AWSSTSModel.h</DeclaredIn>
+            <DeclaredIn>AWSS3Model.h</DeclaredIn>
             
             <NodeRef refid="1193"/>
         </Token>
         
         <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSSTSErrorExpiredToken</TokenIdentifier>
+            <TokenIdentifier>//apple_ref/c/econst/AWSS3BucketCannedACLAuthenticatedRead</TokenIdentifier>
             <Abstract type="html"></Abstract>
-            <Declaration>AWSSTSErrorExpiredToken</Declaration>
+            <Declaration>AWSS3BucketCannedACLAuthenticatedRead</Declaration>
             
-            <DeclaredIn>AWSSTSModel.h</DeclaredIn>
-            
-            <NodeRef refid="1193"/>
-        </Token>
-        
-        <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSSTSErrorIDPCommunicationError</TokenIdentifier>
-            <Abstract type="html"></Abstract>
-            <Declaration>AWSSTSErrorIDPCommunicationError</Declaration>
-            
-            <DeclaredIn>AWSSTSModel.h</DeclaredIn>
-            
-            <NodeRef refid="1193"/>
-        </Token>
-        
-        <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSSTSErrorIDPRejectedClaim</TokenIdentifier>
-            <Abstract type="html"></Abstract>
-            <Declaration>AWSSTSErrorIDPRejectedClaim</Declaration>
-            
-            <DeclaredIn>AWSSTSModel.h</DeclaredIn>
-            
-            <NodeRef refid="1193"/>
-        </Token>
-        
-        <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSSTSErrorInvalidAuthorizationMessage</TokenIdentifier>
-            <Abstract type="html"></Abstract>
-            <Declaration>AWSSTSErrorInvalidAuthorizationMessage</Declaration>
-            
-            <DeclaredIn>AWSSTSModel.h</DeclaredIn>
-            
-            <NodeRef refid="1193"/>
-        </Token>
-        
-        <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSSTSErrorInvalidIdentityToken</TokenIdentifier>
-            <Abstract type="html"></Abstract>
-            <Declaration>AWSSTSErrorInvalidIdentityToken</Declaration>
-            
-            <DeclaredIn>AWSSTSModel.h</DeclaredIn>
-            
-            <NodeRef refid="1193"/>
-        </Token>
-        
-        <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSSTSErrorMalformedPolicyDocument</TokenIdentifier>
-            <Abstract type="html"></Abstract>
-            <Declaration>AWSSTSErrorMalformedPolicyDocument</Declaration>
-            
-            <DeclaredIn>AWSSTSModel.h</DeclaredIn>
-            
-            <NodeRef refid="1193"/>
-        </Token>
-        
-        <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSSTSErrorPackedPolicyTooLarge</TokenIdentifier>
-            <Abstract type="html"></Abstract>
-            <Declaration>AWSSTSErrorPackedPolicyTooLarge</Declaration>
-            
-            <DeclaredIn>AWSSTSModel.h</DeclaredIn>
+            <DeclaredIn>AWSS3Model.h</DeclaredIn>
             
             <NodeRef refid="1193"/>
         </Token>

@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Constants/AWSGeneralErrorType.html">
+	<File path="Constants/AWSEC2ReportInstanceReasonCodes.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/c/tdef/AWSGeneralErrorType</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/c/tdef/AWSEC2ReportInstanceReasonCodes</TokenIdentifier>
 			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSURLResponseSerialization.h</DeclaredIn>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
             
 			
 			<NodeRef refid="1148"/>
@@ -14,61 +14,101 @@
 		
         
         <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSGeneralErrorUnknown</TokenIdentifier>
+            <TokenIdentifier>//apple_ref/c/econst/AWSEC2ReportInstanceReasonCodesUnknown</TokenIdentifier>
             <Abstract type="html"></Abstract>
-            <Declaration>AWSGeneralErrorUnknown</Declaration>
+            <Declaration>AWSEC2ReportInstanceReasonCodesUnknown</Declaration>
             
-            <DeclaredIn>AWSURLResponseSerialization.h</DeclaredIn>
+            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
             
             <NodeRef refid="1148"/>
         </Token>
         
         <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSGeneralErrorRequestTimeTooSkewed</TokenIdentifier>
+            <TokenIdentifier>//apple_ref/c/econst/AWSEC2ReportInstanceReasonCodesInstanceStuckInState</TokenIdentifier>
             <Abstract type="html"></Abstract>
-            <Declaration>AWSGeneralErrorRequestTimeTooSkewed</Declaration>
+            <Declaration>AWSEC2ReportInstanceReasonCodesInstanceStuckInState</Declaration>
             
-            <DeclaredIn>AWSURLResponseSerialization.h</DeclaredIn>
+            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
             
             <NodeRef refid="1148"/>
         </Token>
         
         <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSGeneralErrorInvalidSignatureException</TokenIdentifier>
+            <TokenIdentifier>//apple_ref/c/econst/AWSEC2ReportInstanceReasonCodesUnresponsive</TokenIdentifier>
             <Abstract type="html"></Abstract>
-            <Declaration>AWSGeneralErrorInvalidSignatureException</Declaration>
+            <Declaration>AWSEC2ReportInstanceReasonCodesUnresponsive</Declaration>
             
-            <DeclaredIn>AWSURLResponseSerialization.h</DeclaredIn>
+            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
             
             <NodeRef refid="1148"/>
         </Token>
         
         <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSGeneralErrorSignatureDoesNotMatch</TokenIdentifier>
+            <TokenIdentifier>//apple_ref/c/econst/AWSEC2ReportInstanceReasonCodesNotAcceptingCredentials</TokenIdentifier>
             <Abstract type="html"></Abstract>
-            <Declaration>AWSGeneralErrorSignatureDoesNotMatch</Declaration>
+            <Declaration>AWSEC2ReportInstanceReasonCodesNotAcceptingCredentials</Declaration>
             
-            <DeclaredIn>AWSURLResponseSerialization.h</DeclaredIn>
+            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
             
             <NodeRef refid="1148"/>
         </Token>
         
         <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSGeneralErrorRequestExpired</TokenIdentifier>
+            <TokenIdentifier>//apple_ref/c/econst/AWSEC2ReportInstanceReasonCodesPasswordNotAvailable</TokenIdentifier>
             <Abstract type="html"></Abstract>
-            <Declaration>AWSGeneralErrorRequestExpired</Declaration>
+            <Declaration>AWSEC2ReportInstanceReasonCodesPasswordNotAvailable</Declaration>
             
-            <DeclaredIn>AWSURLResponseSerialization.h</DeclaredIn>
+            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
             
             <NodeRef refid="1148"/>
         </Token>
         
         <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSGeneralErrorAuthFailure</TokenIdentifier>
+            <TokenIdentifier>//apple_ref/c/econst/AWSEC2ReportInstanceReasonCodesPerformanceNetwork</TokenIdentifier>
             <Abstract type="html"></Abstract>
-            <Declaration>AWSGeneralErrorAuthFailure</Declaration>
+            <Declaration>AWSEC2ReportInstanceReasonCodesPerformanceNetwork</Declaration>
             
-            <DeclaredIn>AWSURLResponseSerialization.h</DeclaredIn>
+            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
+            
+            <NodeRef refid="1148"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/AWSEC2ReportInstanceReasonCodesPerformanceInstanceStore</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>AWSEC2ReportInstanceReasonCodesPerformanceInstanceStore</Declaration>
+            
+            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
+            
+            <NodeRef refid="1148"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/AWSEC2ReportInstanceReasonCodesPerformanceEBSVolume</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>AWSEC2ReportInstanceReasonCodesPerformanceEBSVolume</Declaration>
+            
+            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
+            
+            <NodeRef refid="1148"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/AWSEC2ReportInstanceReasonCodesPerformanceOther</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>AWSEC2ReportInstanceReasonCodesPerformanceOther</Declaration>
+            
+            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
+            
+            <NodeRef refid="1148"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/AWSEC2ReportInstanceReasonCodesOther</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>AWSEC2ReportInstanceReasonCodesOther</Declaration>
+            
+            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
             
             <NodeRef refid="1148"/>
         </Token>

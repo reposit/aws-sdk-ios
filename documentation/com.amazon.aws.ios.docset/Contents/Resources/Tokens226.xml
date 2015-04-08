@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSDynamoDBProvisionedThroughput.html">
+	<File path="Classes/AWSDynamoDBObjectMapperConfiguration.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSDynamoDBProvisionedThroughput</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Represents the provisioned throughput settings for a specified table or index. The settings can be modified using the &lt;i&gt;UpdateTable&lt;/i&gt; operation.&lt;/p&gt;&lt;p&gt;For current minimum and maximum provisioned throughput values, see Limits in the &lt;i&gt;Amazon DynamoDB Developer Guide&lt;/i&gt;.&lt;/p&gt;
-Required parameters: [ReadCapacityUnits, WriteCapacityUnits]</Abstract>
-			<DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSDynamoDBObjectMapperConfiguration</TokenIdentifier>
+			<Abstract type="html">Immutable configuration object for service call behavior. An instance of this configuration is supplied to every DynamoDBMapper at construction. New instances can be given to the mapper object on individual save, load, and remove operations to override the defaults.</Abstract>
+			<DeclaredIn>AWSDynamoDBObjectMapper.h</DeclaredIn>
             
 			
 			<NodeRef refid="226"/>
@@ -14,74 +13,74 @@ Required parameters: [ReadCapacityUnits, WriteCapacityUnits]</Abstract>
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSDynamoDBProvisionedThroughput/setReadCapacityUnits:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The maximum number of strongly consistent reads consumed per second before DynamoDB returns a &lt;i&gt;ThrottlingException&lt;/i&gt;. For more information, see Specifying Read and Write Requirements in the &lt;i&gt;Amazon DynamoDB Developer Guide&lt;/i&gt;.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSDynamoDBObjectMapperConfiguration/setSaveBehavior:</TokenIdentifier>
+			<Abstract type="html">The behavior for the save operation.</Abstract>
+			<DeclaredIn>AWSDynamoDBObjectMapper.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSNumber *readCapacityUnits</Declaration>
+			<Declaration>@property (nonatomic, assign) AWSDynamoDBObjectMapperSaveBehavior saveBehavior</Declaration>
 			
 			
-			<Anchor>//api/name/readCapacityUnits</Anchor>
+			<Anchor>//api/name/saveBehavior</Anchor>
             <NodeRef refid="226"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSDynamoDBProvisionedThroughput/readCapacityUnits</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The maximum number of strongly consistent reads consumed per second before DynamoDB returns a &lt;i&gt;ThrottlingException&lt;/i&gt;. For more information, see Specifying Read and Write Requirements in the &lt;i&gt;Amazon DynamoDB Developer Guide&lt;/i&gt;.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSDynamoDBObjectMapperConfiguration/saveBehavior</TokenIdentifier>
+			<Abstract type="html">The behavior for the save operation.</Abstract>
+			<DeclaredIn>AWSDynamoDBObjectMapper.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSNumber *readCapacityUnits</Declaration>
+			<Declaration>@property (nonatomic, assign) AWSDynamoDBObjectMapperSaveBehavior saveBehavior</Declaration>
 			
 			
-			<Anchor>//api/name/readCapacityUnits</Anchor>
+			<Anchor>//api/name/saveBehavior</Anchor>
             <NodeRef refid="226"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSDynamoDBProvisionedThroughput/readCapacityUnits</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The maximum number of strongly consistent reads consumed per second before DynamoDB returns a &lt;i&gt;ThrottlingException&lt;/i&gt;. For more information, see Specifying Read and Write Requirements in the &lt;i&gt;Amazon DynamoDB Developer Guide&lt;/i&gt;.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSDynamoDBObjectMapperConfiguration/saveBehavior</TokenIdentifier>
+			<Abstract type="html">The behavior for the save operation.</Abstract>
+			<DeclaredIn>AWSDynamoDBObjectMapper.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSNumber *readCapacityUnits</Declaration>
+			<Declaration>@property (nonatomic, assign) AWSDynamoDBObjectMapperSaveBehavior saveBehavior</Declaration>
 			
 			
-			<Anchor>//api/name/readCapacityUnits</Anchor>
+			<Anchor>//api/name/saveBehavior</Anchor>
             <NodeRef refid="226"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSDynamoDBProvisionedThroughput/setWriteCapacityUnits:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The maximum number of writes consumed per second before DynamoDB returns a &lt;i&gt;ThrottlingException&lt;/i&gt;. For more information, see Specifying Read and Write Requirements in the &lt;i&gt;Amazon DynamoDB Developer Guide&lt;/i&gt;.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSDynamoDBObjectMapperConfiguration/setConsistentRead:</TokenIdentifier>
+			<Abstract type="html">When set to @YES, AWSDynamoDBObjectMapper uses consistent read to read data from the table. When set to @NO, it uses eventually consistant read.</Abstract>
+			<DeclaredIn>AWSDynamoDBObjectMapper.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSNumber *writeCapacityUnits</Declaration>
+			<Declaration>@property (nonatomic, strong) NSNumber *consistentRead</Declaration>
 			
 			
-			<Anchor>//api/name/writeCapacityUnits</Anchor>
+			<Anchor>//api/name/consistentRead</Anchor>
             <NodeRef refid="226"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSDynamoDBProvisionedThroughput/writeCapacityUnits</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The maximum number of writes consumed per second before DynamoDB returns a &lt;i&gt;ThrottlingException&lt;/i&gt;. For more information, see Specifying Read and Write Requirements in the &lt;i&gt;Amazon DynamoDB Developer Guide&lt;/i&gt;.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSDynamoDBObjectMapperConfiguration/consistentRead</TokenIdentifier>
+			<Abstract type="html">When set to @YES, AWSDynamoDBObjectMapper uses consistent read to read data from the table. When set to @NO, it uses eventually consistant read.</Abstract>
+			<DeclaredIn>AWSDynamoDBObjectMapper.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSNumber *writeCapacityUnits</Declaration>
+			<Declaration>@property (nonatomic, strong) NSNumber *consistentRead</Declaration>
 			
 			
-			<Anchor>//api/name/writeCapacityUnits</Anchor>
+			<Anchor>//api/name/consistentRead</Anchor>
             <NodeRef refid="226"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSDynamoDBProvisionedThroughput/writeCapacityUnits</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The maximum number of writes consumed per second before DynamoDB returns a &lt;i&gt;ThrottlingException&lt;/i&gt;. For more information, see Specifying Read and Write Requirements in the &lt;i&gt;Amazon DynamoDB Developer Guide&lt;/i&gt;.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSDynamoDBObjectMapperConfiguration/consistentRead</TokenIdentifier>
+			<Abstract type="html">When set to @YES, AWSDynamoDBObjectMapper uses consistent read to read data from the table. When set to @NO, it uses eventually consistant read.</Abstract>
+			<DeclaredIn>AWSDynamoDBObjectMapper.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSNumber *writeCapacityUnits</Declaration>
+			<Declaration>@property (nonatomic, strong) NSNumber *consistentRead</Declaration>
 			
 			
-			<Anchor>//api/name/writeCapacityUnits</Anchor>
+			<Anchor>//api/name/consistentRead</Anchor>
             <NodeRef refid="226"/>
 		</Token>
 		
