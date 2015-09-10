@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSEC2ExportToS3TaskSpecification.html">
+	<File path="Classes/AWSEC2DhcpConfiguration.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSEC2ExportToS3TaskSpecification</TokenIdentifier>
-			<Abstract type="html"></Abstract>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSEC2DhcpConfiguration</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Describes a DHCP configuration option.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
             
 			
@@ -13,146 +13,74 @@
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ExportToS3TaskSpecification/setContainerFormat:</TokenIdentifier>
-			<Abstract type="html"></Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DhcpConfiguration/setKey:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The name of a DHCP option.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, assign) AWSEC2ContainerFormat containerFormat</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *key</Declaration>
 			
 			
-			<Anchor>//api/name/containerFormat</Anchor>
+			<Anchor>//api/name/key</Anchor>
             <NodeRef refid="459"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ExportToS3TaskSpecification/containerFormat</TokenIdentifier>
-			<Abstract type="html"></Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DhcpConfiguration/key</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The name of a DHCP option.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, assign) AWSEC2ContainerFormat containerFormat</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *key</Declaration>
 			
 			
-			<Anchor>//api/name/containerFormat</Anchor>
+			<Anchor>//api/name/key</Anchor>
             <NodeRef refid="459"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2ExportToS3TaskSpecification/containerFormat</TokenIdentifier>
-			<Abstract type="html"></Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2DhcpConfiguration/key</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The name of a DHCP option.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, assign) AWSEC2ContainerFormat containerFormat</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *key</Declaration>
 			
 			
-			<Anchor>//api/name/containerFormat</Anchor>
+			<Anchor>//api/name/key</Anchor>
             <NodeRef refid="459"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ExportToS3TaskSpecification/setDiskImageFormat:</TokenIdentifier>
-			<Abstract type="html"></Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DhcpConfiguration/setValues:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;One or more values for the DHCP option.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, assign) AWSEC2DiskImageFormat diskImageFormat</Declaration>
+			<Declaration>@property (nonatomic, strong) NSArray *values</Declaration>
 			
 			
-			<Anchor>//api/name/diskImageFormat</Anchor>
+			<Anchor>//api/name/values</Anchor>
             <NodeRef refid="459"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ExportToS3TaskSpecification/diskImageFormat</TokenIdentifier>
-			<Abstract type="html"></Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DhcpConfiguration/values</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;One or more values for the DHCP option.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, assign) AWSEC2DiskImageFormat diskImageFormat</Declaration>
+			<Declaration>@property (nonatomic, strong) NSArray *values</Declaration>
 			
 			
-			<Anchor>//api/name/diskImageFormat</Anchor>
+			<Anchor>//api/name/values</Anchor>
             <NodeRef refid="459"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2ExportToS3TaskSpecification/diskImageFormat</TokenIdentifier>
-			<Abstract type="html"></Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2DhcpConfiguration/values</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;One or more values for the DHCP option.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, assign) AWSEC2DiskImageFormat diskImageFormat</Declaration>
+			<Declaration>@property (nonatomic, strong) NSArray *values</Declaration>
 			
 			
-			<Anchor>//api/name/diskImageFormat</Anchor>
-            <NodeRef refid="459"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ExportToS3TaskSpecification/setS3Bucket:</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *s3Bucket</Declaration>
-			
-			
-			<Anchor>//api/name/s3Bucket</Anchor>
-            <NodeRef refid="459"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ExportToS3TaskSpecification/s3Bucket</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *s3Bucket</Declaration>
-			
-			
-			<Anchor>//api/name/s3Bucket</Anchor>
-            <NodeRef refid="459"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2ExportToS3TaskSpecification/s3Bucket</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *s3Bucket</Declaration>
-			
-			
-			<Anchor>//api/name/s3Bucket</Anchor>
-            <NodeRef refid="459"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ExportToS3TaskSpecification/setS3Prefix:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The image is written to a single object in the Amazon S3 bucket at the S3 key s3prefix + exportTaskId + &apos;.&apos; + diskImageFormat.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *s3Prefix</Declaration>
-			
-			
-			<Anchor>//api/name/s3Prefix</Anchor>
-            <NodeRef refid="459"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ExportToS3TaskSpecification/s3Prefix</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The image is written to a single object in the Amazon S3 bucket at the S3 key s3prefix + exportTaskId + &apos;.&apos; + diskImageFormat.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *s3Prefix</Declaration>
-			
-			
-			<Anchor>//api/name/s3Prefix</Anchor>
-            <NodeRef refid="459"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2ExportToS3TaskSpecification/s3Prefix</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The image is written to a single object in the Amazon S3 bucket at the S3 key s3prefix + exportTaskId + &apos;.&apos; + diskImageFormat.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *s3Prefix</Declaration>
-			
-			
-			<Anchor>//api/name/s3Prefix</Anchor>
+			<Anchor>//api/name/values</Anchor>
             <NodeRef refid="459"/>
 		</Token>
 		

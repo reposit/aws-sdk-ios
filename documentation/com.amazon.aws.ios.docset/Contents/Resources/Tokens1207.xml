@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Constants/AWSS3Payer.html">
+	<File path="Constants/AWSEC2SnapshotAttributeName.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/c/tdef/AWSS3Payer</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/c/tdef/AWSEC2SnapshotAttributeName</TokenIdentifier>
 			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
             
 			
 			<NodeRef refid="1207"/>
@@ -14,31 +14,31 @@
 		
         
         <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSS3PayerUnknown</TokenIdentifier>
+            <TokenIdentifier>//apple_ref/c/econst/AWSEC2SnapshotAttributeNameUnknown</TokenIdentifier>
             <Abstract type="html"></Abstract>
-            <Declaration>AWSS3PayerUnknown</Declaration>
+            <Declaration>AWSEC2SnapshotAttributeNameUnknown</Declaration>
             
-            <DeclaredIn>AWSS3Model.h</DeclaredIn>
+            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
             
             <NodeRef refid="1207"/>
         </Token>
         
         <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSS3PayerRequester</TokenIdentifier>
+            <TokenIdentifier>//apple_ref/c/econst/AWSEC2SnapshotAttributeNameProductCodes</TokenIdentifier>
             <Abstract type="html"></Abstract>
-            <Declaration>AWSS3PayerRequester</Declaration>
+            <Declaration>AWSEC2SnapshotAttributeNameProductCodes</Declaration>
             
-            <DeclaredIn>AWSS3Model.h</DeclaredIn>
+            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
             
             <NodeRef refid="1207"/>
         </Token>
         
         <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSS3PayerBucketOwner</TokenIdentifier>
+            <TokenIdentifier>//apple_ref/c/econst/AWSEC2SnapshotAttributeNameCreateVolumePermission</TokenIdentifier>
             <Abstract type="html"></Abstract>
-            <Declaration>AWSS3PayerBucketOwner</Declaration>
+            <Declaration>AWSEC2SnapshotAttributeNameCreateVolumePermission</Declaration>
             
-            <DeclaredIn>AWSS3Model.h</DeclaredIn>
+            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
             
             <NodeRef refid="1207"/>
         </Token>

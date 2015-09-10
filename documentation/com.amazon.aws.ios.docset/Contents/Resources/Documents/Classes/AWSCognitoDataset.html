@@ -14,7 +14,7 @@
 		<div class="container" class="hide-in-xcode">
 			
 			<h1 id="library-title">
-				<a href="../index.html">AWS SDK for iOS v2.1.0 </a>
+				<a href="../index.html">AWS SDK for iOS v2.2.5 </a>
 			</h1>
 
 			<p id="developer-home">
@@ -42,6 +42,8 @@
 
 							<select id="jump-to">
 	<option value="top">Jump To&#133;</option>
+	
+	<option value="overview">Overview</option>
 	
 
 	
@@ -132,6 +134,15 @@
 					
 
                     
+					
+					<div class="section section-overview">
+						<a title="Overview" name="overview"></a>
+						<h2 class="subtitle subtitle-overview">Overview</h2>
+						<p>An object that encapsulates the dataset. The dataset is the unit of sync
+for Amazon Cognito.</p>
+					</div>
+					
+					
 
 					
 					
@@ -464,7 +475,7 @@ all conflicts are resolved.</p>
 			
 		    
 
-			<div class="method-subsection method-declaration"><code>- (BFTask *)synchronize</code></div>
+			<div class="method-subsection method-declaration"><code>- (AWSTask *)synchronize</code></div>
 
 		    
 			
@@ -501,8 +512,8 @@ all conflicts are resolved.</p>
 			
 			<div class="method-subsection brief-description">
 				<p>Attempts to synchronize when device has connectivity.  First it checks connectivity, if device is online
-immediately invokes synchronize and returns the BFTask associated with the attempt.  If the device is offline,
-schedules a synchronize for the next time the device comes online and returns a BFTask with a nil result.
+immediately invokes synchronize and returns the AWSTask associated with the attempt.  If the device is offline,
+schedules a synchronize for the next time the device comes online and returns a AWSTask with a nil result.
 The scheduled synchronize is only valid for the lifecycle of the dataset object.  The data will not be synchronized
 if the app is exited before connectivity is regained.  If you want to be notified when events occur during the
 scheduled synchronize, you must add observers of the notifications found in AWSCognito</p>
@@ -510,7 +521,7 @@ scheduled synchronize, you must add observers of the notifications found in AWSC
 			
 		    
 
-			<div class="method-subsection method-declaration"><code>- (BFTask *)synchronizeOnConnectivity</code></div>
+			<div class="method-subsection method-declaration"><code>- (AWSTask *)synchronizeOnConnectivity</code></div>
 
 		    
 			
@@ -551,11 +562,16 @@ scheduled synchronize, you must add observers of the notifications found in AWSC
 			
 		    
 
-			<div class="method-subsection method-declaration"><code>- (BFTask *)subscribe</code></div>
+			<div class="method-subsection method-declaration"><code>- (AWSTask *)subscribe</code></div>
 
 		    
 			
 
+			
+			<div class="method-subsection return">
+				<h4 class="method-subtitle parameter-title">Return Value</h4>
+				<p>AWSTask with nil result. task.error will contain any errors.</p>
+			</div>
 			
 
 			
@@ -592,11 +608,16 @@ scheduled synchronize, you must add observers of the notifications found in AWSC
 			
 		    
 
-			<div class="method-subsection method-declaration"><code>- (BFTask *)unsubscribe</code></div>
+			<div class="method-subsection method-declaration"><code>- (AWSTask *)unsubscribe</code></div>
 
 		    
 			
 
+			
+			<div class="method-subsection return">
+				<h4 class="method-subtitle parameter-title">Return Value</h4>
+				<p>AWSTask with nil result. task.error will contain any errors.</p>
+			</div>
 			
 
 			
@@ -639,6 +660,11 @@ scheduled synchronize, you must add observers of the notifications found in AWSC
 			
 
 			
+			<div class="method-subsection return">
+				<h4 class="method-subtitle parameter-title">Return Value</h4>
+				<p>NSArray of AWSCognitoRecord objects</p>
+			</div>
+			
 
 			
 
@@ -680,6 +706,11 @@ scheduled synchronize, you must add observers of the notifications found in AWSC
 			
 
 			
+			<div class="method-subsection return">
+				<h4 class="method-subtitle parameter-title">Return Value</h4>
+				<p>NSDictionary of all key value pairs. Contains no metadata.</p>
+			</div>
+			
 
 			
 
@@ -718,6 +749,18 @@ scheduled synchronize, you must add observers of the notifications found in AWSC
 			<div class="method-subsection method-declaration"><code>- (void)removeObjectForKey:(NSString *)<em>aKey</em></code></div>
 
 		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>aKey</code></th>
+						<td><p>the key to remove</p></td>
+					</tr>
+				
+				</table>
+			</div>
 			
 
 			
@@ -760,7 +803,24 @@ scheduled synchronize, you must add observers of the notifications found in AWSC
 
 		    
 			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>aKey</code></th>
+						<td><p>the key to return</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
 
+			
+			<div class="method-subsection return">
+				<h4 class="method-subtitle parameter-title">Return Value</h4>
+				<p>AWSCognitoRecord for this particular record. Will return nil if record does not exist.</p>
+			</div>
 			
 
 			
@@ -883,6 +943,18 @@ scheduled synchronize, you must add observers of the notifications found in AWSC
 
 		    
 			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>aKey</code></th>
+						<td><p>the key to check</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
 
 			
 
@@ -930,7 +1002,7 @@ scheduled synchronize, you must add observers of the notifications found in AWSC
 			
 		    
 
-			<div class="method-subsection method-declaration"><code>- (BFTask *)syncPull:(uint32_t)<em>remainingAttempts</em></code></div>
+			<div class="method-subsection method-declaration"><code>- (AWSTask *)syncPull:(uint32_t)<em>remainingAttempts</em></code></div>
 
 		    
 			
@@ -973,7 +1045,7 @@ scheduled synchronize, you must add observers of the notifications found in AWSC
 			
 		    
 
-			<div class="method-subsection method-declaration"><code>- (BFTask *)syncPush:(uint32_t)<em>remainingAttempts</em></code></div>
+			<div class="method-subsection method-declaration"><code>- (AWSTask *)syncPush:(uint32_t)<em>remainingAttempts</em></code></div>
 
 		    
 			
@@ -1010,7 +1082,7 @@ scheduled synchronize, you must add observers of the notifications found in AWSC
 				<footer>
 					<div class="footer-copyright">
 						
-						<p class="copyright">Copyright &copy; 2015 Amazon Web Services, Inc. All rights reserved. Updated: 2015-03-25</p>
+						<p class="copyright">Copyright &copy; 2015 Amazon Web Services, Inc. All rights reserved. Updated: 2015-08-31</p>
 						
 						
 						<p class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.2.1 (build 1333)</a>.</p>

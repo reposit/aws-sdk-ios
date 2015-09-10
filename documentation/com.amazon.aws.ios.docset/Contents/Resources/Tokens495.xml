@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSEC2InstanceStatus.html">
+	<File path="Classes/AWSEC2ImportInstanceVolumeDetailItem.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSEC2InstanceStatus</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Describes the status of an instance.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSEC2ImportInstanceVolumeDetailItem</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Describes an import volume task.&lt;/p&gt;
+Required parameters: [BytesConverted, AvailabilityZone, Image, Volume, Status]</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
             
 			
@@ -13,8 +14,8 @@
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2InstanceStatus/setAvailabilityZone:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The Availability Zone of the instance.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ImportInstanceVolumeDetailItem/setAvailabilityZone:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The Availability Zone where the resulting instance will reside.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
 			<Declaration>@property (nonatomic, strong) NSString *availabilityZone</Declaration>
@@ -25,8 +26,8 @@
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2InstanceStatus/availabilityZone</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The Availability Zone of the instance.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ImportInstanceVolumeDetailItem/availabilityZone</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The Availability Zone where the resulting instance will reside.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
 			<Declaration>@property (nonatomic, strong) NSString *availabilityZone</Declaration>
@@ -37,8 +38,8 @@
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2InstanceStatus/availabilityZone</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The Availability Zone of the instance.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2ImportInstanceVolumeDetailItem/availabilityZone</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The Availability Zone where the resulting instance will reside.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
 			<Declaration>@property (nonatomic, strong) NSString *availabilityZone</Declaration>
@@ -49,182 +50,218 @@
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2InstanceStatus/setEvents:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Extra information regarding events associated with the instance.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ImportInstanceVolumeDetailItem/setBytesConverted:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The number of bytes converted so far.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSArray *events</Declaration>
+			<Declaration>@property (nonatomic, strong) NSNumber *bytesConverted</Declaration>
 			
 			
-			<Anchor>//api/name/events</Anchor>
+			<Anchor>//api/name/bytesConverted</Anchor>
             <NodeRef refid="495"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2InstanceStatus/events</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Extra information regarding events associated with the instance.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ImportInstanceVolumeDetailItem/bytesConverted</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The number of bytes converted so far.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSArray *events</Declaration>
+			<Declaration>@property (nonatomic, strong) NSNumber *bytesConverted</Declaration>
 			
 			
-			<Anchor>//api/name/events</Anchor>
+			<Anchor>//api/name/bytesConverted</Anchor>
             <NodeRef refid="495"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2InstanceStatus/events</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Extra information regarding events associated with the instance.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2ImportInstanceVolumeDetailItem/bytesConverted</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The number of bytes converted so far.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSArray *events</Declaration>
+			<Declaration>@property (nonatomic, strong) NSNumber *bytesConverted</Declaration>
 			
 			
-			<Anchor>//api/name/events</Anchor>
+			<Anchor>//api/name/bytesConverted</Anchor>
             <NodeRef refid="495"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2InstanceStatus/setInstanceId:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The ID of the instance.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ImportInstanceVolumeDetailItem/setDetail:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *instanceId</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *detail</Declaration>
 			
 			
-			<Anchor>//api/name/instanceId</Anchor>
+			<Anchor>//api/name/detail</Anchor>
             <NodeRef refid="495"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2InstanceStatus/instanceId</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The ID of the instance.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ImportInstanceVolumeDetailItem/detail</TokenIdentifier>
+			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *instanceId</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *detail</Declaration>
 			
 			
-			<Anchor>//api/name/instanceId</Anchor>
+			<Anchor>//api/name/detail</Anchor>
             <NodeRef refid="495"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2InstanceStatus/instanceId</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The ID of the instance.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2ImportInstanceVolumeDetailItem/detail</TokenIdentifier>
+			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *instanceId</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *detail</Declaration>
 			
 			
-			<Anchor>//api/name/instanceId</Anchor>
+			<Anchor>//api/name/detail</Anchor>
             <NodeRef refid="495"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2InstanceStatus/setInstanceState:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The intended state of the instance. &lt;a&gt;DescribeInstanceStatus&lt;/a&gt; requires that an instance be in the &lt;code&gt;running&lt;/code&gt; state.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ImportInstanceVolumeDetailItem/setImage:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The image.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) AWSEC2InstanceState *instanceState</Declaration>
+			<Declaration>@property (nonatomic, strong) AWSEC2DiskImageDescription *image</Declaration>
 			
 			
-			<Anchor>//api/name/instanceState</Anchor>
+			<Anchor>//api/name/image</Anchor>
             <NodeRef refid="495"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2InstanceStatus/instanceState</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The intended state of the instance. &lt;a&gt;DescribeInstanceStatus&lt;/a&gt; requires that an instance be in the &lt;code&gt;running&lt;/code&gt; state.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ImportInstanceVolumeDetailItem/image</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The image.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) AWSEC2InstanceState *instanceState</Declaration>
+			<Declaration>@property (nonatomic, strong) AWSEC2DiskImageDescription *image</Declaration>
 			
 			
-			<Anchor>//api/name/instanceState</Anchor>
+			<Anchor>//api/name/image</Anchor>
             <NodeRef refid="495"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2InstanceStatus/instanceState</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The intended state of the instance. &lt;a&gt;DescribeInstanceStatus&lt;/a&gt; requires that an instance be in the &lt;code&gt;running&lt;/code&gt; state.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2ImportInstanceVolumeDetailItem/image</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The image.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) AWSEC2InstanceState *instanceState</Declaration>
+			<Declaration>@property (nonatomic, strong) AWSEC2DiskImageDescription *image</Declaration>
 			
 			
-			<Anchor>//api/name/instanceState</Anchor>
+			<Anchor>//api/name/image</Anchor>
             <NodeRef refid="495"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2InstanceStatus/setInstanceStatus:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Reports impaired functionality that stems from issues internal to the instance, such as impaired reachability.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ImportInstanceVolumeDetailItem/setStatus:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The status of the import of this particular disk image.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) AWSEC2InstanceStatusSummary *instanceStatus</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *status</Declaration>
 			
 			
-			<Anchor>//api/name/instanceStatus</Anchor>
+			<Anchor>//api/name/status</Anchor>
             <NodeRef refid="495"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2InstanceStatus/instanceStatus</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Reports impaired functionality that stems from issues internal to the instance, such as impaired reachability.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ImportInstanceVolumeDetailItem/status</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The status of the import of this particular disk image.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) AWSEC2InstanceStatusSummary *instanceStatus</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *status</Declaration>
 			
 			
-			<Anchor>//api/name/instanceStatus</Anchor>
+			<Anchor>//api/name/status</Anchor>
             <NodeRef refid="495"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2InstanceStatus/instanceStatus</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Reports impaired functionality that stems from issues internal to the instance, such as impaired reachability.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2ImportInstanceVolumeDetailItem/status</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The status of the import of this particular disk image.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) AWSEC2InstanceStatusSummary *instanceStatus</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *status</Declaration>
 			
 			
-			<Anchor>//api/name/instanceStatus</Anchor>
+			<Anchor>//api/name/status</Anchor>
             <NodeRef refid="495"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2InstanceStatus/setSystemStatus:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Reports impaired functionality that stems from issues related to the systems that support an instance, such as hardware failures and network connectivity problems.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ImportInstanceVolumeDetailItem/setStatusMessage:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The status information or errors related to the disk image.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) AWSEC2InstanceStatusSummary *systemStatus</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *statusMessage</Declaration>
 			
 			
-			<Anchor>//api/name/systemStatus</Anchor>
+			<Anchor>//api/name/statusMessage</Anchor>
             <NodeRef refid="495"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2InstanceStatus/systemStatus</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Reports impaired functionality that stems from issues related to the systems that support an instance, such as hardware failures and network connectivity problems.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ImportInstanceVolumeDetailItem/statusMessage</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The status information or errors related to the disk image.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) AWSEC2InstanceStatusSummary *systemStatus</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *statusMessage</Declaration>
 			
 			
-			<Anchor>//api/name/systemStatus</Anchor>
+			<Anchor>//api/name/statusMessage</Anchor>
             <NodeRef refid="495"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2InstanceStatus/systemStatus</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Reports impaired functionality that stems from issues related to the systems that support an instance, such as hardware failures and network connectivity problems.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2ImportInstanceVolumeDetailItem/statusMessage</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The status information or errors related to the disk image.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) AWSEC2InstanceStatusSummary *systemStatus</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *statusMessage</Declaration>
 			
 			
-			<Anchor>//api/name/systemStatus</Anchor>
+			<Anchor>//api/name/statusMessage</Anchor>
+            <NodeRef refid="495"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ImportInstanceVolumeDetailItem/setVolume:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The volume.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) AWSEC2DiskImageVolumeDescription *volume</Declaration>
+			
+			
+			<Anchor>//api/name/volume</Anchor>
+            <NodeRef refid="495"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ImportInstanceVolumeDetailItem/volume</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The volume.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) AWSEC2DiskImageVolumeDescription *volume</Declaration>
+			
+			
+			<Anchor>//api/name/volume</Anchor>
+            <NodeRef refid="495"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2ImportInstanceVolumeDetailItem/volume</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The volume.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) AWSEC2DiskImageVolumeDescription *volume</Declaration>
+			
+			
+			<Anchor>//api/name/volume</Anchor>
             <NodeRef refid="495"/>
 		</Token>
 		

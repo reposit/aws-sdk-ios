@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSSNSListSubscriptionsResponse.html">
+	<File path="Classes/AWSSESGetSendStatisticsResponse.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSSNSListSubscriptionsResponse</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Response for ListSubscriptions action&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSNSModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSSESGetSendStatisticsResponse</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Represents a list of &lt;code&gt;SendDataPoint&lt;/code&gt; items returned from a successful &lt;code&gt;GetSendStatistics&lt;/code&gt; request. This list contains aggregated data from the previous two weeks of sending activity. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSESModel.h</DeclaredIn>
             
 			
 			<NodeRef refid="960"/>
@@ -13,74 +13,38 @@
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSSNSListSubscriptionsResponse/setNextToken:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Token to pass along to the next &lt;code&gt;ListSubscriptions&lt;/code&gt; request. This element is returned if there are more subscriptions to retrieve.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSNSModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSESGetSendStatisticsResponse/setSendDataPoints:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;A list of data points, each of which represents 15 minutes of activity.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSESModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *nextToken</Declaration>
+			<Declaration>@property (nonatomic, strong) NSArray *sendDataPoints</Declaration>
 			
 			
-			<Anchor>//api/name/nextToken</Anchor>
+			<Anchor>//api/name/sendDataPoints</Anchor>
             <NodeRef refid="960"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSSNSListSubscriptionsResponse/nextToken</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Token to pass along to the next &lt;code&gt;ListSubscriptions&lt;/code&gt; request. This element is returned if there are more subscriptions to retrieve.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSNSModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSESGetSendStatisticsResponse/sendDataPoints</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;A list of data points, each of which represents 15 minutes of activity.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSESModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *nextToken</Declaration>
+			<Declaration>@property (nonatomic, strong) NSArray *sendDataPoints</Declaration>
 			
 			
-			<Anchor>//api/name/nextToken</Anchor>
+			<Anchor>//api/name/sendDataPoints</Anchor>
             <NodeRef refid="960"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSSNSListSubscriptionsResponse/nextToken</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Token to pass along to the next &lt;code&gt;ListSubscriptions&lt;/code&gt; request. This element is returned if there are more subscriptions to retrieve.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSNSModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSSESGetSendStatisticsResponse/sendDataPoints</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;A list of data points, each of which represents 15 minutes of activity.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSESModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *nextToken</Declaration>
-			
-			
-			<Anchor>//api/name/nextToken</Anchor>
-            <NodeRef refid="960"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSSNSListSubscriptionsResponse/setSubscriptions:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;A list of subscriptions.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSNSModel.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSArray *subscriptions</Declaration>
+			<Declaration>@property (nonatomic, strong) NSArray *sendDataPoints</Declaration>
 			
 			
-			<Anchor>//api/name/subscriptions</Anchor>
-            <NodeRef refid="960"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSSNSListSubscriptionsResponse/subscriptions</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;A list of subscriptions.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSNSModel.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSArray *subscriptions</Declaration>
-			
-			
-			<Anchor>//api/name/subscriptions</Anchor>
-            <NodeRef refid="960"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSSNSListSubscriptionsResponse/subscriptions</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;A list of subscriptions.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSNSModel.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSArray *subscriptions</Declaration>
-			
-			
-			<Anchor>//api/name/subscriptions</Anchor>
+			<Anchor>//api/name/sendDataPoints</Anchor>
             <NodeRef refid="960"/>
 		</Token>
 		

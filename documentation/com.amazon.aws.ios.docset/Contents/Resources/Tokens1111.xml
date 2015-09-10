@@ -1,37 +1,173 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Constants/AWSEC2AvailabilityZoneState.html">
+	<File path="Classes/AWSWebIdentityCredentialsProvider.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/c/tdef/AWSEC2AvailabilityZoneState</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSWebIdentityCredentialsProvider</TokenIdentifier>
+			<Abstract type="html">A credentials provider that uses AWS STS web identity federation.</Abstract>
+			<DeclaredIn>AWSCredentialsProvider.h</DeclaredIn>
             
 			
 			<NodeRef refid="1111"/>
 		</Token>
 		
 		
-        
-        <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSEC2AvailabilityZoneStateUnknown</TokenIdentifier>
-            <Abstract type="html"></Abstract>
-            <Declaration>AWSEC2AvailabilityZoneStateUnknown</Declaration>
-            
-            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
-            
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSWebIdentityCredentialsProvider/setAccessKey:</TokenIdentifier>
+			<Abstract type="html">Access Key component of credentials.</Abstract>
+			<DeclaredIn>AWSCredentialsProvider.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong, readonly) NSString *accessKey</Declaration>
+			
+			
+			<Anchor>//api/name/accessKey</Anchor>
             <NodeRef refid="1111"/>
-        </Token>
-        
-        <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSEC2AvailabilityZoneStateAvailable</TokenIdentifier>
-            <Abstract type="html"></Abstract>
-            <Declaration>AWSEC2AvailabilityZoneStateAvailable</Declaration>
-            
-            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
-            
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSWebIdentityCredentialsProvider/accessKey</TokenIdentifier>
+			<Abstract type="html">Access Key component of credentials.</Abstract>
+			<DeclaredIn>AWSCredentialsProvider.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong, readonly) NSString *accessKey</Declaration>
+			
+			
+			<Anchor>//api/name/accessKey</Anchor>
             <NodeRef refid="1111"/>
-        </Token>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSWebIdentityCredentialsProvider/accessKey</TokenIdentifier>
+			<Abstract type="html">Access Key component of credentials.</Abstract>
+			<DeclaredIn>AWSCredentialsProvider.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong, readonly) NSString *accessKey</Declaration>
+			
+			
+			<Anchor>//api/name/accessKey</Anchor>
+            <NodeRef refid="1111"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSWebIdentityCredentialsProvider/setSecretKey:</TokenIdentifier>
+			<Abstract type="html">Secret Access Key component of credentials.</Abstract>
+			<DeclaredIn>AWSCredentialsProvider.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong, readonly) NSString *secretKey</Declaration>
+			
+			
+			<Anchor>//api/name/secretKey</Anchor>
+            <NodeRef refid="1111"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSWebIdentityCredentialsProvider/secretKey</TokenIdentifier>
+			<Abstract type="html">Secret Access Key component of credentials.</Abstract>
+			<DeclaredIn>AWSCredentialsProvider.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong, readonly) NSString *secretKey</Declaration>
+			
+			
+			<Anchor>//api/name/secretKey</Anchor>
+            <NodeRef refid="1111"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSWebIdentityCredentialsProvider/secretKey</TokenIdentifier>
+			<Abstract type="html">Secret Access Key component of credentials.</Abstract>
+			<DeclaredIn>AWSCredentialsProvider.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong, readonly) NSString *secretKey</Declaration>
+			
+			
+			<Anchor>//api/name/secretKey</Anchor>
+            <NodeRef refid="1111"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSWebIdentityCredentialsProvider/setSessionKey:</TokenIdentifier>
+			<Abstract type="html">Session Token component of credentials.</Abstract>
+			<DeclaredIn>AWSCredentialsProvider.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong, readonly) NSString *sessionKey</Declaration>
+			
+			
+			<Anchor>//api/name/sessionKey</Anchor>
+            <NodeRef refid="1111"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSWebIdentityCredentialsProvider/sessionKey</TokenIdentifier>
+			<Abstract type="html">Session Token component of credentials.</Abstract>
+			<DeclaredIn>AWSCredentialsProvider.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong, readonly) NSString *sessionKey</Declaration>
+			
+			
+			<Anchor>//api/name/sessionKey</Anchor>
+            <NodeRef refid="1111"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSWebIdentityCredentialsProvider/sessionKey</TokenIdentifier>
+			<Abstract type="html">Session Token component of credentials.</Abstract>
+			<DeclaredIn>AWSCredentialsProvider.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong, readonly) NSString *sessionKey</Declaration>
+			
+			
+			<Anchor>//api/name/sessionKey</Anchor>
+            <NodeRef refid="1111"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSWebIdentityCredentialsProvider/setExpiration:</TokenIdentifier>
+			<Abstract type="html">Date at which these credentials will expire.</Abstract>
+			<DeclaredIn>AWSCredentialsProvider.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong, readonly) NSDate *expiration</Declaration>
+			
+			
+			<Anchor>//api/name/expiration</Anchor>
+            <NodeRef refid="1111"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSWebIdentityCredentialsProvider/expiration</TokenIdentifier>
+			<Abstract type="html">Date at which these credentials will expire.</Abstract>
+			<DeclaredIn>AWSCredentialsProvider.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong, readonly) NSDate *expiration</Declaration>
+			
+			
+			<Anchor>//api/name/expiration</Anchor>
+            <NodeRef refid="1111"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSWebIdentityCredentialsProvider/expiration</TokenIdentifier>
+			<Abstract type="html">Date at which these credentials will expire.</Abstract>
+			<DeclaredIn>AWSCredentialsProvider.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong, readonly) NSDate *expiration</Declaration>
+			
+			
+			<Anchor>//api/name/expiration</Anchor>
+            <NodeRef refid="1111"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSWebIdentityCredentialsProvider/refresh</TokenIdentifier>
+			<Abstract type="html">Refresh the token associated with this provider.</Abstract>
+			<DeclaredIn>AWSCredentialsProvider.h</DeclaredIn>
+			
+			<Declaration>- (AWSTask *)refresh</Declaration>
+			
+			<ReturnValue><Abstract type="html">AWSTask.</Abstract></ReturnValue>
+			<Anchor>//api/name/refresh</Anchor>
+            <NodeRef refid="1111"/>
+		</Token>
+		
         
         
 	</File>

@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Constants/AWSSNSErrorType.html">
+	<File path="Constants/AWSEC2VolumeStatusInfoStatus.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/c/tdef/AWSSNSErrorType</TokenIdentifier>
-			<Abstract type="html">Copyright 2010-2015 Amazon.com, Inc. or its affiliates. All Rights Reserved.</Abstract>
-			<DeclaredIn>AWSSNSModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/c/tdef/AWSEC2VolumeStatusInfoStatus</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
             
 			
 			<NodeRef refid="1221"/>
@@ -14,131 +14,41 @@
 		
         
         <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSSNSErrorUnknown</TokenIdentifier>
+            <TokenIdentifier>//apple_ref/c/econst/AWSEC2VolumeStatusInfoStatusUnknown</TokenIdentifier>
             <Abstract type="html"></Abstract>
-            <Declaration>AWSSNSErrorUnknown</Declaration>
+            <Declaration>AWSEC2VolumeStatusInfoStatusUnknown</Declaration>
             
-            <DeclaredIn>AWSSNSModel.h</DeclaredIn>
+            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
             
             <NodeRef refid="1221"/>
         </Token>
         
         <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSSNSErrorIncompleteSignature</TokenIdentifier>
+            <TokenIdentifier>//apple_ref/c/econst/AWSEC2VolumeStatusInfoStatusOK</TokenIdentifier>
             <Abstract type="html"></Abstract>
-            <Declaration>AWSSNSErrorIncompleteSignature</Declaration>
+            <Declaration>AWSEC2VolumeStatusInfoStatusOK</Declaration>
             
-            <DeclaredIn>AWSSNSModel.h</DeclaredIn>
+            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
             
             <NodeRef refid="1221"/>
         </Token>
         
         <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSSNSErrorInvalidClientTokenId</TokenIdentifier>
+            <TokenIdentifier>//apple_ref/c/econst/AWSEC2VolumeStatusInfoStatusImpaired</TokenIdentifier>
             <Abstract type="html"></Abstract>
-            <Declaration>AWSSNSErrorInvalidClientTokenId</Declaration>
+            <Declaration>AWSEC2VolumeStatusInfoStatusImpaired</Declaration>
             
-            <DeclaredIn>AWSSNSModel.h</DeclaredIn>
+            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
             
             <NodeRef refid="1221"/>
         </Token>
         
         <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSSNSErrorMissingAuthenticationToken</TokenIdentifier>
+            <TokenIdentifier>//apple_ref/c/econst/AWSEC2VolumeStatusInfoStatusInsufficientData</TokenIdentifier>
             <Abstract type="html"></Abstract>
-            <Declaration>AWSSNSErrorMissingAuthenticationToken</Declaration>
+            <Declaration>AWSEC2VolumeStatusInfoStatusInsufficientData</Declaration>
             
-            <DeclaredIn>AWSSNSModel.h</DeclaredIn>
-            
-            <NodeRef refid="1221"/>
-        </Token>
-        
-        <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSSNSErrorAuthorizationError</TokenIdentifier>
-            <Abstract type="html"></Abstract>
-            <Declaration>AWSSNSErrorAuthorizationError</Declaration>
-            
-            <DeclaredIn>AWSSNSModel.h</DeclaredIn>
-            
-            <NodeRef refid="1221"/>
-        </Token>
-        
-        <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSSNSErrorEndpointDisabled</TokenIdentifier>
-            <Abstract type="html"></Abstract>
-            <Declaration>AWSSNSErrorEndpointDisabled</Declaration>
-            
-            <DeclaredIn>AWSSNSModel.h</DeclaredIn>
-            
-            <NodeRef refid="1221"/>
-        </Token>
-        
-        <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSSNSErrorInternalError</TokenIdentifier>
-            <Abstract type="html"></Abstract>
-            <Declaration>AWSSNSErrorInternalError</Declaration>
-            
-            <DeclaredIn>AWSSNSModel.h</DeclaredIn>
-            
-            <NodeRef refid="1221"/>
-        </Token>
-        
-        <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSSNSErrorInvalidParameter</TokenIdentifier>
-            <Abstract type="html"></Abstract>
-            <Declaration>AWSSNSErrorInvalidParameter</Declaration>
-            
-            <DeclaredIn>AWSSNSModel.h</DeclaredIn>
-            
-            <NodeRef refid="1221"/>
-        </Token>
-        
-        <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSSNSErrorInvalidParameterValue</TokenIdentifier>
-            <Abstract type="html"></Abstract>
-            <Declaration>AWSSNSErrorInvalidParameterValue</Declaration>
-            
-            <DeclaredIn>AWSSNSModel.h</DeclaredIn>
-            
-            <NodeRef refid="1221"/>
-        </Token>
-        
-        <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSSNSErrorNotFound</TokenIdentifier>
-            <Abstract type="html"></Abstract>
-            <Declaration>AWSSNSErrorNotFound</Declaration>
-            
-            <DeclaredIn>AWSSNSModel.h</DeclaredIn>
-            
-            <NodeRef refid="1221"/>
-        </Token>
-        
-        <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSSNSErrorPlatformApplicationDisabled</TokenIdentifier>
-            <Abstract type="html"></Abstract>
-            <Declaration>AWSSNSErrorPlatformApplicationDisabled</Declaration>
-            
-            <DeclaredIn>AWSSNSModel.h</DeclaredIn>
-            
-            <NodeRef refid="1221"/>
-        </Token>
-        
-        <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSSNSErrorSubscriptionLimitExceeded</TokenIdentifier>
-            <Abstract type="html"></Abstract>
-            <Declaration>AWSSNSErrorSubscriptionLimitExceeded</Declaration>
-            
-            <DeclaredIn>AWSSNSModel.h</DeclaredIn>
-            
-            <NodeRef refid="1221"/>
-        </Token>
-        
-        <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSSNSErrorTopicLimitExceeded</TokenIdentifier>
-            <Abstract type="html"></Abstract>
-            <Declaration>AWSSNSErrorTopicLimitExceeded</Declaration>
-            
-            <DeclaredIn>AWSSNSModel.h</DeclaredIn>
+            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
             
             <NodeRef refid="1221"/>
         </Token>

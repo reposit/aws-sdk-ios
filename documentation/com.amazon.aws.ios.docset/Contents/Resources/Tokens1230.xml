@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Constants/AWSXMLParserErrorType.html">
+	<File path="Constants/AWSHTTPMethod.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/c/tdef/AWSXMLParserErrorType</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/c/tdef/AWSHTTPMethod</TokenIdentifier>
 			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSSerialization.h</DeclaredIn>
+			<DeclaredIn>AWSNetworking.h</DeclaredIn>
             
 			
 			<NodeRef refid="1230"/>
@@ -14,91 +14,71 @@
 		
         
         <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSXMLParserUnknownError</TokenIdentifier>
+            <TokenIdentifier>//apple_ref/c/econst/AWSHTTPMethodUnknown</TokenIdentifier>
             <Abstract type="html"></Abstract>
-            <Declaration>AWSXMLParserUnknownError</Declaration>
+            <Declaration>AWSHTTPMethodUnknown</Declaration>
             
-            <DeclaredIn>AWSSerialization.h</DeclaredIn>
+            <DeclaredIn>AWSNetworking.h</DeclaredIn>
             
             <NodeRef refid="1230"/>
         </Token>
         
         <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSXMLParserNoTypeDefinitionInRule</TokenIdentifier>
+            <TokenIdentifier>//apple_ref/c/econst/AWSHTTPMethodGET</TokenIdentifier>
             <Abstract type="html"></Abstract>
-            <Declaration>AWSXMLParserNoTypeDefinitionInRule</Declaration>
+            <Declaration>AWSHTTPMethodGET</Declaration>
             
-            <DeclaredIn>AWSSerialization.h</DeclaredIn>
+            <DeclaredIn>AWSNetworking.h</DeclaredIn>
             
             <NodeRef refid="1230"/>
         </Token>
         
         <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSXMLParserUnHandledType</TokenIdentifier>
+            <TokenIdentifier>//apple_ref/c/econst/AWSHTTPMethodHEAD</TokenIdentifier>
             <Abstract type="html"></Abstract>
-            <Declaration>AWSXMLParserUnHandledType</Declaration>
+            <Declaration>AWSHTTPMethodHEAD</Declaration>
             
-            <DeclaredIn>AWSSerialization.h</DeclaredIn>
+            <DeclaredIn>AWSNetworking.h</DeclaredIn>
             
             <NodeRef refid="1230"/>
         </Token>
         
         <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSXMLParserUnExpectedType</TokenIdentifier>
+            <TokenIdentifier>//apple_ref/c/econst/AWSHTTPMethodPOST</TokenIdentifier>
             <Abstract type="html"></Abstract>
-            <Declaration>AWSXMLParserUnExpectedType</Declaration>
+            <Declaration>AWSHTTPMethodPOST</Declaration>
             
-            <DeclaredIn>AWSSerialization.h</DeclaredIn>
+            <DeclaredIn>AWSNetworking.h</DeclaredIn>
             
             <NodeRef refid="1230"/>
         </Token>
         
         <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSXMLParserDefinitionFileIsEmpty</TokenIdentifier>
+            <TokenIdentifier>//apple_ref/c/econst/AWSHTTPMethodPUT</TokenIdentifier>
             <Abstract type="html"></Abstract>
-            <Declaration>AWSXMLParserDefinitionFileIsEmpty</Declaration>
+            <Declaration>AWSHTTPMethodPUT</Declaration>
             
-            <DeclaredIn>AWSSerialization.h</DeclaredIn>
+            <DeclaredIn>AWSNetworking.h</DeclaredIn>
             
             <NodeRef refid="1230"/>
         </Token>
         
         <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSXMLParserUnexpectedXMLElement</TokenIdentifier>
+            <TokenIdentifier>//apple_ref/c/econst/AWSHTTPMethodPATCH</TokenIdentifier>
             <Abstract type="html"></Abstract>
-            <Declaration>AWSXMLParserUnexpectedXMLElement</Declaration>
+            <Declaration>AWSHTTPMethodPATCH</Declaration>
             
-            <DeclaredIn>AWSSerialization.h</DeclaredIn>
+            <DeclaredIn>AWSNetworking.h</DeclaredIn>
             
             <NodeRef refid="1230"/>
         </Token>
         
         <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSXMLParserXMLNameNotFoundInDefinition</TokenIdentifier>
+            <TokenIdentifier>//apple_ref/c/econst/AWSHTTPMethodDELETE</TokenIdentifier>
             <Abstract type="html"></Abstract>
-            <Declaration>AWSXMLParserXMLNameNotFoundInDefinition</Declaration>
+            <Declaration>AWSHTTPMethodDELETE</Declaration>
             
-            <DeclaredIn>AWSSerialization.h</DeclaredIn>
-            
-            <NodeRef refid="1230"/>
-        </Token>
-        
-        <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSXMLParserMissingRequiredXMLElements</TokenIdentifier>
-            <Abstract type="html"></Abstract>
-            <Declaration>AWSXMLParserMissingRequiredXMLElements</Declaration>
-            
-            <DeclaredIn>AWSSerialization.h</DeclaredIn>
-            
-            <NodeRef refid="1230"/>
-        </Token>
-        
-        <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSXMLParserInvalidXMLValue</TokenIdentifier>
-            <Abstract type="html"></Abstract>
-            <Declaration>AWSXMLParserInvalidXMLValue</Declaration>
-            
-            <DeclaredIn>AWSSerialization.h</DeclaredIn>
+            <DeclaredIn>AWSNetworking.h</DeclaredIn>
             
             <NodeRef refid="1230"/>
         </Token>

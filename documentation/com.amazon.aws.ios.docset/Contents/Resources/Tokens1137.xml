@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Constants/AWSEC2NetworkInterfaceAttribute.html">
+	<File path="Constants/AWSCognitoSyncBulkPublishStatus.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/c/tdef/AWSEC2NetworkInterfaceAttribute</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/c/tdef/AWSCognitoSyncBulkPublishStatus</TokenIdentifier>
 			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			<DeclaredIn>AWSCognitoSyncModel.h</DeclaredIn>
             
 			
 			<NodeRef refid="1137"/>
@@ -14,51 +14,51 @@
 		
         
         <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSEC2NetworkInterfaceAttributeUnknown</TokenIdentifier>
+            <TokenIdentifier>//apple_ref/c/econst/AWSCognitoSyncBulkPublishStatusUnknown</TokenIdentifier>
             <Abstract type="html"></Abstract>
-            <Declaration>AWSEC2NetworkInterfaceAttributeUnknown</Declaration>
+            <Declaration>AWSCognitoSyncBulkPublishStatusUnknown</Declaration>
             
-            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
+            <DeclaredIn>AWSCognitoSyncModel.h</DeclaredIn>
             
             <NodeRef refid="1137"/>
         </Token>
         
         <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSEC2NetworkInterfaceAttributeDescription</TokenIdentifier>
+            <TokenIdentifier>//apple_ref/c/econst/AWSCognitoSyncBulkPublishStatusNotStarted</TokenIdentifier>
             <Abstract type="html"></Abstract>
-            <Declaration>AWSEC2NetworkInterfaceAttributeDescription</Declaration>
+            <Declaration>AWSCognitoSyncBulkPublishStatusNotStarted</Declaration>
             
-            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
+            <DeclaredIn>AWSCognitoSyncModel.h</DeclaredIn>
             
             <NodeRef refid="1137"/>
         </Token>
         
         <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSEC2NetworkInterfaceAttributeGroupSet</TokenIdentifier>
+            <TokenIdentifier>//apple_ref/c/econst/AWSCognitoSyncBulkPublishStatusInProgress</TokenIdentifier>
             <Abstract type="html"></Abstract>
-            <Declaration>AWSEC2NetworkInterfaceAttributeGroupSet</Declaration>
+            <Declaration>AWSCognitoSyncBulkPublishStatusInProgress</Declaration>
             
-            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
+            <DeclaredIn>AWSCognitoSyncModel.h</DeclaredIn>
             
             <NodeRef refid="1137"/>
         </Token>
         
         <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSEC2NetworkInterfaceAttributeSourceDestCheck</TokenIdentifier>
+            <TokenIdentifier>//apple_ref/c/econst/AWSCognitoSyncBulkPublishStatusFailed</TokenIdentifier>
             <Abstract type="html"></Abstract>
-            <Declaration>AWSEC2NetworkInterfaceAttributeSourceDestCheck</Declaration>
+            <Declaration>AWSCognitoSyncBulkPublishStatusFailed</Declaration>
             
-            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
+            <DeclaredIn>AWSCognitoSyncModel.h</DeclaredIn>
             
             <NodeRef refid="1137"/>
         </Token>
         
         <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSEC2NetworkInterfaceAttributeAttachment</TokenIdentifier>
+            <TokenIdentifier>//apple_ref/c/econst/AWSCognitoSyncBulkPublishStatusSucceeded</TokenIdentifier>
             <Abstract type="html"></Abstract>
-            <Declaration>AWSEC2NetworkInterfaceAttributeAttachment</Declaration>
+            <Declaration>AWSCognitoSyncBulkPublishStatusSucceeded</Declaration>
             
-            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
+            <DeclaredIn>AWSCognitoSyncModel.h</DeclaredIn>
             
             <NodeRef refid="1137"/>
         </Token>

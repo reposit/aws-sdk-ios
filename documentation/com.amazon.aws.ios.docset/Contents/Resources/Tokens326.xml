@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSEC2CreateVpcPeeringConnectionRequest.html">
+	<File path="Classes/AWSEC2CreateSecurityGroupResult.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSEC2CreateVpcPeeringConnectionRequest</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSEC2CreateSecurityGroupResult</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
             
@@ -13,146 +13,38 @@
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2CreateVpcPeeringConnectionRequest/setDryRun:</TokenIdentifier>
-			<Abstract type="html"></Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2CreateSecurityGroupResult/setGroupId:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the security group.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSNumber *dryRun</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *groupId</Declaration>
 			
 			
-			<Anchor>//api/name/dryRun</Anchor>
+			<Anchor>//api/name/groupId</Anchor>
             <NodeRef refid="326"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2CreateVpcPeeringConnectionRequest/dryRun</TokenIdentifier>
-			<Abstract type="html"></Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2CreateSecurityGroupResult/groupId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the security group.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSNumber *dryRun</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *groupId</Declaration>
 			
 			
-			<Anchor>//api/name/dryRun</Anchor>
+			<Anchor>//api/name/groupId</Anchor>
             <NodeRef refid="326"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2CreateVpcPeeringConnectionRequest/dryRun</TokenIdentifier>
-			<Abstract type="html"></Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2CreateSecurityGroupResult/groupId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the security group.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSNumber *dryRun</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *groupId</Declaration>
 			
 			
-			<Anchor>//api/name/dryRun</Anchor>
-            <NodeRef refid="326"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2CreateVpcPeeringConnectionRequest/setPeerOwnerId:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The AWS account ID of the owner of the peer VPC.&lt;/p&gt;&lt;p&gt;Default: Your AWS account ID&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *peerOwnerId</Declaration>
-			
-			
-			<Anchor>//api/name/peerOwnerId</Anchor>
-            <NodeRef refid="326"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2CreateVpcPeeringConnectionRequest/peerOwnerId</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The AWS account ID of the owner of the peer VPC.&lt;/p&gt;&lt;p&gt;Default: Your AWS account ID&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *peerOwnerId</Declaration>
-			
-			
-			<Anchor>//api/name/peerOwnerId</Anchor>
-            <NodeRef refid="326"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2CreateVpcPeeringConnectionRequest/peerOwnerId</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The AWS account ID of the owner of the peer VPC.&lt;/p&gt;&lt;p&gt;Default: Your AWS account ID&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *peerOwnerId</Declaration>
-			
-			
-			<Anchor>//api/name/peerOwnerId</Anchor>
-            <NodeRef refid="326"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2CreateVpcPeeringConnectionRequest/setPeerVpcId:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The ID of the VPC with which you are creating the VPC peering connection.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *peerVpcId</Declaration>
-			
-			
-			<Anchor>//api/name/peerVpcId</Anchor>
-            <NodeRef refid="326"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2CreateVpcPeeringConnectionRequest/peerVpcId</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The ID of the VPC with which you are creating the VPC peering connection.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *peerVpcId</Declaration>
-			
-			
-			<Anchor>//api/name/peerVpcId</Anchor>
-            <NodeRef refid="326"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2CreateVpcPeeringConnectionRequest/peerVpcId</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The ID of the VPC with which you are creating the VPC peering connection.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *peerVpcId</Declaration>
-			
-			
-			<Anchor>//api/name/peerVpcId</Anchor>
-            <NodeRef refid="326"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2CreateVpcPeeringConnectionRequest/setVpcId:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The ID of the requester VPC.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *vpcId</Declaration>
-			
-			
-			<Anchor>//api/name/vpcId</Anchor>
-            <NodeRef refid="326"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2CreateVpcPeeringConnectionRequest/vpcId</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The ID of the requester VPC.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *vpcId</Declaration>
-			
-			
-			<Anchor>//api/name/vpcId</Anchor>
-            <NodeRef refid="326"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2CreateVpcPeeringConnectionRequest/vpcId</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The ID of the requester VPC.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *vpcId</Declaration>
-			
-			
-			<Anchor>//api/name/vpcId</Anchor>
+			<Anchor>//api/name/groupId</Anchor>
             <NodeRef refid="326"/>
 		</Token>
 		

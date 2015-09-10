@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Constants/AWSS3MetadataDirective.html">
+	<File path="Constants/AWSEC2RouteOrigin.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/c/tdef/AWSS3MetadataDirective</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/c/tdef/AWSEC2RouteOrigin</TokenIdentifier>
 			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
             
 			
 			<NodeRef refid="1203"/>
@@ -14,31 +14,41 @@
 		
         
         <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSS3MetadataDirectiveUnknown</TokenIdentifier>
+            <TokenIdentifier>//apple_ref/c/econst/AWSEC2RouteOriginUnknown</TokenIdentifier>
             <Abstract type="html"></Abstract>
-            <Declaration>AWSS3MetadataDirectiveUnknown</Declaration>
+            <Declaration>AWSEC2RouteOriginUnknown</Declaration>
             
-            <DeclaredIn>AWSS3Model.h</DeclaredIn>
+            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
             
             <NodeRef refid="1203"/>
         </Token>
         
         <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSS3MetadataDirectiveCopy</TokenIdentifier>
+            <TokenIdentifier>//apple_ref/c/econst/AWSEC2RouteOriginCreateRouteTable</TokenIdentifier>
             <Abstract type="html"></Abstract>
-            <Declaration>AWSS3MetadataDirectiveCopy</Declaration>
+            <Declaration>AWSEC2RouteOriginCreateRouteTable</Declaration>
             
-            <DeclaredIn>AWSS3Model.h</DeclaredIn>
+            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
             
             <NodeRef refid="1203"/>
         </Token>
         
         <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSS3MetadataDirectiveReplace</TokenIdentifier>
+            <TokenIdentifier>//apple_ref/c/econst/AWSEC2RouteOriginCreateRoute</TokenIdentifier>
             <Abstract type="html"></Abstract>
-            <Declaration>AWSS3MetadataDirectiveReplace</Declaration>
+            <Declaration>AWSEC2RouteOriginCreateRoute</Declaration>
             
-            <DeclaredIn>AWSS3Model.h</DeclaredIn>
+            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
+            
+            <NodeRef refid="1203"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/AWSEC2RouteOriginEnableVgwRoutePropagation</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>AWSEC2RouteOriginEnableVgwRoutePropagation</Declaration>
+            
+            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
             
             <NodeRef refid="1203"/>
         </Token>

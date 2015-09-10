@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSEC2InstanceBlockDeviceMapping.html">
+	<File path="Classes/AWSEC2GetPasswordDataRequest.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSEC2InstanceBlockDeviceMapping</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Describes a block device mapping.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSEC2GetPasswordDataRequest</TokenIdentifier>
+			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
             
 			
@@ -13,74 +13,74 @@
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2InstanceBlockDeviceMapping/setDeviceName:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The device name exposed to the instance (for example, &lt;filename&gt;/dev/sdh&lt;/filename&gt;).&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2GetPasswordDataRequest/setDryRun:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *deviceName</Declaration>
+			<Declaration>@property (nonatomic, strong) NSNumber *dryRun</Declaration>
 			
 			
-			<Anchor>//api/name/deviceName</Anchor>
+			<Anchor>//api/name/dryRun</Anchor>
             <NodeRef refid="483"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2InstanceBlockDeviceMapping/deviceName</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The device name exposed to the instance (for example, &lt;filename&gt;/dev/sdh&lt;/filename&gt;).&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2GetPasswordDataRequest/dryRun</TokenIdentifier>
+			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *deviceName</Declaration>
+			<Declaration>@property (nonatomic, strong) NSNumber *dryRun</Declaration>
 			
 			
-			<Anchor>//api/name/deviceName</Anchor>
+			<Anchor>//api/name/dryRun</Anchor>
             <NodeRef refid="483"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2InstanceBlockDeviceMapping/deviceName</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The device name exposed to the instance (for example, &lt;filename&gt;/dev/sdh&lt;/filename&gt;).&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2GetPasswordDataRequest/dryRun</TokenIdentifier>
+			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *deviceName</Declaration>
+			<Declaration>@property (nonatomic, strong) NSNumber *dryRun</Declaration>
 			
 			
-			<Anchor>//api/name/deviceName</Anchor>
+			<Anchor>//api/name/dryRun</Anchor>
             <NodeRef refid="483"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2InstanceBlockDeviceMapping/setEbs:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Parameters used to automatically set up Amazon EBS volumes when the instance is launched.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2GetPasswordDataRequest/setInstanceId:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the Windows instance.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) AWSEC2EbsInstanceBlockDevice *ebs</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *instanceId</Declaration>
 			
 			
-			<Anchor>//api/name/ebs</Anchor>
+			<Anchor>//api/name/instanceId</Anchor>
             <NodeRef refid="483"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2InstanceBlockDeviceMapping/ebs</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Parameters used to automatically set up Amazon EBS volumes when the instance is launched.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2GetPasswordDataRequest/instanceId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the Windows instance.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) AWSEC2EbsInstanceBlockDevice *ebs</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *instanceId</Declaration>
 			
 			
-			<Anchor>//api/name/ebs</Anchor>
+			<Anchor>//api/name/instanceId</Anchor>
             <NodeRef refid="483"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2InstanceBlockDeviceMapping/ebs</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Parameters used to automatically set up Amazon EBS volumes when the instance is launched.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2GetPasswordDataRequest/instanceId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the Windows instance.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) AWSEC2EbsInstanceBlockDevice *ebs</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *instanceId</Declaration>
 			
 			
-			<Anchor>//api/name/ebs</Anchor>
+			<Anchor>//api/name/instanceId</Anchor>
             <NodeRef refid="483"/>
 		</Token>
 		

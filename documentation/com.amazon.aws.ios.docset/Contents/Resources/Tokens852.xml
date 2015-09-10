@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSS3PutBucketLoggingRequest.html">
+	<File path="Classes/AWSS3GetBucketNotificationOutput.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSS3PutBucketLoggingRequest</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSS3GetBucketNotificationOutput</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSS3Model.h</DeclaredIn>
             
@@ -13,110 +13,110 @@
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3PutBucketLoggingRequest/setBucket:</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3GetBucketNotificationOutput/setCloudFunctionConfiguration:</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *bucket</Declaration>
+			<Declaration>@property (nonatomic, strong) AWSS3CloudFunctionConfiguration *cloudFunctionConfiguration</Declaration>
 			
 			
-			<Anchor>//api/name/bucket</Anchor>
+			<Anchor>//api/name/cloudFunctionConfiguration</Anchor>
             <NodeRef refid="852"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3PutBucketLoggingRequest/bucket</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3GetBucketNotificationOutput/cloudFunctionConfiguration</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *bucket</Declaration>
+			<Declaration>@property (nonatomic, strong) AWSS3CloudFunctionConfiguration *cloudFunctionConfiguration</Declaration>
 			
 			
-			<Anchor>//api/name/bucket</Anchor>
+			<Anchor>//api/name/cloudFunctionConfiguration</Anchor>
             <NodeRef refid="852"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSS3PutBucketLoggingRequest/bucket</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSS3GetBucketNotificationOutput/cloudFunctionConfiguration</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *bucket</Declaration>
+			<Declaration>@property (nonatomic, strong) AWSS3CloudFunctionConfiguration *cloudFunctionConfiguration</Declaration>
 			
 			
-			<Anchor>//api/name/bucket</Anchor>
+			<Anchor>//api/name/cloudFunctionConfiguration</Anchor>
             <NodeRef refid="852"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3PutBucketLoggingRequest/setBucketLoggingStatus:</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3GetBucketNotificationOutput/setQueueConfiguration:</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) AWSS3BucketLoggingStatus *bucketLoggingStatus</Declaration>
+			<Declaration>@property (nonatomic, strong) AWSS3QueueConfiguration *queueConfiguration</Declaration>
 			
 			
-			<Anchor>//api/name/bucketLoggingStatus</Anchor>
+			<Anchor>//api/name/queueConfiguration</Anchor>
             <NodeRef refid="852"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3PutBucketLoggingRequest/bucketLoggingStatus</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3GetBucketNotificationOutput/queueConfiguration</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) AWSS3BucketLoggingStatus *bucketLoggingStatus</Declaration>
+			<Declaration>@property (nonatomic, strong) AWSS3QueueConfiguration *queueConfiguration</Declaration>
 			
 			
-			<Anchor>//api/name/bucketLoggingStatus</Anchor>
+			<Anchor>//api/name/queueConfiguration</Anchor>
             <NodeRef refid="852"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSS3PutBucketLoggingRequest/bucketLoggingStatus</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSS3GetBucketNotificationOutput/queueConfiguration</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) AWSS3BucketLoggingStatus *bucketLoggingStatus</Declaration>
+			<Declaration>@property (nonatomic, strong) AWSS3QueueConfiguration *queueConfiguration</Declaration>
 			
 			
-			<Anchor>//api/name/bucketLoggingStatus</Anchor>
+			<Anchor>//api/name/queueConfiguration</Anchor>
             <NodeRef refid="852"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3PutBucketLoggingRequest/setContentMD5:</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3GetBucketNotificationOutput/setTopicConfiguration:</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *contentMD5</Declaration>
+			<Declaration>@property (nonatomic, strong) AWSS3TopicConfiguration *topicConfiguration</Declaration>
 			
 			
-			<Anchor>//api/name/contentMD5</Anchor>
+			<Anchor>//api/name/topicConfiguration</Anchor>
             <NodeRef refid="852"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3PutBucketLoggingRequest/contentMD5</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3GetBucketNotificationOutput/topicConfiguration</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *contentMD5</Declaration>
+			<Declaration>@property (nonatomic, strong) AWSS3TopicConfiguration *topicConfiguration</Declaration>
 			
 			
-			<Anchor>//api/name/contentMD5</Anchor>
+			<Anchor>//api/name/topicConfiguration</Anchor>
             <NodeRef refid="852"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSS3PutBucketLoggingRequest/contentMD5</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSS3GetBucketNotificationOutput/topicConfiguration</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *contentMD5</Declaration>
+			<Declaration>@property (nonatomic, strong) AWSS3TopicConfiguration *topicConfiguration</Declaration>
 			
 			
-			<Anchor>//api/name/contentMD5</Anchor>
+			<Anchor>//api/name/topicConfiguration</Anchor>
             <NodeRef refid="852"/>
 		</Token>
 		

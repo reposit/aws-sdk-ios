@@ -1,67 +1,53 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Constants/AWSDynamoDBIndexStatus.html">
+	<File path="Classes/AWSSimpleDBDomainMetadataRequest.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/c/tdef/AWSDynamoDBIndexStatus</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSSimpleDBDomainMetadataRequest</TokenIdentifier>
 			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
+			<DeclaredIn>AWSSimpleDBModel.h</DeclaredIn>
             
 			
 			<NodeRef refid="1097"/>
 		</Token>
 		
 		
-        
-        <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSDynamoDBIndexStatusUnknown</TokenIdentifier>
-            <Abstract type="html"></Abstract>
-            <Declaration>AWSDynamoDBIndexStatusUnknown</Declaration>
-            
-            <DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
-            
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSimpleDBDomainMetadataRequest/setDomainName:</TokenIdentifier>
+			<Abstract type="html">The name of the domain for which to display the metadata of.</Abstract>
+			<DeclaredIn>AWSSimpleDBModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *domainName</Declaration>
+			
+			
+			<Anchor>//api/name/domainName</Anchor>
             <NodeRef refid="1097"/>
-        </Token>
-        
-        <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSDynamoDBIndexStatusCreating</TokenIdentifier>
-            <Abstract type="html"></Abstract>
-            <Declaration>AWSDynamoDBIndexStatusCreating</Declaration>
-            
-            <DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
-            
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSimpleDBDomainMetadataRequest/domainName</TokenIdentifier>
+			<Abstract type="html">The name of the domain for which to display the metadata of.</Abstract>
+			<DeclaredIn>AWSSimpleDBModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *domainName</Declaration>
+			
+			
+			<Anchor>//api/name/domainName</Anchor>
             <NodeRef refid="1097"/>
-        </Token>
-        
-        <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSDynamoDBIndexStatusUpdating</TokenIdentifier>
-            <Abstract type="html"></Abstract>
-            <Declaration>AWSDynamoDBIndexStatusUpdating</Declaration>
-            
-            <DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
-            
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSSimpleDBDomainMetadataRequest/domainName</TokenIdentifier>
+			<Abstract type="html">The name of the domain for which to display the metadata of.</Abstract>
+			<DeclaredIn>AWSSimpleDBModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *domainName</Declaration>
+			
+			
+			<Anchor>//api/name/domainName</Anchor>
             <NodeRef refid="1097"/>
-        </Token>
-        
-        <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSDynamoDBIndexStatusDeleting</TokenIdentifier>
-            <Abstract type="html"></Abstract>
-            <Declaration>AWSDynamoDBIndexStatusDeleting</Declaration>
-            
-            <DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
-            
-            <NodeRef refid="1097"/>
-        </Token>
-        
-        <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSDynamoDBIndexStatusActive</TokenIdentifier>
-            <Abstract type="html"></Abstract>
-            <Declaration>AWSDynamoDBIndexStatusActive</Declaration>
-            
-            <DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
-            
-            <NodeRef refid="1097"/>
-        </Token>
+		</Token>
+		
         
         
 	</File>

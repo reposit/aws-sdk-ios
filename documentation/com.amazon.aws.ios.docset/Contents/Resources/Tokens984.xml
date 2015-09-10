@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSSQSChangeMessageVisibilityBatchResultEntry.html">
+	<File path="Classes/AWSSESVerifyEmailAddressRequest.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSSQSChangeMessageVisibilityBatchResultEntry</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Encloses the id of an entry in &lt;a&gt;ChangeMessageVisibilityBatch&lt;/a&gt;.&lt;/p&gt;
-Required parameters: [Id]</Abstract>
-			<DeclaredIn>AWSSQSModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSSESVerifyEmailAddressRequest</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Represents a request instructing the service to begin email address verification.&lt;/p&gt;
+Required parameters: [EmailAddress]</Abstract>
+			<DeclaredIn>AWSSESModel.h</DeclaredIn>
             
 			
 			<NodeRef refid="984"/>
@@ -14,38 +14,38 @@ Required parameters: [Id]</Abstract>
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSSQSChangeMessageVisibilityBatchResultEntry/setIdentifier:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Represents a message whose visibility timeout has been changed successfully.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSQSModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSESVerifyEmailAddressRequest/setEmailAddress:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The email address to be verified.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSESModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *identifier</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *emailAddress</Declaration>
 			
 			
-			<Anchor>//api/name/identifier</Anchor>
+			<Anchor>//api/name/emailAddress</Anchor>
             <NodeRef refid="984"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSSQSChangeMessageVisibilityBatchResultEntry/identifier</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Represents a message whose visibility timeout has been changed successfully.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSQSModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSESVerifyEmailAddressRequest/emailAddress</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The email address to be verified.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSESModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *identifier</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *emailAddress</Declaration>
 			
 			
-			<Anchor>//api/name/identifier</Anchor>
+			<Anchor>//api/name/emailAddress</Anchor>
             <NodeRef refid="984"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSSQSChangeMessageVisibilityBatchResultEntry/identifier</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Represents a message whose visibility timeout has been changed successfully.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSQSModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSSESVerifyEmailAddressRequest/emailAddress</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The email address to be verified.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSESModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *identifier</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *emailAddress</Declaration>
 			
 			
-			<Anchor>//api/name/identifier</Anchor>
+			<Anchor>//api/name/emailAddress</Anchor>
             <NodeRef refid="984"/>
 		</Token>
 		

@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSAutoScalingAdjustmentType.html">
+	<File path="Classes/AWSAutoScalingActivityType.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSAutoScalingAdjustmentType</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt; Specifies whether the &lt;a&gt;PutScalingPolicy&lt;/a&gt;&lt;code&gt;ScalingAdjustment&lt;/code&gt; parameter is an absolute number or a percentage of the current capacity. &lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSAutoScalingActivityType</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; The output for the &lt;a&gt;TerminateInstanceInAutoScalingGroup&lt;/a&gt; action. &lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
             
 			
@@ -13,38 +13,38 @@
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingAdjustmentType/setAdjustmentType:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;A policy adjustment type. Valid values are &lt;code&gt;ChangeInCapacity&lt;/code&gt;, &lt;code&gt;ExactCapacity&lt;/code&gt;, and &lt;code&gt;PercentChangeInCapacity&lt;/code&gt;.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingActivityType/setActivity:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; A scaling Activity. &lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *adjustmentType</Declaration>
+			<Declaration>@property (nonatomic, strong) AWSAutoScalingActivity *activity</Declaration>
 			
 			
-			<Anchor>//api/name/adjustmentType</Anchor>
+			<Anchor>//api/name/activity</Anchor>
             <NodeRef refid="7"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingAdjustmentType/adjustmentType</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;A policy adjustment type. Valid values are &lt;code&gt;ChangeInCapacity&lt;/code&gt;, &lt;code&gt;ExactCapacity&lt;/code&gt;, and &lt;code&gt;PercentChangeInCapacity&lt;/code&gt;.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingActivityType/activity</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; A scaling Activity. &lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *adjustmentType</Declaration>
+			<Declaration>@property (nonatomic, strong) AWSAutoScalingActivity *activity</Declaration>
 			
 			
-			<Anchor>//api/name/adjustmentType</Anchor>
+			<Anchor>//api/name/activity</Anchor>
             <NodeRef refid="7"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSAutoScalingAdjustmentType/adjustmentType</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;A policy adjustment type. Valid values are &lt;code&gt;ChangeInCapacity&lt;/code&gt;, &lt;code&gt;ExactCapacity&lt;/code&gt;, and &lt;code&gt;PercentChangeInCapacity&lt;/code&gt;.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSAutoScalingActivityType/activity</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; A scaling Activity. &lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *adjustmentType</Declaration>
+			<Declaration>@property (nonatomic, strong) AWSAutoScalingActivity *activity</Declaration>
 			
 			
-			<Anchor>//api/name/adjustmentType</Anchor>
+			<Anchor>//api/name/activity</Anchor>
             <NodeRef refid="7"/>
 		</Token>
 		

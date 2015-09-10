@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSS3AccessControlPolicy.html">
+	<File path="Classes/AWSLambda.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSS3AccessControlPolicy</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSLambda</TokenIdentifier>
+			<Abstract type="html">&lt;fullname&gt;AWS Lambda&lt;/fullname&gt;&lt;p&gt;&lt;b&gt;Overview&lt;/b&gt;&lt;/p&gt;&lt;p&gt;This is the &lt;i&gt;AWS Lambda API Reference&lt;/i&gt;. The AWS Lambda Developer Guide provides additional information. For the service overview, go to AWS Lambda: How it Works in the &lt;i&gt;AWS Lambda Developer Guide&lt;/i&gt;.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSLambdaService.h</DeclaredIn>
             
 			
 			<NodeRef refid="759"/>
@@ -13,74 +13,493 @@
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3AccessControlPolicy/setGrants:</TokenIdentifier>
-			<Abstract type="html">A list of grants.</Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSLambda/setConfiguration:</TokenIdentifier>
+			<Abstract type="html">The service configuration used to instantiate this service client.</Abstract>
+			<DeclaredIn>AWSLambdaService.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSArray *grants</Declaration>
+			<Declaration>@property (nonatomic, strong, readonly) AWSServiceConfiguration *configuration</Declaration>
 			
 			
-			<Anchor>//api/name/grants</Anchor>
+			<Anchor>//api/name/configuration</Anchor>
             <NodeRef refid="759"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3AccessControlPolicy/grants</TokenIdentifier>
-			<Abstract type="html">A list of grants.</Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSLambda/configuration</TokenIdentifier>
+			<Abstract type="html">The service configuration used to instantiate this service client.</Abstract>
+			<DeclaredIn>AWSLambdaService.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSArray *grants</Declaration>
+			<Declaration>@property (nonatomic, strong, readonly) AWSServiceConfiguration *configuration</Declaration>
 			
 			
-			<Anchor>//api/name/grants</Anchor>
+			<Anchor>//api/name/configuration</Anchor>
             <NodeRef refid="759"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSS3AccessControlPolicy/grants</TokenIdentifier>
-			<Abstract type="html">A list of grants.</Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSLambda/configuration</TokenIdentifier>
+			<Abstract type="html">The service configuration used to instantiate this service client.</Abstract>
+			<DeclaredIn>AWSLambdaService.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSArray *grants</Declaration>
+			<Declaration>@property (nonatomic, strong, readonly) AWSServiceConfiguration *configuration</Declaration>
 			
 			
-			<Anchor>//api/name/grants</Anchor>
+			<Anchor>//api/name/configuration</Anchor>
             <NodeRef refid="759"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3AccessControlPolicy/setOwner:</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/clm/AWSLambda/defaultLambda</TokenIdentifier>
+			<Abstract type="html">Returns the singleton service client. If the singleton object does not exist, the SDK instantiates the default service client with defaultServiceConfiguration from [AWSServiceManager defaultServiceManager]. The reference to this object is maintained by the SDK, and you do not need to retain it manually.</Abstract>
+			<DeclaredIn>AWSLambdaService.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) AWSS3Owner *owner</Declaration>
+			<Declaration>+ (instancetype)defaultLambda</Declaration>
 			
-			
-			<Anchor>//api/name/owner</Anchor>
+			<ReturnValue><Abstract type="html">The default service client.</Abstract></ReturnValue>
+			<Anchor>//api/name/defaultLambda</Anchor>
             <NodeRef refid="759"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3AccessControlPolicy/owner</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/clm/AWSLambda/registerLambdaWithConfiguration:forKey:</TokenIdentifier>
+			<Abstract type="html">Creates a service client with the given service configuration and registers it for the key.</Abstract>
+			<DeclaredIn>AWSLambdaService.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) AWSS3Owner *owner</Declaration>
+			<Declaration>+ (void)registerLambdaWithConfiguration:(AWSServiceConfiguration *)configuration forKey:(NSString *)key</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>configuration</Name>
+					<Abstract type="html">A service configuration object.</Abstract>
+				</Parameter><Parameter>
+					<Name>key</Name>
+					<Abstract type="html">A string to identify the service client.</Abstract>
+				</Parameter>
+			</Parameters>
 			
-			
-			<Anchor>//api/name/owner</Anchor>
+			<Anchor>//api/name/registerLambdaWithConfiguration:forKey:</Anchor>
             <NodeRef refid="759"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSS3AccessControlPolicy/owner</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/clm/AWSLambda/LambdaForKey:</TokenIdentifier>
+			<Abstract type="html">Retrieves the service client associated with the key. You need to call + registerLambdaWithConfiguration:forKey: before invoking this method. If + registerLambdaWithConfiguration:forKey: has not been called in advance or the key does not exist, this method returns nil.</Abstract>
+			<DeclaredIn>AWSLambdaService.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) AWSS3Owner *owner</Declaration>
+			<Declaration>+ (instancetype)LambdaForKey:(NSString *)key</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>key</Name>
+					<Abstract type="html">A string to identify the service client.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An instance of the service client.</Abstract></ReturnValue>
+			<Anchor>//api/name/LambdaForKey:</Anchor>
+            <NodeRef refid="759"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/AWSLambda/removeLambdaForKey:</TokenIdentifier>
+			<Abstract type="html">Removes the service client associated with the key and release it.</Abstract>
+			<DeclaredIn>AWSLambdaService.h</DeclaredIn>
 			
+			<Declaration>+ (void)removeLambdaForKey:(NSString *)key</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>key</Name>
+					<Abstract type="html">A string to identify the service client.</Abstract>
+				</Parameter>
+			</Parameters>
 			
-			<Anchor>//api/name/owner</Anchor>
+			<Anchor>//api/name/removeLambdaForKey:</Anchor>
+            <NodeRef refid="759"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSLambda/addPermission:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Adds a permission to the access policy associated with the specified AWS Lambda function. In a &quot;push event&quot; model, the access policy attached to the Lambda function grants Amazon S3 or a user application permission for the Lambda &lt;code&gt;lambda:Invoke&lt;/code&gt; action. For information about the push model, see AWS Lambda: How it Works. Each Lambda function has one access policy associated with it. You can use the &lt;code&gt;AddPermission&lt;/code&gt; API to add a permission to the policy. You have one access policy but it can have multiple permission statements.&lt;/p&gt;&lt;p&gt;This operation requires permission for the &lt;code&gt;lambda:AddPermission&lt;/code&gt; action.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSLambdaService.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSLambdaAddPermissionRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSLambdaAddPermissionResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (AWSTask *)addPermission:(AWSLambdaAddPermissionRequest *)request</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the AddPermission service method.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An instance of AWSTask. On successful execution, task.result will contain an instance of AWSLambdaAddPermissionResponse. On failed execution, task.error may contain an NSError with AWSLambdaErrorDomain domain and the following error code: AWSLambdaErrorService, AWSLambdaErrorResourceNotFound, AWSLambdaErrorResourceConflict, AWSLambdaErrorInvalidParameterValue, AWSLambdaErrorPolicyLengthExceeded, AWSLambdaErrorTooManyRequests.</Abstract></ReturnValue>
+			<Anchor>//api/name/addPermission:</Anchor>
+            <NodeRef refid="759"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSLambda/createEventSourceMapping:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Identifies a stream as an event source for a Lambda function. It can be either an Amazon Kinesis stream or an Amazon DynamoDB stream. AWS Lambda invokes the specified function when records are posted to the stream.&lt;/p&gt;&lt;p&gt;This is the pull model, where AWS Lambda invokes the function. For more information, go to AWS Lambda: How it Works in the &lt;i&gt;AWS Lambda Developer Guide&lt;/i&gt;.&lt;/p&gt;&lt;p&gt;This association between an Amazon Kinesis stream and a Lambda function is called the event source mapping. You provide the configuration information (for example, which stream to read from and which Lambda function to invoke) for the event source mapping in the request body.&lt;/p&gt;&lt;p&gt; Each event source, such as an Amazon Kinesis or a DynamoDB stream, can be associated with multiple AWS Lambda function. A given Lambda function can be associated with multiple AWS event sources. &lt;/p&gt;&lt;p&gt;This operation requires permission for the &lt;code&gt;lambda:CreateEventSourceMapping&lt;/code&gt; action.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSLambdaService.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSLambdaCreateEventSourceMappingRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSLambdaEventSourceMappingConfiguration</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (AWSTask *)createEventSourceMapping:(AWSLambdaCreateEventSourceMappingRequest *)request</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the CreateEventSourceMapping service method.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An instance of AWSTask. On successful execution, task.result will contain an instance of AWSLambdaEventSourceMappingConfiguration. On failed execution, task.error may contain an NSError with AWSLambdaErrorDomain domain and the following error code: AWSLambdaErrorService, AWSLambdaErrorInvalidParameterValue, AWSLambdaErrorResourceConflict, AWSLambdaErrorTooManyRequests.</Abstract></ReturnValue>
+			<Anchor>//api/name/createEventSourceMapping:</Anchor>
+            <NodeRef refid="759"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSLambda/createFunction:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Creates a new Lambda function. The function metadata is created from the request parameters, and the code for the function is provided by a .zip file in the request body. If the function name already exists, the operation will fail. Note that the function name is case-sensitive. &lt;/p&gt;&lt;p&gt;This operation requires permission for the &lt;code&gt;lambda:CreateFunction&lt;/code&gt; action.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSLambdaService.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSLambdaCreateFunctionRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSLambdaFunctionConfiguration</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (AWSTask *)createFunction:(AWSLambdaCreateFunctionRequest *)request</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the CreateFunction service method.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An instance of AWSTask. On successful execution, task.result will contain an instance of AWSLambdaFunctionConfiguration. On failed execution, task.error may contain an NSError with AWSLambdaErrorDomain domain and the following error code: AWSLambdaErrorService, AWSLambdaErrorInvalidParameterValue, AWSLambdaErrorResourceNotFound, AWSLambdaErrorResourceConflict, AWSLambdaErrorTooManyRequests, AWSLambdaErrorCodeStorageExceeded.</Abstract></ReturnValue>
+			<Anchor>//api/name/createFunction:</Anchor>
+            <NodeRef refid="759"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSLambda/deleteEventSourceMapping:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Removes an event source mapping. This means AWS Lambda will no longer invoke the function for events in the associated source.&lt;/p&gt;&lt;p&gt;This operation requires permission for the &lt;code&gt;lambda:DeleteEventSourceMapping&lt;/code&gt; action.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSLambdaService.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSLambdaDeleteEventSourceMappingRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSLambdaEventSourceMappingConfiguration</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (AWSTask *)deleteEventSourceMapping:(AWSLambdaDeleteEventSourceMappingRequest *)request</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the DeleteEventSourceMapping service method.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An instance of AWSTask. On successful execution, task.result will contain an instance of AWSLambdaEventSourceMappingConfiguration. On failed execution, task.error may contain an NSError with AWSLambdaErrorDomain domain and the following error code: AWSLambdaErrorService, AWSLambdaErrorResourceNotFound, AWSLambdaErrorInvalidParameterValue, AWSLambdaErrorTooManyRequests.</Abstract></ReturnValue>
+			<Anchor>//api/name/deleteEventSourceMapping:</Anchor>
+            <NodeRef refid="759"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSLambda/deleteFunction:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Deletes the specified Lambda function code and configuration.&lt;/p&gt;&lt;p&gt;When you delete a function the associated access policy is also deleted. You will need to delete the event source mappings explicitly.&lt;/p&gt;&lt;p&gt;This operation requires permission for the &lt;code&gt;lambda:DeleteFunction&lt;/code&gt; action.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSLambdaService.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSLambdaDeleteFunctionRequest</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (AWSTask *)deleteFunction:(AWSLambdaDeleteFunctionRequest *)request</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the DeleteFunction service method.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An instance of AWSTask. On successful execution, task.result will be nil. On failed execution, task.error may contain an NSError with AWSLambdaErrorDomain domain and the following error code: AWSLambdaErrorService, AWSLambdaErrorResourceNotFound, AWSLambdaErrorTooManyRequests.</Abstract></ReturnValue>
+			<Anchor>//api/name/deleteFunction:</Anchor>
+            <NodeRef refid="759"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSLambda/getEventSourceMapping:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Returns configuration information for the specified event source mapping (see &lt;a&gt;CreateEventSourceMapping&lt;/a&gt;).&lt;/p&gt;&lt;p&gt;This operation requires permission for the &lt;code&gt;lambda:GetEventSourceMapping&lt;/code&gt; action.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSLambdaService.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSLambdaGetEventSourceMappingRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSLambdaEventSourceMappingConfiguration</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (AWSTask *)getEventSourceMapping:(AWSLambdaGetEventSourceMappingRequest *)request</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the GetEventSourceMapping service method.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An instance of AWSTask. On successful execution, task.result will contain an instance of AWSLambdaEventSourceMappingConfiguration. On failed execution, task.error may contain an NSError with AWSLambdaErrorDomain domain and the following error code: AWSLambdaErrorService, AWSLambdaErrorResourceNotFound, AWSLambdaErrorInvalidParameterValue, AWSLambdaErrorTooManyRequests.</Abstract></ReturnValue>
+			<Anchor>//api/name/getEventSourceMapping:</Anchor>
+            <NodeRef refid="759"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSLambda/getFunction:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Returns the configuration information of the Lambda function and a presigned URL link to the .zip file you uploaded with &lt;a&gt;CreateFunction&lt;/a&gt; so you can download the .zip file. Note that the URL is valid for up to 10 minutes. The configuration information is the same information you provided as parameters when uploading the function.&lt;/p&gt;&lt;p&gt;This operation requires permission for the &lt;code&gt;lambda:GetFunction&lt;/code&gt; action.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSLambdaService.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSLambdaGetFunctionRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSLambdaGetFunctionResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (AWSTask *)getFunction:(AWSLambdaGetFunctionRequest *)request</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the GetFunction service method.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An instance of AWSTask. On successful execution, task.result will contain an instance of AWSLambdaGetFunctionResponse. On failed execution, task.error may contain an NSError with AWSLambdaErrorDomain domain and the following error code: AWSLambdaErrorService, AWSLambdaErrorResourceNotFound, AWSLambdaErrorTooManyRequests.</Abstract></ReturnValue>
+			<Anchor>//api/name/getFunction:</Anchor>
+            <NodeRef refid="759"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSLambda/getFunctionConfiguration:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Returns the configuration information of the Lambda function. This the same information you provided as parameters when uploading the function by using &lt;a&gt;CreateFunction&lt;/a&gt;.&lt;/p&gt;&lt;p&gt;This operation requires permission for the &lt;code&gt;lambda:GetFunctionConfiguration&lt;/code&gt; operation.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSLambdaService.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSLambdaGetFunctionConfigurationRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSLambdaFunctionConfiguration</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (AWSTask *)getFunctionConfiguration:(AWSLambdaGetFunctionConfigurationRequest *)request</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the GetFunctionConfiguration service method.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An instance of AWSTask. On successful execution, task.result will contain an instance of AWSLambdaFunctionConfiguration. On failed execution, task.error may contain an NSError with AWSLambdaErrorDomain domain and the following error code: AWSLambdaErrorService, AWSLambdaErrorResourceNotFound, AWSLambdaErrorTooManyRequests.</Abstract></ReturnValue>
+			<Anchor>//api/name/getFunctionConfiguration:</Anchor>
+            <NodeRef refid="759"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSLambda/getPolicy:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Returns the access policy, containing a list of permissions granted via the &lt;code&gt;AddPermission&lt;/code&gt; API, associated with the specified bucket.&lt;/p&gt;&lt;p&gt;You need permission for the &lt;code&gt;lambda:GetPolicy action.&lt;/code&gt;&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSLambdaService.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSLambdaGetPolicyRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSLambdaGetPolicyResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (AWSTask *)getPolicy:(AWSLambdaGetPolicyRequest *)request</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the GetPolicy service method.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An instance of AWSTask. On successful execution, task.result will contain an instance of AWSLambdaGetPolicyResponse. On failed execution, task.error may contain an NSError with AWSLambdaErrorDomain domain and the following error code: AWSLambdaErrorService, AWSLambdaErrorResourceNotFound, AWSLambdaErrorTooManyRequests.</Abstract></ReturnValue>
+			<Anchor>//api/name/getPolicy:</Anchor>
+            <NodeRef refid="759"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSLambda/invoke:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; Invokes a specified Lambda function. &lt;/p&gt;&lt;p&gt;This operation requires permission for the &lt;code&gt;lambda:InvokeFunction&lt;/code&gt; action.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSLambdaService.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSLambdaInvocationRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSLambdaInvocationResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (AWSTask *)invoke:(AWSLambdaInvocationRequest *)request</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the Invoke service method.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An instance of AWSTask. On successful execution, task.result will contain an instance of AWSLambdaInvocationResponse. On failed execution, task.error may contain an NSError with AWSLambdaErrorDomain domain and the following error code: AWSLambdaErrorService, AWSLambdaErrorResourceNotFound, AWSLambdaErrorInvalidRequestContent, AWSLambdaErrorRequestTooLarge, AWSLambdaErrorUnsupportedMediaType, AWSLambdaErrorTooManyRequests.</Abstract></ReturnValue>
+			<Anchor>//api/name/invoke:</Anchor>
+            <NodeRef refid="759"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSLambda/invokeAsync:</TokenIdentifier>
+			<Abstract type="html">&lt;important&gt;This API is deprecated. We recommend you use &lt;code&gt;Invoke&lt;/code&gt; API (see &lt;a&gt;Invoke&lt;/a&gt;).&lt;/important&gt;&lt;p&gt;Submits an invocation request to AWS Lambda. Upon receiving the request, Lambda executes the specified function asynchronously. To see the logs generated by the Lambda function execution, see the CloudWatch logs console.&lt;/p&gt;&lt;p&gt;This operation requires permission for the &lt;code&gt;lambda:InvokeFunction&lt;/code&gt; action.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSLambdaService.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSLambdaInvokeAsyncRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSLambdaInvokeAsyncResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (AWSTask *)invokeAsync:(AWSLambdaInvokeAsyncRequest *)request</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the InvokeAsync service method.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An instance of AWSTask. On successful execution, task.result will contain an instance of AWSLambdaInvokeAsyncResponse. On failed execution, task.error may contain an NSError with AWSLambdaErrorDomain domain and the following error code: AWSLambdaErrorService, AWSLambdaErrorResourceNotFound, AWSLambdaErrorInvalidRequestContent.</Abstract></ReturnValue>
+			<Anchor>//api/name/invokeAsync:</Anchor>
+            <NodeRef refid="759"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSLambda/listEventSourceMappings:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Returns a list of event source mappings you created using the &lt;code&gt;CreateEventSourceMapping&lt;/code&gt; (see &lt;a&gt;CreateEventSourceMapping&lt;/a&gt;), where you identify a stream as an event source. This list does not include Amazon S3 event sources. &lt;/p&gt;&lt;p&gt;For each mapping, the API returns configuration information. You can optionally specify filters to retrieve specific event source mappings.&lt;/p&gt;&lt;p&gt;This operation requires permission for the &lt;code&gt;lambda:ListEventSourceMappings&lt;/code&gt; action.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSLambdaService.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSLambdaListEventSourceMappingsRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSLambdaListEventSourceMappingsResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (AWSTask *)listEventSourceMappings:(AWSLambdaListEventSourceMappingsRequest *)request</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the ListEventSourceMappings service method.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An instance of AWSTask. On successful execution, task.result will contain an instance of AWSLambdaListEventSourceMappingsResponse. On failed execution, task.error may contain an NSError with AWSLambdaErrorDomain domain and the following error code: AWSLambdaErrorService, AWSLambdaErrorResourceNotFound, AWSLambdaErrorInvalidParameterValue, AWSLambdaErrorTooManyRequests.</Abstract></ReturnValue>
+			<Anchor>//api/name/listEventSourceMappings:</Anchor>
+            <NodeRef refid="759"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSLambda/listFunctions:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Returns a list of your Lambda functions. For each function, the response includes the function configuration information. You must use &lt;a&gt;GetFunction&lt;/a&gt; to retrieve the code for your function.&lt;/p&gt;&lt;p&gt;This operation requires permission for the &lt;code&gt;lambda:ListFunctions&lt;/code&gt; action.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSLambdaService.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSLambdaListFunctionsRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSLambdaListFunctionsResponse</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (AWSTask *)listFunctions:(AWSLambdaListFunctionsRequest *)request</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the ListFunctions service method.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An instance of AWSTask. On successful execution, task.result will contain an instance of AWSLambdaListFunctionsResponse. On failed execution, task.error may contain an NSError with AWSLambdaErrorDomain domain and the following error code: AWSLambdaErrorService, AWSLambdaErrorTooManyRequests.</Abstract></ReturnValue>
+			<Anchor>//api/name/listFunctions:</Anchor>
+            <NodeRef refid="759"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSLambda/removePermission:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;You can remove individual permissions from an access policy associated with a Lambda function by providing a Statement ID. &lt;/p&gt;&lt;p&gt;Note that removal of a permission will cause an active event source to lose permission to the function. &lt;/p&gt;&lt;p&gt;You need permission for the &lt;code&gt;lambda:RemovePermission&lt;/code&gt; action.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSLambdaService.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSLambdaRemovePermissionRequest</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (AWSTask *)removePermission:(AWSLambdaRemovePermissionRequest *)request</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the RemovePermission service method.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An instance of AWSTask. On successful execution, task.result will be nil. On failed execution, task.error may contain an NSError with AWSLambdaErrorDomain domain and the following error code: AWSLambdaErrorService, AWSLambdaErrorResourceNotFound, AWSLambdaErrorTooManyRequests.</Abstract></ReturnValue>
+			<Anchor>//api/name/removePermission:</Anchor>
+            <NodeRef refid="759"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSLambda/updateEventSourceMapping:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;You can update an event source mapping. This is useful if you want to change the parameters of the existing mapping without losing your position in the stream. You can change which function will receive the stream records, but to change the stream itself, you must create a new mapping. &lt;/p&gt;&lt;p&gt;This operation requires permission for the &lt;code&gt;lambda:UpdateEventSourceMapping&lt;/code&gt; action.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSLambdaService.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSLambdaUpdateEventSourceMappingRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSLambdaEventSourceMappingConfiguration</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (AWSTask *)updateEventSourceMapping:(AWSLambdaUpdateEventSourceMappingRequest *)request</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the UpdateEventSourceMapping service method.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An instance of AWSTask. On successful execution, task.result will contain an instance of AWSLambdaEventSourceMappingConfiguration. On failed execution, task.error may contain an NSError with AWSLambdaErrorDomain domain and the following error code: AWSLambdaErrorService, AWSLambdaErrorResourceNotFound, AWSLambdaErrorInvalidParameterValue, AWSLambdaErrorTooManyRequests.</Abstract></ReturnValue>
+			<Anchor>//api/name/updateEventSourceMapping:</Anchor>
+            <NodeRef refid="759"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSLambda/updateFunctionCode:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; Updates the code for the specified Lambda function. This operation must only be used on an existing Lambda function and cannot be used to update the function configuration. &lt;/p&gt;&lt;p&gt;This operation requires permission for the &lt;code&gt;lambda:UpdateFunctionCode&lt;/code&gt; action.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSLambdaService.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSLambdaUpdateFunctionCodeRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSLambdaFunctionConfiguration</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (AWSTask *)updateFunctionCode:(AWSLambdaUpdateFunctionCodeRequest *)request</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the UpdateFunctionCode service method.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An instance of AWSTask. On successful execution, task.result will contain an instance of AWSLambdaFunctionConfiguration. On failed execution, task.error may contain an NSError with AWSLambdaErrorDomain domain and the following error code: AWSLambdaErrorService, AWSLambdaErrorResourceNotFound, AWSLambdaErrorInvalidParameterValue, AWSLambdaErrorTooManyRequests, AWSLambdaErrorCodeStorageExceeded.</Abstract></ReturnValue>
+			<Anchor>//api/name/updateFunctionCode:</Anchor>
+            <NodeRef refid="759"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSLambda/updateFunctionConfiguration:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Updates the configuration parameters for the specified Lambda function by using the values provided in the request. You provide only the parameters you want to change. This operation must only be used on an existing Lambda function and cannot be used to update the function&apos;s code. &lt;/p&gt;&lt;p&gt;This operation requires permission for the &lt;code&gt;lambda:UpdateFunctionConfiguration&lt;/code&gt; action.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSLambdaService.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSLambdaUpdateFunctionConfigurationRequest</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSLambdaFunctionConfiguration</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (AWSTask *)updateFunctionConfiguration:(AWSLambdaUpdateFunctionConfigurationRequest *)request</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the UpdateFunctionConfiguration service method.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An instance of AWSTask. On successful execution, task.result will contain an instance of AWSLambdaFunctionConfiguration. On failed execution, task.error may contain an NSError with AWSLambdaErrorDomain domain and the following error code: AWSLambdaErrorService, AWSLambdaErrorResourceNotFound, AWSLambdaErrorInvalidParameterValue, AWSLambdaErrorTooManyRequests.</Abstract></ReturnValue>
+			<Anchor>//api/name/updateFunctionConfiguration:</Anchor>
             <NodeRef refid="759"/>
 		</Token>
 		

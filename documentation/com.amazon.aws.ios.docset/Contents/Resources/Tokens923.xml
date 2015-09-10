@@ -1,16 +1,52 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSSESSetIdentityNotificationTopicResponse.html">
+	<File path="Classes/AWSS3RestoreRequest.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSSESSetIdentityNotificationTopicResponse</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;An empty element. Receiving this element indicates that the request completed successfully.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSESModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSS3RestoreRequest</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
             
 			
 			<NodeRef refid="923"/>
 		</Token>
 		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3RestoreRequest/setDays:</TokenIdentifier>
+			<Abstract type="html">Lifetime of the active copy in days</Abstract>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *days</Declaration>
+			
+			
+			<Anchor>//api/name/days</Anchor>
+            <NodeRef refid="923"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3RestoreRequest/days</TokenIdentifier>
+			<Abstract type="html">Lifetime of the active copy in days</Abstract>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *days</Declaration>
+			
+			
+			<Anchor>//api/name/days</Anchor>
+            <NodeRef refid="923"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSS3RestoreRequest/days</TokenIdentifier>
+			<Abstract type="html">Lifetime of the active copy in days</Abstract>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *days</Declaration>
+			
+			
+			<Anchor>//api/name/days</Anchor>
+            <NodeRef refid="923"/>
+		</Token>
 		
         
         

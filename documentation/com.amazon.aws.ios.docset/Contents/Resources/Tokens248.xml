@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSDynamoDBWriteRequest.html">
+	<File path="Classes/AWSDynamoDBStreamSpecification.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSDynamoDBWriteRequest</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Represents an operation to perform - either &lt;i&gt;DeleteItem&lt;/i&gt; or &lt;i&gt;PutItem&lt;/i&gt;. You can only specify one of these operations, not both, in a single &lt;i&gt;WriteRequest&lt;/i&gt;. If you do need to perform both of these operations, you will need to specify two separate &lt;i&gt;WriteRequest&lt;/i&gt; objects.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSDynamoDBStreamSpecification</TokenIdentifier>
+			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
             
 			
@@ -13,74 +13,74 @@
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSDynamoDBWriteRequest/setDeleteRequest:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;A request to perform a &lt;i&gt;DeleteItem&lt;/i&gt; operation.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSDynamoDBStreamSpecification/setStreamEnabled:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) AWSDynamoDBDeleteRequest *deleteRequest</Declaration>
+			<Declaration>@property (nonatomic, strong) NSNumber *streamEnabled</Declaration>
 			
 			
-			<Anchor>//api/name/deleteRequest</Anchor>
+			<Anchor>//api/name/streamEnabled</Anchor>
             <NodeRef refid="248"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSDynamoDBWriteRequest/deleteRequest</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;A request to perform a &lt;i&gt;DeleteItem&lt;/i&gt; operation.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSDynamoDBStreamSpecification/streamEnabled</TokenIdentifier>
+			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) AWSDynamoDBDeleteRequest *deleteRequest</Declaration>
+			<Declaration>@property (nonatomic, strong) NSNumber *streamEnabled</Declaration>
 			
 			
-			<Anchor>//api/name/deleteRequest</Anchor>
+			<Anchor>//api/name/streamEnabled</Anchor>
             <NodeRef refid="248"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSDynamoDBWriteRequest/deleteRequest</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;A request to perform a &lt;i&gt;DeleteItem&lt;/i&gt; operation.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSDynamoDBStreamSpecification/streamEnabled</TokenIdentifier>
+			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) AWSDynamoDBDeleteRequest *deleteRequest</Declaration>
+			<Declaration>@property (nonatomic, strong) NSNumber *streamEnabled</Declaration>
 			
 			
-			<Anchor>//api/name/deleteRequest</Anchor>
+			<Anchor>//api/name/streamEnabled</Anchor>
             <NodeRef refid="248"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSDynamoDBWriteRequest/setPutRequest:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;A request to perform a &lt;i&gt;PutItem&lt;/i&gt; operation.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSDynamoDBStreamSpecification/setStreamViewType:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) AWSDynamoDBPutRequest *putRequest</Declaration>
+			<Declaration>@property (nonatomic, assign) AWSDynamoDBStreamViewType streamViewType</Declaration>
 			
 			
-			<Anchor>//api/name/putRequest</Anchor>
+			<Anchor>//api/name/streamViewType</Anchor>
             <NodeRef refid="248"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSDynamoDBWriteRequest/putRequest</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;A request to perform a &lt;i&gt;PutItem&lt;/i&gt; operation.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSDynamoDBStreamSpecification/streamViewType</TokenIdentifier>
+			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) AWSDynamoDBPutRequest *putRequest</Declaration>
+			<Declaration>@property (nonatomic, assign) AWSDynamoDBStreamViewType streamViewType</Declaration>
 			
 			
-			<Anchor>//api/name/putRequest</Anchor>
+			<Anchor>//api/name/streamViewType</Anchor>
             <NodeRef refid="248"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSDynamoDBWriteRequest/putRequest</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;A request to perform a &lt;i&gt;PutItem&lt;/i&gt; operation.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSDynamoDBStreamSpecification/streamViewType</TokenIdentifier>
+			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) AWSDynamoDBPutRequest *putRequest</Declaration>
+			<Declaration>@property (nonatomic, assign) AWSDynamoDBStreamViewType streamViewType</Declaration>
 			
 			
-			<Anchor>//api/name/putRequest</Anchor>
+			<Anchor>//api/name/streamViewType</Anchor>
             <NodeRef refid="248"/>
 		</Token>
 		

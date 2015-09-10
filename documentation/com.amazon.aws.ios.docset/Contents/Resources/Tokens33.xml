@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSAutoScalingDescribeLifecycleHooksAnswer.html">
+	<File path="Classes/AWSAutoScalingDescribeLifecycleHookTypesAnswer.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSAutoScalingDescribeLifecycleHooksAnswer</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The output of the &lt;a&gt;DescribeLifecycleHooks&lt;/a&gt; action. &lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSAutoScalingDescribeLifecycleHookTypesAnswer</TokenIdentifier>
+			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
             
 			
@@ -13,38 +13,38 @@
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingDescribeLifecycleHooksAnswer/setLifecycleHooks:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt; A list describing the lifecycle hooks that belong to the specified Auto Scaling group. &lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingDescribeLifecycleHookTypesAnswer/setLifecycleHookTypes:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Returns a list of all notification types supported by Auto Scaling. They are:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;autoscaling:EC2INSTANCELAUNCHING&lt;/code&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;autoscaling:EC2INSTANCETERMINATING&lt;/code&gt;&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</Abstract>
 			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSArray *lifecycleHooks</Declaration>
+			<Declaration>@property (nonatomic, strong) NSArray *lifecycleHookTypes</Declaration>
 			
 			
-			<Anchor>//api/name/lifecycleHooks</Anchor>
+			<Anchor>//api/name/lifecycleHookTypes</Anchor>
             <NodeRef refid="33"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingDescribeLifecycleHooksAnswer/lifecycleHooks</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt; A list describing the lifecycle hooks that belong to the specified Auto Scaling group. &lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingDescribeLifecycleHookTypesAnswer/lifecycleHookTypes</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Returns a list of all notification types supported by Auto Scaling. They are:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;autoscaling:EC2INSTANCELAUNCHING&lt;/code&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;autoscaling:EC2INSTANCETERMINATING&lt;/code&gt;&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</Abstract>
 			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSArray *lifecycleHooks</Declaration>
+			<Declaration>@property (nonatomic, strong) NSArray *lifecycleHookTypes</Declaration>
 			
 			
-			<Anchor>//api/name/lifecycleHooks</Anchor>
+			<Anchor>//api/name/lifecycleHookTypes</Anchor>
             <NodeRef refid="33"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSAutoScalingDescribeLifecycleHooksAnswer/lifecycleHooks</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt; A list describing the lifecycle hooks that belong to the specified Auto Scaling group. &lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSAutoScalingDescribeLifecycleHookTypesAnswer/lifecycleHookTypes</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Returns a list of all notification types supported by Auto Scaling. They are:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;autoscaling:EC2INSTANCELAUNCHING&lt;/code&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;autoscaling:EC2INSTANCETERMINATING&lt;/code&gt;&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</Abstract>
 			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSArray *lifecycleHooks</Declaration>
+			<Declaration>@property (nonatomic, strong) NSArray *lifecycleHookTypes</Declaration>
 			
 			
-			<Anchor>//api/name/lifecycleHooks</Anchor>
+			<Anchor>//api/name/lifecycleHookTypes</Anchor>
             <NodeRef refid="33"/>
 		</Token>
 		

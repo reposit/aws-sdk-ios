@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSEC2EbsInstanceBlockDevice.html">
+	<File path="Classes/AWSEC2DetachClassicLinkVpcRequest.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSEC2EbsInstanceBlockDevice</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Describes a parameter used to set up an Amazon EBS volume in a block device mapping.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSEC2DetachClassicLinkVpcRequest</TokenIdentifier>
+			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
             
 			
@@ -13,146 +13,110 @@
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2EbsInstanceBlockDevice/setAttachTime:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The time stamp when the attachment initiated.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DetachClassicLinkVpcRequest/setDryRun:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSDate *attachTime</Declaration>
+			<Declaration>@property (nonatomic, strong) NSNumber *dryRun</Declaration>
 			
 			
-			<Anchor>//api/name/attachTime</Anchor>
+			<Anchor>//api/name/dryRun</Anchor>
             <NodeRef refid="453"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2EbsInstanceBlockDevice/attachTime</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The time stamp when the attachment initiated.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DetachClassicLinkVpcRequest/dryRun</TokenIdentifier>
+			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSDate *attachTime</Declaration>
+			<Declaration>@property (nonatomic, strong) NSNumber *dryRun</Declaration>
 			
 			
-			<Anchor>//api/name/attachTime</Anchor>
+			<Anchor>//api/name/dryRun</Anchor>
             <NodeRef refid="453"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2EbsInstanceBlockDevice/attachTime</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The time stamp when the attachment initiated.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2DetachClassicLinkVpcRequest/dryRun</TokenIdentifier>
+			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSDate *attachTime</Declaration>
+			<Declaration>@property (nonatomic, strong) NSNumber *dryRun</Declaration>
 			
 			
-			<Anchor>//api/name/attachTime</Anchor>
+			<Anchor>//api/name/dryRun</Anchor>
             <NodeRef refid="453"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2EbsInstanceBlockDevice/setDeleteOnTermination:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Indicates whether the volume is deleted on instance termination.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DetachClassicLinkVpcRequest/setInstanceId:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSNumber *deleteOnTermination</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *instanceId</Declaration>
 			
 			
-			<Anchor>//api/name/deleteOnTermination</Anchor>
+			<Anchor>//api/name/instanceId</Anchor>
             <NodeRef refid="453"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2EbsInstanceBlockDevice/deleteOnTermination</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Indicates whether the volume is deleted on instance termination.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DetachClassicLinkVpcRequest/instanceId</TokenIdentifier>
+			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSNumber *deleteOnTermination</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *instanceId</Declaration>
 			
 			
-			<Anchor>//api/name/deleteOnTermination</Anchor>
+			<Anchor>//api/name/instanceId</Anchor>
             <NodeRef refid="453"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2EbsInstanceBlockDevice/deleteOnTermination</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Indicates whether the volume is deleted on instance termination.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2DetachClassicLinkVpcRequest/instanceId</TokenIdentifier>
+			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSNumber *deleteOnTermination</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *instanceId</Declaration>
 			
 			
-			<Anchor>//api/name/deleteOnTermination</Anchor>
+			<Anchor>//api/name/instanceId</Anchor>
             <NodeRef refid="453"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2EbsInstanceBlockDevice/setStatus:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The attachment state.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DetachClassicLinkVpcRequest/setVpcId:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, assign) AWSEC2AttachmentStatus status</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *vpcId</Declaration>
 			
 			
-			<Anchor>//api/name/status</Anchor>
+			<Anchor>//api/name/vpcId</Anchor>
             <NodeRef refid="453"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2EbsInstanceBlockDevice/status</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The attachment state.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DetachClassicLinkVpcRequest/vpcId</TokenIdentifier>
+			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, assign) AWSEC2AttachmentStatus status</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *vpcId</Declaration>
 			
 			
-			<Anchor>//api/name/status</Anchor>
+			<Anchor>//api/name/vpcId</Anchor>
             <NodeRef refid="453"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2EbsInstanceBlockDevice/status</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The attachment state.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2DetachClassicLinkVpcRequest/vpcId</TokenIdentifier>
+			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, assign) AWSEC2AttachmentStatus status</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *vpcId</Declaration>
 			
 			
-			<Anchor>//api/name/status</Anchor>
-            <NodeRef refid="453"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2EbsInstanceBlockDevice/setVolumeId:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The ID of the Amazon EBS volume.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *volumeId</Declaration>
-			
-			
-			<Anchor>//api/name/volumeId</Anchor>
-            <NodeRef refid="453"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2EbsInstanceBlockDevice/volumeId</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The ID of the Amazon EBS volume.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *volumeId</Declaration>
-			
-			
-			<Anchor>//api/name/volumeId</Anchor>
-            <NodeRef refid="453"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2EbsInstanceBlockDevice/volumeId</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The ID of the Amazon EBS volume.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *volumeId</Declaration>
-			
-			
-			<Anchor>//api/name/volumeId</Anchor>
+			<Anchor>//api/name/vpcId</Anchor>
             <NodeRef refid="453"/>
 		</Token>
 		

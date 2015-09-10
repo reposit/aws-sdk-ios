@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSSNSListSubscriptionsByTopicResponse.html">
+	<File path="Classes/AWSSESGetIdentityVerificationAttributesResponse.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSSNSListSubscriptionsByTopicResponse</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Response for ListSubscriptionsByTopic action.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSNSModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSSESGetIdentityVerificationAttributesResponse</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Represents the verification attributes for a list of identities.&lt;/p&gt;
+Required parameters: [VerificationAttributes]</Abstract>
+			<DeclaredIn>AWSSESModel.h</DeclaredIn>
             
 			
 			<NodeRef refid="958"/>
@@ -13,74 +14,38 @@
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSSNSListSubscriptionsByTopicResponse/setNextToken:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Token to pass along to the next &lt;code&gt;ListSubscriptionsByTopic&lt;/code&gt; request. This element is returned if there are more subscriptions to retrieve.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSNSModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSESGetIdentityVerificationAttributesResponse/setVerificationAttributes:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;A map of Identities to IdentityVerificationAttributes objects.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSESModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *nextToken</Declaration>
+			<Declaration>@property (nonatomic, strong) NSDictionary *verificationAttributes</Declaration>
 			
 			
-			<Anchor>//api/name/nextToken</Anchor>
+			<Anchor>//api/name/verificationAttributes</Anchor>
             <NodeRef refid="958"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSSNSListSubscriptionsByTopicResponse/nextToken</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Token to pass along to the next &lt;code&gt;ListSubscriptionsByTopic&lt;/code&gt; request. This element is returned if there are more subscriptions to retrieve.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSNSModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSESGetIdentityVerificationAttributesResponse/verificationAttributes</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;A map of Identities to IdentityVerificationAttributes objects.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSESModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *nextToken</Declaration>
+			<Declaration>@property (nonatomic, strong) NSDictionary *verificationAttributes</Declaration>
 			
 			
-			<Anchor>//api/name/nextToken</Anchor>
+			<Anchor>//api/name/verificationAttributes</Anchor>
             <NodeRef refid="958"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSSNSListSubscriptionsByTopicResponse/nextToken</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Token to pass along to the next &lt;code&gt;ListSubscriptionsByTopic&lt;/code&gt; request. This element is returned if there are more subscriptions to retrieve.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSNSModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSSESGetIdentityVerificationAttributesResponse/verificationAttributes</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;A map of Identities to IdentityVerificationAttributes objects.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSESModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *nextToken</Declaration>
-			
-			
-			<Anchor>//api/name/nextToken</Anchor>
-            <NodeRef refid="958"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSSNSListSubscriptionsByTopicResponse/setSubscriptions:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;A list of subscriptions.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSNSModel.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSArray *subscriptions</Declaration>
+			<Declaration>@property (nonatomic, strong) NSDictionary *verificationAttributes</Declaration>
 			
 			
-			<Anchor>//api/name/subscriptions</Anchor>
-            <NodeRef refid="958"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSSNSListSubscriptionsByTopicResponse/subscriptions</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;A list of subscriptions.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSNSModel.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSArray *subscriptions</Declaration>
-			
-			
-			<Anchor>//api/name/subscriptions</Anchor>
-            <NodeRef refid="958"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSSNSListSubscriptionsByTopicResponse/subscriptions</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;A list of subscriptions.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSNSModel.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSArray *subscriptions</Declaration>
-			
-			
-			<Anchor>//api/name/subscriptions</Anchor>
+			<Anchor>//api/name/verificationAttributes</Anchor>
             <NodeRef refid="958"/>
 		</Token>
 		

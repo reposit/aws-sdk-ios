@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSEC2CreateNetworkInterfaceRequest.html">
+	<File path="Classes/AWSEC2CreateImageRequest.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSEC2CreateNetworkInterfaceRequest</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSEC2CreateImageRequest</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
             
@@ -13,8 +13,44 @@
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2CreateNetworkInterfaceRequest/setDetail:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;A description for the network interface.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2CreateImageRequest/setBlockDeviceMappings:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Information about one or more block device mappings.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray *blockDeviceMappings</Declaration>
+			
+			
+			<Anchor>//api/name/blockDeviceMappings</Anchor>
+            <NodeRef refid="307"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2CreateImageRequest/blockDeviceMappings</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Information about one or more block device mappings.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray *blockDeviceMappings</Declaration>
+			
+			
+			<Anchor>//api/name/blockDeviceMappings</Anchor>
+            <NodeRef refid="307"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2CreateImageRequest/blockDeviceMappings</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Information about one or more block device mappings.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray *blockDeviceMappings</Declaration>
+			
+			
+			<Anchor>//api/name/blockDeviceMappings</Anchor>
+            <NodeRef refid="307"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2CreateImageRequest/setDetail:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;A description for the new image.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
 			<Declaration>@property (nonatomic, strong) NSString *detail</Declaration>
@@ -25,8 +61,8 @@
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2CreateNetworkInterfaceRequest/detail</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;A description for the network interface.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2CreateImageRequest/detail</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;A description for the new image.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
 			<Declaration>@property (nonatomic, strong) NSString *detail</Declaration>
@@ -37,8 +73,8 @@
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2CreateNetworkInterfaceRequest/detail</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;A description for the network interface.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2CreateImageRequest/detail</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;A description for the new image.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
 			<Declaration>@property (nonatomic, strong) NSString *detail</Declaration>
@@ -49,7 +85,7 @@
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2CreateNetworkInterfaceRequest/setDryRun:</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2CreateImageRequest/setDryRun:</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
@@ -61,7 +97,7 @@
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2CreateNetworkInterfaceRequest/dryRun</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2CreateImageRequest/dryRun</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
@@ -73,7 +109,7 @@
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2CreateNetworkInterfaceRequest/dryRun</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2CreateImageRequest/dryRun</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
@@ -85,182 +121,110 @@
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2CreateNetworkInterfaceRequest/setGroups:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The IDs of one or more security groups.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2CreateImageRequest/setInstanceId:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the instance.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSArray *groups</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *instanceId</Declaration>
 			
 			
-			<Anchor>//api/name/groups</Anchor>
+			<Anchor>//api/name/instanceId</Anchor>
             <NodeRef refid="307"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2CreateNetworkInterfaceRequest/groups</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The IDs of one or more security groups.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2CreateImageRequest/instanceId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the instance.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSArray *groups</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *instanceId</Declaration>
 			
 			
-			<Anchor>//api/name/groups</Anchor>
+			<Anchor>//api/name/instanceId</Anchor>
             <NodeRef refid="307"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2CreateNetworkInterfaceRequest/groups</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The IDs of one or more security groups.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2CreateImageRequest/instanceId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the instance.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSArray *groups</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *instanceId</Declaration>
 			
 			
-			<Anchor>//api/name/groups</Anchor>
+			<Anchor>//api/name/instanceId</Anchor>
             <NodeRef refid="307"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2CreateNetworkInterfaceRequest/setPrivateIpAddress:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The primary private IP address of the network interface. If you don&apos;t specify an IP address, Amazon EC2 selects one for you from the subnet range. If you specify an IP address, you cannot indicate any IP addresses specified in &lt;code&gt;privateIpAddresses&lt;/code&gt; as primary (only one IP address can be designated as primary).&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2CreateImageRequest/setName:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;A name for the new image.&lt;/p&gt;&lt;p&gt;Constraints: 3-128 alphanumeric characters, parentheses (()), square brackets ([]), spaces ( ), periods (.), slashes (/), dashes (-), single quotes (&apos;), at-signs (@), or underscores(_)&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *privateIpAddress</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *name</Declaration>
 			
 			
-			<Anchor>//api/name/privateIpAddress</Anchor>
+			<Anchor>//api/name/name</Anchor>
             <NodeRef refid="307"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2CreateNetworkInterfaceRequest/privateIpAddress</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The primary private IP address of the network interface. If you don&apos;t specify an IP address, Amazon EC2 selects one for you from the subnet range. If you specify an IP address, you cannot indicate any IP addresses specified in &lt;code&gt;privateIpAddresses&lt;/code&gt; as primary (only one IP address can be designated as primary).&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2CreateImageRequest/name</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;A name for the new image.&lt;/p&gt;&lt;p&gt;Constraints: 3-128 alphanumeric characters, parentheses (()), square brackets ([]), spaces ( ), periods (.), slashes (/), dashes (-), single quotes (&apos;), at-signs (@), or underscores(_)&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *privateIpAddress</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *name</Declaration>
 			
 			
-			<Anchor>//api/name/privateIpAddress</Anchor>
+			<Anchor>//api/name/name</Anchor>
             <NodeRef refid="307"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2CreateNetworkInterfaceRequest/privateIpAddress</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The primary private IP address of the network interface. If you don&apos;t specify an IP address, Amazon EC2 selects one for you from the subnet range. If you specify an IP address, you cannot indicate any IP addresses specified in &lt;code&gt;privateIpAddresses&lt;/code&gt; as primary (only one IP address can be designated as primary).&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2CreateImageRequest/name</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;A name for the new image.&lt;/p&gt;&lt;p&gt;Constraints: 3-128 alphanumeric characters, parentheses (()), square brackets ([]), spaces ( ), periods (.), slashes (/), dashes (-), single quotes (&apos;), at-signs (@), or underscores(_)&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *privateIpAddress</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *name</Declaration>
 			
 			
-			<Anchor>//api/name/privateIpAddress</Anchor>
+			<Anchor>//api/name/name</Anchor>
             <NodeRef refid="307"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2CreateNetworkInterfaceRequest/setPrivateIpAddresses:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;One or more private IP addresses.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2CreateImageRequest/setNoReboot:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;By default, this parameter is set to &lt;code&gt;false&lt;/code&gt;, which means Amazon EC2 attempts to shut down the instance cleanly before image creation and then reboots the instance. When the parameter is set to &lt;code&gt;true&lt;/code&gt;, Amazon EC2 doesn&apos;t shut down the instance before creating the image. When this option is used, file system integrity on the created image can&apos;t be guaranteed.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSArray *privateIpAddresses</Declaration>
+			<Declaration>@property (nonatomic, strong) NSNumber *noReboot</Declaration>
 			
 			
-			<Anchor>//api/name/privateIpAddresses</Anchor>
+			<Anchor>//api/name/noReboot</Anchor>
             <NodeRef refid="307"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2CreateNetworkInterfaceRequest/privateIpAddresses</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;One or more private IP addresses.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2CreateImageRequest/noReboot</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;By default, this parameter is set to &lt;code&gt;false&lt;/code&gt;, which means Amazon EC2 attempts to shut down the instance cleanly before image creation and then reboots the instance. When the parameter is set to &lt;code&gt;true&lt;/code&gt;, Amazon EC2 doesn&apos;t shut down the instance before creating the image. When this option is used, file system integrity on the created image can&apos;t be guaranteed.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSArray *privateIpAddresses</Declaration>
+			<Declaration>@property (nonatomic, strong) NSNumber *noReboot</Declaration>
 			
 			
-			<Anchor>//api/name/privateIpAddresses</Anchor>
+			<Anchor>//api/name/noReboot</Anchor>
             <NodeRef refid="307"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2CreateNetworkInterfaceRequest/privateIpAddresses</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;One or more private IP addresses.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2CreateImageRequest/noReboot</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;By default, this parameter is set to &lt;code&gt;false&lt;/code&gt;, which means Amazon EC2 attempts to shut down the instance cleanly before image creation and then reboots the instance. When the parameter is set to &lt;code&gt;true&lt;/code&gt;, Amazon EC2 doesn&apos;t shut down the instance before creating the image. When this option is used, file system integrity on the created image can&apos;t be guaranteed.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSArray *privateIpAddresses</Declaration>
+			<Declaration>@property (nonatomic, strong) NSNumber *noReboot</Declaration>
 			
 			
-			<Anchor>//api/name/privateIpAddresses</Anchor>
-            <NodeRef refid="307"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2CreateNetworkInterfaceRequest/setSecondaryPrivateIpAddressCount:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The number of secondary private IP addresses to assign to a network interface. When you specify a number of secondary IP addresses, Amazon EC2 selects these IP addresses within the subnet range. You can&apos;t specify this option and specify more than one private IP address using &lt;code&gt;privateIpAddresses&lt;/code&gt;.&lt;/p&gt;&lt;p&gt;The number of IP addresses you can assign to a network interface varies by instance type. For more information, see Private IP Addresses Per ENI Per Instance Type in the &lt;i&gt;Amazon Elastic Compute Cloud User Guide&lt;/i&gt;.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSNumber *secondaryPrivateIpAddressCount</Declaration>
-			
-			
-			<Anchor>//api/name/secondaryPrivateIpAddressCount</Anchor>
-            <NodeRef refid="307"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2CreateNetworkInterfaceRequest/secondaryPrivateIpAddressCount</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The number of secondary private IP addresses to assign to a network interface. When you specify a number of secondary IP addresses, Amazon EC2 selects these IP addresses within the subnet range. You can&apos;t specify this option and specify more than one private IP address using &lt;code&gt;privateIpAddresses&lt;/code&gt;.&lt;/p&gt;&lt;p&gt;The number of IP addresses you can assign to a network interface varies by instance type. For more information, see Private IP Addresses Per ENI Per Instance Type in the &lt;i&gt;Amazon Elastic Compute Cloud User Guide&lt;/i&gt;.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSNumber *secondaryPrivateIpAddressCount</Declaration>
-			
-			
-			<Anchor>//api/name/secondaryPrivateIpAddressCount</Anchor>
-            <NodeRef refid="307"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2CreateNetworkInterfaceRequest/secondaryPrivateIpAddressCount</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The number of secondary private IP addresses to assign to a network interface. When you specify a number of secondary IP addresses, Amazon EC2 selects these IP addresses within the subnet range. You can&apos;t specify this option and specify more than one private IP address using &lt;code&gt;privateIpAddresses&lt;/code&gt;.&lt;/p&gt;&lt;p&gt;The number of IP addresses you can assign to a network interface varies by instance type. For more information, see Private IP Addresses Per ENI Per Instance Type in the &lt;i&gt;Amazon Elastic Compute Cloud User Guide&lt;/i&gt;.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSNumber *secondaryPrivateIpAddressCount</Declaration>
-			
-			
-			<Anchor>//api/name/secondaryPrivateIpAddressCount</Anchor>
-            <NodeRef refid="307"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2CreateNetworkInterfaceRequest/setSubnetId:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The ID of the subnet to associate with the network interface.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *subnetId</Declaration>
-			
-			
-			<Anchor>//api/name/subnetId</Anchor>
-            <NodeRef refid="307"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2CreateNetworkInterfaceRequest/subnetId</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The ID of the subnet to associate with the network interface.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *subnetId</Declaration>
-			
-			
-			<Anchor>//api/name/subnetId</Anchor>
-            <NodeRef refid="307"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2CreateNetworkInterfaceRequest/subnetId</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The ID of the subnet to associate with the network interface.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *subnetId</Declaration>
-			
-			
-			<Anchor>//api/name/subnetId</Anchor>
+			<Anchor>//api/name/noReboot</Anchor>
             <NodeRef refid="307"/>
 		</Token>
 		

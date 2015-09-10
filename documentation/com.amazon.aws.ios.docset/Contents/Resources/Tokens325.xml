@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSEC2CreateVolumeRequest.html">
+	<File path="Classes/AWSEC2CreateSecurityGroupRequest.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSEC2CreateVolumeRequest</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSEC2CreateSecurityGroupRequest</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
             
@@ -13,43 +13,43 @@
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2CreateVolumeRequest/setAvailabilityZone:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The Availability Zone in which to create the volume. Use &lt;a&gt;DescribeAvailabilityZones&lt;/a&gt; to list the Availability Zones that are currently available to you.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2CreateSecurityGroupRequest/setDetail:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;A description for the security group. This is informational only.&lt;/p&gt;&lt;p&gt;Constraints: Up to 255 characters in length&lt;/p&gt;&lt;p&gt;Constraints for EC2-Classic: ASCII characters&lt;/p&gt;&lt;p&gt;Constraints for EC2-VPC: a-z, A-Z, 0-9, spaces, and ._-:/()#,@[]+=&amp;amp;amp;;{}!$*&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *availabilityZone</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *detail</Declaration>
 			
 			
-			<Anchor>//api/name/availabilityZone</Anchor>
+			<Anchor>//api/name/detail</Anchor>
             <NodeRef refid="325"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2CreateVolumeRequest/availabilityZone</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The Availability Zone in which to create the volume. Use &lt;a&gt;DescribeAvailabilityZones&lt;/a&gt; to list the Availability Zones that are currently available to you.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2CreateSecurityGroupRequest/detail</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;A description for the security group. This is informational only.&lt;/p&gt;&lt;p&gt;Constraints: Up to 255 characters in length&lt;/p&gt;&lt;p&gt;Constraints for EC2-Classic: ASCII characters&lt;/p&gt;&lt;p&gt;Constraints for EC2-VPC: a-z, A-Z, 0-9, spaces, and ._-:/()#,@[]+=&amp;amp;amp;;{}!$*&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *availabilityZone</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *detail</Declaration>
 			
 			
-			<Anchor>//api/name/availabilityZone</Anchor>
+			<Anchor>//api/name/detail</Anchor>
             <NodeRef refid="325"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2CreateVolumeRequest/availabilityZone</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The Availability Zone in which to create the volume. Use &lt;a&gt;DescribeAvailabilityZones&lt;/a&gt; to list the Availability Zones that are currently available to you.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2CreateSecurityGroupRequest/detail</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;A description for the security group. This is informational only.&lt;/p&gt;&lt;p&gt;Constraints: Up to 255 characters in length&lt;/p&gt;&lt;p&gt;Constraints for EC2-Classic: ASCII characters&lt;/p&gt;&lt;p&gt;Constraints for EC2-VPC: a-z, A-Z, 0-9, spaces, and ._-:/()#,@[]+=&amp;amp;amp;;{}!$*&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *availabilityZone</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *detail</Declaration>
 			
 			
-			<Anchor>//api/name/availabilityZone</Anchor>
+			<Anchor>//api/name/detail</Anchor>
             <NodeRef refid="325"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2CreateVolumeRequest/setDryRun:</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2CreateSecurityGroupRequest/setDryRun:</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
@@ -61,7 +61,7 @@
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2CreateVolumeRequest/dryRun</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2CreateSecurityGroupRequest/dryRun</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
@@ -73,7 +73,7 @@
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2CreateVolumeRequest/dryRun</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2CreateSecurityGroupRequest/dryRun</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
@@ -85,218 +85,74 @@
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2CreateVolumeRequest/setEncrypted:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Specifies whether the volume should be encrypted.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2CreateSecurityGroupRequest/setGroupName:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The name of the security group.&lt;/p&gt;&lt;p&gt;Constraints: Up to 255 characters in length&lt;/p&gt;&lt;p&gt;Constraints for EC2-Classic: ASCII characters&lt;/p&gt;&lt;p&gt;Constraints for EC2-VPC: a-z, A-Z, 0-9, spaces, and ._-:/()#,@[]+=&amp;amp;amp;;{}!$*&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSNumber *encrypted</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *groupName</Declaration>
 			
 			
-			<Anchor>//api/name/encrypted</Anchor>
+			<Anchor>//api/name/groupName</Anchor>
             <NodeRef refid="325"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2CreateVolumeRequest/encrypted</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Specifies whether the volume should be encrypted.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2CreateSecurityGroupRequest/groupName</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The name of the security group.&lt;/p&gt;&lt;p&gt;Constraints: Up to 255 characters in length&lt;/p&gt;&lt;p&gt;Constraints for EC2-Classic: ASCII characters&lt;/p&gt;&lt;p&gt;Constraints for EC2-VPC: a-z, A-Z, 0-9, spaces, and ._-:/()#,@[]+=&amp;amp;amp;;{}!$*&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSNumber *encrypted</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *groupName</Declaration>
 			
 			
-			<Anchor>//api/name/encrypted</Anchor>
+			<Anchor>//api/name/groupName</Anchor>
             <NodeRef refid="325"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2CreateVolumeRequest/encrypted</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Specifies whether the volume should be encrypted.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2CreateSecurityGroupRequest/groupName</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The name of the security group.&lt;/p&gt;&lt;p&gt;Constraints: Up to 255 characters in length&lt;/p&gt;&lt;p&gt;Constraints for EC2-Classic: ASCII characters&lt;/p&gt;&lt;p&gt;Constraints for EC2-VPC: a-z, A-Z, 0-9, spaces, and ._-:/()#,@[]+=&amp;amp;amp;;{}!$*&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSNumber *encrypted</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *groupName</Declaration>
 			
 			
-			<Anchor>//api/name/encrypted</Anchor>
+			<Anchor>//api/name/groupName</Anchor>
             <NodeRef refid="325"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2CreateVolumeRequest/setIops:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Only valid for Provisioned IOPS (SSD) volumes. The number of I/O operations per second (IOPS) to provision for the volume.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2CreateSecurityGroupRequest/setVpcId:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;[EC2-VPC] The ID of the VPC. Required for EC2-VPC.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSNumber *iops</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *vpcId</Declaration>
 			
 			
-			<Anchor>//api/name/iops</Anchor>
+			<Anchor>//api/name/vpcId</Anchor>
             <NodeRef refid="325"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2CreateVolumeRequest/iops</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Only valid for Provisioned IOPS (SSD) volumes. The number of I/O operations per second (IOPS) to provision for the volume.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2CreateSecurityGroupRequest/vpcId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;[EC2-VPC] The ID of the VPC. Required for EC2-VPC.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSNumber *iops</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *vpcId</Declaration>
 			
 			
-			<Anchor>//api/name/iops</Anchor>
+			<Anchor>//api/name/vpcId</Anchor>
             <NodeRef refid="325"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2CreateVolumeRequest/iops</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Only valid for Provisioned IOPS (SSD) volumes. The number of I/O operations per second (IOPS) to provision for the volume.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2CreateSecurityGroupRequest/vpcId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;[EC2-VPC] The ID of the VPC. Required for EC2-VPC.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSNumber *iops</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *vpcId</Declaration>
 			
 			
-			<Anchor>//api/name/iops</Anchor>
-            <NodeRef refid="325"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2CreateVolumeRequest/setKmsKeyId:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The full ARN of the AWS Key Management Service (KMS) master key to use when creating the encrypted volume. This parameter is only required if you want to use a non-default master key; if this parameter is not specified, the default master key is used. The ARN contains the &lt;code&gt;arn:aws:kms&lt;/code&gt; namespace, followed by the region of the master key, the AWS account ID of the master key owner, the &lt;code&gt;key&lt;/code&gt; namespace, and then the master key ID. For example, arn:aws:kms:&lt;i&gt;us-east-1&lt;/i&gt;:&lt;i&gt;012345678910&lt;/i&gt;:key/&lt;i&gt;abcd1234-a123-456a-a12b-a123b4cd56ef&lt;/i&gt;.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *kmsKeyId</Declaration>
-			
-			
-			<Anchor>//api/name/kmsKeyId</Anchor>
-            <NodeRef refid="325"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2CreateVolumeRequest/kmsKeyId</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The full ARN of the AWS Key Management Service (KMS) master key to use when creating the encrypted volume. This parameter is only required if you want to use a non-default master key; if this parameter is not specified, the default master key is used. The ARN contains the &lt;code&gt;arn:aws:kms&lt;/code&gt; namespace, followed by the region of the master key, the AWS account ID of the master key owner, the &lt;code&gt;key&lt;/code&gt; namespace, and then the master key ID. For example, arn:aws:kms:&lt;i&gt;us-east-1&lt;/i&gt;:&lt;i&gt;012345678910&lt;/i&gt;:key/&lt;i&gt;abcd1234-a123-456a-a12b-a123b4cd56ef&lt;/i&gt;.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *kmsKeyId</Declaration>
-			
-			
-			<Anchor>//api/name/kmsKeyId</Anchor>
-            <NodeRef refid="325"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2CreateVolumeRequest/kmsKeyId</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The full ARN of the AWS Key Management Service (KMS) master key to use when creating the encrypted volume. This parameter is only required if you want to use a non-default master key; if this parameter is not specified, the default master key is used. The ARN contains the &lt;code&gt;arn:aws:kms&lt;/code&gt; namespace, followed by the region of the master key, the AWS account ID of the master key owner, the &lt;code&gt;key&lt;/code&gt; namespace, and then the master key ID. For example, arn:aws:kms:&lt;i&gt;us-east-1&lt;/i&gt;:&lt;i&gt;012345678910&lt;/i&gt;:key/&lt;i&gt;abcd1234-a123-456a-a12b-a123b4cd56ef&lt;/i&gt;.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *kmsKeyId</Declaration>
-			
-			
-			<Anchor>//api/name/kmsKeyId</Anchor>
-            <NodeRef refid="325"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2CreateVolumeRequest/setSize:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The size of the volume, in GiBs.&lt;/p&gt;&lt;p&gt;Constraints: If the volume type is &lt;code&gt;io1&lt;/code&gt;, the minimum size of the volume is 4 GiB.&lt;/p&gt;&lt;p&gt;Default: If you&apos;re creating the volume from a snapshot and don&apos;t specify a volume size, the default is the snapshot size.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSNumber *size</Declaration>
-			
-			
-			<Anchor>//api/name/size</Anchor>
-            <NodeRef refid="325"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2CreateVolumeRequest/size</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The size of the volume, in GiBs.&lt;/p&gt;&lt;p&gt;Constraints: If the volume type is &lt;code&gt;io1&lt;/code&gt;, the minimum size of the volume is 4 GiB.&lt;/p&gt;&lt;p&gt;Default: If you&apos;re creating the volume from a snapshot and don&apos;t specify a volume size, the default is the snapshot size.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSNumber *size</Declaration>
-			
-			
-			<Anchor>//api/name/size</Anchor>
-            <NodeRef refid="325"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2CreateVolumeRequest/size</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The size of the volume, in GiBs.&lt;/p&gt;&lt;p&gt;Constraints: If the volume type is &lt;code&gt;io1&lt;/code&gt;, the minimum size of the volume is 4 GiB.&lt;/p&gt;&lt;p&gt;Default: If you&apos;re creating the volume from a snapshot and don&apos;t specify a volume size, the default is the snapshot size.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSNumber *size</Declaration>
-			
-			
-			<Anchor>//api/name/size</Anchor>
-            <NodeRef refid="325"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2CreateVolumeRequest/setSnapshotId:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The snapshot from which to create the volume.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *snapshotId</Declaration>
-			
-			
-			<Anchor>//api/name/snapshotId</Anchor>
-            <NodeRef refid="325"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2CreateVolumeRequest/snapshotId</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The snapshot from which to create the volume.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *snapshotId</Declaration>
-			
-			
-			<Anchor>//api/name/snapshotId</Anchor>
-            <NodeRef refid="325"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2CreateVolumeRequest/snapshotId</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The snapshot from which to create the volume.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *snapshotId</Declaration>
-			
-			
-			<Anchor>//api/name/snapshotId</Anchor>
-            <NodeRef refid="325"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2CreateVolumeRequest/setVolumeType:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The volume type. This can be &lt;code&gt;gp2&lt;/code&gt; for General Purpose (SSD) volumes, &lt;code&gt;io1&lt;/code&gt; for Provisioned IOPS (SSD) volumes, or &lt;code&gt;standard&lt;/code&gt; for Magnetic volumes.&lt;/p&gt;&lt;p&gt;Default: &lt;code&gt;standard&lt;/code&gt;&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, assign) AWSEC2VolumeType volumeType</Declaration>
-			
-			
-			<Anchor>//api/name/volumeType</Anchor>
-            <NodeRef refid="325"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2CreateVolumeRequest/volumeType</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The volume type. This can be &lt;code&gt;gp2&lt;/code&gt; for General Purpose (SSD) volumes, &lt;code&gt;io1&lt;/code&gt; for Provisioned IOPS (SSD) volumes, or &lt;code&gt;standard&lt;/code&gt; for Magnetic volumes.&lt;/p&gt;&lt;p&gt;Default: &lt;code&gt;standard&lt;/code&gt;&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, assign) AWSEC2VolumeType volumeType</Declaration>
-			
-			
-			<Anchor>//api/name/volumeType</Anchor>
-            <NodeRef refid="325"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2CreateVolumeRequest/volumeType</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The volume type. This can be &lt;code&gt;gp2&lt;/code&gt; for General Purpose (SSD) volumes, &lt;code&gt;io1&lt;/code&gt; for Provisioned IOPS (SSD) volumes, or &lt;code&gt;standard&lt;/code&gt; for Magnetic volumes.&lt;/p&gt;&lt;p&gt;Default: &lt;code&gt;standard&lt;/code&gt;&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, assign) AWSEC2VolumeType volumeType</Declaration>
-			
-			
-			<Anchor>//api/name/volumeType</Anchor>
+			<Anchor>//api/name/vpcId</Anchor>
             <NodeRef refid="325"/>
 		</Token>
 		

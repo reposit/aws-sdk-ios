@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSSQSChangeMessageVisibilityBatchResult.html">
+	<File path="Classes/AWSSESVerifyDomainIdentityResponse.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSSQSChangeMessageVisibilityBatchResult</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt; For each message in the batch, the response contains a &lt;a&gt;ChangeMessageVisibilityBatchResultEntry&lt;/a&gt; tag if the message succeeds or a &lt;a&gt;BatchResultErrorEntry&lt;/a&gt; tag if the message fails. &lt;/p&gt;
-Required parameters: [Successful, Failed]</Abstract>
-			<DeclaredIn>AWSSQSModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSSESVerifyDomainIdentityResponse</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Represents a token used for domain ownership verification.&lt;/p&gt;
+Required parameters: [VerificationToken]</Abstract>
+			<DeclaredIn>AWSSESModel.h</DeclaredIn>
             
 			
 			<NodeRef refid="983"/>
@@ -14,74 +14,38 @@ Required parameters: [Successful, Failed]</Abstract>
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSSQSChangeMessageVisibilityBatchResult/setFailed:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;A list of &lt;a&gt;BatchResultErrorEntry&lt;/a&gt; items.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSQSModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSESVerifyDomainIdentityResponse/setVerificationToken:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;A TXT record that must be placed in the DNS settings for the domain, in order to complete domain verification.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSESModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSArray *failed</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *verificationToken</Declaration>
 			
 			
-			<Anchor>//api/name/failed</Anchor>
+			<Anchor>//api/name/verificationToken</Anchor>
             <NodeRef refid="983"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSSQSChangeMessageVisibilityBatchResult/failed</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;A list of &lt;a&gt;BatchResultErrorEntry&lt;/a&gt; items.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSQSModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSESVerifyDomainIdentityResponse/verificationToken</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;A TXT record that must be placed in the DNS settings for the domain, in order to complete domain verification.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSESModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSArray *failed</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *verificationToken</Declaration>
 			
 			
-			<Anchor>//api/name/failed</Anchor>
+			<Anchor>//api/name/verificationToken</Anchor>
             <NodeRef refid="983"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSSQSChangeMessageVisibilityBatchResult/failed</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;A list of &lt;a&gt;BatchResultErrorEntry&lt;/a&gt; items.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSQSModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSSESVerifyDomainIdentityResponse/verificationToken</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;A TXT record that must be placed in the DNS settings for the domain, in order to complete domain verification.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSESModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSArray *failed</Declaration>
-			
-			
-			<Anchor>//api/name/failed</Anchor>
-            <NodeRef refid="983"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSSQSChangeMessageVisibilityBatchResult/setSuccessful:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;A list of &lt;a&gt;ChangeMessageVisibilityBatchResultEntry&lt;/a&gt; items.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSQSModel.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSArray *successful</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *verificationToken</Declaration>
 			
 			
-			<Anchor>//api/name/successful</Anchor>
-            <NodeRef refid="983"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSSQSChangeMessageVisibilityBatchResult/successful</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;A list of &lt;a&gt;ChangeMessageVisibilityBatchResultEntry&lt;/a&gt; items.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSQSModel.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSArray *successful</Declaration>
-			
-			
-			<Anchor>//api/name/successful</Anchor>
-            <NodeRef refid="983"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSSQSChangeMessageVisibilityBatchResult/successful</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;A list of &lt;a&gt;ChangeMessageVisibilityBatchResultEntry&lt;/a&gt; items.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSQSModel.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSArray *successful</Declaration>
-			
-			
-			<Anchor>//api/name/successful</Anchor>
+			<Anchor>//api/name/verificationToken</Anchor>
             <NodeRef refid="983"/>
 		</Token>
 		

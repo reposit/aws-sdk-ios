@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSS3Owner.html">
+	<File path="Classes/AWSS3GetBucketLifecycleOutput.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSS3Owner</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSS3GetBucketLifecycleOutput</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSS3Model.h</DeclaredIn>
             
@@ -13,74 +13,38 @@
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3Owner/setDisplayName:</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3GetBucketLifecycleOutput/setRules:</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *displayName</Declaration>
+			<Declaration>@property (nonatomic, strong) NSArray *rules</Declaration>
 			
 			
-			<Anchor>//api/name/displayName</Anchor>
+			<Anchor>//api/name/rules</Anchor>
             <NodeRef refid="846"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3Owner/displayName</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3GetBucketLifecycleOutput/rules</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *displayName</Declaration>
+			<Declaration>@property (nonatomic, strong) NSArray *rules</Declaration>
 			
 			
-			<Anchor>//api/name/displayName</Anchor>
+			<Anchor>//api/name/rules</Anchor>
             <NodeRef refid="846"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSS3Owner/displayName</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSS3GetBucketLifecycleOutput/rules</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *displayName</Declaration>
+			<Declaration>@property (nonatomic, strong) NSArray *rules</Declaration>
 			
 			
-			<Anchor>//api/name/displayName</Anchor>
-            <NodeRef refid="846"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3Owner/setIdentifier:</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *identifier</Declaration>
-			
-			
-			<Anchor>//api/name/identifier</Anchor>
-            <NodeRef refid="846"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3Owner/identifier</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *identifier</Declaration>
-			
-			
-			<Anchor>//api/name/identifier</Anchor>
-            <NodeRef refid="846"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSS3Owner/identifier</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *identifier</Declaration>
-			
-			
-			<Anchor>//api/name/identifier</Anchor>
+			<Anchor>//api/name/rules</Anchor>
             <NodeRef refid="846"/>
 		</Token>
 		

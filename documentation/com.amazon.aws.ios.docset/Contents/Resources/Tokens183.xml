@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSCognitoSyncSetIdentityPoolConfigurationResponse.html">
+	<File path="Classes/AWSCognitoSyncRecord.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSCognitoSyncSetIdentityPoolConfigurationResponse</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Response to a &lt;code&gt;SetIdentityPoolConfiguration&lt;/code&gt; request.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSCognitoSyncRecord</TokenIdentifier>
+			<Abstract type="html">The basic data structure of a dataset.</Abstract>
 			<DeclaredIn>AWSCognitoSyncModel.h</DeclaredIn>
             
 			
@@ -13,74 +13,218 @@
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoSyncSetIdentityPoolConfigurationResponse/setIdentityPoolId:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;A name-spaced GUID (for example, us-east-1:23EC4050-6AEA-7089-A2DD-08002EXAMPLE) created by Amazon Cognito.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoSyncRecord/setDeviceLastModifiedDate:</TokenIdentifier>
+			<Abstract type="html">The last modified date of the client device.</Abstract>
 			<DeclaredIn>AWSCognitoSyncModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *identityPoolId</Declaration>
+			<Declaration>@property (nonatomic, strong) NSDate *deviceLastModifiedDate</Declaration>
 			
 			
-			<Anchor>//api/name/identityPoolId</Anchor>
+			<Anchor>//api/name/deviceLastModifiedDate</Anchor>
             <NodeRef refid="183"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoSyncSetIdentityPoolConfigurationResponse/identityPoolId</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;A name-spaced GUID (for example, us-east-1:23EC4050-6AEA-7089-A2DD-08002EXAMPLE) created by Amazon Cognito.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoSyncRecord/deviceLastModifiedDate</TokenIdentifier>
+			<Abstract type="html">The last modified date of the client device.</Abstract>
 			<DeclaredIn>AWSCognitoSyncModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *identityPoolId</Declaration>
+			<Declaration>@property (nonatomic, strong) NSDate *deviceLastModifiedDate</Declaration>
 			
 			
-			<Anchor>//api/name/identityPoolId</Anchor>
+			<Anchor>//api/name/deviceLastModifiedDate</Anchor>
             <NodeRef refid="183"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSCognitoSyncSetIdentityPoolConfigurationResponse/identityPoolId</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;A name-spaced GUID (for example, us-east-1:23EC4050-6AEA-7089-A2DD-08002EXAMPLE) created by Amazon Cognito.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSCognitoSyncRecord/deviceLastModifiedDate</TokenIdentifier>
+			<Abstract type="html">The last modified date of the client device.</Abstract>
 			<DeclaredIn>AWSCognitoSyncModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *identityPoolId</Declaration>
+			<Declaration>@property (nonatomic, strong) NSDate *deviceLastModifiedDate</Declaration>
 			
 			
-			<Anchor>//api/name/identityPoolId</Anchor>
+			<Anchor>//api/name/deviceLastModifiedDate</Anchor>
             <NodeRef refid="183"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoSyncSetIdentityPoolConfigurationResponse/setPushSync:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Configuration options applied to the identity pool.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoSyncRecord/setKey:</TokenIdentifier>
+			<Abstract type="html">The key for the record.</Abstract>
 			<DeclaredIn>AWSCognitoSyncModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) AWSCognitoSyncPushSync *pushSync</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *key</Declaration>
 			
 			
-			<Anchor>//api/name/pushSync</Anchor>
+			<Anchor>//api/name/key</Anchor>
             <NodeRef refid="183"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoSyncSetIdentityPoolConfigurationResponse/pushSync</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Configuration options applied to the identity pool.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoSyncRecord/key</TokenIdentifier>
+			<Abstract type="html">The key for the record.</Abstract>
 			<DeclaredIn>AWSCognitoSyncModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) AWSCognitoSyncPushSync *pushSync</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *key</Declaration>
 			
 			
-			<Anchor>//api/name/pushSync</Anchor>
+			<Anchor>//api/name/key</Anchor>
             <NodeRef refid="183"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSCognitoSyncSetIdentityPoolConfigurationResponse/pushSync</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Configuration options applied to the identity pool.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSCognitoSyncRecord/key</TokenIdentifier>
+			<Abstract type="html">The key for the record.</Abstract>
 			<DeclaredIn>AWSCognitoSyncModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) AWSCognitoSyncPushSync *pushSync</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *key</Declaration>
 			
 			
-			<Anchor>//api/name/pushSync</Anchor>
+			<Anchor>//api/name/key</Anchor>
+            <NodeRef refid="183"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoSyncRecord/setLastModifiedBy:</TokenIdentifier>
+			<Abstract type="html">The user/device that made the last change to this record.</Abstract>
+			<DeclaredIn>AWSCognitoSyncModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *lastModifiedBy</Declaration>
+			
+			
+			<Anchor>//api/name/lastModifiedBy</Anchor>
+            <NodeRef refid="183"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoSyncRecord/lastModifiedBy</TokenIdentifier>
+			<Abstract type="html">The user/device that made the last change to this record.</Abstract>
+			<DeclaredIn>AWSCognitoSyncModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *lastModifiedBy</Declaration>
+			
+			
+			<Anchor>//api/name/lastModifiedBy</Anchor>
+            <NodeRef refid="183"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSCognitoSyncRecord/lastModifiedBy</TokenIdentifier>
+			<Abstract type="html">The user/device that made the last change to this record.</Abstract>
+			<DeclaredIn>AWSCognitoSyncModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *lastModifiedBy</Declaration>
+			
+			
+			<Anchor>//api/name/lastModifiedBy</Anchor>
+            <NodeRef refid="183"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoSyncRecord/setLastModifiedDate:</TokenIdentifier>
+			<Abstract type="html">The date on which the record was last modified.</Abstract>
+			<DeclaredIn>AWSCognitoSyncModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSDate *lastModifiedDate</Declaration>
+			
+			
+			<Anchor>//api/name/lastModifiedDate</Anchor>
+            <NodeRef refid="183"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoSyncRecord/lastModifiedDate</TokenIdentifier>
+			<Abstract type="html">The date on which the record was last modified.</Abstract>
+			<DeclaredIn>AWSCognitoSyncModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSDate *lastModifiedDate</Declaration>
+			
+			
+			<Anchor>//api/name/lastModifiedDate</Anchor>
+            <NodeRef refid="183"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSCognitoSyncRecord/lastModifiedDate</TokenIdentifier>
+			<Abstract type="html">The date on which the record was last modified.</Abstract>
+			<DeclaredIn>AWSCognitoSyncModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSDate *lastModifiedDate</Declaration>
+			
+			
+			<Anchor>//api/name/lastModifiedDate</Anchor>
+            <NodeRef refid="183"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoSyncRecord/setSyncCount:</TokenIdentifier>
+			<Abstract type="html">The server sync count for this record.</Abstract>
+			<DeclaredIn>AWSCognitoSyncModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *syncCount</Declaration>
+			
+			
+			<Anchor>//api/name/syncCount</Anchor>
+            <NodeRef refid="183"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoSyncRecord/syncCount</TokenIdentifier>
+			<Abstract type="html">The server sync count for this record.</Abstract>
+			<DeclaredIn>AWSCognitoSyncModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *syncCount</Declaration>
+			
+			
+			<Anchor>//api/name/syncCount</Anchor>
+            <NodeRef refid="183"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSCognitoSyncRecord/syncCount</TokenIdentifier>
+			<Abstract type="html">The server sync count for this record.</Abstract>
+			<DeclaredIn>AWSCognitoSyncModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *syncCount</Declaration>
+			
+			
+			<Anchor>//api/name/syncCount</Anchor>
+            <NodeRef refid="183"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoSyncRecord/setValue:</TokenIdentifier>
+			<Abstract type="html">The value for the record.</Abstract>
+			<DeclaredIn>AWSCognitoSyncModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *value</Declaration>
+			
+			
+			<Anchor>//api/name/value</Anchor>
+            <NodeRef refid="183"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoSyncRecord/value</TokenIdentifier>
+			<Abstract type="html">The value for the record.</Abstract>
+			<DeclaredIn>AWSCognitoSyncModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *value</Declaration>
+			
+			
+			<Anchor>//api/name/value</Anchor>
+            <NodeRef refid="183"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSCognitoSyncRecord/value</TokenIdentifier>
+			<Abstract type="html">The value for the record.</Abstract>
+			<DeclaredIn>AWSCognitoSyncModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *value</Declaration>
+			
+			
+			<Anchor>//api/name/value</Anchor>
             <NodeRef refid="183"/>
 		</Token>
 		

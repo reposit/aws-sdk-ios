@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSElasticLoadBalancingDeregisterEndPointsOutput.html">
+	<File path="Classes/AWSElasticLoadBalancingConfigureHealthCheckOutput.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSElasticLoadBalancingDeregisterEndPointsOutput</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSElasticLoadBalancingConfigureHealthCheckOutput</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSElasticLoadBalancingModel.h</DeclaredIn>
             
@@ -13,38 +13,38 @@
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSElasticLoadBalancingDeregisterEndPointsOutput/setInstances:</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSElasticLoadBalancingConfigureHealthCheckOutput/setHealthCheck:</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSElasticLoadBalancingModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSArray *instances</Declaration>
+			<Declaration>@property (nonatomic, strong) AWSElasticLoadBalancingHealthCheck *healthCheck</Declaration>
 			
 			
-			<Anchor>//api/name/instances</Anchor>
+			<Anchor>//api/name/healthCheck</Anchor>
             <NodeRef refid="660"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSElasticLoadBalancingDeregisterEndPointsOutput/instances</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSElasticLoadBalancingConfigureHealthCheckOutput/healthCheck</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSElasticLoadBalancingModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSArray *instances</Declaration>
+			<Declaration>@property (nonatomic, strong) AWSElasticLoadBalancingHealthCheck *healthCheck</Declaration>
 			
 			
-			<Anchor>//api/name/instances</Anchor>
+			<Anchor>//api/name/healthCheck</Anchor>
             <NodeRef refid="660"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSElasticLoadBalancingDeregisterEndPointsOutput/instances</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSElasticLoadBalancingConfigureHealthCheckOutput/healthCheck</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSElasticLoadBalancingModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSArray *instances</Declaration>
+			<Declaration>@property (nonatomic, strong) AWSElasticLoadBalancingHealthCheck *healthCheck</Declaration>
 			
 			
-			<Anchor>//api/name/instances</Anchor>
+			<Anchor>//api/name/healthCheck</Anchor>
             <NodeRef refid="660"/>
 		</Token>
 		

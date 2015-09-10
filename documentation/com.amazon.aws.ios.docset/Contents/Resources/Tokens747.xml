@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSMobileAnalyticsERS.html">
+	<File path="Classes/AWSKinesisPutRecordsInput.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSMobileAnalyticsERS</TokenIdentifier>
-			<Abstract type="html">A service which is used to record Amazon Mobile Analytics events</Abstract>
-			<DeclaredIn>AWSMobileAnalyticsERSService.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSKinesisPutRecordsInput</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;A &lt;code&gt;PutRecords&lt;/code&gt; request.&lt;/p&gt;
+Required parameters: [Records, StreamName]</Abstract>
+			<DeclaredIn>AWSKinesisModel.h</DeclaredIn>
             
 			
 			<NodeRef refid="747"/>
@@ -13,143 +14,74 @@
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSMobileAnalyticsERS/setConfiguration:</TokenIdentifier>
-			<Abstract type="html">The service configuration used to instantiate this service client.</Abstract>
-			<DeclaredIn>AWSMobileAnalyticsERSService.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSKinesisPutRecordsInput/setRecords:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The records associated with the request.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSKinesisModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong, readonly) AWSServiceConfiguration *configuration</Declaration>
+			<Declaration>@property (nonatomic, strong) NSArray *records</Declaration>
 			
 			
-			<Anchor>//api/name/configuration</Anchor>
+			<Anchor>//api/name/records</Anchor>
             <NodeRef refid="747"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSMobileAnalyticsERS/configuration</TokenIdentifier>
-			<Abstract type="html">The service configuration used to instantiate this service client.</Abstract>
-			<DeclaredIn>AWSMobileAnalyticsERSService.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSKinesisPutRecordsInput/records</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The records associated with the request.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSKinesisModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong, readonly) AWSServiceConfiguration *configuration</Declaration>
+			<Declaration>@property (nonatomic, strong) NSArray *records</Declaration>
 			
 			
-			<Anchor>//api/name/configuration</Anchor>
+			<Anchor>//api/name/records</Anchor>
             <NodeRef refid="747"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSMobileAnalyticsERS/configuration</TokenIdentifier>
-			<Abstract type="html">The service configuration used to instantiate this service client.</Abstract>
-			<DeclaredIn>AWSMobileAnalyticsERSService.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSKinesisPutRecordsInput/records</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The records associated with the request.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSKinesisModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong, readonly) AWSServiceConfiguration *configuration</Declaration>
+			<Declaration>@property (nonatomic, strong) NSArray *records</Declaration>
 			
 			
-			<Anchor>//api/name/configuration</Anchor>
+			<Anchor>//api/name/records</Anchor>
             <NodeRef refid="747"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/clm/AWSMobileAnalyticsERS/defaultMobileAnalyticsERS</TokenIdentifier>
-			<Abstract type="html">Returns the singleton service client. If the singleton object does not exist, the SDK instantiates the default service client with defaultServiceConfiguration from [AWSServiceManager defaultServiceManager]. The reference to this object is maintained by the SDK, and you do not need to retain it manually.</Abstract>
-			<DeclaredIn>AWSMobileAnalyticsERSService.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSKinesisPutRecordsInput/setStreamName:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The stream name associated with the request.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSKinesisModel.h</DeclaredIn>
 			
-			<Declaration>+ (instancetype)defaultMobileAnalyticsERS</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *streamName</Declaration>
 			
-			<ReturnValue><Abstract type="html">The default service client.</Abstract></ReturnValue>
-			<Anchor>//api/name/defaultMobileAnalyticsERS</Anchor>
+			
+			<Anchor>//api/name/streamName</Anchor>
             <NodeRef refid="747"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/clm/AWSMobileAnalyticsERS/registerMobileAnalyticsERSWithConfiguration:forKey:</TokenIdentifier>
-			<Abstract type="html">Creates a service client with the given service configuration and registers it for the key.</Abstract>
-			<DeclaredIn>AWSMobileAnalyticsERSService.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSKinesisPutRecordsInput/streamName</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The stream name associated with the request.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSKinesisModel.h</DeclaredIn>
 			
-			<Declaration>+ (void)registerMobileAnalyticsERSWithConfiguration:(AWSServiceConfiguration *)configuration forKey:(NSString *)key</Declaration>
-			<Parameters>
-				<Parameter>
-					<Name>configuration</Name>
-					<Abstract type="html">A service configuration object.</Abstract>
-				</Parameter><Parameter>
-					<Name>key</Name>
-					<Abstract type="html">A string to identify the service client.</Abstract>
-				</Parameter>
-			</Parameters>
+			<Declaration>@property (nonatomic, strong) NSString *streamName</Declaration>
 			
-			<Anchor>//api/name/registerMobileAnalyticsERSWithConfiguration:forKey:</Anchor>
+			
+			<Anchor>//api/name/streamName</Anchor>
             <NodeRef refid="747"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/clm/AWSMobileAnalyticsERS/MobileAnalyticsERSForKey:</TokenIdentifier>
-			<Abstract type="html">Retrieves the service client associated with the key. You need to call + registerMobileAnalyticsERSWithConfiguration:forKey: before invoking this method. If + registerMobileAnalyticsERSWithConfiguration:forKey: has not been called in advance or the key does not exist, this method returns nil.</Abstract>
-			<DeclaredIn>AWSMobileAnalyticsERSService.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSKinesisPutRecordsInput/streamName</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The stream name associated with the request.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSKinesisModel.h</DeclaredIn>
 			
-			<Declaration>+ (instancetype)MobileAnalyticsERSForKey:(NSString *)key</Declaration>
-			<Parameters>
-				<Parameter>
-					<Name>key</Name>
-					<Abstract type="html">A string to identify the service client.</Abstract>
-				</Parameter>
-			</Parameters>
-			<ReturnValue><Abstract type="html">An instance of the service client.</Abstract></ReturnValue>
-			<Anchor>//api/name/MobileAnalyticsERSForKey:</Anchor>
-            <NodeRef refid="747"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/clm/AWSMobileAnalyticsERS/removeMobileAnalyticsERSForKey:</TokenIdentifier>
-			<Abstract type="html">Removes the service client associated with the key and release it.</Abstract>
-			<DeclaredIn>AWSMobileAnalyticsERSService.h</DeclaredIn>
+			<Declaration>@property (nonatomic, strong) NSString *streamName</Declaration>
 			
-			<Declaration>+ (void)removeMobileAnalyticsERSForKey:(NSString *)key</Declaration>
-			<Parameters>
-				<Parameter>
-					<Name>key</Name>
-					<Abstract type="html">A string to identify the service client.</Abstract>
-				</Parameter>
-			</Parameters>
 			
-			<Anchor>//api/name/removeMobileAnalyticsERSForKey:</Anchor>
-            <NodeRef refid="747"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSMobileAnalyticsERS/initWithConfiguration:</TokenIdentifier>
-			<Abstract type="html">Instantiates the service client with the given service configuration.</Abstract>
-			<DeclaredIn>AWSMobileAnalyticsERSService.h</DeclaredIn>
-			
-			<Declaration>- (instancetype)initWithConfiguration:(AWSServiceConfiguration *)configuration</Declaration>
-			<Parameters>
-				<Parameter>
-					<Name>configuration</Name>
-					<Abstract type="html">The service configuration object.</Abstract>
-				</Parameter>
-			</Parameters>
-			<ReturnValue><Abstract type="html">An instance of the service client.</Abstract></ReturnValue>
-			<Anchor>//api/name/initWithConfiguration:</Anchor>
-            <NodeRef refid="747"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSMobileAnalyticsERS/putEvents:</TokenIdentifier>
-			<Abstract type="html">Record a batch of events</Abstract>
-			<DeclaredIn>AWSMobileAnalyticsERSService.h</DeclaredIn>
-			
-	<RelatedTokens>
-		<TokenIdentifier>//apple_ref/occ/cl/AWSMobileAnalyticsERSPutEventsInput</TokenIdentifier>
-		
-	</RelatedTokens>
-	
-			<Declaration>- (BFTask *)putEvents:(AWSMobileAnalyticsERSPutEventsInput *)request</Declaration>
-			<Parameters>
-				<Parameter>
-					<Name>request</Name>
-					<Abstract type="html">A container for the necessary parameters to execute the PutEvents service method.</Abstract>
-				</Parameter>
-			</Parameters>
-			<ReturnValue><Abstract type="html">An instance of BFTask. On successful execution, task.result will be nil. On failed execution, task.error may contain an NSError with AWSMobileAnalyticsERSErrorDomain domian and the following error code: AWSMobileAnalyticsERSErrorBadRequest.</Abstract></ReturnValue>
-			<Anchor>//api/name/putEvents:</Anchor>
+			<Anchor>//api/name/streamName</Anchor>
             <NodeRef refid="747"/>
 		</Token>
 		

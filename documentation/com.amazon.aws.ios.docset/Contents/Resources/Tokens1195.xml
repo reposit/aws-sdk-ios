@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Constants/AWSS3BucketLogsPermission.html">
+	<File path="Constants/AWSEC2ProductCodeValues.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/c/tdef/AWSS3BucketLogsPermission</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/c/tdef/AWSEC2ProductCodeValues</TokenIdentifier>
 			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
             
 			
 			<NodeRef refid="1195"/>
@@ -14,41 +14,31 @@
 		
         
         <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSS3BucketLogsPermissionUnknown</TokenIdentifier>
+            <TokenIdentifier>//apple_ref/c/econst/AWSEC2ProductCodeValuesUnknown</TokenIdentifier>
             <Abstract type="html"></Abstract>
-            <Declaration>AWSS3BucketLogsPermissionUnknown</Declaration>
+            <Declaration>AWSEC2ProductCodeValuesUnknown</Declaration>
             
-            <DeclaredIn>AWSS3Model.h</DeclaredIn>
+            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
             
             <NodeRef refid="1195"/>
         </Token>
         
         <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSS3BucketLogsPermissionFullControl</TokenIdentifier>
+            <TokenIdentifier>//apple_ref/c/econst/AWSEC2ProductCodeValuesDevpay</TokenIdentifier>
             <Abstract type="html"></Abstract>
-            <Declaration>AWSS3BucketLogsPermissionFullControl</Declaration>
+            <Declaration>AWSEC2ProductCodeValuesDevpay</Declaration>
             
-            <DeclaredIn>AWSS3Model.h</DeclaredIn>
+            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
             
             <NodeRef refid="1195"/>
         </Token>
         
         <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSS3BucketLogsPermissionRead</TokenIdentifier>
+            <TokenIdentifier>//apple_ref/c/econst/AWSEC2ProductCodeValuesMarketplace</TokenIdentifier>
             <Abstract type="html"></Abstract>
-            <Declaration>AWSS3BucketLogsPermissionRead</Declaration>
+            <Declaration>AWSEC2ProductCodeValuesMarketplace</Declaration>
             
-            <DeclaredIn>AWSS3Model.h</DeclaredIn>
-            
-            <NodeRef refid="1195"/>
-        </Token>
-        
-        <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSS3BucketLogsPermissionWrite</TokenIdentifier>
-            <Abstract type="html"></Abstract>
-            <Declaration>AWSS3BucketLogsPermissionWrite</Declaration>
-            
-            <DeclaredIn>AWSS3Model.h</DeclaredIn>
+            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
             
             <NodeRef refid="1195"/>
         </Token>

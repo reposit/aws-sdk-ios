@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSCognitoSyncDeleteDatasetRequest.html">
+	<File path="Classes/AWSCognitoSyncCognitoStreams.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSCognitoSyncDeleteDatasetRequest</TokenIdentifier>
-			<Abstract type="html">A request to delete the specific dataset.
-Required parameters: [IdentityPoolId, IdentityId, DatasetName]</Abstract>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSCognitoSyncCognitoStreams</TokenIdentifier>
+			<Abstract type="html">Configuration options for configure Cognito streams.</Abstract>
 			<DeclaredIn>AWSCognitoSyncModel.h</DeclaredIn>
             
 			
@@ -14,110 +13,110 @@ Required parameters: [IdentityPoolId, IdentityId, DatasetName]</Abstract>
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoSyncDeleteDatasetRequest/setDatasetName:</TokenIdentifier>
-			<Abstract type="html">A string of up to 128 characters. Allowed characters are a-z, A-Z, 0-9, &apos;_&apos; (underscore), &apos;-&apos; (dash), and &apos;.&apos; (dot).</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoSyncCognitoStreams/setRoleArn:</TokenIdentifier>
+			<Abstract type="html">The ARN of the role Amazon Cognito can assume in order to publish to the stream. This role must grant access to Amazon Cognito (cognito-sync) to invoke PutRecord on your Cognito stream.</Abstract>
 			<DeclaredIn>AWSCognitoSyncModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *datasetName</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *roleArn</Declaration>
 			
 			
-			<Anchor>//api/name/datasetName</Anchor>
+			<Anchor>//api/name/roleArn</Anchor>
             <NodeRef refid="158"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoSyncDeleteDatasetRequest/datasetName</TokenIdentifier>
-			<Abstract type="html">A string of up to 128 characters. Allowed characters are a-z, A-Z, 0-9, &apos;_&apos; (underscore), &apos;-&apos; (dash), and &apos;.&apos; (dot).</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoSyncCognitoStreams/roleArn</TokenIdentifier>
+			<Abstract type="html">The ARN of the role Amazon Cognito can assume in order to publish to the stream. This role must grant access to Amazon Cognito (cognito-sync) to invoke PutRecord on your Cognito stream.</Abstract>
 			<DeclaredIn>AWSCognitoSyncModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *datasetName</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *roleArn</Declaration>
 			
 			
-			<Anchor>//api/name/datasetName</Anchor>
+			<Anchor>//api/name/roleArn</Anchor>
             <NodeRef refid="158"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSCognitoSyncDeleteDatasetRequest/datasetName</TokenIdentifier>
-			<Abstract type="html">A string of up to 128 characters. Allowed characters are a-z, A-Z, 0-9, &apos;_&apos; (underscore), &apos;-&apos; (dash), and &apos;.&apos; (dot).</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSCognitoSyncCognitoStreams/roleArn</TokenIdentifier>
+			<Abstract type="html">The ARN of the role Amazon Cognito can assume in order to publish to the stream. This role must grant access to Amazon Cognito (cognito-sync) to invoke PutRecord on your Cognito stream.</Abstract>
 			<DeclaredIn>AWSCognitoSyncModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *datasetName</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *roleArn</Declaration>
 			
 			
-			<Anchor>//api/name/datasetName</Anchor>
+			<Anchor>//api/name/roleArn</Anchor>
             <NodeRef refid="158"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoSyncDeleteDatasetRequest/setIdentityId:</TokenIdentifier>
-			<Abstract type="html">A name-spaced GUID (for example, us-east-1:23EC4050-6AEA-7089-A2DD-08002EXAMPLE) created by Amazon Cognito. GUID generation is unique within a region.</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoSyncCognitoStreams/setStreamName:</TokenIdentifier>
+			<Abstract type="html">The name of the Cognito stream to receive updates. This stream must be in the developers account and in the same region as the identity pool.</Abstract>
 			<DeclaredIn>AWSCognitoSyncModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *identityId</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *streamName</Declaration>
 			
 			
-			<Anchor>//api/name/identityId</Anchor>
+			<Anchor>//api/name/streamName</Anchor>
             <NodeRef refid="158"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoSyncDeleteDatasetRequest/identityId</TokenIdentifier>
-			<Abstract type="html">A name-spaced GUID (for example, us-east-1:23EC4050-6AEA-7089-A2DD-08002EXAMPLE) created by Amazon Cognito. GUID generation is unique within a region.</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoSyncCognitoStreams/streamName</TokenIdentifier>
+			<Abstract type="html">The name of the Cognito stream to receive updates. This stream must be in the developers account and in the same region as the identity pool.</Abstract>
 			<DeclaredIn>AWSCognitoSyncModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *identityId</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *streamName</Declaration>
 			
 			
-			<Anchor>//api/name/identityId</Anchor>
+			<Anchor>//api/name/streamName</Anchor>
             <NodeRef refid="158"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSCognitoSyncDeleteDatasetRequest/identityId</TokenIdentifier>
-			<Abstract type="html">A name-spaced GUID (for example, us-east-1:23EC4050-6AEA-7089-A2DD-08002EXAMPLE) created by Amazon Cognito. GUID generation is unique within a region.</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSCognitoSyncCognitoStreams/streamName</TokenIdentifier>
+			<Abstract type="html">The name of the Cognito stream to receive updates. This stream must be in the developers account and in the same region as the identity pool.</Abstract>
 			<DeclaredIn>AWSCognitoSyncModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *identityId</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *streamName</Declaration>
 			
 			
-			<Anchor>//api/name/identityId</Anchor>
+			<Anchor>//api/name/streamName</Anchor>
             <NodeRef refid="158"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoSyncDeleteDatasetRequest/setIdentityPoolId:</TokenIdentifier>
-			<Abstract type="html">A name-spaced GUID (for example, us-east-1:23EC4050-6AEA-7089-A2DD-08002EXAMPLE) created by Amazon Cognito. GUID generation is unique within a region.</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoSyncCognitoStreams/setStreamingStatus:</TokenIdentifier>
+			<Abstract type="html">Status of the Cognito streams. Valid values are: &lt;p&gt;ENABLED - Streaming of updates to identity pool is enabled.&lt;/p&gt;&lt;p&gt;DISABLED - Streaming of updates to identity pool is disabled. Bulk publish will also fail if StreamingStatus is DISABLED.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSCognitoSyncModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *identityPoolId</Declaration>
+			<Declaration>@property (nonatomic, assign) AWSCognitoSyncStreamingStatus streamingStatus</Declaration>
 			
 			
-			<Anchor>//api/name/identityPoolId</Anchor>
+			<Anchor>//api/name/streamingStatus</Anchor>
             <NodeRef refid="158"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoSyncDeleteDatasetRequest/identityPoolId</TokenIdentifier>
-			<Abstract type="html">A name-spaced GUID (for example, us-east-1:23EC4050-6AEA-7089-A2DD-08002EXAMPLE) created by Amazon Cognito. GUID generation is unique within a region.</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoSyncCognitoStreams/streamingStatus</TokenIdentifier>
+			<Abstract type="html">Status of the Cognito streams. Valid values are: &lt;p&gt;ENABLED - Streaming of updates to identity pool is enabled.&lt;/p&gt;&lt;p&gt;DISABLED - Streaming of updates to identity pool is disabled. Bulk publish will also fail if StreamingStatus is DISABLED.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSCognitoSyncModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *identityPoolId</Declaration>
+			<Declaration>@property (nonatomic, assign) AWSCognitoSyncStreamingStatus streamingStatus</Declaration>
 			
 			
-			<Anchor>//api/name/identityPoolId</Anchor>
+			<Anchor>//api/name/streamingStatus</Anchor>
             <NodeRef refid="158"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSCognitoSyncDeleteDatasetRequest/identityPoolId</TokenIdentifier>
-			<Abstract type="html">A name-spaced GUID (for example, us-east-1:23EC4050-6AEA-7089-A2DD-08002EXAMPLE) created by Amazon Cognito. GUID generation is unique within a region.</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSCognitoSyncCognitoStreams/streamingStatus</TokenIdentifier>
+			<Abstract type="html">Status of the Cognito streams. Valid values are: &lt;p&gt;ENABLED - Streaming of updates to identity pool is enabled.&lt;/p&gt;&lt;p&gt;DISABLED - Streaming of updates to identity pool is disabled. Bulk publish will also fail if StreamingStatus is DISABLED.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSCognitoSyncModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *identityPoolId</Declaration>
+			<Declaration>@property (nonatomic, assign) AWSCognitoSyncStreamingStatus streamingStatus</Declaration>
 			
 			
-			<Anchor>//api/name/identityPoolId</Anchor>
+			<Anchor>//api/name/streamingStatus</Anchor>
             <NodeRef refid="158"/>
 		</Token>
 		

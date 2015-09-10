@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSEC2ReplaceRouteRequest.html">
+	<File path="Classes/AWSEC2PortRange.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSEC2ReplaceRouteRequest</TokenIdentifier>
-			<Abstract type="html"></Abstract>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSEC2PortRange</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Describes a range of ports.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
             
 			
@@ -13,254 +13,74 @@
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ReplaceRouteRequest/setDestinationCidrBlock:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The CIDR address block used for the destination match. The value you provide must match the CIDR of an existing route in the table.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2PortRange/setFrom:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The first port in the range.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *destinationCidrBlock</Declaration>
+			<Declaration>@property (nonatomic, strong) NSNumber *from</Declaration>
 			
 			
-			<Anchor>//api/name/destinationCidrBlock</Anchor>
+			<Anchor>//api/name/from</Anchor>
             <NodeRef refid="551"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ReplaceRouteRequest/destinationCidrBlock</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The CIDR address block used for the destination match. The value you provide must match the CIDR of an existing route in the table.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2PortRange/from</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The first port in the range.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *destinationCidrBlock</Declaration>
+			<Declaration>@property (nonatomic, strong) NSNumber *from</Declaration>
 			
 			
-			<Anchor>//api/name/destinationCidrBlock</Anchor>
+			<Anchor>//api/name/from</Anchor>
             <NodeRef refid="551"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2ReplaceRouteRequest/destinationCidrBlock</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The CIDR address block used for the destination match. The value you provide must match the CIDR of an existing route in the table.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2PortRange/from</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The first port in the range.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *destinationCidrBlock</Declaration>
+			<Declaration>@property (nonatomic, strong) NSNumber *from</Declaration>
 			
 			
-			<Anchor>//api/name/destinationCidrBlock</Anchor>
+			<Anchor>//api/name/from</Anchor>
             <NodeRef refid="551"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ReplaceRouteRequest/setDryRun:</TokenIdentifier>
-			<Abstract type="html"></Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2PortRange/setTo:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The last port in the range.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSNumber *dryRun</Declaration>
+			<Declaration>@property (nonatomic, strong) NSNumber *to</Declaration>
 			
 			
-			<Anchor>//api/name/dryRun</Anchor>
+			<Anchor>//api/name/to</Anchor>
             <NodeRef refid="551"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ReplaceRouteRequest/dryRun</TokenIdentifier>
-			<Abstract type="html"></Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2PortRange/to</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The last port in the range.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSNumber *dryRun</Declaration>
+			<Declaration>@property (nonatomic, strong) NSNumber *to</Declaration>
 			
 			
-			<Anchor>//api/name/dryRun</Anchor>
+			<Anchor>//api/name/to</Anchor>
             <NodeRef refid="551"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2ReplaceRouteRequest/dryRun</TokenIdentifier>
-			<Abstract type="html"></Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2PortRange/to</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The last port in the range.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSNumber *dryRun</Declaration>
+			<Declaration>@property (nonatomic, strong) NSNumber *to</Declaration>
 			
 			
-			<Anchor>//api/name/dryRun</Anchor>
-            <NodeRef refid="551"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ReplaceRouteRequest/setGatewayId:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The ID of an Internet gateway or virtual private gateway.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *gatewayId</Declaration>
-			
-			
-			<Anchor>//api/name/gatewayId</Anchor>
-            <NodeRef refid="551"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ReplaceRouteRequest/gatewayId</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The ID of an Internet gateway or virtual private gateway.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *gatewayId</Declaration>
-			
-			
-			<Anchor>//api/name/gatewayId</Anchor>
-            <NodeRef refid="551"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2ReplaceRouteRequest/gatewayId</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The ID of an Internet gateway or virtual private gateway.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *gatewayId</Declaration>
-			
-			
-			<Anchor>//api/name/gatewayId</Anchor>
-            <NodeRef refid="551"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ReplaceRouteRequest/setInstanceId:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The ID of a NAT instance in your VPC.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *instanceId</Declaration>
-			
-			
-			<Anchor>//api/name/instanceId</Anchor>
-            <NodeRef refid="551"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ReplaceRouteRequest/instanceId</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The ID of a NAT instance in your VPC.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *instanceId</Declaration>
-			
-			
-			<Anchor>//api/name/instanceId</Anchor>
-            <NodeRef refid="551"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2ReplaceRouteRequest/instanceId</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The ID of a NAT instance in your VPC.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *instanceId</Declaration>
-			
-			
-			<Anchor>//api/name/instanceId</Anchor>
-            <NodeRef refid="551"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ReplaceRouteRequest/setNetworkInterfaceId:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The ID of a network interface.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *networkInterfaceId</Declaration>
-			
-			
-			<Anchor>//api/name/networkInterfaceId</Anchor>
-            <NodeRef refid="551"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ReplaceRouteRequest/networkInterfaceId</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The ID of a network interface.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *networkInterfaceId</Declaration>
-			
-			
-			<Anchor>//api/name/networkInterfaceId</Anchor>
-            <NodeRef refid="551"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2ReplaceRouteRequest/networkInterfaceId</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The ID of a network interface.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *networkInterfaceId</Declaration>
-			
-			
-			<Anchor>//api/name/networkInterfaceId</Anchor>
-            <NodeRef refid="551"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ReplaceRouteRequest/setRouteTableId:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The ID of the route table.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *routeTableId</Declaration>
-			
-			
-			<Anchor>//api/name/routeTableId</Anchor>
-            <NodeRef refid="551"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ReplaceRouteRequest/routeTableId</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The ID of the route table.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *routeTableId</Declaration>
-			
-			
-			<Anchor>//api/name/routeTableId</Anchor>
-            <NodeRef refid="551"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2ReplaceRouteRequest/routeTableId</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The ID of the route table.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *routeTableId</Declaration>
-			
-			
-			<Anchor>//api/name/routeTableId</Anchor>
-            <NodeRef refid="551"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ReplaceRouteRequest/setVpcPeeringConnectionId:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The ID of a VPC peering connection.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *vpcPeeringConnectionId</Declaration>
-			
-			
-			<Anchor>//api/name/vpcPeeringConnectionId</Anchor>
-            <NodeRef refid="551"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ReplaceRouteRequest/vpcPeeringConnectionId</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The ID of a VPC peering connection.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *vpcPeeringConnectionId</Declaration>
-			
-			
-			<Anchor>//api/name/vpcPeeringConnectionId</Anchor>
-            <NodeRef refid="551"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2ReplaceRouteRequest/vpcPeeringConnectionId</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The ID of a VPC peering connection.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *vpcPeeringConnectionId</Declaration>
-			
-			
-			<Anchor>//api/name/vpcPeeringConnectionId</Anchor>
+			<Anchor>//api/name/to</Anchor>
             <NodeRef refid="551"/>
 		</Token>
 		

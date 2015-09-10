@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Constants/AWSEC2ReservedInstanceState.html">
+	<File path="Constants/AWSDynamoDBProjectionType.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/c/tdef/AWSEC2ReservedInstanceState</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/c/tdef/AWSDynamoDBProjectionType</TokenIdentifier>
 			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			<DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
             
 			
 			<NodeRef refid="1150"/>
@@ -14,51 +14,41 @@
 		
         
         <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSEC2ReservedInstanceStateUnknown</TokenIdentifier>
+            <TokenIdentifier>//apple_ref/c/econst/AWSDynamoDBProjectionTypeUnknown</TokenIdentifier>
             <Abstract type="html"></Abstract>
-            <Declaration>AWSEC2ReservedInstanceStateUnknown</Declaration>
+            <Declaration>AWSDynamoDBProjectionTypeUnknown</Declaration>
             
-            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
+            <DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
             
             <NodeRef refid="1150"/>
         </Token>
         
         <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSEC2ReservedInstanceStatePaymentPending</TokenIdentifier>
+            <TokenIdentifier>//apple_ref/c/econst/AWSDynamoDBProjectionTypeAll</TokenIdentifier>
             <Abstract type="html"></Abstract>
-            <Declaration>AWSEC2ReservedInstanceStatePaymentPending</Declaration>
+            <Declaration>AWSDynamoDBProjectionTypeAll</Declaration>
             
-            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
+            <DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
             
             <NodeRef refid="1150"/>
         </Token>
         
         <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSEC2ReservedInstanceStateActive</TokenIdentifier>
+            <TokenIdentifier>//apple_ref/c/econst/AWSDynamoDBProjectionTypeKeysOnly</TokenIdentifier>
             <Abstract type="html"></Abstract>
-            <Declaration>AWSEC2ReservedInstanceStateActive</Declaration>
+            <Declaration>AWSDynamoDBProjectionTypeKeysOnly</Declaration>
             
-            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
+            <DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
             
             <NodeRef refid="1150"/>
         </Token>
         
         <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSEC2ReservedInstanceStatePaymentFailed</TokenIdentifier>
+            <TokenIdentifier>//apple_ref/c/econst/AWSDynamoDBProjectionTypeInclude</TokenIdentifier>
             <Abstract type="html"></Abstract>
-            <Declaration>AWSEC2ReservedInstanceStatePaymentFailed</Declaration>
+            <Declaration>AWSDynamoDBProjectionTypeInclude</Declaration>
             
-            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
-            
-            <NodeRef refid="1150"/>
-        </Token>
-        
-        <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSEC2ReservedInstanceStateRetired</TokenIdentifier>
-            <Abstract type="html"></Abstract>
-            <Declaration>AWSEC2ReservedInstanceStateRetired</Declaration>
-            
-            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
+            <DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
             
             <NodeRef refid="1150"/>
         </Token>

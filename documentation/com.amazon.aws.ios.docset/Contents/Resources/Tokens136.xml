@@ -14,7 +14,7 @@
 		
 		<Token>
 			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoIdentityIdentityDescription/setCreationDate:</TokenIdentifier>
-			<Abstract type="html"></Abstract>
+			<Abstract type="html">&lt;p&gt;Date on which the identity was created.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSCognitoIdentityModel.h</DeclaredIn>
 			
 			<Declaration>@property (nonatomic, strong) NSDate *creationDate</Declaration>
@@ -26,7 +26,7 @@
 		
 		<Token>
 			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoIdentityIdentityDescription/creationDate</TokenIdentifier>
-			<Abstract type="html"></Abstract>
+			<Abstract type="html">&lt;p&gt;Date on which the identity was created.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSCognitoIdentityModel.h</DeclaredIn>
 			
 			<Declaration>@property (nonatomic, strong) NSDate *creationDate</Declaration>
@@ -38,7 +38,7 @@
 		
 		<Token>
 			<TokenIdentifier>//apple_ref/occ/instp/AWSCognitoIdentityIdentityDescription/creationDate</TokenIdentifier>
-			<Abstract type="html"></Abstract>
+			<Abstract type="html">&lt;p&gt;Date on which the identity was created.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSCognitoIdentityModel.h</DeclaredIn>
 			
 			<Declaration>@property (nonatomic, strong) NSDate *creationDate</Declaration>
@@ -86,7 +86,7 @@
 		
 		<Token>
 			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoIdentityIdentityDescription/setLastModifiedDate:</TokenIdentifier>
-			<Abstract type="html"></Abstract>
+			<Abstract type="html">&lt;p&gt;Date on which the identity was last modified.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSCognitoIdentityModel.h</DeclaredIn>
 			
 			<Declaration>@property (nonatomic, strong) NSDate *lastModifiedDate</Declaration>
@@ -98,7 +98,7 @@
 		
 		<Token>
 			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoIdentityIdentityDescription/lastModifiedDate</TokenIdentifier>
-			<Abstract type="html"></Abstract>
+			<Abstract type="html">&lt;p&gt;Date on which the identity was last modified.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSCognitoIdentityModel.h</DeclaredIn>
 			
 			<Declaration>@property (nonatomic, strong) NSDate *lastModifiedDate</Declaration>
@@ -110,7 +110,7 @@
 		
 		<Token>
 			<TokenIdentifier>//apple_ref/occ/instp/AWSCognitoIdentityIdentityDescription/lastModifiedDate</TokenIdentifier>
-			<Abstract type="html"></Abstract>
+			<Abstract type="html">&lt;p&gt;Date on which the identity was last modified.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSCognitoIdentityModel.h</DeclaredIn>
 			
 			<Declaration>@property (nonatomic, strong) NSDate *lastModifiedDate</Declaration>

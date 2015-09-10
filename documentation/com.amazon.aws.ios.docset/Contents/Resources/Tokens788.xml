@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSS3DeletedObject.html">
+	<File path="Classes/AWSLambdaUpdateEventSourceMappingRequest.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSS3DeletedObject</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSLambdaUpdateEventSourceMappingRequest</TokenIdentifier>
 			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			<DeclaredIn>AWSLambdaModel.h</DeclaredIn>
             
 			
 			<NodeRef refid="788"/>
@@ -13,146 +13,146 @@
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3DeletedObject/setDeleteMarker:</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSLambdaUpdateEventSourceMappingRequest/setBatchSize:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The maximum number of stream records that can be sent to your Lambda function for a single invocation.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSLambdaModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSNumber *deleteMarker</Declaration>
+			<Declaration>@property (nonatomic, strong) NSNumber *batchSize</Declaration>
 			
 			
-			<Anchor>//api/name/deleteMarker</Anchor>
+			<Anchor>//api/name/batchSize</Anchor>
             <NodeRef refid="788"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3DeletedObject/deleteMarker</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSLambdaUpdateEventSourceMappingRequest/batchSize</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The maximum number of stream records that can be sent to your Lambda function for a single invocation.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSLambdaModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSNumber *deleteMarker</Declaration>
+			<Declaration>@property (nonatomic, strong) NSNumber *batchSize</Declaration>
 			
 			
-			<Anchor>//api/name/deleteMarker</Anchor>
+			<Anchor>//api/name/batchSize</Anchor>
             <NodeRef refid="788"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSS3DeletedObject/deleteMarker</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSLambdaUpdateEventSourceMappingRequest/batchSize</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The maximum number of stream records that can be sent to your Lambda function for a single invocation.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSLambdaModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSNumber *deleteMarker</Declaration>
+			<Declaration>@property (nonatomic, strong) NSNumber *batchSize</Declaration>
 			
 			
-			<Anchor>//api/name/deleteMarker</Anchor>
+			<Anchor>//api/name/batchSize</Anchor>
             <NodeRef refid="788"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3DeletedObject/setDeleteMarkerVersionId:</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSLambdaUpdateEventSourceMappingRequest/setEnabled:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Specifies whether AWS Lambda should actively poll the stream or not. If disabled, AWS Lambda will not poll the stream.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSLambdaModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *deleteMarkerVersionId</Declaration>
+			<Declaration>@property (nonatomic, strong) NSNumber *enabled</Declaration>
 			
 			
-			<Anchor>//api/name/deleteMarkerVersionId</Anchor>
+			<Anchor>//api/name/enabled</Anchor>
             <NodeRef refid="788"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3DeletedObject/deleteMarkerVersionId</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSLambdaUpdateEventSourceMappingRequest/enabled</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Specifies whether AWS Lambda should actively poll the stream or not. If disabled, AWS Lambda will not poll the stream.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSLambdaModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *deleteMarkerVersionId</Declaration>
+			<Declaration>@property (nonatomic, strong) NSNumber *enabled</Declaration>
 			
 			
-			<Anchor>//api/name/deleteMarkerVersionId</Anchor>
+			<Anchor>//api/name/enabled</Anchor>
             <NodeRef refid="788"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSS3DeletedObject/deleteMarkerVersionId</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSLambdaUpdateEventSourceMappingRequest/enabled</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Specifies whether AWS Lambda should actively poll the stream or not. If disabled, AWS Lambda will not poll the stream.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSLambdaModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *deleteMarkerVersionId</Declaration>
+			<Declaration>@property (nonatomic, strong) NSNumber *enabled</Declaration>
 			
 			
-			<Anchor>//api/name/deleteMarkerVersionId</Anchor>
+			<Anchor>//api/name/enabled</Anchor>
             <NodeRef refid="788"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3DeletedObject/setKey:</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSLambdaUpdateEventSourceMappingRequest/setFunctionName:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The Lambda function to which you want the stream records sent.&lt;/p&gt;&lt;p&gt; You can specify an unqualified function name (for example, &quot;Thumbnail&quot;) or you can specify Amazon Resource Name (ARN) of the function (for example, &quot;arn:aws:lambda:us-west-2:account-id:function:ThumbNail&quot;). AWS Lambda also allows you to specify only the account ID qualifier (for example, &quot;account-id:Thumbnail&quot;). Note that the length constraint applies only to the ARN. If you specify only the function name, it is limited to 64 character in length. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSLambdaModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *key</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *functionName</Declaration>
 			
 			
-			<Anchor>//api/name/key</Anchor>
+			<Anchor>//api/name/functionName</Anchor>
             <NodeRef refid="788"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3DeletedObject/key</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSLambdaUpdateEventSourceMappingRequest/functionName</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The Lambda function to which you want the stream records sent.&lt;/p&gt;&lt;p&gt; You can specify an unqualified function name (for example, &quot;Thumbnail&quot;) or you can specify Amazon Resource Name (ARN) of the function (for example, &quot;arn:aws:lambda:us-west-2:account-id:function:ThumbNail&quot;). AWS Lambda also allows you to specify only the account ID qualifier (for example, &quot;account-id:Thumbnail&quot;). Note that the length constraint applies only to the ARN. If you specify only the function name, it is limited to 64 character in length. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSLambdaModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *key</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *functionName</Declaration>
 			
 			
-			<Anchor>//api/name/key</Anchor>
+			<Anchor>//api/name/functionName</Anchor>
             <NodeRef refid="788"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSS3DeletedObject/key</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSLambdaUpdateEventSourceMappingRequest/functionName</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The Lambda function to which you want the stream records sent.&lt;/p&gt;&lt;p&gt; You can specify an unqualified function name (for example, &quot;Thumbnail&quot;) or you can specify Amazon Resource Name (ARN) of the function (for example, &quot;arn:aws:lambda:us-west-2:account-id:function:ThumbNail&quot;). AWS Lambda also allows you to specify only the account ID qualifier (for example, &quot;account-id:Thumbnail&quot;). Note that the length constraint applies only to the ARN. If you specify only the function name, it is limited to 64 character in length. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSLambdaModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *key</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *functionName</Declaration>
 			
 			
-			<Anchor>//api/name/key</Anchor>
+			<Anchor>//api/name/functionName</Anchor>
             <NodeRef refid="788"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3DeletedObject/setVersionId:</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSLambdaUpdateEventSourceMappingRequest/setUUID:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The event source mapping identifier.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSLambdaModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *versionId</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *UUID</Declaration>
 			
 			
-			<Anchor>//api/name/versionId</Anchor>
+			<Anchor>//api/name/UUID</Anchor>
             <NodeRef refid="788"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3DeletedObject/versionId</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSLambdaUpdateEventSourceMappingRequest/UUID</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The event source mapping identifier.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSLambdaModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *versionId</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *UUID</Declaration>
 			
 			
-			<Anchor>//api/name/versionId</Anchor>
+			<Anchor>//api/name/UUID</Anchor>
             <NodeRef refid="788"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSS3DeletedObject/versionId</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSLambdaUpdateEventSourceMappingRequest/UUID</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The event source mapping identifier.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSLambdaModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *versionId</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *UUID</Declaration>
 			
 			
-			<Anchor>//api/name/versionId</Anchor>
+			<Anchor>//api/name/UUID</Anchor>
             <NodeRef refid="788"/>
 		</Token>
 		

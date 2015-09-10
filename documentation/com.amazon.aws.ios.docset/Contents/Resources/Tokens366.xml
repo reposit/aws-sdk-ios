@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSEC2DescribeBundleTasksResult.html">
+	<File path="Classes/AWSEC2DeleteVpnConnectionRouteRequest.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSEC2DescribeBundleTasksResult</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSEC2DeleteVpnConnectionRouteRequest</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
             
@@ -13,38 +13,74 @@
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DescribeBundleTasksResult/setBundleTasks:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Information about one or more bundle tasks.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DeleteVpnConnectionRouteRequest/setDestinationCidrBlock:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The CIDR block associated with the local subnet of the customer network.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSArray *bundleTasks</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *destinationCidrBlock</Declaration>
 			
 			
-			<Anchor>//api/name/bundleTasks</Anchor>
+			<Anchor>//api/name/destinationCidrBlock</Anchor>
             <NodeRef refid="366"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DescribeBundleTasksResult/bundleTasks</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Information about one or more bundle tasks.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DeleteVpnConnectionRouteRequest/destinationCidrBlock</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The CIDR block associated with the local subnet of the customer network.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSArray *bundleTasks</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *destinationCidrBlock</Declaration>
 			
 			
-			<Anchor>//api/name/bundleTasks</Anchor>
+			<Anchor>//api/name/destinationCidrBlock</Anchor>
             <NodeRef refid="366"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2DescribeBundleTasksResult/bundleTasks</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Information about one or more bundle tasks.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2DeleteVpnConnectionRouteRequest/destinationCidrBlock</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The CIDR block associated with the local subnet of the customer network.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSArray *bundleTasks</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *destinationCidrBlock</Declaration>
 			
 			
-			<Anchor>//api/name/bundleTasks</Anchor>
+			<Anchor>//api/name/destinationCidrBlock</Anchor>
+            <NodeRef refid="366"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DeleteVpnConnectionRouteRequest/setVpnConnectionId:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the VPN connection.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *vpnConnectionId</Declaration>
+			
+			
+			<Anchor>//api/name/vpnConnectionId</Anchor>
+            <NodeRef refid="366"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DeleteVpnConnectionRouteRequest/vpnConnectionId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the VPN connection.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *vpnConnectionId</Declaration>
+			
+			
+			<Anchor>//api/name/vpnConnectionId</Anchor>
+            <NodeRef refid="366"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2DeleteVpnConnectionRouteRequest/vpnConnectionId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the VPN connection.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *vpnConnectionId</Declaration>
+			
+			
+			<Anchor>//api/name/vpnConnectionId</Anchor>
             <NodeRef refid="366"/>
 		</Token>
 		

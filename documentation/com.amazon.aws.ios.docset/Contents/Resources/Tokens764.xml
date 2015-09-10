@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSS3ChunkedEncodingInputStream.html">
+	<File path="Classes/AWSLambdaDeleteEventSourceMappingRequest.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSS3ChunkedEncodingInputStream</TokenIdentifier>
-			<Abstract type="html">A subclass of NSInputStream that wraps an input stream and adds
-signature of chunk data.</Abstract>
-			<DeclaredIn>AWSSignature.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSLambdaDeleteEventSourceMappingRequest</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSLambdaModel.h</DeclaredIn>
             
 			
 			<NodeRef refid="764"/>
@@ -14,39 +13,38 @@ signature of chunk data.</Abstract>
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3ChunkedEncodingInputStream/initWithInputStream:date:scope:kSigning:headerSignature:</TokenIdentifier>
-			<Abstract type="html">Initialize the input stream with date, scope, signing key and signature
-of request headers.</Abstract>
-			<DeclaredIn>AWSSignature.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSLambdaDeleteEventSourceMappingRequest/setUUID:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The event source mapping ID.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSLambdaModel.h</DeclaredIn>
 			
-			<Declaration>- (instancetype)initWithInputStream:(NSInputStream *)stream date:(NSDate *)date scope:(NSString *)scope kSigning:(NSData *)kSigning headerSignature:(NSString *)headerSignature</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *UUID</Declaration>
 			
 			
-			<Anchor>//api/name/initWithInputStream:date:scope:kSigning:headerSignature:</Anchor>
+			<Anchor>//api/name/UUID</Anchor>
             <NodeRef refid="764"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/clm/AWSS3ChunkedEncodingInputStream/computeContentLengthForChunkedData:</TokenIdentifier>
-			<Abstract type="html">Computes new content length after data being chunked encoded.</Abstract>
-			<DeclaredIn>AWSSignature.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSLambdaDeleteEventSourceMappingRequest/UUID</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The event source mapping ID.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSLambdaModel.h</DeclaredIn>
 			
-			<Declaration>+ (NSUInteger)computeContentLengthForChunkedData:(NSUInteger)dataLength</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *UUID</Declaration>
 			
 			
-			<Anchor>//api/name/computeContentLengthForChunkedData:</Anchor>
+			<Anchor>//api/name/UUID</Anchor>
             <NodeRef refid="764"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/clm/AWSS3ChunkedEncodingInputStream/oneChunkedDataSize:</TokenIdentifier>
-			<Abstract type="html">Computes the size of one data chunk</Abstract>
-			<DeclaredIn>AWSSignature.m</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSLambdaDeleteEventSourceMappingRequest/UUID</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The event source mapping ID.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSLambdaModel.h</DeclaredIn>
 			
-			<Declaration>+ (NSUInteger)oneChunkedDataSize:(NSUInteger)dataLength</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *UUID</Declaration>
 			
 			
-			<Anchor>//api/name/oneChunkedDataSize:</Anchor>
+			<Anchor>//api/name/UUID</Anchor>
             <NodeRef refid="764"/>
 		</Token>
 		

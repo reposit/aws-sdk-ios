@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSS3GetBucketLifecycleRequest.html">
+	<File path="Classes/AWSMachineLearningPredictOutput.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSS3GetBucketLifecycleRequest</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSMachineLearningPredictOutput</TokenIdentifier>
 			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			<DeclaredIn>AWSMachineLearningModel.h</DeclaredIn>
             
 			
 			<NodeRef refid="796"/>
@@ -13,38 +13,38 @@
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3GetBucketLifecycleRequest/setBucket:</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSMachineLearningPredictOutput/setPrediction:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The output from a &lt;code&gt;Predict&lt;/code&gt; operation: &lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;Details&lt;/code&gt; - Contains the following attributes: DetailsAttributes.PREDICTIVEMODELTYPE - REGRESSION | BINARY | MULTICLASS DetailsAttributes.ALGORITHM - SGD &lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;PredictedLabel&lt;/code&gt; - Present for either a BINARY or MULTICLASS &lt;code&gt;MLModel&lt;/code&gt; request. &lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;PredictedScores&lt;/code&gt; - Contains the raw classification score corresponding to each label. &lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;PredictedValue&lt;/code&gt; - Present for a REGRESSION &lt;code&gt;MLModel&lt;/code&gt; request. &lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</Abstract>
+			<DeclaredIn>AWSMachineLearningModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *bucket</Declaration>
+			<Declaration>@property (nonatomic, strong) AWSMachineLearningPrediction *prediction</Declaration>
 			
 			
-			<Anchor>//api/name/bucket</Anchor>
+			<Anchor>//api/name/prediction</Anchor>
             <NodeRef refid="796"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3GetBucketLifecycleRequest/bucket</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSMachineLearningPredictOutput/prediction</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The output from a &lt;code&gt;Predict&lt;/code&gt; operation: &lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;Details&lt;/code&gt; - Contains the following attributes: DetailsAttributes.PREDICTIVEMODELTYPE - REGRESSION | BINARY | MULTICLASS DetailsAttributes.ALGORITHM - SGD &lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;PredictedLabel&lt;/code&gt; - Present for either a BINARY or MULTICLASS &lt;code&gt;MLModel&lt;/code&gt; request. &lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;PredictedScores&lt;/code&gt; - Contains the raw classification score corresponding to each label. &lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;PredictedValue&lt;/code&gt; - Present for a REGRESSION &lt;code&gt;MLModel&lt;/code&gt; request. &lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</Abstract>
+			<DeclaredIn>AWSMachineLearningModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *bucket</Declaration>
+			<Declaration>@property (nonatomic, strong) AWSMachineLearningPrediction *prediction</Declaration>
 			
 			
-			<Anchor>//api/name/bucket</Anchor>
+			<Anchor>//api/name/prediction</Anchor>
             <NodeRef refid="796"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSS3GetBucketLifecycleRequest/bucket</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSMachineLearningPredictOutput/prediction</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The output from a &lt;code&gt;Predict&lt;/code&gt; operation: &lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;Details&lt;/code&gt; - Contains the following attributes: DetailsAttributes.PREDICTIVEMODELTYPE - REGRESSION | BINARY | MULTICLASS DetailsAttributes.ALGORITHM - SGD &lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;PredictedLabel&lt;/code&gt; - Present for either a BINARY or MULTICLASS &lt;code&gt;MLModel&lt;/code&gt; request. &lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;PredictedScores&lt;/code&gt; - Contains the raw classification score corresponding to each label. &lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;PredictedValue&lt;/code&gt; - Present for a REGRESSION &lt;code&gt;MLModel&lt;/code&gt; request. &lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</Abstract>
+			<DeclaredIn>AWSMachineLearningModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *bucket</Declaration>
+			<Declaration>@property (nonatomic, strong) AWSMachineLearningPrediction *prediction</Declaration>
 			
 			
-			<Anchor>//api/name/bucket</Anchor>
+			<Anchor>//api/name/prediction</Anchor>
             <NodeRef refid="796"/>
 		</Token>
 		

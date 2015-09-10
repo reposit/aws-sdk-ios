@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSElasticLoadBalancingSetLoadBalancerPoliciesOfListenerInput.html">
+	<File path="Classes/AWSElasticLoadBalancingLoadBalancerAttributes.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSElasticLoadBalancingSetLoadBalancerPoliciesOfListenerInput</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSElasticLoadBalancingLoadBalancerAttributes</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSElasticLoadBalancingModel.h</DeclaredIn>
             
@@ -13,110 +13,146 @@
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSElasticLoadBalancingSetLoadBalancerPoliciesOfListenerInput/setLoadBalancerName:</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSElasticLoadBalancingLoadBalancerAttributes/setAccessLog:</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSElasticLoadBalancingModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *loadBalancerName</Declaration>
+			<Declaration>@property (nonatomic, strong) AWSElasticLoadBalancingAccessLog *accessLog</Declaration>
 			
 			
-			<Anchor>//api/name/loadBalancerName</Anchor>
+			<Anchor>//api/name/accessLog</Anchor>
             <NodeRef refid="702"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSElasticLoadBalancingSetLoadBalancerPoliciesOfListenerInput/loadBalancerName</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSElasticLoadBalancingLoadBalancerAttributes/accessLog</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSElasticLoadBalancingModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *loadBalancerName</Declaration>
+			<Declaration>@property (nonatomic, strong) AWSElasticLoadBalancingAccessLog *accessLog</Declaration>
 			
 			
-			<Anchor>//api/name/loadBalancerName</Anchor>
+			<Anchor>//api/name/accessLog</Anchor>
             <NodeRef refid="702"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSElasticLoadBalancingSetLoadBalancerPoliciesOfListenerInput/loadBalancerName</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSElasticLoadBalancingLoadBalancerAttributes/accessLog</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSElasticLoadBalancingModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *loadBalancerName</Declaration>
+			<Declaration>@property (nonatomic, strong) AWSElasticLoadBalancingAccessLog *accessLog</Declaration>
 			
 			
-			<Anchor>//api/name/loadBalancerName</Anchor>
+			<Anchor>//api/name/accessLog</Anchor>
             <NodeRef refid="702"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSElasticLoadBalancingSetLoadBalancerPoliciesOfListenerInput/setLoadBalancerPort:</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSElasticLoadBalancingLoadBalancerAttributes/setConnectionDraining:</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSElasticLoadBalancingModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSNumber *loadBalancerPort</Declaration>
+			<Declaration>@property (nonatomic, strong) AWSElasticLoadBalancingConnectionDraining *connectionDraining</Declaration>
 			
 			
-			<Anchor>//api/name/loadBalancerPort</Anchor>
+			<Anchor>//api/name/connectionDraining</Anchor>
             <NodeRef refid="702"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSElasticLoadBalancingSetLoadBalancerPoliciesOfListenerInput/loadBalancerPort</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSElasticLoadBalancingLoadBalancerAttributes/connectionDraining</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSElasticLoadBalancingModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSNumber *loadBalancerPort</Declaration>
+			<Declaration>@property (nonatomic, strong) AWSElasticLoadBalancingConnectionDraining *connectionDraining</Declaration>
 			
 			
-			<Anchor>//api/name/loadBalancerPort</Anchor>
+			<Anchor>//api/name/connectionDraining</Anchor>
             <NodeRef refid="702"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSElasticLoadBalancingSetLoadBalancerPoliciesOfListenerInput/loadBalancerPort</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSElasticLoadBalancingLoadBalancerAttributes/connectionDraining</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSElasticLoadBalancingModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSNumber *loadBalancerPort</Declaration>
+			<Declaration>@property (nonatomic, strong) AWSElasticLoadBalancingConnectionDraining *connectionDraining</Declaration>
 			
 			
-			<Anchor>//api/name/loadBalancerPort</Anchor>
+			<Anchor>//api/name/connectionDraining</Anchor>
             <NodeRef refid="702"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSElasticLoadBalancingSetLoadBalancerPoliciesOfListenerInput/setPolicyNames:</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSElasticLoadBalancingLoadBalancerAttributes/setConnectionSettings:</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSElasticLoadBalancingModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSArray *policyNames</Declaration>
+			<Declaration>@property (nonatomic, strong) AWSElasticLoadBalancingConnectionSettings *connectionSettings</Declaration>
 			
 			
-			<Anchor>//api/name/policyNames</Anchor>
+			<Anchor>//api/name/connectionSettings</Anchor>
             <NodeRef refid="702"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSElasticLoadBalancingSetLoadBalancerPoliciesOfListenerInput/policyNames</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSElasticLoadBalancingLoadBalancerAttributes/connectionSettings</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSElasticLoadBalancingModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSArray *policyNames</Declaration>
+			<Declaration>@property (nonatomic, strong) AWSElasticLoadBalancingConnectionSettings *connectionSettings</Declaration>
 			
 			
-			<Anchor>//api/name/policyNames</Anchor>
+			<Anchor>//api/name/connectionSettings</Anchor>
             <NodeRef refid="702"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSElasticLoadBalancingSetLoadBalancerPoliciesOfListenerInput/policyNames</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSElasticLoadBalancingLoadBalancerAttributes/connectionSettings</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSElasticLoadBalancingModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSArray *policyNames</Declaration>
+			<Declaration>@property (nonatomic, strong) AWSElasticLoadBalancingConnectionSettings *connectionSettings</Declaration>
 			
 			
-			<Anchor>//api/name/policyNames</Anchor>
+			<Anchor>//api/name/connectionSettings</Anchor>
+            <NodeRef refid="702"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSElasticLoadBalancingLoadBalancerAttributes/setCrossZoneLoadBalancing:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSElasticLoadBalancingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) AWSElasticLoadBalancingCrossZoneLoadBalancing *crossZoneLoadBalancing</Declaration>
+			
+			
+			<Anchor>//api/name/crossZoneLoadBalancing</Anchor>
+            <NodeRef refid="702"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSElasticLoadBalancingLoadBalancerAttributes/crossZoneLoadBalancing</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSElasticLoadBalancingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) AWSElasticLoadBalancingCrossZoneLoadBalancing *crossZoneLoadBalancing</Declaration>
+			
+			
+			<Anchor>//api/name/crossZoneLoadBalancing</Anchor>
+            <NodeRef refid="702"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSElasticLoadBalancingLoadBalancerAttributes/crossZoneLoadBalancing</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSElasticLoadBalancingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) AWSElasticLoadBalancingCrossZoneLoadBalancing *crossZoneLoadBalancing</Declaration>
+			
+			
+			<Anchor>//api/name/crossZoneLoadBalancing</Anchor>
             <NodeRef refid="702"/>
 		</Token>
 		

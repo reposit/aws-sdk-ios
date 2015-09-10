@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSElasticLoadBalancingDescribeAccessPointsOutput.html">
+	<File path="Classes/AWSElasticLoadBalancingConnectionSettings.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSElasticLoadBalancingDescribeAccessPointsOutput</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSElasticLoadBalancingConnectionSettings</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSElasticLoadBalancingModel.h</DeclaredIn>
             
@@ -13,74 +13,38 @@
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSElasticLoadBalancingDescribeAccessPointsOutput/setLoadBalancerDescriptions:</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSElasticLoadBalancingConnectionSettings/setIdleTimeout:</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSElasticLoadBalancingModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSArray *loadBalancerDescriptions</Declaration>
+			<Declaration>@property (nonatomic, strong) NSNumber *idleTimeout</Declaration>
 			
 			
-			<Anchor>//api/name/loadBalancerDescriptions</Anchor>
+			<Anchor>//api/name/idleTimeout</Anchor>
             <NodeRef refid="662"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSElasticLoadBalancingDescribeAccessPointsOutput/loadBalancerDescriptions</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSElasticLoadBalancingConnectionSettings/idleTimeout</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSElasticLoadBalancingModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSArray *loadBalancerDescriptions</Declaration>
+			<Declaration>@property (nonatomic, strong) NSNumber *idleTimeout</Declaration>
 			
 			
-			<Anchor>//api/name/loadBalancerDescriptions</Anchor>
+			<Anchor>//api/name/idleTimeout</Anchor>
             <NodeRef refid="662"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSElasticLoadBalancingDescribeAccessPointsOutput/loadBalancerDescriptions</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSElasticLoadBalancingConnectionSettings/idleTimeout</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSElasticLoadBalancingModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSArray *loadBalancerDescriptions</Declaration>
+			<Declaration>@property (nonatomic, strong) NSNumber *idleTimeout</Declaration>
 			
 			
-			<Anchor>//api/name/loadBalancerDescriptions</Anchor>
-            <NodeRef refid="662"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSElasticLoadBalancingDescribeAccessPointsOutput/setNextMarker:</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSElasticLoadBalancingModel.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *nextMarker</Declaration>
-			
-			
-			<Anchor>//api/name/nextMarker</Anchor>
-            <NodeRef refid="662"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSElasticLoadBalancingDescribeAccessPointsOutput/nextMarker</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSElasticLoadBalancingModel.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *nextMarker</Declaration>
-			
-			
-			<Anchor>//api/name/nextMarker</Anchor>
-            <NodeRef refid="662"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSElasticLoadBalancingDescribeAccessPointsOutput/nextMarker</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSElasticLoadBalancingModel.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *nextMarker</Declaration>
-			
-			
-			<Anchor>//api/name/nextMarker</Anchor>
+			<Anchor>//api/name/idleTimeout</Anchor>
             <NodeRef refid="662"/>
 		</Token>
 		

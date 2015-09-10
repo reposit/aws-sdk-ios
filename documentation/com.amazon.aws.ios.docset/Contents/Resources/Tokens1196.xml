@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Constants/AWSS3BucketVersioningStatus.html">
+	<File path="Constants/AWSEC2RIProductDescription.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/c/tdef/AWSS3BucketVersioningStatus</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/c/tdef/AWSEC2RIProductDescription</TokenIdentifier>
 			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
             
 			
 			<NodeRef refid="1196"/>
@@ -14,31 +14,51 @@
 		
         
         <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSS3BucketVersioningStatusUnknown</TokenIdentifier>
+            <TokenIdentifier>//apple_ref/c/econst/AWSEC2RIProductDescriptionUnknown</TokenIdentifier>
             <Abstract type="html"></Abstract>
-            <Declaration>AWSS3BucketVersioningStatusUnknown</Declaration>
+            <Declaration>AWSEC2RIProductDescriptionUnknown</Declaration>
             
-            <DeclaredIn>AWSS3Model.h</DeclaredIn>
+            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
             
             <NodeRef refid="1196"/>
         </Token>
         
         <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSS3BucketVersioningStatusEnabled</TokenIdentifier>
+            <TokenIdentifier>//apple_ref/c/econst/AWSEC2RIProductDescriptionLinuxUNIX</TokenIdentifier>
             <Abstract type="html"></Abstract>
-            <Declaration>AWSS3BucketVersioningStatusEnabled</Declaration>
+            <Declaration>AWSEC2RIProductDescriptionLinuxUNIX</Declaration>
             
-            <DeclaredIn>AWSS3Model.h</DeclaredIn>
+            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
             
             <NodeRef refid="1196"/>
         </Token>
         
         <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSS3BucketVersioningStatusSuspended</TokenIdentifier>
+            <TokenIdentifier>//apple_ref/c/econst/AWSEC2RIProductDescriptionLinuxUNIXAmazonVPC</TokenIdentifier>
             <Abstract type="html"></Abstract>
-            <Declaration>AWSS3BucketVersioningStatusSuspended</Declaration>
+            <Declaration>AWSEC2RIProductDescriptionLinuxUNIXAmazonVPC</Declaration>
             
-            <DeclaredIn>AWSS3Model.h</DeclaredIn>
+            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
+            
+            <NodeRef refid="1196"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/AWSEC2RIProductDescriptionWindows</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>AWSEC2RIProductDescriptionWindows</Declaration>
+            
+            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
+            
+            <NodeRef refid="1196"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/AWSEC2RIProductDescriptionWindowsAmazonVPC</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>AWSEC2RIProductDescriptionWindowsAmazonVPC</Declaration>
+            
+            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
             
             <NodeRef refid="1196"/>
         </Token>

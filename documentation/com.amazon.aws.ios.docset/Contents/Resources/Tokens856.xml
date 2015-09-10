@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSS3PutBucketTaggingRequest.html">
+	<File path="Classes/AWSS3GetBucketRequestPaymentOutput.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSS3PutBucketTaggingRequest</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSS3GetBucketRequestPaymentOutput</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSS3Model.h</DeclaredIn>
             
@@ -13,110 +13,38 @@
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3PutBucketTaggingRequest/setBucket:</TokenIdentifier>
-			<Abstract type="html"></Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3GetBucketRequestPaymentOutput/setPayer:</TokenIdentifier>
+			<Abstract type="html">Specifies who pays for the download and request fees.</Abstract>
 			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *bucket</Declaration>
+			<Declaration>@property (nonatomic, assign) AWSS3Payer payer</Declaration>
 			
 			
-			<Anchor>//api/name/bucket</Anchor>
+			<Anchor>//api/name/payer</Anchor>
             <NodeRef refid="856"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3PutBucketTaggingRequest/bucket</TokenIdentifier>
-			<Abstract type="html"></Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3GetBucketRequestPaymentOutput/payer</TokenIdentifier>
+			<Abstract type="html">Specifies who pays for the download and request fees.</Abstract>
 			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *bucket</Declaration>
+			<Declaration>@property (nonatomic, assign) AWSS3Payer payer</Declaration>
 			
 			
-			<Anchor>//api/name/bucket</Anchor>
+			<Anchor>//api/name/payer</Anchor>
             <NodeRef refid="856"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSS3PutBucketTaggingRequest/bucket</TokenIdentifier>
-			<Abstract type="html"></Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSS3GetBucketRequestPaymentOutput/payer</TokenIdentifier>
+			<Abstract type="html">Specifies who pays for the download and request fees.</Abstract>
 			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *bucket</Declaration>
+			<Declaration>@property (nonatomic, assign) AWSS3Payer payer</Declaration>
 			
 			
-			<Anchor>//api/name/bucket</Anchor>
-            <NodeRef refid="856"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3PutBucketTaggingRequest/setContentMD5:</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *contentMD5</Declaration>
-			
-			
-			<Anchor>//api/name/contentMD5</Anchor>
-            <NodeRef refid="856"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3PutBucketTaggingRequest/contentMD5</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *contentMD5</Declaration>
-			
-			
-			<Anchor>//api/name/contentMD5</Anchor>
-            <NodeRef refid="856"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSS3PutBucketTaggingRequest/contentMD5</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *contentMD5</Declaration>
-			
-			
-			<Anchor>//api/name/contentMD5</Anchor>
-            <NodeRef refid="856"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3PutBucketTaggingRequest/setTagging:</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) AWSS3Tagging *tagging</Declaration>
-			
-			
-			<Anchor>//api/name/tagging</Anchor>
-            <NodeRef refid="856"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3PutBucketTaggingRequest/tagging</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) AWSS3Tagging *tagging</Declaration>
-			
-			
-			<Anchor>//api/name/tagging</Anchor>
-            <NodeRef refid="856"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSS3PutBucketTaggingRequest/tagging</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) AWSS3Tagging *tagging</Declaration>
-			
-			
-			<Anchor>//api/name/tagging</Anchor>
+			<Anchor>//api/name/payer</Anchor>
             <NodeRef refid="856"/>
 		</Token>
 		

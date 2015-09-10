@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Constants/AWSEC2ImageTypeValues.html">
+	<File path="Constants/AWSCloudWatchStandardUnit.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/c/tdef/AWSEC2ImageTypeValues</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/c/tdef/AWSCloudWatchStandardUnit</TokenIdentifier>
 			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			<DeclaredIn>AWSCloudWatchModel.h</DeclaredIn>
             
 			
 			<NodeRef refid="1129"/>
@@ -14,41 +14,281 @@
 		
         
         <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSEC2ImageTypeValuesUnknown</TokenIdentifier>
+            <TokenIdentifier>//apple_ref/c/econst/AWSCloudWatchStandardUnitUnknown</TokenIdentifier>
             <Abstract type="html"></Abstract>
-            <Declaration>AWSEC2ImageTypeValuesUnknown</Declaration>
+            <Declaration>AWSCloudWatchStandardUnitUnknown</Declaration>
             
-            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
+            <DeclaredIn>AWSCloudWatchModel.h</DeclaredIn>
             
             <NodeRef refid="1129"/>
         </Token>
         
         <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSEC2ImageTypeValuesMachine</TokenIdentifier>
+            <TokenIdentifier>//apple_ref/c/econst/AWSCloudWatchStandardUnitSeconds</TokenIdentifier>
             <Abstract type="html"></Abstract>
-            <Declaration>AWSEC2ImageTypeValuesMachine</Declaration>
+            <Declaration>AWSCloudWatchStandardUnitSeconds</Declaration>
             
-            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
+            <DeclaredIn>AWSCloudWatchModel.h</DeclaredIn>
             
             <NodeRef refid="1129"/>
         </Token>
         
         <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSEC2ImageTypeValuesKernel</TokenIdentifier>
+            <TokenIdentifier>//apple_ref/c/econst/AWSCloudWatchStandardUnitMicroseconds</TokenIdentifier>
             <Abstract type="html"></Abstract>
-            <Declaration>AWSEC2ImageTypeValuesKernel</Declaration>
+            <Declaration>AWSCloudWatchStandardUnitMicroseconds</Declaration>
             
-            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
+            <DeclaredIn>AWSCloudWatchModel.h</DeclaredIn>
             
             <NodeRef refid="1129"/>
         </Token>
         
         <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSEC2ImageTypeValuesRAMDisk</TokenIdentifier>
+            <TokenIdentifier>//apple_ref/c/econst/AWSCloudWatchStandardUnitMilliseconds</TokenIdentifier>
             <Abstract type="html"></Abstract>
-            <Declaration>AWSEC2ImageTypeValuesRAMDisk</Declaration>
+            <Declaration>AWSCloudWatchStandardUnitMilliseconds</Declaration>
             
-            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
+            <DeclaredIn>AWSCloudWatchModel.h</DeclaredIn>
+            
+            <NodeRef refid="1129"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/AWSCloudWatchStandardUnitBytes</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>AWSCloudWatchStandardUnitBytes</Declaration>
+            
+            <DeclaredIn>AWSCloudWatchModel.h</DeclaredIn>
+            
+            <NodeRef refid="1129"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/AWSCloudWatchStandardUnitKilobytes</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>AWSCloudWatchStandardUnitKilobytes</Declaration>
+            
+            <DeclaredIn>AWSCloudWatchModel.h</DeclaredIn>
+            
+            <NodeRef refid="1129"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/AWSCloudWatchStandardUnitMegabytes</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>AWSCloudWatchStandardUnitMegabytes</Declaration>
+            
+            <DeclaredIn>AWSCloudWatchModel.h</DeclaredIn>
+            
+            <NodeRef refid="1129"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/AWSCloudWatchStandardUnitGigabytes</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>AWSCloudWatchStandardUnitGigabytes</Declaration>
+            
+            <DeclaredIn>AWSCloudWatchModel.h</DeclaredIn>
+            
+            <NodeRef refid="1129"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/AWSCloudWatchStandardUnitTerabytes</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>AWSCloudWatchStandardUnitTerabytes</Declaration>
+            
+            <DeclaredIn>AWSCloudWatchModel.h</DeclaredIn>
+            
+            <NodeRef refid="1129"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/AWSCloudWatchStandardUnitBits</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>AWSCloudWatchStandardUnitBits</Declaration>
+            
+            <DeclaredIn>AWSCloudWatchModel.h</DeclaredIn>
+            
+            <NodeRef refid="1129"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/AWSCloudWatchStandardUnitKilobits</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>AWSCloudWatchStandardUnitKilobits</Declaration>
+            
+            <DeclaredIn>AWSCloudWatchModel.h</DeclaredIn>
+            
+            <NodeRef refid="1129"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/AWSCloudWatchStandardUnitMegabits</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>AWSCloudWatchStandardUnitMegabits</Declaration>
+            
+            <DeclaredIn>AWSCloudWatchModel.h</DeclaredIn>
+            
+            <NodeRef refid="1129"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/AWSCloudWatchStandardUnitGigabits</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>AWSCloudWatchStandardUnitGigabits</Declaration>
+            
+            <DeclaredIn>AWSCloudWatchModel.h</DeclaredIn>
+            
+            <NodeRef refid="1129"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/AWSCloudWatchStandardUnitTerabits</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>AWSCloudWatchStandardUnitTerabits</Declaration>
+            
+            <DeclaredIn>AWSCloudWatchModel.h</DeclaredIn>
+            
+            <NodeRef refid="1129"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/AWSCloudWatchStandardUnitPercent</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>AWSCloudWatchStandardUnitPercent</Declaration>
+            
+            <DeclaredIn>AWSCloudWatchModel.h</DeclaredIn>
+            
+            <NodeRef refid="1129"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/AWSCloudWatchStandardUnitCount</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>AWSCloudWatchStandardUnitCount</Declaration>
+            
+            <DeclaredIn>AWSCloudWatchModel.h</DeclaredIn>
+            
+            <NodeRef refid="1129"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/AWSCloudWatchStandardUnitBytesSecond</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>AWSCloudWatchStandardUnitBytesSecond</Declaration>
+            
+            <DeclaredIn>AWSCloudWatchModel.h</DeclaredIn>
+            
+            <NodeRef refid="1129"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/AWSCloudWatchStandardUnitKilobytesSecond</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>AWSCloudWatchStandardUnitKilobytesSecond</Declaration>
+            
+            <DeclaredIn>AWSCloudWatchModel.h</DeclaredIn>
+            
+            <NodeRef refid="1129"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/AWSCloudWatchStandardUnitMegabytesSecond</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>AWSCloudWatchStandardUnitMegabytesSecond</Declaration>
+            
+            <DeclaredIn>AWSCloudWatchModel.h</DeclaredIn>
+            
+            <NodeRef refid="1129"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/AWSCloudWatchStandardUnitGigabytesSecond</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>AWSCloudWatchStandardUnitGigabytesSecond</Declaration>
+            
+            <DeclaredIn>AWSCloudWatchModel.h</DeclaredIn>
+            
+            <NodeRef refid="1129"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/AWSCloudWatchStandardUnitTerabytesSecond</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>AWSCloudWatchStandardUnitTerabytesSecond</Declaration>
+            
+            <DeclaredIn>AWSCloudWatchModel.h</DeclaredIn>
+            
+            <NodeRef refid="1129"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/AWSCloudWatchStandardUnitBitsSecond</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>AWSCloudWatchStandardUnitBitsSecond</Declaration>
+            
+            <DeclaredIn>AWSCloudWatchModel.h</DeclaredIn>
+            
+            <NodeRef refid="1129"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/AWSCloudWatchStandardUnitKilobitsSecond</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>AWSCloudWatchStandardUnitKilobitsSecond</Declaration>
+            
+            <DeclaredIn>AWSCloudWatchModel.h</DeclaredIn>
+            
+            <NodeRef refid="1129"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/AWSCloudWatchStandardUnitMegabitsSecond</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>AWSCloudWatchStandardUnitMegabitsSecond</Declaration>
+            
+            <DeclaredIn>AWSCloudWatchModel.h</DeclaredIn>
+            
+            <NodeRef refid="1129"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/AWSCloudWatchStandardUnitGigabitsSecond</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>AWSCloudWatchStandardUnitGigabitsSecond</Declaration>
+            
+            <DeclaredIn>AWSCloudWatchModel.h</DeclaredIn>
+            
+            <NodeRef refid="1129"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/AWSCloudWatchStandardUnitTerabitsSecond</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>AWSCloudWatchStandardUnitTerabitsSecond</Declaration>
+            
+            <DeclaredIn>AWSCloudWatchModel.h</DeclaredIn>
+            
+            <NodeRef refid="1129"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/AWSCloudWatchStandardUnitCountSecond</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>AWSCloudWatchStandardUnitCountSecond</Declaration>
+            
+            <DeclaredIn>AWSCloudWatchModel.h</DeclaredIn>
+            
+            <NodeRef refid="1129"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/AWSCloudWatchStandardUnitNone</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>AWSCloudWatchStandardUnitNone</Declaration>
+            
+            <DeclaredIn>AWSCloudWatchModel.h</DeclaredIn>
             
             <NodeRef refid="1129"/>
         </Token>

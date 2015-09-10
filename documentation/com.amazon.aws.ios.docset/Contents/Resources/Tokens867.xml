@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSS3ReplicateObjectRequest.html">
+	<File path="Classes/AWSS3GetObjectRequest.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSS3ReplicateObjectRequest</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSS3GetObjectRequest</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSS3Model.h</DeclaredIn>
             
@@ -13,43 +13,7 @@
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3ReplicateObjectRequest/setACL:</TokenIdentifier>
-			<Abstract type="html">The canned ACL to apply to the object.</Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, assign) AWSS3ObjectCannedACL ACL</Declaration>
-			
-			
-			<Anchor>//api/name/ACL</Anchor>
-            <NodeRef refid="867"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3ReplicateObjectRequest/ACL</TokenIdentifier>
-			<Abstract type="html">The canned ACL to apply to the object.</Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, assign) AWSS3ObjectCannedACL ACL</Declaration>
-			
-			
-			<Anchor>//api/name/ACL</Anchor>
-            <NodeRef refid="867"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSS3ReplicateObjectRequest/ACL</TokenIdentifier>
-			<Abstract type="html">The canned ACL to apply to the object.</Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, assign) AWSS3ObjectCannedACL ACL</Declaration>
-			
-			
-			<Anchor>//api/name/ACL</Anchor>
-            <NodeRef refid="867"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3ReplicateObjectRequest/setBucket:</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3GetObjectRequest/setBucket:</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
@@ -61,7 +25,7 @@
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3ReplicateObjectRequest/bucket</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3GetObjectRequest/bucket</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
@@ -73,7 +37,7 @@
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSS3ReplicateObjectRequest/bucket</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSS3GetObjectRequest/bucket</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
@@ -85,367 +49,151 @@
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3ReplicateObjectRequest/setCacheControl:</TokenIdentifier>
-			<Abstract type="html">Specifies caching behavior along the request/reply chain.</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3GetObjectRequest/setIfMatch:</TokenIdentifier>
+			<Abstract type="html">Return the object only if its entity tag (ETag) is the same as the one specified, otherwise return a 412 (precondition failed).</Abstract>
 			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *cacheControl</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *ifMatch</Declaration>
 			
 			
-			<Anchor>//api/name/cacheControl</Anchor>
+			<Anchor>//api/name/ifMatch</Anchor>
             <NodeRef refid="867"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3ReplicateObjectRequest/cacheControl</TokenIdentifier>
-			<Abstract type="html">Specifies caching behavior along the request/reply chain.</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3GetObjectRequest/ifMatch</TokenIdentifier>
+			<Abstract type="html">Return the object only if its entity tag (ETag) is the same as the one specified, otherwise return a 412 (precondition failed).</Abstract>
 			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *cacheControl</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *ifMatch</Declaration>
 			
 			
-			<Anchor>//api/name/cacheControl</Anchor>
+			<Anchor>//api/name/ifMatch</Anchor>
             <NodeRef refid="867"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSS3ReplicateObjectRequest/cacheControl</TokenIdentifier>
-			<Abstract type="html">Specifies caching behavior along the request/reply chain.</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSS3GetObjectRequest/ifMatch</TokenIdentifier>
+			<Abstract type="html">Return the object only if its entity tag (ETag) is the same as the one specified, otherwise return a 412 (precondition failed).</Abstract>
 			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *cacheControl</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *ifMatch</Declaration>
 			
 			
-			<Anchor>//api/name/cacheControl</Anchor>
+			<Anchor>//api/name/ifMatch</Anchor>
             <NodeRef refid="867"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3ReplicateObjectRequest/setContentDisposition:</TokenIdentifier>
-			<Abstract type="html">Specifies presentational information for the object.</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3GetObjectRequest/setIfModifiedSince:</TokenIdentifier>
+			<Abstract type="html">Return the object only if it has been modified since the specified time, otherwise return a 304 (not modified).</Abstract>
 			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *contentDisposition</Declaration>
+			<Declaration>@property (nonatomic, strong) NSDate *ifModifiedSince</Declaration>
 			
 			
-			<Anchor>//api/name/contentDisposition</Anchor>
+			<Anchor>//api/name/ifModifiedSince</Anchor>
             <NodeRef refid="867"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3ReplicateObjectRequest/contentDisposition</TokenIdentifier>
-			<Abstract type="html">Specifies presentational information for the object.</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3GetObjectRequest/ifModifiedSince</TokenIdentifier>
+			<Abstract type="html">Return the object only if it has been modified since the specified time, otherwise return a 304 (not modified).</Abstract>
 			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *contentDisposition</Declaration>
+			<Declaration>@property (nonatomic, strong) NSDate *ifModifiedSince</Declaration>
 			
 			
-			<Anchor>//api/name/contentDisposition</Anchor>
+			<Anchor>//api/name/ifModifiedSince</Anchor>
             <NodeRef refid="867"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSS3ReplicateObjectRequest/contentDisposition</TokenIdentifier>
-			<Abstract type="html">Specifies presentational information for the object.</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSS3GetObjectRequest/ifModifiedSince</TokenIdentifier>
+			<Abstract type="html">Return the object only if it has been modified since the specified time, otherwise return a 304 (not modified).</Abstract>
 			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *contentDisposition</Declaration>
+			<Declaration>@property (nonatomic, strong) NSDate *ifModifiedSince</Declaration>
 			
 			
-			<Anchor>//api/name/contentDisposition</Anchor>
+			<Anchor>//api/name/ifModifiedSince</Anchor>
             <NodeRef refid="867"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3ReplicateObjectRequest/setContentEncoding:</TokenIdentifier>
-			<Abstract type="html">Specifies what content encodings have been applied to the object and thus what decoding mechanisms must be applied to obtain the media-type referenced by the Content-Type header field.</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3GetObjectRequest/setIfNoneMatch:</TokenIdentifier>
+			<Abstract type="html">Return the object only if its entity tag (ETag) is different from the one specified, otherwise return a 304 (not modified).</Abstract>
 			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *contentEncoding</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *ifNoneMatch</Declaration>
 			
 			
-			<Anchor>//api/name/contentEncoding</Anchor>
+			<Anchor>//api/name/ifNoneMatch</Anchor>
             <NodeRef refid="867"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3ReplicateObjectRequest/contentEncoding</TokenIdentifier>
-			<Abstract type="html">Specifies what content encodings have been applied to the object and thus what decoding mechanisms must be applied to obtain the media-type referenced by the Content-Type header field.</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3GetObjectRequest/ifNoneMatch</TokenIdentifier>
+			<Abstract type="html">Return the object only if its entity tag (ETag) is different from the one specified, otherwise return a 304 (not modified).</Abstract>
 			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *contentEncoding</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *ifNoneMatch</Declaration>
 			
 			
-			<Anchor>//api/name/contentEncoding</Anchor>
+			<Anchor>//api/name/ifNoneMatch</Anchor>
             <NodeRef refid="867"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSS3ReplicateObjectRequest/contentEncoding</TokenIdentifier>
-			<Abstract type="html">Specifies what content encodings have been applied to the object and thus what decoding mechanisms must be applied to obtain the media-type referenced by the Content-Type header field.</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSS3GetObjectRequest/ifNoneMatch</TokenIdentifier>
+			<Abstract type="html">Return the object only if its entity tag (ETag) is different from the one specified, otherwise return a 304 (not modified).</Abstract>
 			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *contentEncoding</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *ifNoneMatch</Declaration>
 			
 			
-			<Anchor>//api/name/contentEncoding</Anchor>
+			<Anchor>//api/name/ifNoneMatch</Anchor>
             <NodeRef refid="867"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3ReplicateObjectRequest/setContentLanguage:</TokenIdentifier>
-			<Abstract type="html">The language the content is in.</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3GetObjectRequest/setIfUnmodifiedSince:</TokenIdentifier>
+			<Abstract type="html">Return the object only if it has not been modified since the specified time, otherwise return a 412 (precondition failed).</Abstract>
 			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *contentLanguage</Declaration>
+			<Declaration>@property (nonatomic, strong) NSDate *ifUnmodifiedSince</Declaration>
 			
 			
-			<Anchor>//api/name/contentLanguage</Anchor>
+			<Anchor>//api/name/ifUnmodifiedSince</Anchor>
             <NodeRef refid="867"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3ReplicateObjectRequest/contentLanguage</TokenIdentifier>
-			<Abstract type="html">The language the content is in.</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3GetObjectRequest/ifUnmodifiedSince</TokenIdentifier>
+			<Abstract type="html">Return the object only if it has not been modified since the specified time, otherwise return a 412 (precondition failed).</Abstract>
 			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *contentLanguage</Declaration>
+			<Declaration>@property (nonatomic, strong) NSDate *ifUnmodifiedSince</Declaration>
 			
 			
-			<Anchor>//api/name/contentLanguage</Anchor>
+			<Anchor>//api/name/ifUnmodifiedSince</Anchor>
             <NodeRef refid="867"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSS3ReplicateObjectRequest/contentLanguage</TokenIdentifier>
-			<Abstract type="html">The language the content is in.</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSS3GetObjectRequest/ifUnmodifiedSince</TokenIdentifier>
+			<Abstract type="html">Return the object only if it has not been modified since the specified time, otherwise return a 412 (precondition failed).</Abstract>
 			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *contentLanguage</Declaration>
+			<Declaration>@property (nonatomic, strong) NSDate *ifUnmodifiedSince</Declaration>
 			
 			
-			<Anchor>//api/name/contentLanguage</Anchor>
+			<Anchor>//api/name/ifUnmodifiedSince</Anchor>
             <NodeRef refid="867"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3ReplicateObjectRequest/setContentType:</TokenIdentifier>
-			<Abstract type="html">A standard MIME type describing the format of the object data.</Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *contentType</Declaration>
-			
-			
-			<Anchor>//api/name/contentType</Anchor>
-            <NodeRef refid="867"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3ReplicateObjectRequest/contentType</TokenIdentifier>
-			<Abstract type="html">A standard MIME type describing the format of the object data.</Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *contentType</Declaration>
-			
-			
-			<Anchor>//api/name/contentType</Anchor>
-            <NodeRef refid="867"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSS3ReplicateObjectRequest/contentType</TokenIdentifier>
-			<Abstract type="html">A standard MIME type describing the format of the object data.</Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *contentType</Declaration>
-			
-			
-			<Anchor>//api/name/contentType</Anchor>
-            <NodeRef refid="867"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3ReplicateObjectRequest/setExpires:</TokenIdentifier>
-			<Abstract type="html">The date and time at which the object is no longer cacheable.</Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSDate *expires</Declaration>
-			
-			
-			<Anchor>//api/name/expires</Anchor>
-            <NodeRef refid="867"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3ReplicateObjectRequest/expires</TokenIdentifier>
-			<Abstract type="html">The date and time at which the object is no longer cacheable.</Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSDate *expires</Declaration>
-			
-			
-			<Anchor>//api/name/expires</Anchor>
-            <NodeRef refid="867"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSS3ReplicateObjectRequest/expires</TokenIdentifier>
-			<Abstract type="html">The date and time at which the object is no longer cacheable.</Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSDate *expires</Declaration>
-			
-			
-			<Anchor>//api/name/expires</Anchor>
-            <NodeRef refid="867"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3ReplicateObjectRequest/setGrantFullControl:</TokenIdentifier>
-			<Abstract type="html">Gives the grantee READ, READACP, and WRITEACP permissions on the object.</Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *grantFullControl</Declaration>
-			
-			
-			<Anchor>//api/name/grantFullControl</Anchor>
-            <NodeRef refid="867"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3ReplicateObjectRequest/grantFullControl</TokenIdentifier>
-			<Abstract type="html">Gives the grantee READ, READACP, and WRITEACP permissions on the object.</Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *grantFullControl</Declaration>
-			
-			
-			<Anchor>//api/name/grantFullControl</Anchor>
-            <NodeRef refid="867"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSS3ReplicateObjectRequest/grantFullControl</TokenIdentifier>
-			<Abstract type="html">Gives the grantee READ, READACP, and WRITEACP permissions on the object.</Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *grantFullControl</Declaration>
-			
-			
-			<Anchor>//api/name/grantFullControl</Anchor>
-            <NodeRef refid="867"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3ReplicateObjectRequest/setGrantRead:</TokenIdentifier>
-			<Abstract type="html">Allows grantee to read the object data and its metadata.</Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *grantRead</Declaration>
-			
-			
-			<Anchor>//api/name/grantRead</Anchor>
-            <NodeRef refid="867"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3ReplicateObjectRequest/grantRead</TokenIdentifier>
-			<Abstract type="html">Allows grantee to read the object data and its metadata.</Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *grantRead</Declaration>
-			
-			
-			<Anchor>//api/name/grantRead</Anchor>
-            <NodeRef refid="867"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSS3ReplicateObjectRequest/grantRead</TokenIdentifier>
-			<Abstract type="html">Allows grantee to read the object data and its metadata.</Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *grantRead</Declaration>
-			
-			
-			<Anchor>//api/name/grantRead</Anchor>
-            <NodeRef refid="867"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3ReplicateObjectRequest/setGrantReadACP:</TokenIdentifier>
-			<Abstract type="html">Allows grantee to read the object ACL.</Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *grantReadACP</Declaration>
-			
-			
-			<Anchor>//api/name/grantReadACP</Anchor>
-            <NodeRef refid="867"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3ReplicateObjectRequest/grantReadACP</TokenIdentifier>
-			<Abstract type="html">Allows grantee to read the object ACL.</Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *grantReadACP</Declaration>
-			
-			
-			<Anchor>//api/name/grantReadACP</Anchor>
-            <NodeRef refid="867"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSS3ReplicateObjectRequest/grantReadACP</TokenIdentifier>
-			<Abstract type="html">Allows grantee to read the object ACL.</Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *grantReadACP</Declaration>
-			
-			
-			<Anchor>//api/name/grantReadACP</Anchor>
-            <NodeRef refid="867"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3ReplicateObjectRequest/setGrantWriteACP:</TokenIdentifier>
-			<Abstract type="html">Allows grantee to write the ACL for the applicable object.</Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *grantWriteACP</Declaration>
-			
-			
-			<Anchor>//api/name/grantWriteACP</Anchor>
-            <NodeRef refid="867"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3ReplicateObjectRequest/grantWriteACP</TokenIdentifier>
-			<Abstract type="html">Allows grantee to write the ACL for the applicable object.</Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *grantWriteACP</Declaration>
-			
-			
-			<Anchor>//api/name/grantWriteACP</Anchor>
-            <NodeRef refid="867"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSS3ReplicateObjectRequest/grantWriteACP</TokenIdentifier>
-			<Abstract type="html">Allows grantee to write the ACL for the applicable object.</Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *grantWriteACP</Declaration>
-			
-			
-			<Anchor>//api/name/grantWriteACP</Anchor>
-            <NodeRef refid="867"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3ReplicateObjectRequest/setKey:</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3GetObjectRequest/setKey:</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
@@ -457,7 +205,7 @@
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3ReplicateObjectRequest/key</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3GetObjectRequest/key</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
@@ -469,7 +217,7 @@
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSS3ReplicateObjectRequest/key</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSS3GetObjectRequest/key</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
@@ -481,367 +229,259 @@
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3ReplicateObjectRequest/setMetadata:</TokenIdentifier>
-			<Abstract type="html">A map of metadata to store with the object in S3.</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3GetObjectRequest/setRange:</TokenIdentifier>
+			<Abstract type="html">Downloads the specified range bytes of an object. For more information about the HTTP Range header, go to http://www.w3.org/Protocols/rfc2616/rfc2616-sec14.html#sec14.35.</Abstract>
 			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSDictionary *metadata</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *range</Declaration>
 			
 			
-			<Anchor>//api/name/metadata</Anchor>
+			<Anchor>//api/name/range</Anchor>
             <NodeRef refid="867"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3ReplicateObjectRequest/metadata</TokenIdentifier>
-			<Abstract type="html">A map of metadata to store with the object in S3.</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3GetObjectRequest/range</TokenIdentifier>
+			<Abstract type="html">Downloads the specified range bytes of an object. For more information about the HTTP Range header, go to http://www.w3.org/Protocols/rfc2616/rfc2616-sec14.html#sec14.35.</Abstract>
 			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSDictionary *metadata</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *range</Declaration>
 			
 			
-			<Anchor>//api/name/metadata</Anchor>
+			<Anchor>//api/name/range</Anchor>
             <NodeRef refid="867"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSS3ReplicateObjectRequest/metadata</TokenIdentifier>
-			<Abstract type="html">A map of metadata to store with the object in S3.</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSS3GetObjectRequest/range</TokenIdentifier>
+			<Abstract type="html">Downloads the specified range bytes of an object. For more information about the HTTP Range header, go to http://www.w3.org/Protocols/rfc2616/rfc2616-sec14.html#sec14.35.</Abstract>
 			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSDictionary *metadata</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *range</Declaration>
 			
 			
-			<Anchor>//api/name/metadata</Anchor>
+			<Anchor>//api/name/range</Anchor>
             <NodeRef refid="867"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3ReplicateObjectRequest/setMetadataDirective:</TokenIdentifier>
-			<Abstract type="html">Specifies whether the metadata is copied from the source object or replaced with metadata provided in the request.</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3GetObjectRequest/setResponseCacheControl:</TokenIdentifier>
+			<Abstract type="html">Sets the Cache-Control header of the response.</Abstract>
 			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, assign) AWSS3MetadataDirective metadataDirective</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *responseCacheControl</Declaration>
 			
 			
-			<Anchor>//api/name/metadataDirective</Anchor>
+			<Anchor>//api/name/responseCacheControl</Anchor>
             <NodeRef refid="867"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3ReplicateObjectRequest/metadataDirective</TokenIdentifier>
-			<Abstract type="html">Specifies whether the metadata is copied from the source object or replaced with metadata provided in the request.</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3GetObjectRequest/responseCacheControl</TokenIdentifier>
+			<Abstract type="html">Sets the Cache-Control header of the response.</Abstract>
 			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, assign) AWSS3MetadataDirective metadataDirective</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *responseCacheControl</Declaration>
 			
 			
-			<Anchor>//api/name/metadataDirective</Anchor>
+			<Anchor>//api/name/responseCacheControl</Anchor>
             <NodeRef refid="867"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSS3ReplicateObjectRequest/metadataDirective</TokenIdentifier>
-			<Abstract type="html">Specifies whether the metadata is copied from the source object or replaced with metadata provided in the request.</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSS3GetObjectRequest/responseCacheControl</TokenIdentifier>
+			<Abstract type="html">Sets the Cache-Control header of the response.</Abstract>
 			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, assign) AWSS3MetadataDirective metadataDirective</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *responseCacheControl</Declaration>
 			
 			
-			<Anchor>//api/name/metadataDirective</Anchor>
+			<Anchor>//api/name/responseCacheControl</Anchor>
             <NodeRef refid="867"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3ReplicateObjectRequest/setReplicateSource:</TokenIdentifier>
-			<Abstract type="html">The name of the source bucket and key name of the source object, separated by a slash (/). Must be URL-encoded.</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3GetObjectRequest/setResponseContentDisposition:</TokenIdentifier>
+			<Abstract type="html">Sets the Content-Disposition header of the response</Abstract>
 			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *replicateSource</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *responseContentDisposition</Declaration>
 			
 			
-			<Anchor>//api/name/replicateSource</Anchor>
+			<Anchor>//api/name/responseContentDisposition</Anchor>
             <NodeRef refid="867"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3ReplicateObjectRequest/replicateSource</TokenIdentifier>
-			<Abstract type="html">The name of the source bucket and key name of the source object, separated by a slash (/). Must be URL-encoded.</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3GetObjectRequest/responseContentDisposition</TokenIdentifier>
+			<Abstract type="html">Sets the Content-Disposition header of the response</Abstract>
 			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *replicateSource</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *responseContentDisposition</Declaration>
 			
 			
-			<Anchor>//api/name/replicateSource</Anchor>
+			<Anchor>//api/name/responseContentDisposition</Anchor>
             <NodeRef refid="867"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSS3ReplicateObjectRequest/replicateSource</TokenIdentifier>
-			<Abstract type="html">The name of the source bucket and key name of the source object, separated by a slash (/). Must be URL-encoded.</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSS3GetObjectRequest/responseContentDisposition</TokenIdentifier>
+			<Abstract type="html">Sets the Content-Disposition header of the response</Abstract>
 			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *replicateSource</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *responseContentDisposition</Declaration>
 			
 			
-			<Anchor>//api/name/replicateSource</Anchor>
+			<Anchor>//api/name/responseContentDisposition</Anchor>
             <NodeRef refid="867"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3ReplicateObjectRequest/setReplicateSourceIfMatch:</TokenIdentifier>
-			<Abstract type="html">Copies the object if its entity tag (ETag) matches the specified tag.</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3GetObjectRequest/setResponseContentEncoding:</TokenIdentifier>
+			<Abstract type="html">Sets the Content-Encoding header of the response.</Abstract>
 			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *replicateSourceIfMatch</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *responseContentEncoding</Declaration>
 			
 			
-			<Anchor>//api/name/replicateSourceIfMatch</Anchor>
+			<Anchor>//api/name/responseContentEncoding</Anchor>
             <NodeRef refid="867"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3ReplicateObjectRequest/replicateSourceIfMatch</TokenIdentifier>
-			<Abstract type="html">Copies the object if its entity tag (ETag) matches the specified tag.</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3GetObjectRequest/responseContentEncoding</TokenIdentifier>
+			<Abstract type="html">Sets the Content-Encoding header of the response.</Abstract>
 			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *replicateSourceIfMatch</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *responseContentEncoding</Declaration>
 			
 			
-			<Anchor>//api/name/replicateSourceIfMatch</Anchor>
+			<Anchor>//api/name/responseContentEncoding</Anchor>
             <NodeRef refid="867"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSS3ReplicateObjectRequest/replicateSourceIfMatch</TokenIdentifier>
-			<Abstract type="html">Copies the object if its entity tag (ETag) matches the specified tag.</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSS3GetObjectRequest/responseContentEncoding</TokenIdentifier>
+			<Abstract type="html">Sets the Content-Encoding header of the response.</Abstract>
 			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *replicateSourceIfMatch</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *responseContentEncoding</Declaration>
 			
 			
-			<Anchor>//api/name/replicateSourceIfMatch</Anchor>
+			<Anchor>//api/name/responseContentEncoding</Anchor>
             <NodeRef refid="867"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3ReplicateObjectRequest/setReplicateSourceIfModifiedSince:</TokenIdentifier>
-			<Abstract type="html">Copies the object if it has been modified since the specified time.</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3GetObjectRequest/setResponseContentLanguage:</TokenIdentifier>
+			<Abstract type="html">Sets the Content-Language header of the response.</Abstract>
 			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSDate *replicateSourceIfModifiedSince</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *responseContentLanguage</Declaration>
 			
 			
-			<Anchor>//api/name/replicateSourceIfModifiedSince</Anchor>
+			<Anchor>//api/name/responseContentLanguage</Anchor>
             <NodeRef refid="867"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3ReplicateObjectRequest/replicateSourceIfModifiedSince</TokenIdentifier>
-			<Abstract type="html">Copies the object if it has been modified since the specified time.</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3GetObjectRequest/responseContentLanguage</TokenIdentifier>
+			<Abstract type="html">Sets the Content-Language header of the response.</Abstract>
 			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSDate *replicateSourceIfModifiedSince</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *responseContentLanguage</Declaration>
 			
 			
-			<Anchor>//api/name/replicateSourceIfModifiedSince</Anchor>
+			<Anchor>//api/name/responseContentLanguage</Anchor>
             <NodeRef refid="867"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSS3ReplicateObjectRequest/replicateSourceIfModifiedSince</TokenIdentifier>
-			<Abstract type="html">Copies the object if it has been modified since the specified time.</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSS3GetObjectRequest/responseContentLanguage</TokenIdentifier>
+			<Abstract type="html">Sets the Content-Language header of the response.</Abstract>
 			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSDate *replicateSourceIfModifiedSince</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *responseContentLanguage</Declaration>
 			
 			
-			<Anchor>//api/name/replicateSourceIfModifiedSince</Anchor>
+			<Anchor>//api/name/responseContentLanguage</Anchor>
             <NodeRef refid="867"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3ReplicateObjectRequest/setReplicateSourceIfNoneMatch:</TokenIdentifier>
-			<Abstract type="html">Copies the object if its entity tag (ETag) is different than the specified ETag.</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3GetObjectRequest/setResponseContentType:</TokenIdentifier>
+			<Abstract type="html">Sets the Content-Type header of the response.</Abstract>
 			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *replicateSourceIfNoneMatch</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *responseContentType</Declaration>
 			
 			
-			<Anchor>//api/name/replicateSourceIfNoneMatch</Anchor>
+			<Anchor>//api/name/responseContentType</Anchor>
             <NodeRef refid="867"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3ReplicateObjectRequest/replicateSourceIfNoneMatch</TokenIdentifier>
-			<Abstract type="html">Copies the object if its entity tag (ETag) is different than the specified ETag.</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3GetObjectRequest/responseContentType</TokenIdentifier>
+			<Abstract type="html">Sets the Content-Type header of the response.</Abstract>
 			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *replicateSourceIfNoneMatch</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *responseContentType</Declaration>
 			
 			
-			<Anchor>//api/name/replicateSourceIfNoneMatch</Anchor>
+			<Anchor>//api/name/responseContentType</Anchor>
             <NodeRef refid="867"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSS3ReplicateObjectRequest/replicateSourceIfNoneMatch</TokenIdentifier>
-			<Abstract type="html">Copies the object if its entity tag (ETag) is different than the specified ETag.</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSS3GetObjectRequest/responseContentType</TokenIdentifier>
+			<Abstract type="html">Sets the Content-Type header of the response.</Abstract>
 			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *replicateSourceIfNoneMatch</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *responseContentType</Declaration>
 			
 			
-			<Anchor>//api/name/replicateSourceIfNoneMatch</Anchor>
+			<Anchor>//api/name/responseContentType</Anchor>
             <NodeRef refid="867"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3ReplicateObjectRequest/setReplicateSourceIfUnmodifiedSince:</TokenIdentifier>
-			<Abstract type="html">Copies the object if it hasn&apos;t been modified since the specified time.</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3GetObjectRequest/setResponseExpires:</TokenIdentifier>
+			<Abstract type="html">Sets the Expires header of the response.</Abstract>
 			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSDate *replicateSourceIfUnmodifiedSince</Declaration>
+			<Declaration>@property (nonatomic, strong) NSDate *responseExpires</Declaration>
 			
 			
-			<Anchor>//api/name/replicateSourceIfUnmodifiedSince</Anchor>
+			<Anchor>//api/name/responseExpires</Anchor>
             <NodeRef refid="867"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3ReplicateObjectRequest/replicateSourceIfUnmodifiedSince</TokenIdentifier>
-			<Abstract type="html">Copies the object if it hasn&apos;t been modified since the specified time.</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3GetObjectRequest/responseExpires</TokenIdentifier>
+			<Abstract type="html">Sets the Expires header of the response.</Abstract>
 			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSDate *replicateSourceIfUnmodifiedSince</Declaration>
+			<Declaration>@property (nonatomic, strong) NSDate *responseExpires</Declaration>
 			
 			
-			<Anchor>//api/name/replicateSourceIfUnmodifiedSince</Anchor>
+			<Anchor>//api/name/responseExpires</Anchor>
             <NodeRef refid="867"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSS3ReplicateObjectRequest/replicateSourceIfUnmodifiedSince</TokenIdentifier>
-			<Abstract type="html">Copies the object if it hasn&apos;t been modified since the specified time.</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSS3GetObjectRequest/responseExpires</TokenIdentifier>
+			<Abstract type="html">Sets the Expires header of the response.</Abstract>
 			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSDate *replicateSourceIfUnmodifiedSince</Declaration>
+			<Declaration>@property (nonatomic, strong) NSDate *responseExpires</Declaration>
 			
 			
-			<Anchor>//api/name/replicateSourceIfUnmodifiedSince</Anchor>
+			<Anchor>//api/name/responseExpires</Anchor>
             <NodeRef refid="867"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3ReplicateObjectRequest/setReplicateSourceSSECustomerAlgorithm:</TokenIdentifier>
-			<Abstract type="html">Specifies the algorithm to use when decrypting the source object (e.g., AES256).</Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *replicateSourceSSECustomerAlgorithm</Declaration>
-			
-			
-			<Anchor>//api/name/replicateSourceSSECustomerAlgorithm</Anchor>
-            <NodeRef refid="867"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3ReplicateObjectRequest/replicateSourceSSECustomerAlgorithm</TokenIdentifier>
-			<Abstract type="html">Specifies the algorithm to use when decrypting the source object (e.g., AES256).</Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *replicateSourceSSECustomerAlgorithm</Declaration>
-			
-			
-			<Anchor>//api/name/replicateSourceSSECustomerAlgorithm</Anchor>
-            <NodeRef refid="867"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSS3ReplicateObjectRequest/replicateSourceSSECustomerAlgorithm</TokenIdentifier>
-			<Abstract type="html">Specifies the algorithm to use when decrypting the source object (e.g., AES256).</Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *replicateSourceSSECustomerAlgorithm</Declaration>
-			
-			
-			<Anchor>//api/name/replicateSourceSSECustomerAlgorithm</Anchor>
-            <NodeRef refid="867"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3ReplicateObjectRequest/setReplicateSourceSSECustomerKey:</TokenIdentifier>
-			<Abstract type="html">Specifies the customer-provided encryption key for Amazon S3 to use to decrypt the source object. The encryption key provided in this header must be one that was used when the source object was created.</Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *replicateSourceSSECustomerKey</Declaration>
-			
-			
-			<Anchor>//api/name/replicateSourceSSECustomerKey</Anchor>
-            <NodeRef refid="867"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3ReplicateObjectRequest/replicateSourceSSECustomerKey</TokenIdentifier>
-			<Abstract type="html">Specifies the customer-provided encryption key for Amazon S3 to use to decrypt the source object. The encryption key provided in this header must be one that was used when the source object was created.</Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *replicateSourceSSECustomerKey</Declaration>
-			
-			
-			<Anchor>//api/name/replicateSourceSSECustomerKey</Anchor>
-            <NodeRef refid="867"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSS3ReplicateObjectRequest/replicateSourceSSECustomerKey</TokenIdentifier>
-			<Abstract type="html">Specifies the customer-provided encryption key for Amazon S3 to use to decrypt the source object. The encryption key provided in this header must be one that was used when the source object was created.</Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *replicateSourceSSECustomerKey</Declaration>
-			
-			
-			<Anchor>//api/name/replicateSourceSSECustomerKey</Anchor>
-            <NodeRef refid="867"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3ReplicateObjectRequest/setReplicateSourceSSECustomerKeyMD5:</TokenIdentifier>
-			<Abstract type="html">Specifies the 128-bit MD5 digest of the encryption key according to RFC 1321. Amazon S3 uses this header for a message integrity check to ensure the encryption key was transmitted without error.</Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *replicateSourceSSECustomerKeyMD5</Declaration>
-			
-			
-			<Anchor>//api/name/replicateSourceSSECustomerKeyMD5</Anchor>
-            <NodeRef refid="867"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3ReplicateObjectRequest/replicateSourceSSECustomerKeyMD5</TokenIdentifier>
-			<Abstract type="html">Specifies the 128-bit MD5 digest of the encryption key according to RFC 1321. Amazon S3 uses this header for a message integrity check to ensure the encryption key was transmitted without error.</Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *replicateSourceSSECustomerKeyMD5</Declaration>
-			
-			
-			<Anchor>//api/name/replicateSourceSSECustomerKeyMD5</Anchor>
-            <NodeRef refid="867"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSS3ReplicateObjectRequest/replicateSourceSSECustomerKeyMD5</TokenIdentifier>
-			<Abstract type="html">Specifies the 128-bit MD5 digest of the encryption key according to RFC 1321. Amazon S3 uses this header for a message integrity check to ensure the encryption key was transmitted without error.</Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *replicateSourceSSECustomerKeyMD5</Declaration>
-			
-			
-			<Anchor>//api/name/replicateSourceSSECustomerKeyMD5</Anchor>
-            <NodeRef refid="867"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3ReplicateObjectRequest/setSSECustomerAlgorithm:</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3GetObjectRequest/setSSECustomerAlgorithm:</TokenIdentifier>
 			<Abstract type="html">Specifies the algorithm to use to when encrypting the object (e.g., AES256, aws:kms).</Abstract>
 			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
@@ -853,7 +493,7 @@
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3ReplicateObjectRequest/SSECustomerAlgorithm</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3GetObjectRequest/SSECustomerAlgorithm</TokenIdentifier>
 			<Abstract type="html">Specifies the algorithm to use to when encrypting the object (e.g., AES256, aws:kms).</Abstract>
 			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
@@ -865,7 +505,7 @@
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSS3ReplicateObjectRequest/SSECustomerAlgorithm</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSS3GetObjectRequest/SSECustomerAlgorithm</TokenIdentifier>
 			<Abstract type="html">Specifies the algorithm to use to when encrypting the object (e.g., AES256, aws:kms).</Abstract>
 			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
@@ -877,7 +517,7 @@
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3ReplicateObjectRequest/setSSECustomerKey:</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3GetObjectRequest/setSSECustomerKey:</TokenIdentifier>
 			<Abstract type="html">Specifies the customer-provided encryption key for Amazon S3 to use in encrypting data. This value is used to store the object and then it is discarded; Amazon does not store the encryption key. The key must be appropriate for use with the algorithm specified in the x-amz-server-side&amp;amp;#x200B;-encryption&amp;amp;#x200B;-customer-algorithm header.</Abstract>
 			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
@@ -889,7 +529,7 @@
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3ReplicateObjectRequest/SSECustomerKey</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3GetObjectRequest/SSECustomerKey</TokenIdentifier>
 			<Abstract type="html">Specifies the customer-provided encryption key for Amazon S3 to use in encrypting data. This value is used to store the object and then it is discarded; Amazon does not store the encryption key. The key must be appropriate for use with the algorithm specified in the x-amz-server-side&amp;amp;#x200B;-encryption&amp;amp;#x200B;-customer-algorithm header.</Abstract>
 			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
@@ -901,7 +541,7 @@
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSS3ReplicateObjectRequest/SSECustomerKey</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSS3GetObjectRequest/SSECustomerKey</TokenIdentifier>
 			<Abstract type="html">Specifies the customer-provided encryption key for Amazon S3 to use in encrypting data. This value is used to store the object and then it is discarded; Amazon does not store the encryption key. The key must be appropriate for use with the algorithm specified in the x-amz-server-side&amp;amp;#x200B;-encryption&amp;amp;#x200B;-customer-algorithm header.</Abstract>
 			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
@@ -913,7 +553,7 @@
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3ReplicateObjectRequest/setSSECustomerKeyMD5:</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3GetObjectRequest/setSSECustomerKeyMD5:</TokenIdentifier>
 			<Abstract type="html">Specifies the 128-bit MD5 digest of the encryption key according to RFC 1321. Amazon S3 uses this header for a message integrity check to ensure the encryption key was transmitted without error.</Abstract>
 			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
@@ -925,7 +565,7 @@
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3ReplicateObjectRequest/SSECustomerKeyMD5</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3GetObjectRequest/SSECustomerKeyMD5</TokenIdentifier>
 			<Abstract type="html">Specifies the 128-bit MD5 digest of the encryption key according to RFC 1321. Amazon S3 uses this header for a message integrity check to ensure the encryption key was transmitted without error.</Abstract>
 			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
@@ -937,7 +577,7 @@
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSS3ReplicateObjectRequest/SSECustomerKeyMD5</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSS3GetObjectRequest/SSECustomerKeyMD5</TokenIdentifier>
 			<Abstract type="html">Specifies the 128-bit MD5 digest of the encryption key according to RFC 1321. Amazon S3 uses this header for a message integrity check to ensure the encryption key was transmitted without error.</Abstract>
 			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
@@ -949,146 +589,38 @@
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3ReplicateObjectRequest/setSSEKMSKeyId:</TokenIdentifier>
-			<Abstract type="html">Specifies the AWS KMS key ID to use for object encryption. All GET and PUT requests for an object protected by AWS KMS will fail if not made via SSL or using SigV4. Documentation on configuring any of the officially supported AWS SDKs and CLI can be found at http://docs.aws.amazon.com/AmazonS3/latest/dev/UsingAWSSDK.html#specify-signature-version</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3GetObjectRequest/setVersionId:</TokenIdentifier>
+			<Abstract type="html">VersionId used to reference a specific version of the object.</Abstract>
 			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *SSEKMSKeyId</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *versionId</Declaration>
 			
 			
-			<Anchor>//api/name/SSEKMSKeyId</Anchor>
+			<Anchor>//api/name/versionId</Anchor>
             <NodeRef refid="867"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3ReplicateObjectRequest/SSEKMSKeyId</TokenIdentifier>
-			<Abstract type="html">Specifies the AWS KMS key ID to use for object encryption. All GET and PUT requests for an object protected by AWS KMS will fail if not made via SSL or using SigV4. Documentation on configuring any of the officially supported AWS SDKs and CLI can be found at http://docs.aws.amazon.com/AmazonS3/latest/dev/UsingAWSSDK.html#specify-signature-version</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3GetObjectRequest/versionId</TokenIdentifier>
+			<Abstract type="html">VersionId used to reference a specific version of the object.</Abstract>
 			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *SSEKMSKeyId</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *versionId</Declaration>
 			
 			
-			<Anchor>//api/name/SSEKMSKeyId</Anchor>
+			<Anchor>//api/name/versionId</Anchor>
             <NodeRef refid="867"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSS3ReplicateObjectRequest/SSEKMSKeyId</TokenIdentifier>
-			<Abstract type="html">Specifies the AWS KMS key ID to use for object encryption. All GET and PUT requests for an object protected by AWS KMS will fail if not made via SSL or using SigV4. Documentation on configuring any of the officially supported AWS SDKs and CLI can be found at http://docs.aws.amazon.com/AmazonS3/latest/dev/UsingAWSSDK.html#specify-signature-version</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSS3GetObjectRequest/versionId</TokenIdentifier>
+			<Abstract type="html">VersionId used to reference a specific version of the object.</Abstract>
 			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *SSEKMSKeyId</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *versionId</Declaration>
 			
 			
-			<Anchor>//api/name/SSEKMSKeyId</Anchor>
-            <NodeRef refid="867"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3ReplicateObjectRequest/setServerSideEncryption:</TokenIdentifier>
-			<Abstract type="html">The Server-side encryption algorithm used when storing this object in S3 (e.g., AES256, aws:kms).</Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, assign) AWSS3ServerSideEncryption serverSideEncryption</Declaration>
-			
-			
-			<Anchor>//api/name/serverSideEncryption</Anchor>
-            <NodeRef refid="867"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3ReplicateObjectRequest/serverSideEncryption</TokenIdentifier>
-			<Abstract type="html">The Server-side encryption algorithm used when storing this object in S3 (e.g., AES256, aws:kms).</Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, assign) AWSS3ServerSideEncryption serverSideEncryption</Declaration>
-			
-			
-			<Anchor>//api/name/serverSideEncryption</Anchor>
-            <NodeRef refid="867"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSS3ReplicateObjectRequest/serverSideEncryption</TokenIdentifier>
-			<Abstract type="html">The Server-side encryption algorithm used when storing this object in S3 (e.g., AES256, aws:kms).</Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, assign) AWSS3ServerSideEncryption serverSideEncryption</Declaration>
-			
-			
-			<Anchor>//api/name/serverSideEncryption</Anchor>
-            <NodeRef refid="867"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3ReplicateObjectRequest/setStorageClass:</TokenIdentifier>
-			<Abstract type="html">The type of storage to use for the object. Defaults to &apos;STANDARD&apos;.</Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, assign) AWSS3StorageClass storageClass</Declaration>
-			
-			
-			<Anchor>//api/name/storageClass</Anchor>
-            <NodeRef refid="867"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3ReplicateObjectRequest/storageClass</TokenIdentifier>
-			<Abstract type="html">The type of storage to use for the object. Defaults to &apos;STANDARD&apos;.</Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, assign) AWSS3StorageClass storageClass</Declaration>
-			
-			
-			<Anchor>//api/name/storageClass</Anchor>
-            <NodeRef refid="867"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSS3ReplicateObjectRequest/storageClass</TokenIdentifier>
-			<Abstract type="html">The type of storage to use for the object. Defaults to &apos;STANDARD&apos;.</Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, assign) AWSS3StorageClass storageClass</Declaration>
-			
-			
-			<Anchor>//api/name/storageClass</Anchor>
-            <NodeRef refid="867"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3ReplicateObjectRequest/setWebsiteRedirectLocation:</TokenIdentifier>
-			<Abstract type="html">If the bucket is configured as a website, redirects requests for this object to another object in the same bucket or to an external URL. Amazon S3 stores the value of this header in the object metadata.</Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *websiteRedirectLocation</Declaration>
-			
-			
-			<Anchor>//api/name/websiteRedirectLocation</Anchor>
-            <NodeRef refid="867"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3ReplicateObjectRequest/websiteRedirectLocation</TokenIdentifier>
-			<Abstract type="html">If the bucket is configured as a website, redirects requests for this object to another object in the same bucket or to an external URL. Amazon S3 stores the value of this header in the object metadata.</Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *websiteRedirectLocation</Declaration>
-			
-			
-			<Anchor>//api/name/websiteRedirectLocation</Anchor>
-            <NodeRef refid="867"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSS3ReplicateObjectRequest/websiteRedirectLocation</TokenIdentifier>
-			<Abstract type="html">If the bucket is configured as a website, redirects requests for this object to another object in the same bucket or to an external URL. Amazon S3 stores the value of this header in the object metadata.</Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *websiteRedirectLocation</Declaration>
-			
-			
-			<Anchor>//api/name/websiteRedirectLocation</Anchor>
+			<Anchor>//api/name/versionId</Anchor>
             <NodeRef refid="867"/>
 		</Token>
 		

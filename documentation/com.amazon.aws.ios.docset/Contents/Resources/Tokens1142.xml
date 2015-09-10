@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Constants/AWSEC2PlacementGroupState.html">
+	<File path="Constants/AWSDynamoDBAttributeAction.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/c/tdef/AWSEC2PlacementGroupState</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/c/tdef/AWSDynamoDBAttributeAction</TokenIdentifier>
 			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			<DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
             
 			
 			<NodeRef refid="1142"/>
@@ -14,51 +14,41 @@
 		
         
         <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSEC2PlacementGroupStateUnknown</TokenIdentifier>
+            <TokenIdentifier>//apple_ref/c/econst/AWSDynamoDBAttributeActionUnknown</TokenIdentifier>
             <Abstract type="html"></Abstract>
-            <Declaration>AWSEC2PlacementGroupStateUnknown</Declaration>
+            <Declaration>AWSDynamoDBAttributeActionUnknown</Declaration>
             
-            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
+            <DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
             
             <NodeRef refid="1142"/>
         </Token>
         
         <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSEC2PlacementGroupStatePending</TokenIdentifier>
+            <TokenIdentifier>//apple_ref/c/econst/AWSDynamoDBAttributeActionAdd</TokenIdentifier>
             <Abstract type="html"></Abstract>
-            <Declaration>AWSEC2PlacementGroupStatePending</Declaration>
+            <Declaration>AWSDynamoDBAttributeActionAdd</Declaration>
             
-            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
+            <DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
             
             <NodeRef refid="1142"/>
         </Token>
         
         <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSEC2PlacementGroupStateAvailable</TokenIdentifier>
+            <TokenIdentifier>//apple_ref/c/econst/AWSDynamoDBAttributeActionPut</TokenIdentifier>
             <Abstract type="html"></Abstract>
-            <Declaration>AWSEC2PlacementGroupStateAvailable</Declaration>
+            <Declaration>AWSDynamoDBAttributeActionPut</Declaration>
             
-            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
+            <DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
             
             <NodeRef refid="1142"/>
         </Token>
         
         <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSEC2PlacementGroupStateDeleting</TokenIdentifier>
+            <TokenIdentifier>//apple_ref/c/econst/AWSDynamoDBAttributeActionDelete</TokenIdentifier>
             <Abstract type="html"></Abstract>
-            <Declaration>AWSEC2PlacementGroupStateDeleting</Declaration>
+            <Declaration>AWSDynamoDBAttributeActionDelete</Declaration>
             
-            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
-            
-            <NodeRef refid="1142"/>
-        </Token>
-        
-        <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSEC2PlacementGroupStateDeleted</TokenIdentifier>
-            <Abstract type="html"></Abstract>
-            <Declaration>AWSEC2PlacementGroupStateDeleted</Declaration>
-            
-            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
+            <DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
             
             <NodeRef refid="1142"/>
         </Token>

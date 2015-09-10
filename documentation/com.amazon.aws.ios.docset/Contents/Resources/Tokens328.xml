@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSEC2CreateVpcRequest.html">
+	<File path="Classes/AWSEC2CreateSpotDatafeedSubscriptionRequest.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSEC2CreateVpcRequest</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSEC2CreateSpotDatafeedSubscriptionRequest</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
             
@@ -13,43 +13,43 @@
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2CreateVpcRequest/setCidrBlock:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The network range for the VPC, in CIDR notation. For example, &lt;code&gt;10.0.0.0/16&lt;/code&gt;.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2CreateSpotDatafeedSubscriptionRequest/setBucket:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The Amazon S3 bucket in which to store the Spot Instance datafeed.&lt;/p&gt;&lt;p&gt;Constraints: Must be a valid bucket associated with your AWS account.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *cidrBlock</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *bucket</Declaration>
 			
 			
-			<Anchor>//api/name/cidrBlock</Anchor>
+			<Anchor>//api/name/bucket</Anchor>
             <NodeRef refid="328"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2CreateVpcRequest/cidrBlock</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The network range for the VPC, in CIDR notation. For example, &lt;code&gt;10.0.0.0/16&lt;/code&gt;.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2CreateSpotDatafeedSubscriptionRequest/bucket</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The Amazon S3 bucket in which to store the Spot Instance datafeed.&lt;/p&gt;&lt;p&gt;Constraints: Must be a valid bucket associated with your AWS account.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *cidrBlock</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *bucket</Declaration>
 			
 			
-			<Anchor>//api/name/cidrBlock</Anchor>
+			<Anchor>//api/name/bucket</Anchor>
             <NodeRef refid="328"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2CreateVpcRequest/cidrBlock</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The network range for the VPC, in CIDR notation. For example, &lt;code&gt;10.0.0.0/16&lt;/code&gt;.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2CreateSpotDatafeedSubscriptionRequest/bucket</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The Amazon S3 bucket in which to store the Spot Instance datafeed.&lt;/p&gt;&lt;p&gt;Constraints: Must be a valid bucket associated with your AWS account.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *cidrBlock</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *bucket</Declaration>
 			
 			
-			<Anchor>//api/name/cidrBlock</Anchor>
+			<Anchor>//api/name/bucket</Anchor>
             <NodeRef refid="328"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2CreateVpcRequest/setDryRun:</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2CreateSpotDatafeedSubscriptionRequest/setDryRun:</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
@@ -61,7 +61,7 @@
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2CreateVpcRequest/dryRun</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2CreateSpotDatafeedSubscriptionRequest/dryRun</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
@@ -73,7 +73,7 @@
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2CreateVpcRequest/dryRun</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2CreateSpotDatafeedSubscriptionRequest/dryRun</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
@@ -85,38 +85,38 @@
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2CreateVpcRequest/setInstanceTenancy:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The supported tenancy options for instances launched into the VPC. A value of &lt;code&gt;default&lt;/code&gt; means that instances can be launched with any tenancy; a value of &lt;code&gt;dedicated&lt;/code&gt; means all instances launched into the VPC are launched as dedicated tenancy instances regardless of the tenancy assigned to the instance at launch. Dedicated tenancy instances run on single-tenant hardware.&lt;/p&gt;&lt;p&gt;Default: &lt;code&gt;default&lt;/code&gt;&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2CreateSpotDatafeedSubscriptionRequest/setPrefix:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;A prefix for the datafeed file names.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, assign) AWSEC2Tenancy instanceTenancy</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *prefix</Declaration>
 			
 			
-			<Anchor>//api/name/instanceTenancy</Anchor>
+			<Anchor>//api/name/prefix</Anchor>
             <NodeRef refid="328"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2CreateVpcRequest/instanceTenancy</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The supported tenancy options for instances launched into the VPC. A value of &lt;code&gt;default&lt;/code&gt; means that instances can be launched with any tenancy; a value of &lt;code&gt;dedicated&lt;/code&gt; means all instances launched into the VPC are launched as dedicated tenancy instances regardless of the tenancy assigned to the instance at launch. Dedicated tenancy instances run on single-tenant hardware.&lt;/p&gt;&lt;p&gt;Default: &lt;code&gt;default&lt;/code&gt;&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2CreateSpotDatafeedSubscriptionRequest/prefix</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;A prefix for the datafeed file names.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, assign) AWSEC2Tenancy instanceTenancy</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *prefix</Declaration>
 			
 			
-			<Anchor>//api/name/instanceTenancy</Anchor>
+			<Anchor>//api/name/prefix</Anchor>
             <NodeRef refid="328"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2CreateVpcRequest/instanceTenancy</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The supported tenancy options for instances launched into the VPC. A value of &lt;code&gt;default&lt;/code&gt; means that instances can be launched with any tenancy; a value of &lt;code&gt;dedicated&lt;/code&gt; means all instances launched into the VPC are launched as dedicated tenancy instances regardless of the tenancy assigned to the instance at launch. Dedicated tenancy instances run on single-tenant hardware.&lt;/p&gt;&lt;p&gt;Default: &lt;code&gt;default&lt;/code&gt;&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2CreateSpotDatafeedSubscriptionRequest/prefix</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;A prefix for the datafeed file names.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, assign) AWSEC2Tenancy instanceTenancy</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *prefix</Declaration>
 			
 			
-			<Anchor>//api/name/instanceTenancy</Anchor>
+			<Anchor>//api/name/prefix</Anchor>
             <NodeRef refid="328"/>
 		</Token>
 		

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSEC2DescribeSpotPriceHistoryResult.html">
+	<File path="Classes/AWSEC2DescribeRouteTablesResult.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSEC2DescribeSpotPriceHistoryResult</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSEC2DescribeRouteTablesResult</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
             
@@ -13,74 +13,38 @@
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DescribeSpotPriceHistoryResult/setNextToken:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The string marking the next set of results. This is empty if there are no more results.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DescribeRouteTablesResult/setRouteTables:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Information about one or more route tables.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *nextToken</Declaration>
+			<Declaration>@property (nonatomic, strong) NSArray *routeTables</Declaration>
 			
 			
-			<Anchor>//api/name/nextToken</Anchor>
+			<Anchor>//api/name/routeTables</Anchor>
             <NodeRef refid="418"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DescribeSpotPriceHistoryResult/nextToken</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The string marking the next set of results. This is empty if there are no more results.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DescribeRouteTablesResult/routeTables</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Information about one or more route tables.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *nextToken</Declaration>
+			<Declaration>@property (nonatomic, strong) NSArray *routeTables</Declaration>
 			
 			
-			<Anchor>//api/name/nextToken</Anchor>
+			<Anchor>//api/name/routeTables</Anchor>
             <NodeRef refid="418"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2DescribeSpotPriceHistoryResult/nextToken</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The string marking the next set of results. This is empty if there are no more results.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2DescribeRouteTablesResult/routeTables</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Information about one or more route tables.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *nextToken</Declaration>
+			<Declaration>@property (nonatomic, strong) NSArray *routeTables</Declaration>
 			
 			
-			<Anchor>//api/name/nextToken</Anchor>
-            <NodeRef refid="418"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DescribeSpotPriceHistoryResult/setSpotPriceHistory:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The historical Spot Prices.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSArray *spotPriceHistory</Declaration>
-			
-			
-			<Anchor>//api/name/spotPriceHistory</Anchor>
-            <NodeRef refid="418"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DescribeSpotPriceHistoryResult/spotPriceHistory</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The historical Spot Prices.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSArray *spotPriceHistory</Declaration>
-			
-			
-			<Anchor>//api/name/spotPriceHistory</Anchor>
-            <NodeRef refid="418"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2DescribeSpotPriceHistoryResult/spotPriceHistory</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The historical Spot Prices.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSArray *spotPriceHistory</Declaration>
-			
-			
-			<Anchor>//api/name/spotPriceHistory</Anchor>
+			<Anchor>//api/name/routeTables</Anchor>
             <NodeRef refid="418"/>
 		</Token>
 		

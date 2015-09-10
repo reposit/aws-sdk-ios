@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSCognitoIdentityUnlinkIdentityInput.html">
+	<File path="Classes/AWSCognitoRecord.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSCognitoIdentityUnlinkIdentityInput</TokenIdentifier>
-			<Abstract type="html">Input to the UnlinkIdentity action.
-Required parameters: [IdentityId, Logins, LoginsToRemove]</Abstract>
-			<DeclaredIn>AWSCognitoIdentityModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSCognitoRecord</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSCognitoRecord.h</DeclaredIn>
             
 			
 			<NodeRef refid="150"/>
@@ -14,110 +13,82 @@ Required parameters: [IdentityId, Logins, LoginsToRemove]</Abstract>
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoIdentityUnlinkIdentityInput/setIdentityId:</TokenIdentifier>
-			<Abstract type="html">A unique identifier in the format REGION:GUID.</Abstract>
-			<DeclaredIn>AWSCognitoIdentityModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoRecord/setData:</TokenIdentifier>
+			<Abstract type="html">The data for the record.</Abstract>
+			<DeclaredIn>AWSCognitoRecord.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *identityId</Declaration>
+			<Declaration>@property (nonatomic, strong) AWSCognitoRecordValue *data</Declaration>
 			
 			
-			<Anchor>//api/name/identityId</Anchor>
+			<Anchor>//api/name/data</Anchor>
             <NodeRef refid="150"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoIdentityUnlinkIdentityInput/identityId</TokenIdentifier>
-			<Abstract type="html">A unique identifier in the format REGION:GUID.</Abstract>
-			<DeclaredIn>AWSCognitoIdentityModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoRecord/data</TokenIdentifier>
+			<Abstract type="html">The data for the record.</Abstract>
+			<DeclaredIn>AWSCognitoRecord.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *identityId</Declaration>
+			<Declaration>@property (nonatomic, strong) AWSCognitoRecordValue *data</Declaration>
 			
 			
-			<Anchor>//api/name/identityId</Anchor>
+			<Anchor>//api/name/data</Anchor>
             <NodeRef refid="150"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSCognitoIdentityUnlinkIdentityInput/identityId</TokenIdentifier>
-			<Abstract type="html">A unique identifier in the format REGION:GUID.</Abstract>
-			<DeclaredIn>AWSCognitoIdentityModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSCognitoRecord/data</TokenIdentifier>
+			<Abstract type="html">The data for the record.</Abstract>
+			<DeclaredIn>AWSCognitoRecord.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *identityId</Declaration>
+			<Declaration>@property (nonatomic, strong) AWSCognitoRecordValue *data</Declaration>
 			
 			
-			<Anchor>//api/name/identityId</Anchor>
+			<Anchor>//api/name/data</Anchor>
             <NodeRef refid="150"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoIdentityUnlinkIdentityInput/setLogins:</TokenIdentifier>
-			<Abstract type="html">A set of optional name-value pairs that map provider names to provider tokens.</Abstract>
-			<DeclaredIn>AWSCognitoIdentityModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoRecord/initWithId:data:</TokenIdentifier>
+			<Abstract type="html">Initializes a AWSCognitoRecord with the given recordID, given data, and a dirtyCount and recordVersion of 0.</Abstract>
+			<DeclaredIn>AWSCognitoRecord.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSDictionary *logins</Declaration>
+			<Declaration>- (instancetype)initWithId:(NSString *)recordId data:(AWSCognitoRecordValue *)data</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>recordId</Name>
+					<Abstract type="html">The record ID of the AWSCognitoRecord</Abstract>
+				</Parameter><Parameter>
+					<Name>data</Name>
+					<Abstract type="html">the initial data that the AWSCognitoRecord will contain</Abstract>
+				</Parameter>
+			</Parameters>
 			
-			
-			<Anchor>//api/name/logins</Anchor>
+			<Anchor>//api/name/initWithId:data:</Anchor>
             <NodeRef refid="150"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoIdentityUnlinkIdentityInput/logins</TokenIdentifier>
-			<Abstract type="html">A set of optional name-value pairs that map provider names to provider tokens.</Abstract>
-			<DeclaredIn>AWSCognitoIdentityModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoRecord/isDeleted</TokenIdentifier>
+			<Abstract type="html">Returns true if this record has been deleted</Abstract>
+			<DeclaredIn>AWSCognitoRecord.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSDictionary *logins</Declaration>
+			<Declaration>- (BOOL)isDeleted</Declaration>
 			
-			
-			<Anchor>//api/name/logins</Anchor>
+			<ReturnValue><Abstract type="html">YES if the record is deleted, NO otherwise</Abstract></ReturnValue>
+			<Anchor>//api/name/isDeleted</Anchor>
             <NodeRef refid="150"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSCognitoIdentityUnlinkIdentityInput/logins</TokenIdentifier>
-			<Abstract type="html">A set of optional name-value pairs that map provider names to provider tokens.</Abstract>
-			<DeclaredIn>AWSCognitoIdentityModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoRecord/isDirty</TokenIdentifier>
+			<Abstract type="html">Boolean indicating whether or not the record has updates/deletes that need to be synced with the server.</Abstract>
+			<DeclaredIn>AWSCognitoRecord.m</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSDictionary *logins</Declaration>
-			
-			
-			<Anchor>//api/name/logins</Anchor>
-            <NodeRef refid="150"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoIdentityUnlinkIdentityInput/setLoginsToRemove:</TokenIdentifier>
-			<Abstract type="html">Provider names to unlink from this identity.</Abstract>
-			<DeclaredIn>AWSCognitoIdentityModel.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSArray *loginsToRemove</Declaration>
+			<Declaration>- (BOOL)isDirty</Declaration>
 			
 			
-			<Anchor>//api/name/loginsToRemove</Anchor>
-            <NodeRef refid="150"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoIdentityUnlinkIdentityInput/loginsToRemove</TokenIdentifier>
-			<Abstract type="html">Provider names to unlink from this identity.</Abstract>
-			<DeclaredIn>AWSCognitoIdentityModel.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSArray *loginsToRemove</Declaration>
-			
-			
-			<Anchor>//api/name/loginsToRemove</Anchor>
-            <NodeRef refid="150"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSCognitoIdentityUnlinkIdentityInput/loginsToRemove</TokenIdentifier>
-			<Abstract type="html">Provider names to unlink from this identity.</Abstract>
-			<DeclaredIn>AWSCognitoIdentityModel.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSArray *loginsToRemove</Declaration>
-			
-			
-			<Anchor>//api/name/loginsToRemove</Anchor>
+			<Anchor>//api/name/isDirty</Anchor>
             <NodeRef refid="150"/>
 		</Token>
 		

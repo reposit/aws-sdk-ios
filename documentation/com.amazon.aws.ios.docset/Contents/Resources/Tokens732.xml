@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSKinesisPutRecordsOutput.html">
+	<File path="Classes/AWSKinesisDeleteStreamInput.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSKinesisPutRecordsOutput</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;&lt;code&gt;PutRecords&lt;/code&gt; results.&lt;/p&gt;
-Required parameters: [Records]</Abstract>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSKinesisDeleteStreamInput</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Represents the input for &lt;code&gt;DeleteStream&lt;/code&gt;.&lt;/p&gt;
+Required parameters: [StreamName]</Abstract>
 			<DeclaredIn>AWSKinesisModel.h</DeclaredIn>
             
 			
@@ -14,74 +14,38 @@ Required parameters: [Records]</Abstract>
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSKinesisPutRecordsOutput/setFailedRecordCount:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The number of unsuccessfully processed records in a &lt;code&gt;PutRecords&lt;/code&gt; request.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSKinesisDeleteStreamInput/setStreamName:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The name of the stream to delete.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSKinesisModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSNumber *failedRecordCount</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *streamName</Declaration>
 			
 			
-			<Anchor>//api/name/failedRecordCount</Anchor>
+			<Anchor>//api/name/streamName</Anchor>
             <NodeRef refid="732"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSKinesisPutRecordsOutput/failedRecordCount</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The number of unsuccessfully processed records in a &lt;code&gt;PutRecords&lt;/code&gt; request.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSKinesisDeleteStreamInput/streamName</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The name of the stream to delete.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSKinesisModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSNumber *failedRecordCount</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *streamName</Declaration>
 			
 			
-			<Anchor>//api/name/failedRecordCount</Anchor>
+			<Anchor>//api/name/streamName</Anchor>
             <NodeRef refid="732"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSKinesisPutRecordsOutput/failedRecordCount</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The number of unsuccessfully processed records in a &lt;code&gt;PutRecords&lt;/code&gt; request.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSKinesisDeleteStreamInput/streamName</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The name of the stream to delete.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSKinesisModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSNumber *failedRecordCount</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *streamName</Declaration>
 			
 			
-			<Anchor>//api/name/failedRecordCount</Anchor>
-            <NodeRef refid="732"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSKinesisPutRecordsOutput/setRecords:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;An array of successfully and unsuccessfully processed record results, correlated with the request by natural ordering. A record that is successfully added to your Amazon Kinesis stream includes &lt;code&gt;SequenceNumber&lt;/code&gt; and &lt;code&gt;ShardId&lt;/code&gt; in the result. A record that fails to be added to your Amazon Kinesis stream includes &lt;code&gt;ErrorCode&lt;/code&gt; and &lt;code&gt;ErrorMessage&lt;/code&gt; in the result.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSKinesisModel.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSArray *records</Declaration>
-			
-			
-			<Anchor>//api/name/records</Anchor>
-            <NodeRef refid="732"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSKinesisPutRecordsOutput/records</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;An array of successfully and unsuccessfully processed record results, correlated with the request by natural ordering. A record that is successfully added to your Amazon Kinesis stream includes &lt;code&gt;SequenceNumber&lt;/code&gt; and &lt;code&gt;ShardId&lt;/code&gt; in the result. A record that fails to be added to your Amazon Kinesis stream includes &lt;code&gt;ErrorCode&lt;/code&gt; and &lt;code&gt;ErrorMessage&lt;/code&gt; in the result.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSKinesisModel.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSArray *records</Declaration>
-			
-			
-			<Anchor>//api/name/records</Anchor>
-            <NodeRef refid="732"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSKinesisPutRecordsOutput/records</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;An array of successfully and unsuccessfully processed record results, correlated with the request by natural ordering. A record that is successfully added to your Amazon Kinesis stream includes &lt;code&gt;SequenceNumber&lt;/code&gt; and &lt;code&gt;ShardId&lt;/code&gt; in the result. A record that fails to be added to your Amazon Kinesis stream includes &lt;code&gt;ErrorCode&lt;/code&gt; and &lt;code&gt;ErrorMessage&lt;/code&gt; in the result.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSKinesisModel.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSArray *records</Declaration>
-			
-			
-			<Anchor>//api/name/records</Anchor>
+			<Anchor>//api/name/streamName</Anchor>
             <NodeRef refid="732"/>
 		</Token>
 		

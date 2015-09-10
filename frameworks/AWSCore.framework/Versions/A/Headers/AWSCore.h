@@ -1,4 +1,4 @@
-/**
+/*
  Copyright 2010-2015 Amazon.com, Inc. or its affiliates. All Rights Reserved.
 
  Licensed under the Apache License, Version 2.0 (the "License").
@@ -23,9 +23,9 @@
 #import "AWSURLResponseSerialization.h"
 #import "AWSCategory.h"
 #import "AWSLogging.h"
+#import "AWSClientContext.h"
 
 #import "AWSSTS.h"
 #import "AWSCognitoIdentity.h"
-#import "MobileAnalytics.h"
 
-#import <Bolts/Bolts.h>
+#import "AWSBolts.h"

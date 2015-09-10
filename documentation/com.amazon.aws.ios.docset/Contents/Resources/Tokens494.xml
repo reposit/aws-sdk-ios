@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSEC2InstanceStateChange.html">
+	<File path="Classes/AWSEC2ImportInstanceTaskDetails.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSEC2InstanceStateChange</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Describes an instance state change.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSEC2ImportInstanceTaskDetails</TokenIdentifier>
+			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
             
 			
@@ -13,44 +13,44 @@
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2InstanceStateChange/setCurrentState:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The current state of the instance.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ImportInstanceTaskDetails/setDetail:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) AWSEC2InstanceState *currentState</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *detail</Declaration>
 			
 			
-			<Anchor>//api/name/currentState</Anchor>
+			<Anchor>//api/name/detail</Anchor>
             <NodeRef refid="494"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2InstanceStateChange/currentState</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The current state of the instance.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ImportInstanceTaskDetails/detail</TokenIdentifier>
+			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) AWSEC2InstanceState *currentState</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *detail</Declaration>
 			
 			
-			<Anchor>//api/name/currentState</Anchor>
+			<Anchor>//api/name/detail</Anchor>
             <NodeRef refid="494"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2InstanceStateChange/currentState</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The current state of the instance.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2ImportInstanceTaskDetails/detail</TokenIdentifier>
+			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) AWSEC2InstanceState *currentState</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *detail</Declaration>
 			
 			
-			<Anchor>//api/name/currentState</Anchor>
+			<Anchor>//api/name/detail</Anchor>
             <NodeRef refid="494"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2InstanceStateChange/setInstanceId:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The ID of the instance.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ImportInstanceTaskDetails/setInstanceId:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
 			<Declaration>@property (nonatomic, strong) NSString *instanceId</Declaration>
@@ -61,8 +61,8 @@
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2InstanceStateChange/instanceId</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The ID of the instance.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ImportInstanceTaskDetails/instanceId</TokenIdentifier>
+			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
 			<Declaration>@property (nonatomic, strong) NSString *instanceId</Declaration>
@@ -73,8 +73,8 @@
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2InstanceStateChange/instanceId</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The ID of the instance.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2ImportInstanceTaskDetails/instanceId</TokenIdentifier>
+			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
 			<Declaration>@property (nonatomic, strong) NSString *instanceId</Declaration>
@@ -85,38 +85,74 @@
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2InstanceStateChange/setPreviousState:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The previous state of the instance.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ImportInstanceTaskDetails/setPlatform:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The instance operating system.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) AWSEC2InstanceState *previousState</Declaration>
+			<Declaration>@property (nonatomic, assign) AWSEC2PlatformValues platform</Declaration>
 			
 			
-			<Anchor>//api/name/previousState</Anchor>
+			<Anchor>//api/name/platform</Anchor>
             <NodeRef refid="494"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2InstanceStateChange/previousState</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The previous state of the instance.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ImportInstanceTaskDetails/platform</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The instance operating system.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) AWSEC2InstanceState *previousState</Declaration>
+			<Declaration>@property (nonatomic, assign) AWSEC2PlatformValues platform</Declaration>
 			
 			
-			<Anchor>//api/name/previousState</Anchor>
+			<Anchor>//api/name/platform</Anchor>
             <NodeRef refid="494"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2InstanceStateChange/previousState</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The previous state of the instance.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2ImportInstanceTaskDetails/platform</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The instance operating system.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) AWSEC2InstanceState *previousState</Declaration>
+			<Declaration>@property (nonatomic, assign) AWSEC2PlatformValues platform</Declaration>
 			
 			
-			<Anchor>//api/name/previousState</Anchor>
+			<Anchor>//api/name/platform</Anchor>
+            <NodeRef refid="494"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ImportInstanceTaskDetails/setVolumes:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray *volumes</Declaration>
+			
+			
+			<Anchor>//api/name/volumes</Anchor>
+            <NodeRef refid="494"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ImportInstanceTaskDetails/volumes</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray *volumes</Declaration>
+			
+			
+			<Anchor>//api/name/volumes</Anchor>
+            <NodeRef refid="494"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2ImportInstanceTaskDetails/volumes</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray *volumes</Declaration>
+			
+			
+			<Anchor>//api/name/volumes</Anchor>
             <NodeRef refid="494"/>
 		</Token>
 		

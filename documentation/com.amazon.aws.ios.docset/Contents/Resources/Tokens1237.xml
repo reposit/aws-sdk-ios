@@ -1,8 +1,157 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="">
+	<File path="Constants/AWSLambdaErrorType.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/c/tdef/AWSLambdaErrorType</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSLambdaModel.h</DeclaredIn>
+            
+			
+			<NodeRef refid="1237"/>
+		</Token>
 		
 		
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/AWSLambdaErrorUnknown</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>AWSLambdaErrorUnknown</Declaration>
+            
+            <DeclaredIn>AWSLambdaModel.h</DeclaredIn>
+            
+            <NodeRef refid="1237"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/AWSLambdaErrorIncompleteSignature</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>AWSLambdaErrorIncompleteSignature</Declaration>
+            
+            <DeclaredIn>AWSLambdaModel.h</DeclaredIn>
+            
+            <NodeRef refid="1237"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/AWSLambdaErrorInvalidClientTokenId</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>AWSLambdaErrorInvalidClientTokenId</Declaration>
+            
+            <DeclaredIn>AWSLambdaModel.h</DeclaredIn>
+            
+            <NodeRef refid="1237"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/AWSLambdaErrorMissingAuthenticationToken</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>AWSLambdaErrorMissingAuthenticationToken</Declaration>
+            
+            <DeclaredIn>AWSLambdaModel.h</DeclaredIn>
+            
+            <NodeRef refid="1237"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/AWSLambdaErrorCodeStorageExceeded</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>AWSLambdaErrorCodeStorageExceeded</Declaration>
+            
+            <DeclaredIn>AWSLambdaModel.h</DeclaredIn>
+            
+            <NodeRef refid="1237"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/AWSLambdaErrorInvalidParameterValue</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>AWSLambdaErrorInvalidParameterValue</Declaration>
+            
+            <DeclaredIn>AWSLambdaModel.h</DeclaredIn>
+            
+            <NodeRef refid="1237"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/AWSLambdaErrorInvalidRequestContent</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>AWSLambdaErrorInvalidRequestContent</Declaration>
+            
+            <DeclaredIn>AWSLambdaModel.h</DeclaredIn>
+            
+            <NodeRef refid="1237"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/AWSLambdaErrorPolicyLengthExceeded</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>AWSLambdaErrorPolicyLengthExceeded</Declaration>
+            
+            <DeclaredIn>AWSLambdaModel.h</DeclaredIn>
+            
+            <NodeRef refid="1237"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/AWSLambdaErrorRequestTooLarge</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>AWSLambdaErrorRequestTooLarge</Declaration>
+            
+            <DeclaredIn>AWSLambdaModel.h</DeclaredIn>
+            
+            <NodeRef refid="1237"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/AWSLambdaErrorResourceConflict</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>AWSLambdaErrorResourceConflict</Declaration>
+            
+            <DeclaredIn>AWSLambdaModel.h</DeclaredIn>
+            
+            <NodeRef refid="1237"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/AWSLambdaErrorResourceNotFound</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>AWSLambdaErrorResourceNotFound</Declaration>
+            
+            <DeclaredIn>AWSLambdaModel.h</DeclaredIn>
+            
+            <NodeRef refid="1237"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/AWSLambdaErrorService</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>AWSLambdaErrorService</Declaration>
+            
+            <DeclaredIn>AWSLambdaModel.h</DeclaredIn>
+            
+            <NodeRef refid="1237"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/AWSLambdaErrorTooManyRequests</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>AWSLambdaErrorTooManyRequests</Declaration>
+            
+            <DeclaredIn>AWSLambdaModel.h</DeclaredIn>
+            
+            <NodeRef refid="1237"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/AWSLambdaErrorUnsupportedMediaType</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>AWSLambdaErrorUnsupportedMediaType</Declaration>
+            
+            <DeclaredIn>AWSLambdaModel.h</DeclaredIn>
+            
+            <NodeRef refid="1237"/>
+        </Token>
         
         
 	</File>

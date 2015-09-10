@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSSimpleDBBatchDeleteAttributesRequest.html">
+	<File path="Classes/AWSSQSChangeMessageVisibilityBatchResult.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSSimpleDBBatchDeleteAttributesRequest</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSSimpleDBModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSSQSChangeMessageVisibilityBatchResult</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; For each message in the batch, the response contains a &lt;a&gt;ChangeMessageVisibilityBatchResultEntry&lt;/a&gt; tag if the message succeeds or a &lt;a&gt;BatchResultErrorEntry&lt;/a&gt; tag if the message fails. &lt;/p&gt;
+Required parameters: [Successful, Failed]</Abstract>
+			<DeclaredIn>AWSSQSModel.h</DeclaredIn>
             
 			
 			<NodeRef refid="1038"/>
@@ -13,74 +14,74 @@
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSSimpleDBBatchDeleteAttributesRequest/setDomainName:</TokenIdentifier>
-			<Abstract type="html">The name of the domain in which the attributes are being deleted.</Abstract>
-			<DeclaredIn>AWSSimpleDBModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSQSChangeMessageVisibilityBatchResult/setFailed:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;A list of &lt;a&gt;BatchResultErrorEntry&lt;/a&gt; items.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSQSModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *domainName</Declaration>
+			<Declaration>@property (nonatomic, strong) NSArray *failed</Declaration>
 			
 			
-			<Anchor>//api/name/domainName</Anchor>
+			<Anchor>//api/name/failed</Anchor>
             <NodeRef refid="1038"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSSimpleDBBatchDeleteAttributesRequest/domainName</TokenIdentifier>
-			<Abstract type="html">The name of the domain in which the attributes are being deleted.</Abstract>
-			<DeclaredIn>AWSSimpleDBModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSQSChangeMessageVisibilityBatchResult/failed</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;A list of &lt;a&gt;BatchResultErrorEntry&lt;/a&gt; items.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSQSModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *domainName</Declaration>
+			<Declaration>@property (nonatomic, strong) NSArray *failed</Declaration>
 			
 			
-			<Anchor>//api/name/domainName</Anchor>
+			<Anchor>//api/name/failed</Anchor>
             <NodeRef refid="1038"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSSimpleDBBatchDeleteAttributesRequest/domainName</TokenIdentifier>
-			<Abstract type="html">The name of the domain in which the attributes are being deleted.</Abstract>
-			<DeclaredIn>AWSSimpleDBModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSSQSChangeMessageVisibilityBatchResult/failed</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;A list of &lt;a&gt;BatchResultErrorEntry&lt;/a&gt; items.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSQSModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *domainName</Declaration>
+			<Declaration>@property (nonatomic, strong) NSArray *failed</Declaration>
 			
 			
-			<Anchor>//api/name/domainName</Anchor>
+			<Anchor>//api/name/failed</Anchor>
             <NodeRef refid="1038"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSSimpleDBBatchDeleteAttributesRequest/setItems:</TokenIdentifier>
-			<Abstract type="html">A list of items on which to perform the operation.</Abstract>
-			<DeclaredIn>AWSSimpleDBModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSQSChangeMessageVisibilityBatchResult/setSuccessful:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;A list of &lt;a&gt;ChangeMessageVisibilityBatchResultEntry&lt;/a&gt; items.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSQSModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSArray *items</Declaration>
+			<Declaration>@property (nonatomic, strong) NSArray *successful</Declaration>
 			
 			
-			<Anchor>//api/name/items</Anchor>
+			<Anchor>//api/name/successful</Anchor>
             <NodeRef refid="1038"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSSimpleDBBatchDeleteAttributesRequest/items</TokenIdentifier>
-			<Abstract type="html">A list of items on which to perform the operation.</Abstract>
-			<DeclaredIn>AWSSimpleDBModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSQSChangeMessageVisibilityBatchResult/successful</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;A list of &lt;a&gt;ChangeMessageVisibilityBatchResultEntry&lt;/a&gt; items.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSQSModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSArray *items</Declaration>
+			<Declaration>@property (nonatomic, strong) NSArray *successful</Declaration>
 			
 			
-			<Anchor>//api/name/items</Anchor>
+			<Anchor>//api/name/successful</Anchor>
             <NodeRef refid="1038"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSSimpleDBBatchDeleteAttributesRequest/items</TokenIdentifier>
-			<Abstract type="html">A list of items on which to perform the operation.</Abstract>
-			<DeclaredIn>AWSSimpleDBModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSSQSChangeMessageVisibilityBatchResult/successful</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;A list of &lt;a&gt;ChangeMessageVisibilityBatchResultEntry&lt;/a&gt; items.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSQSModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSArray *items</Declaration>
+			<Declaration>@property (nonatomic, strong) NSArray *successful</Declaration>
 			
 			
-			<Anchor>//api/name/items</Anchor>
+			<Anchor>//api/name/successful</Anchor>
             <NodeRef refid="1038"/>
 		</Token>
 		

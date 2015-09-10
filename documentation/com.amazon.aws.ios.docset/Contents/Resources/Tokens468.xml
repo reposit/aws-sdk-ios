@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSEC2IcmpTypeCode.html">
+	<File path="Classes/AWSEC2DiskImageDetail.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSEC2IcmpTypeCode</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Describes the ICMP type and code.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSEC2DiskImageDetail</TokenIdentifier>
+			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
             
 			
@@ -13,74 +13,110 @@
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2IcmpTypeCode/setCode:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The ICMP type. A value of -1 means all types.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DiskImageDetail/setBytes:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSNumber *code</Declaration>
+			<Declaration>@property (nonatomic, strong) NSNumber *bytes</Declaration>
 			
 			
-			<Anchor>//api/name/code</Anchor>
+			<Anchor>//api/name/bytes</Anchor>
             <NodeRef refid="468"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2IcmpTypeCode/code</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The ICMP type. A value of -1 means all types.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DiskImageDetail/bytes</TokenIdentifier>
+			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSNumber *code</Declaration>
+			<Declaration>@property (nonatomic, strong) NSNumber *bytes</Declaration>
 			
 			
-			<Anchor>//api/name/code</Anchor>
+			<Anchor>//api/name/bytes</Anchor>
             <NodeRef refid="468"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2IcmpTypeCode/code</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The ICMP type. A value of -1 means all types.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2DiskImageDetail/bytes</TokenIdentifier>
+			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSNumber *code</Declaration>
+			<Declaration>@property (nonatomic, strong) NSNumber *bytes</Declaration>
 			
 			
-			<Anchor>//api/name/code</Anchor>
+			<Anchor>//api/name/bytes</Anchor>
             <NodeRef refid="468"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2IcmpTypeCode/setTypes:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The ICMP code. A value of -1 means all codes for the specified ICMP type.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DiskImageDetail/setFormat:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The disk image format.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSNumber *types</Declaration>
+			<Declaration>@property (nonatomic, assign) AWSEC2DiskImageFormat format</Declaration>
 			
 			
-			<Anchor>//api/name/types</Anchor>
+			<Anchor>//api/name/format</Anchor>
             <NodeRef refid="468"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2IcmpTypeCode/types</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The ICMP code. A value of -1 means all codes for the specified ICMP type.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DiskImageDetail/format</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The disk image format.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSNumber *types</Declaration>
+			<Declaration>@property (nonatomic, assign) AWSEC2DiskImageFormat format</Declaration>
 			
 			
-			<Anchor>//api/name/types</Anchor>
+			<Anchor>//api/name/format</Anchor>
             <NodeRef refid="468"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2IcmpTypeCode/types</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The ICMP code. A value of -1 means all codes for the specified ICMP type.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2DiskImageDetail/format</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The disk image format.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSNumber *types</Declaration>
+			<Declaration>@property (nonatomic, assign) AWSEC2DiskImageFormat format</Declaration>
 			
 			
-			<Anchor>//api/name/types</Anchor>
+			<Anchor>//api/name/format</Anchor>
+            <NodeRef refid="468"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DiskImageDetail/setImportManifestUrl:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;A presigned URL for the import manifest stored in Amazon S3. For information about creating a presigned URL for an Amazon S3 object, read the &quot;Query String Request Authentication Alternative&quot; section of the Authenticating REST Requests topic in the &lt;i&gt;Amazon Simple Storage Service Developer Guide&lt;/i&gt;.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *importManifestUrl</Declaration>
+			
+			
+			<Anchor>//api/name/importManifestUrl</Anchor>
+            <NodeRef refid="468"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DiskImageDetail/importManifestUrl</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;A presigned URL for the import manifest stored in Amazon S3. For information about creating a presigned URL for an Amazon S3 object, read the &quot;Query String Request Authentication Alternative&quot; section of the Authenticating REST Requests topic in the &lt;i&gt;Amazon Simple Storage Service Developer Guide&lt;/i&gt;.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *importManifestUrl</Declaration>
+			
+			
+			<Anchor>//api/name/importManifestUrl</Anchor>
+            <NodeRef refid="468"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2DiskImageDetail/importManifestUrl</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;A presigned URL for the import manifest stored in Amazon S3. For information about creating a presigned URL for an Amazon S3 object, read the &quot;Query String Request Authentication Alternative&quot; section of the Authenticating REST Requests topic in the &lt;i&gt;Amazon Simple Storage Service Developer Guide&lt;/i&gt;.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *importManifestUrl</Declaration>
+			
+			
+			<Anchor>//api/name/importManifestUrl</Anchor>
             <NodeRef refid="468"/>
 		</Token>
 		

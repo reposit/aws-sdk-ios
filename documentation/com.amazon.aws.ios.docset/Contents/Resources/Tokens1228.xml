@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Constants/AWSValidationErrorType.html">
+	<File path="Constants/AWSElasticLoadBalancingErrorType.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/c/tdef/AWSValidationErrorType</TokenIdentifier>
-			<Abstract type="html">Copyright 2010-2015 Amazon.com, Inc. or its affiliates. All Rights Reserved.</Abstract>
-			<DeclaredIn>AWSValidation.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/c/tdef/AWSElasticLoadBalancingErrorType</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSElasticLoadBalancingModel.h</DeclaredIn>
             
 			
 			<NodeRef refid="1228"/>
@@ -14,151 +14,231 @@
 		
         
         <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSValidationUnknownError</TokenIdentifier>
+            <TokenIdentifier>//apple_ref/c/econst/AWSElasticLoadBalancingErrorUnknown</TokenIdentifier>
             <Abstract type="html"></Abstract>
-            <Declaration>AWSValidationUnknownError</Declaration>
+            <Declaration>AWSElasticLoadBalancingErrorUnknown</Declaration>
             
-            <DeclaredIn>AWSValidation.h</DeclaredIn>
+            <DeclaredIn>AWSElasticLoadBalancingModel.h</DeclaredIn>
             
             <NodeRef refid="1228"/>
         </Token>
         
         <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSValidationUnexpectedParameter</TokenIdentifier>
+            <TokenIdentifier>//apple_ref/c/econst/AWSElasticLoadBalancingErrorIncompleteSignature</TokenIdentifier>
             <Abstract type="html"></Abstract>
-            <Declaration>AWSValidationUnexpectedParameter</Declaration>
+            <Declaration>AWSElasticLoadBalancingErrorIncompleteSignature</Declaration>
             
-            <DeclaredIn>AWSValidation.h</DeclaredIn>
+            <DeclaredIn>AWSElasticLoadBalancingModel.h</DeclaredIn>
             
             <NodeRef refid="1228"/>
         </Token>
         
         <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSValidationUnhandledType</TokenIdentifier>
+            <TokenIdentifier>//apple_ref/c/econst/AWSElasticLoadBalancingErrorInvalidClientTokenId</TokenIdentifier>
             <Abstract type="html"></Abstract>
-            <Declaration>AWSValidationUnhandledType</Declaration>
+            <Declaration>AWSElasticLoadBalancingErrorInvalidClientTokenId</Declaration>
             
-            <DeclaredIn>AWSValidation.h</DeclaredIn>
+            <DeclaredIn>AWSElasticLoadBalancingModel.h</DeclaredIn>
             
             <NodeRef refid="1228"/>
         </Token>
         
         <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSValidationMissingRequiredParameter</TokenIdentifier>
+            <TokenIdentifier>//apple_ref/c/econst/AWSElasticLoadBalancingErrorMissingAuthenticationToken</TokenIdentifier>
             <Abstract type="html"></Abstract>
-            <Declaration>AWSValidationMissingRequiredParameter</Declaration>
+            <Declaration>AWSElasticLoadBalancingErrorMissingAuthenticationToken</Declaration>
             
-            <DeclaredIn>AWSValidation.h</DeclaredIn>
+            <DeclaredIn>AWSElasticLoadBalancingModel.h</DeclaredIn>
             
             <NodeRef refid="1228"/>
         </Token>
         
         <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSValidationOutOfRangeParameter</TokenIdentifier>
+            <TokenIdentifier>//apple_ref/c/econst/AWSElasticLoadBalancingErrorAccessPointNotFound</TokenIdentifier>
             <Abstract type="html"></Abstract>
-            <Declaration>AWSValidationOutOfRangeParameter</Declaration>
+            <Declaration>AWSElasticLoadBalancingErrorAccessPointNotFound</Declaration>
             
-            <DeclaredIn>AWSValidation.h</DeclaredIn>
+            <DeclaredIn>AWSElasticLoadBalancingModel.h</DeclaredIn>
             
             <NodeRef refid="1228"/>
         </Token>
         
         <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSValidationInvalidStringParameter</TokenIdentifier>
+            <TokenIdentifier>//apple_ref/c/econst/AWSElasticLoadBalancingErrorCertificateNotFound</TokenIdentifier>
             <Abstract type="html"></Abstract>
-            <Declaration>AWSValidationInvalidStringParameter</Declaration>
+            <Declaration>AWSElasticLoadBalancingErrorCertificateNotFound</Declaration>
             
-            <DeclaredIn>AWSValidation.h</DeclaredIn>
+            <DeclaredIn>AWSElasticLoadBalancingModel.h</DeclaredIn>
             
             <NodeRef refid="1228"/>
         </Token>
         
         <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSValidationUnexpectedStringParameter</TokenIdentifier>
+            <TokenIdentifier>//apple_ref/c/econst/AWSElasticLoadBalancingErrorDuplicateAccessPointName</TokenIdentifier>
             <Abstract type="html"></Abstract>
-            <Declaration>AWSValidationUnexpectedStringParameter</Declaration>
+            <Declaration>AWSElasticLoadBalancingErrorDuplicateAccessPointName</Declaration>
             
-            <DeclaredIn>AWSValidation.h</DeclaredIn>
+            <DeclaredIn>AWSElasticLoadBalancingModel.h</DeclaredIn>
             
             <NodeRef refid="1228"/>
         </Token>
         
         <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSValidationInvalidParameterType</TokenIdentifier>
+            <TokenIdentifier>//apple_ref/c/econst/AWSElasticLoadBalancingErrorDuplicateListener</TokenIdentifier>
             <Abstract type="html"></Abstract>
-            <Declaration>AWSValidationInvalidParameterType</Declaration>
+            <Declaration>AWSElasticLoadBalancingErrorDuplicateListener</Declaration>
             
-            <DeclaredIn>AWSValidation.h</DeclaredIn>
+            <DeclaredIn>AWSElasticLoadBalancingModel.h</DeclaredIn>
             
             <NodeRef refid="1228"/>
         </Token>
         
         <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSValidationInvalidBase64Data</TokenIdentifier>
+            <TokenIdentifier>//apple_ref/c/econst/AWSElasticLoadBalancingErrorDuplicatePolicyName</TokenIdentifier>
             <Abstract type="html"></Abstract>
-            <Declaration>AWSValidationInvalidBase64Data</Declaration>
+            <Declaration>AWSElasticLoadBalancingErrorDuplicatePolicyName</Declaration>
             
-            <DeclaredIn>AWSValidation.h</DeclaredIn>
+            <DeclaredIn>AWSElasticLoadBalancingModel.h</DeclaredIn>
             
             <NodeRef refid="1228"/>
         </Token>
         
         <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSValidationHeaderTargetInvalid</TokenIdentifier>
+            <TokenIdentifier>//apple_ref/c/econst/AWSElasticLoadBalancingErrorDuplicateTagKeys</TokenIdentifier>
             <Abstract type="html"></Abstract>
-            <Declaration>AWSValidationHeaderTargetInvalid</Declaration>
+            <Declaration>AWSElasticLoadBalancingErrorDuplicateTagKeys</Declaration>
             
-            <DeclaredIn>AWSValidation.h</DeclaredIn>
+            <DeclaredIn>AWSElasticLoadBalancingModel.h</DeclaredIn>
             
             <NodeRef refid="1228"/>
         </Token>
         
         <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSValidationHeaderAPIActionIsUndefined</TokenIdentifier>
+            <TokenIdentifier>//apple_ref/c/econst/AWSElasticLoadBalancingErrorInvalidConfigurationRequest</TokenIdentifier>
             <Abstract type="html"></Abstract>
-            <Declaration>AWSValidationHeaderAPIActionIsUndefined</Declaration>
+            <Declaration>AWSElasticLoadBalancingErrorInvalidConfigurationRequest</Declaration>
             
-            <DeclaredIn>AWSValidation.h</DeclaredIn>
+            <DeclaredIn>AWSElasticLoadBalancingModel.h</DeclaredIn>
             
             <NodeRef refid="1228"/>
         </Token>
         
         <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSValidationHeaderDefinitionFileIsNotFound</TokenIdentifier>
+            <TokenIdentifier>//apple_ref/c/econst/AWSElasticLoadBalancingErrorInvalidEndPoint</TokenIdentifier>
             <Abstract type="html"></Abstract>
-            <Declaration>AWSValidationHeaderDefinitionFileIsNotFound</Declaration>
+            <Declaration>AWSElasticLoadBalancingErrorInvalidEndPoint</Declaration>
             
-            <DeclaredIn>AWSValidation.h</DeclaredIn>
+            <DeclaredIn>AWSElasticLoadBalancingModel.h</DeclaredIn>
             
             <NodeRef refid="1228"/>
         </Token>
         
         <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSValidationHeaderDefinitionFileIsEmpty</TokenIdentifier>
+            <TokenIdentifier>//apple_ref/c/econst/AWSElasticLoadBalancingErrorInvalidScheme</TokenIdentifier>
             <Abstract type="html"></Abstract>
-            <Declaration>AWSValidationHeaderDefinitionFileIsEmpty</Declaration>
+            <Declaration>AWSElasticLoadBalancingErrorInvalidScheme</Declaration>
             
-            <DeclaredIn>AWSValidation.h</DeclaredIn>
+            <DeclaredIn>AWSElasticLoadBalancingModel.h</DeclaredIn>
             
             <NodeRef refid="1228"/>
         </Token>
         
         <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSValidationHeaderAPIActionIsInvalid</TokenIdentifier>
+            <TokenIdentifier>//apple_ref/c/econst/AWSElasticLoadBalancingErrorInvalidSecurityGroup</TokenIdentifier>
             <Abstract type="html"></Abstract>
-            <Declaration>AWSValidationHeaderAPIActionIsInvalid</Declaration>
+            <Declaration>AWSElasticLoadBalancingErrorInvalidSecurityGroup</Declaration>
             
-            <DeclaredIn>AWSValidation.h</DeclaredIn>
+            <DeclaredIn>AWSElasticLoadBalancingModel.h</DeclaredIn>
             
             <NodeRef refid="1228"/>
         </Token>
         
         <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSValidationURIIsInvalid</TokenIdentifier>
+            <TokenIdentifier>//apple_ref/c/econst/AWSElasticLoadBalancingErrorInvalidSubnet</TokenIdentifier>
             <Abstract type="html"></Abstract>
-            <Declaration>AWSValidationURIIsInvalid</Declaration>
+            <Declaration>AWSElasticLoadBalancingErrorInvalidSubnet</Declaration>
             
-            <DeclaredIn>AWSValidation.h</DeclaredIn>
+            <DeclaredIn>AWSElasticLoadBalancingModel.h</DeclaredIn>
+            
+            <NodeRef refid="1228"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/AWSElasticLoadBalancingErrorListenerNotFound</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>AWSElasticLoadBalancingErrorListenerNotFound</Declaration>
+            
+            <DeclaredIn>AWSElasticLoadBalancingModel.h</DeclaredIn>
+            
+            <NodeRef refid="1228"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/AWSElasticLoadBalancingErrorLoadBalancerAttributeNotFound</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>AWSElasticLoadBalancingErrorLoadBalancerAttributeNotFound</Declaration>
+            
+            <DeclaredIn>AWSElasticLoadBalancingModel.h</DeclaredIn>
+            
+            <NodeRef refid="1228"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/AWSElasticLoadBalancingErrorPolicyNotFound</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>AWSElasticLoadBalancingErrorPolicyNotFound</Declaration>
+            
+            <DeclaredIn>AWSElasticLoadBalancingModel.h</DeclaredIn>
+            
+            <NodeRef refid="1228"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/AWSElasticLoadBalancingErrorPolicyTypeNotFound</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>AWSElasticLoadBalancingErrorPolicyTypeNotFound</Declaration>
+            
+            <DeclaredIn>AWSElasticLoadBalancingModel.h</DeclaredIn>
+            
+            <NodeRef refid="1228"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/AWSElasticLoadBalancingErrorSubnetNotFound</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>AWSElasticLoadBalancingErrorSubnetNotFound</Declaration>
+            
+            <DeclaredIn>AWSElasticLoadBalancingModel.h</DeclaredIn>
+            
+            <NodeRef refid="1228"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/AWSElasticLoadBalancingErrorTooManyAccessPoints</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>AWSElasticLoadBalancingErrorTooManyAccessPoints</Declaration>
+            
+            <DeclaredIn>AWSElasticLoadBalancingModel.h</DeclaredIn>
+            
+            <NodeRef refid="1228"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/AWSElasticLoadBalancingErrorTooManyPolicies</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>AWSElasticLoadBalancingErrorTooManyPolicies</Declaration>
+            
+            <DeclaredIn>AWSElasticLoadBalancingModel.h</DeclaredIn>
+            
+            <NodeRef refid="1228"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/AWSElasticLoadBalancingErrorTooManyTags</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>AWSElasticLoadBalancingErrorTooManyTags</Declaration>
+            
+            <DeclaredIn>AWSElasticLoadBalancingModel.h</DeclaredIn>
             
             <NodeRef refid="1228"/>
         </Token>

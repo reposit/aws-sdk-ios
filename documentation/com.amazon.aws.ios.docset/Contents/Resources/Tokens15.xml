@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSAutoScalingBlockDeviceMapping.html">
+	<File path="Classes/AWSAutoScalingAutoScalingInstancesType.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSAutoScalingBlockDeviceMapping</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt; The &lt;code&gt;BlockDeviceMapping&lt;/code&gt; data type. &lt;/p&gt;
-Required parameters: [DeviceName]</Abstract>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSAutoScalingAutoScalingInstancesType</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; The &lt;code&gt;AutoScalingInstancesType&lt;/code&gt; data type. &lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
             
 			
@@ -14,146 +13,74 @@ Required parameters: [DeviceName]</Abstract>
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingBlockDeviceMapping/setDeviceName:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt; The name of the device within Amazon EC2 (for example, /dev/sdh or xvdh). &lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingAutoScalingInstancesType/setAutoScalingInstances:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; A list of Auto Scaling instances. &lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *deviceName</Declaration>
+			<Declaration>@property (nonatomic, strong) NSArray *autoScalingInstances</Declaration>
 			
 			
-			<Anchor>//api/name/deviceName</Anchor>
+			<Anchor>//api/name/autoScalingInstances</Anchor>
             <NodeRef refid="15"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingBlockDeviceMapping/deviceName</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt; The name of the device within Amazon EC2 (for example, /dev/sdh or xvdh). &lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingAutoScalingInstancesType/autoScalingInstances</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; A list of Auto Scaling instances. &lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *deviceName</Declaration>
+			<Declaration>@property (nonatomic, strong) NSArray *autoScalingInstances</Declaration>
 			
 			
-			<Anchor>//api/name/deviceName</Anchor>
+			<Anchor>//api/name/autoScalingInstances</Anchor>
             <NodeRef refid="15"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSAutoScalingBlockDeviceMapping/deviceName</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt; The name of the device within Amazon EC2 (for example, /dev/sdh or xvdh). &lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSAutoScalingAutoScalingInstancesType/autoScalingInstances</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; A list of Auto Scaling instances. &lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *deviceName</Declaration>
+			<Declaration>@property (nonatomic, strong) NSArray *autoScalingInstances</Declaration>
 			
 			
-			<Anchor>//api/name/deviceName</Anchor>
+			<Anchor>//api/name/autoScalingInstances</Anchor>
             <NodeRef refid="15"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingBlockDeviceMapping/setEbs:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt; The Elastic Block Storage volume information. &lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingAutoScalingInstancesType/setNextToken:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; A string that marks the start of the next batch of returned results. &lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) AWSAutoScalingEbs *ebs</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *nextToken</Declaration>
 			
 			
-			<Anchor>//api/name/ebs</Anchor>
+			<Anchor>//api/name/nextToken</Anchor>
             <NodeRef refid="15"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingBlockDeviceMapping/ebs</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt; The Elastic Block Storage volume information. &lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingAutoScalingInstancesType/nextToken</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; A string that marks the start of the next batch of returned results. &lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) AWSAutoScalingEbs *ebs</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *nextToken</Declaration>
 			
 			
-			<Anchor>//api/name/ebs</Anchor>
+			<Anchor>//api/name/nextToken</Anchor>
             <NodeRef refid="15"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSAutoScalingBlockDeviceMapping/ebs</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt; The Elastic Block Storage volume information. &lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSAutoScalingAutoScalingInstancesType/nextToken</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; A string that marks the start of the next batch of returned results. &lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) AWSAutoScalingEbs *ebs</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *nextToken</Declaration>
 			
 			
-			<Anchor>//api/name/ebs</Anchor>
-            <NodeRef refid="15"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingBlockDeviceMapping/setNoDevice:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt; Suppresses the device mapping. &lt;/p&gt;&lt;note&gt;If &lt;code&gt;NoDevice&lt;/code&gt; is set to &lt;code&gt;true&lt;/code&gt; for the root device, the instance might fail the EC2 health check. Auto Scaling launches a replacement instance if the instance fails the health check.&lt;/note&gt;</Abstract>
-			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSNumber *noDevice</Declaration>
-			
-			
-			<Anchor>//api/name/noDevice</Anchor>
-            <NodeRef refid="15"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingBlockDeviceMapping/noDevice</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt; Suppresses the device mapping. &lt;/p&gt;&lt;note&gt;If &lt;code&gt;NoDevice&lt;/code&gt; is set to &lt;code&gt;true&lt;/code&gt; for the root device, the instance might fail the EC2 health check. Auto Scaling launches a replacement instance if the instance fails the health check.&lt;/note&gt;</Abstract>
-			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSNumber *noDevice</Declaration>
-			
-			
-			<Anchor>//api/name/noDevice</Anchor>
-            <NodeRef refid="15"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSAutoScalingBlockDeviceMapping/noDevice</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt; Suppresses the device mapping. &lt;/p&gt;&lt;note&gt;If &lt;code&gt;NoDevice&lt;/code&gt; is set to &lt;code&gt;true&lt;/code&gt; for the root device, the instance might fail the EC2 health check. Auto Scaling launches a replacement instance if the instance fails the health check.&lt;/note&gt;</Abstract>
-			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSNumber *noDevice</Declaration>
-			
-			
-			<Anchor>//api/name/noDevice</Anchor>
-            <NodeRef refid="15"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingBlockDeviceMapping/setVirtualName:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The virtual name associated with the device. &lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *virtualName</Declaration>
-			
-			
-			<Anchor>//api/name/virtualName</Anchor>
-            <NodeRef refid="15"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingBlockDeviceMapping/virtualName</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The virtual name associated with the device. &lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *virtualName</Declaration>
-			
-			
-			<Anchor>//api/name/virtualName</Anchor>
-            <NodeRef refid="15"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSAutoScalingBlockDeviceMapping/virtualName</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The virtual name associated with the device. &lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *virtualName</Declaration>
-			
-			
-			<Anchor>//api/name/virtualName</Anchor>
+			<Anchor>//api/name/nextToken</Anchor>
             <NodeRef refid="15"/>
 		</Token>
 		

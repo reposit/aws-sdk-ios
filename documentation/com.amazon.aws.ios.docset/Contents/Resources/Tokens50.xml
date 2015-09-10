@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSAutoScalingEnterStandbyQuery.html">
+	<File path="Classes/AWSAutoScalingEnterStandbyAnswer.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSAutoScalingEnterStandbyQuery</TokenIdentifier>
-			<Abstract type="html"></Abstract>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSAutoScalingEnterStandbyAnswer</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The output of the &lt;a&gt;EnterStandby&lt;/a&gt; action. &lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
             
 			
@@ -13,110 +13,38 @@
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingEnterStandbyQuery/setAutoScalingGroupName:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt; The name of the Auto Scaling group from which to move instances into Standby mode. &lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingEnterStandbyAnswer/setActivities:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; A list describing the activities related to moving instances into Standby mode. &lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *autoScalingGroupName</Declaration>
+			<Declaration>@property (nonatomic, strong) NSArray *activities</Declaration>
 			
 			
-			<Anchor>//api/name/autoScalingGroupName</Anchor>
+			<Anchor>//api/name/activities</Anchor>
             <NodeRef refid="50"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingEnterStandbyQuery/autoScalingGroupName</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt; The name of the Auto Scaling group from which to move instances into Standby mode. &lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingEnterStandbyAnswer/activities</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; A list describing the activities related to moving instances into Standby mode. &lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *autoScalingGroupName</Declaration>
+			<Declaration>@property (nonatomic, strong) NSArray *activities</Declaration>
 			
 			
-			<Anchor>//api/name/autoScalingGroupName</Anchor>
+			<Anchor>//api/name/activities</Anchor>
             <NodeRef refid="50"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSAutoScalingEnterStandbyQuery/autoScalingGroupName</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt; The name of the Auto Scaling group from which to move instances into Standby mode. &lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSAutoScalingEnterStandbyAnswer/activities</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; A list describing the activities related to moving instances into Standby mode. &lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *autoScalingGroupName</Declaration>
+			<Declaration>@property (nonatomic, strong) NSArray *activities</Declaration>
 			
 			
-			<Anchor>//api/name/autoScalingGroupName</Anchor>
-            <NodeRef refid="50"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingEnterStandbyQuery/setInstanceIds:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt; The instances to move into Standby mode. You must specify at least one instance ID. &lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSArray *instanceIds</Declaration>
-			
-			
-			<Anchor>//api/name/instanceIds</Anchor>
-            <NodeRef refid="50"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingEnterStandbyQuery/instanceIds</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt; The instances to move into Standby mode. You must specify at least one instance ID. &lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSArray *instanceIds</Declaration>
-			
-			
-			<Anchor>//api/name/instanceIds</Anchor>
-            <NodeRef refid="50"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSAutoScalingEnterStandbyQuery/instanceIds</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt; The instances to move into Standby mode. You must specify at least one instance ID. &lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSArray *instanceIds</Declaration>
-			
-			
-			<Anchor>//api/name/instanceIds</Anchor>
-            <NodeRef refid="50"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingEnterStandbyQuery/setShouldDecrementDesiredCapacity:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt; Specifies whether the instances moved to Standby mode count as part of the Auto Scaling group&apos;s desired capacity. If set, the desired capacity for the Auto Scaling group decrements by the number of instances moved to Standby mode. &lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSNumber *shouldDecrementDesiredCapacity</Declaration>
-			
-			
-			<Anchor>//api/name/shouldDecrementDesiredCapacity</Anchor>
-            <NodeRef refid="50"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingEnterStandbyQuery/shouldDecrementDesiredCapacity</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt; Specifies whether the instances moved to Standby mode count as part of the Auto Scaling group&apos;s desired capacity. If set, the desired capacity for the Auto Scaling group decrements by the number of instances moved to Standby mode. &lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSNumber *shouldDecrementDesiredCapacity</Declaration>
-			
-			
-			<Anchor>//api/name/shouldDecrementDesiredCapacity</Anchor>
-            <NodeRef refid="50"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSAutoScalingEnterStandbyQuery/shouldDecrementDesiredCapacity</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt; Specifies whether the instances moved to Standby mode count as part of the Auto Scaling group&apos;s desired capacity. If set, the desired capacity for the Auto Scaling group decrements by the number of instances moved to Standby mode. &lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSNumber *shouldDecrementDesiredCapacity</Declaration>
-			
-			
-			<Anchor>//api/name/shouldDecrementDesiredCapacity</Anchor>
+			<Anchor>//api/name/activities</Anchor>
             <NodeRef refid="50"/>
 		</Token>
 		

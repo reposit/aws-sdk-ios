@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSS3ReplicateObjectResult.html">
+	<File path="Classes/AWSS3GetObjectTorrentOutput.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSS3ReplicateObjectResult</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSS3GetObjectTorrentOutput</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSS3Model.h</DeclaredIn>
             
@@ -13,74 +13,38 @@
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3ReplicateObjectResult/setETag:</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3GetObjectTorrentOutput/setBody:</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *ETag</Declaration>
+			<Declaration>@property (nonatomic, strong) id body</Declaration>
 			
 			
-			<Anchor>//api/name/ETag</Anchor>
+			<Anchor>//api/name/body</Anchor>
             <NodeRef refid="868"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3ReplicateObjectResult/ETag</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3GetObjectTorrentOutput/body</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *ETag</Declaration>
+			<Declaration>@property (nonatomic, strong) id body</Declaration>
 			
 			
-			<Anchor>//api/name/ETag</Anchor>
+			<Anchor>//api/name/body</Anchor>
             <NodeRef refid="868"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSS3ReplicateObjectResult/ETag</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSS3GetObjectTorrentOutput/body</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *ETag</Declaration>
+			<Declaration>@property (nonatomic, strong) id body</Declaration>
 			
 			
-			<Anchor>//api/name/ETag</Anchor>
-            <NodeRef refid="868"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3ReplicateObjectResult/setLastModified:</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSDate *lastModified</Declaration>
-			
-			
-			<Anchor>//api/name/lastModified</Anchor>
-            <NodeRef refid="868"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3ReplicateObjectResult/lastModified</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSDate *lastModified</Declaration>
-			
-			
-			<Anchor>//api/name/lastModified</Anchor>
-            <NodeRef refid="868"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSS3ReplicateObjectResult/lastModified</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSDate *lastModified</Declaration>
-			
-			
-			<Anchor>//api/name/lastModified</Anchor>
+			<Anchor>//api/name/body</Anchor>
             <NodeRef refid="868"/>
 		</Token>
 		

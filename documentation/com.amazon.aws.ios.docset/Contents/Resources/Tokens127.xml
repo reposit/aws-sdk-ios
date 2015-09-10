@@ -4,7 +4,7 @@
 		
 		<Token>
 			<TokenIdentifier>//apple_ref/occ/cl/AWSCognitoIdentityGetCredentialsForIdentityResponse</TokenIdentifier>
-			<Abstract type="html"></Abstract>
+			<Abstract type="html">&lt;p&gt;Returned in response to a successful &lt;code&gt;GetCredentialsForIdentity&lt;/code&gt; operation.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSCognitoIdentityModel.h</DeclaredIn>
             
 			
@@ -14,7 +14,7 @@
 		
 		<Token>
 			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoIdentityGetCredentialsForIdentityResponse/setCredentials:</TokenIdentifier>
-			<Abstract type="html"></Abstract>
+			<Abstract type="html">&lt;p&gt;Credentials for the the provided identity ID.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSCognitoIdentityModel.h</DeclaredIn>
 			
 			<Declaration>@property (nonatomic, strong) AWSCognitoIdentityCredentials *credentials</Declaration>
@@ -26,7 +26,7 @@
 		
 		<Token>
 			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoIdentityGetCredentialsForIdentityResponse/credentials</TokenIdentifier>
-			<Abstract type="html"></Abstract>
+			<Abstract type="html">&lt;p&gt;Credentials for the the provided identity ID.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSCognitoIdentityModel.h</DeclaredIn>
 			
 			<Declaration>@property (nonatomic, strong) AWSCognitoIdentityCredentials *credentials</Declaration>
@@ -38,7 +38,7 @@
 		
 		<Token>
 			<TokenIdentifier>//apple_ref/occ/instp/AWSCognitoIdentityGetCredentialsForIdentityResponse/credentials</TokenIdentifier>
-			<Abstract type="html"></Abstract>
+			<Abstract type="html">&lt;p&gt;Credentials for the the provided identity ID.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSCognitoIdentityModel.h</DeclaredIn>
 			
 			<Declaration>@property (nonatomic, strong) AWSCognitoIdentityCredentials *credentials</Declaration>
@@ -50,7 +50,7 @@
 		
 		<Token>
 			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoIdentityGetCredentialsForIdentityResponse/setIdentityId:</TokenIdentifier>
-			<Abstract type="html"></Abstract>
+			<Abstract type="html">&lt;p&gt;A unique identifier in the format REGION:GUID.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSCognitoIdentityModel.h</DeclaredIn>
 			
 			<Declaration>@property (nonatomic, strong) NSString *identityId</Declaration>
@@ -62,7 +62,7 @@
 		
 		<Token>
 			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoIdentityGetCredentialsForIdentityResponse/identityId</TokenIdentifier>
-			<Abstract type="html"></Abstract>
+			<Abstract type="html">&lt;p&gt;A unique identifier in the format REGION:GUID.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSCognitoIdentityModel.h</DeclaredIn>
 			
 			<Declaration>@property (nonatomic, strong) NSString *identityId</Declaration>
@@ -74,7 +74,7 @@
 		
 		<Token>
 			<TokenIdentifier>//apple_ref/occ/instp/AWSCognitoIdentityGetCredentialsForIdentityResponse/identityId</TokenIdentifier>
-			<Abstract type="html"></Abstract>
+			<Abstract type="html">&lt;p&gt;A unique identifier in the format REGION:GUID.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSCognitoIdentityModel.h</DeclaredIn>
 			
 			<Declaration>@property (nonatomic, strong) NSString *identityId</Declaration>

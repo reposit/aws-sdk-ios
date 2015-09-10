@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSCognitoSyncSetIdentityPoolConfigurationRequest.html">
+	<File path="Classes/AWSCognitoSyncPushSync.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSCognitoSyncSetIdentityPoolConfigurationRequest</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;A request to &lt;code&gt;SetIdentityPoolConfiguration&lt;/code&gt;.&lt;/p&gt;
-Required parameters: [IdentityPoolId]</Abstract>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSCognitoSyncPushSync</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Configuration options to be applied to the identity pool.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSCognitoSyncModel.h</DeclaredIn>
             
 			
@@ -14,74 +13,74 @@ Required parameters: [IdentityPoolId]</Abstract>
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoSyncSetIdentityPoolConfigurationRequest/setIdentityPoolId:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;A name-spaced GUID (for example, us-east-1:23EC4050-6AEA-7089-A2DD-08002EXAMPLE) created by Amazon Cognito. This is the ID of the pool to modify.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoSyncPushSync/setApplicationArns:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;List of SNS platform application ARNs that could be used by clients.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSCognitoSyncModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *identityPoolId</Declaration>
+			<Declaration>@property (nonatomic, strong) NSArray *applicationArns</Declaration>
 			
 			
-			<Anchor>//api/name/identityPoolId</Anchor>
+			<Anchor>//api/name/applicationArns</Anchor>
             <NodeRef refid="182"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoSyncSetIdentityPoolConfigurationRequest/identityPoolId</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;A name-spaced GUID (for example, us-east-1:23EC4050-6AEA-7089-A2DD-08002EXAMPLE) created by Amazon Cognito. This is the ID of the pool to modify.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoSyncPushSync/applicationArns</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;List of SNS platform application ARNs that could be used by clients.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSCognitoSyncModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *identityPoolId</Declaration>
+			<Declaration>@property (nonatomic, strong) NSArray *applicationArns</Declaration>
 			
 			
-			<Anchor>//api/name/identityPoolId</Anchor>
+			<Anchor>//api/name/applicationArns</Anchor>
             <NodeRef refid="182"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSCognitoSyncSetIdentityPoolConfigurationRequest/identityPoolId</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;A name-spaced GUID (for example, us-east-1:23EC4050-6AEA-7089-A2DD-08002EXAMPLE) created by Amazon Cognito. This is the ID of the pool to modify.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSCognitoSyncPushSync/applicationArns</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;List of SNS platform application ARNs that could be used by clients.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSCognitoSyncModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *identityPoolId</Declaration>
+			<Declaration>@property (nonatomic, strong) NSArray *applicationArns</Declaration>
 			
 			
-			<Anchor>//api/name/identityPoolId</Anchor>
+			<Anchor>//api/name/applicationArns</Anchor>
             <NodeRef refid="182"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoSyncSetIdentityPoolConfigurationRequest/setPushSync:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Configuration options to be applied to the identity pool.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoSyncPushSync/setRoleArn:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;A role configured to allow Cognito to call SNS on behalf of the developer.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSCognitoSyncModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) AWSCognitoSyncPushSync *pushSync</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *roleArn</Declaration>
 			
 			
-			<Anchor>//api/name/pushSync</Anchor>
+			<Anchor>//api/name/roleArn</Anchor>
             <NodeRef refid="182"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoSyncSetIdentityPoolConfigurationRequest/pushSync</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Configuration options to be applied to the identity pool.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoSyncPushSync/roleArn</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;A role configured to allow Cognito to call SNS on behalf of the developer.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSCognitoSyncModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) AWSCognitoSyncPushSync *pushSync</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *roleArn</Declaration>
 			
 			
-			<Anchor>//api/name/pushSync</Anchor>
+			<Anchor>//api/name/roleArn</Anchor>
             <NodeRef refid="182"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSCognitoSyncSetIdentityPoolConfigurationRequest/pushSync</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Configuration options to be applied to the identity pool.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSCognitoSyncPushSync/roleArn</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;A role configured to allow Cognito to call SNS on behalf of the developer.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSCognitoSyncModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) AWSCognitoSyncPushSync *pushSync</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *roleArn</Declaration>
 			
 			
-			<Anchor>//api/name/pushSync</Anchor>
+			<Anchor>//api/name/roleArn</Anchor>
             <NodeRef refid="182"/>
 		</Token>
 		

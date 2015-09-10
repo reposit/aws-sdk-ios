@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSElasticLoadBalancingPolicies.html">
+	<File path="Classes/AWSElasticLoadBalancingDescribeEndPointStateOutput.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSElasticLoadBalancingPolicies</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSElasticLoadBalancingDescribeEndPointStateOutput</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSElasticLoadBalancingModel.h</DeclaredIn>
             
@@ -13,110 +13,38 @@
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSElasticLoadBalancingPolicies/setAppCookieStickinessPolicies:</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSElasticLoadBalancingDescribeEndPointStateOutput/setInstanceStates:</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSElasticLoadBalancingModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSArray *appCookieStickinessPolicies</Declaration>
+			<Declaration>@property (nonatomic, strong) NSArray *instanceStates</Declaration>
 			
 			
-			<Anchor>//api/name/appCookieStickinessPolicies</Anchor>
+			<Anchor>//api/name/instanceStates</Anchor>
             <NodeRef refid="685"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSElasticLoadBalancingPolicies/appCookieStickinessPolicies</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSElasticLoadBalancingDescribeEndPointStateOutput/instanceStates</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSElasticLoadBalancingModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSArray *appCookieStickinessPolicies</Declaration>
+			<Declaration>@property (nonatomic, strong) NSArray *instanceStates</Declaration>
 			
 			
-			<Anchor>//api/name/appCookieStickinessPolicies</Anchor>
+			<Anchor>//api/name/instanceStates</Anchor>
             <NodeRef refid="685"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSElasticLoadBalancingPolicies/appCookieStickinessPolicies</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSElasticLoadBalancingDescribeEndPointStateOutput/instanceStates</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSElasticLoadBalancingModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSArray *appCookieStickinessPolicies</Declaration>
+			<Declaration>@property (nonatomic, strong) NSArray *instanceStates</Declaration>
 			
 			
-			<Anchor>//api/name/appCookieStickinessPolicies</Anchor>
-            <NodeRef refid="685"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSElasticLoadBalancingPolicies/setLBCookieStickinessPolicies:</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSElasticLoadBalancingModel.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSArray *LBCookieStickinessPolicies</Declaration>
-			
-			
-			<Anchor>//api/name/LBCookieStickinessPolicies</Anchor>
-            <NodeRef refid="685"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSElasticLoadBalancingPolicies/LBCookieStickinessPolicies</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSElasticLoadBalancingModel.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSArray *LBCookieStickinessPolicies</Declaration>
-			
-			
-			<Anchor>//api/name/LBCookieStickinessPolicies</Anchor>
-            <NodeRef refid="685"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSElasticLoadBalancingPolicies/LBCookieStickinessPolicies</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSElasticLoadBalancingModel.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSArray *LBCookieStickinessPolicies</Declaration>
-			
-			
-			<Anchor>//api/name/LBCookieStickinessPolicies</Anchor>
-            <NodeRef refid="685"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSElasticLoadBalancingPolicies/setOtherPolicies:</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSElasticLoadBalancingModel.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSArray *otherPolicies</Declaration>
-			
-			
-			<Anchor>//api/name/otherPolicies</Anchor>
-            <NodeRef refid="685"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSElasticLoadBalancingPolicies/otherPolicies</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSElasticLoadBalancingModel.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSArray *otherPolicies</Declaration>
-			
-			
-			<Anchor>//api/name/otherPolicies</Anchor>
-            <NodeRef refid="685"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSElasticLoadBalancingPolicies/otherPolicies</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSElasticLoadBalancingModel.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSArray *otherPolicies</Declaration>
-			
-			
-			<Anchor>//api/name/otherPolicies</Anchor>
+			<Anchor>//api/name/instanceStates</Anchor>
             <NodeRef refid="685"/>
 		</Token>
 		

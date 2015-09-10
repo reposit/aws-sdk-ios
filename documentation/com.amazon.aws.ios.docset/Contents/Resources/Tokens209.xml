@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSDynamoDBDescribeTableInput.html">
+	<File path="Classes/AWSDynamoDBCreateTableOutput.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSDynamoDBDescribeTableInput</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Represents the input of a &lt;i&gt;DescribeTable&lt;/i&gt; operation.&lt;/p&gt;
-Required parameters: [TableName]</Abstract>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSDynamoDBCreateTableOutput</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Represents the output of a &lt;i&gt;CreateTable&lt;/i&gt; operation.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
             
 			
@@ -14,38 +13,38 @@ Required parameters: [TableName]</Abstract>
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSDynamoDBDescribeTableInput/setTableName:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt; The name of the table to describe.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSDynamoDBCreateTableOutput/setTableDescription:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Represents the properties of a table.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *tableName</Declaration>
+			<Declaration>@property (nonatomic, strong) AWSDynamoDBTableDescription *tableDescription</Declaration>
 			
 			
-			<Anchor>//api/name/tableName</Anchor>
+			<Anchor>//api/name/tableDescription</Anchor>
             <NodeRef refid="209"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSDynamoDBDescribeTableInput/tableName</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt; The name of the table to describe.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSDynamoDBCreateTableOutput/tableDescription</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Represents the properties of a table.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *tableName</Declaration>
+			<Declaration>@property (nonatomic, strong) AWSDynamoDBTableDescription *tableDescription</Declaration>
 			
 			
-			<Anchor>//api/name/tableName</Anchor>
+			<Anchor>//api/name/tableDescription</Anchor>
             <NodeRef refid="209"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSDynamoDBDescribeTableInput/tableName</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt; The name of the table to describe.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSDynamoDBCreateTableOutput/tableDescription</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Represents the properties of a table.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *tableName</Declaration>
+			<Declaration>@property (nonatomic, strong) AWSDynamoDBTableDescription *tableDescription</Declaration>
 			
 			
-			<Anchor>//api/name/tableName</Anchor>
+			<Anchor>//api/name/tableDescription</Anchor>
             <NodeRef refid="209"/>
 		</Token>
 		

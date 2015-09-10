@@ -4,7 +4,7 @@
 		
 		<Token>
 			<TokenIdentifier>//apple_ref/occ/cl/AWSCognitoDatasetMetadata</TokenIdentifier>
-			<Abstract type="html">Copyright 2015 Amazon.com, Inc. or its affiliates. All Rights Reserved.</Abstract>
+			<Abstract type="html">An object that encapsulates the dataset metadata.</Abstract>
 			<DeclaredIn>AWSCognitoDataset.h</DeclaredIn>
             
 			

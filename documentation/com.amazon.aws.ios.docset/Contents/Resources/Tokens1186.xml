@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Constants/AWSKinesisStreamStatus.html">
+	<File path="Constants/AWSEC2MonitoringState.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/c/tdef/AWSKinesisStreamStatus</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/c/tdef/AWSEC2MonitoringState</TokenIdentifier>
 			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSKinesisModel.h</DeclaredIn>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
             
 			
 			<NodeRef refid="1186"/>
@@ -14,51 +14,41 @@
 		
         
         <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSKinesisStreamStatusUnknown</TokenIdentifier>
+            <TokenIdentifier>//apple_ref/c/econst/AWSEC2MonitoringStateUnknown</TokenIdentifier>
             <Abstract type="html"></Abstract>
-            <Declaration>AWSKinesisStreamStatusUnknown</Declaration>
+            <Declaration>AWSEC2MonitoringStateUnknown</Declaration>
             
-            <DeclaredIn>AWSKinesisModel.h</DeclaredIn>
+            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
             
             <NodeRef refid="1186"/>
         </Token>
         
         <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSKinesisStreamStatusCreating</TokenIdentifier>
+            <TokenIdentifier>//apple_ref/c/econst/AWSEC2MonitoringStateDisabled</TokenIdentifier>
             <Abstract type="html"></Abstract>
-            <Declaration>AWSKinesisStreamStatusCreating</Declaration>
+            <Declaration>AWSEC2MonitoringStateDisabled</Declaration>
             
-            <DeclaredIn>AWSKinesisModel.h</DeclaredIn>
+            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
             
             <NodeRef refid="1186"/>
         </Token>
         
         <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSKinesisStreamStatusDeleting</TokenIdentifier>
+            <TokenIdentifier>//apple_ref/c/econst/AWSEC2MonitoringStateEnabled</TokenIdentifier>
             <Abstract type="html"></Abstract>
-            <Declaration>AWSKinesisStreamStatusDeleting</Declaration>
+            <Declaration>AWSEC2MonitoringStateEnabled</Declaration>
             
-            <DeclaredIn>AWSKinesisModel.h</DeclaredIn>
+            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
             
             <NodeRef refid="1186"/>
         </Token>
         
         <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSKinesisStreamStatusActive</TokenIdentifier>
+            <TokenIdentifier>//apple_ref/c/econst/AWSEC2MonitoringStatePending</TokenIdentifier>
             <Abstract type="html"></Abstract>
-            <Declaration>AWSKinesisStreamStatusActive</Declaration>
+            <Declaration>AWSEC2MonitoringStatePending</Declaration>
             
-            <DeclaredIn>AWSKinesisModel.h</DeclaredIn>
-            
-            <NodeRef refid="1186"/>
-        </Token>
-        
-        <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSKinesisStreamStatusUpdating</TokenIdentifier>
-            <Abstract type="html"></Abstract>
-            <Declaration>AWSKinesisStreamStatusUpdating</Declaration>
-            
-            <DeclaredIn>AWSKinesisModel.h</DeclaredIn>
+            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
             
             <NodeRef refid="1186"/>
         </Token>

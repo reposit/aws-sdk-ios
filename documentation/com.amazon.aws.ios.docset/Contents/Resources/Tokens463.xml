@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSEC2GetPasswordDataRequest.html">
+	<File path="Classes/AWSEC2DisableVpcClassicLinkResult.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSEC2GetPasswordDataRequest</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSEC2DisableVpcClassicLinkResult</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
             
@@ -13,74 +13,38 @@
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2GetPasswordDataRequest/setDryRun:</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DisableVpcClassicLinkResult/setReturned:</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSNumber *dryRun</Declaration>
+			<Declaration>@property (nonatomic, strong) NSNumber *returned</Declaration>
 			
 			
-			<Anchor>//api/name/dryRun</Anchor>
+			<Anchor>//api/name/returned</Anchor>
             <NodeRef refid="463"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2GetPasswordDataRequest/dryRun</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DisableVpcClassicLinkResult/returned</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSNumber *dryRun</Declaration>
+			<Declaration>@property (nonatomic, strong) NSNumber *returned</Declaration>
 			
 			
-			<Anchor>//api/name/dryRun</Anchor>
+			<Anchor>//api/name/returned</Anchor>
             <NodeRef refid="463"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2GetPasswordDataRequest/dryRun</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2DisableVpcClassicLinkResult/returned</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSNumber *dryRun</Declaration>
+			<Declaration>@property (nonatomic, strong) NSNumber *returned</Declaration>
 			
 			
-			<Anchor>//api/name/dryRun</Anchor>
-            <NodeRef refid="463"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2GetPasswordDataRequest/setInstanceId:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The ID of the Windows instance.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *instanceId</Declaration>
-			
-			
-			<Anchor>//api/name/instanceId</Anchor>
-            <NodeRef refid="463"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2GetPasswordDataRequest/instanceId</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The ID of the Windows instance.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *instanceId</Declaration>
-			
-			
-			<Anchor>//api/name/instanceId</Anchor>
-            <NodeRef refid="463"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2GetPasswordDataRequest/instanceId</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The ID of the Windows instance.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *instanceId</Declaration>
-			
-			
-			<Anchor>//api/name/instanceId</Anchor>
+			<Anchor>//api/name/returned</Anchor>
             <NodeRef refid="463"/>
 		</Token>
 		

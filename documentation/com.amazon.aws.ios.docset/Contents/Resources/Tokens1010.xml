@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSSQSSendMessageBatchResult.html">
+	<File path="Classes/AWSSNSListEndpointsByPlatformApplicationResponse.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSSQSSendMessageBatchResult</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;For each message in the batch, the response contains a &lt;a&gt;SendMessageBatchResultEntry&lt;/a&gt; tag if the message succeeds or a &lt;a&gt;BatchResultErrorEntry&lt;/a&gt; tag if the message fails.&lt;/p&gt;
-Required parameters: [Successful, Failed]</Abstract>
-			<DeclaredIn>AWSSQSModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSSNSListEndpointsByPlatformApplicationResponse</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Response for ListEndpointsByPlatformApplication action.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSNSModel.h</DeclaredIn>
             
 			
 			<NodeRef refid="1010"/>
@@ -14,74 +13,74 @@ Required parameters: [Successful, Failed]</Abstract>
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSSQSSendMessageBatchResult/setFailed:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;A list of &lt;a&gt;BatchResultErrorEntry&lt;/a&gt; items with the error detail about each message that could not be enqueued.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSQSModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSNSListEndpointsByPlatformApplicationResponse/setEndpoints:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Endpoints returned for ListEndpointsByPlatformApplication action.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSNSModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSArray *failed</Declaration>
+			<Declaration>@property (nonatomic, strong) NSArray *endpoints</Declaration>
 			
 			
-			<Anchor>//api/name/failed</Anchor>
+			<Anchor>//api/name/endpoints</Anchor>
             <NodeRef refid="1010"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSSQSSendMessageBatchResult/failed</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;A list of &lt;a&gt;BatchResultErrorEntry&lt;/a&gt; items with the error detail about each message that could not be enqueued.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSQSModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSNSListEndpointsByPlatformApplicationResponse/endpoints</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Endpoints returned for ListEndpointsByPlatformApplication action.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSNSModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSArray *failed</Declaration>
+			<Declaration>@property (nonatomic, strong) NSArray *endpoints</Declaration>
 			
 			
-			<Anchor>//api/name/failed</Anchor>
+			<Anchor>//api/name/endpoints</Anchor>
             <NodeRef refid="1010"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSSQSSendMessageBatchResult/failed</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;A list of &lt;a&gt;BatchResultErrorEntry&lt;/a&gt; items with the error detail about each message that could not be enqueued.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSQSModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSSNSListEndpointsByPlatformApplicationResponse/endpoints</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Endpoints returned for ListEndpointsByPlatformApplication action.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSNSModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSArray *failed</Declaration>
+			<Declaration>@property (nonatomic, strong) NSArray *endpoints</Declaration>
 			
 			
-			<Anchor>//api/name/failed</Anchor>
+			<Anchor>//api/name/endpoints</Anchor>
             <NodeRef refid="1010"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSSQSSendMessageBatchResult/setSuccessful:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;A list of &lt;a&gt;SendMessageBatchResultEntry&lt;/a&gt; items.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSQSModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSNSListEndpointsByPlatformApplicationResponse/setNextToken:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;NextToken string is returned when calling ListEndpointsByPlatformApplication action if additional records are available after the first page results.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSNSModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSArray *successful</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *nextToken</Declaration>
 			
 			
-			<Anchor>//api/name/successful</Anchor>
+			<Anchor>//api/name/nextToken</Anchor>
             <NodeRef refid="1010"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSSQSSendMessageBatchResult/successful</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;A list of &lt;a&gt;SendMessageBatchResultEntry&lt;/a&gt; items.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSQSModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSNSListEndpointsByPlatformApplicationResponse/nextToken</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;NextToken string is returned when calling ListEndpointsByPlatformApplication action if additional records are available after the first page results.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSNSModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSArray *successful</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *nextToken</Declaration>
 			
 			
-			<Anchor>//api/name/successful</Anchor>
+			<Anchor>//api/name/nextToken</Anchor>
             <NodeRef refid="1010"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSSQSSendMessageBatchResult/successful</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;A list of &lt;a&gt;SendMessageBatchResultEntry&lt;/a&gt; items.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSQSModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSSNSListEndpointsByPlatformApplicationResponse/nextToken</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;NextToken string is returned when calling ListEndpointsByPlatformApplication action if additional records are available after the first page results.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSNSModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSArray *successful</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *nextToken</Declaration>
 			
 			
-			<Anchor>//api/name/successful</Anchor>
+			<Anchor>//api/name/nextToken</Anchor>
             <NodeRef refid="1010"/>
 		</Token>
 		

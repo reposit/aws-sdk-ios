@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Constants/AWSS3StorageClass.html">
+	<File path="Constants/AWSEC2StatusType.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/c/tdef/AWSS3StorageClass</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/c/tdef/AWSEC2StatusType</TokenIdentifier>
 			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
             
 			
 			<NodeRef refid="1212"/>
@@ -14,31 +14,41 @@
 		
         
         <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSS3StorageClassUnknown</TokenIdentifier>
+            <TokenIdentifier>//apple_ref/c/econst/AWSEC2StatusTypeUnknown</TokenIdentifier>
             <Abstract type="html"></Abstract>
-            <Declaration>AWSS3StorageClassUnknown</Declaration>
+            <Declaration>AWSEC2StatusTypeUnknown</Declaration>
             
-            <DeclaredIn>AWSS3Model.h</DeclaredIn>
+            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
             
             <NodeRef refid="1212"/>
         </Token>
         
         <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSS3StorageClassStandard</TokenIdentifier>
+            <TokenIdentifier>//apple_ref/c/econst/AWSEC2StatusTypePassed</TokenIdentifier>
             <Abstract type="html"></Abstract>
-            <Declaration>AWSS3StorageClassStandard</Declaration>
+            <Declaration>AWSEC2StatusTypePassed</Declaration>
             
-            <DeclaredIn>AWSS3Model.h</DeclaredIn>
+            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
             
             <NodeRef refid="1212"/>
         </Token>
         
         <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSS3StorageClassReducedRedundancy</TokenIdentifier>
+            <TokenIdentifier>//apple_ref/c/econst/AWSEC2StatusTypeFailed</TokenIdentifier>
             <Abstract type="html"></Abstract>
-            <Declaration>AWSS3StorageClassReducedRedundancy</Declaration>
+            <Declaration>AWSEC2StatusTypeFailed</Declaration>
             
-            <DeclaredIn>AWSS3Model.h</DeclaredIn>
+            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
+            
+            <NodeRef refid="1212"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/AWSEC2StatusTypeInsufficientData</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>AWSEC2StatusTypeInsufficientData</Declaration>
+            
+            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
             
             <NodeRef refid="1212"/>
         </Token>

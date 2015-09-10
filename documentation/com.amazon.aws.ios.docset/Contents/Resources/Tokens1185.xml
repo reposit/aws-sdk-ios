@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Constants/AWSKinesisShardIteratorType.html">
+	<File path="Constants/AWSEC2ListingStatus.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/c/tdef/AWSKinesisShardIteratorType</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/c/tdef/AWSEC2ListingStatus</TokenIdentifier>
 			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSKinesisModel.h</DeclaredIn>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
             
 			
 			<NodeRef refid="1185"/>
@@ -14,51 +14,51 @@
 		
         
         <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSKinesisShardIteratorTypeUnknown</TokenIdentifier>
+            <TokenIdentifier>//apple_ref/c/econst/AWSEC2ListingStatusUnknown</TokenIdentifier>
             <Abstract type="html"></Abstract>
-            <Declaration>AWSKinesisShardIteratorTypeUnknown</Declaration>
+            <Declaration>AWSEC2ListingStatusUnknown</Declaration>
             
-            <DeclaredIn>AWSKinesisModel.h</DeclaredIn>
+            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
             
             <NodeRef refid="1185"/>
         </Token>
         
         <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSKinesisShardIteratorTypeAtSequenceNumber</TokenIdentifier>
+            <TokenIdentifier>//apple_ref/c/econst/AWSEC2ListingStatusActive</TokenIdentifier>
             <Abstract type="html"></Abstract>
-            <Declaration>AWSKinesisShardIteratorTypeAtSequenceNumber</Declaration>
+            <Declaration>AWSEC2ListingStatusActive</Declaration>
             
-            <DeclaredIn>AWSKinesisModel.h</DeclaredIn>
+            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
             
             <NodeRef refid="1185"/>
         </Token>
         
         <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSKinesisShardIteratorTypeAfterSequenceNumber</TokenIdentifier>
+            <TokenIdentifier>//apple_ref/c/econst/AWSEC2ListingStatusPending</TokenIdentifier>
             <Abstract type="html"></Abstract>
-            <Declaration>AWSKinesisShardIteratorTypeAfterSequenceNumber</Declaration>
+            <Declaration>AWSEC2ListingStatusPending</Declaration>
             
-            <DeclaredIn>AWSKinesisModel.h</DeclaredIn>
+            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
             
             <NodeRef refid="1185"/>
         </Token>
         
         <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSKinesisShardIteratorTypeTrimHorizon</TokenIdentifier>
+            <TokenIdentifier>//apple_ref/c/econst/AWSEC2ListingStatusCancelled</TokenIdentifier>
             <Abstract type="html"></Abstract>
-            <Declaration>AWSKinesisShardIteratorTypeTrimHorizon</Declaration>
+            <Declaration>AWSEC2ListingStatusCancelled</Declaration>
             
-            <DeclaredIn>AWSKinesisModel.h</DeclaredIn>
+            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
             
             <NodeRef refid="1185"/>
         </Token>
         
         <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSKinesisShardIteratorTypeLatest</TokenIdentifier>
+            <TokenIdentifier>//apple_ref/c/econst/AWSEC2ListingStatusClosed</TokenIdentifier>
             <Abstract type="html"></Abstract>
-            <Declaration>AWSKinesisShardIteratorTypeLatest</Declaration>
+            <Declaration>AWSEC2ListingStatusClosed</Declaration>
             
-            <DeclaredIn>AWSKinesisModel.h</DeclaredIn>
+            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
             
             <NodeRef refid="1185"/>
         </Token>

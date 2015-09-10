@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSSESListVerifiedEmailAddressesResponse.html">
+	<File path="Classes/AWSS3PutBucketWebsiteRequest.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSSESListVerifiedEmailAddressesResponse</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Represents a list of all the email addresses verified for the current user.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSESModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSS3PutBucketWebsiteRequest</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
             
 			
 			<NodeRef refid="909"/>
@@ -13,38 +13,110 @@
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSSESListVerifiedEmailAddressesResponse/setVerifiedEmailAddresses:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;A list of email addresses that have been verified.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSESModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3PutBucketWebsiteRequest/setBucket:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSArray *verifiedEmailAddresses</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *bucket</Declaration>
 			
 			
-			<Anchor>//api/name/verifiedEmailAddresses</Anchor>
+			<Anchor>//api/name/bucket</Anchor>
             <NodeRef refid="909"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSSESListVerifiedEmailAddressesResponse/verifiedEmailAddresses</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;A list of email addresses that have been verified.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSESModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3PutBucketWebsiteRequest/bucket</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSArray *verifiedEmailAddresses</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *bucket</Declaration>
 			
 			
-			<Anchor>//api/name/verifiedEmailAddresses</Anchor>
+			<Anchor>//api/name/bucket</Anchor>
             <NodeRef refid="909"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSSESListVerifiedEmailAddressesResponse/verifiedEmailAddresses</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;A list of email addresses that have been verified.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSESModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSS3PutBucketWebsiteRequest/bucket</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSArray *verifiedEmailAddresses</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *bucket</Declaration>
 			
 			
-			<Anchor>//api/name/verifiedEmailAddresses</Anchor>
+			<Anchor>//api/name/bucket</Anchor>
+            <NodeRef refid="909"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3PutBucketWebsiteRequest/setContentMD5:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *contentMD5</Declaration>
+			
+			
+			<Anchor>//api/name/contentMD5</Anchor>
+            <NodeRef refid="909"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3PutBucketWebsiteRequest/contentMD5</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *contentMD5</Declaration>
+			
+			
+			<Anchor>//api/name/contentMD5</Anchor>
+            <NodeRef refid="909"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSS3PutBucketWebsiteRequest/contentMD5</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *contentMD5</Declaration>
+			
+			
+			<Anchor>//api/name/contentMD5</Anchor>
+            <NodeRef refid="909"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3PutBucketWebsiteRequest/setWebsiteConfiguration:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) AWSS3WebsiteConfiguration *websiteConfiguration</Declaration>
+			
+			
+			<Anchor>//api/name/websiteConfiguration</Anchor>
+            <NodeRef refid="909"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3PutBucketWebsiteRequest/websiteConfiguration</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) AWSS3WebsiteConfiguration *websiteConfiguration</Declaration>
+			
+			
+			<Anchor>//api/name/websiteConfiguration</Anchor>
+            <NodeRef refid="909"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSS3PutBucketWebsiteRequest/websiteConfiguration</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) AWSS3WebsiteConfiguration *websiteConfiguration</Declaration>
+			
+			
+			<Anchor>//api/name/websiteConfiguration</Anchor>
             <NodeRef refid="909"/>
 		</Token>
 		

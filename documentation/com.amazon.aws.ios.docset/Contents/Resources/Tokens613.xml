@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSEC2VolumeStatusEvent.html">
+	<File path="Classes/AWSEC2StateReason.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSEC2VolumeStatusEvent</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Describes a volume status event.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSEC2StateReason</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Describes a state change.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
             
 			
@@ -13,182 +13,74 @@
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2VolumeStatusEvent/setDetail:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;A description of the event.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2StateReason/setCode:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The reason code for the state change.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *detail</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *code</Declaration>
 			
 			
-			<Anchor>//api/name/detail</Anchor>
+			<Anchor>//api/name/code</Anchor>
             <NodeRef refid="613"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2VolumeStatusEvent/detail</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;A description of the event.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2StateReason/code</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The reason code for the state change.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *detail</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *code</Declaration>
 			
 			
-			<Anchor>//api/name/detail</Anchor>
+			<Anchor>//api/name/code</Anchor>
             <NodeRef refid="613"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2VolumeStatusEvent/detail</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;A description of the event.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2StateReason/code</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The reason code for the state change.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *detail</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *code</Declaration>
 			
 			
-			<Anchor>//api/name/detail</Anchor>
+			<Anchor>//api/name/code</Anchor>
             <NodeRef refid="613"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2VolumeStatusEvent/setEventId:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The ID of this event.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2StateReason/setMessage:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The message for the state change.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;codeServer.SpotInstanceTermination&lt;/code&gt;: A Spot Instance was terminated due to an increase in the market price.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;codeServer.InternalError&lt;/code&gt;: An internal error occurred during instance launch, resulting in termination.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;codeServer.InsufficientInstanceCapacity&lt;/code&gt;: There was insufficient instance capacity to satisfy the launch request.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;codeClient.InternalError&lt;/code&gt;: A client error caused the instance to terminate on launch.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;codeClient.InstanceInitiatedShutdown&lt;/code&gt;: The instance was shut down using the codeshutdown -h&lt;/code&gt; command from the instance.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;codeClient.UserInitiatedShutdown&lt;/code&gt;: The instance was shut down using the Amazon EC2 API.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;codeClient.VolumeLimitExceeded&lt;/code&gt;: The volume limit was exceeded.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;codeClient.InvalidSnapshot.NotFound&lt;/code&gt;: The specified snapshot was not found.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *eventId</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *message</Declaration>
 			
 			
-			<Anchor>//api/name/eventId</Anchor>
+			<Anchor>//api/name/message</Anchor>
             <NodeRef refid="613"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2VolumeStatusEvent/eventId</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The ID of this event.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2StateReason/message</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The message for the state change.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;codeServer.SpotInstanceTermination&lt;/code&gt;: A Spot Instance was terminated due to an increase in the market price.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;codeServer.InternalError&lt;/code&gt;: An internal error occurred during instance launch, resulting in termination.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;codeServer.InsufficientInstanceCapacity&lt;/code&gt;: There was insufficient instance capacity to satisfy the launch request.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;codeClient.InternalError&lt;/code&gt;: A client error caused the instance to terminate on launch.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;codeClient.InstanceInitiatedShutdown&lt;/code&gt;: The instance was shut down using the codeshutdown -h&lt;/code&gt; command from the instance.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;codeClient.UserInitiatedShutdown&lt;/code&gt;: The instance was shut down using the Amazon EC2 API.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;codeClient.VolumeLimitExceeded&lt;/code&gt;: The volume limit was exceeded.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;codeClient.InvalidSnapshot.NotFound&lt;/code&gt;: The specified snapshot was not found.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *eventId</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *message</Declaration>
 			
 			
-			<Anchor>//api/name/eventId</Anchor>
+			<Anchor>//api/name/message</Anchor>
             <NodeRef refid="613"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2VolumeStatusEvent/eventId</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The ID of this event.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2StateReason/message</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The message for the state change.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;codeServer.SpotInstanceTermination&lt;/code&gt;: A Spot Instance was terminated due to an increase in the market price.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;codeServer.InternalError&lt;/code&gt;: An internal error occurred during instance launch, resulting in termination.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;codeServer.InsufficientInstanceCapacity&lt;/code&gt;: There was insufficient instance capacity to satisfy the launch request.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;codeClient.InternalError&lt;/code&gt;: A client error caused the instance to terminate on launch.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;codeClient.InstanceInitiatedShutdown&lt;/code&gt;: The instance was shut down using the codeshutdown -h&lt;/code&gt; command from the instance.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;codeClient.UserInitiatedShutdown&lt;/code&gt;: The instance was shut down using the Amazon EC2 API.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;codeClient.VolumeLimitExceeded&lt;/code&gt;: The volume limit was exceeded.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;codeClient.InvalidSnapshot.NotFound&lt;/code&gt;: The specified snapshot was not found.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *eventId</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *message</Declaration>
 			
 			
-			<Anchor>//api/name/eventId</Anchor>
-            <NodeRef refid="613"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2VolumeStatusEvent/setEventType:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The type of this event.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *eventType</Declaration>
-			
-			
-			<Anchor>//api/name/eventType</Anchor>
-            <NodeRef refid="613"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2VolumeStatusEvent/eventType</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The type of this event.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *eventType</Declaration>
-			
-			
-			<Anchor>//api/name/eventType</Anchor>
-            <NodeRef refid="613"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2VolumeStatusEvent/eventType</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The type of this event.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *eventType</Declaration>
-			
-			
-			<Anchor>//api/name/eventType</Anchor>
-            <NodeRef refid="613"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2VolumeStatusEvent/setNotAfter:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The latest end time of the event.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSDate *notAfter</Declaration>
-			
-			
-			<Anchor>//api/name/notAfter</Anchor>
-            <NodeRef refid="613"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2VolumeStatusEvent/notAfter</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The latest end time of the event.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSDate *notAfter</Declaration>
-			
-			
-			<Anchor>//api/name/notAfter</Anchor>
-            <NodeRef refid="613"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2VolumeStatusEvent/notAfter</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The latest end time of the event.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSDate *notAfter</Declaration>
-			
-			
-			<Anchor>//api/name/notAfter</Anchor>
-            <NodeRef refid="613"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2VolumeStatusEvent/setNotBefore:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The earliest start time of the event.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSDate *notBefore</Declaration>
-			
-			
-			<Anchor>//api/name/notBefore</Anchor>
-            <NodeRef refid="613"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2VolumeStatusEvent/notBefore</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The earliest start time of the event.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSDate *notBefore</Declaration>
-			
-			
-			<Anchor>//api/name/notBefore</Anchor>
-            <NodeRef refid="613"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2VolumeStatusEvent/notBefore</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The earliest start time of the event.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSDate *notBefore</Declaration>
-			
-			
-			<Anchor>//api/name/notBefore</Anchor>
+			<Anchor>//api/name/message</Anchor>
             <NodeRef refid="613"/>
 		</Token>
 		

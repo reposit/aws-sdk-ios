@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSSNSEndpoint.html">
+	<File path="Classes/AWSS3VersioningConfiguration.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSSNSEndpoint</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Endpoint for mobile app and device.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSNSModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSS3VersioningConfiguration</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
             
 			
 			<NodeRef refid="944"/>
@@ -13,74 +13,74 @@
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSSNSEndpoint/setAttributes:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Attributes for endpoint.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSNSModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3VersioningConfiguration/setMFADelete:</TokenIdentifier>
+			<Abstract type="html">Specifies whether MFA delete is enabled in the bucket versioning configuration. This element is only returned if the bucket has been configured with MFA delete. If the bucket has never been so configured, this element is not returned.</Abstract>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSDictionary *attributes</Declaration>
+			<Declaration>@property (nonatomic, assign) AWSS3MFADelete MFADelete</Declaration>
 			
 			
-			<Anchor>//api/name/attributes</Anchor>
+			<Anchor>//api/name/MFADelete</Anchor>
             <NodeRef refid="944"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSSNSEndpoint/attributes</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Attributes for endpoint.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSNSModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3VersioningConfiguration/MFADelete</TokenIdentifier>
+			<Abstract type="html">Specifies whether MFA delete is enabled in the bucket versioning configuration. This element is only returned if the bucket has been configured with MFA delete. If the bucket has never been so configured, this element is not returned.</Abstract>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSDictionary *attributes</Declaration>
+			<Declaration>@property (nonatomic, assign) AWSS3MFADelete MFADelete</Declaration>
 			
 			
-			<Anchor>//api/name/attributes</Anchor>
+			<Anchor>//api/name/MFADelete</Anchor>
             <NodeRef refid="944"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSSNSEndpoint/attributes</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Attributes for endpoint.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSNSModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSS3VersioningConfiguration/MFADelete</TokenIdentifier>
+			<Abstract type="html">Specifies whether MFA delete is enabled in the bucket versioning configuration. This element is only returned if the bucket has been configured with MFA delete. If the bucket has never been so configured, this element is not returned.</Abstract>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSDictionary *attributes</Declaration>
+			<Declaration>@property (nonatomic, assign) AWSS3MFADelete MFADelete</Declaration>
 			
 			
-			<Anchor>//api/name/attributes</Anchor>
+			<Anchor>//api/name/MFADelete</Anchor>
             <NodeRef refid="944"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSSNSEndpoint/setEndpointArn:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;EndpointArn for mobile app and device.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSNSModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3VersioningConfiguration/setStatus:</TokenIdentifier>
+			<Abstract type="html">The versioning state of the bucket.</Abstract>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *endpointArn</Declaration>
+			<Declaration>@property (nonatomic, assign) AWSS3BucketVersioningStatus status</Declaration>
 			
 			
-			<Anchor>//api/name/endpointArn</Anchor>
+			<Anchor>//api/name/status</Anchor>
             <NodeRef refid="944"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSSNSEndpoint/endpointArn</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;EndpointArn for mobile app and device.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSNSModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3VersioningConfiguration/status</TokenIdentifier>
+			<Abstract type="html">The versioning state of the bucket.</Abstract>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *endpointArn</Declaration>
+			<Declaration>@property (nonatomic, assign) AWSS3BucketVersioningStatus status</Declaration>
 			
 			
-			<Anchor>//api/name/endpointArn</Anchor>
+			<Anchor>//api/name/status</Anchor>
             <NodeRef refid="944"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSSNSEndpoint/endpointArn</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;EndpointArn for mobile app and device.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSNSModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSS3VersioningConfiguration/status</TokenIdentifier>
+			<Abstract type="html">The versioning state of the bucket.</Abstract>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *endpointArn</Declaration>
+			<Declaration>@property (nonatomic, assign) AWSS3BucketVersioningStatus status</Declaration>
 			
 			
-			<Anchor>//api/name/endpointArn</Anchor>
+			<Anchor>//api/name/status</Anchor>
             <NodeRef refid="944"/>
 		</Token>
 		

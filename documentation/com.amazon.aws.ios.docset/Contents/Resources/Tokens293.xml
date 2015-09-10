@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSEC2CreateCustomerGatewayRequest.html">
+	<File path="Classes/AWSEC2CancelExportTaskRequest.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSEC2CreateCustomerGatewayRequest</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSEC2CancelExportTaskRequest</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
             
@@ -13,146 +13,38 @@
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2CreateCustomerGatewayRequest/setBgpAsn:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;For devices that support BGP, the customer gateway&apos;s BGP ASN.&lt;/p&gt;&lt;p&gt;Default: 65000&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2CancelExportTaskRequest/setExportTaskId:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the export task. This is the ID returned by &lt;code&gt;CreateInstanceExportTask&lt;/code&gt;.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSNumber *bgpAsn</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *exportTaskId</Declaration>
 			
 			
-			<Anchor>//api/name/bgpAsn</Anchor>
+			<Anchor>//api/name/exportTaskId</Anchor>
             <NodeRef refid="293"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2CreateCustomerGatewayRequest/bgpAsn</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;For devices that support BGP, the customer gateway&apos;s BGP ASN.&lt;/p&gt;&lt;p&gt;Default: 65000&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2CancelExportTaskRequest/exportTaskId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the export task. This is the ID returned by &lt;code&gt;CreateInstanceExportTask&lt;/code&gt;.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSNumber *bgpAsn</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *exportTaskId</Declaration>
 			
 			
-			<Anchor>//api/name/bgpAsn</Anchor>
+			<Anchor>//api/name/exportTaskId</Anchor>
             <NodeRef refid="293"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2CreateCustomerGatewayRequest/bgpAsn</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;For devices that support BGP, the customer gateway&apos;s BGP ASN.&lt;/p&gt;&lt;p&gt;Default: 65000&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2CancelExportTaskRequest/exportTaskId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the export task. This is the ID returned by &lt;code&gt;CreateInstanceExportTask&lt;/code&gt;.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSNumber *bgpAsn</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *exportTaskId</Declaration>
 			
 			
-			<Anchor>//api/name/bgpAsn</Anchor>
-            <NodeRef refid="293"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2CreateCustomerGatewayRequest/setDryRun:</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSNumber *dryRun</Declaration>
-			
-			
-			<Anchor>//api/name/dryRun</Anchor>
-            <NodeRef refid="293"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2CreateCustomerGatewayRequest/dryRun</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSNumber *dryRun</Declaration>
-			
-			
-			<Anchor>//api/name/dryRun</Anchor>
-            <NodeRef refid="293"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2CreateCustomerGatewayRequest/dryRun</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSNumber *dryRun</Declaration>
-			
-			
-			<Anchor>//api/name/dryRun</Anchor>
-            <NodeRef refid="293"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2CreateCustomerGatewayRequest/setPublicIp:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The Internet-routable IP address for the customer gateway&apos;s outside interface. The address must be static.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *publicIp</Declaration>
-			
-			
-			<Anchor>//api/name/publicIp</Anchor>
-            <NodeRef refid="293"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2CreateCustomerGatewayRequest/publicIp</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The Internet-routable IP address for the customer gateway&apos;s outside interface. The address must be static.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *publicIp</Declaration>
-			
-			
-			<Anchor>//api/name/publicIp</Anchor>
-            <NodeRef refid="293"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2CreateCustomerGatewayRequest/publicIp</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The Internet-routable IP address for the customer gateway&apos;s outside interface. The address must be static.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *publicIp</Declaration>
-			
-			
-			<Anchor>//api/name/publicIp</Anchor>
-            <NodeRef refid="293"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2CreateCustomerGatewayRequest/setTypes:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The type of VPN connection that this customer gateway supports (&lt;code&gt;ipsec.1&lt;/code&gt;).&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, assign) AWSEC2GatewayType types</Declaration>
-			
-			
-			<Anchor>//api/name/types</Anchor>
-            <NodeRef refid="293"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2CreateCustomerGatewayRequest/types</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The type of VPN connection that this customer gateway supports (&lt;code&gt;ipsec.1&lt;/code&gt;).&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, assign) AWSEC2GatewayType types</Declaration>
-			
-			
-			<Anchor>//api/name/types</Anchor>
-            <NodeRef refid="293"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2CreateCustomerGatewayRequest/types</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The type of VPN connection that this customer gateway supports (&lt;code&gt;ipsec.1&lt;/code&gt;).&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, assign) AWSEC2GatewayType types</Declaration>
-			
-			
-			<Anchor>//api/name/types</Anchor>
+			<Anchor>//api/name/exportTaskId</Anchor>
             <NodeRef refid="293"/>
 		</Token>
 		

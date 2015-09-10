@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSCognitoSyncDescribeDatasetRequest.html">
+	<File path="Classes/AWSCognitoSyncDeleteDatasetRequest.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSCognitoSyncDescribeDatasetRequest</TokenIdentifier>
-			<Abstract type="html">A request for metadata about a dataset (creation date, number of records, size) by owner and dataset name.
+			<TokenIdentifier>//apple_ref/occ/cl/AWSCognitoSyncDeleteDatasetRequest</TokenIdentifier>
+			<Abstract type="html">A request to delete the specific dataset.
 Required parameters: [IdentityPoolId, IdentityId, DatasetName]</Abstract>
 			<DeclaredIn>AWSCognitoSyncModel.h</DeclaredIn>
             
@@ -14,7 +14,7 @@ Required parameters: [IdentityPoolId, IdentityId, DatasetName]</Abstract>
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoSyncDescribeDatasetRequest/setDatasetName:</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoSyncDeleteDatasetRequest/setDatasetName:</TokenIdentifier>
 			<Abstract type="html">A string of up to 128 characters. Allowed characters are a-z, A-Z, 0-9, &apos;_&apos; (underscore), &apos;-&apos; (dash), and &apos;.&apos; (dot).</Abstract>
 			<DeclaredIn>AWSCognitoSyncModel.h</DeclaredIn>
 			
@@ -26,7 +26,7 @@ Required parameters: [IdentityPoolId, IdentityId, DatasetName]</Abstract>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoSyncDescribeDatasetRequest/datasetName</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoSyncDeleteDatasetRequest/datasetName</TokenIdentifier>
 			<Abstract type="html">A string of up to 128 characters. Allowed characters are a-z, A-Z, 0-9, &apos;_&apos; (underscore), &apos;-&apos; (dash), and &apos;.&apos; (dot).</Abstract>
 			<DeclaredIn>AWSCognitoSyncModel.h</DeclaredIn>
 			
@@ -38,7 +38,7 @@ Required parameters: [IdentityPoolId, IdentityId, DatasetName]</Abstract>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSCognitoSyncDescribeDatasetRequest/datasetName</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSCognitoSyncDeleteDatasetRequest/datasetName</TokenIdentifier>
 			<Abstract type="html">A string of up to 128 characters. Allowed characters are a-z, A-Z, 0-9, &apos;_&apos; (underscore), &apos;-&apos; (dash), and &apos;.&apos; (dot).</Abstract>
 			<DeclaredIn>AWSCognitoSyncModel.h</DeclaredIn>
 			
@@ -50,7 +50,7 @@ Required parameters: [IdentityPoolId, IdentityId, DatasetName]</Abstract>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoSyncDescribeDatasetRequest/setIdentityId:</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoSyncDeleteDatasetRequest/setIdentityId:</TokenIdentifier>
 			<Abstract type="html">A name-spaced GUID (for example, us-east-1:23EC4050-6AEA-7089-A2DD-08002EXAMPLE) created by Amazon Cognito. GUID generation is unique within a region.</Abstract>
 			<DeclaredIn>AWSCognitoSyncModel.h</DeclaredIn>
 			
@@ -62,7 +62,7 @@ Required parameters: [IdentityPoolId, IdentityId, DatasetName]</Abstract>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoSyncDescribeDatasetRequest/identityId</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoSyncDeleteDatasetRequest/identityId</TokenIdentifier>
 			<Abstract type="html">A name-spaced GUID (for example, us-east-1:23EC4050-6AEA-7089-A2DD-08002EXAMPLE) created by Amazon Cognito. GUID generation is unique within a region.</Abstract>
 			<DeclaredIn>AWSCognitoSyncModel.h</DeclaredIn>
 			
@@ -74,7 +74,7 @@ Required parameters: [IdentityPoolId, IdentityId, DatasetName]</Abstract>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSCognitoSyncDescribeDatasetRequest/identityId</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSCognitoSyncDeleteDatasetRequest/identityId</TokenIdentifier>
 			<Abstract type="html">A name-spaced GUID (for example, us-east-1:23EC4050-6AEA-7089-A2DD-08002EXAMPLE) created by Amazon Cognito. GUID generation is unique within a region.</Abstract>
 			<DeclaredIn>AWSCognitoSyncModel.h</DeclaredIn>
 			
@@ -86,7 +86,7 @@ Required parameters: [IdentityPoolId, IdentityId, DatasetName]</Abstract>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoSyncDescribeDatasetRequest/setIdentityPoolId:</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoSyncDeleteDatasetRequest/setIdentityPoolId:</TokenIdentifier>
 			<Abstract type="html">A name-spaced GUID (for example, us-east-1:23EC4050-6AEA-7089-A2DD-08002EXAMPLE) created by Amazon Cognito. GUID generation is unique within a region.</Abstract>
 			<DeclaredIn>AWSCognitoSyncModel.h</DeclaredIn>
 			
@@ -98,7 +98,7 @@ Required parameters: [IdentityPoolId, IdentityId, DatasetName]</Abstract>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoSyncDescribeDatasetRequest/identityPoolId</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoSyncDeleteDatasetRequest/identityPoolId</TokenIdentifier>
 			<Abstract type="html">A name-spaced GUID (for example, us-east-1:23EC4050-6AEA-7089-A2DD-08002EXAMPLE) created by Amazon Cognito. GUID generation is unique within a region.</Abstract>
 			<DeclaredIn>AWSCognitoSyncModel.h</DeclaredIn>
 			
@@ -110,7 +110,7 @@ Required parameters: [IdentityPoolId, IdentityId, DatasetName]</Abstract>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSCognitoSyncDescribeDatasetRequest/identityPoolId</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSCognitoSyncDeleteDatasetRequest/identityPoolId</TokenIdentifier>
 			<Abstract type="html">A name-spaced GUID (for example, us-east-1:23EC4050-6AEA-7089-A2DD-08002EXAMPLE) created by Amazon Cognito. GUID generation is unique within a region.</Abstract>
 			<DeclaredIn>AWSCognitoSyncModel.h</DeclaredIn>
 			

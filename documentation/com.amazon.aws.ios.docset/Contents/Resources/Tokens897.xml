@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSSESGetIdentityDkimAttributesResponse.html">
+	<File path="Classes/AWSS3Owner.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSSESGetIdentityDkimAttributesResponse</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Represents a list of all the DKIM attributes for the specified identity.&lt;/p&gt;
-Required parameters: [DkimAttributes]</Abstract>
-			<DeclaredIn>AWSSESModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSS3Owner</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
             
 			
 			<NodeRef refid="897"/>
@@ -14,38 +13,74 @@ Required parameters: [DkimAttributes]</Abstract>
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSSESGetIdentityDkimAttributesResponse/setDkimAttributes:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The DKIM attributes for an email address or a domain. &lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSESModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3Owner/setDisplayName:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSDictionary *dkimAttributes</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *displayName</Declaration>
 			
 			
-			<Anchor>//api/name/dkimAttributes</Anchor>
+			<Anchor>//api/name/displayName</Anchor>
             <NodeRef refid="897"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSSESGetIdentityDkimAttributesResponse/dkimAttributes</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The DKIM attributes for an email address or a domain. &lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSESModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3Owner/displayName</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSDictionary *dkimAttributes</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *displayName</Declaration>
 			
 			
-			<Anchor>//api/name/dkimAttributes</Anchor>
+			<Anchor>//api/name/displayName</Anchor>
             <NodeRef refid="897"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSSESGetIdentityDkimAttributesResponse/dkimAttributes</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The DKIM attributes for an email address or a domain. &lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSESModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSS3Owner/displayName</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSDictionary *dkimAttributes</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *displayName</Declaration>
 			
 			
-			<Anchor>//api/name/dkimAttributes</Anchor>
+			<Anchor>//api/name/displayName</Anchor>
+            <NodeRef refid="897"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3Owner/setIdentifier:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *identifier</Declaration>
+			
+			
+			<Anchor>//api/name/identifier</Anchor>
+            <NodeRef refid="897"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3Owner/identifier</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *identifier</Declaration>
+			
+			
+			<Anchor>//api/name/identifier</Anchor>
+            <NodeRef refid="897"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSS3Owner/identifier</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *identifier</Declaration>
+			
+			
+			<Anchor>//api/name/identifier</Anchor>
             <NodeRef refid="897"/>
 		</Token>
 		

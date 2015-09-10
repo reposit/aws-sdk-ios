@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSSQSDeleteMessageBatchRequestEntry.html">
+	<File path="Classes/AWSSNSConfirmSubscriptionInput.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSSQSDeleteMessageBatchRequestEntry</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Encloses a receipt handle and an identifier for it.&lt;/p&gt;
-Required parameters: [Id, ReceiptHandle]</Abstract>
-			<DeclaredIn>AWSSQSModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSSNSConfirmSubscriptionInput</TokenIdentifier>
+			<Abstract type="html">Input for ConfirmSubscription action.
+Required parameters: [TopicArn, Token]</Abstract>
+			<DeclaredIn>AWSSNSModel.h</DeclaredIn>
             
 			
 			<NodeRef refid="989"/>
@@ -14,74 +14,110 @@ Required parameters: [Id, ReceiptHandle]</Abstract>
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSSQSDeleteMessageBatchRequestEntry/setIdentifier:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;An identifier for this particular receipt handle. This is used to communicate the result. Note that the &lt;code&gt;Id&lt;/code&gt;s of a batch request need to be unique within the request.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSQSModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSNSConfirmSubscriptionInput/setAuthenticateOnUnsubscribe:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Disallows unauthenticated unsubscribes of the subscription. If the value of this parameter is &lt;code&gt;true&lt;/code&gt; and the request has an AWS signature, then only the topic owner and the subscription owner can unsubscribe the endpoint. The unsubscribe action requires AWS authentication. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSNSModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *identifier</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *authenticateOnUnsubscribe</Declaration>
 			
 			
-			<Anchor>//api/name/identifier</Anchor>
+			<Anchor>//api/name/authenticateOnUnsubscribe</Anchor>
             <NodeRef refid="989"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSSQSDeleteMessageBatchRequestEntry/identifier</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;An identifier for this particular receipt handle. This is used to communicate the result. Note that the &lt;code&gt;Id&lt;/code&gt;s of a batch request need to be unique within the request.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSQSModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSNSConfirmSubscriptionInput/authenticateOnUnsubscribe</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Disallows unauthenticated unsubscribes of the subscription. If the value of this parameter is &lt;code&gt;true&lt;/code&gt; and the request has an AWS signature, then only the topic owner and the subscription owner can unsubscribe the endpoint. The unsubscribe action requires AWS authentication. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSNSModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *identifier</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *authenticateOnUnsubscribe</Declaration>
 			
 			
-			<Anchor>//api/name/identifier</Anchor>
+			<Anchor>//api/name/authenticateOnUnsubscribe</Anchor>
             <NodeRef refid="989"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSSQSDeleteMessageBatchRequestEntry/identifier</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;An identifier for this particular receipt handle. This is used to communicate the result. Note that the &lt;code&gt;Id&lt;/code&gt;s of a batch request need to be unique within the request.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSQSModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSSNSConfirmSubscriptionInput/authenticateOnUnsubscribe</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Disallows unauthenticated unsubscribes of the subscription. If the value of this parameter is &lt;code&gt;true&lt;/code&gt; and the request has an AWS signature, then only the topic owner and the subscription owner can unsubscribe the endpoint. The unsubscribe action requires AWS authentication. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSNSModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *identifier</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *authenticateOnUnsubscribe</Declaration>
 			
 			
-			<Anchor>//api/name/identifier</Anchor>
+			<Anchor>//api/name/authenticateOnUnsubscribe</Anchor>
             <NodeRef refid="989"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSSQSDeleteMessageBatchRequestEntry/setReceiptHandle:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;A receipt handle.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSQSModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSNSConfirmSubscriptionInput/setToken:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Short-lived token sent to an endpoint during the &lt;code&gt;Subscribe&lt;/code&gt; action.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSNSModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *receiptHandle</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *token</Declaration>
 			
 			
-			<Anchor>//api/name/receiptHandle</Anchor>
+			<Anchor>//api/name/token</Anchor>
             <NodeRef refid="989"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSSQSDeleteMessageBatchRequestEntry/receiptHandle</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;A receipt handle.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSQSModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSNSConfirmSubscriptionInput/token</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Short-lived token sent to an endpoint during the &lt;code&gt;Subscribe&lt;/code&gt; action.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSNSModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *receiptHandle</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *token</Declaration>
 			
 			
-			<Anchor>//api/name/receiptHandle</Anchor>
+			<Anchor>//api/name/token</Anchor>
             <NodeRef refid="989"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSSQSDeleteMessageBatchRequestEntry/receiptHandle</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;A receipt handle.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSQSModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSSNSConfirmSubscriptionInput/token</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Short-lived token sent to an endpoint during the &lt;code&gt;Subscribe&lt;/code&gt; action.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSNSModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *receiptHandle</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *token</Declaration>
 			
 			
-			<Anchor>//api/name/receiptHandle</Anchor>
+			<Anchor>//api/name/token</Anchor>
+            <NodeRef refid="989"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSNSConfirmSubscriptionInput/setTopicArn:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ARN of the topic for which you wish to confirm a subscription.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSNSModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *topicArn</Declaration>
+			
+			
+			<Anchor>//api/name/topicArn</Anchor>
+            <NodeRef refid="989"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSNSConfirmSubscriptionInput/topicArn</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ARN of the topic for which you wish to confirm a subscription.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSNSModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *topicArn</Declaration>
+			
+			
+			<Anchor>//api/name/topicArn</Anchor>
+            <NodeRef refid="989"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSSNSConfirmSubscriptionInput/topicArn</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ARN of the topic for which you wish to confirm a subscription.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSNSModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *topicArn</Declaration>
+			
+			
+			<Anchor>//api/name/topicArn</Anchor>
             <NodeRef refid="989"/>
 		</Token>
 		

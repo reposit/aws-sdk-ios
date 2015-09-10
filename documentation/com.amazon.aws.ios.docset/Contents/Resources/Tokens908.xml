@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSSESListIdentitiesResponse.html">
+	<File path="Classes/AWSS3PutBucketVersioningRequest.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSSESListIdentitiesResponse</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Represents a list of all verified identities for the AWS Account.&lt;/p&gt;
-Required parameters: [Identities]</Abstract>
-			<DeclaredIn>AWSSESModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSS3PutBucketVersioningRequest</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
             
 			
 			<NodeRef refid="908"/>
@@ -14,74 +13,146 @@ Required parameters: [Identities]</Abstract>
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSSESListIdentitiesResponse/setIdentities:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;A list of identities.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSESModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3PutBucketVersioningRequest/setBucket:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSArray *identities</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *bucket</Declaration>
 			
 			
-			<Anchor>//api/name/identities</Anchor>
+			<Anchor>//api/name/bucket</Anchor>
             <NodeRef refid="908"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSSESListIdentitiesResponse/identities</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;A list of identities.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSESModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3PutBucketVersioningRequest/bucket</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSArray *identities</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *bucket</Declaration>
 			
 			
-			<Anchor>//api/name/identities</Anchor>
+			<Anchor>//api/name/bucket</Anchor>
             <NodeRef refid="908"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSSESListIdentitiesResponse/identities</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;A list of identities.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSESModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSS3PutBucketVersioningRequest/bucket</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSArray *identities</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *bucket</Declaration>
 			
 			
-			<Anchor>//api/name/identities</Anchor>
+			<Anchor>//api/name/bucket</Anchor>
             <NodeRef refid="908"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSSESListIdentitiesResponse/setNextToken:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The token used for pagination.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSESModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3PutBucketVersioningRequest/setContentMD5:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *nextToken</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *contentMD5</Declaration>
 			
 			
-			<Anchor>//api/name/nextToken</Anchor>
+			<Anchor>//api/name/contentMD5</Anchor>
             <NodeRef refid="908"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSSESListIdentitiesResponse/nextToken</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The token used for pagination.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSESModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3PutBucketVersioningRequest/contentMD5</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *nextToken</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *contentMD5</Declaration>
 			
 			
-			<Anchor>//api/name/nextToken</Anchor>
+			<Anchor>//api/name/contentMD5</Anchor>
             <NodeRef refid="908"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSSESListIdentitiesResponse/nextToken</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The token used for pagination.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSESModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSS3PutBucketVersioningRequest/contentMD5</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *nextToken</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *contentMD5</Declaration>
 			
 			
-			<Anchor>//api/name/nextToken</Anchor>
+			<Anchor>//api/name/contentMD5</Anchor>
+            <NodeRef refid="908"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3PutBucketVersioningRequest/setMFA:</TokenIdentifier>
+			<Abstract type="html">The concatenation of the authentication device&apos;s serial number, a space, and the value that is displayed on your authentication device.</Abstract>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *MFA</Declaration>
+			
+			
+			<Anchor>//api/name/MFA</Anchor>
+            <NodeRef refid="908"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3PutBucketVersioningRequest/MFA</TokenIdentifier>
+			<Abstract type="html">The concatenation of the authentication device&apos;s serial number, a space, and the value that is displayed on your authentication device.</Abstract>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *MFA</Declaration>
+			
+			
+			<Anchor>//api/name/MFA</Anchor>
+            <NodeRef refid="908"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSS3PutBucketVersioningRequest/MFA</TokenIdentifier>
+			<Abstract type="html">The concatenation of the authentication device&apos;s serial number, a space, and the value that is displayed on your authentication device.</Abstract>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *MFA</Declaration>
+			
+			
+			<Anchor>//api/name/MFA</Anchor>
+            <NodeRef refid="908"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3PutBucketVersioningRequest/setVersioningConfiguration:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) AWSS3VersioningConfiguration *versioningConfiguration</Declaration>
+			
+			
+			<Anchor>//api/name/versioningConfiguration</Anchor>
+            <NodeRef refid="908"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3PutBucketVersioningRequest/versioningConfiguration</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) AWSS3VersioningConfiguration *versioningConfiguration</Declaration>
+			
+			
+			<Anchor>//api/name/versioningConfiguration</Anchor>
+            <NodeRef refid="908"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSS3PutBucketVersioningRequest/versioningConfiguration</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) AWSS3VersioningConfiguration *versioningConfiguration</Declaration>
+			
+			
+			<Anchor>//api/name/versioningConfiguration</Anchor>
             <NodeRef refid="908"/>
 		</Token>
 		

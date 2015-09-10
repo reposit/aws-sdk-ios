@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSEC2InstanceBlockDeviceMappingSpecification.html">
+	<File path="Classes/AWSEC2GetPasswordDataResult.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSEC2InstanceBlockDeviceMappingSpecification</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Describes a block device mapping entry.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSEC2GetPasswordDataResult</TokenIdentifier>
+			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
             
 			
@@ -13,146 +13,110 @@
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2InstanceBlockDeviceMappingSpecification/setDeviceName:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The device name exposed to the instance (for example, &lt;filename&gt;/dev/sdh&lt;/filename&gt;).&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2GetPasswordDataResult/setInstanceId:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the Windows instance.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *deviceName</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *instanceId</Declaration>
 			
 			
-			<Anchor>//api/name/deviceName</Anchor>
+			<Anchor>//api/name/instanceId</Anchor>
             <NodeRef refid="484"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2InstanceBlockDeviceMappingSpecification/deviceName</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The device name exposed to the instance (for example, &lt;filename&gt;/dev/sdh&lt;/filename&gt;).&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2GetPasswordDataResult/instanceId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the Windows instance.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *deviceName</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *instanceId</Declaration>
 			
 			
-			<Anchor>//api/name/deviceName</Anchor>
+			<Anchor>//api/name/instanceId</Anchor>
             <NodeRef refid="484"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2InstanceBlockDeviceMappingSpecification/deviceName</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The device name exposed to the instance (for example, &lt;filename&gt;/dev/sdh&lt;/filename&gt;).&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2GetPasswordDataResult/instanceId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the Windows instance.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *deviceName</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *instanceId</Declaration>
 			
 			
-			<Anchor>//api/name/deviceName</Anchor>
+			<Anchor>//api/name/instanceId</Anchor>
             <NodeRef refid="484"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2InstanceBlockDeviceMappingSpecification/setEbs:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Parameters used to automatically set up Amazon EBS volumes when the instance is launched.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2GetPasswordDataResult/setPasswordData:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The password of the instance.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) AWSEC2EbsInstanceBlockDeviceSpecification *ebs</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *passwordData</Declaration>
 			
 			
-			<Anchor>//api/name/ebs</Anchor>
+			<Anchor>//api/name/passwordData</Anchor>
             <NodeRef refid="484"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2InstanceBlockDeviceMappingSpecification/ebs</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Parameters used to automatically set up Amazon EBS volumes when the instance is launched.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2GetPasswordDataResult/passwordData</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The password of the instance.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) AWSEC2EbsInstanceBlockDeviceSpecification *ebs</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *passwordData</Declaration>
 			
 			
-			<Anchor>//api/name/ebs</Anchor>
+			<Anchor>//api/name/passwordData</Anchor>
             <NodeRef refid="484"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2InstanceBlockDeviceMappingSpecification/ebs</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Parameters used to automatically set up Amazon EBS volumes when the instance is launched.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2GetPasswordDataResult/passwordData</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The password of the instance.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) AWSEC2EbsInstanceBlockDeviceSpecification *ebs</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *passwordData</Declaration>
 			
 			
-			<Anchor>//api/name/ebs</Anchor>
+			<Anchor>//api/name/passwordData</Anchor>
             <NodeRef refid="484"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2InstanceBlockDeviceMappingSpecification/setNoDevice:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;suppress the specified device included in the block device mapping.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2GetPasswordDataResult/setTimestamp:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The time the data was last updated.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *noDevice</Declaration>
+			<Declaration>@property (nonatomic, strong) NSDate *timestamp</Declaration>
 			
 			
-			<Anchor>//api/name/noDevice</Anchor>
+			<Anchor>//api/name/timestamp</Anchor>
             <NodeRef refid="484"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2InstanceBlockDeviceMappingSpecification/noDevice</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;suppress the specified device included in the block device mapping.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2GetPasswordDataResult/timestamp</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The time the data was last updated.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *noDevice</Declaration>
+			<Declaration>@property (nonatomic, strong) NSDate *timestamp</Declaration>
 			
 			
-			<Anchor>//api/name/noDevice</Anchor>
+			<Anchor>//api/name/timestamp</Anchor>
             <NodeRef refid="484"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2InstanceBlockDeviceMappingSpecification/noDevice</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;suppress the specified device included in the block device mapping.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2GetPasswordDataResult/timestamp</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The time the data was last updated.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *noDevice</Declaration>
+			<Declaration>@property (nonatomic, strong) NSDate *timestamp</Declaration>
 			
 			
-			<Anchor>//api/name/noDevice</Anchor>
-            <NodeRef refid="484"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2InstanceBlockDeviceMappingSpecification/setVirtualName:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The virtual device name.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *virtualName</Declaration>
-			
-			
-			<Anchor>//api/name/virtualName</Anchor>
-            <NodeRef refid="484"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2InstanceBlockDeviceMappingSpecification/virtualName</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The virtual device name.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *virtualName</Declaration>
-			
-			
-			<Anchor>//api/name/virtualName</Anchor>
-            <NodeRef refid="484"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2InstanceBlockDeviceMappingSpecification/virtualName</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The virtual device name.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *virtualName</Declaration>
-			
-			
-			<Anchor>//api/name/virtualName</Anchor>
+			<Anchor>//api/name/timestamp</Anchor>
             <NodeRef refid="484"/>
 		</Token>
 		

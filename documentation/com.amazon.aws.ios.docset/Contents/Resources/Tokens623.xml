@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSEC2VpnConnectionOptionsSpecification.html">
+	<File path="Classes/AWSEC2UnmonitorInstancesRequest.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSEC2VpnConnectionOptionsSpecification</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Describes VPN connection options.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSEC2UnmonitorInstancesRequest</TokenIdentifier>
+			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
             
 			
@@ -13,38 +13,74 @@
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2VpnConnectionOptionsSpecification/setStaticRoutesOnly:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Indicates whether the VPN connection uses static routes only. Static routes must be used for devices that don&apos;t support BGP.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2UnmonitorInstancesRequest/setDryRun:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSNumber *staticRoutesOnly</Declaration>
+			<Declaration>@property (nonatomic, strong) NSNumber *dryRun</Declaration>
 			
 			
-			<Anchor>//api/name/staticRoutesOnly</Anchor>
+			<Anchor>//api/name/dryRun</Anchor>
             <NodeRef refid="623"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2VpnConnectionOptionsSpecification/staticRoutesOnly</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Indicates whether the VPN connection uses static routes only. Static routes must be used for devices that don&apos;t support BGP.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2UnmonitorInstancesRequest/dryRun</TokenIdentifier>
+			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSNumber *staticRoutesOnly</Declaration>
+			<Declaration>@property (nonatomic, strong) NSNumber *dryRun</Declaration>
 			
 			
-			<Anchor>//api/name/staticRoutesOnly</Anchor>
+			<Anchor>//api/name/dryRun</Anchor>
             <NodeRef refid="623"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2VpnConnectionOptionsSpecification/staticRoutesOnly</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Indicates whether the VPN connection uses static routes only. Static routes must be used for devices that don&apos;t support BGP.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2UnmonitorInstancesRequest/dryRun</TokenIdentifier>
+			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSNumber *staticRoutesOnly</Declaration>
+			<Declaration>@property (nonatomic, strong) NSNumber *dryRun</Declaration>
 			
 			
-			<Anchor>//api/name/staticRoutesOnly</Anchor>
+			<Anchor>//api/name/dryRun</Anchor>
+            <NodeRef refid="623"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2UnmonitorInstancesRequest/setInstanceIds:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;One or more instance IDs.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray *instanceIds</Declaration>
+			
+			
+			<Anchor>//api/name/instanceIds</Anchor>
+            <NodeRef refid="623"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2UnmonitorInstancesRequest/instanceIds</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;One or more instance IDs.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray *instanceIds</Declaration>
+			
+			
+			<Anchor>//api/name/instanceIds</Anchor>
+            <NodeRef refid="623"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2UnmonitorInstancesRequest/instanceIds</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;One or more instance IDs.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray *instanceIds</Declaration>
+			
+			
+			<Anchor>//api/name/instanceIds</Anchor>
             <NodeRef refid="623"/>
 		</Token>
 		

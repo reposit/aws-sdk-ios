@@ -51,7 +51,7 @@ Required parameters: [IdentityId]</Abstract>
 		
 		<Token>
 			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoIdentityGetOpenIdTokenInput/setLogins:</TokenIdentifier>
-			<Abstract type="html">A set of optional name-value pairs that map provider names to provider tokens.</Abstract>
+			<Abstract type="html">A set of optional name-value pairs that map provider names to provider tokens. When using graph.facebook.com and www.amazon.com, supply the accesstoken returned from the provider&apos;s authflow. For accounts.google.com or any other OpenId Connect provider, always include the idtoken.</Abstract>
 			<DeclaredIn>AWSCognitoIdentityModel.h</DeclaredIn>
 			
 			<Declaration>@property (nonatomic, strong) NSDictionary *logins</Declaration>
@@ -63,7 +63,7 @@ Required parameters: [IdentityId]</Abstract>
 		
 		<Token>
 			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoIdentityGetOpenIdTokenInput/logins</TokenIdentifier>
-			<Abstract type="html">A set of optional name-value pairs that map provider names to provider tokens.</Abstract>
+			<Abstract type="html">A set of optional name-value pairs that map provider names to provider tokens. When using graph.facebook.com and www.amazon.com, supply the accesstoken returned from the provider&apos;s authflow. For accounts.google.com or any other OpenId Connect provider, always include the idtoken.</Abstract>
 			<DeclaredIn>AWSCognitoIdentityModel.h</DeclaredIn>
 			
 			<Declaration>@property (nonatomic, strong) NSDictionary *logins</Declaration>
@@ -75,7 +75,7 @@ Required parameters: [IdentityId]</Abstract>
 		
 		<Token>
 			<TokenIdentifier>//apple_ref/occ/instp/AWSCognitoIdentityGetOpenIdTokenInput/logins</TokenIdentifier>
-			<Abstract type="html">A set of optional name-value pairs that map provider names to provider tokens.</Abstract>
+			<Abstract type="html">A set of optional name-value pairs that map provider names to provider tokens. When using graph.facebook.com and www.amazon.com, supply the accesstoken returned from the provider&apos;s authflow. For accounts.google.com or any other OpenId Connect provider, always include the idtoken.</Abstract>
 			<DeclaredIn>AWSCognitoIdentityModel.h</DeclaredIn>
 			
 			<Declaration>@property (nonatomic, strong) NSDictionary *logins</Declaration>

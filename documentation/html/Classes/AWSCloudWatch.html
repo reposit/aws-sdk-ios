@@ -14,7 +14,7 @@
 		<div class="container" class="hide-in-xcode">
 			
 			<h1 id="library-title">
-				<a href="../index.html">AWS SDK for iOS v2.1.0 </a>
+				<a href="../index.html">AWS SDK for iOS v2.2.5 </a>
 			</h1>
 
 			<p id="developer-home">
@@ -648,7 +648,7 @@
 			
 		    
 
-			<div class="method-subsection method-declaration"><code>- (BFTask *)deleteAlarms:(AWSCloudWatchDeleteAlarmsInput *)<em>request</em></code></div>
+			<div class="method-subsection method-declaration"><code>- (AWSTask *)deleteAlarms:(AWSCloudWatchDeleteAlarmsInput *)<em>request</em></code></div>
 
 		    
 			
@@ -668,7 +668,7 @@
 			
 			<div class="method-subsection return">
 				<h4 class="method-subtitle parameter-title">Return Value</h4>
-				<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will be <code>nil</code>. On failed execution, <code>task.error</code> may contain an <code>NSError</code> with <code>AWSCloudWatchErrorDomain</code> domian and the following error code: <code>AWSCloudWatchErrorResourceNotFound</code>.</p>
+				<p>An instance of <code>AWSTask</code>. On successful execution, <code>task.result</code> will be <code>nil</code>. On failed execution, <code>task.error</code> may contain an <code>NSError</code> with <code>AWSCloudWatchErrorDomain</code> domain and the following error code: <code>AWSCloudWatchErrorResourceNotFound</code>.</p>
 			</div>
 			
 
@@ -718,7 +718,7 @@
 			
 		    
 
-			<div class="method-subsection method-declaration"><code>- (BFTask *)describeAlarmHistory:(AWSCloudWatchDescribeAlarmHistoryInput *)<em>request</em></code></div>
+			<div class="method-subsection method-declaration"><code>- (AWSTask *)describeAlarmHistory:(AWSCloudWatchDescribeAlarmHistoryInput *)<em>request</em></code></div>
 
 		    
 			
@@ -738,7 +738,7 @@
 			
 			<div class="method-subsection return">
 				<h4 class="method-subtitle parameter-title">Return Value</h4>
-				<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSCloudWatchDescribeAlarmHistoryOutput</code>. On failed execution, <code>task.error</code> may contain an <code>NSError</code> with <code>AWSCloudWatchErrorDomain</code> domian and the following error code: <code>AWSCloudWatchErrorInvalidNextToken</code>.</p>
+				<p>An instance of <code>AWSTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSCloudWatchDescribeAlarmHistoryOutput</code>. On failed execution, <code>task.error</code> may contain an <code>NSError</code> with <code>AWSCloudWatchErrorDomain</code> domain and the following error code: <code>AWSCloudWatchErrorInvalidNextToken</code>.</p>
 			</div>
 			
 
@@ -788,7 +788,7 @@
 			
 		    
 
-			<div class="method-subsection method-declaration"><code>- (BFTask *)describeAlarms:(AWSCloudWatchDescribeAlarmsInput *)<em>request</em></code></div>
+			<div class="method-subsection method-declaration"><code>- (AWSTask *)describeAlarms:(AWSCloudWatchDescribeAlarmsInput *)<em>request</em></code></div>
 
 		    
 			
@@ -808,7 +808,7 @@
 			
 			<div class="method-subsection return">
 				<h4 class="method-subtitle parameter-title">Return Value</h4>
-				<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSCloudWatchDescribeAlarmsOutput</code>. On failed execution, <code>task.error</code> may contain an <code>NSError</code> with <code>AWSCloudWatchErrorDomain</code> domian and the following error code: <code>AWSCloudWatchErrorInvalidNextToken</code>.</p>
+				<p>An instance of <code>AWSTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSCloudWatchDescribeAlarmsOutput</code>. On failed execution, <code>task.error</code> may contain an <code>NSError</code> with <code>AWSCloudWatchErrorDomain</code> domain and the following error code: <code>AWSCloudWatchErrorInvalidNextToken</code>.</p>
 			</div>
 			
 
@@ -858,7 +858,7 @@
 			
 		    
 
-			<div class="method-subsection method-declaration"><code>- (BFTask *)describeAlarmsForMetric:(AWSCloudWatchDescribeAlarmsForMetricInput *)<em>request</em></code></div>
+			<div class="method-subsection method-declaration"><code>- (AWSTask *)describeAlarmsForMetric:(AWSCloudWatchDescribeAlarmsForMetricInput *)<em>request</em></code></div>
 
 		    
 			
@@ -878,7 +878,7 @@
 			
 			<div class="method-subsection return">
 				<h4 class="method-subtitle parameter-title">Return Value</h4>
-				<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSCloudWatchDescribeAlarmsForMetricOutput</code>.</p>
+				<p>An instance of <code>AWSTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSCloudWatchDescribeAlarmsForMetricOutput</code>.</p>
 			</div>
 			
 
@@ -928,7 +928,7 @@
 			
 		    
 
-			<div class="method-subsection method-declaration"><code>- (BFTask *)disableAlarmActions:(AWSCloudWatchDisableAlarmActionsInput *)<em>request</em></code></div>
+			<div class="method-subsection method-declaration"><code>- (AWSTask *)disableAlarmActions:(AWSCloudWatchDisableAlarmActionsInput *)<em>request</em></code></div>
 
 		    
 			
@@ -948,7 +948,7 @@
 			
 			<div class="method-subsection return">
 				<h4 class="method-subtitle parameter-title">Return Value</h4>
-				<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will be <code>nil</code>.</p>
+				<p>An instance of <code>AWSTask</code>. On successful execution, <code>task.result</code> will be <code>nil</code>.</p>
 			</div>
 			
 
@@ -996,7 +996,7 @@
 			
 		    
 
-			<div class="method-subsection method-declaration"><code>- (BFTask *)enableAlarmActions:(AWSCloudWatchEnableAlarmActionsInput *)<em>request</em></code></div>
+			<div class="method-subsection method-declaration"><code>- (AWSTask *)enableAlarmActions:(AWSCloudWatchEnableAlarmActionsInput *)<em>request</em></code></div>
 
 		    
 			
@@ -1016,7 +1016,7 @@
 			
 			<div class="method-subsection return">
 				<h4 class="method-subtitle parameter-title">Return Value</h4>
-				<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will be <code>nil</code>.</p>
+				<p>An instance of <code>AWSTask</code>. On successful execution, <code>task.result</code> will be <code>nil</code>.</p>
 			</div>
 			
 
@@ -1079,7 +1079,7 @@
 			
 		    
 
-			<div class="method-subsection method-declaration"><code>- (BFTask *)getMetricStatistics:(AWSCloudWatchGetMetricStatisticsInput *)<em>request</em></code></div>
+			<div class="method-subsection method-declaration"><code>- (AWSTask *)getMetricStatistics:(AWSCloudWatchGetMetricStatisticsInput *)<em>request</em></code></div>
 
 		    
 			
@@ -1099,7 +1099,7 @@
 			
 			<div class="method-subsection return">
 				<h4 class="method-subtitle parameter-title">Return Value</h4>
-				<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSCloudWatchGetMetricStatisticsOutput</code>. On failed execution, <code>task.error</code> may contain an <code>NSError</code> with <code>AWSCloudWatchErrorDomain</code> domian and the following error code: <code>AWSCloudWatchErrorInvalidParameterValue</code>, <code>AWSCloudWatchErrorMissingRequiredParameter</code>, <code>AWSCloudWatchErrorInvalidParameterCombination</code>, <code>AWSCloudWatchErrorInternalService</code>.</p>
+				<p>An instance of <code>AWSTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSCloudWatchGetMetricStatisticsOutput</code>. On failed execution, <code>task.error</code> may contain an <code>NSError</code> with <code>AWSCloudWatchErrorDomain</code> domain and the following error code: <code>AWSCloudWatchErrorInvalidParameterValue</code>, <code>AWSCloudWatchErrorMissingRequiredParameter</code>, <code>AWSCloudWatchErrorInvalidParameterCombination</code>, <code>AWSCloudWatchErrorInternalService</code>.</p>
 			</div>
 			
 
@@ -1151,7 +1151,7 @@
 			
 		    
 
-			<div class="method-subsection method-declaration"><code>- (BFTask *)listMetrics:(AWSCloudWatchListMetricsInput *)<em>request</em></code></div>
+			<div class="method-subsection method-declaration"><code>- (AWSTask *)listMetrics:(AWSCloudWatchListMetricsInput *)<em>request</em></code></div>
 
 		    
 			
@@ -1171,7 +1171,7 @@
 			
 			<div class="method-subsection return">
 				<h4 class="method-subtitle parameter-title">Return Value</h4>
-				<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSCloudWatchListMetricsOutput</code>. On failed execution, <code>task.error</code> may contain an <code>NSError</code> with <code>AWSCloudWatchErrorDomain</code> domian and the following error code: <code>AWSCloudWatchErrorInternalService</code>, <code>AWSCloudWatchErrorInvalidParameterValue</code>.</p>
+				<p>An instance of <code>AWSTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSCloudWatchListMetricsOutput</code>. On failed execution, <code>task.error</code> may contain an <code>NSError</code> with <code>AWSCloudWatchErrorDomain</code> domain and the following error code: <code>AWSCloudWatchErrorInternalService</code>, <code>AWSCloudWatchErrorInvalidParameterValue</code>.</p>
 			</div>
 			
 
@@ -1226,7 +1226,7 @@
 			
 		    
 
-			<div class="method-subsection method-declaration"><code>- (BFTask *)putMetricAlarm:(AWSCloudWatchPutMetricAlarmInput *)<em>request</em></code></div>
+			<div class="method-subsection method-declaration"><code>- (AWSTask *)putMetricAlarm:(AWSCloudWatchPutMetricAlarmInput *)<em>request</em></code></div>
 
 		    
 			
@@ -1246,7 +1246,7 @@
 			
 			<div class="method-subsection return">
 				<h4 class="method-subtitle parameter-title">Return Value</h4>
-				<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will be <code>nil</code>. On failed execution, <code>task.error</code> may contain an <code>NSError</code> with <code>AWSCloudWatchErrorDomain</code> domian and the following error code: <code>AWSCloudWatchErrorLimitExceeded</code>.</p>
+				<p>An instance of <code>AWSTask</code>. On successful execution, <code>task.result</code> will be <code>nil</code>. On failed execution, <code>task.error</code> may contain an <code>NSError</code> with <code>AWSCloudWatchErrorDomain</code> domain and the following error code: <code>AWSCloudWatchErrorLimitExceeded</code>.</p>
 			</div>
 			
 
@@ -1299,7 +1299,7 @@
 			
 		    
 
-			<div class="method-subsection method-declaration"><code>- (BFTask *)putMetricData:(AWSCloudWatchPutMetricDataInput *)<em>request</em></code></div>
+			<div class="method-subsection method-declaration"><code>- (AWSTask *)putMetricData:(AWSCloudWatchPutMetricDataInput *)<em>request</em></code></div>
 
 		    
 			
@@ -1319,7 +1319,7 @@
 			
 			<div class="method-subsection return">
 				<h4 class="method-subtitle parameter-title">Return Value</h4>
-				<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will be <code>nil</code>. On failed execution, <code>task.error</code> may contain an <code>NSError</code> with <code>AWSCloudWatchErrorDomain</code> domian and the following error code: <code>AWSCloudWatchErrorInvalidParameterValue</code>, <code>AWSCloudWatchErrorMissingRequiredParameter</code>, <code>AWSCloudWatchErrorInvalidParameterCombination</code>, <code>AWSCloudWatchErrorInternalService</code>.</p>
+				<p>An instance of <code>AWSTask</code>. On successful execution, <code>task.result</code> will be <code>nil</code>. On failed execution, <code>task.error</code> may contain an <code>NSError</code> with <code>AWSCloudWatchErrorDomain</code> domain and the following error code: <code>AWSCloudWatchErrorInvalidParameterValue</code>, <code>AWSCloudWatchErrorMissingRequiredParameter</code>, <code>AWSCloudWatchErrorInvalidParameterCombination</code>, <code>AWSCloudWatchErrorInternalService</code>.</p>
 			</div>
 			
 
@@ -1367,7 +1367,7 @@
 			
 		    
 
-			<div class="method-subsection method-declaration"><code>- (BFTask *)setAlarmState:(AWSCloudWatchSetAlarmStateInput *)<em>request</em></code></div>
+			<div class="method-subsection method-declaration"><code>- (AWSTask *)setAlarmState:(AWSCloudWatchSetAlarmStateInput *)<em>request</em></code></div>
 
 		    
 			
@@ -1387,7 +1387,7 @@
 			
 			<div class="method-subsection return">
 				<h4 class="method-subtitle parameter-title">Return Value</h4>
-				<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will be <code>nil</code>. On failed execution, <code>task.error</code> may contain an <code>NSError</code> with <code>AWSCloudWatchErrorDomain</code> domian and the following error code: <code>AWSCloudWatchErrorResourceNotFound</code>, <code>AWSCloudWatchErrorInvalidFormat</code>.</p>
+				<p>An instance of <code>AWSTask</code>. On successful execution, <code>task.result</code> will be <code>nil</code>. On failed execution, <code>task.error</code> may contain an <code>NSError</code> with <code>AWSCloudWatchErrorDomain</code> domain and the following error code: <code>AWSCloudWatchErrorResourceNotFound</code>, <code>AWSCloudWatchErrorInvalidFormat</code>.</p>
 			</div>
 			
 
@@ -1430,7 +1430,7 @@
 				<footer>
 					<div class="footer-copyright">
 						
-						<p class="copyright">Copyright &copy; 2015 Amazon Web Services, Inc. All rights reserved. Updated: 2015-03-25</p>
+						<p class="copyright">Copyright &copy; 2015 Amazon Web Services, Inc. All rights reserved. Updated: 2015-08-31</p>
 						
 						
 						<p class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.2.1 (build 1333)</a>.</p>

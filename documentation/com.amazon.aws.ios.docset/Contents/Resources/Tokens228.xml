@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSDynamoDBPaginatedOutput.html">
+	<File path="Classes/AWSDynamoDBListTablesOutput.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSDynamoDBPaginatedOutput</TokenIdentifier>
-			<Abstract type="html">The paginated output object.</Abstract>
-			<DeclaredIn>AWSDynamoDBObjectMapper.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSDynamoDBListTablesOutput</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Represents the output of a &lt;i&gt;ListTables&lt;/i&gt; operation.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
             
 			
 			<NodeRef refid="228"/>
@@ -13,74 +13,74 @@
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSDynamoDBPaginatedOutput/setItems:</TokenIdentifier>
-			<Abstract type="html">The array of items.</Abstract>
-			<DeclaredIn>AWSDynamoDBObjectMapper.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSDynamoDBListTablesOutput/setLastEvaluatedTableName:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The name of the last table in the current page of results. Use this value as the &lt;i&gt;ExclusiveStartTableName&lt;/i&gt; in a new request to obtain the next page of results, until all the table names are returned.&lt;/p&gt;&lt;p&gt;If you do not receive a &lt;i&gt;LastEvaluatedTableName&lt;/i&gt; value in the response, this means that there are no more table names to be retrieved.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSArray *items</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *lastEvaluatedTableName</Declaration>
 			
 			
-			<Anchor>//api/name/items</Anchor>
+			<Anchor>//api/name/lastEvaluatedTableName</Anchor>
             <NodeRef refid="228"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSDynamoDBPaginatedOutput/items</TokenIdentifier>
-			<Abstract type="html">The array of items.</Abstract>
-			<DeclaredIn>AWSDynamoDBObjectMapper.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSDynamoDBListTablesOutput/lastEvaluatedTableName</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The name of the last table in the current page of results. Use this value as the &lt;i&gt;ExclusiveStartTableName&lt;/i&gt; in a new request to obtain the next page of results, until all the table names are returned.&lt;/p&gt;&lt;p&gt;If you do not receive a &lt;i&gt;LastEvaluatedTableName&lt;/i&gt; value in the response, this means that there are no more table names to be retrieved.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSArray *items</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *lastEvaluatedTableName</Declaration>
 			
 			
-			<Anchor>//api/name/items</Anchor>
+			<Anchor>//api/name/lastEvaluatedTableName</Anchor>
             <NodeRef refid="228"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSDynamoDBPaginatedOutput/items</TokenIdentifier>
-			<Abstract type="html">The array of items.</Abstract>
-			<DeclaredIn>AWSDynamoDBObjectMapper.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSDynamoDBListTablesOutput/lastEvaluatedTableName</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The name of the last table in the current page of results. Use this value as the &lt;i&gt;ExclusiveStartTableName&lt;/i&gt; in a new request to obtain the next page of results, until all the table names are returned.&lt;/p&gt;&lt;p&gt;If you do not receive a &lt;i&gt;LastEvaluatedTableName&lt;/i&gt; value in the response, this means that there are no more table names to be retrieved.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSArray *items</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *lastEvaluatedTableName</Declaration>
 			
 			
-			<Anchor>//api/name/items</Anchor>
+			<Anchor>//api/name/lastEvaluatedTableName</Anchor>
             <NodeRef refid="228"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSDynamoDBPaginatedOutput/setLastEvaluatedKey:</TokenIdentifier>
-			<Abstract type="html">The last evaluated key.</Abstract>
-			<DeclaredIn>AWSDynamoDBObjectMapper.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSDynamoDBListTablesOutput/setTableNames:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The names of the tables associated with the current account at the current endpoint. The maximum size of this array is 100. &lt;/p&gt;&lt;p&gt;If &lt;i&gt;LastEvaluatedTableName&lt;/i&gt; also appears in the output, you can use this value as the &lt;i&gt;ExclusiveStartTableName&lt;/i&gt; parameter in a subsequent &lt;i&gt;ListTables&lt;/i&gt; request and obtain the next page of results.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSDictionary *lastEvaluatedKey</Declaration>
+			<Declaration>@property (nonatomic, strong) NSArray *tableNames</Declaration>
 			
 			
-			<Anchor>//api/name/lastEvaluatedKey</Anchor>
+			<Anchor>//api/name/tableNames</Anchor>
             <NodeRef refid="228"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSDynamoDBPaginatedOutput/lastEvaluatedKey</TokenIdentifier>
-			<Abstract type="html">The last evaluated key.</Abstract>
-			<DeclaredIn>AWSDynamoDBObjectMapper.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSDynamoDBListTablesOutput/tableNames</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The names of the tables associated with the current account at the current endpoint. The maximum size of this array is 100. &lt;/p&gt;&lt;p&gt;If &lt;i&gt;LastEvaluatedTableName&lt;/i&gt; also appears in the output, you can use this value as the &lt;i&gt;ExclusiveStartTableName&lt;/i&gt; parameter in a subsequent &lt;i&gt;ListTables&lt;/i&gt; request and obtain the next page of results.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSDictionary *lastEvaluatedKey</Declaration>
+			<Declaration>@property (nonatomic, strong) NSArray *tableNames</Declaration>
 			
 			
-			<Anchor>//api/name/lastEvaluatedKey</Anchor>
+			<Anchor>//api/name/tableNames</Anchor>
             <NodeRef refid="228"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSDynamoDBPaginatedOutput/lastEvaluatedKey</TokenIdentifier>
-			<Abstract type="html">The last evaluated key.</Abstract>
-			<DeclaredIn>AWSDynamoDBObjectMapper.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSDynamoDBListTablesOutput/tableNames</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The names of the tables associated with the current account at the current endpoint. The maximum size of this array is 100. &lt;/p&gt;&lt;p&gt;If &lt;i&gt;LastEvaluatedTableName&lt;/i&gt; also appears in the output, you can use this value as the &lt;i&gt;ExclusiveStartTableName&lt;/i&gt; parameter in a subsequent &lt;i&gt;ListTables&lt;/i&gt; request and obtain the next page of results.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSDictionary *lastEvaluatedKey</Declaration>
+			<Declaration>@property (nonatomic, strong) NSArray *tableNames</Declaration>
 			
 			
-			<Anchor>//api/name/lastEvaluatedKey</Anchor>
+			<Anchor>//api/name/tableNames</Anchor>
             <NodeRef refid="228"/>
 		</Token>
 		

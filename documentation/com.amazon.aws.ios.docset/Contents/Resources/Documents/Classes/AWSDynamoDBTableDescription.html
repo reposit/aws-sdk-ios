@@ -14,7 +14,7 @@
 		<div class="container" class="hide-in-xcode">
 			
 			<h1 id="library-title">
-				<a href="../index.html">AWS SDK for iOS v2.1.0 </a>
+				<a href="../index.html">AWS SDK for iOS v2.2.5 </a>
 			</h1>
 
 			<p id="developer-home">
@@ -66,9 +66,17 @@
 		
 		<option value="//api/name/keySchema">keySchema</option>
 		
+		<option value="//api/name/latestStreamArn">latestStreamArn</option>
+		
+		<option value="//api/name/latestStreamLabel">latestStreamLabel</option>
+		
 		<option value="//api/name/localSecondaryIndexes">localSecondaryIndexes</option>
 		
 		<option value="//api/name/provisionedThroughput">provisionedThroughput</option>
+		
+		<option value="//api/name/streamSpecification">streamSpecification</option>
+		
+		<option value="//api/name/tableArn">tableArn</option>
 		
 		<option value="//api/name/tableName">tableName</option>
 		
@@ -101,7 +109,7 @@
 					<div class="section section-specification"><table cellspacing="0"><tbody>
 						<tr>
 	<th>Inherits from</th>
-	<td><a href="../Classes/AWSModel.html">AWSModel</a> : MTLModel</td>
+	<td>AWSModel : AWSMTLModel</td>
 </tr><tr>
 	<th>Declared in</th>
 	<td>AWSDynamoDBModel.h<br />AWSDynamoDBModel.m</td>
@@ -235,7 +243,7 @@
 				<p>The global secondary indexes, if any, on the table. Each index is scoped to a given hash key value. Each element is composed of:</p>
 
 
-<ul><li><p><i>IndexName</i> - The name of the global secondary index.</p></li><li><p><i>IndexSizeBytes</i> - The total size of the global secondary index, in bytes. DynamoDB updates this value approximately every six hours. Recent changes might not be reflected in this value. </p></li><li><p><i>IndexStatus</i> - The current status of the global secondary index:</p><ul><li><p><i>CREATING</i> - The index is being created.</p></li><li><p><i>UPDATING</i> - The index is being updated.</p></li><li><p><i>DELETING</i> - The index is being deleted.</p></li><li><p><i>ACTIVE</i> - The index is ready for use.</p></li></ul></li><li><p><i>ItemCount</i> - The number of items in the global secondary index. DynamoDB updates this value approximately every six hours. Recent changes might not be reflected in this value. </p></li><li><p><i>KeySchema</i> - Specifies the complete index key schema. The attribute names in the key schema must be between 1 and 255 characters (inclusive). The key schema must begin with the same hash key attribute as the table.</p></li><li><p><i>Projection</i> - Specifies attributes that are copied (projected) from the table into the index. These are in addition to the primary key attributes and index key attributes, which are automatically projected. Each attribute specification is composed of:</p><ul><li><p><i>ProjectionType</i> - One of the following:</p><ul><li><p><code>KEYS_ONLY</code> - Only the index and primary keys are projected into the index.</p></li><li><p><code>INCLUDE</code> - Only the specified table attributes are projected into the index. The list of projected attributes are in <i>NonKeyAttributes</i>.</p></li><li><p><code>ALL</code> - All of the table attributes are projected into the index.</p></li></ul></li><li><p><i>NonKeyAttributes</i> - A list of one or more non-key attribute names that are projected into the secondary index. The total count of attributes specified in <i>NonKeyAttributes</i>, summed across all of the secondary indexes, must not exceed 20. If you project the same attribute into two different indexes, this counts as two distinct attributes when determining the total.</p></li></ul></li><li><p><i>ProvisionedThroughput</i> - The provisioned throughput settings for the global secondary index, consisting of read and write capacity units, along with data about increases and decreases. </p></li></ul>
+<ul><li><p><i>Backfilling</i> - If true, then the index is currently in the backfilling phase. Backfilling occurs only when a new global secondary index is added to the table; it is the process by which DynamoDB populates the new index with data from the table. (This attribute does not appear for indexes that were created during a <i>CreateTable</i> operation.)</p></li><li><p><i>IndexName</i> - The name of the global secondary index.</p></li><li><p><i>IndexSizeBytes</i> - The total size of the global secondary index, in bytes. DynamoDB updates this value approximately every six hours. Recent changes might not be reflected in this value. </p></li><li><p><i>IndexStatus</i> - The current status of the global secondary index:</p><ul><li><p><i>CREATING</i> - The index is being created.</p></li><li><p><i>UPDATING</i> - The index is being updated.</p></li><li><p><i>DELETING</i> - The index is being deleted.</p></li><li><p><i>ACTIVE</i> - The index is ready for use.</p></li></ul></li><li><p><i>ItemCount</i> - The number of items in the global secondary index. DynamoDB updates this value approximately every six hours. Recent changes might not be reflected in this value. </p></li><li><p><i>KeySchema</i> - Specifies the complete index key schema. The attribute names in the key schema must be between 1 and 255 characters (inclusive). The key schema must begin with the same hash key attribute as the table.</p></li><li><p><i>Projection</i> - Specifies attributes that are copied (projected) from the table into the index. These are in addition to the primary key attributes and index key attributes, which are automatically projected. Each attribute specification is composed of:</p><ul><li><p><i>ProjectionType</i> - One of the following:</p><ul><li><p><code>KEYS_ONLY</code> - Only the index and primary keys are projected into the index.</p></li><li><p><code>INCLUDE</code> - Only the specified table attributes are projected into the index. The list of projected attributes are in <i>NonKeyAttributes</i>.</p></li><li><p><code>ALL</code> - All of the table attributes are projected into the index.</p></li></ul></li><li><p><i>NonKeyAttributes</i> - A list of one or more non-key attribute names that are projected into the secondary index. The total count of attributes provided in <i>NonKeyAttributes</i>, summed across all of the secondary indexes, must not exceed 20. If you project the same attribute into two different indexes, this counts as two distinct attributes when determining the total.</p></li></ul></li><li><p><i>ProvisionedThroughput</i> - The provisioned throughput settings for the global secondary index, consisting of read and write capacity units, along with data about increases and decreases. </p></li></ul>
 
 
 <p>If the table is in the <code>DELETING</code> state, no information about indexes will be returned.</p>
@@ -359,6 +367,80 @@
 		</div>
 	</div>
 </div><div class="section-method">
+	<a name="//api/name/latestStreamArn" title="latestStreamArn"></a>
+	<h3 class="method-title"><code><a href="#//api/name/latestStreamArn">&nbsp;&nbsp;latestStreamArn</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>@property (nonatomic, strong) NSString *latestStreamArn</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AWSDynamoDBModel.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/latestStreamLabel" title="latestStreamLabel"></a>
+	<h3 class="method-title"><code><a href="#//api/name/latestStreamLabel">&nbsp;&nbsp;latestStreamLabel</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>@property (nonatomic, strong) NSString *latestStreamLabel</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AWSDynamoDBModel.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
 	<a name="//api/name/localSecondaryIndexes" title="localSecondaryIndexes"></a>
 	<h3 class="method-title"><code><a href="#//api/name/localSecondaryIndexes">&nbsp;&nbsp;localSecondaryIndexes</a></code>
 </h3>
@@ -373,7 +455,7 @@
 				<p>Represents one or more local secondary indexes on the table. Each index is scoped to a given hash key value. Tables with one or more local secondary indexes are subject to an item collection size limit, where the amount of data within a given item collection cannot exceed 10 GB. Each element is composed of:</p>
 
 
-<ul><li><p><i>IndexName</i> - The name of the local secondary index.</p></li><li><p><i>KeySchema</i> - Specifies the complete index key schema. The attribute names in the key schema must be between 1 and 255 characters (inclusive). The key schema must begin with the same hash key attribute as the table.</p></li><li><p><i>Projection</i> - Specifies attributes that are copied (projected) from the table into the index. These are in addition to the primary key attributes and index key attributes, which are automatically projected. Each attribute specification is composed of:</p><ul><li><p><i>ProjectionType</i> - One of the following:</p><ul><li><p><code>KEYS_ONLY</code> - Only the index and primary keys are projected into the index.</p></li><li><p><code>INCLUDE</code> - Only the specified table attributes are projected into the index. The list of projected attributes are in <i>NonKeyAttributes</i>.</p></li><li><p><code>ALL</code> - All of the table attributes are projected into the index.</p></li></ul></li><li><p><i>NonKeyAttributes</i> - A list of one or more non-key attribute names that are projected into the secondary index. The total count of attributes specified in <i>NonKeyAttributes</i>, summed across all of the secondary indexes, must not exceed 20. If you project the same attribute into two different indexes, this counts as two distinct attributes when determining the total.</p></li></ul></li><li><p><i>IndexSizeBytes</i> - Represents the total size of the index, in bytes. DynamoDB updates this value approximately every six hours. Recent changes might not be reflected in this value.</p></li><li><p><i>ItemCount</i> - Represents the number of items in the index. DynamoDB updates this value approximately every six hours. Recent changes might not be reflected in this value.</p></li></ul>
+<ul><li><p><i>IndexName</i> - The name of the local secondary index.</p></li><li><p><i>KeySchema</i> - Specifies the complete index key schema. The attribute names in the key schema must be between 1 and 255 characters (inclusive). The key schema must begin with the same hash key attribute as the table.</p></li><li><p><i>Projection</i> - Specifies attributes that are copied (projected) from the table into the index. These are in addition to the primary key attributes and index key attributes, which are automatically projected. Each attribute specification is composed of:</p><ul><li><p><i>ProjectionType</i> - One of the following:</p><ul><li><p><code>KEYS_ONLY</code> - Only the index and primary keys are projected into the index.</p></li><li><p><code>INCLUDE</code> - Only the specified table attributes are projected into the index. The list of projected attributes are in <i>NonKeyAttributes</i>.</p></li><li><p><code>ALL</code> - All of the table attributes are projected into the index.</p></li></ul></li><li><p><i>NonKeyAttributes</i> - A list of one or more non-key attribute names that are projected into the secondary index. The total count of attributes provided in <i>NonKeyAttributes</i>, summed across all of the secondary indexes, must not exceed 20. If you project the same attribute into two different indexes, this counts as two distinct attributes when determining the total.</p></li></ul></li><li><p><i>IndexSizeBytes</i> - Represents the total size of the index, in bytes. DynamoDB updates this value approximately every six hours. Recent changes might not be reflected in this value.</p></li><li><p><i>ItemCount</i> - Represents the number of items in the index. DynamoDB updates this value approximately every six hours. Recent changes might not be reflected in this value.</p></li></ul>
 
 
 <p>If the table is in the <code>DELETING</code> state, no information about indexes will be returned.</p>
@@ -425,6 +507,80 @@
 		    
 
 			<div class="method-subsection method-declaration"><code>@property (nonatomic, strong) AWSDynamoDBProvisionedThroughputDescription *provisionedThroughput</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AWSDynamoDBModel.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/streamSpecification" title="streamSpecification"></a>
+	<h3 class="method-title"><code><a href="#//api/name/streamSpecification">&nbsp;&nbsp;streamSpecification</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>@property (nonatomic, strong) AWSDynamoDBStreamSpecification *streamSpecification</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AWSDynamoDBModel.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/tableArn" title="tableArn"></a>
+	<h3 class="method-title"><code><a href="#//api/name/tableArn">&nbsp;&nbsp;tableArn</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>@property (nonatomic, strong) NSString *tableArn</code></div>
 
 		    
 			
@@ -547,7 +703,7 @@
 				<p>The current state of the table:</p>
 
 
-<ul><li><p><i>CREATING</i> - The table is being created, as the result of a <i>CreateTable</i> operation.</p></li><li><p><i>UPDATING</i> - The table is being updated, as the result of an <i>UpdateTable</i> operation.</p></li><li><p><i>DELETING</i> - The table is being deleted, as the result of a <i>DeleteTable</i> operation.</p></li><li><p><i>ACTIVE</i> - The table is ready for use.</p></li></ul>
+<ul><li><p><i>CREATING</i> - The table is being created.</p></li><li><p><i>UPDATING</i> - The table is being updated.</p></li><li><p><i>DELETING</i> - The table is being deleted.</p></li><li><p><i>ACTIVE</i> - The table is ready for use.</p></li></ul>
 
 			</div>
 			
@@ -590,7 +746,7 @@
 				<footer>
 					<div class="footer-copyright">
 						
-						<p class="copyright">Copyright &copy; 2015 Amazon Web Services, Inc. All rights reserved. Updated: 2015-03-25</p>
+						<p class="copyright">Copyright &copy; 2015 Amazon Web Services, Inc. All rights reserved. Updated: 2015-08-31</p>
 						
 						
 						<p class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.2.1 (build 1333)</a>.</p>

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSS3ObjectIdentifier.html">
+	<File path="Classes/AWSS3GetBucketCorsOutput.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSS3ObjectIdentifier</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSS3GetBucketCorsOutput</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSS3Model.h</DeclaredIn>
             
@@ -13,74 +13,38 @@
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3ObjectIdentifier/setKey:</TokenIdentifier>
-			<Abstract type="html">Key name of the object to delete.</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3GetBucketCorsOutput/setCORSRules:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *key</Declaration>
+			<Declaration>@property (nonatomic, strong) NSArray *CORSRules</Declaration>
 			
 			
-			<Anchor>//api/name/key</Anchor>
+			<Anchor>//api/name/CORSRules</Anchor>
             <NodeRef refid="844"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3ObjectIdentifier/key</TokenIdentifier>
-			<Abstract type="html">Key name of the object to delete.</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3GetBucketCorsOutput/CORSRules</TokenIdentifier>
+			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *key</Declaration>
+			<Declaration>@property (nonatomic, strong) NSArray *CORSRules</Declaration>
 			
 			
-			<Anchor>//api/name/key</Anchor>
+			<Anchor>//api/name/CORSRules</Anchor>
             <NodeRef refid="844"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSS3ObjectIdentifier/key</TokenIdentifier>
-			<Abstract type="html">Key name of the object to delete.</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSS3GetBucketCorsOutput/CORSRules</TokenIdentifier>
+			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *key</Declaration>
+			<Declaration>@property (nonatomic, strong) NSArray *CORSRules</Declaration>
 			
 			
-			<Anchor>//api/name/key</Anchor>
-            <NodeRef refid="844"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3ObjectIdentifier/setVersionId:</TokenIdentifier>
-			<Abstract type="html">VersionId for the specific version of the object to delete.</Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *versionId</Declaration>
-			
-			
-			<Anchor>//api/name/versionId</Anchor>
-            <NodeRef refid="844"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3ObjectIdentifier/versionId</TokenIdentifier>
-			<Abstract type="html">VersionId for the specific version of the object to delete.</Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *versionId</Declaration>
-			
-			
-			<Anchor>//api/name/versionId</Anchor>
-            <NodeRef refid="844"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSS3ObjectIdentifier/versionId</TokenIdentifier>
-			<Abstract type="html">VersionId for the specific version of the object to delete.</Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *versionId</Declaration>
-			
-			
-			<Anchor>//api/name/versionId</Anchor>
+			<Anchor>//api/name/CORSRules</Anchor>
             <NodeRef refid="844"/>
 		</Token>
 		

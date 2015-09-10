@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Constants/AWSHTTPMethod.html">
+	<File path="Constants/AWSEC2InstanceAttributeName.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/c/tdef/AWSHTTPMethod</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/c/tdef/AWSEC2InstanceAttributeName</TokenIdentifier>
 			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSNetworking.h</DeclaredIn>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
             
 			
 			<NodeRef refid="1180"/>
@@ -14,71 +14,141 @@
 		
         
         <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSHTTPMethodUnknown</TokenIdentifier>
+            <TokenIdentifier>//apple_ref/c/econst/AWSEC2InstanceAttributeNameUnknown</TokenIdentifier>
             <Abstract type="html"></Abstract>
-            <Declaration>AWSHTTPMethodUnknown</Declaration>
+            <Declaration>AWSEC2InstanceAttributeNameUnknown</Declaration>
             
-            <DeclaredIn>AWSNetworking.h</DeclaredIn>
+            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
             
             <NodeRef refid="1180"/>
         </Token>
         
         <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSHTTPMethodGET</TokenIdentifier>
+            <TokenIdentifier>//apple_ref/c/econst/AWSEC2InstanceAttributeNameInstanceType</TokenIdentifier>
             <Abstract type="html"></Abstract>
-            <Declaration>AWSHTTPMethodGET</Declaration>
+            <Declaration>AWSEC2InstanceAttributeNameInstanceType</Declaration>
             
-            <DeclaredIn>AWSNetworking.h</DeclaredIn>
+            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
             
             <NodeRef refid="1180"/>
         </Token>
         
         <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSHTTPMethodHEAD</TokenIdentifier>
+            <TokenIdentifier>//apple_ref/c/econst/AWSEC2InstanceAttributeNameKernel</TokenIdentifier>
             <Abstract type="html"></Abstract>
-            <Declaration>AWSHTTPMethodHEAD</Declaration>
+            <Declaration>AWSEC2InstanceAttributeNameKernel</Declaration>
             
-            <DeclaredIn>AWSNetworking.h</DeclaredIn>
+            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
             
             <NodeRef refid="1180"/>
         </Token>
         
         <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSHTTPMethodPOST</TokenIdentifier>
+            <TokenIdentifier>//apple_ref/c/econst/AWSEC2InstanceAttributeNameRAMDisk</TokenIdentifier>
             <Abstract type="html"></Abstract>
-            <Declaration>AWSHTTPMethodPOST</Declaration>
+            <Declaration>AWSEC2InstanceAttributeNameRAMDisk</Declaration>
             
-            <DeclaredIn>AWSNetworking.h</DeclaredIn>
+            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
             
             <NodeRef refid="1180"/>
         </Token>
         
         <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSHTTPMethodPUT</TokenIdentifier>
+            <TokenIdentifier>//apple_ref/c/econst/AWSEC2InstanceAttributeNameUserData</TokenIdentifier>
             <Abstract type="html"></Abstract>
-            <Declaration>AWSHTTPMethodPUT</Declaration>
+            <Declaration>AWSEC2InstanceAttributeNameUserData</Declaration>
             
-            <DeclaredIn>AWSNetworking.h</DeclaredIn>
+            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
             
             <NodeRef refid="1180"/>
         </Token>
         
         <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSHTTPMethodPATCH</TokenIdentifier>
+            <TokenIdentifier>//apple_ref/c/econst/AWSEC2InstanceAttributeNameDisableApiTermination</TokenIdentifier>
             <Abstract type="html"></Abstract>
-            <Declaration>AWSHTTPMethodPATCH</Declaration>
+            <Declaration>AWSEC2InstanceAttributeNameDisableApiTermination</Declaration>
             
-            <DeclaredIn>AWSNetworking.h</DeclaredIn>
+            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
             
             <NodeRef refid="1180"/>
         </Token>
         
         <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSHTTPMethodDELETE</TokenIdentifier>
+            <TokenIdentifier>//apple_ref/c/econst/AWSEC2InstanceAttributeNameInstanceInitiatedShutdownBehavior</TokenIdentifier>
             <Abstract type="html"></Abstract>
-            <Declaration>AWSHTTPMethodDELETE</Declaration>
+            <Declaration>AWSEC2InstanceAttributeNameInstanceInitiatedShutdownBehavior</Declaration>
             
-            <DeclaredIn>AWSNetworking.h</DeclaredIn>
+            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
+            
+            <NodeRef refid="1180"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/AWSEC2InstanceAttributeNameRootDeviceName</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>AWSEC2InstanceAttributeNameRootDeviceName</Declaration>
+            
+            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
+            
+            <NodeRef refid="1180"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/AWSEC2InstanceAttributeNameBlockDeviceMapping</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>AWSEC2InstanceAttributeNameBlockDeviceMapping</Declaration>
+            
+            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
+            
+            <NodeRef refid="1180"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/AWSEC2InstanceAttributeNameProductCodes</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>AWSEC2InstanceAttributeNameProductCodes</Declaration>
+            
+            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
+            
+            <NodeRef refid="1180"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/AWSEC2InstanceAttributeNameSourceDestCheck</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>AWSEC2InstanceAttributeNameSourceDestCheck</Declaration>
+            
+            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
+            
+            <NodeRef refid="1180"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/AWSEC2InstanceAttributeNameGroupSet</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>AWSEC2InstanceAttributeNameGroupSet</Declaration>
+            
+            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
+            
+            <NodeRef refid="1180"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/AWSEC2InstanceAttributeNameEBSOptimized</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>AWSEC2InstanceAttributeNameEBSOptimized</Declaration>
+            
+            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
+            
+            <NodeRef refid="1180"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/AWSEC2InstanceAttributeNameSriovNetSupport</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>AWSEC2InstanceAttributeNameSriovNetSupport</Declaration>
+            
+            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
             
             <NodeRef refid="1180"/>
         </Token>

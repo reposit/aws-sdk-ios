@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSCognitoSyncListRecordsRequest.html">
+	<File path="Classes/AWSCognitoSyncIdentityPoolUsage.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSCognitoSyncListRecordsRequest</TokenIdentifier>
-			<Abstract type="html">A request for a list of records.
-Required parameters: [IdentityPoolId, IdentityId, DatasetName]</Abstract>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSCognitoSyncIdentityPoolUsage</TokenIdentifier>
+			<Abstract type="html">Usage information for the identity pool.</Abstract>
 			<DeclaredIn>AWSCognitoSyncModel.h</DeclaredIn>
             
 			
@@ -14,79 +13,43 @@ Required parameters: [IdentityPoolId, IdentityId, DatasetName]</Abstract>
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoSyncListRecordsRequest/setDatasetName:</TokenIdentifier>
-			<Abstract type="html">A string of up to 128 characters. Allowed characters are a-z, A-Z, 0-9, &apos;_&apos; (underscore), &apos;-&apos; (dash), and &apos;.&apos; (dot).</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoSyncIdentityPoolUsage/setDataStorage:</TokenIdentifier>
+			<Abstract type="html">Data storage information for the identity pool.</Abstract>
 			<DeclaredIn>AWSCognitoSyncModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *datasetName</Declaration>
+			<Declaration>@property (nonatomic, strong) NSNumber *dataStorage</Declaration>
 			
 			
-			<Anchor>//api/name/datasetName</Anchor>
+			<Anchor>//api/name/dataStorage</Anchor>
             <NodeRef refid="174"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoSyncListRecordsRequest/datasetName</TokenIdentifier>
-			<Abstract type="html">A string of up to 128 characters. Allowed characters are a-z, A-Z, 0-9, &apos;_&apos; (underscore), &apos;-&apos; (dash), and &apos;.&apos; (dot).</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoSyncIdentityPoolUsage/dataStorage</TokenIdentifier>
+			<Abstract type="html">Data storage information for the identity pool.</Abstract>
 			<DeclaredIn>AWSCognitoSyncModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *datasetName</Declaration>
+			<Declaration>@property (nonatomic, strong) NSNumber *dataStorage</Declaration>
 			
 			
-			<Anchor>//api/name/datasetName</Anchor>
+			<Anchor>//api/name/dataStorage</Anchor>
             <NodeRef refid="174"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSCognitoSyncListRecordsRequest/datasetName</TokenIdentifier>
-			<Abstract type="html">A string of up to 128 characters. Allowed characters are a-z, A-Z, 0-9, &apos;_&apos; (underscore), &apos;-&apos; (dash), and &apos;.&apos; (dot).</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSCognitoSyncIdentityPoolUsage/dataStorage</TokenIdentifier>
+			<Abstract type="html">Data storage information for the identity pool.</Abstract>
 			<DeclaredIn>AWSCognitoSyncModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *datasetName</Declaration>
+			<Declaration>@property (nonatomic, strong) NSNumber *dataStorage</Declaration>
 			
 			
-			<Anchor>//api/name/datasetName</Anchor>
+			<Anchor>//api/name/dataStorage</Anchor>
             <NodeRef refid="174"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoSyncListRecordsRequest/setIdentityId:</TokenIdentifier>
-			<Abstract type="html">A name-spaced GUID (for example, us-east-1:23EC4050-6AEA-7089-A2DD-08002EXAMPLE) created by Amazon Cognito. GUID generation is unique within a region.</Abstract>
-			<DeclaredIn>AWSCognitoSyncModel.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *identityId</Declaration>
-			
-			
-			<Anchor>//api/name/identityId</Anchor>
-            <NodeRef refid="174"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoSyncListRecordsRequest/identityId</TokenIdentifier>
-			<Abstract type="html">A name-spaced GUID (for example, us-east-1:23EC4050-6AEA-7089-A2DD-08002EXAMPLE) created by Amazon Cognito. GUID generation is unique within a region.</Abstract>
-			<DeclaredIn>AWSCognitoSyncModel.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *identityId</Declaration>
-			
-			
-			<Anchor>//api/name/identityId</Anchor>
-            <NodeRef refid="174"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSCognitoSyncListRecordsRequest/identityId</TokenIdentifier>
-			<Abstract type="html">A name-spaced GUID (for example, us-east-1:23EC4050-6AEA-7089-A2DD-08002EXAMPLE) created by Amazon Cognito. GUID generation is unique within a region.</Abstract>
-			<DeclaredIn>AWSCognitoSyncModel.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *identityId</Declaration>
-			
-			
-			<Anchor>//api/name/identityId</Anchor>
-            <NodeRef refid="174"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoSyncListRecordsRequest/setIdentityPoolId:</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoSyncIdentityPoolUsage/setIdentityPoolId:</TokenIdentifier>
 			<Abstract type="html">A name-spaced GUID (for example, us-east-1:23EC4050-6AEA-7089-A2DD-08002EXAMPLE) created by Amazon Cognito. GUID generation is unique within a region.</Abstract>
 			<DeclaredIn>AWSCognitoSyncModel.h</DeclaredIn>
 			
@@ -98,7 +61,7 @@ Required parameters: [IdentityPoolId, IdentityId, DatasetName]</Abstract>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoSyncListRecordsRequest/identityPoolId</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoSyncIdentityPoolUsage/identityPoolId</TokenIdentifier>
 			<Abstract type="html">A name-spaced GUID (for example, us-east-1:23EC4050-6AEA-7089-A2DD-08002EXAMPLE) created by Amazon Cognito. GUID generation is unique within a region.</Abstract>
 			<DeclaredIn>AWSCognitoSyncModel.h</DeclaredIn>
 			
@@ -110,7 +73,7 @@ Required parameters: [IdentityPoolId, IdentityId, DatasetName]</Abstract>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSCognitoSyncListRecordsRequest/identityPoolId</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSCognitoSyncIdentityPoolUsage/identityPoolId</TokenIdentifier>
 			<Abstract type="html">A name-spaced GUID (for example, us-east-1:23EC4050-6AEA-7089-A2DD-08002EXAMPLE) created by Amazon Cognito. GUID generation is unique within a region.</Abstract>
 			<DeclaredIn>AWSCognitoSyncModel.h</DeclaredIn>
 			
@@ -122,146 +85,74 @@ Required parameters: [IdentityPoolId, IdentityId, DatasetName]</Abstract>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoSyncListRecordsRequest/setLastSyncCount:</TokenIdentifier>
-			<Abstract type="html">The last server sync count for this record.</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoSyncIdentityPoolUsage/setLastModifiedDate:</TokenIdentifier>
+			<Abstract type="html">Date on which the identity pool was last modified.</Abstract>
 			<DeclaredIn>AWSCognitoSyncModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSNumber *lastSyncCount</Declaration>
+			<Declaration>@property (nonatomic, strong) NSDate *lastModifiedDate</Declaration>
 			
 			
-			<Anchor>//api/name/lastSyncCount</Anchor>
+			<Anchor>//api/name/lastModifiedDate</Anchor>
             <NodeRef refid="174"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoSyncListRecordsRequest/lastSyncCount</TokenIdentifier>
-			<Abstract type="html">The last server sync count for this record.</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoSyncIdentityPoolUsage/lastModifiedDate</TokenIdentifier>
+			<Abstract type="html">Date on which the identity pool was last modified.</Abstract>
 			<DeclaredIn>AWSCognitoSyncModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSNumber *lastSyncCount</Declaration>
+			<Declaration>@property (nonatomic, strong) NSDate *lastModifiedDate</Declaration>
 			
 			
-			<Anchor>//api/name/lastSyncCount</Anchor>
+			<Anchor>//api/name/lastModifiedDate</Anchor>
             <NodeRef refid="174"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSCognitoSyncListRecordsRequest/lastSyncCount</TokenIdentifier>
-			<Abstract type="html">The last server sync count for this record.</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSCognitoSyncIdentityPoolUsage/lastModifiedDate</TokenIdentifier>
+			<Abstract type="html">Date on which the identity pool was last modified.</Abstract>
 			<DeclaredIn>AWSCognitoSyncModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSNumber *lastSyncCount</Declaration>
+			<Declaration>@property (nonatomic, strong) NSDate *lastModifiedDate</Declaration>
 			
 			
-			<Anchor>//api/name/lastSyncCount</Anchor>
+			<Anchor>//api/name/lastModifiedDate</Anchor>
             <NodeRef refid="174"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoSyncListRecordsRequest/setMaxResults:</TokenIdentifier>
-			<Abstract type="html">The maximum number of results to be returned.</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoSyncIdentityPoolUsage/setSyncSessionsCount:</TokenIdentifier>
+			<Abstract type="html">Number of sync sessions for the identity pool.</Abstract>
 			<DeclaredIn>AWSCognitoSyncModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSNumber *maxResults</Declaration>
+			<Declaration>@property (nonatomic, strong) NSNumber *syncSessionsCount</Declaration>
 			
 			
-			<Anchor>//api/name/maxResults</Anchor>
+			<Anchor>//api/name/syncSessionsCount</Anchor>
             <NodeRef refid="174"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoSyncListRecordsRequest/maxResults</TokenIdentifier>
-			<Abstract type="html">The maximum number of results to be returned.</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoSyncIdentityPoolUsage/syncSessionsCount</TokenIdentifier>
+			<Abstract type="html">Number of sync sessions for the identity pool.</Abstract>
 			<DeclaredIn>AWSCognitoSyncModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSNumber *maxResults</Declaration>
+			<Declaration>@property (nonatomic, strong) NSNumber *syncSessionsCount</Declaration>
 			
 			
-			<Anchor>//api/name/maxResults</Anchor>
+			<Anchor>//api/name/syncSessionsCount</Anchor>
             <NodeRef refid="174"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSCognitoSyncListRecordsRequest/maxResults</TokenIdentifier>
-			<Abstract type="html">The maximum number of results to be returned.</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSCognitoSyncIdentityPoolUsage/syncSessionsCount</TokenIdentifier>
+			<Abstract type="html">Number of sync sessions for the identity pool.</Abstract>
 			<DeclaredIn>AWSCognitoSyncModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSNumber *maxResults</Declaration>
+			<Declaration>@property (nonatomic, strong) NSNumber *syncSessionsCount</Declaration>
 			
 			
-			<Anchor>//api/name/maxResults</Anchor>
-            <NodeRef refid="174"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoSyncListRecordsRequest/setNextToken:</TokenIdentifier>
-			<Abstract type="html">A pagination token for obtaining the next page of results.</Abstract>
-			<DeclaredIn>AWSCognitoSyncModel.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *nextToken</Declaration>
-			
-			
-			<Anchor>//api/name/nextToken</Anchor>
-            <NodeRef refid="174"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoSyncListRecordsRequest/nextToken</TokenIdentifier>
-			<Abstract type="html">A pagination token for obtaining the next page of results.</Abstract>
-			<DeclaredIn>AWSCognitoSyncModel.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *nextToken</Declaration>
-			
-			
-			<Anchor>//api/name/nextToken</Anchor>
-            <NodeRef refid="174"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSCognitoSyncListRecordsRequest/nextToken</TokenIdentifier>
-			<Abstract type="html">A pagination token for obtaining the next page of results.</Abstract>
-			<DeclaredIn>AWSCognitoSyncModel.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *nextToken</Declaration>
-			
-			
-			<Anchor>//api/name/nextToken</Anchor>
-            <NodeRef refid="174"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoSyncListRecordsRequest/setSyncSessionToken:</TokenIdentifier>
-			<Abstract type="html">A token containing a session ID, identity ID, and expiration.</Abstract>
-			<DeclaredIn>AWSCognitoSyncModel.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *syncSessionToken</Declaration>
-			
-			
-			<Anchor>//api/name/syncSessionToken</Anchor>
-            <NodeRef refid="174"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoSyncListRecordsRequest/syncSessionToken</TokenIdentifier>
-			<Abstract type="html">A token containing a session ID, identity ID, and expiration.</Abstract>
-			<DeclaredIn>AWSCognitoSyncModel.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *syncSessionToken</Declaration>
-			
-			
-			<Anchor>//api/name/syncSessionToken</Anchor>
-            <NodeRef refid="174"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSCognitoSyncListRecordsRequest/syncSessionToken</TokenIdentifier>
-			<Abstract type="html">A token containing a session ID, identity ID, and expiration.</Abstract>
-			<DeclaredIn>AWSCognitoSyncModel.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *syncSessionToken</Declaration>
-			
-			
-			<Anchor>//api/name/syncSessionToken</Anchor>
+			<Anchor>//api/name/syncSessionsCount</Anchor>
             <NodeRef refid="174"/>
 		</Token>
 		

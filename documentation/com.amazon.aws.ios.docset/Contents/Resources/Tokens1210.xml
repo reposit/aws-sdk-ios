@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Constants/AWSS3Protocols.html">
+	<File path="Constants/AWSEC2SpotInstanceType.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/c/tdef/AWSS3Protocols</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/c/tdef/AWSEC2SpotInstanceType</TokenIdentifier>
 			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
             
 			
 			<NodeRef refid="1210"/>
@@ -14,31 +14,31 @@
 		
         
         <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSS3ProtocolsUnknown</TokenIdentifier>
+            <TokenIdentifier>//apple_ref/c/econst/AWSEC2SpotInstanceTypeUnknown</TokenIdentifier>
             <Abstract type="html"></Abstract>
-            <Declaration>AWSS3ProtocolsUnknown</Declaration>
+            <Declaration>AWSEC2SpotInstanceTypeUnknown</Declaration>
             
-            <DeclaredIn>AWSS3Model.h</DeclaredIn>
+            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
             
             <NodeRef refid="1210"/>
         </Token>
         
         <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSS3ProtocolsHTTP</TokenIdentifier>
+            <TokenIdentifier>//apple_ref/c/econst/AWSEC2SpotInstanceTypeOneTime</TokenIdentifier>
             <Abstract type="html"></Abstract>
-            <Declaration>AWSS3ProtocolsHTTP</Declaration>
+            <Declaration>AWSEC2SpotInstanceTypeOneTime</Declaration>
             
-            <DeclaredIn>AWSS3Model.h</DeclaredIn>
+            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
             
             <NodeRef refid="1210"/>
         </Token>
         
         <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSS3ProtocolsHTTPS</TokenIdentifier>
+            <TokenIdentifier>//apple_ref/c/econst/AWSEC2SpotInstanceTypePersistent</TokenIdentifier>
             <Abstract type="html"></Abstract>
-            <Declaration>AWSS3ProtocolsHTTPS</Declaration>
+            <Declaration>AWSEC2SpotInstanceTypePersistent</Declaration>
             
-            <DeclaredIn>AWSS3Model.h</DeclaredIn>
+            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
             
             <NodeRef refid="1210"/>
         </Token>

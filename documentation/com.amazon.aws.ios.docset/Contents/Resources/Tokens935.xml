@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSSNSCreateEndpointResponse.html">
+	<File path="Classes/AWSS3TransferUtilityExpression.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSSNSCreateEndpointResponse</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Response from CreateEndpoint action.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSNSModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSS3TransferUtilityExpression</TokenIdentifier>
+			<Abstract type="html">The expression object for configuring a upload or download task.</Abstract>
+			<DeclaredIn>AWSS3TransferUtility.h</DeclaredIn>
             
 			
 			<NodeRef refid="935"/>
@@ -13,38 +13,58 @@
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSSNSCreateEndpointResponse/setEndpointArn:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;EndpointArn returned from CreateEndpoint action.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSNSModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3TransferUtilityExpression/setRequestParameters:</TokenIdentifier>
+			<Abstract type="html">The request parameters. It is an dictionary of &lt;NSString , NSString &gt;.</Abstract>
+			<DeclaredIn>AWSS3TransferUtility.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *endpointArn</Declaration>
+			<Declaration>@property (readonly, nullable) NSDictionary *requestParameters</Declaration>
 			
 			
-			<Anchor>//api/name/endpointArn</Anchor>
+			<Anchor>//api/name/requestParameters</Anchor>
             <NodeRef refid="935"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSSNSCreateEndpointResponse/endpointArn</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;EndpointArn returned from CreateEndpoint action.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSNSModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3TransferUtilityExpression/requestParameters</TokenIdentifier>
+			<Abstract type="html">The request parameters. It is an dictionary of &lt;NSString , NSString &gt;.</Abstract>
+			<DeclaredIn>AWSS3TransferUtility.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *endpointArn</Declaration>
+			<Declaration>@property (readonly, nullable) NSDictionary *requestParameters</Declaration>
 			
 			
-			<Anchor>//api/name/endpointArn</Anchor>
+			<Anchor>//api/name/requestParameters</Anchor>
             <NodeRef refid="935"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSSNSCreateEndpointResponse/endpointArn</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;EndpointArn returned from CreateEndpoint action.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSNSModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSS3TransferUtilityExpression/requestParameters</TokenIdentifier>
+			<Abstract type="html">The request parameters. It is an dictionary of &lt;NSString , NSString &gt;.</Abstract>
+			<DeclaredIn>AWSS3TransferUtility.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *endpointArn</Declaration>
+			<Declaration>@property (readonly, nullable) NSDictionary *requestParameters</Declaration>
 			
 			
-			<Anchor>//api/name/endpointArn</Anchor>
+			<Anchor>//api/name/requestParameters</Anchor>
+            <NodeRef refid="935"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3TransferUtilityExpression/setValue:forRequestParameter:</TokenIdentifier>
+			<Abstract type="html">Sets value for the request parameter.</Abstract>
+			<DeclaredIn>AWSS3TransferUtility.h</DeclaredIn>
+			
+			<Declaration>- (void)setValue:(NSString *)value forRequestParameter:(NSString *)requestParameter</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>value</Name>
+					<Abstract type="html">The request parameter value.</Abstract>
+				</Parameter><Parameter>
+					<Name>requestParameter</Name>
+					<Abstract type="html">The key for the request parameter value.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/setValue:forRequestParameter:</Anchor>
             <NodeRef refid="935"/>
 		</Token>
 		

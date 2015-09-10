@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Constants/AWSSQSQueueAttributeName.html">
+	<File path="Constants/AWSEC2VolumeType.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/c/tdef/AWSSQSQueueAttributeName</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/c/tdef/AWSEC2VolumeType</TokenIdentifier>
 			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSSQSModel.h</DeclaredIn>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
             
 			
 			<NodeRef refid="1223"/>
@@ -14,141 +14,41 @@
 		
         
         <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSSQSQueueAttributeNameUnknown</TokenIdentifier>
+            <TokenIdentifier>//apple_ref/c/econst/AWSEC2VolumeTypeUnknown</TokenIdentifier>
             <Abstract type="html"></Abstract>
-            <Declaration>AWSSQSQueueAttributeNameUnknown</Declaration>
+            <Declaration>AWSEC2VolumeTypeUnknown</Declaration>
             
-            <DeclaredIn>AWSSQSModel.h</DeclaredIn>
+            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
             
             <NodeRef refid="1223"/>
         </Token>
         
         <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSSQSQueueAttributeNamePolicy</TokenIdentifier>
+            <TokenIdentifier>//apple_ref/c/econst/AWSEC2VolumeTypeStandard</TokenIdentifier>
             <Abstract type="html"></Abstract>
-            <Declaration>AWSSQSQueueAttributeNamePolicy</Declaration>
+            <Declaration>AWSEC2VolumeTypeStandard</Declaration>
             
-            <DeclaredIn>AWSSQSModel.h</DeclaredIn>
+            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
             
             <NodeRef refid="1223"/>
         </Token>
         
         <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSSQSQueueAttributeNameVisibilityTimeout</TokenIdentifier>
+            <TokenIdentifier>//apple_ref/c/econst/AWSEC2VolumeTypeIO1</TokenIdentifier>
             <Abstract type="html"></Abstract>
-            <Declaration>AWSSQSQueueAttributeNameVisibilityTimeout</Declaration>
+            <Declaration>AWSEC2VolumeTypeIO1</Declaration>
             
-            <DeclaredIn>AWSSQSModel.h</DeclaredIn>
+            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
             
             <NodeRef refid="1223"/>
         </Token>
         
         <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSSQSQueueAttributeNameMaximumMessageSize</TokenIdentifier>
+            <TokenIdentifier>//apple_ref/c/econst/AWSEC2VolumeTypeGp2</TokenIdentifier>
             <Abstract type="html"></Abstract>
-            <Declaration>AWSSQSQueueAttributeNameMaximumMessageSize</Declaration>
+            <Declaration>AWSEC2VolumeTypeGp2</Declaration>
             
-            <DeclaredIn>AWSSQSModel.h</DeclaredIn>
-            
-            <NodeRef refid="1223"/>
-        </Token>
-        
-        <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSSQSQueueAttributeNameMessageRetentionPeriod</TokenIdentifier>
-            <Abstract type="html"></Abstract>
-            <Declaration>AWSSQSQueueAttributeNameMessageRetentionPeriod</Declaration>
-            
-            <DeclaredIn>AWSSQSModel.h</DeclaredIn>
-            
-            <NodeRef refid="1223"/>
-        </Token>
-        
-        <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSSQSQueueAttributeNameApproximateNumberOfMessages</TokenIdentifier>
-            <Abstract type="html"></Abstract>
-            <Declaration>AWSSQSQueueAttributeNameApproximateNumberOfMessages</Declaration>
-            
-            <DeclaredIn>AWSSQSModel.h</DeclaredIn>
-            
-            <NodeRef refid="1223"/>
-        </Token>
-        
-        <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSSQSQueueAttributeNameApproximateNumberOfMessagesNotVisible</TokenIdentifier>
-            <Abstract type="html"></Abstract>
-            <Declaration>AWSSQSQueueAttributeNameApproximateNumberOfMessagesNotVisible</Declaration>
-            
-            <DeclaredIn>AWSSQSModel.h</DeclaredIn>
-            
-            <NodeRef refid="1223"/>
-        </Token>
-        
-        <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSSQSQueueAttributeNameCreatedTimestamp</TokenIdentifier>
-            <Abstract type="html"></Abstract>
-            <Declaration>AWSSQSQueueAttributeNameCreatedTimestamp</Declaration>
-            
-            <DeclaredIn>AWSSQSModel.h</DeclaredIn>
-            
-            <NodeRef refid="1223"/>
-        </Token>
-        
-        <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSSQSQueueAttributeNameLastModifiedTimestamp</TokenIdentifier>
-            <Abstract type="html"></Abstract>
-            <Declaration>AWSSQSQueueAttributeNameLastModifiedTimestamp</Declaration>
-            
-            <DeclaredIn>AWSSQSModel.h</DeclaredIn>
-            
-            <NodeRef refid="1223"/>
-        </Token>
-        
-        <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSSQSQueueAttributeNameQueueArn</TokenIdentifier>
-            <Abstract type="html"></Abstract>
-            <Declaration>AWSSQSQueueAttributeNameQueueArn</Declaration>
-            
-            <DeclaredIn>AWSSQSModel.h</DeclaredIn>
-            
-            <NodeRef refid="1223"/>
-        </Token>
-        
-        <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSSQSQueueAttributeNameApproximateNumberOfMessagesDelayed</TokenIdentifier>
-            <Abstract type="html"></Abstract>
-            <Declaration>AWSSQSQueueAttributeNameApproximateNumberOfMessagesDelayed</Declaration>
-            
-            <DeclaredIn>AWSSQSModel.h</DeclaredIn>
-            
-            <NodeRef refid="1223"/>
-        </Token>
-        
-        <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSSQSQueueAttributeNameDelaySeconds</TokenIdentifier>
-            <Abstract type="html"></Abstract>
-            <Declaration>AWSSQSQueueAttributeNameDelaySeconds</Declaration>
-            
-            <DeclaredIn>AWSSQSModel.h</DeclaredIn>
-            
-            <NodeRef refid="1223"/>
-        </Token>
-        
-        <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSSQSQueueAttributeNameReceiveMessageWaitTimeSeconds</TokenIdentifier>
-            <Abstract type="html"></Abstract>
-            <Declaration>AWSSQSQueueAttributeNameReceiveMessageWaitTimeSeconds</Declaration>
-            
-            <DeclaredIn>AWSSQSModel.h</DeclaredIn>
-            
-            <NodeRef refid="1223"/>
-        </Token>
-        
-        <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSSQSQueueAttributeNameRedrivePolicy</TokenIdentifier>
-            <Abstract type="html"></Abstract>
-            <Declaration>AWSSQSQueueAttributeNameRedrivePolicy</Declaration>
-            
-            <DeclaredIn>AWSSQSModel.h</DeclaredIn>
+            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
             
             <NodeRef refid="1223"/>
         </Token>

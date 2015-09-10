@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSEC2AcceptVpcPeeringConnectionRequest.html">
+	<File path="Classes/AWSDynamoDBUpdateGlobalSecondaryIndexAction.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSEC2AcceptVpcPeeringConnectionRequest</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSDynamoDBUpdateGlobalSecondaryIndexAction</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Represents the new provisioned throughput settings to be applied to a global secondary index.&lt;/p&gt;
+Required parameters: [IndexName, ProvisionedThroughput]</Abstract>
+			<DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
             
 			
 			<NodeRef refid="250"/>
@@ -13,74 +14,74 @@
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2AcceptVpcPeeringConnectionRequest/setDryRun:</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSDynamoDBUpdateGlobalSecondaryIndexAction/setIndexName:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The name of the global secondary index to be updated.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSNumber *dryRun</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *indexName</Declaration>
 			
 			
-			<Anchor>//api/name/dryRun</Anchor>
+			<Anchor>//api/name/indexName</Anchor>
             <NodeRef refid="250"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2AcceptVpcPeeringConnectionRequest/dryRun</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSDynamoDBUpdateGlobalSecondaryIndexAction/indexName</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The name of the global secondary index to be updated.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSNumber *dryRun</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *indexName</Declaration>
 			
 			
-			<Anchor>//api/name/dryRun</Anchor>
+			<Anchor>//api/name/indexName</Anchor>
             <NodeRef refid="250"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2AcceptVpcPeeringConnectionRequest/dryRun</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSDynamoDBUpdateGlobalSecondaryIndexAction/indexName</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The name of the global secondary index to be updated.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSNumber *dryRun</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *indexName</Declaration>
 			
 			
-			<Anchor>//api/name/dryRun</Anchor>
+			<Anchor>//api/name/indexName</Anchor>
             <NodeRef refid="250"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2AcceptVpcPeeringConnectionRequest/setVpcPeeringConnectionId:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The ID of the VPC peering connection.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSDynamoDBUpdateGlobalSecondaryIndexAction/setProvisionedThroughput:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Represents the provisioned throughput settings for a specified table or index. The settings can be modified using the &lt;i&gt;UpdateTable&lt;/i&gt; operation.&lt;/p&gt;&lt;p&gt;For current minimum and maximum provisioned throughput values, see Limits in the &lt;i&gt;Amazon DynamoDB Developer Guide&lt;/i&gt;.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *vpcPeeringConnectionId</Declaration>
+			<Declaration>@property (nonatomic, strong) AWSDynamoDBProvisionedThroughput *provisionedThroughput</Declaration>
 			
 			
-			<Anchor>//api/name/vpcPeeringConnectionId</Anchor>
+			<Anchor>//api/name/provisionedThroughput</Anchor>
             <NodeRef refid="250"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2AcceptVpcPeeringConnectionRequest/vpcPeeringConnectionId</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The ID of the VPC peering connection.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSDynamoDBUpdateGlobalSecondaryIndexAction/provisionedThroughput</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Represents the provisioned throughput settings for a specified table or index. The settings can be modified using the &lt;i&gt;UpdateTable&lt;/i&gt; operation.&lt;/p&gt;&lt;p&gt;For current minimum and maximum provisioned throughput values, see Limits in the &lt;i&gt;Amazon DynamoDB Developer Guide&lt;/i&gt;.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *vpcPeeringConnectionId</Declaration>
+			<Declaration>@property (nonatomic, strong) AWSDynamoDBProvisionedThroughput *provisionedThroughput</Declaration>
 			
 			
-			<Anchor>//api/name/vpcPeeringConnectionId</Anchor>
+			<Anchor>//api/name/provisionedThroughput</Anchor>
             <NodeRef refid="250"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2AcceptVpcPeeringConnectionRequest/vpcPeeringConnectionId</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The ID of the VPC peering connection.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSDynamoDBUpdateGlobalSecondaryIndexAction/provisionedThroughput</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Represents the provisioned throughput settings for a specified table or index. The settings can be modified using the &lt;i&gt;UpdateTable&lt;/i&gt; operation.&lt;/p&gt;&lt;p&gt;For current minimum and maximum provisioned throughput values, see Limits in the &lt;i&gt;Amazon DynamoDB Developer Guide&lt;/i&gt;.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *vpcPeeringConnectionId</Declaration>
+			<Declaration>@property (nonatomic, strong) AWSDynamoDBProvisionedThroughput *provisionedThroughput</Declaration>
 			
 			
-			<Anchor>//api/name/vpcPeeringConnectionId</Anchor>
+			<Anchor>//api/name/provisionedThroughput</Anchor>
             <NodeRef refid="250"/>
 		</Token>
 		

@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Constants/AWSS3Types.html">
+	<File path="Constants/AWSEC2Tenancy.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/c/tdef/AWSS3Types</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/c/tdef/AWSEC2Tenancy</TokenIdentifier>
 			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
             
 			
 			<NodeRef refid="1216"/>
@@ -14,41 +14,31 @@
 		
         
         <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSS3TypesUnknown</TokenIdentifier>
+            <TokenIdentifier>//apple_ref/c/econst/AWSEC2TenancyUnknown</TokenIdentifier>
             <Abstract type="html"></Abstract>
-            <Declaration>AWSS3TypesUnknown</Declaration>
+            <Declaration>AWSEC2TenancyUnknown</Declaration>
             
-            <DeclaredIn>AWSS3Model.h</DeclaredIn>
+            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
             
             <NodeRef refid="1216"/>
         </Token>
         
         <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSS3TypesCanonicalUser</TokenIdentifier>
+            <TokenIdentifier>//apple_ref/c/econst/AWSEC2TenancyDefault</TokenIdentifier>
             <Abstract type="html"></Abstract>
-            <Declaration>AWSS3TypesCanonicalUser</Declaration>
+            <Declaration>AWSEC2TenancyDefault</Declaration>
             
-            <DeclaredIn>AWSS3Model.h</DeclaredIn>
+            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
             
             <NodeRef refid="1216"/>
         </Token>
         
         <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSS3TypesAmazonCustomerByEmail</TokenIdentifier>
+            <TokenIdentifier>//apple_ref/c/econst/AWSEC2TenancyDedicated</TokenIdentifier>
             <Abstract type="html"></Abstract>
-            <Declaration>AWSS3TypesAmazonCustomerByEmail</Declaration>
+            <Declaration>AWSEC2TenancyDedicated</Declaration>
             
-            <DeclaredIn>AWSS3Model.h</DeclaredIn>
-            
-            <NodeRef refid="1216"/>
-        </Token>
-        
-        <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSS3TypesGroup</TokenIdentifier>
-            <Abstract type="html"></Abstract>
-            <Declaration>AWSS3TypesGroup</Declaration>
-            
-            <DeclaredIn>AWSS3Model.h</DeclaredIn>
+            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
             
             <NodeRef refid="1216"/>
         </Token>

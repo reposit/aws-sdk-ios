@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSSNSSubscribeResponse.html">
+	<File path="Classes/AWSSESSetIdentityDkimEnabledRequest.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSSNSSubscribeResponse</TokenIdentifier>
-			<Abstract type="html">Response for Subscribe action.</Abstract>
-			<DeclaredIn>AWSSNSModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSSESSetIdentityDkimEnabledRequest</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Represents a request instructing the service to enable or disable DKIM signing for an identity.&lt;/p&gt;
+Required parameters: [Identity, DkimEnabled]</Abstract>
+			<DeclaredIn>AWSSESModel.h</DeclaredIn>
             
 			
 			<NodeRef refid="974"/>
@@ -13,38 +14,74 @@
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSSNSSubscribeResponse/setSubscriptionArn:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The ARN of the subscription, if the service was able to create a subscription immediately (without requiring endpoint owner confirmation).&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSNSModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSESSetIdentityDkimEnabledRequest/setDkimEnabled:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Sets whether DKIM signing is enabled for an identity. Set to &lt;code&gt;true&lt;/code&gt; to enable DKIM signing for this identity; &lt;code&gt;false&lt;/code&gt; to disable it. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSESModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *subscriptionArn</Declaration>
+			<Declaration>@property (nonatomic, strong) NSNumber *dkimEnabled</Declaration>
 			
 			
-			<Anchor>//api/name/subscriptionArn</Anchor>
+			<Anchor>//api/name/dkimEnabled</Anchor>
             <NodeRef refid="974"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSSNSSubscribeResponse/subscriptionArn</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The ARN of the subscription, if the service was able to create a subscription immediately (without requiring endpoint owner confirmation).&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSNSModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSESSetIdentityDkimEnabledRequest/dkimEnabled</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Sets whether DKIM signing is enabled for an identity. Set to &lt;code&gt;true&lt;/code&gt; to enable DKIM signing for this identity; &lt;code&gt;false&lt;/code&gt; to disable it. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSESModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *subscriptionArn</Declaration>
+			<Declaration>@property (nonatomic, strong) NSNumber *dkimEnabled</Declaration>
 			
 			
-			<Anchor>//api/name/subscriptionArn</Anchor>
+			<Anchor>//api/name/dkimEnabled</Anchor>
             <NodeRef refid="974"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSSNSSubscribeResponse/subscriptionArn</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The ARN of the subscription, if the service was able to create a subscription immediately (without requiring endpoint owner confirmation).&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSNSModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSSESSetIdentityDkimEnabledRequest/dkimEnabled</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Sets whether DKIM signing is enabled for an identity. Set to &lt;code&gt;true&lt;/code&gt; to enable DKIM signing for this identity; &lt;code&gt;false&lt;/code&gt; to disable it. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSESModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *subscriptionArn</Declaration>
+			<Declaration>@property (nonatomic, strong) NSNumber *dkimEnabled</Declaration>
 			
 			
-			<Anchor>//api/name/subscriptionArn</Anchor>
+			<Anchor>//api/name/dkimEnabled</Anchor>
+            <NodeRef refid="974"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSESSetIdentityDkimEnabledRequest/setIdentity:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The identity for which DKIM signing should be enabled or disabled.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSESModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *identity</Declaration>
+			
+			
+			<Anchor>//api/name/identity</Anchor>
+            <NodeRef refid="974"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSESSetIdentityDkimEnabledRequest/identity</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The identity for which DKIM signing should be enabled or disabled.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSESModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *identity</Declaration>
+			
+			
+			<Anchor>//api/name/identity</Anchor>
+            <NodeRef refid="974"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSSESSetIdentityDkimEnabledRequest/identity</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The identity for which DKIM signing should be enabled or disabled.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSESModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *identity</Declaration>
+			
+			
+			<Anchor>//api/name/identity</Anchor>
             <NodeRef refid="974"/>
 		</Token>
 		

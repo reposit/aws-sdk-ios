@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSS3CompletedPart.html">
+	<File path="Classes/AWSLambdaGetEventSourceMappingRequest.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSS3CompletedPart</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSLambdaGetEventSourceMappingRequest</TokenIdentifier>
 			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			<DeclaredIn>AWSLambdaModel.h</DeclaredIn>
             
 			
 			<NodeRef refid="770"/>
@@ -13,74 +13,38 @@
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3CompletedPart/setETag:</TokenIdentifier>
-			<Abstract type="html">Entity tag returned when the part was uploaded.</Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSLambdaGetEventSourceMappingRequest/setUUID:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The AWS Lambda assigned ID of the event source mapping.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSLambdaModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *ETag</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *UUID</Declaration>
 			
 			
-			<Anchor>//api/name/ETag</Anchor>
+			<Anchor>//api/name/UUID</Anchor>
             <NodeRef refid="770"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3CompletedPart/ETag</TokenIdentifier>
-			<Abstract type="html">Entity tag returned when the part was uploaded.</Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSLambdaGetEventSourceMappingRequest/UUID</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The AWS Lambda assigned ID of the event source mapping.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSLambdaModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *ETag</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *UUID</Declaration>
 			
 			
-			<Anchor>//api/name/ETag</Anchor>
+			<Anchor>//api/name/UUID</Anchor>
             <NodeRef refid="770"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSS3CompletedPart/ETag</TokenIdentifier>
-			<Abstract type="html">Entity tag returned when the part was uploaded.</Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSLambdaGetEventSourceMappingRequest/UUID</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The AWS Lambda assigned ID of the event source mapping.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSLambdaModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *ETag</Declaration>
-			
-			
-			<Anchor>//api/name/ETag</Anchor>
-            <NodeRef refid="770"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3CompletedPart/setPartNumber:</TokenIdentifier>
-			<Abstract type="html">Part number that identifies the part.</Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSNumber *partNumber</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *UUID</Declaration>
 			
 			
-			<Anchor>//api/name/partNumber</Anchor>
-            <NodeRef refid="770"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3CompletedPart/partNumber</TokenIdentifier>
-			<Abstract type="html">Part number that identifies the part.</Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSNumber *partNumber</Declaration>
-			
-			
-			<Anchor>//api/name/partNumber</Anchor>
-            <NodeRef refid="770"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSS3CompletedPart/partNumber</TokenIdentifier>
-			<Abstract type="html">Part number that identifies the part.</Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSNumber *partNumber</Declaration>
-			
-			
-			<Anchor>//api/name/partNumber</Anchor>
+			<Anchor>//api/name/UUID</Anchor>
             <NodeRef refid="770"/>
 		</Token>
 		

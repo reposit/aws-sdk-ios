@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Constants/AWSEC2ProductCodeValues.html">
+	<File path="Constants/AWSDynamoDBErrorType.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/c/tdef/AWSEC2ProductCodeValues</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/c/tdef/AWSDynamoDBErrorType</TokenIdentifier>
 			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			<DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
             
 			
 			<NodeRef refid="1145"/>
@@ -14,31 +14,131 @@
 		
         
         <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSEC2ProductCodeValuesUnknown</TokenIdentifier>
+            <TokenIdentifier>//apple_ref/c/econst/AWSDynamoDBErrorUnknown</TokenIdentifier>
             <Abstract type="html"></Abstract>
-            <Declaration>AWSEC2ProductCodeValuesUnknown</Declaration>
+            <Declaration>AWSDynamoDBErrorUnknown</Declaration>
             
-            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
+            <DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
             
             <NodeRef refid="1145"/>
         </Token>
         
         <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSEC2ProductCodeValuesDevpay</TokenIdentifier>
+            <TokenIdentifier>//apple_ref/c/econst/AWSDynamoDBErrorAccessDenied</TokenIdentifier>
             <Abstract type="html"></Abstract>
-            <Declaration>AWSEC2ProductCodeValuesDevpay</Declaration>
+            <Declaration>AWSDynamoDBErrorAccessDenied</Declaration>
             
-            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
+            <DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
             
             <NodeRef refid="1145"/>
         </Token>
         
         <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSEC2ProductCodeValuesMarketplace</TokenIdentifier>
+            <TokenIdentifier>//apple_ref/c/econst/AWSDynamoDBErrorUnrecognizedClient</TokenIdentifier>
             <Abstract type="html"></Abstract>
-            <Declaration>AWSEC2ProductCodeValuesMarketplace</Declaration>
+            <Declaration>AWSDynamoDBErrorUnrecognizedClient</Declaration>
             
-            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
+            <DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
+            
+            <NodeRef refid="1145"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/AWSDynamoDBErrorIncompleteSignature</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>AWSDynamoDBErrorIncompleteSignature</Declaration>
+            
+            <DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
+            
+            <NodeRef refid="1145"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/AWSDynamoDBErrorInvalidClientTokenId</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>AWSDynamoDBErrorInvalidClientTokenId</Declaration>
+            
+            <DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
+            
+            <NodeRef refid="1145"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/AWSDynamoDBErrorMissingAuthenticationToken</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>AWSDynamoDBErrorMissingAuthenticationToken</Declaration>
+            
+            <DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
+            
+            <NodeRef refid="1145"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/AWSDynamoDBErrorConditionalCheckFailed</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>AWSDynamoDBErrorConditionalCheckFailed</Declaration>
+            
+            <DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
+            
+            <NodeRef refid="1145"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/AWSDynamoDBErrorInternalServer</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>AWSDynamoDBErrorInternalServer</Declaration>
+            
+            <DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
+            
+            <NodeRef refid="1145"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/AWSDynamoDBErrorItemCollectionSizeLimitExceeded</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>AWSDynamoDBErrorItemCollectionSizeLimitExceeded</Declaration>
+            
+            <DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
+            
+            <NodeRef refid="1145"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/AWSDynamoDBErrorLimitExceeded</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>AWSDynamoDBErrorLimitExceeded</Declaration>
+            
+            <DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
+            
+            <NodeRef refid="1145"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/AWSDynamoDBErrorProvisionedThroughputExceeded</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>AWSDynamoDBErrorProvisionedThroughputExceeded</Declaration>
+            
+            <DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
+            
+            <NodeRef refid="1145"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/AWSDynamoDBErrorResourceInUse</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>AWSDynamoDBErrorResourceInUse</Declaration>
+            
+            <DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
+            
+            <NodeRef refid="1145"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/AWSDynamoDBErrorResourceNotFound</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>AWSDynamoDBErrorResourceNotFound</Declaration>
+            
+            <DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
             
             <NodeRef refid="1145"/>
         </Token>

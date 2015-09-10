@@ -14,7 +14,7 @@
 		<div class="container" class="hide-in-xcode">
 			
 			<h1 id="library-title">
-				<a href="../index.html">AWS SDK for iOS v2.1.0 </a>
+				<a href="../index.html">AWS SDK for iOS v2.2.5 </a>
 			</h1>
 
 			<p id="developer-home">
@@ -121,19 +121,6 @@
 						<a title="Overview" name="overview"></a>
 						<h2 class="subtitle subtitle-overview">Overview</h2>
 						<p>High level utility for managing transfers to Amazon S3. S3TransferManager provides a simple API for uploading and downloading content to Amazon S3, and makes extensive use of Amazon S3 multipart uploads to achieve enhanced throughput, performance and reliability.</p>
-
-<p>Copyright 2010-2015 Amazon.com, Inc. or its affiliates. All Rights Reserved.</p>
-
-<p>Licensed under the Apache License, Version 2.0 (the &ldquo;License&rdquo;).
-You may not use this file except in compliance with the License.
-A copy of the License is located at</p>
-
-<p>http://aws.amazon.com/apache2.0</p>
-
-<p>or in the &ldquo;license&rdquo; file accompanying this file. This file is distributed
-on an &ldquo;AS IS&rdquo; BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either
-express or implied. See the License for the specific language governing
-permissions and limitations under the License.</p>
 					</div>
 					
 					
@@ -556,7 +543,7 @@ permissions and limitations under the License.</p>
 			
 		    
 
-			<div class="method-subsection method-declaration"><code>- (BFTask *)upload:(AWSS3TransferManagerUploadRequest *)<em>uploadRequest</em></code></div>
+			<div class="method-subsection method-declaration"><code>- (AWSTask *)upload:(AWSS3TransferManagerUploadRequest *)<em>uploadRequest</em></code></div>
 
 		    
 			
@@ -576,7 +563,7 @@ permissions and limitations under the License.</p>
 			
 			<div class="method-subsection return">
 				<h4 class="method-subtitle parameter-title">Return Value</h4>
-				<p>BFTask.</p>
+				<p>AWSTask.</p>
 			</div>
 			
 
@@ -614,7 +601,7 @@ permissions and limitations under the License.</p>
 			
 		    
 
-			<div class="method-subsection method-declaration"><code>- (BFTask *)download:(AWSS3TransferManagerDownloadRequest *)<em>downloadRequest</em></code></div>
+			<div class="method-subsection method-declaration"><code>- (AWSTask *)download:(AWSS3TransferManagerDownloadRequest *)<em>downloadRequest</em></code></div>
 
 		    
 			
@@ -634,7 +621,7 @@ permissions and limitations under the License.</p>
 			
 			<div class="method-subsection return">
 				<h4 class="method-subtitle parameter-title">Return Value</h4>
-				<p>BFTask.</p>
+				<p>AWSTask.</p>
 			</div>
 			
 
@@ -672,7 +659,7 @@ permissions and limitations under the License.</p>
 			
 		    
 
-			<div class="method-subsection method-declaration"><code>- (BFTask *)cancelAll</code></div>
+			<div class="method-subsection method-declaration"><code>- (AWSTask *)cancelAll</code></div>
 
 		    
 			
@@ -680,7 +667,7 @@ permissions and limitations under the License.</p>
 			
 			<div class="method-subsection return">
 				<h4 class="method-subtitle parameter-title">Return Value</h4>
-				<p>BFTask.</p>
+				<p>AWSTask.</p>
 			</div>
 			
 
@@ -718,7 +705,7 @@ permissions and limitations under the License.</p>
 			
 		    
 
-			<div class="method-subsection method-declaration"><code>- (BFTask *)pauseAll</code></div>
+			<div class="method-subsection method-declaration"><code>- (AWSTask *)pauseAll</code></div>
 
 		    
 			
@@ -726,7 +713,7 @@ permissions and limitations under the License.</p>
 			
 			<div class="method-subsection return">
 				<h4 class="method-subtitle parameter-title">Return Value</h4>
-				<p>BFTask.</p>
+				<p>AWSTask.</p>
 			</div>
 			
 
@@ -764,7 +751,7 @@ permissions and limitations under the License.</p>
 			
 		    
 
-			<div class="method-subsection method-declaration"><code>- (BFTask *)resumeAll:(AWSS3TransferManagerResumeAllBlock)<em>block</em></code></div>
+			<div class="method-subsection method-declaration"><code>- (AWSTask *)resumeAll:(AWSS3TransferManagerResumeAllBlock)<em>block</em></code></div>
 
 		    
 			
@@ -784,7 +771,7 @@ permissions and limitations under the License.</p>
 			
 			<div class="method-subsection return">
 				<h4 class="method-subtitle parameter-title">Return Value</h4>
-				<p>BFTask.</p>
+				<p>AWSTask.</p>
 			</div>
 			
 
@@ -822,7 +809,7 @@ permissions and limitations under the License.</p>
 			
 		    
 
-			<div class="method-subsection method-declaration"><code>- (BFTask *)clearCache</code></div>
+			<div class="method-subsection method-declaration"><code>- (AWSTask *)clearCache</code></div>
 
 		    
 			
@@ -830,7 +817,7 @@ permissions and limitations under the License.</p>
 			
 			<div class="method-subsection return">
 				<h4 class="method-subtitle parameter-title">Return Value</h4>
-				<p>BFTask.</p>
+				<p>AWSTask.</p>
 			</div>
 			
 
@@ -864,7 +851,7 @@ permissions and limitations under the License.</p>
 				<footer>
 					<div class="footer-copyright">
 						
-						<p class="copyright">Copyright &copy; 2015 Amazon Web Services, Inc. All rights reserved. Updated: 2015-03-25</p>
+						<p class="copyright">Copyright &copy; 2015 Amazon Web Services, Inc. All rights reserved. Updated: 2015-08-31</p>
 						
 						
 						<p class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.2.1 (build 1333)</a>.</p>

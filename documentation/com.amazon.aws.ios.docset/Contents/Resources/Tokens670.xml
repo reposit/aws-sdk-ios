@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSElasticLoadBalancingDescribeLoadBalancerPolicyTypesOutput.html">
+	<File path="Classes/AWSElasticLoadBalancingCreateLoadBalancerListenerOutput.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSElasticLoadBalancingDescribeLoadBalancerPolicyTypesOutput</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSElasticLoadBalancingCreateLoadBalancerListenerOutput</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSElasticLoadBalancingModel.h</DeclaredIn>
             
@@ -11,42 +11,6 @@
 			<NodeRef refid="670"/>
 		</Token>
 		
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSElasticLoadBalancingDescribeLoadBalancerPolicyTypesOutput/setPolicyTypeDescriptions:</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSElasticLoadBalancingModel.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSArray *policyTypeDescriptions</Declaration>
-			
-			
-			<Anchor>//api/name/policyTypeDescriptions</Anchor>
-            <NodeRef refid="670"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSElasticLoadBalancingDescribeLoadBalancerPolicyTypesOutput/policyTypeDescriptions</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSElasticLoadBalancingModel.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSArray *policyTypeDescriptions</Declaration>
-			
-			
-			<Anchor>//api/name/policyTypeDescriptions</Anchor>
-            <NodeRef refid="670"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSElasticLoadBalancingDescribeLoadBalancerPolicyTypesOutput/policyTypeDescriptions</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSElasticLoadBalancingModel.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSArray *policyTypeDescriptions</Declaration>
-			
-			
-			<Anchor>//api/name/policyTypeDescriptions</Anchor>
-            <NodeRef refid="670"/>
-		</Token>
 		
         
         

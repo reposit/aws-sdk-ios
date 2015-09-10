@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSS3CompleteMultipartUploadRequest.html">
+	<File path="Classes/AWSLambdaFunctionCodeLocation.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSS3CompleteMultipartUploadRequest</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSLambdaFunctionCodeLocation</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The object for the Lambda function location.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSLambdaModel.h</DeclaredIn>
             
 			
 			<NodeRef refid="768"/>
@@ -13,146 +13,74 @@
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3CompleteMultipartUploadRequest/setBucket:</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSLambdaFunctionCodeLocation/setLocation:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The presigned URL you can use to download the function&apos;s .zip file that you previously uploaded. The URL is valid for up to 10 minutes.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSLambdaModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *bucket</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *location</Declaration>
 			
 			
-			<Anchor>//api/name/bucket</Anchor>
+			<Anchor>//api/name/location</Anchor>
             <NodeRef refid="768"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3CompleteMultipartUploadRequest/bucket</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSLambdaFunctionCodeLocation/location</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The presigned URL you can use to download the function&apos;s .zip file that you previously uploaded. The URL is valid for up to 10 minutes.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSLambdaModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *bucket</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *location</Declaration>
 			
 			
-			<Anchor>//api/name/bucket</Anchor>
+			<Anchor>//api/name/location</Anchor>
             <NodeRef refid="768"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSS3CompleteMultipartUploadRequest/bucket</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSLambdaFunctionCodeLocation/location</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The presigned URL you can use to download the function&apos;s .zip file that you previously uploaded. The URL is valid for up to 10 minutes.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSLambdaModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *bucket</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *location</Declaration>
 			
 			
-			<Anchor>//api/name/bucket</Anchor>
+			<Anchor>//api/name/location</Anchor>
             <NodeRef refid="768"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3CompleteMultipartUploadRequest/setKey:</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSLambdaFunctionCodeLocation/setRepositoryType:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The repository from which you can download the function.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSLambdaModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *key</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *repositoryType</Declaration>
 			
 			
-			<Anchor>//api/name/key</Anchor>
+			<Anchor>//api/name/repositoryType</Anchor>
             <NodeRef refid="768"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3CompleteMultipartUploadRequest/key</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSLambdaFunctionCodeLocation/repositoryType</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The repository from which you can download the function.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSLambdaModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *key</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *repositoryType</Declaration>
 			
 			
-			<Anchor>//api/name/key</Anchor>
+			<Anchor>//api/name/repositoryType</Anchor>
             <NodeRef refid="768"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSS3CompleteMultipartUploadRequest/key</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSLambdaFunctionCodeLocation/repositoryType</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The repository from which you can download the function.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSLambdaModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *key</Declaration>
-			
-			
-			<Anchor>//api/name/key</Anchor>
-            <NodeRef refid="768"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3CompleteMultipartUploadRequest/setMultipartUpload:</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) AWSS3CompletedMultipartUpload *multipartUpload</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *repositoryType</Declaration>
 			
 			
-			<Anchor>//api/name/multipartUpload</Anchor>
-            <NodeRef refid="768"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3CompleteMultipartUploadRequest/multipartUpload</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) AWSS3CompletedMultipartUpload *multipartUpload</Declaration>
-			
-			
-			<Anchor>//api/name/multipartUpload</Anchor>
-            <NodeRef refid="768"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSS3CompleteMultipartUploadRequest/multipartUpload</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) AWSS3CompletedMultipartUpload *multipartUpload</Declaration>
-			
-			
-			<Anchor>//api/name/multipartUpload</Anchor>
-            <NodeRef refid="768"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3CompleteMultipartUploadRequest/setUploadId:</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *uploadId</Declaration>
-			
-			
-			<Anchor>//api/name/uploadId</Anchor>
-            <NodeRef refid="768"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3CompleteMultipartUploadRequest/uploadId</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *uploadId</Declaration>
-			
-			
-			<Anchor>//api/name/uploadId</Anchor>
-            <NodeRef refid="768"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSS3CompleteMultipartUploadRequest/uploadId</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *uploadId</Declaration>
-			
-			
-			<Anchor>//api/name/uploadId</Anchor>
+			<Anchor>//api/name/repositoryType</Anchor>
             <NodeRef refid="768"/>
 		</Token>
 		

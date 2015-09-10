@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Constants/AWSEC2VolumeType.html">
+	<File path="Constants/AWSEC2ExportEnvironment.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/c/tdef/AWSEC2VolumeType</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/c/tdef/AWSEC2ExportEnvironment</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
             
@@ -14,9 +14,9 @@
 		
         
         <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSEC2VolumeTypeUnknown</TokenIdentifier>
+            <TokenIdentifier>//apple_ref/c/econst/AWSEC2ExportEnvironmentUnknown</TokenIdentifier>
             <Abstract type="html"></Abstract>
-            <Declaration>AWSEC2VolumeTypeUnknown</Declaration>
+            <Declaration>AWSEC2ExportEnvironmentUnknown</Declaration>
             
             <DeclaredIn>AWSEC2Model.h</DeclaredIn>
             
@@ -24,9 +24,9 @@
         </Token>
         
         <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSEC2VolumeTypeStandard</TokenIdentifier>
+            <TokenIdentifier>//apple_ref/c/econst/AWSEC2ExportEnvironmentCitrix</TokenIdentifier>
             <Abstract type="html"></Abstract>
-            <Declaration>AWSEC2VolumeTypeStandard</Declaration>
+            <Declaration>AWSEC2ExportEnvironmentCitrix</Declaration>
             
             <DeclaredIn>AWSEC2Model.h</DeclaredIn>
             
@@ -34,9 +34,9 @@
         </Token>
         
         <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSEC2VolumeTypeIO1</TokenIdentifier>
+            <TokenIdentifier>//apple_ref/c/econst/AWSEC2ExportEnvironmentVMware</TokenIdentifier>
             <Abstract type="html"></Abstract>
-            <Declaration>AWSEC2VolumeTypeIO1</Declaration>
+            <Declaration>AWSEC2ExportEnvironmentVMware</Declaration>
             
             <DeclaredIn>AWSEC2Model.h</DeclaredIn>
             
@@ -44,9 +44,9 @@
         </Token>
         
         <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSEC2VolumeTypeGp2</TokenIdentifier>
+            <TokenIdentifier>//apple_ref/c/econst/AWSEC2ExportEnvironmentMicrosoft</TokenIdentifier>
             <Abstract type="html"></Abstract>
-            <Declaration>AWSEC2VolumeTypeGp2</Declaration>
+            <Declaration>AWSEC2ExportEnvironmentMicrosoft</Declaration>
             
             <DeclaredIn>AWSEC2Model.h</DeclaredIn>
             

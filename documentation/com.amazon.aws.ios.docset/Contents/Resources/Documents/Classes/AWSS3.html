@@ -14,7 +14,7 @@
 		<div class="container" class="hide-in-xcode">
 			
 			<h1 id="library-title">
-				<a href="../index.html">AWS SDK for iOS v2.1.0 </a>
+				<a href="../index.html">AWS SDK for iOS v2.2.5 </a>
 			</h1>
 
 			<p id="developer-home">
@@ -696,7 +696,7 @@
 			
 		    
 
-			<div class="method-subsection method-declaration"><code>- (BFTask *)abortMultipartUpload:(AWSS3AbortMultipartUploadRequest *)<em>request</em></code></div>
+			<div class="method-subsection method-declaration"><code>- (AWSTask *)abortMultipartUpload:(AWSS3AbortMultipartUploadRequest *)<em>request</em></code></div>
 
 		    
 			
@@ -716,7 +716,7 @@
 			
 			<div class="method-subsection return">
 				<h4 class="method-subtitle parameter-title">Return Value</h4>
-				<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will be <code>nil</code>. On failed execution, <code>task.error</code> may contain an <code>NSError</code> with <code>AWSS3ErrorDomain</code> domian and the following error code: <code>AWSS3ErrorNoSuchUpload</code>.</p>
+				<p>An instance of <code>AWSTask</code>. On successful execution, <code>task.result</code> will be <code>nil</code>. On failed execution, <code>task.error</code> may contain an <code>NSError</code> with <code>AWSS3ErrorDomain</code> domain and the following error code: <code>AWSS3ErrorNoSuchUpload</code>.</p>
 			</div>
 			
 
@@ -763,7 +763,7 @@
 			
 		    
 
-			<div class="method-subsection method-declaration"><code>- (BFTask *)completeMultipartUpload:(AWSS3CompleteMultipartUploadRequest *)<em>request</em></code></div>
+			<div class="method-subsection method-declaration"><code>- (AWSTask *)completeMultipartUpload:(AWSS3CompleteMultipartUploadRequest *)<em>request</em></code></div>
 
 		    
 			
@@ -783,7 +783,7 @@
 			
 			<div class="method-subsection return">
 				<h4 class="method-subtitle parameter-title">Return Value</h4>
-				<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSS3CompleteMultipartUploadOutput</code>.</p>
+				<p>An instance of <code>AWSTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSS3CompleteMultipartUploadOutput</code>.</p>
 			</div>
 			
 
@@ -832,7 +832,7 @@
 			
 		    
 
-			<div class="method-subsection method-declaration"><code>- (BFTask *)createBucket:(AWSS3CreateBucketRequest *)<em>request</em></code></div>
+			<div class="method-subsection method-declaration"><code>- (AWSTask *)createBucket:(AWSS3CreateBucketRequest *)<em>request</em></code></div>
 
 		    
 			
@@ -852,7 +852,7 @@
 			
 			<div class="method-subsection return">
 				<h4 class="method-subtitle parameter-title">Return Value</h4>
-				<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSS3CreateBucketOutput</code>. On failed execution, <code>task.error</code> may contain an <code>NSError</code> with <code>AWSS3ErrorDomain</code> domian and the following error code: <code>AWSS3ErrorBucketAlreadyExists</code>.</p>
+				<p>An instance of <code>AWSTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSS3CreateBucketOutput</code>. On failed execution, <code>task.error</code> may contain an <code>NSError</code> with <code>AWSS3ErrorDomain</code> domain and the following error code: <code>AWSS3ErrorBucketAlreadyExists</code>.</p>
 			</div>
 			
 
@@ -905,7 +905,7 @@
 			
 		    
 
-			<div class="method-subsection method-declaration"><code>- (BFTask *)createMultipartUpload:(AWSS3CreateMultipartUploadRequest *)<em>request</em></code></div>
+			<div class="method-subsection method-declaration"><code>- (AWSTask *)createMultipartUpload:(AWSS3CreateMultipartUploadRequest *)<em>request</em></code></div>
 
 		    
 			
@@ -925,7 +925,7 @@
 			
 			<div class="method-subsection return">
 				<h4 class="method-subtitle parameter-title">Return Value</h4>
-				<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSS3CreateMultipartUploadOutput</code>.</p>
+				<p>An instance of <code>AWSTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSS3CreateMultipartUploadOutput</code>.</p>
 			</div>
 			
 
@@ -974,7 +974,7 @@
 			
 		    
 
-			<div class="method-subsection method-declaration"><code>- (BFTask *)deleteBucket:(AWSS3DeleteBucketRequest *)<em>request</em></code></div>
+			<div class="method-subsection method-declaration"><code>- (AWSTask *)deleteBucket:(AWSS3DeleteBucketRequest *)<em>request</em></code></div>
 
 		    
 			
@@ -994,7 +994,7 @@
 			
 			<div class="method-subsection return">
 				<h4 class="method-subtitle parameter-title">Return Value</h4>
-				<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will be <code>nil</code>.</p>
+				<p>An instance of <code>AWSTask</code>. On successful execution, <code>task.result</code> will be <code>nil</code>.</p>
 			</div>
 			
 
@@ -1041,7 +1041,7 @@
 			
 		    
 
-			<div class="method-subsection method-declaration"><code>- (BFTask *)deleteBucketCors:(AWSS3DeleteBucketCorsRequest *)<em>request</em></code></div>
+			<div class="method-subsection method-declaration"><code>- (AWSTask *)deleteBucketCors:(AWSS3DeleteBucketCorsRequest *)<em>request</em></code></div>
 
 		    
 			
@@ -1061,7 +1061,7 @@
 			
 			<div class="method-subsection return">
 				<h4 class="method-subtitle parameter-title">Return Value</h4>
-				<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will be <code>nil</code>.</p>
+				<p>An instance of <code>AWSTask</code>. On successful execution, <code>task.result</code> will be <code>nil</code>.</p>
 			</div>
 			
 
@@ -1108,7 +1108,7 @@
 			
 		    
 
-			<div class="method-subsection method-declaration"><code>- (BFTask *)deleteBucketLifecycle:(AWSS3DeleteBucketLifecycleRequest *)<em>request</em></code></div>
+			<div class="method-subsection method-declaration"><code>- (AWSTask *)deleteBucketLifecycle:(AWSS3DeleteBucketLifecycleRequest *)<em>request</em></code></div>
 
 		    
 			
@@ -1128,7 +1128,7 @@
 			
 			<div class="method-subsection return">
 				<h4 class="method-subtitle parameter-title">Return Value</h4>
-				<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will be <code>nil</code>.</p>
+				<p>An instance of <code>AWSTask</code>. On successful execution, <code>task.result</code> will be <code>nil</code>.</p>
 			</div>
 			
 
@@ -1175,7 +1175,7 @@
 			
 		    
 
-			<div class="method-subsection method-declaration"><code>- (BFTask *)deleteBucketPolicy:(AWSS3DeleteBucketPolicyRequest *)<em>request</em></code></div>
+			<div class="method-subsection method-declaration"><code>- (AWSTask *)deleteBucketPolicy:(AWSS3DeleteBucketPolicyRequest *)<em>request</em></code></div>
 
 		    
 			
@@ -1195,7 +1195,7 @@
 			
 			<div class="method-subsection return">
 				<h4 class="method-subtitle parameter-title">Return Value</h4>
-				<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will be <code>nil</code>.</p>
+				<p>An instance of <code>AWSTask</code>. On successful execution, <code>task.result</code> will be <code>nil</code>.</p>
 			</div>
 			
 
@@ -1242,7 +1242,7 @@
 			
 		    
 
-			<div class="method-subsection method-declaration"><code>- (BFTask *)deleteBucketTagging:(AWSS3DeleteBucketTaggingRequest *)<em>request</em></code></div>
+			<div class="method-subsection method-declaration"><code>- (AWSTask *)deleteBucketTagging:(AWSS3DeleteBucketTaggingRequest *)<em>request</em></code></div>
 
 		    
 			
@@ -1262,7 +1262,7 @@
 			
 			<div class="method-subsection return">
 				<h4 class="method-subtitle parameter-title">Return Value</h4>
-				<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will be <code>nil</code>.</p>
+				<p>An instance of <code>AWSTask</code>. On successful execution, <code>task.result</code> will be <code>nil</code>.</p>
 			</div>
 			
 
@@ -1309,7 +1309,7 @@
 			
 		    
 
-			<div class="method-subsection method-declaration"><code>- (BFTask *)deleteBucketWebsite:(AWSS3DeleteBucketWebsiteRequest *)<em>request</em></code></div>
+			<div class="method-subsection method-declaration"><code>- (AWSTask *)deleteBucketWebsite:(AWSS3DeleteBucketWebsiteRequest *)<em>request</em></code></div>
 
 		    
 			
@@ -1329,7 +1329,7 @@
 			
 			<div class="method-subsection return">
 				<h4 class="method-subtitle parameter-title">Return Value</h4>
-				<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will be <code>nil</code>.</p>
+				<p>An instance of <code>AWSTask</code>. On successful execution, <code>task.result</code> will be <code>nil</code>.</p>
 			</div>
 			
 
@@ -1376,7 +1376,7 @@
 			
 		    
 
-			<div class="method-subsection method-declaration"><code>- (BFTask *)deleteObject:(AWSS3DeleteObjectRequest *)<em>request</em></code></div>
+			<div class="method-subsection method-declaration"><code>- (AWSTask *)deleteObject:(AWSS3DeleteObjectRequest *)<em>request</em></code></div>
 
 		    
 			
@@ -1396,7 +1396,7 @@
 			
 			<div class="method-subsection return">
 				<h4 class="method-subtitle parameter-title">Return Value</h4>
-				<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSS3DeleteObjectOutput</code>.</p>
+				<p>An instance of <code>AWSTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSS3DeleteObjectOutput</code>.</p>
 			</div>
 			
 
@@ -1445,7 +1445,7 @@
 			
 		    
 
-			<div class="method-subsection method-declaration"><code>- (BFTask *)deleteObjects:(AWSS3DeleteObjectsRequest *)<em>request</em></code></div>
+			<div class="method-subsection method-declaration"><code>- (AWSTask *)deleteObjects:(AWSS3DeleteObjectsRequest *)<em>request</em></code></div>
 
 		    
 			
@@ -1465,7 +1465,7 @@
 			
 			<div class="method-subsection return">
 				<h4 class="method-subtitle parameter-title">Return Value</h4>
-				<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSS3DeleteObjectsOutput</code>.</p>
+				<p>An instance of <code>AWSTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSS3DeleteObjectsOutput</code>.</p>
 			</div>
 			
 
@@ -1514,7 +1514,7 @@
 			
 		    
 
-			<div class="method-subsection method-declaration"><code>- (BFTask *)getBucketAcl:(AWSS3GetBucketAclRequest *)<em>request</em></code></div>
+			<div class="method-subsection method-declaration"><code>- (AWSTask *)getBucketAcl:(AWSS3GetBucketAclRequest *)<em>request</em></code></div>
 
 		    
 			
@@ -1534,7 +1534,7 @@
 			
 			<div class="method-subsection return">
 				<h4 class="method-subtitle parameter-title">Return Value</h4>
-				<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSS3GetBucketAclOutput</code>.</p>
+				<p>An instance of <code>AWSTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSS3GetBucketAclOutput</code>.</p>
 			</div>
 			
 
@@ -1583,7 +1583,7 @@
 			
 		    
 
-			<div class="method-subsection method-declaration"><code>- (BFTask *)getBucketCors:(AWSS3GetBucketCorsRequest *)<em>request</em></code></div>
+			<div class="method-subsection method-declaration"><code>- (AWSTask *)getBucketCors:(AWSS3GetBucketCorsRequest *)<em>request</em></code></div>
 
 		    
 			
@@ -1603,7 +1603,7 @@
 			
 			<div class="method-subsection return">
 				<h4 class="method-subtitle parameter-title">Return Value</h4>
-				<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSS3GetBucketCorsOutput</code>.</p>
+				<p>An instance of <code>AWSTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSS3GetBucketCorsOutput</code>.</p>
 			</div>
 			
 
@@ -1652,7 +1652,7 @@
 			
 		    
 
-			<div class="method-subsection method-declaration"><code>- (BFTask *)getBucketLifecycle:(AWSS3GetBucketLifecycleRequest *)<em>request</em></code></div>
+			<div class="method-subsection method-declaration"><code>- (AWSTask *)getBucketLifecycle:(AWSS3GetBucketLifecycleRequest *)<em>request</em></code></div>
 
 		    
 			
@@ -1672,7 +1672,7 @@
 			
 			<div class="method-subsection return">
 				<h4 class="method-subtitle parameter-title">Return Value</h4>
-				<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSS3GetBucketLifecycleOutput</code>.</p>
+				<p>An instance of <code>AWSTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSS3GetBucketLifecycleOutput</code>.</p>
 			</div>
 			
 
@@ -1721,7 +1721,7 @@
 			
 		    
 
-			<div class="method-subsection method-declaration"><code>- (BFTask *)getBucketLocation:(AWSS3GetBucketLocationRequest *)<em>request</em></code></div>
+			<div class="method-subsection method-declaration"><code>- (AWSTask *)getBucketLocation:(AWSS3GetBucketLocationRequest *)<em>request</em></code></div>
 
 		    
 			
@@ -1741,7 +1741,7 @@
 			
 			<div class="method-subsection return">
 				<h4 class="method-subtitle parameter-title">Return Value</h4>
-				<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSS3GetBucketLocationOutput</code>.</p>
+				<p>An instance of <code>AWSTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSS3GetBucketLocationOutput</code>.</p>
 			</div>
 			
 
@@ -1790,7 +1790,7 @@
 			
 		    
 
-			<div class="method-subsection method-declaration"><code>- (BFTask *)getBucketLogging:(AWSS3GetBucketLoggingRequest *)<em>request</em></code></div>
+			<div class="method-subsection method-declaration"><code>- (AWSTask *)getBucketLogging:(AWSS3GetBucketLoggingRequest *)<em>request</em></code></div>
 
 		    
 			
@@ -1810,7 +1810,7 @@
 			
 			<div class="method-subsection return">
 				<h4 class="method-subtitle parameter-title">Return Value</h4>
-				<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSS3GetBucketLoggingOutput</code>.</p>
+				<p>An instance of <code>AWSTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSS3GetBucketLoggingOutput</code>.</p>
 			</div>
 			
 
@@ -1859,7 +1859,7 @@
 			
 		    
 
-			<div class="method-subsection method-declaration"><code>- (BFTask *)getBucketNotification:(AWSS3GetBucketNotificationRequest *)<em>request</em></code></div>
+			<div class="method-subsection method-declaration"><code>- (AWSTask *)getBucketNotification:(AWSS3GetBucketNotificationRequest *)<em>request</em></code></div>
 
 		    
 			
@@ -1879,7 +1879,7 @@
 			
 			<div class="method-subsection return">
 				<h4 class="method-subtitle parameter-title">Return Value</h4>
-				<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSS3GetBucketNotificationOutput</code>.</p>
+				<p>An instance of <code>AWSTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSS3GetBucketNotificationOutput</code>.</p>
 			</div>
 			
 
@@ -1928,7 +1928,7 @@
 			
 		    
 
-			<div class="method-subsection method-declaration"><code>- (BFTask *)getBucketPolicy:(AWSS3GetBucketPolicyRequest *)<em>request</em></code></div>
+			<div class="method-subsection method-declaration"><code>- (AWSTask *)getBucketPolicy:(AWSS3GetBucketPolicyRequest *)<em>request</em></code></div>
 
 		    
 			
@@ -1948,7 +1948,7 @@
 			
 			<div class="method-subsection return">
 				<h4 class="method-subtitle parameter-title">Return Value</h4>
-				<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSS3GetBucketPolicyOutput</code>.</p>
+				<p>An instance of <code>AWSTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSS3GetBucketPolicyOutput</code>.</p>
 			</div>
 			
 
@@ -1997,7 +1997,7 @@
 			
 		    
 
-			<div class="method-subsection method-declaration"><code>- (BFTask *)getBucketRequestPayment:(AWSS3GetBucketRequestPaymentRequest *)<em>request</em></code></div>
+			<div class="method-subsection method-declaration"><code>- (AWSTask *)getBucketRequestPayment:(AWSS3GetBucketRequestPaymentRequest *)<em>request</em></code></div>
 
 		    
 			
@@ -2017,7 +2017,7 @@
 			
 			<div class="method-subsection return">
 				<h4 class="method-subtitle parameter-title">Return Value</h4>
-				<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSS3GetBucketRequestPaymentOutput</code>.</p>
+				<p>An instance of <code>AWSTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSS3GetBucketRequestPaymentOutput</code>.</p>
 			</div>
 			
 
@@ -2066,7 +2066,7 @@
 			
 		    
 
-			<div class="method-subsection method-declaration"><code>- (BFTask *)getBucketTagging:(AWSS3GetBucketTaggingRequest *)<em>request</em></code></div>
+			<div class="method-subsection method-declaration"><code>- (AWSTask *)getBucketTagging:(AWSS3GetBucketTaggingRequest *)<em>request</em></code></div>
 
 		    
 			
@@ -2086,7 +2086,7 @@
 			
 			<div class="method-subsection return">
 				<h4 class="method-subtitle parameter-title">Return Value</h4>
-				<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSS3GetBucketTaggingOutput</code>.</p>
+				<p>An instance of <code>AWSTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSS3GetBucketTaggingOutput</code>.</p>
 			</div>
 			
 
@@ -2135,7 +2135,7 @@
 			
 		    
 
-			<div class="method-subsection method-declaration"><code>- (BFTask *)getBucketVersioning:(AWSS3GetBucketVersioningRequest *)<em>request</em></code></div>
+			<div class="method-subsection method-declaration"><code>- (AWSTask *)getBucketVersioning:(AWSS3GetBucketVersioningRequest *)<em>request</em></code></div>
 
 		    
 			
@@ -2155,7 +2155,7 @@
 			
 			<div class="method-subsection return">
 				<h4 class="method-subtitle parameter-title">Return Value</h4>
-				<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSS3GetBucketVersioningOutput</code>.</p>
+				<p>An instance of <code>AWSTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSS3GetBucketVersioningOutput</code>.</p>
 			</div>
 			
 
@@ -2204,7 +2204,7 @@
 			
 		    
 
-			<div class="method-subsection method-declaration"><code>- (BFTask *)getBucketWebsite:(AWSS3GetBucketWebsiteRequest *)<em>request</em></code></div>
+			<div class="method-subsection method-declaration"><code>- (AWSTask *)getBucketWebsite:(AWSS3GetBucketWebsiteRequest *)<em>request</em></code></div>
 
 		    
 			
@@ -2224,7 +2224,7 @@
 			
 			<div class="method-subsection return">
 				<h4 class="method-subtitle parameter-title">Return Value</h4>
-				<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSS3GetBucketWebsiteOutput</code>.</p>
+				<p>An instance of <code>AWSTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSS3GetBucketWebsiteOutput</code>.</p>
 			</div>
 			
 
@@ -2273,7 +2273,7 @@
 			
 		    
 
-			<div class="method-subsection method-declaration"><code>- (BFTask *)getObject:(AWSS3GetObjectRequest *)<em>request</em></code></div>
+			<div class="method-subsection method-declaration"><code>- (AWSTask *)getObject:(AWSS3GetObjectRequest *)<em>request</em></code></div>
 
 		    
 			
@@ -2293,7 +2293,7 @@
 			
 			<div class="method-subsection return">
 				<h4 class="method-subtitle parameter-title">Return Value</h4>
-				<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSS3GetObjectOutput</code>. On failed execution, <code>task.error</code> may contain an <code>NSError</code> with <code>AWSS3ErrorDomain</code> domian and the following error code: <code>AWSS3ErrorNoSuchKey</code>.</p>
+				<p>An instance of <code>AWSTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSS3GetObjectOutput</code>. On failed execution, <code>task.error</code> may contain an <code>NSError</code> with <code>AWSS3ErrorDomain</code> domain and the following error code: <code>AWSS3ErrorNoSuchKey</code>.</p>
 			</div>
 			
 
@@ -2342,7 +2342,7 @@
 			
 		    
 
-			<div class="method-subsection method-declaration"><code>- (BFTask *)getObjectAcl:(AWSS3GetObjectAclRequest *)<em>request</em></code></div>
+			<div class="method-subsection method-declaration"><code>- (AWSTask *)getObjectAcl:(AWSS3GetObjectAclRequest *)<em>request</em></code></div>
 
 		    
 			
@@ -2362,7 +2362,7 @@
 			
 			<div class="method-subsection return">
 				<h4 class="method-subtitle parameter-title">Return Value</h4>
-				<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSS3GetObjectAclOutput</code>. On failed execution, <code>task.error</code> may contain an <code>NSError</code> with <code>AWSS3ErrorDomain</code> domian and the following error code: <code>AWSS3ErrorNoSuchKey</code>.</p>
+				<p>An instance of <code>AWSTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSS3GetObjectAclOutput</code>. On failed execution, <code>task.error</code> may contain an <code>NSError</code> with <code>AWSS3ErrorDomain</code> domain and the following error code: <code>AWSS3ErrorNoSuchKey</code>.</p>
 			</div>
 			
 
@@ -2411,7 +2411,7 @@
 			
 		    
 
-			<div class="method-subsection method-declaration"><code>- (BFTask *)getObjectTorrent:(AWSS3GetObjectTorrentRequest *)<em>request</em></code></div>
+			<div class="method-subsection method-declaration"><code>- (AWSTask *)getObjectTorrent:(AWSS3GetObjectTorrentRequest *)<em>request</em></code></div>
 
 		    
 			
@@ -2431,7 +2431,7 @@
 			
 			<div class="method-subsection return">
 				<h4 class="method-subtitle parameter-title">Return Value</h4>
-				<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSS3GetObjectTorrentOutput</code>.</p>
+				<p>An instance of <code>AWSTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSS3GetObjectTorrentOutput</code>.</p>
 			</div>
 			
 
@@ -2480,7 +2480,7 @@
 			
 		    
 
-			<div class="method-subsection method-declaration"><code>- (BFTask *)headBucket:(AWSS3HeadBucketRequest *)<em>request</em></code></div>
+			<div class="method-subsection method-declaration"><code>- (AWSTask *)headBucket:(AWSS3HeadBucketRequest *)<em>request</em></code></div>
 
 		    
 			
@@ -2500,7 +2500,7 @@
 			
 			<div class="method-subsection return">
 				<h4 class="method-subtitle parameter-title">Return Value</h4>
-				<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will be <code>nil</code>. On failed execution, <code>task.error</code> may contain an <code>NSError</code> with <code>AWSS3ErrorDomain</code> domian and the following error code: <code>AWSS3ErrorNoSuchBucket</code>.</p>
+				<p>An instance of <code>AWSTask</code>. On successful execution, <code>task.result</code> will be <code>nil</code>. On failed execution, <code>task.error</code> may contain an <code>NSError</code> with <code>AWSS3ErrorDomain</code> domain and the following error code: <code>AWSS3ErrorNoSuchBucket</code>.</p>
 			</div>
 			
 
@@ -2547,7 +2547,7 @@
 			
 		    
 
-			<div class="method-subsection method-declaration"><code>- (BFTask *)headObject:(AWSS3HeadObjectRequest *)<em>request</em></code></div>
+			<div class="method-subsection method-declaration"><code>- (AWSTask *)headObject:(AWSS3HeadObjectRequest *)<em>request</em></code></div>
 
 		    
 			
@@ -2567,7 +2567,7 @@
 			
 			<div class="method-subsection return">
 				<h4 class="method-subtitle parameter-title">Return Value</h4>
-				<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSS3HeadObjectOutput</code>. On failed execution, <code>task.error</code> may contain an <code>NSError</code> with <code>AWSS3ErrorDomain</code> domian and the following error code: <code>AWSS3ErrorNoSuchKey</code>.</p>
+				<p>An instance of <code>AWSTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSS3HeadObjectOutput</code>. On failed execution, <code>task.error</code> may contain an <code>NSError</code> with <code>AWSS3ErrorDomain</code> domain and the following error code: <code>AWSS3ErrorNoSuchKey</code>.</p>
 			</div>
 			
 
@@ -2616,7 +2616,7 @@
 			
 		    
 
-			<div class="method-subsection method-declaration"><code>- (BFTask *)listBuckets:(AWSRequest *)<em>request</em></code></div>
+			<div class="method-subsection method-declaration"><code>- (AWSTask *)listBuckets:(AWSRequest *)<em>request</em></code></div>
 
 		    
 			
@@ -2636,7 +2636,7 @@
 			
 			<div class="method-subsection return">
 				<h4 class="method-subtitle parameter-title">Return Value</h4>
-				<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSS3ListBucketsOutput</code>.</p>
+				<p>An instance of <code>AWSTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSS3ListBucketsOutput</code>.</p>
 			</div>
 			
 
@@ -2685,7 +2685,7 @@
 			
 		    
 
-			<div class="method-subsection method-declaration"><code>- (BFTask *)listMultipartUploads:(AWSS3ListMultipartUploadsRequest *)<em>request</em></code></div>
+			<div class="method-subsection method-declaration"><code>- (AWSTask *)listMultipartUploads:(AWSS3ListMultipartUploadsRequest *)<em>request</em></code></div>
 
 		    
 			
@@ -2705,7 +2705,7 @@
 			
 			<div class="method-subsection return">
 				<h4 class="method-subtitle parameter-title">Return Value</h4>
-				<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSS3ListMultipartUploadsOutput</code>.</p>
+				<p>An instance of <code>AWSTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSS3ListMultipartUploadsOutput</code>.</p>
 			</div>
 			
 
@@ -2754,7 +2754,7 @@
 			
 		    
 
-			<div class="method-subsection method-declaration"><code>- (BFTask *)listObjectVersions:(AWSS3ListObjectVersionsRequest *)<em>request</em></code></div>
+			<div class="method-subsection method-declaration"><code>- (AWSTask *)listObjectVersions:(AWSS3ListObjectVersionsRequest *)<em>request</em></code></div>
 
 		    
 			
@@ -2774,7 +2774,7 @@
 			
 			<div class="method-subsection return">
 				<h4 class="method-subtitle parameter-title">Return Value</h4>
-				<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSS3ListObjectVersionsOutput</code>.</p>
+				<p>An instance of <code>AWSTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSS3ListObjectVersionsOutput</code>.</p>
 			</div>
 			
 
@@ -2823,7 +2823,7 @@
 			
 		    
 
-			<div class="method-subsection method-declaration"><code>- (BFTask *)listObjects:(AWSS3ListObjectsRequest *)<em>request</em></code></div>
+			<div class="method-subsection method-declaration"><code>- (AWSTask *)listObjects:(AWSS3ListObjectsRequest *)<em>request</em></code></div>
 
 		    
 			
@@ -2843,7 +2843,7 @@
 			
 			<div class="method-subsection return">
 				<h4 class="method-subtitle parameter-title">Return Value</h4>
-				<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSS3ListObjectsOutput</code>. On failed execution, <code>task.error</code> may contain an <code>NSError</code> with <code>AWSS3ErrorDomain</code> domian and the following error code: <code>AWSS3ErrorNoSuchBucket</code>.</p>
+				<p>An instance of <code>AWSTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSS3ListObjectsOutput</code>. On failed execution, <code>task.error</code> may contain an <code>NSError</code> with <code>AWSS3ErrorDomain</code> domain and the following error code: <code>AWSS3ErrorNoSuchBucket</code>.</p>
 			</div>
 			
 
@@ -2892,7 +2892,7 @@
 			
 		    
 
-			<div class="method-subsection method-declaration"><code>- (BFTask *)listParts:(AWSS3ListPartsRequest *)<em>request</em></code></div>
+			<div class="method-subsection method-declaration"><code>- (AWSTask *)listParts:(AWSS3ListPartsRequest *)<em>request</em></code></div>
 
 		    
 			
@@ -2912,7 +2912,7 @@
 			
 			<div class="method-subsection return">
 				<h4 class="method-subtitle parameter-title">Return Value</h4>
-				<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSS3ListPartsOutput</code>.</p>
+				<p>An instance of <code>AWSTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSS3ListPartsOutput</code>.</p>
 			</div>
 			
 
@@ -2961,7 +2961,7 @@
 			
 		    
 
-			<div class="method-subsection method-declaration"><code>- (BFTask *)putBucketAcl:(AWSS3PutBucketAclRequest *)<em>request</em></code></div>
+			<div class="method-subsection method-declaration"><code>- (AWSTask *)putBucketAcl:(AWSS3PutBucketAclRequest *)<em>request</em></code></div>
 
 		    
 			
@@ -2981,7 +2981,7 @@
 			
 			<div class="method-subsection return">
 				<h4 class="method-subtitle parameter-title">Return Value</h4>
-				<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will be <code>nil</code>.</p>
+				<p>An instance of <code>AWSTask</code>. On successful execution, <code>task.result</code> will be <code>nil</code>.</p>
 			</div>
 			
 
@@ -3028,7 +3028,7 @@
 			
 		    
 
-			<div class="method-subsection method-declaration"><code>- (BFTask *)putBucketCors:(AWSS3PutBucketCorsRequest *)<em>request</em></code></div>
+			<div class="method-subsection method-declaration"><code>- (AWSTask *)putBucketCors:(AWSS3PutBucketCorsRequest *)<em>request</em></code></div>
 
 		    
 			
@@ -3048,7 +3048,7 @@
 			
 			<div class="method-subsection return">
 				<h4 class="method-subtitle parameter-title">Return Value</h4>
-				<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will be <code>nil</code>.</p>
+				<p>An instance of <code>AWSTask</code>. On successful execution, <code>task.result</code> will be <code>nil</code>.</p>
 			</div>
 			
 
@@ -3095,7 +3095,7 @@
 			
 		    
 
-			<div class="method-subsection method-declaration"><code>- (BFTask *)putBucketLifecycle:(AWSS3PutBucketLifecycleRequest *)<em>request</em></code></div>
+			<div class="method-subsection method-declaration"><code>- (AWSTask *)putBucketLifecycle:(AWSS3PutBucketLifecycleRequest *)<em>request</em></code></div>
 
 		    
 			
@@ -3115,7 +3115,7 @@
 			
 			<div class="method-subsection return">
 				<h4 class="method-subtitle parameter-title">Return Value</h4>
-				<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will be <code>nil</code>.</p>
+				<p>An instance of <code>AWSTask</code>. On successful execution, <code>task.result</code> will be <code>nil</code>.</p>
 			</div>
 			
 
@@ -3162,7 +3162,7 @@
 			
 		    
 
-			<div class="method-subsection method-declaration"><code>- (BFTask *)putBucketLogging:(AWSS3PutBucketLoggingRequest *)<em>request</em></code></div>
+			<div class="method-subsection method-declaration"><code>- (AWSTask *)putBucketLogging:(AWSS3PutBucketLoggingRequest *)<em>request</em></code></div>
 
 		    
 			
@@ -3182,7 +3182,7 @@
 			
 			<div class="method-subsection return">
 				<h4 class="method-subtitle parameter-title">Return Value</h4>
-				<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will be <code>nil</code>.</p>
+				<p>An instance of <code>AWSTask</code>. On successful execution, <code>task.result</code> will be <code>nil</code>.</p>
 			</div>
 			
 
@@ -3229,7 +3229,7 @@
 			
 		    
 
-			<div class="method-subsection method-declaration"><code>- (BFTask *)putBucketNotification:(AWSS3PutBucketNotificationRequest *)<em>request</em></code></div>
+			<div class="method-subsection method-declaration"><code>- (AWSTask *)putBucketNotification:(AWSS3PutBucketNotificationRequest *)<em>request</em></code></div>
 
 		    
 			
@@ -3249,7 +3249,7 @@
 			
 			<div class="method-subsection return">
 				<h4 class="method-subtitle parameter-title">Return Value</h4>
-				<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will be <code>nil</code>.</p>
+				<p>An instance of <code>AWSTask</code>. On successful execution, <code>task.result</code> will be <code>nil</code>.</p>
 			</div>
 			
 
@@ -3296,7 +3296,7 @@
 			
 		    
 
-			<div class="method-subsection method-declaration"><code>- (BFTask *)putBucketPolicy:(AWSS3PutBucketPolicyRequest *)<em>request</em></code></div>
+			<div class="method-subsection method-declaration"><code>- (AWSTask *)putBucketPolicy:(AWSS3PutBucketPolicyRequest *)<em>request</em></code></div>
 
 		    
 			
@@ -3316,7 +3316,7 @@
 			
 			<div class="method-subsection return">
 				<h4 class="method-subtitle parameter-title">Return Value</h4>
-				<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will be <code>nil</code>.</p>
+				<p>An instance of <code>AWSTask</code>. On successful execution, <code>task.result</code> will be <code>nil</code>.</p>
 			</div>
 			
 
@@ -3363,7 +3363,7 @@
 			
 		    
 
-			<div class="method-subsection method-declaration"><code>- (BFTask *)putBucketRequestPayment:(AWSS3PutBucketRequestPaymentRequest *)<em>request</em></code></div>
+			<div class="method-subsection method-declaration"><code>- (AWSTask *)putBucketRequestPayment:(AWSS3PutBucketRequestPaymentRequest *)<em>request</em></code></div>
 
 		    
 			
@@ -3383,7 +3383,7 @@
 			
 			<div class="method-subsection return">
 				<h4 class="method-subtitle parameter-title">Return Value</h4>
-				<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will be <code>nil</code>.</p>
+				<p>An instance of <code>AWSTask</code>. On successful execution, <code>task.result</code> will be <code>nil</code>.</p>
 			</div>
 			
 
@@ -3430,7 +3430,7 @@
 			
 		    
 
-			<div class="method-subsection method-declaration"><code>- (BFTask *)putBucketTagging:(AWSS3PutBucketTaggingRequest *)<em>request</em></code></div>
+			<div class="method-subsection method-declaration"><code>- (AWSTask *)putBucketTagging:(AWSS3PutBucketTaggingRequest *)<em>request</em></code></div>
 
 		    
 			
@@ -3450,7 +3450,7 @@
 			
 			<div class="method-subsection return">
 				<h4 class="method-subtitle parameter-title">Return Value</h4>
-				<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will be <code>nil</code>.</p>
+				<p>An instance of <code>AWSTask</code>. On successful execution, <code>task.result</code> will be <code>nil</code>.</p>
 			</div>
 			
 
@@ -3497,7 +3497,7 @@
 			
 		    
 
-			<div class="method-subsection method-declaration"><code>- (BFTask *)putBucketVersioning:(AWSS3PutBucketVersioningRequest *)<em>request</em></code></div>
+			<div class="method-subsection method-declaration"><code>- (AWSTask *)putBucketVersioning:(AWSS3PutBucketVersioningRequest *)<em>request</em></code></div>
 
 		    
 			
@@ -3517,7 +3517,7 @@
 			
 			<div class="method-subsection return">
 				<h4 class="method-subtitle parameter-title">Return Value</h4>
-				<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will be <code>nil</code>.</p>
+				<p>An instance of <code>AWSTask</code>. On successful execution, <code>task.result</code> will be <code>nil</code>.</p>
 			</div>
 			
 
@@ -3564,7 +3564,7 @@
 			
 		    
 
-			<div class="method-subsection method-declaration"><code>- (BFTask *)putBucketWebsite:(AWSS3PutBucketWebsiteRequest *)<em>request</em></code></div>
+			<div class="method-subsection method-declaration"><code>- (AWSTask *)putBucketWebsite:(AWSS3PutBucketWebsiteRequest *)<em>request</em></code></div>
 
 		    
 			
@@ -3584,7 +3584,7 @@
 			
 			<div class="method-subsection return">
 				<h4 class="method-subtitle parameter-title">Return Value</h4>
-				<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will be <code>nil</code>.</p>
+				<p>An instance of <code>AWSTask</code>. On successful execution, <code>task.result</code> will be <code>nil</code>.</p>
 			</div>
 			
 
@@ -3631,7 +3631,7 @@
 			
 		    
 
-			<div class="method-subsection method-declaration"><code>- (BFTask *)putObject:(AWSS3PutObjectRequest *)<em>request</em></code></div>
+			<div class="method-subsection method-declaration"><code>- (AWSTask *)putObject:(AWSS3PutObjectRequest *)<em>request</em></code></div>
 
 		    
 			
@@ -3651,7 +3651,7 @@
 			
 			<div class="method-subsection return">
 				<h4 class="method-subtitle parameter-title">Return Value</h4>
-				<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSS3PutObjectOutput</code>.</p>
+				<p>An instance of <code>AWSTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSS3PutObjectOutput</code>.</p>
 			</div>
 			
 
@@ -3700,7 +3700,7 @@
 			
 		    
 
-			<div class="method-subsection method-declaration"><code>- (BFTask *)putObjectAcl:(AWSS3PutObjectAclRequest *)<em>request</em></code></div>
+			<div class="method-subsection method-declaration"><code>- (AWSTask *)putObjectAcl:(AWSS3PutObjectAclRequest *)<em>request</em></code></div>
 
 		    
 			
@@ -3720,7 +3720,7 @@
 			
 			<div class="method-subsection return">
 				<h4 class="method-subtitle parameter-title">Return Value</h4>
-				<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will be <code>nil</code>. On failed execution, <code>task.error</code> may contain an <code>NSError</code> with <code>AWSS3ErrorDomain</code> domian and the following error code: <code>AWSS3ErrorNoSuchKey</code>.</p>
+				<p>An instance of <code>AWSTask</code>. On successful execution, <code>task.result</code> will be <code>nil</code>. On failed execution, <code>task.error</code> may contain an <code>NSError</code> with <code>AWSS3ErrorDomain</code> domain and the following error code: <code>AWSS3ErrorNoSuchKey</code>.</p>
 			</div>
 			
 
@@ -3767,7 +3767,7 @@
 			
 		    
 
-			<div class="method-subsection method-declaration"><code>- (BFTask *)replicateObject:(AWSS3ReplicateObjectRequest *)<em>request</em></code></div>
+			<div class="method-subsection method-declaration"><code>- (AWSTask *)replicateObject:(AWSS3ReplicateObjectRequest *)<em>request</em></code></div>
 
 		    
 			
@@ -3787,7 +3787,7 @@
 			
 			<div class="method-subsection return">
 				<h4 class="method-subtitle parameter-title">Return Value</h4>
-				<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSS3ReplicateObjectOutput</code>. On failed execution, <code>task.error</code> may contain an <code>NSError</code> with <code>AWSS3ErrorDomain</code> domian and the following error code: <code>AWSS3ErrorObjectNotInActiveTier</code>.</p>
+				<p>An instance of <code>AWSTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSS3ReplicateObjectOutput</code>. On failed execution, <code>task.error</code> may contain an <code>NSError</code> with <code>AWSS3ErrorDomain</code> domain and the following error code: <code>AWSS3ErrorObjectNotInActiveTier</code>.</p>
 			</div>
 			
 
@@ -3836,7 +3836,7 @@
 			
 		    
 
-			<div class="method-subsection method-declaration"><code>- (BFTask *)restoreObject:(AWSS3RestoreObjectRequest *)<em>request</em></code></div>
+			<div class="method-subsection method-declaration"><code>- (AWSTask *)restoreObject:(AWSS3RestoreObjectRequest *)<em>request</em></code></div>
 
 		    
 			
@@ -3856,7 +3856,7 @@
 			
 			<div class="method-subsection return">
 				<h4 class="method-subtitle parameter-title">Return Value</h4>
-				<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will be <code>nil</code>. On failed execution, <code>task.error</code> may contain an <code>NSError</code> with <code>AWSS3ErrorDomain</code> domian and the following error code: <code>AWSS3ErrorObjectAlreadyInActiveTier</code>.</p>
+				<p>An instance of <code>AWSTask</code>. On successful execution, <code>task.result</code> will be <code>nil</code>. On failed execution, <code>task.error</code> may contain an <code>NSError</code> with <code>AWSS3ErrorDomain</code> domain and the following error code: <code>AWSS3ErrorObjectAlreadyInActiveTier</code>.</p>
 			</div>
 			
 
@@ -3907,7 +3907,7 @@
 			
 		    
 
-			<div class="method-subsection method-declaration"><code>- (BFTask *)uploadPart:(AWSS3UploadPartRequest *)<em>request</em></code></div>
+			<div class="method-subsection method-declaration"><code>- (AWSTask *)uploadPart:(AWSS3UploadPartRequest *)<em>request</em></code></div>
 
 		    
 			
@@ -3927,7 +3927,7 @@
 			
 			<div class="method-subsection return">
 				<h4 class="method-subtitle parameter-title">Return Value</h4>
-				<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSS3UploadPartOutput</code>.</p>
+				<p>An instance of <code>AWSTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSS3UploadPartOutput</code>.</p>
 			</div>
 			
 
@@ -3976,7 +3976,7 @@
 			
 		    
 
-			<div class="method-subsection method-declaration"><code>- (BFTask *)uploadPartCopy:(AWSS3UploadPartCopyRequest *)<em>request</em></code></div>
+			<div class="method-subsection method-declaration"><code>- (AWSTask *)uploadPartCopy:(AWSS3UploadPartCopyRequest *)<em>request</em></code></div>
 
 		    
 			
@@ -3996,7 +3996,7 @@
 			
 			<div class="method-subsection return">
 				<h4 class="method-subtitle parameter-title">Return Value</h4>
-				<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSS3UploadPartCopyOutput</code>.</p>
+				<p>An instance of <code>AWSTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSS3UploadPartCopyOutput</code>.</p>
 			</div>
 			
 
@@ -4041,7 +4041,7 @@
 				<footer>
 					<div class="footer-copyright">
 						
-						<p class="copyright">Copyright &copy; 2015 Amazon Web Services, Inc. All rights reserved. Updated: 2015-03-25</p>
+						<p class="copyright">Copyright &copy; 2015 Amazon Web Services, Inc. All rights reserved. Updated: 2015-08-31</p>
 						
 						
 						<p class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.2.1 (build 1333)</a>.</p>

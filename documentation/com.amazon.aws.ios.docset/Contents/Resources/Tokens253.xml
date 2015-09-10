@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSEC2AccountAttributeValue.html">
+	<File path="Classes/AWSDynamoDBUpdateTableInput.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSEC2AccountAttributeValue</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Describes a value of an account attribute.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSDynamoDBUpdateTableInput</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Represents the input of an &lt;i&gt;UpdateTable&lt;/i&gt; operation.&lt;/p&gt;
+Required parameters: [TableName]</Abstract>
+			<DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
             
 			
 			<NodeRef refid="253"/>
@@ -13,38 +14,182 @@
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2AccountAttributeValue/setAttributeValue:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The value of the attribute.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSDynamoDBUpdateTableInput/setAttributeDefinitions:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;An array of attributes that describe the key schema for the table and indexes. If you are adding a new global secondary index to the table, &lt;i&gt;AttributeDefinitions&lt;/i&gt; must include the key element(s) of the new index.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *attributeValue</Declaration>
+			<Declaration>@property (nonatomic, strong) NSArray *attributeDefinitions</Declaration>
 			
 			
-			<Anchor>//api/name/attributeValue</Anchor>
+			<Anchor>//api/name/attributeDefinitions</Anchor>
             <NodeRef refid="253"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2AccountAttributeValue/attributeValue</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The value of the attribute.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSDynamoDBUpdateTableInput/attributeDefinitions</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;An array of attributes that describe the key schema for the table and indexes. If you are adding a new global secondary index to the table, &lt;i&gt;AttributeDefinitions&lt;/i&gt; must include the key element(s) of the new index.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *attributeValue</Declaration>
+			<Declaration>@property (nonatomic, strong) NSArray *attributeDefinitions</Declaration>
 			
 			
-			<Anchor>//api/name/attributeValue</Anchor>
+			<Anchor>//api/name/attributeDefinitions</Anchor>
             <NodeRef refid="253"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2AccountAttributeValue/attributeValue</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The value of the attribute.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSDynamoDBUpdateTableInput/attributeDefinitions</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;An array of attributes that describe the key schema for the table and indexes. If you are adding a new global secondary index to the table, &lt;i&gt;AttributeDefinitions&lt;/i&gt; must include the key element(s) of the new index.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *attributeValue</Declaration>
+			<Declaration>@property (nonatomic, strong) NSArray *attributeDefinitions</Declaration>
 			
 			
-			<Anchor>//api/name/attributeValue</Anchor>
+			<Anchor>//api/name/attributeDefinitions</Anchor>
+            <NodeRef refid="253"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSDynamoDBUpdateTableInput/setGlobalSecondaryIndexUpdates:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;An array of one or more global secondary indexes for the table. For each index in the array, you can request one action:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;&lt;i&gt;Create&lt;/i&gt; - add a new global secondary index to the table.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;i&gt;Update&lt;/i&gt; - modify the provisioned throughput settings of an existing global secondary index.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;i&gt;Delete&lt;/i&gt; - remove a global secondary index from the table.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</Abstract>
+			<DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray *globalSecondaryIndexUpdates</Declaration>
+			
+			
+			<Anchor>//api/name/globalSecondaryIndexUpdates</Anchor>
+            <NodeRef refid="253"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSDynamoDBUpdateTableInput/globalSecondaryIndexUpdates</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;An array of one or more global secondary indexes for the table. For each index in the array, you can request one action:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;&lt;i&gt;Create&lt;/i&gt; - add a new global secondary index to the table.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;i&gt;Update&lt;/i&gt; - modify the provisioned throughput settings of an existing global secondary index.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;i&gt;Delete&lt;/i&gt; - remove a global secondary index from the table.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</Abstract>
+			<DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray *globalSecondaryIndexUpdates</Declaration>
+			
+			
+			<Anchor>//api/name/globalSecondaryIndexUpdates</Anchor>
+            <NodeRef refid="253"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSDynamoDBUpdateTableInput/globalSecondaryIndexUpdates</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;An array of one or more global secondary indexes for the table. For each index in the array, you can request one action:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;&lt;i&gt;Create&lt;/i&gt; - add a new global secondary index to the table.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;i&gt;Update&lt;/i&gt; - modify the provisioned throughput settings of an existing global secondary index.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;i&gt;Delete&lt;/i&gt; - remove a global secondary index from the table.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</Abstract>
+			<DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray *globalSecondaryIndexUpdates</Declaration>
+			
+			
+			<Anchor>//api/name/globalSecondaryIndexUpdates</Anchor>
+            <NodeRef refid="253"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSDynamoDBUpdateTableInput/setProvisionedThroughput:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Represents the provisioned throughput settings for a specified table or index. The settings can be modified using the &lt;i&gt;UpdateTable&lt;/i&gt; operation.&lt;/p&gt;&lt;p&gt;For current minimum and maximum provisioned throughput values, see Limits in the &lt;i&gt;Amazon DynamoDB Developer Guide&lt;/i&gt;.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) AWSDynamoDBProvisionedThroughput *provisionedThroughput</Declaration>
+			
+			
+			<Anchor>//api/name/provisionedThroughput</Anchor>
+            <NodeRef refid="253"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSDynamoDBUpdateTableInput/provisionedThroughput</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Represents the provisioned throughput settings for a specified table or index. The settings can be modified using the &lt;i&gt;UpdateTable&lt;/i&gt; operation.&lt;/p&gt;&lt;p&gt;For current minimum and maximum provisioned throughput values, see Limits in the &lt;i&gt;Amazon DynamoDB Developer Guide&lt;/i&gt;.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) AWSDynamoDBProvisionedThroughput *provisionedThroughput</Declaration>
+			
+			
+			<Anchor>//api/name/provisionedThroughput</Anchor>
+            <NodeRef refid="253"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSDynamoDBUpdateTableInput/provisionedThroughput</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Represents the provisioned throughput settings for a specified table or index. The settings can be modified using the &lt;i&gt;UpdateTable&lt;/i&gt; operation.&lt;/p&gt;&lt;p&gt;For current minimum and maximum provisioned throughput values, see Limits in the &lt;i&gt;Amazon DynamoDB Developer Guide&lt;/i&gt;.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) AWSDynamoDBProvisionedThroughput *provisionedThroughput</Declaration>
+			
+			
+			<Anchor>//api/name/provisionedThroughput</Anchor>
+            <NodeRef refid="253"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSDynamoDBUpdateTableInput/setStreamSpecification:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) AWSDynamoDBStreamSpecification *streamSpecification</Declaration>
+			
+			
+			<Anchor>//api/name/streamSpecification</Anchor>
+            <NodeRef refid="253"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSDynamoDBUpdateTableInput/streamSpecification</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) AWSDynamoDBStreamSpecification *streamSpecification</Declaration>
+			
+			
+			<Anchor>//api/name/streamSpecification</Anchor>
+            <NodeRef refid="253"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSDynamoDBUpdateTableInput/streamSpecification</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) AWSDynamoDBStreamSpecification *streamSpecification</Declaration>
+			
+			
+			<Anchor>//api/name/streamSpecification</Anchor>
+            <NodeRef refid="253"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSDynamoDBUpdateTableInput/setTableName:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The name of the table to be updated.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *tableName</Declaration>
+			
+			
+			<Anchor>//api/name/tableName</Anchor>
+            <NodeRef refid="253"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSDynamoDBUpdateTableInput/tableName</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The name of the table to be updated.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *tableName</Declaration>
+			
+			
+			<Anchor>//api/name/tableName</Anchor>
+            <NodeRef refid="253"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSDynamoDBUpdateTableInput/tableName</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The name of the table to be updated.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *tableName</Declaration>
+			
+			
+			<Anchor>//api/name/tableName</Anchor>
             <NodeRef refid="253"/>
 		</Token>
 		

@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSKinesisStreamDescription.html">
+	<File path="Classes/AWSKinesisListTagsForStreamInput.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSKinesisStreamDescription</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Represents the output for &lt;code&gt;DescribeStream&lt;/code&gt;.&lt;/p&gt;
-Required parameters: [StreamName, StreamARN, StreamStatus, Shards, HasMoreShards]</Abstract>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSKinesisListTagsForStreamInput</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Represents the input for &lt;code&gt;ListTagsForStream&lt;/code&gt;.&lt;/p&gt;
+Required parameters: [StreamName]</Abstract>
 			<DeclaredIn>AWSKinesisModel.h</DeclaredIn>
             
 			
@@ -14,116 +14,80 @@ Required parameters: [StreamName, StreamARN, StreamStatus, Shards, HasMoreShards
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSKinesisStreamDescription/setHasMoreShards:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;If set to &lt;code&gt;true&lt;/code&gt;, more shards in the stream are available to describe.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSKinesisListTagsForStreamInput/setExclusiveStartTagKey:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The key to use as the starting point for the list of tags. If this parameter is set, &lt;code&gt;ListTagsForStream&lt;/code&gt; gets all tags that occur after &lt;code&gt;ExclusiveStartTagKey&lt;/code&gt;. &lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSKinesisModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSNumber *hasMoreShards</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *exclusiveStartTagKey</Declaration>
 			
 			
-			<Anchor>//api/name/hasMoreShards</Anchor>
+			<Anchor>//api/name/exclusiveStartTagKey</Anchor>
             <NodeRef refid="742"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSKinesisStreamDescription/hasMoreShards</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;If set to &lt;code&gt;true&lt;/code&gt;, more shards in the stream are available to describe.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSKinesisListTagsForStreamInput/exclusiveStartTagKey</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The key to use as the starting point for the list of tags. If this parameter is set, &lt;code&gt;ListTagsForStream&lt;/code&gt; gets all tags that occur after &lt;code&gt;ExclusiveStartTagKey&lt;/code&gt;. &lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSKinesisModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSNumber *hasMoreShards</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *exclusiveStartTagKey</Declaration>
 			
 			
-			<Anchor>//api/name/hasMoreShards</Anchor>
+			<Anchor>//api/name/exclusiveStartTagKey</Anchor>
             <NodeRef refid="742"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSKinesisStreamDescription/hasMoreShards</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;If set to &lt;code&gt;true&lt;/code&gt;, more shards in the stream are available to describe.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSKinesisListTagsForStreamInput/exclusiveStartTagKey</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The key to use as the starting point for the list of tags. If this parameter is set, &lt;code&gt;ListTagsForStream&lt;/code&gt; gets all tags that occur after &lt;code&gt;ExclusiveStartTagKey&lt;/code&gt;. &lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSKinesisModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSNumber *hasMoreShards</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *exclusiveStartTagKey</Declaration>
 			
 			
-			<Anchor>//api/name/hasMoreShards</Anchor>
+			<Anchor>//api/name/exclusiveStartTagKey</Anchor>
             <NodeRef refid="742"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSKinesisStreamDescription/setShards:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The shards that comprise the stream.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSKinesisListTagsForStreamInput/setLimit:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The number of tags to return. If this number is less than the total number of tags associated with the stream, &lt;code&gt;HasMoreTags&lt;/code&gt; is set to &lt;code&gt;true&lt;/code&gt;. To list additional tags, set &lt;code&gt;ExclusiveStartTagKey&lt;/code&gt; to the last key in the response.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSKinesisModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSArray *shards</Declaration>
+			<Declaration>@property (nonatomic, strong) NSNumber *limit</Declaration>
 			
 			
-			<Anchor>//api/name/shards</Anchor>
+			<Anchor>//api/name/limit</Anchor>
             <NodeRef refid="742"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSKinesisStreamDescription/shards</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The shards that comprise the stream.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSKinesisListTagsForStreamInput/limit</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The number of tags to return. If this number is less than the total number of tags associated with the stream, &lt;code&gt;HasMoreTags&lt;/code&gt; is set to &lt;code&gt;true&lt;/code&gt;. To list additional tags, set &lt;code&gt;ExclusiveStartTagKey&lt;/code&gt; to the last key in the response.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSKinesisModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSArray *shards</Declaration>
+			<Declaration>@property (nonatomic, strong) NSNumber *limit</Declaration>
 			
 			
-			<Anchor>//api/name/shards</Anchor>
+			<Anchor>//api/name/limit</Anchor>
             <NodeRef refid="742"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSKinesisStreamDescription/shards</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The shards that comprise the stream.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSKinesisListTagsForStreamInput/limit</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The number of tags to return. If this number is less than the total number of tags associated with the stream, &lt;code&gt;HasMoreTags&lt;/code&gt; is set to &lt;code&gt;true&lt;/code&gt;. To list additional tags, set &lt;code&gt;ExclusiveStartTagKey&lt;/code&gt; to the last key in the response.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSKinesisModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSArray *shards</Declaration>
+			<Declaration>@property (nonatomic, strong) NSNumber *limit</Declaration>
 			
 			
-			<Anchor>//api/name/shards</Anchor>
+			<Anchor>//api/name/limit</Anchor>
             <NodeRef refid="742"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSKinesisStreamDescription/setStreamARN:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The Amazon Resource Name (ARN) for the stream being described.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSKinesisModel.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *streamARN</Declaration>
-			
-			
-			<Anchor>//api/name/streamARN</Anchor>
-            <NodeRef refid="742"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSKinesisStreamDescription/streamARN</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The Amazon Resource Name (ARN) for the stream being described.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSKinesisModel.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *streamARN</Declaration>
-			
-			
-			<Anchor>//api/name/streamARN</Anchor>
-            <NodeRef refid="742"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSKinesisStreamDescription/streamARN</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The Amazon Resource Name (ARN) for the stream being described.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSKinesisModel.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *streamARN</Declaration>
-			
-			
-			<Anchor>//api/name/streamARN</Anchor>
-            <NodeRef refid="742"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSKinesisStreamDescription/setStreamName:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The name of the stream being described.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSKinesisListTagsForStreamInput/setStreamName:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The name of the stream.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSKinesisModel.h</DeclaredIn>
 			
 			<Declaration>@property (nonatomic, strong) NSString *streamName</Declaration>
@@ -134,8 +98,8 @@ Required parameters: [StreamName, StreamARN, StreamStatus, Shards, HasMoreShards
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSKinesisStreamDescription/streamName</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The name of the stream being described.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSKinesisListTagsForStreamInput/streamName</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The name of the stream.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSKinesisModel.h</DeclaredIn>
 			
 			<Declaration>@property (nonatomic, strong) NSString *streamName</Declaration>
@@ -146,50 +110,14 @@ Required parameters: [StreamName, StreamARN, StreamStatus, Shards, HasMoreShards
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSKinesisStreamDescription/streamName</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The name of the stream being described.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSKinesisListTagsForStreamInput/streamName</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The name of the stream.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSKinesisModel.h</DeclaredIn>
 			
 			<Declaration>@property (nonatomic, strong) NSString *streamName</Declaration>
 			
 			
 			<Anchor>//api/name/streamName</Anchor>
-            <NodeRef refid="742"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSKinesisStreamDescription/setStreamStatus:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The current status of the stream being described.&lt;/p&gt;&lt;p&gt;The stream status is one of the following states:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;code&gt;CREATING&lt;/code&gt; - The stream is being created. Amazon Kinesis immediately returns and sets &lt;code&gt;StreamStatus&lt;/code&gt; to &lt;code&gt;CREATING&lt;/code&gt;.&lt;/li&gt;&lt;li&gt;&lt;code&gt;DELETING&lt;/code&gt; - The stream is being deleted. The specified stream is in the &lt;code&gt;DELETING&lt;/code&gt; state until Amazon Kinesis completes the deletion.&lt;/li&gt;&lt;li&gt;&lt;code&gt;ACTIVE&lt;/code&gt; - The stream exists and is ready for read and write operations or deletion. You should perform read and write operations only on an &lt;code&gt;ACTIVE&lt;/code&gt; stream.&lt;/li&gt;&lt;li&gt;&lt;code&gt;UPDATING&lt;/code&gt; - Shards in the stream are being merged or split. Read and write operations continue to work while the stream is in the &lt;code&gt;UPDATING&lt;/code&gt; state.&lt;/li&gt;&lt;/ul&gt;</Abstract>
-			<DeclaredIn>AWSKinesisModel.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, assign) AWSKinesisStreamStatus streamStatus</Declaration>
-			
-			
-			<Anchor>//api/name/streamStatus</Anchor>
-            <NodeRef refid="742"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSKinesisStreamDescription/streamStatus</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The current status of the stream being described.&lt;/p&gt;&lt;p&gt;The stream status is one of the following states:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;code&gt;CREATING&lt;/code&gt; - The stream is being created. Amazon Kinesis immediately returns and sets &lt;code&gt;StreamStatus&lt;/code&gt; to &lt;code&gt;CREATING&lt;/code&gt;.&lt;/li&gt;&lt;li&gt;&lt;code&gt;DELETING&lt;/code&gt; - The stream is being deleted. The specified stream is in the &lt;code&gt;DELETING&lt;/code&gt; state until Amazon Kinesis completes the deletion.&lt;/li&gt;&lt;li&gt;&lt;code&gt;ACTIVE&lt;/code&gt; - The stream exists and is ready for read and write operations or deletion. You should perform read and write operations only on an &lt;code&gt;ACTIVE&lt;/code&gt; stream.&lt;/li&gt;&lt;li&gt;&lt;code&gt;UPDATING&lt;/code&gt; - Shards in the stream are being merged or split. Read and write operations continue to work while the stream is in the &lt;code&gt;UPDATING&lt;/code&gt; state.&lt;/li&gt;&lt;/ul&gt;</Abstract>
-			<DeclaredIn>AWSKinesisModel.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, assign) AWSKinesisStreamStatus streamStatus</Declaration>
-			
-			
-			<Anchor>//api/name/streamStatus</Anchor>
-            <NodeRef refid="742"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSKinesisStreamDescription/streamStatus</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The current status of the stream being described.&lt;/p&gt;&lt;p&gt;The stream status is one of the following states:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;code&gt;CREATING&lt;/code&gt; - The stream is being created. Amazon Kinesis immediately returns and sets &lt;code&gt;StreamStatus&lt;/code&gt; to &lt;code&gt;CREATING&lt;/code&gt;.&lt;/li&gt;&lt;li&gt;&lt;code&gt;DELETING&lt;/code&gt; - The stream is being deleted. The specified stream is in the &lt;code&gt;DELETING&lt;/code&gt; state until Amazon Kinesis completes the deletion.&lt;/li&gt;&lt;li&gt;&lt;code&gt;ACTIVE&lt;/code&gt; - The stream exists and is ready for read and write operations or deletion. You should perform read and write operations only on an &lt;code&gt;ACTIVE&lt;/code&gt; stream.&lt;/li&gt;&lt;li&gt;&lt;code&gt;UPDATING&lt;/code&gt; - Shards in the stream are being merged or split. Read and write operations continue to work while the stream is in the &lt;code&gt;UPDATING&lt;/code&gt; state.&lt;/li&gt;&lt;/ul&gt;</Abstract>
-			<DeclaredIn>AWSKinesisModel.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, assign) AWSKinesisStreamStatus streamStatus</Declaration>
-			
-			
-			<Anchor>//api/name/streamStatus</Anchor>
             <NodeRef refid="742"/>
 		</Token>
 		

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSS3Remove.html">
+	<File path="Classes/AWSS3GetObjectAclRequest.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSS3Remove</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSS3GetObjectAclRequest</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSS3Model.h</DeclaredIn>
             
@@ -13,74 +13,110 @@
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3Remove/setObjects:</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3GetObjectAclRequest/setBucket:</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSArray *objects</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *bucket</Declaration>
 			
 			
-			<Anchor>//api/name/objects</Anchor>
+			<Anchor>//api/name/bucket</Anchor>
             <NodeRef refid="865"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3Remove/objects</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3GetObjectAclRequest/bucket</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSArray *objects</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *bucket</Declaration>
 			
 			
-			<Anchor>//api/name/objects</Anchor>
+			<Anchor>//api/name/bucket</Anchor>
             <NodeRef refid="865"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSS3Remove/objects</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSS3GetObjectAclRequest/bucket</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSArray *objects</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *bucket</Declaration>
 			
 			
-			<Anchor>//api/name/objects</Anchor>
+			<Anchor>//api/name/bucket</Anchor>
             <NodeRef refid="865"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3Remove/setQuiet:</TokenIdentifier>
-			<Abstract type="html">Element to enable quiet mode for the request. When you add this element, you must set its value to true.</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3GetObjectAclRequest/setKey:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSNumber *quiet</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *key</Declaration>
 			
 			
-			<Anchor>//api/name/quiet</Anchor>
+			<Anchor>//api/name/key</Anchor>
             <NodeRef refid="865"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3Remove/quiet</TokenIdentifier>
-			<Abstract type="html">Element to enable quiet mode for the request. When you add this element, you must set its value to true.</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3GetObjectAclRequest/key</TokenIdentifier>
+			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSNumber *quiet</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *key</Declaration>
 			
 			
-			<Anchor>//api/name/quiet</Anchor>
+			<Anchor>//api/name/key</Anchor>
             <NodeRef refid="865"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSS3Remove/quiet</TokenIdentifier>
-			<Abstract type="html">Element to enable quiet mode for the request. When you add this element, you must set its value to true.</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSS3GetObjectAclRequest/key</TokenIdentifier>
+			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSNumber *quiet</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *key</Declaration>
 			
 			
-			<Anchor>//api/name/quiet</Anchor>
+			<Anchor>//api/name/key</Anchor>
+            <NodeRef refid="865"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3GetObjectAclRequest/setVersionId:</TokenIdentifier>
+			<Abstract type="html">VersionId used to reference a specific version of the object.</Abstract>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *versionId</Declaration>
+			
+			
+			<Anchor>//api/name/versionId</Anchor>
+            <NodeRef refid="865"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3GetObjectAclRequest/versionId</TokenIdentifier>
+			<Abstract type="html">VersionId used to reference a specific version of the object.</Abstract>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *versionId</Declaration>
+			
+			
+			<Anchor>//api/name/versionId</Anchor>
+            <NodeRef refid="865"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSS3GetObjectAclRequest/versionId</TokenIdentifier>
+			<Abstract type="html">VersionId used to reference a specific version of the object.</Abstract>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *versionId</Declaration>
+			
+			
+			<Anchor>//api/name/versionId</Anchor>
             <NodeRef refid="865"/>
 		</Token>
 		

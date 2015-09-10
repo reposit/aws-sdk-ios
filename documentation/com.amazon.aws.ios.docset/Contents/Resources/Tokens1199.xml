@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Constants/AWSS3Event.html">
+	<File path="Constants/AWSEC2ReportStatusType.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/c/tdef/AWSS3Event</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/c/tdef/AWSEC2ReportStatusType</TokenIdentifier>
 			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
             
 			
 			<NodeRef refid="1199"/>
@@ -14,61 +14,31 @@
 		
         
         <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSS3EventUnknown</TokenIdentifier>
+            <TokenIdentifier>//apple_ref/c/econst/AWSEC2ReportStatusTypeUnknown</TokenIdentifier>
             <Abstract type="html"></Abstract>
-            <Declaration>AWSS3EventUnknown</Declaration>
+            <Declaration>AWSEC2ReportStatusTypeUnknown</Declaration>
             
-            <DeclaredIn>AWSS3Model.h</DeclaredIn>
+            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
             
             <NodeRef refid="1199"/>
         </Token>
         
         <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSS3EventS3ReducedRedundancyLostObject</TokenIdentifier>
+            <TokenIdentifier>//apple_ref/c/econst/AWSEC2ReportStatusTypeOK</TokenIdentifier>
             <Abstract type="html"></Abstract>
-            <Declaration>AWSS3EventS3ReducedRedundancyLostObject</Declaration>
+            <Declaration>AWSEC2ReportStatusTypeOK</Declaration>
             
-            <DeclaredIn>AWSS3Model.h</DeclaredIn>
+            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
             
             <NodeRef refid="1199"/>
         </Token>
         
         <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSS3EventS3ObjectCreatedPut</TokenIdentifier>
+            <TokenIdentifier>//apple_ref/c/econst/AWSEC2ReportStatusTypeImpaired</TokenIdentifier>
             <Abstract type="html"></Abstract>
-            <Declaration>AWSS3EventS3ObjectCreatedPut</Declaration>
+            <Declaration>AWSEC2ReportStatusTypeImpaired</Declaration>
             
-            <DeclaredIn>AWSS3Model.h</DeclaredIn>
-            
-            <NodeRef refid="1199"/>
-        </Token>
-        
-        <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSS3EventS3ObjectCreatedPost</TokenIdentifier>
-            <Abstract type="html"></Abstract>
-            <Declaration>AWSS3EventS3ObjectCreatedPost</Declaration>
-            
-            <DeclaredIn>AWSS3Model.h</DeclaredIn>
-            
-            <NodeRef refid="1199"/>
-        </Token>
-        
-        <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSS3EventS3ObjectCreatedCopy</TokenIdentifier>
-            <Abstract type="html"></Abstract>
-            <Declaration>AWSS3EventS3ObjectCreatedCopy</Declaration>
-            
-            <DeclaredIn>AWSS3Model.h</DeclaredIn>
-            
-            <NodeRef refid="1199"/>
-        </Token>
-        
-        <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSS3EventS3ObjectCreatedCompleteMultipartUpload</TokenIdentifier>
-            <Abstract type="html"></Abstract>
-            <Declaration>AWSS3EventS3ObjectCreatedCompleteMultipartUpload</Declaration>
-            
-            <DeclaredIn>AWSS3Model.h</DeclaredIn>
+            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
             
             <NodeRef refid="1199"/>
         </Token>

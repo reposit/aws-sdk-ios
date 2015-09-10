@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Constants/AWSS3ExpirationStatus.html">
+	<File path="Constants/AWSEC2ReservedInstanceState.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/c/tdef/AWSS3ExpirationStatus</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/c/tdef/AWSEC2ReservedInstanceState</TokenIdentifier>
 			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
             
 			
 			<NodeRef refid="1200"/>
@@ -14,31 +14,51 @@
 		
         
         <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSS3ExpirationStatusUnknown</TokenIdentifier>
+            <TokenIdentifier>//apple_ref/c/econst/AWSEC2ReservedInstanceStateUnknown</TokenIdentifier>
             <Abstract type="html"></Abstract>
-            <Declaration>AWSS3ExpirationStatusUnknown</Declaration>
+            <Declaration>AWSEC2ReservedInstanceStateUnknown</Declaration>
             
-            <DeclaredIn>AWSS3Model.h</DeclaredIn>
+            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
             
             <NodeRef refid="1200"/>
         </Token>
         
         <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSS3ExpirationStatusEnabled</TokenIdentifier>
+            <TokenIdentifier>//apple_ref/c/econst/AWSEC2ReservedInstanceStatePaymentPending</TokenIdentifier>
             <Abstract type="html"></Abstract>
-            <Declaration>AWSS3ExpirationStatusEnabled</Declaration>
+            <Declaration>AWSEC2ReservedInstanceStatePaymentPending</Declaration>
             
-            <DeclaredIn>AWSS3Model.h</DeclaredIn>
+            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
             
             <NodeRef refid="1200"/>
         </Token>
         
         <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSS3ExpirationStatusDisabled</TokenIdentifier>
+            <TokenIdentifier>//apple_ref/c/econst/AWSEC2ReservedInstanceStateActive</TokenIdentifier>
             <Abstract type="html"></Abstract>
-            <Declaration>AWSS3ExpirationStatusDisabled</Declaration>
+            <Declaration>AWSEC2ReservedInstanceStateActive</Declaration>
             
-            <DeclaredIn>AWSS3Model.h</DeclaredIn>
+            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
+            
+            <NodeRef refid="1200"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/AWSEC2ReservedInstanceStatePaymentFailed</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>AWSEC2ReservedInstanceStatePaymentFailed</Declaration>
+            
+            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
+            
+            <NodeRef refid="1200"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/AWSEC2ReservedInstanceStateRetired</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>AWSEC2ReservedInstanceStateRetired</Declaration>
+            
+            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
             
             <NodeRef refid="1200"/>
         </Token>

@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Constants/AWSJSONBuilderErrorType.html">
+	<File path="Constants/AWSEC2InstanceLifecycleType.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/c/tdef/AWSJSONBuilderErrorType</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/c/tdef/AWSEC2InstanceLifecycleType</TokenIdentifier>
 			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSSerialization.h</DeclaredIn>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
             
 			
 			<NodeRef refid="1181"/>
@@ -14,51 +14,21 @@
 		
         
         <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSJSONBuilderUnknownError</TokenIdentifier>
+            <TokenIdentifier>//apple_ref/c/econst/AWSEC2InstanceLifecycleTypeUnknown</TokenIdentifier>
             <Abstract type="html"></Abstract>
-            <Declaration>AWSJSONBuilderUnknownError</Declaration>
+            <Declaration>AWSEC2InstanceLifecycleTypeUnknown</Declaration>
             
-            <DeclaredIn>AWSSerialization.h</DeclaredIn>
+            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
             
             <NodeRef refid="1181"/>
         </Token>
         
         <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSJSONBuilderDefinitionFileIsEmpty</TokenIdentifier>
+            <TokenIdentifier>//apple_ref/c/econst/AWSEC2InstanceLifecycleTypeSpot</TokenIdentifier>
             <Abstract type="html"></Abstract>
-            <Declaration>AWSJSONBuilderDefinitionFileIsEmpty</Declaration>
+            <Declaration>AWSEC2InstanceLifecycleTypeSpot</Declaration>
             
-            <DeclaredIn>AWSSerialization.h</DeclaredIn>
-            
-            <NodeRef refid="1181"/>
-        </Token>
-        
-        <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSJSONBuilderUndefinedActionRule</TokenIdentifier>
-            <Abstract type="html"></Abstract>
-            <Declaration>AWSJSONBuilderUndefinedActionRule</Declaration>
-            
-            <DeclaredIn>AWSSerialization.h</DeclaredIn>
-            
-            <NodeRef refid="1181"/>
-        </Token>
-        
-        <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSJSONBuilderInternalError</TokenIdentifier>
-            <Abstract type="html"></Abstract>
-            <Declaration>AWSJSONBuilderInternalError</Declaration>
-            
-            <DeclaredIn>AWSSerialization.h</DeclaredIn>
-            
-            <NodeRef refid="1181"/>
-        </Token>
-        
-        <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSJSONBuilderInvalidParameter</TokenIdentifier>
-            <Abstract type="html"></Abstract>
-            <Declaration>AWSJSONBuilderInvalidParameter</Declaration>
-            
-            <DeclaredIn>AWSSerialization.h</DeclaredIn>
+            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
             
             <NodeRef refid="1181"/>
         </Token>

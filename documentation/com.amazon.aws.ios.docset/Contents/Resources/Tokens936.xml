@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSSNSCreatePlatformApplicationInput.html">
+	<File path="Classes/AWSS3TransferUtilityTask.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSSNSCreatePlatformApplicationInput</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Input for CreatePlatformApplication action.&lt;/p&gt;
-Required parameters: [Name, Platform, Attributes]</Abstract>
-			<DeclaredIn>AWSSNSModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSS3TransferUtilityTask</TokenIdentifier>
+			<Abstract type="html">The task object to represent a upload or download task.</Abstract>
+			<DeclaredIn>AWSS3TransferUtility.h</DeclaredIn>
             
 			
 			<NodeRef refid="936"/>
@@ -14,110 +13,146 @@ Required parameters: [Name, Platform, Attributes]</Abstract>
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSSNSCreatePlatformApplicationInput/setAttributes:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;For a list of attributes, see SetPlatformApplicationAttributes&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSNSModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3TransferUtilityTask/setTaskIdentifier:</TokenIdentifier>
+			<Abstract type="html">An identifier uniquely identifies the task within a given AWSS3TransferUtility instance.</Abstract>
+			<DeclaredIn>AWSS3TransferUtility.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSDictionary *attributes</Declaration>
+			<Declaration>@property (readonly) NSUInteger taskIdentifier</Declaration>
 			
 			
-			<Anchor>//api/name/attributes</Anchor>
+			<Anchor>//api/name/taskIdentifier</Anchor>
             <NodeRef refid="936"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSSNSCreatePlatformApplicationInput/attributes</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;For a list of attributes, see SetPlatformApplicationAttributes&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSNSModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3TransferUtilityTask/taskIdentifier</TokenIdentifier>
+			<Abstract type="html">An identifier uniquely identifies the task within a given AWSS3TransferUtility instance.</Abstract>
+			<DeclaredIn>AWSS3TransferUtility.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSDictionary *attributes</Declaration>
+			<Declaration>@property (readonly) NSUInteger taskIdentifier</Declaration>
 			
 			
-			<Anchor>//api/name/attributes</Anchor>
+			<Anchor>//api/name/taskIdentifier</Anchor>
             <NodeRef refid="936"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSSNSCreatePlatformApplicationInput/attributes</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;For a list of attributes, see SetPlatformApplicationAttributes&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSNSModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSS3TransferUtilityTask/taskIdentifier</TokenIdentifier>
+			<Abstract type="html">An identifier uniquely identifies the task within a given AWSS3TransferUtility instance.</Abstract>
+			<DeclaredIn>AWSS3TransferUtility.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSDictionary *attributes</Declaration>
+			<Declaration>@property (readonly) NSUInteger taskIdentifier</Declaration>
 			
 			
-			<Anchor>//api/name/attributes</Anchor>
+			<Anchor>//api/name/taskIdentifier</Anchor>
             <NodeRef refid="936"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSSNSCreatePlatformApplicationInput/setName:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Application names must be made up of only uppercase and lowercase ASCII letters, numbers, underscores, hyphens, and periods, and must be between 1 and 256 characters long.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSNSModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3TransferUtilityTask/setBucket:</TokenIdentifier>
+			<Abstract type="html">The Amazon S3 bucket name associated with the transfer.</Abstract>
+			<DeclaredIn>AWSS3TransferUtility.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *name</Declaration>
+			<Declaration>@property (readonly) NSString *bucket</Declaration>
 			
 			
-			<Anchor>//api/name/name</Anchor>
+			<Anchor>//api/name/bucket</Anchor>
             <NodeRef refid="936"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSSNSCreatePlatformApplicationInput/name</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Application names must be made up of only uppercase and lowercase ASCII letters, numbers, underscores, hyphens, and periods, and must be between 1 and 256 characters long.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSNSModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3TransferUtilityTask/bucket</TokenIdentifier>
+			<Abstract type="html">The Amazon S3 bucket name associated with the transfer.</Abstract>
+			<DeclaredIn>AWSS3TransferUtility.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *name</Declaration>
+			<Declaration>@property (readonly) NSString *bucket</Declaration>
 			
 			
-			<Anchor>//api/name/name</Anchor>
+			<Anchor>//api/name/bucket</Anchor>
             <NodeRef refid="936"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSSNSCreatePlatformApplicationInput/name</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Application names must be made up of only uppercase and lowercase ASCII letters, numbers, underscores, hyphens, and periods, and must be between 1 and 256 characters long.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSNSModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSS3TransferUtilityTask/bucket</TokenIdentifier>
+			<Abstract type="html">The Amazon S3 bucket name associated with the transfer.</Abstract>
+			<DeclaredIn>AWSS3TransferUtility.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *name</Declaration>
+			<Declaration>@property (readonly) NSString *bucket</Declaration>
 			
 			
-			<Anchor>//api/name/name</Anchor>
+			<Anchor>//api/name/bucket</Anchor>
             <NodeRef refid="936"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSSNSCreatePlatformApplicationInput/setPlatform:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The following platforms are supported: ADM (Amazon Device Messaging), APNS (Apple Push Notification Service), APNS_SANDBOX, and GCM (Google Cloud Messaging).&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSNSModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3TransferUtilityTask/setKey:</TokenIdentifier>
+			<Abstract type="html">The Amazon S3 object key name associated with the transfer.</Abstract>
+			<DeclaredIn>AWSS3TransferUtility.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *platform</Declaration>
+			<Declaration>@property (readonly) NSString *key</Declaration>
 			
 			
-			<Anchor>//api/name/platform</Anchor>
+			<Anchor>//api/name/key</Anchor>
             <NodeRef refid="936"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSSNSCreatePlatformApplicationInput/platform</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The following platforms are supported: ADM (Amazon Device Messaging), APNS (Apple Push Notification Service), APNS_SANDBOX, and GCM (Google Cloud Messaging).&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSNSModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3TransferUtilityTask/key</TokenIdentifier>
+			<Abstract type="html">The Amazon S3 object key name associated with the transfer.</Abstract>
+			<DeclaredIn>AWSS3TransferUtility.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *platform</Declaration>
+			<Declaration>@property (readonly) NSString *key</Declaration>
 			
 			
-			<Anchor>//api/name/platform</Anchor>
+			<Anchor>//api/name/key</Anchor>
             <NodeRef refid="936"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSSNSCreatePlatformApplicationInput/platform</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The following platforms are supported: ADM (Amazon Device Messaging), APNS (Apple Push Notification Service), APNS_SANDBOX, and GCM (Google Cloud Messaging).&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSNSModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSS3TransferUtilityTask/key</TokenIdentifier>
+			<Abstract type="html">The Amazon S3 object key name associated with the transfer.</Abstract>
+			<DeclaredIn>AWSS3TransferUtility.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *platform</Declaration>
+			<Declaration>@property (readonly) NSString *key</Declaration>
 			
 			
-			<Anchor>//api/name/platform</Anchor>
+			<Anchor>//api/name/key</Anchor>
+            <NodeRef refid="936"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3TransferUtilityTask/cancel</TokenIdentifier>
+			<Abstract type="html">Cancels the task.</Abstract>
+			<DeclaredIn>AWSS3TransferUtility.h</DeclaredIn>
+			
+			<Declaration>- (void)cancel</Declaration>
+			
+			
+			<Anchor>//api/name/cancel</Anchor>
+            <NodeRef refid="936"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3TransferUtilityTask/resume</TokenIdentifier>
+			<Abstract type="html">Resumes the task, if it is suspended.</Abstract>
+			<DeclaredIn>AWSS3TransferUtility.h</DeclaredIn>
+			
+			<Declaration>- (void)resume</Declaration>
+			
+			
+			<Anchor>//api/name/resume</Anchor>
+            <NodeRef refid="936"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3TransferUtilityTask/suspend</TokenIdentifier>
+			<Abstract type="html">Temporarily suspends a task.</Abstract>
+			<DeclaredIn>AWSS3TransferUtility.h</DeclaredIn>
+			
+			<Declaration>- (void)suspend</Declaration>
+			
+			
+			<Anchor>//api/name/suspend</Anchor>
             <NodeRef refid="936"/>
 		</Token>
 		

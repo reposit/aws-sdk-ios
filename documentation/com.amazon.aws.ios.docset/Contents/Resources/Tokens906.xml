@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSSESIdentityVerificationAttributes.html">
+	<File path="Classes/AWSS3PutBucketRequestPaymentRequest.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSSESIdentityVerificationAttributes</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Represents the verification attributes of a single identity.&lt;/p&gt;
-Required parameters: [VerificationStatus]</Abstract>
-			<DeclaredIn>AWSSESModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSS3PutBucketRequestPaymentRequest</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
             
 			
 			<NodeRef refid="906"/>
@@ -14,74 +13,110 @@ Required parameters: [VerificationStatus]</Abstract>
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSSESIdentityVerificationAttributes/setVerificationStatus:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The verification status of the identity: &quot;Pending&quot;, &quot;Success&quot;, &quot;Failed&quot;, or &quot;TemporaryFailure&quot;.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSESModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3PutBucketRequestPaymentRequest/setBucket:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, assign) AWSSESVerificationStatus verificationStatus</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *bucket</Declaration>
 			
 			
-			<Anchor>//api/name/verificationStatus</Anchor>
+			<Anchor>//api/name/bucket</Anchor>
             <NodeRef refid="906"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSSESIdentityVerificationAttributes/verificationStatus</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The verification status of the identity: &quot;Pending&quot;, &quot;Success&quot;, &quot;Failed&quot;, or &quot;TemporaryFailure&quot;.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSESModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3PutBucketRequestPaymentRequest/bucket</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, assign) AWSSESVerificationStatus verificationStatus</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *bucket</Declaration>
 			
 			
-			<Anchor>//api/name/verificationStatus</Anchor>
+			<Anchor>//api/name/bucket</Anchor>
             <NodeRef refid="906"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSSESIdentityVerificationAttributes/verificationStatus</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The verification status of the identity: &quot;Pending&quot;, &quot;Success&quot;, &quot;Failed&quot;, or &quot;TemporaryFailure&quot;.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSESModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSS3PutBucketRequestPaymentRequest/bucket</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, assign) AWSSESVerificationStatus verificationStatus</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *bucket</Declaration>
 			
 			
-			<Anchor>//api/name/verificationStatus</Anchor>
+			<Anchor>//api/name/bucket</Anchor>
             <NodeRef refid="906"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSSESIdentityVerificationAttributes/setVerificationToken:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The verification token for a domain identity. Null for email address identities.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSESModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3PutBucketRequestPaymentRequest/setContentMD5:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *verificationToken</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *contentMD5</Declaration>
 			
 			
-			<Anchor>//api/name/verificationToken</Anchor>
+			<Anchor>//api/name/contentMD5</Anchor>
             <NodeRef refid="906"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSSESIdentityVerificationAttributes/verificationToken</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The verification token for a domain identity. Null for email address identities.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSESModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3PutBucketRequestPaymentRequest/contentMD5</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *verificationToken</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *contentMD5</Declaration>
 			
 			
-			<Anchor>//api/name/verificationToken</Anchor>
+			<Anchor>//api/name/contentMD5</Anchor>
             <NodeRef refid="906"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSSESIdentityVerificationAttributes/verificationToken</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The verification token for a domain identity. Null for email address identities.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSESModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSS3PutBucketRequestPaymentRequest/contentMD5</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *verificationToken</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *contentMD5</Declaration>
 			
 			
-			<Anchor>//api/name/verificationToken</Anchor>
+			<Anchor>//api/name/contentMD5</Anchor>
+            <NodeRef refid="906"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3PutBucketRequestPaymentRequest/setRequestPaymentConfiguration:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) AWSS3RequestPaymentConfiguration *requestPaymentConfiguration</Declaration>
+			
+			
+			<Anchor>//api/name/requestPaymentConfiguration</Anchor>
+            <NodeRef refid="906"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3PutBucketRequestPaymentRequest/requestPaymentConfiguration</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) AWSS3RequestPaymentConfiguration *requestPaymentConfiguration</Declaration>
+			
+			
+			<Anchor>//api/name/requestPaymentConfiguration</Anchor>
+            <NodeRef refid="906"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSS3PutBucketRequestPaymentRequest/requestPaymentConfiguration</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) AWSS3RequestPaymentConfiguration *requestPaymentConfiguration</Declaration>
+			
+			
+			<Anchor>//api/name/requestPaymentConfiguration</Anchor>
             <NodeRef refid="906"/>
 		</Token>
 		

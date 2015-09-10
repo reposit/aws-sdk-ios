@@ -14,7 +14,7 @@
 		<div class="container" class="hide-in-xcode">
 			
 			<h1 id="library-title">
-				<a href="../index.html">AWS SDK for iOS v2.1.0 </a>
+				<a href="../index.html">AWS SDK for iOS v2.2.5 </a>
 			</h1>
 
 			<p id="developer-home">
@@ -654,7 +654,7 @@
 			
 		    
 
-			<div class="method-subsection method-declaration"><code>- (BFTask *)addPermission:(AWSSQSAddPermissionRequest *)<em>request</em></code></div>
+			<div class="method-subsection method-declaration"><code>- (AWSTask *)addPermission:(AWSSQSAddPermissionRequest *)<em>request</em></code></div>
 
 		    
 			
@@ -674,7 +674,7 @@
 			
 			<div class="method-subsection return">
 				<h4 class="method-subtitle parameter-title">Return Value</h4>
-				<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will be <code>nil</code>. On failed execution, <code>task.error</code> may contain an <code>NSError</code> with <code>AWSSQSErrorDomain</code> domian and the following error code: <code>AWSSQSErrorOverLimit</code>.</p>
+				<p>An instance of <code>AWSTask</code>. On successful execution, <code>task.result</code> will be <code>nil</code>. On failed execution, <code>task.error</code> may contain an <code>NSError</code> with <code>AWSSQSErrorDomain</code> domain and the following error code: <code>AWSSQSErrorOverLimit</code>.</p>
 			</div>
 			
 
@@ -727,7 +727,7 @@
 			
 		    
 
-			<div class="method-subsection method-declaration"><code>- (BFTask *)changeMessageVisibility:(AWSSQSChangeMessageVisibilityRequest *)<em>request</em></code></div>
+			<div class="method-subsection method-declaration"><code>- (AWSTask *)changeMessageVisibility:(AWSSQSChangeMessageVisibilityRequest *)<em>request</em></code></div>
 
 		    
 			
@@ -747,7 +747,7 @@
 			
 			<div class="method-subsection return">
 				<h4 class="method-subtitle parameter-title">Return Value</h4>
-				<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will be <code>nil</code>. On failed execution, <code>task.error</code> may contain an <code>NSError</code> with <code>AWSSQSErrorDomain</code> domian and the following error code: <code>AWSSQSErrorMessageNotInflight</code>, <code>AWSSQSErrorReceiptHandleIsInvalid</code>.</p>
+				<p>An instance of <code>AWSTask</code>. On successful execution, <code>task.result</code> will be <code>nil</code>. On failed execution, <code>task.error</code> may contain an <code>NSError</code> with <code>AWSSQSErrorDomain</code> domain and the following error code: <code>AWSSQSErrorMessageNotInflight</code>, <code>AWSSQSErrorReceiptHandleIsInvalid</code>.</p>
 			</div>
 			
 
@@ -797,7 +797,7 @@
 			
 		    
 
-			<div class="method-subsection method-declaration"><code>- (BFTask *)changeMessageVisibilityBatch:(AWSSQSChangeMessageVisibilityBatchRequest *)<em>request</em></code></div>
+			<div class="method-subsection method-declaration"><code>- (AWSTask *)changeMessageVisibilityBatch:(AWSSQSChangeMessageVisibilityBatchRequest *)<em>request</em></code></div>
 
 		    
 			
@@ -817,7 +817,7 @@
 			
 			<div class="method-subsection return">
 				<h4 class="method-subtitle parameter-title">Return Value</h4>
-				<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSSQSChangeMessageVisibilityBatchResult</code>. On failed execution, <code>task.error</code> may contain an <code>NSError</code> with <code>AWSSQSErrorDomain</code> domian and the following error code: <code>AWSSQSErrorTooManyEntriesInBatchRequest</code>, <code>AWSSQSErrorEmptyBatchRequest</code>, <code>AWSSQSErrorBatchEntryIdsNotDistinct</code>, <code>AWSSQSErrorInvalidBatchEntryId</code>.</p>
+				<p>An instance of <code>AWSTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSSQSChangeMessageVisibilityBatchResult</code>. On failed execution, <code>task.error</code> may contain an <code>NSError</code> with <code>AWSSQSErrorDomain</code> domain and the following error code: <code>AWSSQSErrorTooManyEntriesInBatchRequest</code>, <code>AWSSQSErrorEmptyBatchRequest</code>, <code>AWSSQSErrorBatchEntryIdsNotDistinct</code>, <code>AWSSQSErrorInvalidBatchEntryId</code>.</p>
 			</div>
 			
 
@@ -869,7 +869,7 @@
 			
 		    
 
-			<div class="method-subsection method-declaration"><code>- (BFTask *)createQueue:(AWSSQSCreateQueueRequest *)<em>request</em></code></div>
+			<div class="method-subsection method-declaration"><code>- (AWSTask *)createQueue:(AWSSQSCreateQueueRequest *)<em>request</em></code></div>
 
 		    
 			
@@ -889,7 +889,7 @@
 			
 			<div class="method-subsection return">
 				<h4 class="method-subtitle parameter-title">Return Value</h4>
-				<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSSQSCreateQueueResult</code>. On failed execution, <code>task.error</code> may contain an <code>NSError</code> with <code>AWSSQSErrorDomain</code> domian and the following error code: <code>AWSSQSErrorQueueDeletedRecently</code>, <code>AWSSQSErrorQueueNameExists</code>.</p>
+				<p>An instance of <code>AWSTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSSQSCreateQueueResult</code>. On failed execution, <code>task.error</code> may contain an <code>NSError</code> with <code>AWSSQSErrorDomain</code> domain and the following error code: <code>AWSSQSErrorQueueDeletedRecently</code>, <code>AWSSQSErrorQueueNameExists</code>.</p>
 			</div>
 			
 
@@ -941,7 +941,7 @@
 			
 		    
 
-			<div class="method-subsection method-declaration"><code>- (BFTask *)deleteMessage:(AWSSQSDeleteMessageRequest *)<em>request</em></code></div>
+			<div class="method-subsection method-declaration"><code>- (AWSTask *)deleteMessage:(AWSSQSDeleteMessageRequest *)<em>request</em></code></div>
 
 		    
 			
@@ -961,7 +961,7 @@
 			
 			<div class="method-subsection return">
 				<h4 class="method-subtitle parameter-title">Return Value</h4>
-				<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will be <code>nil</code>. On failed execution, <code>task.error</code> may contain an <code>NSError</code> with <code>AWSSQSErrorDomain</code> domian and the following error code: <code>AWSSQSErrorInvalidIdFormat</code>, <code>AWSSQSErrorReceiptHandleIsInvalid</code>.</p>
+				<p>An instance of <code>AWSTask</code>. On successful execution, <code>task.result</code> will be <code>nil</code>. On failed execution, <code>task.error</code> may contain an <code>NSError</code> with <code>AWSSQSErrorDomain</code> domain and the following error code: <code>AWSSQSErrorInvalidIdFormat</code>, <code>AWSSQSErrorReceiptHandleIsInvalid</code>.</p>
 			</div>
 			
 
@@ -1011,7 +1011,7 @@
 			
 		    
 
-			<div class="method-subsection method-declaration"><code>- (BFTask *)deleteMessageBatch:(AWSSQSDeleteMessageBatchRequest *)<em>request</em></code></div>
+			<div class="method-subsection method-declaration"><code>- (AWSTask *)deleteMessageBatch:(AWSSQSDeleteMessageBatchRequest *)<em>request</em></code></div>
 
 		    
 			
@@ -1031,7 +1031,7 @@
 			
 			<div class="method-subsection return">
 				<h4 class="method-subtitle parameter-title">Return Value</h4>
-				<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSSQSDeleteMessageBatchResult</code>. On failed execution, <code>task.error</code> may contain an <code>NSError</code> with <code>AWSSQSErrorDomain</code> domian and the following error code: <code>AWSSQSErrorTooManyEntriesInBatchRequest</code>, <code>AWSSQSErrorEmptyBatchRequest</code>, <code>AWSSQSErrorBatchEntryIdsNotDistinct</code>, <code>AWSSQSErrorInvalidBatchEntryId</code>.</p>
+				<p>An instance of <code>AWSTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSSQSDeleteMessageBatchResult</code>. On failed execution, <code>task.error</code> may contain an <code>NSError</code> with <code>AWSSQSErrorDomain</code> domain and the following error code: <code>AWSSQSErrorTooManyEntriesInBatchRequest</code>, <code>AWSSQSErrorEmptyBatchRequest</code>, <code>AWSSQSErrorBatchEntryIdsNotDistinct</code>, <code>AWSSQSErrorInvalidBatchEntryId</code>.</p>
 			</div>
 			
 
@@ -1083,7 +1083,7 @@
 			
 		    
 
-			<div class="method-subsection method-declaration"><code>- (BFTask *)deleteQueue:(AWSSQSDeleteQueueRequest *)<em>request</em></code></div>
+			<div class="method-subsection method-declaration"><code>- (AWSTask *)deleteQueue:(AWSSQSDeleteQueueRequest *)<em>request</em></code></div>
 
 		    
 			
@@ -1103,7 +1103,7 @@
 			
 			<div class="method-subsection return">
 				<h4 class="method-subtitle parameter-title">Return Value</h4>
-				<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will be <code>nil</code>.</p>
+				<p>An instance of <code>AWSTask</code>. On successful execution, <code>task.result</code> will be <code>nil</code>.</p>
 			</div>
 			
 
@@ -1153,7 +1153,7 @@
 			
 		    
 
-			<div class="method-subsection method-declaration"><code>- (BFTask *)getQueueAttributes:(AWSSQSGetQueueAttributesRequest *)<em>request</em></code></div>
+			<div class="method-subsection method-declaration"><code>- (AWSTask *)getQueueAttributes:(AWSSQSGetQueueAttributesRequest *)<em>request</em></code></div>
 
 		    
 			
@@ -1173,7 +1173,7 @@
 			
 			<div class="method-subsection return">
 				<h4 class="method-subtitle parameter-title">Return Value</h4>
-				<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSSQSGetQueueAttributesResult</code>. On failed execution, <code>task.error</code> may contain an <code>NSError</code> with <code>AWSSQSErrorDomain</code> domian and the following error code: <code>AWSSQSErrorInvalidAttributeName</code>.</p>
+				<p>An instance of <code>AWSTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSSQSGetQueueAttributesResult</code>. On failed execution, <code>task.error</code> may contain an <code>NSError</code> with <code>AWSSQSErrorDomain</code> domain and the following error code: <code>AWSSQSErrorInvalidAttributeName</code>.</p>
 			</div>
 			
 
@@ -1226,7 +1226,7 @@
 			
 		    
 
-			<div class="method-subsection method-declaration"><code>- (BFTask *)getQueueUrl:(AWSSQSGetQueueUrlRequest *)<em>request</em></code></div>
+			<div class="method-subsection method-declaration"><code>- (AWSTask *)getQueueUrl:(AWSSQSGetQueueUrlRequest *)<em>request</em></code></div>
 
 		    
 			
@@ -1246,7 +1246,7 @@
 			
 			<div class="method-subsection return">
 				<h4 class="method-subtitle parameter-title">Return Value</h4>
-				<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSSQSGetQueueUrlResult</code>. On failed execution, <code>task.error</code> may contain an <code>NSError</code> with <code>AWSSQSErrorDomain</code> domian and the following error code: <code>AWSSQSErrorQueueDoesNotExist</code>.</p>
+				<p>An instance of <code>AWSTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSSQSGetQueueUrlResult</code>. On failed execution, <code>task.error</code> may contain an <code>NSError</code> with <code>AWSSQSErrorDomain</code> domain and the following error code: <code>AWSSQSErrorQueueDoesNotExist</code>.</p>
 			</div>
 			
 
@@ -1299,7 +1299,7 @@
 			
 		    
 
-			<div class="method-subsection method-declaration"><code>- (BFTask *)listDeadLetterSourceQueues:(AWSSQSListDeadLetterSourceQueuesRequest *)<em>request</em></code></div>
+			<div class="method-subsection method-declaration"><code>- (AWSTask *)listDeadLetterSourceQueues:(AWSSQSListDeadLetterSourceQueuesRequest *)<em>request</em></code></div>
 
 		    
 			
@@ -1319,7 +1319,7 @@
 			
 			<div class="method-subsection return">
 				<h4 class="method-subtitle parameter-title">Return Value</h4>
-				<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSSQSListDeadLetterSourceQueuesResult</code>. On failed execution, <code>task.error</code> may contain an <code>NSError</code> with <code>AWSSQSErrorDomain</code> domian and the following error code: <code>AWSSQSErrorQueueDoesNotExist</code>.</p>
+				<p>An instance of <code>AWSTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSSQSListDeadLetterSourceQueuesResult</code>. On failed execution, <code>task.error</code> may contain an <code>NSError</code> with <code>AWSSQSErrorDomain</code> domain and the following error code: <code>AWSSQSErrorQueueDoesNotExist</code>.</p>
 			</div>
 			
 
@@ -1369,7 +1369,7 @@
 			
 		    
 
-			<div class="method-subsection method-declaration"><code>- (BFTask *)listQueues:(AWSSQSListQueuesRequest *)<em>request</em></code></div>
+			<div class="method-subsection method-declaration"><code>- (AWSTask *)listQueues:(AWSSQSListQueuesRequest *)<em>request</em></code></div>
 
 		    
 			
@@ -1389,7 +1389,7 @@
 			
 			<div class="method-subsection return">
 				<h4 class="method-subtitle parameter-title">Return Value</h4>
-				<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSSQSListQueuesResult</code>.</p>
+				<p>An instance of <code>AWSTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSSQSListQueuesResult</code>.</p>
 			</div>
 			
 
@@ -1456,7 +1456,7 @@
 			
 		    
 
-			<div class="method-subsection method-declaration"><code>- (BFTask *)receiveMessage:(AWSSQSReceiveMessageRequest *)<em>request</em></code></div>
+			<div class="method-subsection method-declaration"><code>- (AWSTask *)receiveMessage:(AWSSQSReceiveMessageRequest *)<em>request</em></code></div>
 
 		    
 			
@@ -1476,7 +1476,7 @@
 			
 			<div class="method-subsection return">
 				<h4 class="method-subtitle parameter-title">Return Value</h4>
-				<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSSQSReceiveMessageResult</code>. On failed execution, <code>task.error</code> may contain an <code>NSError</code> with <code>AWSSQSErrorDomain</code> domian and the following error code: <code>AWSSQSErrorOverLimit</code>.</p>
+				<p>An instance of <code>AWSTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSSQSReceiveMessageResult</code>. On failed execution, <code>task.error</code> may contain an <code>NSError</code> with <code>AWSSQSErrorDomain</code> domain and the following error code: <code>AWSSQSErrorOverLimit</code>.</p>
 			</div>
 			
 
@@ -1526,7 +1526,7 @@
 			
 		    
 
-			<div class="method-subsection method-declaration"><code>- (BFTask *)removePermission:(AWSSQSRemovePermissionRequest *)<em>request</em></code></div>
+			<div class="method-subsection method-declaration"><code>- (AWSTask *)removePermission:(AWSSQSRemovePermissionRequest *)<em>request</em></code></div>
 
 		    
 			
@@ -1546,7 +1546,7 @@
 			
 			<div class="method-subsection return">
 				<h4 class="method-subtitle parameter-title">Return Value</h4>
-				<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will be <code>nil</code>.</p>
+				<p>An instance of <code>AWSTask</code>. On successful execution, <code>task.result</code> will be <code>nil</code>.</p>
 			</div>
 			
 
@@ -1596,7 +1596,7 @@
 			
 		    
 
-			<div class="method-subsection method-declaration"><code>- (BFTask *)sendMessage:(AWSSQSSendMessageRequest *)<em>request</em></code></div>
+			<div class="method-subsection method-declaration"><code>- (AWSTask *)sendMessage:(AWSSQSSendMessageRequest *)<em>request</em></code></div>
 
 		    
 			
@@ -1616,7 +1616,7 @@
 			
 			<div class="method-subsection return">
 				<h4 class="method-subtitle parameter-title">Return Value</h4>
-				<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSSQSSendMessageResult</code>. On failed execution, <code>task.error</code> may contain an <code>NSError</code> with <code>AWSSQSErrorDomain</code> domian and the following error code: <code>AWSSQSErrorInvalidMessageContents</code>, <code>AWSSQSErrorUnsupportedOperation</code>.</p>
+				<p>An instance of <code>AWSTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSSQSSendMessageResult</code>. On failed execution, <code>task.error</code> may contain an <code>NSError</code> with <code>AWSSQSErrorDomain</code> domain and the following error code: <code>AWSSQSErrorInvalidMessageContents</code>, <code>AWSSQSErrorUnsupportedOperation</code>.</p>
 			</div>
 			
 
@@ -1674,7 +1674,7 @@
 			
 		    
 
-			<div class="method-subsection method-declaration"><code>- (BFTask *)sendMessageBatch:(AWSSQSSendMessageBatchRequest *)<em>request</em></code></div>
+			<div class="method-subsection method-declaration"><code>- (AWSTask *)sendMessageBatch:(AWSSQSSendMessageBatchRequest *)<em>request</em></code></div>
 
 		    
 			
@@ -1694,7 +1694,7 @@
 			
 			<div class="method-subsection return">
 				<h4 class="method-subtitle parameter-title">Return Value</h4>
-				<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSSQSSendMessageBatchResult</code>. On failed execution, <code>task.error</code> may contain an <code>NSError</code> with <code>AWSSQSErrorDomain</code> domian and the following error code: <code>AWSSQSErrorTooManyEntriesInBatchRequest</code>, <code>AWSSQSErrorEmptyBatchRequest</code>, <code>AWSSQSErrorBatchEntryIdsNotDistinct</code>, <code>AWSSQSErrorBatchRequestTooLong</code>, <code>AWSSQSErrorInvalidBatchEntryId</code>, <code>AWSSQSErrorUnsupportedOperation</code>.</p>
+				<p>An instance of <code>AWSTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSSQSSendMessageBatchResult</code>. On failed execution, <code>task.error</code> may contain an <code>NSError</code> with <code>AWSSQSErrorDomain</code> domain and the following error code: <code>AWSSQSErrorTooManyEntriesInBatchRequest</code>, <code>AWSSQSErrorEmptyBatchRequest</code>, <code>AWSSQSErrorBatchEntryIdsNotDistinct</code>, <code>AWSSQSErrorBatchRequestTooLong</code>, <code>AWSSQSErrorInvalidBatchEntryId</code>, <code>AWSSQSErrorUnsupportedOperation</code>.</p>
 			</div>
 			
 
@@ -1746,7 +1746,7 @@
 			
 		    
 
-			<div class="method-subsection method-declaration"><code>- (BFTask *)setQueueAttributes:(AWSSQSSetQueueAttributesRequest *)<em>request</em></code></div>
+			<div class="method-subsection method-declaration"><code>- (AWSTask *)setQueueAttributes:(AWSSQSSetQueueAttributesRequest *)<em>request</em></code></div>
 
 		    
 			
@@ -1766,7 +1766,7 @@
 			
 			<div class="method-subsection return">
 				<h4 class="method-subtitle parameter-title">Return Value</h4>
-				<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will be <code>nil</code>. On failed execution, <code>task.error</code> may contain an <code>NSError</code> with <code>AWSSQSErrorDomain</code> domian and the following error code: <code>AWSSQSErrorInvalidAttributeName</code>.</p>
+				<p>An instance of <code>AWSTask</code>. On successful execution, <code>task.result</code> will be <code>nil</code>. On failed execution, <code>task.error</code> may contain an <code>NSError</code> with <code>AWSSQSErrorDomain</code> domain and the following error code: <code>AWSSQSErrorInvalidAttributeName</code>.</p>
 			</div>
 			
 
@@ -1809,7 +1809,7 @@
 				<footer>
 					<div class="footer-copyright">
 						
-						<p class="copyright">Copyright &copy; 2015 Amazon Web Services, Inc. All rights reserved. Updated: 2015-03-25</p>
+						<p class="copyright">Copyright &copy; 2015 Amazon Web Services, Inc. All rights reserved. Updated: 2015-08-31</p>
 						
 						
 						<p class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.2.1 (build 1333)</a>.</p>

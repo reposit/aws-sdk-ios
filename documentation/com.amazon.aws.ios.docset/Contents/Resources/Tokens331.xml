@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSEC2CreateVpnConnectionResult.html">
+	<File path="Classes/AWSEC2CreateSubnetResult.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSEC2CreateVpnConnectionResult</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSEC2CreateSubnetResult</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
             
@@ -13,38 +13,38 @@
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2CreateVpnConnectionResult/setVpnConnection:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Information about the VPN connection.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2CreateSubnetResult/setSubnet:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Information about the subnet.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) AWSEC2VpnConnection *vpnConnection</Declaration>
+			<Declaration>@property (nonatomic, strong) AWSEC2Subnet *subnet</Declaration>
 			
 			
-			<Anchor>//api/name/vpnConnection</Anchor>
+			<Anchor>//api/name/subnet</Anchor>
             <NodeRef refid="331"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2CreateVpnConnectionResult/vpnConnection</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Information about the VPN connection.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2CreateSubnetResult/subnet</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Information about the subnet.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) AWSEC2VpnConnection *vpnConnection</Declaration>
+			<Declaration>@property (nonatomic, strong) AWSEC2Subnet *subnet</Declaration>
 			
 			
-			<Anchor>//api/name/vpnConnection</Anchor>
+			<Anchor>//api/name/subnet</Anchor>
             <NodeRef refid="331"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2CreateVpnConnectionResult/vpnConnection</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Information about the VPN connection.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2CreateSubnetResult/subnet</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Information about the subnet.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) AWSEC2VpnConnection *vpnConnection</Declaration>
+			<Declaration>@property (nonatomic, strong) AWSEC2Subnet *subnet</Declaration>
 			
 			
-			<Anchor>//api/name/vpnConnection</Anchor>
+			<Anchor>//api/name/subnet</Anchor>
             <NodeRef refid="331"/>
 		</Token>
 		

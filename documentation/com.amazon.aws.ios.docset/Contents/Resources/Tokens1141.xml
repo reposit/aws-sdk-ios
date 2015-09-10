@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Constants/AWSEC2PermissionGroup.html">
+	<File path="Constants/AWSCognitoSyncStreamingStatus.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/c/tdef/AWSEC2PermissionGroup</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/c/tdef/AWSCognitoSyncStreamingStatus</TokenIdentifier>
 			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			<DeclaredIn>AWSCognitoSyncModel.h</DeclaredIn>
             
 			
 			<NodeRef refid="1141"/>
@@ -14,21 +14,31 @@
 		
         
         <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSEC2PermissionGroupUnknown</TokenIdentifier>
+            <TokenIdentifier>//apple_ref/c/econst/AWSCognitoSyncStreamingStatusUnknown</TokenIdentifier>
             <Abstract type="html"></Abstract>
-            <Declaration>AWSEC2PermissionGroupUnknown</Declaration>
+            <Declaration>AWSCognitoSyncStreamingStatusUnknown</Declaration>
             
-            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
+            <DeclaredIn>AWSCognitoSyncModel.h</DeclaredIn>
             
             <NodeRef refid="1141"/>
         </Token>
         
         <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSEC2PermissionGroupAll</TokenIdentifier>
+            <TokenIdentifier>//apple_ref/c/econst/AWSCognitoSyncStreamingStatusEnabled</TokenIdentifier>
             <Abstract type="html"></Abstract>
-            <Declaration>AWSEC2PermissionGroupAll</Declaration>
+            <Declaration>AWSCognitoSyncStreamingStatusEnabled</Declaration>
             
-            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
+            <DeclaredIn>AWSCognitoSyncModel.h</DeclaredIn>
+            
+            <NodeRef refid="1141"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/AWSCognitoSyncStreamingStatusDisabled</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>AWSCognitoSyncStreamingStatusDisabled</Declaration>
+            
+            <DeclaredIn>AWSCognitoSyncModel.h</DeclaredIn>
             
             <NodeRef refid="1141"/>
         </Token>

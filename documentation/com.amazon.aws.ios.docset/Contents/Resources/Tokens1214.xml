@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Constants/AWSS3TransferManagerRequestState.html">
+	<File path="Constants/AWSEC2SummaryStatus.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/c/tdef/AWSS3TransferManagerRequestState</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/c/tdef/AWSEC2SummaryStatus</TokenIdentifier>
 			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSS3TransferManager.h</DeclaredIn>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
             
 			
 			<NodeRef refid="1214"/>
@@ -14,51 +14,51 @@
 		
         
         <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSS3TransferManagerRequestStateNotStarted</TokenIdentifier>
+            <TokenIdentifier>//apple_ref/c/econst/AWSEC2SummaryStatusUnknown</TokenIdentifier>
             <Abstract type="html"></Abstract>
-            <Declaration>AWSS3TransferManagerRequestStateNotStarted</Declaration>
+            <Declaration>AWSEC2SummaryStatusUnknown</Declaration>
             
-            <DeclaredIn>AWSS3TransferManager.h</DeclaredIn>
+            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
             
             <NodeRef refid="1214"/>
         </Token>
         
         <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSS3TransferManagerRequestStateRunning</TokenIdentifier>
+            <TokenIdentifier>//apple_ref/c/econst/AWSEC2SummaryStatusOK</TokenIdentifier>
             <Abstract type="html"></Abstract>
-            <Declaration>AWSS3TransferManagerRequestStateRunning</Declaration>
+            <Declaration>AWSEC2SummaryStatusOK</Declaration>
             
-            <DeclaredIn>AWSS3TransferManager.h</DeclaredIn>
+            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
             
             <NodeRef refid="1214"/>
         </Token>
         
         <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSS3TransferManagerRequestStatePaused</TokenIdentifier>
+            <TokenIdentifier>//apple_ref/c/econst/AWSEC2SummaryStatusImpaired</TokenIdentifier>
             <Abstract type="html"></Abstract>
-            <Declaration>AWSS3TransferManagerRequestStatePaused</Declaration>
+            <Declaration>AWSEC2SummaryStatusImpaired</Declaration>
             
-            <DeclaredIn>AWSS3TransferManager.h</DeclaredIn>
+            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
             
             <NodeRef refid="1214"/>
         </Token>
         
         <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSS3TransferManagerRequestStateCanceling</TokenIdentifier>
+            <TokenIdentifier>//apple_ref/c/econst/AWSEC2SummaryStatusInsufficientData</TokenIdentifier>
             <Abstract type="html"></Abstract>
-            <Declaration>AWSS3TransferManagerRequestStateCanceling</Declaration>
+            <Declaration>AWSEC2SummaryStatusInsufficientData</Declaration>
             
-            <DeclaredIn>AWSS3TransferManager.h</DeclaredIn>
+            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
             
             <NodeRef refid="1214"/>
         </Token>
         
         <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSS3TransferManagerRequestStateCompleted</TokenIdentifier>
+            <TokenIdentifier>//apple_ref/c/econst/AWSEC2SummaryStatusNotApplicable</TokenIdentifier>
             <Abstract type="html"></Abstract>
-            <Declaration>AWSS3TransferManagerRequestStateCompleted</Declaration>
+            <Declaration>AWSEC2SummaryStatusNotApplicable</Declaration>
             
-            <DeclaredIn>AWSS3TransferManager.h</DeclaredIn>
+            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
             
             <NodeRef refid="1214"/>
         </Token>

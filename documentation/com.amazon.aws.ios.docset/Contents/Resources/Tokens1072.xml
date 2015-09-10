@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Protocols/AWSMobileAnalyticsEvent.html">
+	<File path="Classes/AWSSTSAssumeRoleWithSAMLRequest.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/intf/AWSMobileAnalyticsEvent</TokenIdentifier>
-			<Abstract type="html">Represents the visit or conversion event of an A/B test,
-or may also be used to collect useful information in your application.</Abstract>
-			<DeclaredIn>AWSMobileAnalyticsEvent.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSSTSAssumeRoleWithSAMLRequest</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSSTSModel.h</DeclaredIn>
             
 			
 			<NodeRef refid="1072"/>
@@ -14,172 +13,182 @@ or may also be used to collect useful information in your application.</Abstract
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/intfm/AWSMobileAnalyticsEvent/setEventType:</TokenIdentifier>
-			<Abstract type="html">Returns the name/type of this AWSMobileAnalyticsEvent</Abstract>
-			<DeclaredIn>AWSMobileAnalyticsEvent.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSTSAssumeRoleWithSAMLRequest/setDurationSeconds:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The duration, in seconds, of the role session. The value can range from 900 seconds (15 minutes) to 3600 seconds (1 hour). By default, the value is set to 3600 seconds. An expiration can also be specified in the SAML authentication response&apos;s &lt;code&gt;NotOnOrAfter&lt;/code&gt; value. The actual expiration time is whichever value is shorter. &lt;/p&gt;&lt;note&gt;The maximum duration for a session is 1 hour, and the minimum duration is 15 minutes, even if values outside this range are specified. &lt;/note&gt;</Abstract>
+			<DeclaredIn>AWSSTSModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, readonly) NSString *eventType</Declaration>
+			<Declaration>@property (nonatomic, strong) NSNumber *durationSeconds</Declaration>
 			
-			<ReturnValue><Abstract type="html">the name/type of this AWSMobileAnalyticsEvent</Abstract></ReturnValue>
-			<Anchor>//api/name/eventType</Anchor>
+			
+			<Anchor>//api/name/durationSeconds</Anchor>
             <NodeRef refid="1072"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/intfm/AWSMobileAnalyticsEvent/eventType</TokenIdentifier>
-			<Abstract type="html">Returns the name/type of this AWSMobileAnalyticsEvent</Abstract>
-			<DeclaredIn>AWSMobileAnalyticsEvent.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSTSAssumeRoleWithSAMLRequest/durationSeconds</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The duration, in seconds, of the role session. The value can range from 900 seconds (15 minutes) to 3600 seconds (1 hour). By default, the value is set to 3600 seconds. An expiration can also be specified in the SAML authentication response&apos;s &lt;code&gt;NotOnOrAfter&lt;/code&gt; value. The actual expiration time is whichever value is shorter. &lt;/p&gt;&lt;note&gt;The maximum duration for a session is 1 hour, and the minimum duration is 15 minutes, even if values outside this range are specified. &lt;/note&gt;</Abstract>
+			<DeclaredIn>AWSSTSModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, readonly) NSString *eventType</Declaration>
+			<Declaration>@property (nonatomic, strong) NSNumber *durationSeconds</Declaration>
 			
-			<ReturnValue><Abstract type="html">the name/type of this AWSMobileAnalyticsEvent</Abstract></ReturnValue>
-			<Anchor>//api/name/eventType</Anchor>
+			
+			<Anchor>//api/name/durationSeconds</Anchor>
             <NodeRef refid="1072"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/intfp/AWSMobileAnalyticsEvent/eventType</TokenIdentifier>
-			<Abstract type="html">Returns the name/type of this AWSMobileAnalyticsEvent</Abstract>
-			<DeclaredIn>AWSMobileAnalyticsEvent.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSSTSAssumeRoleWithSAMLRequest/durationSeconds</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The duration, in seconds, of the role session. The value can range from 900 seconds (15 minutes) to 3600 seconds (1 hour). By default, the value is set to 3600 seconds. An expiration can also be specified in the SAML authentication response&apos;s &lt;code&gt;NotOnOrAfter&lt;/code&gt; value. The actual expiration time is whichever value is shorter. &lt;/p&gt;&lt;note&gt;The maximum duration for a session is 1 hour, and the minimum duration is 15 minutes, even if values outside this range are specified. &lt;/note&gt;</Abstract>
+			<DeclaredIn>AWSSTSModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, readonly) NSString *eventType</Declaration>
+			<Declaration>@property (nonatomic, strong) NSNumber *durationSeconds</Declaration>
 			
-			<ReturnValue><Abstract type="html">the name/type of this AWSMobileAnalyticsEvent</Abstract></ReturnValue>
-			<Anchor>//api/name/eventType</Anchor>
+			
+			<Anchor>//api/name/durationSeconds</Anchor>
             <NodeRef refid="1072"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/intfm/AWSMobileAnalyticsEvent/addAttribute:forKey:</TokenIdentifier>
-			<Abstract type="html">Adds an attribute to this AWSMobileAnalyticsEvent with the specified key. Only 40 attributes/metrics
-are allowed to be added to an AWSMobileAnalyticsEvent. If 40 attributes/metrics already exist on this AWSMobileAnalyticsEvent, the call is ignored.</Abstract>
-			<DeclaredIn>AWSMobileAnalyticsEvent.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSTSAssumeRoleWithSAMLRequest/setPolicy:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;An IAM policy in JSON format.&lt;/p&gt;&lt;p&gt;The policy parameter is optional. If you pass a policy, the temporary security credentials that are returned by the operation have the permissions that are allowed by both the access policy of the role that is being assumed, &lt;i&gt;&lt;b&gt;and&lt;/b&gt;&lt;/i&gt; the policy that you pass. This gives you a way to further restrict the permissions for the resulting temporary security credentials. You cannot use the passed policy to grant permissions that are in excess of those allowed by the access policy of the role that is being assumed. For more information, see Permissions for AssumeRoleWithSAML in &lt;i&gt;Using Temporary Security Credentials&lt;/i&gt;. &lt;/p&gt;&lt;note&gt;The policy must be 2048 bytes or shorter, and its packed size must be less than 450 bytes.&lt;/note&gt;</Abstract>
+			<DeclaredIn>AWSSTSModel.h</DeclaredIn>
 			
-			<Declaration>- (void)addAttribute:(NSString *)theValue forKey:(NSString *)theKey</Declaration>
-			<Parameters>
-				<Parameter>
-					<Name>theValue</Name>
-					<Abstract type="html">The value of the attribute. The value will be truncated if it exceeds 200 characters.</Abstract>
-				</Parameter><Parameter>
-					<Name>theKey</Name>
-					<Abstract type="html">The key of the attribute. The key will be truncated if it exceeds 50 characters.</Abstract>
-				</Parameter>
-			</Parameters>
+			<Declaration>@property (nonatomic, strong) NSString *policy</Declaration>
 			
-			<Anchor>//api/name/addAttribute:forKey:</Anchor>
+			
+			<Anchor>//api/name/policy</Anchor>
             <NodeRef refid="1072"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/intfm/AWSMobileAnalyticsEvent/addMetric:forKey:</TokenIdentifier>
-			<Abstract type="html">Adds a metric to this AWSMobileAnalyticsEvent with the specified key. Only 40 attributes/metrics
-are allowed to be added to an AWSMobileAnalyticsEvent. If 40 attribute/metrics already exist on this AWSMobileAnalyticsEvent, the call is ignored.</Abstract>
-			<DeclaredIn>AWSMobileAnalyticsEvent.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSTSAssumeRoleWithSAMLRequest/policy</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;An IAM policy in JSON format.&lt;/p&gt;&lt;p&gt;The policy parameter is optional. If you pass a policy, the temporary security credentials that are returned by the operation have the permissions that are allowed by both the access policy of the role that is being assumed, &lt;i&gt;&lt;b&gt;and&lt;/b&gt;&lt;/i&gt; the policy that you pass. This gives you a way to further restrict the permissions for the resulting temporary security credentials. You cannot use the passed policy to grant permissions that are in excess of those allowed by the access policy of the role that is being assumed. For more information, see Permissions for AssumeRoleWithSAML in &lt;i&gt;Using Temporary Security Credentials&lt;/i&gt;. &lt;/p&gt;&lt;note&gt;The policy must be 2048 bytes or shorter, and its packed size must be less than 450 bytes.&lt;/note&gt;</Abstract>
+			<DeclaredIn>AWSSTSModel.h</DeclaredIn>
 			
-			<Declaration>- (void)addMetric:(NSNumber *)theValue forKey:(NSString *)theKey</Declaration>
-			<Parameters>
-				<Parameter>
-					<Name>theValue</Name>
-					<Abstract type="html">The value of the metric.</Abstract>
-				</Parameter><Parameter>
-					<Name>theKey</Name>
-					<Abstract type="html">The key of the metric. The key will be truncated if it exceeds 50 characters.</Abstract>
-				</Parameter>
-			</Parameters>
+			<Declaration>@property (nonatomic, strong) NSString *policy</Declaration>
 			
-			<Anchor>//api/name/addMetric:forKey:</Anchor>
+			
+			<Anchor>//api/name/policy</Anchor>
             <NodeRef refid="1072"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/intfm/AWSMobileAnalyticsEvent/attributeForKey:</TokenIdentifier>
-			<Abstract type="html">Returns the value of the attribute with the specified key.</Abstract>
-			<DeclaredIn>AWSMobileAnalyticsEvent.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSSTSAssumeRoleWithSAMLRequest/policy</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;An IAM policy in JSON format.&lt;/p&gt;&lt;p&gt;The policy parameter is optional. If you pass a policy, the temporary security credentials that are returned by the operation have the permissions that are allowed by both the access policy of the role that is being assumed, &lt;i&gt;&lt;b&gt;and&lt;/b&gt;&lt;/i&gt; the policy that you pass. This gives you a way to further restrict the permissions for the resulting temporary security credentials. You cannot use the passed policy to grant permissions that are in excess of those allowed by the access policy of the role that is being assumed. For more information, see Permissions for AssumeRoleWithSAML in &lt;i&gt;Using Temporary Security Credentials&lt;/i&gt;. &lt;/p&gt;&lt;note&gt;The policy must be 2048 bytes or shorter, and its packed size must be less than 450 bytes.&lt;/note&gt;</Abstract>
+			<DeclaredIn>AWSSTSModel.h</DeclaredIn>
 			
-			<Declaration>- (NSString *)attributeForKey:(NSString *)theKey</Declaration>
-			<Parameters>
-				<Parameter>
-					<Name>theKey</Name>
-					<Abstract type="html">The key of the attribute to return</Abstract>
-				</Parameter>
-			</Parameters>
-			<ReturnValue><Abstract type="html">The attribute with the specified key, or null if attribute does not exist</Abstract></ReturnValue>
-			<Anchor>//api/name/attributeForKey:</Anchor>
+			<Declaration>@property (nonatomic, strong) NSString *policy</Declaration>
+			
+			
+			<Anchor>//api/name/policy</Anchor>
             <NodeRef refid="1072"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/intfm/AWSMobileAnalyticsEvent/metricForKey:</TokenIdentifier>
-			<Abstract type="html">Returns the value of the metric with the specified key.</Abstract>
-			<DeclaredIn>AWSMobileAnalyticsEvent.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSTSAssumeRoleWithSAMLRequest/setPrincipalArn:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The Amazon Resource Name (ARN) of the SAML provider in IAM that describes the IdP.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSTSModel.h</DeclaredIn>
 			
-			<Declaration>- (NSNumber *)metricForKey:(NSString *)theKey</Declaration>
-			<Parameters>
-				<Parameter>
-					<Name>theKey</Name>
-					<Abstract type="html">The key of the metric to return</Abstract>
-				</Parameter>
-			</Parameters>
-			<ReturnValue><Abstract type="html">The metric with the specified key, or null if metric does not exist</Abstract></ReturnValue>
-			<Anchor>//api/name/metricForKey:</Anchor>
+			<Declaration>@property (nonatomic, strong) NSString *principalArn</Declaration>
+			
+			
+			<Anchor>//api/name/principalArn</Anchor>
             <NodeRef refid="1072"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/intfm/AWSMobileAnalyticsEvent/hasAttributeForKey:</TokenIdentifier>
-			<Abstract type="html">Determines if this AWSMobileAnalyticsEvent contains a specific attribute</Abstract>
-			<DeclaredIn>AWSMobileAnalyticsEvent.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSTSAssumeRoleWithSAMLRequest/principalArn</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The Amazon Resource Name (ARN) of the SAML provider in IAM that describes the IdP.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSTSModel.h</DeclaredIn>
 			
-			<Declaration>- (BOOL)hasAttributeForKey:(NSString *)theKey</Declaration>
-			<Parameters>
-				<Parameter>
-					<Name>theKey</Name>
-					<Abstract type="html">The key of the attribute</Abstract>
-				</Parameter>
-			</Parameters>
-			<ReturnValue><Abstract type="html">YES if this AWSMobileAnalyticsEvent has an attribute with the specified key, NO otherwise</Abstract></ReturnValue>
-			<Anchor>//api/name/hasAttributeForKey:</Anchor>
+			<Declaration>@property (nonatomic, strong) NSString *principalArn</Declaration>
+			
+			
+			<Anchor>//api/name/principalArn</Anchor>
             <NodeRef refid="1072"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/intfm/AWSMobileAnalyticsEvent/hasMetricForKey:</TokenIdentifier>
-			<Abstract type="html">Determines if this AWSMobileAnalyticsEvent contains a specific metric</Abstract>
-			<DeclaredIn>AWSMobileAnalyticsEvent.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSSTSAssumeRoleWithSAMLRequest/principalArn</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The Amazon Resource Name (ARN) of the SAML provider in IAM that describes the IdP.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSTSModel.h</DeclaredIn>
 			
-			<Declaration>- (BOOL)hasMetricForKey:(NSString *)theKey</Declaration>
-			<Parameters>
-				<Parameter>
-					<Name>theKey</Name>
-					<Abstract type="html">The key of the metric</Abstract>
-				</Parameter>
-			</Parameters>
-			<ReturnValue><Abstract type="html">YES if this AWSMobileAnalyticsEvent has a metric with the specified key, NO otherwise</Abstract></ReturnValue>
-			<Anchor>//api/name/hasMetricForKey:</Anchor>
+			<Declaration>@property (nonatomic, strong) NSString *principalArn</Declaration>
+			
+			
+			<Anchor>//api/name/principalArn</Anchor>
             <NodeRef refid="1072"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/intfm/AWSMobileAnalyticsEvent/allAttributes</TokenIdentifier>
-			<Abstract type="html">Returns an NSDictionary of all attributes contained within this AWSMobileAnalyticsEvent</Abstract>
-			<DeclaredIn>AWSMobileAnalyticsEvent.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSTSAssumeRoleWithSAMLRequest/setRoleArn:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The Amazon Resource Name (ARN) of the role that the caller is assuming.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSTSModel.h</DeclaredIn>
 			
-			<Declaration>- (NSDictionary *)allAttributes</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *roleArn</Declaration>
 			
-			<ReturnValue><Abstract type="html">an NSDictionary of all attributes, where the attribute keys are the keys and the attribute values are the values</Abstract></ReturnValue>
-			<Anchor>//api/name/allAttributes</Anchor>
+			
+			<Anchor>//api/name/roleArn</Anchor>
             <NodeRef refid="1072"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/intfm/AWSMobileAnalyticsEvent/allMetrics</TokenIdentifier>
-			<Abstract type="html">Returns an NSDictionary of all metrics contained within this AWSMobileAnalyticsEvent</Abstract>
-			<DeclaredIn>AWSMobileAnalyticsEvent.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSTSAssumeRoleWithSAMLRequest/roleArn</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The Amazon Resource Name (ARN) of the role that the caller is assuming.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSTSModel.h</DeclaredIn>
 			
-			<Declaration>- (NSDictionary *)allMetrics</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *roleArn</Declaration>
 			
-			<ReturnValue><Abstract type="html">an NSDictionary of all metrics, where the metric keys are the keys and the metric values are the values</Abstract></ReturnValue>
-			<Anchor>//api/name/allMetrics</Anchor>
+			
+			<Anchor>//api/name/roleArn</Anchor>
+            <NodeRef refid="1072"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSSTSAssumeRoleWithSAMLRequest/roleArn</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The Amazon Resource Name (ARN) of the role that the caller is assuming.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSTSModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *roleArn</Declaration>
+			
+			
+			<Anchor>//api/name/roleArn</Anchor>
+            <NodeRef refid="1072"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSTSAssumeRoleWithSAMLRequest/setSAMLAssertion:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The base-64 encoded SAML authentication response provided by the IdP.&lt;/p&gt;&lt;p&gt;For more information, see Configuring a Relying Party and Adding Claims in the &lt;i&gt;Using IAM&lt;/i&gt; guide. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSTSModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *SAMLAssertion</Declaration>
+			
+			
+			<Anchor>//api/name/SAMLAssertion</Anchor>
+            <NodeRef refid="1072"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSTSAssumeRoleWithSAMLRequest/SAMLAssertion</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The base-64 encoded SAML authentication response provided by the IdP.&lt;/p&gt;&lt;p&gt;For more information, see Configuring a Relying Party and Adding Claims in the &lt;i&gt;Using IAM&lt;/i&gt; guide. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSTSModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *SAMLAssertion</Declaration>
+			
+			
+			<Anchor>//api/name/SAMLAssertion</Anchor>
+            <NodeRef refid="1072"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSSTSAssumeRoleWithSAMLRequest/SAMLAssertion</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The base-64 encoded SAML authentication response provided by the IdP.&lt;/p&gt;&lt;p&gt;For more information, see Configuring a Relying Party and Adding Claims in the &lt;i&gt;Using IAM&lt;/i&gt; guide. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSTSModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *SAMLAssertion</Declaration>
+			
+			
+			<Anchor>//api/name/SAMLAssertion</Anchor>
             <NodeRef refid="1072"/>
 		</Token>
 		

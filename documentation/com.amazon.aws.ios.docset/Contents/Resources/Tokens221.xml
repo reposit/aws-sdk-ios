@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSDynamoDBListTablesOutput.html">
+	<File path="Classes/AWSDynamoDBGlobalSecondaryIndex.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSDynamoDBListTablesOutput</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Represents the output of a &lt;i&gt;ListTables&lt;/i&gt; operation.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSDynamoDBGlobalSecondaryIndex</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Represents the properties of a global secondary index.&lt;/p&gt;
+Required parameters: [IndexName, KeySchema, Projection, ProvisionedThroughput]</Abstract>
 			<DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
             
 			
@@ -13,74 +14,146 @@
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSDynamoDBListTablesOutput/setLastEvaluatedTableName:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The name of the last table in the current page of results. Use this value as the &lt;i&gt;ExclusiveStartTableName&lt;/i&gt; in a new request to obtain the next page of results, until all the table names are returned.&lt;/p&gt;&lt;p&gt;If you do not receive a &lt;i&gt;LastEvaluatedTableName&lt;/i&gt; value in the response, this means that there are no more table names to be retrieved.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSDynamoDBGlobalSecondaryIndex/setIndexName:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The name of the global secondary index. The name must be unique among all other indexes on this table.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *lastEvaluatedTableName</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *indexName</Declaration>
 			
 			
-			<Anchor>//api/name/lastEvaluatedTableName</Anchor>
+			<Anchor>//api/name/indexName</Anchor>
             <NodeRef refid="221"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSDynamoDBListTablesOutput/lastEvaluatedTableName</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The name of the last table in the current page of results. Use this value as the &lt;i&gt;ExclusiveStartTableName&lt;/i&gt; in a new request to obtain the next page of results, until all the table names are returned.&lt;/p&gt;&lt;p&gt;If you do not receive a &lt;i&gt;LastEvaluatedTableName&lt;/i&gt; value in the response, this means that there are no more table names to be retrieved.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSDynamoDBGlobalSecondaryIndex/indexName</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The name of the global secondary index. The name must be unique among all other indexes on this table.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *lastEvaluatedTableName</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *indexName</Declaration>
 			
 			
-			<Anchor>//api/name/lastEvaluatedTableName</Anchor>
+			<Anchor>//api/name/indexName</Anchor>
             <NodeRef refid="221"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSDynamoDBListTablesOutput/lastEvaluatedTableName</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The name of the last table in the current page of results. Use this value as the &lt;i&gt;ExclusiveStartTableName&lt;/i&gt; in a new request to obtain the next page of results, until all the table names are returned.&lt;/p&gt;&lt;p&gt;If you do not receive a &lt;i&gt;LastEvaluatedTableName&lt;/i&gt; value in the response, this means that there are no more table names to be retrieved.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSDynamoDBGlobalSecondaryIndex/indexName</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The name of the global secondary index. The name must be unique among all other indexes on this table.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *lastEvaluatedTableName</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *indexName</Declaration>
 			
 			
-			<Anchor>//api/name/lastEvaluatedTableName</Anchor>
+			<Anchor>//api/name/indexName</Anchor>
             <NodeRef refid="221"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSDynamoDBListTablesOutput/setTableNames:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The names of the tables associated with the current account at the current endpoint. The maximum size of this array is 100. &lt;/p&gt;&lt;p&gt;If &lt;i&gt;LastEvaluatedTableName&lt;/i&gt; also appears in the output, you can use this value as the &lt;i&gt;ExclusiveStartTableName&lt;/i&gt; parameter in a subsequent &lt;i&gt;ListTables&lt;/i&gt; request and obtain the next page of results.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSDynamoDBGlobalSecondaryIndex/setKeySchema:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The complete key schema for a global secondary index, which consists of one or more pairs of attribute names and key types (&lt;code&gt;HASH&lt;/code&gt; or &lt;code&gt;RANGE&lt;/code&gt;).&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSArray *tableNames</Declaration>
+			<Declaration>@property (nonatomic, strong) NSArray *keySchema</Declaration>
 			
 			
-			<Anchor>//api/name/tableNames</Anchor>
+			<Anchor>//api/name/keySchema</Anchor>
             <NodeRef refid="221"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSDynamoDBListTablesOutput/tableNames</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The names of the tables associated with the current account at the current endpoint. The maximum size of this array is 100. &lt;/p&gt;&lt;p&gt;If &lt;i&gt;LastEvaluatedTableName&lt;/i&gt; also appears in the output, you can use this value as the &lt;i&gt;ExclusiveStartTableName&lt;/i&gt; parameter in a subsequent &lt;i&gt;ListTables&lt;/i&gt; request and obtain the next page of results.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSDynamoDBGlobalSecondaryIndex/keySchema</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The complete key schema for a global secondary index, which consists of one or more pairs of attribute names and key types (&lt;code&gt;HASH&lt;/code&gt; or &lt;code&gt;RANGE&lt;/code&gt;).&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSArray *tableNames</Declaration>
+			<Declaration>@property (nonatomic, strong) NSArray *keySchema</Declaration>
 			
 			
-			<Anchor>//api/name/tableNames</Anchor>
+			<Anchor>//api/name/keySchema</Anchor>
             <NodeRef refid="221"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSDynamoDBListTablesOutput/tableNames</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The names of the tables associated with the current account at the current endpoint. The maximum size of this array is 100. &lt;/p&gt;&lt;p&gt;If &lt;i&gt;LastEvaluatedTableName&lt;/i&gt; also appears in the output, you can use this value as the &lt;i&gt;ExclusiveStartTableName&lt;/i&gt; parameter in a subsequent &lt;i&gt;ListTables&lt;/i&gt; request and obtain the next page of results.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSDynamoDBGlobalSecondaryIndex/keySchema</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The complete key schema for a global secondary index, which consists of one or more pairs of attribute names and key types (&lt;code&gt;HASH&lt;/code&gt; or &lt;code&gt;RANGE&lt;/code&gt;).&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSArray *tableNames</Declaration>
+			<Declaration>@property (nonatomic, strong) NSArray *keySchema</Declaration>
 			
 			
-			<Anchor>//api/name/tableNames</Anchor>
+			<Anchor>//api/name/keySchema</Anchor>
+            <NodeRef refid="221"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSDynamoDBGlobalSecondaryIndex/setProjection:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Represents attributes that are copied (projected) from the table into an index. These are in addition to the primary key attributes and index key attributes, which are automatically projected.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) AWSDynamoDBProjection *projection</Declaration>
+			
+			
+			<Anchor>//api/name/projection</Anchor>
+            <NodeRef refid="221"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSDynamoDBGlobalSecondaryIndex/projection</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Represents attributes that are copied (projected) from the table into an index. These are in addition to the primary key attributes and index key attributes, which are automatically projected.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) AWSDynamoDBProjection *projection</Declaration>
+			
+			
+			<Anchor>//api/name/projection</Anchor>
+            <NodeRef refid="221"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSDynamoDBGlobalSecondaryIndex/projection</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Represents attributes that are copied (projected) from the table into an index. These are in addition to the primary key attributes and index key attributes, which are automatically projected.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) AWSDynamoDBProjection *projection</Declaration>
+			
+			
+			<Anchor>//api/name/projection</Anchor>
+            <NodeRef refid="221"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSDynamoDBGlobalSecondaryIndex/setProvisionedThroughput:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Represents the provisioned throughput settings for a specified table or index. The settings can be modified using the &lt;i&gt;UpdateTable&lt;/i&gt; operation.&lt;/p&gt;&lt;p&gt;For current minimum and maximum provisioned throughput values, see Limits in the &lt;i&gt;Amazon DynamoDB Developer Guide&lt;/i&gt;.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) AWSDynamoDBProvisionedThroughput *provisionedThroughput</Declaration>
+			
+			
+			<Anchor>//api/name/provisionedThroughput</Anchor>
+            <NodeRef refid="221"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSDynamoDBGlobalSecondaryIndex/provisionedThroughput</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Represents the provisioned throughput settings for a specified table or index. The settings can be modified using the &lt;i&gt;UpdateTable&lt;/i&gt; operation.&lt;/p&gt;&lt;p&gt;For current minimum and maximum provisioned throughput values, see Limits in the &lt;i&gt;Amazon DynamoDB Developer Guide&lt;/i&gt;.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) AWSDynamoDBProvisionedThroughput *provisionedThroughput</Declaration>
+			
+			
+			<Anchor>//api/name/provisionedThroughput</Anchor>
+            <NodeRef refid="221"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSDynamoDBGlobalSecondaryIndex/provisionedThroughput</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Represents the provisioned throughput settings for a specified table or index. The settings can be modified using the &lt;i&gt;UpdateTable&lt;/i&gt; operation.&lt;/p&gt;&lt;p&gt;For current minimum and maximum provisioned throughput values, see Limits in the &lt;i&gt;Amazon DynamoDB Developer Guide&lt;/i&gt;.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) AWSDynamoDBProvisionedThroughput *provisionedThroughput</Declaration>
+			
+			
+			<Anchor>//api/name/provisionedThroughput</Anchor>
             <NodeRef refid="221"/>
 		</Token>
 		

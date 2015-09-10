@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSEC2GetPasswordDataResult.html">
+	<File path="Classes/AWSEC2DisassociateAddressRequest.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSEC2GetPasswordDataResult</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSEC2DisassociateAddressRequest</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
             
@@ -13,110 +13,110 @@
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2GetPasswordDataResult/setInstanceId:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The ID of the Windows instance.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DisassociateAddressRequest/setAssociationId:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;[EC2-VPC] The association ID. Required for EC2-VPC.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *instanceId</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *associationId</Declaration>
 			
 			
-			<Anchor>//api/name/instanceId</Anchor>
+			<Anchor>//api/name/associationId</Anchor>
             <NodeRef refid="464"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2GetPasswordDataResult/instanceId</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The ID of the Windows instance.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DisassociateAddressRequest/associationId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;[EC2-VPC] The association ID. Required for EC2-VPC.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *instanceId</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *associationId</Declaration>
 			
 			
-			<Anchor>//api/name/instanceId</Anchor>
+			<Anchor>//api/name/associationId</Anchor>
             <NodeRef refid="464"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2GetPasswordDataResult/instanceId</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The ID of the Windows instance.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2DisassociateAddressRequest/associationId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;[EC2-VPC] The association ID. Required for EC2-VPC.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *instanceId</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *associationId</Declaration>
 			
 			
-			<Anchor>//api/name/instanceId</Anchor>
+			<Anchor>//api/name/associationId</Anchor>
             <NodeRef refid="464"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2GetPasswordDataResult/setPasswordData:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The password of the instance.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DisassociateAddressRequest/setDryRun:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *passwordData</Declaration>
+			<Declaration>@property (nonatomic, strong) NSNumber *dryRun</Declaration>
 			
 			
-			<Anchor>//api/name/passwordData</Anchor>
+			<Anchor>//api/name/dryRun</Anchor>
             <NodeRef refid="464"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2GetPasswordDataResult/passwordData</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The password of the instance.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DisassociateAddressRequest/dryRun</TokenIdentifier>
+			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *passwordData</Declaration>
+			<Declaration>@property (nonatomic, strong) NSNumber *dryRun</Declaration>
 			
 			
-			<Anchor>//api/name/passwordData</Anchor>
+			<Anchor>//api/name/dryRun</Anchor>
             <NodeRef refid="464"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2GetPasswordDataResult/passwordData</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The password of the instance.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2DisassociateAddressRequest/dryRun</TokenIdentifier>
+			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *passwordData</Declaration>
+			<Declaration>@property (nonatomic, strong) NSNumber *dryRun</Declaration>
 			
 			
-			<Anchor>//api/name/passwordData</Anchor>
+			<Anchor>//api/name/dryRun</Anchor>
             <NodeRef refid="464"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2GetPasswordDataResult/setTimestamp:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The time the data was last updated.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DisassociateAddressRequest/setPublicIp:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;[EC2-Classic] The Elastic IP address. Required for EC2-Classic.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSDate *timestamp</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *publicIp</Declaration>
 			
 			
-			<Anchor>//api/name/timestamp</Anchor>
+			<Anchor>//api/name/publicIp</Anchor>
             <NodeRef refid="464"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2GetPasswordDataResult/timestamp</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The time the data was last updated.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DisassociateAddressRequest/publicIp</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;[EC2-Classic] The Elastic IP address. Required for EC2-Classic.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSDate *timestamp</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *publicIp</Declaration>
 			
 			
-			<Anchor>//api/name/timestamp</Anchor>
+			<Anchor>//api/name/publicIp</Anchor>
             <NodeRef refid="464"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2GetPasswordDataResult/timestamp</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The time the data was last updated.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2DisassociateAddressRequest/publicIp</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;[EC2-Classic] The Elastic IP address. Required for EC2-Classic.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSDate *timestamp</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *publicIp</Declaration>
 			
 			
-			<Anchor>//api/name/timestamp</Anchor>
+			<Anchor>//api/name/publicIp</Anchor>
             <NodeRef refid="464"/>
 		</Token>
 		

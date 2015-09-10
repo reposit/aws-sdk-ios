@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSS3UploadPartRequest.html">
+	<File path="Classes/AWSS3ListObjectsRequest.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSS3UploadPartRequest</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSS3ListObjectsRequest</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSS3Model.h</DeclaredIn>
             
@@ -13,43 +13,7 @@
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3UploadPartRequest/setBody:</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) id body</Declaration>
-			
-			
-			<Anchor>//api/name/body</Anchor>
-            <NodeRef refid="886"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3UploadPartRequest/body</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) id body</Declaration>
-			
-			
-			<Anchor>//api/name/body</Anchor>
-            <NodeRef refid="886"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSS3UploadPartRequest/body</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) id body</Declaration>
-			
-			
-			<Anchor>//api/name/body</Anchor>
-            <NodeRef refid="886"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3UploadPartRequest/setBucket:</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3ListObjectsRequest/setBucket:</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
@@ -61,7 +25,7 @@
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3UploadPartRequest/bucket</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3ListObjectsRequest/bucket</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
@@ -73,7 +37,7 @@
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSS3UploadPartRequest/bucket</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSS3ListObjectsRequest/bucket</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
@@ -85,290 +49,182 @@
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3UploadPartRequest/setContentLength:</TokenIdentifier>
-			<Abstract type="html">Size of the body in bytes. This parameter is useful when the size of the body cannot be determined automatically.</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3ListObjectsRequest/setDelimiter:</TokenIdentifier>
+			<Abstract type="html">A delimiter is a character you use to group keys.</Abstract>
 			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSNumber *contentLength</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *delimiter</Declaration>
 			
 			
-			<Anchor>//api/name/contentLength</Anchor>
+			<Anchor>//api/name/delimiter</Anchor>
             <NodeRef refid="886"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3UploadPartRequest/contentLength</TokenIdentifier>
-			<Abstract type="html">Size of the body in bytes. This parameter is useful when the size of the body cannot be determined automatically.</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3ListObjectsRequest/delimiter</TokenIdentifier>
+			<Abstract type="html">A delimiter is a character you use to group keys.</Abstract>
 			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSNumber *contentLength</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *delimiter</Declaration>
 			
 			
-			<Anchor>//api/name/contentLength</Anchor>
+			<Anchor>//api/name/delimiter</Anchor>
             <NodeRef refid="886"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSS3UploadPartRequest/contentLength</TokenIdentifier>
-			<Abstract type="html">Size of the body in bytes. This parameter is useful when the size of the body cannot be determined automatically.</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSS3ListObjectsRequest/delimiter</TokenIdentifier>
+			<Abstract type="html">A delimiter is a character you use to group keys.</Abstract>
 			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSNumber *contentLength</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *delimiter</Declaration>
 			
 			
-			<Anchor>//api/name/contentLength</Anchor>
+			<Anchor>//api/name/delimiter</Anchor>
             <NodeRef refid="886"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3UploadPartRequest/setContentMD5:</TokenIdentifier>
-			<Abstract type="html"></Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3ListObjectsRequest/setEncodingType:</TokenIdentifier>
+			<Abstract type="html">Requests Amazon S3 to encode the object keys in the response and specifies the encoding method to use. An object key may contain any Unicode character; however, XML 1.0 parser cannot parse some characters, such as characters with an ASCII value from 0 to 10. For characters that are not supported in XML 1.0, you can add this parameter to request that Amazon S3 encode the keys in the response.</Abstract>
 			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *contentMD5</Declaration>
+			<Declaration>@property (nonatomic, assign) AWSS3EncodingType encodingType</Declaration>
 			
 			
-			<Anchor>//api/name/contentMD5</Anchor>
+			<Anchor>//api/name/encodingType</Anchor>
             <NodeRef refid="886"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3UploadPartRequest/contentMD5</TokenIdentifier>
-			<Abstract type="html"></Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3ListObjectsRequest/encodingType</TokenIdentifier>
+			<Abstract type="html">Requests Amazon S3 to encode the object keys in the response and specifies the encoding method to use. An object key may contain any Unicode character; however, XML 1.0 parser cannot parse some characters, such as characters with an ASCII value from 0 to 10. For characters that are not supported in XML 1.0, you can add this parameter to request that Amazon S3 encode the keys in the response.</Abstract>
 			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *contentMD5</Declaration>
+			<Declaration>@property (nonatomic, assign) AWSS3EncodingType encodingType</Declaration>
 			
 			
-			<Anchor>//api/name/contentMD5</Anchor>
+			<Anchor>//api/name/encodingType</Anchor>
             <NodeRef refid="886"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSS3UploadPartRequest/contentMD5</TokenIdentifier>
-			<Abstract type="html"></Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSS3ListObjectsRequest/encodingType</TokenIdentifier>
+			<Abstract type="html">Requests Amazon S3 to encode the object keys in the response and specifies the encoding method to use. An object key may contain any Unicode character; however, XML 1.0 parser cannot parse some characters, such as characters with an ASCII value from 0 to 10. For characters that are not supported in XML 1.0, you can add this parameter to request that Amazon S3 encode the keys in the response.</Abstract>
 			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *contentMD5</Declaration>
+			<Declaration>@property (nonatomic, assign) AWSS3EncodingType encodingType</Declaration>
 			
 			
-			<Anchor>//api/name/contentMD5</Anchor>
+			<Anchor>//api/name/encodingType</Anchor>
             <NodeRef refid="886"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3UploadPartRequest/setKey:</TokenIdentifier>
-			<Abstract type="html"></Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3ListObjectsRequest/setMarker:</TokenIdentifier>
+			<Abstract type="html">Specifies the key to start with when listing objects in a bucket.</Abstract>
 			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *key</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *marker</Declaration>
 			
 			
-			<Anchor>//api/name/key</Anchor>
+			<Anchor>//api/name/marker</Anchor>
             <NodeRef refid="886"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3UploadPartRequest/key</TokenIdentifier>
-			<Abstract type="html"></Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3ListObjectsRequest/marker</TokenIdentifier>
+			<Abstract type="html">Specifies the key to start with when listing objects in a bucket.</Abstract>
 			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *key</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *marker</Declaration>
 			
 			
-			<Anchor>//api/name/key</Anchor>
+			<Anchor>//api/name/marker</Anchor>
             <NodeRef refid="886"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSS3UploadPartRequest/key</TokenIdentifier>
-			<Abstract type="html"></Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSS3ListObjectsRequest/marker</TokenIdentifier>
+			<Abstract type="html">Specifies the key to start with when listing objects in a bucket.</Abstract>
 			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *key</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *marker</Declaration>
 			
 			
-			<Anchor>//api/name/key</Anchor>
+			<Anchor>//api/name/marker</Anchor>
             <NodeRef refid="886"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3UploadPartRequest/setPartNumber:</TokenIdentifier>
-			<Abstract type="html">Part number of part being uploaded.</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3ListObjectsRequest/setMaxKeys:</TokenIdentifier>
+			<Abstract type="html">Sets the maximum number of keys returned in the response. The response might contain fewer keys but will never contain more.</Abstract>
 			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSNumber *partNumber</Declaration>
+			<Declaration>@property (nonatomic, strong) NSNumber *maxKeys</Declaration>
 			
 			
-			<Anchor>//api/name/partNumber</Anchor>
+			<Anchor>//api/name/maxKeys</Anchor>
             <NodeRef refid="886"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3UploadPartRequest/partNumber</TokenIdentifier>
-			<Abstract type="html">Part number of part being uploaded.</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3ListObjectsRequest/maxKeys</TokenIdentifier>
+			<Abstract type="html">Sets the maximum number of keys returned in the response. The response might contain fewer keys but will never contain more.</Abstract>
 			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSNumber *partNumber</Declaration>
+			<Declaration>@property (nonatomic, strong) NSNumber *maxKeys</Declaration>
 			
 			
-			<Anchor>//api/name/partNumber</Anchor>
+			<Anchor>//api/name/maxKeys</Anchor>
             <NodeRef refid="886"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSS3UploadPartRequest/partNumber</TokenIdentifier>
-			<Abstract type="html">Part number of part being uploaded.</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSS3ListObjectsRequest/maxKeys</TokenIdentifier>
+			<Abstract type="html">Sets the maximum number of keys returned in the response. The response might contain fewer keys but will never contain more.</Abstract>
 			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSNumber *partNumber</Declaration>
+			<Declaration>@property (nonatomic, strong) NSNumber *maxKeys</Declaration>
 			
 			
-			<Anchor>//api/name/partNumber</Anchor>
+			<Anchor>//api/name/maxKeys</Anchor>
             <NodeRef refid="886"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3UploadPartRequest/setSSECustomerAlgorithm:</TokenIdentifier>
-			<Abstract type="html">Specifies the algorithm to use to when encrypting the object (e.g., AES256, aws:kms).</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3ListObjectsRequest/setPrefix:</TokenIdentifier>
+			<Abstract type="html">Limits the response to keys that begin with the specified prefix.</Abstract>
 			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *SSECustomerAlgorithm</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *prefix</Declaration>
 			
 			
-			<Anchor>//api/name/SSECustomerAlgorithm</Anchor>
+			<Anchor>//api/name/prefix</Anchor>
             <NodeRef refid="886"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3UploadPartRequest/SSECustomerAlgorithm</TokenIdentifier>
-			<Abstract type="html">Specifies the algorithm to use to when encrypting the object (e.g., AES256, aws:kms).</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3ListObjectsRequest/prefix</TokenIdentifier>
+			<Abstract type="html">Limits the response to keys that begin with the specified prefix.</Abstract>
 			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *SSECustomerAlgorithm</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *prefix</Declaration>
 			
 			
-			<Anchor>//api/name/SSECustomerAlgorithm</Anchor>
+			<Anchor>//api/name/prefix</Anchor>
             <NodeRef refid="886"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSS3UploadPartRequest/SSECustomerAlgorithm</TokenIdentifier>
-			<Abstract type="html">Specifies the algorithm to use to when encrypting the object (e.g., AES256, aws:kms).</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSS3ListObjectsRequest/prefix</TokenIdentifier>
+			<Abstract type="html">Limits the response to keys that begin with the specified prefix.</Abstract>
 			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *SSECustomerAlgorithm</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *prefix</Declaration>
 			
 			
-			<Anchor>//api/name/SSECustomerAlgorithm</Anchor>
-            <NodeRef refid="886"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3UploadPartRequest/setSSECustomerKey:</TokenIdentifier>
-			<Abstract type="html">Specifies the customer-provided encryption key for Amazon S3 to use in encrypting data. This value is used to store the object and then it is discarded; Amazon does not store the encryption key. The key must be appropriate for use with the algorithm specified in the x-amz-server-side&amp;amp;#x200B;-encryption&amp;amp;#x200B;-customer-algorithm header. This must be the same encryption key specified in the initiate multipart upload request.</Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *SSECustomerKey</Declaration>
-			
-			
-			<Anchor>//api/name/SSECustomerKey</Anchor>
-            <NodeRef refid="886"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3UploadPartRequest/SSECustomerKey</TokenIdentifier>
-			<Abstract type="html">Specifies the customer-provided encryption key for Amazon S3 to use in encrypting data. This value is used to store the object and then it is discarded; Amazon does not store the encryption key. The key must be appropriate for use with the algorithm specified in the x-amz-server-side&amp;amp;#x200B;-encryption&amp;amp;#x200B;-customer-algorithm header. This must be the same encryption key specified in the initiate multipart upload request.</Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *SSECustomerKey</Declaration>
-			
-			
-			<Anchor>//api/name/SSECustomerKey</Anchor>
-            <NodeRef refid="886"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSS3UploadPartRequest/SSECustomerKey</TokenIdentifier>
-			<Abstract type="html">Specifies the customer-provided encryption key for Amazon S3 to use in encrypting data. This value is used to store the object and then it is discarded; Amazon does not store the encryption key. The key must be appropriate for use with the algorithm specified in the x-amz-server-side&amp;amp;#x200B;-encryption&amp;amp;#x200B;-customer-algorithm header. This must be the same encryption key specified in the initiate multipart upload request.</Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *SSECustomerKey</Declaration>
-			
-			
-			<Anchor>//api/name/SSECustomerKey</Anchor>
-            <NodeRef refid="886"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3UploadPartRequest/setSSECustomerKeyMD5:</TokenIdentifier>
-			<Abstract type="html">Specifies the 128-bit MD5 digest of the encryption key according to RFC 1321. Amazon S3 uses this header for a message integrity check to ensure the encryption key was transmitted without error.</Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *SSECustomerKeyMD5</Declaration>
-			
-			
-			<Anchor>//api/name/SSECustomerKeyMD5</Anchor>
-            <NodeRef refid="886"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3UploadPartRequest/SSECustomerKeyMD5</TokenIdentifier>
-			<Abstract type="html">Specifies the 128-bit MD5 digest of the encryption key according to RFC 1321. Amazon S3 uses this header for a message integrity check to ensure the encryption key was transmitted without error.</Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *SSECustomerKeyMD5</Declaration>
-			
-			
-			<Anchor>//api/name/SSECustomerKeyMD5</Anchor>
-            <NodeRef refid="886"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSS3UploadPartRequest/SSECustomerKeyMD5</TokenIdentifier>
-			<Abstract type="html">Specifies the 128-bit MD5 digest of the encryption key according to RFC 1321. Amazon S3 uses this header for a message integrity check to ensure the encryption key was transmitted without error.</Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *SSECustomerKeyMD5</Declaration>
-			
-			
-			<Anchor>//api/name/SSECustomerKeyMD5</Anchor>
-            <NodeRef refid="886"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3UploadPartRequest/setUploadId:</TokenIdentifier>
-			<Abstract type="html">Upload ID identifying the multipart upload whose part is being uploaded.</Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *uploadId</Declaration>
-			
-			
-			<Anchor>//api/name/uploadId</Anchor>
-            <NodeRef refid="886"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3UploadPartRequest/uploadId</TokenIdentifier>
-			<Abstract type="html">Upload ID identifying the multipart upload whose part is being uploaded.</Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *uploadId</Declaration>
-			
-			
-			<Anchor>//api/name/uploadId</Anchor>
-            <NodeRef refid="886"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSS3UploadPartRequest/uploadId</TokenIdentifier>
-			<Abstract type="html">Upload ID identifying the multipart upload whose part is being uploaded.</Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *uploadId</Declaration>
-			
-			
-			<Anchor>//api/name/uploadId</Anchor>
+			<Anchor>//api/name/prefix</Anchor>
             <NodeRef refid="886"/>
 		</Token>
 		

@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSS3Condition.html">
+	<File path="Classes/AWSLambdaGetFunctionConfigurationRequest.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSS3Condition</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSLambdaGetFunctionConfigurationRequest</TokenIdentifier>
 			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			<DeclaredIn>AWSLambdaModel.h</DeclaredIn>
             
 			
 			<NodeRef refid="771"/>
@@ -13,74 +13,38 @@
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3Condition/setHttpErrorCodeReturnedEquals:</TokenIdentifier>
-			<Abstract type="html">The HTTP error code when the redirect is applied. In the event of an error, if the error code equals this value, then the specified redirect is applied. Required when parent element Condition is specified and sibling KeyPrefixEquals is not specified. If both are specified, then both must be true for the redirect to be applied.</Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSLambdaGetFunctionConfigurationRequest/setFunctionName:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The name of the Lambda function for which you want to retrieve the configuration information.&lt;/p&gt;&lt;p&gt; You can specify an unqualified function name (for example, &quot;Thumbnail&quot;) or you can specify Amazon Resource Name (ARN) of the function (for example, &quot;arn:aws:lambda:us-west-2:account-id:function:ThumbNail&quot;). AWS Lambda also allows you to specify only the account ID qualifier (for example, &quot;account-id:Thumbnail&quot;). Note that the length constraint applies only to the ARN. If you specify only the function name, it is limited to 64 character in length. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSLambdaModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *httpErrorCodeReturnedEquals</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *functionName</Declaration>
 			
 			
-			<Anchor>//api/name/httpErrorCodeReturnedEquals</Anchor>
+			<Anchor>//api/name/functionName</Anchor>
             <NodeRef refid="771"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3Condition/httpErrorCodeReturnedEquals</TokenIdentifier>
-			<Abstract type="html">The HTTP error code when the redirect is applied. In the event of an error, if the error code equals this value, then the specified redirect is applied. Required when parent element Condition is specified and sibling KeyPrefixEquals is not specified. If both are specified, then both must be true for the redirect to be applied.</Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSLambdaGetFunctionConfigurationRequest/functionName</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The name of the Lambda function for which you want to retrieve the configuration information.&lt;/p&gt;&lt;p&gt; You can specify an unqualified function name (for example, &quot;Thumbnail&quot;) or you can specify Amazon Resource Name (ARN) of the function (for example, &quot;arn:aws:lambda:us-west-2:account-id:function:ThumbNail&quot;). AWS Lambda also allows you to specify only the account ID qualifier (for example, &quot;account-id:Thumbnail&quot;). Note that the length constraint applies only to the ARN. If you specify only the function name, it is limited to 64 character in length. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSLambdaModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *httpErrorCodeReturnedEquals</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *functionName</Declaration>
 			
 			
-			<Anchor>//api/name/httpErrorCodeReturnedEquals</Anchor>
+			<Anchor>//api/name/functionName</Anchor>
             <NodeRef refid="771"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSS3Condition/httpErrorCodeReturnedEquals</TokenIdentifier>
-			<Abstract type="html">The HTTP error code when the redirect is applied. In the event of an error, if the error code equals this value, then the specified redirect is applied. Required when parent element Condition is specified and sibling KeyPrefixEquals is not specified. If both are specified, then both must be true for the redirect to be applied.</Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSLambdaGetFunctionConfigurationRequest/functionName</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The name of the Lambda function for which you want to retrieve the configuration information.&lt;/p&gt;&lt;p&gt; You can specify an unqualified function name (for example, &quot;Thumbnail&quot;) or you can specify Amazon Resource Name (ARN) of the function (for example, &quot;arn:aws:lambda:us-west-2:account-id:function:ThumbNail&quot;). AWS Lambda also allows you to specify only the account ID qualifier (for example, &quot;account-id:Thumbnail&quot;). Note that the length constraint applies only to the ARN. If you specify only the function name, it is limited to 64 character in length. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSLambdaModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *httpErrorCodeReturnedEquals</Declaration>
-			
-			
-			<Anchor>//api/name/httpErrorCodeReturnedEquals</Anchor>
-            <NodeRef refid="771"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3Condition/setKeyPrefixEquals:</TokenIdentifier>
-			<Abstract type="html">The object key name prefix when the redirect is applied. For example, to redirect requests for ExamplePage.html, the key prefix will be ExamplePage.html. To redirect request for all pages with the prefix docs/, the key prefix will be /docs, which identifies all objects in the docs/ folder. Required when the parent element Condition is specified and sibling HttpErrorCodeReturnedEquals is not specified. If both conditions are specified, both must be true for the redirect to be applied.</Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *keyPrefixEquals</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *functionName</Declaration>
 			
 			
-			<Anchor>//api/name/keyPrefixEquals</Anchor>
-            <NodeRef refid="771"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3Condition/keyPrefixEquals</TokenIdentifier>
-			<Abstract type="html">The object key name prefix when the redirect is applied. For example, to redirect requests for ExamplePage.html, the key prefix will be ExamplePage.html. To redirect request for all pages with the prefix docs/, the key prefix will be /docs, which identifies all objects in the docs/ folder. Required when the parent element Condition is specified and sibling HttpErrorCodeReturnedEquals is not specified. If both conditions are specified, both must be true for the redirect to be applied.</Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *keyPrefixEquals</Declaration>
-			
-			
-			<Anchor>//api/name/keyPrefixEquals</Anchor>
-            <NodeRef refid="771"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSS3Condition/keyPrefixEquals</TokenIdentifier>
-			<Abstract type="html">The object key name prefix when the redirect is applied. For example, to redirect requests for ExamplePage.html, the key prefix will be ExamplePage.html. To redirect request for all pages with the prefix docs/, the key prefix will be /docs, which identifies all objects in the docs/ folder. Required when the parent element Condition is specified and sibling HttpErrorCodeReturnedEquals is not specified. If both conditions are specified, both must be true for the redirect to be applied.</Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *keyPrefixEquals</Declaration>
-			
-			
-			<Anchor>//api/name/keyPrefixEquals</Anchor>
+			<Anchor>//api/name/functionName</Anchor>
             <NodeRef refid="771"/>
 		</Token>
 		

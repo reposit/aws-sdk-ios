@@ -141,14 +141,14 @@
 		
 	</RelatedTokens>
 	
-			<Declaration>- (BFTask *)deleteAlarms:(AWSCloudWatchDeleteAlarmsInput *)request</Declaration>
+			<Declaration>- (AWSTask *)deleteAlarms:(AWSCloudWatchDeleteAlarmsInput *)request</Declaration>
 			<Parameters>
 				<Parameter>
 					<Name>request</Name>
 					<Abstract type="html">A container for the necessary parameters to execute the DeleteAlarms service method.</Abstract>
 				</Parameter>
 			</Parameters>
-			<ReturnValue><Abstract type="html">An instance of BFTask. On successful execution, task.result will be nil. On failed execution, task.error may contain an NSError with AWSCloudWatchErrorDomain domian and the following error code: AWSCloudWatchErrorResourceNotFound.</Abstract></ReturnValue>
+			<ReturnValue><Abstract type="html">An instance of AWSTask. On successful execution, task.result will be nil. On failed execution, task.error may contain an NSError with AWSCloudWatchErrorDomain domain and the following error code: AWSCloudWatchErrorResourceNotFound.</Abstract></ReturnValue>
 			<Anchor>//api/name/deleteAlarms:</Anchor>
             <NodeRef refid="90"/>
 		</Token>
@@ -164,14 +164,14 @@
 		
 	</RelatedTokens>
 	
-			<Declaration>- (BFTask *)describeAlarmHistory:(AWSCloudWatchDescribeAlarmHistoryInput *)request</Declaration>
+			<Declaration>- (AWSTask *)describeAlarmHistory:(AWSCloudWatchDescribeAlarmHistoryInput *)request</Declaration>
 			<Parameters>
 				<Parameter>
 					<Name>request</Name>
 					<Abstract type="html">A container for the necessary parameters to execute the DescribeAlarmHistory service method.</Abstract>
 				</Parameter>
 			</Parameters>
-			<ReturnValue><Abstract type="html">An instance of BFTask. On successful execution, task.result will contain an instance of AWSCloudWatchDescribeAlarmHistoryOutput. On failed execution, task.error may contain an NSError with AWSCloudWatchErrorDomain domian and the following error code: AWSCloudWatchErrorInvalidNextToken.</Abstract></ReturnValue>
+			<ReturnValue><Abstract type="html">An instance of AWSTask. On successful execution, task.result will contain an instance of AWSCloudWatchDescribeAlarmHistoryOutput. On failed execution, task.error may contain an NSError with AWSCloudWatchErrorDomain domain and the following error code: AWSCloudWatchErrorInvalidNextToken.</Abstract></ReturnValue>
 			<Anchor>//api/name/describeAlarmHistory:</Anchor>
             <NodeRef refid="90"/>
 		</Token>
@@ -187,14 +187,14 @@
 		
 	</RelatedTokens>
 	
-			<Declaration>- (BFTask *)describeAlarms:(AWSCloudWatchDescribeAlarmsInput *)request</Declaration>
+			<Declaration>- (AWSTask *)describeAlarms:(AWSCloudWatchDescribeAlarmsInput *)request</Declaration>
 			<Parameters>
 				<Parameter>
 					<Name>request</Name>
 					<Abstract type="html">A container for the necessary parameters to execute the DescribeAlarms service method.</Abstract>
 				</Parameter>
 			</Parameters>
-			<ReturnValue><Abstract type="html">An instance of BFTask. On successful execution, task.result will contain an instance of AWSCloudWatchDescribeAlarmsOutput. On failed execution, task.error may contain an NSError with AWSCloudWatchErrorDomain domian and the following error code: AWSCloudWatchErrorInvalidNextToken.</Abstract></ReturnValue>
+			<ReturnValue><Abstract type="html">An instance of AWSTask. On successful execution, task.result will contain an instance of AWSCloudWatchDescribeAlarmsOutput. On failed execution, task.error may contain an NSError with AWSCloudWatchErrorDomain domain and the following error code: AWSCloudWatchErrorInvalidNextToken.</Abstract></ReturnValue>
 			<Anchor>//api/name/describeAlarms:</Anchor>
             <NodeRef refid="90"/>
 		</Token>
@@ -210,14 +210,14 @@
 		
 	</RelatedTokens>
 	
-			<Declaration>- (BFTask *)describeAlarmsForMetric:(AWSCloudWatchDescribeAlarmsForMetricInput *)request</Declaration>
+			<Declaration>- (AWSTask *)describeAlarmsForMetric:(AWSCloudWatchDescribeAlarmsForMetricInput *)request</Declaration>
 			<Parameters>
 				<Parameter>
 					<Name>request</Name>
 					<Abstract type="html">A container for the necessary parameters to execute the DescribeAlarmsForMetric service method.</Abstract>
 				</Parameter>
 			</Parameters>
-			<ReturnValue><Abstract type="html">An instance of BFTask. On successful execution, task.result will contain an instance of AWSCloudWatchDescribeAlarmsForMetricOutput.</Abstract></ReturnValue>
+			<ReturnValue><Abstract type="html">An instance of AWSTask. On successful execution, task.result will contain an instance of AWSCloudWatchDescribeAlarmsForMetricOutput.</Abstract></ReturnValue>
 			<Anchor>//api/name/describeAlarmsForMetric:</Anchor>
             <NodeRef refid="90"/>
 		</Token>
@@ -232,14 +232,14 @@
 		
 	</RelatedTokens>
 	
-			<Declaration>- (BFTask *)disableAlarmActions:(AWSCloudWatchDisableAlarmActionsInput *)request</Declaration>
+			<Declaration>- (AWSTask *)disableAlarmActions:(AWSCloudWatchDisableAlarmActionsInput *)request</Declaration>
 			<Parameters>
 				<Parameter>
 					<Name>request</Name>
 					<Abstract type="html">A container for the necessary parameters to execute the DisableAlarmActions service method.</Abstract>
 				</Parameter>
 			</Parameters>
-			<ReturnValue><Abstract type="html">An instance of BFTask. On successful execution, task.result will be nil.</Abstract></ReturnValue>
+			<ReturnValue><Abstract type="html">An instance of AWSTask. On successful execution, task.result will be nil.</Abstract></ReturnValue>
 			<Anchor>//api/name/disableAlarmActions:</Anchor>
             <NodeRef refid="90"/>
 		</Token>
@@ -254,14 +254,14 @@
 		
 	</RelatedTokens>
 	
-			<Declaration>- (BFTask *)enableAlarmActions:(AWSCloudWatchEnableAlarmActionsInput *)request</Declaration>
+			<Declaration>- (AWSTask *)enableAlarmActions:(AWSCloudWatchEnableAlarmActionsInput *)request</Declaration>
 			<Parameters>
 				<Parameter>
 					<Name>request</Name>
 					<Abstract type="html">A container for the necessary parameters to execute the EnableAlarmActions service method.</Abstract>
 				</Parameter>
 			</Parameters>
-			<ReturnValue><Abstract type="html">An instance of BFTask. On successful execution, task.result will be nil.</Abstract></ReturnValue>
+			<ReturnValue><Abstract type="html">An instance of AWSTask. On successful execution, task.result will be nil.</Abstract></ReturnValue>
 			<Anchor>//api/name/enableAlarmActions:</Anchor>
             <NodeRef refid="90"/>
 		</Token>
@@ -277,14 +277,14 @@
 		
 	</RelatedTokens>
 	
-			<Declaration>- (BFTask *)getMetricStatistics:(AWSCloudWatchGetMetricStatisticsInput *)request</Declaration>
+			<Declaration>- (AWSTask *)getMetricStatistics:(AWSCloudWatchGetMetricStatisticsInput *)request</Declaration>
 			<Parameters>
 				<Parameter>
 					<Name>request</Name>
 					<Abstract type="html">A container for the necessary parameters to execute the GetMetricStatistics service method.</Abstract>
 				</Parameter>
 			</Parameters>
-			<ReturnValue><Abstract type="html">An instance of BFTask. On successful execution, task.result will contain an instance of AWSCloudWatchGetMetricStatisticsOutput. On failed execution, task.error may contain an NSError with AWSCloudWatchErrorDomain domian and the following error code: AWSCloudWatchErrorInvalidParameterValue, AWSCloudWatchErrorMissingRequiredParameter, AWSCloudWatchErrorInvalidParameterCombination, AWSCloudWatchErrorInternalService.</Abstract></ReturnValue>
+			<ReturnValue><Abstract type="html">An instance of AWSTask. On successful execution, task.result will contain an instance of AWSCloudWatchGetMetricStatisticsOutput. On failed execution, task.error may contain an NSError with AWSCloudWatchErrorDomain domain and the following error code: AWSCloudWatchErrorInvalidParameterValue, AWSCloudWatchErrorMissingRequiredParameter, AWSCloudWatchErrorInvalidParameterCombination, AWSCloudWatchErrorInternalService.</Abstract></ReturnValue>
 			<Anchor>//api/name/getMetricStatistics:</Anchor>
             <NodeRef refid="90"/>
 		</Token>
@@ -300,14 +300,14 @@
 		
 	</RelatedTokens>
 	
-			<Declaration>- (BFTask *)listMetrics:(AWSCloudWatchListMetricsInput *)request</Declaration>
+			<Declaration>- (AWSTask *)listMetrics:(AWSCloudWatchListMetricsInput *)request</Declaration>
 			<Parameters>
 				<Parameter>
 					<Name>request</Name>
 					<Abstract type="html">A container for the necessary parameters to execute the ListMetrics service method.</Abstract>
 				</Parameter>
 			</Parameters>
-			<ReturnValue><Abstract type="html">An instance of BFTask. On successful execution, task.result will contain an instance of AWSCloudWatchListMetricsOutput. On failed execution, task.error may contain an NSError with AWSCloudWatchErrorDomain domian and the following error code: AWSCloudWatchErrorInternalService, AWSCloudWatchErrorInvalidParameterValue.</Abstract></ReturnValue>
+			<ReturnValue><Abstract type="html">An instance of AWSTask. On successful execution, task.result will contain an instance of AWSCloudWatchListMetricsOutput. On failed execution, task.error may contain an NSError with AWSCloudWatchErrorDomain domain and the following error code: AWSCloudWatchErrorInternalService, AWSCloudWatchErrorInvalidParameterValue.</Abstract></ReturnValue>
 			<Anchor>//api/name/listMetrics:</Anchor>
             <NodeRef refid="90"/>
 		</Token>
@@ -322,14 +322,14 @@
 		
 	</RelatedTokens>
 	
-			<Declaration>- (BFTask *)putMetricAlarm:(AWSCloudWatchPutMetricAlarmInput *)request</Declaration>
+			<Declaration>- (AWSTask *)putMetricAlarm:(AWSCloudWatchPutMetricAlarmInput *)request</Declaration>
 			<Parameters>
 				<Parameter>
 					<Name>request</Name>
 					<Abstract type="html">A container for the necessary parameters to execute the PutMetricAlarm service method.</Abstract>
 				</Parameter>
 			</Parameters>
-			<ReturnValue><Abstract type="html">An instance of BFTask. On successful execution, task.result will be nil. On failed execution, task.error may contain an NSError with AWSCloudWatchErrorDomain domian and the following error code: AWSCloudWatchErrorLimitExceeded.</Abstract></ReturnValue>
+			<ReturnValue><Abstract type="html">An instance of AWSTask. On successful execution, task.result will be nil. On failed execution, task.error may contain an NSError with AWSCloudWatchErrorDomain domain and the following error code: AWSCloudWatchErrorLimitExceeded.</Abstract></ReturnValue>
 			<Anchor>//api/name/putMetricAlarm:</Anchor>
             <NodeRef refid="90"/>
 		</Token>
@@ -344,14 +344,14 @@
 		
 	</RelatedTokens>
 	
-			<Declaration>- (BFTask *)putMetricData:(AWSCloudWatchPutMetricDataInput *)request</Declaration>
+			<Declaration>- (AWSTask *)putMetricData:(AWSCloudWatchPutMetricDataInput *)request</Declaration>
 			<Parameters>
 				<Parameter>
 					<Name>request</Name>
 					<Abstract type="html">A container for the necessary parameters to execute the PutMetricData service method.</Abstract>
 				</Parameter>
 			</Parameters>
-			<ReturnValue><Abstract type="html">An instance of BFTask. On successful execution, task.result will be nil. On failed execution, task.error may contain an NSError with AWSCloudWatchErrorDomain domian and the following error code: AWSCloudWatchErrorInvalidParameterValue, AWSCloudWatchErrorMissingRequiredParameter, AWSCloudWatchErrorInvalidParameterCombination, AWSCloudWatchErrorInternalService.</Abstract></ReturnValue>
+			<ReturnValue><Abstract type="html">An instance of AWSTask. On successful execution, task.result will be nil. On failed execution, task.error may contain an NSError with AWSCloudWatchErrorDomain domain and the following error code: AWSCloudWatchErrorInvalidParameterValue, AWSCloudWatchErrorMissingRequiredParameter, AWSCloudWatchErrorInvalidParameterCombination, AWSCloudWatchErrorInternalService.</Abstract></ReturnValue>
 			<Anchor>//api/name/putMetricData:</Anchor>
             <NodeRef refid="90"/>
 		</Token>
@@ -366,14 +366,14 @@
 		
 	</RelatedTokens>
 	
-			<Declaration>- (BFTask *)setAlarmState:(AWSCloudWatchSetAlarmStateInput *)request</Declaration>
+			<Declaration>- (AWSTask *)setAlarmState:(AWSCloudWatchSetAlarmStateInput *)request</Declaration>
 			<Parameters>
 				<Parameter>
 					<Name>request</Name>
 					<Abstract type="html">A container for the necessary parameters to execute the SetAlarmState service method.</Abstract>
 				</Parameter>
 			</Parameters>
-			<ReturnValue><Abstract type="html">An instance of BFTask. On successful execution, task.result will be nil. On failed execution, task.error may contain an NSError with AWSCloudWatchErrorDomain domian and the following error code: AWSCloudWatchErrorResourceNotFound, AWSCloudWatchErrorInvalidFormat.</Abstract></ReturnValue>
+			<ReturnValue><Abstract type="html">An instance of AWSTask. On successful execution, task.result will be nil. On failed execution, task.error may contain an NSError with AWSCloudWatchErrorDomain domain and the following error code: AWSCloudWatchErrorResourceNotFound, AWSCloudWatchErrorInvalidFormat.</Abstract></ReturnValue>
 			<Anchor>//api/name/setAlarmState:</Anchor>
             <NodeRef refid="90"/>
 		</Token>

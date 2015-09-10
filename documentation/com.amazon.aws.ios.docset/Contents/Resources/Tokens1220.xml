@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Constants/AWSSESVerificationStatus.html">
+	<File path="Constants/AWSEC2VolumeState.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/c/tdef/AWSSESVerificationStatus</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/c/tdef/AWSEC2VolumeState</TokenIdentifier>
 			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSSESModel.h</DeclaredIn>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
             
 			
 			<NodeRef refid="1220"/>
@@ -14,61 +14,71 @@
 		
         
         <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSSESVerificationStatusUnknown</TokenIdentifier>
+            <TokenIdentifier>//apple_ref/c/econst/AWSEC2VolumeStateUnknown</TokenIdentifier>
             <Abstract type="html"></Abstract>
-            <Declaration>AWSSESVerificationStatusUnknown</Declaration>
+            <Declaration>AWSEC2VolumeStateUnknown</Declaration>
             
-            <DeclaredIn>AWSSESModel.h</DeclaredIn>
+            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
             
             <NodeRef refid="1220"/>
         </Token>
         
         <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSSESVerificationStatusPending</TokenIdentifier>
+            <TokenIdentifier>//apple_ref/c/econst/AWSEC2VolumeStateCreating</TokenIdentifier>
             <Abstract type="html"></Abstract>
-            <Declaration>AWSSESVerificationStatusPending</Declaration>
+            <Declaration>AWSEC2VolumeStateCreating</Declaration>
             
-            <DeclaredIn>AWSSESModel.h</DeclaredIn>
+            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
             
             <NodeRef refid="1220"/>
         </Token>
         
         <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSSESVerificationStatusSuccess</TokenIdentifier>
+            <TokenIdentifier>//apple_ref/c/econst/AWSEC2VolumeStateAvailable</TokenIdentifier>
             <Abstract type="html"></Abstract>
-            <Declaration>AWSSESVerificationStatusSuccess</Declaration>
+            <Declaration>AWSEC2VolumeStateAvailable</Declaration>
             
-            <DeclaredIn>AWSSESModel.h</DeclaredIn>
+            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
             
             <NodeRef refid="1220"/>
         </Token>
         
         <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSSESVerificationStatusFailed</TokenIdentifier>
+            <TokenIdentifier>//apple_ref/c/econst/AWSEC2VolumeStateInUse</TokenIdentifier>
             <Abstract type="html"></Abstract>
-            <Declaration>AWSSESVerificationStatusFailed</Declaration>
+            <Declaration>AWSEC2VolumeStateInUse</Declaration>
             
-            <DeclaredIn>AWSSESModel.h</DeclaredIn>
+            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
             
             <NodeRef refid="1220"/>
         </Token>
         
         <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSSESVerificationStatusTemporaryFailure</TokenIdentifier>
+            <TokenIdentifier>//apple_ref/c/econst/AWSEC2VolumeStateDeleting</TokenIdentifier>
             <Abstract type="html"></Abstract>
-            <Declaration>AWSSESVerificationStatusTemporaryFailure</Declaration>
+            <Declaration>AWSEC2VolumeStateDeleting</Declaration>
             
-            <DeclaredIn>AWSSESModel.h</DeclaredIn>
+            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
             
             <NodeRef refid="1220"/>
         </Token>
         
         <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSSESVerificationStatusNotStarted</TokenIdentifier>
+            <TokenIdentifier>//apple_ref/c/econst/AWSEC2VolumeStateDeleted</TokenIdentifier>
             <Abstract type="html"></Abstract>
-            <Declaration>AWSSESVerificationStatusNotStarted</Declaration>
+            <Declaration>AWSEC2VolumeStateDeleted</Declaration>
             
-            <DeclaredIn>AWSSESModel.h</DeclaredIn>
+            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
+            
+            <NodeRef refid="1220"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/AWSEC2VolumeStateError</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>AWSEC2VolumeStateError</Declaration>
+            
+            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
             
             <NodeRef refid="1220"/>
         </Token>

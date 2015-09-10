@@ -87,7 +87,7 @@ Required parameters: [IdentityPoolId]</Abstract>
 		
 		<Token>
 			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoIdentityGetIdInput/setLogins:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;A set of optional name-value pairs that map provider names to provider tokens.&lt;/p&gt;&lt;p&gt;The available provider names for &lt;code&gt;Logins&lt;/code&gt; are as follows: &lt;ul&gt;&lt;li&gt;Facebook: &lt;code&gt;graph.facebook.com&lt;/code&gt;&lt;/li&gt;&lt;li&gt;Google: &lt;code&gt;accounts.google.com&lt;/code&gt;&lt;/li&gt;&lt;li&gt;Amazon: &lt;code&gt;www.amazon.com&lt;/code&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/p&gt;</Abstract>
+			<Abstract type="html">&lt;p&gt;A set of optional name-value pairs that map provider names to provider tokens.&lt;/p&gt;&lt;p&gt;The available provider names for &lt;code&gt;Logins&lt;/code&gt; are as follows: &lt;ul&gt;&lt;li&gt;Facebook: &lt;code&gt;graph.facebook.com&lt;/code&gt;&lt;/li&gt;&lt;li&gt;Google: &lt;code&gt;accounts.google.com&lt;/code&gt;&lt;/li&gt;&lt;li&gt;Amazon: &lt;code&gt;www.amazon.com&lt;/code&gt;&lt;/li&gt;&lt;li&gt;Twitter: &lt;code&gt;www.twitter.com&lt;/code&gt;&lt;/li&gt;&lt;li&gt;Digits: &lt;code&gt;www.digits.com&lt;/code&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSCognitoIdentityModel.h</DeclaredIn>
 			
 			<Declaration>@property (nonatomic, strong) NSDictionary *logins</Declaration>
@@ -99,7 +99,7 @@ Required parameters: [IdentityPoolId]</Abstract>
 		
 		<Token>
 			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoIdentityGetIdInput/logins</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;A set of optional name-value pairs that map provider names to provider tokens.&lt;/p&gt;&lt;p&gt;The available provider names for &lt;code&gt;Logins&lt;/code&gt; are as follows: &lt;ul&gt;&lt;li&gt;Facebook: &lt;code&gt;graph.facebook.com&lt;/code&gt;&lt;/li&gt;&lt;li&gt;Google: &lt;code&gt;accounts.google.com&lt;/code&gt;&lt;/li&gt;&lt;li&gt;Amazon: &lt;code&gt;www.amazon.com&lt;/code&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/p&gt;</Abstract>
+			<Abstract type="html">&lt;p&gt;A set of optional name-value pairs that map provider names to provider tokens.&lt;/p&gt;&lt;p&gt;The available provider names for &lt;code&gt;Logins&lt;/code&gt; are as follows: &lt;ul&gt;&lt;li&gt;Facebook: &lt;code&gt;graph.facebook.com&lt;/code&gt;&lt;/li&gt;&lt;li&gt;Google: &lt;code&gt;accounts.google.com&lt;/code&gt;&lt;/li&gt;&lt;li&gt;Amazon: &lt;code&gt;www.amazon.com&lt;/code&gt;&lt;/li&gt;&lt;li&gt;Twitter: &lt;code&gt;www.twitter.com&lt;/code&gt;&lt;/li&gt;&lt;li&gt;Digits: &lt;code&gt;www.digits.com&lt;/code&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSCognitoIdentityModel.h</DeclaredIn>
 			
 			<Declaration>@property (nonatomic, strong) NSDictionary *logins</Declaration>
@@ -111,7 +111,7 @@ Required parameters: [IdentityPoolId]</Abstract>
 		
 		<Token>
 			<TokenIdentifier>//apple_ref/occ/instp/AWSCognitoIdentityGetIdInput/logins</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;A set of optional name-value pairs that map provider names to provider tokens.&lt;/p&gt;&lt;p&gt;The available provider names for &lt;code&gt;Logins&lt;/code&gt; are as follows: &lt;ul&gt;&lt;li&gt;Facebook: &lt;code&gt;graph.facebook.com&lt;/code&gt;&lt;/li&gt;&lt;li&gt;Google: &lt;code&gt;accounts.google.com&lt;/code&gt;&lt;/li&gt;&lt;li&gt;Amazon: &lt;code&gt;www.amazon.com&lt;/code&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/p&gt;</Abstract>
+			<Abstract type="html">&lt;p&gt;A set of optional name-value pairs that map provider names to provider tokens.&lt;/p&gt;&lt;p&gt;The available provider names for &lt;code&gt;Logins&lt;/code&gt; are as follows: &lt;ul&gt;&lt;li&gt;Facebook: &lt;code&gt;graph.facebook.com&lt;/code&gt;&lt;/li&gt;&lt;li&gt;Google: &lt;code&gt;accounts.google.com&lt;/code&gt;&lt;/li&gt;&lt;li&gt;Amazon: &lt;code&gt;www.amazon.com&lt;/code&gt;&lt;/li&gt;&lt;li&gt;Twitter: &lt;code&gt;www.twitter.com&lt;/code&gt;&lt;/li&gt;&lt;li&gt;Digits: &lt;code&gt;www.digits.com&lt;/code&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSCognitoIdentityModel.h</DeclaredIn>
 			
 			<Declaration>@property (nonatomic, strong) NSDictionary *logins</Declaration>

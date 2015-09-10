@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSSNSGetPlatformApplicationAttributesResponse.html">
+	<File path="Classes/AWSSESContent.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSSNSGetPlatformApplicationAttributesResponse</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Response for GetPlatformApplicationAttributes action.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSNSModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSSESContent</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Represents textual data, plus an optional character set specification.&lt;/p&gt;&lt;p&gt;By default, the text must be 7-bit ASCII, due to the constraints of the SMTP protocol. If the text must contain any other characters, then you must also specify a character set. Examples include UTF-8, ISO-8859-1, and Shift_JIS. &lt;/p&gt;
+Required parameters: [Data]</Abstract>
+			<DeclaredIn>AWSSESModel.h</DeclaredIn>
             
 			
 			<NodeRef refid="948"/>
@@ -13,38 +14,74 @@
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSSNSGetPlatformApplicationAttributesResponse/setAttributes:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Attributes include the following:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;code&gt;EventEndpointCreated&lt;/code&gt; -- Topic ARN to which EndpointCreated event notifications should be sent.&lt;/li&gt;&lt;li&gt;&lt;code&gt;EventEndpointDeleted&lt;/code&gt; -- Topic ARN to which EndpointDeleted event notifications should be sent.&lt;/li&gt;&lt;li&gt;&lt;code&gt;EventEndpointUpdated&lt;/code&gt; -- Topic ARN to which EndpointUpdate event notifications should be sent.&lt;/li&gt;&lt;li&gt;&lt;code&gt;EventDeliveryFailure&lt;/code&gt; -- Topic ARN to which DeliveryFailure event notifications should be sent upon Direct Publish delivery failure (permanent) to one of the application&apos;s endpoints.&lt;/li&gt;&lt;/ul&gt;</Abstract>
-			<DeclaredIn>AWSSNSModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSESContent/setCharset:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The character set of the content.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSESModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSDictionary *attributes</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *charset</Declaration>
 			
 			
-			<Anchor>//api/name/attributes</Anchor>
+			<Anchor>//api/name/charset</Anchor>
             <NodeRef refid="948"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSSNSGetPlatformApplicationAttributesResponse/attributes</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Attributes include the following:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;code&gt;EventEndpointCreated&lt;/code&gt; -- Topic ARN to which EndpointCreated event notifications should be sent.&lt;/li&gt;&lt;li&gt;&lt;code&gt;EventEndpointDeleted&lt;/code&gt; -- Topic ARN to which EndpointDeleted event notifications should be sent.&lt;/li&gt;&lt;li&gt;&lt;code&gt;EventEndpointUpdated&lt;/code&gt; -- Topic ARN to which EndpointUpdate event notifications should be sent.&lt;/li&gt;&lt;li&gt;&lt;code&gt;EventDeliveryFailure&lt;/code&gt; -- Topic ARN to which DeliveryFailure event notifications should be sent upon Direct Publish delivery failure (permanent) to one of the application&apos;s endpoints.&lt;/li&gt;&lt;/ul&gt;</Abstract>
-			<DeclaredIn>AWSSNSModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSESContent/charset</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The character set of the content.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSESModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSDictionary *attributes</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *charset</Declaration>
 			
 			
-			<Anchor>//api/name/attributes</Anchor>
+			<Anchor>//api/name/charset</Anchor>
             <NodeRef refid="948"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSSNSGetPlatformApplicationAttributesResponse/attributes</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Attributes include the following:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;code&gt;EventEndpointCreated&lt;/code&gt; -- Topic ARN to which EndpointCreated event notifications should be sent.&lt;/li&gt;&lt;li&gt;&lt;code&gt;EventEndpointDeleted&lt;/code&gt; -- Topic ARN to which EndpointDeleted event notifications should be sent.&lt;/li&gt;&lt;li&gt;&lt;code&gt;EventEndpointUpdated&lt;/code&gt; -- Topic ARN to which EndpointUpdate event notifications should be sent.&lt;/li&gt;&lt;li&gt;&lt;code&gt;EventDeliveryFailure&lt;/code&gt; -- Topic ARN to which DeliveryFailure event notifications should be sent upon Direct Publish delivery failure (permanent) to one of the application&apos;s endpoints.&lt;/li&gt;&lt;/ul&gt;</Abstract>
-			<DeclaredIn>AWSSNSModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSSESContent/charset</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The character set of the content.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSESModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSDictionary *attributes</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *charset</Declaration>
 			
 			
-			<Anchor>//api/name/attributes</Anchor>
+			<Anchor>//api/name/charset</Anchor>
+            <NodeRef refid="948"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSESContent/setData:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The textual data of the content.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSESModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *data</Declaration>
+			
+			
+			<Anchor>//api/name/data</Anchor>
+            <NodeRef refid="948"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSESContent/data</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The textual data of the content.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSESModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *data</Declaration>
+			
+			
+			<Anchor>//api/name/data</Anchor>
+            <NodeRef refid="948"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSSESContent/data</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The textual data of the content.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSESModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *data</Declaration>
+			
+			
+			<Anchor>//api/name/data</Anchor>
             <NodeRef refid="948"/>
 		</Token>
 		

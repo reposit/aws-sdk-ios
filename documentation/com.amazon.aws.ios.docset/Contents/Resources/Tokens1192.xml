@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Constants/AWSRegionType.html">
+	<File path="Constants/AWSEC2PlacementGroupState.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/c/tdef/AWSRegionType</TokenIdentifier>
-			<Abstract type="html">Copyright 2010-2015 Amazon.com, Inc. or its affiliates. All Rights Reserved.</Abstract>
-			<DeclaredIn>AWSServiceEnum.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/c/tdef/AWSEC2PlacementGroupState</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
             
 			
 			<NodeRef refid="1192"/>
@@ -14,111 +14,51 @@
 		
         
         <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSRegionUnknown</TokenIdentifier>
+            <TokenIdentifier>//apple_ref/c/econst/AWSEC2PlacementGroupStateUnknown</TokenIdentifier>
             <Abstract type="html"></Abstract>
-            <Declaration>AWSRegionUnknown</Declaration>
+            <Declaration>AWSEC2PlacementGroupStateUnknown</Declaration>
             
-            <DeclaredIn>AWSServiceEnum.h</DeclaredIn>
+            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
             
             <NodeRef refid="1192"/>
         </Token>
         
         <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSRegionUSEast1</TokenIdentifier>
+            <TokenIdentifier>//apple_ref/c/econst/AWSEC2PlacementGroupStatePending</TokenIdentifier>
             <Abstract type="html"></Abstract>
-            <Declaration>AWSRegionUSEast1</Declaration>
+            <Declaration>AWSEC2PlacementGroupStatePending</Declaration>
             
-            <DeclaredIn>AWSServiceEnum.h</DeclaredIn>
+            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
             
             <NodeRef refid="1192"/>
         </Token>
         
         <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSRegionUSWest1</TokenIdentifier>
+            <TokenIdentifier>//apple_ref/c/econst/AWSEC2PlacementGroupStateAvailable</TokenIdentifier>
             <Abstract type="html"></Abstract>
-            <Declaration>AWSRegionUSWest1</Declaration>
+            <Declaration>AWSEC2PlacementGroupStateAvailable</Declaration>
             
-            <DeclaredIn>AWSServiceEnum.h</DeclaredIn>
+            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
             
             <NodeRef refid="1192"/>
         </Token>
         
         <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSRegionUSWest2</TokenIdentifier>
+            <TokenIdentifier>//apple_ref/c/econst/AWSEC2PlacementGroupStateDeleting</TokenIdentifier>
             <Abstract type="html"></Abstract>
-            <Declaration>AWSRegionUSWest2</Declaration>
+            <Declaration>AWSEC2PlacementGroupStateDeleting</Declaration>
             
-            <DeclaredIn>AWSServiceEnum.h</DeclaredIn>
+            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
             
             <NodeRef refid="1192"/>
         </Token>
         
         <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSRegionEUWest1</TokenIdentifier>
+            <TokenIdentifier>//apple_ref/c/econst/AWSEC2PlacementGroupStateDeleted</TokenIdentifier>
             <Abstract type="html"></Abstract>
-            <Declaration>AWSRegionEUWest1</Declaration>
+            <Declaration>AWSEC2PlacementGroupStateDeleted</Declaration>
             
-            <DeclaredIn>AWSServiceEnum.h</DeclaredIn>
-            
-            <NodeRef refid="1192"/>
-        </Token>
-        
-        <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSRegionEUCentral1</TokenIdentifier>
-            <Abstract type="html"></Abstract>
-            <Declaration>AWSRegionEUCentral1</Declaration>
-            
-            <DeclaredIn>AWSServiceEnum.h</DeclaredIn>
-            
-            <NodeRef refid="1192"/>
-        </Token>
-        
-        <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSRegionAPSoutheast1</TokenIdentifier>
-            <Abstract type="html"></Abstract>
-            <Declaration>AWSRegionAPSoutheast1</Declaration>
-            
-            <DeclaredIn>AWSServiceEnum.h</DeclaredIn>
-            
-            <NodeRef refid="1192"/>
-        </Token>
-        
-        <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSRegionAPNortheast1</TokenIdentifier>
-            <Abstract type="html"></Abstract>
-            <Declaration>AWSRegionAPNortheast1</Declaration>
-            
-            <DeclaredIn>AWSServiceEnum.h</DeclaredIn>
-            
-            <NodeRef refid="1192"/>
-        </Token>
-        
-        <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSRegionAPSoutheast2</TokenIdentifier>
-            <Abstract type="html"></Abstract>
-            <Declaration>AWSRegionAPSoutheast2</Declaration>
-            
-            <DeclaredIn>AWSServiceEnum.h</DeclaredIn>
-            
-            <NodeRef refid="1192"/>
-        </Token>
-        
-        <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSRegionSAEast1</TokenIdentifier>
-            <Abstract type="html"></Abstract>
-            <Declaration>AWSRegionSAEast1</Declaration>
-            
-            <DeclaredIn>AWSServiceEnum.h</DeclaredIn>
-            
-            <NodeRef refid="1192"/>
-        </Token>
-        
-        <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSRegionCNNorth1</TokenIdentifier>
-            <Abstract type="html"></Abstract>
-            <Declaration>AWSRegionCNNorth1</Declaration>
-            
-            <DeclaredIn>AWSServiceEnum.h</DeclaredIn>
+            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
             
             <NodeRef refid="1192"/>
         </Token>

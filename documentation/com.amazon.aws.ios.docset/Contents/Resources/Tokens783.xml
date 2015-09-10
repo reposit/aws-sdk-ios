@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSS3DeleteMarkerEntry.html">
+	<File path="Classes/AWSLambdaListEventSourceMappingsRequest.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSS3DeleteMarkerEntry</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSLambdaListEventSourceMappingsRequest</TokenIdentifier>
 			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			<DeclaredIn>AWSLambdaModel.h</DeclaredIn>
             
 			
 			<NodeRef refid="783"/>
@@ -13,182 +13,146 @@
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3DeleteMarkerEntry/setIsLatest:</TokenIdentifier>
-			<Abstract type="html">Specifies whether the object is (true) or is not (false) the latest version of an object.</Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSLambdaListEventSourceMappingsRequest/setEventSourceArn:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The Amazon Resource Name (ARN) of the Amazon Kinesis stream.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSLambdaModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSNumber *isLatest</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *eventSourceArn</Declaration>
 			
 			
-			<Anchor>//api/name/isLatest</Anchor>
+			<Anchor>//api/name/eventSourceArn</Anchor>
             <NodeRef refid="783"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3DeleteMarkerEntry/isLatest</TokenIdentifier>
-			<Abstract type="html">Specifies whether the object is (true) or is not (false) the latest version of an object.</Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSLambdaListEventSourceMappingsRequest/eventSourceArn</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The Amazon Resource Name (ARN) of the Amazon Kinesis stream.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSLambdaModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSNumber *isLatest</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *eventSourceArn</Declaration>
 			
 			
-			<Anchor>//api/name/isLatest</Anchor>
+			<Anchor>//api/name/eventSourceArn</Anchor>
             <NodeRef refid="783"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSS3DeleteMarkerEntry/isLatest</TokenIdentifier>
-			<Abstract type="html">Specifies whether the object is (true) or is not (false) the latest version of an object.</Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSLambdaListEventSourceMappingsRequest/eventSourceArn</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The Amazon Resource Name (ARN) of the Amazon Kinesis stream.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSLambdaModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSNumber *isLatest</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *eventSourceArn</Declaration>
 			
 			
-			<Anchor>//api/name/isLatest</Anchor>
+			<Anchor>//api/name/eventSourceArn</Anchor>
             <NodeRef refid="783"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3DeleteMarkerEntry/setKey:</TokenIdentifier>
-			<Abstract type="html">The object key.</Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSLambdaListEventSourceMappingsRequest/setFunctionName:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The name of the Lambda function.&lt;/p&gt;&lt;p&gt; You can specify an unqualified function name (for example, &quot;Thumbnail&quot;) or you can specify Amazon Resource Name (ARN) of the function (for example, &quot;arn:aws:lambda:us-west-2:account-id:function:ThumbNail&quot;). AWS Lambda also allows you to specify only the account ID qualifier (for example, &quot;account-id:Thumbnail&quot;). Note that the length constraint applies only to the ARN. If you specify only the function name, it is limited to 64 character in length. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSLambdaModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *key</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *functionName</Declaration>
 			
 			
-			<Anchor>//api/name/key</Anchor>
+			<Anchor>//api/name/functionName</Anchor>
             <NodeRef refid="783"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3DeleteMarkerEntry/key</TokenIdentifier>
-			<Abstract type="html">The object key.</Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSLambdaListEventSourceMappingsRequest/functionName</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The name of the Lambda function.&lt;/p&gt;&lt;p&gt; You can specify an unqualified function name (for example, &quot;Thumbnail&quot;) or you can specify Amazon Resource Name (ARN) of the function (for example, &quot;arn:aws:lambda:us-west-2:account-id:function:ThumbNail&quot;). AWS Lambda also allows you to specify only the account ID qualifier (for example, &quot;account-id:Thumbnail&quot;). Note that the length constraint applies only to the ARN. If you specify only the function name, it is limited to 64 character in length. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSLambdaModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *key</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *functionName</Declaration>
 			
 			
-			<Anchor>//api/name/key</Anchor>
+			<Anchor>//api/name/functionName</Anchor>
             <NodeRef refid="783"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSS3DeleteMarkerEntry/key</TokenIdentifier>
-			<Abstract type="html">The object key.</Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSLambdaListEventSourceMappingsRequest/functionName</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The name of the Lambda function.&lt;/p&gt;&lt;p&gt; You can specify an unqualified function name (for example, &quot;Thumbnail&quot;) or you can specify Amazon Resource Name (ARN) of the function (for example, &quot;arn:aws:lambda:us-west-2:account-id:function:ThumbNail&quot;). AWS Lambda also allows you to specify only the account ID qualifier (for example, &quot;account-id:Thumbnail&quot;). Note that the length constraint applies only to the ARN. If you specify only the function name, it is limited to 64 character in length. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSLambdaModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *key</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *functionName</Declaration>
 			
 			
-			<Anchor>//api/name/key</Anchor>
+			<Anchor>//api/name/functionName</Anchor>
             <NodeRef refid="783"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3DeleteMarkerEntry/setLastModified:</TokenIdentifier>
-			<Abstract type="html">Date and time the object was last modified.</Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSLambdaListEventSourceMappingsRequest/setMarker:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Optional string. An opaque pagination token returned from a previous &lt;code&gt;ListEventSourceMappings&lt;/code&gt; operation. If present, specifies to continue the list from where the returning call left off. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSLambdaModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSDate *lastModified</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *marker</Declaration>
 			
 			
-			<Anchor>//api/name/lastModified</Anchor>
+			<Anchor>//api/name/marker</Anchor>
             <NodeRef refid="783"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3DeleteMarkerEntry/lastModified</TokenIdentifier>
-			<Abstract type="html">Date and time the object was last modified.</Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSLambdaListEventSourceMappingsRequest/marker</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Optional string. An opaque pagination token returned from a previous &lt;code&gt;ListEventSourceMappings&lt;/code&gt; operation. If present, specifies to continue the list from where the returning call left off. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSLambdaModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSDate *lastModified</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *marker</Declaration>
 			
 			
-			<Anchor>//api/name/lastModified</Anchor>
+			<Anchor>//api/name/marker</Anchor>
             <NodeRef refid="783"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSS3DeleteMarkerEntry/lastModified</TokenIdentifier>
-			<Abstract type="html">Date and time the object was last modified.</Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSLambdaListEventSourceMappingsRequest/marker</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Optional string. An opaque pagination token returned from a previous &lt;code&gt;ListEventSourceMappings&lt;/code&gt; operation. If present, specifies to continue the list from where the returning call left off. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSLambdaModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSDate *lastModified</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *marker</Declaration>
 			
 			
-			<Anchor>//api/name/lastModified</Anchor>
+			<Anchor>//api/name/marker</Anchor>
             <NodeRef refid="783"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3DeleteMarkerEntry/setOwner:</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSLambdaListEventSourceMappingsRequest/setMaxItems:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Optional integer. Specifies the maximum number of event sources to return in response. This value must be greater than 0.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSLambdaModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) AWSS3Owner *owner</Declaration>
+			<Declaration>@property (nonatomic, strong) NSNumber *maxItems</Declaration>
 			
 			
-			<Anchor>//api/name/owner</Anchor>
+			<Anchor>//api/name/maxItems</Anchor>
             <NodeRef refid="783"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3DeleteMarkerEntry/owner</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSLambdaListEventSourceMappingsRequest/maxItems</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Optional integer. Specifies the maximum number of event sources to return in response. This value must be greater than 0.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSLambdaModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) AWSS3Owner *owner</Declaration>
+			<Declaration>@property (nonatomic, strong) NSNumber *maxItems</Declaration>
 			
 			
-			<Anchor>//api/name/owner</Anchor>
+			<Anchor>//api/name/maxItems</Anchor>
             <NodeRef refid="783"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSS3DeleteMarkerEntry/owner</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSLambdaListEventSourceMappingsRequest/maxItems</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Optional integer. Specifies the maximum number of event sources to return in response. This value must be greater than 0.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSLambdaModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) AWSS3Owner *owner</Declaration>
-			
-			
-			<Anchor>//api/name/owner</Anchor>
-            <NodeRef refid="783"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3DeleteMarkerEntry/setVersionId:</TokenIdentifier>
-			<Abstract type="html">Version ID of an object.</Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *versionId</Declaration>
+			<Declaration>@property (nonatomic, strong) NSNumber *maxItems</Declaration>
 			
 			
-			<Anchor>//api/name/versionId</Anchor>
-            <NodeRef refid="783"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3DeleteMarkerEntry/versionId</TokenIdentifier>
-			<Abstract type="html">Version ID of an object.</Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *versionId</Declaration>
-			
-			
-			<Anchor>//api/name/versionId</Anchor>
-            <NodeRef refid="783"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSS3DeleteMarkerEntry/versionId</TokenIdentifier>
-			<Abstract type="html">Version ID of an object.</Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *versionId</Declaration>
-			
-			
-			<Anchor>//api/name/versionId</Anchor>
+			<Anchor>//api/name/maxItems</Anchor>
             <NodeRef refid="783"/>
 		</Token>
 		

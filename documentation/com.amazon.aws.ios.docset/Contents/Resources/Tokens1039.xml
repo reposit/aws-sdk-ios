@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSSimpleDBBatchPutAttributesRequest.html">
+	<File path="Classes/AWSSQSChangeMessageVisibilityBatchResultEntry.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSSimpleDBBatchPutAttributesRequest</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSSimpleDBModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSSQSChangeMessageVisibilityBatchResultEntry</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Encloses the id of an entry in &lt;a&gt;ChangeMessageVisibilityBatch&lt;/a&gt;.&lt;/p&gt;
+Required parameters: [Id]</Abstract>
+			<DeclaredIn>AWSSQSModel.h</DeclaredIn>
             
 			
 			<NodeRef refid="1039"/>
@@ -13,74 +14,38 @@
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSSimpleDBBatchPutAttributesRequest/setDomainName:</TokenIdentifier>
-			<Abstract type="html">The name of the domain in which the attributes are being stored.</Abstract>
-			<DeclaredIn>AWSSimpleDBModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSQSChangeMessageVisibilityBatchResultEntry/setIdentifier:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Represents a message whose visibility timeout has been changed successfully.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSQSModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *domainName</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *identifier</Declaration>
 			
 			
-			<Anchor>//api/name/domainName</Anchor>
+			<Anchor>//api/name/identifier</Anchor>
             <NodeRef refid="1039"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSSimpleDBBatchPutAttributesRequest/domainName</TokenIdentifier>
-			<Abstract type="html">The name of the domain in which the attributes are being stored.</Abstract>
-			<DeclaredIn>AWSSimpleDBModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSQSChangeMessageVisibilityBatchResultEntry/identifier</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Represents a message whose visibility timeout has been changed successfully.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSQSModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *domainName</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *identifier</Declaration>
 			
 			
-			<Anchor>//api/name/domainName</Anchor>
+			<Anchor>//api/name/identifier</Anchor>
             <NodeRef refid="1039"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSSimpleDBBatchPutAttributesRequest/domainName</TokenIdentifier>
-			<Abstract type="html">The name of the domain in which the attributes are being stored.</Abstract>
-			<DeclaredIn>AWSSimpleDBModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSSQSChangeMessageVisibilityBatchResultEntry/identifier</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Represents a message whose visibility timeout has been changed successfully.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSQSModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *domainName</Declaration>
-			
-			
-			<Anchor>//api/name/domainName</Anchor>
-            <NodeRef refid="1039"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSSimpleDBBatchPutAttributesRequest/setItems:</TokenIdentifier>
-			<Abstract type="html">A list of items on which to perform the operation.</Abstract>
-			<DeclaredIn>AWSSimpleDBModel.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSArray *items</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *identifier</Declaration>
 			
 			
-			<Anchor>//api/name/items</Anchor>
-            <NodeRef refid="1039"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSSimpleDBBatchPutAttributesRequest/items</TokenIdentifier>
-			<Abstract type="html">A list of items on which to perform the operation.</Abstract>
-			<DeclaredIn>AWSSimpleDBModel.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSArray *items</Declaration>
-			
-			
-			<Anchor>//api/name/items</Anchor>
-            <NodeRef refid="1039"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSSimpleDBBatchPutAttributesRequest/items</TokenIdentifier>
-			<Abstract type="html">A list of items on which to perform the operation.</Abstract>
-			<DeclaredIn>AWSSimpleDBModel.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSArray *items</Declaration>
-			
-			
-			<Anchor>//api/name/items</Anchor>
+			<Anchor>//api/name/identifier</Anchor>
             <NodeRef refid="1039"/>
 		</Token>
 		

@@ -1,18 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSAbstractCognitoIdentityProvider.html">
+	<File path="Classes/AWSAPIGatewayClient.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSAbstractCognitoIdentityProvider</TokenIdentifier>
-			<Abstract type="html">An abstract implementation of the AWSCognitoIdentityProvider. Developers should extend this class
-when they want to implement developer authenticated identities and want to support the basic
-Amazon Cognito authflow in the same application.</Abstract>
-			<DeclaredIn>AWSIdentityProvider.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSAPIGatewayClient</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSAPIGatewayClient.h</DeclaredIn>
             
 			
 			<NodeRef refid="1"/>
 		</Token>
 		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSAPIGatewayClient/requestURL:query:URLPathComponentsDictionary:</TokenIdentifier>
+			<Abstract type="html">                     Preemptively refresh credentials if any of the following is true:
+                     1. accessKey or secretKey is nil.
+                     2. the credentials expires within 10 minutes.
+                     </Abstract>
+			<DeclaredIn>AWSAPIGatewayClient.m</DeclaredIn>
+			
+			<Declaration>- (NSURL *)requestURL:(NSString *)URLString query:(NSDictionary *)query URLPathComponentsDictionary:(NSDictionary *)URLPathComponentsDictionary</Declaration>
+			
+			
+			<Anchor>//api/name/requestURL:query:URLPathComponentsDictionary:</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
 		
         
         

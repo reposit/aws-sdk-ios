@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Constants/AWSS3BucketCannedACL.html">
+	<File path="Constants/AWSEC2PlacementStrategy.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/c/tdef/AWSS3BucketCannedACL</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/c/tdef/AWSEC2PlacementStrategy</TokenIdentifier>
 			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
             
 			
 			<NodeRef refid="1193"/>
@@ -14,51 +14,21 @@
 		
         
         <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSS3BucketCannedACLUnknown</TokenIdentifier>
+            <TokenIdentifier>//apple_ref/c/econst/AWSEC2PlacementStrategyUnknown</TokenIdentifier>
             <Abstract type="html"></Abstract>
-            <Declaration>AWSS3BucketCannedACLUnknown</Declaration>
+            <Declaration>AWSEC2PlacementStrategyUnknown</Declaration>
             
-            <DeclaredIn>AWSS3Model.h</DeclaredIn>
+            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
             
             <NodeRef refid="1193"/>
         </Token>
         
         <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSS3BucketCannedACLPrivate</TokenIdentifier>
+            <TokenIdentifier>//apple_ref/c/econst/AWSEC2PlacementStrategyCluster</TokenIdentifier>
             <Abstract type="html"></Abstract>
-            <Declaration>AWSS3BucketCannedACLPrivate</Declaration>
+            <Declaration>AWSEC2PlacementStrategyCluster</Declaration>
             
-            <DeclaredIn>AWSS3Model.h</DeclaredIn>
-            
-            <NodeRef refid="1193"/>
-        </Token>
-        
-        <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSS3BucketCannedACLPublicRead</TokenIdentifier>
-            <Abstract type="html"></Abstract>
-            <Declaration>AWSS3BucketCannedACLPublicRead</Declaration>
-            
-            <DeclaredIn>AWSS3Model.h</DeclaredIn>
-            
-            <NodeRef refid="1193"/>
-        </Token>
-        
-        <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSS3BucketCannedACLPublicReadWrite</TokenIdentifier>
-            <Abstract type="html"></Abstract>
-            <Declaration>AWSS3BucketCannedACLPublicReadWrite</Declaration>
-            
-            <DeclaredIn>AWSS3Model.h</DeclaredIn>
-            
-            <NodeRef refid="1193"/>
-        </Token>
-        
-        <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSS3BucketCannedACLAuthenticatedRead</TokenIdentifier>
-            <Abstract type="html"></Abstract>
-            <Declaration>AWSS3BucketCannedACLAuthenticatedRead</Declaration>
-            
-            <DeclaredIn>AWSS3Model.h</DeclaredIn>
+            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
             
             <NodeRef refid="1193"/>
         </Token>

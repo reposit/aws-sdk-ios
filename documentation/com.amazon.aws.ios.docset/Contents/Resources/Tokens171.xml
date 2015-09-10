@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSCognitoSyncListDatasetsResponse.html">
+	<File path="Classes/AWSCognitoSyncGetCognitoEventsResponse.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSCognitoSyncListDatasetsResponse</TokenIdentifier>
-			<Abstract type="html">Returned for a successful ListDatasets request.</Abstract>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSCognitoSyncGetCognitoEventsResponse</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The response from the GetCognitoEvents request&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSCognitoSyncModel.h</DeclaredIn>
             
 			
@@ -13,110 +13,38 @@
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoSyncListDatasetsResponse/setCount:</TokenIdentifier>
-			<Abstract type="html">Number of datasets returned.</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoSyncGetCognitoEventsResponse/setEvents:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The Cognito Events returned from the GetCognitoEvents request&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSCognitoSyncModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSNumber *count</Declaration>
+			<Declaration>@property (nonatomic, strong) NSDictionary *events</Declaration>
 			
 			
-			<Anchor>//api/name/count</Anchor>
+			<Anchor>//api/name/events</Anchor>
             <NodeRef refid="171"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoSyncListDatasetsResponse/count</TokenIdentifier>
-			<Abstract type="html">Number of datasets returned.</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoSyncGetCognitoEventsResponse/events</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The Cognito Events returned from the GetCognitoEvents request&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSCognitoSyncModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSNumber *count</Declaration>
+			<Declaration>@property (nonatomic, strong) NSDictionary *events</Declaration>
 			
 			
-			<Anchor>//api/name/count</Anchor>
+			<Anchor>//api/name/events</Anchor>
             <NodeRef refid="171"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSCognitoSyncListDatasetsResponse/count</TokenIdentifier>
-			<Abstract type="html">Number of datasets returned.</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSCognitoSyncGetCognitoEventsResponse/events</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The Cognito Events returned from the GetCognitoEvents request&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSCognitoSyncModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSNumber *count</Declaration>
+			<Declaration>@property (nonatomic, strong) NSDictionary *events</Declaration>
 			
 			
-			<Anchor>//api/name/count</Anchor>
-            <NodeRef refid="171"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoSyncListDatasetsResponse/setDatasets:</TokenIdentifier>
-			<Abstract type="html">A set of datasets.</Abstract>
-			<DeclaredIn>AWSCognitoSyncModel.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSArray *datasets</Declaration>
-			
-			
-			<Anchor>//api/name/datasets</Anchor>
-            <NodeRef refid="171"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoSyncListDatasetsResponse/datasets</TokenIdentifier>
-			<Abstract type="html">A set of datasets.</Abstract>
-			<DeclaredIn>AWSCognitoSyncModel.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSArray *datasets</Declaration>
-			
-			
-			<Anchor>//api/name/datasets</Anchor>
-            <NodeRef refid="171"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSCognitoSyncListDatasetsResponse/datasets</TokenIdentifier>
-			<Abstract type="html">A set of datasets.</Abstract>
-			<DeclaredIn>AWSCognitoSyncModel.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSArray *datasets</Declaration>
-			
-			
-			<Anchor>//api/name/datasets</Anchor>
-            <NodeRef refid="171"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoSyncListDatasetsResponse/setNextToken:</TokenIdentifier>
-			<Abstract type="html">A pagination token for obtaining the next page of results.</Abstract>
-			<DeclaredIn>AWSCognitoSyncModel.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *nextToken</Declaration>
-			
-			
-			<Anchor>//api/name/nextToken</Anchor>
-            <NodeRef refid="171"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoSyncListDatasetsResponse/nextToken</TokenIdentifier>
-			<Abstract type="html">A pagination token for obtaining the next page of results.</Abstract>
-			<DeclaredIn>AWSCognitoSyncModel.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *nextToken</Declaration>
-			
-			
-			<Anchor>//api/name/nextToken</Anchor>
-            <NodeRef refid="171"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSCognitoSyncListDatasetsResponse/nextToken</TokenIdentifier>
-			<Abstract type="html">A pagination token for obtaining the next page of results.</Abstract>
-			<DeclaredIn>AWSCognitoSyncModel.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *nextToken</Declaration>
-			
-			
-			<Anchor>//api/name/nextToken</Anchor>
+			<Anchor>//api/name/events</Anchor>
             <NodeRef refid="171"/>
 		</Token>
 		

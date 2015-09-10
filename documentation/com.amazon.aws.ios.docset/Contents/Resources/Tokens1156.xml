@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Constants/AWSEC2ShutdownBehavior.html">
+	<File path="Constants/AWSDynamoDBStreamViewType.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/c/tdef/AWSEC2ShutdownBehavior</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/c/tdef/AWSDynamoDBStreamViewType</TokenIdentifier>
 			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			<DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
             
 			
 			<NodeRef refid="1156"/>
@@ -14,31 +14,51 @@
 		
         
         <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSEC2ShutdownBehaviorUnknown</TokenIdentifier>
+            <TokenIdentifier>//apple_ref/c/econst/AWSDynamoDBStreamViewTypeUnknown</TokenIdentifier>
             <Abstract type="html"></Abstract>
-            <Declaration>AWSEC2ShutdownBehaviorUnknown</Declaration>
+            <Declaration>AWSDynamoDBStreamViewTypeUnknown</Declaration>
             
-            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
+            <DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
             
             <NodeRef refid="1156"/>
         </Token>
         
         <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSEC2ShutdownBehaviorStop</TokenIdentifier>
+            <TokenIdentifier>//apple_ref/c/econst/AWSDynamoDBStreamViewTypeNewImage</TokenIdentifier>
             <Abstract type="html"></Abstract>
-            <Declaration>AWSEC2ShutdownBehaviorStop</Declaration>
+            <Declaration>AWSDynamoDBStreamViewTypeNewImage</Declaration>
             
-            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
+            <DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
             
             <NodeRef refid="1156"/>
         </Token>
         
         <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSEC2ShutdownBehaviorTerminate</TokenIdentifier>
+            <TokenIdentifier>//apple_ref/c/econst/AWSDynamoDBStreamViewTypeOldImage</TokenIdentifier>
             <Abstract type="html"></Abstract>
-            <Declaration>AWSEC2ShutdownBehaviorTerminate</Declaration>
+            <Declaration>AWSDynamoDBStreamViewTypeOldImage</Declaration>
             
-            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
+            <DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
+            
+            <NodeRef refid="1156"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/AWSDynamoDBStreamViewTypeNewAndOldImages</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>AWSDynamoDBStreamViewTypeNewAndOldImages</Declaration>
+            
+            <DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
+            
+            <NodeRef refid="1156"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/AWSDynamoDBStreamViewTypeKeysOnly</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>AWSDynamoDBStreamViewTypeKeysOnly</Declaration>
+            
+            <DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
             
             <NodeRef refid="1156"/>
         </Token>

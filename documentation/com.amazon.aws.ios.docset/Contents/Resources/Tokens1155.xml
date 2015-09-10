@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Constants/AWSEC2RuleAction.html">
+	<File path="Constants/AWSDynamoDBSelect.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/c/tdef/AWSEC2RuleAction</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/c/tdef/AWSDynamoDBSelect</TokenIdentifier>
 			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			<DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
             
 			
 			<NodeRef refid="1155"/>
@@ -14,31 +14,51 @@
 		
         
         <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSEC2RuleActionUnknown</TokenIdentifier>
+            <TokenIdentifier>//apple_ref/c/econst/AWSDynamoDBSelectUnknown</TokenIdentifier>
             <Abstract type="html"></Abstract>
-            <Declaration>AWSEC2RuleActionUnknown</Declaration>
+            <Declaration>AWSDynamoDBSelectUnknown</Declaration>
             
-            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
+            <DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
             
             <NodeRef refid="1155"/>
         </Token>
         
         <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSEC2RuleActionAllow</TokenIdentifier>
+            <TokenIdentifier>//apple_ref/c/econst/AWSDynamoDBSelectAllAttributes</TokenIdentifier>
             <Abstract type="html"></Abstract>
-            <Declaration>AWSEC2RuleActionAllow</Declaration>
+            <Declaration>AWSDynamoDBSelectAllAttributes</Declaration>
             
-            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
+            <DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
             
             <NodeRef refid="1155"/>
         </Token>
         
         <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSEC2RuleActionDeny</TokenIdentifier>
+            <TokenIdentifier>//apple_ref/c/econst/AWSDynamoDBSelectAllProjectedAttributes</TokenIdentifier>
             <Abstract type="html"></Abstract>
-            <Declaration>AWSEC2RuleActionDeny</Declaration>
+            <Declaration>AWSDynamoDBSelectAllProjectedAttributes</Declaration>
             
-            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
+            <DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
+            
+            <NodeRef refid="1155"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/AWSDynamoDBSelectSpecificAttributes</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>AWSDynamoDBSelectSpecificAttributes</Declaration>
+            
+            <DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
+            
+            <NodeRef refid="1155"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/AWSDynamoDBSelectCount</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>AWSDynamoDBSelectCount</Declaration>
+            
+            <DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
             
             <NodeRef refid="1155"/>
         </Token>

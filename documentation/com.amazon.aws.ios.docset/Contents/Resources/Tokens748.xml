@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSMobileAnalyticsERSEvent.html">
+	<File path="Classes/AWSKinesisPutRecordsOutput.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSMobileAnalyticsERSEvent</TokenIdentifier>
-			<Abstract type="html">Represents a single event that happened on a client device. Attributes and metrics are optional.
-Required parameters: [eventType, timestamp, session]</Abstract>
-			<DeclaredIn>AWSMobileAnalyticsERSModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSKinesisPutRecordsOutput</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;&lt;code&gt;PutRecords&lt;/code&gt; results.&lt;/p&gt;
+Required parameters: [Records]</Abstract>
+			<DeclaredIn>AWSKinesisModel.h</DeclaredIn>
             
 			
 			<NodeRef refid="748"/>
@@ -14,218 +14,74 @@ Required parameters: [eventType, timestamp, session]</Abstract>
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSMobileAnalyticsERSEvent/setAttributes:</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSMobileAnalyticsERSModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSKinesisPutRecordsOutput/setFailedRecordCount:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The number of unsuccessfully processed records in a &lt;code&gt;PutRecords&lt;/code&gt; request.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSKinesisModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSDictionary *attributes</Declaration>
+			<Declaration>@property (nonatomic, strong) NSNumber *failedRecordCount</Declaration>
 			
 			
-			<Anchor>//api/name/attributes</Anchor>
+			<Anchor>//api/name/failedRecordCount</Anchor>
             <NodeRef refid="748"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSMobileAnalyticsERSEvent/attributes</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSMobileAnalyticsERSModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSKinesisPutRecordsOutput/failedRecordCount</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The number of unsuccessfully processed records in a &lt;code&gt;PutRecords&lt;/code&gt; request.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSKinesisModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSDictionary *attributes</Declaration>
+			<Declaration>@property (nonatomic, strong) NSNumber *failedRecordCount</Declaration>
 			
 			
-			<Anchor>//api/name/attributes</Anchor>
+			<Anchor>//api/name/failedRecordCount</Anchor>
             <NodeRef refid="748"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSMobileAnalyticsERSEvent/attributes</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSMobileAnalyticsERSModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSKinesisPutRecordsOutput/failedRecordCount</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The number of unsuccessfully processed records in a &lt;code&gt;PutRecords&lt;/code&gt; request.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSKinesisModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSDictionary *attributes</Declaration>
+			<Declaration>@property (nonatomic, strong) NSNumber *failedRecordCount</Declaration>
 			
 			
-			<Anchor>//api/name/attributes</Anchor>
+			<Anchor>//api/name/failedRecordCount</Anchor>
             <NodeRef refid="748"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSMobileAnalyticsERSEvent/setEventType:</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSMobileAnalyticsERSModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSKinesisPutRecordsOutput/setRecords:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;An array of successfully and unsuccessfully processed record results, correlated with the request by natural ordering. A record that is successfully added to your Amazon Kinesis stream includes &lt;code&gt;SequenceNumber&lt;/code&gt; and &lt;code&gt;ShardId&lt;/code&gt; in the result. A record that fails to be added to your Amazon Kinesis stream includes &lt;code&gt;ErrorCode&lt;/code&gt; and &lt;code&gt;ErrorMessage&lt;/code&gt; in the result.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSKinesisModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *eventType</Declaration>
+			<Declaration>@property (nonatomic, strong) NSArray *records</Declaration>
 			
 			
-			<Anchor>//api/name/eventType</Anchor>
+			<Anchor>//api/name/records</Anchor>
             <NodeRef refid="748"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSMobileAnalyticsERSEvent/eventType</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSMobileAnalyticsERSModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSKinesisPutRecordsOutput/records</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;An array of successfully and unsuccessfully processed record results, correlated with the request by natural ordering. A record that is successfully added to your Amazon Kinesis stream includes &lt;code&gt;SequenceNumber&lt;/code&gt; and &lt;code&gt;ShardId&lt;/code&gt; in the result. A record that fails to be added to your Amazon Kinesis stream includes &lt;code&gt;ErrorCode&lt;/code&gt; and &lt;code&gt;ErrorMessage&lt;/code&gt; in the result.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSKinesisModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *eventType</Declaration>
+			<Declaration>@property (nonatomic, strong) NSArray *records</Declaration>
 			
 			
-			<Anchor>//api/name/eventType</Anchor>
+			<Anchor>//api/name/records</Anchor>
             <NodeRef refid="748"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSMobileAnalyticsERSEvent/eventType</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSMobileAnalyticsERSModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSKinesisPutRecordsOutput/records</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;An array of successfully and unsuccessfully processed record results, correlated with the request by natural ordering. A record that is successfully added to your Amazon Kinesis stream includes &lt;code&gt;SequenceNumber&lt;/code&gt; and &lt;code&gt;ShardId&lt;/code&gt; in the result. A record that fails to be added to your Amazon Kinesis stream includes &lt;code&gt;ErrorCode&lt;/code&gt; and &lt;code&gt;ErrorMessage&lt;/code&gt; in the result.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSKinesisModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *eventType</Declaration>
-			
-			
-			<Anchor>//api/name/eventType</Anchor>
-            <NodeRef refid="748"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSMobileAnalyticsERSEvent/setMetrics:</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSMobileAnalyticsERSModel.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSDictionary *metrics</Declaration>
+			<Declaration>@property (nonatomic, strong) NSArray *records</Declaration>
 			
 			
-			<Anchor>//api/name/metrics</Anchor>
-            <NodeRef refid="748"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSMobileAnalyticsERSEvent/metrics</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSMobileAnalyticsERSModel.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSDictionary *metrics</Declaration>
-			
-			
-			<Anchor>//api/name/metrics</Anchor>
-            <NodeRef refid="748"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSMobileAnalyticsERSEvent/metrics</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSMobileAnalyticsERSModel.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSDictionary *metrics</Declaration>
-			
-			
-			<Anchor>//api/name/metrics</Anchor>
-            <NodeRef refid="748"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSMobileAnalyticsERSEvent/setSession:</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSMobileAnalyticsERSModel.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) AWSMobileAnalyticsERSSession *session</Declaration>
-			
-			
-			<Anchor>//api/name/session</Anchor>
-            <NodeRef refid="748"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSMobileAnalyticsERSEvent/session</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSMobileAnalyticsERSModel.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) AWSMobileAnalyticsERSSession *session</Declaration>
-			
-			
-			<Anchor>//api/name/session</Anchor>
-            <NodeRef refid="748"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSMobileAnalyticsERSEvent/session</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSMobileAnalyticsERSModel.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) AWSMobileAnalyticsERSSession *session</Declaration>
-			
-			
-			<Anchor>//api/name/session</Anchor>
-            <NodeRef refid="748"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSMobileAnalyticsERSEvent/setTimestamp:</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSMobileAnalyticsERSModel.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *timestamp</Declaration>
-			
-			
-			<Anchor>//api/name/timestamp</Anchor>
-            <NodeRef refid="748"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSMobileAnalyticsERSEvent/timestamp</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSMobileAnalyticsERSModel.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *timestamp</Declaration>
-			
-			
-			<Anchor>//api/name/timestamp</Anchor>
-            <NodeRef refid="748"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSMobileAnalyticsERSEvent/timestamp</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSMobileAnalyticsERSModel.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *timestamp</Declaration>
-			
-			
-			<Anchor>//api/name/timestamp</Anchor>
-            <NodeRef refid="748"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSMobileAnalyticsERSEvent/setVersion:</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSMobileAnalyticsERSModel.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *version</Declaration>
-			
-			
-			<Anchor>//api/name/version</Anchor>
-            <NodeRef refid="748"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSMobileAnalyticsERSEvent/version</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSMobileAnalyticsERSModel.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *version</Declaration>
-			
-			
-			<Anchor>//api/name/version</Anchor>
-            <NodeRef refid="748"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSMobileAnalyticsERSEvent/version</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSMobileAnalyticsERSModel.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *version</Declaration>
-			
-			
-			<Anchor>//api/name/version</Anchor>
+			<Anchor>//api/name/records</Anchor>
             <NodeRef refid="748"/>
 		</Token>
 		

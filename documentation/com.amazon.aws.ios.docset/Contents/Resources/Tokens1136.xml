@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Constants/AWSEC2MonitoringState.html">
+	<File path="Constants/AWSCognitoRecordValueType.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/c/tdef/AWSEC2MonitoringState</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/c/tdef/AWSCognitoRecordValueType</TokenIdentifier>
 			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			<DeclaredIn>AWSCognitoRecord.h</DeclaredIn>
             
 			
 			<NodeRef refid="1136"/>
@@ -14,41 +14,31 @@
 		
         
         <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSEC2MonitoringStateUnknown</TokenIdentifier>
+            <TokenIdentifier>//apple_ref/c/econst/AWSCognitoRecordValueTypeUnknown</TokenIdentifier>
             <Abstract type="html"></Abstract>
-            <Declaration>AWSEC2MonitoringStateUnknown</Declaration>
+            <Declaration>AWSCognitoRecordValueTypeUnknown</Declaration>
             
-            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
+            <DeclaredIn>AWSCognitoRecord.h</DeclaredIn>
             
             <NodeRef refid="1136"/>
         </Token>
         
         <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSEC2MonitoringStateDisabled</TokenIdentifier>
+            <TokenIdentifier>//apple_ref/c/econst/AWSCognitoRecordValueTypeString</TokenIdentifier>
             <Abstract type="html"></Abstract>
-            <Declaration>AWSEC2MonitoringStateDisabled</Declaration>
+            <Declaration>AWSCognitoRecordValueTypeString</Declaration>
             
-            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
+            <DeclaredIn>AWSCognitoRecord.h</DeclaredIn>
             
             <NodeRef refid="1136"/>
         </Token>
         
         <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSEC2MonitoringStateEnabled</TokenIdentifier>
+            <TokenIdentifier>//apple_ref/c/econst/AWSCognitoRecordValueTypeDeleted</TokenIdentifier>
             <Abstract type="html"></Abstract>
-            <Declaration>AWSEC2MonitoringStateEnabled</Declaration>
+            <Declaration>AWSCognitoRecordValueTypeDeleted</Declaration>
             
-            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
-            
-            <NodeRef refid="1136"/>
-        </Token>
-        
-        <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSEC2MonitoringStatePending</TokenIdentifier>
-            <Abstract type="html"></Abstract>
-            <Declaration>AWSEC2MonitoringStatePending</Declaration>
-            
-            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
+            <DeclaredIn>AWSCognitoRecord.h</DeclaredIn>
             
             <NodeRef refid="1136"/>
         </Token>

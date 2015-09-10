@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSEC2InstancePrivateIpAddress.html">
+	<File path="Classes/AWSEC2ImportInstanceRequest.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSEC2InstancePrivateIpAddress</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Describes a private IP address.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSEC2ImportInstanceRequest</TokenIdentifier>
+			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
             
 			
@@ -13,146 +13,182 @@
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2InstancePrivateIpAddress/setAssociation:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The association information for an Elastic IP address for the network interface.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ImportInstanceRequest/setDetail:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;A description for the instance being imported.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) AWSEC2InstanceNetworkInterfaceAssociation *association</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *detail</Declaration>
 			
 			
-			<Anchor>//api/name/association</Anchor>
+			<Anchor>//api/name/detail</Anchor>
             <NodeRef refid="492"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2InstancePrivateIpAddress/association</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The association information for an Elastic IP address for the network interface.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ImportInstanceRequest/detail</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;A description for the instance being imported.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) AWSEC2InstanceNetworkInterfaceAssociation *association</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *detail</Declaration>
 			
 			
-			<Anchor>//api/name/association</Anchor>
+			<Anchor>//api/name/detail</Anchor>
             <NodeRef refid="492"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2InstancePrivateIpAddress/association</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The association information for an Elastic IP address for the network interface.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2ImportInstanceRequest/detail</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;A description for the instance being imported.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) AWSEC2InstanceNetworkInterfaceAssociation *association</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *detail</Declaration>
 			
 			
-			<Anchor>//api/name/association</Anchor>
+			<Anchor>//api/name/detail</Anchor>
             <NodeRef refid="492"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2InstancePrivateIpAddress/setPrimary:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Indicates whether this IP address is the primary private IP address of the network interface.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ImportInstanceRequest/setDiskImages:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSNumber *primary</Declaration>
+			<Declaration>@property (nonatomic, strong) NSArray *diskImages</Declaration>
 			
 			
-			<Anchor>//api/name/primary</Anchor>
+			<Anchor>//api/name/diskImages</Anchor>
             <NodeRef refid="492"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2InstancePrivateIpAddress/primary</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Indicates whether this IP address is the primary private IP address of the network interface.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ImportInstanceRequest/diskImages</TokenIdentifier>
+			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSNumber *primary</Declaration>
+			<Declaration>@property (nonatomic, strong) NSArray *diskImages</Declaration>
 			
 			
-			<Anchor>//api/name/primary</Anchor>
+			<Anchor>//api/name/diskImages</Anchor>
             <NodeRef refid="492"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2InstancePrivateIpAddress/primary</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Indicates whether this IP address is the primary private IP address of the network interface.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2ImportInstanceRequest/diskImages</TokenIdentifier>
+			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSNumber *primary</Declaration>
+			<Declaration>@property (nonatomic, strong) NSArray *diskImages</Declaration>
 			
 			
-			<Anchor>//api/name/primary</Anchor>
+			<Anchor>//api/name/diskImages</Anchor>
             <NodeRef refid="492"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2InstancePrivateIpAddress/setPrivateDnsName:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The private DNS name.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ImportInstanceRequest/setDryRun:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *privateDnsName</Declaration>
+			<Declaration>@property (nonatomic, strong) NSNumber *dryRun</Declaration>
 			
 			
-			<Anchor>//api/name/privateDnsName</Anchor>
+			<Anchor>//api/name/dryRun</Anchor>
             <NodeRef refid="492"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2InstancePrivateIpAddress/privateDnsName</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The private DNS name.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ImportInstanceRequest/dryRun</TokenIdentifier>
+			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *privateDnsName</Declaration>
+			<Declaration>@property (nonatomic, strong) NSNumber *dryRun</Declaration>
 			
 			
-			<Anchor>//api/name/privateDnsName</Anchor>
+			<Anchor>//api/name/dryRun</Anchor>
             <NodeRef refid="492"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2InstancePrivateIpAddress/privateDnsName</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The private DNS name.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2ImportInstanceRequest/dryRun</TokenIdentifier>
+			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *privateDnsName</Declaration>
+			<Declaration>@property (nonatomic, strong) NSNumber *dryRun</Declaration>
 			
 			
-			<Anchor>//api/name/privateDnsName</Anchor>
+			<Anchor>//api/name/dryRun</Anchor>
             <NodeRef refid="492"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2InstancePrivateIpAddress/setPrivateIpAddress:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The private IP address of the network interface.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ImportInstanceRequest/setLaunchSpecification:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *privateIpAddress</Declaration>
+			<Declaration>@property (nonatomic, strong) AWSEC2ImportInstanceLaunchSpecification *launchSpecification</Declaration>
 			
 			
-			<Anchor>//api/name/privateIpAddress</Anchor>
+			<Anchor>//api/name/launchSpecification</Anchor>
             <NodeRef refid="492"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2InstancePrivateIpAddress/privateIpAddress</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The private IP address of the network interface.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ImportInstanceRequest/launchSpecification</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *privateIpAddress</Declaration>
+			<Declaration>@property (nonatomic, strong) AWSEC2ImportInstanceLaunchSpecification *launchSpecification</Declaration>
 			
 			
-			<Anchor>//api/name/privateIpAddress</Anchor>
+			<Anchor>//api/name/launchSpecification</Anchor>
             <NodeRef refid="492"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2InstancePrivateIpAddress/privateIpAddress</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The private IP address of the network interface.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2ImportInstanceRequest/launchSpecification</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *privateIpAddress</Declaration>
+			<Declaration>@property (nonatomic, strong) AWSEC2ImportInstanceLaunchSpecification *launchSpecification</Declaration>
 			
 			
-			<Anchor>//api/name/privateIpAddress</Anchor>
+			<Anchor>//api/name/launchSpecification</Anchor>
+            <NodeRef refid="492"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ImportInstanceRequest/setPlatform:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The instance operating system.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) AWSEC2PlatformValues platform</Declaration>
+			
+			
+			<Anchor>//api/name/platform</Anchor>
+            <NodeRef refid="492"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ImportInstanceRequest/platform</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The instance operating system.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) AWSEC2PlatformValues platform</Declaration>
+			
+			
+			<Anchor>//api/name/platform</Anchor>
+            <NodeRef refid="492"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2ImportInstanceRequest/platform</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The instance operating system.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) AWSEC2PlatformValues platform</Declaration>
+			
+			
+			<Anchor>//api/name/platform</Anchor>
             <NodeRef refid="492"/>
 		</Token>
 		

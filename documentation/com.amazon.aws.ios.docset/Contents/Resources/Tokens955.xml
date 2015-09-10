@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSSNSListPlatformApplicationsInput.html">
+	<File path="Classes/AWSSESGetIdentityNotificationAttributesRequest.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSSNSListPlatformApplicationsInput</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Input for ListPlatformApplications action.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSNSModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSSESGetIdentityNotificationAttributesRequest</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSSESModel.h</DeclaredIn>
             
 			
 			<NodeRef refid="955"/>
@@ -13,38 +13,38 @@
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSSNSListPlatformApplicationsInput/setNextToken:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;NextToken string is used when calling ListPlatformApplications action to retrieve additional records that are available after the first page results.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSNSModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSESGetIdentityNotificationAttributesRequest/setIdentities:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;A list of one or more identities.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSESModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *nextToken</Declaration>
+			<Declaration>@property (nonatomic, strong) NSArray *identities</Declaration>
 			
 			
-			<Anchor>//api/name/nextToken</Anchor>
+			<Anchor>//api/name/identities</Anchor>
             <NodeRef refid="955"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSSNSListPlatformApplicationsInput/nextToken</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;NextToken string is used when calling ListPlatformApplications action to retrieve additional records that are available after the first page results.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSNSModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSESGetIdentityNotificationAttributesRequest/identities</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;A list of one or more identities.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSESModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *nextToken</Declaration>
+			<Declaration>@property (nonatomic, strong) NSArray *identities</Declaration>
 			
 			
-			<Anchor>//api/name/nextToken</Anchor>
+			<Anchor>//api/name/identities</Anchor>
             <NodeRef refid="955"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSSNSListPlatformApplicationsInput/nextToken</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;NextToken string is used when calling ListPlatformApplications action to retrieve additional records that are available after the first page results.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSNSModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSSESGetIdentityNotificationAttributesRequest/identities</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;A list of one or more identities.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSESModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *nextToken</Declaration>
+			<Declaration>@property (nonatomic, strong) NSArray *identities</Declaration>
 			
 			
-			<Anchor>//api/name/nextToken</Anchor>
+			<Anchor>//api/name/identities</Anchor>
             <NodeRef refid="955"/>
 		</Token>
 		

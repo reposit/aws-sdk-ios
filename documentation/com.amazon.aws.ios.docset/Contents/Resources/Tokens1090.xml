@@ -1,137 +1,89 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Constants/AWSCognitoSyncErrorType.html">
+	<File path="Classes/AWSSimpleDBBatchDeleteAttributesRequest.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/c/tdef/AWSCognitoSyncErrorType</TokenIdentifier>
-			<Abstract type="html">Copyright 2015 Amazon.com, Inc. or its affiliates. All Rights Reserved.</Abstract>
-			<DeclaredIn>AWSCognitoSyncModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSSimpleDBBatchDeleteAttributesRequest</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSSimpleDBModel.h</DeclaredIn>
             
 			
 			<NodeRef refid="1090"/>
 		</Token>
 		
 		
-        
-        <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSCognitoSyncErrorUnknown</TokenIdentifier>
-            <Abstract type="html"></Abstract>
-            <Declaration>AWSCognitoSyncErrorUnknown</Declaration>
-            
-            <DeclaredIn>AWSCognitoSyncModel.h</DeclaredIn>
-            
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSimpleDBBatchDeleteAttributesRequest/setDomainName:</TokenIdentifier>
+			<Abstract type="html">The name of the domain in which the attributes are being deleted.</Abstract>
+			<DeclaredIn>AWSSimpleDBModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *domainName</Declaration>
+			
+			
+			<Anchor>//api/name/domainName</Anchor>
             <NodeRef refid="1090"/>
-        </Token>
-        
-        <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSCognitoSyncErrorIncompleteSignature</TokenIdentifier>
-            <Abstract type="html"></Abstract>
-            <Declaration>AWSCognitoSyncErrorIncompleteSignature</Declaration>
-            
-            <DeclaredIn>AWSCognitoSyncModel.h</DeclaredIn>
-            
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSimpleDBBatchDeleteAttributesRequest/domainName</TokenIdentifier>
+			<Abstract type="html">The name of the domain in which the attributes are being deleted.</Abstract>
+			<DeclaredIn>AWSSimpleDBModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *domainName</Declaration>
+			
+			
+			<Anchor>//api/name/domainName</Anchor>
             <NodeRef refid="1090"/>
-        </Token>
-        
-        <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSCognitoSyncErrorInvalidClientTokenId</TokenIdentifier>
-            <Abstract type="html"></Abstract>
-            <Declaration>AWSCognitoSyncErrorInvalidClientTokenId</Declaration>
-            
-            <DeclaredIn>AWSCognitoSyncModel.h</DeclaredIn>
-            
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSSimpleDBBatchDeleteAttributesRequest/domainName</TokenIdentifier>
+			<Abstract type="html">The name of the domain in which the attributes are being deleted.</Abstract>
+			<DeclaredIn>AWSSimpleDBModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *domainName</Declaration>
+			
+			
+			<Anchor>//api/name/domainName</Anchor>
             <NodeRef refid="1090"/>
-        </Token>
-        
-        <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSCognitoSyncErrorMissingAuthenticationToken</TokenIdentifier>
-            <Abstract type="html"></Abstract>
-            <Declaration>AWSCognitoSyncErrorMissingAuthenticationToken</Declaration>
-            
-            <DeclaredIn>AWSCognitoSyncModel.h</DeclaredIn>
-            
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSimpleDBBatchDeleteAttributesRequest/setItems:</TokenIdentifier>
+			<Abstract type="html">A list of items on which to perform the operation.</Abstract>
+			<DeclaredIn>AWSSimpleDBModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray *items</Declaration>
+			
+			
+			<Anchor>//api/name/items</Anchor>
             <NodeRef refid="1090"/>
-        </Token>
-        
-        <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSCognitoSyncErrorInternalError</TokenIdentifier>
-            <Abstract type="html"></Abstract>
-            <Declaration>AWSCognitoSyncErrorInternalError</Declaration>
-            
-            <DeclaredIn>AWSCognitoSyncModel.h</DeclaredIn>
-            
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSimpleDBBatchDeleteAttributesRequest/items</TokenIdentifier>
+			<Abstract type="html">A list of items on which to perform the operation.</Abstract>
+			<DeclaredIn>AWSSimpleDBModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray *items</Declaration>
+			
+			
+			<Anchor>//api/name/items</Anchor>
             <NodeRef refid="1090"/>
-        </Token>
-        
-        <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSCognitoSyncErrorInvalidConfiguration</TokenIdentifier>
-            <Abstract type="html"></Abstract>
-            <Declaration>AWSCognitoSyncErrorInvalidConfiguration</Declaration>
-            
-            <DeclaredIn>AWSCognitoSyncModel.h</DeclaredIn>
-            
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSSimpleDBBatchDeleteAttributesRequest/items</TokenIdentifier>
+			<Abstract type="html">A list of items on which to perform the operation.</Abstract>
+			<DeclaredIn>AWSSimpleDBModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray *items</Declaration>
+			
+			
+			<Anchor>//api/name/items</Anchor>
             <NodeRef refid="1090"/>
-        </Token>
-        
-        <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSCognitoSyncErrorInvalidParameter</TokenIdentifier>
-            <Abstract type="html"></Abstract>
-            <Declaration>AWSCognitoSyncErrorInvalidParameter</Declaration>
-            
-            <DeclaredIn>AWSCognitoSyncModel.h</DeclaredIn>
-            
-            <NodeRef refid="1090"/>
-        </Token>
-        
-        <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSCognitoSyncErrorLimitExceeded</TokenIdentifier>
-            <Abstract type="html"></Abstract>
-            <Declaration>AWSCognitoSyncErrorLimitExceeded</Declaration>
-            
-            <DeclaredIn>AWSCognitoSyncModel.h</DeclaredIn>
-            
-            <NodeRef refid="1090"/>
-        </Token>
-        
-        <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSCognitoSyncErrorNotAuthorized</TokenIdentifier>
-            <Abstract type="html"></Abstract>
-            <Declaration>AWSCognitoSyncErrorNotAuthorized</Declaration>
-            
-            <DeclaredIn>AWSCognitoSyncModel.h</DeclaredIn>
-            
-            <NodeRef refid="1090"/>
-        </Token>
-        
-        <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSCognitoSyncErrorResourceConflict</TokenIdentifier>
-            <Abstract type="html"></Abstract>
-            <Declaration>AWSCognitoSyncErrorResourceConflict</Declaration>
-            
-            <DeclaredIn>AWSCognitoSyncModel.h</DeclaredIn>
-            
-            <NodeRef refid="1090"/>
-        </Token>
-        
-        <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSCognitoSyncErrorResourceNotFound</TokenIdentifier>
-            <Abstract type="html"></Abstract>
-            <Declaration>AWSCognitoSyncErrorResourceNotFound</Declaration>
-            
-            <DeclaredIn>AWSCognitoSyncModel.h</DeclaredIn>
-            
-            <NodeRef refid="1090"/>
-        </Token>
-        
-        <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSCognitoSyncErrorTooManyRequests</TokenIdentifier>
-            <Abstract type="html"></Abstract>
-            <Declaration>AWSCognitoSyncErrorTooManyRequests</Declaration>
-            
-            <DeclaredIn>AWSCognitoSyncModel.h</DeclaredIn>
-            
-            <NodeRef refid="1090"/>
-        </Token>
+		</Token>
+		
         
         
 	</File>

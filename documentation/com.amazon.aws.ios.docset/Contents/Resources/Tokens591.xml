@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSEC2SpotPrice.html">
+	<File path="Classes/AWSEC2ResetImageAttributeRequest.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSEC2SpotPrice</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Describes the Spot Price.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSEC2ResetImageAttributeRequest</TokenIdentifier>
+			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
             
 			
@@ -13,182 +13,110 @@
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2SpotPrice/setAvailabilityZone:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The Availability Zone.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ResetImageAttributeRequest/setAttribute:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The attribute to reset (currently you can only reset the launch permission attribute).&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *availabilityZone</Declaration>
+			<Declaration>@property (nonatomic, assign) AWSEC2ResetImageAttributeName attribute</Declaration>
 			
 			
-			<Anchor>//api/name/availabilityZone</Anchor>
+			<Anchor>//api/name/attribute</Anchor>
             <NodeRef refid="591"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2SpotPrice/availabilityZone</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The Availability Zone.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ResetImageAttributeRequest/attribute</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The attribute to reset (currently you can only reset the launch permission attribute).&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *availabilityZone</Declaration>
+			<Declaration>@property (nonatomic, assign) AWSEC2ResetImageAttributeName attribute</Declaration>
 			
 			
-			<Anchor>//api/name/availabilityZone</Anchor>
+			<Anchor>//api/name/attribute</Anchor>
             <NodeRef refid="591"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2SpotPrice/availabilityZone</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The Availability Zone.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2ResetImageAttributeRequest/attribute</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The attribute to reset (currently you can only reset the launch permission attribute).&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *availabilityZone</Declaration>
+			<Declaration>@property (nonatomic, assign) AWSEC2ResetImageAttributeName attribute</Declaration>
 			
 			
-			<Anchor>//api/name/availabilityZone</Anchor>
+			<Anchor>//api/name/attribute</Anchor>
             <NodeRef refid="591"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2SpotPrice/setInstanceType:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The instance type.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ResetImageAttributeRequest/setDryRun:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, assign) AWSEC2InstanceType instanceType</Declaration>
+			<Declaration>@property (nonatomic, strong) NSNumber *dryRun</Declaration>
 			
 			
-			<Anchor>//api/name/instanceType</Anchor>
+			<Anchor>//api/name/dryRun</Anchor>
             <NodeRef refid="591"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2SpotPrice/instanceType</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The instance type.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ResetImageAttributeRequest/dryRun</TokenIdentifier>
+			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, assign) AWSEC2InstanceType instanceType</Declaration>
+			<Declaration>@property (nonatomic, strong) NSNumber *dryRun</Declaration>
 			
 			
-			<Anchor>//api/name/instanceType</Anchor>
+			<Anchor>//api/name/dryRun</Anchor>
             <NodeRef refid="591"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2SpotPrice/instanceType</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The instance type.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2ResetImageAttributeRequest/dryRun</TokenIdentifier>
+			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, assign) AWSEC2InstanceType instanceType</Declaration>
+			<Declaration>@property (nonatomic, strong) NSNumber *dryRun</Declaration>
 			
 			
-			<Anchor>//api/name/instanceType</Anchor>
+			<Anchor>//api/name/dryRun</Anchor>
             <NodeRef refid="591"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2SpotPrice/setProductDescription:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;A general description of the AMI.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ResetImageAttributeRequest/setImageId:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the AMI.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, assign) AWSEC2RIProductDescription productDescription</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *imageId</Declaration>
 			
 			
-			<Anchor>//api/name/productDescription</Anchor>
+			<Anchor>//api/name/imageId</Anchor>
             <NodeRef refid="591"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2SpotPrice/productDescription</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;A general description of the AMI.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ResetImageAttributeRequest/imageId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the AMI.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, assign) AWSEC2RIProductDescription productDescription</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *imageId</Declaration>
 			
 			
-			<Anchor>//api/name/productDescription</Anchor>
+			<Anchor>//api/name/imageId</Anchor>
             <NodeRef refid="591"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2SpotPrice/productDescription</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;A general description of the AMI.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2ResetImageAttributeRequest/imageId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the AMI.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, assign) AWSEC2RIProductDescription productDescription</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *imageId</Declaration>
 			
 			
-			<Anchor>//api/name/productDescription</Anchor>
-            <NodeRef refid="591"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2SpotPrice/setSpotPrice:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The maximum price you will pay to launch one or more Spot Instances.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *spotPrice</Declaration>
-			
-			
-			<Anchor>//api/name/spotPrice</Anchor>
-            <NodeRef refid="591"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2SpotPrice/spotPrice</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The maximum price you will pay to launch one or more Spot Instances.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *spotPrice</Declaration>
-			
-			
-			<Anchor>//api/name/spotPrice</Anchor>
-            <NodeRef refid="591"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2SpotPrice/spotPrice</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The maximum price you will pay to launch one or more Spot Instances.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *spotPrice</Declaration>
-			
-			
-			<Anchor>//api/name/spotPrice</Anchor>
-            <NodeRef refid="591"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2SpotPrice/setTimestamp:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The date and time the request was created.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSDate *timestamp</Declaration>
-			
-			
-			<Anchor>//api/name/timestamp</Anchor>
-            <NodeRef refid="591"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2SpotPrice/timestamp</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The date and time the request was created.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSDate *timestamp</Declaration>
-			
-			
-			<Anchor>//api/name/timestamp</Anchor>
-            <NodeRef refid="591"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2SpotPrice/timestamp</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The date and time the request was created.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSDate *timestamp</Declaration>
-			
-			
-			<Anchor>//api/name/timestamp</Anchor>
+			<Anchor>//api/name/imageId</Anchor>
             <NodeRef refid="591"/>
 		</Token>
 		

@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSSESSendEmailResponse.html">
+	<File path="Classes/AWSS3RedirectAllRequestsTo.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSSESSendEmailResponse</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Represents a unique message ID returned from a successful &lt;code&gt;SendEmail&lt;/code&gt; request. &lt;/p&gt;
-Required parameters: [MessageId]</Abstract>
-			<DeclaredIn>AWSSESModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSS3RedirectAllRequestsTo</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
             
 			
 			<NodeRef refid="915"/>
@@ -14,38 +13,74 @@ Required parameters: [MessageId]</Abstract>
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSSESSendEmailResponse/setMessageId:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The unique message identifier returned from the &lt;code&gt;SendEmail&lt;/code&gt; action. &lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSESModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3RedirectAllRequestsTo/setHostName:</TokenIdentifier>
+			<Abstract type="html">Name of the host where requests will be redirected.</Abstract>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *messageId</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *hostName</Declaration>
 			
 			
-			<Anchor>//api/name/messageId</Anchor>
+			<Anchor>//api/name/hostName</Anchor>
             <NodeRef refid="915"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSSESSendEmailResponse/messageId</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The unique message identifier returned from the &lt;code&gt;SendEmail&lt;/code&gt; action. &lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSESModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3RedirectAllRequestsTo/hostName</TokenIdentifier>
+			<Abstract type="html">Name of the host where requests will be redirected.</Abstract>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *messageId</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *hostName</Declaration>
 			
 			
-			<Anchor>//api/name/messageId</Anchor>
+			<Anchor>//api/name/hostName</Anchor>
             <NodeRef refid="915"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSSESSendEmailResponse/messageId</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The unique message identifier returned from the &lt;code&gt;SendEmail&lt;/code&gt; action. &lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSESModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSS3RedirectAllRequestsTo/hostName</TokenIdentifier>
+			<Abstract type="html">Name of the host where requests will be redirected.</Abstract>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *messageId</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *hostName</Declaration>
 			
 			
-			<Anchor>//api/name/messageId</Anchor>
+			<Anchor>//api/name/hostName</Anchor>
+            <NodeRef refid="915"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3RedirectAllRequestsTo/setProtocols:</TokenIdentifier>
+			<Abstract type="html">Protocol to use (http, https) when redirecting requests. The default is the protocol that is used in the original request.</Abstract>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) AWSS3Protocols protocols</Declaration>
+			
+			
+			<Anchor>//api/name/protocols</Anchor>
+            <NodeRef refid="915"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3RedirectAllRequestsTo/protocols</TokenIdentifier>
+			<Abstract type="html">Protocol to use (http, https) when redirecting requests. The default is the protocol that is used in the original request.</Abstract>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) AWSS3Protocols protocols</Declaration>
+			
+			
+			<Anchor>//api/name/protocols</Anchor>
+            <NodeRef refid="915"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSS3RedirectAllRequestsTo/protocols</TokenIdentifier>
+			<Abstract type="html">Protocol to use (http, https) when redirecting requests. The default is the protocol that is used in the original request.</Abstract>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) AWSS3Protocols protocols</Declaration>
+			
+			
+			<Anchor>//api/name/protocols</Anchor>
             <NodeRef refid="915"/>
 		</Token>
 		

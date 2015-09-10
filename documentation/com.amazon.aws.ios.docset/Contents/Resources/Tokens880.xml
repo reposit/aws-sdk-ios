@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSS3TransferManager.html">
+	<File path="Classes/AWSS3ListBucketsOutput.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSS3TransferManager</TokenIdentifier>
-			<Abstract type="html">High level utility for managing transfers to Amazon S3. S3TransferManager provides a simple API for uploading and downloading content to Amazon S3, and makes extensive use of Amazon S3 multipart uploads to achieve enhanced throughput, performance and reliability.</Abstract>
-			<DeclaredIn>AWSS3TransferManager.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSS3ListBucketsOutput</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
             
 			
 			<NodeRef refid="880"/>
@@ -13,175 +13,74 @@
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/clm/AWSS3TransferManager/defaultS3TransferManager</TokenIdentifier>
-			<Abstract type="html">Returns the singleton service client. If the singleton object does not exist, the SDK instantiates the default service client with defaultServiceConfiguration from [AWSServiceManager defaultServiceManager]. The reference to this object is maintained by the SDK, and you do not need to retain it manually.</Abstract>
-			<DeclaredIn>AWSS3TransferManager.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3ListBucketsOutput/setBuckets:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>+ (instancetype)defaultS3TransferManager</Declaration>
+			<Declaration>@property (nonatomic, strong) NSArray *buckets</Declaration>
 			
-			<ReturnValue><Abstract type="html">The default service client.</Abstract></ReturnValue>
-			<Anchor>//api/name/defaultS3TransferManager</Anchor>
+			
+			<Anchor>//api/name/buckets</Anchor>
             <NodeRef refid="880"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/clm/AWSS3TransferManager/registerS3TransferManagerWithConfiguration:forKey:</TokenIdentifier>
-			<Abstract type="html">Creates a service client with the given service configuration and registers it for the key.</Abstract>
-			<DeclaredIn>AWSS3TransferManager.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3ListBucketsOutput/buckets</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>+ (void)registerS3TransferManagerWithConfiguration:(AWSServiceConfiguration *)configuration forKey:(NSString *)key</Declaration>
-			<Parameters>
-				<Parameter>
-					<Name>configuration</Name>
-					<Abstract type="html">A service configuration object.</Abstract>
-				</Parameter><Parameter>
-					<Name>key</Name>
-					<Abstract type="html">A string to identify the service client.</Abstract>
-				</Parameter>
-			</Parameters>
+			<Declaration>@property (nonatomic, strong) NSArray *buckets</Declaration>
 			
-			<Anchor>//api/name/registerS3TransferManagerWithConfiguration:forKey:</Anchor>
+			
+			<Anchor>//api/name/buckets</Anchor>
             <NodeRef refid="880"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/clm/AWSS3TransferManager/S3TransferManagerForKey:</TokenIdentifier>
-			<Abstract type="html">Retrieves the service client associated with the key. You need to call + registerS3TransferManagerWithConfiguration:forKey: before invoking this method. If + registerS3TransferManagerWithConfiguration:forKey: has not been called in advance or the key does not exist, this method returns nil.</Abstract>
-			<DeclaredIn>AWSS3TransferManager.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSS3ListBucketsOutput/buckets</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>+ (instancetype)S3TransferManagerForKey:(NSString *)key</Declaration>
-			<Parameters>
-				<Parameter>
-					<Name>key</Name>
-					<Abstract type="html">A string to identify the service client.</Abstract>
-				</Parameter>
-			</Parameters>
-			<ReturnValue><Abstract type="html">An instance of the service client.</Abstract></ReturnValue>
-			<Anchor>//api/name/S3TransferManagerForKey:</Anchor>
+			<Declaration>@property (nonatomic, strong) NSArray *buckets</Declaration>
+			
+			
+			<Anchor>//api/name/buckets</Anchor>
             <NodeRef refid="880"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/clm/AWSS3TransferManager/removeS3TransferManagerForKey:</TokenIdentifier>
-			<Abstract type="html">Removes the service client associated with the key and release it.</Abstract>
-			<DeclaredIn>AWSS3TransferManager.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3ListBucketsOutput/setOwner:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>+ (void)removeS3TransferManagerForKey:(NSString *)key</Declaration>
-			<Parameters>
-				<Parameter>
-					<Name>key</Name>
-					<Abstract type="html">A string to identify the service client.</Abstract>
-				</Parameter>
-			</Parameters>
+			<Declaration>@property (nonatomic, strong) AWSS3Owner *owner</Declaration>
 			
-			<Anchor>//api/name/removeS3TransferManagerForKey:</Anchor>
+			
+			<Anchor>//api/name/owner</Anchor>
             <NodeRef refid="880"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3TransferManager/initWithConfiguration:identifier:</TokenIdentifier>
-			<Abstract type="html">Returns an instance of this service client using configuration and identifier.</Abstract>
-			<DeclaredIn>AWSS3TransferManager.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3ListBucketsOutput/owner</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>- (instancetype)initWithConfiguration:(AWSServiceConfiguration *)configuration identifier:(NSString *)identifier</Declaration>
-			<Parameters>
-				<Parameter>
-					<Name>configuration</Name>
-					<Abstract type="html">An object to configure the internal AWSS3. At least regionType and credentialsProvider need to be set.</Abstract>
-				</Parameter><Parameter>
-					<Name>identifier</Name>
-					<Abstract type="html">An unique identifier for AWSS3TransferManager to create a disk cache. Multiple instances with the same identifier are allowed and can safely access the same data on disk.</Abstract>
-				</Parameter>
-			</Parameters>
-			<ReturnValue><Abstract type="html">An instance of this service client.</Abstract></ReturnValue>
-			<Anchor>//api/name/initWithConfiguration:identifier:</Anchor>
+			<Declaration>@property (nonatomic, strong) AWSS3Owner *owner</Declaration>
+			
+			
+			<Anchor>//api/name/owner</Anchor>
             <NodeRef refid="880"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3TransferManager/upload:</TokenIdentifier>
-			<Abstract type="html">Schedules a new transfer to upload data to Amazon S3.</Abstract>
-			<DeclaredIn>AWSS3TransferManager.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSS3ListBucketsOutput/owner</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>- (BFTask *)upload:(AWSS3TransferManagerUploadRequest *)uploadRequest</Declaration>
-			<Parameters>
-				<Parameter>
-					<Name>uploadRequest</Name>
-					<Abstract type="html">The upload request.</Abstract>
-				</Parameter>
-			</Parameters>
-			<ReturnValue><Abstract type="html">BFTask.</Abstract></ReturnValue>
-			<Anchor>//api/name/upload:</Anchor>
-            <NodeRef refid="880"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3TransferManager/download:</TokenIdentifier>
-			<Abstract type="html">Schedules a new transfer to download data from Amazon S3 and save it to the specified file.</Abstract>
-			<DeclaredIn>AWSS3TransferManager.h</DeclaredIn>
+			<Declaration>@property (nonatomic, strong) AWSS3Owner *owner</Declaration>
 			
-			<Declaration>- (BFTask *)download:(AWSS3TransferManagerDownloadRequest *)downloadRequest</Declaration>
-			<Parameters>
-				<Parameter>
-					<Name>downloadRequest</Name>
-					<Abstract type="html">The download request.</Abstract>
-				</Parameter>
-			</Parameters>
-			<ReturnValue><Abstract type="html">BFTask.</Abstract></ReturnValue>
-			<Anchor>//api/name/download:</Anchor>
-            <NodeRef refid="880"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3TransferManager/cancelAll</TokenIdentifier>
-			<Abstract type="html">Cancels all of the upload and download requests.</Abstract>
-			<DeclaredIn>AWSS3TransferManager.h</DeclaredIn>
 			
-			<Declaration>- (BFTask *)cancelAll</Declaration>
-			
-			<ReturnValue><Abstract type="html">BFTask.</Abstract></ReturnValue>
-			<Anchor>//api/name/cancelAll</Anchor>
-            <NodeRef refid="880"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3TransferManager/pauseAll</TokenIdentifier>
-			<Abstract type="html">Pauses all of the upload and download requests.</Abstract>
-			<DeclaredIn>AWSS3TransferManager.h</DeclaredIn>
-			
-			<Declaration>- (BFTask *)pauseAll</Declaration>
-			
-			<ReturnValue><Abstract type="html">BFTask.</Abstract></ReturnValue>
-			<Anchor>//api/name/pauseAll</Anchor>
-            <NodeRef refid="880"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3TransferManager/resumeAll:</TokenIdentifier>
-			<Abstract type="html">Resumes all of the upload and download requests.</Abstract>
-			<DeclaredIn>AWSS3TransferManager.h</DeclaredIn>
-			
-			<Declaration>- (BFTask *)resumeAll:(AWSS3TransferManagerResumeAllBlock)block</Declaration>
-			<Parameters>
-				<Parameter>
-					<Name>block</Name>
-					<Abstract type="html">The block to optionally re-set the progress blocks to the requests.</Abstract>
-				</Parameter>
-			</Parameters>
-			<ReturnValue><Abstract type="html">BFTask.</Abstract></ReturnValue>
-			<Anchor>//api/name/resumeAll:</Anchor>
-            <NodeRef refid="880"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3TransferManager/clearCache</TokenIdentifier>
-			<Abstract type="html">Clears the local cache.</Abstract>
-			<DeclaredIn>AWSS3TransferManager.h</DeclaredIn>
-			
-			<Declaration>- (BFTask *)clearCache</Declaration>
-			
-			<ReturnValue><Abstract type="html">BFTask.</Abstract></ReturnValue>
-			<Anchor>//api/name/clearCache</Anchor>
+			<Anchor>//api/name/owner</Anchor>
             <NodeRef refid="880"/>
 		</Token>
 		

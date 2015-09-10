@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Constants/AWSSESIdentityType.html">
+	<File path="Constants/AWSEC2VolumeAttachmentState.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/c/tdef/AWSSESIdentityType</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/c/tdef/AWSEC2VolumeAttachmentState</TokenIdentifier>
 			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSSESModel.h</DeclaredIn>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
             
 			
 			<NodeRef refid="1218"/>
@@ -14,31 +14,51 @@
 		
         
         <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSSESIdentityTypeUnknown</TokenIdentifier>
+            <TokenIdentifier>//apple_ref/c/econst/AWSEC2VolumeAttachmentStateUnknown</TokenIdentifier>
             <Abstract type="html"></Abstract>
-            <Declaration>AWSSESIdentityTypeUnknown</Declaration>
+            <Declaration>AWSEC2VolumeAttachmentStateUnknown</Declaration>
             
-            <DeclaredIn>AWSSESModel.h</DeclaredIn>
+            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
             
             <NodeRef refid="1218"/>
         </Token>
         
         <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSSESIdentityTypeEmailAddress</TokenIdentifier>
+            <TokenIdentifier>//apple_ref/c/econst/AWSEC2VolumeAttachmentStateAttaching</TokenIdentifier>
             <Abstract type="html"></Abstract>
-            <Declaration>AWSSESIdentityTypeEmailAddress</Declaration>
+            <Declaration>AWSEC2VolumeAttachmentStateAttaching</Declaration>
             
-            <DeclaredIn>AWSSESModel.h</DeclaredIn>
+            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
             
             <NodeRef refid="1218"/>
         </Token>
         
         <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSSESIdentityTypeDomain</TokenIdentifier>
+            <TokenIdentifier>//apple_ref/c/econst/AWSEC2VolumeAttachmentStateAttached</TokenIdentifier>
             <Abstract type="html"></Abstract>
-            <Declaration>AWSSESIdentityTypeDomain</Declaration>
+            <Declaration>AWSEC2VolumeAttachmentStateAttached</Declaration>
             
-            <DeclaredIn>AWSSESModel.h</DeclaredIn>
+            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
+            
+            <NodeRef refid="1218"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/AWSEC2VolumeAttachmentStateDetaching</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>AWSEC2VolumeAttachmentStateDetaching</Declaration>
+            
+            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
+            
+            <NodeRef refid="1218"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/AWSEC2VolumeAttachmentStateDetached</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>AWSEC2VolumeAttachmentStateDetached</Declaration>
+            
+            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
             
             <NodeRef refid="1218"/>
         </Token>

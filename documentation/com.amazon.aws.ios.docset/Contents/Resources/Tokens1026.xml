@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSSTSFederatedUser.html">
+	<File path="Classes/AWSSNSSetSubscriptionAttributesInput.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSSTSFederatedUser</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Identifiers for the federated user that is associated with the credentials.&lt;/p&gt;
-Required parameters: [FederatedUserId, Arn]</Abstract>
-			<DeclaredIn>AWSSTSModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSSNSSetSubscriptionAttributesInput</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Input for SetSubscriptionAttributes action.&lt;/p&gt;
+Required parameters: [SubscriptionArn, AttributeName]</Abstract>
+			<DeclaredIn>AWSSNSModel.h</DeclaredIn>
             
 			
 			<NodeRef refid="1026"/>
@@ -14,74 +14,110 @@ Required parameters: [FederatedUserId, Arn]</Abstract>
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSSTSFederatedUser/setArn:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The ARN that specifies the federated user that is associated with the credentials. For more information about ARNs and how to use them in policies, see Identifiers for IAM Entities in &lt;i&gt;Using IAM&lt;/i&gt;. &lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSTSModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSNSSetSubscriptionAttributesInput/setAttributeName:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The name of the attribute you want to set. Only a subset of the subscriptions attributes are mutable.&lt;/p&gt;&lt;p&gt;Valid values: &lt;code&gt;DeliveryPolicy&lt;/code&gt; | &lt;code&gt;RawMessageDelivery&lt;/code&gt;&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSNSModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *arn</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *attributeName</Declaration>
 			
 			
-			<Anchor>//api/name/arn</Anchor>
+			<Anchor>//api/name/attributeName</Anchor>
             <NodeRef refid="1026"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSSTSFederatedUser/arn</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The ARN that specifies the federated user that is associated with the credentials. For more information about ARNs and how to use them in policies, see Identifiers for IAM Entities in &lt;i&gt;Using IAM&lt;/i&gt;. &lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSTSModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSNSSetSubscriptionAttributesInput/attributeName</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The name of the attribute you want to set. Only a subset of the subscriptions attributes are mutable.&lt;/p&gt;&lt;p&gt;Valid values: &lt;code&gt;DeliveryPolicy&lt;/code&gt; | &lt;code&gt;RawMessageDelivery&lt;/code&gt;&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSNSModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *arn</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *attributeName</Declaration>
 			
 			
-			<Anchor>//api/name/arn</Anchor>
+			<Anchor>//api/name/attributeName</Anchor>
             <NodeRef refid="1026"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSSTSFederatedUser/arn</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The ARN that specifies the federated user that is associated with the credentials. For more information about ARNs and how to use them in policies, see Identifiers for IAM Entities in &lt;i&gt;Using IAM&lt;/i&gt;. &lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSTSModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSSNSSetSubscriptionAttributesInput/attributeName</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The name of the attribute you want to set. Only a subset of the subscriptions attributes are mutable.&lt;/p&gt;&lt;p&gt;Valid values: &lt;code&gt;DeliveryPolicy&lt;/code&gt; | &lt;code&gt;RawMessageDelivery&lt;/code&gt;&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSNSModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *arn</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *attributeName</Declaration>
 			
 			
-			<Anchor>//api/name/arn</Anchor>
+			<Anchor>//api/name/attributeName</Anchor>
             <NodeRef refid="1026"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSSTSFederatedUser/setFederatedUserId:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The string that identifies the federated user associated with the credentials, similar to the unique ID of an IAM user.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSTSModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSNSSetSubscriptionAttributesInput/setAttributeValue:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The new value for the attribute in JSON format.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSNSModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *federatedUserId</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *attributeValue</Declaration>
 			
 			
-			<Anchor>//api/name/federatedUserId</Anchor>
+			<Anchor>//api/name/attributeValue</Anchor>
             <NodeRef refid="1026"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSSTSFederatedUser/federatedUserId</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The string that identifies the federated user associated with the credentials, similar to the unique ID of an IAM user.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSTSModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSNSSetSubscriptionAttributesInput/attributeValue</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The new value for the attribute in JSON format.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSNSModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *federatedUserId</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *attributeValue</Declaration>
 			
 			
-			<Anchor>//api/name/federatedUserId</Anchor>
+			<Anchor>//api/name/attributeValue</Anchor>
             <NodeRef refid="1026"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSSTSFederatedUser/federatedUserId</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The string that identifies the federated user associated with the credentials, similar to the unique ID of an IAM user.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSTSModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSSNSSetSubscriptionAttributesInput/attributeValue</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The new value for the attribute in JSON format.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSNSModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *federatedUserId</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *attributeValue</Declaration>
 			
 			
-			<Anchor>//api/name/federatedUserId</Anchor>
+			<Anchor>//api/name/attributeValue</Anchor>
+            <NodeRef refid="1026"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSNSSetSubscriptionAttributesInput/setSubscriptionArn:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ARN of the subscription to modify.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSNSModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *subscriptionArn</Declaration>
+			
+			
+			<Anchor>//api/name/subscriptionArn</Anchor>
+            <NodeRef refid="1026"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSNSSetSubscriptionAttributesInput/subscriptionArn</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ARN of the subscription to modify.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSNSModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *subscriptionArn</Declaration>
+			
+			
+			<Anchor>//api/name/subscriptionArn</Anchor>
+            <NodeRef refid="1026"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSSNSSetSubscriptionAttributesInput/subscriptionArn</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ARN of the subscription to modify.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSNSModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *subscriptionArn</Declaration>
+			
+			
+			<Anchor>//api/name/subscriptionArn</Anchor>
             <NodeRef refid="1026"/>
 		</Token>
 		

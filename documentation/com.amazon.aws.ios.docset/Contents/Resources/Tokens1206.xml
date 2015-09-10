@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Constants/AWSS3ObjectVersionStorageClass.html">
+	<File path="Constants/AWSEC2ShutdownBehavior.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/c/tdef/AWSS3ObjectVersionStorageClass</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/c/tdef/AWSEC2ShutdownBehavior</TokenIdentifier>
 			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
             
 			
 			<NodeRef refid="1206"/>
@@ -14,21 +14,31 @@
 		
         
         <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSS3ObjectVersionStorageClassUnknown</TokenIdentifier>
+            <TokenIdentifier>//apple_ref/c/econst/AWSEC2ShutdownBehaviorUnknown</TokenIdentifier>
             <Abstract type="html"></Abstract>
-            <Declaration>AWSS3ObjectVersionStorageClassUnknown</Declaration>
+            <Declaration>AWSEC2ShutdownBehaviorUnknown</Declaration>
             
-            <DeclaredIn>AWSS3Model.h</DeclaredIn>
+            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
             
             <NodeRef refid="1206"/>
         </Token>
         
         <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSS3ObjectVersionStorageClassStandard</TokenIdentifier>
+            <TokenIdentifier>//apple_ref/c/econst/AWSEC2ShutdownBehaviorStop</TokenIdentifier>
             <Abstract type="html"></Abstract>
-            <Declaration>AWSS3ObjectVersionStorageClassStandard</Declaration>
+            <Declaration>AWSEC2ShutdownBehaviorStop</Declaration>
             
-            <DeclaredIn>AWSS3Model.h</DeclaredIn>
+            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
+            
+            <NodeRef refid="1206"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/AWSEC2ShutdownBehaviorTerminate</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>AWSEC2ShutdownBehaviorTerminate</Declaration>
+            
+            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
             
             <NodeRef refid="1206"/>
         </Token>

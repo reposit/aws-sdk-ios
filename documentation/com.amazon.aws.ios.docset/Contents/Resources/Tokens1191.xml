@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Constants/AWSQueryParamBuilderErrorType.html">
+	<File path="Constants/AWSEC2PermissionGroup.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/c/tdef/AWSQueryParamBuilderErrorType</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/c/tdef/AWSEC2PermissionGroup</TokenIdentifier>
 			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSSerialization.h</DeclaredIn>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
             
 			
 			<NodeRef refid="1191"/>
@@ -14,51 +14,21 @@
 		
         
         <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSQueryParamBuilderUnknownError</TokenIdentifier>
+            <TokenIdentifier>//apple_ref/c/econst/AWSEC2PermissionGroupUnknown</TokenIdentifier>
             <Abstract type="html"></Abstract>
-            <Declaration>AWSQueryParamBuilderUnknownError</Declaration>
+            <Declaration>AWSEC2PermissionGroupUnknown</Declaration>
             
-            <DeclaredIn>AWSSerialization.h</DeclaredIn>
+            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
             
             <NodeRef refid="1191"/>
         </Token>
         
         <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSQueryParamBuilderDefinitionFileIsEmpty</TokenIdentifier>
+            <TokenIdentifier>//apple_ref/c/econst/AWSEC2PermissionGroupAll</TokenIdentifier>
             <Abstract type="html"></Abstract>
-            <Declaration>AWSQueryParamBuilderDefinitionFileIsEmpty</Declaration>
+            <Declaration>AWSEC2PermissionGroupAll</Declaration>
             
-            <DeclaredIn>AWSSerialization.h</DeclaredIn>
-            
-            <NodeRef refid="1191"/>
-        </Token>
-        
-        <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSQueryParamBuilderUndefinedActionRule</TokenIdentifier>
-            <Abstract type="html"></Abstract>
-            <Declaration>AWSQueryParamBuilderUndefinedActionRule</Declaration>
-            
-            <DeclaredIn>AWSSerialization.h</DeclaredIn>
-            
-            <NodeRef refid="1191"/>
-        </Token>
-        
-        <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSQueryParamBuilderInternalError</TokenIdentifier>
-            <Abstract type="html"></Abstract>
-            <Declaration>AWSQueryParamBuilderInternalError</Declaration>
-            
-            <DeclaredIn>AWSSerialization.h</DeclaredIn>
-            
-            <NodeRef refid="1191"/>
-        </Token>
-        
-        <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSQueryParamBuilderInvalidParameter</TokenIdentifier>
-            <Abstract type="html"></Abstract>
-            <Declaration>AWSQueryParamBuilderInvalidParameter</Declaration>
-            
-            <DeclaredIn>AWSSerialization.h</DeclaredIn>
+            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
             
             <NodeRef refid="1191"/>
         </Token>

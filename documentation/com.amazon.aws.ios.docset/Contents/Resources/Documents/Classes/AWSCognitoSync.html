@@ -14,7 +14,7 @@
 		<div class="container" class="hide-in-xcode">
 			
 			<h1 id="library-title">
-				<a href="../index.html">AWS SDK for iOS v2.1.0 </a>
+				<a href="../index.html">AWS SDK for iOS v2.2.5 </a>
 			</h1>
 
 			<p id="developer-home">
@@ -78,6 +78,8 @@
 	
 	<optgroup label="Instance Methods">
 		
+		<option value="//api/name/bulkPublish:">- bulkPublish:</option>
+		
 		<option value="//api/name/deleteDataset:">- deleteDataset:</option>
 		
 		<option value="//api/name/describeDataset:">- describeDataset:</option>
@@ -85,6 +87,10 @@
 		<option value="//api/name/describeIdentityPoolUsage:">- describeIdentityPoolUsage:</option>
 		
 		<option value="//api/name/describeIdentityUsage:">- describeIdentityUsage:</option>
+		
+		<option value="//api/name/getBulkPublishDetails:">- getBulkPublishDetails:</option>
+		
+		<option value="//api/name/getCognitoEvents:">- getCognitoEvents:</option>
 		
 		<option value="//api/name/getIdentityPoolConfiguration:">- getIdentityPoolConfiguration:</option>
 		
@@ -97,6 +103,8 @@
 		<option value="//api/name/listRecords:">- listRecords:</option>
 		
 		<option value="//api/name/registerDevice:">- registerDevice:</option>
+		
+		<option value="//api/name/setCognitoEvents:">- setCognitoEvents:</option>
 		
 		<option value="//api/name/setIdentityPoolConfiguration:">- setIdentityPoolConfiguration:</option>
 		
@@ -140,7 +148,7 @@
 					<div class="section section-overview">
 						<a title="Overview" name="overview"></a>
 						<h2 class="subtitle subtitle-overview">Overview</h2>
-						<p><fullname>Amazon Cognito Sync</fullname><p>Amazon Cognito Sync provides an AWS service and client library that enable cross-device syncing of application-related user data. High-level client libraries are available for both iOS and Android. You can use these libraries to persist data locally so that it&rsquo;s available even if the device is offline. Developer credentials don&rsquo;t need to be stored on the mobile device to access the service. You can use Amazon Cognito to obtain a normalized user ID and credentials. User data is persisted in a dataset that can store up to 1 MB of key-value pairs, and you can have up to 20 datasets per user identity.</p><p>With Amazon Cognito Sync, the data stored for each identity is accessible only to credentials assigned to that identity. In order to use the Cognito Sync service, you need to make API calls using credentials retrieved with <a href="http://docs.aws.amazon.com/cognitoidentity/latest/APIReference/Welcome.html">Amazon Cognito Identity service</a>.</p></p>
+						<p><fullname>Amazon Cognito Sync</fullname><p>Amazon Cognito Sync provides an AWS service and client library that enable cross-device syncing of application-related user data. High-level client libraries are available for both iOS and Android. You can use these libraries to persist data locally so that it&rsquo;s available even if the device is offline. Developer credentials don&rsquo;t need to be stored on the mobile device to access the service. You can use Amazon Cognito to obtain a normalized user ID and credentials. User data is persisted in a dataset that can store up to 1 MB of key-value pairs, and you can have up to 20 datasets per user identity.</p><p>With Amazon Cognito Sync, the data stored for each identity is accessible only to credentials assigned to that identity. In order to use the Cognito Sync service, you need to make API calls using credentials retrieved with <a href="http://docs.aws.amazon.com/cognitoidentity/latest/APIReference/Welcome.html">Amazon Cognito Identity service</a>.</p><p>If you want to use Cognito Sync in an Android or iOS application, you will probably want to make API calls via the AWS Mobile SDK. To learn more, see the <a href="http://docs.aws.amazon.com/mobile/sdkforandroid/developerguide/cognito-sync.html">Developer Guide for Android</a> and the <a href="http://docs.aws.amazon.com/mobile/sdkforios/developerguide/cognito-sync.html">Developer Guide for iOS</a>.</p></p>
 					</div>
 					
 					
@@ -610,6 +618,79 @@
 		</div>
 	</div>
 </div><div class="section-method">
+	<a name="//api/name/bulkPublish:" title="bulkPublish:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/bulkPublish:">&ndash;&nbsp;bulkPublish:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Initiates a bulk publish of all existing datasets for an Identity Pool to the configured stream. Customers are limited to one successful bulk publish per 24 hours. Bulk publish is an asynchronous request, customers can see the status of the request via the GetBulkPublishDetails operation.</p>
+
+
+<p>This API can only be called with developer credentials. You cannot call this API with the temporary user credentials provided by Cognito Identity.</p>
+
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (AWSTask *)bulkPublish:(AWSCognitoSyncBulkPublishRequest *)<em>request</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>request</code></th>
+						<td><p>A container for the necessary parameters to execute the BulkPublish service method.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+			<div class="method-subsection return">
+				<h4 class="method-subtitle parameter-title">Return Value</h4>
+				<p>An instance of <code>AWSTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSCognitoSyncBulkPublishResponse</code>. On failed execution, <code>task.error</code> may contain an <code>NSError</code> with <code>AWSCognitoSyncErrorDomain</code> domian and the following error code: <code>AWSCognitoSyncErrorNotAuthorized</code>, <code>AWSCognitoSyncErrorInvalidParameter</code>, <code>AWSCognitoSyncErrorResourceNotFound</code>, <code>AWSCognitoSyncErrorInternalError</code>, <code>AWSCognitoSyncErrorDuplicateRequest</code>, <code>AWSCognitoSyncErrorAlreadyStreamed</code>.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection see-also-section">
+				<h4 class="method-subtitle">See Also</h4>
+				<ul>
+					
+					<li><code><p><a href="../Classes/AWSCognitoSyncBulkPublishRequest.html">AWSCognitoSyncBulkPublishRequest</a></p></code></li>
+					
+					<li><code><p><a href="../Classes/AWSCognitoSyncBulkPublishResponse.html">AWSCognitoSyncBulkPublishResponse</a></p></code></li>
+					
+				</ul>
+			</div>
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AWSCognitoSyncService.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
 	<a name="//api/name/deleteDataset:" title="deleteDataset:"></a>
 	<h3 class="method-title"><code><a href="#//api/name/deleteDataset:">&ndash;&nbsp;deleteDataset:</a></code>
 </h3>
@@ -621,12 +702,16 @@
 			
 			
 			<div class="method-subsection brief-description">
-				<p>Deletes the specific dataset. The dataset will be deleted permanently, and the action can&rsquo;t be undone. Datasets that this dataset was merged with will no longer report the merge. Any consequent operation on this dataset will result in a ResourceNotFoundException.</p>
+				<p>Deletes the specific dataset. The dataset will be deleted permanently, and the action can't be undone. Datasets that this dataset was merged with will no longer report the merge. Any subsequent operation on this dataset will result in a ResourceNotFoundException.</p>
+
+
+<p>This API can be called with temporary user credentials provided by Cognito Identity or with developer credentials.</p>
+
 			</div>
 			
 		    
 
-			<div class="method-subsection method-declaration"><code>- (BFTask *)deleteDataset:(AWSCognitoSyncDeleteDatasetRequest *)<em>request</em></code></div>
+			<div class="method-subsection method-declaration"><code>- (AWSTask *)deleteDataset:(AWSCognitoSyncDeleteDatasetRequest *)<em>request</em></code></div>
 
 		    
 			
@@ -646,7 +731,7 @@
 			
 			<div class="method-subsection return">
 				<h4 class="method-subtitle parameter-title">Return Value</h4>
-				<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSCognitoSyncDeleteDatasetResponse</code>. On failed execution, <code>task.error</code> may contain an <code>NSError</code> with <code>AWSCognitoSyncErrorDomain</code> domian and the following error code: <code>AWSCognitoSyncErrorNotAuthorized</code>, <code>AWSCognitoSyncErrorInvalidParameter</code>, <code>AWSCognitoSyncErrorResourceNotFound</code>, <code>AWSCognitoSyncErrorInternalError</code>.</p>
+				<p>An instance of <code>AWSTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSCognitoSyncDeleteDatasetResponse</code>. On failed execution, <code>task.error</code> may contain an <code>NSError</code> with <code>AWSCognitoSyncErrorDomain</code> domian and the following error code: <code>AWSCognitoSyncErrorNotAuthorized</code>, <code>AWSCognitoSyncErrorInvalidParameter</code>, <code>AWSCognitoSyncErrorResourceNotFound</code>, <code>AWSCognitoSyncErrorInternalError</code>, <code>AWSCognitoSyncErrorTooManyRequests</code>, <code>AWSCognitoSyncErrorResourceConflict</code>.</p>
 			</div>
 			
 
@@ -690,12 +775,16 @@
 			
 			
 			<div class="method-subsection brief-description">
-				<p>Gets metadata about a dataset by identity and dataset name. The credentials used to make this API call need to have access to the identity data. With Amazon Cognito Sync, each identity has access only to its own data. You should use Amazon Cognito Identity service to retrieve the credentials necessary to make this API call.</p>
+				<p>Gets meta data about a dataset by identity and dataset name. With Amazon Cognito Sync, each identity has access only to its own data. Thus, the credentials used to make this API call need to have access to the identity data.</p>
+
+
+<p>This API can be called with temporary user credentials provided by Cognito Identity or with developer credentials. You should use Cognito Identity credentials to make this API call.</p>
+
 			</div>
 			
 		    
 
-			<div class="method-subsection method-declaration"><code>- (BFTask *)describeDataset:(AWSCognitoSyncDescribeDatasetRequest *)<em>request</em></code></div>
+			<div class="method-subsection method-declaration"><code>- (AWSTask *)describeDataset:(AWSCognitoSyncDescribeDatasetRequest *)<em>request</em></code></div>
 
 		    
 			
@@ -715,7 +804,7 @@
 			
 			<div class="method-subsection return">
 				<h4 class="method-subtitle parameter-title">Return Value</h4>
-				<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSCognitoSyncDescribeDatasetResponse</code>. On failed execution, <code>task.error</code> may contain an <code>NSError</code> with <code>AWSCognitoSyncErrorDomain</code> domian and the following error code: <code>AWSCognitoSyncErrorNotAuthorized</code>, <code>AWSCognitoSyncErrorInvalidParameter</code>, <code>AWSCognitoSyncErrorResourceNotFound</code>, <code>AWSCognitoSyncErrorInternalError</code>.</p>
+				<p>An instance of <code>AWSTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSCognitoSyncDescribeDatasetResponse</code>. On failed execution, <code>task.error</code> may contain an <code>NSError</code> with <code>AWSCognitoSyncErrorDomain</code> domian and the following error code: <code>AWSCognitoSyncErrorNotAuthorized</code>, <code>AWSCognitoSyncErrorInvalidParameter</code>, <code>AWSCognitoSyncErrorResourceNotFound</code>, <code>AWSCognitoSyncErrorInternalError</code>, <code>AWSCognitoSyncErrorTooManyRequests</code>.</p>
 			</div>
 			
 
@@ -760,11 +849,15 @@
 			
 			<div class="method-subsection brief-description">
 				<p>Gets usage details (for example, data storage) about a particular identity pool.</p>
+
+
+<p>This API can only be called with developer credentials. You cannot call this API with the temporary user credentials provided by Cognito Identity.</p>
+
 			</div>
 			
 		    
 
-			<div class="method-subsection method-declaration"><code>- (BFTask *)describeIdentityPoolUsage:(AWSCognitoSyncDescribeIdentityPoolUsageRequest *)<em>request</em></code></div>
+			<div class="method-subsection method-declaration"><code>- (AWSTask *)describeIdentityPoolUsage:(AWSCognitoSyncDescribeIdentityPoolUsageRequest *)<em>request</em></code></div>
 
 		    
 			
@@ -784,7 +877,7 @@
 			
 			<div class="method-subsection return">
 				<h4 class="method-subtitle parameter-title">Return Value</h4>
-				<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSCognitoSyncDescribeIdentityPoolUsageResponse</code>. On failed execution, <code>task.error</code> may contain an <code>NSError</code> with <code>AWSCognitoSyncErrorDomain</code> domian and the following error code: <code>AWSCognitoSyncErrorNotAuthorized</code>, <code>AWSCognitoSyncErrorInvalidParameter</code>, <code>AWSCognitoSyncErrorResourceNotFound</code>, <code>AWSCognitoSyncErrorInternalError</code>.</p>
+				<p>An instance of <code>AWSTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSCognitoSyncDescribeIdentityPoolUsageResponse</code>. On failed execution, <code>task.error</code> may contain an <code>NSError</code> with <code>AWSCognitoSyncErrorDomain</code> domian and the following error code: <code>AWSCognitoSyncErrorNotAuthorized</code>, <code>AWSCognitoSyncErrorInvalidParameter</code>, <code>AWSCognitoSyncErrorResourceNotFound</code>, <code>AWSCognitoSyncErrorInternalError</code>, <code>AWSCognitoSyncErrorTooManyRequests</code>.</p>
 			</div>
 			
 
@@ -829,11 +922,15 @@
 			
 			<div class="method-subsection brief-description">
 				<p>Gets usage information for an identity, including number of datasets and data usage.</p>
+
+
+<p>This API can be called with temporary user credentials provided by Cognito Identity or with developer credentials.</p>
+
 			</div>
 			
 		    
 
-			<div class="method-subsection method-declaration"><code>- (BFTask *)describeIdentityUsage:(AWSCognitoSyncDescribeIdentityUsageRequest *)<em>request</em></code></div>
+			<div class="method-subsection method-declaration"><code>- (AWSTask *)describeIdentityUsage:(AWSCognitoSyncDescribeIdentityUsageRequest *)<em>request</em></code></div>
 
 		    
 			
@@ -853,7 +950,7 @@
 			
 			<div class="method-subsection return">
 				<h4 class="method-subtitle parameter-title">Return Value</h4>
-				<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSCognitoSyncDescribeIdentityUsageResponse</code>. On failed execution, <code>task.error</code> may contain an <code>NSError</code> with <code>AWSCognitoSyncErrorDomain</code> domian and the following error code: <code>AWSCognitoSyncErrorNotAuthorized</code>, <code>AWSCognitoSyncErrorInvalidParameter</code>, <code>AWSCognitoSyncErrorResourceNotFound</code>, <code>AWSCognitoSyncErrorInternalError</code>.</p>
+				<p>An instance of <code>AWSTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSCognitoSyncDescribeIdentityUsageResponse</code>. On failed execution, <code>task.error</code> may contain an <code>NSError</code> with <code>AWSCognitoSyncErrorDomain</code> domian and the following error code: <code>AWSCognitoSyncErrorNotAuthorized</code>, <code>AWSCognitoSyncErrorInvalidParameter</code>, <code>AWSCognitoSyncErrorResourceNotFound</code>, <code>AWSCognitoSyncErrorInternalError</code>, <code>AWSCognitoSyncErrorTooManyRequests</code>.</p>
 			</div>
 			
 
@@ -886,6 +983,152 @@
 		</div>
 	</div>
 </div><div class="section-method">
+	<a name="//api/name/getBulkPublishDetails:" title="getBulkPublishDetails:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/getBulkPublishDetails:">&ndash;&nbsp;getBulkPublishDetails:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Get the status of the last BulkPublish operation for an identity pool.</p>
+
+
+<p>This API can only be called with developer credentials. You cannot call this API with the temporary user credentials provided by Cognito Identity.</p>
+
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (AWSTask *)getBulkPublishDetails:(AWSCognitoSyncGetBulkPublishDetailsRequest *)<em>request</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>request</code></th>
+						<td><p>A container for the necessary parameters to execute the GetBulkPublishDetails service method.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+			<div class="method-subsection return">
+				<h4 class="method-subtitle parameter-title">Return Value</h4>
+				<p>An instance of <code>AWSTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSCognitoSyncGetBulkPublishDetailsResponse</code>. On failed execution, <code>task.error</code> may contain an <code>NSError</code> with <code>AWSCognitoSyncErrorDomain</code> domian and the following error code: <code>AWSCognitoSyncErrorNotAuthorized</code>, <code>AWSCognitoSyncErrorInvalidParameter</code>, <code>AWSCognitoSyncErrorResourceNotFound</code>, <code>AWSCognitoSyncErrorInternalError</code>.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection see-also-section">
+				<h4 class="method-subtitle">See Also</h4>
+				<ul>
+					
+					<li><code><p><a href="../Classes/AWSCognitoSyncGetBulkPublishDetailsRequest.html">AWSCognitoSyncGetBulkPublishDetailsRequest</a></p></code></li>
+					
+					<li><code><p><a href="../Classes/AWSCognitoSyncGetBulkPublishDetailsResponse.html">AWSCognitoSyncGetBulkPublishDetailsResponse</a></p></code></li>
+					
+				</ul>
+			</div>
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AWSCognitoSyncService.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/getCognitoEvents:" title="getCognitoEvents:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/getCognitoEvents:">&ndash;&nbsp;getCognitoEvents:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Gets the events and the corresponding Lambda functions associated with an identity pool.</p>
+
+
+<p>This API can only be called with developer credentials. You cannot call this API with the temporary user credentials provided by Cognito Identity.</p>
+
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (AWSTask *)getCognitoEvents:(AWSCognitoSyncGetCognitoEventsRequest *)<em>request</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>request</code></th>
+						<td><p>A container for the necessary parameters to execute the GetCognitoEvents service method.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+			<div class="method-subsection return">
+				<h4 class="method-subtitle parameter-title">Return Value</h4>
+				<p>An instance of <code>AWSTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSCognitoSyncGetCognitoEventsResponse</code>. On failed execution, <code>task.error</code> may contain an <code>NSError</code> with <code>AWSCognitoSyncErrorDomain</code> domian and the following error code: <code>AWSCognitoSyncErrorInvalidParameter</code>, <code>AWSCognitoSyncErrorResourceNotFound</code>, <code>AWSCognitoSyncErrorNotAuthorized</code>, <code>AWSCognitoSyncErrorInternalError</code>, <code>AWSCognitoSyncErrorTooManyRequests</code>.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection see-also-section">
+				<h4 class="method-subtitle">See Also</h4>
+				<ul>
+					
+					<li><code><p><a href="../Classes/AWSCognitoSyncGetCognitoEventsRequest.html">AWSCognitoSyncGetCognitoEventsRequest</a></p></code></li>
+					
+					<li><code><p><a href="../Classes/AWSCognitoSyncGetCognitoEventsResponse.html">AWSCognitoSyncGetCognitoEventsResponse</a></p></code></li>
+					
+				</ul>
+			</div>
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AWSCognitoSyncService.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
 	<a name="//api/name/getIdentityPoolConfiguration:" title="getIdentityPoolConfiguration:"></a>
 	<h3 class="method-title"><code><a href="#//api/name/getIdentityPoolConfiguration:">&ndash;&nbsp;getIdentityPoolConfiguration:</a></code>
 </h3>
@@ -899,11 +1142,14 @@
 			<div class="method-subsection brief-description">
 				<p>Gets the configuration settings of an identity pool.</p>
 
+
+<p>This API can only be called with developer credentials. You cannot call this API with the temporary user credentials provided by Cognito Identity.</p>
+
 			</div>
 			
 		    
 
-			<div class="method-subsection method-declaration"><code>- (BFTask *)getIdentityPoolConfiguration:(AWSCognitoSyncGetIdentityPoolConfigurationRequest *)<em>request</em></code></div>
+			<div class="method-subsection method-declaration"><code>- (AWSTask *)getIdentityPoolConfiguration:(AWSCognitoSyncGetIdentityPoolConfigurationRequest *)<em>request</em></code></div>
 
 		    
 			
@@ -923,7 +1169,7 @@
 			
 			<div class="method-subsection return">
 				<h4 class="method-subtitle parameter-title">Return Value</h4>
-				<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSCognitoSyncGetIdentityPoolConfigurationResponse</code>. On failed execution, <code>task.error</code> may contain an <code>NSError</code> with <code>AWSCognitoSyncErrorDomain</code> domian and the following error code: <code>AWSCognitoSyncErrorNotAuthorized</code>, <code>AWSCognitoSyncErrorInvalidParameter</code>, <code>AWSCognitoSyncErrorResourceNotFound</code>, <code>AWSCognitoSyncErrorInternalError</code>.</p>
+				<p>An instance of <code>AWSTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSCognitoSyncGetIdentityPoolConfigurationResponse</code>. On failed execution, <code>task.error</code> may contain an <code>NSError</code> with <code>AWSCognitoSyncErrorDomain</code> domian and the following error code: <code>AWSCognitoSyncErrorNotAuthorized</code>, <code>AWSCognitoSyncErrorInvalidParameter</code>, <code>AWSCognitoSyncErrorResourceNotFound</code>, <code>AWSCognitoSyncErrorInternalError</code>, <code>AWSCognitoSyncErrorTooManyRequests</code>.</p>
 			</div>
 			
 
@@ -967,12 +1213,16 @@
 			
 			
 			<div class="method-subsection brief-description">
-				<p>Lists datasets for an identity. The credentials used to make this API call need to have access to the identity data. With Amazon Cognito Sync, each identity has access only to its own data. You should use Amazon Cognito Identity service to retrieve the credentials necessary to make this API call.</p>
+				<p>Lists datasets for an identity. With Amazon Cognito Sync, each identity has access only to its own data. Thus, the credentials used to make this API call need to have access to the identity data.</p>
+
+
+<p>ListDatasets can be called with temporary user credentials provided by Cognito Identity or with developer credentials. You should use the Cognito Identity credentials to make this API call.</p>
+
 			</div>
 			
 		    
 
-			<div class="method-subsection method-declaration"><code>- (BFTask *)listDatasets:(AWSCognitoSyncListDatasetsRequest *)<em>request</em></code></div>
+			<div class="method-subsection method-declaration"><code>- (AWSTask *)listDatasets:(AWSCognitoSyncListDatasetsRequest *)<em>request</em></code></div>
 
 		    
 			
@@ -992,7 +1242,7 @@
 			
 			<div class="method-subsection return">
 				<h4 class="method-subtitle parameter-title">Return Value</h4>
-				<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSCognitoSyncListDatasetsResponse</code>. On failed execution, <code>task.error</code> may contain an <code>NSError</code> with <code>AWSCognitoSyncErrorDomain</code> domian and the following error code: <code>AWSCognitoSyncErrorNotAuthorized</code>, <code>AWSCognitoSyncErrorInvalidParameter</code>, <code>AWSCognitoSyncErrorInternalError</code>.</p>
+				<p>An instance of <code>AWSTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSCognitoSyncListDatasetsResponse</code>. On failed execution, <code>task.error</code> may contain an <code>NSError</code> with <code>AWSCognitoSyncErrorDomain</code> domian and the following error code: <code>AWSCognitoSyncErrorNotAuthorized</code>, <code>AWSCognitoSyncErrorInvalidParameter</code>, <code>AWSCognitoSyncErrorInternalError</code>, <code>AWSCognitoSyncErrorTooManyRequests</code>.</p>
 			</div>
 			
 
@@ -1037,11 +1287,15 @@
 			
 			<div class="method-subsection brief-description">
 				<p>Gets a list of identity pools registered with Cognito.</p>
+
+
+<p>ListIdentityPoolUsage can only be called with developer credentials. You cannot make this API call with the temporary user credentials provided by Cognito Identity.</p>
+
 			</div>
 			
 		    
 
-			<div class="method-subsection method-declaration"><code>- (BFTask *)listIdentityPoolUsage:(AWSCognitoSyncListIdentityPoolUsageRequest *)<em>request</em></code></div>
+			<div class="method-subsection method-declaration"><code>- (AWSTask *)listIdentityPoolUsage:(AWSCognitoSyncListIdentityPoolUsageRequest *)<em>request</em></code></div>
 
 		    
 			
@@ -1061,7 +1315,7 @@
 			
 			<div class="method-subsection return">
 				<h4 class="method-subtitle parameter-title">Return Value</h4>
-				<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSCognitoSyncListIdentityPoolUsageResponse</code>. On failed execution, <code>task.error</code> may contain an <code>NSError</code> with <code>AWSCognitoSyncErrorDomain</code> domian and the following error code: <code>AWSCognitoSyncErrorNotAuthorized</code>, <code>AWSCognitoSyncErrorInvalidParameter</code>, <code>AWSCognitoSyncErrorInternalError</code>.</p>
+				<p>An instance of <code>AWSTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSCognitoSyncListIdentityPoolUsageResponse</code>. On failed execution, <code>task.error</code> may contain an <code>NSError</code> with <code>AWSCognitoSyncErrorDomain</code> domian and the following error code: <code>AWSCognitoSyncErrorNotAuthorized</code>, <code>AWSCognitoSyncErrorInvalidParameter</code>, <code>AWSCognitoSyncErrorInternalError</code>, <code>AWSCognitoSyncErrorTooManyRequests</code>.</p>
 			</div>
 			
 
@@ -1105,12 +1359,16 @@
 			
 			
 			<div class="method-subsection brief-description">
-				<p>Gets paginated records, optionally changed after a particular sync count for a dataset and identity. The credentials used to make this API call need to have access to the identity data. With Amazon Cognito Sync, each identity has access only to its own data. You should use Amazon Cognito Identity service to retrieve the credentials necessary to make this API call.</p>
+				<p>Gets paginated records, optionally changed after a particular sync count for a dataset and identity. With Amazon Cognito Sync, each identity has access only to its own data. Thus, the credentials used to make this API call need to have access to the identity data.</p>
+
+
+<p>ListRecords can be called with temporary user credentials provided by Cognito Identity or with developer credentials. You should use Cognito Identity credentials to make this API call.</p>
+
 			</div>
 			
 		    
 
-			<div class="method-subsection method-declaration"><code>- (BFTask *)listRecords:(AWSCognitoSyncListRecordsRequest *)<em>request</em></code></div>
+			<div class="method-subsection method-declaration"><code>- (AWSTask *)listRecords:(AWSCognitoSyncListRecordsRequest *)<em>request</em></code></div>
 
 		    
 			
@@ -1130,7 +1388,7 @@
 			
 			<div class="method-subsection return">
 				<h4 class="method-subtitle parameter-title">Return Value</h4>
-				<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSCognitoSyncListRecordsResponse</code>. On failed execution, <code>task.error</code> may contain an <code>NSError</code> with <code>AWSCognitoSyncErrorDomain</code> domian and the following error code: <code>AWSCognitoSyncErrorInvalidParameter</code>, <code>AWSCognitoSyncErrorNotAuthorized</code>, <code>AWSCognitoSyncErrorTooManyRequests</code>, <code>AWSCognitoSyncErrorInternalError</code>.</p>
+				<p>An instance of <code>AWSTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSCognitoSyncListRecordsResponse</code>. On failed execution, <code>task.error</code> may contain an <code>NSError</code> with <code>AWSCognitoSyncErrorDomain</code> domian and the following error code: <code>AWSCognitoSyncErrorInvalidParameter</code>, <code>AWSCognitoSyncErrorNotAuthorized</code>, <code>AWSCognitoSyncErrorTooManyRequests</code>, <code>AWSCognitoSyncErrorInternalError</code>.</p>
 			</div>
 			
 
@@ -1176,11 +1434,14 @@
 			<div class="method-subsection brief-description">
 				<p>Registers a device to receive push sync notifications.</p>
 
+
+<p>This API can only be called with temporary credentials provided by Cognito Identity. You cannot call this API with developer credentials.</p>
+
 			</div>
 			
 		    
 
-			<div class="method-subsection method-declaration"><code>- (BFTask *)registerDevice:(AWSCognitoSyncRegisterDeviceRequest *)<em>request</em></code></div>
+			<div class="method-subsection method-declaration"><code>- (AWSTask *)registerDevice:(AWSCognitoSyncRegisterDeviceRequest *)<em>request</em></code></div>
 
 		    
 			
@@ -1200,7 +1461,7 @@
 			
 			<div class="method-subsection return">
 				<h4 class="method-subtitle parameter-title">Return Value</h4>
-				<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSCognitoSyncRegisterDeviceResponse</code>. On failed execution, <code>task.error</code> may contain an <code>NSError</code> with <code>AWSCognitoSyncErrorDomain</code> domian and the following error code: <code>AWSCognitoSyncErrorNotAuthorized</code>, <code>AWSCognitoSyncErrorInvalidParameter</code>, <code>AWSCognitoSyncErrorResourceNotFound</code>, <code>AWSCognitoSyncErrorInternalError</code>, <code>AWSCognitoSyncErrorInvalidConfiguration</code>.</p>
+				<p>An instance of <code>AWSTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSCognitoSyncRegisterDeviceResponse</code>. On failed execution, <code>task.error</code> may contain an <code>NSError</code> with <code>AWSCognitoSyncErrorDomain</code> domian and the following error code: <code>AWSCognitoSyncErrorNotAuthorized</code>, <code>AWSCognitoSyncErrorInvalidParameter</code>, <code>AWSCognitoSyncErrorResourceNotFound</code>, <code>AWSCognitoSyncErrorInternalError</code>, <code>AWSCognitoSyncErrorInvalidConfiguration</code>, <code>AWSCognitoSyncErrorTooManyRequests</code>.</p>
 			</div>
 			
 
@@ -1233,6 +1494,77 @@
 		</div>
 	</div>
 </div><div class="section-method">
+	<a name="//api/name/setCognitoEvents:" title="setCognitoEvents:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/setCognitoEvents:">&ndash;&nbsp;setCognitoEvents:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Sets the AWS Lambda function for a given event type for an identity pool. This request only updates the key/value pair specified. Other key/values pairs are not updated. To remove a key value pair, pass a empty value for the particular key.</p>
+
+
+<p>This API can only be called with developer credentials. You cannot call this API with the temporary user credentials provided by Cognito Identity.</p>
+
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (AWSTask *)setCognitoEvents:(AWSCognitoSyncSetCognitoEventsRequest *)<em>request</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>request</code></th>
+						<td><p>A container for the necessary parameters to execute the SetCognitoEvents service method.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+			<div class="method-subsection return">
+				<h4 class="method-subtitle parameter-title">Return Value</h4>
+				<p>An instance of <code>AWSTask</code>. On successful execution, <code>task.result</code> will be <code>nil</code>. On failed execution, <code>task.error</code> may contain an <code>NSError</code> with <code>AWSCognitoSyncErrorDomain</code> domian and the following error code: <code>AWSCognitoSyncErrorInvalidParameter</code>, <code>AWSCognitoSyncErrorResourceNotFound</code>, <code>AWSCognitoSyncErrorNotAuthorized</code>, <code>AWSCognitoSyncErrorInternalError</code>, <code>AWSCognitoSyncErrorTooManyRequests</code>.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection see-also-section">
+				<h4 class="method-subtitle">See Also</h4>
+				<ul>
+					
+					<li><code><p><a href="../Classes/AWSCognitoSyncSetCognitoEventsRequest.html">AWSCognitoSyncSetCognitoEventsRequest</a></p></code></li>
+					
+				</ul>
+			</div>
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AWSCognitoSyncService.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
 	<a name="//api/name/setIdentityPoolConfiguration:" title="setIdentityPoolConfiguration:"></a>
 	<h3 class="method-title"><code><a href="#//api/name/setIdentityPoolConfiguration:">&ndash;&nbsp;setIdentityPoolConfiguration:</a></code>
 </h3>
@@ -1246,11 +1578,14 @@
 			<div class="method-subsection brief-description">
 				<p>Sets the necessary configuration for push sync.</p>
 
+
+<p>This API can only be called with developer credentials. You cannot call this API with the temporary user credentials provided by Cognito Identity.</p>
+
 			</div>
 			
 		    
 
-			<div class="method-subsection method-declaration"><code>- (BFTask *)setIdentityPoolConfiguration:(AWSCognitoSyncSetIdentityPoolConfigurationRequest *)<em>request</em></code></div>
+			<div class="method-subsection method-declaration"><code>- (AWSTask *)setIdentityPoolConfiguration:(AWSCognitoSyncSetIdentityPoolConfigurationRequest *)<em>request</em></code></div>
 
 		    
 			
@@ -1270,7 +1605,7 @@
 			
 			<div class="method-subsection return">
 				<h4 class="method-subtitle parameter-title">Return Value</h4>
-				<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSCognitoSyncSetIdentityPoolConfigurationResponse</code>. On failed execution, <code>task.error</code> may contain an <code>NSError</code> with <code>AWSCognitoSyncErrorDomain</code> domian and the following error code: <code>AWSCognitoSyncErrorNotAuthorized</code>, <code>AWSCognitoSyncErrorInvalidParameter</code>, <code>AWSCognitoSyncErrorResourceNotFound</code>, <code>AWSCognitoSyncErrorInternalError</code>.</p>
+				<p>An instance of <code>AWSTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSCognitoSyncSetIdentityPoolConfigurationResponse</code>. On failed execution, <code>task.error</code> may contain an <code>NSError</code> with <code>AWSCognitoSyncErrorDomain</code> domian and the following error code: <code>AWSCognitoSyncErrorNotAuthorized</code>, <code>AWSCognitoSyncErrorInvalidParameter</code>, <code>AWSCognitoSyncErrorResourceNotFound</code>, <code>AWSCognitoSyncErrorInternalError</code>, <code>AWSCognitoSyncErrorTooManyRequests</code>, <code>AWSCognitoSyncErrorLimitExceeded</code>.</p>
 			</div>
 			
 
@@ -1316,11 +1651,14 @@
 			<div class="method-subsection brief-description">
 				<p>Subscribes to receive notifications when a dataset is modified by another device.</p>
 
+
+<p>This API can only be called with temporary credentials provided by Cognito Identity. You cannot call this API with developer credentials.</p>
+
 			</div>
 			
 		    
 
-			<div class="method-subsection method-declaration"><code>- (BFTask *)subscribeToDataset:(AWSCognitoSyncSubscribeToDatasetRequest *)<em>request</em></code></div>
+			<div class="method-subsection method-declaration"><code>- (AWSTask *)subscribeToDataset:(AWSCognitoSyncSubscribeToDatasetRequest *)<em>request</em></code></div>
 
 		    
 			
@@ -1340,7 +1678,7 @@
 			
 			<div class="method-subsection return">
 				<h4 class="method-subtitle parameter-title">Return Value</h4>
-				<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSCognitoSyncSubscribeToDatasetResponse</code>. On failed execution, <code>task.error</code> may contain an <code>NSError</code> with <code>AWSCognitoSyncErrorDomain</code> domian and the following error code: <code>AWSCognitoSyncErrorNotAuthorized</code>, <code>AWSCognitoSyncErrorInvalidParameter</code>, <code>AWSCognitoSyncErrorResourceNotFound</code>, <code>AWSCognitoSyncErrorInternalError</code>, <code>AWSCognitoSyncErrorInvalidConfiguration</code>.</p>
+				<p>An instance of <code>AWSTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSCognitoSyncSubscribeToDatasetResponse</code>. On failed execution, <code>task.error</code> may contain an <code>NSError</code> with <code>AWSCognitoSyncErrorDomain</code> domian and the following error code: <code>AWSCognitoSyncErrorNotAuthorized</code>, <code>AWSCognitoSyncErrorInvalidParameter</code>, <code>AWSCognitoSyncErrorResourceNotFound</code>, <code>AWSCognitoSyncErrorInternalError</code>, <code>AWSCognitoSyncErrorInvalidConfiguration</code>, <code>AWSCognitoSyncErrorTooManyRequests</code>.</p>
 			</div>
 			
 
@@ -1384,13 +1722,16 @@
 			
 			
 			<div class="method-subsection brief-description">
-				<p>Unsubscribe from receiving notifications when a dataset is modified by another device.</p>
+				<p>Unsubscribes from receiving notifications when a dataset is modified by another device.</p>
+
+
+<p>This API can only be called with temporary credentials provided by Cognito Identity. You cannot call this API with developer credentials.</p>
 
 			</div>
 			
 		    
 
-			<div class="method-subsection method-declaration"><code>- (BFTask *)unsubscribeFromDataset:(AWSCognitoSyncUnsubscribeFromDatasetRequest *)<em>request</em></code></div>
+			<div class="method-subsection method-declaration"><code>- (AWSTask *)unsubscribeFromDataset:(AWSCognitoSyncUnsubscribeFromDatasetRequest *)<em>request</em></code></div>
 
 		    
 			
@@ -1410,7 +1751,7 @@
 			
 			<div class="method-subsection return">
 				<h4 class="method-subtitle parameter-title">Return Value</h4>
-				<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSCognitoSyncUnsubscribeFromDatasetResponse</code>. On failed execution, <code>task.error</code> may contain an <code>NSError</code> with <code>AWSCognitoSyncErrorDomain</code> domian and the following error code: <code>AWSCognitoSyncErrorNotAuthorized</code>, <code>AWSCognitoSyncErrorInvalidParameter</code>, <code>AWSCognitoSyncErrorResourceNotFound</code>, <code>AWSCognitoSyncErrorInternalError</code>, <code>AWSCognitoSyncErrorInvalidConfiguration</code>.</p>
+				<p>An instance of <code>AWSTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSCognitoSyncUnsubscribeFromDatasetResponse</code>. On failed execution, <code>task.error</code> may contain an <code>NSError</code> with <code>AWSCognitoSyncErrorDomain</code> domian and the following error code: <code>AWSCognitoSyncErrorNotAuthorized</code>, <code>AWSCognitoSyncErrorInvalidParameter</code>, <code>AWSCognitoSyncErrorResourceNotFound</code>, <code>AWSCognitoSyncErrorInternalError</code>, <code>AWSCognitoSyncErrorInvalidConfiguration</code>, <code>AWSCognitoSyncErrorTooManyRequests</code>.</p>
 			</div>
 			
 
@@ -1454,12 +1795,22 @@
 			
 			
 			<div class="method-subsection brief-description">
-				<p>Posts updates to records and add and delete records for a dataset and user. The credentials used to make this API call need to have access to the identity data. With Amazon Cognito Sync, each identity has access only to its own data. You should use Amazon Cognito Identity service to retrieve the credentials necessary to make this API call.</p>
+				<p>Posts updates to records and adds and deletes records for a dataset and user.</p>
+
+
+<p>The sync count in the record patch is your last known sync count for that record. The server will reject an UpdateRecords request with a ResourceConflictException if you try to patch a record with a new value but a stale sync count.</p>
+
+
+<p>For example, if the sync count on the server is 5 for a key called highScore and you try and submit a new highScore with sync count of 4, the request will be rejected. To obtain the current sync count for a record, call ListRecords. On a successful update of the record, the response returns the new sync count for that record. You should present that sync count the next time you try to update that same record. When the record does not exist, specify the sync count as 0.</p>
+
+
+<p>This API can be called with temporary user credentials provided by Cognito Identity or with developer credentials.</p>
+
 			</div>
 			
 		    
 
-			<div class="method-subsection method-declaration"><code>- (BFTask *)updateRecords:(AWSCognitoSyncUpdateRecordsRequest *)<em>request</em></code></div>
+			<div class="method-subsection method-declaration"><code>- (AWSTask *)updateRecords:(AWSCognitoSyncUpdateRecordsRequest *)<em>request</em></code></div>
 
 		    
 			
@@ -1479,7 +1830,7 @@
 			
 			<div class="method-subsection return">
 				<h4 class="method-subtitle parameter-title">Return Value</h4>
-				<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSCognitoSyncUpdateRecordsResponse</code>. On failed execution, <code>task.error</code> may contain an <code>NSError</code> with <code>AWSCognitoSyncErrorDomain</code> domian and the following error code: <code>AWSCognitoSyncErrorInvalidParameter</code>, <code>AWSCognitoSyncErrorLimitExceeded</code>, <code>AWSCognitoSyncErrorNotAuthorized</code>, <code>AWSCognitoSyncErrorResourceNotFound</code>, <code>AWSCognitoSyncErrorResourceConflict</code>, <code>AWSCognitoSyncErrorTooManyRequests</code>, <code>AWSCognitoSyncErrorInternalError</code>.</p>
+				<p>An instance of <code>AWSTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSCognitoSyncUpdateRecordsResponse</code>. On failed execution, <code>task.error</code> may contain an <code>NSError</code> with <code>AWSCognitoSyncErrorDomain</code> domian and the following error code: <code>AWSCognitoSyncErrorInvalidParameter</code>, <code>AWSCognitoSyncErrorLimitExceeded</code>, <code>AWSCognitoSyncErrorNotAuthorized</code>, <code>AWSCognitoSyncErrorResourceNotFound</code>, <code>AWSCognitoSyncErrorResourceConflict</code>, <code>AWSCognitoSyncErrorInvalidLambdaFunctionOutput</code>, <code>AWSCognitoSyncErrorLambdaThrottled</code>, <code>AWSCognitoSyncErrorTooManyRequests</code>, <code>AWSCognitoSyncErrorInternalError</code>.</p>
 			</div>
 			
 
@@ -1524,7 +1875,7 @@
 				<footer>
 					<div class="footer-copyright">
 						
-						<p class="copyright">Copyright &copy; 2015 Amazon Web Services, Inc. All rights reserved. Updated: 2015-03-25</p>
+						<p class="copyright">Copyright &copy; 2015 Amazon Web Services, Inc. All rights reserved. Updated: 2015-08-31</p>
 						
 						
 						<p class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.2.1 (build 1333)</a>.</p>

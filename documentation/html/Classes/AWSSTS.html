@@ -14,7 +14,7 @@
 		<div class="container" class="hide-in-xcode">
 			
 			<h1 id="library-title">
-				<a href="../index.html">AWS SDK for iOS v2.1.0 </a>
+				<a href="../index.html">AWS SDK for iOS v2.2.5 </a>
 			</h1>
 
 			<p id="developer-home">
@@ -648,7 +648,7 @@
 			
 		    
 
-			<div class="method-subsection method-declaration"><code>- (BFTask *)assumeRole:(AWSSTSAssumeRoleRequest *)<em>request</em></code></div>
+			<div class="method-subsection method-declaration"><code>- (AWSTask *)assumeRole:(AWSSTSAssumeRoleRequest *)<em>request</em></code></div>
 
 		    
 			
@@ -668,7 +668,7 @@
 			
 			<div class="method-subsection return">
 				<h4 class="method-subtitle parameter-title">Return Value</h4>
-				<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSSTSAssumeRoleResponse</code>. On failed execution, <code>task.error</code> may contain an <code>NSError</code> with <code>AWSSTSErrorDomain</code> domian and the following error code: <code>AWSSTSErrorMalformedPolicyDocument</code>, <code>AWSSTSErrorPackedPolicyTooLarge</code>.</p>
+				<p>An instance of <code>AWSTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSSTSAssumeRoleResponse</code>. On failed execution, <code>task.error</code> may contain an <code>NSError</code> with <code>AWSSTSErrorDomain</code> domain and the following error code: <code>AWSSTSErrorMalformedPolicyDocument</code>, <code>AWSSTSErrorPackedPolicyTooLarge</code>.</p>
 			</div>
 			
 
@@ -723,7 +723,7 @@
 			
 		    
 
-			<div class="method-subsection method-declaration"><code>- (BFTask *)assumeRoleWithSAML:(AWSSTSAssumeRoleWithSAMLRequest *)<em>request</em></code></div>
+			<div class="method-subsection method-declaration"><code>- (AWSTask *)assumeRoleWithSAML:(AWSSTSAssumeRoleWithSAMLRequest *)<em>request</em></code></div>
 
 		    
 			
@@ -743,7 +743,7 @@
 			
 			<div class="method-subsection return">
 				<h4 class="method-subtitle parameter-title">Return Value</h4>
-				<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSSTSAssumeRoleWithSAMLResponse</code>. On failed execution, <code>task.error</code> may contain an <code>NSError</code> with <code>AWSSTSErrorDomain</code> domian and the following error code: <code>AWSSTSErrorMalformedPolicyDocument</code>, <code>AWSSTSErrorPackedPolicyTooLarge</code>, <code>AWSSTSErrorIDPRejectedClaim</code>, <code>AWSSTSErrorInvalidIdentityToken</code>, <code>AWSSTSErrorExpiredToken</code>.</p>
+				<p>An instance of <code>AWSTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSSTSAssumeRoleWithSAMLResponse</code>. On failed execution, <code>task.error</code> may contain an <code>NSError</code> with <code>AWSSTSErrorDomain</code> domain and the following error code: <code>AWSSTSErrorMalformedPolicyDocument</code>, <code>AWSSTSErrorPackedPolicyTooLarge</code>, <code>AWSSTSErrorIDPRejectedClaim</code>, <code>AWSSTSErrorInvalidIdentityToken</code>, <code>AWSSTSErrorExpiredToken</code>.</p>
 			</div>
 			
 
@@ -795,7 +795,7 @@
 			
 		    
 
-			<div class="method-subsection method-declaration"><code>- (BFTask *)assumeRoleWithWebIdentity:(AWSSTSAssumeRoleWithWebIdentityRequest *)<em>request</em></code></div>
+			<div class="method-subsection method-declaration"><code>- (AWSTask *)assumeRoleWithWebIdentity:(AWSSTSAssumeRoleWithWebIdentityRequest *)<em>request</em></code></div>
 
 		    
 			
@@ -815,7 +815,7 @@
 			
 			<div class="method-subsection return">
 				<h4 class="method-subtitle parameter-title">Return Value</h4>
-				<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSSTSAssumeRoleWithWebIdentityResponse</code>. On failed execution, <code>task.error</code> may contain an <code>NSError</code> with <code>AWSSTSErrorDomain</code> domian and the following error code: <code>AWSSTSErrorMalformedPolicyDocument</code>, <code>AWSSTSErrorPackedPolicyTooLarge</code>, <code>AWSSTSErrorIDPRejectedClaim</code>, <code>AWSSTSErrorIDPCommunicationError</code>, <code>AWSSTSErrorInvalidIdentityToken</code>, <code>AWSSTSErrorExpiredToken</code>.</p>
+				<p>An instance of <code>AWSTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSSTSAssumeRoleWithWebIdentityResponse</code>. On failed execution, <code>task.error</code> may contain an <code>NSError</code> with <code>AWSSTSErrorDomain</code> domain and the following error code: <code>AWSSTSErrorMalformedPolicyDocument</code>, <code>AWSSTSErrorPackedPolicyTooLarge</code>, <code>AWSSTSErrorIDPRejectedClaim</code>, <code>AWSSTSErrorIDPCommunicationError</code>, <code>AWSSTSErrorInvalidIdentityToken</code>, <code>AWSSTSErrorExpiredToken</code>.</p>
 			</div>
 			
 
@@ -870,7 +870,7 @@
 			
 		    
 
-			<div class="method-subsection method-declaration"><code>- (BFTask *)decodeAuthorizationMessage:(AWSSTSDecodeAuthorizationMessageRequest *)<em>request</em></code></div>
+			<div class="method-subsection method-declaration"><code>- (AWSTask *)decodeAuthorizationMessage:(AWSSTSDecodeAuthorizationMessageRequest *)<em>request</em></code></div>
 
 		    
 			
@@ -890,7 +890,7 @@
 			
 			<div class="method-subsection return">
 				<h4 class="method-subtitle parameter-title">Return Value</h4>
-				<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSSTSDecodeAuthorizationMessageResponse</code>. On failed execution, <code>task.error</code> may contain an <code>NSError</code> with <code>AWSSTSErrorDomain</code> domian and the following error code: <code>AWSSTSErrorInvalidAuthorizationMessage</code>.</p>
+				<p>An instance of <code>AWSTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSSTSDecodeAuthorizationMessageResponse</code>. On failed execution, <code>task.error</code> may contain an <code>NSError</code> with <code>AWSSTSErrorDomain</code> domain and the following error code: <code>AWSSTSErrorInvalidAuthorizationMessage</code>.</p>
 			</div>
 			
 
@@ -970,7 +970,7 @@
 			
 		    
 
-			<div class="method-subsection method-declaration"><code>- (BFTask *)getFederationToken:(AWSSTSGetFederationTokenRequest *)<em>request</em></code></div>
+			<div class="method-subsection method-declaration"><code>- (AWSTask *)getFederationToken:(AWSSTSGetFederationTokenRequest *)<em>request</em></code></div>
 
 		    
 			
@@ -990,7 +990,7 @@
 			
 			<div class="method-subsection return">
 				<h4 class="method-subtitle parameter-title">Return Value</h4>
-				<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSSTSGetFederationTokenResponse</code>. On failed execution, <code>task.error</code> may contain an <code>NSError</code> with <code>AWSSTSErrorDomain</code> domian and the following error code: <code>AWSSTSErrorMalformedPolicyDocument</code>, <code>AWSSTSErrorPackedPolicyTooLarge</code>.</p>
+				<p>An instance of <code>AWSTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSSTSGetFederationTokenResponse</code>. On failed execution, <code>task.error</code> may contain an <code>NSError</code> with <code>AWSSTSErrorDomain</code> domain and the following error code: <code>AWSSTSErrorMalformedPolicyDocument</code>, <code>AWSSTSErrorPackedPolicyTooLarge</code>.</p>
 			</div>
 			
 
@@ -1045,7 +1045,7 @@
 			
 		    
 
-			<div class="method-subsection method-declaration"><code>- (BFTask *)getSessionToken:(AWSSTSGetSessionTokenRequest *)<em>request</em></code></div>
+			<div class="method-subsection method-declaration"><code>- (AWSTask *)getSessionToken:(AWSSTSGetSessionTokenRequest *)<em>request</em></code></div>
 
 		    
 			
@@ -1065,7 +1065,7 @@
 			
 			<div class="method-subsection return">
 				<h4 class="method-subtitle parameter-title">Return Value</h4>
-				<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSSTSGetSessionTokenResponse</code>.</p>
+				<p>An instance of <code>AWSTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSSTSGetSessionTokenResponse</code>.</p>
 			</div>
 			
 
@@ -1110,7 +1110,7 @@
 				<footer>
 					<div class="footer-copyright">
 						
-						<p class="copyright">Copyright &copy; 2015 Amazon Web Services, Inc. All rights reserved. Updated: 2015-03-25</p>
+						<p class="copyright">Copyright &copy; 2015 Amazon Web Services, Inc. All rights reserved. Updated: 2015-08-31</p>
 						
 						
 						<p class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.2.1 (build 1333)</a>.</p>

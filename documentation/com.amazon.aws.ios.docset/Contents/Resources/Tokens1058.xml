@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSSimpleDBUpdateCondition.html">
+	<File path="Classes/AWSSQSMessageAttributeValue.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSSimpleDBUpdateCondition</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt; Specifies the conditions under which data should be updated. If an update condition is specified for a request, the data will only be updated if the condition is satisfied. For example, if an attribute with a specific name and value exists, or if a specific attribute doesn&apos;t exist. &lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSimpleDBModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSSQSMessageAttributeValue</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The user-specified message attribute value. For string data types, the value attribute has the same restrictions on the content as the message body. For more information, see SendMessage.&lt;/p&gt;&lt;p&gt;Name, type, and value must not be empty or null. In addition, the message body should not be empty or null. All parts of the message attribute, including name, type, and value, are included in the message size restriction, which is currently 256 KB (262,144 bytes).&lt;/p&gt;
+Required parameters: [DataType]</Abstract>
+			<DeclaredIn>AWSSQSModel.h</DeclaredIn>
             
 			
 			<NodeRef refid="1058"/>
@@ -13,110 +14,182 @@
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSSimpleDBUpdateCondition/setExists:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;A value specifying whether or not the specified attribute must exist with the specified value in order for the update condition to be satisfied. Specify &lt;code&gt;true&lt;/code&gt; if the attribute must exist for the update condition to be satisfied. Specify &lt;code&gt;false&lt;/code&gt; if the attribute should not exist in order for the update condition to be satisfied.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSimpleDBModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSQSMessageAttributeValue/setBinaryListValues:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Not implemented. Reserved for future use.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSQSModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSNumber *exists</Declaration>
+			<Declaration>@property (nonatomic, strong) NSArray *binaryListValues</Declaration>
 			
 			
-			<Anchor>//api/name/exists</Anchor>
+			<Anchor>//api/name/binaryListValues</Anchor>
             <NodeRef refid="1058"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSSimpleDBUpdateCondition/exists</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;A value specifying whether or not the specified attribute must exist with the specified value in order for the update condition to be satisfied. Specify &lt;code&gt;true&lt;/code&gt; if the attribute must exist for the update condition to be satisfied. Specify &lt;code&gt;false&lt;/code&gt; if the attribute should not exist in order for the update condition to be satisfied.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSimpleDBModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSQSMessageAttributeValue/binaryListValues</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Not implemented. Reserved for future use.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSQSModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSNumber *exists</Declaration>
+			<Declaration>@property (nonatomic, strong) NSArray *binaryListValues</Declaration>
 			
 			
-			<Anchor>//api/name/exists</Anchor>
+			<Anchor>//api/name/binaryListValues</Anchor>
             <NodeRef refid="1058"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSSimpleDBUpdateCondition/exists</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;A value specifying whether or not the specified attribute must exist with the specified value in order for the update condition to be satisfied. Specify &lt;code&gt;true&lt;/code&gt; if the attribute must exist for the update condition to be satisfied. Specify &lt;code&gt;false&lt;/code&gt; if the attribute should not exist in order for the update condition to be satisfied.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSimpleDBModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSSQSMessageAttributeValue/binaryListValues</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Not implemented. Reserved for future use.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSQSModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSNumber *exists</Declaration>
+			<Declaration>@property (nonatomic, strong) NSArray *binaryListValues</Declaration>
 			
 			
-			<Anchor>//api/name/exists</Anchor>
+			<Anchor>//api/name/binaryListValues</Anchor>
             <NodeRef refid="1058"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSSimpleDBUpdateCondition/setName:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The name of the attribute involved in the condition.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSimpleDBModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSQSMessageAttributeValue/setBinaryValue:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Binary type attributes can store any binary data, for example, compressed data, encrypted data, or images.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSQSModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *name</Declaration>
+			<Declaration>@property (nonatomic, strong) NSData *binaryValue</Declaration>
 			
 			
-			<Anchor>//api/name/name</Anchor>
+			<Anchor>//api/name/binaryValue</Anchor>
             <NodeRef refid="1058"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSSimpleDBUpdateCondition/name</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The name of the attribute involved in the condition.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSimpleDBModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSQSMessageAttributeValue/binaryValue</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Binary type attributes can store any binary data, for example, compressed data, encrypted data, or images.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSQSModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *name</Declaration>
+			<Declaration>@property (nonatomic, strong) NSData *binaryValue</Declaration>
 			
 			
-			<Anchor>//api/name/name</Anchor>
+			<Anchor>//api/name/binaryValue</Anchor>
             <NodeRef refid="1058"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSSimpleDBUpdateCondition/name</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The name of the attribute involved in the condition.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSimpleDBModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSSQSMessageAttributeValue/binaryValue</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Binary type attributes can store any binary data, for example, compressed data, encrypted data, or images.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSQSModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *name</Declaration>
+			<Declaration>@property (nonatomic, strong) NSData *binaryValue</Declaration>
 			
 			
-			<Anchor>//api/name/name</Anchor>
+			<Anchor>//api/name/binaryValue</Anchor>
             <NodeRef refid="1058"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSSimpleDBUpdateCondition/setValue:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The value of an attribute. This value can only be specified when the &lt;code&gt;Exists&lt;/code&gt; parameter is equal to &lt;code&gt;true&lt;/code&gt;.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSimpleDBModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSQSMessageAttributeValue/setDataType:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Amazon SQS supports the following logical data types: String, Number, and Binary. In addition, you can append your own custom labels. For more information, see Message Attribute Data Types.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSQSModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *value</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *dataType</Declaration>
 			
 			
-			<Anchor>//api/name/value</Anchor>
+			<Anchor>//api/name/dataType</Anchor>
             <NodeRef refid="1058"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSSimpleDBUpdateCondition/value</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The value of an attribute. This value can only be specified when the &lt;code&gt;Exists&lt;/code&gt; parameter is equal to &lt;code&gt;true&lt;/code&gt;.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSimpleDBModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSQSMessageAttributeValue/dataType</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Amazon SQS supports the following logical data types: String, Number, and Binary. In addition, you can append your own custom labels. For more information, see Message Attribute Data Types.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSQSModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *value</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *dataType</Declaration>
 			
 			
-			<Anchor>//api/name/value</Anchor>
+			<Anchor>//api/name/dataType</Anchor>
             <NodeRef refid="1058"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSSimpleDBUpdateCondition/value</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The value of an attribute. This value can only be specified when the &lt;code&gt;Exists&lt;/code&gt; parameter is equal to &lt;code&gt;true&lt;/code&gt;.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSimpleDBModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSSQSMessageAttributeValue/dataType</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Amazon SQS supports the following logical data types: String, Number, and Binary. In addition, you can append your own custom labels. For more information, see Message Attribute Data Types.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSQSModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *value</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *dataType</Declaration>
 			
 			
-			<Anchor>//api/name/value</Anchor>
+			<Anchor>//api/name/dataType</Anchor>
+            <NodeRef refid="1058"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSQSMessageAttributeValue/setStringListValues:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Not implemented. Reserved for future use.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSQSModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray *stringListValues</Declaration>
+			
+			
+			<Anchor>//api/name/stringListValues</Anchor>
+            <NodeRef refid="1058"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSQSMessageAttributeValue/stringListValues</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Not implemented. Reserved for future use.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSQSModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray *stringListValues</Declaration>
+			
+			
+			<Anchor>//api/name/stringListValues</Anchor>
+            <NodeRef refid="1058"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSSQSMessageAttributeValue/stringListValues</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Not implemented. Reserved for future use.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSQSModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray *stringListValues</Declaration>
+			
+			
+			<Anchor>//api/name/stringListValues</Anchor>
+            <NodeRef refid="1058"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSQSMessageAttributeValue/setStringValue:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Strings are Unicode with UTF8 binary encoding. For a list of code values, see http://en.wikipedia.org/wiki/ASCII#ASCIIprintablecharacters.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSQSModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *stringValue</Declaration>
+			
+			
+			<Anchor>//api/name/stringValue</Anchor>
+            <NodeRef refid="1058"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSQSMessageAttributeValue/stringValue</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Strings are Unicode with UTF8 binary encoding. For a list of code values, see http://en.wikipedia.org/wiki/ASCII#ASCIIprintablecharacters.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSQSModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *stringValue</Declaration>
+			
+			
+			<Anchor>//api/name/stringValue</Anchor>
+            <NodeRef refid="1058"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSSQSMessageAttributeValue/stringValue</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Strings are Unicode with UTF8 binary encoding. For a list of code values, see http://en.wikipedia.org/wiki/ASCII#ASCIIprintablecharacters.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSQSModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *stringValue</Declaration>
+			
+			
+			<Anchor>//api/name/stringValue</Anchor>
             <NodeRef refid="1058"/>
 		</Token>
 		

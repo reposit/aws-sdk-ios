@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSSESSendEmailRequest.html">
+	<File path="Classes/AWSS3Redirect.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSSESSendEmailRequest</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Represents a request instructing the service to send a single email message.&lt;/p&gt;&lt;p&gt;This datatype can be used in application code to compose a message consisting of source, destination, message, reply-to, and return-path parts. This object can then be sent using the &lt;code&gt;SendEmail&lt;/code&gt; action. &lt;/p&gt;
-Required parameters: [Source, Destination, Message]</Abstract>
-			<DeclaredIn>AWSSESModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSS3Redirect</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
             
 			
 			<NodeRef refid="914"/>
@@ -14,182 +13,182 @@ Required parameters: [Source, Destination, Message]</Abstract>
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSSESSendEmailRequest/setDestination:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The destination for this email, composed of To:, CC:, and BCC: fields.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSESModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3Redirect/setHostName:</TokenIdentifier>
+			<Abstract type="html">The host name to use in the redirect request.</Abstract>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) AWSSESDestination *destination</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *hostName</Declaration>
 			
 			
-			<Anchor>//api/name/destination</Anchor>
+			<Anchor>//api/name/hostName</Anchor>
             <NodeRef refid="914"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSSESSendEmailRequest/destination</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The destination for this email, composed of To:, CC:, and BCC: fields.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSESModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3Redirect/hostName</TokenIdentifier>
+			<Abstract type="html">The host name to use in the redirect request.</Abstract>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) AWSSESDestination *destination</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *hostName</Declaration>
 			
 			
-			<Anchor>//api/name/destination</Anchor>
+			<Anchor>//api/name/hostName</Anchor>
             <NodeRef refid="914"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSSESSendEmailRequest/destination</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The destination for this email, composed of To:, CC:, and BCC: fields.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSESModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSS3Redirect/hostName</TokenIdentifier>
+			<Abstract type="html">The host name to use in the redirect request.</Abstract>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) AWSSESDestination *destination</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *hostName</Declaration>
 			
 			
-			<Anchor>//api/name/destination</Anchor>
+			<Anchor>//api/name/hostName</Anchor>
             <NodeRef refid="914"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSSESSendEmailRequest/setMessage:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The message to be sent.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSESModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3Redirect/setHttpRedirectCode:</TokenIdentifier>
+			<Abstract type="html">The HTTP redirect code to use on the response. Not required if one of the siblings is present.</Abstract>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) AWSSESMessage *message</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *httpRedirectCode</Declaration>
 			
 			
-			<Anchor>//api/name/message</Anchor>
+			<Anchor>//api/name/httpRedirectCode</Anchor>
             <NodeRef refid="914"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSSESSendEmailRequest/message</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The message to be sent.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSESModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3Redirect/httpRedirectCode</TokenIdentifier>
+			<Abstract type="html">The HTTP redirect code to use on the response. Not required if one of the siblings is present.</Abstract>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) AWSSESMessage *message</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *httpRedirectCode</Declaration>
 			
 			
-			<Anchor>//api/name/message</Anchor>
+			<Anchor>//api/name/httpRedirectCode</Anchor>
             <NodeRef refid="914"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSSESSendEmailRequest/message</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The message to be sent.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSESModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSS3Redirect/httpRedirectCode</TokenIdentifier>
+			<Abstract type="html">The HTTP redirect code to use on the response. Not required if one of the siblings is present.</Abstract>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) AWSSESMessage *message</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *httpRedirectCode</Declaration>
 			
 			
-			<Anchor>//api/name/message</Anchor>
+			<Anchor>//api/name/httpRedirectCode</Anchor>
             <NodeRef refid="914"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSSESSendEmailRequest/setReplyToAddresses:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The reply-to email address(es) for the message. If the recipient replies to the message, each reply-to address will receive the reply. &lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSESModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3Redirect/setProtocols:</TokenIdentifier>
+			<Abstract type="html">Protocol to use (http, https) when redirecting requests. The default is the protocol that is used in the original request.</Abstract>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSArray *replyToAddresses</Declaration>
+			<Declaration>@property (nonatomic, assign) AWSS3Protocols protocols</Declaration>
 			
 			
-			<Anchor>//api/name/replyToAddresses</Anchor>
+			<Anchor>//api/name/protocols</Anchor>
             <NodeRef refid="914"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSSESSendEmailRequest/replyToAddresses</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The reply-to email address(es) for the message. If the recipient replies to the message, each reply-to address will receive the reply. &lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSESModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3Redirect/protocols</TokenIdentifier>
+			<Abstract type="html">Protocol to use (http, https) when redirecting requests. The default is the protocol that is used in the original request.</Abstract>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSArray *replyToAddresses</Declaration>
+			<Declaration>@property (nonatomic, assign) AWSS3Protocols protocols</Declaration>
 			
 			
-			<Anchor>//api/name/replyToAddresses</Anchor>
+			<Anchor>//api/name/protocols</Anchor>
             <NodeRef refid="914"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSSESSendEmailRequest/replyToAddresses</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The reply-to email address(es) for the message. If the recipient replies to the message, each reply-to address will receive the reply. &lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSESModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSS3Redirect/protocols</TokenIdentifier>
+			<Abstract type="html">Protocol to use (http, https) when redirecting requests. The default is the protocol that is used in the original request.</Abstract>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSArray *replyToAddresses</Declaration>
+			<Declaration>@property (nonatomic, assign) AWSS3Protocols protocols</Declaration>
 			
 			
-			<Anchor>//api/name/replyToAddresses</Anchor>
+			<Anchor>//api/name/protocols</Anchor>
             <NodeRef refid="914"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSSESSendEmailRequest/setReturnPath:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The email address to which bounces and complaints are to be forwarded when feedback forwarding is enabled. If the message cannot be delivered to the recipient, then an error message will be returned from the recipient&apos;s ISP; this message will then be forwarded to the email address specified by the &lt;code&gt;ReturnPath&lt;/code&gt; parameter. &lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSESModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3Redirect/setReplaceKeyPrefixWith:</TokenIdentifier>
+			<Abstract type="html">The object key prefix to use in the redirect request. For example, to redirect requests for all pages with prefix docs/ (objects in the docs/ folder) to documents/, you can set a condition block with KeyPrefixEquals set to docs/ and in the Redirect set ReplaceKeyPrefixWith to /documents. Not required if one of the siblings is present. Can be present only if ReplaceKeyWith is not provided.</Abstract>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *returnPath</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *replaceKeyPrefixWith</Declaration>
 			
 			
-			<Anchor>//api/name/returnPath</Anchor>
+			<Anchor>//api/name/replaceKeyPrefixWith</Anchor>
             <NodeRef refid="914"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSSESSendEmailRequest/returnPath</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The email address to which bounces and complaints are to be forwarded when feedback forwarding is enabled. If the message cannot be delivered to the recipient, then an error message will be returned from the recipient&apos;s ISP; this message will then be forwarded to the email address specified by the &lt;code&gt;ReturnPath&lt;/code&gt; parameter. &lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSESModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3Redirect/replaceKeyPrefixWith</TokenIdentifier>
+			<Abstract type="html">The object key prefix to use in the redirect request. For example, to redirect requests for all pages with prefix docs/ (objects in the docs/ folder) to documents/, you can set a condition block with KeyPrefixEquals set to docs/ and in the Redirect set ReplaceKeyPrefixWith to /documents. Not required if one of the siblings is present. Can be present only if ReplaceKeyWith is not provided.</Abstract>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *returnPath</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *replaceKeyPrefixWith</Declaration>
 			
 			
-			<Anchor>//api/name/returnPath</Anchor>
+			<Anchor>//api/name/replaceKeyPrefixWith</Anchor>
             <NodeRef refid="914"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSSESSendEmailRequest/returnPath</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The email address to which bounces and complaints are to be forwarded when feedback forwarding is enabled. If the message cannot be delivered to the recipient, then an error message will be returned from the recipient&apos;s ISP; this message will then be forwarded to the email address specified by the &lt;code&gt;ReturnPath&lt;/code&gt; parameter. &lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSESModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSS3Redirect/replaceKeyPrefixWith</TokenIdentifier>
+			<Abstract type="html">The object key prefix to use in the redirect request. For example, to redirect requests for all pages with prefix docs/ (objects in the docs/ folder) to documents/, you can set a condition block with KeyPrefixEquals set to docs/ and in the Redirect set ReplaceKeyPrefixWith to /documents. Not required if one of the siblings is present. Can be present only if ReplaceKeyWith is not provided.</Abstract>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *returnPath</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *replaceKeyPrefixWith</Declaration>
 			
 			
-			<Anchor>//api/name/returnPath</Anchor>
+			<Anchor>//api/name/replaceKeyPrefixWith</Anchor>
             <NodeRef refid="914"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSSESSendEmailRequest/setSource:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The identity&apos;s email address.&lt;/p&gt;&lt;p&gt; By default, the string must be 7-bit ASCII. If the text must contain any other characters, then you must use MIME encoded-word syntax (RFC 2047) instead of a literal string. MIME encoded-word syntax uses the following form: &lt;code&gt;=?charset?encoding?encoded-text?=&lt;/code&gt;. For more information, see RFC 2047. &lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSESModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3Redirect/setReplaceKeyWith:</TokenIdentifier>
+			<Abstract type="html">The specific object key to use in the redirect request. For example, redirect request to error.html. Not required if one of the sibling is present. Can be present only if ReplaceKeyPrefixWith is not provided.</Abstract>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *source</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *replaceKeyWith</Declaration>
 			
 			
-			<Anchor>//api/name/source</Anchor>
+			<Anchor>//api/name/replaceKeyWith</Anchor>
             <NodeRef refid="914"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSSESSendEmailRequest/source</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The identity&apos;s email address.&lt;/p&gt;&lt;p&gt; By default, the string must be 7-bit ASCII. If the text must contain any other characters, then you must use MIME encoded-word syntax (RFC 2047) instead of a literal string. MIME encoded-word syntax uses the following form: &lt;code&gt;=?charset?encoding?encoded-text?=&lt;/code&gt;. For more information, see RFC 2047. &lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSESModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3Redirect/replaceKeyWith</TokenIdentifier>
+			<Abstract type="html">The specific object key to use in the redirect request. For example, redirect request to error.html. Not required if one of the sibling is present. Can be present only if ReplaceKeyPrefixWith is not provided.</Abstract>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *source</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *replaceKeyWith</Declaration>
 			
 			
-			<Anchor>//api/name/source</Anchor>
+			<Anchor>//api/name/replaceKeyWith</Anchor>
             <NodeRef refid="914"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSSESSendEmailRequest/source</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The identity&apos;s email address.&lt;/p&gt;&lt;p&gt; By default, the string must be 7-bit ASCII. If the text must contain any other characters, then you must use MIME encoded-word syntax (RFC 2047) instead of a literal string. MIME encoded-word syntax uses the following form: &lt;code&gt;=?charset?encoding?encoded-text?=&lt;/code&gt;. For more information, see RFC 2047. &lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSESModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSS3Redirect/replaceKeyWith</TokenIdentifier>
+			<Abstract type="html">The specific object key to use in the redirect request. For example, redirect request to error.html. Not required if one of the sibling is present. Can be present only if ReplaceKeyPrefixWith is not provided.</Abstract>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *source</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *replaceKeyWith</Declaration>
 			
 			
-			<Anchor>//api/name/source</Anchor>
+			<Anchor>//api/name/replaceKeyWith</Anchor>
             <NodeRef refid="914"/>
 		</Token>
 		

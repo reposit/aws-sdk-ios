@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSWebIdentityCredentialsProvider.html">
+	<File path="Classes/AWSSQSSendMessageBatchRequestEntry.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSWebIdentityCredentialsProvider</TokenIdentifier>
-			<Abstract type="html">A credentials provider that uses AWS STS web identity federation.</Abstract>
-			<DeclaredIn>AWSCredentialsProvider.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSSQSSendMessageBatchRequestEntry</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Contains the details of a single Amazon SQS message along with a &lt;code&gt;Id&lt;/code&gt;. &lt;/p&gt;
+Required parameters: [Id, MessageBody]</Abstract>
+			<DeclaredIn>AWSSQSModel.h</DeclaredIn>
             
 			
 			<NodeRef refid="1063"/>
@@ -13,158 +14,146 @@
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSWebIdentityCredentialsProvider/setAccessKey:</TokenIdentifier>
-			<Abstract type="html">Access Key component of credentials.</Abstract>
-			<DeclaredIn>AWSCredentialsProvider.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSQSSendMessageBatchRequestEntry/setDelaySeconds:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The number of seconds for which the message has to be delayed.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSQSModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong, readonly) NSString *accessKey</Declaration>
+			<Declaration>@property (nonatomic, strong) NSNumber *delaySeconds</Declaration>
 			
 			
-			<Anchor>//api/name/accessKey</Anchor>
+			<Anchor>//api/name/delaySeconds</Anchor>
             <NodeRef refid="1063"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSWebIdentityCredentialsProvider/accessKey</TokenIdentifier>
-			<Abstract type="html">Access Key component of credentials.</Abstract>
-			<DeclaredIn>AWSCredentialsProvider.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSQSSendMessageBatchRequestEntry/delaySeconds</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The number of seconds for which the message has to be delayed.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSQSModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong, readonly) NSString *accessKey</Declaration>
+			<Declaration>@property (nonatomic, strong) NSNumber *delaySeconds</Declaration>
 			
 			
-			<Anchor>//api/name/accessKey</Anchor>
+			<Anchor>//api/name/delaySeconds</Anchor>
             <NodeRef refid="1063"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSWebIdentityCredentialsProvider/accessKey</TokenIdentifier>
-			<Abstract type="html">Access Key component of credentials.</Abstract>
-			<DeclaredIn>AWSCredentialsProvider.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSSQSSendMessageBatchRequestEntry/delaySeconds</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The number of seconds for which the message has to be delayed.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSQSModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong, readonly) NSString *accessKey</Declaration>
+			<Declaration>@property (nonatomic, strong) NSNumber *delaySeconds</Declaration>
 			
 			
-			<Anchor>//api/name/accessKey</Anchor>
+			<Anchor>//api/name/delaySeconds</Anchor>
             <NodeRef refid="1063"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSWebIdentityCredentialsProvider/setSecretKey:</TokenIdentifier>
-			<Abstract type="html">Secret Access Key component of credentials.</Abstract>
-			<DeclaredIn>AWSCredentialsProvider.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSQSSendMessageBatchRequestEntry/setIdentifier:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;An identifier for the message in this batch. This is used to communicate the result. Note that the &lt;code&gt;Id&lt;/code&gt;s of a batch request need to be unique within the request.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSQSModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong, readonly) NSString *secretKey</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *identifier</Declaration>
 			
 			
-			<Anchor>//api/name/secretKey</Anchor>
+			<Anchor>//api/name/identifier</Anchor>
             <NodeRef refid="1063"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSWebIdentityCredentialsProvider/secretKey</TokenIdentifier>
-			<Abstract type="html">Secret Access Key component of credentials.</Abstract>
-			<DeclaredIn>AWSCredentialsProvider.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSQSSendMessageBatchRequestEntry/identifier</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;An identifier for the message in this batch. This is used to communicate the result. Note that the &lt;code&gt;Id&lt;/code&gt;s of a batch request need to be unique within the request.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSQSModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong, readonly) NSString *secretKey</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *identifier</Declaration>
 			
 			
-			<Anchor>//api/name/secretKey</Anchor>
+			<Anchor>//api/name/identifier</Anchor>
             <NodeRef refid="1063"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSWebIdentityCredentialsProvider/secretKey</TokenIdentifier>
-			<Abstract type="html">Secret Access Key component of credentials.</Abstract>
-			<DeclaredIn>AWSCredentialsProvider.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSSQSSendMessageBatchRequestEntry/identifier</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;An identifier for the message in this batch. This is used to communicate the result. Note that the &lt;code&gt;Id&lt;/code&gt;s of a batch request need to be unique within the request.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSQSModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong, readonly) NSString *secretKey</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *identifier</Declaration>
 			
 			
-			<Anchor>//api/name/secretKey</Anchor>
+			<Anchor>//api/name/identifier</Anchor>
             <NodeRef refid="1063"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSWebIdentityCredentialsProvider/setSessionKey:</TokenIdentifier>
-			<Abstract type="html">Session Token component of credentials.</Abstract>
-			<DeclaredIn>AWSCredentialsProvider.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSQSSendMessageBatchRequestEntry/setMessageAttributes:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Each message attribute consists of a Name, Type, and Value. For more information, see Message Attribute Items.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSQSModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong, readonly) NSString *sessionKey</Declaration>
+			<Declaration>@property (nonatomic, strong) NSDictionary *messageAttributes</Declaration>
 			
 			
-			<Anchor>//api/name/sessionKey</Anchor>
+			<Anchor>//api/name/messageAttributes</Anchor>
             <NodeRef refid="1063"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSWebIdentityCredentialsProvider/sessionKey</TokenIdentifier>
-			<Abstract type="html">Session Token component of credentials.</Abstract>
-			<DeclaredIn>AWSCredentialsProvider.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSQSSendMessageBatchRequestEntry/messageAttributes</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Each message attribute consists of a Name, Type, and Value. For more information, see Message Attribute Items.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSQSModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong, readonly) NSString *sessionKey</Declaration>
+			<Declaration>@property (nonatomic, strong) NSDictionary *messageAttributes</Declaration>
 			
 			
-			<Anchor>//api/name/sessionKey</Anchor>
+			<Anchor>//api/name/messageAttributes</Anchor>
             <NodeRef refid="1063"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSWebIdentityCredentialsProvider/sessionKey</TokenIdentifier>
-			<Abstract type="html">Session Token component of credentials.</Abstract>
-			<DeclaredIn>AWSCredentialsProvider.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSSQSSendMessageBatchRequestEntry/messageAttributes</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Each message attribute consists of a Name, Type, and Value. For more information, see Message Attribute Items.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSQSModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong, readonly) NSString *sessionKey</Declaration>
+			<Declaration>@property (nonatomic, strong) NSDictionary *messageAttributes</Declaration>
 			
 			
-			<Anchor>//api/name/sessionKey</Anchor>
+			<Anchor>//api/name/messageAttributes</Anchor>
             <NodeRef refid="1063"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSWebIdentityCredentialsProvider/setExpiration:</TokenIdentifier>
-			<Abstract type="html">Date at which these credentials will expire.</Abstract>
-			<DeclaredIn>AWSCredentialsProvider.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSQSSendMessageBatchRequestEntry/setMessageBody:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Body of the message.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSQSModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong, readonly) NSDate *expiration</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *messageBody</Declaration>
 			
 			
-			<Anchor>//api/name/expiration</Anchor>
+			<Anchor>//api/name/messageBody</Anchor>
             <NodeRef refid="1063"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSWebIdentityCredentialsProvider/expiration</TokenIdentifier>
-			<Abstract type="html">Date at which these credentials will expire.</Abstract>
-			<DeclaredIn>AWSCredentialsProvider.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSQSSendMessageBatchRequestEntry/messageBody</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Body of the message.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSQSModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong, readonly) NSDate *expiration</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *messageBody</Declaration>
 			
 			
-			<Anchor>//api/name/expiration</Anchor>
+			<Anchor>//api/name/messageBody</Anchor>
             <NodeRef refid="1063"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSWebIdentityCredentialsProvider/expiration</TokenIdentifier>
-			<Abstract type="html">Date at which these credentials will expire.</Abstract>
-			<DeclaredIn>AWSCredentialsProvider.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSSQSSendMessageBatchRequestEntry/messageBody</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Body of the message.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSQSModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong, readonly) NSDate *expiration</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *messageBody</Declaration>
 			
 			
-			<Anchor>//api/name/expiration</Anchor>
-            <NodeRef refid="1063"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSWebIdentityCredentialsProvider/refresh</TokenIdentifier>
-			<Abstract type="html">Refresh the token associated with this provider.</Abstract>
-			<DeclaredIn>AWSCredentialsProvider.h</DeclaredIn>
-			
-			<Declaration>- (BFTask *)refresh</Declaration>
-			
-			<ReturnValue><Abstract type="html">BFTask.</Abstract></ReturnValue>
-			<Anchor>//api/name/refresh</Anchor>
+			<Anchor>//api/name/messageBody</Anchor>
             <NodeRef refid="1063"/>
 		</Token>
 		

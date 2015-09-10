@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSEC2ReservedInstancesOffering.html">
+	<File path="Classes/AWSEC2ReplaceNetworkAclEntryRequest.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSEC2ReservedInstancesOffering</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Describes a Reserved Instance offering.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSEC2ReplaceNetworkAclEntryRequest</TokenIdentifier>
+			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
             
 			
@@ -13,470 +13,326 @@
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ReservedInstancesOffering/setAvailabilityZone:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The Availability Zone in which the Reserved Instance can be used.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ReplaceNetworkAclEntryRequest/setCidrBlock:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The network range to allow or deny, in CIDR notation.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *availabilityZone</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *cidrBlock</Declaration>
 			
 			
-			<Anchor>//api/name/availabilityZone</Anchor>
+			<Anchor>//api/name/cidrBlock</Anchor>
             <NodeRef refid="570"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ReservedInstancesOffering/availabilityZone</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The Availability Zone in which the Reserved Instance can be used.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ReplaceNetworkAclEntryRequest/cidrBlock</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The network range to allow or deny, in CIDR notation.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *availabilityZone</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *cidrBlock</Declaration>
 			
 			
-			<Anchor>//api/name/availabilityZone</Anchor>
+			<Anchor>//api/name/cidrBlock</Anchor>
             <NodeRef refid="570"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2ReservedInstancesOffering/availabilityZone</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The Availability Zone in which the Reserved Instance can be used.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2ReplaceNetworkAclEntryRequest/cidrBlock</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The network range to allow or deny, in CIDR notation.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *availabilityZone</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *cidrBlock</Declaration>
 			
 			
-			<Anchor>//api/name/availabilityZone</Anchor>
+			<Anchor>//api/name/cidrBlock</Anchor>
             <NodeRef refid="570"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ReservedInstancesOffering/setCurrencyCode:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The currency of the Reserved Instance offering you are purchasing. It&apos;s specified using ISO 4217 standard currency codes. At this time, the only supported currency is &lt;code&gt;USD&lt;/code&gt;.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ReplaceNetworkAclEntryRequest/setDryRun:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, assign) AWSEC2CurrencyCodeValues currencyCode</Declaration>
+			<Declaration>@property (nonatomic, strong) NSNumber *dryRun</Declaration>
 			
 			
-			<Anchor>//api/name/currencyCode</Anchor>
+			<Anchor>//api/name/dryRun</Anchor>
             <NodeRef refid="570"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ReservedInstancesOffering/currencyCode</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The currency of the Reserved Instance offering you are purchasing. It&apos;s specified using ISO 4217 standard currency codes. At this time, the only supported currency is &lt;code&gt;USD&lt;/code&gt;.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ReplaceNetworkAclEntryRequest/dryRun</TokenIdentifier>
+			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, assign) AWSEC2CurrencyCodeValues currencyCode</Declaration>
+			<Declaration>@property (nonatomic, strong) NSNumber *dryRun</Declaration>
 			
 			
-			<Anchor>//api/name/currencyCode</Anchor>
+			<Anchor>//api/name/dryRun</Anchor>
             <NodeRef refid="570"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2ReservedInstancesOffering/currencyCode</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The currency of the Reserved Instance offering you are purchasing. It&apos;s specified using ISO 4217 standard currency codes. At this time, the only supported currency is &lt;code&gt;USD&lt;/code&gt;.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2ReplaceNetworkAclEntryRequest/dryRun</TokenIdentifier>
+			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, assign) AWSEC2CurrencyCodeValues currencyCode</Declaration>
+			<Declaration>@property (nonatomic, strong) NSNumber *dryRun</Declaration>
 			
 			
-			<Anchor>//api/name/currencyCode</Anchor>
+			<Anchor>//api/name/dryRun</Anchor>
             <NodeRef refid="570"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ReservedInstancesOffering/setDuration:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The duration of the Reserved Instance, in seconds.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ReplaceNetworkAclEntryRequest/setEgress:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Indicates whether to replace the egress rule.&lt;/p&gt;&lt;p&gt;Default: If no value is specified, we replace the ingress rule.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSNumber *duration</Declaration>
+			<Declaration>@property (nonatomic, strong) NSNumber *egress</Declaration>
 			
 			
-			<Anchor>//api/name/duration</Anchor>
+			<Anchor>//api/name/egress</Anchor>
             <NodeRef refid="570"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ReservedInstancesOffering/duration</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The duration of the Reserved Instance, in seconds.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ReplaceNetworkAclEntryRequest/egress</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Indicates whether to replace the egress rule.&lt;/p&gt;&lt;p&gt;Default: If no value is specified, we replace the ingress rule.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSNumber *duration</Declaration>
+			<Declaration>@property (nonatomic, strong) NSNumber *egress</Declaration>
 			
 			
-			<Anchor>//api/name/duration</Anchor>
+			<Anchor>//api/name/egress</Anchor>
             <NodeRef refid="570"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2ReservedInstancesOffering/duration</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The duration of the Reserved Instance, in seconds.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2ReplaceNetworkAclEntryRequest/egress</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Indicates whether to replace the egress rule.&lt;/p&gt;&lt;p&gt;Default: If no value is specified, we replace the ingress rule.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSNumber *duration</Declaration>
+			<Declaration>@property (nonatomic, strong) NSNumber *egress</Declaration>
 			
 			
-			<Anchor>//api/name/duration</Anchor>
+			<Anchor>//api/name/egress</Anchor>
             <NodeRef refid="570"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ReservedInstancesOffering/setFixedPrice:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The purchase price of the Reserved Instance.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ReplaceNetworkAclEntryRequest/setIcmpTypeCode:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;ICMP protocol: The ICMP type and code. Required if specifying 1 (ICMP) for the protocol.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSNumber *fixedPrice</Declaration>
+			<Declaration>@property (nonatomic, strong) AWSEC2IcmpTypeCode *icmpTypeCode</Declaration>
 			
 			
-			<Anchor>//api/name/fixedPrice</Anchor>
+			<Anchor>//api/name/icmpTypeCode</Anchor>
             <NodeRef refid="570"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ReservedInstancesOffering/fixedPrice</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The purchase price of the Reserved Instance.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ReplaceNetworkAclEntryRequest/icmpTypeCode</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;ICMP protocol: The ICMP type and code. Required if specifying 1 (ICMP) for the protocol.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSNumber *fixedPrice</Declaration>
+			<Declaration>@property (nonatomic, strong) AWSEC2IcmpTypeCode *icmpTypeCode</Declaration>
 			
 			
-			<Anchor>//api/name/fixedPrice</Anchor>
+			<Anchor>//api/name/icmpTypeCode</Anchor>
             <NodeRef refid="570"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2ReservedInstancesOffering/fixedPrice</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The purchase price of the Reserved Instance.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2ReplaceNetworkAclEntryRequest/icmpTypeCode</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;ICMP protocol: The ICMP type and code. Required if specifying 1 (ICMP) for the protocol.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSNumber *fixedPrice</Declaration>
+			<Declaration>@property (nonatomic, strong) AWSEC2IcmpTypeCode *icmpTypeCode</Declaration>
 			
 			
-			<Anchor>//api/name/fixedPrice</Anchor>
+			<Anchor>//api/name/icmpTypeCode</Anchor>
             <NodeRef refid="570"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ReservedInstancesOffering/setInstanceTenancy:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The tenancy of the reserved instance.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ReplaceNetworkAclEntryRequest/setNetworkAclId:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the ACL.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, assign) AWSEC2Tenancy instanceTenancy</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *networkAclId</Declaration>
 			
 			
-			<Anchor>//api/name/instanceTenancy</Anchor>
+			<Anchor>//api/name/networkAclId</Anchor>
             <NodeRef refid="570"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ReservedInstancesOffering/instanceTenancy</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The tenancy of the reserved instance.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ReplaceNetworkAclEntryRequest/networkAclId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the ACL.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, assign) AWSEC2Tenancy instanceTenancy</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *networkAclId</Declaration>
 			
 			
-			<Anchor>//api/name/instanceTenancy</Anchor>
+			<Anchor>//api/name/networkAclId</Anchor>
             <NodeRef refid="570"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2ReservedInstancesOffering/instanceTenancy</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The tenancy of the reserved instance.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2ReplaceNetworkAclEntryRequest/networkAclId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the ACL.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, assign) AWSEC2Tenancy instanceTenancy</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *networkAclId</Declaration>
 			
 			
-			<Anchor>//api/name/instanceTenancy</Anchor>
+			<Anchor>//api/name/networkAclId</Anchor>
             <NodeRef refid="570"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ReservedInstancesOffering/setInstanceType:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The instance type on which the Reserved Instance can be used.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ReplaceNetworkAclEntryRequest/setPortRange:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;TCP or UDP protocols: The range of ports the rule applies to. Required if specifying 6 (TCP) or 17 (UDP) for the protocol.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, assign) AWSEC2InstanceType instanceType</Declaration>
+			<Declaration>@property (nonatomic, strong) AWSEC2PortRange *portRange</Declaration>
 			
 			
-			<Anchor>//api/name/instanceType</Anchor>
+			<Anchor>//api/name/portRange</Anchor>
             <NodeRef refid="570"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ReservedInstancesOffering/instanceType</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The instance type on which the Reserved Instance can be used.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ReplaceNetworkAclEntryRequest/portRange</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;TCP or UDP protocols: The range of ports the rule applies to. Required if specifying 6 (TCP) or 17 (UDP) for the protocol.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, assign) AWSEC2InstanceType instanceType</Declaration>
+			<Declaration>@property (nonatomic, strong) AWSEC2PortRange *portRange</Declaration>
 			
 			
-			<Anchor>//api/name/instanceType</Anchor>
+			<Anchor>//api/name/portRange</Anchor>
             <NodeRef refid="570"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2ReservedInstancesOffering/instanceType</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The instance type on which the Reserved Instance can be used.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2ReplaceNetworkAclEntryRequest/portRange</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;TCP or UDP protocols: The range of ports the rule applies to. Required if specifying 6 (TCP) or 17 (UDP) for the protocol.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, assign) AWSEC2InstanceType instanceType</Declaration>
+			<Declaration>@property (nonatomic, strong) AWSEC2PortRange *portRange</Declaration>
 			
 			
-			<Anchor>//api/name/instanceType</Anchor>
+			<Anchor>//api/name/portRange</Anchor>
             <NodeRef refid="570"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ReservedInstancesOffering/setMarketplace:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Indicates whether the offering is available through the Reserved Instance Marketplace (resale) or AWS. If it&apos;s a Reserved Instance Marketplace offering, this is &lt;code&gt;true&lt;/code&gt;.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ReplaceNetworkAclEntryRequest/setProtocols:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The IP protocol. You can specify &lt;code&gt;all&lt;/code&gt; or &lt;code&gt;-1&lt;/code&gt; to mean all protocols.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSNumber *marketplace</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *protocols</Declaration>
 			
 			
-			<Anchor>//api/name/marketplace</Anchor>
+			<Anchor>//api/name/protocols</Anchor>
             <NodeRef refid="570"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ReservedInstancesOffering/marketplace</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Indicates whether the offering is available through the Reserved Instance Marketplace (resale) or AWS. If it&apos;s a Reserved Instance Marketplace offering, this is &lt;code&gt;true&lt;/code&gt;.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ReplaceNetworkAclEntryRequest/protocols</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The IP protocol. You can specify &lt;code&gt;all&lt;/code&gt; or &lt;code&gt;-1&lt;/code&gt; to mean all protocols.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSNumber *marketplace</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *protocols</Declaration>
 			
 			
-			<Anchor>//api/name/marketplace</Anchor>
+			<Anchor>//api/name/protocols</Anchor>
             <NodeRef refid="570"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2ReservedInstancesOffering/marketplace</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Indicates whether the offering is available through the Reserved Instance Marketplace (resale) or AWS. If it&apos;s a Reserved Instance Marketplace offering, this is &lt;code&gt;true&lt;/code&gt;.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2ReplaceNetworkAclEntryRequest/protocols</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The IP protocol. You can specify &lt;code&gt;all&lt;/code&gt; or &lt;code&gt;-1&lt;/code&gt; to mean all protocols.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSNumber *marketplace</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *protocols</Declaration>
 			
 			
-			<Anchor>//api/name/marketplace</Anchor>
+			<Anchor>//api/name/protocols</Anchor>
             <NodeRef refid="570"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ReservedInstancesOffering/setOfferingType:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The Reserved Instance offering type.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ReplaceNetworkAclEntryRequest/setRuleAction:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Indicates whether to allow or deny the traffic that matches the rule.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, assign) AWSEC2OfferingTypeValues offeringType</Declaration>
+			<Declaration>@property (nonatomic, assign) AWSEC2RuleAction ruleAction</Declaration>
 			
 			
-			<Anchor>//api/name/offeringType</Anchor>
+			<Anchor>//api/name/ruleAction</Anchor>
             <NodeRef refid="570"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ReservedInstancesOffering/offeringType</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The Reserved Instance offering type.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ReplaceNetworkAclEntryRequest/ruleAction</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Indicates whether to allow or deny the traffic that matches the rule.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, assign) AWSEC2OfferingTypeValues offeringType</Declaration>
+			<Declaration>@property (nonatomic, assign) AWSEC2RuleAction ruleAction</Declaration>
 			
 			
-			<Anchor>//api/name/offeringType</Anchor>
+			<Anchor>//api/name/ruleAction</Anchor>
             <NodeRef refid="570"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2ReservedInstancesOffering/offeringType</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The Reserved Instance offering type.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2ReplaceNetworkAclEntryRequest/ruleAction</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Indicates whether to allow or deny the traffic that matches the rule.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, assign) AWSEC2OfferingTypeValues offeringType</Declaration>
+			<Declaration>@property (nonatomic, assign) AWSEC2RuleAction ruleAction</Declaration>
 			
 			
-			<Anchor>//api/name/offeringType</Anchor>
+			<Anchor>//api/name/ruleAction</Anchor>
             <NodeRef refid="570"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ReservedInstancesOffering/setPricingDetails:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The pricing details of the Reserved Instance offering.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ReplaceNetworkAclEntryRequest/setRuleNumber:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The rule number of the entry to replace.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSArray *pricingDetails</Declaration>
+			<Declaration>@property (nonatomic, strong) NSNumber *ruleNumber</Declaration>
 			
 			
-			<Anchor>//api/name/pricingDetails</Anchor>
+			<Anchor>//api/name/ruleNumber</Anchor>
             <NodeRef refid="570"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ReservedInstancesOffering/pricingDetails</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The pricing details of the Reserved Instance offering.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ReplaceNetworkAclEntryRequest/ruleNumber</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The rule number of the entry to replace.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSArray *pricingDetails</Declaration>
+			<Declaration>@property (nonatomic, strong) NSNumber *ruleNumber</Declaration>
 			
 			
-			<Anchor>//api/name/pricingDetails</Anchor>
+			<Anchor>//api/name/ruleNumber</Anchor>
             <NodeRef refid="570"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2ReservedInstancesOffering/pricingDetails</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The pricing details of the Reserved Instance offering.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2ReplaceNetworkAclEntryRequest/ruleNumber</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The rule number of the entry to replace.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSArray *pricingDetails</Declaration>
+			<Declaration>@property (nonatomic, strong) NSNumber *ruleNumber</Declaration>
 			
 			
-			<Anchor>//api/name/pricingDetails</Anchor>
-            <NodeRef refid="570"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ReservedInstancesOffering/setProductDescription:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The Reserved Instance description.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, assign) AWSEC2RIProductDescription productDescription</Declaration>
-			
-			
-			<Anchor>//api/name/productDescription</Anchor>
-            <NodeRef refid="570"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ReservedInstancesOffering/productDescription</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The Reserved Instance description.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, assign) AWSEC2RIProductDescription productDescription</Declaration>
-			
-			
-			<Anchor>//api/name/productDescription</Anchor>
-            <NodeRef refid="570"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2ReservedInstancesOffering/productDescription</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The Reserved Instance description.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, assign) AWSEC2RIProductDescription productDescription</Declaration>
-			
-			
-			<Anchor>//api/name/productDescription</Anchor>
-            <NodeRef refid="570"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ReservedInstancesOffering/setRecurringCharges:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The recurring charge tag assigned to the resource.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSArray *recurringCharges</Declaration>
-			
-			
-			<Anchor>//api/name/recurringCharges</Anchor>
-            <NodeRef refid="570"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ReservedInstancesOffering/recurringCharges</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The recurring charge tag assigned to the resource.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSArray *recurringCharges</Declaration>
-			
-			
-			<Anchor>//api/name/recurringCharges</Anchor>
-            <NodeRef refid="570"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2ReservedInstancesOffering/recurringCharges</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The recurring charge tag assigned to the resource.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSArray *recurringCharges</Declaration>
-			
-			
-			<Anchor>//api/name/recurringCharges</Anchor>
-            <NodeRef refid="570"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ReservedInstancesOffering/setReservedInstancesOfferingId:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The ID of the Reserved Instance offering.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *reservedInstancesOfferingId</Declaration>
-			
-			
-			<Anchor>//api/name/reservedInstancesOfferingId</Anchor>
-            <NodeRef refid="570"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ReservedInstancesOffering/reservedInstancesOfferingId</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The ID of the Reserved Instance offering.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *reservedInstancesOfferingId</Declaration>
-			
-			
-			<Anchor>//api/name/reservedInstancesOfferingId</Anchor>
-            <NodeRef refid="570"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2ReservedInstancesOffering/reservedInstancesOfferingId</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The ID of the Reserved Instance offering.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *reservedInstancesOfferingId</Declaration>
-			
-			
-			<Anchor>//api/name/reservedInstancesOfferingId</Anchor>
-            <NodeRef refid="570"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ReservedInstancesOffering/setUsagePrice:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The usage price of the Reserved Instance, per hour.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSNumber *usagePrice</Declaration>
-			
-			
-			<Anchor>//api/name/usagePrice</Anchor>
-            <NodeRef refid="570"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ReservedInstancesOffering/usagePrice</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The usage price of the Reserved Instance, per hour.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSNumber *usagePrice</Declaration>
-			
-			
-			<Anchor>//api/name/usagePrice</Anchor>
-            <NodeRef refid="570"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2ReservedInstancesOffering/usagePrice</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The usage price of the Reserved Instance, per hour.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSNumber *usagePrice</Declaration>
-			
-			
-			<Anchor>//api/name/usagePrice</Anchor>
+			<Anchor>//api/name/ruleNumber</Anchor>
             <NodeRef refid="570"/>
 		</Token>
 		

@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSSESGetSendQuotaResponse.html">
+	<File path="Classes/AWSS3PutBucketLifecycleRequest.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSSESGetSendQuotaResponse</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Represents the user&apos;s current activity limits returned from a successful &lt;code&gt;GetSendQuota&lt;/code&gt; request. &lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSESModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSS3PutBucketLifecycleRequest</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
             
 			
 			<NodeRef refid="902"/>
@@ -13,110 +13,110 @@
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSSESGetSendQuotaResponse/setMax24HourSend:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The maximum number of emails the user is allowed to send in a 24-hour interval.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSESModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3PutBucketLifecycleRequest/setBucket:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSNumber *max24HourSend</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *bucket</Declaration>
 			
 			
-			<Anchor>//api/name/max24HourSend</Anchor>
+			<Anchor>//api/name/bucket</Anchor>
             <NodeRef refid="902"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSSESGetSendQuotaResponse/max24HourSend</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The maximum number of emails the user is allowed to send in a 24-hour interval.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSESModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3PutBucketLifecycleRequest/bucket</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSNumber *max24HourSend</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *bucket</Declaration>
 			
 			
-			<Anchor>//api/name/max24HourSend</Anchor>
+			<Anchor>//api/name/bucket</Anchor>
             <NodeRef refid="902"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSSESGetSendQuotaResponse/max24HourSend</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The maximum number of emails the user is allowed to send in a 24-hour interval.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSESModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSS3PutBucketLifecycleRequest/bucket</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSNumber *max24HourSend</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *bucket</Declaration>
 			
 			
-			<Anchor>//api/name/max24HourSend</Anchor>
+			<Anchor>//api/name/bucket</Anchor>
             <NodeRef refid="902"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSSESGetSendQuotaResponse/setMaxSendRate:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The maximum number of emails the user is allowed to send per second.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSESModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3PutBucketLifecycleRequest/setContentMD5:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSNumber *maxSendRate</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *contentMD5</Declaration>
 			
 			
-			<Anchor>//api/name/maxSendRate</Anchor>
+			<Anchor>//api/name/contentMD5</Anchor>
             <NodeRef refid="902"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSSESGetSendQuotaResponse/maxSendRate</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The maximum number of emails the user is allowed to send per second.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSESModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3PutBucketLifecycleRequest/contentMD5</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSNumber *maxSendRate</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *contentMD5</Declaration>
 			
 			
-			<Anchor>//api/name/maxSendRate</Anchor>
+			<Anchor>//api/name/contentMD5</Anchor>
             <NodeRef refid="902"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSSESGetSendQuotaResponse/maxSendRate</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The maximum number of emails the user is allowed to send per second.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSESModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSS3PutBucketLifecycleRequest/contentMD5</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSNumber *maxSendRate</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *contentMD5</Declaration>
 			
 			
-			<Anchor>//api/name/maxSendRate</Anchor>
+			<Anchor>//api/name/contentMD5</Anchor>
             <NodeRef refid="902"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSSESGetSendQuotaResponse/setSentLast24Hours:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The number of emails sent during the previous 24 hours.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSESModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3PutBucketLifecycleRequest/setLifecycleConfiguration:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSNumber *sentLast24Hours</Declaration>
+			<Declaration>@property (nonatomic, strong) AWSS3LifecycleConfiguration *lifecycleConfiguration</Declaration>
 			
 			
-			<Anchor>//api/name/sentLast24Hours</Anchor>
+			<Anchor>//api/name/lifecycleConfiguration</Anchor>
             <NodeRef refid="902"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSSESGetSendQuotaResponse/sentLast24Hours</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The number of emails sent during the previous 24 hours.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSESModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3PutBucketLifecycleRequest/lifecycleConfiguration</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSNumber *sentLast24Hours</Declaration>
+			<Declaration>@property (nonatomic, strong) AWSS3LifecycleConfiguration *lifecycleConfiguration</Declaration>
 			
 			
-			<Anchor>//api/name/sentLast24Hours</Anchor>
+			<Anchor>//api/name/lifecycleConfiguration</Anchor>
             <NodeRef refid="902"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSSESGetSendQuotaResponse/sentLast24Hours</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The number of emails sent during the previous 24 hours.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSESModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSS3PutBucketLifecycleRequest/lifecycleConfiguration</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSNumber *sentLast24Hours</Declaration>
+			<Declaration>@property (nonatomic, strong) AWSS3LifecycleConfiguration *lifecycleConfiguration</Declaration>
 			
 			
-			<Anchor>//api/name/sentLast24Hours</Anchor>
+			<Anchor>//api/name/lifecycleConfiguration</Anchor>
             <NodeRef refid="902"/>
 		</Token>
 		

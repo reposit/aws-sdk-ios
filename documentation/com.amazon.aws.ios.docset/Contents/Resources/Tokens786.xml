@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSS3DeleteObjectsOutput.html">
+	<File path="Classes/AWSLambdaListFunctionsResponse.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSS3DeleteObjectsOutput</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSLambdaListFunctionsResponse</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Contains a list of AWS Lambda function configurations (see &lt;a&gt;FunctionConfiguration&lt;/a&gt;.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSLambdaModel.h</DeclaredIn>
             
 			
 			<NodeRef refid="786"/>
@@ -13,74 +13,74 @@
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3DeleteObjectsOutput/setDeleted:</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSLambdaListFunctionsResponse/setFunctions:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;A list of Lambda functions.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSLambdaModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSArray *deleted</Declaration>
+			<Declaration>@property (nonatomic, strong) NSArray *functions</Declaration>
 			
 			
-			<Anchor>//api/name/deleted</Anchor>
+			<Anchor>//api/name/functions</Anchor>
             <NodeRef refid="786"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3DeleteObjectsOutput/deleted</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSLambdaListFunctionsResponse/functions</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;A list of Lambda functions.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSLambdaModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSArray *deleted</Declaration>
+			<Declaration>@property (nonatomic, strong) NSArray *functions</Declaration>
 			
 			
-			<Anchor>//api/name/deleted</Anchor>
+			<Anchor>//api/name/functions</Anchor>
             <NodeRef refid="786"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSS3DeleteObjectsOutput/deleted</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSLambdaListFunctionsResponse/functions</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;A list of Lambda functions.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSLambdaModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSArray *deleted</Declaration>
+			<Declaration>@property (nonatomic, strong) NSArray *functions</Declaration>
 			
 			
-			<Anchor>//api/name/deleted</Anchor>
+			<Anchor>//api/name/functions</Anchor>
             <NodeRef refid="786"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3DeleteObjectsOutput/setErrors:</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSLambdaListFunctionsResponse/setNextMarker:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;A string, present if there are more functions.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSLambdaModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSArray *errors</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *nextMarker</Declaration>
 			
 			
-			<Anchor>//api/name/errors</Anchor>
+			<Anchor>//api/name/nextMarker</Anchor>
             <NodeRef refid="786"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3DeleteObjectsOutput/errors</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSLambdaListFunctionsResponse/nextMarker</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;A string, present if there are more functions.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSLambdaModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSArray *errors</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *nextMarker</Declaration>
 			
 			
-			<Anchor>//api/name/errors</Anchor>
+			<Anchor>//api/name/nextMarker</Anchor>
             <NodeRef refid="786"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSS3DeleteObjectsOutput/errors</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSLambdaListFunctionsResponse/nextMarker</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;A string, present if there are more functions.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSLambdaModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSArray *errors</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *nextMarker</Declaration>
 			
 			
-			<Anchor>//api/name/errors</Anchor>
+			<Anchor>//api/name/nextMarker</Anchor>
             <NodeRef refid="786"/>
 		</Token>
 		

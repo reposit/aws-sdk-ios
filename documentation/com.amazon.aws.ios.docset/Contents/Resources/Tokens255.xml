@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSEC2AllocateAddressRequest.html">
+	<File path="Classes/AWSDynamoDBWriteRequest.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSEC2AllocateAddressRequest</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSDynamoDBWriteRequest</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Represents an operation to perform - either &lt;i&gt;DeleteItem&lt;/i&gt; or &lt;i&gt;PutItem&lt;/i&gt;. You can only request one of these operations, not both, in a single &lt;i&gt;WriteRequest&lt;/i&gt;. If you do need to perform both of these operations, you will need to provide two separate &lt;i&gt;WriteRequest&lt;/i&gt; objects.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
             
 			
 			<NodeRef refid="255"/>
@@ -13,74 +13,74 @@
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2AllocateAddressRequest/setDomain:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Set to &lt;code&gt;vpc&lt;/code&gt; to allocate the address for use with instances in a VPC.&lt;/p&gt;&lt;p&gt;Default: The address is for use with instances in EC2-Classic.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSDynamoDBWriteRequest/setDeleteRequest:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;A request to perform a &lt;i&gt;DeleteItem&lt;/i&gt; operation.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, assign) AWSEC2DomainType domain</Declaration>
+			<Declaration>@property (nonatomic, strong) AWSDynamoDBDeleteRequest *deleteRequest</Declaration>
 			
 			
-			<Anchor>//api/name/domain</Anchor>
+			<Anchor>//api/name/deleteRequest</Anchor>
             <NodeRef refid="255"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2AllocateAddressRequest/domain</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Set to &lt;code&gt;vpc&lt;/code&gt; to allocate the address for use with instances in a VPC.&lt;/p&gt;&lt;p&gt;Default: The address is for use with instances in EC2-Classic.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSDynamoDBWriteRequest/deleteRequest</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;A request to perform a &lt;i&gt;DeleteItem&lt;/i&gt; operation.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, assign) AWSEC2DomainType domain</Declaration>
+			<Declaration>@property (nonatomic, strong) AWSDynamoDBDeleteRequest *deleteRequest</Declaration>
 			
 			
-			<Anchor>//api/name/domain</Anchor>
+			<Anchor>//api/name/deleteRequest</Anchor>
             <NodeRef refid="255"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2AllocateAddressRequest/domain</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Set to &lt;code&gt;vpc&lt;/code&gt; to allocate the address for use with instances in a VPC.&lt;/p&gt;&lt;p&gt;Default: The address is for use with instances in EC2-Classic.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSDynamoDBWriteRequest/deleteRequest</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;A request to perform a &lt;i&gt;DeleteItem&lt;/i&gt; operation.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, assign) AWSEC2DomainType domain</Declaration>
+			<Declaration>@property (nonatomic, strong) AWSDynamoDBDeleteRequest *deleteRequest</Declaration>
 			
 			
-			<Anchor>//api/name/domain</Anchor>
+			<Anchor>//api/name/deleteRequest</Anchor>
             <NodeRef refid="255"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2AllocateAddressRequest/setDryRun:</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSDynamoDBWriteRequest/setPutRequest:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;A request to perform a &lt;i&gt;PutItem&lt;/i&gt; operation.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSNumber *dryRun</Declaration>
+			<Declaration>@property (nonatomic, strong) AWSDynamoDBPutRequest *putRequest</Declaration>
 			
 			
-			<Anchor>//api/name/dryRun</Anchor>
+			<Anchor>//api/name/putRequest</Anchor>
             <NodeRef refid="255"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2AllocateAddressRequest/dryRun</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSDynamoDBWriteRequest/putRequest</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;A request to perform a &lt;i&gt;PutItem&lt;/i&gt; operation.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSNumber *dryRun</Declaration>
+			<Declaration>@property (nonatomic, strong) AWSDynamoDBPutRequest *putRequest</Declaration>
 			
 			
-			<Anchor>//api/name/dryRun</Anchor>
+			<Anchor>//api/name/putRequest</Anchor>
             <NodeRef refid="255"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2AllocateAddressRequest/dryRun</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSDynamoDBWriteRequest/putRequest</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;A request to perform a &lt;i&gt;PutItem&lt;/i&gt; operation.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSNumber *dryRun</Declaration>
+			<Declaration>@property (nonatomic, strong) AWSDynamoDBPutRequest *putRequest</Declaration>
 			
 			
-			<Anchor>//api/name/dryRun</Anchor>
+			<Anchor>//api/name/putRequest</Anchor>
             <NodeRef refid="255"/>
 		</Token>
 		

@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSEC2VpnConnectionOptions.html">
+	<File path="Classes/AWSEC2UnassignPrivateIpAddressesRequest.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSEC2VpnConnectionOptions</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Describes VPN connection options.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSEC2UnassignPrivateIpAddressesRequest</TokenIdentifier>
+			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
             
 			
@@ -13,38 +13,74 @@
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2VpnConnectionOptions/setStaticRoutesOnly:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Indicates whether the VPN connection uses static routes only. Static routes must be used for devices that don&apos;t support BGP.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2UnassignPrivateIpAddressesRequest/setNetworkInterfaceId:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the network interface.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSNumber *staticRoutesOnly</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *networkInterfaceId</Declaration>
 			
 			
-			<Anchor>//api/name/staticRoutesOnly</Anchor>
+			<Anchor>//api/name/networkInterfaceId</Anchor>
             <NodeRef refid="622"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2VpnConnectionOptions/staticRoutesOnly</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Indicates whether the VPN connection uses static routes only. Static routes must be used for devices that don&apos;t support BGP.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2UnassignPrivateIpAddressesRequest/networkInterfaceId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the network interface.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSNumber *staticRoutesOnly</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *networkInterfaceId</Declaration>
 			
 			
-			<Anchor>//api/name/staticRoutesOnly</Anchor>
+			<Anchor>//api/name/networkInterfaceId</Anchor>
             <NodeRef refid="622"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2VpnConnectionOptions/staticRoutesOnly</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Indicates whether the VPN connection uses static routes only. Static routes must be used for devices that don&apos;t support BGP.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2UnassignPrivateIpAddressesRequest/networkInterfaceId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the network interface.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSNumber *staticRoutesOnly</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *networkInterfaceId</Declaration>
 			
 			
-			<Anchor>//api/name/staticRoutesOnly</Anchor>
+			<Anchor>//api/name/networkInterfaceId</Anchor>
+            <NodeRef refid="622"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2UnassignPrivateIpAddressesRequest/setPrivateIpAddresses:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The secondary private IP addresses to unassign from the network interface. You can specify this option multiple times to unassign more than one IP address.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray *privateIpAddresses</Declaration>
+			
+			
+			<Anchor>//api/name/privateIpAddresses</Anchor>
+            <NodeRef refid="622"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2UnassignPrivateIpAddressesRequest/privateIpAddresses</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The secondary private IP addresses to unassign from the network interface. You can specify this option multiple times to unassign more than one IP address.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray *privateIpAddresses</Declaration>
+			
+			
+			<Anchor>//api/name/privateIpAddresses</Anchor>
+            <NodeRef refid="622"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2UnassignPrivateIpAddressesRequest/privateIpAddresses</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The secondary private IP addresses to unassign from the network interface. You can specify this option multiple times to unassign more than one IP address.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray *privateIpAddresses</Declaration>
+			
+			
+			<Anchor>//api/name/privateIpAddresses</Anchor>
             <NodeRef refid="622"/>
 		</Token>
 		

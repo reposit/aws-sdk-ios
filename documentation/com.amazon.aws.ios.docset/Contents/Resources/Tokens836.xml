@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSS3ListPartsOutput.html">
+	<File path="Classes/AWSS3DeleteObjectRequest.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSS3ListPartsOutput</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSS3DeleteObjectRequest</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSS3Model.h</DeclaredIn>
             
@@ -13,8 +13,8 @@
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3ListPartsOutput/setBucket:</TokenIdentifier>
-			<Abstract type="html">Name of the bucket to which the multipart upload was initiated.</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3DeleteObjectRequest/setBucket:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
 			<Declaration>@property (nonatomic, strong) NSString *bucket</Declaration>
@@ -25,8 +25,8 @@
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3ListPartsOutput/bucket</TokenIdentifier>
-			<Abstract type="html">Name of the bucket to which the multipart upload was initiated.</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3DeleteObjectRequest/bucket</TokenIdentifier>
+			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
 			<Declaration>@property (nonatomic, strong) NSString *bucket</Declaration>
@@ -37,8 +37,8 @@
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSS3ListPartsOutput/bucket</TokenIdentifier>
-			<Abstract type="html">Name of the bucket to which the multipart upload was initiated.</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSS3DeleteObjectRequest/bucket</TokenIdentifier>
+			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
 			<Declaration>@property (nonatomic, strong) NSString *bucket</Declaration>
@@ -49,80 +49,8 @@
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3ListPartsOutput/setInitiator:</TokenIdentifier>
-			<Abstract type="html">Identifies who initiated the multipart upload.</Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) AWSS3Initiator *initiator</Declaration>
-			
-			
-			<Anchor>//api/name/initiator</Anchor>
-            <NodeRef refid="836"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3ListPartsOutput/initiator</TokenIdentifier>
-			<Abstract type="html">Identifies who initiated the multipart upload.</Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) AWSS3Initiator *initiator</Declaration>
-			
-			
-			<Anchor>//api/name/initiator</Anchor>
-            <NodeRef refid="836"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSS3ListPartsOutput/initiator</TokenIdentifier>
-			<Abstract type="html">Identifies who initiated the multipart upload.</Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) AWSS3Initiator *initiator</Declaration>
-			
-			
-			<Anchor>//api/name/initiator</Anchor>
-            <NodeRef refid="836"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3ListPartsOutput/setIsTruncated:</TokenIdentifier>
-			<Abstract type="html">Indicates whether the returned list of parts is truncated.</Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSNumber *isTruncated</Declaration>
-			
-			
-			<Anchor>//api/name/isTruncated</Anchor>
-            <NodeRef refid="836"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3ListPartsOutput/isTruncated</TokenIdentifier>
-			<Abstract type="html">Indicates whether the returned list of parts is truncated.</Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSNumber *isTruncated</Declaration>
-			
-			
-			<Anchor>//api/name/isTruncated</Anchor>
-            <NodeRef refid="836"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSS3ListPartsOutput/isTruncated</TokenIdentifier>
-			<Abstract type="html">Indicates whether the returned list of parts is truncated.</Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSNumber *isTruncated</Declaration>
-			
-			
-			<Anchor>//api/name/isTruncated</Anchor>
-            <NodeRef refid="836"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3ListPartsOutput/setKey:</TokenIdentifier>
-			<Abstract type="html">Object key for which the multipart upload was initiated.</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3DeleteObjectRequest/setKey:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
 			<Declaration>@property (nonatomic, strong) NSString *key</Declaration>
@@ -133,8 +61,8 @@
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3ListPartsOutput/key</TokenIdentifier>
-			<Abstract type="html">Object key for which the multipart upload was initiated.</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3DeleteObjectRequest/key</TokenIdentifier>
+			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
 			<Declaration>@property (nonatomic, strong) NSString *key</Declaration>
@@ -145,8 +73,8 @@
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSS3ListPartsOutput/key</TokenIdentifier>
-			<Abstract type="html">Object key for which the multipart upload was initiated.</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSS3DeleteObjectRequest/key</TokenIdentifier>
+			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
 			<Declaration>@property (nonatomic, strong) NSString *key</Declaration>
@@ -157,254 +85,74 @@
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3ListPartsOutput/setMaxParts:</TokenIdentifier>
-			<Abstract type="html">Maximum number of parts that were allowed in the response.</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3DeleteObjectRequest/setMFA:</TokenIdentifier>
+			<Abstract type="html">The concatenation of the authentication device&apos;s serial number, a space, and the value that is displayed on your authentication device.</Abstract>
 			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSNumber *maxParts</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *MFA</Declaration>
 			
 			
-			<Anchor>//api/name/maxParts</Anchor>
+			<Anchor>//api/name/MFA</Anchor>
             <NodeRef refid="836"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3ListPartsOutput/maxParts</TokenIdentifier>
-			<Abstract type="html">Maximum number of parts that were allowed in the response.</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3DeleteObjectRequest/MFA</TokenIdentifier>
+			<Abstract type="html">The concatenation of the authentication device&apos;s serial number, a space, and the value that is displayed on your authentication device.</Abstract>
 			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSNumber *maxParts</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *MFA</Declaration>
 			
 			
-			<Anchor>//api/name/maxParts</Anchor>
+			<Anchor>//api/name/MFA</Anchor>
             <NodeRef refid="836"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSS3ListPartsOutput/maxParts</TokenIdentifier>
-			<Abstract type="html">Maximum number of parts that were allowed in the response.</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSS3DeleteObjectRequest/MFA</TokenIdentifier>
+			<Abstract type="html">The concatenation of the authentication device&apos;s serial number, a space, and the value that is displayed on your authentication device.</Abstract>
 			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSNumber *maxParts</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *MFA</Declaration>
 			
 			
-			<Anchor>//api/name/maxParts</Anchor>
+			<Anchor>//api/name/MFA</Anchor>
             <NodeRef refid="836"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3ListPartsOutput/setNextPartNumberMarker:</TokenIdentifier>
-			<Abstract type="html">When a list is truncated, this element specifies the last part in the list, as well as the value to use for the part-number-marker request parameter in a subsequent request.</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3DeleteObjectRequest/setVersionId:</TokenIdentifier>
+			<Abstract type="html">VersionId used to reference a specific version of the object.</Abstract>
 			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSNumber *nextPartNumberMarker</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *versionId</Declaration>
 			
 			
-			<Anchor>//api/name/nextPartNumberMarker</Anchor>
+			<Anchor>//api/name/versionId</Anchor>
             <NodeRef refid="836"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3ListPartsOutput/nextPartNumberMarker</TokenIdentifier>
-			<Abstract type="html">When a list is truncated, this element specifies the last part in the list, as well as the value to use for the part-number-marker request parameter in a subsequent request.</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3DeleteObjectRequest/versionId</TokenIdentifier>
+			<Abstract type="html">VersionId used to reference a specific version of the object.</Abstract>
 			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSNumber *nextPartNumberMarker</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *versionId</Declaration>
 			
 			
-			<Anchor>//api/name/nextPartNumberMarker</Anchor>
+			<Anchor>//api/name/versionId</Anchor>
             <NodeRef refid="836"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSS3ListPartsOutput/nextPartNumberMarker</TokenIdentifier>
-			<Abstract type="html">When a list is truncated, this element specifies the last part in the list, as well as the value to use for the part-number-marker request parameter in a subsequent request.</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSS3DeleteObjectRequest/versionId</TokenIdentifier>
+			<Abstract type="html">VersionId used to reference a specific version of the object.</Abstract>
 			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSNumber *nextPartNumberMarker</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *versionId</Declaration>
 			
 			
-			<Anchor>//api/name/nextPartNumberMarker</Anchor>
-            <NodeRef refid="836"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3ListPartsOutput/setOwner:</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) AWSS3Owner *owner</Declaration>
-			
-			
-			<Anchor>//api/name/owner</Anchor>
-            <NodeRef refid="836"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3ListPartsOutput/owner</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) AWSS3Owner *owner</Declaration>
-			
-			
-			<Anchor>//api/name/owner</Anchor>
-            <NodeRef refid="836"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSS3ListPartsOutput/owner</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) AWSS3Owner *owner</Declaration>
-			
-			
-			<Anchor>//api/name/owner</Anchor>
-            <NodeRef refid="836"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3ListPartsOutput/setPartNumberMarker:</TokenIdentifier>
-			<Abstract type="html">Part number after which listing begins.</Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSNumber *partNumberMarker</Declaration>
-			
-			
-			<Anchor>//api/name/partNumberMarker</Anchor>
-            <NodeRef refid="836"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3ListPartsOutput/partNumberMarker</TokenIdentifier>
-			<Abstract type="html">Part number after which listing begins.</Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSNumber *partNumberMarker</Declaration>
-			
-			
-			<Anchor>//api/name/partNumberMarker</Anchor>
-            <NodeRef refid="836"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSS3ListPartsOutput/partNumberMarker</TokenIdentifier>
-			<Abstract type="html">Part number after which listing begins.</Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSNumber *partNumberMarker</Declaration>
-			
-			
-			<Anchor>//api/name/partNumberMarker</Anchor>
-            <NodeRef refid="836"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3ListPartsOutput/setParts:</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSArray *parts</Declaration>
-			
-			
-			<Anchor>//api/name/parts</Anchor>
-            <NodeRef refid="836"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3ListPartsOutput/parts</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSArray *parts</Declaration>
-			
-			
-			<Anchor>//api/name/parts</Anchor>
-            <NodeRef refid="836"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSS3ListPartsOutput/parts</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSArray *parts</Declaration>
-			
-			
-			<Anchor>//api/name/parts</Anchor>
-            <NodeRef refid="836"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3ListPartsOutput/setStorageClass:</TokenIdentifier>
-			<Abstract type="html">The class of storage used to store the object.</Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, assign) AWSS3StorageClass storageClass</Declaration>
-			
-			
-			<Anchor>//api/name/storageClass</Anchor>
-            <NodeRef refid="836"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3ListPartsOutput/storageClass</TokenIdentifier>
-			<Abstract type="html">The class of storage used to store the object.</Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, assign) AWSS3StorageClass storageClass</Declaration>
-			
-			
-			<Anchor>//api/name/storageClass</Anchor>
-            <NodeRef refid="836"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSS3ListPartsOutput/storageClass</TokenIdentifier>
-			<Abstract type="html">The class of storage used to store the object.</Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, assign) AWSS3StorageClass storageClass</Declaration>
-			
-			
-			<Anchor>//api/name/storageClass</Anchor>
-            <NodeRef refid="836"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3ListPartsOutput/setUploadId:</TokenIdentifier>
-			<Abstract type="html">Upload ID identifying the multipart upload whose parts are being listed.</Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *uploadId</Declaration>
-			
-			
-			<Anchor>//api/name/uploadId</Anchor>
-            <NodeRef refid="836"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3ListPartsOutput/uploadId</TokenIdentifier>
-			<Abstract type="html">Upload ID identifying the multipart upload whose parts are being listed.</Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *uploadId</Declaration>
-			
-			
-			<Anchor>//api/name/uploadId</Anchor>
-            <NodeRef refid="836"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSS3ListPartsOutput/uploadId</TokenIdentifier>
-			<Abstract type="html">Upload ID identifying the multipart upload whose parts are being listed.</Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *uploadId</Declaration>
-			
-			
-			<Anchor>//api/name/uploadId</Anchor>
+			<Anchor>//api/name/versionId</Anchor>
             <NodeRef refid="836"/>
 		</Token>
 		

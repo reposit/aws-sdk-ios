@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSS3Error.html">
+	<File path="Classes/AWSLambdaUpdateFunctionCodeRequest.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSS3Error</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSLambdaUpdateFunctionCodeRequest</TokenIdentifier>
 			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			<DeclaredIn>AWSLambdaModel.h</DeclaredIn>
             
 			
 			<NodeRef refid="789"/>
@@ -13,146 +13,182 @@
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3Error/setCode:</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSLambdaUpdateFunctionCodeRequest/setFunctionName:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The existing Lambda function name whose code you want to replace.&lt;/p&gt;&lt;p&gt; You can specify an unqualified function name (for example, &quot;Thumbnail&quot;) or you can specify Amazon Resource Name (ARN) of the function (for example, &quot;arn:aws:lambda:us-west-2:account-id:function:ThumbNail&quot;). AWS Lambda also allows you to specify only the account ID qualifier (for example, &quot;account-id:Thumbnail&quot;). Note that the length constraint applies only to the ARN. If you specify only the function name, it is limited to 64 character in length. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSLambdaModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *code</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *functionName</Declaration>
 			
 			
-			<Anchor>//api/name/code</Anchor>
+			<Anchor>//api/name/functionName</Anchor>
             <NodeRef refid="789"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3Error/code</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSLambdaUpdateFunctionCodeRequest/functionName</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The existing Lambda function name whose code you want to replace.&lt;/p&gt;&lt;p&gt; You can specify an unqualified function name (for example, &quot;Thumbnail&quot;) or you can specify Amazon Resource Name (ARN) of the function (for example, &quot;arn:aws:lambda:us-west-2:account-id:function:ThumbNail&quot;). AWS Lambda also allows you to specify only the account ID qualifier (for example, &quot;account-id:Thumbnail&quot;). Note that the length constraint applies only to the ARN. If you specify only the function name, it is limited to 64 character in length. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSLambdaModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *code</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *functionName</Declaration>
 			
 			
-			<Anchor>//api/name/code</Anchor>
+			<Anchor>//api/name/functionName</Anchor>
             <NodeRef refid="789"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSS3Error/code</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSLambdaUpdateFunctionCodeRequest/functionName</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The existing Lambda function name whose code you want to replace.&lt;/p&gt;&lt;p&gt; You can specify an unqualified function name (for example, &quot;Thumbnail&quot;) or you can specify Amazon Resource Name (ARN) of the function (for example, &quot;arn:aws:lambda:us-west-2:account-id:function:ThumbNail&quot;). AWS Lambda also allows you to specify only the account ID qualifier (for example, &quot;account-id:Thumbnail&quot;). Note that the length constraint applies only to the ARN. If you specify only the function name, it is limited to 64 character in length. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSLambdaModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *code</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *functionName</Declaration>
 			
 			
-			<Anchor>//api/name/code</Anchor>
+			<Anchor>//api/name/functionName</Anchor>
             <NodeRef refid="789"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3Error/setKey:</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSLambdaUpdateFunctionCodeRequest/setS3Bucket:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Amazon S3 bucket name where the .zip file containing your deployment package is stored. This bucket must reside in the same AWS region where you are creating the Lambda function.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSLambdaModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *key</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *s3Bucket</Declaration>
 			
 			
-			<Anchor>//api/name/key</Anchor>
+			<Anchor>//api/name/s3Bucket</Anchor>
             <NodeRef refid="789"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3Error/key</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSLambdaUpdateFunctionCodeRequest/s3Bucket</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Amazon S3 bucket name where the .zip file containing your deployment package is stored. This bucket must reside in the same AWS region where you are creating the Lambda function.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSLambdaModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *key</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *s3Bucket</Declaration>
 			
 			
-			<Anchor>//api/name/key</Anchor>
+			<Anchor>//api/name/s3Bucket</Anchor>
             <NodeRef refid="789"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSS3Error/key</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSLambdaUpdateFunctionCodeRequest/s3Bucket</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Amazon S3 bucket name where the .zip file containing your deployment package is stored. This bucket must reside in the same AWS region where you are creating the Lambda function.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSLambdaModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *key</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *s3Bucket</Declaration>
 			
 			
-			<Anchor>//api/name/key</Anchor>
+			<Anchor>//api/name/s3Bucket</Anchor>
             <NodeRef refid="789"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3Error/setMessage:</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSLambdaUpdateFunctionCodeRequest/setS3Key:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The Amazon S3 object (the deployment package) key name you want to upload. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSLambdaModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *message</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *s3Key</Declaration>
 			
 			
-			<Anchor>//api/name/message</Anchor>
+			<Anchor>//api/name/s3Key</Anchor>
             <NodeRef refid="789"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3Error/message</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSLambdaUpdateFunctionCodeRequest/s3Key</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The Amazon S3 object (the deployment package) key name you want to upload. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSLambdaModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *message</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *s3Key</Declaration>
 			
 			
-			<Anchor>//api/name/message</Anchor>
+			<Anchor>//api/name/s3Key</Anchor>
             <NodeRef refid="789"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSS3Error/message</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSLambdaUpdateFunctionCodeRequest/s3Key</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The Amazon S3 object (the deployment package) key name you want to upload. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSLambdaModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *message</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *s3Key</Declaration>
 			
 			
-			<Anchor>//api/name/message</Anchor>
+			<Anchor>//api/name/s3Key</Anchor>
             <NodeRef refid="789"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3Error/setVersionId:</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSLambdaUpdateFunctionCodeRequest/setS3ObjectVersion:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The Amazon S3 object (the deployment package) version you want to upload.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSLambdaModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *versionId</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *s3ObjectVersion</Declaration>
 			
 			
-			<Anchor>//api/name/versionId</Anchor>
+			<Anchor>//api/name/s3ObjectVersion</Anchor>
             <NodeRef refid="789"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3Error/versionId</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSLambdaUpdateFunctionCodeRequest/s3ObjectVersion</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The Amazon S3 object (the deployment package) version you want to upload.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSLambdaModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *versionId</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *s3ObjectVersion</Declaration>
 			
 			
-			<Anchor>//api/name/versionId</Anchor>
+			<Anchor>//api/name/s3ObjectVersion</Anchor>
             <NodeRef refid="789"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSS3Error/versionId</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSLambdaUpdateFunctionCodeRequest/s3ObjectVersion</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The Amazon S3 object (the deployment package) version you want to upload.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSLambdaModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *versionId</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *s3ObjectVersion</Declaration>
 			
 			
-			<Anchor>//api/name/versionId</Anchor>
+			<Anchor>//api/name/s3ObjectVersion</Anchor>
+            <NodeRef refid="789"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSLambdaUpdateFunctionCodeRequest/setZipFile:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Based64-encoded .zip file containing your packaged source code.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSLambdaModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSData *zipFile</Declaration>
+			
+			
+			<Anchor>//api/name/zipFile</Anchor>
+            <NodeRef refid="789"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSLambdaUpdateFunctionCodeRequest/zipFile</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Based64-encoded .zip file containing your packaged source code.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSLambdaModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSData *zipFile</Declaration>
+			
+			
+			<Anchor>//api/name/zipFile</Anchor>
+            <NodeRef refid="789"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSLambdaUpdateFunctionCodeRequest/zipFile</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Based64-encoded .zip file containing your packaged source code.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSLambdaModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSData *zipFile</Declaration>
+			
+			
+			<Anchor>//api/name/zipFile</Anchor>
             <NodeRef refid="789"/>
 		</Token>
 		

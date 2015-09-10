@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Constants/AWSEC2ParamBuilderErrorType.html">
+	<File path="Constants/AWSCognitoSyncPlatform.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/c/tdef/AWSEC2ParamBuilderErrorType</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/c/tdef/AWSCognitoSyncPlatform</TokenIdentifier>
 			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSSerialization.h</DeclaredIn>
+			<DeclaredIn>AWSCognitoSyncModel.h</DeclaredIn>
             
 			
 			<NodeRef refid="1140"/>
@@ -14,51 +14,51 @@
 		
         
         <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSEC2ParamBuilderUnknownError</TokenIdentifier>
+            <TokenIdentifier>//apple_ref/c/econst/AWSCognitoSyncPlatformUnknown</TokenIdentifier>
             <Abstract type="html"></Abstract>
-            <Declaration>AWSEC2ParamBuilderUnknownError</Declaration>
+            <Declaration>AWSCognitoSyncPlatformUnknown</Declaration>
             
-            <DeclaredIn>AWSSerialization.h</DeclaredIn>
+            <DeclaredIn>AWSCognitoSyncModel.h</DeclaredIn>
             
             <NodeRef refid="1140"/>
         </Token>
         
         <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSEC2ParamBuilderDefinitionFileIsEmpty</TokenIdentifier>
+            <TokenIdentifier>//apple_ref/c/econst/AWSCognitoSyncPlatformApns</TokenIdentifier>
             <Abstract type="html"></Abstract>
-            <Declaration>AWSEC2ParamBuilderDefinitionFileIsEmpty</Declaration>
+            <Declaration>AWSCognitoSyncPlatformApns</Declaration>
             
-            <DeclaredIn>AWSSerialization.h</DeclaredIn>
+            <DeclaredIn>AWSCognitoSyncModel.h</DeclaredIn>
             
             <NodeRef refid="1140"/>
         </Token>
         
         <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSEC2ParamBuilderUndefinedActionRule</TokenIdentifier>
+            <TokenIdentifier>//apple_ref/c/econst/AWSCognitoSyncPlatformApnsSandbox</TokenIdentifier>
             <Abstract type="html"></Abstract>
-            <Declaration>AWSEC2ParamBuilderUndefinedActionRule</Declaration>
+            <Declaration>AWSCognitoSyncPlatformApnsSandbox</Declaration>
             
-            <DeclaredIn>AWSSerialization.h</DeclaredIn>
+            <DeclaredIn>AWSCognitoSyncModel.h</DeclaredIn>
             
             <NodeRef refid="1140"/>
         </Token>
         
         <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSEC2ParamBuilderInternalError</TokenIdentifier>
+            <TokenIdentifier>//apple_ref/c/econst/AWSCognitoSyncPlatformGcm</TokenIdentifier>
             <Abstract type="html"></Abstract>
-            <Declaration>AWSEC2ParamBuilderInternalError</Declaration>
+            <Declaration>AWSCognitoSyncPlatformGcm</Declaration>
             
-            <DeclaredIn>AWSSerialization.h</DeclaredIn>
+            <DeclaredIn>AWSCognitoSyncModel.h</DeclaredIn>
             
             <NodeRef refid="1140"/>
         </Token>
         
         <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSEC2ParamBuilderInvalidParameter</TokenIdentifier>
+            <TokenIdentifier>//apple_ref/c/econst/AWSCognitoSyncPlatformAdm</TokenIdentifier>
             <Abstract type="html"></Abstract>
-            <Declaration>AWSEC2ParamBuilderInvalidParameter</Declaration>
+            <Declaration>AWSCognitoSyncPlatformAdm</Declaration>
             
-            <DeclaredIn>AWSSerialization.h</DeclaredIn>
+            <DeclaredIn>AWSCognitoSyncModel.h</DeclaredIn>
             
             <NodeRef refid="1140"/>
         </Token>

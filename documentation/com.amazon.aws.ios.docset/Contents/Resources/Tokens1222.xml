@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Constants/AWSSQSErrorType.html">
+	<File path="Constants/AWSEC2VolumeStatusName.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/c/tdef/AWSSQSErrorType</TokenIdentifier>
-			<Abstract type="html">Copyright 2010-2015 Amazon.com, Inc. or its affiliates. All Rights Reserved.</Abstract>
-			<DeclaredIn>AWSSQSModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/c/tdef/AWSEC2VolumeStatusName</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
             
 			
 			<NodeRef refid="1222"/>
@@ -14,191 +14,31 @@
 		
         
         <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSSQSErrorUnknown</TokenIdentifier>
+            <TokenIdentifier>//apple_ref/c/econst/AWSEC2VolumeStatusNameUnknown</TokenIdentifier>
             <Abstract type="html"></Abstract>
-            <Declaration>AWSSQSErrorUnknown</Declaration>
+            <Declaration>AWSEC2VolumeStatusNameUnknown</Declaration>
             
-            <DeclaredIn>AWSSQSModel.h</DeclaredIn>
+            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
             
             <NodeRef refid="1222"/>
         </Token>
         
         <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSSQSErrorIncompleteSignature</TokenIdentifier>
+            <TokenIdentifier>//apple_ref/c/econst/AWSEC2VolumeStatusNameIoEnabled</TokenIdentifier>
             <Abstract type="html"></Abstract>
-            <Declaration>AWSSQSErrorIncompleteSignature</Declaration>
+            <Declaration>AWSEC2VolumeStatusNameIoEnabled</Declaration>
             
-            <DeclaredIn>AWSSQSModel.h</DeclaredIn>
+            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
             
             <NodeRef refid="1222"/>
         </Token>
         
         <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSSQSErrorInvalidClientTokenId</TokenIdentifier>
+            <TokenIdentifier>//apple_ref/c/econst/AWSEC2VolumeStatusNameIoPerformance</TokenIdentifier>
             <Abstract type="html"></Abstract>
-            <Declaration>AWSSQSErrorInvalidClientTokenId</Declaration>
+            <Declaration>AWSEC2VolumeStatusNameIoPerformance</Declaration>
             
-            <DeclaredIn>AWSSQSModel.h</DeclaredIn>
-            
-            <NodeRef refid="1222"/>
-        </Token>
-        
-        <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSSQSErrorMissingAuthenticationToken</TokenIdentifier>
-            <Abstract type="html"></Abstract>
-            <Declaration>AWSSQSErrorMissingAuthenticationToken</Declaration>
-            
-            <DeclaredIn>AWSSQSModel.h</DeclaredIn>
-            
-            <NodeRef refid="1222"/>
-        </Token>
-        
-        <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSSQSErrorBatchEntryIdsNotDistinct</TokenIdentifier>
-            <Abstract type="html"></Abstract>
-            <Declaration>AWSSQSErrorBatchEntryIdsNotDistinct</Declaration>
-            
-            <DeclaredIn>AWSSQSModel.h</DeclaredIn>
-            
-            <NodeRef refid="1222"/>
-        </Token>
-        
-        <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSSQSErrorBatchRequestTooLong</TokenIdentifier>
-            <Abstract type="html"></Abstract>
-            <Declaration>AWSSQSErrorBatchRequestTooLong</Declaration>
-            
-            <DeclaredIn>AWSSQSModel.h</DeclaredIn>
-            
-            <NodeRef refid="1222"/>
-        </Token>
-        
-        <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSSQSErrorEmptyBatchRequest</TokenIdentifier>
-            <Abstract type="html"></Abstract>
-            <Declaration>AWSSQSErrorEmptyBatchRequest</Declaration>
-            
-            <DeclaredIn>AWSSQSModel.h</DeclaredIn>
-            
-            <NodeRef refid="1222"/>
-        </Token>
-        
-        <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSSQSErrorInvalidAttributeName</TokenIdentifier>
-            <Abstract type="html"></Abstract>
-            <Declaration>AWSSQSErrorInvalidAttributeName</Declaration>
-            
-            <DeclaredIn>AWSSQSModel.h</DeclaredIn>
-            
-            <NodeRef refid="1222"/>
-        </Token>
-        
-        <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSSQSErrorInvalidBatchEntryId</TokenIdentifier>
-            <Abstract type="html"></Abstract>
-            <Declaration>AWSSQSErrorInvalidBatchEntryId</Declaration>
-            
-            <DeclaredIn>AWSSQSModel.h</DeclaredIn>
-            
-            <NodeRef refid="1222"/>
-        </Token>
-        
-        <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSSQSErrorInvalidIdFormat</TokenIdentifier>
-            <Abstract type="html"></Abstract>
-            <Declaration>AWSSQSErrorInvalidIdFormat</Declaration>
-            
-            <DeclaredIn>AWSSQSModel.h</DeclaredIn>
-            
-            <NodeRef refid="1222"/>
-        </Token>
-        
-        <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSSQSErrorInvalidMessageContents</TokenIdentifier>
-            <Abstract type="html"></Abstract>
-            <Declaration>AWSSQSErrorInvalidMessageContents</Declaration>
-            
-            <DeclaredIn>AWSSQSModel.h</DeclaredIn>
-            
-            <NodeRef refid="1222"/>
-        </Token>
-        
-        <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSSQSErrorMessageNotInflight</TokenIdentifier>
-            <Abstract type="html"></Abstract>
-            <Declaration>AWSSQSErrorMessageNotInflight</Declaration>
-            
-            <DeclaredIn>AWSSQSModel.h</DeclaredIn>
-            
-            <NodeRef refid="1222"/>
-        </Token>
-        
-        <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSSQSErrorOverLimit</TokenIdentifier>
-            <Abstract type="html"></Abstract>
-            <Declaration>AWSSQSErrorOverLimit</Declaration>
-            
-            <DeclaredIn>AWSSQSModel.h</DeclaredIn>
-            
-            <NodeRef refid="1222"/>
-        </Token>
-        
-        <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSSQSErrorQueueDeletedRecently</TokenIdentifier>
-            <Abstract type="html"></Abstract>
-            <Declaration>AWSSQSErrorQueueDeletedRecently</Declaration>
-            
-            <DeclaredIn>AWSSQSModel.h</DeclaredIn>
-            
-            <NodeRef refid="1222"/>
-        </Token>
-        
-        <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSSQSErrorQueueDoesNotExist</TokenIdentifier>
-            <Abstract type="html"></Abstract>
-            <Declaration>AWSSQSErrorQueueDoesNotExist</Declaration>
-            
-            <DeclaredIn>AWSSQSModel.h</DeclaredIn>
-            
-            <NodeRef refid="1222"/>
-        </Token>
-        
-        <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSSQSErrorQueueNameExists</TokenIdentifier>
-            <Abstract type="html"></Abstract>
-            <Declaration>AWSSQSErrorQueueNameExists</Declaration>
-            
-            <DeclaredIn>AWSSQSModel.h</DeclaredIn>
-            
-            <NodeRef refid="1222"/>
-        </Token>
-        
-        <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSSQSErrorReceiptHandleIsInvalid</TokenIdentifier>
-            <Abstract type="html"></Abstract>
-            <Declaration>AWSSQSErrorReceiptHandleIsInvalid</Declaration>
-            
-            <DeclaredIn>AWSSQSModel.h</DeclaredIn>
-            
-            <NodeRef refid="1222"/>
-        </Token>
-        
-        <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSSQSErrorTooManyEntriesInBatchRequest</TokenIdentifier>
-            <Abstract type="html"></Abstract>
-            <Declaration>AWSSQSErrorTooManyEntriesInBatchRequest</Declaration>
-            
-            <DeclaredIn>AWSSQSModel.h</DeclaredIn>
-            
-            <NodeRef refid="1222"/>
-        </Token>
-        
-        <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSSQSErrorUnsupportedOperation</TokenIdentifier>
-            <Abstract type="html"></Abstract>
-            <Declaration>AWSSQSErrorUnsupportedOperation</Declaration>
-            
-            <DeclaredIn>AWSSQSModel.h</DeclaredIn>
+            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
             
             <NodeRef refid="1222"/>
         </Token>

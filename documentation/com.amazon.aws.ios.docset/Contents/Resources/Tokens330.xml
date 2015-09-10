@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSEC2CreateVpnConnectionRequest.html">
+	<File path="Classes/AWSEC2CreateSubnetRequest.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSEC2CreateVpnConnectionRequest</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSEC2CreateSubnetRequest</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
             
@@ -13,43 +13,79 @@
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2CreateVpnConnectionRequest/setCustomerGatewayId:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The ID of the customer gateway.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2CreateSubnetRequest/setAvailabilityZone:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The Availability Zone for the subnet.&lt;/p&gt;&lt;p&gt;Default: Amazon EC2 selects one for you (recommended).&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *customerGatewayId</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *availabilityZone</Declaration>
 			
 			
-			<Anchor>//api/name/customerGatewayId</Anchor>
+			<Anchor>//api/name/availabilityZone</Anchor>
             <NodeRef refid="330"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2CreateVpnConnectionRequest/customerGatewayId</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The ID of the customer gateway.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2CreateSubnetRequest/availabilityZone</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The Availability Zone for the subnet.&lt;/p&gt;&lt;p&gt;Default: Amazon EC2 selects one for you (recommended).&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *customerGatewayId</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *availabilityZone</Declaration>
 			
 			
-			<Anchor>//api/name/customerGatewayId</Anchor>
+			<Anchor>//api/name/availabilityZone</Anchor>
             <NodeRef refid="330"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2CreateVpnConnectionRequest/customerGatewayId</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The ID of the customer gateway.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2CreateSubnetRequest/availabilityZone</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The Availability Zone for the subnet.&lt;/p&gt;&lt;p&gt;Default: Amazon EC2 selects one for you (recommended).&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *customerGatewayId</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *availabilityZone</Declaration>
 			
 			
-			<Anchor>//api/name/customerGatewayId</Anchor>
+			<Anchor>//api/name/availabilityZone</Anchor>
             <NodeRef refid="330"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2CreateVpnConnectionRequest/setDryRun:</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2CreateSubnetRequest/setCidrBlock:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The network range for the subnet, in CIDR notation. For example, &lt;code&gt;10.0.0.0/24&lt;/code&gt;.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *cidrBlock</Declaration>
+			
+			
+			<Anchor>//api/name/cidrBlock</Anchor>
+            <NodeRef refid="330"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2CreateSubnetRequest/cidrBlock</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The network range for the subnet, in CIDR notation. For example, &lt;code&gt;10.0.0.0/24&lt;/code&gt;.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *cidrBlock</Declaration>
+			
+			
+			<Anchor>//api/name/cidrBlock</Anchor>
+            <NodeRef refid="330"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2CreateSubnetRequest/cidrBlock</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The network range for the subnet, in CIDR notation. For example, &lt;code&gt;10.0.0.0/24&lt;/code&gt;.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *cidrBlock</Declaration>
+			
+			
+			<Anchor>//api/name/cidrBlock</Anchor>
+            <NodeRef refid="330"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2CreateSubnetRequest/setDryRun:</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
@@ -61,7 +97,7 @@
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2CreateVpnConnectionRequest/dryRun</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2CreateSubnetRequest/dryRun</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
@@ -73,7 +109,7 @@
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2CreateVpnConnectionRequest/dryRun</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2CreateSubnetRequest/dryRun</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
@@ -85,110 +121,38 @@
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2CreateVpnConnectionRequest/setOptions:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Indicates whether the VPN connection requires static routes. If you are creating a VPN connection for a device that does not support BGP, you must specify &lt;code&gt;true&lt;/code&gt;.&lt;/p&gt;&lt;p&gt;Default: &lt;code&gt;false&lt;/code&gt;&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2CreateSubnetRequest/setVpcId:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the VPC.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) AWSEC2VpnConnectionOptionsSpecification *options</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *vpcId</Declaration>
 			
 			
-			<Anchor>//api/name/options</Anchor>
+			<Anchor>//api/name/vpcId</Anchor>
             <NodeRef refid="330"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2CreateVpnConnectionRequest/options</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Indicates whether the VPN connection requires static routes. If you are creating a VPN connection for a device that does not support BGP, you must specify &lt;code&gt;true&lt;/code&gt;.&lt;/p&gt;&lt;p&gt;Default: &lt;code&gt;false&lt;/code&gt;&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2CreateSubnetRequest/vpcId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the VPC.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) AWSEC2VpnConnectionOptionsSpecification *options</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *vpcId</Declaration>
 			
 			
-			<Anchor>//api/name/options</Anchor>
+			<Anchor>//api/name/vpcId</Anchor>
             <NodeRef refid="330"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2CreateVpnConnectionRequest/options</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Indicates whether the VPN connection requires static routes. If you are creating a VPN connection for a device that does not support BGP, you must specify &lt;code&gt;true&lt;/code&gt;.&lt;/p&gt;&lt;p&gt;Default: &lt;code&gt;false&lt;/code&gt;&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2CreateSubnetRequest/vpcId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the VPC.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) AWSEC2VpnConnectionOptionsSpecification *options</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *vpcId</Declaration>
 			
 			
-			<Anchor>//api/name/options</Anchor>
-            <NodeRef refid="330"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2CreateVpnConnectionRequest/setTypes:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The type of VPN connection (&lt;code&gt;ipsec.1&lt;/code&gt;).&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *types</Declaration>
-			
-			
-			<Anchor>//api/name/types</Anchor>
-            <NodeRef refid="330"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2CreateVpnConnectionRequest/types</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The type of VPN connection (&lt;code&gt;ipsec.1&lt;/code&gt;).&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *types</Declaration>
-			
-			
-			<Anchor>//api/name/types</Anchor>
-            <NodeRef refid="330"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2CreateVpnConnectionRequest/types</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The type of VPN connection (&lt;code&gt;ipsec.1&lt;/code&gt;).&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *types</Declaration>
-			
-			
-			<Anchor>//api/name/types</Anchor>
-            <NodeRef refid="330"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2CreateVpnConnectionRequest/setVpnGatewayId:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The ID of the virtual private gateway.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *vpnGatewayId</Declaration>
-			
-			
-			<Anchor>//api/name/vpnGatewayId</Anchor>
-            <NodeRef refid="330"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2CreateVpnConnectionRequest/vpnGatewayId</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The ID of the virtual private gateway.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *vpnGatewayId</Declaration>
-			
-			
-			<Anchor>//api/name/vpnGatewayId</Anchor>
-            <NodeRef refid="330"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2CreateVpnConnectionRequest/vpnGatewayId</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The ID of the virtual private gateway.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *vpnGatewayId</Declaration>
-			
-			
-			<Anchor>//api/name/vpnGatewayId</Anchor>
+			<Anchor>//api/name/vpcId</Anchor>
             <NodeRef refid="330"/>
 		</Token>
 		

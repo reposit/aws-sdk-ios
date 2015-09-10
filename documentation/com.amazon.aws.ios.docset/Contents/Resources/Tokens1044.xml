@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSSimpleDBDeleteDomainRequest.html">
+	<File path="Classes/AWSSQSDeleteMessageBatchRequestEntry.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSSimpleDBDeleteDomainRequest</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSSimpleDBModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSSQSDeleteMessageBatchRequestEntry</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Encloses a receipt handle and an identifier for it.&lt;/p&gt;
+Required parameters: [Id, ReceiptHandle]</Abstract>
+			<DeclaredIn>AWSSQSModel.h</DeclaredIn>
             
 			
 			<NodeRef refid="1044"/>
@@ -13,38 +14,74 @@
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSSimpleDBDeleteDomainRequest/setDomainName:</TokenIdentifier>
-			<Abstract type="html">The name of the domain to delete.</Abstract>
-			<DeclaredIn>AWSSimpleDBModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSQSDeleteMessageBatchRequestEntry/setIdentifier:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;An identifier for this particular receipt handle. This is used to communicate the result. Note that the &lt;code&gt;Id&lt;/code&gt;s of a batch request need to be unique within the request.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSQSModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *domainName</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *identifier</Declaration>
 			
 			
-			<Anchor>//api/name/domainName</Anchor>
+			<Anchor>//api/name/identifier</Anchor>
             <NodeRef refid="1044"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSSimpleDBDeleteDomainRequest/domainName</TokenIdentifier>
-			<Abstract type="html">The name of the domain to delete.</Abstract>
-			<DeclaredIn>AWSSimpleDBModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSQSDeleteMessageBatchRequestEntry/identifier</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;An identifier for this particular receipt handle. This is used to communicate the result. Note that the &lt;code&gt;Id&lt;/code&gt;s of a batch request need to be unique within the request.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSQSModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *domainName</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *identifier</Declaration>
 			
 			
-			<Anchor>//api/name/domainName</Anchor>
+			<Anchor>//api/name/identifier</Anchor>
             <NodeRef refid="1044"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSSimpleDBDeleteDomainRequest/domainName</TokenIdentifier>
-			<Abstract type="html">The name of the domain to delete.</Abstract>
-			<DeclaredIn>AWSSimpleDBModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSSQSDeleteMessageBatchRequestEntry/identifier</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;An identifier for this particular receipt handle. This is used to communicate the result. Note that the &lt;code&gt;Id&lt;/code&gt;s of a batch request need to be unique within the request.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSQSModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *domainName</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *identifier</Declaration>
 			
 			
-			<Anchor>//api/name/domainName</Anchor>
+			<Anchor>//api/name/identifier</Anchor>
+            <NodeRef refid="1044"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSQSDeleteMessageBatchRequestEntry/setReceiptHandle:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;A receipt handle.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSQSModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *receiptHandle</Declaration>
+			
+			
+			<Anchor>//api/name/receiptHandle</Anchor>
+            <NodeRef refid="1044"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSQSDeleteMessageBatchRequestEntry/receiptHandle</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;A receipt handle.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSQSModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *receiptHandle</Declaration>
+			
+			
+			<Anchor>//api/name/receiptHandle</Anchor>
+            <NodeRef refid="1044"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSSQSDeleteMessageBatchRequestEntry/receiptHandle</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;A receipt handle.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSQSModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *receiptHandle</Declaration>
+			
+			
+			<Anchor>//api/name/receiptHandle</Anchor>
             <NodeRef refid="1044"/>
 		</Token>
 		

@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSSQSChangeMessageVisibilityBatchRequest.html">
+	<File path="Classes/AWSSESVerifyDomainDkimResponse.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSSQSChangeMessageVisibilityBatchRequest</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSSQSModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSSESVerifyDomainDkimResponse</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Represents the DNS records that must be published in the domain name&apos;s DNS to complete DKIM setup.&lt;/p&gt;
+Required parameters: [DkimTokens]</Abstract>
+			<DeclaredIn>AWSSESModel.h</DeclaredIn>
             
 			
 			<NodeRef refid="981"/>
@@ -13,74 +14,38 @@
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSSQSChangeMessageVisibilityBatchRequest/setEntries:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;A list of receipt handles of the messages for which the visibility timeout must be changed.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSQSModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSESVerifyDomainDkimResponse/setDkimTokens:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;A set of character strings that represent the domain&apos;s identity. If the identity is an email address, the tokens represent the domain of that address.&lt;/p&gt;&lt;p&gt;Using these tokens, you will need to create DNS CNAME records that point to DKIM public keys hosted by Amazon SES. Amazon Web Services will eventually detect that you have updated your DNS records; this detection process may take up to 72 hours. Upon successful detection, Amazon SES will be able to DKIM-sign emails originating from that domain.&lt;/p&gt;&lt;p&gt;For more information about creating DNS records using DKIM tokens, go to the Amazon SES Developer Guide.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSESModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSArray *entries</Declaration>
+			<Declaration>@property (nonatomic, strong) NSArray *dkimTokens</Declaration>
 			
 			
-			<Anchor>//api/name/entries</Anchor>
+			<Anchor>//api/name/dkimTokens</Anchor>
             <NodeRef refid="981"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSSQSChangeMessageVisibilityBatchRequest/entries</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;A list of receipt handles of the messages for which the visibility timeout must be changed.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSQSModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSESVerifyDomainDkimResponse/dkimTokens</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;A set of character strings that represent the domain&apos;s identity. If the identity is an email address, the tokens represent the domain of that address.&lt;/p&gt;&lt;p&gt;Using these tokens, you will need to create DNS CNAME records that point to DKIM public keys hosted by Amazon SES. Amazon Web Services will eventually detect that you have updated your DNS records; this detection process may take up to 72 hours. Upon successful detection, Amazon SES will be able to DKIM-sign emails originating from that domain.&lt;/p&gt;&lt;p&gt;For more information about creating DNS records using DKIM tokens, go to the Amazon SES Developer Guide.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSESModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSArray *entries</Declaration>
+			<Declaration>@property (nonatomic, strong) NSArray *dkimTokens</Declaration>
 			
 			
-			<Anchor>//api/name/entries</Anchor>
+			<Anchor>//api/name/dkimTokens</Anchor>
             <NodeRef refid="981"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSSQSChangeMessageVisibilityBatchRequest/entries</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;A list of receipt handles of the messages for which the visibility timeout must be changed.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSQSModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSSESVerifyDomainDkimResponse/dkimTokens</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;A set of character strings that represent the domain&apos;s identity. If the identity is an email address, the tokens represent the domain of that address.&lt;/p&gt;&lt;p&gt;Using these tokens, you will need to create DNS CNAME records that point to DKIM public keys hosted by Amazon SES. Amazon Web Services will eventually detect that you have updated your DNS records; this detection process may take up to 72 hours. Upon successful detection, Amazon SES will be able to DKIM-sign emails originating from that domain.&lt;/p&gt;&lt;p&gt;For more information about creating DNS records using DKIM tokens, go to the Amazon SES Developer Guide.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSESModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSArray *entries</Declaration>
-			
-			
-			<Anchor>//api/name/entries</Anchor>
-            <NodeRef refid="981"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSSQSChangeMessageVisibilityBatchRequest/setQueueUrl:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The URL of the Amazon SQS queue to take action on.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSQSModel.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *queueUrl</Declaration>
+			<Declaration>@property (nonatomic, strong) NSArray *dkimTokens</Declaration>
 			
 			
-			<Anchor>//api/name/queueUrl</Anchor>
-            <NodeRef refid="981"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSSQSChangeMessageVisibilityBatchRequest/queueUrl</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The URL of the Amazon SQS queue to take action on.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSQSModel.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *queueUrl</Declaration>
-			
-			
-			<Anchor>//api/name/queueUrl</Anchor>
-            <NodeRef refid="981"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSSQSChangeMessageVisibilityBatchRequest/queueUrl</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The URL of the Amazon SQS queue to take action on.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSQSModel.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *queueUrl</Declaration>
-			
-			
-			<Anchor>//api/name/queueUrl</Anchor>
+			<Anchor>//api/name/dkimTokens</Anchor>
             <NodeRef refid="981"/>
 		</Token>
 		

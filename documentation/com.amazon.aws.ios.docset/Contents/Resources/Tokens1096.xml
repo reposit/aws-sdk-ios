@@ -1,147 +1,53 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Constants/AWSDynamoDBErrorType.html">
+	<File path="Classes/AWSSimpleDBDeleteDomainRequest.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/c/tdef/AWSDynamoDBErrorType</TokenIdentifier>
-			<Abstract type="html">Copyright 2010-2015 Amazon.com, Inc. or its affiliates. All Rights Reserved.</Abstract>
-			<DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSSimpleDBDeleteDomainRequest</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSSimpleDBModel.h</DeclaredIn>
             
 			
 			<NodeRef refid="1096"/>
 		</Token>
 		
 		
-        
-        <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSDynamoDBErrorUnknown</TokenIdentifier>
-            <Abstract type="html"></Abstract>
-            <Declaration>AWSDynamoDBErrorUnknown</Declaration>
-            
-            <DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
-            
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSimpleDBDeleteDomainRequest/setDomainName:</TokenIdentifier>
+			<Abstract type="html">The name of the domain to delete.</Abstract>
+			<DeclaredIn>AWSSimpleDBModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *domainName</Declaration>
+			
+			
+			<Anchor>//api/name/domainName</Anchor>
             <NodeRef refid="1096"/>
-        </Token>
-        
-        <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSDynamoDBErrorAccessDenied</TokenIdentifier>
-            <Abstract type="html"></Abstract>
-            <Declaration>AWSDynamoDBErrorAccessDenied</Declaration>
-            
-            <DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
-            
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSimpleDBDeleteDomainRequest/domainName</TokenIdentifier>
+			<Abstract type="html">The name of the domain to delete.</Abstract>
+			<DeclaredIn>AWSSimpleDBModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *domainName</Declaration>
+			
+			
+			<Anchor>//api/name/domainName</Anchor>
             <NodeRef refid="1096"/>
-        </Token>
-        
-        <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSDynamoDBErrorUnrecognizedClient</TokenIdentifier>
-            <Abstract type="html"></Abstract>
-            <Declaration>AWSDynamoDBErrorUnrecognizedClient</Declaration>
-            
-            <DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
-            
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSSimpleDBDeleteDomainRequest/domainName</TokenIdentifier>
+			<Abstract type="html">The name of the domain to delete.</Abstract>
+			<DeclaredIn>AWSSimpleDBModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *domainName</Declaration>
+			
+			
+			<Anchor>//api/name/domainName</Anchor>
             <NodeRef refid="1096"/>
-        </Token>
-        
-        <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSDynamoDBErrorIncompleteSignature</TokenIdentifier>
-            <Abstract type="html"></Abstract>
-            <Declaration>AWSDynamoDBErrorIncompleteSignature</Declaration>
-            
-            <DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
-            
-            <NodeRef refid="1096"/>
-        </Token>
-        
-        <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSDynamoDBErrorInvalidClientTokenId</TokenIdentifier>
-            <Abstract type="html"></Abstract>
-            <Declaration>AWSDynamoDBErrorInvalidClientTokenId</Declaration>
-            
-            <DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
-            
-            <NodeRef refid="1096"/>
-        </Token>
-        
-        <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSDynamoDBErrorMissingAuthenticationToken</TokenIdentifier>
-            <Abstract type="html"></Abstract>
-            <Declaration>AWSDynamoDBErrorMissingAuthenticationToken</Declaration>
-            
-            <DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
-            
-            <NodeRef refid="1096"/>
-        </Token>
-        
-        <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSDynamoDBErrorConditionalCheckFailed</TokenIdentifier>
-            <Abstract type="html"></Abstract>
-            <Declaration>AWSDynamoDBErrorConditionalCheckFailed</Declaration>
-            
-            <DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
-            
-            <NodeRef refid="1096"/>
-        </Token>
-        
-        <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSDynamoDBErrorInternalServer</TokenIdentifier>
-            <Abstract type="html"></Abstract>
-            <Declaration>AWSDynamoDBErrorInternalServer</Declaration>
-            
-            <DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
-            
-            <NodeRef refid="1096"/>
-        </Token>
-        
-        <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSDynamoDBErrorItemCollectionSizeLimitExceeded</TokenIdentifier>
-            <Abstract type="html"></Abstract>
-            <Declaration>AWSDynamoDBErrorItemCollectionSizeLimitExceeded</Declaration>
-            
-            <DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
-            
-            <NodeRef refid="1096"/>
-        </Token>
-        
-        <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSDynamoDBErrorLimitExceeded</TokenIdentifier>
-            <Abstract type="html"></Abstract>
-            <Declaration>AWSDynamoDBErrorLimitExceeded</Declaration>
-            
-            <DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
-            
-            <NodeRef refid="1096"/>
-        </Token>
-        
-        <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSDynamoDBErrorProvisionedThroughputExceeded</TokenIdentifier>
-            <Abstract type="html"></Abstract>
-            <Declaration>AWSDynamoDBErrorProvisionedThroughputExceeded</Declaration>
-            
-            <DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
-            
-            <NodeRef refid="1096"/>
-        </Token>
-        
-        <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSDynamoDBErrorResourceInUse</TokenIdentifier>
-            <Abstract type="html"></Abstract>
-            <Declaration>AWSDynamoDBErrorResourceInUse</Declaration>
-            
-            <DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
-            
-            <NodeRef refid="1096"/>
-        </Token>
-        
-        <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSDynamoDBErrorResourceNotFound</TokenIdentifier>
-            <Abstract type="html"></Abstract>
-            <Declaration>AWSDynamoDBErrorResourceNotFound</Declaration>
-            
-            <DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
-            
-            <NodeRef refid="1096"/>
-        </Token>
+		</Token>
+		
         
         
 	</File>

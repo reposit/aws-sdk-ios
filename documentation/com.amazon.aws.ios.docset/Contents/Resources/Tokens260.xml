@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSEC2AssociateDhcpOptionsRequest.html">
+	<File path="Classes/AWSEC2AccountAttributeValue.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSEC2AssociateDhcpOptionsRequest</TokenIdentifier>
-			<Abstract type="html"></Abstract>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSEC2AccountAttributeValue</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Describes a value of an account attribute.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
             
 			
@@ -13,110 +13,38 @@
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2AssociateDhcpOptionsRequest/setDhcpOptionsId:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The ID of the DHCP options set, or &lt;code&gt;default&lt;/code&gt; to associate no DHCP options with the VPC.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2AccountAttributeValue/setAttributeValue:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The value of the attribute.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *dhcpOptionsId</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *attributeValue</Declaration>
 			
 			
-			<Anchor>//api/name/dhcpOptionsId</Anchor>
+			<Anchor>//api/name/attributeValue</Anchor>
             <NodeRef refid="260"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2AssociateDhcpOptionsRequest/dhcpOptionsId</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The ID of the DHCP options set, or &lt;code&gt;default&lt;/code&gt; to associate no DHCP options with the VPC.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2AccountAttributeValue/attributeValue</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The value of the attribute.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *dhcpOptionsId</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *attributeValue</Declaration>
 			
 			
-			<Anchor>//api/name/dhcpOptionsId</Anchor>
+			<Anchor>//api/name/attributeValue</Anchor>
             <NodeRef refid="260"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2AssociateDhcpOptionsRequest/dhcpOptionsId</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The ID of the DHCP options set, or &lt;code&gt;default&lt;/code&gt; to associate no DHCP options with the VPC.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2AccountAttributeValue/attributeValue</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The value of the attribute.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *dhcpOptionsId</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *attributeValue</Declaration>
 			
 			
-			<Anchor>//api/name/dhcpOptionsId</Anchor>
-            <NodeRef refid="260"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2AssociateDhcpOptionsRequest/setDryRun:</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSNumber *dryRun</Declaration>
-			
-			
-			<Anchor>//api/name/dryRun</Anchor>
-            <NodeRef refid="260"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2AssociateDhcpOptionsRequest/dryRun</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSNumber *dryRun</Declaration>
-			
-			
-			<Anchor>//api/name/dryRun</Anchor>
-            <NodeRef refid="260"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2AssociateDhcpOptionsRequest/dryRun</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSNumber *dryRun</Declaration>
-			
-			
-			<Anchor>//api/name/dryRun</Anchor>
-            <NodeRef refid="260"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2AssociateDhcpOptionsRequest/setVpcId:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The ID of the VPC.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *vpcId</Declaration>
-			
-			
-			<Anchor>//api/name/vpcId</Anchor>
-            <NodeRef refid="260"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2AssociateDhcpOptionsRequest/vpcId</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The ID of the VPC.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *vpcId</Declaration>
-			
-			
-			<Anchor>//api/name/vpcId</Anchor>
-            <NodeRef refid="260"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2AssociateDhcpOptionsRequest/vpcId</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The ID of the VPC.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *vpcId</Declaration>
-			
-			
-			<Anchor>//api/name/vpcId</Anchor>
+			<Anchor>//api/name/attributeValue</Anchor>
             <NodeRef refid="260"/>
 		</Token>
 		

@@ -4,7 +4,8 @@
 		
 		<Token>
 			<TokenIdentifier>//apple_ref/occ/cl/AWSCognitoDataset</TokenIdentifier>
-			<Abstract type="html"></Abstract>
+			<Abstract type="html">An object that encapsulates the dataset. The dataset is the unit of sync
+for Amazon Cognito.</Abstract>
 			<DeclaredIn>AWSCognitoDataset.h</DeclaredIn>
             
 			
@@ -248,8 +249,7 @@ to the value on the AWSCognito client that opened this dataset.</Abstract>
 		
 		<Token>
 			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoDataset/stringForKey:</TokenIdentifier>
-			<Abstract type="html">Returns the string associated with the specified key.
-  </Abstract>
+			<Abstract type="html">Returns the string associated with the specified key.</Abstract>
 			<DeclaredIn>AWSCognitoDataset.h</DeclaredIn>
 			
 			<Declaration>- (NSString *)stringForKey:(NSString *)aKey</Declaration>
@@ -267,7 +267,7 @@ point there is a conflict, conflict resolution is invoked.  No changes are pushe
 all conflicts are resolved.</Abstract>
 			<DeclaredIn>AWSCognitoDataset.h</DeclaredIn>
 			
-			<Declaration>- (BFTask *)synchronize</Declaration>
+			<Declaration>- (AWSTask *)synchronize</Declaration>
 			
 			
 			<Anchor>//api/name/synchronize</Anchor>
@@ -277,14 +277,14 @@ all conflicts are resolved.</Abstract>
 		<Token>
 			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoDataset/synchronizeOnConnectivity</TokenIdentifier>
 			<Abstract type="html">Attempts to synchronize when device has connectivity.  First it checks connectivity, if device is online
-immediately invokes synchronize and returns the BFTask associated with the attempt.  If the device is offline,
-schedules a synchronize for the next time the device comes online and returns a BFTask with a nil result.
+immediately invokes synchronize and returns the AWSTask associated with the attempt.  If the device is offline,
+schedules a synchronize for the next time the device comes online and returns a AWSTask with a nil result.
 The scheduled synchronize is only valid for the lifecycle of the dataset object.  The data will not be synchronized
 if the app is exited before connectivity is regained.  If you want to be notified when events occur during the
 scheduled synchronize, you must add observers of the notifications found in AWSCognito</Abstract>
 			<DeclaredIn>AWSCognitoDataset.h</DeclaredIn>
 			
-			<Declaration>- (BFTask *)synchronizeOnConnectivity</Declaration>
+			<Declaration>- (AWSTask *)synchronizeOnConnectivity</Declaration>
 			
 			
 			<Anchor>//api/name/synchronizeOnConnectivity</Anchor>
@@ -296,9 +296,9 @@ scheduled synchronize, you must add observers of the notifications found in AWSC
 			<Abstract type="html">Subscribes this dataset to push notifications</Abstract>
 			<DeclaredIn>AWSCognitoDataset.h</DeclaredIn>
 			
-			<Declaration>- (BFTask *)subscribe</Declaration>
+			<Declaration>- (AWSTask *)subscribe</Declaration>
 			
-			
+			<ReturnValue><Abstract type="html">AWSTask with nil result. task.error will contain any errors.</Abstract></ReturnValue>
 			<Anchor>//api/name/subscribe</Anchor>
             <NodeRef refid="118"/>
 		</Token>
@@ -308,9 +308,9 @@ scheduled synchronize, you must add observers of the notifications found in AWSC
 			<Abstract type="html">Unsubscribes this dataset to push notifications</Abstract>
 			<DeclaredIn>AWSCognitoDataset.h</DeclaredIn>
 			
-			<Declaration>- (BFTask *)unsubscribe</Declaration>
+			<Declaration>- (AWSTask *)unsubscribe</Declaration>
 			
-			
+			<ReturnValue><Abstract type="html">AWSTask with nil result. task.error will contain any errors.</Abstract></ReturnValue>
 			<Anchor>//api/name/unsubscribe</Anchor>
             <NodeRef refid="118"/>
 		</Token>
@@ -322,7 +322,7 @@ scheduled synchronize, you must add observers of the notifications found in AWSC
 			
 			<Declaration>- (NSArray *)getAllRecords</Declaration>
 			
-			
+			<ReturnValue><Abstract type="html">NSArray of AWSCognitoRecord objects</Abstract></ReturnValue>
 			<Anchor>//api/name/getAllRecords</Anchor>
             <NodeRef refid="118"/>
 		</Token>
@@ -334,7 +334,7 @@ scheduled synchronize, you must add observers of the notifications found in AWSC
 			
 			<Declaration>- (NSDictionary *)getAll</Declaration>
 			
-			
+			<ReturnValue><Abstract type="html">NSDictionary of all key value pairs. Contains no metadata.</Abstract></ReturnValue>
 			<Anchor>//api/name/getAll</Anchor>
             <NodeRef refid="118"/>
 		</Token>
@@ -345,7 +345,12 @@ scheduled synchronize, you must add observers of the notifications found in AWSC
 			<DeclaredIn>AWSCognitoDataset.h</DeclaredIn>
 			
 			<Declaration>- (void)removeObjectForKey:(NSString *)aKey</Declaration>
-			
+			<Parameters>
+				<Parameter>
+					<Name>aKey</Name>
+					<Abstract type="html">the key to remove</Abstract>
+				</Parameter>
+			</Parameters>
 			
 			<Anchor>//api/name/removeObjectForKey:</Anchor>
             <NodeRef refid="118"/>
@@ -357,8 +362,13 @@ scheduled synchronize, you must add observers of the notifications found in AWSC
 			<DeclaredIn>AWSCognitoDataset.h</DeclaredIn>
 			
 			<Declaration>- (AWSCognitoRecord *)recordForKey:(NSString *)aKey</Declaration>
-			
-			
+			<Parameters>
+				<Parameter>
+					<Name>aKey</Name>
+					<Abstract type="html">the key to return</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">AWSCognitoRecord for this particular record. Will return nil if record does not exist.</Abstract></ReturnValue>
 			<Anchor>//api/name/recordForKey:</Anchor>
             <NodeRef refid="118"/>
 		</Token>
@@ -393,7 +403,12 @@ scheduled synchronize, you must add observers of the notifications found in AWSC
 			<DeclaredIn>AWSCognitoDataset.h</DeclaredIn>
 			
 			<Declaration>- (long)sizeForKey:(NSString *)aKey</Declaration>
-			
+			<Parameters>
+				<Parameter>
+					<Name>aKey</Name>
+					<Abstract type="html">the key to check</Abstract>
+				</Parameter>
+			</Parameters>
 			
 			<Anchor>//api/name/sizeForKey:</Anchor>
             <NodeRef refid="118"/>
@@ -406,7 +421,7 @@ scheduled synchronize, you must add observers of the notifications found in AWSC
 2. Resolve conflicts</Abstract>
 			<DeclaredIn>AWSCognitoDataset.m</DeclaredIn>
 			
-			<Declaration>- (BFTask *)syncPull:(uint32_t)remainingAttempts</Declaration>
+			<Declaration>- (AWSTask *)syncPull:(uint32_t)remainingAttempts</Declaration>
 			
 			
 			<Anchor>//api/name/syncPull:</Anchor>
@@ -420,7 +435,7 @@ scheduled synchronize, you must add observers of the notifications found in AWSC
 2. Restart sync if errors occur</Abstract>
 			<DeclaredIn>AWSCognitoDataset.m</DeclaredIn>
 			
-			<Declaration>- (BFTask *)syncPush:(uint32_t)remainingAttempts</Declaration>
+			<Declaration>- (AWSTask *)syncPush:(uint32_t)remainingAttempts</Declaration>
 			
 			
 			<Anchor>//api/name/syncPush:</Anchor>

@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Constants/AWSSESNotificationType.html">
+	<File path="Constants/AWSEC2VolumeAttributeName.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/c/tdef/AWSSESNotificationType</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/c/tdef/AWSEC2VolumeAttributeName</TokenIdentifier>
 			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSSESModel.h</DeclaredIn>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
             
 			
 			<NodeRef refid="1219"/>
@@ -14,41 +14,31 @@
 		
         
         <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSSESNotificationTypeUnknown</TokenIdentifier>
+            <TokenIdentifier>//apple_ref/c/econst/AWSEC2VolumeAttributeNameUnknown</TokenIdentifier>
             <Abstract type="html"></Abstract>
-            <Declaration>AWSSESNotificationTypeUnknown</Declaration>
+            <Declaration>AWSEC2VolumeAttributeNameUnknown</Declaration>
             
-            <DeclaredIn>AWSSESModel.h</DeclaredIn>
+            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
             
             <NodeRef refid="1219"/>
         </Token>
         
         <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSSESNotificationTypeBounce</TokenIdentifier>
+            <TokenIdentifier>//apple_ref/c/econst/AWSEC2VolumeAttributeNameAutoEnableIO</TokenIdentifier>
             <Abstract type="html"></Abstract>
-            <Declaration>AWSSESNotificationTypeBounce</Declaration>
+            <Declaration>AWSEC2VolumeAttributeNameAutoEnableIO</Declaration>
             
-            <DeclaredIn>AWSSESModel.h</DeclaredIn>
+            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
             
             <NodeRef refid="1219"/>
         </Token>
         
         <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSSESNotificationTypeComplaint</TokenIdentifier>
+            <TokenIdentifier>//apple_ref/c/econst/AWSEC2VolumeAttributeNameProductCodes</TokenIdentifier>
             <Abstract type="html"></Abstract>
-            <Declaration>AWSSESNotificationTypeComplaint</Declaration>
+            <Declaration>AWSEC2VolumeAttributeNameProductCodes</Declaration>
             
-            <DeclaredIn>AWSSESModel.h</DeclaredIn>
-            
-            <NodeRef refid="1219"/>
-        </Token>
-        
-        <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSSESNotificationTypeDelivery</TokenIdentifier>
-            <Abstract type="html"></Abstract>
-            <Declaration>AWSSESNotificationTypeDelivery</Declaration>
-            
-            <DeclaredIn>AWSSESModel.h</DeclaredIn>
+            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
             
             <NodeRef refid="1219"/>
         </Token>

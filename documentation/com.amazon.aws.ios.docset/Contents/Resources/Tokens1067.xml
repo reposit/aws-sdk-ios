@@ -1,13 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Protocols/AWSCognitoIdentityProvider.html">
+	<File path="Classes/AWSSQSSendMessageResult.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/intf/AWSCognitoIdentityProvider</TokenIdentifier>
-			<Abstract type="html">AWSCognitoIdentityProvider provides a Cognito specific identity provider. Cognito Identity
-providers are associated with an identity pool. If the identity pool supports authenticated
-access, multiple logins may be added to link to the Cognito identity.</Abstract>
-			<DeclaredIn>AWSIdentityProvider.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSSQSSendMessageResult</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The MD5OfMessageBody and MessageId elements.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSQSModel.h</DeclaredIn>
             
 			
 			<NodeRef refid="1067"/>
@@ -15,194 +13,110 @@ access, multiple logins may be added to link to the Cognito identity.</Abstract>
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/intfm/AWSCognitoIdentityProvider/setIdentityPoolId:</TokenIdentifier>
-			<Abstract type="html">The identity pool for this provider. Used to when making calls to the Amazon Cognito service</Abstract>
-			<DeclaredIn>AWSIdentityProvider.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSQSSendMessageResult/setMD5OfMessageAttributes:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;An MD5 digest of the non-URL-encoded message attribute string. This can be used to verify that Amazon SQS received the message correctly. Amazon SQS first URL decodes the message before creating the MD5 digest. For information about MD5, go to &lt;a href=&quot;http://www.faqs.org/rfcs/rfc1321.html&quot;&gt;http://www.faqs.org/rfcs/rfc1321.html&lt;/a&gt;.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSQSModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong, readonly) NSString *identityPoolId</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *MD5OfMessageAttributes</Declaration>
 			
 			
-			<Anchor>//api/name/identityPoolId</Anchor>
+			<Anchor>//api/name/MD5OfMessageAttributes</Anchor>
             <NodeRef refid="1067"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/intfm/AWSCognitoIdentityProvider/identityPoolId</TokenIdentifier>
-			<Abstract type="html">The identity pool for this provider. Used to when making calls to the Amazon Cognito service</Abstract>
-			<DeclaredIn>AWSIdentityProvider.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSQSSendMessageResult/MD5OfMessageAttributes</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;An MD5 digest of the non-URL-encoded message attribute string. This can be used to verify that Amazon SQS received the message correctly. Amazon SQS first URL decodes the message before creating the MD5 digest. For information about MD5, go to &lt;a href=&quot;http://www.faqs.org/rfcs/rfc1321.html&quot;&gt;http://www.faqs.org/rfcs/rfc1321.html&lt;/a&gt;.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSQSModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong, readonly) NSString *identityPoolId</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *MD5OfMessageAttributes</Declaration>
 			
 			
-			<Anchor>//api/name/identityPoolId</Anchor>
+			<Anchor>//api/name/MD5OfMessageAttributes</Anchor>
             <NodeRef refid="1067"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/intfp/AWSCognitoIdentityProvider/identityPoolId</TokenIdentifier>
-			<Abstract type="html">The identity pool for this provider. Used to when making calls to the Amazon Cognito service</Abstract>
-			<DeclaredIn>AWSIdentityProvider.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSSQSSendMessageResult/MD5OfMessageAttributes</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;An MD5 digest of the non-URL-encoded message attribute string. This can be used to verify that Amazon SQS received the message correctly. Amazon SQS first URL decodes the message before creating the MD5 digest. For information about MD5, go to &lt;a href=&quot;http://www.faqs.org/rfcs/rfc1321.html&quot;&gt;http://www.faqs.org/rfcs/rfc1321.html&lt;/a&gt;.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSQSModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong, readonly) NSString *identityPoolId</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *MD5OfMessageAttributes</Declaration>
 			
 			
-			<Anchor>//api/name/identityPoolId</Anchor>
+			<Anchor>//api/name/MD5OfMessageAttributes</Anchor>
             <NodeRef refid="1067"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/intfm/AWSCognitoIdentityProvider/setIdentityId:</TokenIdentifier>
-			<Abstract type="html">The identity id as determined by the Amazon Cognito service</Abstract>
-			<DeclaredIn>AWSIdentityProvider.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSQSSendMessageResult/setMD5OfMessageBody:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;An MD5 digest of the non-URL-encoded message body string. This can be used to verify that Amazon SQS received the message correctly. Amazon SQS first URL decodes the message before creating the MD5 digest. For information about MD5, go to &lt;a href=&quot;http://www.faqs.org/rfcs/rfc1321.html&quot;&gt;http://www.faqs.org/rfcs/rfc1321.html&lt;/a&gt;.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSQSModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *identityId</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *MD5OfMessageBody</Declaration>
 			
 			
-			<Anchor>//api/name/identityId</Anchor>
+			<Anchor>//api/name/MD5OfMessageBody</Anchor>
             <NodeRef refid="1067"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/intfm/AWSCognitoIdentityProvider/identityId</TokenIdentifier>
-			<Abstract type="html">The identity id as determined by the Amazon Cognito service</Abstract>
-			<DeclaredIn>AWSIdentityProvider.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSQSSendMessageResult/MD5OfMessageBody</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;An MD5 digest of the non-URL-encoded message body string. This can be used to verify that Amazon SQS received the message correctly. Amazon SQS first URL decodes the message before creating the MD5 digest. For information about MD5, go to &lt;a href=&quot;http://www.faqs.org/rfcs/rfc1321.html&quot;&gt;http://www.faqs.org/rfcs/rfc1321.html&lt;/a&gt;.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSQSModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *identityId</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *MD5OfMessageBody</Declaration>
 			
 			
-			<Anchor>//api/name/identityId</Anchor>
+			<Anchor>//api/name/MD5OfMessageBody</Anchor>
             <NodeRef refid="1067"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/intfp/AWSCognitoIdentityProvider/identityId</TokenIdentifier>
-			<Abstract type="html">The identity id as determined by the Amazon Cognito service</Abstract>
-			<DeclaredIn>AWSIdentityProvider.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSSQSSendMessageResult/MD5OfMessageBody</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;An MD5 digest of the non-URL-encoded message body string. This can be used to verify that Amazon SQS received the message correctly. Amazon SQS first URL decodes the message before creating the MD5 digest. For information about MD5, go to &lt;a href=&quot;http://www.faqs.org/rfcs/rfc1321.html&quot;&gt;http://www.faqs.org/rfcs/rfc1321.html&lt;/a&gt;.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSQSModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *identityId</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *MD5OfMessageBody</Declaration>
 			
 			
-			<Anchor>//api/name/identityId</Anchor>
+			<Anchor>//api/name/MD5OfMessageBody</Anchor>
             <NodeRef refid="1067"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/intfm/AWSCognitoIdentityProvider/setLogins:</TokenIdentifier>
-			<Abstract type="html">Each entry in logins represents a single login with an identity provider.
-The key is the domain of the login provider (e.g. &apos;graph.facebook.com&apos;) and the value is the
-OAuth/OpenId Connect token that results from an authentication with that login provider.</Abstract>
-			<DeclaredIn>AWSIdentityProvider.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSQSSendMessageResult/setMessageId:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; An element containing the message ID of the message sent to the queue. For more information, see Queue and Message Identifiers in the &lt;i&gt;Amazon SQS Developer Guide&lt;/i&gt;. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSQSModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSDictionary *logins</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *messageId</Declaration>
 			
 			
-			<Anchor>//api/name/logins</Anchor>
+			<Anchor>//api/name/messageId</Anchor>
             <NodeRef refid="1067"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/intfm/AWSCognitoIdentityProvider/logins</TokenIdentifier>
-			<Abstract type="html">Each entry in logins represents a single login with an identity provider.
-The key is the domain of the login provider (e.g. &apos;graph.facebook.com&apos;) and the value is the
-OAuth/OpenId Connect token that results from an authentication with that login provider.</Abstract>
-			<DeclaredIn>AWSIdentityProvider.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSQSSendMessageResult/messageId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; An element containing the message ID of the message sent to the queue. For more information, see Queue and Message Identifiers in the &lt;i&gt;Amazon SQS Developer Guide&lt;/i&gt;. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSQSModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSDictionary *logins</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *messageId</Declaration>
 			
 			
-			<Anchor>//api/name/logins</Anchor>
+			<Anchor>//api/name/messageId</Anchor>
             <NodeRef refid="1067"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/intfp/AWSCognitoIdentityProvider/logins</TokenIdentifier>
-			<Abstract type="html">Each entry in logins represents a single login with an identity provider.
-The key is the domain of the login provider (e.g. &apos;graph.facebook.com&apos;) and the value is the
-OAuth/OpenId Connect token that results from an authentication with that login provider.</Abstract>
-			<DeclaredIn>AWSIdentityProvider.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSSQSSendMessageResult/messageId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; An element containing the message ID of the message sent to the queue. For more information, see Queue and Message Identifiers in the &lt;i&gt;Amazon SQS Developer Guide&lt;/i&gt;. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSQSModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSDictionary *logins</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *messageId</Declaration>
 			
 			
-			<Anchor>//api/name/logins</Anchor>
-            <NodeRef refid="1067"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/intfm/AWSCognitoIdentityProvider/getIdentityId</TokenIdentifier>
-			<Abstract type="html">Get/retrieve the identity id for this provider. If an identity id is already set on this
-provider, no remote call is made and the identity will be returned as a result of the BFTask
-(the identityId is also available as a property).
-If no identityId is set on this provider, one will be retrieved from the service.</Abstract>
-			<DeclaredIn>AWSIdentityProvider.h</DeclaredIn>
-			
-			<Declaration>- (BFTask *)getIdentityId</Declaration>
-			
-			
-			<Anchor>//api/name/getIdentityId</Anchor>
-            <NodeRef refid="1067"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/intfm/AWSCognitoIdentityProvider/isAuthenticated</TokenIdentifier>
-			<Abstract type="html">Is this provider considered &apos;authenticated&apos;. By default, only returns YES if logins is set.</Abstract>
-			<DeclaredIn>AWSIdentityProvider.h</DeclaredIn>
-			
-			<Declaration>- (BOOL)isAuthenticated</Declaration>
-			
-			
-			<Anchor>//api/name/isAuthenticated</Anchor>
-            <NodeRef refid="1067"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/intfm/AWSCognitoIdentityProvider/clear</TokenIdentifier>
-			<Abstract type="html">Clear saved values for identityId, token, and logins.</Abstract>
-			<DeclaredIn>AWSIdentityProvider.h</DeclaredIn>
-			
-			<Declaration>- (void)clear</Declaration>
-			
-			
-			<Anchor>//api/name/clear</Anchor>
-            <NodeRef refid="1067"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/intfm/AWSCognitoIdentityProvider/setAccountId:</TokenIdentifier>
-			<Abstract type="html">Specifies the AWS Account Id for the owner of the identity pool.
-No longer required by Amazon Cognito</Abstract>
-			<DeclaredIn>AWSIdentityProvider.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong, readonly) NSString *accountId</Declaration>
-			
-			
-			<Anchor>//api/name/accountId</Anchor>
-            <NodeRef refid="1067"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/intfm/AWSCognitoIdentityProvider/accountId</TokenIdentifier>
-			<Abstract type="html">Specifies the AWS Account Id for the owner of the identity pool.
-No longer required by Amazon Cognito</Abstract>
-			<DeclaredIn>AWSIdentityProvider.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong, readonly) NSString *accountId</Declaration>
-			
-			
-			<Anchor>//api/name/accountId</Anchor>
-            <NodeRef refid="1067"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/intfp/AWSCognitoIdentityProvider/accountId</TokenIdentifier>
-			<Abstract type="html">Specifies the AWS Account Id for the owner of the identity pool.
-No longer required by Amazon Cognito</Abstract>
-			<DeclaredIn>AWSIdentityProvider.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong, readonly) NSString *accountId</Declaration>
-			
-			
-			<Anchor>//api/name/accountId</Anchor>
+			<Anchor>//api/name/messageId</Anchor>
             <NodeRef refid="1067"/>
 		</Token>
 		

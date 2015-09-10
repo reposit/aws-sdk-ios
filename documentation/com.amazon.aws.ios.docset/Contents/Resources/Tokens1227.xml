@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Constants/AWSURLSessionTaskType.html">
+	<File path="Constants/AWSEC2VpnStaticRouteSource.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/c/tdef/AWSURLSessionTaskType</TokenIdentifier>
-			<Abstract type="html">Copyright 2010-2015 Amazon.com, Inc. or its affiliates. All Rights Reserved.</Abstract>
-			<DeclaredIn>AWSURLSessionManager.m</DeclaredIn>
+			<TokenIdentifier>//apple_ref/c/tdef/AWSEC2VpnStaticRouteSource</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
             
 			
 			<NodeRef refid="1227"/>
@@ -14,41 +14,21 @@
 		
         
         <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSURLSessionTaskTypeUnknown</TokenIdentifier>
+            <TokenIdentifier>//apple_ref/c/econst/AWSEC2VpnStaticRouteSourceUnknown</TokenIdentifier>
             <Abstract type="html"></Abstract>
-            <Declaration>AWSURLSessionTaskTypeUnknown</Declaration>
+            <Declaration>AWSEC2VpnStaticRouteSourceUnknown</Declaration>
             
-            <DeclaredIn>AWSURLSessionManager.m</DeclaredIn>
+            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
             
             <NodeRef refid="1227"/>
         </Token>
         
         <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSURLSessionTaskTypeData</TokenIdentifier>
+            <TokenIdentifier>//apple_ref/c/econst/AWSEC2VpnStaticRouteSourceStatic</TokenIdentifier>
             <Abstract type="html"></Abstract>
-            <Declaration>AWSURLSessionTaskTypeData</Declaration>
+            <Declaration>AWSEC2VpnStaticRouteSourceStatic</Declaration>
             
-            <DeclaredIn>AWSURLSessionManager.m</DeclaredIn>
-            
-            <NodeRef refid="1227"/>
-        </Token>
-        
-        <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSURLSessionTaskTypeDownload</TokenIdentifier>
-            <Abstract type="html"></Abstract>
-            <Declaration>AWSURLSessionTaskTypeDownload</Declaration>
-            
-            <DeclaredIn>AWSURLSessionManager.m</DeclaredIn>
-            
-            <NodeRef refid="1227"/>
-        </Token>
-        
-        <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSURLSessionTaskTypeUpload</TokenIdentifier>
-            <Abstract type="html"></Abstract>
-            <Declaration>AWSURLSessionTaskTypeUpload</Declaration>
-            
-            <DeclaredIn>AWSURLSessionManager.m</DeclaredIn>
+            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
             
             <NodeRef refid="1227"/>
         </Token>

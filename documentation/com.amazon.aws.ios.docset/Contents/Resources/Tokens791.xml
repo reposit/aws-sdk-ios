@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSS3GetBucketAclOutput.html">
+	<File path="Classes/AWSLogger.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSS3GetBucketAclOutput</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSLogger</TokenIdentifier>
+			<Abstract type="html">AWSLogger is an utility class that handles logging to the console.
+You can specify the log level to control how verbose the output will be.</Abstract>
+			<DeclaredIn>AWSLogging.h</DeclaredIn>
             
 			
 			<NodeRef refid="791"/>
@@ -13,74 +14,70 @@
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3GetBucketAclOutput/setGrants:</TokenIdentifier>
-			<Abstract type="html">A list of grants.</Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSLogger/setLogLevel:</TokenIdentifier>
+			<Abstract type="html">The log level setting. The default is AWSLogLevelNone.</Abstract>
+			<DeclaredIn>AWSLogging.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSArray *grants</Declaration>
+			<Declaration>@property (atomic, assign) AWSLogLevel logLevel</Declaration>
 			
 			
-			<Anchor>//api/name/grants</Anchor>
+			<Anchor>//api/name/logLevel</Anchor>
             <NodeRef refid="791"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3GetBucketAclOutput/grants</TokenIdentifier>
-			<Abstract type="html">A list of grants.</Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSLogger/logLevel</TokenIdentifier>
+			<Abstract type="html">The log level setting. The default is AWSLogLevelNone.</Abstract>
+			<DeclaredIn>AWSLogging.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSArray *grants</Declaration>
+			<Declaration>@property (atomic, assign) AWSLogLevel logLevel</Declaration>
 			
 			
-			<Anchor>//api/name/grants</Anchor>
+			<Anchor>//api/name/logLevel</Anchor>
             <NodeRef refid="791"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSS3GetBucketAclOutput/grants</TokenIdentifier>
-			<Abstract type="html">A list of grants.</Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSLogger/logLevel</TokenIdentifier>
+			<Abstract type="html">The log level setting. The default is AWSLogLevelNone.</Abstract>
+			<DeclaredIn>AWSLogging.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSArray *grants</Declaration>
+			<Declaration>@property (atomic, assign) AWSLogLevel logLevel</Declaration>
 			
 			
-			<Anchor>//api/name/grants</Anchor>
+			<Anchor>//api/name/logLevel</Anchor>
             <NodeRef refid="791"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3GetBucketAclOutput/setOwner:</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/clm/AWSLogger/defaultLogger</TokenIdentifier>
+			<Abstract type="html">Returns the shared logger object.</Abstract>
+			<DeclaredIn>AWSLogging.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) AWSS3Owner *owner</Declaration>
+			<Declaration>+ (instancetype)defaultLogger</Declaration>
 			
-			
-			<Anchor>//api/name/owner</Anchor>
+			<ReturnValue><Abstract type="html">The shared logger object.</Abstract></ReturnValue>
+			<Anchor>//api/name/defaultLogger</Anchor>
             <NodeRef refid="791"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3GetBucketAclOutput/owner</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSLogger/log:format:</TokenIdentifier>
+			<Abstract type="html">Prints out the formatted logs to the console.</Abstract>
+			<DeclaredIn>AWSLogging.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) AWSS3Owner *owner</Declaration>
+			<Declaration>- (void)log:(AWSLogLevel)logLevel format:(NSString *)fmt, ...</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>logLevel</Name>
+					<Abstract type="html">The level of this log.</Abstract>
+				</Parameter><Parameter>
+					<Name>fmt</Name>
+					<Abstract type="html">The formatted string to log.</Abstract>
+				</Parameter>
+			</Parameters>
 			
-			
-			<Anchor>//api/name/owner</Anchor>
-            <NodeRef refid="791"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSS3GetBucketAclOutput/owner</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) AWSS3Owner *owner</Declaration>
-			
-			
-			<Anchor>//api/name/owner</Anchor>
+			<Anchor>//api/name/log:format:</Anchor>
             <NodeRef refid="791"/>
 		</Token>
 		

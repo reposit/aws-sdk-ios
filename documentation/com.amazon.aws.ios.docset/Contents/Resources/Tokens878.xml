@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSS3TargetGrant.html">
+	<File path="Classes/AWSS3LifecycleConfiguration.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSS3TargetGrant</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSS3LifecycleConfiguration</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSS3Model.h</DeclaredIn>
             
@@ -13,74 +13,38 @@
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3TargetGrant/setGrantee:</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3LifecycleConfiguration/setRules:</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) AWSS3Grantee *grantee</Declaration>
+			<Declaration>@property (nonatomic, strong) NSArray *rules</Declaration>
 			
 			
-			<Anchor>//api/name/grantee</Anchor>
+			<Anchor>//api/name/rules</Anchor>
             <NodeRef refid="878"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3TargetGrant/grantee</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3LifecycleConfiguration/rules</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) AWSS3Grantee *grantee</Declaration>
+			<Declaration>@property (nonatomic, strong) NSArray *rules</Declaration>
 			
 			
-			<Anchor>//api/name/grantee</Anchor>
+			<Anchor>//api/name/rules</Anchor>
             <NodeRef refid="878"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSS3TargetGrant/grantee</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSS3LifecycleConfiguration/rules</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) AWSS3Grantee *grantee</Declaration>
+			<Declaration>@property (nonatomic, strong) NSArray *rules</Declaration>
 			
 			
-			<Anchor>//api/name/grantee</Anchor>
-            <NodeRef refid="878"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3TargetGrant/setPermission:</TokenIdentifier>
-			<Abstract type="html">Logging permissions assigned to the Grantee for the bucket.</Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, assign) AWSS3BucketLogsPermission permission</Declaration>
-			
-			
-			<Anchor>//api/name/permission</Anchor>
-            <NodeRef refid="878"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3TargetGrant/permission</TokenIdentifier>
-			<Abstract type="html">Logging permissions assigned to the Grantee for the bucket.</Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, assign) AWSS3BucketLogsPermission permission</Declaration>
-			
-			
-			<Anchor>//api/name/permission</Anchor>
-            <NodeRef refid="878"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSS3TargetGrant/permission</TokenIdentifier>
-			<Abstract type="html">Logging permissions assigned to the Grantee for the bucket.</Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, assign) AWSS3BucketLogsPermission permission</Declaration>
-			
-			
-			<Anchor>//api/name/permission</Anchor>
+			<Anchor>//api/name/rules</Anchor>
             <NodeRef refid="878"/>
 		</Token>
 		

@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSS3BucketLoggingStatus.html">
+	<File path="Classes/AWSLambdaAddPermissionResponse.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSS3BucketLoggingStatus</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSLambdaAddPermissionResponse</TokenIdentifier>
 			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			<DeclaredIn>AWSLambdaModel.h</DeclaredIn>
             
 			
 			<NodeRef refid="761"/>
@@ -13,38 +13,38 @@
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3BucketLoggingStatus/setLoggingEnabled:</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSLambdaAddPermissionResponse/setStatement:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The permission statement you specified in the request. The response returns the same as a string using &quot;\&quot; as an escape character in the JSON. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSLambdaModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) AWSS3LoggingEnabled *loggingEnabled</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *statement</Declaration>
 			
 			
-			<Anchor>//api/name/loggingEnabled</Anchor>
+			<Anchor>//api/name/statement</Anchor>
             <NodeRef refid="761"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3BucketLoggingStatus/loggingEnabled</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSLambdaAddPermissionResponse/statement</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The permission statement you specified in the request. The response returns the same as a string using &quot;\&quot; as an escape character in the JSON. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSLambdaModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) AWSS3LoggingEnabled *loggingEnabled</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *statement</Declaration>
 			
 			
-			<Anchor>//api/name/loggingEnabled</Anchor>
+			<Anchor>//api/name/statement</Anchor>
             <NodeRef refid="761"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSS3BucketLoggingStatus/loggingEnabled</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSLambdaAddPermissionResponse/statement</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The permission statement you specified in the request. The response returns the same as a string using &quot;\&quot; as an escape character in the JSON. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSLambdaModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) AWSS3LoggingEnabled *loggingEnabled</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *statement</Declaration>
 			
 			
-			<Anchor>//api/name/loggingEnabled</Anchor>
+			<Anchor>//api/name/statement</Anchor>
             <NodeRef refid="761"/>
 		</Token>
 		

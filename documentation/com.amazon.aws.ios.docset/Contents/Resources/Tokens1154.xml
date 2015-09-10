@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Constants/AWSEC2RouteState.html">
+	<File path="Constants/AWSDynamoDBScalarAttributeType.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/c/tdef/AWSEC2RouteState</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/c/tdef/AWSDynamoDBScalarAttributeType</TokenIdentifier>
 			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			<DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
             
 			
 			<NodeRef refid="1154"/>
@@ -14,31 +14,41 @@
 		
         
         <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSEC2RouteStateUnknown</TokenIdentifier>
+            <TokenIdentifier>//apple_ref/c/econst/AWSDynamoDBScalarAttributeTypeUnknown</TokenIdentifier>
             <Abstract type="html"></Abstract>
-            <Declaration>AWSEC2RouteStateUnknown</Declaration>
+            <Declaration>AWSDynamoDBScalarAttributeTypeUnknown</Declaration>
             
-            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
+            <DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
             
             <NodeRef refid="1154"/>
         </Token>
         
         <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSEC2RouteStateActive</TokenIdentifier>
+            <TokenIdentifier>//apple_ref/c/econst/AWSDynamoDBScalarAttributeTypeS</TokenIdentifier>
             <Abstract type="html"></Abstract>
-            <Declaration>AWSEC2RouteStateActive</Declaration>
+            <Declaration>AWSDynamoDBScalarAttributeTypeS</Declaration>
             
-            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
+            <DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
             
             <NodeRef refid="1154"/>
         </Token>
         
         <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSEC2RouteStateBlackhole</TokenIdentifier>
+            <TokenIdentifier>//apple_ref/c/econst/AWSDynamoDBScalarAttributeTypeN</TokenIdentifier>
             <Abstract type="html"></Abstract>
-            <Declaration>AWSEC2RouteStateBlackhole</Declaration>
+            <Declaration>AWSDynamoDBScalarAttributeTypeN</Declaration>
             
-            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
+            <DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
+            
+            <NodeRef refid="1154"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/AWSDynamoDBScalarAttributeTypeB</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>AWSDynamoDBScalarAttributeTypeB</Declaration>
+            
+            <DeclaredIn>AWSDynamoDBModel.h</DeclaredIn>
             
             <NodeRef refid="1154"/>
         </Token>

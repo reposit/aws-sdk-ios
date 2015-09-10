@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSS3Rule.html">
+	<File path="Classes/AWSS3HeadObjectRequest.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSS3Rule</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSS3HeadObjectRequest</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSS3Model.h</DeclaredIn>
             
@@ -13,254 +13,398 @@
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3Rule/setExpiration:</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3HeadObjectRequest/setBucket:</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) AWSS3LifecycleExpiration *expiration</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *bucket</Declaration>
 			
 			
-			<Anchor>//api/name/expiration</Anchor>
+			<Anchor>//api/name/bucket</Anchor>
             <NodeRef refid="875"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3Rule/expiration</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3HeadObjectRequest/bucket</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) AWSS3LifecycleExpiration *expiration</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *bucket</Declaration>
 			
 			
-			<Anchor>//api/name/expiration</Anchor>
+			<Anchor>//api/name/bucket</Anchor>
             <NodeRef refid="875"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSS3Rule/expiration</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSS3HeadObjectRequest/bucket</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) AWSS3LifecycleExpiration *expiration</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *bucket</Declaration>
 			
 			
-			<Anchor>//api/name/expiration</Anchor>
+			<Anchor>//api/name/bucket</Anchor>
             <NodeRef refid="875"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3Rule/setIdentifier:</TokenIdentifier>
-			<Abstract type="html">Unique identifier for the rule. The value cannot be longer than 255 characters.</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3HeadObjectRequest/setIfMatch:</TokenIdentifier>
+			<Abstract type="html">Return the object only if its entity tag (ETag) is the same as the one specified, otherwise return a 412 (precondition failed).</Abstract>
 			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *identifier</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *ifMatch</Declaration>
 			
 			
-			<Anchor>//api/name/identifier</Anchor>
+			<Anchor>//api/name/ifMatch</Anchor>
             <NodeRef refid="875"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3Rule/identifier</TokenIdentifier>
-			<Abstract type="html">Unique identifier for the rule. The value cannot be longer than 255 characters.</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3HeadObjectRequest/ifMatch</TokenIdentifier>
+			<Abstract type="html">Return the object only if its entity tag (ETag) is the same as the one specified, otherwise return a 412 (precondition failed).</Abstract>
 			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *identifier</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *ifMatch</Declaration>
 			
 			
-			<Anchor>//api/name/identifier</Anchor>
+			<Anchor>//api/name/ifMatch</Anchor>
             <NodeRef refid="875"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSS3Rule/identifier</TokenIdentifier>
-			<Abstract type="html">Unique identifier for the rule. The value cannot be longer than 255 characters.</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSS3HeadObjectRequest/ifMatch</TokenIdentifier>
+			<Abstract type="html">Return the object only if its entity tag (ETag) is the same as the one specified, otherwise return a 412 (precondition failed).</Abstract>
 			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *identifier</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *ifMatch</Declaration>
 			
 			
-			<Anchor>//api/name/identifier</Anchor>
+			<Anchor>//api/name/ifMatch</Anchor>
             <NodeRef refid="875"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3Rule/setNoncurrentVersionExpiration:</TokenIdentifier>
-			<Abstract type="html">Specifies when noncurrent object versions expire. Upon expiration, Amazon S3 permanently deletes the noncurrent object versions. You set this lifecycle configuration action on a bucket that has versioning enabled (or suspended) to request that Amazon S3 delete noncurrent object versions at a specific period in the object&apos;s lifetime.</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3HeadObjectRequest/setIfModifiedSince:</TokenIdentifier>
+			<Abstract type="html">Return the object only if it has been modified since the specified time, otherwise return a 304 (not modified).</Abstract>
 			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) AWSS3NoncurrentVersionExpiration *noncurrentVersionExpiration</Declaration>
+			<Declaration>@property (nonatomic, strong) NSDate *ifModifiedSince</Declaration>
 			
 			
-			<Anchor>//api/name/noncurrentVersionExpiration</Anchor>
+			<Anchor>//api/name/ifModifiedSince</Anchor>
             <NodeRef refid="875"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3Rule/noncurrentVersionExpiration</TokenIdentifier>
-			<Abstract type="html">Specifies when noncurrent object versions expire. Upon expiration, Amazon S3 permanently deletes the noncurrent object versions. You set this lifecycle configuration action on a bucket that has versioning enabled (or suspended) to request that Amazon S3 delete noncurrent object versions at a specific period in the object&apos;s lifetime.</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3HeadObjectRequest/ifModifiedSince</TokenIdentifier>
+			<Abstract type="html">Return the object only if it has been modified since the specified time, otherwise return a 304 (not modified).</Abstract>
 			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) AWSS3NoncurrentVersionExpiration *noncurrentVersionExpiration</Declaration>
+			<Declaration>@property (nonatomic, strong) NSDate *ifModifiedSince</Declaration>
 			
 			
-			<Anchor>//api/name/noncurrentVersionExpiration</Anchor>
+			<Anchor>//api/name/ifModifiedSince</Anchor>
             <NodeRef refid="875"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSS3Rule/noncurrentVersionExpiration</TokenIdentifier>
-			<Abstract type="html">Specifies when noncurrent object versions expire. Upon expiration, Amazon S3 permanently deletes the noncurrent object versions. You set this lifecycle configuration action on a bucket that has versioning enabled (or suspended) to request that Amazon S3 delete noncurrent object versions at a specific period in the object&apos;s lifetime.</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSS3HeadObjectRequest/ifModifiedSince</TokenIdentifier>
+			<Abstract type="html">Return the object only if it has been modified since the specified time, otherwise return a 304 (not modified).</Abstract>
 			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) AWSS3NoncurrentVersionExpiration *noncurrentVersionExpiration</Declaration>
+			<Declaration>@property (nonatomic, strong) NSDate *ifModifiedSince</Declaration>
 			
 			
-			<Anchor>//api/name/noncurrentVersionExpiration</Anchor>
+			<Anchor>//api/name/ifModifiedSince</Anchor>
             <NodeRef refid="875"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3Rule/setNoncurrentVersionTransition:</TokenIdentifier>
-			<Abstract type="html">Container for the transition rule that describes when noncurrent objects transition to the GLACIER storage class. If your bucket is versioning-enabled (or versioning is suspended), you can set this action to request that Amazon S3 transition noncurrent object versions to the GLACIER storage class at a specific period in the object&apos;s lifetime.</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3HeadObjectRequest/setIfNoneMatch:</TokenIdentifier>
+			<Abstract type="html">Return the object only if its entity tag (ETag) is different from the one specified, otherwise return a 304 (not modified).</Abstract>
 			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) AWSS3NoncurrentVersionTransition *noncurrentVersionTransition</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *ifNoneMatch</Declaration>
 			
 			
-			<Anchor>//api/name/noncurrentVersionTransition</Anchor>
+			<Anchor>//api/name/ifNoneMatch</Anchor>
             <NodeRef refid="875"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3Rule/noncurrentVersionTransition</TokenIdentifier>
-			<Abstract type="html">Container for the transition rule that describes when noncurrent objects transition to the GLACIER storage class. If your bucket is versioning-enabled (or versioning is suspended), you can set this action to request that Amazon S3 transition noncurrent object versions to the GLACIER storage class at a specific period in the object&apos;s lifetime.</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3HeadObjectRequest/ifNoneMatch</TokenIdentifier>
+			<Abstract type="html">Return the object only if its entity tag (ETag) is different from the one specified, otherwise return a 304 (not modified).</Abstract>
 			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) AWSS3NoncurrentVersionTransition *noncurrentVersionTransition</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *ifNoneMatch</Declaration>
 			
 			
-			<Anchor>//api/name/noncurrentVersionTransition</Anchor>
+			<Anchor>//api/name/ifNoneMatch</Anchor>
             <NodeRef refid="875"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSS3Rule/noncurrentVersionTransition</TokenIdentifier>
-			<Abstract type="html">Container for the transition rule that describes when noncurrent objects transition to the GLACIER storage class. If your bucket is versioning-enabled (or versioning is suspended), you can set this action to request that Amazon S3 transition noncurrent object versions to the GLACIER storage class at a specific period in the object&apos;s lifetime.</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSS3HeadObjectRequest/ifNoneMatch</TokenIdentifier>
+			<Abstract type="html">Return the object only if its entity tag (ETag) is different from the one specified, otherwise return a 304 (not modified).</Abstract>
 			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) AWSS3NoncurrentVersionTransition *noncurrentVersionTransition</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *ifNoneMatch</Declaration>
 			
 			
-			<Anchor>//api/name/noncurrentVersionTransition</Anchor>
+			<Anchor>//api/name/ifNoneMatch</Anchor>
             <NodeRef refid="875"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3Rule/setPrefix:</TokenIdentifier>
-			<Abstract type="html">Prefix identifying one or more objects to which the rule applies.</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3HeadObjectRequest/setIfUnmodifiedSince:</TokenIdentifier>
+			<Abstract type="html">Return the object only if it has not been modified since the specified time, otherwise return a 412 (precondition failed).</Abstract>
 			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *prefix</Declaration>
+			<Declaration>@property (nonatomic, strong) NSDate *ifUnmodifiedSince</Declaration>
 			
 			
-			<Anchor>//api/name/prefix</Anchor>
+			<Anchor>//api/name/ifUnmodifiedSince</Anchor>
             <NodeRef refid="875"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3Rule/prefix</TokenIdentifier>
-			<Abstract type="html">Prefix identifying one or more objects to which the rule applies.</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3HeadObjectRequest/ifUnmodifiedSince</TokenIdentifier>
+			<Abstract type="html">Return the object only if it has not been modified since the specified time, otherwise return a 412 (precondition failed).</Abstract>
 			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *prefix</Declaration>
+			<Declaration>@property (nonatomic, strong) NSDate *ifUnmodifiedSince</Declaration>
 			
 			
-			<Anchor>//api/name/prefix</Anchor>
+			<Anchor>//api/name/ifUnmodifiedSince</Anchor>
             <NodeRef refid="875"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSS3Rule/prefix</TokenIdentifier>
-			<Abstract type="html">Prefix identifying one or more objects to which the rule applies.</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSS3HeadObjectRequest/ifUnmodifiedSince</TokenIdentifier>
+			<Abstract type="html">Return the object only if it has not been modified since the specified time, otherwise return a 412 (precondition failed).</Abstract>
 			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *prefix</Declaration>
+			<Declaration>@property (nonatomic, strong) NSDate *ifUnmodifiedSince</Declaration>
 			
 			
-			<Anchor>//api/name/prefix</Anchor>
+			<Anchor>//api/name/ifUnmodifiedSince</Anchor>
             <NodeRef refid="875"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3Rule/setStatus:</TokenIdentifier>
-			<Abstract type="html">If &apos;Enabled&apos;, the rule is currently being applied. If &apos;Disabled&apos;, the rule is not currently being applied.</Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, assign) AWSS3ExpirationStatus status</Declaration>
-			
-			
-			<Anchor>//api/name/status</Anchor>
-            <NodeRef refid="875"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3Rule/status</TokenIdentifier>
-			<Abstract type="html">If &apos;Enabled&apos;, the rule is currently being applied. If &apos;Disabled&apos;, the rule is not currently being applied.</Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, assign) AWSS3ExpirationStatus status</Declaration>
-			
-			
-			<Anchor>//api/name/status</Anchor>
-            <NodeRef refid="875"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSS3Rule/status</TokenIdentifier>
-			<Abstract type="html">If &apos;Enabled&apos;, the rule is currently being applied. If &apos;Disabled&apos;, the rule is not currently being applied.</Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, assign) AWSS3ExpirationStatus status</Declaration>
-			
-			
-			<Anchor>//api/name/status</Anchor>
-            <NodeRef refid="875"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3Rule/setTransition:</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3HeadObjectRequest/setKey:</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) AWSS3Transition *transition</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *key</Declaration>
 			
 			
-			<Anchor>//api/name/transition</Anchor>
+			<Anchor>//api/name/key</Anchor>
             <NodeRef refid="875"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3Rule/transition</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3HeadObjectRequest/key</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) AWSS3Transition *transition</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *key</Declaration>
 			
 			
-			<Anchor>//api/name/transition</Anchor>
+			<Anchor>//api/name/key</Anchor>
             <NodeRef refid="875"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSS3Rule/transition</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSS3HeadObjectRequest/key</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) AWSS3Transition *transition</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *key</Declaration>
 			
 			
-			<Anchor>//api/name/transition</Anchor>
+			<Anchor>//api/name/key</Anchor>
+            <NodeRef refid="875"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3HeadObjectRequest/setRange:</TokenIdentifier>
+			<Abstract type="html">Downloads the specified range bytes of an object. For more information about the HTTP Range header, go to http://www.w3.org/Protocols/rfc2616/rfc2616-sec14.html#sec14.35.</Abstract>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *range</Declaration>
+			
+			
+			<Anchor>//api/name/range</Anchor>
+            <NodeRef refid="875"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3HeadObjectRequest/range</TokenIdentifier>
+			<Abstract type="html">Downloads the specified range bytes of an object. For more information about the HTTP Range header, go to http://www.w3.org/Protocols/rfc2616/rfc2616-sec14.html#sec14.35.</Abstract>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *range</Declaration>
+			
+			
+			<Anchor>//api/name/range</Anchor>
+            <NodeRef refid="875"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSS3HeadObjectRequest/range</TokenIdentifier>
+			<Abstract type="html">Downloads the specified range bytes of an object. For more information about the HTTP Range header, go to http://www.w3.org/Protocols/rfc2616/rfc2616-sec14.html#sec14.35.</Abstract>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *range</Declaration>
+			
+			
+			<Anchor>//api/name/range</Anchor>
+            <NodeRef refid="875"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3HeadObjectRequest/setSSECustomerAlgorithm:</TokenIdentifier>
+			<Abstract type="html">Specifies the algorithm to use to when encrypting the object (e.g., AES256, aws:kms).</Abstract>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *SSECustomerAlgorithm</Declaration>
+			
+			
+			<Anchor>//api/name/SSECustomerAlgorithm</Anchor>
+            <NodeRef refid="875"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3HeadObjectRequest/SSECustomerAlgorithm</TokenIdentifier>
+			<Abstract type="html">Specifies the algorithm to use to when encrypting the object (e.g., AES256, aws:kms).</Abstract>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *SSECustomerAlgorithm</Declaration>
+			
+			
+			<Anchor>//api/name/SSECustomerAlgorithm</Anchor>
+            <NodeRef refid="875"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSS3HeadObjectRequest/SSECustomerAlgorithm</TokenIdentifier>
+			<Abstract type="html">Specifies the algorithm to use to when encrypting the object (e.g., AES256, aws:kms).</Abstract>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *SSECustomerAlgorithm</Declaration>
+			
+			
+			<Anchor>//api/name/SSECustomerAlgorithm</Anchor>
+            <NodeRef refid="875"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3HeadObjectRequest/setSSECustomerKey:</TokenIdentifier>
+			<Abstract type="html">Specifies the customer-provided encryption key for Amazon S3 to use in encrypting data. This value is used to store the object and then it is discarded; Amazon does not store the encryption key. The key must be appropriate for use with the algorithm specified in the x-amz-server-side&amp;amp;#x200B;-encryption&amp;amp;#x200B;-customer-algorithm header.</Abstract>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *SSECustomerKey</Declaration>
+			
+			
+			<Anchor>//api/name/SSECustomerKey</Anchor>
+            <NodeRef refid="875"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3HeadObjectRequest/SSECustomerKey</TokenIdentifier>
+			<Abstract type="html">Specifies the customer-provided encryption key for Amazon S3 to use in encrypting data. This value is used to store the object and then it is discarded; Amazon does not store the encryption key. The key must be appropriate for use with the algorithm specified in the x-amz-server-side&amp;amp;#x200B;-encryption&amp;amp;#x200B;-customer-algorithm header.</Abstract>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *SSECustomerKey</Declaration>
+			
+			
+			<Anchor>//api/name/SSECustomerKey</Anchor>
+            <NodeRef refid="875"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSS3HeadObjectRequest/SSECustomerKey</TokenIdentifier>
+			<Abstract type="html">Specifies the customer-provided encryption key for Amazon S3 to use in encrypting data. This value is used to store the object and then it is discarded; Amazon does not store the encryption key. The key must be appropriate for use with the algorithm specified in the x-amz-server-side&amp;amp;#x200B;-encryption&amp;amp;#x200B;-customer-algorithm header.</Abstract>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *SSECustomerKey</Declaration>
+			
+			
+			<Anchor>//api/name/SSECustomerKey</Anchor>
+            <NodeRef refid="875"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3HeadObjectRequest/setSSECustomerKeyMD5:</TokenIdentifier>
+			<Abstract type="html">Specifies the 128-bit MD5 digest of the encryption key according to RFC 1321. Amazon S3 uses this header for a message integrity check to ensure the encryption key was transmitted without error.</Abstract>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *SSECustomerKeyMD5</Declaration>
+			
+			
+			<Anchor>//api/name/SSECustomerKeyMD5</Anchor>
+            <NodeRef refid="875"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3HeadObjectRequest/SSECustomerKeyMD5</TokenIdentifier>
+			<Abstract type="html">Specifies the 128-bit MD5 digest of the encryption key according to RFC 1321. Amazon S3 uses this header for a message integrity check to ensure the encryption key was transmitted without error.</Abstract>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *SSECustomerKeyMD5</Declaration>
+			
+			
+			<Anchor>//api/name/SSECustomerKeyMD5</Anchor>
+            <NodeRef refid="875"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSS3HeadObjectRequest/SSECustomerKeyMD5</TokenIdentifier>
+			<Abstract type="html">Specifies the 128-bit MD5 digest of the encryption key according to RFC 1321. Amazon S3 uses this header for a message integrity check to ensure the encryption key was transmitted without error.</Abstract>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *SSECustomerKeyMD5</Declaration>
+			
+			
+			<Anchor>//api/name/SSECustomerKeyMD5</Anchor>
+            <NodeRef refid="875"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3HeadObjectRequest/setVersionId:</TokenIdentifier>
+			<Abstract type="html">VersionId used to reference a specific version of the object.</Abstract>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *versionId</Declaration>
+			
+			
+			<Anchor>//api/name/versionId</Anchor>
+            <NodeRef refid="875"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3HeadObjectRequest/versionId</TokenIdentifier>
+			<Abstract type="html">VersionId used to reference a specific version of the object.</Abstract>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *versionId</Declaration>
+			
+			
+			<Anchor>//api/name/versionId</Anchor>
+            <NodeRef refid="875"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSS3HeadObjectRequest/versionId</TokenIdentifier>
+			<Abstract type="html">VersionId used to reference a specific version of the object.</Abstract>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *versionId</Declaration>
+			
+			
+			<Anchor>//api/name/versionId</Anchor>
             <NodeRef refid="875"/>
 		</Token>
 		

@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSS3CreateBucketConfiguration.html">
+	<File path="Classes/AWSLambdaGetFunctionRequest.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSS3CreateBucketConfiguration</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSLambdaGetFunctionRequest</TokenIdentifier>
 			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			<DeclaredIn>AWSLambdaModel.h</DeclaredIn>
             
 			
 			<NodeRef refid="772"/>
@@ -13,38 +13,38 @@
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3CreateBucketConfiguration/setLocationConstraint:</TokenIdentifier>
-			<Abstract type="html">Specifies the region where the bucket will be created.</Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSLambdaGetFunctionRequest/setFunctionName:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The Lambda function name. &lt;/p&gt;&lt;p&gt; You can specify an unqualified function name (for example, &quot;Thumbnail&quot;) or you can specify Amazon Resource Name (ARN) of the function (for example, &quot;arn:aws:lambda:us-west-2:account-id:function:ThumbNail&quot;). AWS Lambda also allows you to specify only the account ID qualifier (for example, &quot;account-id:Thumbnail&quot;). Note that the length constraint applies only to the ARN. If you specify only the function name, it is limited to 64 character in length. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSLambdaModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, assign) AWSS3BucketLocationConstraint locationConstraint</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *functionName</Declaration>
 			
 			
-			<Anchor>//api/name/locationConstraint</Anchor>
+			<Anchor>//api/name/functionName</Anchor>
             <NodeRef refid="772"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3CreateBucketConfiguration/locationConstraint</TokenIdentifier>
-			<Abstract type="html">Specifies the region where the bucket will be created.</Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSLambdaGetFunctionRequest/functionName</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The Lambda function name. &lt;/p&gt;&lt;p&gt; You can specify an unqualified function name (for example, &quot;Thumbnail&quot;) or you can specify Amazon Resource Name (ARN) of the function (for example, &quot;arn:aws:lambda:us-west-2:account-id:function:ThumbNail&quot;). AWS Lambda also allows you to specify only the account ID qualifier (for example, &quot;account-id:Thumbnail&quot;). Note that the length constraint applies only to the ARN. If you specify only the function name, it is limited to 64 character in length. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSLambdaModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, assign) AWSS3BucketLocationConstraint locationConstraint</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *functionName</Declaration>
 			
 			
-			<Anchor>//api/name/locationConstraint</Anchor>
+			<Anchor>//api/name/functionName</Anchor>
             <NodeRef refid="772"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSS3CreateBucketConfiguration/locationConstraint</TokenIdentifier>
-			<Abstract type="html">Specifies the region where the bucket will be created.</Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSLambdaGetFunctionRequest/functionName</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The Lambda function name. &lt;/p&gt;&lt;p&gt; You can specify an unqualified function name (for example, &quot;Thumbnail&quot;) or you can specify Amazon Resource Name (ARN) of the function (for example, &quot;arn:aws:lambda:us-west-2:account-id:function:ThumbNail&quot;). AWS Lambda also allows you to specify only the account ID qualifier (for example, &quot;account-id:Thumbnail&quot;). Note that the length constraint applies only to the ARN. If you specify only the function name, it is limited to 64 character in length. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSLambdaModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, assign) AWSS3BucketLocationConstraint locationConstraint</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *functionName</Declaration>
 			
 			
-			<Anchor>//api/name/locationConstraint</Anchor>
+			<Anchor>//api/name/functionName</Anchor>
             <NodeRef refid="772"/>
 		</Token>
 		

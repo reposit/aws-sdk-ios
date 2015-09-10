@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Constants/AWSS3ObjectStorageClass.html">
+	<File path="Constants/AWSEC2RuleAction.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/c/tdef/AWSS3ObjectStorageClass</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/c/tdef/AWSEC2RuleAction</TokenIdentifier>
 			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
             
 			
 			<NodeRef refid="1205"/>
@@ -14,41 +14,31 @@
 		
         
         <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSS3ObjectStorageClassUnknown</TokenIdentifier>
+            <TokenIdentifier>//apple_ref/c/econst/AWSEC2RuleActionUnknown</TokenIdentifier>
             <Abstract type="html"></Abstract>
-            <Declaration>AWSS3ObjectStorageClassUnknown</Declaration>
+            <Declaration>AWSEC2RuleActionUnknown</Declaration>
             
-            <DeclaredIn>AWSS3Model.h</DeclaredIn>
+            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
             
             <NodeRef refid="1205"/>
         </Token>
         
         <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSS3ObjectStorageClassStandard</TokenIdentifier>
+            <TokenIdentifier>//apple_ref/c/econst/AWSEC2RuleActionAllow</TokenIdentifier>
             <Abstract type="html"></Abstract>
-            <Declaration>AWSS3ObjectStorageClassStandard</Declaration>
+            <Declaration>AWSEC2RuleActionAllow</Declaration>
             
-            <DeclaredIn>AWSS3Model.h</DeclaredIn>
+            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
             
             <NodeRef refid="1205"/>
         </Token>
         
         <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSS3ObjectStorageClassReducedRedundancy</TokenIdentifier>
+            <TokenIdentifier>//apple_ref/c/econst/AWSEC2RuleActionDeny</TokenIdentifier>
             <Abstract type="html"></Abstract>
-            <Declaration>AWSS3ObjectStorageClassReducedRedundancy</Declaration>
+            <Declaration>AWSEC2RuleActionDeny</Declaration>
             
-            <DeclaredIn>AWSS3Model.h</DeclaredIn>
-            
-            <NodeRef refid="1205"/>
-        </Token>
-        
-        <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSS3ObjectStorageClassGlacier</TokenIdentifier>
-            <Abstract type="html"></Abstract>
-            <Declaration>AWSS3ObjectStorageClassGlacier</Declaration>
-            
-            <DeclaredIn>AWSS3Model.h</DeclaredIn>
+            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
             
             <NodeRef refid="1205"/>
         </Token>

@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSEC2Snapshot.html">
+	<File path="Classes/AWSEC2ReservedInstancesConfiguration.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSEC2Snapshot</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Describes a snapshot.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSEC2ReservedInstancesConfiguration</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Describes the configuration settings for the modified Reserved Instances.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
             
 			
@@ -13,434 +13,146 @@
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2Snapshot/setDetail:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The description for the snapshot.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ReservedInstancesConfiguration/setAvailabilityZone:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The Availability Zone for the modified Reserved Instances.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *detail</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *availabilityZone</Declaration>
 			
 			
-			<Anchor>//api/name/detail</Anchor>
+			<Anchor>//api/name/availabilityZone</Anchor>
             <NodeRef refid="585"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2Snapshot/detail</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The description for the snapshot.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ReservedInstancesConfiguration/availabilityZone</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The Availability Zone for the modified Reserved Instances.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *detail</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *availabilityZone</Declaration>
 			
 			
-			<Anchor>//api/name/detail</Anchor>
+			<Anchor>//api/name/availabilityZone</Anchor>
             <NodeRef refid="585"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2Snapshot/detail</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The description for the snapshot.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2ReservedInstancesConfiguration/availabilityZone</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The Availability Zone for the modified Reserved Instances.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *detail</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *availabilityZone</Declaration>
 			
 			
-			<Anchor>//api/name/detail</Anchor>
+			<Anchor>//api/name/availabilityZone</Anchor>
             <NodeRef refid="585"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2Snapshot/setEncrypted:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Indicates whether the snapshot is encrypted.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ReservedInstancesConfiguration/setInstanceCount:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The number of modified Reserved Instances.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSNumber *encrypted</Declaration>
+			<Declaration>@property (nonatomic, strong) NSNumber *instanceCount</Declaration>
 			
 			
-			<Anchor>//api/name/encrypted</Anchor>
+			<Anchor>//api/name/instanceCount</Anchor>
             <NodeRef refid="585"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2Snapshot/encrypted</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Indicates whether the snapshot is encrypted.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ReservedInstancesConfiguration/instanceCount</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The number of modified Reserved Instances.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSNumber *encrypted</Declaration>
+			<Declaration>@property (nonatomic, strong) NSNumber *instanceCount</Declaration>
 			
 			
-			<Anchor>//api/name/encrypted</Anchor>
+			<Anchor>//api/name/instanceCount</Anchor>
             <NodeRef refid="585"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2Snapshot/encrypted</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Indicates whether the snapshot is encrypted.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2ReservedInstancesConfiguration/instanceCount</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The number of modified Reserved Instances.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSNumber *encrypted</Declaration>
+			<Declaration>@property (nonatomic, strong) NSNumber *instanceCount</Declaration>
 			
 			
-			<Anchor>//api/name/encrypted</Anchor>
+			<Anchor>//api/name/instanceCount</Anchor>
             <NodeRef refid="585"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2Snapshot/setKmsKeyId:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The full ARN of the AWS Key Management Service (KMS) master key that was used to protect the volume encryption key for the parent volume.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ReservedInstancesConfiguration/setInstanceType:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The instance type for the modified Reserved Instances.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *kmsKeyId</Declaration>
+			<Declaration>@property (nonatomic, assign) AWSEC2InstanceType instanceType</Declaration>
 			
 			
-			<Anchor>//api/name/kmsKeyId</Anchor>
+			<Anchor>//api/name/instanceType</Anchor>
             <NodeRef refid="585"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2Snapshot/kmsKeyId</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The full ARN of the AWS Key Management Service (KMS) master key that was used to protect the volume encryption key for the parent volume.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ReservedInstancesConfiguration/instanceType</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The instance type for the modified Reserved Instances.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *kmsKeyId</Declaration>
+			<Declaration>@property (nonatomic, assign) AWSEC2InstanceType instanceType</Declaration>
 			
 			
-			<Anchor>//api/name/kmsKeyId</Anchor>
+			<Anchor>//api/name/instanceType</Anchor>
             <NodeRef refid="585"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2Snapshot/kmsKeyId</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The full ARN of the AWS Key Management Service (KMS) master key that was used to protect the volume encryption key for the parent volume.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2ReservedInstancesConfiguration/instanceType</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The instance type for the modified Reserved Instances.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *kmsKeyId</Declaration>
+			<Declaration>@property (nonatomic, assign) AWSEC2InstanceType instanceType</Declaration>
 			
 			
-			<Anchor>//api/name/kmsKeyId</Anchor>
+			<Anchor>//api/name/instanceType</Anchor>
             <NodeRef refid="585"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2Snapshot/setOwnerAlias:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The AWS account alias (for example, &lt;code&gt;amazon&lt;/code&gt;, &lt;code&gt;self&lt;/code&gt;) or AWS account ID that owns the snapshot.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ReservedInstancesConfiguration/setPlatform:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The network platform of the modified Reserved Instances, which is either EC2-Classic or EC2-VPC.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *ownerAlias</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *platform</Declaration>
 			
 			
-			<Anchor>//api/name/ownerAlias</Anchor>
+			<Anchor>//api/name/platform</Anchor>
             <NodeRef refid="585"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2Snapshot/ownerAlias</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The AWS account alias (for example, &lt;code&gt;amazon&lt;/code&gt;, &lt;code&gt;self&lt;/code&gt;) or AWS account ID that owns the snapshot.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ReservedInstancesConfiguration/platform</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The network platform of the modified Reserved Instances, which is either EC2-Classic or EC2-VPC.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *ownerAlias</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *platform</Declaration>
 			
 			
-			<Anchor>//api/name/ownerAlias</Anchor>
+			<Anchor>//api/name/platform</Anchor>
             <NodeRef refid="585"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2Snapshot/ownerAlias</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The AWS account alias (for example, &lt;code&gt;amazon&lt;/code&gt;, &lt;code&gt;self&lt;/code&gt;) or AWS account ID that owns the snapshot.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2ReservedInstancesConfiguration/platform</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The network platform of the modified Reserved Instances, which is either EC2-Classic or EC2-VPC.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *ownerAlias</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *platform</Declaration>
 			
 			
-			<Anchor>//api/name/ownerAlias</Anchor>
-            <NodeRef refid="585"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2Snapshot/setOwnerId:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The AWS account ID of the Amazon EBS snapshot owner.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *ownerId</Declaration>
-			
-			
-			<Anchor>//api/name/ownerId</Anchor>
-            <NodeRef refid="585"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2Snapshot/ownerId</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The AWS account ID of the Amazon EBS snapshot owner.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *ownerId</Declaration>
-			
-			
-			<Anchor>//api/name/ownerId</Anchor>
-            <NodeRef refid="585"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2Snapshot/ownerId</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The AWS account ID of the Amazon EBS snapshot owner.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *ownerId</Declaration>
-			
-			
-			<Anchor>//api/name/ownerId</Anchor>
-            <NodeRef refid="585"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2Snapshot/setProgress:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The progress of the snapshot, as a percentage.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *progress</Declaration>
-			
-			
-			<Anchor>//api/name/progress</Anchor>
-            <NodeRef refid="585"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2Snapshot/progress</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The progress of the snapshot, as a percentage.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *progress</Declaration>
-			
-			
-			<Anchor>//api/name/progress</Anchor>
-            <NodeRef refid="585"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2Snapshot/progress</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The progress of the snapshot, as a percentage.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *progress</Declaration>
-			
-			
-			<Anchor>//api/name/progress</Anchor>
-            <NodeRef refid="585"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2Snapshot/setSnapshotId:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The ID of the snapshot.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *snapshotId</Declaration>
-			
-			
-			<Anchor>//api/name/snapshotId</Anchor>
-            <NodeRef refid="585"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2Snapshot/snapshotId</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The ID of the snapshot.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *snapshotId</Declaration>
-			
-			
-			<Anchor>//api/name/snapshotId</Anchor>
-            <NodeRef refid="585"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2Snapshot/snapshotId</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The ID of the snapshot.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *snapshotId</Declaration>
-			
-			
-			<Anchor>//api/name/snapshotId</Anchor>
-            <NodeRef refid="585"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2Snapshot/setStartTime:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The time stamp when the snapshot was initiated.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSDate *startTime</Declaration>
-			
-			
-			<Anchor>//api/name/startTime</Anchor>
-            <NodeRef refid="585"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2Snapshot/startTime</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The time stamp when the snapshot was initiated.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSDate *startTime</Declaration>
-			
-			
-			<Anchor>//api/name/startTime</Anchor>
-            <NodeRef refid="585"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2Snapshot/startTime</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The time stamp when the snapshot was initiated.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSDate *startTime</Declaration>
-			
-			
-			<Anchor>//api/name/startTime</Anchor>
-            <NodeRef refid="585"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2Snapshot/setState:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The snapshot state.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, assign) AWSEC2SnapshotState state</Declaration>
-			
-			
-			<Anchor>//api/name/state</Anchor>
-            <NodeRef refid="585"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2Snapshot/state</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The snapshot state.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, assign) AWSEC2SnapshotState state</Declaration>
-			
-			
-			<Anchor>//api/name/state</Anchor>
-            <NodeRef refid="585"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2Snapshot/state</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The snapshot state.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, assign) AWSEC2SnapshotState state</Declaration>
-			
-			
-			<Anchor>//api/name/state</Anchor>
-            <NodeRef refid="585"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2Snapshot/setTags:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Any tags assigned to the snapshot.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSArray *tags</Declaration>
-			
-			
-			<Anchor>//api/name/tags</Anchor>
-            <NodeRef refid="585"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2Snapshot/tags</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Any tags assigned to the snapshot.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSArray *tags</Declaration>
-			
-			
-			<Anchor>//api/name/tags</Anchor>
-            <NodeRef refid="585"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2Snapshot/tags</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Any tags assigned to the snapshot.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSArray *tags</Declaration>
-			
-			
-			<Anchor>//api/name/tags</Anchor>
-            <NodeRef refid="585"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2Snapshot/setVolumeId:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The ID of the volume.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *volumeId</Declaration>
-			
-			
-			<Anchor>//api/name/volumeId</Anchor>
-            <NodeRef refid="585"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2Snapshot/volumeId</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The ID of the volume.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *volumeId</Declaration>
-			
-			
-			<Anchor>//api/name/volumeId</Anchor>
-            <NodeRef refid="585"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2Snapshot/volumeId</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The ID of the volume.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *volumeId</Declaration>
-			
-			
-			<Anchor>//api/name/volumeId</Anchor>
-            <NodeRef refid="585"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2Snapshot/setVolumeSize:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The size of the volume, in GiB.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSNumber *volumeSize</Declaration>
-			
-			
-			<Anchor>//api/name/volumeSize</Anchor>
-            <NodeRef refid="585"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2Snapshot/volumeSize</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The size of the volume, in GiB.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSNumber *volumeSize</Declaration>
-			
-			
-			<Anchor>//api/name/volumeSize</Anchor>
-            <NodeRef refid="585"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2Snapshot/volumeSize</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The size of the volume, in GiB.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSNumber *volumeSize</Declaration>
-			
-			
-			<Anchor>//api/name/volumeSize</Anchor>
+			<Anchor>//api/name/platform</Anchor>
             <NodeRef refid="585"/>
 		</Token>
 		

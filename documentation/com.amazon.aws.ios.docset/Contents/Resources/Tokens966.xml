@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSSNSPublishResponse.html">
+	<File path="Classes/AWSSESListVerifiedEmailAddressesResponse.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSSNSPublishResponse</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Response for Publish action.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSNSModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSSESListVerifiedEmailAddressesResponse</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Represents a list of all the email addresses verified for the current user.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSESModel.h</DeclaredIn>
             
 			
 			<NodeRef refid="966"/>
@@ -13,38 +13,38 @@
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSSNSPublishResponse/setMessageId:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Unique identifier assigned to the published message.&lt;/p&gt;&lt;p&gt;Length Constraint: Maximum 100 characters&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSNSModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSESListVerifiedEmailAddressesResponse/setVerifiedEmailAddresses:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;A list of email addresses that have been verified.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSESModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *messageId</Declaration>
+			<Declaration>@property (nonatomic, strong) NSArray *verifiedEmailAddresses</Declaration>
 			
 			
-			<Anchor>//api/name/messageId</Anchor>
+			<Anchor>//api/name/verifiedEmailAddresses</Anchor>
             <NodeRef refid="966"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSSNSPublishResponse/messageId</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Unique identifier assigned to the published message.&lt;/p&gt;&lt;p&gt;Length Constraint: Maximum 100 characters&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSNSModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSESListVerifiedEmailAddressesResponse/verifiedEmailAddresses</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;A list of email addresses that have been verified.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSESModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *messageId</Declaration>
+			<Declaration>@property (nonatomic, strong) NSArray *verifiedEmailAddresses</Declaration>
 			
 			
-			<Anchor>//api/name/messageId</Anchor>
+			<Anchor>//api/name/verifiedEmailAddresses</Anchor>
             <NodeRef refid="966"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSSNSPublishResponse/messageId</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Unique identifier assigned to the published message.&lt;/p&gt;&lt;p&gt;Length Constraint: Maximum 100 characters&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSNSModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSSESListVerifiedEmailAddressesResponse/verifiedEmailAddresses</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;A list of email addresses that have been verified.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSESModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *messageId</Declaration>
+			<Declaration>@property (nonatomic, strong) NSArray *verifiedEmailAddresses</Declaration>
 			
 			
-			<Anchor>//api/name/messageId</Anchor>
+			<Anchor>//api/name/verifiedEmailAddresses</Anchor>
             <NodeRef refid="966"/>
 		</Token>
 		

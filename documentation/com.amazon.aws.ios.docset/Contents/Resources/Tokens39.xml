@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSAutoScalingDescribeScalingActivitiesType.html">
+	<File path="Classes/AWSAutoScalingDescribePoliciesType.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSAutoScalingDescribeScalingActivitiesType</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSAutoScalingDescribePoliciesType</TokenIdentifier>
+			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
             
 			
@@ -13,44 +13,8 @@
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingDescribeScalingActivitiesType/setActivityIds:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt; A list containing the activity IDs of the desired scaling activities. If this list is omitted, all activities are described. If an &lt;code&gt;AutoScalingGroupName&lt;/code&gt; is provided, the results are limited to that group. The list of requested activities cannot contain more than 50 items. If unknown activities are requested, they are ignored with no error. &lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSArray *activityIds</Declaration>
-			
-			
-			<Anchor>//api/name/activityIds</Anchor>
-            <NodeRef refid="39"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingDescribeScalingActivitiesType/activityIds</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt; A list containing the activity IDs of the desired scaling activities. If this list is omitted, all activities are described. If an &lt;code&gt;AutoScalingGroupName&lt;/code&gt; is provided, the results are limited to that group. The list of requested activities cannot contain more than 50 items. If unknown activities are requested, they are ignored with no error. &lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSArray *activityIds</Declaration>
-			
-			
-			<Anchor>//api/name/activityIds</Anchor>
-            <NodeRef refid="39"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSAutoScalingDescribeScalingActivitiesType/activityIds</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt; A list containing the activity IDs of the desired scaling activities. If this list is omitted, all activities are described. If an &lt;code&gt;AutoScalingGroupName&lt;/code&gt; is provided, the results are limited to that group. The list of requested activities cannot contain more than 50 items. If unknown activities are requested, they are ignored with no error. &lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSArray *activityIds</Declaration>
-			
-			
-			<Anchor>//api/name/activityIds</Anchor>
-            <NodeRef refid="39"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingDescribeScalingActivitiesType/setAutoScalingGroupName:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt; The name of the &lt;a&gt;AutoScalingGroup&lt;/a&gt;. &lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingDescribePoliciesType/setAutoScalingGroupName:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; The name of the Auto Scaling group. &lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
 			
 			<Declaration>@property (nonatomic, strong) NSString *autoScalingGroupName</Declaration>
@@ -61,8 +25,8 @@
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingDescribeScalingActivitiesType/autoScalingGroupName</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt; The name of the &lt;a&gt;AutoScalingGroup&lt;/a&gt;. &lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingDescribePoliciesType/autoScalingGroupName</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; The name of the Auto Scaling group. &lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
 			
 			<Declaration>@property (nonatomic, strong) NSString *autoScalingGroupName</Declaration>
@@ -73,8 +37,8 @@
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSAutoScalingDescribeScalingActivitiesType/autoScalingGroupName</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt; The name of the &lt;a&gt;AutoScalingGroup&lt;/a&gt;. &lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSAutoScalingDescribePoliciesType/autoScalingGroupName</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; The name of the Auto Scaling group. &lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
 			
 			<Declaration>@property (nonatomic, strong) NSString *autoScalingGroupName</Declaration>
@@ -85,8 +49,8 @@
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingDescribeScalingActivitiesType/setMaxRecords:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt; The maximum number of scaling activities to return. &lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingDescribePoliciesType/setMaxRecords:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; The maximum number of policies that will be described with each call. &lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
 			
 			<Declaration>@property (nonatomic, strong) NSNumber *maxRecords</Declaration>
@@ -97,8 +61,8 @@
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingDescribeScalingActivitiesType/maxRecords</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt; The maximum number of scaling activities to return. &lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingDescribePoliciesType/maxRecords</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; The maximum number of policies that will be described with each call. &lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
 			
 			<Declaration>@property (nonatomic, strong) NSNumber *maxRecords</Declaration>
@@ -109,8 +73,8 @@
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSAutoScalingDescribeScalingActivitiesType/maxRecords</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt; The maximum number of scaling activities to return. &lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSAutoScalingDescribePoliciesType/maxRecords</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; The maximum number of policies that will be described with each call. &lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
 			
 			<Declaration>@property (nonatomic, strong) NSNumber *maxRecords</Declaration>
@@ -121,8 +85,8 @@
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingDescribeScalingActivitiesType/setNextToken:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt; A string that marks the start of the next batch of returned results for pagination. &lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingDescribePoliciesType/setNextToken:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; A string that is used to mark the start of the next batch of returned results for pagination. &lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
 			
 			<Declaration>@property (nonatomic, strong) NSString *nextToken</Declaration>
@@ -133,8 +97,8 @@
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingDescribeScalingActivitiesType/nextToken</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt; A string that marks the start of the next batch of returned results for pagination. &lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingDescribePoliciesType/nextToken</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; A string that is used to mark the start of the next batch of returned results for pagination. &lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
 			
 			<Declaration>@property (nonatomic, strong) NSString *nextToken</Declaration>
@@ -145,14 +109,50 @@
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSAutoScalingDescribeScalingActivitiesType/nextToken</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt; A string that marks the start of the next batch of returned results for pagination. &lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSAutoScalingDescribePoliciesType/nextToken</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; A string that is used to mark the start of the next batch of returned results for pagination. &lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
 			
 			<Declaration>@property (nonatomic, strong) NSString *nextToken</Declaration>
 			
 			
 			<Anchor>//api/name/nextToken</Anchor>
+            <NodeRef refid="39"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingDescribePoliciesType/setPolicyNames:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; A list of policy names or policy ARNs to be described. If this list is omitted, all policy names are described. If an auto scaling group name is provided, the results are limited to that group. The list of requested policy names cannot contain more than 50 items. If unknown policy names are requested, they are ignored with no error. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray *policyNames</Declaration>
+			
+			
+			<Anchor>//api/name/policyNames</Anchor>
+            <NodeRef refid="39"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingDescribePoliciesType/policyNames</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; A list of policy names or policy ARNs to be described. If this list is omitted, all policy names are described. If an auto scaling group name is provided, the results are limited to that group. The list of requested policy names cannot contain more than 50 items. If unknown policy names are requested, they are ignored with no error. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray *policyNames</Declaration>
+			
+			
+			<Anchor>//api/name/policyNames</Anchor>
+            <NodeRef refid="39"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSAutoScalingDescribePoliciesType/policyNames</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt; A list of policy names or policy ARNs to be described. If this list is omitted, all policy names are described. If an auto scaling group name is provided, the results are limited to that group. The list of requested policy names cannot contain more than 50 items. If unknown policy names are requested, they are ignored with no error. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray *policyNames</Declaration>
+			
+			
+			<Anchor>//api/name/policyNames</Anchor>
             <NodeRef refid="39"/>
 		</Token>
 		

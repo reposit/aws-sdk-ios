@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSEC2ModifyNetworkInterfaceAttributeRequest.html">
+	<File path="Classes/AWSEC2InstanceNetworkInterfaceSpecification.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSEC2ModifyNetworkInterfaceAttributeRequest</TokenIdentifier>
-			<Abstract type="html"></Abstract>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSEC2InstanceNetworkInterfaceSpecification</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Describes a network interface.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
             
 			
@@ -13,47 +13,83 @@
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ModifyNetworkInterfaceAttributeRequest/setAttachment:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Information about the interface attachment. If modifying the &apos;delete on termination&apos; attribute, you must specify the ID of the interface attachment.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2InstanceNetworkInterfaceSpecification/setAssociatePublicIpAddress:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Indicates whether to assign a public IP address to an instance you launch in a VPC. The public IP address can only be assigned to a network interface for eth0, and can only be assigned to a new network interface, not an existing one. You cannot specify more than one network interface in the request. If luanching into a default subnet, the default value is &lt;code&gt;true&lt;/code&gt;.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) AWSEC2NetworkInterfaceAttachmentChanges *attachment</Declaration>
+			<Declaration>@property (nonatomic, strong) NSNumber *associatePublicIpAddress</Declaration>
 			
 			
-			<Anchor>//api/name/attachment</Anchor>
+			<Anchor>//api/name/associatePublicIpAddress</Anchor>
             <NodeRef refid="511"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ModifyNetworkInterfaceAttributeRequest/attachment</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Information about the interface attachment. If modifying the &apos;delete on termination&apos; attribute, you must specify the ID of the interface attachment.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2InstanceNetworkInterfaceSpecification/associatePublicIpAddress</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Indicates whether to assign a public IP address to an instance you launch in a VPC. The public IP address can only be assigned to a network interface for eth0, and can only be assigned to a new network interface, not an existing one. You cannot specify more than one network interface in the request. If luanching into a default subnet, the default value is &lt;code&gt;true&lt;/code&gt;.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) AWSEC2NetworkInterfaceAttachmentChanges *attachment</Declaration>
+			<Declaration>@property (nonatomic, strong) NSNumber *associatePublicIpAddress</Declaration>
 			
 			
-			<Anchor>//api/name/attachment</Anchor>
+			<Anchor>//api/name/associatePublicIpAddress</Anchor>
             <NodeRef refid="511"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2ModifyNetworkInterfaceAttributeRequest/attachment</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Information about the interface attachment. If modifying the &apos;delete on termination&apos; attribute, you must specify the ID of the interface attachment.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2InstanceNetworkInterfaceSpecification/associatePublicIpAddress</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Indicates whether to assign a public IP address to an instance you launch in a VPC. The public IP address can only be assigned to a network interface for eth0, and can only be assigned to a new network interface, not an existing one. You cannot specify more than one network interface in the request. If luanching into a default subnet, the default value is &lt;code&gt;true&lt;/code&gt;.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) AWSEC2NetworkInterfaceAttachmentChanges *attachment</Declaration>
+			<Declaration>@property (nonatomic, strong) NSNumber *associatePublicIpAddress</Declaration>
 			
 			
-			<Anchor>//api/name/attachment</Anchor>
+			<Anchor>//api/name/associatePublicIpAddress</Anchor>
             <NodeRef refid="511"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ModifyNetworkInterfaceAttributeRequest/setDetail:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;A description for the network interface.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2InstanceNetworkInterfaceSpecification/setDeleteOnTermination:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;If set to &lt;code&gt;true&lt;/code&gt;, the interface is deleted when the instance is terminated. You can specify &lt;code&gt;true&lt;/code&gt; only if creating a new network interface when launching an instance.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) AWSEC2AttributeValue *detail</Declaration>
+			<Declaration>@property (nonatomic, strong) NSNumber *deleteOnTermination</Declaration>
+			
+			
+			<Anchor>//api/name/deleteOnTermination</Anchor>
+            <NodeRef refid="511"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2InstanceNetworkInterfaceSpecification/deleteOnTermination</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;If set to &lt;code&gt;true&lt;/code&gt;, the interface is deleted when the instance is terminated. You can specify &lt;code&gt;true&lt;/code&gt; only if creating a new network interface when launching an instance.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *deleteOnTermination</Declaration>
+			
+			
+			<Anchor>//api/name/deleteOnTermination</Anchor>
+            <NodeRef refid="511"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2InstanceNetworkInterfaceSpecification/deleteOnTermination</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;If set to &lt;code&gt;true&lt;/code&gt;, the interface is deleted when the instance is terminated. You can specify &lt;code&gt;true&lt;/code&gt; only if creating a new network interface when launching an instance.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *deleteOnTermination</Declaration>
+			
+			
+			<Anchor>//api/name/deleteOnTermination</Anchor>
+            <NodeRef refid="511"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2InstanceNetworkInterfaceSpecification/setDetail:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The description of the network interface. Applies only if creating a network interface when launching an instance.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *detail</Declaration>
 			
 			
 			<Anchor>//api/name/detail</Anchor>
@@ -61,11 +97,11 @@
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ModifyNetworkInterfaceAttributeRequest/detail</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;A description for the network interface.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2InstanceNetworkInterfaceSpecification/detail</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The description of the network interface. Applies only if creating a network interface when launching an instance.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) AWSEC2AttributeValue *detail</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *detail</Declaration>
 			
 			
 			<Anchor>//api/name/detail</Anchor>
@@ -73,11 +109,11 @@
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2ModifyNetworkInterfaceAttributeRequest/detail</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;A description for the network interface.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2InstanceNetworkInterfaceSpecification/detail</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The description of the network interface. Applies only if creating a network interface when launching an instance.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) AWSEC2AttributeValue *detail</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *detail</Declaration>
 			
 			
 			<Anchor>//api/name/detail</Anchor>
@@ -85,44 +121,44 @@
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ModifyNetworkInterfaceAttributeRequest/setDryRun:</TokenIdentifier>
-			<Abstract type="html"></Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2InstanceNetworkInterfaceSpecification/setDeviceIndex:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The index of the device on the instance for the network interface attachment. If you are specifying a network interface in a &lt;a&gt;RunInstances&lt;/a&gt; request, you must provide the device index.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSNumber *dryRun</Declaration>
+			<Declaration>@property (nonatomic, strong) NSNumber *deviceIndex</Declaration>
 			
 			
-			<Anchor>//api/name/dryRun</Anchor>
+			<Anchor>//api/name/deviceIndex</Anchor>
             <NodeRef refid="511"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ModifyNetworkInterfaceAttributeRequest/dryRun</TokenIdentifier>
-			<Abstract type="html"></Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2InstanceNetworkInterfaceSpecification/deviceIndex</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The index of the device on the instance for the network interface attachment. If you are specifying a network interface in a &lt;a&gt;RunInstances&lt;/a&gt; request, you must provide the device index.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSNumber *dryRun</Declaration>
+			<Declaration>@property (nonatomic, strong) NSNumber *deviceIndex</Declaration>
 			
 			
-			<Anchor>//api/name/dryRun</Anchor>
+			<Anchor>//api/name/deviceIndex</Anchor>
             <NodeRef refid="511"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2ModifyNetworkInterfaceAttributeRequest/dryRun</TokenIdentifier>
-			<Abstract type="html"></Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2InstanceNetworkInterfaceSpecification/deviceIndex</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The index of the device on the instance for the network interface attachment. If you are specifying a network interface in a &lt;a&gt;RunInstances&lt;/a&gt; request, you must provide the device index.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSNumber *dryRun</Declaration>
+			<Declaration>@property (nonatomic, strong) NSNumber *deviceIndex</Declaration>
 			
 			
-			<Anchor>//api/name/dryRun</Anchor>
+			<Anchor>//api/name/deviceIndex</Anchor>
             <NodeRef refid="511"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ModifyNetworkInterfaceAttributeRequest/setGroups:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Changes the security groups for the network interface. The new set of groups you specify replaces the current set. You must specify at least one group, even if it&apos;s just the default security group in the VPC. You must specify the ID of the security group, not the name.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2InstanceNetworkInterfaceSpecification/setGroups:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The IDs of the security groups for the network interface. Applies only if creating a network interface when launching an instance.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
 			<Declaration>@property (nonatomic, strong) NSArray *groups</Declaration>
@@ -133,8 +169,8 @@
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ModifyNetworkInterfaceAttributeRequest/groups</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Changes the security groups for the network interface. The new set of groups you specify replaces the current set. You must specify at least one group, even if it&apos;s just the default security group in the VPC. You must specify the ID of the security group, not the name.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2InstanceNetworkInterfaceSpecification/groups</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The IDs of the security groups for the network interface. Applies only if creating a network interface when launching an instance.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
 			<Declaration>@property (nonatomic, strong) NSArray *groups</Declaration>
@@ -145,8 +181,8 @@
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2ModifyNetworkInterfaceAttributeRequest/groups</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Changes the security groups for the network interface. The new set of groups you specify replaces the current set. You must specify at least one group, even if it&apos;s just the default security group in the VPC. You must specify the ID of the security group, not the name.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2InstanceNetworkInterfaceSpecification/groups</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The IDs of the security groups for the network interface. Applies only if creating a network interface when launching an instance.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
 			<Declaration>@property (nonatomic, strong) NSArray *groups</Declaration>
@@ -157,7 +193,7 @@
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ModifyNetworkInterfaceAttributeRequest/setNetworkInterfaceId:</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2InstanceNetworkInterfaceSpecification/setNetworkInterfaceId:</TokenIdentifier>
 			<Abstract type="html">&lt;p&gt;The ID of the network interface.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
@@ -169,7 +205,7 @@
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ModifyNetworkInterfaceAttributeRequest/networkInterfaceId</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2InstanceNetworkInterfaceSpecification/networkInterfaceId</TokenIdentifier>
 			<Abstract type="html">&lt;p&gt;The ID of the network interface.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
@@ -181,7 +217,7 @@
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2ModifyNetworkInterfaceAttributeRequest/networkInterfaceId</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2InstanceNetworkInterfaceSpecification/networkInterfaceId</TokenIdentifier>
 			<Abstract type="html">&lt;p&gt;The ID of the network interface.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
@@ -193,38 +229,146 @@
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ModifyNetworkInterfaceAttributeRequest/setSourceDestCheck:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Indicates whether source/destination checking is enabled. A value of &lt;code&gt;true&lt;/code&gt; means checking is enabled, and &lt;code&gt;false&lt;/code&gt; means checking is disabled. This value must be &lt;code&gt;false&lt;/code&gt; for a NAT instance to perform NAT. For more information, see NAT Instances in the &lt;i&gt;Amazon Virtual Private Cloud User Guide&lt;/i&gt;.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2InstanceNetworkInterfaceSpecification/setPrivateIpAddress:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The private IP address of the network interface. Applies only if creating a network interface when launching an instance.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) AWSEC2AttributeBooleanValue *sourceDestCheck</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *privateIpAddress</Declaration>
 			
 			
-			<Anchor>//api/name/sourceDestCheck</Anchor>
+			<Anchor>//api/name/privateIpAddress</Anchor>
             <NodeRef refid="511"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ModifyNetworkInterfaceAttributeRequest/sourceDestCheck</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Indicates whether source/destination checking is enabled. A value of &lt;code&gt;true&lt;/code&gt; means checking is enabled, and &lt;code&gt;false&lt;/code&gt; means checking is disabled. This value must be &lt;code&gt;false&lt;/code&gt; for a NAT instance to perform NAT. For more information, see NAT Instances in the &lt;i&gt;Amazon Virtual Private Cloud User Guide&lt;/i&gt;.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2InstanceNetworkInterfaceSpecification/privateIpAddress</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The private IP address of the network interface. Applies only if creating a network interface when launching an instance.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) AWSEC2AttributeBooleanValue *sourceDestCheck</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *privateIpAddress</Declaration>
 			
 			
-			<Anchor>//api/name/sourceDestCheck</Anchor>
+			<Anchor>//api/name/privateIpAddress</Anchor>
             <NodeRef refid="511"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2ModifyNetworkInterfaceAttributeRequest/sourceDestCheck</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Indicates whether source/destination checking is enabled. A value of &lt;code&gt;true&lt;/code&gt; means checking is enabled, and &lt;code&gt;false&lt;/code&gt; means checking is disabled. This value must be &lt;code&gt;false&lt;/code&gt; for a NAT instance to perform NAT. For more information, see NAT Instances in the &lt;i&gt;Amazon Virtual Private Cloud User Guide&lt;/i&gt;.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2InstanceNetworkInterfaceSpecification/privateIpAddress</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The private IP address of the network interface. Applies only if creating a network interface when launching an instance.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) AWSEC2AttributeBooleanValue *sourceDestCheck</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *privateIpAddress</Declaration>
 			
 			
-			<Anchor>//api/name/sourceDestCheck</Anchor>
+			<Anchor>//api/name/privateIpAddress</Anchor>
+            <NodeRef refid="511"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2InstanceNetworkInterfaceSpecification/setPrivateIpAddresses:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;One or more private IP addresses to assign to the network interface. Only one private IP address can be designated as primary.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray *privateIpAddresses</Declaration>
+			
+			
+			<Anchor>//api/name/privateIpAddresses</Anchor>
+            <NodeRef refid="511"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2InstanceNetworkInterfaceSpecification/privateIpAddresses</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;One or more private IP addresses to assign to the network interface. Only one private IP address can be designated as primary.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray *privateIpAddresses</Declaration>
+			
+			
+			<Anchor>//api/name/privateIpAddresses</Anchor>
+            <NodeRef refid="511"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2InstanceNetworkInterfaceSpecification/privateIpAddresses</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;One or more private IP addresses to assign to the network interface. Only one private IP address can be designated as primary.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray *privateIpAddresses</Declaration>
+			
+			
+			<Anchor>//api/name/privateIpAddresses</Anchor>
+            <NodeRef refid="511"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2InstanceNetworkInterfaceSpecification/setSecondaryPrivateIpAddressCount:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The number of secondary private IP addresses. You can&apos;t specify this option and specify more than one private IP address using the private IP addresses option.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *secondaryPrivateIpAddressCount</Declaration>
+			
+			
+			<Anchor>//api/name/secondaryPrivateIpAddressCount</Anchor>
+            <NodeRef refid="511"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2InstanceNetworkInterfaceSpecification/secondaryPrivateIpAddressCount</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The number of secondary private IP addresses. You can&apos;t specify this option and specify more than one private IP address using the private IP addresses option.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *secondaryPrivateIpAddressCount</Declaration>
+			
+			
+			<Anchor>//api/name/secondaryPrivateIpAddressCount</Anchor>
+            <NodeRef refid="511"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2InstanceNetworkInterfaceSpecification/secondaryPrivateIpAddressCount</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The number of secondary private IP addresses. You can&apos;t specify this option and specify more than one private IP address using the private IP addresses option.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *secondaryPrivateIpAddressCount</Declaration>
+			
+			
+			<Anchor>//api/name/secondaryPrivateIpAddressCount</Anchor>
+            <NodeRef refid="511"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2InstanceNetworkInterfaceSpecification/setSubnetId:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the subnet associated with the network string. Applies only if creating a network interface when launching an instance.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *subnetId</Declaration>
+			
+			
+			<Anchor>//api/name/subnetId</Anchor>
+            <NodeRef refid="511"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2InstanceNetworkInterfaceSpecification/subnetId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the subnet associated with the network string. Applies only if creating a network interface when launching an instance.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *subnetId</Declaration>
+			
+			
+			<Anchor>//api/name/subnetId</Anchor>
+            <NodeRef refid="511"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2InstanceNetworkInterfaceSpecification/subnetId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the subnet associated with the network string. Applies only if creating a network interface when launching an instance.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *subnetId</Declaration>
+			
+			
+			<Anchor>//api/name/subnetId</Anchor>
             <NodeRef refid="511"/>
 		</Token>
 		

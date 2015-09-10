@@ -1,47 +1,65 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Constants/AWSEC2DatafeedSubscriptionState.html">
+	<File path="Protocols/AWSIdentityProvider.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/c/tdef/AWSEC2DatafeedSubscriptionState</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/intf/AWSIdentityProvider</TokenIdentifier>
+			<Abstract type="html">AWSIdentityProvider provides an interface for acquiring an identity token from a provider.</Abstract>
+			<DeclaredIn>AWSIdentityProvider.h</DeclaredIn>
             
 			
 			<NodeRef refid="1117"/>
 		</Token>
 		
 		
-        
-        <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSEC2DatafeedSubscriptionStateUnknown</TokenIdentifier>
-            <Abstract type="html"></Abstract>
-            <Declaration>AWSEC2DatafeedSubscriptionStateUnknown</Declaration>
-            
-            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
-            
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/AWSIdentityProvider/setToken:</TokenIdentifier>
+			<Abstract type="html">The token that identifies/authorizes a particular identity.</Abstract>
+			<DeclaredIn>AWSIdentityProvider.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong, readonly) NSString *token</Declaration>
+			
+			
+			<Anchor>//api/name/token</Anchor>
             <NodeRef refid="1117"/>
-        </Token>
-        
-        <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSEC2DatafeedSubscriptionStateActive</TokenIdentifier>
-            <Abstract type="html"></Abstract>
-            <Declaration>AWSEC2DatafeedSubscriptionStateActive</Declaration>
-            
-            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
-            
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/AWSIdentityProvider/token</TokenIdentifier>
+			<Abstract type="html">The token that identifies/authorizes a particular identity.</Abstract>
+			<DeclaredIn>AWSIdentityProvider.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong, readonly) NSString *token</Declaration>
+			
+			
+			<Anchor>//api/name/token</Anchor>
             <NodeRef refid="1117"/>
-        </Token>
-        
-        <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSEC2DatafeedSubscriptionStateInactive</TokenIdentifier>
-            <Abstract type="html"></Abstract>
-            <Declaration>AWSEC2DatafeedSubscriptionStateInactive</Declaration>
-            
-            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
-            
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfp/AWSIdentityProvider/token</TokenIdentifier>
+			<Abstract type="html">The token that identifies/authorizes a particular identity.</Abstract>
+			<DeclaredIn>AWSIdentityProvider.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong, readonly) NSString *token</Declaration>
+			
+			
+			<Anchor>//api/name/token</Anchor>
             <NodeRef refid="1117"/>
-        </Token>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/AWSIdentityProvider/refresh</TokenIdentifier>
+			<Abstract type="html">Refresh the token associated with this provider.</Abstract>
+			<DeclaredIn>AWSIdentityProvider.h</DeclaredIn>
+			
+			<Declaration>- (AWSTask *)refresh</Declaration>
+			
+			
+			<Anchor>//api/name/refresh</Anchor>
+            <NodeRef refid="1117"/>
+		</Token>
+		
         
         
 	</File>

@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSAutoScalingDescribeAccountLimitsAnswer.html">
+	<File path="Classes/AWSAutoScalingDeleteTagsType.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSAutoScalingDescribeAccountLimitsAnswer</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt; The output of the &lt;a&gt;DescribeAccountLimitsResult&lt;/a&gt; action. &lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSAutoScalingDeleteTagsType</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;&lt;/p&gt;
+Required parameters: [Tags]</Abstract>
 			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
             
 			
@@ -13,74 +14,38 @@
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingDescribeAccountLimitsAnswer/setMaxNumberOfAutoScalingGroups:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt; The maximum number of Auto Scaling groups allowed for your AWS account. &lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingDeleteTagsType/setTags:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Each tag should be defined by its resource type, resource ID, key, value, and a propagate flag. Valid values are: Resource type = &lt;i&gt;auto-scaling-group&lt;/i&gt;, Resource ID = &lt;i&gt;AutoScalingGroupName&lt;/i&gt;, key=&lt;i&gt;value&lt;/i&gt;, value=&lt;i&gt;value&lt;/i&gt;, propagate=&lt;i&gt;true&lt;/i&gt; or &lt;i&gt;false&lt;/i&gt;. &lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSNumber *maxNumberOfAutoScalingGroups</Declaration>
+			<Declaration>@property (nonatomic, strong) NSArray *tags</Declaration>
 			
 			
-			<Anchor>//api/name/maxNumberOfAutoScalingGroups</Anchor>
+			<Anchor>//api/name/tags</Anchor>
             <NodeRef refid="28"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingDescribeAccountLimitsAnswer/maxNumberOfAutoScalingGroups</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt; The maximum number of Auto Scaling groups allowed for your AWS account. &lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingDeleteTagsType/tags</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Each tag should be defined by its resource type, resource ID, key, value, and a propagate flag. Valid values are: Resource type = &lt;i&gt;auto-scaling-group&lt;/i&gt;, Resource ID = &lt;i&gt;AutoScalingGroupName&lt;/i&gt;, key=&lt;i&gt;value&lt;/i&gt;, value=&lt;i&gt;value&lt;/i&gt;, propagate=&lt;i&gt;true&lt;/i&gt; or &lt;i&gt;false&lt;/i&gt;. &lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSNumber *maxNumberOfAutoScalingGroups</Declaration>
+			<Declaration>@property (nonatomic, strong) NSArray *tags</Declaration>
 			
 			
-			<Anchor>//api/name/maxNumberOfAutoScalingGroups</Anchor>
+			<Anchor>//api/name/tags</Anchor>
             <NodeRef refid="28"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSAutoScalingDescribeAccountLimitsAnswer/maxNumberOfAutoScalingGroups</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt; The maximum number of Auto Scaling groups allowed for your AWS account. &lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSAutoScalingDeleteTagsType/tags</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Each tag should be defined by its resource type, resource ID, key, value, and a propagate flag. Valid values are: Resource type = &lt;i&gt;auto-scaling-group&lt;/i&gt;, Resource ID = &lt;i&gt;AutoScalingGroupName&lt;/i&gt;, key=&lt;i&gt;value&lt;/i&gt;, value=&lt;i&gt;value&lt;/i&gt;, propagate=&lt;i&gt;true&lt;/i&gt; or &lt;i&gt;false&lt;/i&gt;. &lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSNumber *maxNumberOfAutoScalingGroups</Declaration>
+			<Declaration>@property (nonatomic, strong) NSArray *tags</Declaration>
 			
 			
-			<Anchor>//api/name/maxNumberOfAutoScalingGroups</Anchor>
-            <NodeRef refid="28"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingDescribeAccountLimitsAnswer/setMaxNumberOfLaunchConfigurations:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt; The maximum number of launch configurations allowed for your AWS account. &lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSNumber *maxNumberOfLaunchConfigurations</Declaration>
-			
-			
-			<Anchor>//api/name/maxNumberOfLaunchConfigurations</Anchor>
-            <NodeRef refid="28"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSAutoScalingDescribeAccountLimitsAnswer/maxNumberOfLaunchConfigurations</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt; The maximum number of launch configurations allowed for your AWS account. &lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSNumber *maxNumberOfLaunchConfigurations</Declaration>
-			
-			
-			<Anchor>//api/name/maxNumberOfLaunchConfigurations</Anchor>
-            <NodeRef refid="28"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSAutoScalingDescribeAccountLimitsAnswer/maxNumberOfLaunchConfigurations</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt; The maximum number of launch configurations allowed for your AWS account. &lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSNumber *maxNumberOfLaunchConfigurations</Declaration>
-			
-			
-			<Anchor>//api/name/maxNumberOfLaunchConfigurations</Anchor>
+			<Anchor>//api/name/tags</Anchor>
             <NodeRef refid="28"/>
 		</Token>
 		

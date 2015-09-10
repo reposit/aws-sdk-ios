@@ -1,9 +1,20 @@
-/**
- Copyright 2015 Amazon.com, Inc. or its affiliates. All Rights Reserved.
+/*
+ Copyright 2010-2015 Amazon.com, Inc. or its affiliates. All Rights Reserved.
+
+ Licensed under the Apache License, Version 2.0 (the "License").
+ You may not use this file except in compliance with the License.
+ A copy of the License is located at
+
+ http://aws.amazon.com/apache2.0
+
+ or in the "license" file accompanying this file. This file is distributed
+ on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either
+ express or implied. See the License for the specific language governing
+ permissions and limitations under the License.
  */
 
 #import <Foundation/Foundation.h>
-#import <AWSCore/AWSCore.h>
+#import <AWSCore/AWSNetworking.h>
 #import <AWSCore/AWSModel.h>
 
 FOUNDATION_EXPORT NSString *const AWSCognitoSyncErrorDomain;
@@ -13,14 +24,26 @@ typedef NS_ENUM(NSInteger, AWSCognitoSyncErrorType) {
     AWSCognitoSyncErrorIncompleteSignature,
     AWSCognitoSyncErrorInvalidClientTokenId,
     AWSCognitoSyncErrorMissingAuthenticationToken,
+    AWSCognitoSyncErrorAlreadyStreamed,
+    AWSCognitoSyncErrorDuplicateRequest,
     AWSCognitoSyncErrorInternalError,
     AWSCognitoSyncErrorInvalidConfiguration,
+    AWSCognitoSyncErrorInvalidLambdaFunctionOutput,
     AWSCognitoSyncErrorInvalidParameter,
+    AWSCognitoSyncErrorLambdaThrottled,
     AWSCognitoSyncErrorLimitExceeded,
     AWSCognitoSyncErrorNotAuthorized,
     AWSCognitoSyncErrorResourceConflict,
     AWSCognitoSyncErrorResourceNotFound,
     AWSCognitoSyncErrorTooManyRequests,
+};
+
+typedef NS_ENUM(NSInteger, AWSCognitoSyncBulkPublishStatus) {
+    AWSCognitoSyncBulkPublishStatusUnknown,
+    AWSCognitoSyncBulkPublishStatusNotStarted,
+    AWSCognitoSyncBulkPublishStatusInProgress,
+    AWSCognitoSyncBulkPublishStatusFailed,
+    AWSCognitoSyncBulkPublishStatusSucceeded,
 };
 
 typedef NS_ENUM(NSInteger, AWSCognitoSyncOperation) {
@@ -37,6 +60,15 @@ typedef NS_ENUM(NSInteger, AWSCognitoSyncPlatform) {
     AWSCognitoSyncPlatformAdm,
 };
 
+typedef NS_ENUM(NSInteger, AWSCognitoSyncStreamingStatus) {
+    AWSCognitoSyncStreamingStatusUnknown,
+    AWSCognitoSyncStreamingStatusEnabled,
+    AWSCognitoSyncStreamingStatusDisabled,
+};
+
+@class AWSCognitoSyncBulkPublishRequest;
+@class AWSCognitoSyncBulkPublishResponse;
+@class AWSCognitoSyncCognitoStreams;
 @class AWSCognitoSyncDataset;
 @class AWSCognitoSyncDeleteDatasetRequest;
 @class AWSCognitoSyncDeleteDatasetResponse;
@@ -46,6 +78,10 @@ typedef NS_ENUM(NSInteger, AWSCognitoSyncPlatform) {
 @class AWSCognitoSyncDescribeIdentityPoolUsageResponse;
 @class AWSCognitoSyncDescribeIdentityUsageRequest;
 @class AWSCognitoSyncDescribeIdentityUsageResponse;
+@class AWSCognitoSyncGetBulkPublishDetailsRequest;
+@class AWSCognitoSyncGetBulkPublishDetailsResponse;
+@class AWSCognitoSyncGetCognitoEventsRequest;
+@class AWSCognitoSyncGetCognitoEventsResponse;
 @class AWSCognitoSyncGetIdentityPoolConfigurationRequest;
 @class AWSCognitoSyncGetIdentityPoolConfigurationResponse;
 @class AWSCognitoSyncIdentityPoolUsage;
@@ -61,15 +97,65 @@ typedef NS_ENUM(NSInteger, AWSCognitoSyncPlatform) {
 @class AWSCognitoSyncRecordPatch;
 @class AWSCognitoSyncRegisterDeviceRequest;
 @class AWSCognitoSyncRegisterDeviceResponse;
+@class AWSCognitoSyncSetCognitoEventsRequest;
 @class AWSCognitoSyncSetIdentityPoolConfigurationRequest;
 @class AWSCognitoSyncSetIdentityPoolConfigurationResponse;
-@class AWSCognitoSyncSilentSync;
 @class AWSCognitoSyncSubscribeToDatasetRequest;
 @class AWSCognitoSyncSubscribeToDatasetResponse;
 @class AWSCognitoSyncUnsubscribeFromDatasetRequest;
 @class AWSCognitoSyncUnsubscribeFromDatasetResponse;
 @class AWSCognitoSyncUpdateRecordsRequest;
 @class AWSCognitoSyncUpdateRecordsResponse;
+
+/**
+ The input for the BulkPublish operation.
+ Required parameters: [IdentityPoolId]
+ */
+@interface AWSCognitoSyncBulkPublishRequest : AWSRequest
+
+
+/**
+ A name-spaced GUID (for example, us-east-1:23EC4050-6AEA-7089-A2DD-08002EXAMPLE) created by Amazon Cognito. GUID generation is unique within a region.
+ */
+@property (nonatomic, strong) NSString *identityPoolId;
+
+@end
+
+/**
+ The output for the BulkPublish operation.
+ */
+@interface AWSCognitoSyncBulkPublishResponse : AWSModel
+
+
+/**
+ A name-spaced GUID (for example, us-east-1:23EC4050-6AEA-7089-A2DD-08002EXAMPLE) created by Amazon Cognito. GUID generation is unique within a region.
+ */
+@property (nonatomic, strong) NSString *identityPoolId;
+
+@end
+
+/**
+ Configuration options for configure Cognito streams.
+ */
+@interface AWSCognitoSyncCognitoStreams : AWSModel
+
+
+/**
+ The ARN of the role Amazon Cognito can assume in order to publish to the stream. This role must grant access to Amazon Cognito (cognito-sync) to invoke PutRecord on your Cognito stream.
+ */
+@property (nonatomic, strong) NSString *roleArn;
+
+/**
+ The name of the Cognito stream to receive updates. This stream must be in the developers account and in the same region as the identity pool.
+ */
+@property (nonatomic, strong) NSString *streamName;
+
+/**
+ Status of the Cognito streams. Valid values are: <p>ENABLED - Streaming of updates to identity pool is enabled.</p><p>DISABLED - Streaming of updates to identity pool is disabled. Bulk publish will also fail if StreamingStatus is DISABLED.</p>
+ */
+@property (nonatomic, assign) AWSCognitoSyncStreamingStatus streamingStatus;
+
+@end
 
 /**
  A collection of data for an identity pool. An identity pool can have multiple datasets. A dataset is per identity and can be general or associated with a particular entity in an application (like a saved game). Datasets are automatically created if they don't exist. Data is synced by dataset, and a dataset can hold up to 1MB of key-value pairs.
@@ -152,7 +238,7 @@ typedef NS_ENUM(NSInteger, AWSCognitoSyncPlatform) {
 @end
 
 /**
- A request for metadata about a dataset (creation date, number of records, size) by owner and dataset name.
+ A request for meta data about a dataset (creation date, number of records, size) by owner and dataset name.
  Required parameters: [IdentityPoolId, IdentityId, DatasetName]
  */
 @interface AWSCognitoSyncDescribeDatasetRequest : AWSRequest
@@ -182,7 +268,7 @@ typedef NS_ENUM(NSInteger, AWSCognitoSyncPlatform) {
 
 
 /**
- Metadata for a collection of data for an identity. An identity can have multiple datasets. A dataset can be general or associated with a particular entity in an application (like a saved game). Datasets are automatically created if they don't exist. Data is synced by dataset, and a dataset can hold up to 1MB of key-value pairs.
+ Meta data for a collection of data for an identity. An identity can have multiple datasets. A dataset can be general or associated with a particular entity in an application (like a saved game). Datasets are automatically created if they don't exist. Data is synced by dataset, and a dataset can hold up to 1MB of key-value pairs.
  */
 @property (nonatomic, strong) AWSCognitoSyncDataset *dataset;
 
@@ -248,7 +334,81 @@ typedef NS_ENUM(NSInteger, AWSCognitoSyncPlatform) {
 @end
 
 /**
- <p>A request to <code>GetIdentityPoolConfigurationRequest</code>.</p>
+ The input for the GetBulkPublishDetails operation.
+ Required parameters: [IdentityPoolId]
+ */
+@interface AWSCognitoSyncGetBulkPublishDetailsRequest : AWSRequest
+
+
+/**
+ A name-spaced GUID (for example, us-east-1:23EC4050-6AEA-7089-A2DD-08002EXAMPLE) created by Amazon Cognito. GUID generation is unique within a region.
+ */
+@property (nonatomic, strong) NSString *identityPoolId;
+
+@end
+
+/**
+ The output for the GetBulkPublishDetails operation.
+ */
+@interface AWSCognitoSyncGetBulkPublishDetailsResponse : AWSModel
+
+
+/**
+ If BulkPublishStatus is SUCCEEDED, the time the last bulk publish operation completed.
+ */
+@property (nonatomic, strong) NSDate *bulkPublishCompleteTime;
+
+/**
+ The date/time at which the last bulk publish was initiated.
+ */
+@property (nonatomic, strong) NSDate *bulkPublishStartTime;
+
+/**
+ Status of the last bulk publish operation, valid values are: <p>NOT_STARTED - No bulk publish has been requested for this identity pool</p><p>IN_PROGRESS - Data is being published to the configured stream</p><p>SUCCEEDED - All data for the identity pool has been published to the configured stream</p><p>FAILED - Some portion of the data has failed to publish, check FailureMessage for the cause.</p>
+ */
+@property (nonatomic, assign) AWSCognitoSyncBulkPublishStatus bulkPublishStatus;
+
+/**
+ If BulkPublishStatus is FAILED this field will contain the error message that caused the bulk publish to fail.
+ */
+@property (nonatomic, strong) NSString *failureMessage;
+
+/**
+ A name-spaced GUID (for example, us-east-1:23EC4050-6AEA-7089-A2DD-08002EXAMPLE) created by Amazon Cognito. GUID generation is unique within a region.
+ */
+@property (nonatomic, strong) NSString *identityPoolId;
+
+@end
+
+/**
+ <p>A request for a list of the configured Cognito Events</p>
+ Required parameters: [IdentityPoolId]
+ */
+@interface AWSCognitoSyncGetCognitoEventsRequest : AWSRequest
+
+
+/**
+ <p>The Cognito Identity Pool ID for the request</p>
+ */
+@property (nonatomic, strong) NSString *identityPoolId;
+
+@end
+
+/**
+ <p>The response from the GetCognitoEvents request</p>
+ */
+@interface AWSCognitoSyncGetCognitoEventsResponse : AWSModel
+
+
+/**
+ <p>The Cognito Events returned from the GetCognitoEvents request</p>
+ */
+@property (nonatomic, strong) NSDictionary *events;
+
+@end
+
+/**
+ <p>The input for the GetIdentityPoolConfiguration operation.</p>
  Required parameters: [IdentityPoolId]
  */
 @interface AWSCognitoSyncGetIdentityPoolConfigurationRequest : AWSRequest
@@ -262,10 +422,15 @@ typedef NS_ENUM(NSInteger, AWSCognitoSyncPlatform) {
 @end
 
 /**
- <p>The response from <code>GetIdentityPoolConfigurationResponse</code>.</p>
+ <p>The output for the GetIdentityPoolConfiguration operation.</p>
  */
 @interface AWSCognitoSyncGetIdentityPoolConfigurationResponse : AWSModel
 
+
+/**
+ Options to apply to this identity pool for Amazon Cognito streams.
+ */
+@property (nonatomic, strong) AWSCognitoSyncCognitoStreams *cognitoStreams;
 
 /**
  <p>A name-spaced GUID (for example, us-east-1:23EC4050-6AEA-7089-A2DD-08002EXAMPLE) created by Amazon Cognito.</p>
@@ -273,7 +438,7 @@ typedef NS_ENUM(NSInteger, AWSCognitoSyncPlatform) {
 @property (nonatomic, strong) NSString *identityPoolId;
 
 /**
- <p>Configuration options applied to the identity pool.</p>
+ <p>Options to apply to this identity pool for push synchronization.</p>
  */
 @property (nonatomic, strong) AWSCognitoSyncPushSync *pushSync;
 
@@ -626,7 +791,7 @@ typedef NS_ENUM(NSInteger, AWSCognitoSyncPlatform) {
 @end
 
 /**
- <p>A request to <code>RegisterDevice</code>.</p>
+ <p>A request to RegisterDevice.</p>
  Required parameters: [IdentityPoolId, IdentityId, Platform, Token]
  */
 @interface AWSCognitoSyncRegisterDeviceRequest : AWSRequest
@@ -655,7 +820,7 @@ typedef NS_ENUM(NSInteger, AWSCognitoSyncPlatform) {
 @end
 
 /**
- <p>Response to a <code>RegisterDevice</code> request.</p>
+ <p>Response to a RegisterDevice request.</p>
  */
 @interface AWSCognitoSyncRegisterDeviceResponse : AWSModel
 
@@ -668,11 +833,35 @@ typedef NS_ENUM(NSInteger, AWSCognitoSyncPlatform) {
 @end
 
 /**
- <p>A request to <code>SetIdentityPoolConfiguration</code>.</p>
+ <p>A request to configure Cognito Events"</p>"
+ Required parameters: [IdentityPoolId, Events]
+ */
+@interface AWSCognitoSyncSetCognitoEventsRequest : AWSRequest
+
+
+/**
+ <p>The events to configure</p>
+ */
+@property (nonatomic, strong) NSDictionary *events;
+
+/**
+ <p>The Cognito Identity Pool to use when configuring Cognito Events</p>
+ */
+@property (nonatomic, strong) NSString *identityPoolId;
+
+@end
+
+/**
+ <p>The input for the SetIdentityPoolConfiguration operation.</p>
  Required parameters: [IdentityPoolId]
  */
 @interface AWSCognitoSyncSetIdentityPoolConfigurationRequest : AWSRequest
 
+
+/**
+ Options to apply to this identity pool for Amazon Cognito streams.
+ */
+@property (nonatomic, strong) AWSCognitoSyncCognitoStreams *cognitoStreams;
 
 /**
  <p>A name-spaced GUID (for example, us-east-1:23EC4050-6AEA-7089-A2DD-08002EXAMPLE) created by Amazon Cognito. This is the ID of the pool to modify.</p>
@@ -680,17 +869,22 @@ typedef NS_ENUM(NSInteger, AWSCognitoSyncPlatform) {
 @property (nonatomic, strong) NSString *identityPoolId;
 
 /**
- <p>Configuration options to be applied to the identity pool.</p>
+ <p>Options to apply to this identity pool for push synchronization.</p>
  */
 @property (nonatomic, strong) AWSCognitoSyncPushSync *pushSync;
 
 @end
 
 /**
- <p>Response to a <code>SetIdentityPoolConfiguration</code> request.</p>
+ <p>The output for the SetIdentityPoolConfiguration operation</p>
  */
 @interface AWSCognitoSyncSetIdentityPoolConfigurationResponse : AWSModel
 
+
+/**
+ Options to apply to this identity pool for Amazon Cognito streams.
+ */
+@property (nonatomic, strong) AWSCognitoSyncCognitoStreams *cognitoStreams;
 
 /**
  <p>A name-spaced GUID (for example, us-east-1:23EC4050-6AEA-7089-A2DD-08002EXAMPLE) created by Amazon Cognito.</p>
@@ -698,32 +892,14 @@ typedef NS_ENUM(NSInteger, AWSCognitoSyncPlatform) {
 @property (nonatomic, strong) NSString *identityPoolId;
 
 /**
- <p>Configuration options applied to the identity pool.</p>
+ <p>Options to apply to this identity pool for push synchronization.</p>
  */
 @property (nonatomic, strong) AWSCognitoSyncPushSync *pushSync;
 
 @end
 
 /**
- 
- */
-@interface AWSCognitoSyncSilentSync : AWSModel
-
-
-/**
- 
- */
-@property (nonatomic, strong) NSArray *applicationArns;
-
-/**
- 
- */
-@property (nonatomic, strong) NSString *roleArn;
-
-@end
-
-/**
- <p>A request to <code>SubscribeToDatasetRequest</code>.</p>
+ <p>A request to SubscribeToDatasetRequest.</p>
  Required parameters: [IdentityPoolId, IdentityId, DatasetName, DeviceId]
  */
 @interface AWSCognitoSyncSubscribeToDatasetRequest : AWSRequest
@@ -752,7 +928,7 @@ typedef NS_ENUM(NSInteger, AWSCognitoSyncPlatform) {
 @end
 
 /**
- <p>Response to a <code>SubscribeToDataset</code> request.</p>
+ <p>Response to a SubscribeToDataset request.</p>
  */
 @interface AWSCognitoSyncSubscribeToDatasetResponse : AWSModel
 
@@ -760,7 +936,7 @@ typedef NS_ENUM(NSInteger, AWSCognitoSyncPlatform) {
 @end
 
 /**
- <p>A request to <code>UnsubscribeFromDataset</code>.</p>
+ <p>A request to UnsubscribeFromDataset.</p>
  Required parameters: [IdentityPoolId, IdentityId, DatasetName, DeviceId]
  */
 @interface AWSCognitoSyncUnsubscribeFromDatasetRequest : AWSRequest
@@ -789,7 +965,7 @@ typedef NS_ENUM(NSInteger, AWSCognitoSyncPlatform) {
 @end
 
 /**
- <p>Response to an <code>UnsubscribeFromDataset</code> request.</p>
+ <p>Response to an UnsubscribeFromDataset request.</p>
  */
 @interface AWSCognitoSyncUnsubscribeFromDatasetResponse : AWSModel
 
@@ -804,7 +980,7 @@ typedef NS_ENUM(NSInteger, AWSCognitoSyncPlatform) {
 
 
 /**
- Intended to supply a device ID that will populate the <code>lastModifiedBy</code> field referenced in other methods. The <code>ClientContext</code> field is not yet implemented.
+ Intended to supply a device ID that will populate the lastModifiedBy field referenced in other methods. The ClientContext field is not yet implemented.
  */
 @property (nonatomic, strong) NSString *clientContext;
 

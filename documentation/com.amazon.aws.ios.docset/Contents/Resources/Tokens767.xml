@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSS3CompleteMultipartUploadOutput.html">
+	<File path="Classes/AWSLambdaFunctionCode.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSS3CompleteMultipartUploadOutput</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSLambdaFunctionCode</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The code for the Lambda function.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSLambdaModel.h</DeclaredIn>
             
 			
 			<NodeRef refid="767"/>
@@ -13,290 +13,146 @@
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3CompleteMultipartUploadOutput/setBucket:</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSLambdaFunctionCode/setS3Bucket:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Amazon S3 bucket name where the .zip file containing your deployment package is stored. This bucket must reside in the same AWS region where you are creating the Lambda function. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSLambdaModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *bucket</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *s3Bucket</Declaration>
 			
 			
-			<Anchor>//api/name/bucket</Anchor>
+			<Anchor>//api/name/s3Bucket</Anchor>
             <NodeRef refid="767"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3CompleteMultipartUploadOutput/bucket</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSLambdaFunctionCode/s3Bucket</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Amazon S3 bucket name where the .zip file containing your deployment package is stored. This bucket must reside in the same AWS region where you are creating the Lambda function. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSLambdaModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *bucket</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *s3Bucket</Declaration>
 			
 			
-			<Anchor>//api/name/bucket</Anchor>
+			<Anchor>//api/name/s3Bucket</Anchor>
             <NodeRef refid="767"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSS3CompleteMultipartUploadOutput/bucket</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSLambdaFunctionCode/s3Bucket</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Amazon S3 bucket name where the .zip file containing your deployment package is stored. This bucket must reside in the same AWS region where you are creating the Lambda function. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSLambdaModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *bucket</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *s3Bucket</Declaration>
 			
 			
-			<Anchor>//api/name/bucket</Anchor>
+			<Anchor>//api/name/s3Bucket</Anchor>
             <NodeRef refid="767"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3CompleteMultipartUploadOutput/setETag:</TokenIdentifier>
-			<Abstract type="html">Entity tag of the object.</Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSLambdaFunctionCode/setS3Key:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The Amazon S3 object (the deployment package) key name you want to upload. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSLambdaModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *ETag</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *s3Key</Declaration>
 			
 			
-			<Anchor>//api/name/ETag</Anchor>
+			<Anchor>//api/name/s3Key</Anchor>
             <NodeRef refid="767"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3CompleteMultipartUploadOutput/ETag</TokenIdentifier>
-			<Abstract type="html">Entity tag of the object.</Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSLambdaFunctionCode/s3Key</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The Amazon S3 object (the deployment package) key name you want to upload. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSLambdaModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *ETag</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *s3Key</Declaration>
 			
 			
-			<Anchor>//api/name/ETag</Anchor>
+			<Anchor>//api/name/s3Key</Anchor>
             <NodeRef refid="767"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSS3CompleteMultipartUploadOutput/ETag</TokenIdentifier>
-			<Abstract type="html">Entity tag of the object.</Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSLambdaFunctionCode/s3Key</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The Amazon S3 object (the deployment package) key name you want to upload. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSLambdaModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *ETag</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *s3Key</Declaration>
 			
 			
-			<Anchor>//api/name/ETag</Anchor>
+			<Anchor>//api/name/s3Key</Anchor>
             <NodeRef refid="767"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3CompleteMultipartUploadOutput/setExpiration:</TokenIdentifier>
-			<Abstract type="html">If the object expiration is configured, this will contain the expiration date (expiry-date) and rule ID (rule-id). The value of rule-id is URL encoded.</Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSLambdaFunctionCode/setS3ObjectVersion:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The Amazon S3 object (the deployment package) version you want to upload.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSLambdaModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *expiration</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *s3ObjectVersion</Declaration>
 			
 			
-			<Anchor>//api/name/expiration</Anchor>
+			<Anchor>//api/name/s3ObjectVersion</Anchor>
             <NodeRef refid="767"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3CompleteMultipartUploadOutput/expiration</TokenIdentifier>
-			<Abstract type="html">If the object expiration is configured, this will contain the expiration date (expiry-date) and rule ID (rule-id). The value of rule-id is URL encoded.</Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSLambdaFunctionCode/s3ObjectVersion</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The Amazon S3 object (the deployment package) version you want to upload.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSLambdaModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *expiration</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *s3ObjectVersion</Declaration>
 			
 			
-			<Anchor>//api/name/expiration</Anchor>
+			<Anchor>//api/name/s3ObjectVersion</Anchor>
             <NodeRef refid="767"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSS3CompleteMultipartUploadOutput/expiration</TokenIdentifier>
-			<Abstract type="html">If the object expiration is configured, this will contain the expiration date (expiry-date) and rule ID (rule-id). The value of rule-id is URL encoded.</Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSLambdaFunctionCode/s3ObjectVersion</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The Amazon S3 object (the deployment package) version you want to upload.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSLambdaModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *expiration</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *s3ObjectVersion</Declaration>
 			
 			
-			<Anchor>//api/name/expiration</Anchor>
+			<Anchor>//api/name/s3ObjectVersion</Anchor>
             <NodeRef refid="767"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3CompleteMultipartUploadOutput/setKey:</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSLambdaFunctionCode/setZipFile:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;A base64-encoded .zip file containing your deployment package. For more information about creating a .zip file, go to Execution Permissions in the &lt;i&gt;AWS Lambda Developer Guide&lt;/i&gt;. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSLambdaModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *key</Declaration>
+			<Declaration>@property (nonatomic, strong) NSData *zipFile</Declaration>
 			
 			
-			<Anchor>//api/name/key</Anchor>
+			<Anchor>//api/name/zipFile</Anchor>
             <NodeRef refid="767"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3CompleteMultipartUploadOutput/key</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSLambdaFunctionCode/zipFile</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;A base64-encoded .zip file containing your deployment package. For more information about creating a .zip file, go to Execution Permissions in the &lt;i&gt;AWS Lambda Developer Guide&lt;/i&gt;. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSLambdaModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *key</Declaration>
+			<Declaration>@property (nonatomic, strong) NSData *zipFile</Declaration>
 			
 			
-			<Anchor>//api/name/key</Anchor>
+			<Anchor>//api/name/zipFile</Anchor>
             <NodeRef refid="767"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSS3CompleteMultipartUploadOutput/key</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSLambdaFunctionCode/zipFile</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;A base64-encoded .zip file containing your deployment package. For more information about creating a .zip file, go to Execution Permissions in the &lt;i&gt;AWS Lambda Developer Guide&lt;/i&gt;. &lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSLambdaModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *key</Declaration>
-			
-			
-			<Anchor>//api/name/key</Anchor>
-            <NodeRef refid="767"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3CompleteMultipartUploadOutput/setLocation:</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *location</Declaration>
+			<Declaration>@property (nonatomic, strong) NSData *zipFile</Declaration>
 			
 			
-			<Anchor>//api/name/location</Anchor>
-            <NodeRef refid="767"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3CompleteMultipartUploadOutput/location</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *location</Declaration>
-			
-			
-			<Anchor>//api/name/location</Anchor>
-            <NodeRef refid="767"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSS3CompleteMultipartUploadOutput/location</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *location</Declaration>
-			
-			
-			<Anchor>//api/name/location</Anchor>
-            <NodeRef refid="767"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3CompleteMultipartUploadOutput/setSSEKMSKeyId:</TokenIdentifier>
-			<Abstract type="html">If present, specifies the ID of the AWS Key Management Service (KMS) master encryption key that was used for the object.</Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *SSEKMSKeyId</Declaration>
-			
-			
-			<Anchor>//api/name/SSEKMSKeyId</Anchor>
-            <NodeRef refid="767"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3CompleteMultipartUploadOutput/SSEKMSKeyId</TokenIdentifier>
-			<Abstract type="html">If present, specifies the ID of the AWS Key Management Service (KMS) master encryption key that was used for the object.</Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *SSEKMSKeyId</Declaration>
-			
-			
-			<Anchor>//api/name/SSEKMSKeyId</Anchor>
-            <NodeRef refid="767"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSS3CompleteMultipartUploadOutput/SSEKMSKeyId</TokenIdentifier>
-			<Abstract type="html">If present, specifies the ID of the AWS Key Management Service (KMS) master encryption key that was used for the object.</Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *SSEKMSKeyId</Declaration>
-			
-			
-			<Anchor>//api/name/SSEKMSKeyId</Anchor>
-            <NodeRef refid="767"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3CompleteMultipartUploadOutput/setServerSideEncryption:</TokenIdentifier>
-			<Abstract type="html">The Server-side encryption algorithm used when storing this object in S3 (e.g., AES256, aws:kms).</Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, assign) AWSS3ServerSideEncryption serverSideEncryption</Declaration>
-			
-			
-			<Anchor>//api/name/serverSideEncryption</Anchor>
-            <NodeRef refid="767"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3CompleteMultipartUploadOutput/serverSideEncryption</TokenIdentifier>
-			<Abstract type="html">The Server-side encryption algorithm used when storing this object in S3 (e.g., AES256, aws:kms).</Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, assign) AWSS3ServerSideEncryption serverSideEncryption</Declaration>
-			
-			
-			<Anchor>//api/name/serverSideEncryption</Anchor>
-            <NodeRef refid="767"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSS3CompleteMultipartUploadOutput/serverSideEncryption</TokenIdentifier>
-			<Abstract type="html">The Server-side encryption algorithm used when storing this object in S3 (e.g., AES256, aws:kms).</Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, assign) AWSS3ServerSideEncryption serverSideEncryption</Declaration>
-			
-			
-			<Anchor>//api/name/serverSideEncryption</Anchor>
-            <NodeRef refid="767"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3CompleteMultipartUploadOutput/setVersionId:</TokenIdentifier>
-			<Abstract type="html">Version of the object.</Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *versionId</Declaration>
-			
-			
-			<Anchor>//api/name/versionId</Anchor>
-            <NodeRef refid="767"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3CompleteMultipartUploadOutput/versionId</TokenIdentifier>
-			<Abstract type="html">Version of the object.</Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *versionId</Declaration>
-			
-			
-			<Anchor>//api/name/versionId</Anchor>
-            <NodeRef refid="767"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSS3CompleteMultipartUploadOutput/versionId</TokenIdentifier>
-			<Abstract type="html">Version of the object.</Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *versionId</Declaration>
-			
-			
-			<Anchor>//api/name/versionId</Anchor>
+			<Anchor>//api/name/zipFile</Anchor>
             <NodeRef refid="767"/>
 		</Token>
 		

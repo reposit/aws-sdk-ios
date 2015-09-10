@@ -14,7 +14,7 @@
 		<div class="container" class="hide-in-xcode">
 			
 			<h1 id="library-title">
-				<a href="../index.html">AWS SDK for iOS v2.1.0 </a>
+				<a href="../index.html">AWS SDK for iOS v2.2.5 </a>
 			</h1>
 
 			<p id="developer-home">
@@ -66,6 +66,8 @@
 		
 		<option value="//api/name/provisionedThroughput">provisionedThroughput</option>
 		
+		<option value="//api/name/streamSpecification">streamSpecification</option>
+		
 		<option value="//api/name/tableName">tableName</option>
 		
 	</optgroup>
@@ -93,7 +95,7 @@
 					<div class="section section-specification"><table cellspacing="0"><tbody>
 						<tr>
 	<th>Inherits from</th>
-	<td>AWSRequest : <a href="../Classes/AWSModel.html">AWSModel</a> : MTLModel</td>
+	<td>AWSRequest : AWSModel : AWSMTLModel</td>
 </tr><tr>
 	<th>Declared in</th>
 	<td>AWSDynamoDBModel.h<br />AWSDynamoDBModel.m</td>
@@ -181,7 +183,7 @@
 				<p>One or more global secondary indexes (the maximum is five) to be created on the table. Each global secondary index in the array includes the following:</p>
 
 
-<ul><li><p><i>IndexName</i> - The name of the global secondary index. Must be unique only for this table.</p><p></p></li><li><p><i>KeySchema</i> - Specifies the key schema for the global secondary index.</p></li><li><p><i>Projection</i> - Specifies attributes that are copied (projected) from the table into the index. These are in addition to the primary key attributes and index key attributes, which are automatically projected. Each attribute specification is composed of:</p><ul><li><p><i>ProjectionType</i> - One of the following:</p><ul><li><p><code>KEYS_ONLY</code> - Only the index and primary keys are projected into the index.</p></li><li><p><code>INCLUDE</code> - Only the specified table attributes are projected into the index. The list of projected attributes are in <i>NonKeyAttributes</i>.</p></li><li><p><code>ALL</code> - All of the table attributes are projected into the index.</p></li></ul></li><li><p><i>NonKeyAttributes</i> - A list of one or more non-key attribute names that are projected into the secondary index. The total count of attributes specified in <i>NonKeyAttributes</i>, summed across all of the secondary indexes, must not exceed 20. If you project the same attribute into two different indexes, this counts as two distinct attributes when determining the total.</p></li></ul></li><li><p><i>ProvisionedThroughput</i> - The provisioned throughput settings for the global secondary index, consisting of read and write capacity units.</p></li></ul>
+<ul><li><p><i>IndexName</i> - The name of the global secondary index. Must be unique only for this table.</p><p></p></li><li><p><i>KeySchema</i> - Specifies the key schema for the global secondary index.</p></li><li><p><i>Projection</i> - Specifies attributes that are copied (projected) from the table into the index. These are in addition to the primary key attributes and index key attributes, which are automatically projected. Each attribute specification is composed of:</p><ul><li><p><i>ProjectionType</i> - One of the following:</p><ul><li><p><code>KEYS_ONLY</code> - Only the index and primary keys are projected into the index.</p></li><li><p><code>INCLUDE</code> - Only the specified table attributes are projected into the index. The list of projected attributes are in <i>NonKeyAttributes</i>.</p></li><li><p><code>ALL</code> - All of the table attributes are projected into the index.</p></li></ul></li><li><p><i>NonKeyAttributes</i> - A list of one or more non-key attribute names that are projected into the secondary index. The total count of attributes provided in <i>NonKeyAttributes</i>, summed across all of the secondary indexes, must not exceed 20. If you project the same attribute into two different indexes, this counts as two distinct attributes when determining the total.</p></li></ul></li><li><p><i>ProvisionedThroughput</i> - The provisioned throughput settings for the global secondary index, consisting of read and write capacity units.</p></li></ul>
 
 			</div>
 			
@@ -232,10 +234,10 @@
 <ul><li><p><i>AttributeName</i> - The name of this key attribute.</p></li><li><p><i>KeyType</i> - Determines whether the key attribute is <code>HASH</code> or <code>RANGE</code>.</p></li></ul>
 
 
-<p>For a primary key that consists of a hash attribute, you must specify exactly one element with a <i>KeyType</i> of <code>HASH</code>.</p>
+<p>For a primary key that consists of a hash attribute, you must provide exactly one element with a <i>KeyType</i> of <code>HASH</code>.</p>
 
 
-<p>For a primary key that consists of hash and range attributes, you must specify exactly two elements, in this order: The first element must have a <i>KeyType</i> of <code>HASH</code>, and the second element must have a <i>KeyType</i> of <code>RANGE</code>.</p>
+<p>For a primary key that consists of hash and range attributes, you must provide exactly two elements, in this order: The first element must have a <i>KeyType</i> of <code>HASH</code>, and the second element must have a <i>KeyType</i> of <code>RANGE</code>.</p>
 
 
 <p>For more information, see <a href="http://docs.aws.amazon.com/amazondynamodb/latest/developerguide/WorkingWithTables.html#WorkingWithTables.primary.key">Specifying the Primary Key</a> in the <i>Amazon DynamoDB Developer Guide</i>.</p>
@@ -286,7 +288,7 @@
 <p>Each local secondary index in the array includes the following:</p>
 
 
-<ul><li><p><i>IndexName</i> - The name of the local secondary index. Must be unique only for this table.</p><p></p></li><li><p><i>KeySchema</i> - Specifies the key schema for the local secondary index. The key schema must begin with the same hash key attribute as the table.</p></li><li><p><i>Projection</i> - Specifies attributes that are copied (projected) from the table into the index. These are in addition to the primary key attributes and index key attributes, which are automatically projected. Each attribute specification is composed of:</p><ul><li><p><i>ProjectionType</i> - One of the following:</p><ul><li><p><code>KEYS_ONLY</code> - Only the index and primary keys are projected into the index.</p></li><li><p><code>INCLUDE</code> - Only the specified table attributes are projected into the index. The list of projected attributes are in <i>NonKeyAttributes</i>.</p></li><li><p><code>ALL</code> - All of the table attributes are projected into the index.</p></li></ul></li><li><p><i>NonKeyAttributes</i> - A list of one or more non-key attribute names that are projected into the secondary index. The total count of attributes specified in <i>NonKeyAttributes</i>, summed across all of the secondary indexes, must not exceed 20. If you project the same attribute into two different indexes, this counts as two distinct attributes when determining the total.</p></li></ul></li></ul>
+<ul><li><p><i>IndexName</i> - The name of the local secondary index. Must be unique only for this table.</p><p></p></li><li><p><i>KeySchema</i> - Specifies the key schema for the local secondary index. The key schema must begin with the same hash key attribute as the table.</p></li><li><p><i>Projection</i> - Specifies attributes that are copied (projected) from the table into the index. These are in addition to the primary key attributes and index key attributes, which are automatically projected. Each attribute specification is composed of:</p><ul><li><p><i>ProjectionType</i> - One of the following:</p><ul><li><p><code>KEYS_ONLY</code> - Only the index and primary keys are projected into the index.</p></li><li><p><code>INCLUDE</code> - Only the specified table attributes are projected into the index. The list of projected attributes are in <i>NonKeyAttributes</i>.</p></li><li><p><code>ALL</code> - All of the table attributes are projected into the index.</p></li></ul></li><li><p><i>NonKeyAttributes</i> - A list of one or more non-key attribute names that are projected into the secondary index. The total count of attributes provided in <i>NonKeyAttributes</i>, summed across all of the secondary indexes, must not exceed 20. If you project the same attribute into two different indexes, this counts as two distinct attributes when determining the total.</p></li></ul></li></ul>
 
 			</div>
 			
@@ -338,6 +340,43 @@
 		    
 
 			<div class="method-subsection method-declaration"><code>@property (nonatomic, strong) AWSDynamoDBProvisionedThroughput *provisionedThroughput</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AWSDynamoDBModel.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/streamSpecification" title="streamSpecification"></a>
+	<h3 class="method-title"><code><a href="#//api/name/streamSpecification">&nbsp;&nbsp;streamSpecification</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>@property (nonatomic, strong) AWSDynamoDBStreamSpecification *streamSpecification</code></div>
 
 		    
 			
@@ -416,7 +455,7 @@
 				<footer>
 					<div class="footer-copyright">
 						
-						<p class="copyright">Copyright &copy; 2015 Amazon Web Services, Inc. All rights reserved. Updated: 2015-03-25</p>
+						<p class="copyright">Copyright &copy; 2015 Amazon Web Services, Inc. All rights reserved. Updated: 2015-08-31</p>
 						
 						
 						<p class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.2.1 (build 1333)</a>.</p>

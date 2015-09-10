@@ -14,7 +14,7 @@
 		<div class="container" class="hide-in-xcode">
 			
 			<h1 id="library-title">
-				<a href="../index.html">AWS SDK for iOS v2.1.0 </a>
+				<a href="../index.html">AWS SDK for iOS v2.2.5 </a>
 			</h1>
 
 			<p id="developer-home">
@@ -42,8 +42,6 @@
 
 							<select id="jump-to">
 	<option value="top">Jump To&#133;</option>
-	
-	<option value="overview">Overview</option>
 	
 
 	
@@ -148,16 +146,6 @@
 					
 
                     
-					
-					<div class="section section-overview">
-						<a title="Overview" name="overview"></a>
-						<h2 class="subtitle subtitle-overview">Overview</h2>
-						<p>Copyright 2015 Amazon.com, Inc. or its affiliates. All Rights Reserved.</p>
-
-<p>Copyright 2015 Amazon.com, Inc. or its affiliates. All Rights Reserved.</p>
-					</div>
-					
-					
 
 					
 					
@@ -900,6 +888,11 @@ AWSCognitoCredentials provider.</p>
 			
 
 			
+			<div class="method-subsection return">
+				<h4 class="method-subtitle parameter-title">Return Value</h4>
+				<p>handle to AWSCognitoDataset</p>
+			</div>
+			
 
 			
 
@@ -942,6 +935,11 @@ the client has knowledge of all datasets available on the remote store.</p>
 			
 
 			
+			<div class="method-subsection return">
+				<h4 class="method-subtitle parameter-title">Return Value</h4>
+				<p>NSArray of AWSCognitoDatasetMetadata</p>
+			</div>
+			
 
 			
 
@@ -972,12 +970,13 @@ the client has knowledge of all datasets available on the remote store.</p>
 			
 			
 			<div class="method-subsection brief-description">
-				<p>List all of the datasets.  Returns a BFTask. The result of this task will be an array of AWSCognitoDatasetMetadata objects.</p>
+				<p>List all of the datasets.  Returns a AWSTask. The result of this task will be an array of
+AWSCognitoDatasetMetadata objects.</p>
 			</div>
 			
 		    
 
-			<div class="method-subsection method-declaration"><code>- (BFTask *)refreshDatasetMetadata</code></div>
+			<div class="method-subsection method-declaration"><code>- (AWSTask *)refreshDatasetMetadata</code></div>
 
 		    
 			
@@ -1097,13 +1096,13 @@ the client has knowledge of all datasets available on the remote store.</p>
 			<div class="method-subsection brief-description">
 				<p>Register this device for push notifications.  You will not receive any notifications until you actually subscribe the
 dataset you want to receive push notifications for.  If your build targets Release, this will register the device
-with APNS, if your build targets Debug this will register the device with APNS_SANDBOX. Returns a BFTask.
+with APNS, if your build targets Debug this will register the device with APNS_SANDBOX. Returns a AWSTask.
 The result of this task will be a AWSCognitoSyncRegisterDeviceResponse.</p>
 			</div>
 			
 		    
 
-			<div class="method-subsection method-declaration"><code>- (BFTask *)registerDevice:(NSData *)<em>deviceToken</em></code></div>
+			<div class="method-subsection method-declaration"><code>- (AWSTask *)registerDevice:(NSData *)<em>deviceToken</em></code></div>
 
 		    
 			
@@ -1184,7 +1183,7 @@ The result of this task will be a AWSCognitoSyncRegisterDeviceResponse.</p>
 
 <h1>ifdef DEBUG</h1>
 
-<p>[[AWSCognito defaultCognito] setPushPlatform:AWSCognitoSyncPlatformApnsSandbox];</p>
+<p>  [[AWSCognito defaultCognito] setPushPlatform:AWSCognitoSyncPlatformApnsSandbox];</p>
 
 <h1>endif</h1>
 
@@ -1272,13 +1271,13 @@ always use APNS.</p>
 			
 			<div class="method-subsection brief-description">
 				<p>Subscribe to a list of datasets.  Make sure you have called synchronize on each of the datasets in the list
-at least once prior to calling this. Returns a BFTask.  The result of this task will be a NSArray of
+at least once prior to calling this. Returns a AWSTask.  The result of this task will be a NSArray of
 AWSCognitoSyncSubscribeToDatasetResponse</p>
 			</div>
 			
 		    
 
-			<div class="method-subsection method-declaration"><code>- (BFTask *)subscribe:(NSArray *)<em>datasetNames</em></code></div>
+			<div class="method-subsection method-declaration"><code>- (AWSTask *)subscribe:(NSArray *)<em>datasetNames</em></code></div>
 
 		    
 			
@@ -1315,13 +1314,13 @@ AWSCognitoSyncSubscribeToDatasetResponse</p>
 			
 			<div class="method-subsection brief-description">
 				<p>Subscribe to all datasets you have locally.  Make sure you have called synchronize on all of your local datasets
-at least once prior to calling this. Returns a BFTask.  The result of this task will be a NSArray of
+at least once prior to calling this. Returns a AWSTask.  The result of this task will be a NSArray of
 AWSCognitoSyncSubscribeToDatasetResponse</p>
 			</div>
 			
 		    
 
-			<div class="method-subsection method-declaration"><code>- (BFTask *)subscribeAll</code></div>
+			<div class="method-subsection method-declaration"><code>- (AWSTask *)subscribeAll</code></div>
 
 		    
 			
@@ -1357,13 +1356,13 @@ AWSCognitoSyncSubscribeToDatasetResponse</p>
 			
 			
 			<div class="method-subsection brief-description">
-				<p>Unsubscribe to a list of datasets. Returns a BFTask.  The result of this task will be a NSArray of
+				<p>Unsubscribe to a list of datasets. Returns a AWSTask.  The result of this task will be a NSArray of
 AWSCognitoSyncUnsubscribeToDatasetResponse</p>
 			</div>
 			
 		    
 
-			<div class="method-subsection method-declaration"><code>- (BFTask *)unsubscribe:(NSArray *)<em>datasetNames</em></code></div>
+			<div class="method-subsection method-declaration"><code>- (AWSTask *)unsubscribe:(NSArray *)<em>datasetNames</em></code></div>
 
 		    
 			
@@ -1400,13 +1399,13 @@ AWSCognitoSyncUnsubscribeToDatasetResponse</p>
 			
 			<div class="method-subsection brief-description">
 				<p>Unsubscribe to all datasets you have locally.  Make sure you have called synchronize on all of your local datasets
-at least once prior to calling this. Returns a BFTask.  The result of this task will be a NSArray of
+at least once prior to calling this. Returns a AWSTask.  The result of this task will be a NSArray of
 AWSCognitoSyncUnsubscribeToDatasetResponse</p>
 			</div>
 			
 		    
 
-			<div class="method-subsection method-declaration"><code>- (BFTask *)unsubscribeAll</code></div>
+			<div class="method-subsection method-declaration"><code>- (AWSTask *)unsubscribeAll</code></div>
 
 		    
 			
@@ -1443,7 +1442,7 @@ AWSCognitoSyncUnsubscribeToDatasetResponse</p>
 				<footer>
 					<div class="footer-copyright">
 						
-						<p class="copyright">Copyright &copy; 2015 Amazon Web Services, Inc. All rights reserved. Updated: 2015-03-25</p>
+						<p class="copyright">Copyright &copy; 2015 Amazon Web Services, Inc. All rights reserved. Updated: 2015-08-31</p>
 						
 						
 						<p class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.2.1 (build 1333)</a>.</p>

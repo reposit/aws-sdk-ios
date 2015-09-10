@@ -1,16 +1,89 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSCognitoIdentityResponseSerializer.html">
+	<File path="Classes/AWSCognitoIdentitySetIdentityPoolRolesInput.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSCognitoIdentityResponseSerializer</TokenIdentifier>
-			<Abstract type="html">Copyright 2010-2015 Amazon.com, Inc. or its affiliates. All Rights Reserved.</Abstract>
-			<DeclaredIn>AWSCognitoIdentityService.m</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSCognitoIdentitySetIdentityPoolRolesInput</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Input to the &lt;code&gt;SetIdentityPoolRoles&lt;/code&gt; action.&lt;/p&gt;
+Required parameters: [IdentityPoolId, Roles]</Abstract>
+			<DeclaredIn>AWSCognitoIdentityModel.h</DeclaredIn>
             
 			
 			<NodeRef refid="147"/>
 		</Token>
 		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoIdentitySetIdentityPoolRolesInput/setIdentityPoolId:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;An identity pool ID in the format REGION:GUID.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSCognitoIdentityModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *identityPoolId</Declaration>
+			
+			
+			<Anchor>//api/name/identityPoolId</Anchor>
+            <NodeRef refid="147"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoIdentitySetIdentityPoolRolesInput/identityPoolId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;An identity pool ID in the format REGION:GUID.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSCognitoIdentityModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *identityPoolId</Declaration>
+			
+			
+			<Anchor>//api/name/identityPoolId</Anchor>
+            <NodeRef refid="147"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSCognitoIdentitySetIdentityPoolRolesInput/identityPoolId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;An identity pool ID in the format REGION:GUID.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSCognitoIdentityModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *identityPoolId</Declaration>
+			
+			
+			<Anchor>//api/name/identityPoolId</Anchor>
+            <NodeRef refid="147"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoIdentitySetIdentityPoolRolesInput/setRoles:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The map of roles associated with this pool. Currently only authenticated and unauthenticated roles are supported.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSCognitoIdentityModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSDictionary *roles</Declaration>
+			
+			
+			<Anchor>//api/name/roles</Anchor>
+            <NodeRef refid="147"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoIdentitySetIdentityPoolRolesInput/roles</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The map of roles associated with this pool. Currently only authenticated and unauthenticated roles are supported.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSCognitoIdentityModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSDictionary *roles</Declaration>
+			
+			
+			<Anchor>//api/name/roles</Anchor>
+            <NodeRef refid="147"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSCognitoIdentitySetIdentityPoolRolesInput/roles</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The map of roles associated with this pool. Currently only authenticated and unauthenticated roles are supported.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSCognitoIdentityModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSDictionary *roles</Declaration>
+			
+			
+			<Anchor>//api/name/roles</Anchor>
+            <NodeRef refid="147"/>
+		</Token>
 		
         
         

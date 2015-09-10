@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSEC2CreateDhcpOptionsResult.html">
+	<File path="Classes/AWSEC2CancelSpotInstanceRequestsRequest.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSEC2CreateDhcpOptionsResult</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSEC2CancelSpotInstanceRequestsRequest</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
             
@@ -13,38 +13,74 @@
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2CreateDhcpOptionsResult/setDhcpOptions:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;A set of DHCP options.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2CancelSpotInstanceRequestsRequest/setDryRun:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) AWSEC2DhcpOptions *dhcpOptions</Declaration>
+			<Declaration>@property (nonatomic, strong) NSNumber *dryRun</Declaration>
 			
 			
-			<Anchor>//api/name/dhcpOptions</Anchor>
+			<Anchor>//api/name/dryRun</Anchor>
             <NodeRef refid="296"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2CreateDhcpOptionsResult/dhcpOptions</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;A set of DHCP options.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2CancelSpotInstanceRequestsRequest/dryRun</TokenIdentifier>
+			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) AWSEC2DhcpOptions *dhcpOptions</Declaration>
+			<Declaration>@property (nonatomic, strong) NSNumber *dryRun</Declaration>
 			
 			
-			<Anchor>//api/name/dhcpOptions</Anchor>
+			<Anchor>//api/name/dryRun</Anchor>
             <NodeRef refid="296"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2CreateDhcpOptionsResult/dhcpOptions</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;A set of DHCP options.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2CancelSpotInstanceRequestsRequest/dryRun</TokenIdentifier>
+			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) AWSEC2DhcpOptions *dhcpOptions</Declaration>
+			<Declaration>@property (nonatomic, strong) NSNumber *dryRun</Declaration>
 			
 			
-			<Anchor>//api/name/dhcpOptions</Anchor>
+			<Anchor>//api/name/dryRun</Anchor>
+            <NodeRef refid="296"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2CancelSpotInstanceRequestsRequest/setSpotInstanceRequestIds:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;One or more Spot Instance request IDs.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray *spotInstanceRequestIds</Declaration>
+			
+			
+			<Anchor>//api/name/spotInstanceRequestIds</Anchor>
+            <NodeRef refid="296"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2CancelSpotInstanceRequestsRequest/spotInstanceRequestIds</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;One or more Spot Instance request IDs.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray *spotInstanceRequestIds</Declaration>
+			
+			
+			<Anchor>//api/name/spotInstanceRequestIds</Anchor>
+            <NodeRef refid="296"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2CancelSpotInstanceRequestsRequest/spotInstanceRequestIds</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;One or more Spot Instance request IDs.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray *spotInstanceRequestIds</Declaration>
+			
+			
+			<Anchor>//api/name/spotInstanceRequestIds</Anchor>
             <NodeRef refid="296"/>
 		</Token>
 		

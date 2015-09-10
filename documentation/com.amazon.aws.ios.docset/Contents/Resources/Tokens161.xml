@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSCognitoSyncDescribeDatasetResponse.html">
+	<File path="Classes/AWSCognitoSyncDeleteDatasetResponse.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSCognitoSyncDescribeDatasetResponse</TokenIdentifier>
-			<Abstract type="html">Response to a successful DescribeDataset request.</Abstract>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSCognitoSyncDeleteDatasetResponse</TokenIdentifier>
+			<Abstract type="html">Response to a successful DeleteDataset request.</Abstract>
 			<DeclaredIn>AWSCognitoSyncModel.h</DeclaredIn>
             
 			
@@ -13,8 +13,8 @@
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoSyncDescribeDatasetResponse/setDataset:</TokenIdentifier>
-			<Abstract type="html">Metadata for a collection of data for an identity. An identity can have multiple datasets. A dataset can be general or associated with a particular entity in an application (like a saved game). Datasets are automatically created if they don&apos;t exist. Data is synced by dataset, and a dataset can hold up to 1MB of key-value pairs.</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoSyncDeleteDatasetResponse/setDataset:</TokenIdentifier>
+			<Abstract type="html">A collection of data for an identity pool. An identity pool can have multiple datasets. A dataset is per identity and can be general or associated with a particular entity in an application (like a saved game). Datasets are automatically created if they don&apos;t exist. Data is synced by dataset, and a dataset can hold up to 1MB of key-value pairs.</Abstract>
 			<DeclaredIn>AWSCognitoSyncModel.h</DeclaredIn>
 			
 			<Declaration>@property (nonatomic, strong) AWSCognitoSyncDataset *dataset</Declaration>
@@ -25,8 +25,8 @@
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoSyncDescribeDatasetResponse/dataset</TokenIdentifier>
-			<Abstract type="html">Metadata for a collection of data for an identity. An identity can have multiple datasets. A dataset can be general or associated with a particular entity in an application (like a saved game). Datasets are automatically created if they don&apos;t exist. Data is synced by dataset, and a dataset can hold up to 1MB of key-value pairs.</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoSyncDeleteDatasetResponse/dataset</TokenIdentifier>
+			<Abstract type="html">A collection of data for an identity pool. An identity pool can have multiple datasets. A dataset is per identity and can be general or associated with a particular entity in an application (like a saved game). Datasets are automatically created if they don&apos;t exist. Data is synced by dataset, and a dataset can hold up to 1MB of key-value pairs.</Abstract>
 			<DeclaredIn>AWSCognitoSyncModel.h</DeclaredIn>
 			
 			<Declaration>@property (nonatomic, strong) AWSCognitoSyncDataset *dataset</Declaration>
@@ -37,8 +37,8 @@
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSCognitoSyncDescribeDatasetResponse/dataset</TokenIdentifier>
-			<Abstract type="html">Metadata for a collection of data for an identity. An identity can have multiple datasets. A dataset can be general or associated with a particular entity in an application (like a saved game). Datasets are automatically created if they don&apos;t exist. Data is synced by dataset, and a dataset can hold up to 1MB of key-value pairs.</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSCognitoSyncDeleteDatasetResponse/dataset</TokenIdentifier>
+			<Abstract type="html">A collection of data for an identity pool. An identity pool can have multiple datasets. A dataset is per identity and can be general or associated with a particular entity in an application (like a saved game). Datasets are automatically created if they don&apos;t exist. Data is synced by dataset, and a dataset can hold up to 1MB of key-value pairs.</Abstract>
 			<DeclaredIn>AWSCognitoSyncModel.h</DeclaredIn>
 			
 			<Declaration>@property (nonatomic, strong) AWSCognitoSyncDataset *dataset</Declaration>

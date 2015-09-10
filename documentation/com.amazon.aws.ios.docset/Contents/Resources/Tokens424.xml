@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSEC2DescribeVolumeAttributeResult.html">
+	<File path="Classes/AWSEC2DescribeSnapshotsResult.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSEC2DescribeVolumeAttributeResult</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSEC2DescribeSnapshotsResult</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
             
@@ -13,110 +13,74 @@
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DescribeVolumeAttributeResult/setAutoEnableIO:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The state of &lt;code&gt;autoEnableIO&lt;/code&gt; attribute.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DescribeSnapshotsResult/setNextToken:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) AWSEC2AttributeBooleanValue *autoEnableIO</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *nextToken</Declaration>
 			
 			
-			<Anchor>//api/name/autoEnableIO</Anchor>
+			<Anchor>//api/name/nextToken</Anchor>
             <NodeRef refid="424"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DescribeVolumeAttributeResult/autoEnableIO</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The state of &lt;code&gt;autoEnableIO&lt;/code&gt; attribute.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DescribeSnapshotsResult/nextToken</TokenIdentifier>
+			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) AWSEC2AttributeBooleanValue *autoEnableIO</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *nextToken</Declaration>
 			
 			
-			<Anchor>//api/name/autoEnableIO</Anchor>
+			<Anchor>//api/name/nextToken</Anchor>
             <NodeRef refid="424"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2DescribeVolumeAttributeResult/autoEnableIO</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The state of &lt;code&gt;autoEnableIO&lt;/code&gt; attribute.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2DescribeSnapshotsResult/nextToken</TokenIdentifier>
+			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) AWSEC2AttributeBooleanValue *autoEnableIO</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *nextToken</Declaration>
 			
 			
-			<Anchor>//api/name/autoEnableIO</Anchor>
+			<Anchor>//api/name/nextToken</Anchor>
             <NodeRef refid="424"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DescribeVolumeAttributeResult/setProductCodes:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;A list of product codes.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DescribeSnapshotsResult/setSnapshots:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSArray *productCodes</Declaration>
+			<Declaration>@property (nonatomic, strong) NSArray *snapshots</Declaration>
 			
 			
-			<Anchor>//api/name/productCodes</Anchor>
+			<Anchor>//api/name/snapshots</Anchor>
             <NodeRef refid="424"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DescribeVolumeAttributeResult/productCodes</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;A list of product codes.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DescribeSnapshotsResult/snapshots</TokenIdentifier>
+			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSArray *productCodes</Declaration>
+			<Declaration>@property (nonatomic, strong) NSArray *snapshots</Declaration>
 			
 			
-			<Anchor>//api/name/productCodes</Anchor>
+			<Anchor>//api/name/snapshots</Anchor>
             <NodeRef refid="424"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2DescribeVolumeAttributeResult/productCodes</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;A list of product codes.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2DescribeSnapshotsResult/snapshots</TokenIdentifier>
+			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSArray *productCodes</Declaration>
+			<Declaration>@property (nonatomic, strong) NSArray *snapshots</Declaration>
 			
 			
-			<Anchor>//api/name/productCodes</Anchor>
-            <NodeRef refid="424"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DescribeVolumeAttributeResult/setVolumeId:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The ID of the volume.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *volumeId</Declaration>
-			
-			
-			<Anchor>//api/name/volumeId</Anchor>
-            <NodeRef refid="424"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DescribeVolumeAttributeResult/volumeId</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The ID of the volume.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *volumeId</Declaration>
-			
-			
-			<Anchor>//api/name/volumeId</Anchor>
-            <NodeRef refid="424"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2DescribeVolumeAttributeResult/volumeId</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The ID of the volume.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *volumeId</Declaration>
-			
-			
-			<Anchor>//api/name/volumeId</Anchor>
+			<Anchor>//api/name/snapshots</Anchor>
             <NodeRef refid="424"/>
 		</Token>
 		

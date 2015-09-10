@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSS3GetBucketNotificationOutput.html">
+	<File path="Classes/AWSMobileAnalyticsERS.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSS3GetBucketNotificationOutput</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSMobileAnalyticsERS</TokenIdentifier>
+			<Abstract type="html">A service which is used to record Amazon Mobile Analytics events</Abstract>
+			<DeclaredIn>AWSMobileAnalyticsERSService.h</DeclaredIn>
             
 			
 			<NodeRef refid="801"/>
@@ -13,110 +13,126 @@
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3GetBucketNotificationOutput/setCloudFunctionConfiguration:</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSMobileAnalyticsERS/setConfiguration:</TokenIdentifier>
+			<Abstract type="html">The service configuration used to instantiate this service client.</Abstract>
+			<DeclaredIn>AWSMobileAnalyticsERSService.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) AWSS3CloudFunctionConfiguration *cloudFunctionConfiguration</Declaration>
+			<Declaration>@property (nonatomic, strong, readonly) AWSServiceConfiguration *configuration</Declaration>
 			
 			
-			<Anchor>//api/name/cloudFunctionConfiguration</Anchor>
+			<Anchor>//api/name/configuration</Anchor>
             <NodeRef refid="801"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3GetBucketNotificationOutput/cloudFunctionConfiguration</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSMobileAnalyticsERS/configuration</TokenIdentifier>
+			<Abstract type="html">The service configuration used to instantiate this service client.</Abstract>
+			<DeclaredIn>AWSMobileAnalyticsERSService.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) AWSS3CloudFunctionConfiguration *cloudFunctionConfiguration</Declaration>
+			<Declaration>@property (nonatomic, strong, readonly) AWSServiceConfiguration *configuration</Declaration>
 			
 			
-			<Anchor>//api/name/cloudFunctionConfiguration</Anchor>
+			<Anchor>//api/name/configuration</Anchor>
             <NodeRef refid="801"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSS3GetBucketNotificationOutput/cloudFunctionConfiguration</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSMobileAnalyticsERS/configuration</TokenIdentifier>
+			<Abstract type="html">The service configuration used to instantiate this service client.</Abstract>
+			<DeclaredIn>AWSMobileAnalyticsERSService.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) AWSS3CloudFunctionConfiguration *cloudFunctionConfiguration</Declaration>
+			<Declaration>@property (nonatomic, strong, readonly) AWSServiceConfiguration *configuration</Declaration>
 			
 			
-			<Anchor>//api/name/cloudFunctionConfiguration</Anchor>
+			<Anchor>//api/name/configuration</Anchor>
             <NodeRef refid="801"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3GetBucketNotificationOutput/setQueueConfiguration:</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/clm/AWSMobileAnalyticsERS/defaultMobileAnalyticsERS</TokenIdentifier>
+			<Abstract type="html">Returns the singleton service client. If the singleton object does not exist, the SDK instantiates the default service client with defaultServiceConfiguration from [AWSServiceManager defaultServiceManager]. The reference to this object is maintained by the SDK, and you do not need to retain it manually.</Abstract>
+			<DeclaredIn>AWSMobileAnalyticsERSService.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) AWSS3QueueConfiguration *queueConfiguration</Declaration>
+			<Declaration>+ (instancetype)defaultMobileAnalyticsERS</Declaration>
 			
-			
-			<Anchor>//api/name/queueConfiguration</Anchor>
+			<ReturnValue><Abstract type="html">The default service client.</Abstract></ReturnValue>
+			<Anchor>//api/name/defaultMobileAnalyticsERS</Anchor>
             <NodeRef refid="801"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3GetBucketNotificationOutput/queueConfiguration</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/clm/AWSMobileAnalyticsERS/registerMobileAnalyticsERSWithConfiguration:forKey:</TokenIdentifier>
+			<Abstract type="html">Creates a service client with the given service configuration and registers it for the key.</Abstract>
+			<DeclaredIn>AWSMobileAnalyticsERSService.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) AWSS3QueueConfiguration *queueConfiguration</Declaration>
+			<Declaration>+ (void)registerMobileAnalyticsERSWithConfiguration:(AWSServiceConfiguration *)configuration forKey:(NSString *)key</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>configuration</Name>
+					<Abstract type="html">A service configuration object.</Abstract>
+				</Parameter><Parameter>
+					<Name>key</Name>
+					<Abstract type="html">A string to identify the service client.</Abstract>
+				</Parameter>
+			</Parameters>
 			
-			
-			<Anchor>//api/name/queueConfiguration</Anchor>
+			<Anchor>//api/name/registerMobileAnalyticsERSWithConfiguration:forKey:</Anchor>
             <NodeRef refid="801"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSS3GetBucketNotificationOutput/queueConfiguration</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/clm/AWSMobileAnalyticsERS/MobileAnalyticsERSForKey:</TokenIdentifier>
+			<Abstract type="html">Retrieves the service client associated with the key. You need to call + registerMobileAnalyticsERSWithConfiguration:forKey: before invoking this method. If + registerMobileAnalyticsERSWithConfiguration:forKey: has not been called in advance or the key does not exist, this method returns nil.</Abstract>
+			<DeclaredIn>AWSMobileAnalyticsERSService.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) AWSS3QueueConfiguration *queueConfiguration</Declaration>
-			
-			
-			<Anchor>//api/name/queueConfiguration</Anchor>
+			<Declaration>+ (instancetype)MobileAnalyticsERSForKey:(NSString *)key</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>key</Name>
+					<Abstract type="html">A string to identify the service client.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An instance of the service client.</Abstract></ReturnValue>
+			<Anchor>//api/name/MobileAnalyticsERSForKey:</Anchor>
             <NodeRef refid="801"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3GetBucketNotificationOutput/setTopicConfiguration:</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/clm/AWSMobileAnalyticsERS/removeMobileAnalyticsERSForKey:</TokenIdentifier>
+			<Abstract type="html">Removes the service client associated with the key and release it.</Abstract>
+			<DeclaredIn>AWSMobileAnalyticsERSService.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) AWSS3TopicConfiguration *topicConfiguration</Declaration>
+			<Declaration>+ (void)removeMobileAnalyticsERSForKey:(NSString *)key</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>key</Name>
+					<Abstract type="html">A string to identify the service client.</Abstract>
+				</Parameter>
+			</Parameters>
 			
-			
-			<Anchor>//api/name/topicConfiguration</Anchor>
+			<Anchor>//api/name/removeMobileAnalyticsERSForKey:</Anchor>
             <NodeRef refid="801"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3GetBucketNotificationOutput/topicConfiguration</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSMobileAnalyticsERS/putEvents:</TokenIdentifier>
+			<Abstract type="html">Record a batch of events</Abstract>
+			<DeclaredIn>AWSMobileAnalyticsERSService.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) AWSS3TopicConfiguration *topicConfiguration</Declaration>
-			
-			
-			<Anchor>//api/name/topicConfiguration</Anchor>
-            <NodeRef refid="801"/>
-		</Token>
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/AWSMobileAnalyticsERSPutEventsInput</TokenIdentifier>
 		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSS3GetBucketNotificationOutput/topicConfiguration</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) AWSS3TopicConfiguration *topicConfiguration</Declaration>
-			
-			
-			<Anchor>//api/name/topicConfiguration</Anchor>
+	</RelatedTokens>
+	
+			<Declaration>- (AWSTask *)putEvents:(AWSMobileAnalyticsERSPutEventsInput *)request</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A container for the necessary parameters to execute the PutEvents service method.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An instance of AWSTask. On successful execution, task.result will be nil. On failed execution, task.error may contain an NSError with AWSMobileAnalyticsERSErrorDomain domain and the following error code: AWSMobileAnalyticsERSErrorBadRequest.</Abstract></ReturnValue>
+			<Anchor>//api/name/putEvents:</Anchor>
             <NodeRef refid="801"/>
 		</Token>
 		

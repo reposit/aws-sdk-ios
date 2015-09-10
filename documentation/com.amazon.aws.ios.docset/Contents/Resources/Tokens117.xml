@@ -383,6 +383,12 @@ method when using developer authenticated identities.</Abstract>
 acquirind identity id and (optionally) OpenId Connect token.</Abstract>
 				</Parameter><Parameter>
 					<Name>unauthRoleArn</Name>
+					<Abstract type="html">The role ARN to use when getting credentials for unauthenticated identities.
+Provider will check the isAuthenticated property of the identity provider to
+determine which role to use. Can be nil if unauthenticated identities are not supported or
+if using enhanced authentication flow.</Abstract>
+				</Parameter><Parameter>
+					<Name>authRoleArn</Name>
 					<Abstract type="html">The role ARN to use when getting credentials for authenticated identities.
 Provider will check the isAuthenticated property of the identity provider to
 determine which role to use. Can be nil if authenticated identities are not supported or
@@ -419,6 +425,11 @@ is no longer required</Abstract>
 Amazon Cognito as well as namespace values stored in the keychain.</Abstract>
 				</Parameter><Parameter>
 					<Name>unauthRoleArn</Name>
+					<Abstract type="html">The role ARN to use when getting credentials for unauthenticated identities.
+Provider will check the isAuthenticated property of the identity provider to
+determine which role to use. Can be nil if unauthenticated identities are not supported.</Abstract>
+				</Parameter><Parameter>
+					<Name>authRoleArn</Name>
 					<Abstract type="html">The role ARN to use when getting credentials for authenticated identities.
 Provider will check the isAuthenticated property of the identity provider to
 determine which role to use. Can be nil if authenticated identities are not supported.</Abstract>
@@ -438,9 +449,9 @@ determine which role to use. Can be nil if authenticated identities are not supp
 and you do not need to call this method manually.</Abstract>
 			<DeclaredIn>AWSCredentialsProvider.h</DeclaredIn>
 			
-			<Declaration>- (BFTask *)refresh</Declaration>
+			<Declaration>- (AWSTask *)refresh</Declaration>
 			
-			<ReturnValue><Abstract type="html">BFTask</Abstract></ReturnValue>
+			<ReturnValue><Abstract type="html">AWSTask</Abstract></ReturnValue>
 			<Anchor>//api/name/refresh</Anchor>
             <NodeRef refid="117"/>
 		</Token>
@@ -448,14 +459,14 @@ and you do not need to call this method manually.</Abstract>
 		<Token>
 			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoCredentialsProvider/getIdentityId</TokenIdentifier>
 			<Abstract type="html">Get/retrieve the identity id for this provider. If an identity id is already set on this
-provider, no remote call is made and the identity will be returned as a result of the BFTask
+provider, no remote call is made and the identity will be returned as a result of the AWSTask
 (the identityId is also available as a property).
 If no identityId is set on this provider, one will be retrieved from the service.</Abstract>
 			<DeclaredIn>AWSCredentialsProvider.h</DeclaredIn>
 			
-			<Declaration>- (BFTask *)getIdentityId</Declaration>
+			<Declaration>- (AWSTask *)getIdentityId</Declaration>
 			
-			<ReturnValue><Abstract type="html">BFTask</Abstract></ReturnValue>
+			<ReturnValue><Abstract type="html">AWSTask</Abstract></ReturnValue>
 			<Anchor>//api/name/getIdentityId</Anchor>
             <NodeRef refid="117"/>
 		</Token>

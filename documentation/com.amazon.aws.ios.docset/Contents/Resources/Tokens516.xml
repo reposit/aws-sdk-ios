@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSEC2ModifyVolumeAttributeRequest.html">
+	<File path="Classes/AWSEC2InstanceStatusDetails.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSEC2ModifyVolumeAttributeRequest</TokenIdentifier>
-			<Abstract type="html"></Abstract>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSEC2InstanceStatusDetails</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Describes the instance status.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
             
 			
@@ -13,110 +13,110 @@
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ModifyVolumeAttributeRequest/setAutoEnableIO:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Indicates whether the volume should be auto-enabled for I/O operations.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2InstanceStatusDetails/setImpairedSince:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The time when a status check failed. For an instance that was launched and impaired, this is the time when the instance was launched.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) AWSEC2AttributeBooleanValue *autoEnableIO</Declaration>
+			<Declaration>@property (nonatomic, strong) NSDate *impairedSince</Declaration>
 			
 			
-			<Anchor>//api/name/autoEnableIO</Anchor>
+			<Anchor>//api/name/impairedSince</Anchor>
             <NodeRef refid="516"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ModifyVolumeAttributeRequest/autoEnableIO</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Indicates whether the volume should be auto-enabled for I/O operations.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2InstanceStatusDetails/impairedSince</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The time when a status check failed. For an instance that was launched and impaired, this is the time when the instance was launched.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) AWSEC2AttributeBooleanValue *autoEnableIO</Declaration>
+			<Declaration>@property (nonatomic, strong) NSDate *impairedSince</Declaration>
 			
 			
-			<Anchor>//api/name/autoEnableIO</Anchor>
+			<Anchor>//api/name/impairedSince</Anchor>
             <NodeRef refid="516"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2ModifyVolumeAttributeRequest/autoEnableIO</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Indicates whether the volume should be auto-enabled for I/O operations.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2InstanceStatusDetails/impairedSince</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The time when a status check failed. For an instance that was launched and impaired, this is the time when the instance was launched.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) AWSEC2AttributeBooleanValue *autoEnableIO</Declaration>
+			<Declaration>@property (nonatomic, strong) NSDate *impairedSince</Declaration>
 			
 			
-			<Anchor>//api/name/autoEnableIO</Anchor>
+			<Anchor>//api/name/impairedSince</Anchor>
             <NodeRef refid="516"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ModifyVolumeAttributeRequest/setDryRun:</TokenIdentifier>
-			<Abstract type="html"></Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2InstanceStatusDetails/setName:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The type of instance status.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSNumber *dryRun</Declaration>
+			<Declaration>@property (nonatomic, assign) AWSEC2StatusName name</Declaration>
 			
 			
-			<Anchor>//api/name/dryRun</Anchor>
+			<Anchor>//api/name/name</Anchor>
             <NodeRef refid="516"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ModifyVolumeAttributeRequest/dryRun</TokenIdentifier>
-			<Abstract type="html"></Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2InstanceStatusDetails/name</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The type of instance status.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSNumber *dryRun</Declaration>
+			<Declaration>@property (nonatomic, assign) AWSEC2StatusName name</Declaration>
 			
 			
-			<Anchor>//api/name/dryRun</Anchor>
+			<Anchor>//api/name/name</Anchor>
             <NodeRef refid="516"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2ModifyVolumeAttributeRequest/dryRun</TokenIdentifier>
-			<Abstract type="html"></Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2InstanceStatusDetails/name</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The type of instance status.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSNumber *dryRun</Declaration>
+			<Declaration>@property (nonatomic, assign) AWSEC2StatusName name</Declaration>
 			
 			
-			<Anchor>//api/name/dryRun</Anchor>
+			<Anchor>//api/name/name</Anchor>
             <NodeRef refid="516"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ModifyVolumeAttributeRequest/setVolumeId:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The ID of the volume.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2InstanceStatusDetails/setStatus:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The status.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *volumeId</Declaration>
+			<Declaration>@property (nonatomic, assign) AWSEC2StatusType status</Declaration>
 			
 			
-			<Anchor>//api/name/volumeId</Anchor>
+			<Anchor>//api/name/status</Anchor>
             <NodeRef refid="516"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2ModifyVolumeAttributeRequest/volumeId</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The ID of the volume.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2InstanceStatusDetails/status</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The status.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *volumeId</Declaration>
+			<Declaration>@property (nonatomic, assign) AWSEC2StatusType status</Declaration>
 			
 			
-			<Anchor>//api/name/volumeId</Anchor>
+			<Anchor>//api/name/status</Anchor>
             <NodeRef refid="516"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2ModifyVolumeAttributeRequest/volumeId</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The ID of the volume.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2InstanceStatusDetails/status</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The status.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *volumeId</Declaration>
+			<Declaration>@property (nonatomic, assign) AWSEC2StatusType status</Declaration>
 			
 			
-			<Anchor>//api/name/volumeId</Anchor>
+			<Anchor>//api/name/status</Anchor>
             <NodeRef refid="516"/>
 		</Token>
 		

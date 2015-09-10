@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSEC2DescribeConversionTasksRequest.html">
+	<File path="Classes/AWSEC2DeleteVpnGatewayRequest.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSEC2DescribeConversionTasksRequest</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSEC2DeleteVpnGatewayRequest</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
             
@@ -13,43 +13,7 @@
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DescribeConversionTasksRequest/setConversionTaskIds:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;One or more conversion task IDs.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSArray *conversionTaskIds</Declaration>
-			
-			
-			<Anchor>//api/name/conversionTaskIds</Anchor>
-            <NodeRef refid="367"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DescribeConversionTasksRequest/conversionTaskIds</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;One or more conversion task IDs.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSArray *conversionTaskIds</Declaration>
-			
-			
-			<Anchor>//api/name/conversionTaskIds</Anchor>
-            <NodeRef refid="367"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2DescribeConversionTasksRequest/conversionTaskIds</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;One or more conversion task IDs.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSArray *conversionTaskIds</Declaration>
-			
-			
-			<Anchor>//api/name/conversionTaskIds</Anchor>
-            <NodeRef refid="367"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DescribeConversionTasksRequest/setDryRun:</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DeleteVpnGatewayRequest/setDryRun:</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
@@ -61,7 +25,7 @@
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DescribeConversionTasksRequest/dryRun</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DeleteVpnGatewayRequest/dryRun</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
@@ -73,7 +37,7 @@
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2DescribeConversionTasksRequest/dryRun</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2DeleteVpnGatewayRequest/dryRun</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
@@ -85,38 +49,38 @@
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DescribeConversionTasksRequest/setFilters:</TokenIdentifier>
-			<Abstract type="html"></Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DeleteVpnGatewayRequest/setVpnGatewayId:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the virtual private gateway.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSArray *filters</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *vpnGatewayId</Declaration>
 			
 			
-			<Anchor>//api/name/filters</Anchor>
+			<Anchor>//api/name/vpnGatewayId</Anchor>
             <NodeRef refid="367"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DescribeConversionTasksRequest/filters</TokenIdentifier>
-			<Abstract type="html"></Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DeleteVpnGatewayRequest/vpnGatewayId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the virtual private gateway.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSArray *filters</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *vpnGatewayId</Declaration>
 			
 			
-			<Anchor>//api/name/filters</Anchor>
+			<Anchor>//api/name/vpnGatewayId</Anchor>
             <NodeRef refid="367"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2DescribeConversionTasksRequest/filters</TokenIdentifier>
-			<Abstract type="html"></Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2DeleteVpnGatewayRequest/vpnGatewayId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the virtual private gateway.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSArray *filters</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *vpnGatewayId</Declaration>
 			
 			
-			<Anchor>//api/name/filters</Anchor>
+			<Anchor>//api/name/vpnGatewayId</Anchor>
             <NodeRef refid="367"/>
 		</Token>
 		

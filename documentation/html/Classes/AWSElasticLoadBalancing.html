@@ -14,7 +14,7 @@
 		<div class="container" class="hide-in-xcode">
 			
 			<h1 id="library-title">
-				<a href="../index.html">AWS SDK for iOS v2.1.0 </a>
+				<a href="../index.html">AWS SDK for iOS v2.2.5 </a>
 			</h1>
 
 			<p id="developer-home">
@@ -650,7 +650,7 @@
 			
 		    
 
-			<div class="method-subsection method-declaration"><code>- (BFTask *)addTags:(AWSElasticLoadBalancingAddTagsInput *)<em>request</em></code></div>
+			<div class="method-subsection method-declaration"><code>- (AWSTask *)addTags:(AWSElasticLoadBalancingAddTagsInput *)<em>request</em></code></div>
 
 		    
 			
@@ -670,7 +670,7 @@
 			
 			<div class="method-subsection return">
 				<h4 class="method-subtitle parameter-title">Return Value</h4>
-				<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSElasticLoadBalancingAddTagsOutput</code>. On failed execution, <code>task.error</code> may contain an <code>NSError</code> with <code>AWSElasticLoadBalancingErrorDomain</code> domian and the following error code: <code>AWSElasticLoadBalancingErrorAccessPointNotFound</code>, <code>AWSElasticLoadBalancingErrorTooManyTags</code>, <code>AWSElasticLoadBalancingErrorDuplicateTagKeys</code>.</p>
+				<p>An instance of <code>AWSTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSElasticLoadBalancingAddTagsOutput</code>. On failed execution, <code>task.error</code> may contain an <code>NSError</code> with <code>AWSElasticLoadBalancingErrorDomain</code> domain and the following error code: <code>AWSElasticLoadBalancingErrorAccessPointNotFound</code>, <code>AWSElasticLoadBalancingErrorTooManyTags</code>, <code>AWSElasticLoadBalancingErrorDuplicateTagKeys</code>.</p>
 			</div>
 			
 
@@ -719,7 +719,7 @@
 			
 		    
 
-			<div class="method-subsection method-declaration"><code>- (BFTask *)applySecurityGroupsToLoadBalancer:(AWSElasticLoadBalancingApplySecurityGroupsToLoadBalancerInput *)<em>request</em></code></div>
+			<div class="method-subsection method-declaration"><code>- (AWSTask *)applySecurityGroupsToLoadBalancer:(AWSElasticLoadBalancingApplySecurityGroupsToLoadBalancerInput *)<em>request</em></code></div>
 
 		    
 			
@@ -739,7 +739,7 @@
 			
 			<div class="method-subsection return">
 				<h4 class="method-subtitle parameter-title">Return Value</h4>
-				<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSElasticLoadBalancingApplySecurityGroupsToLoadBalancerOutput</code>. On failed execution, <code>task.error</code> may contain an <code>NSError</code> with <code>AWSElasticLoadBalancingErrorDomain</code> domian and the following error code: <code>AWSElasticLoadBalancingErrorAccessPointNotFound</code>, <code>AWSElasticLoadBalancingErrorInvalidConfigurationRequest</code>, <code>AWSElasticLoadBalancingErrorInvalidSecurityGroup</code>.</p>
+				<p>An instance of <code>AWSTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSElasticLoadBalancingApplySecurityGroupsToLoadBalancerOutput</code>. On failed execution, <code>task.error</code> may contain an <code>NSError</code> with <code>AWSElasticLoadBalancingErrorDomain</code> domain and the following error code: <code>AWSElasticLoadBalancingErrorAccessPointNotFound</code>, <code>AWSElasticLoadBalancingErrorInvalidConfigurationRequest</code>, <code>AWSElasticLoadBalancingErrorInvalidSecurityGroup</code>.</p>
 			</div>
 			
 
@@ -788,7 +788,7 @@
 			
 		    
 
-			<div class="method-subsection method-declaration"><code>- (BFTask *)attachLoadBalancerToSubnets:(AWSElasticLoadBalancingAttachLoadBalancerToSubnetsInput *)<em>request</em></code></div>
+			<div class="method-subsection method-declaration"><code>- (AWSTask *)attachLoadBalancerToSubnets:(AWSElasticLoadBalancingAttachLoadBalancerToSubnetsInput *)<em>request</em></code></div>
 
 		    
 			
@@ -808,7 +808,7 @@
 			
 			<div class="method-subsection return">
 				<h4 class="method-subtitle parameter-title">Return Value</h4>
-				<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSElasticLoadBalancingAttachLoadBalancerToSubnetsOutput</code>. On failed execution, <code>task.error</code> may contain an <code>NSError</code> with <code>AWSElasticLoadBalancingErrorDomain</code> domian and the following error code: <code>AWSElasticLoadBalancingErrorAccessPointNotFound</code>, <code>AWSElasticLoadBalancingErrorInvalidConfigurationRequest</code>, <code>AWSElasticLoadBalancingErrorSubnetNotFound</code>, <code>AWSElasticLoadBalancingErrorInvalidSubnet</code>.</p>
+				<p>An instance of <code>AWSTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSElasticLoadBalancingAttachLoadBalancerToSubnetsOutput</code>. On failed execution, <code>task.error</code> may contain an <code>NSError</code> with <code>AWSElasticLoadBalancingErrorDomain</code> domain and the following error code: <code>AWSElasticLoadBalancingErrorAccessPointNotFound</code>, <code>AWSElasticLoadBalancingErrorInvalidConfigurationRequest</code>, <code>AWSElasticLoadBalancingErrorSubnetNotFound</code>, <code>AWSElasticLoadBalancingErrorInvalidSubnet</code>.</p>
 			</div>
 			
 
@@ -857,7 +857,7 @@
 			
 		    
 
-			<div class="method-subsection method-declaration"><code>- (BFTask *)configureHealthCheck:(AWSElasticLoadBalancingConfigureHealthCheckInput *)<em>request</em></code></div>
+			<div class="method-subsection method-declaration"><code>- (AWSTask *)configureHealthCheck:(AWSElasticLoadBalancingConfigureHealthCheckInput *)<em>request</em></code></div>
 
 		    
 			
@@ -877,7 +877,7 @@
 			
 			<div class="method-subsection return">
 				<h4 class="method-subtitle parameter-title">Return Value</h4>
-				<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSElasticLoadBalancingConfigureHealthCheckOutput</code>. On failed execution, <code>task.error</code> may contain an <code>NSError</code> with <code>AWSElasticLoadBalancingErrorDomain</code> domian and the following error code: <code>AWSElasticLoadBalancingErrorAccessPointNotFound</code>.</p>
+				<p>An instance of <code>AWSTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSElasticLoadBalancingConfigureHealthCheckOutput</code>. On failed execution, <code>task.error</code> may contain an <code>NSError</code> with <code>AWSElasticLoadBalancingErrorDomain</code> domain and the following error code: <code>AWSElasticLoadBalancingErrorAccessPointNotFound</code>.</p>
 			</div>
 			
 
@@ -926,7 +926,7 @@
 			
 		    
 
-			<div class="method-subsection method-declaration"><code>- (BFTask *)createAppCookieStickinessPolicy:(AWSElasticLoadBalancingCreateAppCookieStickinessPolicyInput *)<em>request</em></code></div>
+			<div class="method-subsection method-declaration"><code>- (AWSTask *)createAppCookieStickinessPolicy:(AWSElasticLoadBalancingCreateAppCookieStickinessPolicyInput *)<em>request</em></code></div>
 
 		    
 			
@@ -946,7 +946,7 @@
 			
 			<div class="method-subsection return">
 				<h4 class="method-subtitle parameter-title">Return Value</h4>
-				<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSElasticLoadBalancingCreateAppCookieStickinessPolicyOutput</code>. On failed execution, <code>task.error</code> may contain an <code>NSError</code> with <code>AWSElasticLoadBalancingErrorDomain</code> domian and the following error code: <code>AWSElasticLoadBalancingErrorAccessPointNotFound</code>, <code>AWSElasticLoadBalancingErrorDuplicatePolicyName</code>, <code>AWSElasticLoadBalancingErrorTooManyPolicies</code>, <code>AWSElasticLoadBalancingErrorInvalidConfigurationRequest</code>.</p>
+				<p>An instance of <code>AWSTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSElasticLoadBalancingCreateAppCookieStickinessPolicyOutput</code>. On failed execution, <code>task.error</code> may contain an <code>NSError</code> with <code>AWSElasticLoadBalancingErrorDomain</code> domain and the following error code: <code>AWSElasticLoadBalancingErrorAccessPointNotFound</code>, <code>AWSElasticLoadBalancingErrorDuplicatePolicyName</code>, <code>AWSElasticLoadBalancingErrorTooManyPolicies</code>, <code>AWSElasticLoadBalancingErrorInvalidConfigurationRequest</code>.</p>
 			</div>
 			
 
@@ -995,7 +995,7 @@
 			
 		    
 
-			<div class="method-subsection method-declaration"><code>- (BFTask *)createLBCookieStickinessPolicy:(AWSElasticLoadBalancingCreateLBCookieStickinessPolicyInput *)<em>request</em></code></div>
+			<div class="method-subsection method-declaration"><code>- (AWSTask *)createLBCookieStickinessPolicy:(AWSElasticLoadBalancingCreateLBCookieStickinessPolicyInput *)<em>request</em></code></div>
 
 		    
 			
@@ -1015,7 +1015,7 @@
 			
 			<div class="method-subsection return">
 				<h4 class="method-subtitle parameter-title">Return Value</h4>
-				<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSElasticLoadBalancingCreateLBCookieStickinessPolicyOutput</code>. On failed execution, <code>task.error</code> may contain an <code>NSError</code> with <code>AWSElasticLoadBalancingErrorDomain</code> domian and the following error code: <code>AWSElasticLoadBalancingErrorAccessPointNotFound</code>, <code>AWSElasticLoadBalancingErrorDuplicatePolicyName</code>, <code>AWSElasticLoadBalancingErrorTooManyPolicies</code>, <code>AWSElasticLoadBalancingErrorInvalidConfigurationRequest</code>.</p>
+				<p>An instance of <code>AWSTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSElasticLoadBalancingCreateLBCookieStickinessPolicyOutput</code>. On failed execution, <code>task.error</code> may contain an <code>NSError</code> with <code>AWSElasticLoadBalancingErrorDomain</code> domain and the following error code: <code>AWSElasticLoadBalancingErrorAccessPointNotFound</code>, <code>AWSElasticLoadBalancingErrorDuplicatePolicyName</code>, <code>AWSElasticLoadBalancingErrorTooManyPolicies</code>, <code>AWSElasticLoadBalancingErrorInvalidConfigurationRequest</code>.</p>
 			</div>
 			
 
@@ -1064,7 +1064,7 @@
 			
 		    
 
-			<div class="method-subsection method-declaration"><code>- (BFTask *)createLoadBalancer:(AWSElasticLoadBalancingCreateAccessPointInput *)<em>request</em></code></div>
+			<div class="method-subsection method-declaration"><code>- (AWSTask *)createLoadBalancer:(AWSElasticLoadBalancingCreateAccessPointInput *)<em>request</em></code></div>
 
 		    
 			
@@ -1084,7 +1084,7 @@
 			
 			<div class="method-subsection return">
 				<h4 class="method-subtitle parameter-title">Return Value</h4>
-				<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSElasticLoadBalancingCreateAccessPointOutput</code>. On failed execution, <code>task.error</code> may contain an <code>NSError</code> with <code>AWSElasticLoadBalancingErrorDomain</code> domian and the following error code: <code>AWSElasticLoadBalancingErrorDuplicateAccessPointName</code>, <code>AWSElasticLoadBalancingErrorTooManyAccessPoints</code>, <code>AWSElasticLoadBalancingErrorCertificateNotFound</code>, <code>AWSElasticLoadBalancingErrorInvalidConfigurationRequest</code>, <code>AWSElasticLoadBalancingErrorSubnetNotFound</code>, <code>AWSElasticLoadBalancingErrorInvalidSubnet</code>, <code>AWSElasticLoadBalancingErrorInvalidSecurityGroup</code>, <code>AWSElasticLoadBalancingErrorInvalidScheme</code>, <code>AWSElasticLoadBalancingErrorTooManyTags</code>, <code>AWSElasticLoadBalancingErrorDuplicateTagKeys</code>.</p>
+				<p>An instance of <code>AWSTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSElasticLoadBalancingCreateAccessPointOutput</code>. On failed execution, <code>task.error</code> may contain an <code>NSError</code> with <code>AWSElasticLoadBalancingErrorDomain</code> domain and the following error code: <code>AWSElasticLoadBalancingErrorDuplicateAccessPointName</code>, <code>AWSElasticLoadBalancingErrorTooManyAccessPoints</code>, <code>AWSElasticLoadBalancingErrorCertificateNotFound</code>, <code>AWSElasticLoadBalancingErrorInvalidConfigurationRequest</code>, <code>AWSElasticLoadBalancingErrorSubnetNotFound</code>, <code>AWSElasticLoadBalancingErrorInvalidSubnet</code>, <code>AWSElasticLoadBalancingErrorInvalidSecurityGroup</code>, <code>AWSElasticLoadBalancingErrorInvalidScheme</code>, <code>AWSElasticLoadBalancingErrorTooManyTags</code>, <code>AWSElasticLoadBalancingErrorDuplicateTagKeys</code>.</p>
 			</div>
 			
 
@@ -1133,7 +1133,7 @@
 			
 		    
 
-			<div class="method-subsection method-declaration"><code>- (BFTask *)createLoadBalancerListeners:(AWSElasticLoadBalancingCreateLoadBalancerListenerInput *)<em>request</em></code></div>
+			<div class="method-subsection method-declaration"><code>- (AWSTask *)createLoadBalancerListeners:(AWSElasticLoadBalancingCreateLoadBalancerListenerInput *)<em>request</em></code></div>
 
 		    
 			
@@ -1153,7 +1153,7 @@
 			
 			<div class="method-subsection return">
 				<h4 class="method-subtitle parameter-title">Return Value</h4>
-				<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSElasticLoadBalancingCreateLoadBalancerListenerOutput</code>. On failed execution, <code>task.error</code> may contain an <code>NSError</code> with <code>AWSElasticLoadBalancingErrorDomain</code> domian and the following error code: <code>AWSElasticLoadBalancingErrorAccessPointNotFound</code>, <code>AWSElasticLoadBalancingErrorDuplicateListener</code>, <code>AWSElasticLoadBalancingErrorCertificateNotFound</code>, <code>AWSElasticLoadBalancingErrorInvalidConfigurationRequest</code>.</p>
+				<p>An instance of <code>AWSTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSElasticLoadBalancingCreateLoadBalancerListenerOutput</code>. On failed execution, <code>task.error</code> may contain an <code>NSError</code> with <code>AWSElasticLoadBalancingErrorDomain</code> domain and the following error code: <code>AWSElasticLoadBalancingErrorAccessPointNotFound</code>, <code>AWSElasticLoadBalancingErrorDuplicateListener</code>, <code>AWSElasticLoadBalancingErrorCertificateNotFound</code>, <code>AWSElasticLoadBalancingErrorInvalidConfigurationRequest</code>.</p>
 			</div>
 			
 
@@ -1202,7 +1202,7 @@
 			
 		    
 
-			<div class="method-subsection method-declaration"><code>- (BFTask *)createLoadBalancerPolicy:(AWSElasticLoadBalancingCreateLoadBalancerPolicyInput *)<em>request</em></code></div>
+			<div class="method-subsection method-declaration"><code>- (AWSTask *)createLoadBalancerPolicy:(AWSElasticLoadBalancingCreateLoadBalancerPolicyInput *)<em>request</em></code></div>
 
 		    
 			
@@ -1222,7 +1222,7 @@
 			
 			<div class="method-subsection return">
 				<h4 class="method-subtitle parameter-title">Return Value</h4>
-				<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSElasticLoadBalancingCreateLoadBalancerPolicyOutput</code>. On failed execution, <code>task.error</code> may contain an <code>NSError</code> with <code>AWSElasticLoadBalancingErrorDomain</code> domian and the following error code: <code>AWSElasticLoadBalancingErrorAccessPointNotFound</code>, <code>AWSElasticLoadBalancingErrorPolicyTypeNotFound</code>, <code>AWSElasticLoadBalancingErrorDuplicatePolicyName</code>, <code>AWSElasticLoadBalancingErrorTooManyPolicies</code>, <code>AWSElasticLoadBalancingErrorInvalidConfigurationRequest</code>.</p>
+				<p>An instance of <code>AWSTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSElasticLoadBalancingCreateLoadBalancerPolicyOutput</code>. On failed execution, <code>task.error</code> may contain an <code>NSError</code> with <code>AWSElasticLoadBalancingErrorDomain</code> domain and the following error code: <code>AWSElasticLoadBalancingErrorAccessPointNotFound</code>, <code>AWSElasticLoadBalancingErrorPolicyTypeNotFound</code>, <code>AWSElasticLoadBalancingErrorDuplicatePolicyName</code>, <code>AWSElasticLoadBalancingErrorTooManyPolicies</code>, <code>AWSElasticLoadBalancingErrorInvalidConfigurationRequest</code>.</p>
 			</div>
 			
 
@@ -1271,7 +1271,7 @@
 			
 		    
 
-			<div class="method-subsection method-declaration"><code>- (BFTask *)deleteLoadBalancer:(AWSElasticLoadBalancingDeleteAccessPointInput *)<em>request</em></code></div>
+			<div class="method-subsection method-declaration"><code>- (AWSTask *)deleteLoadBalancer:(AWSElasticLoadBalancingDeleteAccessPointInput *)<em>request</em></code></div>
 
 		    
 			
@@ -1291,7 +1291,7 @@
 			
 			<div class="method-subsection return">
 				<h4 class="method-subtitle parameter-title">Return Value</h4>
-				<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSElasticLoadBalancingDeleteAccessPointOutput</code>.</p>
+				<p>An instance of <code>AWSTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSElasticLoadBalancingDeleteAccessPointOutput</code>.</p>
 			</div>
 			
 
@@ -1340,7 +1340,7 @@
 			
 		    
 
-			<div class="method-subsection method-declaration"><code>- (BFTask *)deleteLoadBalancerListeners:(AWSElasticLoadBalancingDeleteLoadBalancerListenerInput *)<em>request</em></code></div>
+			<div class="method-subsection method-declaration"><code>- (AWSTask *)deleteLoadBalancerListeners:(AWSElasticLoadBalancingDeleteLoadBalancerListenerInput *)<em>request</em></code></div>
 
 		    
 			
@@ -1360,7 +1360,7 @@
 			
 			<div class="method-subsection return">
 				<h4 class="method-subtitle parameter-title">Return Value</h4>
-				<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSElasticLoadBalancingDeleteLoadBalancerListenerOutput</code>. On failed execution, <code>task.error</code> may contain an <code>NSError</code> with <code>AWSElasticLoadBalancingErrorDomain</code> domian and the following error code: <code>AWSElasticLoadBalancingErrorAccessPointNotFound</code>.</p>
+				<p>An instance of <code>AWSTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSElasticLoadBalancingDeleteLoadBalancerListenerOutput</code>. On failed execution, <code>task.error</code> may contain an <code>NSError</code> with <code>AWSElasticLoadBalancingErrorDomain</code> domain and the following error code: <code>AWSElasticLoadBalancingErrorAccessPointNotFound</code>.</p>
 			</div>
 			
 
@@ -1409,7 +1409,7 @@
 			
 		    
 
-			<div class="method-subsection method-declaration"><code>- (BFTask *)deleteLoadBalancerPolicy:(AWSElasticLoadBalancingDeleteLoadBalancerPolicyInput *)<em>request</em></code></div>
+			<div class="method-subsection method-declaration"><code>- (AWSTask *)deleteLoadBalancerPolicy:(AWSElasticLoadBalancingDeleteLoadBalancerPolicyInput *)<em>request</em></code></div>
 
 		    
 			
@@ -1429,7 +1429,7 @@
 			
 			<div class="method-subsection return">
 				<h4 class="method-subtitle parameter-title">Return Value</h4>
-				<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSElasticLoadBalancingDeleteLoadBalancerPolicyOutput</code>. On failed execution, <code>task.error</code> may contain an <code>NSError</code> with <code>AWSElasticLoadBalancingErrorDomain</code> domian and the following error code: <code>AWSElasticLoadBalancingErrorAccessPointNotFound</code>, <code>AWSElasticLoadBalancingErrorInvalidConfigurationRequest</code>.</p>
+				<p>An instance of <code>AWSTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSElasticLoadBalancingDeleteLoadBalancerPolicyOutput</code>. On failed execution, <code>task.error</code> may contain an <code>NSError</code> with <code>AWSElasticLoadBalancingErrorDomain</code> domain and the following error code: <code>AWSElasticLoadBalancingErrorAccessPointNotFound</code>, <code>AWSElasticLoadBalancingErrorInvalidConfigurationRequest</code>.</p>
 			</div>
 			
 
@@ -1478,7 +1478,7 @@
 			
 		    
 
-			<div class="method-subsection method-declaration"><code>- (BFTask *)deregisterInstancesFromLoadBalancer:(AWSElasticLoadBalancingDeregisterEndPointsInput *)<em>request</em></code></div>
+			<div class="method-subsection method-declaration"><code>- (AWSTask *)deregisterInstancesFromLoadBalancer:(AWSElasticLoadBalancingDeregisterEndPointsInput *)<em>request</em></code></div>
 
 		    
 			
@@ -1498,7 +1498,7 @@
 			
 			<div class="method-subsection return">
 				<h4 class="method-subtitle parameter-title">Return Value</h4>
-				<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSElasticLoadBalancingDeregisterEndPointsOutput</code>. On failed execution, <code>task.error</code> may contain an <code>NSError</code> with <code>AWSElasticLoadBalancingErrorDomain</code> domian and the following error code: <code>AWSElasticLoadBalancingErrorAccessPointNotFound</code>, <code>AWSElasticLoadBalancingErrorInvalidEndPoint</code>.</p>
+				<p>An instance of <code>AWSTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSElasticLoadBalancingDeregisterEndPointsOutput</code>. On failed execution, <code>task.error</code> may contain an <code>NSError</code> with <code>AWSElasticLoadBalancingErrorDomain</code> domain and the following error code: <code>AWSElasticLoadBalancingErrorAccessPointNotFound</code>, <code>AWSElasticLoadBalancingErrorInvalidEndPoint</code>.</p>
 			</div>
 			
 
@@ -1547,7 +1547,7 @@
 			
 		    
 
-			<div class="method-subsection method-declaration"><code>- (BFTask *)describeInstanceHealth:(AWSElasticLoadBalancingDescribeEndPointStateInput *)<em>request</em></code></div>
+			<div class="method-subsection method-declaration"><code>- (AWSTask *)describeInstanceHealth:(AWSElasticLoadBalancingDescribeEndPointStateInput *)<em>request</em></code></div>
 
 		    
 			
@@ -1567,7 +1567,7 @@
 			
 			<div class="method-subsection return">
 				<h4 class="method-subtitle parameter-title">Return Value</h4>
-				<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSElasticLoadBalancingDescribeEndPointStateOutput</code>. On failed execution, <code>task.error</code> may contain an <code>NSError</code> with <code>AWSElasticLoadBalancingErrorDomain</code> domian and the following error code: <code>AWSElasticLoadBalancingErrorAccessPointNotFound</code>, <code>AWSElasticLoadBalancingErrorInvalidEndPoint</code>.</p>
+				<p>An instance of <code>AWSTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSElasticLoadBalancingDescribeEndPointStateOutput</code>. On failed execution, <code>task.error</code> may contain an <code>NSError</code> with <code>AWSElasticLoadBalancingErrorDomain</code> domain and the following error code: <code>AWSElasticLoadBalancingErrorAccessPointNotFound</code>, <code>AWSElasticLoadBalancingErrorInvalidEndPoint</code>.</p>
 			</div>
 			
 
@@ -1616,7 +1616,7 @@
 			
 		    
 
-			<div class="method-subsection method-declaration"><code>- (BFTask *)describeLoadBalancerAttributes:(AWSElasticLoadBalancingDescribeLoadBalancerAttributesInput *)<em>request</em></code></div>
+			<div class="method-subsection method-declaration"><code>- (AWSTask *)describeLoadBalancerAttributes:(AWSElasticLoadBalancingDescribeLoadBalancerAttributesInput *)<em>request</em></code></div>
 
 		    
 			
@@ -1636,7 +1636,7 @@
 			
 			<div class="method-subsection return">
 				<h4 class="method-subtitle parameter-title">Return Value</h4>
-				<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSElasticLoadBalancingDescribeLoadBalancerAttributesOutput</code>. On failed execution, <code>task.error</code> may contain an <code>NSError</code> with <code>AWSElasticLoadBalancingErrorDomain</code> domian and the following error code: <code>AWSElasticLoadBalancingErrorAccessPointNotFound</code>, <code>AWSElasticLoadBalancingErrorLoadBalancerAttributeNotFound</code>.</p>
+				<p>An instance of <code>AWSTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSElasticLoadBalancingDescribeLoadBalancerAttributesOutput</code>. On failed execution, <code>task.error</code> may contain an <code>NSError</code> with <code>AWSElasticLoadBalancingErrorDomain</code> domain and the following error code: <code>AWSElasticLoadBalancingErrorAccessPointNotFound</code>, <code>AWSElasticLoadBalancingErrorLoadBalancerAttributeNotFound</code>.</p>
 			</div>
 			
 
@@ -1685,7 +1685,7 @@
 			
 		    
 
-			<div class="method-subsection method-declaration"><code>- (BFTask *)describeLoadBalancerPolicies:(AWSElasticLoadBalancingDescribeLoadBalancerPoliciesInput *)<em>request</em></code></div>
+			<div class="method-subsection method-declaration"><code>- (AWSTask *)describeLoadBalancerPolicies:(AWSElasticLoadBalancingDescribeLoadBalancerPoliciesInput *)<em>request</em></code></div>
 
 		    
 			
@@ -1705,7 +1705,7 @@
 			
 			<div class="method-subsection return">
 				<h4 class="method-subtitle parameter-title">Return Value</h4>
-				<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSElasticLoadBalancingDescribeLoadBalancerPoliciesOutput</code>. On failed execution, <code>task.error</code> may contain an <code>NSError</code> with <code>AWSElasticLoadBalancingErrorDomain</code> domian and the following error code: <code>AWSElasticLoadBalancingErrorAccessPointNotFound</code>, <code>AWSElasticLoadBalancingErrorPolicyNotFound</code>.</p>
+				<p>An instance of <code>AWSTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSElasticLoadBalancingDescribeLoadBalancerPoliciesOutput</code>. On failed execution, <code>task.error</code> may contain an <code>NSError</code> with <code>AWSElasticLoadBalancingErrorDomain</code> domain and the following error code: <code>AWSElasticLoadBalancingErrorAccessPointNotFound</code>, <code>AWSElasticLoadBalancingErrorPolicyNotFound</code>.</p>
 			</div>
 			
 
@@ -1754,7 +1754,7 @@
 			
 		    
 
-			<div class="method-subsection method-declaration"><code>- (BFTask *)describeLoadBalancerPolicyTypes:(AWSElasticLoadBalancingDescribeLoadBalancerPolicyTypesInput *)<em>request</em></code></div>
+			<div class="method-subsection method-declaration"><code>- (AWSTask *)describeLoadBalancerPolicyTypes:(AWSElasticLoadBalancingDescribeLoadBalancerPolicyTypesInput *)<em>request</em></code></div>
 
 		    
 			
@@ -1774,7 +1774,7 @@
 			
 			<div class="method-subsection return">
 				<h4 class="method-subtitle parameter-title">Return Value</h4>
-				<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSElasticLoadBalancingDescribeLoadBalancerPolicyTypesOutput</code>. On failed execution, <code>task.error</code> may contain an <code>NSError</code> with <code>AWSElasticLoadBalancingErrorDomain</code> domian and the following error code: <code>AWSElasticLoadBalancingErrorPolicyTypeNotFound</code>.</p>
+				<p>An instance of <code>AWSTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSElasticLoadBalancingDescribeLoadBalancerPolicyTypesOutput</code>. On failed execution, <code>task.error</code> may contain an <code>NSError</code> with <code>AWSElasticLoadBalancingErrorDomain</code> domain and the following error code: <code>AWSElasticLoadBalancingErrorPolicyTypeNotFound</code>.</p>
 			</div>
 			
 
@@ -1823,7 +1823,7 @@
 			
 		    
 
-			<div class="method-subsection method-declaration"><code>- (BFTask *)describeLoadBalancers:(AWSElasticLoadBalancingDescribeAccessPointsInput *)<em>request</em></code></div>
+			<div class="method-subsection method-declaration"><code>- (AWSTask *)describeLoadBalancers:(AWSElasticLoadBalancingDescribeAccessPointsInput *)<em>request</em></code></div>
 
 		    
 			
@@ -1843,7 +1843,7 @@
 			
 			<div class="method-subsection return">
 				<h4 class="method-subtitle parameter-title">Return Value</h4>
-				<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSElasticLoadBalancingDescribeAccessPointsOutput</code>. On failed execution, <code>task.error</code> may contain an <code>NSError</code> with <code>AWSElasticLoadBalancingErrorDomain</code> domian and the following error code: <code>AWSElasticLoadBalancingErrorAccessPointNotFound</code>.</p>
+				<p>An instance of <code>AWSTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSElasticLoadBalancingDescribeAccessPointsOutput</code>. On failed execution, <code>task.error</code> may contain an <code>NSError</code> with <code>AWSElasticLoadBalancingErrorDomain</code> domain and the following error code: <code>AWSElasticLoadBalancingErrorAccessPointNotFound</code>.</p>
 			</div>
 			
 
@@ -1892,7 +1892,7 @@
 			
 		    
 
-			<div class="method-subsection method-declaration"><code>- (BFTask *)describeTags:(AWSElasticLoadBalancingDescribeTagsInput *)<em>request</em></code></div>
+			<div class="method-subsection method-declaration"><code>- (AWSTask *)describeTags:(AWSElasticLoadBalancingDescribeTagsInput *)<em>request</em></code></div>
 
 		    
 			
@@ -1912,7 +1912,7 @@
 			
 			<div class="method-subsection return">
 				<h4 class="method-subtitle parameter-title">Return Value</h4>
-				<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSElasticLoadBalancingDescribeTagsOutput</code>. On failed execution, <code>task.error</code> may contain an <code>NSError</code> with <code>AWSElasticLoadBalancingErrorDomain</code> domian and the following error code: <code>AWSElasticLoadBalancingErrorAccessPointNotFound</code>.</p>
+				<p>An instance of <code>AWSTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSElasticLoadBalancingDescribeTagsOutput</code>. On failed execution, <code>task.error</code> may contain an <code>NSError</code> with <code>AWSElasticLoadBalancingErrorDomain</code> domain and the following error code: <code>AWSElasticLoadBalancingErrorAccessPointNotFound</code>.</p>
 			</div>
 			
 
@@ -1961,7 +1961,7 @@
 			
 		    
 
-			<div class="method-subsection method-declaration"><code>- (BFTask *)detachLoadBalancerFromSubnets:(AWSElasticLoadBalancingDetachLoadBalancerFromSubnetsInput *)<em>request</em></code></div>
+			<div class="method-subsection method-declaration"><code>- (AWSTask *)detachLoadBalancerFromSubnets:(AWSElasticLoadBalancingDetachLoadBalancerFromSubnetsInput *)<em>request</em></code></div>
 
 		    
 			
@@ -1981,7 +1981,7 @@
 			
 			<div class="method-subsection return">
 				<h4 class="method-subtitle parameter-title">Return Value</h4>
-				<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSElasticLoadBalancingDetachLoadBalancerFromSubnetsOutput</code>. On failed execution, <code>task.error</code> may contain an <code>NSError</code> with <code>AWSElasticLoadBalancingErrorDomain</code> domian and the following error code: <code>AWSElasticLoadBalancingErrorAccessPointNotFound</code>, <code>AWSElasticLoadBalancingErrorInvalidConfigurationRequest</code>.</p>
+				<p>An instance of <code>AWSTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSElasticLoadBalancingDetachLoadBalancerFromSubnetsOutput</code>. On failed execution, <code>task.error</code> may contain an <code>NSError</code> with <code>AWSElasticLoadBalancingErrorDomain</code> domain and the following error code: <code>AWSElasticLoadBalancingErrorAccessPointNotFound</code>, <code>AWSElasticLoadBalancingErrorInvalidConfigurationRequest</code>.</p>
 			</div>
 			
 
@@ -2030,7 +2030,7 @@
 			
 		    
 
-			<div class="method-subsection method-declaration"><code>- (BFTask *)disableAvailabilityZonesForLoadBalancer:(AWSElasticLoadBalancingRemoveAvailabilityZonesInput *)<em>request</em></code></div>
+			<div class="method-subsection method-declaration"><code>- (AWSTask *)disableAvailabilityZonesForLoadBalancer:(AWSElasticLoadBalancingRemoveAvailabilityZonesInput *)<em>request</em></code></div>
 
 		    
 			
@@ -2050,7 +2050,7 @@
 			
 			<div class="method-subsection return">
 				<h4 class="method-subtitle parameter-title">Return Value</h4>
-				<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSElasticLoadBalancingRemoveAvailabilityZonesOutput</code>. On failed execution, <code>task.error</code> may contain an <code>NSError</code> with <code>AWSElasticLoadBalancingErrorDomain</code> domian and the following error code: <code>AWSElasticLoadBalancingErrorAccessPointNotFound</code>, <code>AWSElasticLoadBalancingErrorInvalidConfigurationRequest</code>.</p>
+				<p>An instance of <code>AWSTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSElasticLoadBalancingRemoveAvailabilityZonesOutput</code>. On failed execution, <code>task.error</code> may contain an <code>NSError</code> with <code>AWSElasticLoadBalancingErrorDomain</code> domain and the following error code: <code>AWSElasticLoadBalancingErrorAccessPointNotFound</code>, <code>AWSElasticLoadBalancingErrorInvalidConfigurationRequest</code>.</p>
 			</div>
 			
 
@@ -2099,7 +2099,7 @@
 			
 		    
 
-			<div class="method-subsection method-declaration"><code>- (BFTask *)enableAvailabilityZonesForLoadBalancer:(AWSElasticLoadBalancingAddAvailabilityZonesInput *)<em>request</em></code></div>
+			<div class="method-subsection method-declaration"><code>- (AWSTask *)enableAvailabilityZonesForLoadBalancer:(AWSElasticLoadBalancingAddAvailabilityZonesInput *)<em>request</em></code></div>
 
 		    
 			
@@ -2119,7 +2119,7 @@
 			
 			<div class="method-subsection return">
 				<h4 class="method-subtitle parameter-title">Return Value</h4>
-				<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSElasticLoadBalancingAddAvailabilityZonesOutput</code>. On failed execution, <code>task.error</code> may contain an <code>NSError</code> with <code>AWSElasticLoadBalancingErrorDomain</code> domian and the following error code: <code>AWSElasticLoadBalancingErrorAccessPointNotFound</code>.</p>
+				<p>An instance of <code>AWSTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSElasticLoadBalancingAddAvailabilityZonesOutput</code>. On failed execution, <code>task.error</code> may contain an <code>NSError</code> with <code>AWSElasticLoadBalancingErrorDomain</code> domain and the following error code: <code>AWSElasticLoadBalancingErrorAccessPointNotFound</code>.</p>
 			</div>
 			
 
@@ -2168,7 +2168,7 @@
 			
 		    
 
-			<div class="method-subsection method-declaration"><code>- (BFTask *)modifyLoadBalancerAttributes:(AWSElasticLoadBalancingModifyLoadBalancerAttributesInput *)<em>request</em></code></div>
+			<div class="method-subsection method-declaration"><code>- (AWSTask *)modifyLoadBalancerAttributes:(AWSElasticLoadBalancingModifyLoadBalancerAttributesInput *)<em>request</em></code></div>
 
 		    
 			
@@ -2188,7 +2188,7 @@
 			
 			<div class="method-subsection return">
 				<h4 class="method-subtitle parameter-title">Return Value</h4>
-				<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSElasticLoadBalancingModifyLoadBalancerAttributesOutput</code>. On failed execution, <code>task.error</code> may contain an <code>NSError</code> with <code>AWSElasticLoadBalancingErrorDomain</code> domian and the following error code: <code>AWSElasticLoadBalancingErrorAccessPointNotFound</code>, <code>AWSElasticLoadBalancingErrorLoadBalancerAttributeNotFound</code>, <code>AWSElasticLoadBalancingErrorInvalidConfigurationRequest</code>.</p>
+				<p>An instance of <code>AWSTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSElasticLoadBalancingModifyLoadBalancerAttributesOutput</code>. On failed execution, <code>task.error</code> may contain an <code>NSError</code> with <code>AWSElasticLoadBalancingErrorDomain</code> domain and the following error code: <code>AWSElasticLoadBalancingErrorAccessPointNotFound</code>, <code>AWSElasticLoadBalancingErrorLoadBalancerAttributeNotFound</code>, <code>AWSElasticLoadBalancingErrorInvalidConfigurationRequest</code>.</p>
 			</div>
 			
 
@@ -2237,7 +2237,7 @@
 			
 		    
 
-			<div class="method-subsection method-declaration"><code>- (BFTask *)registerInstancesWithLoadBalancer:(AWSElasticLoadBalancingRegisterEndPointsInput *)<em>request</em></code></div>
+			<div class="method-subsection method-declaration"><code>- (AWSTask *)registerInstancesWithLoadBalancer:(AWSElasticLoadBalancingRegisterEndPointsInput *)<em>request</em></code></div>
 
 		    
 			
@@ -2257,7 +2257,7 @@
 			
 			<div class="method-subsection return">
 				<h4 class="method-subtitle parameter-title">Return Value</h4>
-				<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSElasticLoadBalancingRegisterEndPointsOutput</code>. On failed execution, <code>task.error</code> may contain an <code>NSError</code> with <code>AWSElasticLoadBalancingErrorDomain</code> domian and the following error code: <code>AWSElasticLoadBalancingErrorAccessPointNotFound</code>, <code>AWSElasticLoadBalancingErrorInvalidEndPoint</code>.</p>
+				<p>An instance of <code>AWSTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSElasticLoadBalancingRegisterEndPointsOutput</code>. On failed execution, <code>task.error</code> may contain an <code>NSError</code> with <code>AWSElasticLoadBalancingErrorDomain</code> domain and the following error code: <code>AWSElasticLoadBalancingErrorAccessPointNotFound</code>, <code>AWSElasticLoadBalancingErrorInvalidEndPoint</code>.</p>
 			</div>
 			
 
@@ -2306,7 +2306,7 @@
 			
 		    
 
-			<div class="method-subsection method-declaration"><code>- (BFTask *)removeTags:(AWSElasticLoadBalancingRemoveTagsInput *)<em>request</em></code></div>
+			<div class="method-subsection method-declaration"><code>- (AWSTask *)removeTags:(AWSElasticLoadBalancingRemoveTagsInput *)<em>request</em></code></div>
 
 		    
 			
@@ -2326,7 +2326,7 @@
 			
 			<div class="method-subsection return">
 				<h4 class="method-subtitle parameter-title">Return Value</h4>
-				<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSElasticLoadBalancingRemoveTagsOutput</code>. On failed execution, <code>task.error</code> may contain an <code>NSError</code> with <code>AWSElasticLoadBalancingErrorDomain</code> domian and the following error code: <code>AWSElasticLoadBalancingErrorAccessPointNotFound</code>.</p>
+				<p>An instance of <code>AWSTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSElasticLoadBalancingRemoveTagsOutput</code>. On failed execution, <code>task.error</code> may contain an <code>NSError</code> with <code>AWSElasticLoadBalancingErrorDomain</code> domain and the following error code: <code>AWSElasticLoadBalancingErrorAccessPointNotFound</code>.</p>
 			</div>
 			
 
@@ -2375,7 +2375,7 @@
 			
 		    
 
-			<div class="method-subsection method-declaration"><code>- (BFTask *)setLoadBalancerListenerSSLCertificate:(AWSElasticLoadBalancingSetLoadBalancerListenerSSLCertificateInput *)<em>request</em></code></div>
+			<div class="method-subsection method-declaration"><code>- (AWSTask *)setLoadBalancerListenerSSLCertificate:(AWSElasticLoadBalancingSetLoadBalancerListenerSSLCertificateInput *)<em>request</em></code></div>
 
 		    
 			
@@ -2395,7 +2395,7 @@
 			
 			<div class="method-subsection return">
 				<h4 class="method-subtitle parameter-title">Return Value</h4>
-				<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSElasticLoadBalancingSetLoadBalancerListenerSSLCertificateOutput</code>. On failed execution, <code>task.error</code> may contain an <code>NSError</code> with <code>AWSElasticLoadBalancingErrorDomain</code> domian and the following error code: <code>AWSElasticLoadBalancingErrorCertificateNotFound</code>, <code>AWSElasticLoadBalancingErrorAccessPointNotFound</code>, <code>AWSElasticLoadBalancingErrorListenerNotFound</code>, <code>AWSElasticLoadBalancingErrorInvalidConfigurationRequest</code>.</p>
+				<p>An instance of <code>AWSTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSElasticLoadBalancingSetLoadBalancerListenerSSLCertificateOutput</code>. On failed execution, <code>task.error</code> may contain an <code>NSError</code> with <code>AWSElasticLoadBalancingErrorDomain</code> domain and the following error code: <code>AWSElasticLoadBalancingErrorCertificateNotFound</code>, <code>AWSElasticLoadBalancingErrorAccessPointNotFound</code>, <code>AWSElasticLoadBalancingErrorListenerNotFound</code>, <code>AWSElasticLoadBalancingErrorInvalidConfigurationRequest</code>.</p>
 			</div>
 			
 
@@ -2444,7 +2444,7 @@
 			
 		    
 
-			<div class="method-subsection method-declaration"><code>- (BFTask *)setLoadBalancerPoliciesForBackendServer:(AWSElasticLoadBalancingSetLoadBalancerPoliciesForBackendServerInput *)<em>request</em></code></div>
+			<div class="method-subsection method-declaration"><code>- (AWSTask *)setLoadBalancerPoliciesForBackendServer:(AWSElasticLoadBalancingSetLoadBalancerPoliciesForBackendServerInput *)<em>request</em></code></div>
 
 		    
 			
@@ -2464,7 +2464,7 @@
 			
 			<div class="method-subsection return">
 				<h4 class="method-subtitle parameter-title">Return Value</h4>
-				<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSElasticLoadBalancingSetLoadBalancerPoliciesForBackendServerOutput</code>. On failed execution, <code>task.error</code> may contain an <code>NSError</code> with <code>AWSElasticLoadBalancingErrorDomain</code> domian and the following error code: <code>AWSElasticLoadBalancingErrorAccessPointNotFound</code>, <code>AWSElasticLoadBalancingErrorPolicyNotFound</code>, <code>AWSElasticLoadBalancingErrorInvalidConfigurationRequest</code>.</p>
+				<p>An instance of <code>AWSTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSElasticLoadBalancingSetLoadBalancerPoliciesForBackendServerOutput</code>. On failed execution, <code>task.error</code> may contain an <code>NSError</code> with <code>AWSElasticLoadBalancingErrorDomain</code> domain and the following error code: <code>AWSElasticLoadBalancingErrorAccessPointNotFound</code>, <code>AWSElasticLoadBalancingErrorPolicyNotFound</code>, <code>AWSElasticLoadBalancingErrorInvalidConfigurationRequest</code>.</p>
 			</div>
 			
 
@@ -2513,7 +2513,7 @@
 			
 		    
 
-			<div class="method-subsection method-declaration"><code>- (BFTask *)setLoadBalancerPoliciesOfListener:(AWSElasticLoadBalancingSetLoadBalancerPoliciesOfListenerInput *)<em>request</em></code></div>
+			<div class="method-subsection method-declaration"><code>- (AWSTask *)setLoadBalancerPoliciesOfListener:(AWSElasticLoadBalancingSetLoadBalancerPoliciesOfListenerInput *)<em>request</em></code></div>
 
 		    
 			
@@ -2533,7 +2533,7 @@
 			
 			<div class="method-subsection return">
 				<h4 class="method-subtitle parameter-title">Return Value</h4>
-				<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSElasticLoadBalancingSetLoadBalancerPoliciesOfListenerOutput</code>. On failed execution, <code>task.error</code> may contain an <code>NSError</code> with <code>AWSElasticLoadBalancingErrorDomain</code> domian and the following error code: <code>AWSElasticLoadBalancingErrorAccessPointNotFound</code>, <code>AWSElasticLoadBalancingErrorPolicyNotFound</code>, <code>AWSElasticLoadBalancingErrorListenerNotFound</code>, <code>AWSElasticLoadBalancingErrorInvalidConfigurationRequest</code>.</p>
+				<p>An instance of <code>AWSTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSElasticLoadBalancingSetLoadBalancerPoliciesOfListenerOutput</code>. On failed execution, <code>task.error</code> may contain an <code>NSError</code> with <code>AWSElasticLoadBalancingErrorDomain</code> domain and the following error code: <code>AWSElasticLoadBalancingErrorAccessPointNotFound</code>, <code>AWSElasticLoadBalancingErrorPolicyNotFound</code>, <code>AWSElasticLoadBalancingErrorListenerNotFound</code>, <code>AWSElasticLoadBalancingErrorInvalidConfigurationRequest</code>.</p>
 			</div>
 			
 
@@ -2578,7 +2578,7 @@
 				<footer>
 					<div class="footer-copyright">
 						
-						<p class="copyright">Copyright &copy; 2015 Amazon Web Services, Inc. All rights reserved. Updated: 2015-03-25</p>
+						<p class="copyright">Copyright &copy; 2015 Amazon Web Services, Inc. All rights reserved. Updated: 2015-08-31</p>
 						
 						
 						<p class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.2.1 (build 1333)</a>.</p>

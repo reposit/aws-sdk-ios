@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSEC2DescribeVpcsRequest.html">
+	<File path="Classes/AWSEC2DescribeTagsRequest.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSEC2DescribeVpcsRequest</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSEC2DescribeTagsRequest</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
             
@@ -13,7 +13,7 @@
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DescribeVpcsRequest/setDryRun:</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DescribeTagsRequest/setDryRun:</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
@@ -25,7 +25,7 @@
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DescribeVpcsRequest/dryRun</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DescribeTagsRequest/dryRun</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
@@ -37,7 +37,7 @@
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2DescribeVpcsRequest/dryRun</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2DescribeTagsRequest/dryRun</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
@@ -49,8 +49,8 @@
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DescribeVpcsRequest/setFilters:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;One or more filters.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;cidr&lt;/code&gt; - The CIDR block of the VPC. The CIDR block you specify must exactly match the VPC&apos;s CIDR block for information to be returned for the VPC. Must contain the slash followed by one or two digits (for example, &lt;code&gt;/28&lt;/code&gt;).&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;dhcp-options-id&lt;/code&gt; - The ID of a set of DHCP options.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;isDefault&lt;/code&gt; - Indicates whether the VPC is the default VPC.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;state&lt;/code&gt; - The state of the VPC (&lt;code&gt;pending&lt;/code&gt; | &lt;code&gt;available&lt;/code&gt;).&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;tag&lt;/code&gt;:&lt;i&gt;key&lt;/i&gt;=&lt;i&gt;value&lt;/i&gt; - The key/value combination of a tag assigned to the resource.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;tag-key&lt;/code&gt; - The key of a tag assigned to the resource. This filter is independent of the &lt;code&gt;tag-value&lt;/code&gt; filter. For example, if you use both the filter &quot;tag-key=Purpose&quot; and the filter &quot;tag-value=X&quot;, you get any resources assigned both the tag key Purpose (regardless of what the tag&apos;s value is), and the tag value X (regardless of what the tag&apos;s key is). If you want to list only resources where Purpose is X, see the &lt;code&gt;tag&lt;/code&gt;:&lt;i&gt;key&lt;/i&gt;=&lt;i&gt;value&lt;/i&gt; filter.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;tag-value&lt;/code&gt; - The value of a tag assigned to the resource. This filter is independent of the &lt;code&gt;tag-key&lt;/code&gt; filter.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;vpc-id&lt;/code&gt; - The ID of the VPC.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DescribeTagsRequest/setFilters:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;One or more filters.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;key&lt;/code&gt; - The tag key.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;resource-id&lt;/code&gt; - The resource ID.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;resource-type&lt;/code&gt; - The resource type (&lt;code&gt;customer-gateway&lt;/code&gt; | &lt;code&gt;dhcp-options&lt;/code&gt; | &lt;code&gt;image&lt;/code&gt; | &lt;code&gt;instance&lt;/code&gt; | &lt;code&gt;internet-gateway&lt;/code&gt; | &lt;code&gt;network-acl&lt;/code&gt; | &lt;code&gt;network-interface&lt;/code&gt; | &lt;code&gt;reserved-instances&lt;/code&gt; | &lt;code&gt;route-table&lt;/code&gt; | &lt;code&gt;security-group&lt;/code&gt; | &lt;code&gt;snapshot&lt;/code&gt; | &lt;code&gt;spot-instances-request&lt;/code&gt; | &lt;code&gt;subnet&lt;/code&gt; | &lt;code&gt;volume&lt;/code&gt; | &lt;code&gt;vpc&lt;/code&gt; | &lt;code&gt;vpn-connection&lt;/code&gt; | &lt;code&gt;vpn-gateway&lt;/code&gt;).&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;value&lt;/code&gt; - The tag value.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
 			<Declaration>@property (nonatomic, strong) NSArray *filters</Declaration>
@@ -61,8 +61,8 @@
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DescribeVpcsRequest/filters</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;One or more filters.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;cidr&lt;/code&gt; - The CIDR block of the VPC. The CIDR block you specify must exactly match the VPC&apos;s CIDR block for information to be returned for the VPC. Must contain the slash followed by one or two digits (for example, &lt;code&gt;/28&lt;/code&gt;).&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;dhcp-options-id&lt;/code&gt; - The ID of a set of DHCP options.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;isDefault&lt;/code&gt; - Indicates whether the VPC is the default VPC.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;state&lt;/code&gt; - The state of the VPC (&lt;code&gt;pending&lt;/code&gt; | &lt;code&gt;available&lt;/code&gt;).&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;tag&lt;/code&gt;:&lt;i&gt;key&lt;/i&gt;=&lt;i&gt;value&lt;/i&gt; - The key/value combination of a tag assigned to the resource.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;tag-key&lt;/code&gt; - The key of a tag assigned to the resource. This filter is independent of the &lt;code&gt;tag-value&lt;/code&gt; filter. For example, if you use both the filter &quot;tag-key=Purpose&quot; and the filter &quot;tag-value=X&quot;, you get any resources assigned both the tag key Purpose (regardless of what the tag&apos;s value is), and the tag value X (regardless of what the tag&apos;s key is). If you want to list only resources where Purpose is X, see the &lt;code&gt;tag&lt;/code&gt;:&lt;i&gt;key&lt;/i&gt;=&lt;i&gt;value&lt;/i&gt; filter.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;tag-value&lt;/code&gt; - The value of a tag assigned to the resource. This filter is independent of the &lt;code&gt;tag-key&lt;/code&gt; filter.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;vpc-id&lt;/code&gt; - The ID of the VPC.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DescribeTagsRequest/filters</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;One or more filters.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;key&lt;/code&gt; - The tag key.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;resource-id&lt;/code&gt; - The resource ID.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;resource-type&lt;/code&gt; - The resource type (&lt;code&gt;customer-gateway&lt;/code&gt; | &lt;code&gt;dhcp-options&lt;/code&gt; | &lt;code&gt;image&lt;/code&gt; | &lt;code&gt;instance&lt;/code&gt; | &lt;code&gt;internet-gateway&lt;/code&gt; | &lt;code&gt;network-acl&lt;/code&gt; | &lt;code&gt;network-interface&lt;/code&gt; | &lt;code&gt;reserved-instances&lt;/code&gt; | &lt;code&gt;route-table&lt;/code&gt; | &lt;code&gt;security-group&lt;/code&gt; | &lt;code&gt;snapshot&lt;/code&gt; | &lt;code&gt;spot-instances-request&lt;/code&gt; | &lt;code&gt;subnet&lt;/code&gt; | &lt;code&gt;volume&lt;/code&gt; | &lt;code&gt;vpc&lt;/code&gt; | &lt;code&gt;vpn-connection&lt;/code&gt; | &lt;code&gt;vpn-gateway&lt;/code&gt;).&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;value&lt;/code&gt; - The tag value.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
 			<Declaration>@property (nonatomic, strong) NSArray *filters</Declaration>
@@ -73,8 +73,8 @@
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2DescribeVpcsRequest/filters</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;One or more filters.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;cidr&lt;/code&gt; - The CIDR block of the VPC. The CIDR block you specify must exactly match the VPC&apos;s CIDR block for information to be returned for the VPC. Must contain the slash followed by one or two digits (for example, &lt;code&gt;/28&lt;/code&gt;).&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;dhcp-options-id&lt;/code&gt; - The ID of a set of DHCP options.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;isDefault&lt;/code&gt; - Indicates whether the VPC is the default VPC.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;state&lt;/code&gt; - The state of the VPC (&lt;code&gt;pending&lt;/code&gt; | &lt;code&gt;available&lt;/code&gt;).&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;tag&lt;/code&gt;:&lt;i&gt;key&lt;/i&gt;=&lt;i&gt;value&lt;/i&gt; - The key/value combination of a tag assigned to the resource.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;tag-key&lt;/code&gt; - The key of a tag assigned to the resource. This filter is independent of the &lt;code&gt;tag-value&lt;/code&gt; filter. For example, if you use both the filter &quot;tag-key=Purpose&quot; and the filter &quot;tag-value=X&quot;, you get any resources assigned both the tag key Purpose (regardless of what the tag&apos;s value is), and the tag value X (regardless of what the tag&apos;s key is). If you want to list only resources where Purpose is X, see the &lt;code&gt;tag&lt;/code&gt;:&lt;i&gt;key&lt;/i&gt;=&lt;i&gt;value&lt;/i&gt; filter.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;tag-value&lt;/code&gt; - The value of a tag assigned to the resource. This filter is independent of the &lt;code&gt;tag-key&lt;/code&gt; filter.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;vpc-id&lt;/code&gt; - The ID of the VPC.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2DescribeTagsRequest/filters</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;One or more filters.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;key&lt;/code&gt; - The tag key.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;resource-id&lt;/code&gt; - The resource ID.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;resource-type&lt;/code&gt; - The resource type (&lt;code&gt;customer-gateway&lt;/code&gt; | &lt;code&gt;dhcp-options&lt;/code&gt; | &lt;code&gt;image&lt;/code&gt; | &lt;code&gt;instance&lt;/code&gt; | &lt;code&gt;internet-gateway&lt;/code&gt; | &lt;code&gt;network-acl&lt;/code&gt; | &lt;code&gt;network-interface&lt;/code&gt; | &lt;code&gt;reserved-instances&lt;/code&gt; | &lt;code&gt;route-table&lt;/code&gt; | &lt;code&gt;security-group&lt;/code&gt; | &lt;code&gt;snapshot&lt;/code&gt; | &lt;code&gt;spot-instances-request&lt;/code&gt; | &lt;code&gt;subnet&lt;/code&gt; | &lt;code&gt;volume&lt;/code&gt; | &lt;code&gt;vpc&lt;/code&gt; | &lt;code&gt;vpn-connection&lt;/code&gt; | &lt;code&gt;vpn-gateway&lt;/code&gt;).&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;code&gt;value&lt;/code&gt; - The tag value.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
 			<Declaration>@property (nonatomic, strong) NSArray *filters</Declaration>
@@ -85,38 +85,74 @@
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DescribeVpcsRequest/setVpcIds:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;One or more VPC IDs.&lt;/p&gt;&lt;p&gt;Default: Describes all your VPCs.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DescribeTagsRequest/setMaxResults:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The maximum number of items to return for this call. The call also returns a token that you can specify in a subsequent call to get the next set of results. If the value is greater than 1000, we return only 1000 items.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSArray *vpcIds</Declaration>
+			<Declaration>@property (nonatomic, strong) NSNumber *maxResults</Declaration>
 			
 			
-			<Anchor>//api/name/vpcIds</Anchor>
+			<Anchor>//api/name/maxResults</Anchor>
             <NodeRef refid="433"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DescribeVpcsRequest/vpcIds</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;One or more VPC IDs.&lt;/p&gt;&lt;p&gt;Default: Describes all your VPCs.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DescribeTagsRequest/maxResults</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The maximum number of items to return for this call. The call also returns a token that you can specify in a subsequent call to get the next set of results. If the value is greater than 1000, we return only 1000 items.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSArray *vpcIds</Declaration>
+			<Declaration>@property (nonatomic, strong) NSNumber *maxResults</Declaration>
 			
 			
-			<Anchor>//api/name/vpcIds</Anchor>
+			<Anchor>//api/name/maxResults</Anchor>
             <NodeRef refid="433"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2DescribeVpcsRequest/vpcIds</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;One or more VPC IDs.&lt;/p&gt;&lt;p&gt;Default: Describes all your VPCs.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2DescribeTagsRequest/maxResults</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The maximum number of items to return for this call. The call also returns a token that you can specify in a subsequent call to get the next set of results. If the value is greater than 1000, we return only 1000 items.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSArray *vpcIds</Declaration>
+			<Declaration>@property (nonatomic, strong) NSNumber *maxResults</Declaration>
 			
 			
-			<Anchor>//api/name/vpcIds</Anchor>
+			<Anchor>//api/name/maxResults</Anchor>
+            <NodeRef refid="433"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DescribeTagsRequest/setNextToken:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The token for the next set of items to return. (You received this token from a prior call.)&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *nextToken</Declaration>
+			
+			
+			<Anchor>//api/name/nextToken</Anchor>
+            <NodeRef refid="433"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2DescribeTagsRequest/nextToken</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The token for the next set of items to return. (You received this token from a prior call.)&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *nextToken</Declaration>
+			
+			
+			<Anchor>//api/name/nextToken</Anchor>
+            <NodeRef refid="433"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2DescribeTagsRequest/nextToken</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The token for the next set of items to return. (You received this token from a prior call.)&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *nextToken</Declaration>
+			
+			
+			<Anchor>//api/name/nextToken</Anchor>
             <NodeRef refid="433"/>
 		</Token>
 		

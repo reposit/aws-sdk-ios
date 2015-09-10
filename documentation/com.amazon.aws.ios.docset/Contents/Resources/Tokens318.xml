@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSEC2CreateSpotDatafeedSubscriptionRequest.html">
+	<File path="Classes/AWSEC2CreateNetworkInterfaceResult.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSEC2CreateSpotDatafeedSubscriptionRequest</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSEC2CreateNetworkInterfaceResult</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
             
@@ -13,110 +13,38 @@
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2CreateSpotDatafeedSubscriptionRequest/setBucket:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The Amazon S3 bucket in which to store the Spot Instance datafeed.&lt;/p&gt;&lt;p&gt;Constraints: Must be a valid bucket associated with your AWS account.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2CreateNetworkInterfaceResult/setNetworkInterface:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Information about the network interface.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *bucket</Declaration>
+			<Declaration>@property (nonatomic, strong) AWSEC2NetworkInterface *networkInterface</Declaration>
 			
 			
-			<Anchor>//api/name/bucket</Anchor>
+			<Anchor>//api/name/networkInterface</Anchor>
             <NodeRef refid="318"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2CreateSpotDatafeedSubscriptionRequest/bucket</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The Amazon S3 bucket in which to store the Spot Instance datafeed.&lt;/p&gt;&lt;p&gt;Constraints: Must be a valid bucket associated with your AWS account.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2CreateNetworkInterfaceResult/networkInterface</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Information about the network interface.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *bucket</Declaration>
+			<Declaration>@property (nonatomic, strong) AWSEC2NetworkInterface *networkInterface</Declaration>
 			
 			
-			<Anchor>//api/name/bucket</Anchor>
+			<Anchor>//api/name/networkInterface</Anchor>
             <NodeRef refid="318"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2CreateSpotDatafeedSubscriptionRequest/bucket</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;The Amazon S3 bucket in which to store the Spot Instance datafeed.&lt;/p&gt;&lt;p&gt;Constraints: Must be a valid bucket associated with your AWS account.&lt;/p&gt;</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2CreateNetworkInterfaceResult/networkInterface</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Information about the network interface.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *bucket</Declaration>
+			<Declaration>@property (nonatomic, strong) AWSEC2NetworkInterface *networkInterface</Declaration>
 			
 			
-			<Anchor>//api/name/bucket</Anchor>
-            <NodeRef refid="318"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2CreateSpotDatafeedSubscriptionRequest/setDryRun:</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSNumber *dryRun</Declaration>
-			
-			
-			<Anchor>//api/name/dryRun</Anchor>
-            <NodeRef refid="318"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2CreateSpotDatafeedSubscriptionRequest/dryRun</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSNumber *dryRun</Declaration>
-			
-			
-			<Anchor>//api/name/dryRun</Anchor>
-            <NodeRef refid="318"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2CreateSpotDatafeedSubscriptionRequest/dryRun</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSNumber *dryRun</Declaration>
-			
-			
-			<Anchor>//api/name/dryRun</Anchor>
-            <NodeRef refid="318"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2CreateSpotDatafeedSubscriptionRequest/setPrefix:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;A prefix for the datafeed file names.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *prefix</Declaration>
-			
-			
-			<Anchor>//api/name/prefix</Anchor>
-            <NodeRef refid="318"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2CreateSpotDatafeedSubscriptionRequest/prefix</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;A prefix for the datafeed file names.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *prefix</Declaration>
-			
-			
-			<Anchor>//api/name/prefix</Anchor>
-            <NodeRef refid="318"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2CreateSpotDatafeedSubscriptionRequest/prefix</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;A prefix for the datafeed file names.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSString *prefix</Declaration>
-			
-			
-			<Anchor>//api/name/prefix</Anchor>
+			<Anchor>//api/name/networkInterface</Anchor>
             <NodeRef refid="318"/>
 		</Token>
 		

@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSSNSListPlatformApplicationsResponse.html">
+	<File path="Classes/AWSSESGetIdentityNotificationAttributesResponse.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSSNSListPlatformApplicationsResponse</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Response for ListPlatformApplications action.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSNSModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSSESGetIdentityNotificationAttributesResponse</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Describes whether an identity has Amazon Simple Notification Service (Amazon SNS) topics set for bounce, complaint, and/or delivery notifications, and specifies whether feedback forwarding is enabled for bounce and complaint notifications.&lt;/p&gt;
+Required parameters: [NotificationAttributes]</Abstract>
+			<DeclaredIn>AWSSESModel.h</DeclaredIn>
             
 			
 			<NodeRef refid="956"/>
@@ -13,74 +14,38 @@
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSSNSListPlatformApplicationsResponse/setNextToken:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;NextToken string is returned when calling ListPlatformApplications action if additional records are available after the first page results.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSNSModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSESGetIdentityNotificationAttributesResponse/setNotificationAttributes:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;A map of Identity to IdentityNotificationAttributes.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSESModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *nextToken</Declaration>
+			<Declaration>@property (nonatomic, strong) NSDictionary *notificationAttributes</Declaration>
 			
 			
-			<Anchor>//api/name/nextToken</Anchor>
+			<Anchor>//api/name/notificationAttributes</Anchor>
             <NodeRef refid="956"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSSNSListPlatformApplicationsResponse/nextToken</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;NextToken string is returned when calling ListPlatformApplications action if additional records are available after the first page results.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSNSModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSESGetIdentityNotificationAttributesResponse/notificationAttributes</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;A map of Identity to IdentityNotificationAttributes.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSESModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *nextToken</Declaration>
+			<Declaration>@property (nonatomic, strong) NSDictionary *notificationAttributes</Declaration>
 			
 			
-			<Anchor>//api/name/nextToken</Anchor>
+			<Anchor>//api/name/notificationAttributes</Anchor>
             <NodeRef refid="956"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSSNSListPlatformApplicationsResponse/nextToken</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;NextToken string is returned when calling ListPlatformApplications action if additional records are available after the first page results.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSNSModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSSESGetIdentityNotificationAttributesResponse/notificationAttributes</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;A map of Identity to IdentityNotificationAttributes.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSESModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *nextToken</Declaration>
-			
-			
-			<Anchor>//api/name/nextToken</Anchor>
-            <NodeRef refid="956"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSSNSListPlatformApplicationsResponse/setPlatformApplications:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Platform applications returned when calling ListPlatformApplications action.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSNSModel.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSArray *platformApplications</Declaration>
+			<Declaration>@property (nonatomic, strong) NSDictionary *notificationAttributes</Declaration>
 			
 			
-			<Anchor>//api/name/platformApplications</Anchor>
-            <NodeRef refid="956"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSSNSListPlatformApplicationsResponse/platformApplications</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Platform applications returned when calling ListPlatformApplications action.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSNSModel.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSArray *platformApplications</Declaration>
-			
-			
-			<Anchor>//api/name/platformApplications</Anchor>
-            <NodeRef refid="956"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSSNSListPlatformApplicationsResponse/platformApplications</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Platform applications returned when calling ListPlatformApplications action.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSNSModel.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSArray *platformApplications</Declaration>
-			
-			
-			<Anchor>//api/name/platformApplications</Anchor>
+			<Anchor>//api/name/notificationAttributes</Anchor>
             <NodeRef refid="956"/>
 		</Token>
 		

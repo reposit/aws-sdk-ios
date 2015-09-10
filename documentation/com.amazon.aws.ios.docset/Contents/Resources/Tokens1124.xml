@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Constants/AWSEC2ExportTaskState.html">
+	<File path="Constants/AWSAutoScalingLifecycleState.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/c/tdef/AWSEC2ExportTaskState</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/c/tdef/AWSAutoScalingLifecycleState</TokenIdentifier>
 			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			<DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
             
 			
 			<NodeRef refid="1124"/>
@@ -14,51 +14,141 @@
 		
         
         <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSEC2ExportTaskStateUnknown</TokenIdentifier>
+            <TokenIdentifier>//apple_ref/c/econst/AWSAutoScalingLifecycleStateUnknown</TokenIdentifier>
             <Abstract type="html"></Abstract>
-            <Declaration>AWSEC2ExportTaskStateUnknown</Declaration>
+            <Declaration>AWSAutoScalingLifecycleStateUnknown</Declaration>
             
-            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
+            <DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
             
             <NodeRef refid="1124"/>
         </Token>
         
         <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSEC2ExportTaskStateActive</TokenIdentifier>
+            <TokenIdentifier>//apple_ref/c/econst/AWSAutoScalingLifecycleStatePending</TokenIdentifier>
             <Abstract type="html"></Abstract>
-            <Declaration>AWSEC2ExportTaskStateActive</Declaration>
+            <Declaration>AWSAutoScalingLifecycleStatePending</Declaration>
             
-            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
+            <DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
             
             <NodeRef refid="1124"/>
         </Token>
         
         <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSEC2ExportTaskStateCancelling</TokenIdentifier>
+            <TokenIdentifier>//apple_ref/c/econst/AWSAutoScalingLifecycleStatePendingWait</TokenIdentifier>
             <Abstract type="html"></Abstract>
-            <Declaration>AWSEC2ExportTaskStateCancelling</Declaration>
+            <Declaration>AWSAutoScalingLifecycleStatePendingWait</Declaration>
             
-            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
+            <DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
             
             <NodeRef refid="1124"/>
         </Token>
         
         <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSEC2ExportTaskStateCancelled</TokenIdentifier>
+            <TokenIdentifier>//apple_ref/c/econst/AWSAutoScalingLifecycleStatePendingProceed</TokenIdentifier>
             <Abstract type="html"></Abstract>
-            <Declaration>AWSEC2ExportTaskStateCancelled</Declaration>
+            <Declaration>AWSAutoScalingLifecycleStatePendingProceed</Declaration>
             
-            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
+            <DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
             
             <NodeRef refid="1124"/>
         </Token>
         
         <Token>
-            <TokenIdentifier>//apple_ref/c/econst/AWSEC2ExportTaskStateCompleted</TokenIdentifier>
+            <TokenIdentifier>//apple_ref/c/econst/AWSAutoScalingLifecycleStateQuarantined</TokenIdentifier>
             <Abstract type="html"></Abstract>
-            <Declaration>AWSEC2ExportTaskStateCompleted</Declaration>
+            <Declaration>AWSAutoScalingLifecycleStateQuarantined</Declaration>
             
-            <DeclaredIn>AWSEC2Model.h</DeclaredIn>
+            <DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
+            
+            <NodeRef refid="1124"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/AWSAutoScalingLifecycleStateInService</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>AWSAutoScalingLifecycleStateInService</Declaration>
+            
+            <DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
+            
+            <NodeRef refid="1124"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/AWSAutoScalingLifecycleStateTerminating</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>AWSAutoScalingLifecycleStateTerminating</Declaration>
+            
+            <DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
+            
+            <NodeRef refid="1124"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/AWSAutoScalingLifecycleStateTerminatingWait</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>AWSAutoScalingLifecycleStateTerminatingWait</Declaration>
+            
+            <DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
+            
+            <NodeRef refid="1124"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/AWSAutoScalingLifecycleStateTerminatingProceed</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>AWSAutoScalingLifecycleStateTerminatingProceed</Declaration>
+            
+            <DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
+            
+            <NodeRef refid="1124"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/AWSAutoScalingLifecycleStateTerminated</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>AWSAutoScalingLifecycleStateTerminated</Declaration>
+            
+            <DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
+            
+            <NodeRef refid="1124"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/AWSAutoScalingLifecycleStateDetaching</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>AWSAutoScalingLifecycleStateDetaching</Declaration>
+            
+            <DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
+            
+            <NodeRef refid="1124"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/AWSAutoScalingLifecycleStateDetached</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>AWSAutoScalingLifecycleStateDetached</Declaration>
+            
+            <DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
+            
+            <NodeRef refid="1124"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/AWSAutoScalingLifecycleStateEnteringStandby</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>AWSAutoScalingLifecycleStateEnteringStandby</Declaration>
+            
+            <DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
+            
+            <NodeRef refid="1124"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/AWSAutoScalingLifecycleStateStandby</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>AWSAutoScalingLifecycleStateStandby</Declaration>
+            
+            <DeclaredIn>AWSAutoScalingModel.h</DeclaredIn>
             
             <NodeRef refid="1124"/>
         </Token>

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSS3GetObjectAclOutput.html">
+	<File path="Classes/AWSS3CORSConfiguration.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSS3GetObjectAclOutput</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSS3CORSConfiguration</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSS3Model.h</DeclaredIn>
             
@@ -13,74 +13,38 @@
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3GetObjectAclOutput/setGrants:</TokenIdentifier>
-			<Abstract type="html">A list of grants.</Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSArray *grants</Declaration>
-			
-			
-			<Anchor>//api/name/grants</Anchor>
-            <NodeRef refid="813"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3GetObjectAclOutput/grants</TokenIdentifier>
-			<Abstract type="html">A list of grants.</Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSArray *grants</Declaration>
-			
-			
-			<Anchor>//api/name/grants</Anchor>
-            <NodeRef refid="813"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSS3GetObjectAclOutput/grants</TokenIdentifier>
-			<Abstract type="html">A list of grants.</Abstract>
-			<DeclaredIn>AWSS3Model.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSArray *grants</Declaration>
-			
-			
-			<Anchor>//api/name/grants</Anchor>
-            <NodeRef refid="813"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3GetObjectAclOutput/setOwner:</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3CORSConfiguration/setCORSRules:</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) AWSS3Owner *owner</Declaration>
+			<Declaration>@property (nonatomic, strong) NSArray *CORSRules</Declaration>
 			
 			
-			<Anchor>//api/name/owner</Anchor>
+			<Anchor>//api/name/CORSRules</Anchor>
             <NodeRef refid="813"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3GetObjectAclOutput/owner</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3CORSConfiguration/CORSRules</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) AWSS3Owner *owner</Declaration>
+			<Declaration>@property (nonatomic, strong) NSArray *CORSRules</Declaration>
 			
 			
-			<Anchor>//api/name/owner</Anchor>
+			<Anchor>//api/name/CORSRules</Anchor>
             <NodeRef refid="813"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSS3GetObjectAclOutput/owner</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSS3CORSConfiguration/CORSRules</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) AWSS3Owner *owner</Declaration>
+			<Declaration>@property (nonatomic, strong) NSArray *CORSRules</Declaration>
 			
 			
-			<Anchor>//api/name/owner</Anchor>
+			<Anchor>//api/name/CORSRules</Anchor>
             <NodeRef refid="813"/>
 		</Token>
 		

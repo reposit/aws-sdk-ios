@@ -14,7 +14,7 @@
 		<div class="container" class="hide-in-xcode">
 			
 			<h1 id="library-title">
-				<a href="../index.html">AWS SDK for iOS v2.1.0 </a>
+				<a href="../index.html">AWS SDK for iOS v2.2.5 </a>
 			</h1>
 
 			<p id="developer-home">
@@ -630,7 +630,7 @@
 			
 		    
 
-			<div class="method-subsection method-declaration"><code>- (BFTask *)addTagsToStream:(AWSKinesisAddTagsToStreamInput *)<em>request</em></code></div>
+			<div class="method-subsection method-declaration"><code>- (AWSTask *)addTagsToStream:(AWSKinesisAddTagsToStreamInput *)<em>request</em></code></div>
 
 		    
 			
@@ -650,7 +650,7 @@
 			
 			<div class="method-subsection return">
 				<h4 class="method-subtitle parameter-title">Return Value</h4>
-				<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will be <code>nil</code>. On failed execution, <code>task.error</code> may contain an <code>NSError</code> with <code>AWSKinesisErrorDomain</code> domian and the following error code: <code>AWSKinesisErrorResourceNotFound</code>, <code>AWSKinesisErrorResourceInUse</code>, <code>AWSKinesisErrorInvalidArgument</code>, <code>AWSKinesisErrorLimitExceeded</code>.</p>
+				<p>An instance of <code>AWSTask</code>. On successful execution, <code>task.result</code> will be <code>nil</code>. On failed execution, <code>task.error</code> may contain an <code>NSError</code> with <code>AWSKinesisErrorDomain</code> domain and the following error code: <code>AWSKinesisErrorResourceNotFound</code>, <code>AWSKinesisErrorResourceInUse</code>, <code>AWSKinesisErrorInvalidArgument</code>, <code>AWSKinesisErrorLimitExceeded</code>.</p>
 			</div>
 			
 
@@ -722,7 +722,7 @@
 			
 		    
 
-			<div class="method-subsection method-declaration"><code>- (BFTask *)createStream:(AWSKinesisCreateStreamInput *)<em>request</em></code></div>
+			<div class="method-subsection method-declaration"><code>- (AWSTask *)createStream:(AWSKinesisCreateStreamInput *)<em>request</em></code></div>
 
 		    
 			
@@ -742,7 +742,7 @@
 			
 			<div class="method-subsection return">
 				<h4 class="method-subtitle parameter-title">Return Value</h4>
-				<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will be <code>nil</code>. On failed execution, <code>task.error</code> may contain an <code>NSError</code> with <code>AWSKinesisErrorDomain</code> domian and the following error code: <code>AWSKinesisErrorResourceInUse</code>, <code>AWSKinesisErrorLimitExceeded</code>, <code>AWSKinesisErrorInvalidArgument</code>.</p>
+				<p>An instance of <code>AWSTask</code>. On successful execution, <code>task.result</code> will be <code>nil</code>. On failed execution, <code>task.error</code> may contain an <code>NSError</code> with <code>AWSKinesisErrorDomain</code> domain and the following error code: <code>AWSKinesisErrorResourceInUse</code>, <code>AWSKinesisErrorLimitExceeded</code>, <code>AWSKinesisErrorInvalidArgument</code>.</p>
 			</div>
 			
 
@@ -805,7 +805,7 @@
 			
 		    
 
-			<div class="method-subsection method-declaration"><code>- (BFTask *)deleteStream:(AWSKinesisDeleteStreamInput *)<em>request</em></code></div>
+			<div class="method-subsection method-declaration"><code>- (AWSTask *)deleteStream:(AWSKinesisDeleteStreamInput *)<em>request</em></code></div>
 
 		    
 			
@@ -825,7 +825,7 @@
 			
 			<div class="method-subsection return">
 				<h4 class="method-subtitle parameter-title">Return Value</h4>
-				<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will be <code>nil</code>. On failed execution, <code>task.error</code> may contain an <code>NSError</code> with <code>AWSKinesisErrorDomain</code> domian and the following error code: <code>AWSKinesisErrorResourceNotFound</code>, <code>AWSKinesisErrorLimitExceeded</code>.</p>
+				<p>An instance of <code>AWSTask</code>. On successful execution, <code>task.result</code> will be <code>nil</code>. On failed execution, <code>task.error</code> may contain an <code>NSError</code> with <code>AWSKinesisErrorDomain</code> domain and the following error code: <code>AWSKinesisErrorResourceNotFound</code>, <code>AWSKinesisErrorLimitExceeded</code>.</p>
 			</div>
 			
 
@@ -885,7 +885,7 @@
 			
 		    
 
-			<div class="method-subsection method-declaration"><code>- (BFTask *)describeStream:(AWSKinesisDescribeStreamInput *)<em>request</em></code></div>
+			<div class="method-subsection method-declaration"><code>- (AWSTask *)describeStream:(AWSKinesisDescribeStreamInput *)<em>request</em></code></div>
 
 		    
 			
@@ -905,7 +905,7 @@
 			
 			<div class="method-subsection return">
 				<h4 class="method-subtitle parameter-title">Return Value</h4>
-				<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSKinesisDescribeStreamOutput</code>. On failed execution, <code>task.error</code> may contain an <code>NSError</code> with <code>AWSKinesisErrorDomain</code> domian and the following error code: <code>AWSKinesisErrorResourceNotFound</code>, <code>AWSKinesisErrorLimitExceeded</code>.</p>
+				<p>An instance of <code>AWSTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSKinesisDescribeStreamOutput</code>. On failed execution, <code>task.error</code> may contain an <code>NSError</code> with <code>AWSKinesisErrorDomain</code> domain and the following error code: <code>AWSKinesisErrorResourceNotFound</code>, <code>AWSKinesisErrorLimitExceeded</code>.</p>
 			</div>
 			
 
@@ -970,7 +970,7 @@
 			
 		    
 
-			<div class="method-subsection method-declaration"><code>- (BFTask *)getRecords:(AWSKinesisGetRecordsInput *)<em>request</em></code></div>
+			<div class="method-subsection method-declaration"><code>- (AWSTask *)getRecords:(AWSKinesisGetRecordsInput *)<em>request</em></code></div>
 
 		    
 			
@@ -990,7 +990,7 @@
 			
 			<div class="method-subsection return">
 				<h4 class="method-subtitle parameter-title">Return Value</h4>
-				<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSKinesisGetRecordsOutput</code>. On failed execution, <code>task.error</code> may contain an <code>NSError</code> with <code>AWSKinesisErrorDomain</code> domian and the following error code: <code>AWSKinesisErrorResourceNotFound</code>, <code>AWSKinesisErrorInvalidArgument</code>, <code>AWSKinesisErrorProvisionedThroughputExceeded</code>, <code>AWSKinesisErrorExpiredIterator</code>.</p>
+				<p>An instance of <code>AWSTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSKinesisGetRecordsOutput</code>. On failed execution, <code>task.error</code> may contain an <code>NSError</code> with <code>AWSKinesisErrorDomain</code> domain and the following error code: <code>AWSKinesisErrorResourceNotFound</code>, <code>AWSKinesisErrorInvalidArgument</code>, <code>AWSKinesisErrorProvisionedThroughputExceeded</code>, <code>AWSKinesisErrorExpiredIterator</code>.</p>
 			</div>
 			
 
@@ -1058,7 +1058,7 @@
 			
 		    
 
-			<div class="method-subsection method-declaration"><code>- (BFTask *)getShardIterator:(AWSKinesisGetShardIteratorInput *)<em>request</em></code></div>
+			<div class="method-subsection method-declaration"><code>- (AWSTask *)getShardIterator:(AWSKinesisGetShardIteratorInput *)<em>request</em></code></div>
 
 		    
 			
@@ -1078,7 +1078,7 @@
 			
 			<div class="method-subsection return">
 				<h4 class="method-subtitle parameter-title">Return Value</h4>
-				<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSKinesisGetShardIteratorOutput</code>. On failed execution, <code>task.error</code> may contain an <code>NSError</code> with <code>AWSKinesisErrorDomain</code> domian and the following error code: <code>AWSKinesisErrorResourceNotFound</code>, <code>AWSKinesisErrorInvalidArgument</code>, <code>AWSKinesisErrorProvisionedThroughputExceeded</code>.</p>
+				<p>An instance of <code>AWSTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSKinesisGetShardIteratorOutput</code>. On failed execution, <code>task.error</code> may contain an <code>NSError</code> with <code>AWSKinesisErrorDomain</code> domain and the following error code: <code>AWSKinesisErrorResourceNotFound</code>, <code>AWSKinesisErrorInvalidArgument</code>, <code>AWSKinesisErrorProvisionedThroughputExceeded</code>.</p>
 			</div>
 			
 
@@ -1137,7 +1137,7 @@
 			
 		    
 
-			<div class="method-subsection method-declaration"><code>- (BFTask *)listStreams:(AWSKinesisListStreamsInput *)<em>request</em></code></div>
+			<div class="method-subsection method-declaration"><code>- (AWSTask *)listStreams:(AWSKinesisListStreamsInput *)<em>request</em></code></div>
 
 		    
 			
@@ -1157,7 +1157,7 @@
 			
 			<div class="method-subsection return">
 				<h4 class="method-subtitle parameter-title">Return Value</h4>
-				<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSKinesisListStreamsOutput</code>. On failed execution, <code>task.error</code> may contain an <code>NSError</code> with <code>AWSKinesisErrorDomain</code> domian and the following error code: <code>AWSKinesisErrorLimitExceeded</code>.</p>
+				<p>An instance of <code>AWSTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSKinesisListStreamsOutput</code>. On failed execution, <code>task.error</code> may contain an <code>NSError</code> with <code>AWSKinesisErrorDomain</code> domain and the following error code: <code>AWSKinesisErrorLimitExceeded</code>.</p>
 			</div>
 			
 
@@ -1207,7 +1207,7 @@
 			
 		    
 
-			<div class="method-subsection method-declaration"><code>- (BFTask *)listTagsForStream:(AWSKinesisListTagsForStreamInput *)<em>request</em></code></div>
+			<div class="method-subsection method-declaration"><code>- (AWSTask *)listTagsForStream:(AWSKinesisListTagsForStreamInput *)<em>request</em></code></div>
 
 		    
 			
@@ -1227,7 +1227,7 @@
 			
 			<div class="method-subsection return">
 				<h4 class="method-subtitle parameter-title">Return Value</h4>
-				<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSKinesisListTagsForStreamOutput</code>. On failed execution, <code>task.error</code> may contain an <code>NSError</code> with <code>AWSKinesisErrorDomain</code> domian and the following error code: <code>AWSKinesisErrorResourceNotFound</code>, <code>AWSKinesisErrorInvalidArgument</code>, <code>AWSKinesisErrorLimitExceeded</code>.</p>
+				<p>An instance of <code>AWSTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSKinesisListTagsForStreamOutput</code>. On failed execution, <code>task.error</code> may contain an <code>NSError</code> with <code>AWSKinesisErrorDomain</code> domain and the following error code: <code>AWSKinesisErrorResourceNotFound</code>, <code>AWSKinesisErrorInvalidArgument</code>, <code>AWSKinesisErrorLimitExceeded</code>.</p>
 			</div>
 			
 
@@ -1298,7 +1298,7 @@
 			
 		    
 
-			<div class="method-subsection method-declaration"><code>- (BFTask *)mergeShards:(AWSKinesisMergeShardsInput *)<em>request</em></code></div>
+			<div class="method-subsection method-declaration"><code>- (AWSTask *)mergeShards:(AWSKinesisMergeShardsInput *)<em>request</em></code></div>
 
 		    
 			
@@ -1318,7 +1318,7 @@
 			
 			<div class="method-subsection return">
 				<h4 class="method-subtitle parameter-title">Return Value</h4>
-				<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will be <code>nil</code>. On failed execution, <code>task.error</code> may contain an <code>NSError</code> with <code>AWSKinesisErrorDomain</code> domian and the following error code: <code>AWSKinesisErrorResourceNotFound</code>, <code>AWSKinesisErrorResourceInUse</code>, <code>AWSKinesisErrorInvalidArgument</code>, <code>AWSKinesisErrorLimitExceeded</code>.</p>
+				<p>An instance of <code>AWSTask</code>. On successful execution, <code>task.result</code> will be <code>nil</code>. On failed execution, <code>task.error</code> may contain an <code>NSError</code> with <code>AWSKinesisErrorDomain</code> domain and the following error code: <code>AWSKinesisErrorResourceNotFound</code>, <code>AWSKinesisErrorResourceInUse</code>, <code>AWSKinesisErrorInvalidArgument</code>, <code>AWSKinesisErrorLimitExceeded</code>.</p>
 			</div>
 			
 
@@ -1390,7 +1390,7 @@
 			
 		    
 
-			<div class="method-subsection method-declaration"><code>- (BFTask *)putRecord:(AWSKinesisPutRecordInput *)<em>request</em></code></div>
+			<div class="method-subsection method-declaration"><code>- (AWSTask *)putRecord:(AWSKinesisPutRecordInput *)<em>request</em></code></div>
 
 		    
 			
@@ -1410,7 +1410,7 @@
 			
 			<div class="method-subsection return">
 				<h4 class="method-subtitle parameter-title">Return Value</h4>
-				<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSKinesisPutRecordOutput</code>. On failed execution, <code>task.error</code> may contain an <code>NSError</code> with <code>AWSKinesisErrorDomain</code> domian and the following error code: <code>AWSKinesisErrorResourceNotFound</code>, <code>AWSKinesisErrorInvalidArgument</code>, <code>AWSKinesisErrorProvisionedThroughputExceeded</code>.</p>
+				<p>An instance of <code>AWSTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSKinesisPutRecordOutput</code>. On failed execution, <code>task.error</code> may contain an <code>NSError</code> with <code>AWSKinesisErrorDomain</code> domain and the following error code: <code>AWSKinesisErrorResourceNotFound</code>, <code>AWSKinesisErrorInvalidArgument</code>, <code>AWSKinesisErrorProvisionedThroughputExceeded</code>.</p>
 			</div>
 			
 
@@ -1487,7 +1487,7 @@
 			
 		    
 
-			<div class="method-subsection method-declaration"><code>- (BFTask *)putRecords:(AWSKinesisPutRecordsInput *)<em>request</em></code></div>
+			<div class="method-subsection method-declaration"><code>- (AWSTask *)putRecords:(AWSKinesisPutRecordsInput *)<em>request</em></code></div>
 
 		    
 			
@@ -1507,7 +1507,7 @@
 			
 			<div class="method-subsection return">
 				<h4 class="method-subtitle parameter-title">Return Value</h4>
-				<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSKinesisPutRecordsOutput</code>. On failed execution, <code>task.error</code> may contain an <code>NSError</code> with <code>AWSKinesisErrorDomain</code> domian and the following error code: <code>AWSKinesisErrorResourceNotFound</code>, <code>AWSKinesisErrorInvalidArgument</code>, <code>AWSKinesisErrorProvisionedThroughputExceeded</code>.</p>
+				<p>An instance of <code>AWSTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSKinesisPutRecordsOutput</code>. On failed execution, <code>task.error</code> may contain an <code>NSError</code> with <code>AWSKinesisErrorDomain</code> domain and the following error code: <code>AWSKinesisErrorResourceNotFound</code>, <code>AWSKinesisErrorInvalidArgument</code>, <code>AWSKinesisErrorProvisionedThroughputExceeded</code>.</p>
 			</div>
 			
 
@@ -1560,7 +1560,7 @@
 			
 		    
 
-			<div class="method-subsection method-declaration"><code>- (BFTask *)removeTagsFromStream:(AWSKinesisRemoveTagsFromStreamInput *)<em>request</em></code></div>
+			<div class="method-subsection method-declaration"><code>- (AWSTask *)removeTagsFromStream:(AWSKinesisRemoveTagsFromStreamInput *)<em>request</em></code></div>
 
 		    
 			
@@ -1580,7 +1580,7 @@
 			
 			<div class="method-subsection return">
 				<h4 class="method-subtitle parameter-title">Return Value</h4>
-				<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will be <code>nil</code>. On failed execution, <code>task.error</code> may contain an <code>NSError</code> with <code>AWSKinesisErrorDomain</code> domian and the following error code: <code>AWSKinesisErrorResourceNotFound</code>, <code>AWSKinesisErrorResourceInUse</code>, <code>AWSKinesisErrorInvalidArgument</code>, <code>AWSKinesisErrorLimitExceeded</code>.</p>
+				<p>An instance of <code>AWSTask</code>. On successful execution, <code>task.result</code> will be <code>nil</code>. On failed execution, <code>task.error</code> may contain an <code>NSError</code> with <code>AWSKinesisErrorDomain</code> domain and the following error code: <code>AWSKinesisErrorResourceNotFound</code>, <code>AWSKinesisErrorResourceInUse</code>, <code>AWSKinesisErrorInvalidArgument</code>, <code>AWSKinesisErrorLimitExceeded</code>.</p>
 			</div>
 			
 
@@ -1655,7 +1655,7 @@
 			
 		    
 
-			<div class="method-subsection method-declaration"><code>- (BFTask *)splitShard:(AWSKinesisSplitShardInput *)<em>request</em></code></div>
+			<div class="method-subsection method-declaration"><code>- (AWSTask *)splitShard:(AWSKinesisSplitShardInput *)<em>request</em></code></div>
 
 		    
 			
@@ -1675,7 +1675,7 @@
 			
 			<div class="method-subsection return">
 				<h4 class="method-subtitle parameter-title">Return Value</h4>
-				<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will be <code>nil</code>. On failed execution, <code>task.error</code> may contain an <code>NSError</code> with <code>AWSKinesisErrorDomain</code> domian and the following error code: <code>AWSKinesisErrorResourceNotFound</code>, <code>AWSKinesisErrorResourceInUse</code>, <code>AWSKinesisErrorInvalidArgument</code>, <code>AWSKinesisErrorLimitExceeded</code>.</p>
+				<p>An instance of <code>AWSTask</code>. On successful execution, <code>task.result</code> will be <code>nil</code>. On failed execution, <code>task.error</code> may contain an <code>NSError</code> with <code>AWSKinesisErrorDomain</code> domain and the following error code: <code>AWSKinesisErrorResourceNotFound</code>, <code>AWSKinesisErrorResourceInUse</code>, <code>AWSKinesisErrorInvalidArgument</code>, <code>AWSKinesisErrorLimitExceeded</code>.</p>
 			</div>
 			
 
@@ -1718,7 +1718,7 @@
 				<footer>
 					<div class="footer-copyright">
 						
-						<p class="copyright">Copyright &copy; 2015 Amazon Web Services, Inc. All rights reserved. Updated: 2015-03-25</p>
+						<p class="copyright">Copyright &copy; 2015 Amazon Web Services, Inc. All rights reserved. Updated: 2015-08-31</p>
 						
 						
 						<p class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.2.1 (build 1333)</a>.</p>

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSS3QueueConfiguration.html">
+	<File path="Classes/AWSS3GetBucketWebsiteOutput.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSS3QueueConfiguration</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSS3GetBucketWebsiteOutput</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSS3Model.h</DeclaredIn>
             
@@ -13,146 +13,146 @@
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3QueueConfiguration/setEvent:</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3GetBucketWebsiteOutput/setErrorDocument:</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, assign) AWSS3Event event</Declaration>
+			<Declaration>@property (nonatomic, strong) AWSS3ErrorDocument *errorDocument</Declaration>
 			
 			
-			<Anchor>//api/name/event</Anchor>
+			<Anchor>//api/name/errorDocument</Anchor>
             <NodeRef refid="862"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3QueueConfiguration/event</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3GetBucketWebsiteOutput/errorDocument</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, assign) AWSS3Event event</Declaration>
+			<Declaration>@property (nonatomic, strong) AWSS3ErrorDocument *errorDocument</Declaration>
 			
 			
-			<Anchor>//api/name/event</Anchor>
+			<Anchor>//api/name/errorDocument</Anchor>
             <NodeRef refid="862"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSS3QueueConfiguration/event</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSS3GetBucketWebsiteOutput/errorDocument</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, assign) AWSS3Event event</Declaration>
+			<Declaration>@property (nonatomic, strong) AWSS3ErrorDocument *errorDocument</Declaration>
 			
 			
-			<Anchor>//api/name/event</Anchor>
+			<Anchor>//api/name/errorDocument</Anchor>
             <NodeRef refid="862"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3QueueConfiguration/setEvents:</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3GetBucketWebsiteOutput/setIndexDocument:</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSArray *events</Declaration>
+			<Declaration>@property (nonatomic, strong) AWSS3IndexDocument *indexDocument</Declaration>
 			
 			
-			<Anchor>//api/name/events</Anchor>
+			<Anchor>//api/name/indexDocument</Anchor>
             <NodeRef refid="862"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3QueueConfiguration/events</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3GetBucketWebsiteOutput/indexDocument</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSArray *events</Declaration>
+			<Declaration>@property (nonatomic, strong) AWSS3IndexDocument *indexDocument</Declaration>
 			
 			
-			<Anchor>//api/name/events</Anchor>
+			<Anchor>//api/name/indexDocument</Anchor>
             <NodeRef refid="862"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSS3QueueConfiguration/events</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSS3GetBucketWebsiteOutput/indexDocument</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSArray *events</Declaration>
+			<Declaration>@property (nonatomic, strong) AWSS3IndexDocument *indexDocument</Declaration>
 			
 			
-			<Anchor>//api/name/events</Anchor>
+			<Anchor>//api/name/indexDocument</Anchor>
             <NodeRef refid="862"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3QueueConfiguration/setIdentifier:</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3GetBucketWebsiteOutput/setRedirectAllRequestsTo:</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *identifier</Declaration>
+			<Declaration>@property (nonatomic, strong) AWSS3RedirectAllRequestsTo *redirectAllRequestsTo</Declaration>
 			
 			
-			<Anchor>//api/name/identifier</Anchor>
+			<Anchor>//api/name/redirectAllRequestsTo</Anchor>
             <NodeRef refid="862"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3QueueConfiguration/identifier</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3GetBucketWebsiteOutput/redirectAllRequestsTo</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *identifier</Declaration>
+			<Declaration>@property (nonatomic, strong) AWSS3RedirectAllRequestsTo *redirectAllRequestsTo</Declaration>
 			
 			
-			<Anchor>//api/name/identifier</Anchor>
+			<Anchor>//api/name/redirectAllRequestsTo</Anchor>
             <NodeRef refid="862"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSS3QueueConfiguration/identifier</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSS3GetBucketWebsiteOutput/redirectAllRequestsTo</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *identifier</Declaration>
+			<Declaration>@property (nonatomic, strong) AWSS3RedirectAllRequestsTo *redirectAllRequestsTo</Declaration>
 			
 			
-			<Anchor>//api/name/identifier</Anchor>
+			<Anchor>//api/name/redirectAllRequestsTo</Anchor>
             <NodeRef refid="862"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3QueueConfiguration/setQueue:</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3GetBucketWebsiteOutput/setRoutingRules:</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *queue</Declaration>
+			<Declaration>@property (nonatomic, strong) NSArray *routingRules</Declaration>
 			
 			
-			<Anchor>//api/name/queue</Anchor>
+			<Anchor>//api/name/routingRules</Anchor>
             <NodeRef refid="862"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSS3QueueConfiguration/queue</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3GetBucketWebsiteOutput/routingRules</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *queue</Declaration>
+			<Declaration>@property (nonatomic, strong) NSArray *routingRules</Declaration>
 			
 			
-			<Anchor>//api/name/queue</Anchor>
+			<Anchor>//api/name/routingRules</Anchor>
             <NodeRef refid="862"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSS3QueueConfiguration/queue</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSS3GetBucketWebsiteOutput/routingRules</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *queue</Declaration>
+			<Declaration>@property (nonatomic, strong) NSArray *routingRules</Declaration>
 			
 			
-			<Anchor>//api/name/queue</Anchor>
+			<Anchor>//api/name/routingRules</Anchor>
             <NodeRef refid="862"/>
 		</Token>
 		

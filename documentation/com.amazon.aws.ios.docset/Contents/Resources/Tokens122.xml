@@ -4,7 +4,7 @@
 		
 		<Token>
 			<TokenIdentifier>//apple_ref/occ/cl/AWSCognitoIdentityCredentials</TokenIdentifier>
-			<Abstract type="html"></Abstract>
+			<Abstract type="html">&lt;p&gt;Credentials for the the provided identity ID.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSCognitoIdentityModel.h</DeclaredIn>
             
 			
@@ -14,7 +14,7 @@
 		
 		<Token>
 			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoIdentityCredentials/setAccessKeyId:</TokenIdentifier>
-			<Abstract type="html"></Abstract>
+			<Abstract type="html">&lt;p&gt;The Access Key portion of the credentials.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSCognitoIdentityModel.h</DeclaredIn>
 			
 			<Declaration>@property (nonatomic, strong) NSString *accessKeyId</Declaration>
@@ -26,7 +26,7 @@
 		
 		<Token>
 			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoIdentityCredentials/accessKeyId</TokenIdentifier>
-			<Abstract type="html"></Abstract>
+			<Abstract type="html">&lt;p&gt;The Access Key portion of the credentials.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSCognitoIdentityModel.h</DeclaredIn>
 			
 			<Declaration>@property (nonatomic, strong) NSString *accessKeyId</Declaration>
@@ -38,7 +38,7 @@
 		
 		<Token>
 			<TokenIdentifier>//apple_ref/occ/instp/AWSCognitoIdentityCredentials/accessKeyId</TokenIdentifier>
-			<Abstract type="html"></Abstract>
+			<Abstract type="html">&lt;p&gt;The Access Key portion of the credentials.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSCognitoIdentityModel.h</DeclaredIn>
 			
 			<Declaration>@property (nonatomic, strong) NSString *accessKeyId</Declaration>
@@ -50,7 +50,7 @@
 		
 		<Token>
 			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoIdentityCredentials/setExpiration:</TokenIdentifier>
-			<Abstract type="html"></Abstract>
+			<Abstract type="html">&lt;p&gt;The date at which these credentials will expire.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSCognitoIdentityModel.h</DeclaredIn>
 			
 			<Declaration>@property (nonatomic, strong) NSDate *expiration</Declaration>
@@ -62,7 +62,7 @@
 		
 		<Token>
 			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoIdentityCredentials/expiration</TokenIdentifier>
-			<Abstract type="html"></Abstract>
+			<Abstract type="html">&lt;p&gt;The date at which these credentials will expire.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSCognitoIdentityModel.h</DeclaredIn>
 			
 			<Declaration>@property (nonatomic, strong) NSDate *expiration</Declaration>
@@ -74,7 +74,7 @@
 		
 		<Token>
 			<TokenIdentifier>//apple_ref/occ/instp/AWSCognitoIdentityCredentials/expiration</TokenIdentifier>
-			<Abstract type="html"></Abstract>
+			<Abstract type="html">&lt;p&gt;The date at which these credentials will expire.&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSCognitoIdentityModel.h</DeclaredIn>
 			
 			<Declaration>@property (nonatomic, strong) NSDate *expiration</Declaration>
@@ -86,7 +86,7 @@
 		
 		<Token>
 			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoIdentityCredentials/setSecretKey:</TokenIdentifier>
-			<Abstract type="html"></Abstract>
+			<Abstract type="html">&lt;p&gt;The Secret Access Key portion of the credentials&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSCognitoIdentityModel.h</DeclaredIn>
 			
 			<Declaration>@property (nonatomic, strong) NSString *secretKey</Declaration>
@@ -98,7 +98,7 @@
 		
 		<Token>
 			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoIdentityCredentials/secretKey</TokenIdentifier>
-			<Abstract type="html"></Abstract>
+			<Abstract type="html">&lt;p&gt;The Secret Access Key portion of the credentials&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSCognitoIdentityModel.h</DeclaredIn>
 			
 			<Declaration>@property (nonatomic, strong) NSString *secretKey</Declaration>
@@ -110,7 +110,7 @@
 		
 		<Token>
 			<TokenIdentifier>//apple_ref/occ/instp/AWSCognitoIdentityCredentials/secretKey</TokenIdentifier>
-			<Abstract type="html"></Abstract>
+			<Abstract type="html">&lt;p&gt;The Secret Access Key portion of the credentials&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSCognitoIdentityModel.h</DeclaredIn>
 			
 			<Declaration>@property (nonatomic, strong) NSString *secretKey</Declaration>
@@ -122,7 +122,7 @@
 		
 		<Token>
 			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoIdentityCredentials/setSessionToken:</TokenIdentifier>
-			<Abstract type="html"></Abstract>
+			<Abstract type="html">&lt;p&gt;The Session Token portion of the credentials&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSCognitoIdentityModel.h</DeclaredIn>
 			
 			<Declaration>@property (nonatomic, strong) NSString *sessionToken</Declaration>
@@ -134,7 +134,7 @@
 		
 		<Token>
 			<TokenIdentifier>//apple_ref/occ/instm/AWSCognitoIdentityCredentials/sessionToken</TokenIdentifier>
-			<Abstract type="html"></Abstract>
+			<Abstract type="html">&lt;p&gt;The Session Token portion of the credentials&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSCognitoIdentityModel.h</DeclaredIn>
 			
 			<Declaration>@property (nonatomic, strong) NSString *sessionToken</Declaration>
@@ -146,7 +146,7 @@
 		
 		<Token>
 			<TokenIdentifier>//apple_ref/occ/instp/AWSCognitoIdentityCredentials/sessionToken</TokenIdentifier>
-			<Abstract type="html"></Abstract>
+			<Abstract type="html">&lt;p&gt;The Session Token portion of the credentials&lt;/p&gt;</Abstract>
 			<DeclaredIn>AWSCognitoIdentityModel.h</DeclaredIn>
 			
 			<Declaration>@property (nonatomic, strong) NSString *sessionToken</Declaration>

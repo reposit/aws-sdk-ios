@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSElasticLoadBalancingCreateAccessPointInput.html">
+	<File path="Classes/AWSEC2VpnConnection.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSElasticLoadBalancingCreateAccessPointInput</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSElasticLoadBalancingModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSEC2VpnConnection</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Describes a VPN connection.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
             
 			
 			<NodeRef refid="642"/>
@@ -13,225 +13,189 @@
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSElasticLoadBalancingCreateAccessPointInput/setAvailabilityZones:</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSElasticLoadBalancingModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2VpnConnection/setCustomerGatewayConfiguration:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The configuration information for the VPN connection&apos;s customer gateway (in the native XML format). This element is always present in the &lt;a&gt;CreateVpnConnection&lt;/a&gt; response; however, it&apos;s present in the &lt;a&gt;DescribeVpnConnections&lt;/a&gt; response only if the VPN connection is in the &lt;code&gt;pending&lt;/code&gt; or &lt;code&gt;available&lt;/code&gt; state.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSArray *availabilityZones</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *customerGatewayConfiguration</Declaration>
 			
 			
-			<Anchor>//api/name/availabilityZones</Anchor>
+			<Anchor>//api/name/customerGatewayConfiguration</Anchor>
             <NodeRef refid="642"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSElasticLoadBalancingCreateAccessPointInput/availabilityZones</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSElasticLoadBalancingModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2VpnConnection/customerGatewayConfiguration</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The configuration information for the VPN connection&apos;s customer gateway (in the native XML format). This element is always present in the &lt;a&gt;CreateVpnConnection&lt;/a&gt; response; however, it&apos;s present in the &lt;a&gt;DescribeVpnConnections&lt;/a&gt; response only if the VPN connection is in the &lt;code&gt;pending&lt;/code&gt; or &lt;code&gt;available&lt;/code&gt; state.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSArray *availabilityZones</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *customerGatewayConfiguration</Declaration>
 			
 			
-			<Anchor>//api/name/availabilityZones</Anchor>
+			<Anchor>//api/name/customerGatewayConfiguration</Anchor>
             <NodeRef refid="642"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSElasticLoadBalancingCreateAccessPointInput/availabilityZones</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSElasticLoadBalancingModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2VpnConnection/customerGatewayConfiguration</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The configuration information for the VPN connection&apos;s customer gateway (in the native XML format). This element is always present in the &lt;a&gt;CreateVpnConnection&lt;/a&gt; response; however, it&apos;s present in the &lt;a&gt;DescribeVpnConnections&lt;/a&gt; response only if the VPN connection is in the &lt;code&gt;pending&lt;/code&gt; or &lt;code&gt;available&lt;/code&gt; state.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSArray *availabilityZones</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *customerGatewayConfiguration</Declaration>
 			
 			
-			<Anchor>//api/name/availabilityZones</Anchor>
+			<Anchor>//api/name/customerGatewayConfiguration</Anchor>
             <NodeRef refid="642"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSElasticLoadBalancingCreateAccessPointInput/setListeners:</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSElasticLoadBalancingModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2VpnConnection/setCustomerGatewayId:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the customer gateway at your end of the VPN connection.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSArray *listeners</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *customerGatewayId</Declaration>
 			
 			
-			<Anchor>//api/name/listeners</Anchor>
+			<Anchor>//api/name/customerGatewayId</Anchor>
             <NodeRef refid="642"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSElasticLoadBalancingCreateAccessPointInput/listeners</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSElasticLoadBalancingModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2VpnConnection/customerGatewayId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the customer gateway at your end of the VPN connection.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSArray *listeners</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *customerGatewayId</Declaration>
 			
 			
-			<Anchor>//api/name/listeners</Anchor>
+			<Anchor>//api/name/customerGatewayId</Anchor>
             <NodeRef refid="642"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSElasticLoadBalancingCreateAccessPointInput/listeners</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSElasticLoadBalancingModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2VpnConnection/customerGatewayId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the customer gateway at your end of the VPN connection.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSArray *listeners</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *customerGatewayId</Declaration>
 			
 			
-			<Anchor>//api/name/listeners</Anchor>
+			<Anchor>//api/name/customerGatewayId</Anchor>
             <NodeRef refid="642"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSElasticLoadBalancingCreateAccessPointInput/setLoadBalancerName:</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSElasticLoadBalancingModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2VpnConnection/setOptions:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The VPN connection options.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *loadBalancerName</Declaration>
+			<Declaration>@property (nonatomic, strong) AWSEC2VpnConnectionOptions *options</Declaration>
 			
 			
-			<Anchor>//api/name/loadBalancerName</Anchor>
+			<Anchor>//api/name/options</Anchor>
             <NodeRef refid="642"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSElasticLoadBalancingCreateAccessPointInput/loadBalancerName</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSElasticLoadBalancingModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2VpnConnection/options</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The VPN connection options.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *loadBalancerName</Declaration>
+			<Declaration>@property (nonatomic, strong) AWSEC2VpnConnectionOptions *options</Declaration>
 			
 			
-			<Anchor>//api/name/loadBalancerName</Anchor>
+			<Anchor>//api/name/options</Anchor>
             <NodeRef refid="642"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSElasticLoadBalancingCreateAccessPointInput/loadBalancerName</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSElasticLoadBalancingModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2VpnConnection/options</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The VPN connection options.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *loadBalancerName</Declaration>
+			<Declaration>@property (nonatomic, strong) AWSEC2VpnConnectionOptions *options</Declaration>
 			
 			
-			<Anchor>//api/name/loadBalancerName</Anchor>
+			<Anchor>//api/name/options</Anchor>
             <NodeRef refid="642"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSElasticLoadBalancingCreateAccessPointInput/setScheme:</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSElasticLoadBalancingModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2VpnConnection/setRoutes:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The static routes associated with the VPN connection.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *scheme</Declaration>
+			<Declaration>@property (nonatomic, strong) NSArray *routes</Declaration>
 			
 			
-			<Anchor>//api/name/scheme</Anchor>
+			<Anchor>//api/name/routes</Anchor>
             <NodeRef refid="642"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSElasticLoadBalancingCreateAccessPointInput/scheme</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSElasticLoadBalancingModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2VpnConnection/routes</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The static routes associated with the VPN connection.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *scheme</Declaration>
+			<Declaration>@property (nonatomic, strong) NSArray *routes</Declaration>
 			
 			
-			<Anchor>//api/name/scheme</Anchor>
+			<Anchor>//api/name/routes</Anchor>
             <NodeRef refid="642"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSElasticLoadBalancingCreateAccessPointInput/scheme</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSElasticLoadBalancingModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2VpnConnection/routes</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The static routes associated with the VPN connection.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *scheme</Declaration>
+			<Declaration>@property (nonatomic, strong) NSArray *routes</Declaration>
 			
 			
-			<Anchor>//api/name/scheme</Anchor>
+			<Anchor>//api/name/routes</Anchor>
             <NodeRef refid="642"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSElasticLoadBalancingCreateAccessPointInput/setSecurityGroups:</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSElasticLoadBalancingModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2VpnConnection/setState:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The current state of the VPN connection.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSArray *securityGroups</Declaration>
+			<Declaration>@property (nonatomic, assign) AWSEC2VpnState state</Declaration>
 			
 			
-			<Anchor>//api/name/securityGroups</Anchor>
+			<Anchor>//api/name/state</Anchor>
             <NodeRef refid="642"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSElasticLoadBalancingCreateAccessPointInput/securityGroups</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSElasticLoadBalancingModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2VpnConnection/state</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The current state of the VPN connection.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSArray *securityGroups</Declaration>
+			<Declaration>@property (nonatomic, assign) AWSEC2VpnState state</Declaration>
 			
 			
-			<Anchor>//api/name/securityGroups</Anchor>
+			<Anchor>//api/name/state</Anchor>
             <NodeRef refid="642"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSElasticLoadBalancingCreateAccessPointInput/securityGroups</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSElasticLoadBalancingModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2VpnConnection/state</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The current state of the VPN connection.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSArray *securityGroups</Declaration>
+			<Declaration>@property (nonatomic, assign) AWSEC2VpnState state</Declaration>
 			
 			
-			<Anchor>//api/name/securityGroups</Anchor>
+			<Anchor>//api/name/state</Anchor>
             <NodeRef refid="642"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSElasticLoadBalancingCreateAccessPointInput/setSubnets:</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSElasticLoadBalancingModel.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSArray *subnets</Declaration>
-			
-			
-			<Anchor>//api/name/subnets</Anchor>
-            <NodeRef refid="642"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSElasticLoadBalancingCreateAccessPointInput/subnets</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSElasticLoadBalancingModel.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSArray *subnets</Declaration>
-			
-			
-			<Anchor>//api/name/subnets</Anchor>
-            <NodeRef refid="642"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSElasticLoadBalancingCreateAccessPointInput/subnets</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSElasticLoadBalancingModel.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic, strong) NSArray *subnets</Declaration>
-			
-			
-			<Anchor>//api/name/subnets</Anchor>
-            <NodeRef refid="642"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSElasticLoadBalancingCreateAccessPointInput/setTags:</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSElasticLoadBalancingModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2VpnConnection/setTags:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Any tags assigned to the VPN connection.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
 			<Declaration>@property (nonatomic, strong) NSArray *tags</Declaration>
 			
@@ -241,9 +205,9 @@
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSElasticLoadBalancingCreateAccessPointInput/tags</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSElasticLoadBalancingModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2VpnConnection/tags</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Any tags assigned to the VPN connection.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
 			<Declaration>@property (nonatomic, strong) NSArray *tags</Declaration>
 			
@@ -253,14 +217,158 @@
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSElasticLoadBalancingCreateAccessPointInput/tags</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSElasticLoadBalancingModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2VpnConnection/tags</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Any tags assigned to the VPN connection.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
 			
 			<Declaration>@property (nonatomic, strong) NSArray *tags</Declaration>
 			
 			
 			<Anchor>//api/name/tags</Anchor>
+            <NodeRef refid="642"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2VpnConnection/setTypes:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The type of VPN connection.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) AWSEC2GatewayType types</Declaration>
+			
+			
+			<Anchor>//api/name/types</Anchor>
+            <NodeRef refid="642"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2VpnConnection/types</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The type of VPN connection.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) AWSEC2GatewayType types</Declaration>
+			
+			
+			<Anchor>//api/name/types</Anchor>
+            <NodeRef refid="642"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2VpnConnection/types</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The type of VPN connection.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) AWSEC2GatewayType types</Declaration>
+			
+			
+			<Anchor>//api/name/types</Anchor>
+            <NodeRef refid="642"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2VpnConnection/setVgwTelemetry:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Information about the VPN tunnel.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray *vgwTelemetry</Declaration>
+			
+			
+			<Anchor>//api/name/vgwTelemetry</Anchor>
+            <NodeRef refid="642"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2VpnConnection/vgwTelemetry</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Information about the VPN tunnel.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray *vgwTelemetry</Declaration>
+			
+			
+			<Anchor>//api/name/vgwTelemetry</Anchor>
+            <NodeRef refid="642"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2VpnConnection/vgwTelemetry</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Information about the VPN tunnel.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray *vgwTelemetry</Declaration>
+			
+			
+			<Anchor>//api/name/vgwTelemetry</Anchor>
+            <NodeRef refid="642"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2VpnConnection/setVpnConnectionId:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the VPN connection.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *vpnConnectionId</Declaration>
+			
+			
+			<Anchor>//api/name/vpnConnectionId</Anchor>
+            <NodeRef refid="642"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2VpnConnection/vpnConnectionId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the VPN connection.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *vpnConnectionId</Declaration>
+			
+			
+			<Anchor>//api/name/vpnConnectionId</Anchor>
+            <NodeRef refid="642"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2VpnConnection/vpnConnectionId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the VPN connection.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *vpnConnectionId</Declaration>
+			
+			
+			<Anchor>//api/name/vpnConnectionId</Anchor>
+            <NodeRef refid="642"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2VpnConnection/setVpnGatewayId:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the virtual private gateway at the AWS side of the VPN connection.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *vpnGatewayId</Declaration>
+			
+			
+			<Anchor>//api/name/vpnGatewayId</Anchor>
+            <NodeRef refid="642"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSEC2VpnConnection/vpnGatewayId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the virtual private gateway at the AWS side of the VPN connection.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *vpnGatewayId</Declaration>
+			
+			
+			<Anchor>//api/name/vpnGatewayId</Anchor>
+            <NodeRef refid="642"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSEC2VpnConnection/vpnGatewayId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The ID of the virtual private gateway at the AWS side of the VPN connection.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSEC2Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *vpnGatewayId</Declaration>
+			
+			
+			<Anchor>//api/name/vpnGatewayId</Anchor>
             <NodeRef refid="642"/>
 		</Token>
 		

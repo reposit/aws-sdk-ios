@@ -14,7 +14,7 @@
 		<div class="container" class="hide-in-xcode">
 			
 			<h1 id="library-title">
-				<a href="../index.html">AWS SDK for iOS v2.1.0 </a>
+				<a href="../index.html">AWS SDK for iOS v2.2.5 </a>
 			</h1>
 
 			<p id="developer-home">
@@ -623,7 +623,7 @@
 			
 		    
 
-			<div class="method-subsection method-declaration"><code>- (BFTask *)batchDeleteAttributes:(AWSSimpleDBBatchDeleteAttributesRequest *)<em>request</em></code></div>
+			<div class="method-subsection method-declaration"><code>- (AWSTask *)batchDeleteAttributes:(AWSSimpleDBBatchDeleteAttributesRequest *)<em>request</em></code></div>
 
 		    
 			
@@ -643,7 +643,7 @@
 			
 			<div class="method-subsection return">
 				<h4 class="method-subtitle parameter-title">Return Value</h4>
-				<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will be <code>nil</code>.</p>
+				<p>An instance of <code>AWSTask</code>. On successful execution, <code>task.result</code> will be <code>nil</code>.</p>
 			</div>
 			
 
@@ -702,7 +702,7 @@
 			
 		    
 
-			<div class="method-subsection method-declaration"><code>- (BFTask *)batchPutAttributes:(AWSSimpleDBBatchPutAttributesRequest *)<em>request</em></code></div>
+			<div class="method-subsection method-declaration"><code>- (AWSTask *)batchPutAttributes:(AWSSimpleDBBatchPutAttributesRequest *)<em>request</em></code></div>
 
 		    
 			
@@ -722,7 +722,7 @@
 			
 			<div class="method-subsection return">
 				<h4 class="method-subtitle parameter-title">Return Value</h4>
-				<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will be <code>nil</code>. On failed execution, <code>task.error</code> may contain an <code>NSError</code> with <code>AWSSimpleDBErrorDomain</code> domian and the following error code: <code>AWSSimpleDBErrorDuplicateItemName</code>, <code>AWSSimpleDBErrorInvalidParameterValue</code>, <code>AWSSimpleDBErrorMissingParameter</code>, <code>AWSSimpleDBErrorNoSuchDomain</code>, <code>AWSSimpleDBErrorNumberItemAttributesExceeded</code>, <code>AWSSimpleDBErrorNumberDomainAttributesExceeded</code>, <code>AWSSimpleDBErrorNumberDomainBytesExceeded</code>, <code>AWSSimpleDBErrorNumberSubmittedItemsExceeded</code>, <code>AWSSimpleDBErrorNumberSubmittedAttributesExceeded</code>.</p>
+				<p>An instance of <code>AWSTask</code>. On successful execution, <code>task.result</code> will be <code>nil</code>. On failed execution, <code>task.error</code> may contain an <code>NSError</code> with <code>AWSSimpleDBErrorDomain</code> domain and the following error code: <code>AWSSimpleDBErrorDuplicateItemName</code>, <code>AWSSimpleDBErrorInvalidParameterValue</code>, <code>AWSSimpleDBErrorMissingParameter</code>, <code>AWSSimpleDBErrorNoSuchDomain</code>, <code>AWSSimpleDBErrorNumberItemAttributesExceeded</code>, <code>AWSSimpleDBErrorNumberDomainAttributesExceeded</code>, <code>AWSSimpleDBErrorNumberDomainBytesExceeded</code>, <code>AWSSimpleDBErrorNumberSubmittedItemsExceeded</code>, <code>AWSSimpleDBErrorNumberSubmittedAttributesExceeded</code>.</p>
 			</div>
 			
 
@@ -772,7 +772,7 @@
 			
 		    
 
-			<div class="method-subsection method-declaration"><code>- (BFTask *)createDomain:(AWSSimpleDBCreateDomainRequest *)<em>request</em></code></div>
+			<div class="method-subsection method-declaration"><code>- (AWSTask *)createDomain:(AWSSimpleDBCreateDomainRequest *)<em>request</em></code></div>
 
 		    
 			
@@ -792,7 +792,7 @@
 			
 			<div class="method-subsection return">
 				<h4 class="method-subtitle parameter-title">Return Value</h4>
-				<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will be <code>nil</code>. On failed execution, <code>task.error</code> may contain an <code>NSError</code> with <code>AWSSimpleDBErrorDomain</code> domian and the following error code: <code>AWSSimpleDBErrorInvalidParameterValue</code>, <code>AWSSimpleDBErrorMissingParameter</code>, <code>AWSSimpleDBErrorNumberDomainsExceeded</code>.</p>
+				<p>An instance of <code>AWSTask</code>. On successful execution, <code>task.result</code> will be <code>nil</code>. On failed execution, <code>task.error</code> may contain an <code>NSError</code> with <code>AWSSimpleDBErrorDomain</code> domain and the following error code: <code>AWSSimpleDBErrorInvalidParameterValue</code>, <code>AWSSimpleDBErrorMissingParameter</code>, <code>AWSSimpleDBErrorNumberDomainsExceeded</code>.</p>
 			</div>
 			
 
@@ -842,7 +842,7 @@
 			
 		    
 
-			<div class="method-subsection method-declaration"><code>- (BFTask *)deleteAttributes:(AWSSimpleDBDeleteAttributesRequest *)<em>request</em></code></div>
+			<div class="method-subsection method-declaration"><code>- (AWSTask *)deleteAttributes:(AWSSimpleDBDeleteAttributesRequest *)<em>request</em></code></div>
 
 		    
 			
@@ -862,7 +862,7 @@
 			
 			<div class="method-subsection return">
 				<h4 class="method-subtitle parameter-title">Return Value</h4>
-				<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will be <code>nil</code>. On failed execution, <code>task.error</code> may contain an <code>NSError</code> with <code>AWSSimpleDBErrorDomain</code> domian and the following error code: <code>AWSSimpleDBErrorInvalidParameterValue</code>, <code>AWSSimpleDBErrorMissingParameter</code>, <code>AWSSimpleDBErrorNoSuchDomain</code>, <code>AWSSimpleDBErrorAttributeDoesNotExist</code>.</p>
+				<p>An instance of <code>AWSTask</code>. On successful execution, <code>task.result</code> will be <code>nil</code>. On failed execution, <code>task.error</code> may contain an <code>NSError</code> with <code>AWSSimpleDBErrorDomain</code> domain and the following error code: <code>AWSSimpleDBErrorInvalidParameterValue</code>, <code>AWSSimpleDBErrorMissingParameter</code>, <code>AWSSimpleDBErrorNoSuchDomain</code>, <code>AWSSimpleDBErrorAttributeDoesNotExist</code>.</p>
 			</div>
 			
 
@@ -912,7 +912,7 @@
 			
 		    
 
-			<div class="method-subsection method-declaration"><code>- (BFTask *)deleteDomain:(AWSSimpleDBDeleteDomainRequest *)<em>request</em></code></div>
+			<div class="method-subsection method-declaration"><code>- (AWSTask *)deleteDomain:(AWSSimpleDBDeleteDomainRequest *)<em>request</em></code></div>
 
 		    
 			
@@ -932,7 +932,7 @@
 			
 			<div class="method-subsection return">
 				<h4 class="method-subtitle parameter-title">Return Value</h4>
-				<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will be <code>nil</code>. On failed execution, <code>task.error</code> may contain an <code>NSError</code> with <code>AWSSimpleDBErrorDomain</code> domian and the following error code: <code>AWSSimpleDBErrorMissingParameter</code>.</p>
+				<p>An instance of <code>AWSTask</code>. On successful execution, <code>task.result</code> will be <code>nil</code>. On failed execution, <code>task.error</code> may contain an <code>NSError</code> with <code>AWSSimpleDBErrorDomain</code> domain and the following error code: <code>AWSSimpleDBErrorMissingParameter</code>.</p>
 			</div>
 			
 
@@ -980,7 +980,7 @@
 			
 		    
 
-			<div class="method-subsection method-declaration"><code>- (BFTask *)domainMetadata:(AWSSimpleDBDomainMetadataRequest *)<em>request</em></code></div>
+			<div class="method-subsection method-declaration"><code>- (AWSTask *)domainMetadata:(AWSSimpleDBDomainMetadataRequest *)<em>request</em></code></div>
 
 		    
 			
@@ -1000,7 +1000,7 @@
 			
 			<div class="method-subsection return">
 				<h4 class="method-subtitle parameter-title">Return Value</h4>
-				<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSSimpleDBDomainMetadataResult</code>. On failed execution, <code>task.error</code> may contain an <code>NSError</code> with <code>AWSSimpleDBErrorDomain</code> domian and the following error code: <code>AWSSimpleDBErrorMissingParameter</code>, <code>AWSSimpleDBErrorNoSuchDomain</code>.</p>
+				<p>An instance of <code>AWSTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSSimpleDBDomainMetadataResult</code>. On failed execution, <code>task.error</code> may contain an <code>NSError</code> with <code>AWSSimpleDBErrorDomain</code> domain and the following error code: <code>AWSSimpleDBErrorMissingParameter</code>, <code>AWSSimpleDBErrorNoSuchDomain</code>.</p>
 			</div>
 			
 
@@ -1055,7 +1055,7 @@
 			
 		    
 
-			<div class="method-subsection method-declaration"><code>- (BFTask *)getAttributes:(AWSSimpleDBGetAttributesRequest *)<em>request</em></code></div>
+			<div class="method-subsection method-declaration"><code>- (AWSTask *)getAttributes:(AWSSimpleDBGetAttributesRequest *)<em>request</em></code></div>
 
 		    
 			
@@ -1075,7 +1075,7 @@
 			
 			<div class="method-subsection return">
 				<h4 class="method-subtitle parameter-title">Return Value</h4>
-				<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSSimpleDBGetAttributesResult</code>. On failed execution, <code>task.error</code> may contain an <code>NSError</code> with <code>AWSSimpleDBErrorDomain</code> domian and the following error code: <code>AWSSimpleDBErrorInvalidParameterValue</code>, <code>AWSSimpleDBErrorMissingParameter</code>, <code>AWSSimpleDBErrorNoSuchDomain</code>.</p>
+				<p>An instance of <code>AWSTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSSimpleDBGetAttributesResult</code>. On failed execution, <code>task.error</code> may contain an <code>NSError</code> with <code>AWSSimpleDBErrorDomain</code> domain and the following error code: <code>AWSSimpleDBErrorInvalidParameterValue</code>, <code>AWSSimpleDBErrorMissingParameter</code>, <code>AWSSimpleDBErrorNoSuchDomain</code>.</p>
 			</div>
 			
 
@@ -1125,7 +1125,7 @@
 			
 		    
 
-			<div class="method-subsection method-declaration"><code>- (BFTask *)listDomains:(AWSSimpleDBListDomainsRequest *)<em>request</em></code></div>
+			<div class="method-subsection method-declaration"><code>- (AWSTask *)listDomains:(AWSSimpleDBListDomainsRequest *)<em>request</em></code></div>
 
 		    
 			
@@ -1145,7 +1145,7 @@
 			
 			<div class="method-subsection return">
 				<h4 class="method-subtitle parameter-title">Return Value</h4>
-				<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSSimpleDBListDomainsResult</code>. On failed execution, <code>task.error</code> may contain an <code>NSError</code> with <code>AWSSimpleDBErrorDomain</code> domian and the following error code: <code>AWSSimpleDBErrorInvalidParameterValue</code>, <code>AWSSimpleDBErrorInvalidNextToken</code>.</p>
+				<p>An instance of <code>AWSTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSSimpleDBListDomainsResult</code>. On failed execution, <code>task.error</code> may contain an <code>NSError</code> with <code>AWSSimpleDBErrorDomain</code> domain and the following error code: <code>AWSSimpleDBErrorInvalidParameterValue</code>, <code>AWSSimpleDBErrorInvalidNextToken</code>.</p>
 			</div>
 			
 
@@ -1203,7 +1203,7 @@
 			
 		    
 
-			<div class="method-subsection method-declaration"><code>- (BFTask *)putAttributes:(AWSSimpleDBPutAttributesRequest *)<em>request</em></code></div>
+			<div class="method-subsection method-declaration"><code>- (AWSTask *)putAttributes:(AWSSimpleDBPutAttributesRequest *)<em>request</em></code></div>
 
 		    
 			
@@ -1223,7 +1223,7 @@
 			
 			<div class="method-subsection return">
 				<h4 class="method-subtitle parameter-title">Return Value</h4>
-				<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will be <code>nil</code>. On failed execution, <code>task.error</code> may contain an <code>NSError</code> with <code>AWSSimpleDBErrorDomain</code> domian and the following error code: <code>AWSSimpleDBErrorInvalidParameterValue</code>, <code>AWSSimpleDBErrorMissingParameter</code>, <code>AWSSimpleDBErrorNoSuchDomain</code>, <code>AWSSimpleDBErrorNumberDomainAttributesExceeded</code>, <code>AWSSimpleDBErrorNumberDomainBytesExceeded</code>, <code>AWSSimpleDBErrorNumberItemAttributesExceeded</code>, <code>AWSSimpleDBErrorAttributeDoesNotExist</code>.</p>
+				<p>An instance of <code>AWSTask</code>. On successful execution, <code>task.result</code> will be <code>nil</code>. On failed execution, <code>task.error</code> may contain an <code>NSError</code> with <code>AWSSimpleDBErrorDomain</code> domain and the following error code: <code>AWSSimpleDBErrorInvalidParameterValue</code>, <code>AWSSimpleDBErrorMissingParameter</code>, <code>AWSSimpleDBErrorNoSuchDomain</code>, <code>AWSSimpleDBErrorNumberDomainAttributesExceeded</code>, <code>AWSSimpleDBErrorNumberDomainBytesExceeded</code>, <code>AWSSimpleDBErrorNumberItemAttributesExceeded</code>, <code>AWSSimpleDBErrorAttributeDoesNotExist</code>.</p>
 			</div>
 			
 
@@ -1277,7 +1277,7 @@
 			
 		    
 
-			<div class="method-subsection method-declaration"><code>- (BFTask *)select:(AWSSimpleDBSelectRequest *)<em>request</em></code></div>
+			<div class="method-subsection method-declaration"><code>- (AWSTask *)select:(AWSSimpleDBSelectRequest *)<em>request</em></code></div>
 
 		    
 			
@@ -1297,7 +1297,7 @@
 			
 			<div class="method-subsection return">
 				<h4 class="method-subtitle parameter-title">Return Value</h4>
-				<p>An instance of <code>BFTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSSimpleDBSelectResult</code>. On failed execution, <code>task.error</code> may contain an <code>NSError</code> with <code>AWSSimpleDBErrorDomain</code> domian and the following error code: <code>AWSSimpleDBErrorInvalidParameterValue</code>, <code>AWSSimpleDBErrorInvalidNextToken</code>, <code>AWSSimpleDBErrorInvalidNumberPredicates</code>, <code>AWSSimpleDBErrorInvalidNumberValueTests</code>, <code>AWSSimpleDBErrorInvalidQueryExpression</code>, <code>AWSSimpleDBErrorMissingParameter</code>, <code>AWSSimpleDBErrorNoSuchDomain</code>, <code>AWSSimpleDBErrorRequestTimeout</code>, <code>AWSSimpleDBErrorTooManyRequestedAttributes</code>.</p>
+				<p>An instance of <code>AWSTask</code>. On successful execution, <code>task.result</code> will contain an instance of <code>AWSSimpleDBSelectResult</code>. On failed execution, <code>task.error</code> may contain an <code>NSError</code> with <code>AWSSimpleDBErrorDomain</code> domain and the following error code: <code>AWSSimpleDBErrorInvalidParameterValue</code>, <code>AWSSimpleDBErrorInvalidNextToken</code>, <code>AWSSimpleDBErrorInvalidNumberPredicates</code>, <code>AWSSimpleDBErrorInvalidNumberValueTests</code>, <code>AWSSimpleDBErrorInvalidQueryExpression</code>, <code>AWSSimpleDBErrorMissingParameter</code>, <code>AWSSimpleDBErrorNoSuchDomain</code>, <code>AWSSimpleDBErrorRequestTimeout</code>, <code>AWSSimpleDBErrorTooManyRequestedAttributes</code>.</p>
 			</div>
 			
 
@@ -1342,7 +1342,7 @@
 				<footer>
 					<div class="footer-copyright">
 						
-						<p class="copyright">Copyright &copy; 2015 Amazon Web Services, Inc. All rights reserved. Updated: 2015-03-25</p>
+						<p class="copyright">Copyright &copy; 2015 Amazon Web Services, Inc. All rights reserved. Updated: 2015-08-31</p>
 						
 						
 						<p class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.2.1 (build 1333)</a>.</p>

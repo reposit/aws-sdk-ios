@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSSESGetSendStatisticsResponse.html">
+	<File path="Classes/AWSS3PutBucketLoggingRequest.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSSESGetSendStatisticsResponse</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Represents a list of &lt;code&gt;SendDataPoint&lt;/code&gt; items returned from a successful &lt;code&gt;GetSendStatistics&lt;/code&gt; request. This list contains aggregated data from the previous two weeks of sending activity. &lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSESModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSS3PutBucketLoggingRequest</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
             
 			
 			<NodeRef refid="903"/>
@@ -13,38 +13,110 @@
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSSESGetSendStatisticsResponse/setSendDataPoints:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;A list of data points, each of which represents 15 minutes of activity.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSESModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3PutBucketLoggingRequest/setBucket:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSArray *sendDataPoints</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *bucket</Declaration>
 			
 			
-			<Anchor>//api/name/sendDataPoints</Anchor>
+			<Anchor>//api/name/bucket</Anchor>
             <NodeRef refid="903"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSSESGetSendStatisticsResponse/sendDataPoints</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;A list of data points, each of which represents 15 minutes of activity.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSESModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3PutBucketLoggingRequest/bucket</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSArray *sendDataPoints</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *bucket</Declaration>
 			
 			
-			<Anchor>//api/name/sendDataPoints</Anchor>
+			<Anchor>//api/name/bucket</Anchor>
             <NodeRef refid="903"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSSESGetSendStatisticsResponse/sendDataPoints</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;A list of data points, each of which represents 15 minutes of activity.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSESModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSS3PutBucketLoggingRequest/bucket</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSArray *sendDataPoints</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *bucket</Declaration>
 			
 			
-			<Anchor>//api/name/sendDataPoints</Anchor>
+			<Anchor>//api/name/bucket</Anchor>
+            <NodeRef refid="903"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3PutBucketLoggingRequest/setBucketLoggingStatus:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) AWSS3BucketLoggingStatus *bucketLoggingStatus</Declaration>
+			
+			
+			<Anchor>//api/name/bucketLoggingStatus</Anchor>
+            <NodeRef refid="903"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3PutBucketLoggingRequest/bucketLoggingStatus</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) AWSS3BucketLoggingStatus *bucketLoggingStatus</Declaration>
+			
+			
+			<Anchor>//api/name/bucketLoggingStatus</Anchor>
+            <NodeRef refid="903"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSS3PutBucketLoggingRequest/bucketLoggingStatus</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) AWSS3BucketLoggingStatus *bucketLoggingStatus</Declaration>
+			
+			
+			<Anchor>//api/name/bucketLoggingStatus</Anchor>
+            <NodeRef refid="903"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3PutBucketLoggingRequest/setContentMD5:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *contentMD5</Declaration>
+			
+			
+			<Anchor>//api/name/contentMD5</Anchor>
+            <NodeRef refid="903"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3PutBucketLoggingRequest/contentMD5</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *contentMD5</Declaration>
+			
+			
+			<Anchor>//api/name/contentMD5</Anchor>
+            <NodeRef refid="903"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSS3PutBucketLoggingRequest/contentMD5</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *contentMD5</Declaration>
+			
+			
+			<Anchor>//api/name/contentMD5</Anchor>
             <NodeRef refid="903"/>
 		</Token>
 		

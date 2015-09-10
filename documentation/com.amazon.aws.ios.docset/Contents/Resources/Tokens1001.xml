@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSSQSListQueuesResult.html">
+	<File path="Classes/AWSSNSGetEndpointAttributesInput.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSSQSListQueuesResult</TokenIdentifier>
-			<Abstract type="html">A list of your queues.</Abstract>
-			<DeclaredIn>AWSSQSModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSSNSGetEndpointAttributesInput</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;Input for GetEndpointAttributes action.&lt;/p&gt;
+Required parameters: [EndpointArn]</Abstract>
+			<DeclaredIn>AWSSNSModel.h</DeclaredIn>
             
 			
 			<NodeRef refid="1001"/>
@@ -13,38 +14,38 @@
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSSQSListQueuesResult/setQueueUrls:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;A list of queue URLs, up to 1000 entries.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSQSModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSNSGetEndpointAttributesInput/setEndpointArn:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;EndpointArn for GetEndpointAttributes input.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSNSModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSArray *queueUrls</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *endpointArn</Declaration>
 			
 			
-			<Anchor>//api/name/queueUrls</Anchor>
+			<Anchor>//api/name/endpointArn</Anchor>
             <NodeRef refid="1001"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSSQSListQueuesResult/queueUrls</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;A list of queue URLs, up to 1000 entries.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSQSModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSNSGetEndpointAttributesInput/endpointArn</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;EndpointArn for GetEndpointAttributes input.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSNSModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSArray *queueUrls</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *endpointArn</Declaration>
 			
 			
-			<Anchor>//api/name/queueUrls</Anchor>
+			<Anchor>//api/name/endpointArn</Anchor>
             <NodeRef refid="1001"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSSQSListQueuesResult/queueUrls</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;A list of queue URLs, up to 1000 entries.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSQSModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSSNSGetEndpointAttributesInput/endpointArn</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;EndpointArn for GetEndpointAttributes input.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSNSModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSArray *queueUrls</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *endpointArn</Declaration>
 			
 			
-			<Anchor>//api/name/queueUrls</Anchor>
+			<Anchor>//api/name/endpointArn</Anchor>
             <NodeRef refid="1001"/>
 		</Token>
 		

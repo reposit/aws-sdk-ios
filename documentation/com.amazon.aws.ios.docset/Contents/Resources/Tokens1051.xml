@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSSimpleDBListDomainsResult.html">
+	<File path="Classes/AWSSQSGetQueueUrlRequest.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSSimpleDBListDomainsResult</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSSQSGetQueueUrlRequest</TokenIdentifier>
 			<Abstract type="html"></Abstract>
-			<DeclaredIn>AWSSimpleDBModel.h</DeclaredIn>
+			<DeclaredIn>AWSSQSModel.h</DeclaredIn>
             
 			
 			<NodeRef refid="1051"/>
@@ -13,74 +13,74 @@
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSSimpleDBListDomainsResult/setDomainNames:</TokenIdentifier>
-			<Abstract type="html">A list of domain names that match the expression.</Abstract>
-			<DeclaredIn>AWSSimpleDBModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSQSGetQueueUrlRequest/setQueueName:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The name of the queue whose URL must be fetched. Maximum 80 characters; alphanumeric characters, hyphens (-), and underscores (_) are allowed.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSQSModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSArray *domainNames</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *queueName</Declaration>
 			
 			
-			<Anchor>//api/name/domainNames</Anchor>
+			<Anchor>//api/name/queueName</Anchor>
             <NodeRef refid="1051"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSSimpleDBListDomainsResult/domainNames</TokenIdentifier>
-			<Abstract type="html">A list of domain names that match the expression.</Abstract>
-			<DeclaredIn>AWSSimpleDBModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSQSGetQueueUrlRequest/queueName</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The name of the queue whose URL must be fetched. Maximum 80 characters; alphanumeric characters, hyphens (-), and underscores (_) are allowed.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSQSModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSArray *domainNames</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *queueName</Declaration>
 			
 			
-			<Anchor>//api/name/domainNames</Anchor>
+			<Anchor>//api/name/queueName</Anchor>
             <NodeRef refid="1051"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSSimpleDBListDomainsResult/domainNames</TokenIdentifier>
-			<Abstract type="html">A list of domain names that match the expression.</Abstract>
-			<DeclaredIn>AWSSimpleDBModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSSQSGetQueueUrlRequest/queueName</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The name of the queue whose URL must be fetched. Maximum 80 characters; alphanumeric characters, hyphens (-), and underscores (_) are allowed.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSQSModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSArray *domainNames</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *queueName</Declaration>
 			
 			
-			<Anchor>//api/name/domainNames</Anchor>
+			<Anchor>//api/name/queueName</Anchor>
             <NodeRef refid="1051"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSSimpleDBListDomainsResult/setNextToken:</TokenIdentifier>
-			<Abstract type="html">An opaque token indicating that there are more domains than the specified &lt;code&gt;MaxNumberOfDomains&lt;/code&gt; still available.</Abstract>
-			<DeclaredIn>AWSSimpleDBModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSQSGetQueueUrlRequest/setQueueOwnerAWSAccountId:</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The AWS account ID of the account that created the queue.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSQSModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *nextToken</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *queueOwnerAWSAccountId</Declaration>
 			
 			
-			<Anchor>//api/name/nextToken</Anchor>
+			<Anchor>//api/name/queueOwnerAWSAccountId</Anchor>
             <NodeRef refid="1051"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSSimpleDBListDomainsResult/nextToken</TokenIdentifier>
-			<Abstract type="html">An opaque token indicating that there are more domains than the specified &lt;code&gt;MaxNumberOfDomains&lt;/code&gt; still available.</Abstract>
-			<DeclaredIn>AWSSimpleDBModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSQSGetQueueUrlRequest/queueOwnerAWSAccountId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The AWS account ID of the account that created the queue.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSQSModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *nextToken</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *queueOwnerAWSAccountId</Declaration>
 			
 			
-			<Anchor>//api/name/nextToken</Anchor>
+			<Anchor>//api/name/queueOwnerAWSAccountId</Anchor>
             <NodeRef refid="1051"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSSimpleDBListDomainsResult/nextToken</TokenIdentifier>
-			<Abstract type="html">An opaque token indicating that there are more domains than the specified &lt;code&gt;MaxNumberOfDomains&lt;/code&gt; still available.</Abstract>
-			<DeclaredIn>AWSSimpleDBModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSSQSGetQueueUrlRequest/queueOwnerAWSAccountId</TokenIdentifier>
+			<Abstract type="html">&lt;p&gt;The AWS account ID of the account that created the queue.&lt;/p&gt;</Abstract>
+			<DeclaredIn>AWSSQSModel.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSString *nextToken</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *queueOwnerAWSAccountId</Declaration>
 			
 			
-			<Anchor>//api/name/nextToken</Anchor>
+			<Anchor>//api/name/queueOwnerAWSAccountId</Anchor>
             <NodeRef refid="1051"/>
 		</Token>
 		

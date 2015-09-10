@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/AWSSESGetIdentityVerificationAttributesResponse.html">
+	<File path="Classes/AWSS3PutBucketCorsRequest.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/AWSSESGetIdentityVerificationAttributesResponse</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;Represents the verification attributes for a list of identities.&lt;/p&gt;
-Required parameters: [VerificationAttributes]</Abstract>
-			<DeclaredIn>AWSSESModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSS3PutBucketCorsRequest</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
             
 			
 			<NodeRef refid="901"/>
@@ -14,38 +13,110 @@ Required parameters: [VerificationAttributes]</Abstract>
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSSESGetIdentityVerificationAttributesResponse/setVerificationAttributes:</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;A map of Identities to IdentityVerificationAttributes objects.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSESModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3PutBucketCorsRequest/setBucket:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSDictionary *verificationAttributes</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *bucket</Declaration>
 			
 			
-			<Anchor>//api/name/verificationAttributes</Anchor>
+			<Anchor>//api/name/bucket</Anchor>
             <NodeRef refid="901"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/AWSSESGetIdentityVerificationAttributesResponse/verificationAttributes</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;A map of Identities to IdentityVerificationAttributes objects.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSESModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3PutBucketCorsRequest/bucket</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSDictionary *verificationAttributes</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *bucket</Declaration>
 			
 			
-			<Anchor>//api/name/verificationAttributes</Anchor>
+			<Anchor>//api/name/bucket</Anchor>
             <NodeRef refid="901"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/AWSSESGetIdentityVerificationAttributesResponse/verificationAttributes</TokenIdentifier>
-			<Abstract type="html">&lt;p&gt;A map of Identities to IdentityVerificationAttributes objects.&lt;/p&gt;</Abstract>
-			<DeclaredIn>AWSSESModel.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSS3PutBucketCorsRequest/bucket</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
 			
-			<Declaration>@property (nonatomic, strong) NSDictionary *verificationAttributes</Declaration>
+			<Declaration>@property (nonatomic, strong) NSString *bucket</Declaration>
 			
 			
-			<Anchor>//api/name/verificationAttributes</Anchor>
+			<Anchor>//api/name/bucket</Anchor>
+            <NodeRef refid="901"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3PutBucketCorsRequest/setCORSConfiguration:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) AWSS3CORSConfiguration *CORSConfiguration</Declaration>
+			
+			
+			<Anchor>//api/name/CORSConfiguration</Anchor>
+            <NodeRef refid="901"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3PutBucketCorsRequest/CORSConfiguration</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) AWSS3CORSConfiguration *CORSConfiguration</Declaration>
+			
+			
+			<Anchor>//api/name/CORSConfiguration</Anchor>
+            <NodeRef refid="901"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSS3PutBucketCorsRequest/CORSConfiguration</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) AWSS3CORSConfiguration *CORSConfiguration</Declaration>
+			
+			
+			<Anchor>//api/name/CORSConfiguration</Anchor>
+            <NodeRef refid="901"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3PutBucketCorsRequest/setContentMD5:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *contentMD5</Declaration>
+			
+			
+			<Anchor>//api/name/contentMD5</Anchor>
+            <NodeRef refid="901"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSS3PutBucketCorsRequest/contentMD5</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *contentMD5</Declaration>
+			
+			
+			<Anchor>//api/name/contentMD5</Anchor>
+            <NodeRef refid="901"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSS3PutBucketCorsRequest/contentMD5</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSS3Model.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *contentMD5</Declaration>
+			
+			
+			<Anchor>//api/name/contentMD5</Anchor>
             <NodeRef refid="901"/>
 		</Token>
 		
